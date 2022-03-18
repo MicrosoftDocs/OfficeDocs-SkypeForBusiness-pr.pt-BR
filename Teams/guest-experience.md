@@ -19,16 +19,19 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Este artigo descreve as funcionalidades do Microsoft Teams disponíveis para convidados.
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190682"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556627"
 ---
 # <a name="guest-experience-in-teams"></a>Experiência de convidado no Teams
 
 Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensagem de boas-vindas por e-mail. Essa mensagem contém algumas informações sobre a equipe e o que esperar agora que ele é um membro. O convidado deve aceitar o convite selecionando **Abrir Microsoft Teams** na mensagem de e-mail antes de poder acessar a equipe e seus canais.
+
+> [!NOTE]
+> Depois que um convidado é adicionado a uma equipe, pode levar algumas horas para que ele tenha acesso.
     
 ![Captura de tela mostrando um exemplo de uma mensagem de email de boas-vindas.](media/guest-experience-image1.png)
     

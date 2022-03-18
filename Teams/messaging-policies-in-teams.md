@@ -20,24 +20,24 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: b2163e780706a17b7793f8451b1bdb85a1830b2b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205257"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564763"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
 <!--- Add zone marker here--->
 
-As políticas de mensagens são usadas para controlar quais recursos de mensagens de chat e canal estão disponíveis para usuários (proprietários e [membros)](assign-roles-permissions.md) no Microsoft Teams. Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas de mensagens personalizadas.
+As políticas de mensagens são usadas para controlar quais recursos de mensagens de chat e canal estão disponíveis para usuários (proprietários e membros[)](assign-roles-permissions.md) no Microsoft Teams. Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas de mensagens personalizadas.
 
 Os usuários em sua organização receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Edite as configurações na política global ou crie e atribua uma ou mais políticas personalizadas para ativar ou desativar os recursos que você deseja.
 
 ## <a name="create-a-custom-messaging-policy"></a>Criar uma política de mensagens personalizada
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas de mensagens**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, acesse **Políticas de mensagens**.
 2. Selecione **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 4. Escolha as configurações que deseja.
@@ -55,7 +55,7 @@ Em seguida, atribua a política aos usuários.
 
 Você pode editar a política global e as políticas personalizadas que criar.
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Políticas de mensagens**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, acesse **Políticas de mensagens**.
 2. Escolha a política clicando à esquerda do nome da política e selecionando **Editar**.
 3. A partir daqui, faça as alterações desejadas.
 4. Selecione **Salvar**.
@@ -75,17 +75,17 @@ Um usuário só pode ter uma política de mensagem atribuída por vez.
 
 Aqui estão as configurações de política de mensagens que você pode configurar.
 
-- **Os proprietários podem excluir as mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens que os usuários enviaram por chat.
+- **Os proprietários podem excluir mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens de canal ou postagens enviadas pelos usuários.
 - **Excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens enviadas no chat.
 - **Editar mensagens enviadas** Use essa configuração para permitir que os usuários editem as mensagens enviadas no chat.
 - **Ler recibos** Os recibos de leitura permitem que o remetente de uma mensagem de chat seja notificado quando sua mensagem foi lida pelo destinatário em 1:1 e chats de grupo com 20 pessoas ou menos. Os recibos de leitura de mensagens realizam a remoção sem ter a certeza se uma mensagem foi lida e melhoram a comunicação da equipe. Os recibos de leitura não são capturados no relatório de Descobertas E.  
     - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA.
-    - **Ligado para todos** Isso significa que todos no locatário terão o recurso ON sem opção para a desativar. Ao usar  a configuração On para todos, a única maneira de definir recibos para todo o locatário é ter apenas uma política de mensagens para o locatário inteiro (a política padrão chamada "Global (Padrão em toda a organização)") ou ter todas as políticas de mensagens no locatário usar as mesmas configurações para recibos. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
+    - **Ligado para todos** Isso significa que todos no locatário terão o recurso ON sem opção para a desativar. Ao usar a  configuração On para todos, a única maneira de definir recibos para todo o locatário é ter apenas uma política de mensagens para o locatário inteiro (a política padrão chamada "Global (Padrão em toda a organização)") ou ter todas as políticas de mensagens no locatário usar as mesmas configurações para recibos. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
     - **Desligado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem recibos de leitura nem pode aactivá-lo.
 <a name="bkchat"> </a>
 
 - **Chat**  Habilite essa configuração se quiser que os usuários da organização possam usar o aplicativo do Teams para conversar com outras pessoas.
-- *Usar Giphy em conversas** Se você ativar Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar Experiências Conectadas Opcionais [para](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) permitir Giphys em conversas.
+- *Use Giphy em conversas** Se você ativar Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar Experiências Conectadas Opcionais [para permitir](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) Giphys em conversas.
 - **Classificação de conteúdo Giphy**
   - **Sem restrições** Isso significa que os usuários poderão inserir qualquer Giphy em chats independentemente da classificação de conteúdo.
   - **Moderado**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será moderadamente restringido.
@@ -95,7 +95,7 @@ Aqui estão as configurações de política de mensagens que você pode configur
 - **Visualizações de URL** Use essa configuração para ativar ou desativar a visualização automática de URL em mensagens.
 - **Traduzir mensagens** Ativar essa configuração para permitir que os usuários traduzam automaticamente Teams mensagens para o idioma especificado por suas configurações de idioma pessoal para Microsoft 365 ou Office 365.
 - **Leitor imersivo para mensagens** A opção Ativar essa configuração para permitir que os usuários exibirem mensagens no Microsoft Leitura Avançada. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
-- **Enviar mensagens urgentes usando notificações de prioridade** Se você ativar isso, os usuários poderão enviar mensagens usando [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). As notificações de prioridade notificam os usuários a cada 2 minutos por 20 minutos ou até que as mensagens marcadas como urgentes sejam escolhidas e lidas pelo destinatário.  Esse recurso aumenta a probabilidade de que a mensagem seja agida em tempo hábil.
+- **Enviar mensagens urgentes usando notificações de prioridade** Se você ativar isso, os usuários poderão enviar mensagens usando [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). As notificações de prioridade notificam os usuários a cada 2 minutos por 20 minutos ou até que as  mensagens marcadas como urgentes sejam escolhidas e lidas pelo destinatário. Esse recurso aumenta a probabilidade de que a mensagem seja agida em tempo hábil.
 - **Criar mensagens de voz**
   > [!Important]
   > As mensagens de áudio não são capturadas no relatório de Descobertas E.
