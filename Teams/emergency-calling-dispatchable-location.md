@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: Saiba como a Microsoft dá suporte a informações de local de envio para dar suporte a chamada de emergência.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d241cee858d3ac19747be56b5a53e157b563f64
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: d80854fc36e6914ba48e8993d298c75b136bd06f
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322993"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660706"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>Endereços de emergência para locais remotos
 
-Este artigo descreve o suporte da Microsoft para informações de local de chamada de emergência do 911 nos Estados Unidos. Esse suporte garante que as informações de local de localização mais precisas possíveis são fornecidas para Teams usuários que fazem chamadas de emergência. Independentemente da localização do chamador, local ou trabalhando em casa, as informações de local do chamador enviadas para o PSAP (Ponto de Atendimento de Segurança Pública) devem ser precisas.
+Este artigo descreve o suporte da Microsoft para informações de local de chamada de emergência do 911 nos Estados Unidos. Esse suporte garante que as informações de local de envio mais precisas possíveis são fornecidas Teams usuários que fazem chamadas de emergência. Independentemente da localização do chamador, local ou trabalhando em casa, as informações de local do chamador enviadas para o PSAP (Ponto de Atendimento de Segurança Pública) devem ser precisas.
 
 Este artigo inclui informações sobre a conformidade da Microsoft com a Lei ray BAUM para sistemas telefônicos de várias linhas (MLTS). A Lei ray BAUM estende os requisitos de Lei de Kari, que entraram em vigor no início de 2021. Para obter mais informações sobre a Lei de RAY BAUM e a Lei de Kari, consulte [Dispatchable Location for 911 Calls](https://www.fcc.gov/911-dispatchable-location) and [Multi-line Telephone Systems – Kari's Law and RAY BAUM's Act 911 Direct Dialing, Notification, and Dispatchable Location Requirements](https://www.fcc.gov/mlts-911-requirements). 
 
@@ -46,7 +46,7 @@ Este artigo contém as seguintes seções:
 
 ## <a name="support-for-emergency-calling-location-information"></a>Suporte para informações de local de chamada de emergência
 
-Para dar suporte a esses requisitos, a Teams usa os serviços de localização fornecidos pelo respectivo sistema operacional para sugerir um endereço, se concedido permissão pelo administrador ou usuário. O usuário final pode confirmar o local de um endereço sugerido, editá-lo ou inserir manualmente um novo. Um endereço confirmado, editado ou inserido manualmente é salvo no cliente Teams para que o endereço confirmado pelo usuário seja usado automaticamente quando o cliente estiver conectado a essa rede. Os endereços salvos pelo usuário são automaticamente limpos quando o Teams cliente é assinado.
+Para dar suporte a esses requisitos, o Teams usa os serviços de localização fornecidos pelo respectivo sistema operacional para sugerir um endereço, se concedido permissão pelo administrador ou usuário. O usuário final pode confirmar o local de um endereço sugerido, editá-lo ou inserir manualmente um novo. Um endereço confirmado, editado ou inserido manualmente é salvo no cliente Teams para que o endereço confirmado pelo usuário seja usado automaticamente quando o cliente estiver conectado a essa rede. Os endereços salvos pelo usuário são automaticamente limpos quando o Teams cliente é assinado.
 
 
 ## <a name="location-precedence"></a>Precedência de local
@@ -55,7 +55,7 @@ Os endereços de emergência Teams podem ser categorizados por tipos diferentes.
 
 1. Um endereço adquirido dinamicamente definido pelo locatário administrar no Serviço de Informações de Local.
 
-2. Um endereço ao qual o usuário final foi confirmado, editado ou inserido manualmente, que está associado à rede local à qual o Teams cliente está conectado.
+2. Um endereço ao qual o usuário final foi confirmado, editado ou inserido manualmente, que está associado à rede local à qual o cliente Teams está conectado.
 
 3. Um endereço sugerido automaticamente pelo sistema operacional.
 
@@ -91,11 +91,11 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-Depois de habilitar esse recurso para os usuários finais, na guia Chamadas, o usuário pode adicionar, editar ou confirmar um endereço de emergência e exibir o endereço depois que ele for definido. 
+Depois de habilitar esse recurso para os usuários finais, na guia Chamadas, o usuário pode adicionar, editar ou confirmar um endereço de emergência e exibir o endereço depois que ele for definido. Para obter mais informações sobre como os usuários finais podem definir serviços de localização, consulte [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-No Windows, você pode gerenciar o serviço de Windows local e se os aplicativos têm acesso ao local, usando a política de grupo ou usando o gerenciamento de dispositivo móvel [(MDM)](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
+No Windows, você pode gerenciar o serviço de Windows local e se os aplicativos têm acesso ao local, usando a política de grupo ou usando o gerenciamento de dispositivo móvel [(MDM)](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
 
-Para obter mais informações sobre Windows local, [consulte Windows serviço de localização e privacidade.](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088)
+Para obter mais informações sobre Windows local, [consulte Windows local e privacidade](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
 
 
@@ -114,5 +114,7 @@ Considere o seguinte:
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gerenciar chamada de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 

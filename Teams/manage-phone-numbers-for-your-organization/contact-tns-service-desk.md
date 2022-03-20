@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Quando você receber números de telefone ou números de porta (transferência) para sua organização, talvez seja necessário obter ajuda e suporte no service desk TNS.
-ms.openlocfilehash: c32a6ed98cc54d04783025eacd03cb178e7f9120
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: b7ac8edd3c3c740f3b87feedc44535a193280a77
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733862"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660686"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Serviços de Número de Telefone (TNS) - Service Desk 
 
@@ -39,11 +39,13 @@ Há um novo processo para interagir com o service desk de Serviços de Número d
 
 Para entrar em contato com a central de serviços:
 
-1. Faça logon no Centro de Administração do Teams - admin.teams.microsoft.com.
+1. Entre no centro de [Teams de administração.](https://admin.teams.microsoft.com)
 
-2. No painel esquerdo, selecione **Números de telefone**.
+2. No painel esquerdo, selecione **Voz** e, em seguida, **Telefone números**.
 
-3. Na parte superior da página, selecione **Obter suporte de número de telefone**. Você verá a Central de Serviços de Número de Telefone.  
+3. Selecione **Adicionar** ou **Porta**.
+
+4. Na parte superior da página, selecione **Obter suporte de número de telefone**. Você verá a Central de Serviços de Número de Telefone.  
 
 > [!NOTE]
 > Apenas alguém do mesmo locatário terá permissão para criar uma ocorrência. Ou seja, alguém de @fabrikam.com não pode criar uma ocorrência em nome de @contoso.com. 
@@ -192,7 +194,7 @@ Você pode exibir suas ocorrências selecionando **Exibir minhas ocorrências ex
 
 - **Filtre suas ocorrências** selecionando **Ocorrências abertas**,  **Todas as ocorrências** ou **Ocorrências fechadas**.
 
-- **Comunique-se** com o service desk TNS em relação ao seu caso abrindo um caso existente, rolando para baixo e selecionando **Adicionar comentário**. Uma nova janela aparecerá. Digite sua mensagem na caixa de comentários. Anexe quaisquer documentos de suporte (se disponíveis) que possam ajudar na sua solicitação e selecione **Enviar**.  
+- **Comunique-se com o service desk TNS** em relação ao seu caso abrindo um caso existente, rolando para baixo e selecionando **Adicionar comentário**. Uma nova janela aparecerá. Digite sua mensagem na caixa de comentários. Anexe quaisquer documentos de suporte (se disponíveis) que possam ajudar na sua solicitação e selecione **Enviar**.  
 
   As respostas do service **desk TNS** serão exibidas na mesma linha do tempo. Quando houver uma atualização da sua ocorrência, você receberá uma notificação automática por email sobre a atualização. 
 

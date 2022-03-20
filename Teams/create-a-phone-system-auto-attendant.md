@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: 834ca1b68e64047c6405c2aefba361e0ef4f1e81
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180954"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660586"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -36,7 +36,7 @@ Os atendentes automáticos permitem que as pessoas liguem para sua organização
 > [!TIP]
 > Este artigo é para grandes organizações. Se sua organização for uma pequena empresa, leia [Configurar um atendimento automático - tutorial de pequenas](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) empresas.
 
-Leia Plan for Teams auto attendants and [call queues](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started) e siga as etapas de início antes de seguir os procedimentos neste artigo.
+Leia Plan for Teams auto [attendants and call queues](plan-auto-attendant-call-queue.md) e siga as etapas de início antes de seguir [](plan-auto-attendant-call-queue.md#getting-started) os procedimentos neste artigo.
 
 Os atendimentos automáticos podem direcionar chamadas, com base na entrada dos chamadores, para um dos seguintes destinos: <a name="call-routing-options" ></a>
 
@@ -50,7 +50,7 @@ Os atendimentos automáticos podem direcionar chamadas, com base na entrada dos 
 
 Você será solicitado a escolher uma dessas opções em vários estágios ao configurar um atendimento automático.
 
-Para configurar um atendimento automático, no centro de administração Teams, **expanda Voz,** selecione **Assistentes automáticos** e selecione **Adicionar**.
+Para configurar um atendimento automático, no centro de administração Teams, **expanda Voz**, selecione **Assistentes automáticos** e selecione **Adicionar**.
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
@@ -66,7 +66,7 @@ Este vídeo mostra um exemplo básico de como criar um assistente automático no
 
 2. Para designar um operador, especifique o destino das chamadas para o operador. Essa designação é opcional (mas recomendada). De definir **a opção** Operador para permitir que os chamadores saiam dos menus e fale com uma pessoa designada.
 
-3. Especifique o fuso horário desse atendimento automático. O fuso horário é usado para calcular o horário comercial se você criar um fluxo de chamada [separado para o horário.](#call-flow-for-after-hours)
+3. Especifique o fuso horário desse atendimento automático. O fuso horário é usado para calcular o horário comercial se você [criar um fluxo de chamada separado para depois do horário](#call-flow-for-after-hours).
 
 4. [Especifique um idioma com suporte](create-a-phone-system-auto-attendant-languages.md) para esse atendimento automático. Esse é o idioma que será usado para prompts de voz gerados pelo sistema.
 
@@ -83,7 +83,7 @@ Este vídeo mostra um exemplo básico de como criar um assistente automático no
 
 Escolha se deseja reproduzir uma saudação quando o atendente automático atender uma chamada.
 
-Se você selecionar **Reproduzir um arquivo de** áudio, poderá usar o botão de arquivo **Upload** para carregar uma mensagem de saudação gravada salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB.
+Se você selecionar **Reproduzir um arquivo de áudio**, poderá usar o botão de arquivo **Upload** para carregar uma mensagem de saudação gravada salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB.
 
 Se você selecionar **Digitar uma mensagem de** saudação, o sistema lerá o texto que você digitar (até 1000 caracteres) quando o atende automaticamente atender a uma chamada.
 
@@ -91,17 +91,17 @@ Se você selecionar **Digitar uma mensagem de** saudação, o sistema lerá o te
 
 Escolha como você deseja rotear a chamada.
 
-Se você selecionar **Desconectar,** o atendimento automático desligará a chamada.
+Se você selecionar **Desconectar**, o atendimento automático desligará a chamada.
 
-Se você selecionar **Redirecionar chamada,** poderá escolher um dos destinos de roteamento de chamadas.
+Se você selecionar **Redirecionar chamada**, poderá escolher um dos destinos de roteamento de chamadas.
 
-Se você selecionar Opções de menu  Reproduzir, poderá  optar por Reproduzir um arquivo de áudio ou Digitar uma mensagem de saudação e escolher entre opções de **menu** e pesquisa de diretório.
+Se você selecionar **Opções de menu** Reproduzir, poderá optar por **Reproduzir** um arquivo de áudio  ou Digitar uma mensagem de saudação e escolher entre opções de menu e pesquisa de diretório.
 
 ### <a name="menu-options"></a>Opções de menu
 
 ![Captura de tela das opções de teclas de discagem.](media/auto-attendant-call-flow-menu-options-complete.png)
 
-Para opções de discagem, atribua as teclas de 0 a 9 no teclado do telefone a um dos destinos de roteamento de chamadas. (As chaves \* (asterisco) e (libra) são reservados \# pelo sistema e não podem ser reatribuídos. Pressionar uma dessas teclas repetirá o menu atual.)
+Para opções de discagem, atribua as teclas de 0 a 9 no teclado do telefone a um dos destinos de roteamento de chamadas. (As chaves \* (asterisco) e \# (libra) são reservados pelo sistema e não podem ser reatribuídos. Pressionar uma dessas teclas repetirá o menu atual.)
 
 > [!NOTE]
 > A tecla # só é ressarçada para o atendimento automático mais recente. Depois que o limite for cruzado para um novo atendimento automático, a tecla #não poderá levá-lo para o anterior.
@@ -120,21 +120,20 @@ Para cada opção de menu, especifique as seguintes configurações:
 
 ### <a name="directory-search"></a>Pesquisa de diretório
 
-Se você atribuir chaves de discagem a destinos, recomendamos que você escolha **Nenhuma** para **pesquisa de diretório.** Se um chamador tentar discar um nome ou extensão usando chaves atribuídas a destinos específicos, ele poderá ser roteado inesperadamente para um destino antes de concluir a inserção do nome ou extensão. Recomendamos que você crie um atendimento automático separado para pesquisa de diretório e tenha seu link principal de atendimento automático com uma chave de discagem.
+Se você atribuir chaves de discagem a destinos, recomendamos que você escolha **Nenhuma** para **pesquisa de diretório**. Se um chamador tentar discar um nome ou extensão usando chaves atribuídas a destinos específicos, ele poderá ser roteado inesperadamente para um destino antes de concluir a inserção do nome ou extensão. Recomendamos que você crie um atendimento automático separado para pesquisa de diretório e tenha seu link principal de atendimento automático com uma chave de discagem.
 
-Se você não atribuiu chaves de discagem, escolha uma opção para pesquisa **de diretório.**
+Se você não atribuiu chaves de discagem, escolha uma opção para pesquisa **de diretório**.
 
-**Discar por nome** - Se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando Skype for Business Server, é um usuário qualificado e pode ser encontrado com Dial por nome. (Você pode definir quem é e não está incluído no diretório na página [de](#dial-scope) escopo discar.)
+**Discar por nome** - Se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com Dial por nome. (Você pode definir quem é e não está incluído no diretório na página de escopo [discar](#dial-scope) .)
 
-**Discar por extensão** - Se você habilitar essa opção, os chamadores poderão se conectar aos usuários em sua organização discando sua extensão de telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com **Dial por extensão.** (Você pode definir quem é e não está incluído no diretório na página [de](#dial-scope) escopo discar.)
+**Discar por extensão** - Se você habilitar essa opção, os chamadores poderão se conectar aos usuários em sua organização discando sua extensão de telefone. Qualquer usuário online ou qualquer usuário hospedado no local usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com **Dial por extensão**. (Você pode definir quem é e não está incluído no diretório na página de escopo [discar](#dial-scope) .)
 
-Os usuários que você deseja disponibilizar para Discagem por Extensão precisam ter uma extensão especificada como parte de um dos seguintes atributos de telefones definidos no Active Directory ou no Azure Active Directory (Consulte Adicionar usuários [individualmente](/microsoft-365/admin/add-users/add-users) ou em massa para obter mais informações.)
+Os usuários que você deseja disponibilizar para Discagem por Extensão precisam ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory (e sincronizados por meio do Azure AD Conexão) ou Azure Active Directory. (Consulte [Adicionar usuários individualmente ou em massa](/microsoft-365/admin/add-users/add-users) para obter mais informações.)
 
-- OfficePhone
-- HomePhone
-- Mobile/MobilePhone
-- PhoneNumber/PhoneNumber
-- OtherTelephone
+- OfficePhone/TelephoneNumber (AD e Azure AD)
+- HomePhone (AD)
+- Mobile/MobilePhone (AD e Azure AD)
+- OtherTelephone (AD)
 
 O formato necessário para inserir a extensão no campo número de telefone do usuário pode ser um dos seguintes formatos:
 
@@ -146,12 +145,12 @@ O formato necessário para inserir a extensão no campo número de telefone do u
 - Exemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - Exemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-Você pode definir a extensão [no](https://admin.microsoft.com/) Centro de administração do Microsoft 365 ou no Azure Active Directory [de administração.](https://aad.portal.azure.com) Pode levar até 12 horas antes que as alterações sejam disponibilizadas para os atendimentos automáticos e filas de chamada.
+Você pode definir a [extensão no Centro de administração do Microsoft 365](https://admin.microsoft.com/) ou no Azure Active Directory [de administração](https://aad.portal.azure.com). Pode levar até 12 horas antes que as alterações sejam disponibilizadas para os atendimentos automáticos e filas de chamada.
 
 > [!NOTE]
-> Se você quiser usar os recursos  **Discar** por nome e Discar por extensão, você pode atribuir uma chave de discagem no seu atendimento automático principal para alcançar um atendimento automático habilitado para Discagem **pelo nome**. Nesse atendimento automático, você pode atribuir a tecla 1 (que não tem letras associadas a ela) para alcançar o atendimento automático **Discar** por extensão.
+> Se você quiser usar os recursos **Discar** por nome e  Discar por extensão, você pode atribuir uma chave de discagem no seu atendimento automático principal para alcançar um atendimento automático habilitado para Discagem **pelo nome**. Nesse atendimento automático, você pode atribuir a tecla 1 (que não tem letras associadas a ela) para alcançar o atendimento automático **Discar** por extensão.
 
-Depois de selecionar uma opção **de pesquisa diretório,** selecione **Próximo**.
+Depois de selecionar uma opção **de pesquisa diretório** , selecione **Próximo**.
 
 ## <a name="call-flow-for-after-hours"></a>Fluxo de chamada para depois do horário
 
@@ -171,13 +170,13 @@ Selecione **Próximo** quando terminar.
 
 ![Captura de tela das configurações de saudação de feriados e feriados.](media/auto-attendant-holiday-greeting.png)
 
-O seu atendimento automático pode ter um fluxo de chamada para cada Feriado que [você definiu](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
+O seu atendente automático pode ter um fluxo de chamada para cada [Feriado que você definiu](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
 1. Na página Configurações de chamada de feriado, selecione **Adicionar**.
 
 2. Digite um nome para essa configuração de feriado.
 
-3. No menu **suspenso Feriado,** escolha o feriado que você deseja usar.
+3. No menu **suspenso Feriado** , escolha o feriado que você deseja usar.
 
 4. Escolha o tipo de saudação que você deseja usar.
 
@@ -201,7 +200,7 @@ Quando você adicionou todos os feriados, selecione **Próximo**.
 
 O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online ou hospedados no local usando Skype for Business Server.
 
-Você pode incluir ou excluir  usuários específicos  selecionando Grupo de usuários personalizado em **Incluir** ou Excluir e escolher um ou mais grupos de Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, ele será excluído do diretório.)
+Você pode incluir ou excluir usuários específicos selecionando Grupo de usuários personalizado em  **Incluir** ou Excluir e escolher um ou mais grupos de Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, ele será excluído do diretório.)
 
 > [!NOTE]
 > Pode levar até 36 horas para que um novo usuário tenha seu nome listado no diretório.
@@ -226,9 +225,9 @@ Consulte [Gerenciar Teams de recursos para](manage-resource-accounts.md) obter m
 
 Consulte os [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que os atendimentos automáticos transfira chamadas externamente.  Além disso:
 
-- Para uma conta [](calling-plans-for-office-365.md) de recurso [](operator-connect-plan.md) com uma licença de Plano de Chamada ou um número Conexão operador, o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
+- Para uma conta de recurso com [](calling-plans-for-office-365.md) uma licença de Plano [](operator-connect-plan.md) de Chamada ou um número Conexão operador, o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
 
-- Para uma conta de recurso com uma política Microsoft Teams Telefone de roteamento de voz online de licença e roteamento de voz direta, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC).](direct-routing-connect-the-sbc.md)
+- Para uma conta de recurso com uma política de roteamento de voz online de licença Microsoft Teams Telefone de roteamento direto, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC](direct-routing-connect-the-sbc.md)).
 
 O número de telefone de saída exibido é determinado da seguinte forma:
 
@@ -266,7 +265,7 @@ Os cmdlets a seguir permitem gerenciar os atendimentos automáticos:
 - [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
 - [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
 
-Os cmdlets adicionais a seguir também são necessários para gerenciar os usuários, contas de recursos, licenças de Microsoft Teams Telefone, números de telefone, arquivos de áudio e idioma com suporte que serão usados com filas de chamada:
+Os cmdlets adicionais a seguir também são necessários para gerenciar os usuários, contas de recursos, Microsoft Teams Telefone licenças, números de telefone, arquivos de áudio e idioma com suporte que serão usados com filas de chamada:
 
 Usuários/Teams
 
@@ -320,7 +319,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
    > [!div class="nextstepaction"]
    > [Executar testes: Teams Atendedor Automático](https://aka.ms/TeamsAADiag)
 
-2. No painel de diagnóstico Executar, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
+2. No painel Executar diagnóstico, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
 
 3. Os testes identificarão configurações de conta de recurso, política ou locatário que estão impedindo o atendimento automático de receber chamadas e fornecerão etapas para corrigir quaisquer problemas identificados.
 
