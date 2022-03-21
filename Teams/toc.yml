@@ -973,6 +973,8 @@ items:
             href: cloud-voice-network-settings.md
           - name: Gerenciar a topologia de rede para os recursos de voz na nuvem
             href: manage-your-network-topology.md
+          - name: Gerenciar configurações de vídeo e mídia
+            href: network-roaming-policy.md
       - name: Chamada de emergência
         items:
           - name: Visão Geral
@@ -1165,7 +1167,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1364,7 +1366,7 @@ items:
               - name: Manutenção e operações
                 href: rooms/rooms-operations.md
               - name: Problemas conhecidos
-                href: rooms/known-issues.md
+                href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
               - name: Dispositivos com o Azure Monitor
                 href: rooms/azure-monitor-manage.md
               - name: Configurações com um arquivo XML
