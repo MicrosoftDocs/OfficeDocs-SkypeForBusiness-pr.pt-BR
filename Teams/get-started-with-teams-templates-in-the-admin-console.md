@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 832d13955287d4166a575d213c04331b7e79e1bd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442477"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711895"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introdução aos modelos de equipe no Centro de administração do Teams
 
 **A capacidade de criar modelos personalizados ainda não é suportada para clientes EDU.**
 
 > [!NOTE]
-> - No momento, os canais privados não têm suporte em modelos de equipe. A criação de canal privado não está incluída nas definições de modelo.
+> - Canais privados e compartilhados atualmente não são suportados em modelos de equipe. A criação de canal privado e compartilhado não está incluída nas definições de modelo.
 >
 > - Rótulos de sensibilidade não são suportados em modelos de equipe em GCC ambientes. A opção de rótulo de sensibilidade no fluxo Criar equipe a partir do modelo não será aplicada à equipe.
 
@@ -139,14 +139,14 @@ Para controlar os modelos que os usuários veem no Teams para criar equipes[, vo
 
 Use os cmdlets a seguir para gerenciar seus modelos no PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
-- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
-- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate)
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate)
 
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Criar uma equipe a partir de um modelo](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md)
-- [Clonar uma equipe](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
+- [Clonar uma equipe](/graph/api/team-clone)

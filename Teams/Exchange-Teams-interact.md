@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: c1ade306ab1a9dc3c3f716b36d931bcf7a6d0b41
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205271"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711495"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -50,7 +50,7 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 | **Exchange Online**                                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    |
 | **Exchange Online Dedicated vNext**                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    |
 | **Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD) | Sim <sup>1</sup>   | Sim <sup>(1,2)</sup> | Sim <sup>3</sup> | Sim                   | Não                                | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    |
-| **Exchange no local** (sincronizar com o Azure AD)                        | Sim <sup>1,9</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>                  | Sim<sup>10</sup>            | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    |
+| **Exchange no local** (sincronizar com o Azure AD)                        | Sim <sup>1,9</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>                  | <sup>Sim10</sup>            | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    |
 
 <sup>1</sup> Descoberta eletrônica e Retenção legal para conformidade nas mensagens de canal têm suporte para todas as opções de hospedagem.
 
@@ -68,10 +68,11 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>8</sup> Você precisa atender aos requisitos listados na seção[Requisitos para criar e exibir reuniões para caixas de correio do local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
-<sup>9</sup> Um mínimo de uma licença Exchange Online Plano 1 também é necessário. Para obter mais informações, [consulte Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
+<sup>9</sup> Um mínimo de uma licença Exchange Online Plano 1 também é necessário. Para obter mais informações, consulte [Pesquisar Teams dados de chat para usuários locais](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
-<sup>10</sup> Os usuários locais podem usar o Teams para atualizar sua imagem de perfil, mesmo que a Outlook na política de caixa de correio da `SetPhotoEnabled` Web seja definida como `false` .
-
+<sup>10</sup> Usuários `SetPhotoEnabled` locais podem usar o Teams para atualizar sua imagem de perfil, mesmo que o Outlook na política de caixa de correio da Web seja definida como `false`.
+ > [!NOTE]
+ > A configuração de Office (OOF) por meio do cliente Teams atualmente não tem suporte para usuários cujas caixas de correio estão hospedadas no local; esses usuários devem executar essa ação por meio do cliente Outlook.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Treinamentos para ajudar seus usuários a usufruir ao máximo o Microsoft Teams
 
 O Microsoft Teams funciona com vários serviços do Microsoft 365 e do Office 365 para fornecer aos usuários uma experiência avançada. Para dar suporte a essa experiência, você precisa habilitar determinados recursos ou serviços e atribuir licenças.
@@ -110,7 +111,7 @@ Se as caixas de correio forem hospedadas no local, para criar e exibir reuniões
 
 Para habilitar a delegação de calendário para esses usuários:
 
-- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)between Skype for Business Online and Exchange Server; estas etapas fornecerão ao aplicativo de agendamento Teams as permissões necessárias para confirmar permissões de representante.
+- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth between Skype for Business Online e Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estas etapas fornecerão ao aplicativo de agendamento Teams as permissões necessárias para confirmar permissões de representante.
  
   > [!NOTE]
   > A etapa 2 inclui uma atribuição de função para ArchiveApplication, que não é necessária para delegação.

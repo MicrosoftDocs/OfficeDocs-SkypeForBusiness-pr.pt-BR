@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre os requisitos de suporte Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e exibições.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d479ff31b95acf349bf7e34aaf29bbe64c10309b
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: fccfe4561f4cbbd480350a7de4eb2ec85fe82e64
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503728"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711305"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -208,6 +208,7 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Microfone de Matriz Linear de Tabela de 710 2ft de Shure MXA](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processador de Audioconferência Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Alto-falante de teto MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Alto-falante MXN5-C: 1.1.1 |
 |[Microfone de matriz linear de parede de 710 4ft de Shure MXA](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processador de Audioconferência Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Alto-falante de teto MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> Alto-falante MXN5-C: 1.1.1 |
 |[Shure MXA 910 com Microfone da Matriz de Teto Intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Dore Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Software de sala Dore Intellimix: 3.0.4.14 </br> Shure MXA 910 com Microfone da Matriz de Teto Intellimix: 4.4.11 </br> Alto-falantes do Shure MXN5-C: 1.2.1 </br> Crestron UC-C100-T com computação ASUS Tek Computer INC 9934 | 
+|[Shure MXA 910 com Microfone da Matriz de Teto Intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Software de sala Dore Intellimix](https://www.shure.com/products/software/intellimix_room) +</br>Lenovo ThinkSmart Core | Software de sala Dore Intellimix: 3.2.0.52 </br> Shure MXA 910 com Microfone da Matriz de Teto Intellimix: 4.4.11 </br> Alto-falantes do Shure MXN5-C: 1.2.1 </br> Lenovo ThinkSmart Core: Windows versão do sistema operacional IoT 19h2/20h2 |
 |[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Microfone de teto do Biamp Parlé TCM-XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers)| Versão FW de áudio: 3.15|

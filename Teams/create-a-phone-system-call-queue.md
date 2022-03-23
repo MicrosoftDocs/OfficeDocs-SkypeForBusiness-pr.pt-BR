@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: f6ca42b4e954cad8429d545ed8fe1d587127c7d9
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 6b6f143a4fefc90ffabf282814147796d4b3baf3
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457321"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711905"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -47,11 +47,13 @@ As filas de chamada fornecem:
 
 - Opções de administração para estouro da fila e tempo limite.
 
-Leia Plan for Teams auto [attendants and call queues](plan-auto-attendant-call-queue.md) e siga as etapas de início antes de seguir os [](plan-auto-attendant-call-queue.md#getting-started) procedimentos deste artigo.
+Leia Plan for Teams auto [attendants and call queues](plan-auto-attendant-call-queue.md) e siga as etapas de início antes de seguir [](plan-auto-attendant-call-queue.md#getting-started) os procedimentos neste artigo.
+
+**Consulte a [matriz de Compatibilidade de Recursos de Fila de](#call-queue-feature-compatibility) Chamada abaixo para obter mais informações.**
 
 ## <a name="video-demonstration"></a>Demonstração de vídeo
 
-Este vídeo mostra um exemplo básico de como criar uma fila de chamada no Teams.
+Este vídeo mostra um exemplo básico de como criar uma fila de chamada em Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
@@ -69,15 +71,19 @@ Clique em **Adicionar contas**, procure a conta de recurso que você deseja usar
 
 Para obter mais informações, consulte [Manage Teams resource accounts](manage-resource-accounts.md).
 
-### <a name="assign-calling-id"></a>Atribuir ID de chamada
+## <a name="dynamic-caller-id"></a>ID dinâmica do chamador
 
 ![Captura de tela das configurações de ID de chamada.](media/call-queue-assign-calling-id.png)
 
-Se você planeja usar um canal Teams para seus agentes de chamada, pode atribuir um número de ID do chamador de saída para os agentes especificando uma ou mais contas de recurso com um número de telefone.
+**Disponível para Teams usuários de área de trabalho de chamada de canal/colaboração e usuários Teams cliente móvel com filas de chamada padrão**
 
-Clique **em Adicionar**, procure as contas de recurso que você deseja permitir que os agentes para fins de ID de chamada ao fazer chamadas de saída, clique em Adicionar e clique em **Adicionar**.
+Você pode atribuir números de ID do chamador de saída para os agentes especificando uma ou mais contas de recurso com um número de telefone. Os agentes podem selecionar qual número de ID do chamador de saída usar com cada chamada de saída que fizerem.
 
-Se você não estiver usando um canal Teams para controlar a associação de agentes, considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para obter mais informações, consulte [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
+Clique **em Adicionar**, pesquise as contas de recurso que você deseja permitir que os agentes usem para fins de ID do chamador ao fazer chamadas de saída, clique em Adicionar e em **Adicionar**.
+
+**Filas padrão de chamada**
+
+Para Teams usuários de área de trabalho e filas de chamada padrão considere definir diretamente a ID do chamador para membros da fila de chamada para o número de serviço da fila de chamada ou o atendimento automático apropriado. Para obter mais informações, consulte [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
 
 > [!NOTE]
 > A conta de recurso usada para fins de ID de chamada deve ter uma Microsoft Teams Sistema de Telefonia de usuário virtual e uma das seguintes atribuídas:
@@ -112,7 +118,7 @@ Revise os [pré-requisitos para adicionar agentes a uma fila de chamada](plan-au
 
 ##### <a name="teams-channel"></a>Teams canal
 
-Você pode adicionar até 200 agentes por meio de um Teams canal. Você deve ser membro da equipe ou criador ou proprietário do canal para adicionar um canal à fila.
+Você pode adicionar até 200 agentes por meio de Teams canal. Você deve ser membro da equipe ou criador ou proprietário do canal para adicionar um canal à fila.
 
 Se você quiser usar [um canal Teams para](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e) gerenciar a fila, selecione **a opção Escolher uma equipe** e clique em **Adicionar um canal**. Pesquise a equipe que você deseja usar, selecione-a e clique em **Adicionar**. Selecione o canal que você deseja usar (somente canais padrão são suportados) e clique em **Aplicar**. 
 
@@ -158,9 +164,9 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 
 - O **Roteamento de atendedor** chama todos os agentes na fila ao mesmo tempo. O primeiro agente de chamada que atender recebe a chamada.
 
-- O **Roteamento em série** chama todos os agentes de chamada, um por um, na ordem especificada na **lista de agentes de chamada**. Se um agente ignora ou não atende uma chamada, ela tocará para o próximo agente e tentará com todos os agentes até que seja atendida ou atinja o tempo limite.
+- O **Roteamento em série** chama todos os agentes de chamada, um por um, na ordem especificada na **lista de agentes de chamada**. Se um agente descartar ou não atender uma chamada, a chamada tocará no próximo agente. Isso se repetirá até que a chamada seja acolhida ou o tempo de saída.
 
-- O **Round robin** equilibra o roteamento das chamadas de entrada para que cada agente de chamada receba o mesmo número de chamadas da fila. Isso pode ser desejável em um ambiente de vendas de entrada para garantir igualdade de oportunidades entre todos os agentes de chamada.
+- O **Round robin** equilibra o roteamento das chamadas de entrada para que cada agente de chamada receba o mesmo número de chamadas da fila. Esse método de roteamento pode ser desejável em um ambiente de vendas de entrada para garantir a igualdade de oportunidades entre todos os agentes de chamada.
 
 - O **Ocioso por mais tempo** encaminha cada chamada para o agente que está ocioso há mais tempo. Um agente é considerado ocioso se seu estado de presença estiver Disponível. Agentes cujo estado de presença não está Disponível não estarão qualificados para receber chamadas até que alterem sua presença para Disponível. 
 
@@ -173,6 +179,9 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 > Ao usar **o mais longo ocioso** e quando houver menos chamadas na fila do que os agentes disponíveis, somente os dois primeiros agentes ociosos mais longos serão apresentados com chamadas da fila.
 > 
 > Ao usar **o mais** longo ocioso, pode haver momentos em que um agente recebe uma chamada da fila logo após ficar indisponível ou se há um pequeno atraso no recebimento de uma chamada da fila após a disponibilização.
+> 
+> A apresentação de chamada de fila de chamada para agentes pode estar em conflito com restrições de Roteamento Baseado em Local. Nesse caso, o agente receberá um noto de chamada, mas não será capaz de atender à chamada. Essa condição continuará até que outro agente fique disponível para atender a chamada, o chamador será travado ou a condição de tempo de tempo de espera da fila de chamada ocorrerá.  
+
 
 ![Captura de tela das configurações de roteamento, de não aceitação e de tempo de alerta.](media/call-queue-presence-agents-time.png)
 
@@ -214,7 +223,7 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 
 **Tempo limite de chamada: o tempo máximo de espera** especifica o tempo máximo que uma chamada pode estar em espera na fila antes de ser redirecionada ou desconectada. É possível especificar um valor de 0 segundos a 45 minutos.
 
-Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila. Para transferências externas, consulte [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) e [transferências de números de telefone externos – detalhes técnicos](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) para formatação de números.
+Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila. Para transferências externas, consulte [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 Quando você tiver selecionado as opções de tempo limite de chamada, clique em **Salvar**.
 
@@ -226,6 +235,44 @@ As seguintes configurações são recomendadas:
 - **Método de roteamento** para **Round robin** ou **Ocioso por mais tempo**
 - **Roteamento baseado em presença** para **Ativado**
 - **Tempo de alerta do agente:** para **20 segundos**
+
+
+## <a name="call-queue-feature-compatibility"></a>Compatibilidade de recursos de fila de chamada
+
+|Recurso                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |Telefones IP | Filas padrão de chamada |Filas de chamada baseadas em canal | Comentário |
+|:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
+|**Métodos de Roteamento de Agente**        |                          |                         |     |          |                      |                          |              |
+|`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Padrão*     |
+|`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*Recomendado* |
+|`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Recomendado* |
+|`Serial`                         |Y                         |Y                        |Y    |Y         |<sup>Y4</sup>         |<sup>Y4</sup>             |              |
+|**Modos de transferência**               |                          |                         |     |          |                      |                          |              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |<sup>Y6</sup>|Y                  |Y                         |*Recomendado* |
+|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
+|Roteamento baseado em <sup>presença3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recomendado* |
+|Os agentes podem optar por não participar               |Y                         |Y                        |<sup>Y7</sup>|<sup>Y7</sup>|Y          |Y                         |*Padrão*     |
+|Filas baseadas em canal             |Y                         |N                        |N    |N         |n/a                   |<sup>Y8</sup>             |              |
+|O toast de chamada mostra o Nome da Conta de Recurso |<sup>Y9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|**ID dinâmica do chamador**            |                          |                         |     |          |                      |                          |              |
+|`Standard call queue`            |N                         |N                        |N    |N         |Y                     |n/a                       |              |
+|`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
+|**Métodos de Conectividade PSTN**    |                          |                         |     |          |                      |                          |Consulte a Nota 10   |
+|`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
+|`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
+|`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
+
+Observações:
+1. Microsoft Teams Windows cliente, Microsoft Teams Mac Client, Microsoft Teams infraestrutura de área de trabalho virtualizada, Microsoft Teams cliente Web.
+2. Microsoft Teams iPhone aplicativo, Microsoft Teams android.
+3. Selecionar Mais Tempo Ocioso para o método de roteamento do agente habilita automaticamente o roteamento baseado em presença.
+4. Só é possível definir a ordem ao adicionar usuários individuais como parte das filas de chamada padrão. Quando uma lista de distribuição ou Teams canal é usado a ordem será alfabética.
+5. O modo de conferência não será suportado se as chamadas telefônicas são roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Local.
+6. Microsoft Teams telefone.
+7. Por meio da página Configurações Portal do Usuário emhttps://aka.ms/vmsettings
+8. Somente canais públicos são suportados.
+9. Excluindo Teams cliente Web.
+10. Os Atendimentos Automáticos e Filas de Chamadas não podem transferir chamadas entre métodos de conectividade PSTN.
+
 
 ## <a name="supported-clients"></a>Clientes com suporte
 
@@ -240,7 +287,7 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
   - Cliente Skype for Business para iPad (versão 6.16.0 e posterior)
   - Cliente Microsoft Teams para Windows (versões 32-bit e 64-bit)
   - Cliente Microsoft Teams para Mac
-  - Microsoft Teams infraestrutura [de área de trabalho virtualizada](/microsoftteams/teams-for-vdi) (Windows área de trabalho virtual, Citrix e VMware)
+  - Microsoft Teams [infraestrutura de área de trabalho virtualizada](/microsoftteams/teams-for-vdi) (Windows área de trabalho virtual, Citrix e VMware)
   - Aplicativo Microsoft Teams para iPhone
   - Aplicativo Microsoft Teams para Android
 
@@ -258,7 +305,7 @@ Os cmdlets a seguir permitem gerenciar uma fila de chamada:
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-Os cmdlets adicionais a seguir também são necessários para gerenciar os usuários, contas de recursos, licenças de Microsoft Teams Telefone, números de telefone, arquivos de áudio e idioma com suporte que serão usados com filas de chamada:
+Os cmdlets adicionais a seguir também são necessários para gerenciar os usuários, contas de recursos, Microsoft Teams Telefone licenças, números de telefone, arquivos de áudio e idioma com suporte que serão usados com filas de chamada:
 
 Usuários/Teams
 

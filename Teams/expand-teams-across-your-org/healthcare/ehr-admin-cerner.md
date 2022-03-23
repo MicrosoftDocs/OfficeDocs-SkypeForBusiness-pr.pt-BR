@@ -23,16 +23,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Saiba como integrar o conector Teams EHR para permitir que os provedores de saúde em sua organização conduzam Visitas Virtuais com pacientes ou outros provedores no Teams diretamente do sistema cerner EHR.
-ms.openlocfilehash: d7f34be9729989f7930cc6f478738b43b716f6ac
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: 6c0f0020cbbee5ba6ecbb186681454b8d8b8a103
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435875"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711745"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visitas virtuais com Teams - Integração ao Cerner EHR
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 O conector Microsoft Teams EHR (Registro Eletrônico de Saúde) torna mais fácil para os médicos iniciarem uma visita de paciente virtual ou consultarem outro provedor em Microsoft Teams diretamente do sistema cerner EHR. Criado na Microsoft 365, o Teams permite colaboração e comunicação simples e seguras com chat, vídeo, voz e ferramentas de saúde em um único hub que oferece suporte à conformidade com HIPAA, certificação HITECH e muito mais.
 

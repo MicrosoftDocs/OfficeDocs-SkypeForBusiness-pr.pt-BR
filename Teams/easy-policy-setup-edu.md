@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar o assistente de política Teams para Educação para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
+description: Saiba como usar o assistente de Teams para Educação de política para aplicar facilmente políticas para alunos e educadores para manter seu ambiente de aprendizagem seguro.
 f1keywords: ''
-ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
-ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
+ms.openlocfilehash: 4a793baeb725b497310e46db351e12e6c0540477
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "62805452"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711685"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Use o Assistente Teams para Educação política para aplicar facilmente políticas para um ambiente de aprendizado seguro
 
@@ -56,7 +56,7 @@ O assistente configura políticas com base no tipo de instituição educacional 
 
 Você só precisa executar o assistente uma vez. Os novos alunos automaticamente têm as definições de política Global (padrão em toda a organização) aplicadas pelo assistente e pela nova equipe que você adiciona ao grupo selecionado são atribuídas automaticamente às políticas personalizadas.
 
-Além disso, sempre que um novo recurso for adicionado ao Teams, o valor padrão apropriado eDU relevante da política para esse recurso será adicionado automaticamente ao global (padrão em toda a organização) sem exigir qualquer intervenção do administrador. Isso ajuda a garantir que as políticas corretas sejam realizadas para manter os alunos seguros e engajados.
+Além disso, sempre que um novo recurso for adicionado ao Teams, o valor padrão padrão relevante do EDU apropriado da política para esse recurso será adicionado automaticamente ao global (padrão em toda a organização) sem exigir qualquer intervenção do administrador. Isso ajuda a garantir que as políticas corretas sejam realizadas para manter os alunos seguros e engajados.
 
 > [!NOTE]
 > Consulte [Políticas aplicadas pelo assistente](#policies-applied-by-the-wizard) para ver uma lista detalhada das definições de política aplicadas pelo assistente.
@@ -137,7 +137,7 @@ Consulte [Mantendo os alunos seguros durante o uso Teams para aprendizado à dis
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Etapa 3: Verificar o Centro de Mensagens para atualizações de política
 
-Atualmente, o assistente aplica nossas políticas recomendadas ao executar. É importante saber que, à medida que novas políticas se tornam disponíveis no Teams, as configurações Globais (padrão em toda a organização) para segurança do aluno são atualizadas automaticamente pelo assistente.
+Atualmente, o assistente aplica nossas políticas recomendadas ao executar. É importante saber que, à medida que novas políticas se tornam disponíveis no Teams, as configurações Globais (padrão de toda a organização) para segurança do aluno são atualizadas automaticamente pelo assistente.
 
 Mas verifique o [Centro](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) de Mensagens (no Centro de administração do Microsoft 365) com frequência para se manter atualizado sobre os novos recursos e suas políticas e configurações de política no Teams.
 
@@ -182,7 +182,7 @@ Aqui estão as áreas de política e os nomes de política correspondentes cober
 
 |Área de política  |Nome da política primária ou secundária |Nome da política de ensino superior |
 |---------|---------|---------|
-|Políticas do Teams   |Educadores e funcionários primários ou secundários - Teams         |Professores e Funcionários do Ensino Superior - Teams         |
+|Políticas do Teams   |Professores e funcionários primários ou secundários - Teams         |Professores e Funcionários do Ensino Superior - Teams         |
 |Políticas de reunião    |Educadores e funcionários primários ou secundários - Reunião         |Professores e Funcionários do Ensino Superior - Reunião         |
 |Políticas de eventos ao vivo   | Educadores e Funcionários Primários ou Secundários - Eventos ao vivo         |Professores e Funcionários do Ensino Superior - Eventos ao vivo         |
 |Políticas de mensagens    |Professores e funcionários primários ou secundários - Mensagens         | Professores e Funcionários do Ensino Superior - Mensagens         |
@@ -194,6 +194,9 @@ Aqui estão as áreas de política e os nomes de política correspondentes cober
 
 Aqui está um resumo das configurações aplicadas pelo assistente para cada área de política.
 
+> [!NOTE]
+> Somente os proprietários de equipe podem criar canais compartilhados.<br><br>Canais compartilhados com outras organizações exigem a configuração da conexão direta [do Azure AD B2B](/azure/active-directory/external-identities/b2b-direct-connect-overview) que está desabilitada por padrão. Consulte [Colaborar com participantes externos em um canal](/microsoft-365/solutions/collaborate-teams-direct-connect) para habilitar esse recurso.
+
 #### <a name="students"></a>[**Alunos**](#tab/student-settings/)
 
 Aqui está uma lista das definições de política Global (padrão em toda a organização) ajustadas pelo assistente e aplicadas aos alunos.
@@ -201,11 +204,14 @@ Aqui está uma lista das definições de política Global (padrão em toda a org
 |Área de política |Sub-área  |Configuração de política  |Primário ou Secundário |Ensino superior |
 |---------|---------|---------|---------|---------|
 |Políticas do Teams   |         |Criar canais privados         |Desabilitado       |Habilitado|
-|Política de reuniões    |Geral         |Reunir agora em canais         |Desabilitado      |Habilitado|
-|  |        |Outlook de complemento         |Desabilitado       |Habilitado|
-|  |        |Agendamento de reunião do canal        |Desabilitado      |Habilitado|
-|  |        |Agendamento de reuniões particulares       |Desabilitado      |Habilitado|
-|  |        |Registro de reunião              |Habilitado       |Habilitado|
+|               |         |Criar canais compartilhados         |Habilitado       |Habilitado|
+|               |         |Compartilhar canal com participantes externos         |Habilitado       |Habilitado|
+|               |         |Participar de um canal compartilhado externo         |Habilitado       |Habilitado|
+|Política de reuniões    |Geral         |Permitir Reunir agora nos canais         |Desabilitado      |Habilitado|
+|  |        |Permitir o suplemento do Outlook         |Desabilitado       |Habilitado|
+|  |        |Permitir o agendamento de reunião do canal        |Desabilitado      |Habilitado|
+|  |        |Permitir o agendamento de reuniões particulares       |Desabilitado      |Habilitado|
+|  |        |Permitir registro de reunião              |Habilitado       |Habilitado|
 |  |        |Who pode se registrar    |Todos na organização      |Todos na organização|
 |  |Vídeo & áudio        |Transcrição        |Habilitado       |Habilitado|
 |  |        |Gravação em nuvem         |Desabilitado      |Habilitado|
@@ -271,11 +277,14 @@ Aqui está uma lista das definições de política personalizadas atribuídas ao
 |Área de política |Sub-área  |Configuração de política  |Primário ou Secundário |Ensino superior |
 |---------|---------|---------|---------|---------|
 |Políticas do Teams   |         |Criar canais privados         |Habilitado       |Habilitado|
-|Política de reuniões    |Geral         |Reunir agora em canais         |Habilitado      |Habilitado|
-|  |        |Outlook de complemento         |Habilitado       |Habilitado|
-|  |        |Agendamento de reunião do canal        |Habilitado      |Habilitado|
-|  |        |Agendamento de reuniões particulares       |Habilitado      |Habilitado|
-|  |        |Registro de reunião              |Habilitado       |Habilitado|
+|               |         |Criar canais compartilhados         |Habilitado       |Habilitado|
+|               |         |Compartilhar canal com participantes externos         |Habilitado       |Habilitado|
+|               |         |Participar de um canal compartilhado externo         |Habilitado       |Habilitado|
+|Política de reuniões    |Geral         |Permitir Reunir agora nos canais         |Habilitado      |Habilitado|
+|  |        |Permitir o suplemento do Outlook         |Habilitado       |Habilitado|
+|  |        |Permitir o agendamento de reunião do canal        |Habilitado      |Habilitado|
+|  |        |Permitir o agendamento de reuniões particulares       |Habilitado      |Habilitado|
+|  |        |Permitir registro de reunião              |Habilitado       |Habilitado|
 |  |        |Who pode se registrar    |Todos na organização      |Todos na organização|
 |  |Vídeo & áudio        |Transcrição        |Habilitado       |Habilitado|
 |  |        |Gravação em nuvem         |Habilitado      |Habilitado|

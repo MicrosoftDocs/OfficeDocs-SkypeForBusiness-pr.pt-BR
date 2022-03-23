@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 666a623f955cd10fd4ad3e0983ccff83c9725a6b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586727"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711955"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 
-No Microsoft Teams, existem duas funções: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Além disso, os proprietários e membros podem ter recursos moderadores para um canal (desde que a moderação tenha sido configurada). Se uma equipe for criada a partir de um Grupo existente do Microsoft 365, as permissões são herdadas.
+No Microsoft Teams, existem duas funções: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Além disso, os proprietários e membros podem ter recursos moderadores para um canal (desde que a moderação tenha sido configurada). Se uma equipe for criada a partir de um grupo Microsoft 365 existente, as permissões serão herdadas.
 
 A tabela abaixo mostra as diferenças de permissão entre um proprietário e um membro:
 
@@ -40,8 +40,11 @@ A tabela abaixo mostra as diferenças de permissão entre um proprietário e um 
 | **Editar nome/descrição do canal padrão** |    Sim     |    Sim<sup>2</sup>|
 |        **Excluir o canal padrão**         |    Sim     |    Sim<sup>2</sup>|
 |          ***Adicionar canal privadol**          |    Sim     |    Sim<sup>2</sup>|
-| ***Editar nome/descrição do canal privado** |    Não     |    N/D|
+| ***Editar nome/descrição do canal privado** |    Não     |    Não disponível|
 |        ***Excluir canal privado**         |    Sim     |    Não|
+|          **Adicionar canal compartilhado**          |    Sim     |    Não|
+| **Editar nome/descrição do canal compartilhado** |    Não     |    <sup>No6</sup>|
+|        **Excluir canal compartilhado**         |    Sim     |    <sup>No6</sup>|
 |          **Adicionar membros**          |  Sim<sup>3</sup>   |     Não<sup>4</sup>    |
 |          **Solicitação para adicionar membros**          |  N/A   |     Sim<sup>5</sup>     |
 |           **Adicionar aplicativos**            |    Sim     |    Sim<sup>2</sup>|
@@ -50,7 +53,8 @@ A tabela abaixo mostra as diferenças de permissão entre um proprietário e um 
 <sup>2</sup> Um proprietário pode desabilitar esses itens no nível da equipe, caso os membros não tenham acesso a eles.<br>
 <sup>3</sup> Após adicionar um membro a uma equipe, um proprietário também pode promover um membro para o status de proprietário. Também é possível para um proprietário rebaixar seu próprio status para o status de membro.<br>
 <sup>4</sup> Os membros da equipe podem adicionar outros membros a uma equipe pública.<br>
-<sup>5</sup> Apesar de um membro da equipe não poder adicionar membros diretamente a uma equipe privada, eles podem solicitar que alguém seja adicionado a uma equipe que já seja membro. Quando um membro solicitar alguém para ser adicionado a uma equipe, os proprietários da equipe recebem um alerta de que eles têm uma solicitação pendente que eles podem aceitar ou recusar.
+<sup>5</sup> Apesar de um membro da equipe não poder adicionar membros diretamente a uma equipe privada, eles podem solicitar que alguém seja adicionado a uma equipe que já seja membro. Quando um membro solicitar alguém para ser adicionado a uma equipe, os proprietários da equipe recebem um alerta de que eles têm uma solicitação pendente que eles podem aceitar ou recusar.<br>
+<sup>6</sup> Se o membro da equipe for um proprietário de canal compartilhado, ele poderá executar essa ação.
 
 *Para saber mais sobre as permissões para canais privados, consulte [Canais privados no Teams](private-channels.md).
 
@@ -67,7 +71,7 @@ Para obter mais informações sobre os recursos do moderador, consulte [Configur
 
 ## <a name="assign-a-user-role"></a>Atribuir uma função de usuário
 
-Para atribuir uma função de usuário, no Teams, selecione o nome da equipe e clique **Mais opções** > **Gerenciar equipe**. Na guia **Membros**, você pode adicionar membros e escolher proprietários e moderadores (se tiver permissões suficientes). Para saber mais, consulte [Alterar as configurações da equipe no Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Para atribuir uma função de usuário, no Teams, selecione o nome da equipe e clique **Mais opções** > **Gerenciar equipe**. Na guia **Membros**, você pode adicionar membros e escolher proprietários e moderadores (se tiver permissões suficientes). Para obter mais informações, consulte [Alterar configurações de equipe em Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
 
 ## <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 

@@ -21,24 +21,24 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Saiba mais sobre as opções de discagem automática e fila de chamadas e reconhecimento de voz Teams.
-ms.openlocfilehash: 7ea18f5ca1f9fba619fe00f28e93e245a7a8f074
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+description: Saiba mais sobre as opções de discagem de fila de chamadas e atendimento automático e reconhecimento de voz Teams.
+ms.openlocfilehash: db9eb9b4a31bd4d78c2e2519943cb405022e9fc6
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410672"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711275"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz
 
-Dial by Name ou Extension é um recurso de atendimento automático que permite que os chamadores cheguem Teams usuários em sua organização. Usar seus chamadores de teclado de voz ou telefone pode dizer ou inserir o nome completo ou parcial ou extensão da pessoa que eles gostaria de alcançar. O atendente automático pesquisará o diretório da empresa, localizará a pessoa e, em seguida, transferirá o chamador para ela.  Discar por Nome ou Discar por Extensão são opções configuradas quando você configura as configurações de fluxo de [chamada em um atendimento automático.](create-a-phone-system-auto-attendant.md#call-flow)
+Dial by Name ou Extension é um recurso de atendimento automático que permite que os chamadores cheguem Teams usuários em sua organização. Usar seus chamadores de teclado de voz ou telefone pode dizer ou inserir o nome completo ou parcial ou extensão da pessoa que eles gostaria de alcançar. O atendente automático pesquisará o diretório da empresa, localizará a pessoa e, em seguida, transferirá o chamador para ela.  Discar por Nome ou Discar por Extensão são opções configuradas quando você configura as configurações de fluxo [de chamada em um atendimento automático](create-a-phone-system-auto-attendant.md#call-flow).
 
 
 ## <a name="searching-for-users"></a>Pesquisar usuários
 
-Teams usuários que podem ser atingidos usando Discagem por Nome não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem ser Enterprise Voice habilitados para usuários Skype for Business Server . Para organizações multi-nacionais, Dial by Name encontrará e transferirá chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões.
+Teams usuários que podem ser atingidos usando Discagem por Nome não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem estar Enterprise Voice habilitados para Skype for Business Server usuários. Para organizações multi-nacionais, Dial by Name encontrará e transferirá chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões.
 
-Teams usuários que podem ser atingidos usando Discagem por Extensão não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem ser habilitados para Enterprise Voice usuários Skype for Business Server . Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. Para organizações multi-nacionais, o Dial by Extension encontrará e transferirá chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões. 
+Teams usuários que podem ser atingidos usando Discagem por Extensão não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem ser Enterprise Voice habilitados para usuários Skype for Business Server. Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. Para organizações multi-nacionais, o Dial by Extension encontrará e transferirá chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões. 
 
 Considerando os pré-requisitos envolvidos, Discar por Nome ou Extensão deve ser explicitamente habilitado ao configurar um atendimento automático.
 
@@ -52,10 +52,10 @@ Não há limite para o número de usuários do Active Directory Discar por Nome 
 |Fala (entrada de voz) |FirstName  <br/> LastName  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  | 80.000 usuários |
 
 > [!NOTE]
-> Se você estiver usando Dial by Name com reconhecimento de fala, mas o Active Directory da sua organização for maior que [](create-a-phone-system-auto-attendant.md#dial-scope) 80.000 usuários e você não tiver limitado o escopo de Discagem por Nome usando o recurso Escopo de Discagem, Dial by Name ainda funcionará para seus chamadores usando um teclado de telefone e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
+> Se você estiver usando Dial by Name com reconhecimento de fala, mas o Active Directory da sua organização for maior que 80.000 usuários e você não tiver limitado o escopo de Discagem por Nome usando o [](create-a-phone-system-auto-attendant.md#dial-scope) recurso Escopo de Discagem, Dial by Name ainda funcionará para seus chamadores usando um teclado de telefone e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
  
 ### <a name="search-considerations"></a>Considerações sobre pesquisa 
-Discagem por Nome pesquisa o diretório da organização e filtra os resultados em relação a qualquer lista De Inclusão ou Exclusão de Escopo de Discagem que tenham sido configuradas. Se a pesquisa inicial retornar mais de 100 usuários, as listas de Escopo de Discagem não serão aplicadas, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados.
+Dial by Name pesquisa primeiro o diretório de toda a organização antes de aplicar qualquer Lista de Inclusão ou Exclusão de Escopo de Discagem que tenham sido configuradas. Se a pesquisa inicial em relação ao diretório inteiro retornar mais de 100 usuários, as listas de Escopo de Discagem não serão aplicadas, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados.
  
  
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
@@ -114,7 +114,7 @@ Os chamadores podem dizer nomes nos seguintes formatos:
   
 ## <a name="language-support"></a>Suporte a idiomas
 
-O suporte a idiomas para reconhecimento de texto para fala e fala está disponível nesses [idiomas com suporte.](create-a-phone-system-auto-attendant-languages.md)
+O suporte a idiomas para reconhecimento de texto para fala e fala está disponível nesses [idiomas com suporte](create-a-phone-system-auto-attendant-languages.md).
 
 Os seguintes comandos de voz estão disponíveis para reconhecimento de fala: 
   

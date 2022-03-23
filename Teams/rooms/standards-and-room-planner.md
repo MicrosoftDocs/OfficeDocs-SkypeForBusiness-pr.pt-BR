@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Crie e crie padrões de cura com base em recomendações inteligentes do seu ambiente.
 f1keywords: ''
-ms.openlocfilehash: 2eb0681999664cd3fd29876fbfa3550eee9fb507
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062768"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711515"
 ---
 # <a name="standards-and-room-planner"></a>Standards and Room planner
 
@@ -37,7 +37,7 @@ Esta página também tem uma barra de comandos de onde você pode iniciar o  **f
 ![Captura de tela da home page para criar Padrões](../media/standards-and-room-planner-001.png)
 ### <a name="create-standards"></a>Criar padrões
 
-Use o **fluxo de trabalho Criar um padrão** para criar um padrão.
+Use o **fluxo de trabalho Criar Padrão** para criar um padrão.
 
 ![Captura de tela de detalhes gerais de padrões](../media/standards-and-room-planner-001.png)
 
@@ -45,15 +45,15 @@ Use o **fluxo de trabalho Criar um padrão** para criar um padrão.
 
 1. Selecione **Criar um Padrão MTR** e forneça detalhes gerais, como nome e descrição para o padrão.
 
-   ![Captura de tela de padrões Selecione Sala de Reunião](../media/standards-and-room-planner-002.png)
+   ![Captura de tela de padrões Selecione Sala de Reunião tipo](../media/standards-and-room-planner-002.png)
 
 1. Selecione o tipo de sala de reunião para esse padrão.
 
    ![Captura de tela de padrões Selecionar dispositivos recomendados](../media/standards-and-room-planner-003.png)
 
-1. Selecione sua escolha de dispositivo de sala de reunião nos dispositivos Teams certificados recomendados em seu inventário de hardware.
+1. Selecione entre os modelos de sala Teams certificados recomendados em seu inventário de hardware. A lista varia dependendo do tipo de sala selecionado na etapa anterior.
 
-   ![Captura de tela de detalhes gerais de padrões](../media/standards-and-room-planner-004.png)
+   ![Captura de tela de Selecionar as MTRs Padrão](../media/standards-and-room-planner-004.png)
 
 
 1. Revise as informações do MTR Standard.
@@ -64,14 +64,13 @@ Use o **fluxo de trabalho Criar um padrão** para criar um padrão.
 
    ![Captura de tela de locais para publicar os padrões.](../media/standards-and-room-planner-006.png)
 
-Depois de concluir o fluxo de trabalho, o padrão é criado com êxito e publicado no site, região, construção ou sala de reunião. Agora esses padrões devem ser usados para fins de planejamento.
+Depois de publicado, os padrões são usados para fins de planejamento.
 
 ![Captura de tela do padrão publicado com êxito'](../media/standards-and-room-planner-008.png)
 ### <a name="discovered-devices"></a>Dispositivos Descobertos
 
 Em Padrões, selecione **Dispositivos Descobertos** para exibir todos os dispositivos não padrão descobertos em sua organização.
 
-![Captura de tela dos dispositivos descobertos de uma sala](../media/standards-and-room-planner-008.png)
 
 Você pode tomar medidas para revisar e criar padrões a partir desses dispositivos descobertos em seu inventário.
 

@@ -1,5 +1,5 @@
 ---
-title: Teams de aplicativos para usuários não padrão
+title: Teams de aplicativos com base em tipos de usuários
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como os aplicativos Microsoft Teams se comportam para usuários não padrão.
+description: Saiba como os aplicativos Microsoft Teams se comportam para diferentes tipos de usuários.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070210"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711475"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams de aplicativos para usuários não padrão
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams comportamento de aplicativos com base em tipos de usuários
 
-Este artigo descreve como os aplicativos no Teams se comportam quando usuários convidados, externos (federados) e anônimos estão presentes em um contexto Teams local.
+Teams os aplicativos se comportam quando convidados, externos (federados) e usuários anônimos estão presentes em um Teams contexto.
 
 - Um **usuário convidado** é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização.
 

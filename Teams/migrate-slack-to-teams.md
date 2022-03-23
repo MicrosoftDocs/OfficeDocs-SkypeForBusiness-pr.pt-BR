@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Orientação completa para migrar do Slack para o Microsoft Teams.
-ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456351"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711885"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrar do Slack para o Microsoft Teams
 
@@ -55,7 +55,7 @@ Ao terminar esta seção, você será capaz de entender:
 ### <a name="assess-your-slack-workspaces"></a>Avaliar seus Slack workspaces
 Antes de fazer o plano de migração da sua organização, você precisa reunir algumas informações sobre os seus Slack workspaces. Entender como os Slack workspaces estão sendo usados ajuda a determinar o escopo da migração. Por exemplo, quantos workspaces estão sendo movidos? Eles são usados por um departamento específico, por vários, ou por toda organização?
 
-Se você é membro dos Slack Workspaces que deseja migrar, poderá analisar o uso por conta própria, indo para *\<your Slack workspace\>.slack.com/stats*. Examine as guias Canais e Membros para procurar por padrões de uso. Decida quais workspaces você deseja migrar (e quais deseja deixar para trás). 
+Se você for membro dos Slack Workspaces que deseja migrar, poderá analisar o uso por conta própria, indo para *\<your Slack workspace\>.slack.com/stats*. Examine as guias Canais e Membros para procurar por padrões de uso. Decida quais workspaces você deseja migrar (e quais você deseja deixar para trás). 
 
 > [!NOTE]
 > Se não tiver acesso à página de estatísticas, então você não é um administrador ou proprietário. 

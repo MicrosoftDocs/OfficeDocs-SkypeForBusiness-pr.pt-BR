@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727400"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711285"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gerenciar políticas de retenção para o Microsoft Teams.
 
@@ -36,6 +36,9 @@ ms.locfileid: "58727400"
 As políticas de retenção e os rótulos Microsoft 365 ajudam você a gerenciar com mais eficiência as informações em sua organização. Você pode definir as configurações de retenção para manter os dados necessários para estar em conformidade com as políticas internas, os regulamentos do setor ou os requisitos legais da sua organização. Você também pode definir configurações de retenção para excluir dados que são considerados uma vulnerabilidade, que você não precisa mais manter ou que não têm valor legal ou comercial.
 
 O Teams dá suporte a políticas de retenção para chat e mensagens de canal para que, como administrador, você possa decidir proativamente se deseja reter esses dados, excluí-los ou retê-los por um período específico de tempo e, em seguida, excluí-los. O início do período de retenção para essas ações é sempre baseado em quando uma mensagem é criada. Você pode aplicar uma política de retenção do Teams para toda a organização ou para usuários e equipes específicas. Não há suporte para rótulos de retenção no Teams.
+
+> [!NOTE]
+> [Canais compartilhados](shared-channels.md), atualmente em visualização, agora são suportados por políticas de retenção.
 
 Para saber mais sobre soluções de retenção no Microsoft 365, consulte [Saiba mais sobre políticas de retenção e rótulos de retenção](/microsoft-365/compliance/retention).
 
@@ -81,10 +84,10 @@ Essa página tem informações adicionais sobre como criar e gerenciar política
 
 Para chats privados (chats individuais) ou chats em grupo, os usuários verão que chats mais antigos do que a configuração de política de retenção são excluídos e uma mensagem gerada automaticamente informa que "Excluímos mensagens mais antigas devido à política de retenção da sua organização" é exibida acima de mensagens ainda não excluídas. Por exemplo:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="O usuário informado Teams que a mensagem de chat é excluída devido a uma política Teams retenção.":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="O usuário informado Teams que a mensagem de chat é excluída por causa de uma política Teams retenção.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="O usuário Teams explicando mensagens são excluídos como resultado de uma política Teams de retenção.":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="O usuário Teams explicando as mensagens são excluídos como resultado de uma política Teams retenção.":::
 
 Para mensagens do Canal, os usuários (membros do canal) verão as mensagens excluídas desaparecerem da exibição depois que as mensagens expirarem. Se a mensagem excluída era uma mensagem pai de uma conversa encadeada, então, no lugar da mensagem pai, será exibida uma mensagem dizendo "Esta mensagem foi excluída por causa de uma Política de Retenção". Por exemplo:
 

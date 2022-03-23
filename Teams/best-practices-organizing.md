@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 727425a1dfcd1ea4ebeec27cc79982d996db42fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596375"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711875"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Práticas recomendadas para organizar equipes no Microsoft Teams
 
@@ -47,7 +47,7 @@ Saiba mais sobre como [trabalhar em equipes](https://support.office.com/article/
 
 Prática recomendada: crie equipes com um conjunto maior de membros e mais canais. Minimize o número de equipes que exigem a participação de uma pessoa. Os canais de uma equipe devem ser considerados tópicos ou fluxos de trabalho para ajudar a equipe a organizar seu trabalho para alcançar seus objetivos comuns. Não há um número específico de canais que devem ser criados. Cada equipe deve criar canais com base em seu trabalho, prioridades e estilo.
 
-Use canais padrão de conversas em que todos da equipe possam contribuir. Aproveite os [Canais privados no Teams](private-channels.md) quando você precisar de um espaço de colaboração focado com um grupo seleto de membros.
+Use canais padrão de conversas em que todos da equipe possam contribuir. Aproveite os canais [privados quando](private-channels.md) precisar de um espaço de colaboração focado com um grupo selecionado de membros da equipe. Use [canais compartilhados](shared-channels.md) quando precisar colaborar com pessoas de fora da equipe.
 
 Talvez organizações maiores possam querer criar equipes como "modelos" para padronizar as informações que capturam tipos específicos de trabalho. Isso é útil à gestão estratégica de clientes, gestão de sala de aula, cenários de assistência médica, gestão de reclamações, gestão de incidentes e outros cenários adequados a um setor específico. Para saber mais, consulte [Introdução aos modelos do Teams](get-started-with-teams-templates.md) e [modelos do Teams para empresas de pequeno e médio porte](smb-templates.md).
 

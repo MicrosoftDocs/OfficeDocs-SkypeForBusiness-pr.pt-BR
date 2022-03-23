@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendimentos automáticos para grandes organizações em Microsoft Teams.
-ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 3a501ee9cdea0cf04466be1cbbd9c8f4407a9842
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660586"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711915"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendimento automático
 
@@ -149,6 +149,8 @@ Você pode definir a [extensão no Centro de administração do Microsoft 365](h
 
 > [!NOTE]
 > Se você quiser usar os recursos **Discar** por nome e  Discar por extensão, você pode atribuir uma chave de discagem no seu atendimento automático principal para alcançar um atendimento automático habilitado para Discagem **pelo nome**. Nesse atendimento automático, você pode atribuir a tecla 1 (que não tem letras associadas a ela) para alcançar o atendimento automático **Discar** por extensão.
+
+Consulte Dial [and voice reference para](dial-voice-reference.md) obter mais informações.
 
 Depois de selecionar uma opção **de pesquisa diretório** , selecione **Próximo**.
 

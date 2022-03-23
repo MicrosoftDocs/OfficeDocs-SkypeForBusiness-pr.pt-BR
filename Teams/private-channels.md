@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463744"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711465"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -97,7 +97,7 @@ O Teams gerencia o ciclo de vida do site de canal privado. Se o site for excluí
 Se um canal privado ou uma equipe que contenha um canal privado for restaurado, os sites serão restaurados com ele. Se um site de canal privado for restaurado e estiver passado da janela de exclusão temporária de 30 dias do canal privado, o site funcionará como um site autônomo.
 
 > [!NOTE]
-> Quando você cria uma nova equipe ou canal privado no Microsoft Teams, um site de equipe no SharePoint é criado automaticamente. Para editar a descrição ou classificação do site para este site de equipe, acesse as configurações do canal correspondente no [Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+> Quando você cria uma nova equipe, canal privado ou canal compartilhado no Microsoft Teams, é criado um site de equipe no Microsoft Office SharePoint Online automaticamente. Para editar a descrição ou classificação do site para este site de equipe, acesse as configurações do canal correspondente no [Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Saiba mais sobre como gerenciar [Sites de equipes conectadas do Microsoft Teams](/SharePoint/teams-connected-sites).
 
@@ -105,7 +105,7 @@ Se um canal privado ou uma equipe que contenha um canal privado for restaurado, 
 
 As cópias de conformidade das mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, em vez de para uma caixa de correio de grupo. Os títulos das cópias de conformidade são formatados para indicar de qual canal privado foram enviados.
 
-Para obter mais informações sobre como executar uma pesquisa de Descoberta Eletrônica por mensagens de canal privado, consulte [Descoberta Eletrônica de Canal Privado](ediscovery-investigation.md#ediscovery-of-private-channels).
+Para obter mais informações sobre como executar uma pesquisa de Descoberta Eletrônica por mensagens de canal privado, consulte [Descoberta Eletrônica de Canal Privado](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels).
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>Considerações sobre acesso ao arquivo em canais privados
 
@@ -123,11 +123,13 @@ Cada equipe pode ter no máximo 30 canais privados e cada canal privado pode ter
 
 Quando você criar uma equipe a partir de uma equipe existente, os canais privados dela não serão copiados.
 
-No momento, as notificações dos canais privados não estão incluídas nos emails de atividades perdidas.
+As notificações de canais privados não estão incluídas em emails de atividades perdidas.
 
 As reuniões do canal não podem ser agendadas.
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
+[Canais compartilhados no Microsoft Teams](/MicrosoftTeams/shared-channels)
 
 [Visão geral de equipes e canais no Teams](teams-channels-overview.md)
 

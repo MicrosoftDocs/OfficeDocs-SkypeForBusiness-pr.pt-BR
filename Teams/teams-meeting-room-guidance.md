@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062705"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711565"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Diretrizes de sala de reunião para Teams
 
@@ -536,11 +536,12 @@ Outras opções:
 
 ### <a name="displays"></a>Exibe
 
--   Um projetor a laser de alta resolução de lançamento curto com o alerta automático na sincronização e na recarga durante a função de suspensão.
+- Um lançamento curto ou ultra-curto, projetor de laser de alta resolução e alto brilho com o alerta automático na sincronização e na recarga durante a função de suspensão. Uma tela de projetor de baixo ganho com propriedades de rejeição de luz ambiente fornecerá a melhor qualidade de imagem em salas brilhantes.
 
-Como mostrado:
+Como mostrado: 
 
-Epson EpiqVision™ Ultra LS500
+- [Projetor epson EB-PU1007 com lente de lançamento ultra curta ELPLX01S](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Tela de Contorno UTB do Da-Lite | Hd Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 Outras opções:
 
