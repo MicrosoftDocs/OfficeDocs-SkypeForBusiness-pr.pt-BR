@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião em Teams para compartilhamento de conteúdo.
-ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205311"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403982"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configurações de política de reunião - Compartilhamento de conteúdo
 
@@ -35,7 +35,7 @@ Este artigo descreve as seguintes configurações de política de reunião relac
 - [Modo de compartilhamento de tela](#screen-sharing-mode)
 - [Permitir que um participante conceda ou solicite o controle](#allow-a-participant-to-give-or-request-control)
 - [Permitir que um participante externo conceda ou solicite o controle](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint compartilhamento](#powerpoint-sharing)
+- [PowerPoint Live](#powerpoint-live)
 - [Quadro de comunicações](#whiteboard)
 - [Anotações compartilhadas](#shared-notes)
 
@@ -99,13 +99,13 @@ Se os usuários federados podem conceder controle aos usuários externos enquant
 
 Para usar o PowerShell para controlar se os participantes externos podem conceder controle ou aceitar solicitações de controle, use o cmdlet AllowExternalParticipantGiveRequestControl.
 
-### <a name="powerpoint-sharing"></a>PowerPoint compartilhamento
+### <a name="powerpoint-live"></a>PowerPoint Live
 
 Essa é uma política por usuário. Essa configuração controla se o usuário pode compartilhar os decks de slides do PowerPoint em uma reunião. Os usuários externos, incluindo usuários anônimos, convidados e federados, herdam a política do organizador da reunião.
 
 Observe o exemplo a seguir.
 
-|Usuário |Políticas de reunião  |PowerPoint compartilhamento |
+|Usuário |Políticas de reunião  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | Global   | Habilitado       |
 |Amanda   | Location1MeetingPolicy        | Desabilitado   |

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar os usuários para Microsoft Teams Telefone Roteamento Direto.
-ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
-ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
+ms.openlocfilehash: e82865abcc7bb37835009fb9ab7f93e11c423d66
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62926294"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774090"
 ---
 # <a name="enable-users-for-direct-routing"></a>Habilitar usuários para Roteamento Direto
 
@@ -64,9 +64,9 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
 2. Emitir o comando: 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUri,LineUri
     ``` 
-    Se OnPremLineUriManuallySet estiver definido como False e LineUri for preenchido com um número de telefone do <E.164>, o número de telefone foi atribuído no local e sincronizado com Microsoft 365. Se você quiser gerenciar o número de telefone online, limpe o parâmetro usando o Shell de Gerenciamento local Skype for Business e sincronizar com o Microsoft 365 antes de configurar o número de telefone usando o Teams PowerShell. 
+    Se OnPremLineUri for preenchido com um número de telefone <E.164>, o número de telefone foi atribuído no local e sincronizado com Microsoft 365. Se você quiser gerenciar o número de telefone online, limpe o parâmetro usando o Shell de Gerenciamento local Skype for Business e sincronia com o Microsoft 365 antes de configurar o número de telefone usando o Teams PowerShell. 
 
 1. A partir Skype for Business Shell de Gerenciamento, emito o comando: 
 
@@ -74,7 +74,7 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
    Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
  > [!NOTE]
- > Não defina EnterpriseVoiceEnabled como False, pois não há nenhum requisito para fazer isso e isso pode levar a problemas de normalização do plano de discagem se os telefones Skype for Business herdados estão em uso e a configuração híbrida tenant é definida com UseOnPremDialPlan $True. 
+ > Não defina EnterpriseVoiceEnabled como False, pois não há requisitos para fazer isso e isso pode levar a problemas de normalização do plano de discagem se os telefones Skype for Business herdados estão em uso e a configuração híbrida tenant é definida com UseOnPremDialPlan $True. 
     
    Depois que as alterações sincronizadas Microsoft 365 a saída esperada `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` de seria:
 
@@ -85,13 +85,13 @@ O Roteamento Direto exige que o usuário seja 100% online. Você pode verificar 
    LineURI                              : 
    ```
  > [!NOTE]
- > Todos os atributos de telefone do usuário devem ser gerenciados online antes de você [decomissioná-lo localmente Skype for Business ambiente](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
+ > Todos os atributos de telefone do usuário devem ser gerenciados online antes de você [decomissioná-lo Skype for Business ambiente local](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>Configurar o número de telefone e habilitar a voz corporativa 
 
 Depois de criar o usuário e ter atribuído uma licença, você deve configurar as configurações de telefone online do usuário. Observe que a configuração do Caixa postal na Nuvem para o usuário é automática; nenhuma configuração adicional precisa ser feita.
 
-Você pode configurar o número de telefone usando o Teams de administração ou usando Teams PowerShell.
+Você pode configurar o número de telefone usando o centro de administração Teams ou usando Teams PowerShell.
 
 ### <a name="use-teams-admin-center"></a>Usar Teams de administração
 
@@ -122,7 +122,7 @@ As informações gerais da conta agora mostrarão o número de telefone atribuí
        Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
        ```
        
-   - Se você estiver gerenciando o número de telefone do usuário online, precisará atribuir o número de telefone ao usuário usando o comando a seguir no Teams PowerShell. O usuário é automaticamente Enterprise Voice habilitado pelo comando: 
+   - Se você estiver gerenciando o número de telefone do usuário online, precisará atribuir o número de telefone ao usuário usando o seguinte comando no Teams PowerShell. O usuário é automaticamente Enterprise Voice habilitado pelo comando: 
  
        ```PowerShell
        Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
@@ -151,7 +151,7 @@ As informações gerais da conta agora mostrarão o número de telefone atribuí
 
 O Roteamento Direto permite que você termine a chamada para um usuário e envie-a diretamente para a caixa postal do usuário. Se você quiser enviar a chamada diretamente para a caixa postal, anexe opaque=app:voicemail ao header request URI. Por exemplo, "sip:user@yourdomain.com;opaque=app:voicemail". O Teams usuário não receberá a notificação de chamada, a chamada será conectada diretamente à caixa postal do usuário.
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Atribuir Teams modo Somente aos usuários para garantir que as chamadas aterrisem Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Atribuir Teams modo Somente aos usuários para garantir que as chamadas land in Microsoft Teams
 
 O Roteamento Direto exige que os usuários Teams modo Somente para garantir que as chamadas de entrada chegam no Teams cliente. Para colocar os usuários Teams modo Somente, atribua a eles a instância "UpgradeToTeams" do TeamsUpgradePolicy. Para obter mais informações, [consulte Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md). Se sua organização usa Skype for Business Server, consulte o artigo a seguir para obter informações sobre interoperabilidade entre Skype e Teams: Migração e [interoperabilidade com Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 

@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização em Microsoft Teams.
-ms.openlocfilehash: 2e099c611cbbfd22cc2cc32c189edc8243ea362d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
+ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711575"
+ms.locfileid: "63740198"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas em Microsoft Teams
 
@@ -35,7 +35,7 @@ Como mencionado anteriormente, há dois tipos de marcas Teams.
 - **Marcação por turno**: com esse recurso, as pessoas são atribuídas automaticamente a marcas que corresponderem ao nome do grupo de turno e agendamento no aplicativo [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) no Teams. Por exemplo, a marca "EngineerOnCall" atinge todos os engenheiros agendados em Shifts para trabalhar no momento em que a marca é usada em uma postagem de chat ou canal. Com a marcação por turno, Teams faz a suposição de saber o nome da equipe de turno quando os usuários precisam retransmitir rapidamente as informações. A marcação por turno também pode ser respaldada pelos principais sistemas de gerenciamento de força de trabalho, como JDA, Kronos e AMiON, integrando-os com Shifts em Teams. Para saber mais sobre como configurar esse recurso, consulte [Configurar marcação por turno](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> As marcas não são suportadas em canais privados ou compartilhados. As marcas não estão disponíveis em organizações do Departamento de Defesa (DoD). 
+> As marcas não são suportadas em canais privados ou compartilhados.  
 
 ## <a name="how-tags-work"></a>Como as marcas funcionam
 

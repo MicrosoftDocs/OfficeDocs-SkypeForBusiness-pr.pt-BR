@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436eded0069af9263aec02f62a697572be7a4ead
-ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.openlocfilehash: 549ee30fa7327f1b9959cb2153d0846af61ba858
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "61041263"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774030"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto - protocolo SIP
 
@@ -95,7 +95,7 @@ Para todas as mensagens SIP de entrada (OPÇÕES, CONVIDAR) para o proxy SIP da 
 
 Sintaxe: Contato: <sip:phone ou sip address@FQDN do SBC;transport=tls> 
 
-De acordo [com a RFC 3261, seção 11.1](https://tools.ietf.org/html/rfc3261#section-11.1), um campo de header de contato pode estar presente em uma mensagem OPTIONS. No Roteamento Direto, o header de contato é necessário. Para mensagens INVITE no formato acima, para mensagens OPTIONS, o userinfo pode ser removido do URI SIP e somente FQDN enviado no formato da seguinte maneira:
+De acordo [com a RFC 3261, seção 11.1](https://tools.ietf.org/html/rfc3261#section-11.1), um campo De contato pode estar presente em uma mensagem OPTIONS. No Roteamento Direto, o header de contato é necessário. Para mensagens INVITE no formato acima, para mensagens OPTIONS, o userinfo pode ser removido do URI SIP e somente FQDN enviado no formato da seguinte maneira:
 
 Sintaxe: Contato: <sip:FQDN do SBC;transport=tls>
 
@@ -103,7 +103,7 @@ Esse nome (FQDN) também deve estar nos campos Nome Comum ou Nome alternativo do
 
 O suporte para curingas está descrito na [RFC 2818, seção 3.1](https://tools.ietf.org/html/rfc2818#section-3.1). Especificamente:
 
-*"Os nomes podem conter o caractere curinga que é considerado para corresponder a qualquer componente de nome de domínio único \* ou fragmento de componente. Por exemplo, .a.com corresponde foo.a.com mas não bar.foo.a.com. f .com corresponde foo.com, mas não \* \* bar.com."*
+*"Os nomes podem conter o caractere curinga \* que é considerado para corresponder a qualquer componente de nome de domínio único ou fragmento de componente. Por exemplo, \*.a.com corresponde foo.a.com mas não bar.foo.a.com. f.com\* corresponde foo.com, mas não bar.com."*
 
 Se mais de um valor no header contato apresentado em uma mensagem SIP for enviado pelo SBC, somente a parte FQDN do primeiro valor do header contato será usada.
 
@@ -128,15 +128,15 @@ O número de telefone deve conter um + conforme mostrado no exemplo a seguir.
 From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
-## <a name="contact-and-record-route-headers-considerations"></a>Considerações sobre Record-Route de contatos e Record-Route de headers
+## <a name="contact-and-record-route-headers-considerations"></a>Considerações sobre contatos e Record-Route de headers
 
 O proxy SIP precisa calcular o FQDN do próximo salto para novas transações de cliente na caixa de diálogo (por exemplo, Bye ou Re-Invite) e ao responder a Opções SIP. Os contatos ou Record-Route são usados. 
 
-De acordo com [o RFC 3261, seção 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), o header de contato é necessário em qualquer solicitação que possa resultar em uma nova caixa de diálogo. A Record-Route só será necessária se um proxy quiser permanecer no caminho das solicitações futuras em uma caixa de diálogo. Se um SBC de proxy estiver em uso com a Otimização de Mídia [Local](./direct-routing-media-optimization.md)para Roteamento Direto, uma rota de registro precisará ser configurada conforme o SBC do proxy precisa permanecer na rota. 
+De acordo com [o RFC 3261, seção 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), o header de contato é necessário em qualquer solicitação que possa resultar em uma nova caixa de diálogo. A Record-Route só será necessária se um proxy quiser permanecer no caminho das solicitações futuras em uma caixa de diálogo. Se um SBC proxy estiver em uso com a Otimização de Mídia [Local](./direct-routing-media-optimization.md) para Roteamento Direto, uma rota de registro precisará ser configurada conforme o SBC do proxy precisa permanecer na rota. 
 
 A Microsoft recomenda usar somente o header contato se um SBC proxy não for usado:
 
-- Por [RFC 3261, seção 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route é usado se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo, o que não é essencial se nenhum SBC proxy estiver configurado à medida que todo o tráfego fica entre o proxy SIP da Microsoft e o SBC emparelhado. 
+- Por [RFC 3261, seção 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), o Record-Route é usado se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo, o que não é essencial se nenhum SBC proxy estiver configurado à medida que todo o tráfego se intermedia entre o proxy SIP da Microsoft e o SBC emparelhado. 
 
 - O proxy SIP da Microsoft usa apenas o header contact (não Record-Route) para determinar o próximo salto ao enviar opções de ping de saída. Configurar apenas um parâmetro (Contato) em vez de dois (Contato e Rota de Registro) simplifica a administração se um SBC proxy não estiver em uso. 
 
@@ -150,7 +150,7 @@ Se Contact e Record-Route for usado, o administrador do SBC deverá manter seus 
 
 ### <a name="use-of-fqdn-name-in-contact-or-record-route"></a>Uso do nome FQDN em Contato ou Record-Route
 
-Não há suporte para o uso de um endereço IP no Record-Route ou contato. A única opção suportada é um FQDN, que deve corresponder ao Nome Comum ou Nome Alternativo de Assunto do certificado SBC (há suporte para valores curinga no certificado).
+Não há suporte para o uso de um endereço IP Record-Route contato. A única opção suportada é um FQDN, que deve corresponder ao Nome Comum ou Nome Alternativo de Assunto do certificado SBC (há suporte para valores curinga no certificado).
 
 - Se um endereço IP for apresentado em Rota de Registro ou Contato, a verificação de certificado falhará e a chamada falhará.
 
@@ -189,7 +189,7 @@ Um Teams usuário pode ter vários pontos de extremidade ao mesmo tempo. Por exe
 
 2.  Após a notificação, cada ponto de extremidade começará a tocar e enviar mensagens "Andamento da chamada" para o proxy SIP. Como um Teams usuário pode ter vários pontos de extremidade, o proxy SIP pode receber várias mensagens de Progresso de Chamada.
 
-3.  Para cada mensagem de Progresso de Chamada recebida dos clientes, o proxy SIP converte a mensagem Progresso da Chamada para a mensagem SIP "SIP SIP/2.0 180 Trying". O intervalo para o envio dessas mensagens é definido pelo intervalo de mensagens de recebimento do Controlador de Chamada. No diagrama a seguir, há duas 180 mensagens geradas pelo proxy SIP. Essas mensagens vêm dos dois Teams pontos de extremidade do usuário. Cada cliente tem uma ID de Marca exclusiva.  Cada mensagem proveniente de um ponto de extremidade diferente será uma sessão separada (o parâmetro "tag" no campo "Para" será diferente). Mas um ponto de extremidade pode não gerar a mensagem 180 e enviar a mensagem 183 imediatamente, conforme mostrado no diagrama a seguir.
+3.  Para cada mensagem de Progresso de Chamada recebida dos clientes, o proxy SIP converte a mensagem Progresso da Chamada para a mensagem SIP "SIP SIP/2.0 180 Ringing". O intervalo para o envio dessas mensagens é definido pelo intervalo de mensagens de recebimento do Controlador de Chamada. No diagrama a seguir, há duas 180 mensagens geradas pelo proxy SIP. Essas mensagens vêm dos dois Teams pontos de extremidade do usuário. Cada cliente tem uma ID de Marca exclusiva.  Cada mensagem proveniente de um ponto de extremidade diferente será uma sessão separada (o parâmetro "tag" no campo "Para" será diferente). Mas um ponto de extremidade pode não gerar a mensagem 180 e enviar a mensagem 183 imediatamente, conforme mostrado no diagrama a seguir.
 
 4.  Depois que um ponto de extremidade gera uma mensagem de Resposta de Mídia com os endereços IP dos candidatos à mídia do ponto de extremidade, o proxy SIP converte a mensagem recebida em uma mensagem "Progresso da Sessão SIP 183" com o SDP do cliente substituído pelo SDP do Processador de Mídia. No diagrama a seguir, o ponto de extremidade do Bifurcação 2 atendeu à chamada. Se o tronco não for ignorado, a mensagem SIP 183 será gerada apenas uma vez (Ring Bot ou Client End Point). O 183 pode vir em uma bifurcação existente ou iniciar um novo.
 
@@ -264,7 +264,7 @@ ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 
 Se o SBC indicar que o método Refer não tem suporte, o proxy SIP atuará como um Referee. 
 
-A solicitação Refer que vem do cliente será encerrada no proxy SIP. (A solicitação Refer do cliente é mostrada como "Transferência de chamada para Dave" no diagrama a seguir.  Para obter mais informações, consulte a seção 7.1 de [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
+A solicitação Refer que vem do cliente será encerrada no proxy SIP. (A solicitação Refer do cliente é mostrada como "Transferência de chamada para Dave" no diagrama a seguir.  Para obter mais informações, consulte a seção 7.1 do [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
 
 > [!div class="mx-imgBorder"]
 > ![Diagrama mostrando vários pontos de extremidade tocando com resposta provisória.](media/direct-routing-protocols-4.png)
@@ -322,17 +322,17 @@ A Microsoft recomenda sempre aplicar o parâmetro user=phone para simplificar o 
 
 ## <a name="history-info-header"></a>History-Info header
 
-O History-Info é usado para retargeting de solicitações SIP e "fornecer(s) um mecanismo padrão para capturar as informações do histórico de solicitações para habilitar uma ampla variedade de serviços para redes e usuários finais". Para obter mais informações, [consulte RFC 4244 – Seção 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Telefone Microsoft System, esse header é usado em cenários de Simulring e Encaminhamento de Chamada.  
+O History-Info é usado para retargeting de solicitações SIP e "fornecer(s) um mecanismo padrão para capturar as informações do histórico de solicitações para habilitar uma ampla variedade de serviços para redes e usuários finais". Para obter mais informações, [consulte RFC 4244 – Seção 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Telefone Microsoft System, esse header é usado em cenários de Encaminhamento de Chamada e Simulring.  
 
-Se o envio, a History-Info está habilitada da seguinte forma:
+Se o envio, o History-Info está habilitado da seguinte forma:
 
-- O proxy SIP inserirá um parâmetro que contém o número de telefone associado em entradas History-Info individuais que compõem o History-Info de History-Info enviado ao Controlador PSTN.  Usando apenas entradas que tenham o parâmetro de número de telefone, o Controlador PSTN recriará um novo History-Info de History-Info e o transmitirá ao provedor de tronco SIP por meio de proxy SIP.
+- O proxy SIP inserirá um parâmetro que contém o número de telefone associado em entradas individuais History-Info que compõem o History-Info enviado ao Controlador PSTN.  Usando apenas entradas que tenham o parâmetro de número de telefone, o Controlador PSTN recriará um novo History-Info e o transmitirá ao provedor de tronco SIP por meio de proxy SIP.
 
 - History-Info header será adicionado para casos simultâneos de encaminhamento de chamada e anel.
 
 - History-Info header não será adicionado para casos de transferência de chamada.
 
-- Uma entrada de histórico individual no header History-Info reconstruído terá o parâmetro número de telefone fornecido combinado com o FQDN de Roteamento Direto (sip.pstnhub.microsoft.com) definido como a parte host do URI; um parâmetro de 'user=phone' será adicionado como parte do URI SIP.  Quaisquer outros parâmetros associados ao History-Info original, exceto os parâmetros de contexto do telefone, serão passados no header de History-Info.  
+- Uma entrada de histórico individual no header History-Info reconstruído terá o parâmetro de número de telefone fornecido combinado com o FQDN de Roteamento Direto (sip.pstnhub.microsoft.com) definido como a parte host do URI; um parâmetro de 'user=phone' será adicionado como parte do URI SIP.  Quaisquer outros parâmetros associados ao History-Info original, exceto os parâmetros de contexto do telefone, serão passados no header History-Info re-construído.  
 
   > [!NOTE]
   > Entradas privadas (conforme determinado pelos mecanismos definidos na Seção 3.3 do RFC 4244) serão encaminhadas como é porque o provedor de tronco SIP é um par confiável.
@@ -360,7 +360,7 @@ O History-Info é protegido por um mecanismo TLS obrigatório.
 
 ## <a name="sbc-connection-to-direct-routing-and-failover-mechanism"></a>Conexão SBC com o mecanismo de roteamento direto e failover
 
-Consulte a seção Mecanismo de Failover para sinalização SIP em [Plan for Direct Routing](direct-routing-plan.md#failover-mechanism-for-sip-signaling).
+Consulte o mecanismo de failover da seção para sinalização SIP em [Plan for Direct Routing](direct-routing-plan.md#failover-mechanism-for-sip-signaling).
 
 ## <a name="retry-after"></a>Retry-After
 

@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar ap
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: f8130d8f6d9d8609ce37d5f43f18dd083a5106e0
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442287"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774070"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no Microsoft Teams de administração
 
@@ -150,14 +150,16 @@ As permissões RSC (consentimento específico do recurso) permitem que os propri
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativos em toda a organização
 
-Use configurações de aplicativo em toda a organização para controlar se os usuários obterão uma experiência de aplicativo personalizada com base na licença (em breve), se os usuários podem instalar aplicativos de terceiros e se os usuários podem carregar ou interagir com aplicativos personalizados em sua organização. As configurações de aplicativo em toda a organização controlam o comportamento de todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários. Você pode usá-los para controlar aplicativos maliciosos ou problemáticos.
+Use as configurações de aplicativo em toda a organização para controlar se os usuários com uma licença [F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) obterão a experiência de aplicativo frontline personalizada (em breve), se os usuários poderão instalar aplicativos de terceiros e se os usuários podem carregar ou interagir com aplicativos personalizados em sua organização. As configurações de aplicativo em toda a organização controlam o comportamento de todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários. Você pode usá-los para controlar aplicativos maliciosos ou problemáticos.
 
 > [!NOTE]
 > Para saber como usar as configurações de aplicativos em toda a organização no Microsoft 365 Government - implantações do Nuvem da Comunidade Governamental GCCH e do Departamento de Defesa (DoD) do Teams, consulte [Gerenciar](teams-app-permission-policies.md) políticas de permissão de aplicativo no Teams.
 
-1. Na página Gerenciar aplicativos, selecione **Configurações de aplicativo em toda a organização**. Você pode então definir as configurações desejadas no painel.
+1. Na página Gerenciar aplicativos, selecione **Configurações de aplicativo em toda a organização**. Em seguida, você pode configurar as configurações que deseja no painel.
 
-1. (Em breve) Em **Aplicativos personalizados**, desativar ou ativar **Mostrar aplicativos personalizados com base em licenças**. Quando essa configuração estiver em funcionamento, os usuários obterão uma experiência na qual os aplicativos são fixados com base em sua licença. Para saber mais, confira [Personalizar seus aplicativos Teams com base na licença](pin-teams-apps-based-on-license.md).
+    :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Captura de tela do painel Configurações de aplicativos em toda a organização na página Gerenciar aplicativos":::
+
+1. (Em breve) Em **Aplicativos personalizados**, desativar ou ativar **Mostrar aplicativos personalizados**. Quando essa configuração estiver em funcionamento, os usuários com uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) obterão a experiência de aplicativo de frontline personalizada. Essa experiência fixa os aplicativos mais relevantes no Teams para trabalhadores de linha de frente. Para saber mais, confira [Personalizar Teams aplicativos para seus funcionários de linha de frente](pin-teams-apps-based-on-license.md).
 
     Esse recurso está disponível para licenças F. Outros tipos de licença terão suporte no futuro.
 1. Em **Aplicativos de terceiros**, desabilite ou ative essas configurações para controlar o acesso a aplicativos de terceiros:

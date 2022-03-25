@@ -18,16 +18,16 @@ description: Saiba as diferentes maneiras de atribuir políticas a usuários e g
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 1aabc2472f612e7fff547c73c231a7b6301cc0d9
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 82fa6f1469b0ffc65ec95d057c5e944728209078
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518583"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761935"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Atribuir políticas a usuários e grupos
 
-Este artigo revisa as diferentes maneiras de atribuir políticas a usuários e grupos em Microsoft Teams. Antes de ler, certifique-se de que você leu [Atribuir políticas no Teams - começando](policy-assignment-overview.md).
+Este artigo analisa as diferentes maneiras de atribuir políticas a usuários e grupos em Microsoft Teams. Antes de ler, certifique-se de ler [Atribuir políticas em Teams - começando](policy-assignment-overview.md).
 
 ## <a name="assign-a-policy-to-individual-users"></a>Atribuir uma política a usuários individuais
 
@@ -60,12 +60,12 @@ Você também pode fazer o seguinte para atribuir uma política a um usuário:
 
 Cada tipo de política tem seu próprio conjunto de cmdlets para gere-lo. Use o `Grant-` cmdlet para um determinado tipo de política para atribuir a política. Por exemplo, use o `Grant-CsTeamsMeetingPolicy` cmdlet para atribuir uma Teams de reunião aos usuários. Esses cmdlets estão incluídos no módulo Teams PowerShell e estão documentados na referência Skype for Business [cmdlet.](/powershell/skype)
 
- Baixe e instale o Teams versão pública do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (caso ainda não tenha feito isso) e execute o seguinte para se conectar.
+ Baixe e instale o Teams versão pública do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (se você ainda não tiver feito isso) e execute o seguinte para se conectar.
 
 > [!NOTE]
 > O Conector Skype for Business Online atualmente faz parte do módulo mais recente do PowerShell do Teams.
 >
-> Se você estiver usando a versão Teams versão pública mais recente do [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), não será necessário instalar o conector Skype for Business Online.
+> Se você estiver usando a versão pública mais [recente Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), não será necessário instalar o conector Skype for Business Online.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -85,7 +85,7 @@ Para saber mais, leia [Gerenciar políticas por meio do PowerShell](teams-powers
 
 ## <a name="assign-a-policy-to-a-group"></a>Atribuir uma política a um grupo
 
-A atribuição de política a grupos permite atribuir uma política a um grupo de usuários, como um grupo de segurança ou uma lista de distribuição. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas.
+A atribuição de política a grupos permite atribuir uma política a um grupo de usuários, como um grupo de segurança, uma unidade organizacional ou uma lista de distribuição. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas.
 
 A atribuição de política a grupos é recomendada para grupos de até 50.000 usuários, mas também funcionará com grupos maiores.
 
@@ -117,7 +117,7 @@ Quando você atribui uma política a um grupo, especifica uma classificação pa
 
 A classificação de atribuição de grupo é relativa a outras atribuições de grupo do mesmo tipo. Por exemplo, se você estiver atribuindo uma política de chamada a dois grupos, de definir a classificação de uma atribuição como 1 e a outra como 2, sendo 1 a classificação mais alta. A classificação de atribuição de grupo indica qual associação de grupo é mais importante ou mais relevante do que outras associações de grupo em relação à herança.
 
-Por exemplo, você tem dois grupos, Funcionários da Loja e Gerentes da Loja. Ambos os grupos são atribuídos a uma política de Teams de chamada, a Política de Chamada de Funcionários da Loja e a Política de Chamada de Gerentes de Loja, respectivamente. Para um gerente de loja que está em ambos os grupos, sua função como gerente é mais relevante do que sua função como funcionário, portanto, a política de chamada atribuída ao grupo Gerentes de Loja deve ter uma classificação mais alta.
+Por exemplo, você tem dois grupos, Funcionários da Loja e Gerentes da Loja. Ambos os grupos são atribuídos a uma Teams de chamada, a Política de Chamada de Funcionários da Loja e a Política de Chamada de Gerentes de Loja, respectivamente. Para um gerente de loja que está em ambos os grupos, sua função como gerente é mais relevante do que sua função como funcionário, portanto, a política de chamada atribuída ao grupo Gerentes de Loja deve ter uma classificação mais alta.
 
 |Grupo |Teams nome da política de chamada  |Classificação|
 |---------|---------|---|
@@ -129,7 +129,7 @@ Se você não especificar uma classificação, a atribuição de política receb
 ### <a name="in-the-teams-admin-center"></a>No centro de Teams de administração
 
 > [!NOTE]
-> Atualmente, a atribuição de política para grupos usando o centro de administração do Microsoft Teams está disponível apenas para a política de chamada do Teams, a política de estacionamento de chamada do Teams, Teams política de Teams, Teams política de eventos ao vivo, Teams política de reunião e Teams de mensagens. Para outros tipos de política, use o PowerShell.
+> Atualmente, a atribuição de política para grupos usando o centro de administração do Microsoft Teams está disponível apenas para Teams política de chamada, política de estacionamento de chamada do Teams, política de Teams, política de eventos ao vivo Teams, política de reunião Teams e Teams de mensagens. Para outros tipos de política, use o PowerShell.
 
 1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a página tipo de política. Por exemplo, vá para **MeetingsMeeting** >  policies.
 2. Selecione a **guia Atribuição de política de** grupo.
@@ -251,7 +251,7 @@ Use o seguinte cmdlet no módulo Skype for Business PowerShell para fazer isso.
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-Use o seguinte cmdlet no módulo Teams PowerShell para fazer isso em escala, embora uma atribuição de política em lote, onde $users é uma lista de usuários que você especificar.
+Use o seguinte cmdlet no módulo Teams PowerShell para fazer isso em escala, embora uma atribuição de política em lotes, onde $users é uma lista de usuários que você especificar.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -311,7 +311,7 @@ Quando for solicitado, entre usando as mesmas credenciais de administrador usada
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>Atribuir uma política de instalação a um lote de usuários
 
-Neste exemplo, usamos o cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para atribuir uma política de configuração de aplicativo chamada Política de Instalação de Aplicativos de RH a um lote de usuários listados no arquivo users_ids.text.
+Neste exemplo, usamos o cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) para atribuir uma política de configuração de aplicativo chamada Política de Configuração de Aplicativo de RH a um lote de usuários listados no arquivo users_ids.text.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt

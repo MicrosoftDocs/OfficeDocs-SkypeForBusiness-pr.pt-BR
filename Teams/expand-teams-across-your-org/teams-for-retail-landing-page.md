@@ -20,21 +20,20 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763396"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403962"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Introdução ao Teams para Varejo
 
-Os ambientes de varejo, com seus agendamentos de rotação e equipes em qualquer lugar, têm necessidades muito diferentes das de outras organizações. Para obter o máximo de benefícios para sua organização de varejo, primeiro escolha quais cenários o Teams pode ajudá-lo em suas operações comerciais diárias e, em seguida, certifique-se de preparar seu ambiente do Teams com os conceitos básicos, equipes e aplicativos certos para dar suporte a esses cenários.
+Os ambientes de varejo, com suas agendas rotativas e equipe em qualquer lugar, têm necessidades muito diferentes das de outras organizações. Para aproveitar ao máximo sua organização de varejo, você primeiro escolhe quais cenários o Teams pode ajudar você em suas operações comerciais diárias e, em seguida, verifique se você preparou seu ambiente do Teams com os conceitos básicos, equipes e aplicativos certos para suportar esses cenários.
 
 1. [Escolha os cenários](#choose-your-scenarios) que você deseja implementar para sua empresa.
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Diagrama mostrando cenários do Teams para varejo." lightbox="../media/retail-teams-scenarios.png":::
-1. [Configurar fundamentos](#set-up-the-fundamentals) - Dê suporte à sua força de trabalho com os conceitos básicos: gerenciar contas e dispositivos e garantir que as políticas do Teams apropriadas sejam aplicadas.
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagrama mostrando conceitos básicos, incluindo políticas, contas e dispositivos do Teams." lightbox="../media/retail-teams-fundamentals.png":::
+1. [Configure o conceitos básicos](#set-up-the-fundamentals) - Dê suporte à sua força de trabalho com os conceitos básicos: Gerencie contas e dispositivos e certifique-se de que as políticas apropriadas do Teams sejam aplicadas. :::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagrama mostrando os conceitos básicos, incluindo políticas, contas e dispositivos do Teams." lightbox="../media/retail-teams-fundamentals.png":::
 1. [Configurar equipes e aplicativos](#set-up-teams-and-apps) - Use modelos de equipe para configurar as equipes necessárias rapidamente, incluindo os canais e aplicativos necessários para sua empresa. Adicione outros aplicativos da Microsoft conforme necessário para dar suporte aos seus cenários.
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="Diagrama mostrando equipes, modelos de equipe e aplicativos que podem ser incluídos." lightbox="../media/retail-teams-apps.png":::
 
@@ -79,7 +78,7 @@ Mais informações: [Visitas virtuais com Microsoft Teams e o aplicativo Booking
 
 ### <a name="simplify-business-processes"></a>Simplificar processos comerciais
 
-É possível usar aplicativos do Teams, Power Apps e Power BI para simplificar processos comerciais. Por exemplo, é possível:
+Você pode utilizar os aplicativos do Teams, Power Apps e Power BI para simplificar os processos de negócios. Por exemplo, você pode:
 
 - Definir e manter agendas para seus funcionários com Turnos.
 - Conduza passeios de loja e inventários com Power Apps.
@@ -156,7 +155,7 @@ Para ambientes de varejo, os seguintes aplicativos e serviços podem ajudá-lo a
 
 | Aplicativos e serviços do Teams | Descrição | Gerenciar | Ajuda |
 | ----- | ----- | ----- | ----- |
-| Aprovações | As aprovações podem ser integradas ao chat para facilitar a liberação. | [Gerenciar Aprovações](../approval-admin.md) | [Usar Aprovações](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) |
+| Aprovações | As aprovações podem ser integradas ao chat para facilitar a aprovação. | [Gerenciar Aprovações](../approval-admin.md) | [Usar Aprovações](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) |
 | Chat | Habilite conversas rápidas e verificações entre a equipe com ferramentas de comunicação seguras e de nível empresarial, em vez de aplicativos de nível de consumidor ou SMS. | [Chat, equipes, canais e aplicativos no Microsoft Teams](../deploy-chat-teams-channels-microsoft-teams-landing-page.md) | [Chat no Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams) |
 | Documentos | Compartilhe procedimentos operacionais padrão, políticas de loja, planos e muito mais. | [Como o SharePoint e o OneDrive interagem com o Microsoft Teams](../sharepoint-onedrive-interact.md) | [Compartilhe arquivos](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12) |
 | Elogio | Reconheça colegas de trabalho por um excelente trabalho em equipe com o aplicativo Elogio. | [Gerenciar o aplicativo Elogio](../manage-praise-app.md) | [Enviar Elogio às pessoas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e) |
@@ -168,7 +167,7 @@ Para ambientes de varejo, os seguintes aplicativos e serviços podem ajudá-lo a
 | Mais aplicativos e serviços da Microsoft | Descrição | Gerenciar | Ajuda |
 | ----- | ----- | ----- | ----- |
 | Bookings | Habilitar conexões virtuais e consultas. | [Visitas virtuais com o Microsoft Teams e o aplicativo Bookings](bookings-virtual-visits.md) | [Usar o Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
-| Power Apps e o Power Platform | Integre processos comerciais e habilite atualizações rápidas para dados, como inventário de loja, números de vendas, relatórios de incidentes e muito mais. | [Integração do Teams com o Microsoft Power Platform](../teams-power-platfom-integration.md) e [Gerenciar aplicativos do Microsoft Power Platform no Centro de Administração do Microsoft Teams](../manage-power-platform-apps.md) | -  |
+| Power Apps e o Power Platform | Integre processos comerciais e habilite atualizações rápidas para dados, como inventário de loja, números de vendas, relatórios de incidentes e muito mais. | [Integração do Teams com o Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) e [Gerenciar aplicativos do Microsoft Power Platform no Centro de Administração do Microsoft Teams](../manage-power-platform-apps.md) | -  |
 | SharePoint | Quando você cria uma nova equipe, um novo site do SharePoint é criado e conectado à equipe. Muitos dos cenários acima dependem de recursos do SharePoint já incorporados ao Teams, como o compartilhamento de documentos para colaboração em equipe. | [Integração do Teams e do SharePoint](/sharepoint/teams-connected-sites) | [Adicionar uma página, lista ou biblioteca de documentos do SharePoint como uma guia no Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Conexões do Microsoft Viva | Conexões do Microsoft Viva cria um hub em Teams onde seus associados de varejo podem exibir um feed de notícias personalizado de sua organização e um painel personalizado com recursos necessários. | [Visão geral de Conexões do Microsoft Viva](/sharepoint/viva-connections-overview) | [Conexões do Microsoft Viva no Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 | Aprendizagem do Microsoft Viva | Forneça treinamento quando necessário, bem no fluxo de seu trabalho. | [Gerenciar a Aprendizagem do Microsoft Viva](/microsoft-365/learning/) | [Usar a Aprendizagem do Microsoft Viva (Visualização)](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |
@@ -190,7 +189,7 @@ Além dos modelos de equipe, também é possível configurar outros sites e serv
 
 ## <a name="get-ready-to-roll-out-your-scenarios---identify-roles-and-responsibilities-for-scenarios"></a>Prepare-se para implantar seus cenários - identifique funções e responsabilidades para cenários
 
-Agora que você sabe quais cenários deseja implementar e o que precisa para dar suporte a eles, pode reunir sua equipe para poder planejar, implantar e monitorar como eles estão funcionando em sua organização. Por exemplo, as seguintes funções podem ser necessárias para lançar esses cenários em sua organização:
+Agora que você sabe quais cenários deseja implementar e o que precisa para apoiá-los, você pode reunir sua equipe para que possa planejar, implementar e monitorar como eles estão trabalhando na sua organização. Por exemplo, as seguintes funções podem ser necessárias para implantar esses cenários na sua organização:
 
 | Imagem | Função | Responsibilities | Departamento |
 | ---- | ---- | ----- | ----- |
