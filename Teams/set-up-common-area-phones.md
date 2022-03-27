@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar Telefones de Área Comum para lobbies, áreas de recepção e salas de conferência '
-ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: 313a17d1829c8f3584ec5fb7f37e5f1ec49231d0
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856659"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456934"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>Implantar telefones de área comum para Microsoft Teams
 
@@ -98,9 +98,9 @@ Se você estiver implantando um dispositivo:
 6. Selecione o local de uso do dispositivo e atribua a licença Telefone Área Comum à conta. Se quaisquer outras licenças são necessárias, como Planos de Chamada, atribua-as.
 
 >[!NOTE]
-> Você não precisa adicionar uma licença Sistema de Telefonia de terceiros. Ela está incluída na licença do Telefone da Área Comum.
+> Você não precisa adicionar uma licença de Sistema de Telefonia. Ela está incluída na licença do Telefone da Área Comum.
 >
->Se você não estiver usando Telefone Microsoft roteamento direto do sistema ou Conexão de operador, talvez queira adicionar licenças de Planos de Chamadas. Para obter mais informações sobre licenças, [consulte Microsoft Teams licenciamento de complemento](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+>Se você não estiver usando Telefone Microsoft roteamento direto do sistema ou Conexão operador, talvez queira adicionar licenças de Planos de Chamadas. Para obter mais informações sobre licenças, [consulte Microsoft Teams licenciamento de complemento](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
 
@@ -121,7 +121,7 @@ Se você quiser substituir a interface padrão de um telefone, considere a cria�
 
 ### <a name="calling-policies"></a>Políticas de chamadas
 
-Use políticas de chamada para habilitar chamadas privadas, usando encaminhamento de chamadas ou toque simultâneo em telefones de área comum. Consulte [Chamada e encaminhamento de chamada no Teams](teams-calling-policy.md) para saber mais.
+Use políticas de chamada para habilitar chamadas privadas, usando encaminhamento de chamadas ou toque simultâneo em telefones de área comum. Consulte [Chamada e encaminhamento de chamada em Teams](teams-calling-policy.md) para saber mais.
 
 Por padrão, o estacionamento de chamada não está habilitado para telefones de área comum. Você precisará criar uma política para habilita-la. Consulte [Estacionamento de chamada e recupere em Microsoft Teams](call-park-and-retrieve.md) para saber mais.
 
@@ -135,7 +135,7 @@ Depois de criar e configurar uma conta de usuário, você pode entrar em um tele
 
 - [Login local](#local-sign-in)
 - [Entrar de outro dispositivo](#sign-in-from-another-device)
-- [Entre usando o centro de Teams de administração](#sign-in-using-the-teams-admin-center)
+- [Entre usando o Teams de administração](#sign-in-using-the-teams-admin-center)
 
 ### <a name="local-sign-in"></a>Login local
 
@@ -147,6 +147,9 @@ Para entrar localmente com um nome de usuário e senha:
 
 3. Siga as instruções de entrada no dispositivo. Depois de entrar, o telefone exibirá a experiência de usuário de telefone de área comum.
 
+> [!NOTE]
+> Se você estiver usando uma política de configuração personalizada que desempine o aplicativo de chamada, o bloco de discagem não aparecerá na área comum Telefone. Para obter mais informações sobre Teams de configuração, consulte [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
+
 ### <a name="sign-in-from-another-device"></a>Entrar de outro dispositivo
 
 Você também pode entrar em um telefone de área comum de outro dispositivo usando um código. Ao entrar dessa forma, você inserirá o nome de usuário e a senha em outro dispositivo, em vez de no próprio telefone.
@@ -157,9 +160,9 @@ Você também pode entrar em um telefone de área comum de outro dispositivo usa
 
 3. Insira o código e seguindo as instruções para concluir a entrada.
 
-### <a name="sign-in-using-the-teams-admin-center"></a>Entre usando o centro de Teams de administração
+### <a name="sign-in-using-the-teams-admin-center"></a>Entre usando o Teams de administração
 
-Como administrador, você pode provisioná-los remotamente e entrar em telefones de área comum Teams centro de administração. Esse é o método de login mais eficiente quando você está implantando um grande número de telefones ao mesmo tempo. Consulte [Provisionamento remoto e entre Teams dispositivos Android](devices/remote-provision-remote-login.md) para saber mais.
+Como administrador, você pode provisioná-los remotamente e entrar em telefones de área comum Teams centro de administração. Esse é o método de login mais eficiente quando você está implantando um grande número de telefones ao mesmo tempo. Consulte [Provisionamento remoto e entre em Teams dispositivos Android](devices/remote-provision-remote-login.md) para saber mais.
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -12,35 +12,34 @@ ms.collection:
 description: Saiba mais sobre versões com suporte do Teams PowerShell, usado para administração de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: ea8a755c75c5f91c5dbf3a4cd4dd749ac576557c
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783961"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762005"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell - Versões com suporte
 
-Microsoft Teams versões do PowerShell Module (TPM) na série 4.x.x ou acima serão as únicas versões com suporte para avançar. Todas as versões anteriores estão no caminho da aposentadoria. É recomendável atualizar o Teams PowerShell para a versão mais recente.
+Microsoft Teams versões 4.0.0 ou superior do PowerShell Module (TPM) serão as únicas versões com suporte para o futuro. Todas as versões anteriores estão no caminho da aposentadoria.
 
 
 
 ## <a name="new-organizations"></a>Novas organizações
 
-As organizações recém-Teams poderão usar o módulo Teams PowerShell na série 4.x.x ou acima a partir de 1º de abril de 2022.
+As organizações recém Teams Teams poderão usar o módulo 4.0.0 do PowerShell 4.0 ou superior a partir de 1º de abril de 2022.
 
 
 
 ## <a name="current-organizations-non-tpm-active"></a>Organizações atuais (não ativas do TPM)
 
-As organizações que não usaram o módulo powershell do Teams nos últimos três meses (22 de janeiro – 22 de março), só poderão usar o módulo Teams PowerShell na série 4.x.x ou acima a partir de 1º de abril de 2022.
+As organizações que não usaram o TPM nos últimos três meses (22 de janeiro – 22 de março), só poderão usar o TPM 4.0.0 ou superior a partir de 1º de abril de 2022.
 
 
 
 ## <a name="current-organizations-tpm-active"></a>Organizações atuais (TPM ativo)
 
-As organizações que têm usado o módulo powershell do Teams nos últimos três meses (Jan'22 – Mar'22), só poderão usar o módulo Teams PowerShell na série 4.x.x ou acima a partir de 15 de junho de 2022. 
-
+As organizações que usam o TPM nos últimos três meses (22 de janeiro – 22 de março) só poderão usar o TPM 4.0.0 ou superior a partir de 15 de junho de 2022. É recomendável atualizar o Teams PowerShell para a versão mais recente.
 
 
 ## <a name="important-notes"></a>Anotações importantes
@@ -55,10 +54,10 @@ As organizações que têm usado o módulo powershell do Teams nos últimos trê
 
 -   Se atualizar do Teams PowerShell versão 1.1.6, atualize seus scripts `Connect-MicrosoftTeams` para usar em vez de `New-CsOnlineSession`.
 
--   Durante a atualização, é sugerido não usar o TPM 4.x.x/3.x.x. juntamente com versões anteriores a 3.0.0. Por exemplo, não é recomendável usar as versões 4.x.x & 2.6.0 em conjunto para diferentes operações de administrador na mesma organização. 
+-   Durante a atualização, é sugerido não usar o TPM 4.x.x/3.x.x. juntamente com versões anteriores a 3.0.0. Por exemplo, não é recomendável usar as versões 4.0.0 & 2.6.0 em conjunto para diferentes operações de administrador na mesma organização. 
 
 - Alterações relacionadas
-  * Atualizações para Get-CsOnlineUser & Get-CsOnlineVoiceUser no TPM 3.x.x e acima – mais detalhes em [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (Postagem do Centro de Mensagens – MC340774).[](/powershell/module/skype/get-csonlinevoiceuser)
+  * Atualizações para Get-CsOnlineUser & Get-CsOnlineVoiceUser no TPM 3.0.0 e acima – mais detalhes em [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (Postagem da central de mensagens – MC340774).[](/powershell/module/skype/get-csonlinevoiceuser)
 
   * Alterações na atribuição de Telefone - mais detalhes em [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (Postagem central de mensagens – MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
 

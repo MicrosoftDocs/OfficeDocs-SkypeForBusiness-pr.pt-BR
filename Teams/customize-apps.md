@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como personalizar aplicativos em Microsoft Teams.
-ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442637"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456894"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personalizar aplicativos Microsoft Teams
 
@@ -67,7 +67,7 @@ Para começar a personalizar um aplicativo, conclua as seguintes etapas:
 
      ![A opção personalizar seleção 2.](media/app-details-customizable.png)
 
-   - Selecione o nome do aplicativo e selecione **Personalizar** no menu suspenso **Ações** .
+   - Selecione o nome do aplicativo, clique no **menu de estouro** passe o mouse **em Ações** e selecione personalizar.
 
      ![A opção personalizar seleção 3.](media/customize-action-menu.png)
 

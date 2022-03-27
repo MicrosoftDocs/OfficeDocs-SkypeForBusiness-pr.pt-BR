@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711435"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457064"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -487,6 +487,10 @@ if($cleanup){
 - Teams deve ser implantado por usuário ou por máquina. Não há suporte Teams implantação de Teams para usuários simultâneos e por máquina. Para migrar de cada máquina ou por usuário para um desses modos, siga o procedimento de desinstalação e reimplante para ambos os modos.
 - A Área de Trabalho Virtual do Azure não dá suporte a clientes baseados em macOS e Linux no momento.
 - A opção de locatário rápido pode resultar em problemas relacionados a chamada na VDI, como compartilhamento de tela não disponível. Reiniciar o cliente atenua esses problemas.
+
+### <a name="notifications"></a>Notificações
+
+- A notificação de contagem de mensagens e a presença na barra de tarefas Windows não são suportadas em um Windows Server 2016 host.
 
 ### <a name="calling-and-meetings"></a>Chamada e reuniões
 

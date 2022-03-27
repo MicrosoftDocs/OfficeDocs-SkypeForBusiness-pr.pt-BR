@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -591,7 +591,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -717,7 +717,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -1405,6 +1405,8 @@ items:
             href: rooms/standards-and-room-planner.md
       - name: Dispositivos
         items:
+          - name: Repositório de dispositivos do Teams
+            href: devices/device-store.md
           - name: Implantar
             items:
               - name: Implantar telefones e telas do Teams usando o Intune
@@ -1473,7 +1475,7 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Planejar telefones e exibir a implantação
             href: devices/plan-device-deployment.md
-  - name: 'Controlar aplicativos, bots e conectores no Microsoft Teams'
+  - name: Gerenciar aplicativos
     items:
       - name: Visão Geral
         href: deploy-apps-microsoft-teams-landing-page.md
@@ -1501,8 +1503,6 @@ items:
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: Controlar aplicativos de linha de negócios personalizados
         items:
-          - name: Integrar com a Power Platform
-            href: teams-power-platfom-integration.md
           - name: Gerenciar os aplicativos Power Platform no Centro de Administração do Microsoft Teams
             href: manage-power-platform-apps.md
           - name: Publicar aplicativos personalizados na loja da sua organização

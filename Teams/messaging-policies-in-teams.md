@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711715"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480663"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -34,6 +34,9 @@ ms.locfileid: "63711715"
 As políticas de mensagens são usadas para controlar quais recursos de mensagens de chat e canal estão disponíveis para usuários (proprietários e membros[)](assign-roles-permissions.md) no Microsoft Teams. Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas de mensagens personalizadas.
 
 Os usuários em sua organização receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Edite as configurações na política global ou crie e atribua uma ou mais políticas personalizadas para ativar ou desativar os recursos que você deseja.
+
+> [!NOTE]
+> Para garantir a sincronização após uma alteração de política, uma reinicialização pode ser necessária para determinadas instâncias. 
 
 ## <a name="create-a-custom-messaging-policy"></a>Criar uma política de mensagens personalizada
 
@@ -106,7 +109,8 @@ Aqui estão as configurações de política de mensagens que você pode configur
 - **Remover usuários de chats em grupo** A opção Ativar essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico do chat.
 - **Previsões de texto** A opção Ativar essa configuração para permitir que um usuário receba previsões de texto para mensagens de chat.
 - **Respostas sugeridas**  Ative essa configuração para habilitar respostas sugeridas para mensagens de chat.
-- **Função de permissão de chat** Use essa configuração para definir a função de chat supervisionada do usuário.  Saiba mais sobre [conversas no](supervise-chats-edu.md).
+- **Função de permissão de chat** Use essa configuração para definir a função de chat supervisionada do usuário. Saiba mais sobre [conversas no](supervise-chats-edu.md).
+- **Usuários com permissões de chat completas podem excluir qualquer mensagem** Use essa configuração para permitir que os usuários com permissões completas excluam qualquer mensagem de chat de grupo ou reunião.
 
 > [!NOTE]
 > Algumas dessas configurações, como o uso de Giphys, também podem ser configuradas no nível da equipe pelos proprietários da equipe e no nível de canal privado ou compartilhado pelos proprietários do canal.

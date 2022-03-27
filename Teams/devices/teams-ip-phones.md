@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 3418abb7196e855ab86fff72bc7c1e10eb37bfc0
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: eef9fc099a3509e946fd7d776dd878423df1cdea
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783910"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480673"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams dispositivos Android certificados
 
@@ -71,9 +71,9 @@ Os seguintes dispositivos são Certificados no Salas do Microsoft Teams no Progr
 
 | Modelo de dispositivo | Versão do firmware | Data de término da certificação atual | Tamanho da sala                                        |  Versão do sistema operacional Android    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-| Barra Limpa | `NFB1.20220211.1158`     |3 de setembro de 2024|    Pequenos Sala de Reunião (4,5 m x 4,5 m) | 10 |
-| Neat Pad | `NFA1.20220211.1158 `    | 5 de agosto de 2023 |    Pequenos Sala de Reunião (4,5 m x 4,5 m) | 9 |
-| Neat Board | `NFC1.20220211.1158 `  | 3 de setembro de 2024 |    Pequenos Sala de Reunião (4,5 m x 4,5 m) | 10 |
+| Barra Limpa | `NFB1.20220211.1400` |3 de setembro de 2024|    Pequenos Sala de Reunião (4,5 m x 4,5 m) | 10 |
+| Console de toque do Neat Pad | `NFA1.20220211.1400`  | 5 de agosto de 2023 |  Compatível somente com a Barra Limpa | 9 |
+| Neat Board | `NFC1.20220211.1400 ` | 3 de setembro de 2024 |    Pequenos Sala de Reunião (4,5 m x 4,5 m) | 10 |
 | Colega de quarto logitech | `1.4.71` | 3 de setembro de 2024  | Sala de reunião grande (4,5 m x 8,5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Empacotado com o EPOS Vision 3T | 9 |
 | Dispositivo de toque logitech     | `1.2.982`  |   3 de setembro de 2024  | Compatível com a Barra de Rali da Logitech e a Barra de Rali Mini | 10 |
@@ -102,7 +102,7 @@ Os seguintes dispositivos são Certificados no programa de certificação Micros
 
 | Modelo de dispositivo| Versão do firmware | Data de término da certificação atual | Versão do sistema operacional Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Barra Limpa         | `NFB1.20220211.1158` | 5 de agosto de 2023 | 9 |
+|Painel de Blocos Limpos    | `NFA1.20220211.1400` | 5 de agosto de 2023 | 9 |
 |Crestron TSS-770 | `1.003.0082` |5 de dezembro de 2022  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|5 de dezembro de 2022 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|5 de agosto de 2023   | 9 |
