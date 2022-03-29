@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774010"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504141"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -57,32 +57,34 @@ Os aplicativos são fixados em:
 |![O Teams da área de trabalho.](media/app-setup-policies-desktop-app-bar.png)<  |   ![O Teams cliente móvel](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> Se você tiver Teams para Educação, é importante saber que o aplicativo Assignments está fixado por padrão na política global, mesmo que no momento, você não o veja listado na política global. Ele será o quarto aplicativo na lista de aplicativos fixados Teams clientes.
+> Se você tiver Teams para Educação, é importante saber que o aplicativo Assignments está fixado por padrão na política global, mesmo que no momento, você não o veja listado na política global. Ele será o quarto aplicativo na lista de aplicativos fixados em Teams clientes.
 
 Para criar uma política de configuração de aplicativo para fixar aplicativos, faça as seguintes etapas:
 
-1. Na navegação à esquerda do centro [de](https://www.admin.teams.microsoft.com) administração Teams, acesse **Teams** **appsSetup** >  policies.
+1. Faça logoff [no Microsoft Teams de administração](https://admin.teams.microsoft.com).
 
-2. Selecione **Adicionar**.
+1. No painel esquerdo, vá para Teams **appsSetup** >  policies.
 
-3. Insira um nome e uma descrição para a política.
+1. Selecione **Adicionar**.
 
-4. Ativar o **pinning do usuário**.
+1. Insira um nome e uma descrição para a política.
+
+1. Ativar o **pinning do usuário**.
 
    > [!NOTE]
    > A  configuração de fixação de usuário está disponível no centro de administração do Teams em ambientes Microsoft 365 Nuvem da Comunidade Governamental (GCC) (GCC, GCC Alta e DoD), mas atualmente não tem efeito.
 
-5. Em **Aplicativos fixados**, selecione **Adicionar aplicativos**.
+1. Em **Aplicativos fixados**, selecione **Adicionar aplicativos**.
 
-6. No painel **Adicionar aplicativos fixados** , pesquise os aplicativos que você deseja adicionar e selecione **Adicionar**. Você também pode filtrar aplicativos por política de permissão do aplicativo.
+1. No painel **Adicionar aplicativos fixados** , pesquise os aplicativos que você deseja adicionar e selecione **Adicionar**. Você também pode filtrar aplicativos por política de permissão do aplicativo.
 
-7. Selecione **Adicionar**.
+1. Selecione **Adicionar**.
 
-8. Na barra **de aplicativos** ou extensões de Mensagens, organize os **aplicativos** na ordem em que você deseja que eles apareçam Teams.
+1. Na barra **de aplicativos** ou extensões de Mensagens, organize os **aplicativos** na ordem em que você deseja que eles apareçam Teams.
 
    ![a seção Aplicativos fixados.](media/pin-messaging-extensions.png)
 
-9. Selecione **Salvar**.
+1. Selecione **Salvar**.
 
 ## <a name="install-apps"></a>Instalar aplicativos
 

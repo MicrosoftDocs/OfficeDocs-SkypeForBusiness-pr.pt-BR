@@ -3,6 +3,86 @@
 
 
 
+## <a name="week-of-march-21-2022"></a>Semana de 21 de março de 2022
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 3/21/2022 | [Canais compartilhados no Microsoft Teams (Visualização)](/MicrosoftTeams/shared-channels) | adicionado |
+| 3/21/2022 | [Atribuir proprietários e membros da equipe no Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | modificado |
+| 3/21/2022 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
+| 3/21/2022 | [Práticas recomendadas para organizar equipes](/MicrosoftTeams/best-practices-organizing) | modificado |
+| 3/21/2022 | [Chat, equipes, canais e aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
+| 3/21/2022 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
+| 3/21/2022 | [Conduzir uma investigação de Descoberta EDiscovery de conteúdo](/MicrosoftTeams/ediscovery-investigation) | modificado |
+| 3/21/2022 | [Teams para Educação Assistente de Política para aplicar facilmente políticas para aprendizado seguro](/MicrosoftTeams/easy-policy-setup-edu) | modificado |
+| 3/21/2022 | [Visitas virtuais com Teams - Integração ao Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | modificado |
+| 3/21/2022 | [Introdução aos modelos de equipe no Centro de administração do Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modificado |
+| 3/21/2022 | [Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
+| 3/21/2022 | [Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal](/MicrosoftTeams/legal-hold) | modificado |
+| 3/21/2022 | [Limites e especificações do Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 3/21/2022 | [Configurar e gerenciar a moderação do canal](/MicrosoftTeams/manage-channel-moderation-in-teams) | modificado |
+| 3/21/2022 | [Gerenciar marcas em Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
+| 3/21/2022 | [Gerenciar políticas de mensagens no Teams](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
+| 3/21/2022 | [Migrar do Slack para o Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modificado |
+| 3/21/2022 | [Teams de aplicativos com base em tipos de usuários](/MicrosoftTeams/non-standard-users) | modificado |
+| 3/21/2022 | [Planejar a governança em equipes ‒ Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | modificado |
+| 3/21/2022 | [Canais privados no Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
+| 3/21/2022 | [Desativação do Skype for Business Online](/MicrosoftTeams/skype-for-business-online-retirement) | modificado |
+| 3/21/2022 | [Visão geral de equipes e canais no Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modificado |
+| 3/21/2022 | [Gerenciar políticas de canal em Microsoft Teams](/MicrosoftTeams/teams-policies) | modificado |
+| 3/21/2022 | [Teams integração com a Plataforma Microsoft Power](/MicrosoftTeams/teams-power-platfom-integration) | modificado |
+| 3/21/2022 | [Barreiras de informações e canais compartilhados (visualização)](/MicrosoftTeams/information-barriers-shared-channels) | adicionado |
+| 3/21/2022 | [Barreiras de informações no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
+| 3/21/2022 | [Usando o relatório de Power BI CQD para exibir Atendedor Automático & Relatório Histórico da Fila de Chamada](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | modificado |
+| 3/21/2022 | [Atendedor Automático & Histórico da Fila de Chamada](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modificado |
+| 3/21/2022 | [Configurar um atendimento automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 3/21/2022 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 3/21/2022 | [Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz](/MicrosoftTeams/dial-voice-reference) | modificado |
+| 3/21/2022 | [Gerenciar políticas de retenção para o Microsoft Teams.](/MicrosoftTeams/retention-policies) | modificado |
+| 3/21/2022 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 3/21/2022 | [Diretrizes de sala de reunião para Teams](/MicrosoftTeams/teams-meeting-room-guidance) | modificado |
+| 3/22/2022 | [Salas do Microsoft Teams padrões e planejamento de sala](/MicrosoftTeams/rooms/standards-and-room-planner) | modificado |
+| 3/22/2022 | [Visão geral de equipes e canais no Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modificado |
+| 3/22/2022 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 3/22/2022 | [Microsoft Teams notas de versão do PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+| 3/22/2022 | [Gerenciar marcas em Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
+| 3/23/2022 | [Atribuir políticas a usuários e grupos](/MicrosoftTeams/assign-policies-users-and-groups) | modificado |
+| 3/23/2022 | [Microsoft Teams de administrador # < 60 caracteres](/MicrosoftTeams/index) | modificado |
+| 3/23/2022 | [Canais privados no Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
+| 3/23/2022 | [Monitorar Salas do Microsoft Teams dispositivos com o Monitor do Azure](/MicrosoftTeams/rooms/azure-monitor-manage) | modificado |
+| 3/23/2022 | [Teams PowerShell - Versões com suporte](/MicrosoftTeams/teams-powershell-supported-versions) | modificado |
+| 3/23/2022 | [Introdução ao Teams gravação baseada em política para & reuniões](/MicrosoftTeams/teams-recording-policy) | modificado |
+| 3/23/2022 | [Controladores de Borda de Sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 3/23/2022 | [Habilitar usuários para Roteamento Direto](/MicrosoftTeams/direct-routing-enable-users) | modificado |
+| 3/23/2022 | [Roteamento Direto do Sistema Telefônico](/MicrosoftTeams/direct-routing-protocols-sip) | modificado |
+| 3/23/2022 | [Usar arquivos de log para solucionar problemas no Microsoft Teams](/MicrosoftTeams/log-files) | modificado |
+| 3/23/2022 | [Gerenciar seus aplicativos no Microsoft Teams de administração](/MicrosoftTeams/manage-apps) | modificado |
+| 3/23/2022 | [Personalizar Teams aplicativos para seus funcionários de linha de frente](/MicrosoftTeams/pin-teams-apps-based-on-license) | modificado |
+| 3/23/2022 | [Configurar Gateway SIP](/MicrosoftTeams/sip-gateway-configure) | modificado |
+| 3/23/2022 | [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
+| 3/24/2022 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
+| 3/24/2022 | [Desativação do Skype for Business Online](/MicrosoftTeams/skype-for-business-online-retirement) | modificado |
+| 3/24/2022 | [Teams PowerShell - Versões com suporte](/MicrosoftTeams/teams-powershell-supported-versions) | modificado |
+| 3/24/2022 | [Atualizações assistidas Skype \| Business Online para Teams Atualização](/MicrosoftTeams/upgrade-assisted) | modificado |
+| 3/24/2022 | [Aplicativos, bots e conectores no Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
+| 3/24/2022 | [Dimensões e medidas - Painel de Qualidade de Chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 3/24/2022 | [Teams para o Varejo](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | modificado |
+| 3/24/2022 | [Gerenciar políticas de reunião para compartilhamento de conteúdo](/MicrosoftTeams/meeting-policies-content-sharing) | modificado |
+| 3/24/2022 | Teams integração com a Plataforma Microsoft Power | removido |
+| 3/25/2022 | [Atribuir, alterar ou remover o número de telefone de um usuário](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modificado |
+| 3/25/2022 | [Personalizar aplicativos Microsoft Teams](/MicrosoftTeams/customize-apps) | modificado |
+| 3/25/2022 | [Teams de dispositivos](/MicrosoftTeams/devices/device-store) | modificado |
+| 3/25/2022 | [Gerenciar equipes no centro de administração do Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modificado |
+| 3/25/2022 | [Preparo da rede da sua organização para o Teams](/MicrosoftTeams/prepare-network) | modificado |
+| 3/25/2022 | [Configurar a licença de Telefone Área Comum](/MicrosoftTeams/set-up-common-area-phones) | modificado |
+| 3/25/2022 | [Usar a API Teams envio de aplicativos para enviar e aprovar seus aplicativos personalizados](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
+| 3/25/2022 | [Gerenciar políticas de permissões de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
+| 3/25/2022 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 3/25/2022 | [Atualizações assistidas Skype \| Business Online para Teams Atualização](/MicrosoftTeams/upgrade-assisted) | modificado |
+| 3/25/2022 | [Usar as funções de administrador do Microsoft Teams para gerenciar o Teams](/MicrosoftTeams/using-admin-roles) | modificado |
+
+
 ## <a name="week-of-march-14-2022"></a>Semana de 14 de março de 2022
 
 

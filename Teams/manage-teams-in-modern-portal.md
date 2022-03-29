@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579531"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456944"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 
@@ -32,18 +32,19 @@ ms.locfileid: "60579531"
 
 Este artigo fornece uma visão geral das ferramentas de gerenciamento para Teams no centro de administração do Microsoft Teams.
 
-Como administrador, você pode precisar exibir ou atualizar as equipes que sua organização configurou para colaboração ou pode precisar executar ações de correção, como atribuir proprietários para equipes sem proprietário. Você pode gerenciar as equipes usadas em sua organização por meio do módulo Microsoft Teams PowerShell e do centro de administração do Microsoft Teams. Você pode acessar o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"> https://admin.microsoft.com </a>. Para obter recursos de administração completos usando esses dois conjuntos de ferramentas, você deve se certificar de que recebeu uma das seguintes funções:
+Como administrador, você pode precisar exibir ou atualizar as equipes que sua organização configurou para colaboração ou pode precisar executar ações de correção, como atribuir proprietários para equipes sem proprietário. Você pode gerenciar as equipes usadas em sua organização por meio do módulo Microsoft Teams PowerShell e do centro de administração do Microsoft Teams. Você pode acessar o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"> https://admin.microsoft.com </a>. Para obter recursos de administração completos usando esses dois conjuntos de ferramentas, certifique-se de que recebeu uma das seguintes funções:
 
 - Administrador Global
 - Administrador do Teams
 
 Você pode aprender mais sobre as funções administrativas do Teams em [Usar funções administrativas do Microsoft Teams para gerenciar Equipes](using-admin-roles.md) e pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência de cmdlets do Microsoft Teams](/powershell/teams/).
 
-
+> [!NOTE]
+> Os Administradores Online do Cliente Skype® for Business podem gerenciar as políticas do aplicativo **Teams** e **Skype for Business Online** pelo PowerShell.
 
 ## <a name="teams-overview-grid"></a>Grade de visão geral do Teams
 
-As ferramentas de gerenciamento para equipes estão no nó do **Teams** do centro de administração do Microsoft Teams. (No centro de administração, selecione **Teams** > **Gerenciar equipes**.) Cada equipe é apoiada por um Grupo Microsoft 365 e este nó fornece uma visão dos grupos que foram Microsoft Teams -ativado em sua organização.
+As ferramentas de gerenciamento das equipes estão no nó **Equipes** no Centro de administração do Microsoft Teams. (No centro de administração, selecione **Equipes** > **Gerenciar equipes**.) Cada equipe tem o suporte de um Grupo do Microsoft 365 e esse nó fornece uma exibição dos grupos que foram habilitados para o Microsoft Teams em sua organização.
 
 ![Captura de tela da grade de visão geral do Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -65,7 +66,7 @@ A grade exibe as seguintes propriedades:
 
 ### <a name="add"></a>Adicionar
 
-Para adicionar uma nova equipe, clique em **Adicionar**. No painel **​Adicionar uma nova equipe**, dê um nome e uma descrição à equipe, defina se deseja torná-la pública ou privada e defina a classificação.
+Para adicionar uma nova equipe, clique em **Adicionar**. No painel **Adicionar uma nova equipe**, dê um nome e uma descrição à equipe, defina se deseja torná-la uma equipe privada ou pública e defina a classificação.
 
 > [!NOTE]
 > As equipes recém-criadas podem ser gerenciadas imediatamente no Centro de Administração do Teams, ao contrário da experiência em outros clientes como o Outlook.

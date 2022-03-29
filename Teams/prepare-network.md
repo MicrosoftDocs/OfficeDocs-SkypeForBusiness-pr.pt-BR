@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456341"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457054"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar a rede da organização para o Microsoft Teams 
 
@@ -91,7 +91,7 @@ Para uma discussão aprofundada sobre otimização de rede, incluindo orientaç�
 </tr>
 <tr class="even">
 <td>Consultor para o Teams</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">O Assistente do Teams</a> faz parte do<a href="https://admin.teams.microsoft.com"> centro de administração do Teams</a>. Ele avalia o ambiente do seu Microsoft 365 ou Office 365 e identifica as configurações mais comuns que talvez sejam necessárias atualizar ou modificar antes de poder implantar o Teams com êxito.</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">O Assistente do Microsoft Teams</a> faz parte do <a href="https://admin.teams.microsoft.com">centro de administração do Microsoft Teams </a>. Ele avalia o ambiente do seu Microsoft 365 ou Office 365 e identifica as configurações mais comuns que você pode precisar atualizar ou modificar antes de poder implantar com êxito o Microsoft Teams.</td>
 </tr>
 <tr class="odd">
 <td>Resolução do nome externo</td>
@@ -106,7 +106,7 @@ Para uma discussão aprofundada sobre otimização de rede, incluindo orientaç�
 </tr>
 <tr class="even">
 <td>Roteamento para data centers da Microsoft</td>
-<td><a href="/office365/enterprise/client-connectivity">Implemente o roteamento mais eficiente para data centers da Microsoft</a>. Identifique locais que podem usar pontos de saída locais ou regionais para se conectar à rede da Microsoft da forma mais eficiente possível.</td>
+<td><a href="/office365/enterprise/client-connectivity">Implemente o roteamento mais eficiente para os data centers da Microsoft</a>. Identifique locais que podem usar pontos de saída locais ou regionais para se conectar à rede da Microsoft da forma mais eficiente possível.</td>
 </tr>
 <tr class="odd">
 <td>Detecção de invasão e orientação de prevenção</td>
@@ -153,7 +153,7 @@ Essa tabela descreve como o Teams usa a largura de banda. O Teams é sempre prud
       **Modalidade**
    :::column-end:::
    :::column span="3":::
-      **Requisitos de largura de banda (KB/s de taxa de bits para cima/para baixo)**
+      **Requisitos de largura de banda (taxa de bits kB/s para cima/para baixo)**    
    :::column-end:::
 :::row-end:::
 :::row:::

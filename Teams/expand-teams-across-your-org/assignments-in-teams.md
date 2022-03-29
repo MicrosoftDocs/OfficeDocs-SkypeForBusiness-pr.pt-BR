@@ -21,18 +21,18 @@ description: Saiba como gerenciar atribuições no Microsoft Teams de administra
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88414131b5ba8fee750efef8d0b6f6f5313e13fd
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363137"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504131"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
-Os recursos Atribuições e Notas no Teams para Educação permitem que os educadores atribuam tarefas, trabalho ou testes aos seus alunos. Os educadores podem gerenciar cronogramas de atribuição, instruções, adicionar recursos para a atribuição, notas com rubricas e muito mais. Eles também podem acompanhar o progresso da classe e do aluno individual na guia Notas.
+Os recursos Atribuições e Notas no Teams para Educação permitem que os educadores atribuam tarefas, trabalhos ou testes aos alunos. Os educadores podem gerenciar cronogramas de atribuição, instruções, adicionar recursos para a atribuição, notas com rubricas e muito mais. Eles também podem acompanhar o progresso da classe e do aluno individual na guia Notas.
 
-[Saiba mais sobre atribuições e notas em Teams para Educação](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
+[Saiba mais sobre atribuições e notas no Teams para Educação](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
 > Para obter detalhes Teams atribuições em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -74,7 +74,7 @@ MakeCode é um produto da Microsoft que está sujeito aos termos [de uso e](http
 
 A configuração padrão para esse recurso é - **Off**.
 
-Para habilitar as atribuições makeCode Teams, vá para o Centro de Administração Teams, navegue até a seção Atribuições e ative **a** opção Alternar MakeCode para **Ativado**. Clique em **Salvar**. Permita algumas horas para que essas configurações entre em vigor.
+Para habilitar as Teams MakeCode, vá para o Centro de Administração Teams, navegue até a seção Atribuições e  ative **a** opção de alternância MakeCode para **Ativado**. Selecione **Salvar**. Permita algumas horas para que essas configurações entre em vigor.
 
 Para obter mais informações sobre como esse recurso funciona, assista a esta [demonstração de vídeo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -84,9 +84,9 @@ Para obter mais informações sobre como esse recurso funciona, assista a esta [
 
 ### <a name="turnitin"></a>Turnitin
 
-[Turnitin é](https://www.turnitin.com/) um serviço de integridade acadêmica. Esse é um serviço de terceiros que está sujeito aos seus próprios termos e política de privacidade. Você é responsável pelo uso de quaisquer produtos e serviços de terceiros.
+[Turnitin é](https://www.turnitin.com/) um serviço de integridade acadêmica. Esse é um serviço de terceiros que está sujeito aos seus próprios termos e política de privacidade. Você é responsável pelo uso de produtos e serviços de terceiros.
 
-A configuração padrão para esse recurso é - **Off**..
+A configuração padrão para esse recurso é - **Off**.
 
 Para habilitar o Turnitin para sua organização, você precisará de uma assinatura turnitin. Em seguida, você pode inserir as seguintes informações, que podem ser encontradas no console de administração turnitin:
 
@@ -105,7 +105,7 @@ Selecione **Integrações** no menu lateral e selecione **Adicionar Integração
 ![Captura de tela mostrando a adição de uma nova integração.](./educationImages/Assignments_mopo_turnitin2.png)
 
 O **TurnitinApiKey** será dado a você depois de seguir os prompts.
-Copie a chave da API e a colar no centro de Microsoft Teams de administração.  Esta é a única hora em que você pode exibir a chave.
+Copie a chave da API e a colar no Microsoft Teams de administração.  Esta é a única hora em que você pode exibir a chave.
 
 ![Captura de tela mostrando a cópia da chave da API.](./educationImages/Assignments_mopo_turnitin3.png)
 
@@ -113,14 +113,14 @@ Ao clicar no **botão Salvar** no centro de administração para essa configura�
 
 ## <a name="assignments-data"></a>Dados de atribuições
 
-As atribuições armazenam informações geradas por professores e alunos. Todos os dados são compartilhados entre o professor e o aluno específico para o qual as informações se destinam na aula. Há dois armazenamentos disso, SharePoint e fora do SharePoint.
+As atribuições armazenam informações geradas por professores e alunos. Todos os dados são compartilhados entre o professor e o aluno específico para o qual as informações se destinam na aula. Há dois armazenamentos desses dados, SharePoint e fora do SharePoint.
 
 >[!NOTE]
 >As mesmas regras também se aplicam a integrações de primeira parte, como o Progresso da Leitura.
 
 ### <a name="assignments-data-in-sharepoint-document-libraries"></a>Dados de atribuições em SharePoint de documentos
 
-Os arquivos dos alunos associados a um Envio para Atribuição são armazenados em uma biblioteca de documentos (chamada: *Trabalho do Aluno*). Os arquivos associados a Atribuições que são criados por professores e acessíveis por alunos são armazenados em outra biblioteca de documentos (*chamada: Arquivos* de Classe) no site correspondente de equipe de classe SharePoint site. As integrações de primeira parte também podem armazenar dados de atribuições no mesmo site de equipe de classe correspondente SharePoint site (chamado: Título de atribuições *+ carimbo de data/hora*).
+Os arquivos dos alunos associados a um Envio para Atribuição são armazenados em uma biblioteca de documentos (chamada: *Trabalho do Aluno*). Os arquivos associados a Atribuições que são criados por professores e acessíveis por alunos são armazenados em outra biblioteca de documentos (*denominada: Arquivos* de Classe) no site correspondente de equipe de classe SharePoint site. As integrações de primeira parte também podem armazenar dados de atribuições no mesmo site de equipe de classe correspondente SharePoint site (chamado: Título de atribuições *+ carimbo de hora*).
 
 #### <a name="files-associated-with-the-student"></a>Arquivos associados ao aluno
 
@@ -128,11 +128,11 @@ Os administradores de IT podem usar a ferramenta Pesquisa de Conteúdo para pesq
 
 #### <a name="files-associated-with-the-teacher"></a>Arquivos associados ao professor
 
-Os administradores de IT podem usar a ferramenta de Pesquisa de Conteúdo para pesquisar arquivos de *professores (Trabalho* do *Aluno, Arquivos* de Classe ou outros arquivos de integração de 1ª parte) relacionados a atribuições, bem como arquivos distribuídos aos alunos pelos professores em uma classe de atribuições. Por exemplo, um administrador pode pesquisar todos os SharePoint na organização e usar o nome e o nome da classe ou atribuição do professor na consulta de pesquisa para encontrar dados relevantes para uma DSR.
+Os administradores de IT podem usar a ferramenta Pesquisa de Conteúdo para pesquisar arquivos de *professores (Trabalho* do *Aluno, Arquivos* de Classe ou outros arquivos de integração de 1ª parte) relacionados a atribuições e arquivos distribuídos aos alunos pelos professores em uma aula sobre atribuições. Por exemplo, um administrador pode pesquisar todos os SharePoint na organização e usar o nome e o nome da classe ou atribuição do professor na consulta de pesquisa para encontrar dados relevantes para uma DSR.
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Dados de atribuições fora de SharePoint de documentos
 
-Alguns dados relacionados a Atribuições não são armazenados no site da equipe de classe SharePoint, o que significa que não é possível descobrir com a Pesquisa de Conteúdo. Isso inclui:
+Alguns dados relacionados a Atribuições não são armazenados no site da equipe de classe SharePoint, o que significa que eles não podem ser descobertos com a Pesquisa de Conteúdo. Isso inclui:
 
 - Notas dos alunos e comentários do professor
 - A lista de documentos enviados para uma atribuição por cada aluno
@@ -177,3 +177,36 @@ Você também pode usar Teams para remover atribuições e notas para um usuári
 Para remover atribuições e notas de um usuário individual, vá para o  Centro de Administração Teams e navegue até Teams aplicativos **> Políticas** de permissão para criar uma nova definição de política de permissão de aplicativo.  Ao criar a nova definição de política, desmarque  a política de aplicativos da **Microsoft** como Bloquear **aplicativos específicos** e permita que todos os outros e adicione atribuições à lista de aplicativos bloqueados. Depois que a nova definição de política for salva, atribua-a aos usuários apropriados.
 
 Para remover atribuições e notas de todo o locatário, vá para o Centro de Administração **Teams,** navegue até Teams **aplicativos > Gerenciar** **aplicativos e pesquise** e selecione Atribuições na lista de aplicativos. Altere a configuração de status na página Configurações do aplicativo de atribuição como _Bloqueado_.
+
+## <a name="assignments-diagnostic-tool-for-users"></a>Ferramenta de diagnóstico de atribuições para usuários
+
+O Suporte da Microsoft criou uma ferramenta para coletar dados de diagnóstico para a equipe de engenharia da Microsoft para investigar problemas relacionados ao recurso Assignments.
+
+Essa ferramenta pode ser acessada dentro de Atribuições em qualquer tela que os usuários experimentem um problema.
+
+Para puxar a ferramenta de diagnóstico no Teams, os usuários podem:
+
+- **Na área de trabalho e na Web:**
+  - Selecione Ctrl+/
+- **Em dispositivos móveis:**
+  - Toque na tela com dois dedos e gire os dedos 45 graus ou
+  - Toque na tela com três dedos por 15 segundos
+
+Depois que a ferramenta de diagnóstico aparecer, os usuários verão uma lista de dados que podem ser necessários para o suporte técnico da Microsoft.
+
+Os dados coletados podem incluir:
+
+- ID do grupo
+- ID do locatário
+- ID da sessão
+- ID de atribuição
+- ID de envio
+- ID do Usuário
+
+Esses dados não são enviados automaticamente para a Microsoft. Os usuários precisam copiar e colar os dados a um agente de suporte da Microsoft em relação a um tíquete de suporte.
+
+Se um usuário puxar a ferramenta de diagnóstico, então a fechará, nenhum dado será enviado.
+
+Quando os dados são enviados a um agente de suporte da Microsoft, eles são tratados como Dados de Suporte nos contratos de serviço Microsoft 365 da sua organização.
+
+Para obter instruções sobre como usar essa ferramenta de diagnóstico que você pode compartilhar com educadores e alunos, consulte Obter dados de diagnóstico [para solucionar problemas de atribuições](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).
