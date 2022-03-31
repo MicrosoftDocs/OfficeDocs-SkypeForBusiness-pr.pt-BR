@@ -221,7 +221,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -591,7 +591,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -717,7 +717,7 @@ items:
             href: audio-conferencing-pay-per-minute.md
           - name: Gerenciar as configurações de audioconferência para usuários
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
               - name: Ver uma lista de usuários habilitados para Audioconferência
                 href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
@@ -855,6 +855,8 @@ items:
                 href: operator-connect-configure.md
           - name: Roteamento Direto
             items:
+              - name: Novidades
+                href: direct-routing-whats-new.md
               - name: Visão Geral
                 href: direct-routing-landing-page.md
               - name: Planejar o Roteamento Direto

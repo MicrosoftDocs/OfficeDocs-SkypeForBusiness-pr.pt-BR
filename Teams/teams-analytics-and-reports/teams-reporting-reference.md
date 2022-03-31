@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Neste artigo, você aprenderá sobre os relatórios Teams que estão disponíveis no centro de administração Microsoft Teams local.
+description: Neste artigo, você aprenderá sobre os relatórios Teams que estão disponíveis no Microsoft Teams de administração.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e52cfeb36ddc734a5cef420261308e9b8867d56
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: b773b2d214bd105b8ca94850c0ddbc6e8c23757a
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929136"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556352"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -31,7 +31,7 @@ Uma nova experiência de análise e relatório para Microsoft Teams está dispon
 
 ## <a name="how-to-access-the-reports"></a>Como acessar os relatórios
 
-Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, leitor global no Microsoft 365 ou Office 365, administrador de serviço Teams ou Skype for Business administrador. Para saber mais sobre Teams de administrador e quais relatórios cada função de administrador pode acessar, consulte [Use Teams funções](../using-admin-roles.md) de administrador para gerenciar Teams.
+Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, leitor global no Microsoft 365 ou Office 365, administrador de serviço Teams ou administrador Skype for Business. Para saber mais sobre Teams de administrador e quais relatórios cada função de administrador pode acessar, consulte [Use Teams funções](../using-admin-roles.md) de administrador para gerenciar Teams.
 
 Vá para o Microsoft Teams de administração, na navegação à esquerda, selecione **Relatórios** de análise & e, em **Exibir** Relatórios, escolha o relatório que deseja executar.
 
@@ -55,18 +55,19 @@ Estamos melhorando continuamente a experiência de relatório Teams e adicionand
 |[Teams de uso PSTN - Planos de Chamada](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Telefone número<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou região<br>Charge<br>Moeda<br>Duração<br>Doméstico/Internacional<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
 |[Teams de uso PSTN - Roteamento Direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome para exibição<br>Endereço SIP<br>Telefone número <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcodigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
 |[Teams relatório de licença de proteção de informações](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração disparados por um usuário<br><br>Quais aplicativos estão escutando eventos de notificação de alterações em toda a organização<br>|
-|[Teams relatório de uso de Visitas Virtuais](virtual-visits-usage-report.md)  | Número de visitas virtuais<br>Número de visitas do Bookings<br>Número de Teams EHR (Registros Eletrônicos de Saúde) integrados<br>Duração média de uma visita<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da Reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>SMS enviado
+|[Teams relatório de uso de Visitas Virtuais](virtual-visits-usage-report.md)  | Número de visitas virtuais<br>Número de Bookings visitas<br>Número de Teams EHR (Registros Eletrônicos de Saúde) integrados<br>Duração média de uma visita<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da Reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>SMS enviado
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Tornar os dados específicos do usuário anônimos
 
-Para tornar os dados na Teams do usuário e Teams relatório de uso do dispositivo anônimo, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e AAD ID em relatórios e suas exportações.
+Para tornar os dados na Teams do usuário e Teams relatório de uso do dispositivo anônimo, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e Microsoft Azure Active Directory ID em relatórios e suas exportações.
 
 1. Em Centro de administração do Microsoft 365, vá **para a Configurações** \> **Org Configurações** e, em **Serviços**, escolha **Relatórios**.
     
-2. Selecione **Relatórios** e escolha Exibir **identificadores anônimos**. Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
+2. Selecione **Relatórios** e escolha Exibir nomes de usuário, grupo e site ocultos **em todos os relatórios**. Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como Teams centro de administração.
   
 3. Selecione **Salvar alterações**.
 
 > [!NOTE]
-> Habilenciar essa configuração desadentará informações no [relatório Teams atividade](user-activity-report.md) do usuário [e Teams](device-usage-report.md) relatório de uso do dispositivo. Ele não afetará outros relatórios de uso disponíveis Teams centro de administração.
+> Habilenciar essa configuração desidentificá-Teams relatório de atividade do usuário [e Teams](device-usage-report.md) relatório de uso do dispositivo.[](user-activity-report.md) Ele não afetará outros relatórios de uso disponíveis Teams centro de administração.
+> Essa configuração também se aplica Microsoft 365 relatórios de uso em Centro de administração do Microsoft 365, microsoft Graph e Power BI.

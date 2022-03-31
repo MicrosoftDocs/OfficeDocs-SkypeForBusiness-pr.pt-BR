@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711955"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556342"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 
@@ -63,7 +63,7 @@ A tabela abaixo mostra as diferenças de permissão entre um proprietário e um 
 
 ## <a name="moderator-capabilities"></a>Recursos do moderador
 
-Além de outros recursos, os proprietários e membros da equipe podem ter recursos do moderador para um canal (desde que a moderação esteja habilitada para uma equipe). Os moderadores podem iniciar novas postagens em um canal e controlar se os membros da equipe podem responder às mensagens existentes do canal. Eles também conseguem controlar se os bots e conectores podem enviar mensagens de canal.
+Além de outros recursos, os proprietários e membros da equipe podem ter recursos do moderador para um canal (desde que a moderação esteja habilitada para uma equipe). Os moderadores podem iniciar novas postagens em um canal e controlar se os membros da equipe podem responder às mensagens existentes do canal. Os moderadores também podem controlar se aplicativos com recursos de bots e conectores podem enviar mensagens de canal.
 
 A função de moderador é atribuída no nível do canal. Os proprietários da equipe têm recursos de moderador por padrão. Também por padrão, os membros da equipe não têm a função de moderação ativada, mas o proprietário pode conceder essa função em um canal para um membro. Dentro de um canal, os moderadores podem adicionar e remover outros moderadores.
 

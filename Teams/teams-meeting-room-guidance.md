@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711565"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556272"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Diretrizes de sala de reunião para Teams
 
@@ -33,7 +33,7 @@ Este artigo destina-se a orientar os usuários sobre como otimizar espaços de r
 
 # <a name="meeting-room-uses-and-layouts"></a>[Usos e layouts da sala de reunião](#tab/uses)
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Salas do Microsoft Teams soluções oferecem flexibilidade de finalidade e até mesmo flexibilidade de movimentação em um espaço que as salas de reunião tradicionais não oferecem. Por exemplo, com Salas do Teams dispositivos, os usuários podem aprimorar sua colaboração com um quadro de comunicação digital e câmeras inteligentes de controle de pessoas para garantir que cada participante local possa ser visto independentemente de onde eles estão na sala. Qualquer tipo de espaço e qualquer tipo de reunião pode ser otimizado com Salas do Teams ou soluções Salas do Teams.
 
@@ -232,7 +232,7 @@ No futuro, a Salas do Teams dará suporte a sistemas de áudio que utilizam um c
 
 Uma câmera de ângulo ultrawide é posicionada na frente da sala abaixo das telas para capturar todos no espaço.
 
-A câmera de ultrawide-angel apresenta um controle inteligente dos participantes da reunião para que eles possam ser representados individualmente em uma exibição grande, em vez de como rostos em uma imagem grande de toda a sala.
+A câmera de ângulo ultrawide apresenta um controle inteligente dos participantes da reunião para que eles possam ser representados individualmente em uma exibição grande, em vez de como rostos em uma imagem grande de toda a sala.
 
 ![Renderização de uma sala de reunião aprimorada de uma exibição de sobrecarga.](media/emr5.png)
 
@@ -246,7 +246,7 @@ Para dar às pessoas na sala uma maior noção de conexão com participantes rem
 
 O conteúdo da reunião é rodeado por componentes contextuais fluidos, como a agenda, tarefas e anotações, que podem ser atualizados em tempo real, ajudando os participantes a permanecer envolvidos e produtivos. Além disso, o chat de reunião é claramente visualizado para que, ao ingressar em uma reunião Teams de uma sala de Teams, você possa ver e se envolver facilmente na conversa em tempo real. Em uma sala Microsoft Teams, esse conteúdo é exibido em uma tela de proporção ampla para maximizar o tamanho do conteúdo da reunião e o número de participantes que podem ser exibidos simultaneamente.
 
-Esse layout terá suporte em configurações de exibição única e dupla e será disponibilizado por meio de uma atualização Salas do Teams software. Embora o layout da linha de frente seja especialmente impactante em uma sala aprimorada, a linha de frente pode ser usada em qualquer sala Teams em execução no Windows, independentemente da configuração de móveis e hardware.
+Esse layout é suportado em configurações de exibição única e dupla. Embora o layout da linha de frente seja especialmente impactante em uma sala aprimorada, a linha de frente pode ser usada em qualquer sala Teams em execução no Windows, independentemente da configuração de móveis e hardware.
 
 ### <a name="how-do-you-co-create-content"></a>Como co-criar conteúdo?
 

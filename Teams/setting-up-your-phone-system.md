@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Guia passo a passo detalhando como configurar o Teams Sistema de Telefonia para sua organização em Microsoft 365.
-ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043339"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556292"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar o Sistema de telefonia da sua organização
 
@@ -50,7 +50,7 @@ Este artigo descreve as seguintes etapas:
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Etapa 1: comprar e atribuir uma Sistema de Telefonia de usuário
 
-Para atribuir uma Sistema de Telefonia a um único usuário, as etapas são as mesmas que atribuir uma Microsoft 365 de usuário. Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações sobre Sistema de Telefonia licenças de Sistema de Telefonia disponíveis e como adquirir e atribuir licenças, consulte  [Teams licenças](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de complemento e [Atribuir licenças de complemento Teams Microsot](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+Para atribuir uma Sistema de Telefonia a um único usuário, as etapas são as mesmas que atribuir uma Microsoft 365 de usuário. Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações sobre Sistema de Telefonia licenças disponíveis e como adquirir e atribuir licenças, consulte  [Teams licenças](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de complemento e Atribuir Microsoft Teams [licenças](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses) de complemento.
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Etapa 2. Escolha uma opção de conectividade PSTN 
  
@@ -58,7 +58,7 @@ Para permitir que os usuários façam e recebam chamadas externas, você precisa
 
 - Plano de Chamada. Uma solução completa na nuvem com a Microsoft como operadora PSTN. 
 
-- Operador Conexão. Se sua operadora existente participar do programa de Conexão microsoft operator, eles poderão gerenciar as chamada PSTN e os Controladores de Borda de Sessão (SBCs) para você. 
+- Conexão do operador. Se a sua operadora existente participar do programa microsoft Conexão do operador, eles poderão gerenciar a chamada PSTN e os Controladores de Borda de Sessão (SBCs) para você. 
 
 - Roteamento Direto. Use sua própria operadora PSTN conectando seus SBCs a Sistema de Telefonia. 
 
@@ -81,12 +81,12 @@ Para obter informações sobre como gerenciar números de telefone para seus usu
 
 Além de obter números de telefone para seus usuários, você pode adquirir números de telefone gratuitos ou de chamada gratuita para serviços como atendimento automático e filas de chamadas. Um número de serviço pode manipular centenas de chamadas simultaneamente, enquanto o número de telefone de um usuário só pode manipular algumas chamadas simultaneamente.   
 
-Você pode obter números de serviço da Microsoft incluídos em seu licenciamento. Se você tiver conectividade PSTN por meio de operador Conexão ou Roteamento Direto, poderá usar números de serviço fornecidos por sua própria operadora ou operador. 
+Você pode obter números de serviço da Microsoft incluídos em seu licenciamento. Se você tiver conectividade PSTN por meio Conexão do operador ou Roteamento Direto, poderá usar números de serviço fornecidos por sua própria operadora ou operadora. 
 
 Para obter mais informações, consulte:
 
 - [Gerenciar números de telefone para sua](manage-phone-numbers-landing-page.md) organização – fornece uma visão geral dos tipos de número de telefone com links para artigos específicos para adquirir e gerenciar números, dependendo da opção de conectividade PSTN.  
-Descreve os [números de telefone de serviço](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponíveis da Microsoft que estão incluídos em seu licenciamento. Para obter informações sobre números de serviço fornecidos pelo Operador Conexão ou Roteamento Direto, entre em contato com seu provedor. 
+Descreve os [números de telefone de serviço](manage-phone-numbers-landing-page.md#service-telephone-numbers) disponíveis da Microsoft que estão incluídos em seu licenciamento. Para obter informações sobre números de serviço fornecidos por Conexão do operador ou Roteamento Direto, entre em contato com seu provedor. 
 
 - [Quantos números de](how-many-phone-numbers-can-you-get.md) telefone você pode obter – descreve quantos números de telefone você pode obter dependendo dos tipos de números de telefone e tipos de licenças que você comprou e atribuiu. 
 

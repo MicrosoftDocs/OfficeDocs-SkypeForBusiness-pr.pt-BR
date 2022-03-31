@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711695"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556322"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
-Microsoft Teams aplicativos são uma maneira de agregar um ou mais recursos em um pacote  de aplicativos que podem ser instalados, atualizados e desinstalados. Os recursos incluem:
+Microsoft Teams aplicativos são uma maneira de agregar um ou mais recursos em aplicativos que podem ser instalados, atualizados e desinstalados. Os recursos dos aplicativos incluem:
 
 * Bots
 * Extensões de mensagens
 * Guias
 * Conectores
 
-Os aplicativos são consentidos pelos usuários e gerenciados por IT de uma perspectiva de política. No entanto, as permissões e o perfil de risco de um aplicativo são definidos pelas permissões e perfis de risco dos recursos que o aplicativo contém. Portanto, este artigo se concentra em permissões e considerações no nível de funcionalidade.
+Como administrador, você só gerencia aplicativos. No entanto, o artigo se concentra em permissões e considerações no nível de capacidade, pois os recursos em um aplicativo afetam as permissões necessárias e perfis de risco do aplicativo. Para uso, os aplicativos são consentidos por usuários e gerenciados por profissionais de TI de uma perspectiva de política.
 
-As permissões listadas abaixo em letras maiúsculas, por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparecem em qualquer lugar na documentação do desenvolvedor [Microsoft Teams](/microsoftteams/platform/overview) ou nas permissões do [Microsoft Graph](/graph/permissions-reference).
+As permissões listadas abaixo em letras maiúsculas, por exemplo `RECEIVE_MESSAGE` , `REPLYTO_MESSAGE` são apenas para fins de ilustração e explicação. Essas cadeias de caracteres ou permissões não aparecem em qualquer lugar na documentação do [desenvolvedor Microsoft Teams](/microsoftteams/platform/overview) ou nas permissões [do Microsoft Graph](/graph/permissions-reference).
 
-| Título   | Descrição    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
-| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se você deseja permitir o acesso a ele em sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot exige essas permissões e tem esse perfil de risco mínimo. </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-Consulte também [Solicitar permissões de dispositivo para sua Microsoft Teams guia](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>Considerações e permissões globais do aplicativo
 
@@ -94,8 +98,7 @@ Nenhum
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controla se um bot pode enviar e receber arquivos no chat pessoal (ainda não há suporte para chat em grupo ou canais).
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480663"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556242"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -80,6 +80,7 @@ Aqui estão as configurações de política de mensagens que você pode configur
 
 - **Os proprietários podem excluir mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens de canal ou postagens enviadas pelos usuários.
 - **Excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens enviadas no chat.
+- **Excluir chat** Use essa configuração para permitir que os usuários excluam mensagens enviadas no chat.
 - **Editar mensagens enviadas** Use essa configuração para permitir que os usuários editem as mensagens enviadas no chat.
 - **Ler recibos** Os recibos de leitura permitem que o remetente de uma mensagem de chat seja notificado quando sua mensagem foi lida pelo destinatário em 1:1 e chats de grupo com 20 pessoas ou menos. Os recibos de leitura de mensagens realizam a remoção sem ter a certeza se uma mensagem foi lida e melhoram a comunicação da equipe. Os recibos de leitura não são capturados no relatório de Descobertas E.  
     - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA.

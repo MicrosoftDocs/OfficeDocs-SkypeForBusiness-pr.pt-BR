@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre chats supervisionados em Microsoft Teams reuniões.
-ms.openlocfilehash: a16e2cb1113e47efd7affb0014a0160f4077a568
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5027e214de2ee85c2898676b15f4fa04352e1566
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387619"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556482"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Chats supervisionados em Microsoft Teams
 
@@ -28,7 +28,7 @@ As instituições de ensino fornecem um espaço digital seguro e saudável para 
 
 O chat supervisionado permite que educadores designados iniciem conversas com alunos e impedem que os alunos iniciem novos chats, a menos que um educador apropriado esteja presente. Quando a supervisão de chat está habilitada, os supervisores não têm permissão para sair dos chats e outros participantes não têm permissão para removê-los, garantindo que os chats envolvendo alunos sejam supervisionados corretamente.
 
-Essas limitações só são aplicadas a novos chats privados criados após o chat supervisionado ter sido totalmente habilitado. Eles não se aplicam a chats particulares, chats de reuniões ou canais existentes. Para saber mais sobre as práticas recomendadas para bate-papo de reunião, segurança de canal e manter os alunos seguros, consulte Mantendo os alunos seguros [durante o uso Teams](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators).
+Essas limitações só são aplicadas a novos chats privados criados após o chat supervisionado ter sido totalmente habilitado. Eles não se aplicam a chats particulares, chats de reuniões ou canais existentes. Para saber mais sobre as práticas recomendadas para bate-papo de reunião, segurança de canal e manter os alunos seguros, consulte Mantendo os alunos seguros ao [usar](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators) Teams.
 
 > [!Note]
 > O chat supervisionado protege os novos chats criados após a aplicação do recurso.  Ele não protege chats existentes.
@@ -58,9 +58,9 @@ Para que o chat supervisionado funcione conforme esperado, cada usuário em seu 
 
 - *Permissões limitadas* – Essa função é ideal para membros da equipe que só devem ter acesso supervisionado aos alunos e ter acesso total a outros funcionários e educadores. Eles podem iniciar chats com usuários completos ou limitados, mas não podem iniciar chats com usuários restritos. Se um usuário com permissões completas iniciar um chat com um usuário restrito, usuários limitados poderão ser levados para a conversa. Esse acesso acontece porque um usuário com permissões completas está presente para supervisionar a colaboração entre usuários limitados e restritos.
 
-- *Permissões restritas* – Essa função é ideal para alunos que precisam ser supervisionados. Eles só podem iniciar chats com usuários que têm permissões completas. Eles podem participar de qualquer conversa que um usuário com permissões completas o convide. Em casos de chat federado, os usuários restritos só podem ser adicionados a chats por um usuário com permissões completas que são do locatário do usuário restrito.
+- *Permissões restritas* – Essa função é ideal para alunos que precisam ser supervisionados. Eles só podem iniciar chats com usuários que têm permissões completas. Eles podem participar de qualquer conversa que um usuário com permissões completas iniciar e, em seguida, convidá-lo. Em casos de chat federado, os usuários restritos só podem ser adicionados a chats por um usuário com permissões completas que são do locatário do usuário restrito.
 
-Para definir a função de permissão de chat dos usuários, use a política de função de permissões de **chat**  encontrada nas opções de política de mensagens no portal Teams administrador. Você pode usar o PowerShell para definir funções usando a política ChatPermissionRole com os valores Full, Limited ou Restricted. Esta política está em CsTeamsMessagingPolicy.
+Para definir a função de permissão de chat dos usuários, use a política de função de permissões de **chat**  encontrada nas opções de política de mensagens no portal de Teams de administração. Você pode usar o PowerShell para definir funções usando a política ChatPermissionRole com os valores Full, Limited ou Restricted. Esta política está em CsTeamsMessagingPolicy.
 
 Para saber mais sobre configuração. Teams políticas consulte Teams políticas e pacotes de política para Educação e Atribuir políticas a grandes conjuntos de guias de usuários.
 
@@ -68,7 +68,7 @@ As funções não podem ser atribuídas aos convidados em seu locatário. Os con
 
 ### <a name="allow-supervised-chat"></a>Permitir chat supervisionado
 
-O chat supervisionado está desabilitado por padrão para seu locatário. Depois de definir funções de permissão de chat para seus usuários,  &gt; você pode habilitar o chat supervisionado em seu locatário, Teams Teams configurações e **definir a** política de permissões de **chat baseadas** em função como *Ativado.* Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Este cmdlet está em CsTeamsClientConfiguration.
+O chat supervisionado está desabilitado por padrão para seu locatário. Depois de definir funções de permissão de chat para seus usuários, você pode habilitar o chat  &gt; supervisionado em seu locatário, indo para Teams Teams configurações e definindo **a** política de permissões de **chat baseadas** em função como *Ativado.* Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Este cmdlet está em CsTeamsClientConfiguration.
 
 O chat supervisionado deve ser habilitado para todos os usuários no locatário e não pode ser habilitado apenas para uma parte de seus usuários.
 

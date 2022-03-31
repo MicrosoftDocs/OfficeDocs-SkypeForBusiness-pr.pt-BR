@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761925"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556552"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução Teams gravação baseada em política para & reuniões
 
@@ -138,7 +138,7 @@ Os requisitos do Azure e Windows VM aplicam-se apenas ao componente bot do Teams
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Atribuição e provisionamento da política de registro de conformidade
 
-Os administradores de IT podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de registro de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando uma interação de comunicação ocorre. As políticas de registro de conformidade são gerenciadas usando [o Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre o Microsoft Docs for [Meeting policies](./meeting-policies-overview.md), [calling policies](./teams-calling-policy.md) and  [group policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+Os administradores de IT podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de registro de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando uma interação de comunicação ocorre. As políticas de registro de conformidade são gerenciadas usando [o Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre o Microsoft Docs para políticas [de](./meeting-policies-overview.md) reunião, [políticas de chamada](./teams-calling-policy.md) e [políticas de grupo](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 1. Crie uma instância de aplicativo em seu locatário.
 
@@ -226,7 +226,8 @@ Os parceiros a seguir certificados sua solução para Microsoft Teams.<br/><br/>
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Selador |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Tecnologia perspicaz |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Inovação de Carvalho |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |Caixa Vermelha |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

@@ -1,5 +1,5 @@
 ---
-title: Configurar uma conta Microsoft Teams Sistema de Telefonia recurso
+title: Configurar uma conta de recurso Telefonia do Microsoft Teams Sistema
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Saiba como configurar uma conta de recurso Microsoft Teams Sistema de Telefonia para uso com os atendentes automáticos.
+description: Saiba como configurar uma conta de recurso Telefonia do Microsoft Teams System para uso com os atendimentos automáticos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0953ef81ef3128da858733931a43238531e83b6
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.openlocfilehash: 7764d6b7f7d09cd2c5065ab24e73cb0fdec9c5c6
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053240"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556542"
 ---
 # <a name="step-4-set-up-a-teams-phone-system-resource-account"></a>Etapa 4: Configurar uma conta Teams Sistema de Telefonia de recursos
 
@@ -34,16 +34,16 @@ As seções deste artigo mostram como configurar uma conta de recurso e atribuir
 
 ## <a name="obtain-virtual-user-licenses"></a>Obter licenças de usuário virtual
 
-As contas de recursos exigem uma licença para trabalhar com os atendimentos automáticos e filas de chamada. Você pode usar uma licença *de usuário Microsoft Teams Telefone Standard - Virtual* User.
+As contas de recursos exigem uma licença para trabalhar com os atendimentos automáticos e filas de chamada. Você pode usar uma licença *de usuário Telefonia do Microsoft Teams Standard - Virtual* User.
 
 > [!NOTE]
 > Você só deverá executar as etapas a seguir se tiver se inscreveu para um Teams Telefone período de avaliação de licença do pacote de planos de chamada. Se você comprou Teams Telefone licenças de pacote do Plano de Chamada, as licenças virtuais já devem ser aplicadas à sua conta.
 >
-> Para ver se você já tem licenças virtuais, entre Microsoft 365 usando uma conta com permissões de administrador global. Em seguida, vá para Cobrança > [Seus produtos](https://admin.microsoft.com/Adminportal/Home#/subscriptions). Se você tiver licenças virtuais, elas aparecerão como **Microsoft Teams Telefone Padrão - Usuário Virtual**.
+> Para ver se você já tem licenças virtuais, entre Microsoft 365 usando uma conta com permissões de administrador global. Em seguida, vá para Cobrança > [Seus produtos](https://admin.microsoft.com/Adminportal/Home#/subscriptions). Se você tiver licenças virtuais, elas aparecerão como **Telefonia do Microsoft Teams Padrão - Usuário Virtual**.
 
 1. Abra o Centro de administração do Microsoft 365 e faça logoff com um usuário que seja um administrador global. Geralmente, essa é a conta que você usou para se inscrever no Microsoft 365.
 2. No painel de navegação esquerdo, vá até <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">**BillingPurchase** > </a> **servicesAdd-onsSee** >  >  **todos os produtos Complementos**.
-3. Role até o final para encontrar a **licença Microsoft Teams Telefone Standard – Virtual User**. Selecione **Detalhes** e **, em seguida, Comprar**.
+3. Role até o final para encontrar a **licença Telefonia do Microsoft Teams Standard – Virtual User**. Selecione **Detalhes** e **, em seguida, Comprar**.
 4. Na página de compra de licença, selecione o número de licenças de usuário virtual que você deseja. Você precisa de uma licença virtual para cada atendimento automático e fila de chamada que planeja configurar. Recomendamos selecionar pelo menos cinco licenças para que você possa facilmente configurar mais atendimentos automáticos e filas de chamada no futuro sem precisar comprar mais licenças imediatamente.
 5. **Desmarque Atribuir automaticamente a todos os seus usuários sem licenças**.
 6. Selecione **Check-out agora**.
@@ -54,10 +54,10 @@ As contas de recursos exigem uma licença para trabalhar com os atendimentos aut
 
 ## <a name="create-a-resource-account"></a>Criar uma conta de recurso
 
-Depois de receber sua licença *Padrão Microsoft Teams Telefone Usuário Virtual*, você poderá criar sua conta de recurso.
+Depois de receber sua licença *Padrão Telefonia do Microsoft Teams Usuário Virtual*, você poderá criar sua conta de recurso.
 
-1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global. Geralmente, essa é a conta que você usou para se inscrever no Microsoft 365.
-2. No painel de navegação esquerdo, acesse <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Configurações em toda a** >  **organizaçãoResource contas**</a>.
+1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+2. No painel de navegação esquerdo, vá para <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**contas do** **VoiceResource** > </a>.
 3. Selecione **Adicionar**.
 4. No painel **Adicionar conta de** recurso, preencha **Nome de exibição** e, em seguida, **Nome de usuário**. Escolha um nome de exibição descritivo, como "Atendimento automático de linha principal" para descrever a finalidade da conta de recurso.
 5. Em **Tipo de conta de recurso**, selecione **Atendimento automático**.
@@ -65,21 +65,23 @@ Depois de receber sua licença *Padrão Microsoft Teams Telefone Usuário Virtua
 
 ## <a name="assign-a-license"></a>Atribuir uma licença
 
-Depois de criar sua conta de recurso, você precisará atribuir uma licença *Microsoft Teams Telefone Standard - Virtual User* ou *Teams Telefone Standard.*
+Depois de criar sua conta de recurso, você precisará atribuir uma licença *Telefonia do Microsoft Teams Standard - Virtual User* ou Teams Telefone *Standard*.
 
 1. Abra o Centro de administração do Microsoft 365 e faça logoff com um usuário que seja um administrador global. Geralmente, essa é a conta que você usou para se inscrever no Microsoft 365.
 1. No painel de navegação esquerdo, vá para <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank">**UsuáriosActive** >  usuários</a>.
 1. Selecione sua conta de recurso.
-1. Na guia **Licenças e Aplicativos**, em **Licenças**, selecione **Microsoft Teams Telefone Padrão - Usuário Virtual**.
+1. Na guia **Licenças e Aplicativos**, em **Licenças**, selecione **Telefonia do Microsoft Teams Padrão - Usuário Virtual**.
 1. Selecione **Salvar alterações** e **, em seguida, Fechar**.
 
 ## <a name="assign-a-service-number"></a>Atribuir um número de serviço
 
-1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global. Geralmente, essa é a conta que você usou para se inscrever no Microsoft 365.
-1. No painel de navegação esquerdo, acesse <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Configurações em toda a** >  **organizaçãoResource contas**</a>.
+![Captura de tela da interface do usuário atribuir número de serviço.](../media/resource-account-assign-phone-number.png)
+
+1. Abra o Microsoft Teams de administração e faça logoff com um usuário que seja um administrador global (geralmente essa é a conta que você usou para se inscrever no Microsoft 365).
+1. No painel de navegação esquerdo, vá para <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**contas do** **VoiceResource** > </a>.
 1. Selecione a conta de recurso que você acabou de criar e clique em **Atribuir/desatribuição**.
 1. Na lista **Telefone de tipos de número**, escolha **Online**.
-1. Na caixa **Número de telefone atribuído** , pesquise o número que deseja usar e clique em **Adicionar**. Certifique-se de incluir o código do país (por exemplo, **+1** 250 555 0012)
+1. Na caixa **Número de telefone atribuído** , pesquise o número que deseja usar e clique em **Adicionar**. Certifique-se de incluir o código do país (por exemplo, **+1** 250 555 0012).
 1. Clique em **Salvar**.
 
 > [!div class="nextstepaction"]
