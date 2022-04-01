@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos em Microsoft Teams.
-ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: cb89621d6049106cb090d72244644a4b14565657
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062555"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592706"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -105,7 +105,9 @@ Se você estiver planejando usar a conta de recurso com um atendimento automáti
 
 Para atribuir um roteamento direto ou número híbrido a uma conta de recurso, você precisa usar o PowerShell:
 
-`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
+```powershell
+Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
+```
 
 ## <a name="next-steps"></a>Próximas etapas
 
@@ -156,5 +158,5 @@ Depois de fazer isso, você pode excluir a conta de recurso no Centro de adminis
 Para desassociar um número de telefone de roteamento direto da conta de recurso, use o seguinte cmdlet:
 
 ```powershell
-Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
+Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```

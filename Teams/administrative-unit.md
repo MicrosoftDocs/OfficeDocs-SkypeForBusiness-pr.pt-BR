@@ -11,21 +11,26 @@ search.appverid: MET150
 description: Saiba como usar unidades administrativas em Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 63579e7e9b6b2f7a7456349c489d4f544eb67cc1
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584306"
 ---
-
 # <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>Gerenciar dispositivos no centro de administração Teams com unidades administrativas
 
 As unidades administrativas no Teams de administração fornecem acesso detalhado e baseado em função para gerenciar Teams dispositivos. As unidades administrativas Teams acesso de administrador a recursos específicos, mas limitam o acesso desse administrador a outros recursos. Isso é especialmente útil se você tiver administradores Teams locais em diferentes países ou regiões.
 
-Por exemplo, a Contoso tem operações ao redor do mundo. Alice é um administrador de IT global com base em Londres, enquanto Prashant é um administrador de IT local com base em Bangalore, Índia. Hoje, quando Prashant entra no centro de administração Teams como administrador de dispositivos, ele pode ver Teams dispositivos em todo o mundo. Alice deseja limitar o acesso de Prashant a dispositivos Teams somente em Bangalore. Unidades administrativas permitem que ela faça isso. Para saber mais, confira [Unidades administrativas em Azure Active Directory](/azure/active-directory/roles/administrative-units).
+Por exemplo, a Contoso tem operações ao redor do mundo. Alice é um administrador de IT global com base em Londres, enquanto Prashant é um administrador de IT local com base em Bangalore, Índia. Hoje, quando Prashant entra no centro de administração Teams como administrador de dispositivos, ele pode ver Teams dispositivos ao redor do mundo. Alice deseja limitar o acesso de Prashant a dispositivos Teams somente em Bangalore. Unidades administrativas permitem que ela faça isso. Para saber mais, confira [Unidades administrativas Azure Active Directory](/azure/active-directory/roles/administrative-units).
 
 > [!NOTE]
-> No momento, as unidades administrativas estão disponíveis no centro de administração Teams apenas para a função de administrador Teams dispositivos.
+> No momento, as unidades administrativas estão disponíveis no centro de administração Teams somente para a função de administrador Teams dispositivos.
 
 ## <a name="add-administrative-units"></a>Adicionar unidades administrativas
 
@@ -33,7 +38,7 @@ Você precisa ser um administrador global para adicionar unidades administrativa
 
 ## <a name="assign-admins-to-administrative-units"></a>Atribuir administradores a unidades administrativas
 
-Você também precisará ser administrador global para atribuir unidades administrativas. Você pode atribuir unidades administrativas usando o portal do Azure, o PowerShell ou a API Graph Microsoft. Para saber mais, confira [Atribuir funções do Azure AD com escopo de unidade administrativa](/azure/active-directory/roles/admin-units-assign-roles).
+Você também precisará ser administrador global para atribuir unidades administrativas. Você pode atribuir unidades administrativas usando portal do Azure, PowerShell ou o microsoft API do Graph. Para saber mais, confira [Atribuir funções do Azure AD com escopo de unidade administrativa](/azure/active-directory/roles/admin-units-assign-roles).
 
 ## <a name="select-administrative-units"></a>Selecionar unidades administrativas
 
@@ -49,7 +54,7 @@ Se você for um administrador de dispositivos Teams, depois que um administrador
 
 ## <a name="switch-administrative-units"></a>Alternar unidades administrativas
 
-Se você for um administrador de dispositivos Teams, poderá alternar entre unidades administrativas se estiver conectado ao centro de administração Teams local. Para alternar para uma unidade administrativa diferente:
+Se você for um administrador de dispositivos Teams, poderá alternar entre unidades administrativas se estiver conectado ao Teams de administração. Para alternar para uma unidade administrativa diferente:
 
 1. Entre no centro de [Teams de administração](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
@@ -62,3 +67,7 @@ Se você for um administrador de dispositivos Teams, poderá alternar entre unid
     - Selecione **Todos os** dispositivos se você tiver permissão para gerenciar todos os dispositivos da sua organização.
 
 5. Selecione **Salvar**.
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Adicionar usuários ou grupos a uma unidade administrativa](/azure/active-directory/roles/admin-units-members-add)

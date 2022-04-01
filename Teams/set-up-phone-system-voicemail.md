@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o Caixa postal na Nuvem para seus usuários.
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442317"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592716"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
@@ -37,11 +37,11 @@ Caixa postal na Nuvem deposita mensagens de caixa postal na caixa de correio de 
 
 ## <a name="cloud-voicemail-provisioning"></a>Caixa postal na Nuvem provisionamento
 
-Para Teams usuários, Caixa postal na Nuvem é automaticamente configurada e provisionada. *Uma Microsoft Teams Telefone de Microsoft Teams Telefone não é necessária para Caixa postal na Nuvem.*
+Para Teams usuários, Caixa postal na Nuvem é automaticamente configurada e provisionada. *Uma Telefonia do Microsoft Teams de Telefonia do Microsoft Teams não é necessária para Caixa postal na Nuvem.*
 
 O provisionamento para Teams usuários não é o mesmo para usuários Skype for Business Online. Para usuários Skype for Business Online, o Caixa postal na Nuvem foi automaticamente configurada e provisionada quando os usuários foram atribuídos a uma licença Sistema de Telefonia e foram Enterprise Voice habilitados pelo sistema de provisionamento.
 
-Para Skype for Business Server usuários locais, Caixa postal na Nuvem é automaticamente configurada e provisionada. No entanto, você deve configurar o ambiente Skype for Business Server para rotear chamadas para Caixa postal na Nuvem. Para obter mais informações, consulte [Plan Caixa postal na Nuvem service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail.md).
+Para Skype for Business Server usuários locais, Caixa postal na Nuvem é automaticamente configurada e provisionada. No entanto, você deve configurar o ambiente Skype for Business Server para rotear chamadas para Caixa postal na Nuvem. Para obter mais informações, consulte [Plan Caixa postal na Nuvem service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## <a name="cloud-voicemail-storage"></a>Caixa postal na Nuvem armazenamento
 
@@ -55,7 +55,7 @@ A Exchange caixa de correio de um usuário armazena todas as saudações gravada
 
 A gravação e transcrição de Caixa postal na Nuvem começa em Microsoft 365 na origem da chamada que está sendo roteada para Caixa postal na Nuvem. Em seguida, a mensagem é entregue à caixa de correio Exchange do usuário.
 
-Por exemplo, se uma chamada chegar a um usuário de Roteamento Direto indisponível por meio de um Controlador de Borda de Sessão (SBC) na Europa, a gravação e transcrição da caixa postal serão feitas na Europa. Em seguida, a mensagem é entregue à caixa de correio Exchange do usuário. Para outro exemplo, suponha que um usuário Teams na América do Norte chama um usuário Teams indisponível na Europa. Nesse caso, a chamada é iniciada na América do Norte, o processamento ocorre na América do Norte e, em seguida, a caixa postal é entregue para a caixa de correio Exchange do usuário na Europa.
+Por exemplo, se uma chamada chegar a um usuário de Roteamento Direto indisponível por meio de um Controlador de Borda de Sessão (SBC) na Europa, a gravação e transcrição da caixa postal serão feitas na Europa. Em seguida, a mensagem é entregue à caixa de correio Exchange do usuário. Para outro exemplo, suponha que um usuário Teams no América do Norte chama um usuário Teams indisponível na Europa. Nesse caso, a chamada é iniciada em América do Norte, o processamento ocorre no América do Norte e, em seguida, a caixa postal é entregue para a caixa de correio Exchange do usuário na Europa.
 
 A entrega de uma caixa postal para uma caixa de correio Exchange é feita usando o Protocolo SMTP (Simple Mail Transport Protocol) como qualquer outro email.
 
@@ -75,7 +75,7 @@ Você também pode desabilitar o Caixa postal na Nuvem para um usuário usando o
 
 A configuração padrão para todos os usuários provisionados para Caixa postal na Nuvem é permitir o roteamento de chamadas para Caixa postal na Nuvem e permitir que os usuários encaminhem chamadas para Caixa postal na Nuvem.
 
-Você pode controlar se o roteamento de chamadas Caixa postal na Nuvem para usuários Teams usando o cmdlet Set-CsTeamsCallingPolicy com o parâmetro AllowVoicemail. Para obter mais informações,  [consulteSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy.md).
+Você pode controlar se o roteamento de chamadas Caixa postal na Nuvem para usuários Teams usando o cmdlet Set-CsTeamsCallingPolicy com o parâmetro AllowVoicemail. Para obter mais informações,  [consulteSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - Se você definir AllowVoicemail como AlwaysDisabled, as chamadas nunca serão roteadas para a caixa postal, independentemente das configurações de encaminhamento ou sem resposta de chamada para um usuário. A caixa postal não está disponível como uma configuração de encaminhamento de chamada ou sem resposta Teams.
 
@@ -105,7 +105,7 @@ Usando Proteção de Informações da Microsoft, você pode criptografar as mens
 
 Para criptografar a mensagem de caixa postal, você pode criar um rótulo de sensibilidade. Com o recurso de rotulagem automática, você pode garantir que o rótulo seja aplicado automaticamente às mensagens de caixa postal de entrada. 
 
-Quando você habilita a caixa postal protegida, os usuários podem ouvir mensagens de caixa postal protegidas chamando em sua caixa de correio de caixa postal ou abrindo a mensagem no Outlook, Outlook na Web ou Outlook para Android ou iOS. As mensagens de caixa postal protegidas não podem ser abertas Microsoft Teams ou Skype para Busimess.
+Quando você habilita a caixa postal protegida, os usuários podem ouvir mensagens de caixa postal protegidas chamando em sua caixa de correio de caixa postal ou abrindo a mensagem no Outlook, Outlook na Web ou Outlook para Android ou iOS. As mensagens de caixa postal protegidas não podem ser abertas Microsoft Teams ou Skype for Business.
 
 Para criar um rótulo de sensibilidade para caixa postal, consulte [Usar rótulos de sensibilidade](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Na seção **Criptografia** , escolha **Permitir que os usuários atribuam permissões quando aplicarem o rótulo**. Selecione **Em Outlook, impor uma das seguintes** restrições e selecione a **opção Não Encaminhar**.
 

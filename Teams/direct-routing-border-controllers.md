@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb9d411ea98476cc670c7bc2642d643ea39f9f25
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774020"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556572"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -105,6 +105,7 @@ Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento D
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Ekinops Virtual Session Border Controller (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Voz Hiperconvergente   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
+|                     [Frafos](https://www.frafos.com/ms-teams-abc-sbc)|    ABC SBC  |     &#10004;     |          |     4.6       |     |    |
 
 <br/>
 

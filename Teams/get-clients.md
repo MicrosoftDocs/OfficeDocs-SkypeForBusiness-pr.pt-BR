@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893550"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556562"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams
 
@@ -63,7 +63,7 @@ Os profissionais de TI podem escolher seu método preferido para distribuir os a
 
 Teams no Windows fornece instaladores MSI para baixar nas arquiteturas [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true) e [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true). A arquitetura x86 (32 bits versus 64 bits) do Teams é independente da arquitetura do Windows e do Office instalada. Recomendamos a versão de 64 bits do Teams em sistemas de 64 bits.
 
-O Teams requer o .NET Framework 4.5 ou posterior. Se o .NET Framework ou posterior não estiver instalado, o instalador do Teams oferecerá a instalação para você.
+O Teams requer .NET Framework 4.5 ou posterior. Se .NET Framework ou posterior não estiver instalado, o instalador do Teams oferecerá a instalação para você.
 
 O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows aproveita os seguintes locais:
 
@@ -205,4 +205,4 @@ O cliente do navegador ([https://teams.microsoft.com](https://go.microsoft.com/f
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-O cliente do navegador executa a detecção da versão do navegador ao se conectar ao [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Se uma versão sem suporte do navegador for detectada, ela bloqueará o acesso à interface do navegador e recomendará que o usuário baixe o cliente desktop ou aplicativo móvel.
+O cliente do navegador executa a detecção da versão do navegador ao se conectar ao [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Se uma versão do navegador não suportado for detectado, isso bloqueará acesso à interface do navegador e recomendará que o usuário baixe o cliente de área de trabalho ou aplicativo móvel.

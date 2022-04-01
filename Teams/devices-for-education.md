@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Descreve os possíveis usos e benefícios Salas do Teams sistemas e dispositivos em vários espaços e configurações para educadores.
+description: Descreve os possíveis usos e benefícios de Salas do Teams sistemas e dispositivos em vários espaços e configurações para educadores.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,16 +20,16 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f237f057d6c8f2975b054f16c293bf87eaf00f0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 71af93e7d8fa5368480753a50c790dfe77f40693
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637087"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64593016"
 ---
 # <a name="teams-devices-for-education"></a>Teams dispositivos para Educação
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 ### <a name="hybrid-and-blended-education-is-here-to-stay"></a>A educação híbrida e misturada está aqui para ficar
 
@@ -49,20 +49,20 @@ A sala de aula moderna híbrida será sem limites. Os alunos e educadores serão
 
 Para garantir que os alunos e educadores que trabalham remotamente possam participar totalmente da colaboração em grupo e reuniões, os espaços de trabalho de educação precisarão de tecnologia para ajudar a fazer a ponte entre os modelos antigos, presenciais e os novos espaços híbridos e remotos.
 
-![Renderização de tecnologia futura mostrando participantes remotos exibidos em uma sala física. ](media/devices1.png)
+![Renderização de tecnologia futura mostrando participantes remotos exibidos em uma sala física.](media/devices1.png)
  *Essa imagem representa a tecnologia futura.*
 
 ## <a name="why-choose-a-native-teams-experience"></a>Por que escolher uma experiência Teams nativa?
 
-Microsoft Teams periféricos e salas certificados são soluções de chamada e reunião nativas criadas para fins, fornecendo uma experiência de reunião completa Teams, com áudio e vídeo de alta definição, em um hardware de primeira e de terceiros certificados Teams alta definição.
+Microsoft Teams periféricos e salas certificados são soluções de chamada e reunião nativas criadas para fins, fornecendo uma experiência de reunião completa Teams, com áudio e vídeo de alta definição, em hardware de primeira e de terceiros certificados Teams alta definição.
 
-Quando dizemos "criado para fins e nativo", queremos dizer que a experiência é projetada especificamente e cuidadosamente pela Microsoft para o Teams usuário.
+Quando dizemos "criado para fins e nativo", significamos que a experiência é projetada especificamente e cuidadosamente pela Microsoft para o Teams usuário.
 
-Salas do Teams além do que pode ser feito com o Teams em dispositivos pessoais, fornecendo recursos exclusivos na sala, como a junção de um toque, câmeras de conteúdo para compartilhar whiteboards físicos na reunião de forma inteligente e recursos de proximidade, como transferir uma reunião Teams de seu dispositivo pessoal para a sala.
+Salas do Teams além do que pode ser feito com o Teams em dispositivos pessoais, fornecendo recursos exclusivos na sala, como a junção de um toque, câmeras de conteúdo para compartilhar whiteboards físicos na reunião de forma inteligente e recursos de proximidade, como a transferência perfeita de uma reunião Teams de seu dispositivo pessoal para a sala.
 
 Sistemas não nativos e auto-construídos que dependem de serviços externos, ou uma conexão traga seu próprio dispositivo, nunca corresponderão realmente à facilidade de uso ou à qualidade imersiva de uma sala Teams nativa.
 
-**Criado para fins para Teams** 
+**Criado para fins Teams** 
 
 Áudio e vídeo avançados e compartilhamento
 
@@ -76,7 +76,7 @@ Participe Teams reuniões sem atrito para participar de reuniões inclusivas e c
 
 **Facilmente gerenciado de um só lugar**
 
-Gerencie e mantenha os dispositivos atualizados e prontos para entrar no Teams Admin Center e habilitar o gerenciamento proativo 24x7 da Microsoft com Salas do Microsoft Teams Premium
+Gerencie e mantenha os dispositivos atualizados e prontos para entrar no Centro de Administração Teams habilitar o gerenciamento proativo 24x7 da Microsoft com Salas do Microsoft Teams Premium
 
 ## <a name="space-considerations"></a>Considerações sobre o espaço
 
@@ -92,7 +92,7 @@ Para novos espaços, o uso pretendido da sala deve levar tanto os móveis quanto
 
 O par de imagens a seguir ilustra Teams configurações otimizadas em um espaço de sala de aula existente (superior) e em um novo espaço multiuso (inferior):
 
-![Renderizar mostrando Teams em uma sala de aula existente.](media/devices2.png) ![Renderizar mostrando uma configuração Teams nativa em um espaço projetado propositalmente.](media/devices3.png)
+![Renderizar mostrando Teams dispositivos em uma sala de aula existente.](media/devices2.png) ![Renderizar mostrando uma configuração Teams nativa em um espaço projetado propositalmente.](media/devices3.png)
 
 ### <a name="what-is-the-function-of-the-space"></a>Qual é a função do espaço?
 
@@ -162,7 +162,7 @@ Um espaço público, como uma sala comum em uma casa da família ou uma tabela e
 
 *A solução mostrada é:*
 
-Um dispositivo de computador pessoal usado com um fone de ouvido Teams certificado.
+Um dispositivo de computador pessoal usado com um headset Teams certificado.
 
 *Por que esse layout e tipo de dispositivo?*
 
@@ -182,7 +182,7 @@ Um laptop que Teams garante que o usuário não está confinado a uma área de t
 
 *Instalar ou configurar essa solução é:*
 
-Muito fácil. Isso é algo que pode ser manipulado inteiramente pelos usuários finais, simplesmente penteando seu computador com um fone de ouvido certificado para chamada de áudio e vídeo. 
+Muito fácil. Isso é algo que pode ser manipulado inteiramente pelos usuários finais, simplesmente comprimando seu computador com um fone de ouvido certificado para chamada de áudio e vídeo. 
 
 ### <a name="personal-space"></a>Espaço pessoal
 
@@ -242,7 +242,7 @@ Uma sala de aula projetada para participantes de alunos individuais e remotos co
 
 *Por que esse layout e tipo de dispositivo?*
 
-Uma exibição grande proporciona aos participantes remotos uma presença física dentro da sala, juntamente com alto-falantes front-of-the-room que permitem que suas vozes sejam ouvidas por todos, mesmo por aqueles nas mesas mais distantes da origem. Os microfones estão situados na frente da sala para que professores e alunos possam ser ouvidos por todos. Um quadro de trabalho tradicional para conteúdo analógico pode ser capturado no sistema de sala e compartilhado com participantes na sala e remotos. A Microsoft Whiteboard digital também é uma boa solução para colaboração entre alunos remotos e em pessoa, bem como para referência pós-classe.
+Uma exibição grande proporciona aos participantes remotos uma presença física dentro da sala, juntamente com alto-falantes front-of-the-room que permitem que suas vozes sejam ouvidas por todos, mesmo por aqueles nas mesas mais distantes da origem. Os microfones estão situados na frente da sala para que professores e alunos possam ser ouvidos por todos. Um quadro de trabalho tradicional para conteúdo analógico pode ser capturado no sistema de sala e compartilhado com participantes na sala e remotos. O Microsoft Whiteboard digital também é uma boa solução para colaboração entre alunos remotos e em pessoa, bem como para referência pós-classe.
 
 *Dispositivos mostrados:*
 
@@ -276,7 +276,7 @@ Os participantes remotos podem ver o mesmo campo de exibição que os participan
 
 *Dispositivos mostrados:*
 
--   Sistema de Sala – [Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) para Teams com um projetor instalado e uma exibição baseada em carrinho
+-   Sistema de Sala – [Crestron Flex C100 para Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) com um projetor instalado e uma exibição baseada em carrinho
 
 -   Quadro de Microsoft Surface Hub [2S opcional](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
@@ -290,7 +290,7 @@ Altamente complexo. Esta sala apresenta uma instalação física que exigirá qu
 
 ### <a name="multi-purpose-spaces"></a>Espaços multiuso
 
-Teams pode ser implementado em praticamente qualquer espaço educacional ou multiuso que você pode pensar. Bibliotecas, espaços de apresentação e colaboração de uso misto, espaços de café e espaços ao ar livre podem ser equipados com um sistema Teams ou dispositivos Teams.
+Teams pode ser implementado em praticamente qualquer espaço educacional ou multiuso que você possa pensar. Bibliotecas, espaços de apresentação e colaboração de uso misto, espaços de café e espaços ao ar livre podem ser equipados com um sistema Teams ou Teams dispositivos.
 
 ![Imagem de um espaço multiuso com Teams dispositivos.](media/devices11.png)
 
@@ -310,11 +310,11 @@ Um sistema de sala com uma tela frontal grande baseada em projetor, vários cons
 
 *Instalar ou configurar essa solução é:*
 
-Altamente complexo. Um espaço multiuso, conforme descrito, requer um parceiro de implantação av com conhecimento para planejar e implantar corretamente as soluções de vídeo e câmera e áudio baseadas em projetor, bem como configurar corretamente o sistema de Sala do Microsoft Teams e os dispositivos Surface Hub 2 associados para que eles funcionem perfeitamente para os usuários finais no espaço.
+Altamente complexo. Um espaço multiuso, conforme descrito, requer um parceiro de implantação av experiente para planejar e implantar corretamente as soluções de vídeo e câmera e áudio baseadas em projetor, bem como configurar corretamente o sistema de sala do Microsoft Teams e os dispositivos Surface Hub 2 associados para que eles funcionem perfeitamente para os usuários finais no espaço.
 
 ## <a name="dont-forget-security"></a>Não se esqueça da segurança
 
-É fundamental garantir que suas soluções sejam seguras contra ameaças cibernéticas. A Microsoft usa a IA e a automação de ponta para manter dados e informações privadas seguros ao usar um Salas do Teams ou dispositivo. Proteger sua escola ou instituição começa com gerenciamento de identidade e acesso (por meio do Azure Active Directory) e gerenciamento de dispositivos (via Intune/AutoPilot). 
+É fundamental garantir que suas soluções sejam seguras contra ameaças cibernéticas. A Microsoft usa a IA e a automação de ponta para manter dados e informações privadas seguros ao usar um Salas do Teams ou dispositivo. A proteção de sua escola ou instituição começa com gerenciamento de identidade e acesso (por meio do Azure Active Directory) e gerenciamento de dispositivos (Intune/AutoPilot). 
 
 ## <a name="more-information"></a>Mais informações
 
@@ -324,6 +324,6 @@ Exibir as páginas a seguir para saber mais sobre Teams e parceiros:
 
 [Dispositivos certificados para Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) – uma lista abrangente de dispositivos certificados para Microsoft Teams
 
-[Saiba mais sobre Salas do Microsoft Teams](/rooms/) – um guia para Salas do Microsoft Teams sobre planejamento, implantação e uso
+[Saiba mais sobre Salas do Microsoft Teams](/microsoftteams/rooms) – um guia para Salas do Microsoft Teams sobre planejamento, implantação e uso
 
 [Teams Sala de Reunião Partner Program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – uma lista de parceiros em todo o mundo disponíveis para ajudar no planejamento e implantação de sistemas Teams Room

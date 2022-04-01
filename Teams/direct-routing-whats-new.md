@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f2ec21ec3e7f4278443d6bcab4b4220db3619f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 53a1c2730ebf6db06fb92ac2fc4e0873563c98ce
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556732"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584325"
 ---
 # <a name="whats-new-for-direct-routing"></a>Novidades para Roteamento Direto
 
@@ -62,7 +62,7 @@ A partir de abril de 2022, o Roteamento Direto rejeitará solicitações SIP que
 
 Verifique suas configurações SBC e verifique se você não está usando os headers Replaces em solicitações SIP.
 
-## <a name="tls10-and-10"></a>TLS1.0 e 1.0
+## <a name="tls10-and-11"></a>TLS1.0 e 1.1
 
 Para fornecer a melhor criptografia em classe para nossos clientes, a Microsoft planeja preprecar as versões 1.0 e 1.1 do TLS (Transport Layer Security). Em 3 de abril de 2022, a Microsoft força o uso do TLS1.2 para a interface SIP de Roteamento Direto.
 
