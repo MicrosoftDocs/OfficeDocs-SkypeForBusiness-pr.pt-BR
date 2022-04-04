@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e a gerenciar canais privados no Microsoft Teams (Visualização).
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712108"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590379"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Canais compartilhados no Microsoft Teams (Visualização)
 
@@ -43,7 +43,7 @@ Recomendamos que você habilite a visualização para todos os seus usuários. O
 
 ## <a name="getting-started-with-shared-channels"></a>Introdução aos canais compartilhados
 
-Os canais compartilhados são habilitados por padrão no Teams. Você pode escolher se as pessoas podem criar canais compartilhados, se elas podem compartilhá-los com pessoas de fora da sua organização e se elas podem participar de canais compartilhados externos [criando uma política de canal](/MicrosoftTeams/teams-policies).
+Você pode escolher se as pessoas podem criar canais compartilhados, se elas podem compartilhá-los com pessoas de fora da sua organização e se elas podem participar de canais compartilhados externos [criando uma política de canal](/MicrosoftTeams/teams-policies).
 
 Se você planeja compartilhar canais com pessoas de fora da sua organização, leia o [Planejar a colaboração externa](/microsoft-365/solutions/plan-external-collaboration) com considerações de planejamento importantes.
 
@@ -122,6 +122,22 @@ Arquivos, pastas e blocos de anotações do OneNote em um canal compartilhado po
 Se um usuário tiver acesso a um arquivo, pasta ou bloco de anotações em um canal compartilhado pelo SharePoint, remover o usuário da equipe ou do canal compartilhado não removerá o acesso do usuário ao arquivo, pasta ou bloco de anotações.
 
 Se um bloco de anotações existente for adicionado como uma guia a um canal compartilhado, o acesso ao canal compartilhado não será alterado e o bloco de anotações manterá suas permissões existentes.
+
+## <a name="resources-for-your-users"></a>Recursos para seus usuários
+
+Os artigos a seguir podem ser úteis para os usuários em sua organização quando eles usam canais compartilhados.
+
+[Criar um canal compartilhado no Teams](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Compartilhe um canal com pessoas no Teams](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[Compartilhe um canal com uma equipe](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[Por que usar um canal compartilhado versus outros tipos de canal no Teams?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Convidados e canais compartilhados no Teams](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Proprietários de canais compartilhados e vagas de membros no Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>Limites dos canais compartilhados (visualização)
 

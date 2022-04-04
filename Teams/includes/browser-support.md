@@ -21,6 +21,6 @@ O Teams tem suporte total para os seguintes navegadores da Internet, com exceç�
 <sup>4</sup> O Microsoft Edge RS2 ou posterior não oferece suporte ao envio de tráfego de áudio e vídeo em tempo real através de proxies HTTP.
 
 > [!NOTE]
-> Há suporte para o Teams, contanto que um sistema operacional possa executar o navegador compatível em computadores desktop. Por exemplo, executar o Firefox no sistema operacional Linux é uma opção para usar o Teams.
+> A execução do Teams em um navegador é suportada em PCs e Macs que atendam o mínimos dos [ requisitos de hardware para o Microsoft Teams](../hardware-requirements-for-the-teams-app.md). Por exemplo, executar o Firefox no sistema operacional Linux é uma opção para usar o Teams.
 >
-> Para sistemas operacionais móveis, recomendamos que você execute o aplicativo Teams, disponível nas lojas Android e iOS. Há suporte para a execução do Teams em um sistema operacional móvel, mas muitos recursos não estão disponíveis.
+> Em dispositivos móveis, recomendamos que você utilize o aplicativo Teams. O aplicativo Teams está disponível nas lojas do Android e iOS. A execução do Teams em um navegador em dispositivos móveis é suportada, mas muitos recursos não estão disponíveis.

@@ -415,6 +415,8 @@ items:
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
               - name: Use a telemetria em tempo real para solução de problemas de baixa qualidade da reunião
                 href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+              - name: Adicionar e atualizar rótulos de relatórios
+                href: learn-more-about-site-upload.md
           - name: Qualidade de Serviço (QoS)
             items:
               - name: Configurar o QoS no Teams
@@ -839,6 +841,8 @@ items:
             href: pstn-connectivity.md
           - name: Planos de Chamadas
             items:
+              - name: Planos de Chamadas do Microsoft 365
+                href: calling-plans-for-office-365.md
               - name: Qual Plano de Chamadas é ideal para você?
                 href: calling-plan-landing-page.md
               - name: Configurar Planos de Chamada para sua organização
@@ -963,7 +967,7 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Gerenciar números de telefone para Roteamento Direto
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-      - name: Roteamento de voz
+      - name: Planos de discagem e roteamento
         items:
           - name: O que são planos de discagem?
             href: what-are-dial-plans.md
@@ -971,8 +975,6 @@ items:
             href: create-and-manage-dial-plans.md
           - name: Rotear chamadas para números não atribuídos
             href: routing-calls-to-unassigned-numbers.md
-          - name: Adicionar e atualizar rótulos de relatórios
-            href: learn-more-about-site-upload.md
       - name: Configurações de rede e topologia
         items:
           - name: Configurações de rede para recursos de voz na nuvem
@@ -1573,6 +1575,12 @@ items:
                 items:
                   - name: Visão Geral
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+                  - name: Usar o assistente do conector do Shifts para configurar uma conexão com o WFM do Blue Yonder
+                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+                  - name: Usar o PowerShell para configurar uma conexão com o WFM do Blue Yonder
+                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+                  - name: Usar o PowerShell para gerenciar sua conexão do Shifts com o WFM do Blue Yonder
+                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
               - name: Perguntas frequentes sobre Turnos
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Microsoft Teams para Educação

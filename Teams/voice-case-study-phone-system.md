@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 'Teams caso de voz para corporação multi-nacional: sistema de telefonia'
+description: 'Teams de caso de voz para corporação multi-nacional: sistema de telefonia'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
-ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+ms.openlocfilehash: abc7c2b3eb8cbbaf98842638526514171a8b23c7
+ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62353366"
+ms.lasthandoff: 04/03/2022
+ms.locfileid: "64628325"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Estudo de caso contoso: Sistema de Telefonia para uma empresa multi-nacional
 
@@ -34,7 +34,7 @@ Dependendo da localização geográfica e de outros fatores, a Contoso tinha esc
 - Tipo de site C: uma combinação de Skype for Business Enterprise Voice e sistemas de telefonia herdados tradicionais
 
 
-Para implementar uma solução Telefone Microsoft System para toda a organização, a Contoso&mdash; precisava determinar para cada tipo de site&mdash; qual das seguintes opções seria usada com Sistema de Telefonia para se conectar à PSTN (Rede Telefônica Pública Comucionária):
+Para implementar uma solução Telefone Microsoft System para toda a organização, a Contoso&mdash; precisava determinar para cada tipo de site&mdash; qual das seguintes opções seria usada com o Sistema de Telefonia para se conectar à PSTN (Rede Telefônica Pública Comucionária):
 
 - Sistema de Telefonia com Plano de Chamada 
 
@@ -42,7 +42,7 @@ Para implementar uma solução Telefone Microsoft System para toda a organizaç�
 
 - Combinação de Sistema de Telefonia com Plano de Chamadas e Sistema de Telefonia com a própria operadora PSTN por meio de Roteamento Direto
  
-Para determinar a solução certa para sua organização, a Contoso usou [Plan your Teams voice solution](/SkypeForBusiness/cloud-voice-landing-page) e a sessão Ignite 2019 [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+Para determinar a solução certa para sua organização, a Contoso usou [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) e a sessão Ignite 2019 [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Tipo de site A: Skype for Business Enterprise Voice 
 
@@ -111,7 +111,7 @@ Os diagramas a seguir mostram a implantação do sistema herdados original com s
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Tipo de site C: combinação de Skype for Business Enterprise Voice e sistemas de telefonia herdados tradicionais
 
-Contoso Skype for Business Enterprise Voice os números dos usuários residem no tronco SIP para o SBC da operadora. Os números dos sistemas de telefonia tradicionais residiam no tronco TDM para o gateway PSTN.   
+A Contoso Skype for Business Enterprise Voice os números dos usuários residem no tronco SIP para o SBC da operadora. Os números dos sistemas de telefonia tradicionais residiam no tronco TDM para o gateway PSTN.   
 
 A Contoso baseou sua decisão nas seguintes perguntas:
 
@@ -130,7 +130,7 @@ Com base nas respostas às suas perguntas, a Contoso decidiu o seguinte:
 
 - Para os usuários de telefonia herdados que serão habilitados para Roteamento Direto, a Contoso portava os números do tronco TDM para o Tronco SIP do SBC, já que o SBC é certificado para Roteamento Direto. 
 
-- Para dar suporte a um subconjunto de usuários que se movem para Sistema de Telefonia e para permitir o roteamento contínuo pelo sistema herdado, o sistema de telefonia herdado foi definido como o próximo salto para o SBC.   
+- Para dar suporte a um subconjunto de usuários que Sistema de Telefonia e permitir o roteamento contínuo pelo sistema herdado, o sistema de telefonia herdado foi definido como o próximo salto para o SBC.   
 
 - Além disso, para incentivar a mudança de comportamento do usuário e remover a dependência da discagem de extensão entre e dentro do site, a Contoso forneceu orientações para usar o Teams para todas as chamadas internas.  
 
@@ -169,13 +169,13 @@ A Contoso participou do Ignite para se manter Office 365 recursos, incluindo aqu
 
 Para obter licenças e atribuir números de telefone aos usuários, a Contoso seguiu as etapas em [Configurar Planos de Chamadas](set-up-calling-plans.md). 
 
-Devido ao número de usuários que precisavam ser atribuídos números de telefone, a Contoso decidiu usar o PowerShell para atribuir os números de telefone. Para saber como atribuir números usando o PowerShellin&mdash;&mdash;, além de outras configuraçõesContoso usou a visão [geral Teams PowerShell](teams-powershell-overview.md).  
+Devido ao número de usuários que precisavam ser atribuídos números de telefone, a Contoso decidiu usar o PowerShell para atribuir os números de telefone. Para saber como atribuir números usando o PowerShellin&mdash;&mdash; além de outras configuraçõesContoso usou o [Teams Visão Geral do PowerShell](teams-powershell-overview.md).  
 
 ### <a name="direct-routing-sites"></a>Sites de Roteamento Direto
 
-Para conectar a infraestrutura de telefonia local da Contoso ao Microsoft Teams, o administrador da Contoso seguiu as etapas em [Configurar](direct-routing-configure.md) Roteamento Direto e reviu o vídeo Roteamento [](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) Direto no Microsoft Teams para obter orientação.  A Contoso também se referiu à documentação de implantação de roteamento direto pelo fornecedor SBC certificado. 
+Para conectar a infraestrutura de telefonia local da Contoso ao Microsoft Teams, o administrador da Contoso seguiu as etapas em [Configurar](direct-routing-configure.md) Roteamento Direto e reviu o vídeo [Roteamento](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) Direto no Microsoft Teams para obter orientação.  A Contoso também se referiu à documentação de implantação de roteamento direto pelo fornecedor SBC certificado. 
 
-Depois que o Roteamento Direto foi configurado entre o SBC e Telefone Microsoft System, foi necessário que a Contoso testa a configuração. Para fazer isso, os administradores da Contoso usaram o cliente testador SIP que foi discutido na sessão Atualizações para Roteamento Direto no [Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). O script e a documentação do cliente do Testador SIP foram baixados do script do PowerShell para testar conexões do Controlador de Borda de Sessão de Roteamento Direto.   
+Depois que o Roteamento Direto foi configurado entre o SBC e o Telefone Microsoft System, foi necessário que a Contoso testa a configuração. Para fazer isso, os administradores da Contoso usaram o cliente testador SIP que foi discutido na sessão Atualizações para Roteamento Direto no [Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions). O script e a documentação do cliente do Testador SIP foram baixados do script do PowerShell para testar conexões do Controlador de Borda de Sessão de Roteamento Direto.   
 
 
 ### <a name="local-media-optimization"></a>Otimização de mídia local
