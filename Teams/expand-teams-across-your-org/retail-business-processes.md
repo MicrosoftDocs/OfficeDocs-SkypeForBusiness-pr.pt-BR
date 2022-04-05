@@ -7,25 +7,20 @@ ms.author: samanro
 audience: admin
 manager: pamgreen
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: high
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Retail
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: dfe825f1ab21aab3dad2617236d61859ab6b90d8
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288846"
+  - Microsoft Teams
 ---
+
 # <a name="simplify-business-processes-in-retail-environments"></a>Simplifique os processos de negócios em ambientes de varejo
 
 Você pode utilizar os aplicativos do Teams, o Power Apps e o Power BI para simplificar os processos de negócios para suas equipes de varejo.
@@ -52,7 +47,7 @@ Mais informações: [Power Apps](../manage-power-platform-apps.md) e [Integraç�
 
 ## <a name="track-key-performance-indicators-kpis-with-power-bi-reports"></a>Acompanhe os principais indicadores de desempenho (KPIs) com os relatórios do Power BI
 
-Compartilhe e colabore em um conteúdo interativo do Power BI nos canais e chats do Microsoft Teams. Você pode adicionar uma [guia do Power BI](../built-in-custom-tabs.md) ao Teams para incorporar relatórios interativos e conversas no Teams sobre seus relatórios e ser notificado quando coisas importantes acontecerem no Power BI diretamente no feed de atividades do Teams.
+Compartilhe e colabore em um conteúdo interativo do Power BI nos canais e chats do Microsoft Teams. Você pode adicionar uma [guia do Power BI](/microsoftteams/platform/tabs/what-are-tabs) ao Teams para incorporar relatórios interativos e conversas no Teams sobre seus relatórios e ser notificado quando coisas importantes acontecerem no Power BI diretamente no feed de atividades do Teams.
 
 Mais informações: [Colaborar no Microsoft Teams com o Power BI](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
 

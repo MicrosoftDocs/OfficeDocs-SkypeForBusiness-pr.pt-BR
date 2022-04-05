@@ -8,23 +8,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-- Microsoft Teams
+  - Microsoft Teams
 search.appverid: MET150
 description: Saiba mais sobre a disponibilidade do aplicativo Aprovações no Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442307"
+  - Microsoft Teams
 ---
+
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
 O aplicativo Aprovações está disponível como um aplicativo pessoal para todos os usuários do Microsoft Teams.
@@ -36,7 +31,7 @@ Os usuários podem fixar o aplicativo Aprovações para salvá-lo na barra de me
 
  ![mostra o aplicativo de aprovações com a opção pin.](media/approvalApp-pin.png)
 
-A primeira aprovação criada a partir do aplicativo Aprovações acionará o provisionamento da Solução de Aprovação no ambiente padrão de CDS (Serviço de Dados Comuns). As aprovações criadas a partir do aplicativo Aprovações serão armazenadas no ambiente de CDS padrão.
+A primeira aprovação criada Aprovações aplicativo disparará o provisionamento da Solução de Aprovação no ambiente padrão do Microsoft Dataverse. Aprovações criado a partir do Aprovações aplicativo será armazenado no ambiente padrão do Microsoft Dataverse.
 
 Este artigo descreve os requisitos e as funções do aplicativo Aprovações.
 
@@ -45,30 +40,30 @@ Este artigo descreve os requisitos e as funções do aplicativo Aprovações.
 
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 
-Para implantar o aplicativo Aprovações, você precisa de permissão para os seguintes itens:
+Para implantar o Aprovações aplicativo, você precisa de permissão para os seguintes itens:
 
-- Permissões para criar um banco de dados de CDS da Microsoft.
+- Permissões para criar um banco de dados do Microsoft Dataverse.
 
-- Uma conta em [flow.microsoft.com](https://flow.microsoft.com/)
+- Uma conta no [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)
 
 - Função de administrador no ambiente de destino.
 
 - Licença para [Power Automate](/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
 
-- A licença do Microsoft Forms é necessária para os usuários configurarem novos modelos de aprovação.
+- A licença Microsoft Forms é necessária para os usuários configurarem novos modelos de aprovação.
 
-Para usar o aplicativo Aprovações, você precisa de uma licença para Power Automate e sua conta será adicionada automaticamente à função Aprovações Usuário no ambiente de destino em sua primeira atribuição de aprovação.
+Para usar o aplicativo Aprovações, você precisa de uma licença para Power Automate e sua conta será adicionada automaticamente à função de usuário Aprovações no ambiente de destino em sua primeira atribuição de aprovação.
 
-## <a name="storage-with-cds"></a>Armazenamento com CDS
+## <a name="storage-with-microsoft-dataverse"></a>Armazenamento com o Microsoft Dataverse
 
-O CDM (Modelo de Dados Comum) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no CDS. Ele consiste em um conjunto de esquemas de dados padronizados e extensíveis publicados pela Microsoft e por nossos parceiros que permitem a consistência dos dados e seu significado entre aplicativos e processos comerciais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
+O Modelo de Dados Comuns (CDM) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no Microsoft Dataverse. Ele consiste em um conjunto de esquemas de dados padronizados e extensíveis publicados pela Microsoft e por nossos parceiros que permitem a consistência dos dados e seu significado entre aplicativos e processos comerciais. Saiba mais sobre o [dados comuns do Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
 
-As aprovações criadas a partir de um modelo ainda armazenam dados em CDS, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre  [o armazenamento de dados para o Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Aprovações criados a partir de um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre  [o armazenamento de dados para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Se você excluir o modelo de formulário no site do Microsoft Forms, ele quebrará seu modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de Aprovação que foi excluído no Microsoft Forms.
+>Se você excluir o modelo de formulário no site Microsoft Forms, ele quebrará seu modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de aprovação que foi excluído no Microsoft Forms.
 
 Modelos de escopo organizacional compartilham o mesmo tempo de vida dos modelos de locatário e de equipe compartilham o mesmo tempo de vida da equipe. Portanto, excluir permanentemente a equipe exclui os modelos relacionados.
 
@@ -120,17 +115,23 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   5. Selecione o alternância para desabilitar o aplicativo em sua organização.
 
-     :::image type="content" alt-text="mostra os detalhes do aplicativo Aprovações." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="mostra os detalhes do Aprovações app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="retention-policy"></a>Política de retenção
+## <a name="app-policies"></a>Políticas de aplicativo
 
-As aprovações criadas a partir do aplicativo Aprovações são armazenadas no ambiente de CDS padrão, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+### <a name="retention-policy"></a>Política de retenção
 
-Os dados armazenados no Forms não serão excluídos até que os proprietários da equipe os limpem da guia **formulários** excluídos no aplicativo Web do Microsoft Forms.
+Aprovações criados a partir do aplicativo Aprovações são armazenados no ambiente padrão do Microsoft Dataverse, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+
+Os dados armazenados no Forms não serão excluídos até que os proprietários da equipe os  limpem da guia formulários excluídos no aplicativo Microsoft Forms Web.
+
+### <a name="conditional-access-policies"></a>Políticas de Acesso Condicional
+
+Atualmente, o aplicativo Aprovações no Teams não dá suporte a políticas de Acesso Condicional definidas para Microsoft Teams.
 
 ## <a name="data-limitations"></a>Limitações de dados
 
-Cada equipe pode conter no máximo 400 modelos de aprovações, e cada modelo pode coletar no máximo 50.000 solicitações com base na funcionalidade atual no Microsoft Forms.
+Cada equipe pode conter no máximo 400 modelos de aprovações, e cada modelo pode coletar no máximo 50.000 solicitações com base no recurso atual no Microsoft Forms.
 
 ## <a name="auditing"></a>Auditoria
 
@@ -176,7 +177,7 @@ Você pode procurar as seguintes atividades:
 
 - Modelo exibido
 
-Para obter acesso a mais aprovações de auditoria no Flow, habilita e configure a auditoria no ambiente padrão para as entidades de aprovação principais Aprovação, Solicitação de Aprovação e Resposta de Aprovação. Operações de criação, atualização e exclusão são eventos auditáveis para registros de Aprovação. Saiba mais sobre [dados de Auditoria e atividade do usuário para segurança e conformidade - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
+Para obter mais aprovações de auditoria dentro Power Automate, habilita e configure a auditoria no ambiente padrão para as entidades de aprovação primária Aprovação, Solicitação de Aprovação e Resposta de Aprovação. Operações de criação, atualização e exclusão são eventos auditáveis para registros de Aprovação. Saiba mais sobre [dados de Auditoria e atividade do usuário para segurança e conformidade - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
 
 A auditoria pode ser personalizada ainda mais no [de Conformidade e Segurança do Microsoft 365](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
@@ -195,20 +196,20 @@ No aplicativo Aprovações de Equipes, os usuários têm acesso para criar novas
 > [!Note]
 > Um usuário terá uma função de visualizador de uma solicitação se ele for parte do chat ou canal no qual a aprovação foi criada. Ela não terá a capacidade de tomar medidas na solicitação caso não tenha sido concedida essa função quando a aprovação foi criada.
 
-## <a name="approvals-e-signature-integration"></a>Aprova a integração de assinatura eletrônica
+## <a name="approvals-e-signature-integration"></a>Aprovações integração de assinatura eletrônica
 
-Para usar o recurso de assinatura eletrônica do aplicativo Aprovações, você precisa de uma licença para o provedor de assinatura eletrônica específico que deseja usar. Para obter uma licença para sua organização, você precisará ir para o site do provedor.
+Para usar o Aprovações de assinatura eletrônica do aplicativo, você precisa de uma licença para o provedor de assinatura eletrônica específico que deseja usar. Para obter uma licença para sua organização, você precisará ir para o site do provedor.
 
 ### <a name="enable-or-disable-e-signature-providers"></a>Habilitar ou desabilitar provedores de assinatura eletrônica
 
-Você pode usar o Teams de administração para controlar quais provedores de assinatura eletrônica de terceiros estão disponíveis para seus usuários no aplicativo Aprovações. Por padrão, os provedores de assinatura eletrônica são habilitados no aplicativo Aprovações. Quando você desabilita um provedor de assinatura eletrônica, os usuários não terão acesso a esse provedor quando eles criarem aprovações. Seus usuários também não poderão exibir solicitações de assinatura eletrônica que foram criadas usando esse provedor.
+Você pode usar o Teams de administração para controlar quais provedores de assinatura eletrônica de terceiros estão disponíveis para seus usuários no aplicativo Aprovações de terceiros. Por padrão, os provedores de assinatura eletrônica são habilitados no Aprovações aplicativo. Quando você desabilita um provedor de assinatura eletrônica, os usuários não terão acesso a esse provedor quando eles criarem aprovações. Seus usuários também não poderão exibir solicitações de assinatura eletrônica que foram criadas usando esse provedor.
 
 1. Na navegação à esquerda do centro de administração Teams, vá para Teams **appsManage** > .
-2. Pesquise o aplicativo Aprovações e selecione-o.
+2. Procure o aplicativo Aprovações e selecione-o.
 3. Vá para a **guia Configurações** e, em seguida, faça um ou mais dos seguintes:
 
     - Para habilitar ou desabilitar o Adobe Sign, alterne a alternância para **Ativado** ou **Desligado**.
     - Para habilitar ou desabilitar o DocuSign, alterne a alternância para **Ativado** ou **Desligado**.
 4. Selecione **Enviar**.
 
-As aprovações de assinatura eletrônica criadas a partir do aplicativo Aprovações são armazenadas no ambiente de nuvem do provedor selecionado. Para exportar dados sobre assinaturas eletrônicas, você precisará ir para o site do provedor. Para obter mais informações sobre armazenamento, exportação e retenção de contratos de assinatura eletrônica, consulte a documentação do provedor.
+As aprovações de assinatura eletrônica criadas Aprovações aplicativo são armazenadas no ambiente de nuvem do provedor selecionado. Para exportar dados sobre assinaturas eletrônicas, você precisará ir para o site do provedor. Para obter mais informações sobre armazenamento, exportação e retenção de contratos de assinatura eletrônica, consulte a documentação do provedor.

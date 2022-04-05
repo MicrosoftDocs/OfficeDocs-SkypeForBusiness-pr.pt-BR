@@ -7,27 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_GuestAccess
-- M365-collaboration
-- m365initiative-externalcollab
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
+  - m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.externalaccess.overview
-- seo-marvel-mar2020
-description: Seu administrador do Teams ou de TI pode configurar o acesso externo de outros domínios (federação) para permitir que os usuários desses domínios encontrem, liguem, conversem e configurem reuniões com seus usuários.
+  - ms.teamsadmincenter.externalaccess.overview
+  - seo-marvel-mar2020
+description: 'Seu administrador do Teams ou de TI pode configurar o acesso externo de outros domínios (federação) para permitir que os usuários desses domínios encontrem, liguem, conversem e configurem reuniões com seus usuários.'
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556312"
 ---
+
 # <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 
 O acesso externo é uma maneira de os usuários do Teams de um domínio externo inteiro encontrarem, ligarem, conversarem e marcarem reuniões com você no Teams. Você também pode usar o acesso externo para se comunicar com pessoas de outras organizações que ainda usam o Skype for Business (online e local) e o Skype.
@@ -106,6 +101,9 @@ Para bloquear domínios específicos
 Para se comunicar com outro locatário, eles devem habilitar **Permitir todos os domínios externos** ou adicionar seu locatário à lista de domínios permitidos seguindo as mesmas etapas acima.  
 
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>Gerenciar contato com usuários externos do Teams não gerenciados por uma organização
+
+> [!NOTE]
+> Os recursos de Teams e Skype de interop discutidos neste artigo não estão disponíveis em implantações do GCC, GCC High ou DOD ou em ambientes de nuvem particulares.
 
 Os administradores podem optar por habilitar ou desabilitar comunicações com usuários externos Teams que não são gerenciados por uma organização ("não gerenciado"). Se habilitado, eles também poderão controlar ainda mais se as pessoas com contas não controladas do Teams podem iniciar contato (consulte a imagem a seguir). Se **Usuários externos com contas do Teams não gerenciadas por uma organização podem contatar os usuários em minha organização** está desativado, os usuários não gerenciados do Teams não poderão pesquisar o endereço de email completo para localizar contatos da organização e todas as comunicações com usuários não gerenciados do Teams devem ser iniciadas pelos usuários da organização.
 

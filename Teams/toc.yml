@@ -1175,7 +1175,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1495,6 +1495,8 @@ items:
         items:
           - name: 'Segurança, conformidade, privacidade e tratamento de dados para aplicativos de terceiros'
             href: /microsoft-365-app-certification/overview
+          - name: Use o Microsoft 365 ou Office 365 e conectores personalizados
+            href: Office-365-custom-connectors.md
           - name: Comprar aplicativos de terceiros para o Teams
             href: purchase-third-party-apps.md
       - name: Modelos de aplicativos para o Teams
@@ -1511,8 +1513,6 @@ items:
             href: customize-apps.md
           - name: Marcar a loja de aplicativos da sua organização
             href: customize-your-app-store.md
-          - name: Usar guias internas e personalizadas
-            href: built-in-custom-tabs.md
       - name: Controles de administrador e governança de aplicativos
         items:
           - name: Visão geral do gerenciamento de aplicativos para administradores
@@ -1537,8 +1537,6 @@ items:
             href: app-permissions.md
           - name: Configurações de administração para aplicativos no Teams
             href: admin-settings.md
-          - name: Use o Microsoft 365 ou Office 365 e conectores personalizados
-            href: Office-365-custom-connectors.md
           - name: Comportamento do aplicativo com base em tipos de usuários
             href: non-standard-users.md
           - name: Atualizar aplicativos para versões mais recentes como usuários finais

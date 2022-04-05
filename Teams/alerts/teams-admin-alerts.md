@@ -18,9 +18,9 @@ appliesto:
 ms.custom: null
 ---
 
-# <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams monitoramento e alerta
+# <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams monitoramento e alertas
 
-Os novos recursos de monitoramento e alerta para Microsoft Teams estão disponíveis no Teams de administração. Use diferentes conjuntos de regras disponíveis na seção Notificações **& alertas** no centro de administração do Teams para monitorar os recursos Teams e receber alertas. Por exemplo, você pode monitorar ativamente a saúde de Teams dispositivos como telefones IP, barras de colaboração e outros se eles ficarem offline inesperadamente.  
+Novos recursos de monitoramento e alerta para Microsoft Teams estão disponíveis no Teams de administração. Use diferentes conjuntos de regras disponíveis na seção Notificações **& alertas** no centro de administração do Teams para monitorar Teams recursos e receber alertas. Por exemplo, você pode monitorar ativamente a saúde de Teams dispositivos como telefones IP, barras de colaboração e outros se eles ficarem offline inesperadamente.  
 
 Sua organização pode usar Teams monitoramento e alertas para fazer os seguintes itens:
 
@@ -30,7 +30,7 @@ Sua organização pode usar Teams monitoramento e alertas para fazer os seguinte
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>Como gerenciar monitoramento e alertas
 
- Você deve ser um administrador global no Microsoft 365 ou um Teams de serviço para configurar regras de alerta. Consulte [Use Teams de](../using-admin-roles.md) administrador para gerenciar Teams para saber mais sobre as Teams de administrador e quais relatórios cada função de administrador pode acessar.
+ Você deve ser um administrador global no Microsoft 365 ou um Teams de serviço para configurar regras de alerta. Consulte [Usar Teams funções](../using-admin-roles.md) de administrador para gerenciar Teams para saber mais sobre as Teams de administrador e quais relatórios cada função de administrador pode acessar.
 
 1. Entre no Centro de administração do Teams.
 2. Na navegação à esquerda, selecione **Notificações & alertas**.
@@ -43,4 +43,5 @@ Continuamos adicionando e melhorando a experiência Teams monitoramento adiciona
 
 |Rule  |Capacidade de monitoramento|O que é monitorado? |
 |---------|---------|---------|
-|[Status de saúde do dispositivo](device-health-status.md)  |Teams Dispositivos | Pro monitorar ativamente Teams dispositivos se eles ficarem offline.|
+|Envios de aplicativos  |Teams Apps | Pro monitorar ativamente Teams aplicativos se eles são enviados para aprovação.|
+|[Regra de estado do dispositivo](device-health-status.md)  |Teams Dispositivos | Pro monitorar ativamente Teams dispositivos se eles ficarem offline.|

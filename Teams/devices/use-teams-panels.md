@@ -8,21 +8,16 @@ ms.topic: reference
 ms.service: msteams
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
+  - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece orientações sobre como usar dispositivos Teams painéis.
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062535"
 ---
+
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar Microsoft Teams painéis
 
 Microsoft Teams painéis são dispositivos de exibição digital compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são Microsoft Teams dispositivos que fornecem uma visão geral sobre o espaço de reunião e a reunião agendada. Com os indicadores de LED e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado de uma distância. Você pode usar Teams painéis para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
@@ -33,7 +28,7 @@ Este artigo fornece orientações, para usuários finais e administradores, sobr
 
 Para obter uma visão geral dos dispositivos de painéis e as diretrizes sobre como planejar, entregar e gerenciá-los em sua organização, consulte [Deploy Microsoft Teams panels](teams-panels.md).
 
-Para começar rapidamente, confira [Começar a Teams painéis](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
+Para um início rápido, confira Introdução [com Teams painéis](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
 ## <a name="teams-panels-end-user-experience"></a>Teams painéis experiência do usuário final
 
@@ -158,7 +153,7 @@ Para exibir ou atualizar uma configuração de dispositivo:
 
 ## <a name="teams-panels-admin-experience"></a>Teams de administrador de painéis
 
-Se você for o administrador da [Teams](teams-panels.md\#resource-account-provisioning) de recursos do painel, então também será o administrador do **Aplicativo de** Painéis no dispositivo. Como administrador **do Aplicativo de** Painéis, você pode fazer todas as funções mencionadas na seção experiência [](#teams-panels-end-user-experience) do usuário final, além de gerenciar as configurações do  Aplicativo painéis no dispositivo.
+Se você for o administrador da painel do Teams de recursos da [painel do Teams, então](teams-panels.md\#resource-account-provisioning) também será o administrador do **Aplicativo painéis** no dispositivo. Como administrador **do Aplicativo de** Painéis, você pode fazer todas as funções mencionadas na seção experiência [](#teams-panels-end-user-experience) do usuário final, além de gerenciar as configurações do  Aplicativo painéis no dispositivo.
 
 Seus dispositivos de painéis fornecem dois tipos de configurações de administrador. Você deve ser um administrador de dispositivo para acessar as configurações de administrador disponíveis. Os usuários finais não podem acessar essas configurações.
 
@@ -192,9 +187,11 @@ Para acessar a **opção Painels app Configurações**:
     - [Papel de parede](#update-the-wallpaper)
     - [Indicador LED](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparelhar um Teams painel com uma sala Microsoft Teams no Android
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparelhar um painel do Teams com uma sala Microsoft Teams no Android
 
-No painel Teams, entre usando suas credenciais de administrador.  
+Para emparelhar um painel do Teams e Teams no Android, ambos os dispositivos devem estar conectados à mesma conta de recurso.
+
+No painel do Teams, entre usando suas credenciais de administrador.
 
 1. Vá para **o Configurações > de Configurações > de Configurações > De Configurações > reuniões > emparelhamento de dispositivos.**
 
@@ -208,6 +205,24 @@ Quando Teams painéis é emparelhado com uma sala Microsoft Teams no Android, as
 
 Para habilitar o check-in e a versão de sala, consulte [Check-in e room release on Microsoft Teams Panels](check-in-and-room-release.md).
 
+#### <a name="room-capacity-warning"></a>Aviso de capacidade de sala
+
+Teams painéis que são emparelhados com uma sala Teams no Android podem exibir uma mensagem de aviso quando uma sala de reunião está com ou mais capacidade. Para usar esse recurso, a sala Teams deve ter uma câmera que suporte a contagem de pessoas. Salas do Teams avisos de capacidade de sala de suporte para Android sem painel do Teams.
+
+Os avisos de capacidade de sala são desligados por padrão. Para ativar a configuração do painel do Teams, primeiro emparelhe um painel do Teams [com uma sala Microsoft Teams no Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). O painel e a Teams Room devem ser assinados na mesma conta de recurso.
+
+ Em seguida, vá para **Configurações > Configurações do dispositivo > Configurações de administrador > configurações do aplicativo Painel**. Em Reuniões **, ative** a **notificação de ocupação da sala Máx**.
+
+#### <a name="view-room-equipment"></a>Exibir equipamento de sala
+
+Quando esse recurso é ligado, os usuários finais podem exibir quais equipamentos estão disponíveis em um espaço em um painel do Teams.
+
+Esse recurso está desligado por padrão e pode ser habilitado por dispositivo. Para a ativar, use [Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) no PowerShell para configurar `AudioDeviceName`os nomes de exibição para , `DisplayDeviceName`, `VideoDeviceName`, `Tags`e `IsWheelChairAccessible`.
+
+Ou você pode habilitar esse recurso no Exchange de administração. Confira [Editar um recurso para](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) obter mais informações.
+
+
+
 #### <a name="update-the-wallpaper"></a>Atualizar o papel de parede
 
 Alterar a imagem de papel de parede da tela inicial.
@@ -216,7 +231,7 @@ Alterar a imagem de papel de parede da tela inicial.
 2. Toque **em Papel de Parede**.
 3. Em **Escolher sua imagem**, selecione uma imagem para definir como a imagem de plano de fundo da tela inicial. Visualize a imagem selecionada em **Plano de Fundo**.
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Esta captura de tela exibe a tela de configurações do papel de parede.":::
-4. Volte para a tela inicial e verifique se o papel de parede foi atualizado.
+4. Voltar na tela inicial e verifique se o papel de parede está atualizado.
 
 #### <a name="change-the-busy-state-led-color"></a>Alterar a cor do LED de estado ocupado
 
@@ -226,7 +241,7 @@ Os administradores podem escolher vermelho ou roxo como a cor LED para indicar q
 2. Toque **em LED Configurações**.
 3. Em **Escolher a cor do LED**, selecione a cor desejada.
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Esta captura de tela exibe as configurações de estado de ocupado da cor do LED.":::
-4. Volte para a tela inicial e verifique se a cor do LED para o estado de ocupado está atualizada. Se o espaço de reunião estiver disponível no momento, tente agendar uma reunião de teste para verificar a alteração na cor do LED para o estado de disponibilidade.
+4. Voltar para a tela inicial e verifique se a cor do LED para o estado de ocupado está atualizada. Se o espaço de reunião estiver disponível no momento, tente agendar uma reunião de teste para verificar a alteração na cor do LED para o estado de disponibilidade.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

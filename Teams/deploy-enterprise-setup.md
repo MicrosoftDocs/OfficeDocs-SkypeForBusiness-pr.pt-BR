@@ -6,23 +6,18 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Configure o Teams na sua empresa para permitir que seus usuários colaborem usando o bate-papo e o compartilhamento de arquivos, configurar e participar de pequenas e grandes reuniões, e conversar via vídeo e voz.
+description: 'Configure o Teams na sua empresa para permitir que seus usuários colaborem usando o bate-papo e o compartilhamento de arquivos, configurar e participar de pequenas e grandes reuniões, e conversar via vídeo e voz.'
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
-ms.translationtype: HT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605817"
+  - Microsoft Teams
 ---
+
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configure o Microsoft Teams na sua empresa
 
 Use as informações contidas neste artigo para orientá-lo durante a implantação do Teams na sua organização.
@@ -78,8 +73,8 @@ Chat, equipes e canais são a base do Teams. O **Chat** permite que um ou mais u
 
 | Decisão | Descrição |
 |--|--|
-| O acesso externo deve estar habilitado? | O acesso externo permite que qualquer pessoa em outra organização fale com as pessoas da sua organização. Isso é útil quando você possui um relacionamento próximo com outra organização, como um fornecedor, e quer facilitar a conversa entre as pessoas de ambas as organizações, realizar reuniões, e assim por diante.<p>O acesso externo é diferente do acesso de convidado. O acesso externo permite que pessoas de uma organização tenham acesso para interagirem com as pessoas de sua organização. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização.<p>O acesso externo está **Desativado** por padrão.<p>[Gerenciar o acesso externo no Microsoft Teams](manage-external-access.md)  |
-| O acesso de convidados deve estar habilitado? |O acesso de convidados permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não têm uma relação formal com a sua empresa. Por exemplo, você pode convidar um planejador de projeto para trabalhar temporariamente em um projeto.<p>O acesso de convidado é diferente do acesso externo. O acesso de convidado convida indivíduos específicos para interagir com pessoas em sua organização. O acesso externo permite que pessoas de outra organização tenham acesso para interagirem com as pessoas de sua organização. <p>O acesso de convidado está **Desativado** por padrão. <p>[Ativar ou desativar o acesso de convidados ao Microsoft Teams](set-up-guests.md)  |
+| O acesso externo deve estar habilitado? | O acesso externo permite que qualquer pessoa em outra organização fale com as pessoas da sua organização. Isso é útil quando você possui um relacionamento próximo com outra organização, como um fornecedor, e quer facilitar a conversa entre as pessoas de ambas as organizações, realizar reuniões, e assim por diante.<p>O acesso externo é diferente do acesso de convidado. O acesso externo permite que pessoas de uma organização tenham acesso para interagirem com as pessoas de sua organização. O acesso de convidados permite o acesso de indivíduos específicos para interagirem com as pessoas da sua organização.<p>O acesso externo é **ativado** por padrão.<p>[Gerenciar o acesso externo no Microsoft Teams](manage-external-access.md)  |
+| O acesso de convidados deve estar habilitado? |O acesso de convidado permite que as pessoas da sua organização convidem pessoas de fora da sua organização para acessarem suas equipes e canais. O acesso de convidado é usado com frequência para colaborar com pessoas de fora da sua organização que não têm uma relação formal com a sua empresa. Por exemplo, você pode convidar um planejador de projeto para trabalhar temporariamente em um projeto.<p>O acesso de convidado é diferente do acesso externo. O acesso de convidado convida indivíduos específicos para interagir com pessoas em sua organização. O acesso externo permite que pessoas de outra organização tenham acesso para interagirem com as pessoas de sua organização. <p>O acesso de convidado é **ativado** por padrão. <p>[Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Reuniões e audioconferência](#tab/MeetingsAudioConferencing)
 
@@ -118,7 +113,7 @@ O Sistema de telefonia permite que você substitua seu sistema de telefonia exis
 | Você quer substituir seu sistema de telefonia local? | Configure o Sistema de telefonia ao definir o atendimento automático, planos de chamadas, filas de chamadas, e assim por diante. <p> [Configurar o Sistema de telefonia da sua organização](setting-up-your-phone-system.md)|
 | Você quer definir as Políticas de Caixa postal na nuvem?| Você pode controlar quais recursos de Caixa postal na nuvem estão disponíveis aos seus usuários e como eles funcionam. Por exemplo, você pode habilitar ou desabilitar a transcrição do correio de voz da sua organização, habilitar ou desabilitar o mascaramento de palavrões para usuários específicos, e assim por diante.<p> [Configurar a Caixa postal na nuvem](set-up-phone-system-voicemail.md) |
 | Você quer habilitar a chamada de emergência dinâmica?| A chamada de emergência dinâmica permite que você configure um mapa de localização com base nas configurações de rede e outros metadados para determinar para onde enviar equipes de emergência no caso de uma chamada de emergência ser feita por um usuário. Você pode definir configurações de rede, atribuir endereços de emergência a locais, e assim por diante.<p>[Planejar e configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md) |
-| Você quer personalizar o comportamento do identificador de chamadas? | Por padrão, o número de telefone mostrado quando um usuário do Teams faz uma chamada é o número de telefone do usuário. Você pode alterá-lo para ser o número principal da empresa, bloquear o número de telefone, tornar o número anônimo, ou outro número de serviço. O Teams possui uma política global que se aplica a todos.<p>Se você quiser que a mesma política se aplique a todos, você só precisa fazer alterações nessa política global. <p>Se você quiser diferentes políticas para diferentes grupos de pessoas (por exemplo, uma política para funcionários de escritório e outra para executivos), você pode criar e atribuir políticas. Quando você atribui uma política a um usuário, a política global não se aplica mais a ele.<p> [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md) |
+| Você quer personalizar o comportamento do identificador de chamadas? | Por padrão, o número de telefone mostrado quando Teams usuário faz uma chamada é o número de telefone do usuário. Você pode alterá-lo para ser o número principal da empresa, bloquear o número de telefone, tornar o número anônimo, ou outro número de serviço. O Teams possui uma política global que se aplica a todos.<p>Se você quiser que a mesma política se aplique a todos, você só precisa fazer alterações nessa política global. <p>Se você quiser diferentes políticas para diferentes grupos de pessoas (por exemplo, uma política para funcionários de escritório e outra para executivos), você pode criar e atribuir políticas. Quando você atribui uma política a um usuário, a política global não se aplica mais a ele.<p> [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md) |
 
 ---
 
@@ -149,12 +144,12 @@ O Teams e o Microsoft 365 fornecem muitas ferramentas que podem ajudá-lo a fica
 | [eDiscovery](eDiscovery-investigation.md)| Ajuda a procurar e recuperar conteúdo na sua organização, quando a mesma recebe exigências de descoberta nos processos judiciais. |
 | [Retenção legal](legal-hold.md)| Ajuda a reter informações na sua organização, mesmo que sejam apagadas por um usuário, quando necessário, durante processos judiciais, para que possam ser descobertas durante investigações de eDiscovery. |
 | [Pesquisa de conteúdo](content-search.md)| Fornece uma maneira de consultar as informações do Teams, que abrangem o Exchange, o SharePoint Online e o OneDrive for Business.|
-| [Auditoria](audit-log-events.md)| Permite que você consulte informações a respeito de uma ação específica, incluindo quem a executou, quando ela foi executada, o endereço de IP que foi usado, e assim por diante. A ação inclui a criação ou remoção de equipes, criação de canais, alteração de configurações no Teams, etc.|
+| [Auditoria](audit-log-events.md)| Permite que você consulte informações a respeito de uma ação específica, incluindo quem a executou, quando ela foi executada, o endereço de IP que foi usado, e assim por diante. As ações incluem a criação ou exclusão de equipes, criação de canais, configurações alteradas no Teams e assim por diante.|
 | [Chave do cliente](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Permite que você crie uma política de criptografia de dados usando chaves de criptografia fornecidas por você.|
 
 ## <a name="clients"></a>Clientes
 
-Quando você estiver pronto para que seus usuários comecem a usar o Teams, eles podem instalar o cliente do Teams nos seus computadores Windows, Mac ou Linux, ou no seu dispositivo Android ou iOS. Os usuários podem baixar o cliente do Teams diretamente do <https://teams.microsoft.com/downloads>.
+Quando você estiver pronto para que seus usuários comecem a usar o Teams, eles podem instalar o cliente do Teams nos computadores Windows, Mac ou Linux, ou no seu dispositivo Android ou iOS. Os usuários podem baixar o cliente do Teams diretamente do <https://teams.microsoft.com/downloads>.
 
 Certifique-se de que todos que usarão o Teams tenham uma licença do Teams. Para obter mais informações de como atribuir uma licença do Teams, consulte [Gerenciar o acesso do usuário ao Teams](user-access.md#using-the-microsoft-365-admin-center).
 
