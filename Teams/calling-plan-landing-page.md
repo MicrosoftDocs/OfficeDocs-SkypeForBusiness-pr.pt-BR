@@ -14,69 +14,66 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Determine qual Telefone Microsoft Plano de Chamadas do Sistema atenderá melhor a sua organização no Cloud Voice Teams.
+description: Determine qual Telefone Microsoft plano de chamada do sistema atenderá melhor à sua organização no Cloud Voice Teams.
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71c52f8209cc0030ee978b8c8b051c5d8101a55700f80f9dbe52fe36e84b3c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 798d119be837e5ab2aafbd26676dd7e26b641db6
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347526"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686298"
 ---
-# <a name="which-calling-plan-is-right-for-you"></a>Qual plano de chamadas é ideal para você? 
+# <a name="which-calling-plan-is-right-for-you"></a>Qual plano de chamadas é ideal para você?
 
-Você concluiu o [get started](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você tenha implantado [Reuniões & conferência.](deploy-meetings-microsoft-teams-landing-page.md) Agora você está pronto para adicionar cargas de trabalho de voz na nuvem e decidiu usar Telefone Microsoft Sistema com Plano de Chamadas para se conectar à PSTN (Rede Telefônica Pública Comugada). 
+Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você tenha implantado [Reuniões & conferência](deploy-meetings-microsoft-teams-landing-page.md). Agora você está pronto para adicionar cargas de trabalho de voz na nuvem e decidiu usar o sistema Telefone Microsoft com Plano de Chamada para se conectar à PSTN (Rede Telefônica Pública Comunada).
 
-Este artigo descreve as principais decisões de implantação para Planos de Chamada, bem como considerações adicionais que você pode querer configurar, com base nas necessidades da sua organização. Você também deve ler [o Cloud Voice no Microsoft Teams](cloud-voice-landing-page.md) para obter mais informações sobre as ofertas de voz na nuvem da Microsoft.
+Este artigo descreve as principais decisões de implantação para Planos de Chamadas, bem como considerações adicionais que você talvez queira configurar, com base nas necessidades da sua organização. Você também deve ler [o Cloud Voice no Microsoft Teams](cloud-voice-landing-page.md) para obter mais informações sobre as ofertas de voz na nuvem da Microsoft.
 
+## <a name="learn-more-about-calling-plans"></a>Saiba mais sobre planos de chamadas
 
-## <a name="learn-more-about-calling-plans"></a>Saiba mais sobre Planos de Chamada
-
-Os artigos a seguir fornecem mais informações sobre como implantar e usar planos de chamada da Microsoft:
+Os artigos a seguir fornecem mais informações sobre como implantar e usar planos de chamadas da Microsoft:
 
 - [Sistema de Telefonia em Microsoft 365 ou Office 365](what-is-phone-system-in-office-365.md)
-- [Planos de chamada para Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
+- [Planos de chamadas para Microsoft 365 ou Office 365](calling-plans-for-office-365.md)
 - [Configurar Planos de Chamadas](set-up-calling-plans.md)
 
+## <a name="core-deployment-decisions"></a>Decisões principais de implantação
 
-## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
+Para usar a Microsoft como operadora de telefonia, você precisa obter licenças do Plano de Chamadas e atribuí-las aos Sistema de Telefonia usuários.
 
-Para usar a Microsoft como sua operadora de telefonia, você precisa obter licenças do Plano de Chamada e atribuí-las aos usuários Sistema de Telefonia de chamada. 
+Há três tipos de Planos de Chamadas disponíveis:
 
-Há dois tipos de Planos de Chamada disponíveis:
+- Planos de Chamadas Domésticas
+- Planos de Chamadas Internacionais
+- Planos de Chamadas Nacionais e Internacionais
 
-- Planos de Chamada Doméstica 
-- Planos de chamada domésticas e internacionais
-
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |------------|-------|
-|Os Planos de Chamada estão disponíveis na minha área? Quais locais de usuário terão serviço de Plano de Chamada? | Para obter mais informações, consulte [Disponibilidade de país e região para Audioconferência e Planos de Chamada.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | 
-Meus usuários precisam de chamada internacional? | Para obter mais informações, consulte [Planos de chamada para Microsoft 365 ou Office 365](calling-plans-for-office-365.md). |
-Meus usuários têm licenças de Planos de Chamada? | Para comprar e atribuir licenças, consulte [Etapa 2: Comprar e atribuir licenças.](set-up-calling-plans.md#step-2-buy-and-assign-licenses) |
-Cada um dos meus usuários tem um número de telefone did (discagem direta) para dentro? | Para obter números de telefone, consulte [Etapa 3: Obter números de telefone](set-up-calling-plans.md#step-3-get-phone-numbers). |
+|Os Planos de Chamadas estão disponíveis na minha área? Quais locais de usuário terão o serviço Plano de Chamadas? | Para obter mais informações, consulte [Disponibilidade de país e região para Audioconferência e Planos de Chamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+Meus usuários precisam de chamadas internacionais? | Para obter mais informações, consulte [Planos de Chamadas para Microsoft 365 ou Office 365](calling-plans-for-office-365.md). |
+Meus usuários têm licenças de Planos de Chamadas? | Para comprar e atribuir licenças, consulte [a Etapa 2: Comprar e atribuir licenças](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
+Cada um dos meus usuários tem um número de telefone DID (direct inward dial)? | Para obter números de telefone, [consulte a Etapa 3: Obter números de telefone](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
 ### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>Transferir números de telefone para Microsoft 365 ou Office 365
 
-É fácil transferir seus números de telefone do seu provedor de serviços atual para Teams. Depois que você porta seus números de telefone para Teams, a Microsoft se tornará seu provedor de serviços e cobrará por esses números de telefone. Para obter mais informações, consulte [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
-
+É fácil transferir seus números de telefone do seu provedor de serviços atual para Teams. Depois de portar seus números de telefone para Teams, a Microsoft se tornará seu provedor de serviços e cobrará por esses números de telefone. Para obter mais informações, [consulte Transferir números de telefone para Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Números de telefone e locais de emergência
 
-Com Planos de Chamadas Microsoft 365 ou Office 365, cada usuário em sua organização precisa ter um número de telefone DID (discagem direta direta) exclusivo e um endereço de emergência validado correspondente. Você também pode especificar um local de emergência no endereço de emergência (por exemplo, um número de escritório ou um número de piso). 
+Com os Planos de Chamadas no Microsoft 365 ou Office 365, cada usuário em sua organização precisa ter um número de telefone DID (direct inward dial) exclusivo e um endereço de emergência validado correspondente. Você também pode especificar um local de emergência dentro do endereço de emergência (por exemplo, um número de escritório ou número de andar).
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
-|Quão detalhado eu quero que o endereço de emergência e as informações de local sejam? |Para obter mais informações, consulte [O que são locais de emergência, endereços e roteamento de chamadas?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
-
+|Qual é o detalhe que eu quero que o endereço de emergência e as informações de localização sejam? |Para obter mais informações, consulte [O que são locais de emergência, endereços e roteamento de chamadas?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 ### <a name="calling-identity"></a>Identidade de chamada
 
 Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (ID do chamador). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada.
 
-|Pergunte a si mesmo|Ação |
+|Pergunte-se|Ação |
 |:------------|:-------|
-|Quero mascarar ou desabilitar a ID do chamador? | Para alterar ou bloquear a ID do chamador, consulte Definir a [ID do chamador para um usuário](set-the-caller-id-for-a-user.md). |
+|Deseja mascarar ou desabilitar a ID do chamador? | Para alterar ou bloquear a ID do chamador, consulte [Definir a ID do chamador para um usuário](set-the-caller-id-for-a-user.md). |
 |||

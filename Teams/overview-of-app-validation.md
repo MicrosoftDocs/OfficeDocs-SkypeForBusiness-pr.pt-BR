@@ -1,7 +1,7 @@
 ---
 title: Visão geral da validação de aplicativos e testes de aplicativos pela Microsoft
-ms.reviewer: null
-description: 'Entenda as verificações de qualidade, a validação de aplicativos e os programas de certificação para Teams aplicativos.'
+ms.reviewer: ''
+description: Entenda as verificações de qualidade, a validação de aplicativos e os programas de certificação para Teams aplicativos.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -10,14 +10,20 @@ audience: admin
 ms.date: 04/05/2022
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686488"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Verificações e validação executadas pela Microsoft em Teams aplicativos
 
@@ -25,15 +31,10 @@ A Microsoft exige que todos os aplicativos passem por uma validação obrigatór
 
 Todos os aplicativos são obrigatórios para aderir às políticas de Certificação de Aplicativos da Microsoft. A Teams da loja realiza mais de 400 testes para garantir que os aplicativos sejam utilizáveis e aderam aos altos padrões de privacidade e segurança.
 
-Para conhecer as diretrizes de validação detalhadas que os desenvolvedores de aplicativos seguem, consulte [as diretrizes de validação para desenvolvedores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Para conhecer as diretrizes de validação detalhadas que os desenvolvedores de aplicativos seguem, consulte [as diretrizes de validação para desenvolvedores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). As diretrizes se baseiam nas políticas [de certificação para Teams aplicativos](/legal/marketplace/certification-policies#1140-teams).
 
 > [!NOTE]
 > A validação e as verificações da Microsoft não estão disponíveis para um aplicativo personalizado, pois ele é desenvolvido em sua organização e só está disponível para membros da sua organização.
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>Validação e teste de aplicativo
 
