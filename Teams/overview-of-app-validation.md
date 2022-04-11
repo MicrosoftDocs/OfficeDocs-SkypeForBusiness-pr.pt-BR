@@ -1,7 +1,7 @@
 ---
-title: Visão geral da validação de aplicativos e testes de aplicativos pela Microsoft
+title: Visão geral da validação de aplicativos e teste de aplicativos pela Microsoft
 ms.reviewer: ''
-description: Entenda as verificações de qualidade, a validação de aplicativos e os programas de certificação para Teams aplicativos.
+description: Entenda as verificações de qualidade e a validação de aplicativos feitas para os aplicativos do Teams.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,71 +18,50 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
-ms.translationtype: MT
+ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686488"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756987"
 ---
-# <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Verificações e validação executadas pela Microsoft em Teams aplicativos
+# <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validação executada pela Microsoft para todos os aplicativos do Teams
 
-A Microsoft exige que todos os aplicativos passem por uma validação obrigatória antes de serem listados na loja para usos finais. Ela se aplica a todos os aplicativos (exceto aplicativos personalizados) publicados na Teams App Store. Além disso, a Microsoft incentiva fortemente os desenvolvedores de aplicativos a participar de uma certificação opcional de aplicativos que indica controles de conformidade, segurança e privacidade aprimorados.
+A Microsoft exige que todos os aplicativos passem por uma validação obrigatória antes de serem listados na loja para uso final. Aplica-se a todos os aplicativos (exceto aplicativos personalizados) publicados na loja de Aplicativos do Teams. Além disso, a Microsoft incentiva fortemente os desenvolvedores de aplicativos a participarem de uma certificação opcional de aplicativos que indique controles avançados de conformidade, segurança e privacidade.
 
-Todos os aplicativos são obrigatórios para aderir às políticas de Certificação de Aplicativos da Microsoft. A Teams da loja realiza mais de 400 testes para garantir que os aplicativos sejam utilizáveis e aderam aos altos padrões de privacidade e segurança.
+Todos os aplicativos são obrigatoriamente exigidos a aderirem às políticas de Certificação de Aplicativos da Microsoft. A equipe da loja do Teams realiza mais de 400 testes para garantir que os aplicativos sejam utilizáveis e cumpram altos padrões de privacidade e segurança.
 
-Para conhecer as diretrizes de validação detalhadas que os desenvolvedores de aplicativos seguem, consulte [as diretrizes de validação para desenvolvedores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). As diretrizes se baseiam nas políticas [de certificação para Teams aplicativos](/legal/marketplace/certification-policies#1140-teams).
+Para conhecer as diretrizes detalhadas de validação às quais os desenvolvedores de aplicativos aderem, consulte [Diretrizes de validação para desenvolvedores](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines). As diretrizes se baseiam nas [Políticas de certificação para aplicativos do Teams](/legal/marketplace/certification-policies#1140-teams).
 
 > [!NOTE]
-> A validação e as verificações da Microsoft não estão disponíveis para um aplicativo personalizado, pois ele é desenvolvido em sua organização e só está disponível para membros da sua organização.
+> A validação e as verificações pela Microsoft não estão disponíveis para um aplicativo personalizado, pois ele é desenvolvido dentro da sua organização e só está disponível para membros da sua organização.
 
-## <a name="app-validation-and-testing"></a>Validação e teste de aplicativo
+## <a name="app-validation-and-testing"></a>Validação e teste de aplicativos
 
-Executamos mais de 400 casos de teste para cada aplicativo antes que ele seja disponibilizado na Teams Store. Os testes garantem a funcionalidade apropriada, a experiência do usuário e a segurança e garantem que todos os aplicativos estão em conformidade com as políticas de CMO listadas publicamente. A seguir estão alguns dos testes realizados pela equipe de Validação de Aplicativos da Microsoft para cada aplicativo antes de ser publicado:
+Executamos mais de 400 casos de teste para cada aplicativo antes que ele seja disponibilizado na Teams Store. Os testes garantem funcionalidade, experiência do usuário e segurança adequadas, além de garantir que todos os aplicativos estejam em conformidade com as políticas de CMO listadas publicamente. A seguir estão alguns dos testes realizados pela equipe de validação de aplicativos da Microsoft para cada aplicativo antes de serem publicados:
 
-* Verifique se Graph permissões solicitadas pelo aplicativo são realmente aquelas de que a funcionalidade do aplicativo precisa e não nenhuma permissão extra. Graph permissões para aplicativos existentes são verificadas regularmente para garantir que nenhuma permissão extra seja exigida por um aplicativo.
-* Os aplicativos que exigem que os usuários façam logon/se conectem devem ter uma opção de logon/saída.
-* Todos os editores de aplicativos passam por um processo de verificação detalhado no Microsoft Partner Center. A verificação inclui verificação de email, verificação de negócios e muito mais. Para saber mais sobre a publicação de aplicativos, consulte Como os desenvolvedores criam uma conta do [Partner Center](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)[, o](/office/dev/store/add-in-submission-guide) guia de envio para desenvolvedores e [como os desenvolvedores publicam aplicativos](https://aka.ms/PublishToTeamsStore).
-* Somente aplicativos de editores verificados podem buscar Graph permissões de usuários finais.
+* Certifique-se de que as permissões do Graph solicitadas pelo aplicativo são realmente as que a funcionalidade do aplicativo precisa e não quaisquer permissões extras. As permissões do Graph para aplicativos existentes são verificadas regularmente para garantir que nenhuma permissão extra seja necessária por um aplicativo.
+* Os aplicativos que exigem que os usuários entrem têm uma opção de saída.
+* Todos os fornecedores de aplicativos passam por um processo de verificação detalhada no Microsoft Partner Center. A verificação inclui verificação de email, verificação de negócios e muito mais. Para saber mais sobre a publicação de aplicativos, consulte [Como os desenvolvedores criam uma conta no Partner Center](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Guia de envio para desenvolvedores](/office/dev/store/add-in-submission-guide) e [Como os desenvolvedores publicam aplicativos](https://aka.ms/PublishToTeamsStore).
+* Somente aplicativos de fornecedores verificados podem buscar permissões do Graph de usuários finais.
 * Nenhum aplicativo pode baixar um arquivo executável.
-* Os aplicativos são testados para não conter anúncios, promoção para outros aplicativos
-* Os aplicativos são testados para funcionar adequadamente sem linguagem ofensiva, bots de ataque cibernético, spam ou conteúdo de fraude.
-* Todos os links em um aplicativo são funcionais e relacionados apenas à oferta de aplicativo.
-* Testamos e avaliamos todos os aplicativos Teams publicados regularmente como parte das verificações de integridade da loja de aplicativos.
-* Política de privacidade e Termos de uso que abrangem Teams aplicativos são publicados pelo ISV
-* Os detalhes de contato do ISV estão disponíveis na listagem da loja e em suas respectivas [Publisher de Atestado](/microsoft-365-app-certification/teams/teams-apps).
+* Os aplicativos são testados para não conter anúncios, promoções para outros aplicativos
+* Os aplicativos são testados para funcionarem adequadamente ao trabalho sem linguagem ofensiva, bots de ataque cibernético, spam ou conteúdo fraudulento.
+* Todos os links em um aplicativo são funcionais e relacionados somente à oferta do aplicativo.
+* Testamos e avaliamos regularmente todos os aplicativo publicados do Teams como parte das verificações de integridade da loja de aplicativos.
+* A política de privacidade e os Termos de uso que abrangem os aplicativos do Teams foram publicados pelo ISV
+* Os detalhes de contato do ISV estão disponíveis na listagem da loja e em suas respectivas [páginas de Atestado do Fornecedor](/microsoft-365-app-certification/teams/teams-apps).
 
-## <a name="publisher-verification"></a>Publisher verificação
+Além disso, a Microsoft incentiva os desenvolvedores de aplicativos a participarem do seu programa de conformidade, que é uma abordagem rigorosa de duas camadas para garantir a qualidade, a segurança e a conformidade do aplicativo. A loja do Teams tem centenas de aplicativos que vão além do cumprimento das diretrizes de validação já detalhadas e estão em conformidade com esses programas.
 
-Publisher verificação ajuda administradores e usuários finais a entender a autenticidade dos desenvolvedores de aplicativos que se integram ao plataforma de identidade da Microsoft. Ter um editor verificado significa que o editor verificou sua identidade usando sua conta do MPN (Microsoft Partner Network) e associou essa conta do MPN ao registro do aplicativo.
+## <a name="publisher-verification"></a>Verificação do fornecedor
 
-Publisher verificação fornece os seguintes benefícios:
+Antes que um desenvolvedor de aplicativos possa enviar seu aplicativo para a Microsoft, é necessário que o desenvolvedor seja submetido a uma verificação. Um fornecedor verifica sua identidade usando sua conta Microsoft Partner Network (MPN) e associa essa conta MPN ao registro do aplicativo. A verificação do fornecedor ajuda os administradores e usuários finais a entender a autenticidade dos desenvolvedores de aplicativos que se integram à plataforma de identidade da Microsoft. A verificação do fornecedor oferece os seguintes benefícios:
 
-* Maior transparência e redução de riscos para os clientes – essa funcionalidade ajuda os clientes a entender quais aplicativos que estão sendo usados em suas organizações são publicados pelos desenvolvedores em que confiam.
-* Identidade visual aprimorada – `verified` uma notificação é exibida no prompt de Azure Active Directory de consentimento, Enterprise aplicativos e outras interfaces do usuário usadas por usuários finais e administradores.
-* Adoção empresarial mais suave – os administradores podem configurar políticas de consentimento do usuário, com o status de verificação do editor como critérios de política primária.
+* Maior transparência e redução de riscos para os clientes - essa funcionalidade ajuda os clientes a entender quais aplicativos que estão sendo usados nas suas organizações foram publicados por desenvolvedores nos quais eles confiam.
+* Identidade visual aprimorada - um selo `verified` aparece no prompt de consentimento do Microsoft Azure AD, na página Aplicativos Corporativos e em outras interfaces de usuário usadas por usuários finais e administradores.
+* Adoção empresarial mais suave - os administradores podem configurar as políticas de consentimento do usuário, com o status de verificação do fornecedor como critério principal da política.
 
-Além disso, a Microsoft incentiva os desenvolvedores de aplicativos a participarem de seu programa de conformidade, que é uma abordagem rigorosa de duas camadas para garantir a qualidade, a segurança e a conformidade do aplicativo. Teams store tem centenas de aplicativos que vão além do cumprimento das diretrizes de validação já detalhadas e estão em conformidade com esses programas.
+## <a name="see-also"></a>Confira também
 
-## <a name="microsoft-365-app-compliance-program"></a>Microsoft 365 de conformidade do aplicativo
-
-O programa de conformidade da Microsoft demonstra que um aplicativo é avaliado contra controles derivados de estruturas padrão líderes do setor e que práticas fortes de segurança e conformidade estão em vigor para proteger os dados do cliente. O programa tem duas fases:
-
-* Publisher atestado.
-* Microsoft 365 certificação.
-
-### <a name="publisher-attestation"></a>Publisher atestado
-
-O desenvolvedor do aplicativo precisa concluir uma autoavaliação que inclui perguntas frequentes feitas por clientes ou administradores de TI ao avaliar a segurança e a conformidade de um aplicativo. Em seguida, a Microsoft publica essas informações para uma avaliação mais fácil e o tempo limite. As informações incluem detalhes sobre manipulação de dados, segurança, conformidade e privacidade quando um aplicativo é ativado em uma organização.
-
-Para saber mais, confira o [guia Publicar atestado](/microsoft-365-app-certification/docs/enterprise-app-attestation-guide).
-
-### <a name="microsoft-365-certification"></a>Microsoft 365 certificação
-
-A certificação de aplicativos é obtida por meio da revisão e aprovação de um analista qualificado de uma avaliação abrangente centralizando estruturas, processos e procedimentos de segurança e conformidade de um aplicativo. O aplicativo é avaliado em uma série de controles de segurança derivados de estruturas padrão líderes do setor. O certificado demonstra que práticas fortes de segurança e conformidade estão em vigor para proteger os dados do cliente quando o aplicativo é ativado em uma organização.
-
-<!--- TBD: Parking some content for later review. Check if this content needs to be published.
-
-We also have a few more quality and security checks for apps. We have launched Microsoft Cloud App Security (MCAS) program for the customer who have E5 or EMS license, where we rate risk for your cloud apps based on regulatory certification, industry standards, and best practices. We are also working on an Apps Quality Score system (launching soon) for all apps on Teams platform, and you will be able to check an app’s quality score quickly on Teams Store.
-
---->
+* [Visão geral para administradores do programa de conformidade de aplicativos do Microsoft 365 ](overview-of-app-certification.md)
