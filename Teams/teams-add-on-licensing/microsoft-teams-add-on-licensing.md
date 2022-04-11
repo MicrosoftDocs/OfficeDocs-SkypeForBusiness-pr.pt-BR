@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre licenças de complemento para Microsoft Teams e os recursos que você obtém com cada licença.
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686378"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756947"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams licenças de complemento
 
@@ -50,12 +50,6 @@ Aqui está uma lista de licenças Teams complementos e seus recursos que você p
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Quais recursos da Microsoft estão disponíveis com meu plano?
 
 Todos os Microsoft 365 permitem Teams usuários façam chamadas ponto a ponto em sua organização usando a tecnologia VoIP. No entanto, talvez você queira adicionar licenças diferentes para funcionalidades como fazer chamadas para números PSTN ou configurar um PBX.
-
-### <a name="audio-conferencing"></a>Audioconferência
-
-Você pode adicionar **licenças de Audioconferência** gratuitamente a todas as Microsoft 365 assinaturas.
-
-Microsoft 365 E5/A5/G5 incluem licenças de Audioconferência, portanto, você não precisará comprar licenças adicionais de Audioconferência com esses planos.
 
 ### <a name="voice-and-pstn-connectivity"></a>Conectividade de voz e PSTN
 
