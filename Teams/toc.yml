@@ -1177,7 +1177,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1401,8 +1401,12 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Logs de Auditoria para atividades de Salas
             href: rooms/multi-tenant-auditing.md
+          - name: Relatórios de integridade e uso
+            href: rooms/health-and-usage-reports.md
           - name: Planejador de Padrões e Salas
             href: rooms/standards-and-room-planner.md
+          - name: Incidentes relatados pelo cliente
+            href: rooms/customer-reported-incidents.md
       - name: Dispositivos
         items:
           - name: Repositório de dispositivos do Teams
@@ -1499,8 +1503,8 @@ items:
             href: overview-third-party-apps.md
           - name: Entenda a validação de aplicativos pela Microsoft
             href: overview-of-app-validation.md
-          - name: 'Segurança, conformidade, privacidade e tratamento de dados para aplicativos de terceiros'
-            href: /microsoft-365-app-certification/overview
+          - name: 'Segurança, conformidade e privacidade para aplicativos'
+            href: overview-of-app-certification.md
           - name: Use o Microsoft 365 ou Office 365 e conectores personalizados
             href: Office-365-custom-connectors.md
           - name: Comprar aplicativos de terceiros para o Teams
