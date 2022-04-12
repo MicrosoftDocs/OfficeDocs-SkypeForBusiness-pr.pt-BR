@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59caf72dbc29c6cc97789a7dc85f8bd7b035274e
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: abb025b43e63ae68b82f49bec06a3fc7533e6f0c
+ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757084"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784755"
 ---
-# <a name="microsoft-365-app-compliance-program"></a>Programa de conformidade de aplicativos do Microsoft 365
+# <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de conformidade de aplicativos do Microsoft 365 para segurança, conformidade e privacidade de aplicativos de terceiros
 
-O programa de conformidade da Microsoft demonstra que um aplicativo é examinado em relação a controles derivados das principais estruturas padrão do setor e que fortes práticas de segurança e conformidade estão em vigor para proteger os dados do cliente. O programa tem duas fases:
+O programa de conformidade da Microsoft demonstra que um aplicativo é verificado em relação a controles derivados das principais estruturas padrão do setor e que práticas fortes práticas de segurança e conformidade estão em vigor para proteger os dados do cliente. O programa tem duas fases:
 
 * Atestado do fornecedor.
 * Certificação Microsoft 365.
@@ -40,7 +40,7 @@ Os desenvolvedores de aplicativos devem concluir uma autoavaliação que inclua 
 
 Os administradores podem verificar rapidamente os aplicativos atestados publicados de três maneiras diferentes.
 
-* Na Web, ao coletar mais informações sobre um aplicativo, consulte os detalhes de um aplicativo específico no seu link em [Segurança e conformidade de aplicativos do Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps). Como alternativa, clique no link Atestado do Fornecedor no Centro de administração do Teams.
+* Na Web, ao coletar mais informações sobre um aplicativo, consulte os detalhes de um aplicativo específico em seu link em [Segurança e conformidade de aplicativos do Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps). Como alternativa, clique no link Atestado do Fornecedor no Centro de administração do Teams.
 
   :::image type="content" source="media/attested-app-tac3.png" alt-text="No Centro de administração do Teams, clique no link Atestado do Fornecedor para ver os detalhes do atestado de um aplicativo":::
 

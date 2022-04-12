@@ -1503,7 +1503,7 @@ items:
             href: overview-third-party-apps.md
           - name: Entenda a validação de aplicativos pela Microsoft
             href: overview-of-app-validation.md
-          - name: 'Segurança, conformidade e privacidade para aplicativos'
+          - name: 'Segurança, conformidade e privacidade de aplicativos de terceiros'
             href: overview-of-app-certification.md
           - name: Use o Microsoft 365 ou Office 365 e conectores personalizados
             href: Office-365-custom-connectors.md
