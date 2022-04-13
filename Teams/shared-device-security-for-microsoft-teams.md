@@ -1,14 +1,13 @@
 ---
-title: 'Guia de segurança do Microsoft Teams: use o Teams com segurança em computadores compartilhados'
+title: 'Guia de segurança de confiança zero do Microsoft Teams: use o Teams com segurança em computadores compartilhados'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/21/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Orientações para usar o Microsoft Teams de forma segura em um computador compartilhado no local de trabalho.
+description: Orientações de Confiança Zero para usar o Microsoft Teams de forma segura em um computador compartilhado no local de trabalho.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 83fc071aa50ed076fc2a6798cfaee9d4770a36a5
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893540"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817672"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Usar o Microsoft Teams de forma segura em computadores compartilhados
 
@@ -54,17 +53,17 @@ Os planos devem ser desenvolvidos para seguir as orientações da maneira mais r
 Se as diretrizes acima não puderem ser atendidas, recomendamos que você use as práticas recomendadas de segurança adicionais do navegador:
 
 1. Aplicar os recursos de segurança do navegador.
-    1. Use sessões de navegação privadas para minimizar os dados e o histórico que continuam no disco. Por exemplo, use a [navegação InPrivate no Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [a navegação incógnita no Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)ou os recursos do seu navegador específico para navegar em privado. 
-    1. É recomendável alterar o comportamento do sistema para acionar a navegação privada *por padrão*. 
+    1. Use sessões de navegação privadas para minimizar os dados e o histórico que continuam no disco. Por exemplo, use a [navegação InPrivate no Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [a navegação incógnita no Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)ou os recursos do seu navegador específico para navegar em privado.
+    1. É recomendável alterar o comportamento do sistema para acionar a navegação privada *por padrão*.
 
 2. Navegue até e use o [aplicativo Web do Teams](https://teams.microsoft.com) (às vezes conhecido como cliente *web*) não o cliente para download do Teams.
 
-3. Quando terminar de usar o sistema compartilhado, você deve: 
+3. Quando terminar de usar o sistema compartilhado, você deve:
     1. [Sair do Microsoft Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487).
     1. Fechar todas as guias e janelas do navegador.
     1. Sair do dispositivo.
 
-Os itens acima não são uma lista completa das práticas recomendadas ou dos controles de segurança que abrangem todos os casos, e podem haver ações adicionais que podem ser tomadas em seu ambiente (por exemplo, os administradores de segurança podem optar por usar Links Seguros e Anexos Seguros para o Teams, caso você tenha [o plano 1 ou 2 de Proteção Avançada contra Ameaças do Office 365](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)). Mas essas etapas são só um ponto de partida para construir orientações para usar o Teams em dispositivos compartilhados.
+Os itens acima não são uma lista completa das práticas recomendadas ou dos controles de segurança que abrangem todos os casos, e podem haver ações adicionais que podem ser tomadas em seu ambiente (por exemplo, os administradores de segurança podem optar por usar Links Seguros e Anexos Seguros para o Teams, caso você tenha o [Plano 1 ou Plano 2 do Microsoft Defender para Office 365](/microsoft-365/security/office-365-security/overview?view=o365-worldwide)). Mas essas etapas são só um ponto de partida para construir orientações para usar o Teams em dispositivos compartilhados.
 
 ## <a name="more-information"></a>Mais informações
 

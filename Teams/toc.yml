@@ -1483,7 +1483,7 @@ items:
     items:
       - name: Visão Geral
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Gerenciar aplicativos de exemplo fornecidos pela Microsoft
+      - name: Gerenciar aplicativos fornecidos pela Microsoft
         items:
           - name: Gerenciar o aplicativo de Reservas
             href: bookings-app-admin.md

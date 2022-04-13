@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e a gerenciar canais privados no Microsoft Teams (Visualização).
-ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
-ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
+ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64590379"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817842"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Canais compartilhados no Microsoft Teams (Visualização)
 
@@ -34,6 +34,8 @@ Talvez você queira usar um canal compartilhado se quiser colaborar com um grupo
 Apenas os membros de canais privados podem ver e participar de canais privados aos quais foram adicionados. Outros membros da equipe à qual o canal compartilhado está conectado não verão o canal.
 
 Quando um canal privado é criado, ele é vinculado à equipe pai e não pode ser movido para uma equipe diferente. Além disso, os canais compartilhados não podem ser convertidos em canais padrão e vice-versa.
+
+[Compare os canais compartilhados com outros tipos de canais](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ## <a name="best-practices-for-the-shared-channels-preview"></a>Práticas recomendadas para a visualização de canais compartilhados
 
