@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761911"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817822"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -39,6 +39,8 @@ Por exemplo, um canal privado é útil nestes cenários:
 Um ícone de cadeado indica um canal particular. Apenas membros de canais particulares podem visualizar e participar de canais particulares aos quais são adicionados.
 
 Quando um canal privado é criado, ele é vinculado à equipe pai e não pode ser movido para uma equipe diferente. Além disso, os canais privados não podem ser convertidos em canais padrão e vice-versa.
+
+[Compare os canais privados com outros tipos de canais](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ![Captura de tela de canais privados em uma equipe.](media/private-channels-in-teams.png)
 
