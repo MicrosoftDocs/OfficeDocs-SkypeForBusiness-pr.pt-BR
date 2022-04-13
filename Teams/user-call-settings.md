@@ -1,5 +1,5 @@
 ---
-title: Configurar configurações de chamada para usuários
+title: Definir configurações de chamada para usuários
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,65 +21,65 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: Saiba como configurar as configurações do usuário para encaminhamento de chamada e delegação.
-ms.openlocfilehash: 5443ad958d23753b1d67d42782ddab41d9d6d080
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+description: Saiba como definir as configurações do usuário para encaminhamento e delegação de chamadas.
+ms.openlocfilehash: 46fc88d20efb14ea130f38d9be284f8faad6f80f
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63689043"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817772"
 ---
-# <a name="configure-call-settings-for-your-users"></a>Configurar configurações de chamada para seus usuários
+# <a name="configure-call-settings-for-your-users"></a>Definir configurações de chamada para seus usuários
 
-Este artigo descreve como você, o administrador, pode alterar as configurações de encaminhamento e delegação de chamada para seus usuários. Talvez você queira alterar essas configurações, por exemplo, se:
+Este artigo descreve como você, o administrador, pode alterar as configurações de encaminhamento e delegação de chamadas para seus usuários. Talvez você queira alterar essas configurações, por exemplo, se:
 
-- Um usuário está de licença por doença e você precisa garantir que as chamadas de entrada para o usuário sejam encaminhadas para um colega.
+- Um usuário está de licença por doença e você precisa garantir que as chamadas recebidas para o usuário sejam encaminhadas para um colega.
 
-- Você precisa inspecionar as configurações de encaminhamento de chamada para todos os usuários em um departamento e, potencialmente, corrigi-las conforme apropriado.
+- Você precisa inspecionar as configurações de encaminhamento de chamadas para todos os usuários em um departamento e, potencialmente, corrigi-las conforme apropriado.
 
 - Um novo assistente foi empregado e você precisa adicionar o assistente como representante para um grupo de funcionários.
 
-Você pode usar Teams centro de administração ou Teams cmdlets do PowerShell para exibir e alterar configurações de chamada para usuários.
+Você pode usar o Teams ou cmdlets Teams PowerShell para exibir e alterar as configurações de chamada para os usuários.
 
-Para definir configurações de chamada para um usuário, o usuário deve ter uma licença Telefone Microsoft Sistema atribuída.
+Para definir configurações de chamada para um usuário, o usuário deve ter uma licença Telefone Microsoft System atribuída.
 
 ## <a name="use-the-teams-admin-center"></a>Usar o Teams de administração
 
-Você pode usar o Teams de administração para configurar a delegação de chamada e retirada de chamada de grupo para seus usuários. 
+Você pode usar o Teams de administração para definir configurações de encaminhamento de chamadas e não respondidas, recebimento de chamadas em grupo e delegação de chamadas para seus usuários. 
 
-> [!NOTE]
-> A opção para configurar configurações de encaminhamento de chamada não está disponível no Teams de administração.
+Para definir configurações imediatas de encaminhamento de chamadas:
 
-Para configurar o atendimento de chamada de grupo:
+1. No centro Teams de administração, vá para **Usuários** **do UsersManage** >  e selecione um usuário.
 
-1. No centro Teams de administração, acesse **UsersManage**  >  users e selecione um usuário.
+2. Na página de detalhes do usuário, vá para a **guia** Voz.
 
-2. Na página detalhes do usuário, vá para a **guia Voz** .
+3. Em **Regras de atendimento de chamadas**, selecione **Ser encaminhado** imediatamente e selecione o tipo de encaminhamento de chamadas e o destino apropriados.
 
-3. Em **Retirada de chamada de grupo**, selecione **Adicionar pessoas**. 
+Para configurar o toque simultâneo, na mesma página, selecione **Tocar nos dispositivos do usuário**. Na lista **suspensa Permitir também** , selecione a configuração de toque simultâneo apropriada.
 
-4. Especifique configurações para **atraso e ordem de chamada**.
+Para definir as configurações não respondidas, na mesma página, selecione a configuração apropriada **na lista suspensa** Se não respondida. No Anel **para esses muitos segundos antes de redirecionar** a lista suspensa, especifique o número de segundos de espera.
 
-Para configurar a delegação, na mesma página, acesse Delegação **de chamada** e selecione **Adicionar pessoas**.
+A configuração da delegação de chamadas e do recebimento de chamadas em grupo é integrada às configurações de encaminhamento de chamadas e não respondidas selecionando o tipo apropriado. Por exemplo, para configurar essas chamadas também deve tocar nos representantes do usuário, na mesma página, selecione Delegação **de** chamada em **Também permitir**. Em seguida, adicione os delegados apropriados **selecionando Adicionar pessoas** e clicando em **Salvar**.
+
 
 ## <a name="use-powershell"></a>Usar o PowerShell
 
-Você pode usar o PowerShell para configurar configurações de encaminhamento de chamada e delegação para seus usuários.  Você usará os seguintes cmdlets, que estão disponíveis no módulo Teams PowerShell versão 4.0 ou posterior:
+Você pode usar o PowerShell para definir as configurações de encaminhamento de chamadas e delegação para seus usuários.  Você usará os seguintes cmdlets, que estão disponíveis no Teams powershell versão 4.0 ou posterior:
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - mostra configurações de encaminhamento de chamadas, representantes e informações de delegator para um usuário.
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) – mostra as configurações de encaminhamento de chamadas, delegados e informações de delegador para um usuário.
 
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) - define as configurações de encaminhamento de chamadas para um usuário.
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) – define as configurações de encaminhamento de chamadas para um usuário.
 
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) - adiciona um novo representante com permissões para um usuário.
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) – adiciona um novo delegado com permissões para um usuário.
 
--   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) - altera as permissões de um representante existente.
+-   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) – altera as permissões de um delegado existente.
 
--   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) - remove um representante de um usuário.
+-   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) – remove um delegado de um usuário.
 
 
-### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>Exibir configurações de encaminhamento de chamada e delegação para um usuário
+### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>Exibir configurações de encaminhamento de chamadas e delegação para um usuário
 
-Para exibir as configurações atuais de encaminhamento de chamada e delegação para um usuário, use o cmdlet Get-CsUserCallingSettings, conforme mostrado no exemplo a seguir:
+Para exibir as configurações atuais de encaminhamento de chamadas e delegação para um usuário, use o cmdlet Get-CsUserCallingSettings, conforme mostrado no exemplo a seguir:
 
 ```PowerShell
 Get-CsUserCallingSettings -Identity user1@contoso.com
@@ -107,10 +107,10 @@ ManageSettings : True
 ReceiveCalls   : True
 ```
 
-A saída mostra que user1 tem toque simultâneo para representantes configurados. Chamadas não respondidas são enviadas para a caixa postal após 20 segundos. User2 é definido como o representante com todas as permissões de representante.
+A saída mostra que user1 tem toque simultâneo para delegados configurados. Chamadas não respondidas são enviadas para a caixa postal após 20 segundos. User2 é definido como o delegado com todas as permissões de delegado.
 
 
-### <a name="set-call-forward-settings-for-a-user"></a>Definir configurações de encaminhamento de chamada para um usuário
+### <a name="set-call-forward-settings-for-a-user"></a>Definir configurações de encaminhamento de chamadas para um usuário
 
 Para encaminhar todas as chamadas de user1 para user2, use o cmdlet Set-CsUserCallingSettings, conforme mostrado no exemplo a seguir: 
 
@@ -118,13 +118,13 @@ Para encaminhar todas as chamadas de user1 para user2, use o cmdlet Set-CsUserCa
 Set-CsUserCallingSettings -Identity user1@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType SingleTarget -ForwardingTarget user2@contoso.com
 ```
 
-Para tocar simultaneamente todos os representantes para user3, use o cmdlet Set-CsUserCallingSettings, conforme mostrado no exemplo a seguir: 
+Para tocar simultaneamente em todos os delegados para user3, use o cmdlet Set-CsUserCallingSettings, conforme mostrado no exemplo a seguir: 
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user3@contoso.com -IsForwardingEnabled $true -ForwardingType Simultaneous -ForwardingTargetType MyDelegates
 ```
 
-O exemplo a seguir usa o cmdlet Set-CsUserCallingSettings para configurar um grupo de chamada para user4 com user5 e user6 como membros. Todas as chamadas aos membros do grupo são encaminhadas na ordem em que são definidas: 
+O exemplo a seguir usa o cmdlet Set-CsUserCallingSettings para configurar um grupo de chamadas para user4 com user5 e user6 como membros. Todas as chamadas aos membros do grupo são encaminhadas na ordem em que são definidas: 
 
 ```PowerShell
 $cgm = @("user5@contoso.com","user6@contoso.com")
@@ -134,19 +134,19 @@ Set-CsUserCallingSettings -Identity user4@contoso.com -CallGroupOrder InOrder -C
 Set-CsUserCallingSettings -Identity user4@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType Group
 ```
 
-Para obter mais exemplos, consulte [Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps).
+Para obter mais exemplos, [consulte Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps).
 
 ### <a name="add-a-calling-delegate-for-a-user"></a>Adicionar um representante de chamada para um usuário
 
-Para adicionar user2 como representante para user1 com todas as permissões permitidas, use o cmdlet New-CsUserCallingDelegate, conforme mostrado no exemplo a seguir: 
+Para adicionar user2 como um delegado para user1 com todas as permissões permitidas, use o cmdlet New-CsUserCallingDelegate, conforme mostrado no exemplo a seguir: 
 
 ```PowerShell
 New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $true -ReceiveCalls $true -ManageSettings $true
 ```
 
-### <a name="change-calling-delegate-permissions"></a>Alterar permissões de representante de chamada
+### <a name="change-calling-delegate-permissions"></a>Alterar as permissões de representante de chamada
 
-Para alterar as permissões de representante, por exemplo, para não permitir que o usuário2 faça chamadas para user1-- use o cmdlet Set-CsUserCallingDelegate como mostrado no exemplo a seguir: 
+Para alterar as permissões de representante, por exemplo, para não permitir que o usuário2 faça chamadas para user1, use o cmdlet Set-CsUserCallingDelegate conforme mostrado no exemplo a seguir: 
 
 ```PowerShell
 Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $false
@@ -154,7 +154,7 @@ Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### <a name="remove-a-calling-delegate-for-a-user"></a>Remover um representante de chamada para um usuário
 
-Para remover user2 como representante para user1, use o cmdlet Remove-CsUserCallingDelegate, conforme mostrado no exemplo a seguir: 
+Para remover user2 como um delegado para user1, use o cmdlet Remove-CsUserCallingDelegate, conforme mostrado no exemplo a seguir: 
 
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
