@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837444"
+ms.locfileid: "64839032"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guia do administrador de IT para o Reflect no Microsoft Teams
 
@@ -31,7 +31,7 @@ Esse aplicativo de check-in usa emojis e granularidade emocional com respaldo em
 
 
 ## <a name="privacy-and-security"></a>Privacidade e Segurança
-O Reflect segue os mesmos padrões de privacidade e segurança do [Education Insights](class-insights.md) para proteger as informações confidenciais dos alunos.
+O Reflect segue os mesmos padrões de privacidade e segurança do [Insights para Educação](class-insights.md) para proteger as informações confidenciais dos alunos.
 
 O Reflect, como parte do Microsoft 365, atende aos regulamentos nacionais, regionais e específicos do setor para coleta e uso de dados, incluindo [GDPR](/compliance/regulatory/gdpr) e a [Lei de Privacidade e Direitos Educacionais da Família (FERPA)](/compliance/regulatory/offering-ferpa) que protege a privacidade dos registros educacionais dos alunos.
 
@@ -44,7 +44,7 @@ Os estudantes *nunca* veem os nomes dos outros alunos, somente como eles respond
 
 > [!TIP]
 > * Visite a [Central de Confiabilidade da Microsoft](https://www.microsoft.com/trust-center) para saber mais sobre como a Microsoft protege seus dados.
-> * Visite as [ofertas de conformidade da Microsoft](/compliance/regulatory/offering-home) para saber como o Microsoft 365 ajuda sua instituição a atender aos padrões de conformidade regulatória.
+> * Visite [as ofertas de conformidade da Microsoft](/compliance/regulatory/offering-home) para saber como o Microsoft 365 ajuda sua instituição a atender aos padrões de conformidade regulatória.
 
 ## <a name="data-collection-and-storage"></a>Coleta e armazenamento de dados
 Os dados pertencem à instituição educacional, e a Microsoft somente os coleta e os armazena. Os funcionários da Microsoft não podem acessar os dados ou vê-los, exceto conforme permitido pela conformidade de uma forma auditada para manter o serviço, como a recuperação de dados.
@@ -81,4 +81,4 @@ Eles podem clicar com o botão direito do mouse no ícone do Reflect e seleciona
 > Você também pode localizar o aplicativo Reflect por meio deste link: [https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
-> Para obter mais detalhes, visite a [página de suporte do Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Esta página fornece diretrizes para educadores e alunos e ajuda a criar seu primeiro check-in do Reflect.
+> Para obter mais detalhes, visite a [página de suporte do Reflect](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a). Esta página fornece diretrizes para professores e alunos e ajuda na criação de seu primeiro check-in do Reflect.
