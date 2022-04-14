@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 4c23b03e75c9433bcf5af6d4a5aa57e81447a74d
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691456"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846540"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -178,7 +178,7 @@ O **método de roteamento** determina a ordem na qual os agentes recebem chamada
 > 
 > Ao usar **o mais longo ocioso** e quando houver menos chamadas na fila do que os agentes disponíveis, somente os dois primeiros agentes ociosos mais longos serão apresentados com chamadas da fila.
 > 
-> Ao usar **o mais** longo ocioso, pode haver ocasiões em que um agente recebe uma chamada da fila logo após ficar indisponível ou se há um pequeno atraso no recebimento de uma chamada da fila depois de se tornar disponível.
+> Ao usar **o mais** longo ocioso, pode haver ocasiões em que um agente recebe uma chamada da fila logo após ficar indisponível ou um pequeno atraso ao receber uma chamada da fila depois de se tornar disponível.
 > 
 > A apresentação de chamada da Fila de Chamadas para agentes pode entrar em conflito com restrições de Roteamento Baseado em Localização. Nesse caso, o agente receberá uma notificação do sistema de chamada, mas não poderá atender à chamada. Essa condição continuará até que outro agente esteja disponível para atender a chamada, o chamador desligue ou a condição de tempo limite da fila de chamadas ocorra.  
 
@@ -195,6 +195,8 @@ Se um agente optar por não receber chamadas, ele não será incluído na lista 
 > Quando **o ocioso** mais longo é selecionado como o método de roteamento, o roteamento baseado em presença é necessário e habilitado automaticamente, embora a  alternância de roteamento baseado em presença esteja desativada e esmaeciada.
 >
 > Se o roteamento baseado em presença não for habilitado e houver várias chamadas na fila, o sistema apresentará essas chamadas simultaneamente aos agentes, independentemente do status de presença. Isso resultará em várias notificações de chamada aos agentes, particularmente se alguns agentes não atenderem à chamada inicial apresentada.
+>
+> Ao usar o **roteamento** baseado em presença, pode haver ocasiões em que um agente recebe uma chamada da fila logo após ficar indisponível ou um pequeno atraso ao receber uma chamada da fila depois de se tornar disponível.
 > 
 > Os agentes que usam o cliente do Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado. Se você tiver agentes que usam o Skype for Business, não habilite o roteamento de chamadas baseado em presença.
 

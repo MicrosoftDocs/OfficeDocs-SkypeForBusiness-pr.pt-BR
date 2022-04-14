@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: Saiba como integrar o conector Teams EHR para permitir que os provedores de serviços de saúde em sua organização realizem Visitas Virtuais com pacientes ou outros provedores no Teams diretamente do sistema Epic EHR.
 ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703597"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Visitas virtuais com Teams – Integração ao Epic EHR

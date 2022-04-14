@@ -16,15 +16,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ac4db418927c34920614c65d6f94a400ff116a91
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703677"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Use o assistente de integração do Trabalhadores de Linha de Frente para que sua força de trabalho na linha de frente entre em funcionamento
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O assistente de integração do Frontline Worker no Centro de administração do Microsoft 365 simplifica a integração de trabalhadores de linha de frente à sua organização. O assistente permite que você implante rapidamente uma experiência Microsoft Teams adaptada à sua força de trabalho de linha de frente. Usando o assistente, você pode iniciar facilmente sua implantação piloto do Teams para os trabalhadores de linha de frente em sua organização.
 

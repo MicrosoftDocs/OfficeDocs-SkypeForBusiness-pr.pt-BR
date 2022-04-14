@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: Saiba como integrar o conector Teams EHR para permitir que os provedores de serviços de saúde em sua organização realizem Visitas Virtuais com pacientes ou outros provedores no Teams diretamente do sistema Cerner EHR.
 ms.openlocfilehash: b5a5a860036b3b561d5a6e18a13b71e072998aa4
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703687"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Visitas virtuais com Teams – Integração ao Cerner EHR

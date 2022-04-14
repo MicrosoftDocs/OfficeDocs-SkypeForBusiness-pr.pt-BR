@@ -13,14 +13,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este artigo discute como configurar sua organização e Salas do Teams dispositivos para dar suporte à junção de reuniões de terceiros no Cisco WebEx e no Zoom.
-ms.openlocfilehash: 04be17003e39890ba74d6c7c4fc2393ba809f5c6
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817658"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846600"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar Teams de sala para ingressar em reuniões de terceiros
+
+> [!NOTE]
+> Atualmente, esse recurso só está disponível no Salas do Teams no Windows.
 
 Salas do Microsoft Teams dispositivos dão suporte a uma experiência de toque único para ingressar em reuniões online de terceiros, também conhecidas como Ingresso Direto para Convidados. Quando habilitado, você pode usar o Salas do Teams para ingressar em reuniões hospedadas no Cisco WebEx e no Zoom da mesma forma que pode ingressar em reuniões hospedadas no Microsoft Teams.
 
