@@ -1,5 +1,5 @@
 ---
-title: Visitas virtuais em Teams - relatórios de administradores do conector EHR
+title: Compromissos virtuais no Teams – relatórios de administração do conector EHR
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -22,33 +22,33 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Exibir relatórios de administradores para Teams de conector EHR
-ms.openlocfilehash: 3f85d48493822db3a26851d281f7a5fddf813960
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: Exibir relatórios de administrador para Teams do conector EHR.
+ms.openlocfilehash: 021c80aef6b1581ae7266e5caeff3782cbbb8f26
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763296"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853192"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams de administrador do conector EHR
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams de administração do conector EHR
 
-A Microsoft Teams de relatório de administração do registro de saúde eletrônico (EHR) fornece uma exibição rápida e fácil de ler dos dados de uso.
+A Microsoft Teams de relatório do administrador do EHR (Registro Eletrônico de Integridade) fornece uma exibição rápida e fácil de ler dos dados de uso.
 
-Você pode ver o Teams de administrador do conector EHR indo para o painel Microsoft Teams centro de administração e exibindo a caixa de diálogo lá.
+Você pode ver o Teams administrador do conector EHR, indo para o painel Microsoft Teams do centro de administração e exibindo a caixa de diálogo.
 
-Acesse o relatório do painel Microsoft Teams centro de administração.
+Acesse o relatório no painel Microsoft Teams do centro de administração.
 
- ![uma caixa de diálogo de alocações e limites de Visitas Virtuais.](../../media/admin-connector-report.png)
+ ![uma caixa de diálogo de alocações e limites de compromissos virtuais.](../../media/admin-connector-report.png)
 
 A caixa de diálogo fornece os seguintes dados:
 
 - Limite excedido
 - Alocação restante
-- Visitas concluídas
+- Compromissos concluídos
 
-Você pode usar a caixa de diálogo relatório para comprar mais Visitas Virtuais.
+Você pode usar a caixa de diálogo de relatório para comprar mais compromissos virtuais.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visitas virtuais com Teams - Integração ao Cerner EHR](ehr-admin-cerner.md)
-- [Visitas virtuais com Teams - Integração ao EHR Épico](ehr-admin.md)
+- [Compromissos virtuais com o Teams – Integração ao Cerner EHR](ehr-admin-cerner.md)
+- [Compromissos virtuais com o Teams – Integração ao Epic EHR](ehr-admin.md)

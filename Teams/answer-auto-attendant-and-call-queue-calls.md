@@ -1,5 +1,5 @@
 ---
-title: Atender chamadas de fila de chamadas e atende a chamadas automáticas
+title: Atender chamadas de atendedor automático e fila de chamadas
 ms.reviewer: colongma
 author: CarolynRowe
 ms.author: crowe
@@ -19,56 +19,56 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249483"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853072"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 
-Teams os usuários podem receber e atender chamadas de atendedores automáticos na nuvem e chamar filas diretamente de seus clientes Teams cliente.
+Teams usuários podem receber e atender chamadas de atendedores automáticos de nuvem e filas de chamadas diretamente de seus Teams cliente.
 
-## <a name="what-are-auto-attendants-and-call-queues"></a>O que são os atendimentos automáticos e filas de chamada?
+## <a name="what-are-auto-attendants-and-call-queues"></a>O que são atendedores automáticos e filas de chamadas?
 
-Os atendentes automáticos de nuvem fornecem uma série de prompts de voz ou um arquivo de áudio que os chamadores ouvem em vez de um operador humano quando eles chamam uma organização. Um atendedor automático permite que os chamadores se movam pelo sistema de menus, façam chamadas ou localizem usuários usando um teclado de telefone (DTMF) ou entradas de voz usando reconhecimento de voz.
+Os atendedores automáticos de nuvem fornecem uma série de prompts de voz ou um arquivo de áudio que os chamadores escutam em vez de um operador humano quando eles chamam uma organização. Um atendedor automático permite que os chamadores se movam pelo sistema de menus, façam chamadas ou localizem usuários usando um teclado de telefone (DTMF) ou entradas de voz usando reconhecimento de voz.
 
-As filas de chamadas na nuvem incluem saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de procurar o próximo agente de chamada disponível para manipular a chamada enquanto as pessoas que chamam ouvem música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
+As filas de chamadas na nuvem incluem saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam estão ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
 
-## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Manipulando um atendimento automático ou chamada de fila de chamada
+## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Manipulando uma chamada automática de atendedor ou fila de chamadas
 
-Os usuários poderão diferenciar chamadas de entrada de um atendedores automáticos ou fila de chamadas antes de atenderem a chamada. Juntamente com o nome e/ou número do chamador, cada chamada incluirá informações sobre quem o chamador estava tentando alcançar, dando aos usuários um contexto melhor para lidar com o chamador.
+Os usuários poderão diferenciar chamadas de entrada de um atendedor automático ou fila de chamadas antes de atenderem à chamada. Juntamente com o nome e/ou o número do chamador, cada chamada incluirá informações sobre quem o chamador estava tentando acessar, fornecendo aos usuários um contexto melhor para lidar com o chamador.
 
-A ilustração a seguir mostra como uma chamada de entrada de um atendimento automático ou fila de chamadas aparecerá para um usuário.
+A ilustração a seguir mostra como uma chamada de entrada de um atendedor automático ou fila de chamadas aparecerá para um usuário.
 
 ![Captura de tela de uma notificação de chamada de entrada.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Depois que um atendedo automático ou uma chamada de fila de chamada é atendido, o usuário pode processar a chamada como qualquer outra chamada &#x2014; ele pode adicionar ou conferência em outro usuário ou transferir a chamada para outra parte. Além disso, as chamadas de atendimento automático serão encaminhadas com base na configuração do usuário.
+Depois que uma chamada automática de atendedor ou fila de chamadas é atendida, o usuário pode processar a chamada como qualquer outra chamada &#x2014; pode adicionar ou conferência em outro usuário ou transferir a chamada para outra parte. Além disso, as chamadas de atendedor automático serão encaminhadas com base na configuração do usuário.
 
 > [!NOTE] 
-> As chamadas de fila de chamadas não são encaminhadas com base na configuração do usuário. Isso é para garantir que os chamadores permaneçam na fila até que um agente possa atender à chamada e o chamador não seja encaminhado inesperadamente.
+> Chamadas de fila de chamadas não são encaminhadas com base na configuração de regras de atendimento de chamadas do usuário. Isso é para garantir que os chamadores permaneçam na fila até que um agente possa atender à chamada e o chamador não seja encaminhado inesperadamente.
 
-> Os agentes não são notificados de chamadas perdidas ou de caixa postal para chamadas de fila de chamadas.
+> Os agentes não são notificados sobre chamadas perdidas ou mensagens de voz para chamadas de fila de chamadas.
 
 ## <a name="supported-clients"></a>Clientes com suporte
 
-O suporte para chamadas de fila de chamadas e atendimento automático está disponível nos seguintes clientes:
+O suporte para chamadas automáticas de atendedor e fila de chamadas está disponível nos seguintes clientes:
 
 -    Microsoft Teams Windows cliente (versões de 32 e 64 bits)
 -    Cliente Microsoft Teams para Mac
 -    Aplicativo Microsoft Teams para iPhone
 -    Aplicativo Microsoft Teams para Android
 
-O Teams cliente só tem suporte com um modo de [co-existência de Teams Somente](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+O Teams cliente tem suporte apenas com um modo de [coexistência de Teams somente](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o atendimento automático e o suporte à fila de chamada para Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o atendedor automático e o suporte à fila de chamadas para Microsoft Teams
 
-Para receber chamadas de atendimento automático e fila de chamadas no Microsoft Teams, você precisa configurar a política de interoperabilidade e a política de atualização. Consulte [Migração e interoperabilidade para organizações que usam Teams em conjunto com Skype for Business](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendimento automático e/ou fila de chamada configurada e gostaria de fazer isso, consulte [Configurar](create-a-phone-system-auto-attendant.md) um atendimento automático na nuvem e Criar uma fila de chamada [na nuvem.](create-a-phone-system-call-queue.md)
+Para receber chamadas automáticas de atendedor e fila de chamadas Microsoft Teams, você precisa configurar a política de interoperabilidade e a política de atualização. Examine a [migração e a interoperabilidade para organizações que Teams em conjunto com Skype for Business](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou a fila de chamadas configurados e quiser fazer isso, [](create-a-phone-system-auto-attendant.md) consulte Configurar um atendedor automático de nuvem e Criar uma fila de chamadas [na nuvem](create-a-phone-system-call-queue.md).
 
 ## <a name="known-issues"></a>Problemas Conhecidos
 
-Quando os agentes de fila de chamadas recebem uma chamada em seu dispositivo móvel, as chamadas podem ficar em espera se o dispositivo estiver bloqueado. O usuário deve desbloquear o dispositivo primeiro e, em seguida, atender à chamada.
+Quando um agente da fila de chamadas recebe uma chamada em seu dispositivo móvel, a chamada pode ficar em espera se o dispositivo estiver bloqueado. Os usuários devem desbloquear o dispositivo primeiro e, em seguida, responder à chamada.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

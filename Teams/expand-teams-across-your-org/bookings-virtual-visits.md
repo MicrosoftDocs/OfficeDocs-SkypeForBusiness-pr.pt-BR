@@ -1,5 +1,5 @@
 ---
-title: Visitas virtuais com Microsoft Teams e o Bookings aplicativo
+title: Compromissos virtuais com Microsoft Teams e o Bookings aplicativo
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,17 +20,17 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Saiba como agendar, gerenciar e conduzir visitas virtuais usando o Bookings aplicativo em Teams.
-ms.openlocfilehash: 45062831826ae0dee558f9c3541390308fb348f9
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: Saiba como agendar, gerenciar e conduzir compromissos virtuais usando o Bookings aplicativo Teams.
+ms.openlocfilehash: 3a69140bd0a02adb879cc0914d7e5c4703623907
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703697"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853202"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visitas virtuais com o Microsoft Teams e o aplicativo Bookings
+# <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Compromissos virtuais com Microsoft Teams e o Bookings aplicativo
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 O [Bookings aplicativo em](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) Microsoft Teams oferece às organizações uma maneira simples de agendar e gerenciar compromissos virtuais para funcionários e participantes. Use-o para agendar compromissos como visitas à saúde, consultas financeiras, entrevistas, atendimento ao cliente, ajustes virtuais e consultas, horário comercial de educação e muito mais.
 
@@ -40,15 +40,17 @@ Os compromissos virtuais são realizados por meio Microsoft Teams reuniões, que
 
 Cada compromisso virtual inclui um link Teams reunião que é enviado aos participantes por email, no qual eles podem ingressar facilmente em um navegador da Web ou Teams em qualquer dispositivo. Lembretes de email automatizados ajudam a reduzir não mostrar e aprimorar o envolvimento do cliente e do cliente.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
+
 Com Bookings, você obtém uma experiência adaptada ao seu setor. Aqui estão alguns exemplos de como você pode usá-lo em sua organização:
 
 |Indústria | Exemplos |
 |---------|---------|
-|Serviços financeiros    |  Visitas virtuais para vendas remotas e serviço<br/>Agende e gerencie compromissos para gerentes de relacionamento bancário, consultores financeiros e ajustadores de declarações, apenas para nomear alguns, para atender seus clientes com maior eficiência e conveniência.  |
+|Serviços financeiros    |  Compromissos virtuais para vendas remotas e serviço<br/>Agende e gerencie compromissos para gerentes de relacionamento bancário, consultores financeiros e ajustadores de declarações, apenas para nomear alguns, para atender seus clientes com maior eficiência e conveniência.  |
 |Varejo   | Conexões virtuais e consultas <br/>Agende e gerencie compromissos para seus associados de vendas, especialistas em produtos e consultores de design para realizar ajustes virtuais e consultas com clientes.   |
-|Saúde   |  Visitas virtuais para atendimento ao paciente <br/>Agende e gerencie compromissos para que os membros da equipe de atendimento se reúnam com pacientes ou outros provedores de serviços de saúde para discutir o atendimento médico.   |
+|Saúde   |  Consultas virtuais para atendimento ao paciente <br/>Agende e gerencie compromissos para que os membros da equipe de atendimento se reúnam com pacientes ou outros provedores de serviços de saúde para discutir o atendimento médico.   |
 
-Este artigo fornece uma visão geral de como agendar, gerenciar e conduzir visitas virtuais usando o aplicativo Bookings no Teams.
+Este artigo fornece uma visão geral de como agendar, gerenciar e conduzir compromissos virtuais usando o aplicativo Bookings no Teams.
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
@@ -78,38 +80,38 @@ O Bookings aplicativo se integra ao Outlook. Depois de adicionar a equipe, você
 
 ### <a name="create-appointment-types"></a>Criar tipos de compromisso
 
-Crie tipos de compromisso específicos para representar os serviços oferecidos pela sua organização e personalizar a experiência de reserva. Os agendadores podem usar o tipo de compromisso para agendar uma visita.
+Crie tipos de compromisso específicos para representar os serviços oferecidos pela sua organização e personalizar a experiência de reserva. Os agendadores podem usar o tipo de compromisso para agendar um compromisso.
 
 No calendário de reserva, vá para Mais **opções (...**) > **Configurações**, selecione Tipos de compromisso **e, em** seguida, **selecione Adicionar tipo de compromisso**. Insira um nome para&mdash; exemplo, Abertura de conta, renovação de receita, consulta de empréstimo,&mdash; preparação de imposto e quaisquer outras informações e configurações desejadas.
 
 As informações adicionadas são incluídas na confirmação por email que é enviada aos participantes sempre que esse tipo de compromisso é reservado. Você pode definir lembretes de email e outras opções, como se os participantes podem [](browser-join.md) ingressar em uma área de trabalho ou navegador móvel sem precisar baixar Teams.
 
-Se você for um Bookings, poderá vincular até quatro formulários para que os participantes preencham sempre que esse tipo de compromisso for reservado. Por exemplo, você pode exigir que os participantes preencham um formulário de registro antes de ingressarem em uma visita. Para vincular um formulário, escolha **Vincular um formulário**. Insira a URL do formulário e escolha **Link**. (Se esta for a primeira vez que você está vinculando um formulário, você será solicitado a criar um grupo Microsoft 365 para armazenar formulários. Escolha **Criar grupo** para criar o grupo. Você só precisa fazer isso uma vez para o calendário de reserva.)
+Se você for um Bookings, poderá vincular até quatro formulários para que os participantes preencham sempre que esse tipo de compromisso for reservado. Por exemplo, você pode exigir que os participantes preencham um formulário de registro antes que eles ingressem em um compromisso. Para vincular um formulário, escolha **Vincular um formulário**. Insira a URL do formulário e escolha **Link**. (Se esta for a primeira vez que você está vinculando um formulário, você será solicitado a criar um grupo Microsoft 365 para armazenar formulários. Escolha **Criar grupo** para criar o grupo. Você só precisa fazer isso uma vez para o calendário de reserva.)
 
 Ao trabalhar com formulários, tenha em mente que:
 
 - Para fazer alterações em um formulário que já está vinculado a um tipo de compromisso, selecione o formulário no tipo de compromisso ou no grupo Microsoft 365 em [https://forms.office.com](https://forms.office.com).
 - Há suporte para carregar arquivos em formulários que contêm uma pergunta de [upload](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) de arquivo quando todos os participantes são da mesma organização.
 
-Quando um agendador usa o tipo de compromisso para agendar uma visita, ele pode optar por incluir o formulário, removê-lo ou adicionar outros formulários vinculados ao tipo de compromisso. Os participantes devem preencher o formulário antes de ingressar na visita.
+Quando um agendador usa o tipo de compromisso para agendar um compromisso, ele pode optar por incluir o formulário, removê-lo ou adicionar outros formulários vinculados ao tipo de compromisso. Os participantes devem preencher o formulário antes de ingressar no compromisso.
 
 Para saber mais, confira [Criar um tipo de compromisso](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## <a name="schedule-a-visit"></a>Agendar uma visita
+## <a name="schedule-an-appointment"></a>Agendar um compromisso 
 
 No calendário de reservas, selecione **Nova reserva**. Selecione um tipo de compromisso e preencha as informações relevantes.
 
 Isso inclui informações de contato do participante, o membro da equipe que fornecerá o serviço, anotações internas que somente a equipe pode ver, lembretes de email e se o participante pode ingressar em um navegador móvel. Se um formulário estiver vinculado ao tipo de compromisso, você poderá optar por incluí-lo, removê-lo ou adicionar outros formulários vinculados.
 
-A confirmação de email enviada ao participante inclui o link da reunião e um anexo para que ele possa adicionar o compromisso virtual ao calendário. A equipe também recebe uma confirmação por email e convite para reunião. Se um formulário tiver sido incluído no compromisso, Bookings administradores e agendadores poderão ver se o formulário foi concluído pelo participante antes da visita e podem exibir a resposta do participante.
+A confirmação de email enviada ao participante inclui o link da reunião e um anexo para que ele possa adicionar o compromisso virtual ao calendário. A equipe também recebe uma confirmação por email e convite para reunião. Se um formulário tiver sido incluído no compromisso, Bookings administradores e agendadores poderão ver se o formulário foi concluído pelo participante antes do compromisso e podem exibir a resposta do participante.
 
 Para saber mais, confira [Agendar uma reserva no Teams Bookings aplicativo](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
-## <a name="conduct-a-visit"></a>Realizar uma visita
+## <a name="conduct-an-appointment"></a>Realizar um compromisso
 
 Em seu Teams ou Outlook, vá para a reserva e, em seguida, selecione Ingressar ou o link  Teams reunião. Verifique as configurações de áudio e vídeo e selecione **Ingressar agora**. Para saber mais, confira [Realizar um Bookings compromisso](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
-## <a name="monitor-visits-and-get-real-time-status-updates"></a>Monitorar visitas e obter atualizações de status em tempo real
+## <a name="monitor-appointments-and-get-real-time-status-updates"></a>Monitorar compromissos e obter atualizações de status em tempo real
 
 A [exibição de](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) fila no Bookings fornece à sua equipe um painel para monitorar todos os compromissos virtuais do dia, com atualizações em tempo real. Para ver a fila, vá para a **guia Fila** no Bookings.
 
@@ -128,15 +130,15 @@ O Bookings web oferece recursos adicionais. Por exemplo, você pode publicar uma
 
 Para saber mais, confira [Microsoft Bookings](/microsoft-365/bookings/bookings-overview).
 
-## <a name="get-insight-into-virtual-visits-usage"></a>Obter informações sobre o uso de Visitas Virtuais
+## <a name="get-insight-into-virtual-appointments-usage"></a>Obter informações sobre o uso de compromissos virtuais
 
-O [relatório de uso de](../teams-analytics-and-reports/virtual-visits-usage-report.md) Visitas Virtuais no centro Microsoft Teams administradores fornece aos administradores uma visão geral Teams atividades de Visitas Virtuais em sua organização. O relatório mostra análises detalhadas para compromissos virtuais, incluindo Bookings visitas.
+O [relatório de uso de](../teams-analytics-and-reports/virtual-visits-usage-report.md) Visitas Virtuais no centro de administração Microsoft Teams oferece aos administradores uma visão geral Teams atividade de compromisso virtual em sua organização. O relatório mostra análises detalhadas para compromissos virtuais, incluindo Bookings compromissos.
 
-Você pode exibir as principais métricas, como o tempo de espera do lobby e a duração da visita. Use essas informações para obter informações sobre tendências de uso para ajudá-lo a otimizar as Visitas Virtuais para fornecer melhores resultados de negócios.
+Você pode exibir as principais métricas, como o tempo de espera do lobby e a duração do compromisso. Use essas informações para obter informações sobre tendências de uso para ajudá-lo a otimizar compromissos virtuais para fornecer melhores resultados de negócios.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Gerenciar a experiência de junção Teams visitas virtuais em navegadores](browser-join.md)
+- [Gerenciar a experiência de junção Teams compromissos virtuais em navegadores móveis](browser-join.md)
 
 - [Teams de uso de Visitas Virtuais](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
