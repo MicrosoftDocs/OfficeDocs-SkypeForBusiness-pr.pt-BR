@@ -1,5 +1,5 @@
 ---
-title: Ativar ou desativar o acesso de convidados ao Microsoft Teams
+title: Ativar ou desativar o acesso de Microsoft Teams convidado
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -22,62 +22,64 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
-ms.openlocfilehash: 2b444b8357d8edef9aaa1c9c8e72ae6762f5bd52
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138237"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839192"
 ---
-# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
+# <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Ativar ou desativar o acesso de Microsoft Teams convidado
 
-> [!Note]
->
-> Até **fevereiro de 2021**, o acesso de convidados é desligado por padrão. Você deve ativar o acesso de convidado para o Teams antes que os administradores ou proprietários de equipe possam adicionar convidados. Depois de ativar o acesso de convidados, pode levar algumas horas para que as alterações tenham efeito. Se os usuários  verem a mensagem Contate seu administrador quando tentarem adicionar um convidado à sua equipe, é provável que o acesso de convidados ainda não tenha sido ligado ou as configurações ainda não tenham sido efetivas.
->
-> Após **fevereiro de 2021,** o acesso de convidados no Microsoft Teams será ligado por padrão para novos clientes & clientes existentes que não tenham configurado essa configuração. Quando essa alteração for implementada, se você ainda não tiver configurado o recurso de acesso de convidado no Microsoft Teams, esse recurso será habilitado em seu locatário. Se você quiser que o acesso de convidado permaneça desabilitado para sua organização, você precisará confirmar se a configuração de acesso de convidado está definida como **Desativado** em vez do **Padrão de Serviço**.
+Este artigo descreve como definir as configurações de acesso de convidado , incluindo chamadas, reuniões e chat, em Teams. O acesso de Teams também requer a definição de outras configurações no Microsoft 365, incluindo configurações no Azure AD, Grupos do Microsoft 365 e SharePoint. Se você estiver pronto para começar a convidar pessoas para equipes, leia um dos seguintes:
 
-> [!IMPORTANT]
-> Ativar o acesso de convidado depende das configurações no Azure Active Directory, Microsoft 365, Microsoft Office SharePoint Online e Teams. Para saber mais, confira [Colabore com os convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team).
+- Para configurar o acesso de convidado do Teams para uso geral, consulte [Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team).
+- Para colaborar com uma organização parceira que usa o Azure Active Directory e permitir que os convidados se inscrevam para acesso da equipe, consulte [Criar uma extranet B2B com convidados gerenciados](/microsoft-365/solutions/b2b-extranet).
+
+> [!NOTE]
+> Se você deseja encontrar, ligar, conversar e marcar reuniões com pessoas de outras organizações, use o [acesso externo](manage-external-access.md).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configure o acesso de convidados no centro de administração do Microsoft Teams
 
 1. Entre no [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/).
 
-2. Selecione **Usuários**  >  **Acesso de convidado**.
+2. Selecione **Acesso** **UsersGuest** > .
 
-3. Definir **Permitir acesso de convidado em Teams** como **On**.
+3. **Defina Permitir acesso de convidado Teams** como **Ativado**.
 
-    ![Permitir que a opção de acesso de convidado seja definida como On .](media/guest-access-setting.png)
+    ![Permitir o comutador de acesso de convidado definido como Ativado.](media/guest-access-setting.png)
 
-4. Em **Chamando,** **Reunião** e **Mensagens,** selecione **Ligar** **ou** Desligar para cada recurso, dependendo do que você deseja permitir para convidados.
+4. Em **Chamada**, **Reunião** e **Mensagens**, selecione **Ativado** ou Desativado para  cada funcionalidade, dependendo do que você deseja permitir para convidados.
 
       - **Fazer chamadas privadas** – **Ativar** essa função para permitir que os usuários façam chamadas ponto a ponto.
-      - **Vídeo IP** - Ativar essa configuração **para** permitir que os convidados usem vídeo em suas chamadas e reuniões.
-      - **Modo de compartilhamento de** tela – Essa configuração controla a disponibilidade de compartilhamento de tela para convidados.
+      - **Vídeo IP** – ative essa **configuração** para permitir que os convidados usem vídeo em suas chamadas e reuniões.
+      - **Modo de compartilhamento de** tela – essa configuração controla a disponibilidade do compartilhamento de tela para convidados.
           - **Desativar** essa configuração para remover a capacidade de os convidados compartilharem suas telas no Teams.
           - Defina essa configuração como **Aplicativo único** para permitir o compartilhamento de aplicativos individuais.
           - Defina essa configuração como **Tela inteira** para permitir o compartilhamento completo da tela.
-      - **Reunir Agora** – a opção Ativar essa configuração **para** permitir que os convidados usem o recurso Reunir Agora Microsoft Teams.
+      - **Reunir Agora** – ative **essa configuração para** permitir que os convidados usem o recurso Reunir Agora Microsoft Teams.
       - **Editar mensagens enviadas** - **Ativar** essa configuração para permitir que os convidados editem as mensagens enviadas anteriormente.
-      - **Excluir mensagens enviadas** – Ativar essa configuração **para** permitir que os convidados excluam mensagens enviadas anteriormente.
+      - **Excluir mensagens enviadas** – ative **essa** configuração para permitir que os convidados excluam as mensagens enviadas anteriormente.
       - **Chat** - **Ativar** essa configuração para oferecer aos convidados a capacidade de usar o chat no Teams.
-      - **Giphy nas conversas** – Adíra essa configuração **para** permitir que os convidados usem Giphys em conversas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo.
+      - **Giphy em conversas** – ative **essa** configuração para permitir que os convidados usem Giphys em conversas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo.
       - **Classificação de conteúdo para Giphy** – Selecione uma classificação na lista suspensa:
           - **Permitir todo o conteúdo** - Os convidados poderão inserir todos os Giphys nos chats, independentemente da classificação do conteúdo.
           - **Moderado** - Os convidados poderão inserir Giphys nos chats, mas o conteúdo adulto será moderadamente restringido.
-          - **Estrito** – Os convidados podem inserir Giphys em chats, mas serão impedidos de inserir conteúdo adulto.
-      - **Memes em conversas** - Adumente essa configuração **para** permitir que os convidados usem Memes em conversas.
-      - **Adesivos em conversas** – a opção Ativar essa configuração **para** permitir que os convidados usem adesivos em conversas.
-      - **Leitor imersivo para** mensagens -  Ativar essa configuração para permitir que os convidados usem o leitor imersivo [em Teams](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a).
+          - **Estrito** – os convidados podem inserir Giphys em chats, mas serão impedidos de inserir conteúdo adulto.
+      - **Memes em conversas** – ative **essa** configuração para permitir que os convidados usem Memes em conversas.
+      - **Adesivos em conversas** – ative **essa** configuração para permitir que os convidados usem adesivos em conversas.
+      - **Leitura avançada para mensagens** – ative essa configuração  para permitir que os convidados usem o leitor imersivo [Teams](https://support.microsoft.com/topic/a700c0d0-bc53-4696-a94d-4fbc86ac7a9a).
 
     ![Configurações de permissões de convidado Teams.](media/manage-guest-access-image1.png)
 
 5. Selecione **Salvar**.
 
-## <a name="external-access-federation-vs-guest-access"></a>Acesso externo (federação) e o acesso de convidado
+## <a name="turning-guest-access-off"></a>Desativando o acesso de convidado
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+Se você desativar o acesso de convidados no Teams, os convidados existentes perderão o acesso à equipe. No entanto, eles não são removidos da equipe. Eles ainda são visíveis para as pessoas da equipe e podem ser @mencionados. Se você ativar o acesso de convidado do Teams novamente, eles recuperarão o acesso.
+
+Se você planeja deixar o acesso de convidados desativado, convém avisar os proprietários da equipe para remover manualmente as contas de convidado de suas equipes. Embora esses convidados não tenham acesso, ter suas contas visíveis na equipe pode causar confusão para outras pessoas da equipe.
+
 
 ## <a name="see-also"></a>Confira também
 

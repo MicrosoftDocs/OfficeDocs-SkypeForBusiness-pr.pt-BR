@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1ade306ab1a9dc3c3f716b36d931bcf7a6d0b41
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711495"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839052"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -45,12 +45,12 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 **Ações suportadas:**
 
-| A caixa de correio do usuário está hospedada em:                                       | Descoberta eletrônica         | Bloqueio&nbsp;Legal    | Retenção        | Gerenciamento de Canal e Equipe | Criar e exibir reuniões no Teams | Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar Contatos do Outlook | Caixa postal        | Adicionar e configurar conectores | Adicionar e configurar guias | Adicionar e configurar bots |
-|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    |
-| **Exchange Online Dedicated vNext**                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    |
-| **Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD) | Sim <sup>1</sup>   | Sim <sup>(1,2)</sup> | Sim <sup>3</sup> | Sim                   | Não                                | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    |
-| **Exchange no local** (sincronizar com o Azure AD)                        | Sim <sup>1,9</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>                  | <sup>Sim10</sup>            | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    |
+| A caixa de correio do usuário está hospedada em:                                       | Descoberta eletrônica         | Bloqueio&nbsp;Legal    | Retenção        | Gerenciamento de Canal e Equipe | Criar e exibir reuniões no Teams | Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar Contatos do Outlook | Caixa postal        | Adicionar e configurar conectores | Adicionar e configurar guias | Adicionar e configurar bots | Modificar configurações fora Office configurações |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    | Sim                    
+| **Exchange Online Dedicated vNext**                                | Sim <sup>1</sup>   | Sim <sup>1</sup>   | Sim              | Sim                   | Sim                               | Sim<sup>7</sup>             | Sim          | Sim             | Sim <sup>6</sup>        | Sim              | Sim                          | Sim                    | Sim                    | Sim                    
+| **Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD) | Sim <sup>1</sup>   | Sim <sup>(1,2)</sup> | Sim <sup>3</sup> | Sim                   | Não                                | Não                          | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    | Sim                    
+| **Exchange no local** (sincronizar com o Azure AD)                        | Sim <sup>1,9</sup> | Sim <sup>1</sup>   | Sim <sup>3</sup> | Sim                   | Sim <sup>8</sup>                  | <sup>Sim10</sup>            | Sim          | Sim             | Não                      | Sim <sup>4</sup> | Sim <sup>5</sup>             | Sim                    | Sim                    | Não                      
 
 <sup>1</sup> Descoberta eletrônica e Retenção legal para conformidade nas mensagens de canal têm suporte para todas as opções de hospedagem.
 
@@ -64,15 +64,15 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>6</sup> Somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
 
-<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a **configuração -SetPhotoEnabled** estiver desabilitada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem do perfil não seja sincronizada com as equipes se o administrador alterar a foto.
+<sup>7</sup>O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a configuração **-SetPhotoEnabled** estiver desativada na política, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil, para que a imagem do perfil não seja sincronizada com as equipes se o administrador alterar a foto.
 
 <sup>8</sup> Você precisa atender aos requisitos listados na seção[Requisitos para criar e exibir reuniões para caixas de correio do local](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises).
 
-<sup>9</sup> Um mínimo de uma licença Exchange Online Plano 1 também é necessário. Para obter mais informações, consulte [Pesquisar Teams dados de chat para usuários locais](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
+<sup>9</sup> Um mínimo de uma licença Exchange Online Plano 1 também é necessário. Para obter mais informações, [consulte Pesquisar Teams dados de chat para usuários locais](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
-<sup>10</sup> Usuários `SetPhotoEnabled` locais podem usar o Teams para atualizar sua imagem de perfil, mesmo que o Outlook na política de caixa de correio da Web seja definida como `false`.
+<sup>10</sup> usuários locais podem usar o Teams `SetPhotoEnabled` para atualizar sua imagem de perfil, mesmo que o Outlook na política de caixa de correio da Web esteja definido como `false`.
  > [!NOTE]
- > A configuração de Office (OOF) por meio do cliente Teams atualmente não tem suporte para usuários cujas caixas de correio estão hospedadas no local; esses usuários devem executar essa ação por meio do cliente Outlook.
+ > Atualmente, não há suporte para Office (OOF) por meio do cliente Teams para usuários cujas caixas de correio estão hospedadas localmente; esses usuários devem executar essa ação por meio do cliente Outlook.
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Treinamentos para ajudar seus usuários a usufruir ao máximo o Microsoft Teams
 
 O Microsoft Teams funciona com vários serviços do Microsoft 365 e do Office 365 para fornecer aos usuários uma experiência avançada. Para dar suporte a essa experiência, você precisa habilitar determinados recursos ou serviços e atribuir licenças.
@@ -90,6 +90,9 @@ O Microsoft Teams funciona com vários serviços do Microsoft 365 e do Office 36
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Requisitos para criar e exibir reuniões para caixas de correio hospedadas no local
 
+  > [!NOTE]
+  > Atualmente, só há suporte para criar e exibir reuniões para caixas de correio hospedadas no local em ambientes GCC e GCC High.
+
 Se as caixas de correio forem hospedadas no local, para criar e exibir reuniões, os seguintes requisitos devem ser atendidos:
 
 - A licença necessária do Teams deve ser atribuída para o usuário sincronizado do Azure Active Directory.
@@ -98,20 +101,20 @@ Se as caixas de correio forem hospedadas no local, para criar e exibir reuniões
 
 - As caixas de correio são hospedadas na atualização cumulativa 3 do Exchange Server 2016 ou posterior.
 
-- A descoberta automática e os serviços Web do Exchange são publicados externamente.
+- A Descoberta Automática e Exchange Serviços Web são publicados externamente. Para obter informações sobre quais serviços do Microsoft 365 precisam de acesso aos pontos de extremidade de Descoberta Automática e serviços Web do Exchange locais, consulte Outros pontos de extremidade não [incluídos](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls) no serviço Web de URL e endereço IP do Office 365.
 
 - A autenticação OAuth está configurada de preferência por meio do Assistente de Configuração Híbrida do Exchange, executando uma configuração híbrida completa (Clássica ou Moderna). Se você não conseguir usar o assistente de configuração híbrida, configure o OAuth conforme descrito em [Configurar a autenticação OAuth entre as organizações do Exchange Online e do Exchange](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   > [!NOTE]
   > O Exchange confia no token OAuth do serviço do Teams, que é conhecido como EvoSTS. A etapa 1 deve ser suficiente, mas apenas a EvoSTS; ACS é usado para pesquisa de disponibilidade no calendário.
 
-- A caixa de seleção do recurso Implantação Híbrida do Exchange no Azure AD Connect está definida. Para obter mais informações, [consulte Exchange writeback híbrido](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
+- A caixa de seleção do recurso Implantação Híbrida do Exchange no Azure AD Connect está definida. Para obter mais informações, [consulte Exchange write-back híbrido](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
 
 - Para suporte de aplicativo de calendário e suplemento Teams Outlook para Mac, as URLs do Exchange Web Service devem ser configuradas como SPNs no Tenant Azure AD para o Exchange Service Principal. Esta etapa foi concluída com o assistente de configuração híbrida ou [etapas manuais para Autenticação Moderna Híbrida](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 Para habilitar a delegação de calendário para esses usuários:
 
-- Você também deve concluir etapas conforme descrito em [Configure Integration and OAuth between Skype for Business Online e Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); estas etapas fornecerão ao aplicativo de agendamento Teams as permissões necessárias para confirmar permissões de representante.
+- Você também deve concluir as etapas, conforme descrito em Configurar Integração e [OAuth entre o Skype for Business Online e o Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); essas etapas fornecerão ao aplicativo de agendamento do Teams as permissões necessárias para confirmar as permissões de representante.
  
   > [!NOTE]
   > A etapa 2 inclui uma atribuição de função para ArchiveApplication, que não é necessária para delegação.
@@ -126,7 +129,7 @@ Aqui estão algumas coisas que você precisa saber ao implementar o Microsoft Te
 
 - Controle e proteja a configuração das políticas de conformidade no Teams e no Exchange usando o Acesso Condicional. Para saber mais, confira [Como funcionam as políticas de acesso condicional para o Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para obter mais informações, consulte [Agendamento de reuniões particulares](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
+- Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para obter mais informações, consulte [Agendamento de reunião privada](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
 - Em uma implantação híbrida do Exchange, o conteúdo das mensagens de chat é pesquisável, independentemente de os participantes de chat terem uma caixa de correio baseada na nuvem ou em uma caixa de correio local. Para saber mais, leia [Pesquisar caixas de correio baseadas em nuvem para usuários locais](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [Pesquisar Conteúdo no Centro de Conformidade do Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

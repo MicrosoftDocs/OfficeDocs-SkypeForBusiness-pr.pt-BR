@@ -369,10 +369,6 @@ items:
                 href: guest-experience.md
               - name: Habilitar ou desabilitar o acesso de convidados
                 href: set-up-guests.md
-              - name: Exibir convidados em uma equipe
-                href: view-guests.md
-              - name: Editar as informações do convidado
-                href: edit-guests-information.md
       - name: Monitorar e gerenciar a qualidade da chamada
         items:
           - name: Monitorar e melhorar a qualidade da chamada
