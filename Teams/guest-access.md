@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
-ms.openlocfilehash: 99a17d521f0d244083c527803916bf8946730789
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d7f850855ab131267b20bae07b015127777a21f4
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711445"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839058"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 
@@ -35,7 +35,7 @@ Com o acesso de convidado, você pode fornecer acesso às equipes, documentos em
 
 Um convidado é alguém que não tem uma conta de estudante ou corporativa na sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faça parte da sua organização pode ser adicionada como convidado no Teams. Isso significa que qualquer pessoa com uma conta comercial (ou seja, uma conta do Azure Active Directory) ou uma conta de email de consumidor (com Outlook.com, Gmail.com ou outros) pode participar como convidado no Teams, com acesso total a equipes e experiências de canal.
 
-Quando você envia convites para o Microsoft Teams, uma conta de convidado é criada no Azure Active Directory coberta pela mesma proteção de conformidade e auditoria que outros usuários do Microsoft 365. O acesso de convidados está sujeito aos limites de serviço do Azure Active Directory e do Microsoft 365.
+Quando você convida um convidado para o Teams, uma conta de convidado é criada para eles no Azure Active Directory e eles são cobertos pela mesma proteção de conformidade e auditoria que outros usuários do Microsoft 365. O acesso de convidado está sujeito aos limites de serviço do Azure Active Directory e Microsoft 365.
 
 A experiência do convidado tem limitações por design. Para obter uma lista completa do que um convidado pode ou não fazer no Microsoft Teams, consulte [Acesso de convidado no Microsoft Teams](guest-experience.md).
 
@@ -44,7 +44,7 @@ A experiência do convidado tem limitações por design. Para obter uma lista co
 
 Para comparar o acesso externo (federação) com o acesso de convidados (e decidir qual deles usar), leia [Comunicar-se com usuários de outras organizações no Teams](communicate-with-users-from-other-organizations.md).
 
-Os canais compartilhados oferecem uma alternativa ao acesso de convidados, permitindo que você convide pessoas de fora da sua organização sem exigir uma conta de convidado no Azure Active Directory. Para comparar o acesso de convidados com canais compartilhados, consulte [Plano de colaboração externa](/microsoft-365/solutions/plan-external-collaboration).
+Os canais compartilhados oferecem uma alternativa ao acesso de convidado, permitindo que você convide pessoas de fora da sua organização sem precisar de uma conta de convidado no Azure Active Directory. Para comparar o acesso de convidado com canais compartilhados, consulte [Planejar a colaboração externa](/microsoft-365/solutions/plan-external-collaboration).
 
 Para configurar o acesso de convidado, consulte [Colaborar com convidados em uma equipe](/microsoft-365/solutions/collaborate-as-team). 
 
@@ -59,12 +59,6 @@ O acesso de convidado no Teams requer a definição de outras configurações no
 > Se você for um administrador e estiver tendo problemas com o Acesso de convidado no Microsoft Teams, selecione **Executar Testes** abaixo, que preencherá o diagnóstico de Acesso de convidado no Centro de administração do Microsoft 365. Esses testes verificarão sua configuração e recomendarão rapidamente as próximas etapas para habilitar o Acesso de Convidado para seu locatário.
 >> [!div class="nextstepaction"]
 >> [Executar Testes: Acesso de Convidado](https://aka.ms/TeamsGuestAccessDiagDMC)
-
-### <a name="turning-guest-access-off"></a>Desativando o acesso de convidado
-
-Se você desativar o acesso de convidados no Teams, os convidados existentes perderão o acesso à equipe. No entanto, eles não são removidos da equipe. Eles ainda são visíveis para as pessoas da equipe e podem ser @mencionados. Se você ativar o acesso de convidado do Teams novamente, eles recuperarão o acesso.
-
-Se você planeja deixar o acesso de convidados desativado, convém avisar os proprietários da equipe para remover manualmente as contas de convidado de suas equipes. Embora esses convidados não tenham acesso, ter suas contas visíveis na equipe pode causar confusão para outras pessoas da equipe.
 
 ## <a name="how-a-guest-gets-added-to-a-team"></a>Como um convidado é adicionado a uma equipe
 
