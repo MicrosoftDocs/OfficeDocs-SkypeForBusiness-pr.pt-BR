@@ -1,5 +1,5 @@
 ---
-title: Gerenciar a experiência de junção Teams visitas virtuais em navegadores
+title: Gerenciar a experiência de junção Teams compromissos virtuais em navegadores
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: Saiba mais sobre a experiência de ingresso Teams Visitas Virtuais em navegadores.
-ms.openlocfilehash: 276e33b16972f0543566014adf264fd12e45c4ae
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: Saiba mais sobre a experiência de ingresso Teams compromissos virtuais em navegadores.
+ms.openlocfilehash: 418186734befa66f145ca56f883605715d83aa30
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703737"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853302"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-browsers"></a>Gerenciar a experiência de junção Teams visitas virtuais em navegadores
+# <a name="manage-the-join-experience-for-teams-virtual-appointments-on-browsers"></a>Gerenciar a experiência de junção Teams compromissos virtuais em navegadores
 
 Microsoft Teams torna mais fácil para as pessoas ingressarem em compromissos virtuais sem precisar baixar Teams. Para uma experiência mais perfeita, os participantes podem ingressar em compromissos, como visitas à saúde e consultas financeiras de um navegador da área de trabalho ou móvel. Os participantes não precisam instalar o aplicativo Teams em seus dispositivos.
 
@@ -68,7 +68,7 @@ Nenhuma configuração é necessária para você ou sua equipe!
 
 **Integração com o Cerner EHR**: o Teams EHR dá suporte a pacientes ingressando em compromissos virtuais por meio de um link na mensagem de texto SMS. No momento do compromisso, os pacientes podem ingressar tocando no link na mensagem de texto SMS e Teams abre em um navegador.
 
-**Integração com o Epic EHR**: o conector Teams EHR dá suporte a pacientes que ingressam em compromissos virtuais por meio do MyChart Web e mobile. No momento do compromisso, os pacientes podem iniciar a visita do MyChart usando o botão Iniciar visita **virtual** e Teams abre em um navegador.
+**Integração com o Epic EHR**: o conector Teams EHR dá suporte a pacientes que ingressam em compromissos virtuais por meio do MyChart Web e mobile. No momento do compromisso, os pacientes podem iniciar o compromisso do MyChart usando o botão Iniciar visita **virtual** e Teams abre em um navegador.
 
 ## <a name="supported-browsers"></a>Navegadores com suporte
 
@@ -88,12 +88,12 @@ Aqui estão os navegadores com suporte no momento. Damos suporte à versão mais
 
 ## <a name="things-to-consider"></a>Coisas a serem consideradas
 
-O membro da equipe que realiza a visita pode compartilhar sua tela de seu Teams desktop, móvel ou cliente Web com um participante que ingressa em um navegador da área de trabalho ou móvel. No entanto, os participantes não podem compartilhar a tela de um navegador da área de trabalho ou móvel.
+O membro da equipe que realiza o compromisso pode compartilhar a tela do cliente Teams desktop, móvel ou Web com um participante que ingressa em um navegador da área de trabalho ou móvel. No entanto, os participantes não podem compartilhar a tela de um navegador da área de trabalho ou móvel.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Visitas virtuais com Teams e o Bookings aplicativo](bookings-virtual-visits.md)
+- [Compromissos virtuais com Teams e o Bookings aplicativo](bookings-virtual-visits.md)
 - [Criar um tipo Bookings compromisso](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Ingressar em um Bookings como participante](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Visitas virtuais com Teams – Integração ao Cerner EHR](healthcare/ehr-admin-cerner.md)
-- [Visitas virtuais com Teams – Integração ao Epic EHR](healthcare/ehr-admin.md)
+- [Compromissos virtuais com o Teams – Integração ao Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [Compromissos virtuais com o Teams – Integração ao Epic EHR](healthcare/ehr-admin.md)
