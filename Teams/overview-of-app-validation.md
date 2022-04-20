@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756987"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910897"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validação executada pela Microsoft para todos os aplicativos do Teams
 
@@ -53,14 +53,6 @@ Executamos mais de 400 casos de teste para cada aplicativo antes que ele seja di
 * Os detalhes de contato do ISV estão disponíveis na listagem da loja e em suas respectivas [páginas de Atestado do Fornecedor](/microsoft-365-app-certification/teams/teams-apps).
 
 Além disso, a Microsoft incentiva os desenvolvedores de aplicativos a participarem do seu programa de conformidade, que é uma abordagem rigorosa de duas camadas para garantir a qualidade, a segurança e a conformidade do aplicativo. A loja do Teams tem centenas de aplicativos que vão além do cumprimento das diretrizes de validação já detalhadas e estão em conformidade com esses programas.
-
-## <a name="publisher-verification"></a>Verificação do fornecedor
-
-Antes que um desenvolvedor de aplicativos possa enviar seu aplicativo para a Microsoft, é necessário que o desenvolvedor seja submetido a uma verificação. Um fornecedor verifica sua identidade usando sua conta Microsoft Partner Network (MPN) e associa essa conta MPN ao registro do aplicativo. A verificação do fornecedor ajuda os administradores e usuários finais a entender a autenticidade dos desenvolvedores de aplicativos que se integram à plataforma de identidade da Microsoft. A verificação do fornecedor oferece os seguintes benefícios:
-
-* Maior transparência e redução de riscos para os clientes - essa funcionalidade ajuda os clientes a entender quais aplicativos que estão sendo usados nas suas organizações foram publicados por desenvolvedores nos quais eles confiam.
-* Identidade visual aprimorada - um selo `verified` aparece no prompt de consentimento do Microsoft Azure AD, na página Aplicativos Corporativos e em outras interfaces de usuário usadas por usuários finais e administradores.
-* Adoção empresarial mais suave - os administradores podem configurar as políticas de consentimento do usuário, com o status de verificação do fornecedor como critério principal da política.
 
 ## <a name="see-also"></a>Confira também
 

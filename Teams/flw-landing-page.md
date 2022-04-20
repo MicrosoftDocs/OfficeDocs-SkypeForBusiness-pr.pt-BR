@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2ea4c6f1257b0b206d04c4ef8591c1f2d257292
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ad9b66b249bc907071b00e1c2fd9f7b1c2148def
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388187"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "64961294"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>Introdução ao Teams para trabalhadores de linha de frente
 
@@ -33,7 +33,7 @@ Nesta seção:
 - [Use o assistente de integração do Trabalhadores de Linha de Frente para que sua força de trabalho na linha de frente entre em funcionamento](flw-onboarding-wizard.md)
 - [Como provisionar o Teams em escala para os trabalhadores de linha de frente](flw-scripted-deployment.md)
 - [Pacotes de política para funcionários e gerentes de linha de frente](manage-policy-packages.md)
-- [Personalizar os aplicativos do Teams para os trabalhadores da linha de frente](pin-teams-apps-based-on-license.md) (em breve)
+- [Personalizar aplicativos do Teams para seus funcionários de linha de frente](pin-teams-apps-based-on-license.md)
 - [Entrar no Microsoft Teams](sign-in-teams.md)
 - [Sair do Microsoft Teams](sign-out-of-teams.md)
 - Aplicativos da Microsoft para trabalhadores de linha de frente:

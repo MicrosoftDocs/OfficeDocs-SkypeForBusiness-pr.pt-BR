@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839052"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922492"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -131,7 +131,7 @@ Aqui estão algumas coisas que você precisa saber ao implementar o Microsoft Te
 
 - Se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange. Para obter mais informações, consulte [Agendamento de reunião privada](./meeting-policies-in-teams-general.md#private-meeting-scheduling).
 
-- Em uma implantação híbrida do Exchange, o conteúdo das mensagens de chat é pesquisável, independentemente de os participantes de chat terem uma caixa de correio baseada na nuvem ou em uma caixa de correio local. Para saber mais, leia [Pesquisar caixas de correio baseadas em nuvem para usuários locais](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [Pesquisar Conteúdo no Centro de Conformidade do Microsoft 365](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- Em uma implantação híbrida do Exchange, o conteúdo das mensagens de chat é pesquisável, independentemente de os participantes de chat terem uma caixa de correio baseada na nuvem ou em uma caixa de correio local. Para saber mais, leia [Pesquisar caixas de correio baseadas em nuvem para usuários locais](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo Teams, leia [a Pesquisa de Conteúdo no portal de conformidade do Microsoft Purview](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 - Para o status de presença, o Microsoft Teams deve verificar se a caixa de correio está hospedada no Exchange Online ou no local. Em seguida, o serviço decide onde acessar a caixa de correio. Para habilitar o serviço do Teams a verificar o local da caixa de correio por meio da chamada da API REST para o serviço do Exchange Online, você deve implantar um ambiente híbrido do Exchange executando o assistente de configuração híbrida do Exchange, conforme descrito em [Criar uma implantação híbrida com o assistente de Configuração Híbrida](/exchange/hybrid-deployment/deploy-hybrid).
 

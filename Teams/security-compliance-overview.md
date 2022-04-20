@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 712f0fe4fbfd6a4374b42df7a1e881149a7713d8
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817692"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922612"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade no Microsoft Teams
 
@@ -97,31 +97,31 @@ Microsoft Teams aplicativo da área de trabalho dá suporte ao AppLocker.  Para 
 
 ## <a name="compliance"></a>Conformidade
 
-Teams tem uma ampla variedade de informações para ajudá-lo com áreas de conformidade, incluindo conformidade de comunicação para canais, chats e anexos, políticas de retenção, DLP (Proteção contra Perda de Dados), Descoberta Eletrônica e retenção legal para canais, chats e arquivos, pesquisa de log de auditoria, bem como gerenciamento de aplicativo móvel com Microsoft Intune. Fornecemos algumas informações sobre todos esses tópicos abaixo e você pode acessar o [Centro de conformidade do Microsoft 365 para gerenciar](https://compliance.microsoft.com) essas configurações.
+Teams tem uma ampla variedade de informações para ajudá-lo com áreas de conformidade, incluindo conformidade de comunicação para canais, chats e anexos, políticas de retenção, prevenção contra perda de dados (DLP), Descoberta Eletrônica e retenção legal para canais, chats e arquivos, pesquisa de log de auditoria, bem como gerenciamento de aplicativo móvel com Microsoft Intune. Fornecemos algumas informações sobre todos esses tópicos abaixo e você pode acessar o [Centro de conformidade do Microsoft 365 para gerenciar](https://compliance.microsoft.com) essas configurações.
 
 ### <a name="information-barriers"></a>Barreiras de informações
 
-As barreiras de informações são políticas colocadas em vigor pelos administradores do Teams para fazer coisas como impedir que pessoas ou grupos se comuniquem entre si (quando não há necessidade comercial para eles fazerem isso ou um motivo regulatório para impedi-los de fazer isso) e também permite que você defina políticas relacionadas a coisas como pesquisas e Descoberta Eletrônica (abordadas abaixo). Essas políticas podem afetar os usuários em chats, chats em grupo ou em um nível de equipe. O recurso Barreira de Informações está disponível na nuvem pública e, a partir de janeiro de 2021, ele foi distribuído para a GCC nuvem.
+As Barreiras de Informações do Microsoft Purview são políticas colocadas em vigor pelos administradores do Teams para fazer coisas como impedir que pessoas ou grupos se comuniquem entre si (quando não há necessidade comercial para eles fazerem isso ou um motivo regulatório para impedi-los de fazer isso) e também permite que você defina políticas relacionadas a coisas como pesquisas e Descoberta Eletrônica (abordadas abaixo). Essas políticas podem afetar os usuários em chats, chats em grupo ou em um nível de equipe. O recurso Barreira de Informações está disponível na nuvem pública e, a partir de janeiro de 2021, ele foi distribuído para a GCC nuvem.
 
 Para obter mais leituras sobre este tópico, acesse [Barreiras de informações Microsoft Teams](information-barriers-in-teams.md).
 
 ### <a name="communication-compliance"></a>Conformidade de comunicações
 
-A conformidade de comunicação no Microsoft 365 permite que você adicione usuários a políticas no escopo que podem ser configuradas para examinar as comunicações do Microsoft Teams em busca de linguagem ofensiva, informações confidenciais e informações relacionadas a padrões internos e regulatórios. As comunicações de chat e anexos associados em canais Teams públicos e privados, chats individuais e anexos podem ser verificados para ajudar a minimizar os riscos de comunicação em sua organização. Para obter mais informações sobre como você pode configurar políticas para ajudá-lo a detectar, capturar e tomar medidas para comunicações Teams inadequadas, consulte Conformidade de comunicação [Microsoft 365](/microsoft-365/compliance/communication-compliance).
+A Conformidade de Comunicação do Microsoft Purview permite que você adicione usuários a políticas no escopo que podem ser configuradas para examinar comunicações do Microsoft Teams em busca de linguagem ofensiva, informações confidenciais e informações relacionadas a padrões internos e regulatórios. As comunicações de chat e anexos associados em canais Teams públicos e privados, chats individuais e anexos podem ser verificados para ajudar a minimizar os riscos de comunicação em sua organização. Para obter mais informações sobre como você pode configurar políticas para ajudá-lo a detectar, capturar e tomar medidas para comunicações Teams inadequadas, consulte Saiba mais sobre a conformidade [de comunicação](/microsoft-365/compliance/communication-compliance).
 
 ### <a name="sensitivity-labels"></a>Rótulos de confidencialidade
 
 Aplique [rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels) para proteger e regular o acesso a conteúdo organizacional confidencial criado durante a colaboração nas equipes. Por exemplo, aplique rótulos que configurem a privacidade (pública ou privada) das equipes, controlem o acesso de convidados e o compartilhamento externo e gerenciem o acesso de dispositivos não gerenciados. Para obter mais informações, examine [os rótulos de confidencialidade Microsoft Teams](sensitivity-labels.md).
 
-### <a name="data-loss-prevention-dlp"></a>Prevenção contra perda de dados (DLP)
+### <a name="microsoft-purview-data-loss-prevention-dlp"></a>Prevenção contra Perda de Dados do Microsoft Purview (DLP)
 
-A DLP (Prevenção contra Perda de Dados) no Microsoft Teams, bem como a história de DLP maior para Microsoft 365 ou Office 365, gira em torno da preparação dos negócios quando se trata de proteger documentos e dados confidenciais. Se você tiver preocupações com informações confidenciais em mensagens ou documentos, as políticas DLP poderão ajudar a garantir que os usuários não compartilhem esses dados confidenciais com as pessoas erradas.
+A DLP (prevenção contra perda de dados) no Microsoft Teams, bem como a história de DLP maior para o Microsoft Purview, gira em torno da preparação dos negócios quando se trata de proteger documentos e dados confidenciais. Se você tiver preocupações com informações confidenciais em mensagens ou documentos, as políticas DLP poderão ajudar a garantir que os usuários não compartilhem esses dados confidenciais com as pessoas erradas.
 
-Para obter informações sobre a Prevenção contra Perda Teams, examine [a DLP para Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). Um bom artigo para preocupações de DLP do O365 é [a Visão geral da prevenção contra perda de dados](/microsoft-365/compliance/data-loss-prevention-policies).
+Para obter informações sobre a Prevenção contra Perda Teams, examine [a DLP para Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). Um bom artigo para preocupações com DLP é [Saiba mais sobre a prevenção contra perda de dados](/microsoft-365/compliance/dlp-learn-about-dlp).
 
 ### <a name="customer-key"></a>Chave do Cliente
 
-Microsoft 365 oferece uma camada adicional de criptografia sobre a criptografia de serviço para seu conteúdo. Usando chaves fornecidas, a Chave do Cliente criptografa vários tipos diferentes de dados Microsoft Teams. Usando a Chave do Cliente no nível do aplicativo, a Chave do Cliente criptografa Teams arquivos armazenados no SharePoint Online. Para obter informações, consulte [Criptografia de serviço com a Chave do Cliente](/microsoft-365/compliance/customer-key-overview). 
+Microsoft 365 oferece uma camada adicional de criptografia sobre a criptografia de serviço para seu conteúdo. Usando chaves fornecidas, a Chave do Cliente criptografa vários tipos diferentes de dados Microsoft Teams. Usando a Chave do Cliente no nível do aplicativo, a Chave do Cliente criptografa Teams arquivos armazenados no SharePoint Online. Para obter informações, consulte [Criptografia de serviço com a Chave do Cliente do Microsoft Purview](/microsoft-365/compliance/customer-key-overview).
 
 Usando a Chave do Cliente no nível do locatário, a Chave do Cliente criptografa:
 - Teams de chat (chats 1:1, chats em grupo, chats de reunião e conversas de canal)
@@ -129,7 +129,9 @@ Usando a Chave do Cliente no nível do locatário, a Chave do Cliente criptograf
 - Teams chamadas e gravações de reunião armazenadas no Teams armazenamento
 - Teams de chat
 - Teams sugestões de chat por Cortana
-- Teams mensagens de status Para obter mais informações, consulte Visão geral da chave do cliente para [Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level) no nível do locatário e leia o blog do Microsoft Teams que aborda o suporte à Chave de Cliente para [Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) agora em Visualização Pública. Para obter informações sobre a Proteção de Informações da Microsoft que incluía a Chave do Cliente no nível do locatário, leia Anunciando novos recursos Proteção de Informações da Microsoft para conhecer e proteger [seus dados confidenciais](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
+- Teams de status
+
+Para obter mais informações, [](/microsoft-365/compliance/customer-key-tenant-level) consulte Visão geral da chave do cliente no nível do locatário e leia o blog do Microsoft Teams que aborda o suporte à Chave do Cliente para Microsoft Teams agora em Visualização [Pública](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). Para obter informações sobre a Proteção de Informações da Microsoft que incluía a Chave do Cliente no nível do locatário, leia Anunciando novos recursos Proteção de Informações da Microsoft para conhecer e proteger [seus dados confidenciais](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
 
 ### <a name="retention-policies"></a>Políticas de retenção
 
@@ -139,7 +141,7 @@ As políticas de retenção no Microsoft Teams permitem que você mantenha os da
 
 A descoberta eletrônica, ou Descoberta Eletrônica, é o aspecto eletrônico de identificar, coletar e produzir informações armazenadas eletronicamente (ESI) em resposta a uma solicitação de produção em um processo legal ou investigação. Os recursos incluem gerenciamento de casos, preservação, pesquisa, análise e exportação de Teams dados. Isso inclui chat, mensagens e arquivos, resumos de reuniões e chamadas. Para Teams reuniões e chamadas, um resumo dos eventos que ocorreram na reunião e na chamada são criados e disponibilizados na Descoberta Eletrônica.
 
-Para obter mais detalhes sobre como usar as ferramentas de Descoberta Eletrônica no Centro de conformidade do Microsoft 365 para pesquisar Teams conteúdo, acesse os links abaixo:
+Para obter mais detalhes sobre como usar as ferramentas de Descoberta Eletrônica no portal de conformidade do Microsoft Purview para pesquisar conteúdo Teams, acesse os links abaixo:
 
 - [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
 
@@ -169,11 +171,11 @@ Durante o litígio, você pode precisar que todos os dados associados a um usuá
 
 Em ambos os casos, depois que a retenção é definida, ela garante que, mesmo que os usuários finais excluam ou editem mensagens de canal que estão na caixa de correio do grupo, cópias imutáveis desse conteúdo são mantidas e disponíveis por meio da pesquisa de Descoberta Eletrônica. As retenções legais geralmente são aplicadas no contexto de um caso de Descoberta Eletrônica.
 
-Confira a [Visão geral das políticas de retenção](/microsoft-365/compliance/retention-policies) para entender mais sobre preservação e retenções no Centro de conformidade do Microsoft 365. Para obter Teams informações específicas sobre retenção legal, também temos colocar um usuário Microsoft Teams equipe em retenção [legal](legal-hold.md) para que você saiba mais.
+Confira a [Visão geral das políticas de retenção](/microsoft-365/compliance/retention-policies) para entender mais sobre preservação e retenções no portal de conformidade do Microsoft Purview. Para obter Teams informações específicas sobre retenção legal, também temos colocar um usuário Microsoft Teams equipe em retenção [legal](legal-hold.md) para que você saiba mais.
 
 ### <a name="content-search"></a>Pesquisa de conteúdo
 
-A pesquisa de conteúdo pode ser usada para pesquisar todos os Teams dados por meio de recursos avançados de filtragem. Os dados resultantes podem ser exportados para um contêiner específico para suporte a conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletem Teams dados em todos os usuários, revise-os e exporte-os para processamento adicional. Consulte a Pesquisa [de](/microsoft-365/compliance/content-search) Conteúdo para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para Microsoft Teams e outros Microsoft 365 ou Office 365 conteúdo no Centro de conformidade do Microsoft 365.
+A pesquisa de conteúdo pode ser usada para pesquisar todos os Teams dados por meio de recursos avançados de filtragem. Os dados resultantes podem ser exportados para um contêiner específico para suporte a conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletem Teams dados em todos os usuários, revise-os e exporte-os para processamento adicional. Consulte a Pesquisa [](/microsoft-365/compliance/content-search) de Conteúdo para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para Microsoft Teams e outros Microsoft 365 ou Office 365 conteúdo no portal de conformidade do Microsoft Purview.
 
 > [!TIP]
 > Usando a pesquisa de conteúdo, você pode filtrar para Microsoft Teams somente conteúdo, como mensagens de chat e canal, reuniões e chamadas, se necessário.
@@ -182,7 +184,7 @@ Se você quiser obter mais informações Teams específicas sobre como configura
 
 ### <a name="auditing"></a>Auditoria
 
-A pesquisa de log de auditoria conecta-se diretamente ao Centro de conformidade do Microsoft 365 e oferece a capacidade de definir alertas, bem como relatar eventos de auditoria, permitindo a exportação de conjuntos de eventos específicos ou genéricos de carga de trabalho para uso e investigação de administrador em uma linha do tempo de auditoria ilimitada. Você pode configurar alertas para todos os dados de log de auditoria no Centro de conformidade do Microsoft 365 e filtrar e exportar esses dados para análise posterior. Para saber mais sobre como pesquisar Microsoft Teams eventos no Centro de conformidade do Microsoft 365, consulte Pesquisar no [log de auditoria eventos no Microsoft Teams](audit-log-events.md).
+A pesquisa de log de auditoria se conecta diretamente ao portal de conformidade do Microsoft Purview e oferece a capacidade de definir alertas, bem como o relatório sobre eventos de auditoria, permitindo a exportação de conjuntos de eventos genéricos ou específicos da carga de trabalho para uso e investigação do administrador em uma linha do tempo de auditoria ilimitada. Você pode configurar alertas para todos os dados de log de auditoria no portal de conformidade do Microsoft Purview e filtrar e exportar esses dados para análise posterior. Para saber mais sobre como pesquisar Microsoft Teams eventos no portal de conformidade do Microsoft Purview, consulte Pesquisar no [log de auditoria](audit-log-events.md) eventos no Microsoft Teams.
 
 ## <a name="privacy"></a>Privacidade
 
@@ -214,7 +216,7 @@ Quando se trata de recursos de proteção de informações, Microsoft 365 assina
 Para obter informações sobre como determinar as necessidades de licenciamento para implementar recursos de segurança e conformidade, examine [](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) os requisitos de licenciamento para recursos de segurança e conformidade.
 
 > [!NOTE]
-> A pesquisa de conteúdo, a Descoberta Eletrônica Principal e Advanced eDiscovery não precisam ser habilitadas no Centro de conformidade do Microsoft 365 para funcionar. Para obter mais informações, [consulte Microsoft 365 soluções de Descoberta Eletrônica](/microsoft-365/compliance/ediscovery).
+> A pesquisa de conteúdo, a Descoberta Eletrônica Principal e Advanced eDiscovery não precisam ser habilitadas no portal de conformidade do Microsoft Purview para funcionar. Para obter mais informações, [consulte Microsoft 365 soluções de Descoberta Eletrônica](/microsoft-365/compliance/ediscovery).
 
 ## <a name="location-of-data-in-teams"></a>Localização dos dados no Microsoft Teams
 
