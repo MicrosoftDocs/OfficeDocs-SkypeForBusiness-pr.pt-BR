@@ -21,67 +21,82 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Siga estas etapas para criar um número de telefone padrão para os chamadores ingressarem em uma Microsoft Teams reunião.
-ms.openlocfilehash: d1bce310424fb30ef8e76dde60003e97973630ec
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Siga estas etapas para criar um número de telefone padrão para que os chamadores ingressem em uma Microsoft Teams reunião.
+ms.openlocfilehash: 7f22f86a020940caf663b671c81ab7958230db21
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055441"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016573"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Definir os números de telefone incluídos em convites no Microsoft Teams
 
-A audioconferência em Microsoft 365 e Office 365 permite que os usuários em sua organização criem reuniões Microsoft Teams e, em seguida, permitir que os usuários discem para essas reuniões usando um telefone.
-  
+A Audioconferência no Microsoft 365 e Office 365 permite que os usuários em sua organização criem reuniões do Microsoft Teams e, em seguida, permitam que os usuários disquem para essas reuniões usando um número de telefone.
+
 Uma ponte de conferência oferece um conjunto de números de telefone de discagem para sua organização. Todos eles podem ser usados para participar das reuniões que um organizador da reunião criou, mas você pode selecionar quais serão incluídos nos convites da reunião.
-  
-> [!NOTE]
-> Pode haver no máximo um número de telefone tarifado e um número de telefone gratuitos no convite da reunião para um organizador de reunião, mas também há um link localizado na parte inferior de cada convite de reunião que abre a lista completa de todos os números de telefone que podem ser usados para ingressar em uma reunião.
+
+Além dos números de telefone incluídos no convite da reunião para um organizador da reunião, há também um link localizado na parte inferior de cada convite de reunião que abre a lista completa de todos os números de telefone de discagem que podem ser usados para ingressar em uma reunião.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-  
-## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>Atribuição inicial de números de telefone incluídos nos convites da reunião para novos usuários
 
-Os números de telefone que são incluídos nos convites de reunião de usuários habilitados para Audioconferência são definidos pelo número de telefone de chamada de chamada de conferência padrão e pelas configurações padrão do número de telefone gratuito de conferência do usuário. Cada configuração especifica qual número gratuito e de tarifa será incluído no convite de reunião de um determinado usuário. Conforme mencionado acima, cada convite de reunião contém um número de chamada gratuita, um número gratuito opcional e um link que abre a lista completa de todos os números de telefone discados que podem ser usados para ingressar em uma determinada reunião.
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-users"></a>Atribuição inicial de números de telefone incluídos nos convites da reunião para usuários
 
-Para um novo usuário, os números de tarifa de conferência padrão são atribuídos com base no Local de Uso definido no centro de administração Microsoft 365 do usuário quando o usuário está habilitado para o serviço de Audioconferência. Se houver um número de pedágio na ponte de conferência que corresponde ao país do usuário, esse número será atribuído automaticamente como o número de tarifa padrão do usuário. Se não houver um, o número definido como o número de tarifa padrão da ponte de conferência será atribuído como o número de tarifa padrão do usuário.  
+Os números de telefone incluídos nos convites de reunião de usuários habilitados para Audioconferência são definidos no *TeamsAudioConferencingPolicy* atribuído aos usuários. Quando um *TeamsAudioConferencingPolicy* é atribuído a um usuário, todos os números de telefone de chamada tarifada e gratuita adicionados na política são incluídos em convites de reunião para usuários que têm essa política. Se um usuário receber um *TeamsAudioConferencingPolicy* e não houver números de telefone de chamada tarifada ou gratuita adicionados à política, nesse caso, os números de telefone que aparecem nos convites de reunião desses usuários serão definidos pelo número de telefone de chamada tarifada de conferência padrão e o número de telefone de chamada gratuita de conferência padrão nas configurações de cada usuário individual.
 
-Depois que o usuário for habilitado para o serviço de Audioconferência, os números de telefone de chamada gratuita e de chamada padrão do usuário poderão ser alterados pelo administrador de locatários de seus valores iniciais a qualquer momento.
+> [!NOTE]
+> Números de telefone de chamada tarifada ou gratuita adicionados ao *TeamsAudioConferencingPolicy* de um usuário têm precedência sobre os números de telefone definidos individualmente usando o número de telefone de chamada tarifada de conferência padrão e o número de telefone de chamada gratuita de conferência padrão nas configurações de um usuário.
 
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Definir ou alterar o número de telefone de audioconferência padrão para um organizador de reunião ou usuário
+Conforme mencionado acima, além dos números de telefone, cada convite de reunião contém um link que abre a lista completa de todos os números de telefone discados que podem ser usados para ingressar em uma determinada reunião.
+
+### <a name="new-users"></a>Novos usuários
+
+Os números de telefone de chamada tarifada e gratuita incluídos nos convites de reunião para novos usuários também são definidos pelo *TeamsAudioconferencingPolicy* atribuído a esses usuários. Por padrão, todos os novos usuários recebem o Global *TeamsAudioconferencingPolicy*. A política global não tem nenhum número de telefone adicionado (a menos que isso seja alterado pelo Administrador de Locatários). Nesse caso, os números de telefone que são incluídos nos convites de reunião de usuários habilitados para Audioconferência são definidos pelo número de telefone de chamada tarifada de conferência padrão e o número de telefone de chamada gratuita de conferência padrão encontrado nas configurações de cada usuário.
+
+Para um novo usuário, os números de chamada tarifada de conferência padrão são atribuídos com base no Local de Uso definido no centro de administração do Microsoft 365 do usuário quando o usuário está habilitado para o serviço de Audioconferência. Se houver um número de pedágio na ponte de conferência que corresponda ao país do usuário, esse número será atribuído automaticamente como o número de chamada tarifada padrão do usuário. Se não houver um, o número definido como o número de pedágio padrão da ponte de conferência será atribuído como o número de chamada tarifada padrão do usuário.  
+
+Depois que o usuário estiver habilitado para o serviço de Audioconferência, os números de telefone padrão de chamada tarifada e gratuita do usuário poderão ser alterados pelo administrador do locatário de seus valores iniciais, conforme necessário.
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-users-in-powershell-using-the-teamsaudioconferencingpolicy-cmdlet"></a>Definir ou alterar o número de telefone de audioconferência padrão para usuários no Powershell usando o cmdlet *TeamsAudioConferencingPolicy*
+
+Confira as [configurações da política de Audioconferência para números de chamada tarifada e gratuita](audio-conferencing-toll-free-numbers-policy.md)
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user-individually"></a>Definir ou alterar o número de telefone de audioconferência padrão para um organizador ou usuário da reunião individualmente
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
-1. Faça logoff no Microsoft Teams de administração.
+1. Faça logon no Microsoft Teams de administração.
 
-2. Na navegação à esquerda, clique em **Usuários**.
+2. No painel de navegação esquerdo, clique em **Usuários**.
 
     ![Mostra a seleção de usuários no Microsoft Teams de administração.](media/Admin-users.png)
 
-3. Clique no nome do usuário na lista de usuários disponíveis.
+3. Clique no nome de usuário na lista de usuários disponíveis.
 
-4. Ao lado **de Audioconferência,** clique em **Editar**.
+4. Ao lado **de Audioconferência**, clique em **Editar**.
 
     ![Clique em Editar ao lado de Audioconferência.](media/teams-set-phone-numbers-on-invites-image3.png)
 
-5. Use os **campos Número de Telefone** ou Número **gratuito** para inserir os números do usuário.
+5. Use os **campos número de** chamada **tarifada ou** número de chamada gratuita para inserir os números do usuário.
 
 > [!IMPORTANT]
-> Quando você altera as configurações de audioconferência de um usuário, reuniões Microsoft Teams reuniões recorrentes e futuras devem ser atualizadas e enviadas aos participantes.
+> Quando você altera as configurações de audioconferência de um usuário, as reuniões Microsoft Teams recorrentes e futuras devem ser atualizadas e enviadas aos participantes.
+
+> [!NOTE]
+> Os números de telefone inseridos nessa configuração só serão usados se *o TeamsAudioConferencingPolicy* atribuído ao usuário não tiver nenhum número de telefone adicionado.
 
 ## <a name="want-to-use-windows-powershell"></a>Deseja usar Windows PowerShell
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a serem executadas. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
 - [Por que você precisa usar o PowerShell do Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 - [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Para definir ou alterar o número de telefone de audioconferência padrão para um organizador de reunião ou usuário usando [o Microsoft Teams PowerShell,](/powershell/module/teams/?view=teams-ps)defina os parâmetros ou do **`ServiceNumber`** **`TollFreeServiceNumber`** cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) para um dos números disponíveis.
+Para definir ou alterar o número de telefone de conferência de áudio padrão para um organizador ou usuário de reunião usando o [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), **`ServiceNumber`** **`TollFreeServiceNumber`** defina os parâmetros do cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) como um dos números disponíveis.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimente ou compre Audioconferência em Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimente ou compre a Audioconferência Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 [Alterar os números de telefone em sua ponte de Audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
