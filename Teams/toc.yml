@@ -295,7 +295,7 @@ items:
             href: legal-hold.md
           - name: Pesquisa de conteúdo
             href: content-search.md
-          - name: Fluxo de trabalho de equipes em Descoberta Eletrônica Avançada
+          - name: Fluxo de trabalho do Teams na Descoberta Eletrônica (Premium)
             href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Auditoria
             href: audit-log-events.md
@@ -671,7 +671,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar sua implantação
+              - name: Planejar implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md
@@ -1179,7 +1179,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
