@@ -671,7 +671,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar implantação
+              - name: Planejar sua implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md
@@ -1547,8 +1547,6 @@ items:
             href: resource-specific-consent.md
           - name: Entender as permissões do aplicativo e o acesso aos recursos
             href: app-permissions.md
-          - name: Configurações de administração para aplicativos no Teams
-            href: admin-settings.md
           - name: Comportamento do aplicativo com base em tipos de usuários
             href: non-standard-users.md
           - name: Atualizar aplicativos para versões mais recentes como usuários finais
