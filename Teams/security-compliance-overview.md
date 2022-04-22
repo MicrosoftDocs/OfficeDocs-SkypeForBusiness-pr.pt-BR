@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1c41ac53e95c179fc62b5e2e469bb614cbdcd516
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922612"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031896"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade no Microsoft Teams
 
@@ -149,9 +149,9 @@ Para obter mais detalhes sobre como usar as ferramentas de Descoberta Eletrônic
 
 Temos um Teams específico para obter mais informações sobre como conduzir uma investigação de Descoberta Eletrônica [do conteúdo Microsoft Teams](eDiscovery-investigation.md).
 
-Os clientes podem aproveitar a Descoberta [Eletrônica ou Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) de acordo com seus requisitos. As diferenças entre os dois estão destacadas na tabela a seguir:
+Os clientes podem aproveitar a Descoberta Eletrônica [ou Descoberta Eletrônica (Premium)](/microsoft-365/compliance/office-365-advanced-ediscovery) de acordo com seus requisitos. As diferenças entre os dois estão destacadas na tabela a seguir:
 
-|&nbsp; |Descoberta Eletrônica  |Advanced eDiscovery  |
+|&nbsp; |Descoberta Eletrônica  |Descoberta Eletrônica (Premium)  |
 |---------|---------|---------|
 |Gestão de casos     |X        |X         |
 |Controle de acesso  |X         |X         |
@@ -216,7 +216,7 @@ Quando se trata de recursos de proteção de informações, Microsoft 365 assina
 Para obter informações sobre como determinar as necessidades de licenciamento para implementar recursos de segurança e conformidade, examine [](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) os requisitos de licenciamento para recursos de segurança e conformidade.
 
 > [!NOTE]
-> A pesquisa de conteúdo, a Descoberta Eletrônica Principal e Advanced eDiscovery não precisam ser habilitadas no portal de conformidade do Microsoft Purview para funcionar. Para obter mais informações, [consulte Microsoft 365 soluções de Descoberta Eletrônica](/microsoft-365/compliance/ediscovery).
+> A pesquisa de conteúdo, a Descoberta Eletrônica (Standard) e a Descoberta Eletrônica (Premium) não precisam ser habilitadas no portal de conformidade do Microsoft Purview para funcionar. Para obter mais informações, [consulte Microsoft 365 soluções de Descoberta Eletrônica](/microsoft-365/compliance/ediscovery).
 
 ## <a name="location-of-data-in-teams"></a>Localização dos dados no Microsoft Teams
 

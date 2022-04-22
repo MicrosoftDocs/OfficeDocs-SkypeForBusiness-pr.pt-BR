@@ -1,7 +1,7 @@
 ---
 title: Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba como colocar um usuário Microsoft Teams equipe em retenção legal usando o portal de conformidade do Microsoft Purview e aprender o que precisa de uma retenção legal com base nos requisitos de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d56bece07fe7342c4156abdae73508a1a149864
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922452"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031906"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 
@@ -35,7 +35,7 @@ Dentro Microsoft Teams, uma equipe inteira ou usuários selecionados podem ser c
 > A colocação de um usuário em retenção não coloca automaticamente um grupo em retenção ou vice-versa.
 > As notificações enviadas nos feeds de atividades não podem ser colocadas em espera.
 
-Para colocar um usuário ou uma equipe em retenção legal em um caso de Descoberta Eletrônica Principal:
+Para colocar um usuário ou uma equipe em retenção legal em um caso de Descoberta Eletrônica (Standard):
 
 1. Acesse o [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com). Ao criar um novo caso, você verá a opção de colocar caixas de correio ou sites em espera.
 
@@ -44,7 +44,7 @@ Para colocar um usuário ou uma equipe em retenção legal em um caso de Descobe
    ![Microsoft Teams guia Descoberta Eletrônica está selecionada, mostrando o botão Criar um caso.](media/LegalHold1.png)
 
    > [!NOTE]
-   > Você também pode colocar um usuário em uma retenção associada a um Advanced eDiscovery caso. Para obter mais informações, consulte [Gerenciar retenções Advanced eDiscovery](/microsoft-365/compliance/managing-holds).
+   > Você também pode colocar um usuário em uma retenção associada a um caso de Descoberta Eletrônica (Premium). Para obter mais informações, [consulte Gerenciar retenções na Descoberta Eletrônica (Premium)](/microsoft-365/compliance/managing-holds).
 
 3. Vá para a **guia** Retenções no menu superior e clique **em Criar** para criar uma retenção. Colocar um usuário ou uma equipe em espera preserva todas as mensagens trocadas por esses usuários. Ao criar um novo caso, você verá a opção de colocar caixas de correio ou sites em espera.
 

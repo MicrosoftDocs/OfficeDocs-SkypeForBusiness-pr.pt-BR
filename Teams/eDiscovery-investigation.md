@@ -1,7 +1,7 @@
 ---
 title: Conduzir uma investigação de Descoberta Eletrônica do conteúdo
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866196"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031916"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -82,7 +82,7 @@ Aqui está um exemplo dos metadados da reunião.
   > [!div class="mx-imgBorder"]
   > ![Os metadados da reunião da cópia de conformidade.](media/conversationOption3.png)
 
-Para obter mais informações sobre como conduzir uma investigação de Descoberta Eletrônica, [consulte Introdução com a Descoberta Eletrônica Principal](/microsoft-365/compliance/get-started-core-ediscovery).
+Para obter mais informações sobre como conduzir uma investigação de Descoberta Eletrônica, [consulte Introdução com a Descoberta Eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
 
 Microsoft Teams dados serão exibidos como mensagens instantâneas ou conversas na saída Excel exportação da Descoberta Eletrônica. Você pode abrir o arquivo `.pst` em Outlook exibir essas mensagens depois de exportá-las.
 
@@ -131,7 +131,7 @@ Antes de executar essas etapas, verifique se você tem a versão mais recente [d
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Inclua as caixas de correio de proprietários e membros de um canal privado como parte [](/microsoft-365/compliance/search-for-content-in-core-ediscovery) de sua consulta de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica Principal ou ao identificar e coletar conteúdo custodiante no [Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Inclua as caixas de correio de proprietários e membros de um canal privado como parte de sua consulta de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica [(Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou ao identificar e coletar conteúdo custodiante na Descoberta Eletrônica [(Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identificar o site SharePoint para canais privados e compartilhados
 
@@ -166,7 +166,7 @@ Antes de executar essas etapas, [instale o shell de gerenciamento SharePoint Onl
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Inclua o site associado a um canal privado ou compartilhado como parte de sua consulta [](/microsoft-365/compliance/search-for-content-in-core-ediscovery) de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica Principal ou ao identificar e coletar conteúdo custodiante no [Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Inclua o site associado a um canal privado ou compartilhado como parte de sua consulta de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica [(Padrão)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou ao identificar e coletar conteúdo custodiante na Descoberta Eletrônica [(Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ## <a name="search-for-content-for-guest-users"></a>Pesquisar conteúdo para usuários convidados
 
@@ -251,6 +251,6 @@ Os administradores podem usar a Descoberta Eletrônica para pesquisar conteúdo 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Microsoft 365 soluções de Descoberta Eletrônica](/microsoft-365/compliance/ediscovery)
-- [Introdução com a Descoberta Eletrônica Principal](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams fluxo de trabalho no Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Introdução com Descoberta Eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams fluxo de trabalho na Descoberta Eletrônica (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)

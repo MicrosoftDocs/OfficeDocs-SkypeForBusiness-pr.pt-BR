@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de aplicativos Teams
+title: Visão geral das políticas de aplicativo para gerenciar aplicativos no Teams
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Saiba mais sobre Teams de aplicativos.
+description: Saiba mais sobre as políticas Teams aplicativo.
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,32 +15,32 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 691ad4a26a4d396b6f06dd478bd0012a94861d4f
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 95adb8d95f003dc85596a55b16af594be828a1c2
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070540"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030877"
 ---
-# <a name="manage-app-policies-in-microsoft-teams"></a>Gerenciar políticas de aplicativo em Microsoft Teams
+# <a name="overview-of-app-policies-used-to-manage-apps-in-microsoft-teams"></a>Visão geral das políticas de aplicativo usadas para gerenciar aplicativos no Microsoft Teams
 
-As políticas de aplicativos são usadas para controlar aplicativos Microsoft Teams.
+As políticas de aplicativo são usadas para controlar aplicativos Microsoft Teams.
 
 ## <a name="app-permission-policies"></a>Políticas de permissão do aplicativo
 
-**As políticas de permissão do** aplicativo são usadas para controlar quais aplicativos estão disponíveis para seus usuários. Como administrador, você pode permitir ou bloquear aplicativos específicos que seus usuários instalam no Teams de aplicativos. [As políticas de permissão do](teams-app-permission-policies.md) aplicativo são gerenciadas por meio do Microsoft Teams de administração.
+**As políticas de permissão** de aplicativo são usadas para controlar quais aplicativos estão disponíveis para seus usuários. Como administrador, você pode permitir ou bloquear aplicativos específicos que os usuários instalam da Teams de aplicativos. [As políticas de permissão de](teams-app-permission-policies.md) aplicativo são gerenciadas por meio do Microsoft Teams de administração.
 
 ![Captura de tela da política de permissão do aplicativo.](media/app-permission-policy.png)
 
-## <a name="app-setup-policies"></a>Políticas de configuração de aplicativos
+## <a name="app-setup-policies"></a>Políticas de configuração de aplicativo
 
-**As políticas de configuração** de aplicativo permitem fixar e instalar aplicativos em nome de seus usuários e controlar essas configurações para sua organização. [As políticas de configuração de](teams-app-setup-policies.md) aplicativos são gerenciadas no Teams de administração.
+**As políticas de configuração** de aplicativo permitem que você fixe e instale aplicativos em nome de seus usuários e controle essas configurações para sua organização. [As políticas de configuração](teams-app-setup-policies.md) de aplicativo são gerenciadas no Teams de administração.
 
-![Captura de tela da política de configuração do aplicativo Teams centro de administração.](media/app-setup-policy.png)
+![Captura de tela da política de configuração de aplicativo Teams centro de administração.](media/app-setup-policy.png)
 
 ## <a name="custom-app-policies"></a>Políticas de aplicativo personalizadas
 
-Você pode controlar quem pode carregar aplicativos personalizados para Teams com políticas **de aplicativos personalizadas**. [As configurações e políticas personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) são gerenciadas por meio do Microsoft Teams de administração.
+Você pode controlar quem pode carregar aplicativos personalizados para Teams com **políticas de aplicativo personalizadas**. [As configurações e políticas personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) são gerenciadas por meio do Microsoft Teams de administração.
 
 ![Captura de tela da política de aplicativo personalizada.](media/custom-app-policy.png)
 
