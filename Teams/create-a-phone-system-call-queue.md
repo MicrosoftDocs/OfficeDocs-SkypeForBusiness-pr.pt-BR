@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846540"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059082"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -207,6 +207,9 @@ O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um age
 
 > [!TIP]
 > Definir **o tempo de alerta do Agente** **como 20 segundos** é a configuração recomendada.
+
+> [!NOTE]
+> A [configuração de tratamento de tempo limite](#call-timeout-handling) de chamada tem prioridade sobre o tempo de alerta do agente. Se o tempo máximo de fila configurado para manipulação de tempo limite de chamada tiver sido atingido, a chamada será retirada dos agentes, mesmo que o limite de tempo de alerta do agente não tenha sido atingido.
 
 ## <a name="call-overflow-handling"></a>Administração de estouro de chamadas
 

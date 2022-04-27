@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos Teams na página Gerenciar ap
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030937"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059072"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar Teams aplicativos no Microsoft Teams de administração
 
@@ -30,9 +30,9 @@ Você gerencia aplicativos para sua organização **Teams aplicativos no** centr
 
 ![Captura de tela da página Gerenciar aplicativos.](media/manage-apps.png)
 
-Para gerenciar aplicativos, use as políticas a seguir para controlar permissões para usuários, instalação de aplicativos e upload de aplicativos personalizados criados em sua organização. Para entender as políticas, consulte [Visão geral das políticas de aplicativo](app-policies.md).
+Para usar Teams de administração, você deve ser um administrador global ou Teams de serviço. Para obter detalhes, [consulte Teams de administrador](./using-admin-roles.md).
 
-Para ler sobre como obter funções e permissões de administrador, [consulte Teams funções de administrador](./using-admin-roles.md).
+Para gerenciar aplicativos, use políticas para controlar permissões para usuários, instalação de aplicativos e upload de aplicativos personalizados criados em sua organização. Para entender as políticas, consulte [Visão geral das políticas de aplicativo](app-policies.md).
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

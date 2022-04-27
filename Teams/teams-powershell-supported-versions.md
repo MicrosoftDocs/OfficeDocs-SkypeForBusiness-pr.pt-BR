@@ -12,12 +12,12 @@ ms.collection:
 description: Saiba mais sobre as versões com suporte Teams módulo do PowerShell, usadas para administração de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac948022050babeff0c5ea3c0dbde853e0fabc54
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: c97e3c840452a20be60d6f27e2bf4c3375322be1
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65019323"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059412"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams módulo do PowerShell – Versões com suporte
 
@@ -60,7 +60,9 @@ As organizações que usam o Módulo do PowerShell do Teams nos últimos três m
 - Alterações relacionadas
   * Atualizações do Get-CsOnlineUser & Get-CsOnlineVoiceUser no TPM 3.x.x e posteriores – mais detalhes em [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser) &  (postagem do Centro de mensagens – MC340774).[](/powershell/module/skype/get-csonlinevoiceuser)
 
-  * Alterações chegando Telefone atribuição de número – mais detalhes em [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (Postagem do Centro de mensagens – MC316139)[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  * Alterações chegando Telefone atribuição de número – mais detalhes em [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) &  (Postagem do Centro de mensagens – MC316139).[](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  
+  * Alterações de parâmetro Get-CsTenant - mais detalhes em [Get-CsTenant](/powershell/module/skype/get-cstenant).  
 
 -   Ao usar o TPM 4.x.x ou posterior, é recomendável não usar nenhum dos cmdlets preteridos ou sem suporte mencionados [abaixo](#deprecated-cmdlets). 
 

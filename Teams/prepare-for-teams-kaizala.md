@@ -1,63 +1,68 @@
 ---
-title: Mapeando sua Kaizala para Teams jornada
+title: Gráficos de Kaizala para Teams jornada
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
+ms.reviewer: ''
 description: Este artigo descreve como se preparar para uma mudança de Kaizala para Microsoft Teams.
-f1.keywords: null
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: 246e6e66c27e2779a808c1ff81ae4f40088b9c58
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059333"
 ---
-
-# <a name="charting-your-kaizala-to-teams-journey"></a>Mapeando sua Kaizala para Teams jornada
+# <a name="charting-your-kaizala-to-teams-journey"></a>Gráficos de Kaizala para Teams jornada
 
 Você decidiu mudar de Kaizala para Microsoft Teams.
 
 Antes de começar, é importante responder a estas duas perguntas:
 
-- Quais grupos de usuários mudarão para Teams?  
+- Quais grupos de usuários serão movidos para Teams?  
 
 - Qual é o caminho para Teams?
 
 ## <a name="identify-user-groups"></a>Identificar grupos de usuários
 
-*Quais grupos existem em sua organização? Who usar o Teams e como? Quais são as necessidades desses grupos para um trabalho em equipe eficaz?* Para começar sua jornada para Teams, primeiro **identifique os grupos de usuários para sua transição.**  Grupos de usuários são um conjunto de funcionários em sua força de trabalho que conduzem trabalhos em áreas semelhantes da empresa. 
+*Quais grupos existem em sua organização? Who usar o Teams e como? Quais necessidades esses grupos exigirão para um trabalho em equipe eficaz?* Para começar sua jornada para Teams, primeiro **identifique os grupos de usuários para sua transição.**  Os grupos de usuários são um conjunto de funcionários em sua força de trabalho que conduzem trabalhos em áreas semelhantes da empresa. 
 
-Identificamos três grupos de usuários comuns para dar suporte a você na identificação das necessidades de colaboração. Cada grupo de usuários tem suas próprias necessidades exclusivas em termos de comunicação. 
+Identificamos três grupos de usuários comuns para dar suporte a você na identificação de necessidades de colaboração. Cada grupo de usuários tem suas próprias necessidades exclusivas em termos de comunicação. 
 
-![Gráfico de Grupos de Usuários para Transição](media/kaizala-user-groups.png)
+![Gráfico de grupos de usuários para transição](media/kaizala-user-groups.png)
 
- 1. **Os trabalhadores da** informação são funcionários que criam, usam, transformam, consomem ou gerenciam informações no decorrer de seu trabalho.
+ 1. **Os operadores** de informações são funcionários que criam, usam, transformam, consomem ou gerenciam informações no decorrer do trabalho.
 
- 2. **Os trabalhadores** de linha de frente são principalmente trabalhadores sem mesa cuja função principal é trabalhar diretamente com clientes ou o público em geral que fornece serviços, suporte e produtos de venda ou estão diretamente envolvidos na fabricação de produtos/serviços.
+ 2. **Os** trabalhadores da linha de frente são principalmente trabalhadores sem mesa cuja função principal é trabalhar diretamente com clientes ou com o público em geral fornecendo serviços, suporte e produtos de venda, ou estão diretamente envolvidos na fabricação de produtos/serviços.
 
- 3. **Usuários externos** são pessoas de fora da sua organização, como fornecedores, fornecedores, parceiros de negócios, clientes ou clientes.
+ 3. **Os usuários** externos são pessoas de fora da sua organização, como fornecedores, fornecedores, parceiros de negócios, clientes ou clientes.
 
-Os usuários que se conectam com outros funcionários de informações em suas equipes de trabalho precisam:
+Os usuários que se conectam com outros operadores de informações em suas necessidades de força de trabalho:
 
 - Chat, reunião, colaboração de arquivos
 
-- Trabalhar em dispositivos
+- Trabalhar entre dispositivos
 
 - Soluções do setor
 
-- Controles avançados de IT
+- Controles de TI avançados
   
 - Colaboração interna e externa com email
 
-Os usuários que se conectam à força de trabalho frontline precisam:
+Os usuários que se conectam com a força de trabalho da Linha de Frente precisam:
 
-- Conexão com Os Funcionários de Linha de Frente no diretório da organização
+- Conexão com trabalhadores de linha de frente dentro do diretório da organização
 
-- Locais offline e remotos
+- Offline, locais remotos
 
-- Envolvimento e divulgação da força de trabalho
+- Participação e divulgação da força de trabalho
 
 - Processos digitalizados e fluxos de trabalho
 
@@ -65,31 +70,31 @@ Os usuários que se conectam à força de trabalho frontline precisam:
 
 Os usuários que se conectam com usuários externos (fornecedores/fornecedores) podem usar:
 
-- [Colaboração de acesso de](/MicrosoftTeams/guest-joins) convidados
+- [Microsoft Teams usuários podem conversar com qualquer Teams usuários que estão fora de sua organização](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [Federação](/microsoftteams/manage-external-access)
+- [Adicionar ou convidar pessoas fora de sua Teams para um chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>Determinar seu caminho
 
-Depois de verificar as necessidades de colaboração de seus grupos de usuários, você poderá determinar como será seu caminho de Kaizala para Teams você. Todas as organizações são exclusivas e a jornada de nenhuma força de trabalho será exatamente a mesma. As organizações que não usam o Teams precisarão tomar decisões estratégicas adicionais para garantir uma jornada de transição bem-sucedida. Determinar seu caminho ajudará você a identificar quaisquer ações importantes que devem ser concluídas para uma transição bem-sucedida.
+Depois de verificar as necessidades de colaboração de seus grupos de usuários, você poderá determinar como será seu caminho de Kaizala para Teams será. Cada organização é única e nenhuma jornada de força de trabalho será exatamente a mesma. As organizações que não usam Teams no momento precisarão tomar decisões estratégicas adicionais para garantir uma jornada de transição bem-sucedida. Determinar seu caminho ajudará você a identificar ações importantes que devem ser concluídas para uma transição bem-sucedida.
 
 Descrevemos o que o caminho pode consistir, dependendo do uso da sua organização hoje:  
 
 Para **organizações que não usam Teams**:
 
-![Caminho para organizações que não usam o Teams](media/kaizala-not-using-teams.png)
+![Caminho para organizações que não estão usando o Teams](media/kaizala-not-using-teams.png)
 
- 1. Vislumbrar o trabalho em equipe para sua organização
+ 1. Prever o trabalho em equipe para sua organização
 
  2. Piloto Teams
   
  3. Implantar Teams
   
- 4. Use Kaizala e Teams
+ 4. Usar Kaizala e Teams
   
- 5. Gerenciar alterações
+ 5. Gerenciar alteração
 
- 6. Planejar sua adoção de Teams
+ 6. Planeje sua adoção de Teams
 
  7. Mover sua organização para Teams
 
@@ -99,7 +104,7 @@ Para **organizações que já usam Teams**:
 
  1. Planejar sua transição
 
- 2. Gerenciar alterações
+ 2. Gerenciar alteração
 
 ## <a name="next-steps"></a>Próximos passos
 

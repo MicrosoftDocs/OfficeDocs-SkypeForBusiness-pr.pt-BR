@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: Saiba mais sobre o acesso condicional e as políticas de conformidade do Intune recomendadas para Salas do Microsoft Teams.
-ms.openlocfilehash: befe8faae5db204f5e15e307cadcc24f6867a487
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 19e4593a6135c79eb156a1b34847ab518d6e8ea4
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732289"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059232"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>Acesso condicional e políticas de conformidade do Intune suporte para Salas do Microsoft Teams
 
@@ -28,7 +28,10 @@ Este artigo fornece acesso condicional e políticas de conformidade Intune dispo
 
 ## <a name="supported-conditional-access-policies"></a>Políticas de acesso condicional com suporte  
 
-A lista a seguir inclui as políticas de Acesso Condicional com suporte para Salas do Teams no Windows e no Android. As políticas do Android com suporte se aplicam a todos os dispositivos Android em espaços compartilhados, incluindo telefones e painéis de área comuns.
+A lista a seguir inclui as políticas de Acesso Condicional com suporte para Salas do Teams no Windows e no Android. 
+
+> [!NOTE]
+> As políticas do Android com suporte se aplicam a todos os dispositivos Android em espaços compartilhados, incluindo Salas do Teams em Andourd, telefones de área comuns e painéis.
 
 | Atribuição | Windows | Android |
 |------------|---------|---------|

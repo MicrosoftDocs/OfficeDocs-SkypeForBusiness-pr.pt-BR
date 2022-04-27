@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817702"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063252"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gerenciar controles de tecnologia de reconhecimento de voz para um Alto-falante Inteligente
 
@@ -44,7 +44,7 @@ Os seguintes itens são requisitos de Alto-falante Inteligente:
 Há suporte para alto-falantes inteligentes Epos, Sennheiser e Yealink.
 
 > [!NOTE]
-> O Intelligent Speaker está disponível em todos os países e regiões, exceto na Índia, que ainda não tem suporte. Consulte [localidades com suporte](#supported-locales) para obter uma lista das localidades com suporte no momento para registro biométrico e transcrição na reunião.
+> O Intelligent Speaker está disponível em todos os países e regiões. Consulte [localidades com suporte](#supported-locales) para obter uma lista das localidades com suporte no momento para registro biométrico e transcrição na reunião.
 
 ## <a name="set-up-an-intelligent-speaker"></a>Configurar um alto-falante inteligente
 
