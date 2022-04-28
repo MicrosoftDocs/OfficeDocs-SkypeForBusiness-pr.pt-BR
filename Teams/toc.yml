@@ -495,7 +495,7 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Configurar a moderação de canal no Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Gerenciar componentes de loop
+      - name: Gerenciar componentes do Loop
         href: loop-components-in-teams.md
       - name: Integração de emails do Teams e Outlook
         href: teams-outlook-email-integration.md
@@ -671,7 +671,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar implantação
+              - name: Planejar sua implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md

@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417324"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059182"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -46,20 +46,22 @@ A visualização pública é habilitada por usuário e a opção de ativar a vis
 
 2. Nomeie a política de atualização, adicione uma descrição e selecione a configuração **Mostrar recursos de visualização**.
 
-   -   **Seguir o Office Preview** (padrão): Essa nova opção padrão habilitará automaticamente os recursos de Visualização Pública do Teams para qualquer usuário registrado no Canal Atual do Office (Pré-visualização). Não há mais ações necessárias pelo usuário final.
-   -   **Habilitado**: Essa opção habilita a Visualização Pública do Teams, independentemente de um usuário estar registrado no Canal Atual do Office (Pré-visualização). O usuário final também deve optar pela visualização pública do Teams no aplicativo Teams.
+   -   **Seguir a Pré-visualização do Office** (padrão)
+       - Essa nova opção padrão habilitará automaticamente os recursos de Visualização Pública do Teams para qualquer usuário inscrito no Canal Office Atual (Pré-visualização). 
+       - Não há mais ações necessárias para o usuário final.
+   -   **Habilitado**
+       - Essa opção habilita a Visualização Pública do Teams independentemente de um usuário estar inscrito no Canal Atual do Office (Pré-visualização). 
+       - O usuário final também deve optar pela visualização pública do Teams no aplicativo Teams.
 
    > [!NOTE]  
    > Para usuários existentes na Visualização Pública do Teams que NÃO estão no **Canal Atual (Pré-visualização)**, os administradores de TI precisam mudar do padrão **Seguir o Office Preview** para **Habilitado**.
  
-   - **Não habilitado**: Os recursos da Visualização Pública do Teams não estarão disponíveis para os usuários finais.
+   - **Não habilitado** 
+     - Os recursos de Visualização Pública do Teams não estarão disponíveis para os usuários finais.
 
     ![mostra a caixa de diálogo de configurações de visualização.](media/public-preview-policy.png)  
 
 Você também pode definir a política usando o cmdlet `Set-CsTeamsUpdateManagementPolicy` PowerShell com o parâmetro `-AllowPublicPreview`.
-
-> [!NOTE]   
-> O parâmetro AllowPreview será preterido em breve.
 
 ## <a name="enable-public-preview"></a>Habilitar visualização pública
 
@@ -74,7 +76,7 @@ Para habilitar a visualização pública em uma área de trabalho ou cliente Web
 
 ## <a name="teams-now-follows-office-preview-users"></a>O Teams agora segue os usuários do Office Preview
 
-O novo padrão de política global do **Seguir o Office Preview** permitirá que os usuários estejam automaticamente no canal de Visualização Pública do Teams se estiverem no Canal Atual (Pré-visualização) para o Cliente do Office 365 no Windows.
+O novo padrão de política global da **Seguir a Pré-visualização do Office** permitirá que os usuários estejam automaticamente no canal de Visualização Pública do Teams se estiverem no Canal Atual (Pré-visualização) para o Cliente do Office 365 no Windows e Mac.
 
 Microsoft Office continuará a receber atualizações do Canal Atual (Pré-visualização) e o cliente do Teams receberá atualizações por meio do canal de Visualização Pública. Esta política NÃO alternará os canais do Office com base nos canais do Teams. 
 
@@ -85,10 +87,6 @@ Para usuários existentes que você tem permissão para aceitar ou recusar a Vis
 **Como recusar essa configuração?**
 
 Você pode desabilitar a configuração do Centro de Administração do Teams de **Seguir o Office Preview** para **Não Habilitado** (Consulte [Definir a política de atualização](#set-the-update-policy))
-
-## <a name="known-issues"></a>Problemas Conhecidos
-
-Os usuários do Canal Atual do Office (Pré-visualização) podem sair da Visualização Pública do Teams por meio do menu Sobre do Teams enquanto sua política de atualização está definida como **Seguir o Office Preview**. Essa funcionalidade não é pretendida e será removida no futuro. O cliente do Teams pode se definir automaticamente como Visualização Pública quando o dispositivo estiver ocioso na próxima vez se o usuário estiver no Canal Atual (Pré-visualização) do Office.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
