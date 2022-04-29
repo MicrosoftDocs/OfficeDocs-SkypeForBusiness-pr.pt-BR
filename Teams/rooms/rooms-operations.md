@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Saiba mais sobre como gerenciar Salas do Microsoft Teams.
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106256"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125466"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas do Microsoft Teams manutenção e operações
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 Os logs serão exibidos como um arquivo ZIP em c:\rigel.
+
+### <a name="managing-disk-space"></a>Gerenciando espaço em disco
+<a name="Space"> </a>
+
+Os logs baixados no dispositivo podem assumir espaço em disco. Se os logs não forem limpos regularmente, eles poderão interferir na funcionalidade normal da sala. Salas do Teams exclui os logs baixados após 30 dias. Os administradores de TI podem substituir a limpeza de log usando a configuração do registro do dispositivo.
+
+|Configuração|Permite|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Limpa os logs após 30 dias.  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>Configurações de exibição da frente da sala
 <a name="Display"> </a>

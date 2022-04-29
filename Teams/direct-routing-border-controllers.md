@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556572"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125756"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -49,9 +49,7 @@ A Microsoft trabalha com cada fornecedor para:
 
 As tabelas que seguem a lista de dispositivos certificados para Roteamento Direto. (Para obter informações sobre quais fornecedores de SBC dão suporte à Otimização de Mídia Local, consulte [Configurar otimização de mídia local para roteamento direto](direct-routing-media-optimization-configure.md).)
 
-[Saiba mais sobre o Roteamento Direto](https://aka.ms/dr).
-Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento Direto, entre em contato com drsbccertification@microsoft.com. Observe que não estamos aceitando novas indicações para certificação até novo aviso.
-<br/>
+[Saiba mais sobre o Roteamento Direto](https://aka.ms/dr). Observe que não estamos aceitando novas indicações para certificação até novo aviso. <br/>
 
 ## <a name="certified-sbc-vendors"></a>Fornecedores SBC certificados
 
@@ -91,8 +89,7 @@ Se você tiver dúvidas sobre o programa de certificação SBC para Roteamento D
 |                                 |     CUBE (Elemento de Borda Unificada da Cisco) para roteadores dos Serviços de Agregação da Série 1000      |     &#10004;   | &#10004; |      Suportado no IOS XE Amsterdam 17.2.1r (recomendado 17.6.1a)         |    &#10004;     |    |
 |                                 |     Cube (Elemento de Borda Unificada da Cisco) para Plataformas de Borda do Cube 8000      |     &#10004;   | &#10004; |      Suportado no IOS XE Amsterdam 17.3.2 (recomendado 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de Borda de Sessão Avaya para Empresas (ASBCE)    |     &#10004;     |       &#10004;     |       Versão 8.1.1 (8.1.2 para Bypass de Mídia)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de Borda de Sessão da Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Controlador de Borda de Sessão da Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de Borda de Sessão da Nokia    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       5.0, 5.1 com suporte (Recomendado 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Link de Vínculo Orchid    |     &#10004;     |           |      3.1        |     |    |

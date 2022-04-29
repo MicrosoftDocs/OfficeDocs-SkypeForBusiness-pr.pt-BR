@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use a telemetria em tempo real com detalhes sobre dispositivos, redes e conectividade para solucionar problemas do usuário com Microsoft Teams agendadas.
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518723"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125796"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetria em tempo real para solucionar problemas de qualidade de reunião
 
@@ -57,11 +57,11 @@ Para ver todas as informações de reunião e dados de um usuário, vá para o T
 
 Para obter informações adicionais sobre os participantes de uma reunião que está em andamento, incluindo suas estatísticas de dispositivo, rede e áudio, localize a reunião em  Reuniões recentes e selecione o link na coluna  Participantes.
 
-:::image type="content" alt-text="Captura de tela da tabela de detalhes do participante." source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="Captura de tela da tabela de detalhes do participante." source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 Para examinar a telemetria de um determinado usuário para uma reunião em andamento, incluindo informações sobre detalhes de dispositivo, rede, áudio, vídeo e compartilhamento de conteúdo, selecione a **ID da Reunião**.
 
-:::image type="content" alt-text="Captura de tela dos dados de sessão do usuário da análise de chamada." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="Captura de tela dos dados de sessão do usuário da análise de chamada." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Medidas disponíveis no Real-Time Analytics
 

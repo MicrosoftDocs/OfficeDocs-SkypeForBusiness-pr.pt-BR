@@ -18,12 +18,12 @@ description: Obtenha mais informações sobre a prévia pública no Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059182"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125776"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
@@ -73,6 +73,14 @@ Para habilitar a visualização pública em uma área de trabalho ou cliente Web
 
 > [!NOTE]  
 > Essa opção só está disponível quando **Exibir recursos de pré-visualização** está definido como **Habilitado**.
+
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Visualização pública para Salas do Microsoft Teams no Windows
+
+A visualização pública está desativada por padrão. Quando a visualização pública está ativada, os usuários finais têm acesso a recursos que estão em visualização pública em habilitadas Salas do Teams. Para ativar a visualização pública, adicione ```<EnablePublicPreview>True</EnablePublicPreview>``` ao arquivo de configuração XML.
+
+É recomendável registrar de 5 a 10 dispositivos na versão prévia pública. 
+
+Todos os recursos de visualização pública são anunciados em [Versão Prévia Pública do Microsoft Teams – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
 
 ## <a name="teams-now-follows-office-preview-users"></a>O Teams agora segue os usuários do Office Preview
 

@@ -20,12 +20,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 8c48c322c913b71eb47e1c093e40200d926d26f3
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047141"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125666"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -178,18 +178,9 @@ Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro
 - EMIRADOS
 - Reino Unido
 
-**Não há suporte para esses países/regiões e nuvens**
-
-- Nuvem Comunitária do Governo (GCC)-H
-- Departamento de Defesa (DOD)
-
 **Exclusões e considerações**
 
 - **Localização de dados:** Os locais de dados das equipes, fora dos listados acima, não são suportados no momento.
-
->[!Note]
-> Os eventos ao vivo dependem dos serviços da CDN do Azure, que podem não estar disponíveis em alguns países/regiões. Como administrador, talvez seja necessário configurar uma VPN em conformidade com todas as leis e regulamentos aplicáveis para se conectar à sua rede corporativa para que estes aplicativos funcionem perfeitamente. Depois de concluído, as pessoas na sua organização poderão agendar e participar de eventos ao vivo.
-
 
 ## <a name="next-steps"></a>Próximas etapas
 

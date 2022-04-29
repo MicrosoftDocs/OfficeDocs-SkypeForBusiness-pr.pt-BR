@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556342"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125486"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 
-No Microsoft Teams, existem duas funções: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Além disso, os proprietários e membros podem ter recursos moderadores para um canal (desde que a moderação tenha sido configurada). Se uma equipe for criada a partir de um grupo Microsoft 365 existente, as permissões serão herdadas.
+No Microsoft Teams, existem duas funções: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Além disso, os proprietários e membros podem ter recursos moderadores para um canal (desde que a moderação tenha sido configurada). Se uma equipe for criada de um grupo de Microsoft 365 existente, as permissões serão herdadas.
 
 A tabela abaixo mostra as diferenças de permissão entre um proprietário e um membro:
 
@@ -71,7 +71,10 @@ Para obter mais informações sobre os recursos do moderador, consulte [Configur
 
 ## <a name="assign-a-user-role"></a>Atribuir uma função de usuário
 
-Para atribuir uma função de usuário, no Teams, selecione o nome da equipe e clique **Mais opções** > **Gerenciar equipe**. Na guia **Membros**, você pode adicionar membros e escolher proprietários e moderadores (se tiver permissões suficientes). Para obter mais informações, consulte [Alterar configurações de equipe em Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+Para atribuir uma função de usuário, Teams, selecione o nome da equipe e, em seguida, selecione Mais **opções (****...**) > **Gerenciar equipe**. Na guia **Membros**, você pode adicionar membros e escolher proprietários e moderadores (se tiver permissões suficientes). Para obter mais informações, consulte [Alterar as configurações da equipe Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+
+> [!NOTE]
+> A **opção Gerenciar equipe** não aparecerá para canais fixados. Selecione o nome da equipe *em Suas equipes* mais abaixo e, em seguida, selecione **Mais** opções (**...**) à direita do nome.
 
 ## <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 

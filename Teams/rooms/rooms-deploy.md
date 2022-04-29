@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar Salas do Microsoft Teams, incluindo as fases de implantação.
-ms.openlocfilehash: 61fce84f9f3737f771e0417443de566444cc2ca2
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839072"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125766"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -53,12 +53,12 @@ Você pode saber mais sobre essas dependências nos links de diretrizes de plane
 Para se preparar para sua Salas do Microsoft Teams implantação, execute as seguintes tarefas centrais:
 
 -   Defina Salas do Microsoft Teams de recursos.
--   Se estiver ingressando Teams Room to Azure Active Directory, prepare um grupo do Azure AD com associação dinâmica para manter todas as contas de Salas do Teams recursos. Isso simplificará o gerenciamento futuro, como a aplicação de políticas de Acesso Condicional. Para aproveitar com mais facilidade os grupos dinâmicos do Azure AD, determine uma convenção de nomenclatura que identificará exclusivamente suas contas de Salas do Teams recursos.
--   Se estiver ingressando no Teams Room no Active Directory, prepare uma unidade organizacional e um grupo do Active Directory para manter suas contas de recursos e computador do Salas do Microsoft Teams e, opcionalmente, preparar gpOs (objetos Política de Grupo) para habilitar a comunicação remota do PowerShell.
+-   Se estiver Salas do Teams ao Azure Active Directory, prepare um grupo de Azure AD com associação dinâmica para manter todas as contas de Salas do Teams recursos. Isso simplificará o gerenciamento futuro, como a aplicação de políticas de Acesso Condicional. Para aproveitar com mais facilidade Azure AD grupos dinâmicos, determine uma convenção de nomenclatura que identificará exclusivamente suas contas Salas do Teams recursos.
+-   Se estiver ingressando no Salas do Teams para o Active Directory, prepare uma unidade organizacional e um grupo do Active Directory para manter suas contas de recursos e computadores do Salas do Microsoft Teams e, opcionalmente, preparar gpOs (objetos Política de Grupo) para habilitar a comunicação remota do PowerShell.
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Definir recursos Salas do Microsoft Teams conta de recurso 
 
-Dependendo dos cenários de colaboração que você decidiu habilitar com sua implantação do Salas do Microsoft Teams, você precisará determinar os recursos e os recursos atribuídos a cada sala Microsoft Teams que habilitar.
+Dependendo dos cenários de colaboração que você decidiu habilitar com sua implantação do Salas do Microsoft Teams, você precisará determinar os recursos e os recursos atribuídos a cada Salas do Microsoft Teams que habilitar.
 
 | **Cenário** | **Descrição** | **Salas do Microsoft Teams de conta de serviço** |
 |---------- |------------- | --- |
