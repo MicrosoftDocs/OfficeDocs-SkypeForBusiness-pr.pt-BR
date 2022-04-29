@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 85277e9948dac1e083eb587f9bfc3787be3644a6
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910907"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137152"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de conformidade de aplicativos do Microsoft 365 para segurança, conformidade e privacidade de aplicativos de terceiros
 
@@ -80,7 +80,7 @@ Os administradores podem verificar rapidamente se há aplicativos certificados p
 
 * Ao coletar mais informações sobre um aplicativo na Web, consulte o ícone de escudo na documentação da Microsoft sobre o aplicativo.
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="Exibir informações sobre a certificação Microsoft 365 no artigo de ajuda detalhado sobre segurança e conformidade de um aplicativo.":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="Veja as informações sobre a Certificação do Microsoft 365 no artigo de ajuda detalhado sobre segurança e conformidade de um aplicativo":::
 
 * Ao verificar um aplicativo no Centro de administração do Teams, classifique a lista de aplicativos usando a coluna Certificação. Veja o ícone e, opcionalmente, selecione o link para acessar a página específica do aplicativo mencionada acima.
 
@@ -92,13 +92,35 @@ Os administradores podem verificar rapidamente se há aplicativos certificados p
 
 * No Centro de administração do Teams, ao conceder permissões ao aplicativo, uma marca de seleção azul na frente do nome do aplicativo indica um aplicativo atestado pelo editor ou um Microsoft 365 certificado.
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="No Centro de administração do Teams, na caixa de diálogo para conceder permissões, os administradores podem verificar a marca de seleção azul para ter certeza de que o aplicativo é certificado pelo Microsoft 365.":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="No centro de administração do Teams, na caixa de diálogo para conceder permissões, os administradores podem verificar a marca de seleção azul para ter certeza de que o aplicativo é Certificado pelo Microsoft 365":::
 
-## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>Exibir informações de segurança, conformidade e privacidade na documentação da Microsoft
+## <a name="view-security-compliance-and-privacy-information"></a>Exibir informações de segurança, conformidade e privacidade
 
-Para um aplicativo atestado ou certificado, os detalhes sobre segurança, privacidade, conformidade e muito mais para cada aplicativo estão listados nos artigos de ajuda específicos do aplicativo vinculados a [Segurança e conformidade de aplicativos do Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
+Você pode encontrar informações sobre segurança, privacidade, conformidade e comportamentos para um aplicativo atestado ou certificado na documentação da Microsoft e no Centro de Administração do Teams.
+
+### <a name="microsoft-documentation"></a>Documentação da Microsoft
+
+Você pode encontrar os detalhes sobre segurança, privacidade, conformidade e muito mais para cada aplicativo listado nos artigos de ajuda específicos do aplicativo vinculado da [Segurança e Conformidade dos Aplicativos do Microsoft Teams](/microsoft-365-app-certification/teams/teams-apps).
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Informações detalhadas fornecidas para aplicativos que passam pelo programa de conformidade da Microsoft.":::
+
+### <a name="teams-admin-center"></a>Centro de administração do Teams
+
+Ao avaliar um aplicativo para sua organização, você pode usar Agentes de Segurança de Acesso à Nuvem (CASB) independentes, como o Microsoft Cloud App Security (MCAS), para encontrar informações sobre a segurança e os comportamentos de um aplicativo. O centro de administração do Teams inclui informações de conformidade e segurança do MCAS para aplicativos Certificados pelo Microsoft 365 para verificar se um aplicativo atende às suas necessidades.
+
+> [!NOTE]
+> Este recurso está disponível para todos os administradores, independentemente da sua organização ter ou não uma licença que suporte o MCAS.
+
+Para acesso as informações do MCAS de um aplicativo:
+
+1. No Centro de administração do Teams, selecione **Gerenciar aplicativos** em **Aplicativos do Teams**.
+1. Selecione **Certificação** para classificar os aplicativos e empurrar todos os aplicativos Certificados pelo Microsoft 365 para o topo da tabela.
+1. Escolha um aplicativo Certificado pelo Microsoft 365.
+1. Selecione a guia **Segurança e conformidade**.
+
+   :::image type="content" source="media/mcas.png" alt-text="Captura de tela da guia de segurança e conformidade do Centro de administração do Teams":::
+
+   Para obter mais detalhes sobre as funcionalidades suportadas pelo aplicativo, selecione a lista suspensa para cada categoria.
 
 <!--- TBD: Move to the permissions article 
 
@@ -119,7 +141,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 No Centro de administração do Teams, cada página do aplicativo vincula-se à política de privacidade e aos termos de uso do aplicativo.
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="No Centro de administração do Teams, os administradores podem acessar o link para a política de privacidade e os termos de uso de todos os aplicativos." lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="No Centro de administração do Teams, os administradores podem acessar o link para a política de privacidade e os termos de uso de todos os aplicativos" lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 

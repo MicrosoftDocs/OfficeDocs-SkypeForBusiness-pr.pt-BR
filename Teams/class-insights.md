@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 3ce84036102407c31076ea2ec12fb5dc96e6b082
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837454"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125616"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -231,6 +231,17 @@ Por padrão, o Insights é ativado, o que nos permite coletar análises das ativ
 
 > [!NOTE]
 > Se você tiver desativado o Insights, os dados coletados serão excluídos. Os dados excluídos na recusa podem ser restaurados posteriormente, mesmo que o Insights seja reabilitar.
+
+
+### <a name="turn-machine-learning-in-insights-on-or-off"></a>Ativar ou desativar o Machine Learning no Insights
+
+Por padrão, as experiências baseadas em concessão de máquina no Insights são desativadas. Para permitir esses insights, você precisa **Permitir o aprendizado de máquina baseado no Insights**. Ativar essa alternância não coletará nenhum dado adicional além dos dados já coletados pelo Insights para Educação.
+
+* Para ajustar essa configuração, abra o [Centro de administração do SDS](https://sds.microsoft.com/) e acesse **Configurações** > **Gerenciar Insights de Educação**. 
+* Ajuste o botão de alternância **Permitir Insights baseados em aprendizado de máquina** para desativado ou ativado.
+
+> [!NOTE]
+> Esse botão de alternância depende da alternância **Coletar dados de atividade para Insights**. Desativar **Coletar dados de atividade para Insights** também desativará a alternância **Permitir o Insights com base em aprendizado de máquina**.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Ativar ou desativar o SDS para Insights
 
