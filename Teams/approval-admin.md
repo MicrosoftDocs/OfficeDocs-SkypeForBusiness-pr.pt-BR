@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64643065"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137122"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -57,7 +57,7 @@ Para implantar o Aprovações, você precisa de permissão para os seguintes ite
 
 - A licença Microsoft Forms é necessária para que os usuários configurem novos modelos de aprovação.
 
-Para usar o aplicativo Aprovações, você precisa de uma licença para o Power Automate e sua conta será adicionada automaticamente à função de usuário do Aprovações no ambiente de destino em sua primeira atribuição de aprovação.
+Para usar o aplicativo Aprovações, você precisa de uma licença para Power Automate e sua conta é adicionada automaticamente à função de usuário do Aprovações no ambiente de destino em sua primeira atribuição de aprovação.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Armazenamento com o Microsoft Dataverse
 
@@ -68,7 +68,7 @@ Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approv
 Aprovações criados com base em um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre  [o Armazenamento de dados para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Se você excluir o modelo de formulário no site Microsoft Forms, ele interromperá o modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de aprovação que foi excluído no Microsoft Forms.
+>Se você excluir o modelo de formulário Microsoft Forms site, ele interromperá o modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de aprovação que é excluído no Microsoft Forms.
 
 Os modelos no escopo da organização compartilham o mesmo tempo de vida dos modelos de locatário e com escopo de equipe compartilham o mesmo tempo de vida da equipe. Portanto, excluir permanentemente a equipe exclui os modelos relacionados.
 
@@ -99,7 +99,7 @@ Permissões de modelo de aprovação
 
 - Todos os proprietários da equipe podem criar um modelo de aprovação para as equipes que eles têm.
 
-- Quando um administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente um novo grupo Azure Active Directory (AAD) para todos os administradores do locatário, incluindo os administradores de serviços globais e Teams. Esses administradores serão adicionados como proprietários do grupo, para que possam cogerenciar modelos organizacionais. Os administradores que são novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários do grupo para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
+- Quando um administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente um novo grupo Azure Active Directory (AAD) para todos os administradores do locatário, incluindo os administradores de serviços globais e Teams. Esses administradores são adicionados como proprietários do grupo, para que possam cogerenciar modelos organizacionais. Os administradores que são novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários do grupo para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
 
 > [!Note]
 > Se um administrador excluir o grupo, você terá um mês para restaurá-lo no portal Azure Active Directory (AAD) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir esse grupo dentro da lixeira, você perderá todos os dados relacionados.
@@ -199,7 +199,7 @@ Saiba mais sobre [registro em log de atividades de aplicativos orientados por mo
 No aplicativo Aprovações de Equipes, os usuários têm acesso para criar novas Aprovações e exibir Aprovações que enviaram e receberam. Os usuários não terão acesso às Aprovações criadas por outras pessoas, a menos que sejam respondentes ou visualizadores da solicitação.
 
 > [!Note]
-> Um usuário terá uma função de visualizador de uma solicitação se ele for parte do chat ou canal no qual a aprovação foi criada. Ela não terá a capacidade de tomar medidas na solicitação caso não tenha sido concedida essa função quando a aprovação foi criada.
+> Um usuário recebe uma função de visualizador de uma solicitação se ele fizer parte do chat ou canal em que a aprovação foi criada. Ela não terá a capacidade de tomar medidas na solicitação caso não tenha sido concedida essa função quando a aprovação foi criada.
 
 ## <a name="approvals-e-signature-integration"></a>Aprovações integração de assinatura de email
 
@@ -209,7 +209,7 @@ Para usar o Aprovações de assinatura e do aplicativo, você precisa de uma lic
 
 Você pode usar o Teams de administração para controlar quais provedores de assinaturas de email de terceiros estão disponíveis para seus usuários no Aprovações aplicativo. Por padrão, os provedores de assinatura de e são habilitados no Aprovações aplicativo. Quando você desabilita um provedor de assinatura automática, os usuários não terão acesso a esse provedor quando criarem aprovações. Os usuários também não poderão exibir solicitações de assinatura e que foram criadas usando esse provedor.
 
-1. No painel de navegação à esquerda do Teams de administração, acesse **Teams** **appsManage** > .
+1. No painel esquerdo do centro de administração Teams, acesse Teams **appsManage** > .
 2. Pesquise o Aprovações aplicativo e selecione-o.
 3. Vá para a **Configurações** e, em seguida, siga um ou mais dos seguintes procedimentos:
 

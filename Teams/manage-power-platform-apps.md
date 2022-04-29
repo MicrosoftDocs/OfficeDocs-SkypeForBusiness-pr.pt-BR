@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos personalizados criados no Microsoft Power Platform no Microsoft Teams de administração.
-ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 9f212cf52ec757fc4860f081fb67da2cb1b4fcd5
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442667"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136992"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Microsoft Power Platform no Microsoft Teams de administração
 
@@ -66,7 +66,7 @@ Se um usuário tiver permissão para acessar aplicativos do Power Apps ou do Pow
 
 Por padrão, **os aplicativos Power Apps** **compartilhados do Power Virtual Agent** são permitidos para todos os Teams em sua organização. Você pode bloqueiá-los ou permiti-los no [](manage-apps.md) nível da organização na página Gerenciar aplicativos do Microsoft Teams de administração.  
 
-1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**. Você deve ser um administrador global ou Teams de serviço para acessar a página.
+1. No painel esquerdo do centro de administração Microsoft Teams, acesse Teams **appsManage** > . Você deve ser um administrador global ou Teams de serviço para acessar a página.
 2. Na lista de aplicativos, siga um dos procedimentos a seguir.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Captura de tela da página Gerenciar aplicativos, mostrando aplicativos compartilhados do Microsoft Power Platform":::

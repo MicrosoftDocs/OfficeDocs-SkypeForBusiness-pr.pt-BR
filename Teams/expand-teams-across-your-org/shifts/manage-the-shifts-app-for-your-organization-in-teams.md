@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: Saiba como configurar e gerenciar o aplicativo Shifts no Teams para os funcionários de linha de frente em sua organização.
+description: Saiba como configurar e gerenciar o aplicativo Shifts no Teams para trabalhadores de linha de frente em sua organização.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,23 +24,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039899"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137002"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
 ## <a name="overview-of-shifts"></a>Visão geral do Turnos
 
-O aplicativo Shifts no Microsoft Teams mantém os funcionários de linha de frente conectados e sincronizados. Ele foi criado primeiro para o gerenciamento rápido e eficaz de tempo e comunicação para as equipes. Os turnos permitem que os funcionários de linha de frente e seus gerentes usem seus dispositivos móveis para gerenciar agendas e manter contato.
+O aplicativo Shifts no Microsoft Teams mantém os trabalhadores da linha de frente conectados e em sincronia. Ele foi criado primeiro para o gerenciamento rápido e eficaz de tempo e comunicação para as equipes. Os turnos permitem que os funcionários da linha de frente e seus gerentes usem seus dispositivos móveis para gerenciar agendas e manter contato.
 
 - Os gerentes criam, atualizam e gerenciam cronogramas de turnos da equipe. Eles também podem enviar mensagens para uma pessoa ("há um derramamento no chão") ou para toda a equipe ("o gerente regional chega em 20 minutos"). Eles podem enviar documentos de política, boletins de notícias e vídeos.
 - Os funcionários visualizam os próximos turnos rapidamente, podem ver quem mais está agendado para o dia, solicitar uma troca de turno, oferecer um turno e solicitar folgas.
 
-É importante saber que shifts atualmente não suportam convidados. Isso significa que os convidados em uma equipe não podem ser adicionados ou usar escalas de turnos quando o acesso de Convidado estiver ativado no Teams.
+No momento, é importante saber que o Shifts não dá suporte a convidados. Isso significa que os convidados em uma equipe não podem ser adicionados ou usar escalas de turnos quando o acesso de Convidado estiver ativado no Teams.
 
 > [!Note]
 > Para obter detalhes sobre os recursos do Turnos em diferentes plataformas, confira [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -50,13 +50,13 @@ O aplicativo Shifts no Microsoft Teams mantém os funcionários de linha de fren
 O Turnos está disponível em todas as SKUs corporativas onde o Teams está disponível.
 
 > [!NOTE]
-> Shifts está disponível em ambientes Nuvem da Comunidade Governamental (GCC), mas não em ambiente GCC s High ou DoD.
+> Os turnos estão disponíveis em ambientes Nuvem da Comunidade Governamental (GCC), mas não em ambientes GCC High ou DoD.
 
 ## <a name="location-of-shifts-data"></a>Local dos dados de Turnos
 
-Atualmente, os dados de turnos são armazenados no Azure em data centers no Pacífico Asiático (APAC), na União Europeia (UE) e na América do Norte. Confira mais informações sobre onde os dados são armazenados em [Onde estão meus dados?](http://o365datacentermap.azurewebsites.net/)
+Atualmente, os dados de turnos são armazenados no Azure em data centers no Pacífico Asiático (APAC), na União Europeia (UE) e América do Norte. Confira mais informações sobre onde os dados são armazenados em [Onde estão meus dados?](http://o365datacentermap.azurewebsites.net/)
 
-Para saber mais sobre os dados shifts, incluindo armazenamento, retenção, recuperação e criptografia de dados Shifts, consulte [Perguntas frequentes sobre os dados shifts](shifts-data-faq.md).
+Para saber mais sobre os dados do Shifts, incluindo armazenamento, retenção, recuperação e criptografia de dados do Shifts, confira as perguntas [frequentes sobre os dados do Shifts](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Configurar Turnos
 
@@ -65,25 +65,25 @@ Para saber mais sobre os dados shifts, incluindo armazenamento, retenção, recu
 O Turnos é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [Gerenciar aplicativos](../../manage-apps.md) no centro de administração do Microsoft Teams.
 
 1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
-2. Na lista de aplicativos, pesquise o aplicativo Shifts, selecione-o e alterne a alternância **Status** para **Bloqueado** ou **Permitido**.
+2. Na lista de aplicativos, pesquise o aplicativo Turnos, selecione-o e alterne a alternância **Status** para **Bloqueado** ou **Permitido**.
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilite ou desabilite o Turnos para usuários específicos em sua organização
 
-Para permitir ou bloquear usuários específicos em sua organização de usar Turnos, certifique-se de que Shifts está ligado para sua organização na página [Gerenciar aplicativos](../../manage-apps.md) . Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](../../teams-app-permission-policies.md).
+Para permitir ou impedir que usuários específicos em sua organização usem Turnos, verifique se o Turnos está ativado para sua organização na página Gerenciar [aplicativos](../../manage-apps.md) . Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Use uma política de configuração de aplicativo para fixar Turnos Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Usar uma política de configuração de aplicativo para fixar Turnos Teams
 
 As políticas de configuração de aplicativos permitem que você personalize o Teams para destacar os aplicativos que são mais importantes para os usuários em sua organização. Os aplicativos definidos em uma política são fixados na barra do aplicativo&mdash;na barra na lateral do cliente de área de trabalho do Teams e na parte inferior dos clientes móveis do Teams&mdash;onde os usuários podem acessá-los de forma rápida e fácil.
 
-Você pode criar uma [política de configuração de aplicativo](../../teams-app-setup-policies.md) personalizada adicionando o aplicativo Shifts e [atribuindo a política](../../assign-policies-users-and-groups.md) aos usuários. Ou você pode usar a política de configuração de aplicativo que faz parte dos pacotes de política do Frontline Worker e do Gerenciador de Linha de Frente.
+Você pode criar uma [política de configuração de](../../teams-app-setup-policies.md) aplicativo personalizada adicionando o aplicativo Shifts e, em seguida, [atribuir a política](../../assign-policies-users-and-groups.md) aos usuários. Ou você pode usar a política de configuração de aplicativo que faz parte dos pacotes de política do Frontline Worker e do Gerenciador de Linha de Frente.
 
-Um [pacote de política](../../manage-policy-packages.md) no Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. O conjunto de políticas nos pacotes de política do Frontline Worker and Frontline Manager inclui uma política de configuração de aplicativo que fixa o aplicativo Shifts e outros aplicativos que suportam atividades de comunicação e colaboração para essa função.
+Um [pacote de](../../manage-policy-packages.md) políticas no Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir a usuários que têm funções semelhantes em sua organização. O conjunto de políticas nos pacotes de políticas do Frontline Worker e do Gerenciador de Linha de Frente inclui uma política de configuração de aplicativo que fixa o aplicativo Shifts e outros aplicativos que dão suporte a atividades de comunicação e colaboração para essa função.
 
-Recomendamos usar os pacotes de política do Frontline Worker and Frontline Manager à medida que eles simplificam, simplificam e ajudam a fornecer consistência ao gerenciar políticas para sua força de trabalho de linha de frente.
+É recomendável usar os pacotes de políticas do Frontline Worker e do Frontline Manager à medida que eles simplificam, simplificam e ajudam a fornecer consistência ao gerenciar políticas para sua força de trabalho de linha de frente.
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Pesquisar o registro de auditoria para eventos do Turnos
 
-**(em visualização)**
+**(Em versão prévia)**
 
 Você pode pesquisar no log de auditoria para exibir as atividades de Turnos na sua organização.  Para saber mais sobre como pesquisar no log de auditoria e ver uma lista de [atividades de Turnos](../../audit-log-events.md#shifts-in-teams-activities) que são registradas no log de auditoria, consulte [Pesquisar no log de auditoria por eventos no Teams](../../audit-log-events.md).
 
@@ -92,7 +92,7 @@ Antes de poder pesquisar o log de auditoria, você precisa ativar a auditoria no
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Turnos do Teams](../shifts-for-teams-landing-page.md)
-- [Desloca perguntas frequentes sobre dados](shifts-data-faq.md)
+- [Perguntas frequentes sobre deslocamentos de dados](shifts-data-faq.md)
 - [Conectores de turnos](shifts-connectors.md)
-- [Ajuda de turnos para trabalhadores de linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Ajuda de turnos para trabalhadores da linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Atribuir políticas aos usuários no Microsoft Teams](../../policy-assignment-overview.md)

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: a2d6ee4129128df8acf17906b0bc45140b57f6f4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711725"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125496"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -94,7 +94,7 @@ O acesso externo (federação) permite que seus usuários se comuniquem com pess
 
 |Pergunte-se|Ação |
 |------------|-------|
-|<ul><li>Desativarei o acesso externo da minha organização?</li><li>Se habilitado, vou limitar os domínios com os quais minha organização poderá se comunicar?</li></ul> |<br>Para ativar ou desativar o acesso externo, consulte [Plano para o acesso externo ](manage-external-access.md#plan-for-external-access).|
+|<ul><li>Desativarei reuniões externas e chats para minha organização?</li><li>Se habilitado, vou limitar os domínios com os quais minha organização poderá se comunicar?</li></ul> |<br>Para ativar ou desativar a reunião externa e o chat, consulte [Gerenciar reuniões externas e o chat](manage-external-access.md).|
 
 ### <a name="guest-access"></a>Acesso de convidados
 

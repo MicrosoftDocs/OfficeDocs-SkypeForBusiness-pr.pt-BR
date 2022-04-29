@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Saiba como gerenciar o aplicativo Elogio no centro Microsoft Teams administrador.
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442677"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136972"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio aplicativo no centro de Microsoft Teams administrador
 
@@ -31,7 +31,7 @@ Elogio é habilitado por padrão para todos os Teams em sua organização. Você
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de tela da Elogio detalhes do aplicativo no Teams de administração, mostrando a alternância Status.":::
 
-1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
+1. No painel esquerdo do centro de administração Microsoft Teams, acesse Teams **appsManage** > .
 2. Na lista de aplicativos, pesquise o aplicativo Elogio, selecione-o e alterne a alternância **Status** para **Bloqueado** ou **Permitido**.
 
 Tenha em mente que essa configuração afeta o aplicativo Elogio e o recurso Elogio no aplicativo Insights do Viva no Teams.

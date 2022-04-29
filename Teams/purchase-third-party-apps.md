@@ -16,12 +16,12 @@ description: Saiba como comprar aplicativos de terceiros para Teams no Microsoft
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 84a527fbd8ec59817b4f0d3ee64a970c44d9abd4
-ms.sourcegitcommit: 708b489a7dca7fd9e5e9b1ec88c9aba79ecafe5f
+ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64712925"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137082"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para Teams
 
@@ -38,17 +38,17 @@ Aqui, você também pode comprar licenças para serviços oferecidos por aplicat
 > [!IMPORTANT]
 > Quando você habilita a compra de aplicativos, ele também ativa a compra no aplicativo. Os usuários podem ver ofertas de compra no aplicativo que são controladas pelo ISV para seu aplicativo. Se você quiser impedir que os usuários adquiram um aplicativo, será necessário bloquear o aplicativo. Para obter mais informações sobre como bloquear um aplicativo, consulte [Gerenciar](app-policies.md) políticas de aplicativo ou saiba como bloquear um aplicativo [no nível da organização](manage-apps.md#allow-and-block-apps).
 
-1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**. Você deve ser um administrador global ou Teams de serviço para acessar a página.
+1. No painel esquerdo do centro de administração Microsoft Teams, acesse Teams **appsManage** > . Você deve ser um administrador global ou Teams de serviço para acessar a página.
 1. Pesquise o aplicativo desejado. Para identificar aplicativos que têm uma assinatura de SaaS paga, examine a coluna **Licenças** . Cada aplicativo terá um dos seguintes valores:
     - **Compra**: o aplicativo oferece uma assinatura de SaaS e está disponível para compra.  
     - **Comprado**: o aplicativo oferece uma assinatura de SaaS e você comprou licenças para ele.
     - **- -**: o aplicativo não oferece uma assinatura de SaaS.
-1. Quando encontrar o aplicativo, clique em **Comprar** para ir para a guia Planos e **preços** da página de detalhes do aplicativo. Examine os planos e as informações de preços da oferta de SaaS para o aplicativo. Se precisar de mais informações, selecione **Saiba mais** para acessar a página do aplicativo no [AppSource](https://appsource.microsoft.com/).
+1. Quando você encontrar o aplicativo, selecione **Comprar** para ir para a guia Planos e **preços** da página de detalhes do aplicativo. Examine os planos e as informações de preços da oferta de SaaS para o aplicativo. Se precisar de mais informações, selecione **Saiba mais** para acessar a página do aplicativo no [AppSource](https://appsource.microsoft.com/).
 
    > [!NOTE]
    > Os planos privados também podem ser listados para compra, que incluem preços especiais que sua organização negociou anteriormente com um ISV. Esses planos terão o rótulo **Plano privado sob** o nome do plano.
 
-1. Para assinar um aplicativo, escolha o plano desejado e selecione **Comprar**. O fluxo de check-out será aberto diretamente no Teams de administração.
+1. Para assinar um aplicativo, escolha o plano desejado e selecione **Comprar**. O fluxo de check-out é aberto diretamente no Teams de administração.
 
 1. Selecione o número de licenças de usuário que você deseja comprar.
 1. Verifique se a conta de cobrança e o endereço vendido estão corretos. Se você ainda não tiver um, adicione um novo selecionando **Adicionar**. Para obter mais informações sobre contas de cobrança, consulte [Noções básicas sobre contas de cobrança](/microsoft-365/commerce/manage-billing-accounts).
@@ -91,5 +91,5 @@ Os desenvolvedores de aplicativos de terceiros podem acessar [Criar uma oferta d
 
 - [Gerenciar seus aplicativos no Microsoft Teams de administração](manage-apps.md)
 - [Criar uma oferta de SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer)
-- [Funções internas do Azure AD](/azure/active-directory/roles/permissions-reference)
+- [Azure AD funções internas](/azure/active-directory/roles/permissions-reference)
 - [Microsoft 365 de administrador](/microsoft-365/admin/add-users/about-admin-roles)
