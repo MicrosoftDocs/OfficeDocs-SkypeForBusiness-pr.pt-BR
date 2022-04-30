@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de políticas no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63055301"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65144908"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gerenciar pacotes de política para Microsoft Teams
 
@@ -87,7 +87,7 @@ Os pacotes de política personalizados permitem que você empacote seu próprio 
 
 Para criar um novo pacote de política personalizado:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, selecione **Pacotes** de política e clique em **Adicionar**.
+1. No painel esquerdo do centro de administração do Microsoft Teams, selecione **Pacotes** de política e clique em **Adicionar**.
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de tela do botão Adicionar na página Pacotes de política no centro de administração.":::
 
@@ -97,7 +97,7 @@ Para criar um novo pacote de política personalizado:
 
 3. Selecione os tipos de política e os nomes de política a serem incluídos no pacote.
 
-4. Clique em **Salvar**.
+4. Selecione **Salvar**.
 
 ## <a name="how-to-use-policy-packages"></a>Como usar pacotes de política
 
@@ -120,17 +120,17 @@ Aqui estão as etapas para exibir, atribuir e personalizar pacotes de política 
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Exibir as configurações de uma política em um pacote de política
 
-1. No painel de navegação esquerdo do centro de administração do Microsoft Teams, selecione Pacotes de política **e, em** seguida, selecione um pacote de política clicando à esquerda do nome do pacote.
+1. No painel esquerdo do centro de administração do Microsoft Teams, selecione Pacotes de política **e, em** seguida, selecione um pacote de política clicando à esquerda do nome do pacote.
 
-2. Clique na política que você deseja exibir.
+2. Selecione a política que você deseja exibir.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar políticas em um pacote de política
 
 Você pode editar as configurações de uma política por meio  da página Pacotes de política ou acessando diretamente a página de política no Microsoft Teams de administração.
 
-1. No painel de navegação esquerdo do Microsoft Teams de administração, siga um dos seguintes procedimentos:
-    - Clique **em Pacotes de** política e selecione o pacote de política clicando à esquerda do nome do pacote.
-    - Clique no tipo de política.  Por exemplo, clique em **Políticas de mensagens**.
+1. No painel esquerdo do Microsoft Teams de administração, siga um dos seguintes procedimentos:
+    - Selecione **Pacotes de política** e, em seguida, selecione o pacote de política clicando à esquerda do nome do pacote.
+    - Selecione o tipo de política.  Por exemplo, clique em **Políticas de mensagens**.
 
 2. Selecione a política que você deseja editar. As políticas vinculadas a um pacote de política têm o mesmo nome que o pacote de política.
 
