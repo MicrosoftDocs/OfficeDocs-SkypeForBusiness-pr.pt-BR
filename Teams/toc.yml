@@ -451,6 +451,8 @@ items:
                 href: teams-analytics-and-reports/pstn-minute-pools-report.md
               - name: Relatório de uso da PSTN
                 href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Relatório de uso de chamada de saída de audioconferência do Teams
+                href: audio-conferencing-dial-out-usage-report.md
               - name: Relatório de uso de evento ao vivo do Teams
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Relatório de licença de proteção de informações do Teams
