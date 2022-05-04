@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4d410d643dcf0c3753e87fa03e4040812dd9a5a
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 051ea9a68cda344cf10bc297c84b3cbda6e61437
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137032"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186987"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
@@ -37,7 +37,7 @@ O aplicativo Tasks oferece uma experiência de gerenciamento de tarefas coesa pa
 > [!NOTE]
 > À medida que implementamos a experiência de tarefas nos clientes de área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **Planejador** para os usuários. O nome será alterado temporariamente para **Tasks pelo Planner e To Do** e, posteriormente, será renomeado para **Tasks**. Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **Tasks**. Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência na área de trabalho estiver disponível.
 
-   ![Captura de tela da exibição de lista de tarefas Teams lista.](media/manage-tasks-app-tasks.png)
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="Captura de tela da exibição de lista de tarefas." lightbox="media/manage-tasks-app-tasks.png":::
 
 Para organizações que desejam otimizar o gerenciamento de tarefas para os Trabalhadores da Linha de Frente, o Tasks também inclui recursos que permitem direcionar, publicar e rastrear tarefas em escala em toda a Força de Trabalho da Linha de Frente. Por exemplo, a liderança corporativa e regional pode criar e publicar listas de tarefas direcionadas a locais relevantes, como lojas de varejo específicas, e monitorar o progresso por meio de relatórios em tempo real. Os gerentes podem atribuir tarefas a seus funcionários e atividades diretas em seus locais, e os Trabalhadores de Linha de Frente têm uma lista priorizada de suas tarefas atribuídas no dispositivo móvel ou área de trabalho. Para [habilitar a publicação](#task-publishing) de tarefas, primeiro configure uma hierarquia de direcionamento de equipe para sua organização, que define como todas as equipes na hierarquia estão relacionadas entre si.
 
@@ -75,9 +75,19 @@ O Tasks é habilitado por padrão para todos os usuários do Teams em sua organi
 
 Para permitir ou impedir que usuários específicos em sua organização usem o Tasks, certifique-se de que o Tasks esteja ativado para sua organização na página [Gerenciar aplicativos](manage-apps.md) e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativo no Teams](teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Use uma política de configuração de aplicativo para fixar o Tasks ao Teams
+### <a name="pin-tasks-to-teams"></a>Fixar tarefas em Teams
 
-As políticas de configuração de aplicativos permitem que você personalize o Teams para destacar os aplicativos que são mais importantes para os usuários em sua organização. Os aplicativos definidos em uma política são fixados na barra de aplicativos — a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams — em que os usuários podem facilmente accessá-los.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Use a experiência de aplicativo de linha de frente personalizada para fixar tarefas e outros aplicativos Teams
+
+A experiência de aplicativo de linha de frente personalizada Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Tarefas, Walkie Talkie, Turnos e Aprovações. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
+
+Os aplicativos são fixados na barra de aplicativos , a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
+
+Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, consulte [Personalizar Teams aplicativos para seus trabalhadores de linha de frente](pin-teams-apps-based-on-license.md).
+
+#### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Use uma política de configuração de aplicativo para fixar o Tasks ao Teams
+
+As políticas de configuração de aplicativo permitem Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
 
 Para fixar o aplicativo Tasks para seus usuários, você pode editar a política global (Padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
 
@@ -92,12 +102,13 @@ Não recomendamos remover uma licença do Exchange Online para operadores de inf
 Com a publicação de tarefas, sua organização pode publicar listas de tarefas direcionadas a locais específicos (equipes) em sua organização para definir e compartilhar um plano de trabalho a ser concluído nesses locais.
 
 - Pessoas na equipe de publicação, como lideranças corporativas ou regionais, podem criar listas de tarefas e publicá-las para equipes específicas.
-    ![Captura de tela da publicação de tarefas.](media/manage-tasks-app-publish.png)
+
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Captura de tela da publicação de tarefas." lightbox="media/manage-tasks-app-publish.png":::
 - Os gerentes nas equipes destinatárias podem analisar as listas de tarefas publicadas e atribuir tarefas individuais aos membros da equipe.
-    ![Captura de tela da atribuição de uma tarefa.](media/manage-tasks-app-assign.png)
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Captura de tela da atribuição de uma tarefa." lightbox="media/manage-tasks-app-assign.png":::
 - Os funcionários da linha de frente têm uma experiência móvel simples para ver as tarefas atribuídas a eles. Eles podem anexar fotos para mostrar seu trabalho quando apropriado e marcar suas tarefas como concluídas.
 - Editores e gerentes podem visualizar relatórios para ver a atribuição e o status de conclusão de tarefas em cada nível, incluindo por local (equipe), lista de tarefas e tarefa individual.
-    ![Captura de tela das tarefas atribuídas no celular.](media/manage-tasks-app-reporting.png)
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Captura de tela das tarefas publicadas." lightbox="media/manage-tasks-app-reporting.png":::
 
 Os usuários criam, gerenciam e publicam listas de tarefas na guia **Listas publicadas** do aplicativo Tasks. Essa guia só é exibida para um usuário se sua organização[configurar uma hierarquia de segmentação de equipe](#set-up-your-team-targeting-hierarchy) e o usuário estiver em uma equipe incluída na hierarquia. A hierarquia determina se o usuário pode publicar ou receber listas de tarefas e visualizar relatórios de listas recebidas.
 

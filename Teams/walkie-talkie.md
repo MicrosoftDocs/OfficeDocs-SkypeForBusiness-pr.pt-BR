@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015011"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186967"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie no Microsoft Teams
 
@@ -35,23 +35,25 @@ Com o Walkie Talkie no Teams, os trabalhadores da linha de frente agora podem se
 
 ### <a name="deploying-walkie-talkie"></a>Implantando Walkie Talkie
 
-O Walkie Talkie tem suporte em dispositivos Android com o Google Serviços Móveis (GMS) e dispositivos iOS. 
+O Walkie Talkie tem suporte em dispositivos Android com o Google Serviços Móveis (GMS) e dispositivos iOS.
 
-Atualmente, o Walkie Talkie não está pré-instalado. Para habilitar esse recurso para usuários em sua organização, você precisa adicionar o Walkie Talkie à Política de Configuração do  [Aplicativo](teams-app-setup-policies.md)  atribuída aos usuários do [Centro de Administração do Teams.](https://admin.teams.microsoft.com/) Depois de habilitado, o Walkie Talkie ficará disponível no aplicativo dentro de 48 horas.
+### <a name="pin-walkie-talkie-to-teams"></a>Fixar Walkie Talkie Teams
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>Adicionando o Walkie Talkie à sua lista de aplicativos
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>Use a experiência de aplicativo de linha de frente personalizada para fixar o Walkie Talkie e outros aplicativos Teams
 
-No centro Microsoft Teams de administração, em Teams **políticas** **appSetup** > , você deve ter Permitir fixação **de** usuário definida como **Ativado**. Em seguida, na seção Aplicativos Fixados, clique **em +Adicionar Aplicativos**.
+A experiência de aplicativo de linha de frente personalizada Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Walkie Talkie, Shifts, Tasks e Aprovações. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Mostra a seção Aplicativos Fixados e o botão Adicionar Aplicativos a serem selecionados.":::
+Os aplicativos são fixados na barra de aplicativos , a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
 
-No painel **Adicionar aplicativos** fixados que aparece à direita, use a  caixa de texto Pesquisar para procurar o Walkie Talkie. Quando você o tiver como resultado da pesquisa, selecione o  botão Adicionar à direita do nome para adicioná-lo à sua lista.
+Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, consulte [Personalizar Teams aplicativos para seus trabalhadores de linha de frente](pin-teams-apps-based-on-license.md).
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Mostra a barra lateral Adicionar aplicativos fixados com Walkie inserido no painel de pesquisa e o aplicativo Walkie Talkie nos resultados da pesquisa, com o botão Adicionar ao lado dele.":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>Usar uma política de configuração de aplicativo para fixar o Walkie Talkie Teams
 
-O aplicativo Walkie Talkie agora deve aparecer na lista aplicativos fixados e estar disponível para uso depois que você clicar no **botão** Salvar.
+As políticas de configuração de aplicativo permitem Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Mostra a lista de aplicativos fixados com o aplicativo Walkie Talkie adicionado e o botão Salvar abaixo da lista.":::
+Para fixar o aplicativo Walkie Talkie para seus usuários, você pode editar a política global (padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Captura de tela mostrando a adição do Walkie Talkie à lista de aplicativos fixados no painel Adicionar aplicativos fixados." lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>Documentação da rede
 

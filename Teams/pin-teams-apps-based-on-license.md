@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059302"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187117"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personalizar aplicativos do Teams para seus funcionários de linha de frente
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059302"
 
 ## <a name="overview"></a>Visão Geral
 
-Teams fornece uma maneira fácil de fixar aplicativos para trabalhadores de linha de frente. Esse recurso fixa aplicativos com base na licença para dar aos funcionários da linha de frente uma experiência integrada no Teams que é adaptado às suas necessidades.
+Teams fixa aplicativos com base na licença para dar aos funcionários da linha de frente uma experiência integrada no Teams que é adaptado às suas necessidades. 
 
 Com a experiência de aplicativo de linha de frente personalizada, os funcionários da linha de frente obtêm os aplicativos mais relevantes Teams sem nenhuma ação necessária do administrador.
 

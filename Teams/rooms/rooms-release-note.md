@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão Salas do Microsoft Teams, que listam melhorias cumulativas Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff29da1f78c39163dbb8262e1a94687dad6c4aac
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125706"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187017"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -230,7 +230,7 @@ Introduzido nesta atualização:
 
 - Compartilhar áudio HDMI para participantes da reunião Teams reunião
 - Cortana de voz (versão prévia)
-- Impedir o deslocamento com base em permissões de áudio quando Teams room ingressa como participante. Para obter mais informações, consulte [Gerenciar permissões de áudio do participante em Teams Reuniões](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Impedir o deslocamento com base em permissões de áudio quando Salas do Teams ingressado como participante. Para obter mais informações, consulte [Gerenciar permissões de áudio do participante em Teams Reuniões](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Destacar o vídeo de alguém do console Teams Room e consumir vídeo em destaque nas telas da sala
 
 > [!NOTE]

@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137002"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186997"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -71,9 +71,19 @@ O Turnos é habilitado por padrão para todos os usuários do Teams em sua organ
 
 Para permitir ou impedir que usuários específicos em sua organização usem Turnos, verifique se o Turnos está ativado para sua organização na página Gerenciar [aplicativos](../../manage-apps.md) . Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Usar uma política de configuração de aplicativo para fixar Turnos Teams
+### <a name="pin-shifts-to-teams"></a>Fixar turnos em Teams
 
-As políticas de configuração de aplicativos permitem que você personalize o Teams para destacar os aplicativos que são mais importantes para os usuários em sua organização. Os aplicativos definidos em uma política são fixados na barra do aplicativo&mdash;na barra na lateral do cliente de área de trabalho do Teams e na parte inferior dos clientes móveis do Teams&mdash;onde os usuários podem acessá-los de forma rápida e fácil.
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>Use a experiência de aplicativo de linha de frente personalizada para fixar Turnos e outros aplicativos Teams
+
+A experiência de aplicativo de linha de frente personalizada Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Shifts, Walkie Talkie, Tasks e Aprovações. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
+
+Os aplicativos são fixados na barra de aplicativos , a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
+
+Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, consulte [Personalizar Teams aplicativos para seus trabalhadores de linha de frente](../../pin-teams-apps-based-on-license.md).  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Usar uma política de configuração de aplicativo para fixar Turnos Teams
+
+As políticas de configuração de aplicativo permitem Teams para fixar os aplicativos mais importantes para seus usuários.
 
 Você pode criar uma [política de configuração de](../../teams-app-setup-policies.md) aplicativo personalizada adicionando o aplicativo Shifts e, em seguida, [atribuir a política](../../assign-policies-users-and-groups.md) aos usuários. Ou você pode usar a política de configuração de aplicativo que faz parte dos pacotes de política do Frontline Worker e do Gerenciador de Linha de Frente.
 

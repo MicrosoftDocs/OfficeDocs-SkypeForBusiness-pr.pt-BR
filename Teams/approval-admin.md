@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137122"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186977"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -122,15 +122,29 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
      :::image type="content" alt-text="mostra os detalhes do Aprovações aplicativo." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>Políticas de aplicativo
+## <a name="pin-approvals-to-teams"></a>Fixar Aprovações à Teams
 
-### <a name="retention-policy"></a>Política de retenção
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>Use a experiência de aplicativo de linha de frente personalizada para fixar Aprovações e outros aplicativos Teams
+
+A experiência de aplicativo de linha de frente personalizada Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Aprovações, Walkie Talkie, Tasks e Shifts. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
+
+Os aplicativos são fixados na barra de aplicativos , a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
+
+Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, consulte [Personalizar Teams aplicativos para seus trabalhadores de linha de frente](pin-teams-apps-based-on-license.md).
+
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>Usar uma política de configuração de aplicativo para fixar Aprovações no Teams
+
+As políticas de configuração de aplicativo permitem Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
+
+Para fixar o Aprovações para seus usuários, você pode editar a política global (padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
+
+## <a name="retention-policy"></a>Política de retenção
 
 Aprovações criados a partir do Aprovações aplicativo são armazenados no ambiente padrão do Microsoft Dataverse, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Os dados armazenados no Forms não serão excluídos até que os proprietários da equipe os  limpem na guia formulários excluídos no Microsoft Forms Web.
 
-### <a name="conditional-access-policies"></a>Políticas de acesso condicional
+## <a name="conditional-access-policies"></a>Políticas de acesso condicional
 
 Atualmente, o aplicativo Aprovações no Teams não dá suporte a políticas de Acesso Condicional definidas para Microsoft Teams.
 
