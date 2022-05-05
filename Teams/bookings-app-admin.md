@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como gerenciar o aplicativo Bookings no Teams para usuários em sua organização.
-ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853062"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217925"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gerenciar o Bookings aplicativo no Microsoft Teams
 
@@ -41,7 +41,7 @@ Os agendadores podem gerenciar vários calendários de departamentos e funcioná
 
 * A Exchange de correio está em Exchange Online. Não há suporte Exchange Server caixas de correio locais.
 * Microsoft Bookings está disponível para a organização.
-* Os usuários têm uma licença apropriada. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 e Business Standard têm suporte.
+* Os usuários têm uma licença apropriada. Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 e Business Standard têm suporte.
 * Todos os usuários do aplicativo Bookings e toda a equipe que participa das reuniões têm uma licença que dá suporte Teams agendamento de reunião.
 * [Pré-requisitos de software e navegador](hardware-requirements-for-the-teams-app.md).
 

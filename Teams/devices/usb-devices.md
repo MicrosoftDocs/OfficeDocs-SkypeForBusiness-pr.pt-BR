@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para Microsoft Teams.
-ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059212"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217915"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para Microsoft Teams
 
@@ -74,13 +74,16 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em abril de 2022*
+*Tabela atualizada em maio de 2022*
 
 > [!NOTE]
 > O formato de data é MMDDYYYY.
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |Fone de ouvido UH38                                               |5/2/2022        |Certificado para Microsoft Teams                           |   
+|Yealink              |BH72 Headset                                               |5/2/2022        |Certificado para Microsoft Teams                           |
+|Logitech             |Zone True Wireless Earbuds                                 |5/2/2022        |Certificado para Microsoft Teams                           |
 |Lenovo               |Go Wireless ANC Headset                                    |4/11/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Certificado para Microsoft Teams                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Certificado para Microsoft Teams                           |
