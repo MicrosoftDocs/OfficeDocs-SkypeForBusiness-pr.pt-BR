@@ -1,5 +1,5 @@
 ---
-title: Criar um atendimento automático por meio de cmdlets
+title: Criar um atendedor automático por meio de cmdlets
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,42 +21,42 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Saiba como configurar os atendimentos automáticos por meio de cmdlets
-ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+description: Saiba como configurar atendedores automáticos por meio de cmdlets
+ms.openlocfilehash: 8161071a277f7f98633d5e2f5b80a069c1908215
+ms.sourcegitcommit: c06d806778f3e6ea4b184bae271e55c34fd9594d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457461"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65244918"
 ---
-# <a name="create-an-auto-attendant-via-cmdlets"></a>Criar um atendimento automático por meio de cmdlets
+# <a name="create-an-auto-attendant-via-cmdlets"></a>Criar um atendedor automático por meio de cmdlets
 
 ## <a name="assumptions"></a>Suposições
-1)  O PowerShell está instalado em seu computador
-- Configurar seu computador para [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-- Módulo MSTeams Instalado ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
+1)  O PowerShell está instalado no computador
+- Configure seu computador para [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- Módulo MSTeams instalado ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - Módulo MSOnline instalado ```` Install-Module -Name MSOnline -Force -AllowClobber ````
-2)  Você tem direitos de administração de locatários
-3)  Você comprou Microsoft Teams Telefone
-4)  As filas de chamada mencionadas abaixo já foram configuradas após o guia [Criando Filas de Chamada com cmdlets do PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
+2)  Você tem direitos de administração de locatário
+3)  Você comprou Telefonia do Microsoft Teams
+4)  As filas de chamadas mencionadas abaixo já foram configuradas seguindo o guia Criando [Filas de Chamadas com cmdlets do PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
                                                                                                
-Observação: alguns dos cmdlets referenciados abaixo podem fazer parte da versão de Visualização Pública do módulo Teams PowerShell.  Para obter mais informações, [consulte Install Teams public preview do PowerShell](teams-powershell-install.md) e consulte [Microsoft Teams Notas de versão do PowerShell](teams-powershell-release-notes.md).
+Observação: alguns dos cmdlets referenciados abaixo podem fazer parte da versão de Visualização Pública do Teams PowerShell.  Para obter mais informações, [consulte Instalar Teams visualização pública do PowerShell](teams-powershell-install.md) e também consulte [Microsoft Teams notas de versão do PowerShell](teams-powershell-release-notes.md).
 
-Os usuários que já têm o módulo MicrosoftTeams ````Update-Module MicrosoftTeams```` instalado devem garantir que a versão mais atualizada seja instalada.
+Os usuários que já têm o módulo MicrosoftTeams ````Update-Module MicrosoftTeams```` instalado devem garantir que a versão mais atualizada esteja instalada.
 
 ## <a name="scenario"></a>Cenário
 
-O seguinte fluxo de chamada de atendimento automático será criado:
+O seguinte fluxo de chamada do atendedor automático será criado:
 
-![Diagrama do fluxo de chamada atenuante automático que está sendo criado com cmdlets.](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
+![Diagrama do fluxo de chamadas de Atenuação Automática que está sendo criado com cmdlets.](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
-Informações adicionais de configuração:
+Informações de configuração adicionais:
 
 - Atendedor Automático: Contso Main
 - - Operador: Adele Vance
-- - Habilitar entradas de voz: off
+- - Habilitar entradas de voz: desativado
 - - Pesquisa de Diretório: Nenhuma
-- - Feriados:
+- - Férias:
 - - - 1º de janeiro de 2022
 - - - 24 de dezembro de 2022
 - - - 25 de dezembro de 2022
@@ -64,15 +64,15 @@ Informações adicionais de configuração:
 - Atendedor Automático: Contoso Dial By Name
 - - Operador: Adele Vance
 - - Fuso horário: UTC
-- - Idioma: Inglês DOS EUA
+- - Idioma: Inglês dos EUA
 - - Habilitar entradas de voz: ativado
 - - Saudação: Nenhum
-- - Menu: TTS, "Por favor, diga ou insira o nome da pessoa que você gostaria de alcançar. Para retornar ao menu anterior pressione 9"
+- - Menu: TTS, "Por favor, diga ou insira o nome da pessoa que você deseja acessar. Para retornar ao menu anterior, pressione 9"
 - - Pesquisa de Diretório: Discar por Nome
 - - Escopo de discagem: membros & suporte de vendas
 
 ## <a name="login"></a>Login
-Você será solicitado a inserir suas credenciais Teams administrador.
+Você será solicitado a inserir suas credenciais de Teams administrador.
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -81,13 +81,13 @@ Connect-MsolService -Credential $credential
 
 ## <a name="get-operator-information"></a>Obter informações do operador
 ````
-$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
+$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
 
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
 
-## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>Discar por nome Atendedor Automático - Criação de conta de recurso
-Observação: Criar conta de recurso aqui para que ela possa ser referenciada no principal atendimento automático.  O atendimento automático dial by name real será criado posteriormente.
+## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>Atendedor Automático de Discagem por Nome – Criação da Conta de Recurso
+Observação: criando uma conta de recurso aqui para que ela possa ser referenciada no atendedor automático principal.  O atendedor automático dial by name real será criado posteriormente.
 
 ### <a name="get-license-types"></a>Obter tipos de licença
 ````
@@ -95,10 +95,10 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Criar e atribuir Conta de Recurso
-Observação: Telefone número não obrigatório aqui, pois a fila de chamada está na frente terminada por um Atendedor Automático
-- ApplicationID
+Observação: Telefone número não necessário aqui, pois a fila de chamadas é encerrada com frente por um Atendedor Automático
+- Applicationid
 - - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
-- - Fila de Chamada: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Fila de Chamadas: 11cd3e2e-fcb-42ad-ad00-878b93575e07
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoDialByNameAA-RA@contoso.com -DisplayName "Contoso Dial By Name AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
@@ -109,8 +109,8 @@ Set-MsolUserLicense -UserPrincipalName “ContosoDialByNameAA-RA@contoso.com” 
 $dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@contoso.com").ObjectID
 ````
 
-## <a name="contoso-main-menu-auto-attendant"></a>Menu Principal contoso Atendedor Automático
-### <a name="create-holiday-schedules"></a>Criar agendamentos de feriados
+## <a name="contoso-main-menu-auto-attendant"></a>Atendedor Automático do Menu Principal da Contoso
+### <a name="create-holiday-schedules"></a>Criar Agendas de Feriados
 ````
 $dtr = New-CsOnlineDateTimeRange -Start "24/12/2022" -End "25/12/2022"
 
@@ -121,7 +121,7 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ````
 
-### <a name="create-address-fax-and-email-information-prompt"></a>Create Address, FAX, and Email Information Prompt
+### <a name="create-address-fax-and-email-information-prompt"></a>Criar endereço, FAX e prompt de informações de email
 ````
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"
 ````
@@ -149,7 +149,7 @@ $newyearCallFlow = New-CsAutoAttendantCallFlow -Name "New Year" -Greetings @($ne
 $newyearCallHandlingAssociation = New-CsAutoAttendantCallHandlingAssociation -Type Holiday -ScheduleId $newyearSchedule.Id -CallFlowId $newyearCallFlow.Id
 ````
 
-### <a name="create-after-hours-schedules"></a>Criar agendamentos após o horário
+### <a name="create-after-hours-schedules"></a>Criar agendamentos após o horário comercial
 ````
 $timerangeMoFr = New-CsOnlineTimeRange -Start 08:30 -end 17:00
 
@@ -158,7 +158,7 @@ $timerangeSa = New-CsOnlineTimeRange -Start 10:00 -end 16:00
 $afterHoursSchedule = New-CsOnlineSchedule -Name "After Hours Schedule" -WeeklyRecurrentSchedule -MondayHours @($timerangeMoFr) -TuesdayHours @($timerangeMoFr) -WednesdayHours @($timerangeMoFr) -ThursdayHours @($timerangeMoFr) -FridayHours @($timerangeMoFr) -SaturdayHours @($timerangeSa) -Complement
 ````
 
-### <a name="create-after-hours-prompts-and-menu-options"></a>Criar prompts e opções de menu após o horário
+### <a name="create-after-hours-prompts-and-menu-options"></a>Criar prompts após o horário comercial e opções de menu
 ````
 $afterHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices are now closed. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time."
 
@@ -176,7 +176,7 @@ $afterHoursMenuOption2Entity = New-CsAutoAttendantCallableEntity -Identity $afte
 
 $afterHoursMenuOption2 = New-CsAutoAttendantMenuOption -Action TransferCallToTarget -DtmfResponse Tone2 -CallTarget $afterHoursMenuOption2Entity
 
-$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).ObjectID
+$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).Identity
 
 $dialbynameAAMenuOption3Entity = New-CsAutoAttendantCallableEntity -Identity $dialbynameAAOption3Target -Type applicationendpoint
 
@@ -185,7 +185,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ````
 
-### <a name="create-after-hours-menu-and-call-flow"></a>Criar Menu Após Horas e Chamar Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>Menu Criar Horas Extras e Chamar Flow
 ````
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
 
@@ -217,7 +217,7 @@ $openHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -Dtmf
 $openHoursMenuOption0 = New-CsAutoAttendantMenuOption -Action TransferCallToOperator -DtmfResponse Tone0
 ````
 
-### <a name="create-open-hours-menu"></a>Criar Menu De Horas Abertas
+### <a name="create-open-hours-menu"></a>Menu Criar Horas Abertas
 ````
 $openHoursMenu = New-CsAutoAttendantMenu -Name "Open Hours Menu" -MenuOptions @($openHoursMenuOption1, $openHoursMenuOption2, $dialbynameAAMenuOption3, $openHoursMenuOption4, $openHoursMenuOption0) -Prompt $openHoursMenuPrompt
 
@@ -235,9 +235,9 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Criar e atribuir Conta de Recurso
-- ApplicationID
+- Applicationid
 - - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
-- - Fila de Chamada: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- - Fila de Chamadas: 11cd3e2e-fcb-42ad-ad00-878b93575e07
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName ContosoMainAA-RA@contoso.com -DisplayName "Contoso Main AA" -ApplicationID "ce933385-9390-45d1-9512-c8d228074e07"
 
@@ -245,7 +245,7 @@ Set-MsolUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “ContosoMainAA-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $autoAttendantID = (Get-CsAutoAttendant -NameFilter "Contoso Main").Identity
 
@@ -258,14 +258,14 @@ Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
 ````
 
 #### <a name="assign-available-phone-number"></a>Atribuir número de telefone disponível
-Observação: o local de uso atribuído ao número de telefone deve corresponder ao local de uso atribuído à Conta de Recursos.
+Observação: o local de uso atribuído ao número de telefone deve corresponder ao local de uso atribuído à Conta de Recurso.
 
 ````
 Set-CsPhoneNumberAssignment -Identity ContosoMainAA-RA@contoso.com -PhoneNumber +{spare number from output of above command} -PhoneNumberType CallingPlan
 ````
 
-## <a name="dial-by-name-auto-attendant---completion"></a>Discar por nome Atendedor Automático - Conclusão
-### <a name="create-dial-scope"></a>Criar escopo de discagem
+## <a name="dial-by-name-auto-attendant---completion"></a>Atendedor Automático de Discagem por Nome – Conclusão
+### <a name="create-dial-scope"></a>Criar Escopo de Discagem
 ````
 $salesGroupID = Find-CsGroup -SearchQuery "Sales" | % { $_.Id }
 
@@ -278,7 +278,7 @@ $dialScope = New-CsAutoAttendantDialScope -GroupScope -GroupIds @($salesGroupID,
 ````
 $dialByNameMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Please say or enter the name of the person you would like to reach. To return to the previous menu press 9”
 
-$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $dialByNameMenuOption9Entity = New-CsAutoAttendantCallableEntity -Identity $dialByNameMenuOption9Target -Type applicationendpoint
 
@@ -293,7 +293,7 @@ $dialByNameCallFlow = New-CsAutoAttendantCallFlow -Name "Contoso Dial By Name Ca
 $dialByNameAutoAttendant = New-CsAutoAttendant -Name “Contoso Dial By Name” -DefaultCallFlow $dialByNameCallFlow -LanguageId “en-US” -TimeZoneId “UTC” -Operator $operatorEntity -EnableVoiceResponse -InclusionScope $dialScope
 ````
 
-### <a name="assign-resource-account"></a>Atribuir conta de recurso
+### <a name="assign-resource-account"></a>Atribuir Conta de Recurso
 ````
 New-CsOnlineApplicationInstanceAssociation -Identities @($dialByNameApplicationInstanceID) -ConfigurationID $dialByNameAutoAttendant.Id -ConfigurationType AutoAttendant
 ````

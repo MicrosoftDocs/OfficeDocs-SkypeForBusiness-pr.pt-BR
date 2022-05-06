@@ -331,8 +331,6 @@ items:
         href: using-admin-roles.md
       - name: Gerenciar equipes no Centro de administração do Teams
         href: manage-teams-in-modern-portal.md
-      - name: Gerenciar configurações do Teams para sua organização
-        href: enable-features-office-365.md
       - name: Gerenciar políticas
         items:
           - name: Visão geral
@@ -349,6 +347,8 @@ items:
             href: manage-policy-packages.md
       - name: Trabalhar com pessoas fora da organização
         items:
+          - name: Compartilhamento seguro de arquivos e colaboração com o Teams
+            href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
           - name: Comunicar-se com usuários em outras organizações
             href: communicate-with-users-from-other-organizations.md
           - name: Acesso externo (federação)
