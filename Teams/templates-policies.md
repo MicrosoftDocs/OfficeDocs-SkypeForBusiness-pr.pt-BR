@@ -18,83 +18,81 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar modelos de equipe no centro de administração
-ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401175"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65248933"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gerenciar modelos de equipe no centro de administração
 
-Gerencie os modelos de equipe que os usuários finais veem criando políticas de modelos no centro de administração. Em cada política de modelo, você pode designar quais modelos são mostrados ou ocultos.
-Atribua usuários diferentes a políticas de modelo diferentes para que seus usuários visualizam apenas o subconjunto de modelos de equipe especificados.
+Gerencie os modelos de equipe que os usuários finais veem criando políticas de modelos no centro de administração. Em cada política de modelos, você pode designar quais modelos são mostrados ou ocultos.
+Atribua usuários diferentes a diferentes políticas de modelos para que os usuários exibam apenas o subconjunto de modelos de equipe especificado.
 
-Assista a este breve vídeo para saber como gerenciar políticas de modelo.
+Assista a este breve vídeo para saber como gerenciar políticas de modelos.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
-## <a name="create-template-policies-and-assign-available-templates"></a>Criar políticas de modelo e atribuir modelos disponíveis
+## <a name="create-templates-policies-and-assign-available-templates"></a>Criar políticas de modelos e atribuir modelos disponíveis
 
 1. Entre no Centro de administração do Teams.
 
-2. **Expanda Teams** >  **políticasTemplates**.
+2. Vá para **Teams** >  **de dados**.
 
-3. Selecione **Adicionar**.
+3. Escolha **Adicionar**.
 
-    ![As políticas de modelo são selecionadas e Add é realçada.](media/template-policies-1.png)
+    ![As políticas de modelos são selecionadas e Adicionar está realçado.](media/template-policies-1.png)
 
-1. Na seção **Políticas de Modelos Configurações**, preencha os seguintes campos:
+1. Dê um nome à política e adicione uma breve descrição.
 
-    - Nome da Política de Modelos
+2. Na lista **modelos exibiveis** , selecione os modelos que você deseja ocultar e, em seguida, selecione **Ocultar**.
 
-    - Descrição curta da Política de Modelos
+    ![Os modelos selecionados com ocultar realçado.](media/template-policies-2.png)
 
-2. Na tabela **Modelos Exibiveis** , selecione os modelos que você deseja ocultar e selecione **Ocultar**.
+    Você pode ver os modelos que escolheu ocultar na lista **de modelos ocultos** .
 
-    ![Os modelos selecionados com ocultação realçada.](media/template-policies-2.png)
+1. Para reexibir determinados modelos, vá para **a lista de modelos ocultos** .
 
-    Você pode ver os modelos selecionados para ocultar na tabela **Modelos Ocultos** .
-
-1. Para desaconsule determinados modelos, role até **a tabela Modelos ocultos** .
-
-2. Selecione os modelos a ser desaconsudidados e selecione **Mostrar**.
+2. Selecione os modelos a serem reexibidos e, em seguida, selecione **Mostrar**.
 
    ![Os modelos selecionados que não estão ocultos.](media/template-policies-3.png)
 
-   Os modelos selecionados serão exibidos na tabela **Modelos Exibiveis** .
-3. Selecione **Salvar**.
+   Os modelos selecionados aparecerão na lista **de modelos exibiveis** .
+3. Escolha **Salvar**.
 
-   Sua nova política de modelo é exibida na lista **Políticas de** Modelos.
+   Sua nova política de modelos é exibida na lista **de políticas de** modelos.
 
-## <a name="assign-users-to-the-template-policies"></a>Atribuir usuários às políticas de modelo
+## <a name="assign-templates-policies-to-users"></a>Atribuir políticas de modelos aos usuários
 
-Os usuários atribuídos a uma política só poderão exibir os modelos que podem ser visualizados nessa política.
-
-1. Em **Políticas de Modelos**, selecione uma política e selecione **Gerenciar usuários**.
-
-2. Digite os usuários a atribuir a essa política.
-
-   ![atribuir usuários a uma política de modelo.](media/template-policies-4.png)
-
-3. Selecione **Aplicar**.
+Você pode atribuir uma política de modelos diretamente aos usuários, individualmente ou em escala por meio de uma atribuição em lote. Tenha em mente que pode levar até 24 horas para que sua nova política entre em vigor para seus usuários.
 
 > [!Note]
-> Pode levar até 24 horas para que sua nova política entre em vigor para os usuários finais.
+> Atualmente, não há suporte para a atribuição de políticas de modelos a usuários com base na associação de grupo, como a todos os usuários em um grupo de segurança. Essa funcionalidade estará disponível no futuro.
 
-## <a name="size-limits-for-template-policies"></a>Limites de tamanho para políticas de modelo
+Para obter uma visão geral das maneiras de atribuir políticas no Teams, consulte [Atribuir políticas em Teams](policy-assignment-overview.md).
 
-Você pode ocultar um máximo de 100 modelos por política. O **botão Ocultar** será desabilitado se a política determinada já tiver 100 modelos ocultos.
+### <a name="assign-a-templates-policy-to-individual-users"></a>Atribuir uma política de modelos a usuários individuais
+
+Você pode usar o Teams de administração ou o PowerShell para atribuir uma política de modelos a um usuário individual ou a um pequeno número de usuários por vez. Para saber mais, confira [Atribuir uma política a usuários individuais](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
+
+### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>Atribuir uma política de modelos a um lote de usuários
+
+Você pode usar o PowerShell para atribuir uma política de modelos a grandes conjuntos de usuários por vez. Para fazer isso, use o cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) junto com o TeamsTemplatePermissionPolicy ```PolicyType``` como o envio de um lote de usuários e a política de modelos que você deseja atribuir. Por exemplo:
+
+```powershell
+New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -PolicyType TeamsTemplatePermissionPolicy -PolicyName <policy name> -Identity <users identity | list of user identities>
+```
+
+As atribuições são processadas como uma operação de plano de fundo e uma ID de operação é gerada para cada lote. Em seguida, você pode usar o cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) para acompanhar o progresso e o status das atribuições em um lote.
+
+Para saber mais, confira [Atribuir uma política a um lote de usuários usando o PowerShell](assign-policies-users-and-groups.md#use-powershell-method).
+
+## <a name="size-limits-for-templates-policies"></a>Limites de tamanho para políticas de modelos
+
+Você pode ocultar um máximo de 100 modelos por política. O **botão** Ocultar será desabilitado se a política fornecida já tiver 100 modelos ocultos.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
-
-**P: Posso atribuir usuários em lote a políticas de modelos de equipe?**
-  
-R: Sim, suportamos a atribuição em lote para a política de modelo no PowerShell. O tipo de política dessa ação é TeamsTemplatePermissionPolicy. [Saber mais](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
-
-**P: Os grupos podem ser atribuídos às políticas de modelos de equipe?**
-
-R: Atualmente não. Essa funcionalidade estará disponível no futuro.
 
 **P: Se um novo modelo for criado, o modelo será incluído em minhas políticas?**
 
@@ -102,45 +100,46 @@ R: Todos os novos modelos estarão visíveis por padrão. Você pode optar por o
 
 **P: O que acontece se um modelo for excluído?**
 
-R: Quaisquer modelos excluídos não estarão mais presentes em nenhuma política de modelos.
+R: Todos os modelos excluídos não estarão mais presentes em nenhuma política de modelos.
 
-**P: Posso atribuir vários usuários a uma política de modelo no Teams Admin Center?**
+**P: Posso atribuir vários usuários a uma política de modelos no Teams de administração?**
 
 R: Sim.
 
-1. No Centro de administração, vá para **Usuários**.
-1. Na tabela de lista Usuários, selecione os usuários que você deseja atribuir a uma determinada política de modelos.
-1. Selecione Editar configurações e altere o campo Políticas de modelos.
-1. Selecione aplicar. [Saiba mais](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
+1. No centro Teams administrador, vá para **usuários** **usersManage** > .
+1. Na lista de usuários, selecione os usuários que você deseja atribuir à política de modelos.
+1. Selecione **Editar configurações** e, em seguida, em **Política de** Modelos, escolha a política que você deseja atribuir.
+1. Escolha **Aplicar**.
 
-**P: Como vejo todos os usuários atribuídos a uma política específica?**
+Para saber mais, confira [Atribuir uma política a usuários individuais](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
 
-R: No Centro de administração:
+**P: Como fazer exibir todos os usuários atribuídos a uma política específica?**
 
-1. Vá para a **seção Usuários** .
-2. Selecione o filtro na tabela de lista Usuários e filtre a política de modelo de equipe.
-3. Selecione **Aplicar**.
+R: No Teams de administração:
 
-![A política de modelo selecionada e exibir usuários.](media/template-policies-5.png)
+1. Acesse **Usuários** **do UsersManage** > .
+2. Selecione **Filtrar**, defina um filtro para a política de modelos e, em seguida, **escolha Aplicar**.
+
+    ![A política de modelos selecionados e a exibição de usuários.](media/template-policies-5.png)
 
 **P: Posso gerenciar políticas de modelos por meio do PowerShell?**
 
-R: Não há suporte para gerenciar modelos no PowerShell.
+R: Não há suporte para o gerenciamento de políticas de modelos no PowerShell. No entanto, você pode usar o PowerShell para [atribuir políticas de modelos](#assign-templates-policies-to-users) aos usuários.
 
 **P: As políticas de modelos são aplicáveis ao EDU?**
 
-R: Não, não há suporte para políticas de modelo para EDU.
+R: Não, não há suporte para políticas de modelos para EDU.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
-- [Começar a usar modelos de equipe no centro de administração](./get-started-with-teams-templates-in-the-admin-console.md)
+- [Introdução com modelos de equipe no centro de administração](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [Criar um modelo de equipe personalizado](./create-a-team-template.md)
 
 - [Criar um modelo de uma equipe existente](./create-template-from-existing-team.md)
 
-- [Criar um modelo de equipe a partir de um modelo de equipe existente](./create-template-from-existing-template.md)
+- [Criar um modelo de equipe com base em um modelo de equipe existente](./create-template-from-existing-template.md)
 
-- [Atribuir políticas aos usuários em Microsoft Teams - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
+- [Atribuir políticas aos usuários no Microsoft Teams – Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
-- [Atribuir em lotes usuários a uma política](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
