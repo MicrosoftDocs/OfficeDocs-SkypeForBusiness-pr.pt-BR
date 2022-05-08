@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388180"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65249003"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Use criptografia de ponta a ponta para chamadas um-para-um do Microsoft Teams
 
@@ -79,13 +79,13 @@ A política padrão global, em toda a organização, especifica que a criptograf
 
 1. Usando uma conta corporativa ou de estudante que recebeu a função de administrador global ou do Teams, entre no [Centro de administração do Teams](https://admin.teams.microsoft.com/).
 
-2. Vá para **Outras configurações** > **políticas de criptografia aprimoradas**.
+2. Vá para **Políticas de criptografia aprimoradas**.
 
 3. Escolha a política padrão ou escolha **Adicionar** para adicionar uma nova política e nomeie a nova política.
 
-4. Para habilitar a criptografia de ponta a ponta para seus usuários, para **criptografia de chamada de ponta a ponta**, escolha **usuários podem ativá-la** e, em seguida, escolha **Salvar**.
+4. Para habilitar a criptografia de ponta a ponta para seus usuários, para **Criptografia de chamada de ponta a ponta**, escolha **Substituir usuário desabilitado** e, em seguida, escolha **Salvar**.
 
-   Para desabilitar a criptografia de ponta a ponta, escolha **Desativá-la para todos**.
+   Para desabilitar a criptografia de ponta a ponta, escolha **Desabilitado**.
 
 Depois de concluir a configuração da política, atribua a política a usuários, grupos ou todo o locatário da mesma maneira que gerencia outras políticas do Teams. Para obter informações sobre como usar políticas no Teams, consulte [Gerenciar o Teams com políticas](manage-teams-with-policies.md).
 
