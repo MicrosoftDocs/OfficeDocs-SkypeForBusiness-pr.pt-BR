@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bcb26d86e9b95ee629c252ea7cec25fc5f3eaf4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
+ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64884999"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "65284066"
 ---
 # <a name="configure-operator-connect"></a>Configurar Conexão do operador
 
@@ -104,52 +104,51 @@ Para mover números do Roteamento Direto para o Conexão do operador, o número 
 
 #### <a name="step-1---remove-existing-direct-routing-numbers"></a>Etapa 1 – Remover números de Roteamento Direto existentes.
 
-A maneira como você remove os números de Roteamento Direto existentes depende se o número é atribuído localmente ou online. Para verificar, execute o seguinte comando:
+A maneira como você remove os números de Roteamento Direto existentes depende se o número é atribuído localmente ou online. Para verificar, execute o seguinte comando Teams módulo do PowerShell:
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-Se `OnPremLineUriManuallySet` estiver definido como `False` e `LineUri` for preenchido com um número de telefone E.164, o número de telefone foi atribuído localmente e sincronizado com Office 365.
+Se `OnPremLineUri` for preenchido com um número de telefone E.164, o número de telefone foi atribuído localmente e sincronizado com Office 365.
     
-**Para remover números de Roteamento Direto atribuídos localmente,** execute o seguinte comando:
+**Para remover os números de Roteamento Direto atribuídos localmente,** execute o seguinte Skype for Business Server comando do PowerShell:
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-O tempo necessário para que a remoção entre em vigor depende da sua configuração. Para verificar se o número local foi removido e se as alterações foram sincronizadas, execute o seguinte comando do PowerShell: 
+O tempo necessário para que a remoção entre em vigor depende da sua configuração. Para verificar se o número local foi removido e se as alterações foram sincronizadas, execute o seguinte comando Teams Módulo do PowerShell: 
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
 Depois que as alterações forem sincronizadas com Office 365 diretório online, a saída esperada será: 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
- OnPremLineURIManuallySet             : True
- OnPremLineURI                        : 
+OnPremLineURI                        : 
 LineURI                              : 
 ```
 
-<br> **Para remover os números de Roteamento Direto online existentes atribuídos online,** execute o seguinte comando do PowerShell:
+<br> **Para remover os números de Roteamento Direto online existentes atribuídos online,** execute o seguinte comando Teams módulo do PowerShell:
 
 
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-A remoção do número de telefone pode levar até 10 minutos. Em casos raros, pode levar até 24 horas. Para verificar se o número local foi removido e se as alterações foram sincronizadas, execute o seguinte comando do PowerShell: 
+A remoção do número de telefone pode levar até 10 minutos. Em casos raros, pode levar até 24 horas. Para verificar se o número de telefone foi removido, execute o seguinte comando Teams módulo do PowerShell: 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl Number
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### <a name="step-2---remove-the-online-voice-routing-policy-associated-with-your-user"></a>Etapa 2 – Remover a política de roteamento de voz online associada ao seu usuário
 
-Depois que o número não for atribuído, remova a política de roteamento de voz online associada ao usuário executando o seguinte comando do PowerShell:
+Depois que o número não for atribuído, remova a política de roteamento de voz online associada ao usuário executando o seguinte comando Teams módulo do PowerShell:
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
