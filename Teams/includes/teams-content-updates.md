@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-may-02-2022"></a>Semana de 02 de maio de 2022
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 5/2/2022 | [Microsoft Teams de uso de PSTN](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
+| 5/3/2022 | [Disponibilidade do aplicativo Aprovações no Teams](/MicrosoftTeams/approval-admin) | modificado |
+| 5/3/2022 | [Configuração de administrador de Pais no Teams para Educação](/MicrosoftTeams/edu-parents-app) | modificado |
+| 5/3/2022 | [Gerenciar o aplicativo Turnos para sua organização](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modificado |
+| 5/3/2022 | [Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams](/MicrosoftTeams/manage-tasks-app) | modificado |
+| 5/3/2022 | [Aplicativo Walkie Talkie no Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
+| 5/4/2022 | Gerenciar as configurações da sua organização | removido |
+| 5/4/2022 | [Microsoft Teams de uso do aplicativo](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | modificado |
+| 5/4/2022 | [Check-in e liberação de sala Microsoft Teams painéis](/MicrosoftTeams/devices/check-in-and-room-release) | modificado |
+| 5/4/2022 | [Gerenciar seus dispositivos no Microsoft Teams](/MicrosoftTeams/devices/device-management) | modificado |
+| 5/5/2022 | [Criar uma fila de chamadas por meio de cmdlets](/MicrosoftTeams/create-a-phone-system-call-queue-via-cmdlets) | modificado |
+| 5/5/2022 | Usar relatórios de atividades do Microsoft Teams | removido |
+| 5/6/2022 | [Teams configuração do teclado de discagem](/MicrosoftTeams/dial-pad-configuration) | modificado |
+| 5/6/2022 | [Gerenciar modelos de equipe no centro de administração](/MicrosoftTeams/templates-policies) | modificado |
+| 5/6/2022 | [Acesso condicional e políticas de conformidade do Intune suporte para Salas do Microsoft Teams](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modificado |
+
+
 ## <a name="week-of-april-25-2022"></a>Semana de 25 de abril de 2022
 
 
@@ -71,55 +93,3 @@
 | 4/21/2022 | [Conduzir uma investigação de Descoberta Eletrônica do conteúdo](/MicrosoftTeams/ediscovery-investigation) | modificado |
 | 4/22/2022 | [Kaizala e Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | modificado |
 | 4/22/2022 | [Navegar por Microsoft Teams](/MicrosoftTeams/navigate-teams) | modificado |
-
-
-## <a name="week-of-april-04-2022"></a>Semana de 04 de abril de 2022
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 4/4/2022 | [Usar Microsoft 365 conectores personalizados e personalizados](/MicrosoftTeams/office-365-custom-connectors) | modificado |
-| 4/4/2022 | [Disponibilidade do aplicativo Aprovações no Teams](/MicrosoftTeams/approval-admin) | modificado |
-| 4/1/2022 | Usar guias internas e personalizadas no Microsoft Teams | removido |
-| 4/4/2022 | [Conheça os aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
-| 4/4/2022 | [Como usar dispositivos Microsoft Teams painéis](/MicrosoftTeams/devices/use-teams-panels) | modificado |
-| 4/4/2022 | [Simplifique os processos de negócios em ambientes de varejo](/MicrosoftTeams/expand-teams-across-your-org/retail-business-processes) | modificado |
-| 4/4/2022 | [Usar o PowerShell para conectar turnos ao Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modificado |
-| 4/4/2022 | [Usar o PowerShell para gerenciar sua conexão shifts com o Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-powershell-manage) | modificado |
-| 4/4/2022 | [Gerenciar acesso externo (federação)](/MicrosoftTeams/manage-external-access) | modificado |
-| 4/4/2022 | [Gerenciar políticas de permissões de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
-| 4/4/2022 | [Microsoft Teams monitoramento e alertas](/MicrosoftTeams/alerts/teams-admin-alerts) | modificado |
-| 4/4/2022 | [Gerenciar marcas no Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
-| 4/4/2022 | [Gerenciar configurações de reunião](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
-| 4/4/2022 | [Aparência de linha compartilhada no Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modificado |
-| 4/4/2022 | [Relatório de uso do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | modificado |
-| 4/4/2022 | [Relatório de atividades do usuário do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |
-| 4/5/2022 | [Configure o Microsoft Teams na sua empresa](/MicrosoftTeams/deploy-enterprise-setup) | modificado |
-| 4/5/2022 | [Gerenciar o acesso a Teams aplicativos em Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modificado |
-| 4/5/2022 | [Visão geral da validação de aplicativos e teste de aplicativos pela Microsoft](/MicrosoftTeams/overview-of-app-validation) | adicionado |
-| 4/5/2022 | [Compreenda os aplicativos de terceiros no Microsoft Teams](/MicrosoftTeams/overview-third-party-apps) | adicionado |
-| 4/6/2022 | [Planos de chamada do Microsoft Teams](/MicrosoftTeams/calling-plan-landing-page) | modificado |
-| 4/6/2022 | [Disponibilidade de país/região – Audioconferência, Planos de Chamadas](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
-| 4/6/2022 | [Conheça os aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
-| 4/6/2022 | [Planos de discagem e roteamento](/MicrosoftTeams/dial-plans-routing-overview) | adicionado |
-| 4/6/2022 | [Obter números de telefone para seus usuários](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modificado |
-| 4/6/2022 | [Quantos números de telefone você pode obter?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | modificado |
-| 4/6/2022 | [Gerenciar políticas gerais de reunião](/MicrosoftTeams/meeting-policies-in-teams-general) | modificado |
-| 4/6/2022 | [Visão geral da validação de aplicativos e teste de aplicativos pela Microsoft](/MicrosoftTeams/overview-of-app-validation) | modificado |
-| 4/6/2022 | [Pesquisar números de telefone para usuários](/MicrosoftTeams/search-for-phone-numbers-for-users) | modificado |
-| 4/6/2022 | [Microsoft Teams licenças de complemento](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modificado |
-| 4/6/2022 | [Conformidade de comunicação com Microsoft Teams](/MicrosoftTeams/communication-compliance) | modificado |
-| 4/6/2022 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 4/7/2022 | [Gerenciar o Bookings aplicativo no Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | modificado |
-| 4/7/2022 | [Visitas virtuais com o Microsoft Teams e o aplicativo Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modificado |
-| 4/7/2022 | [Gerenciar a experiência de junção Teams visitas virtuais em navegadores](/MicrosoftTeams/expand-teams-across-your-org/browser-join) | adicionado |
-| 4/7/2022 | [Visitas virtuais com Teams – Integração ao Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | modificado |
-| 4/7/2022 | [Visitas virtuais com Teams – Integração ao Epic EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modificado |
-| 4/6/2022 | Gerenciar a experiência de junção Teams visitas virtuais em navegadores móveis | removido |
-| 4/7/2022 | [Use o assistente de integração do Trabalhadores de Linha de Frente para que sua força de trabalho na linha de frente entre em funcionamento](/MicrosoftTeams/flw-onboarding-wizard) | modificado |
-| 4/7/2022 | [Comprar aplicativos de terceiros para Teams](/MicrosoftTeams/purchase-third-party-apps) | modificado |
-| 4/7/2022 | [Teams módulo do PowerShell – Versões com suporte](/MicrosoftTeams/teams-powershell-supported-versions) | modificado |
-| 4/8/2022 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 4/8/2022 | [Acesso condicional e políticas de conformidade do Intune suporte para Salas do Microsoft Teams](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | modificado |
-| 4/8/2022 | [Teams módulo do PowerShell – Versões com suporte](/MicrosoftTeams/teams-powershell-supported-versions) | modificado |
-| 4/8/2022 | [Limitar quem os usuários podem ver ao pesquisar o diretório no Teams](/MicrosoftTeams/teams-scoped-directory-search) | modificado |

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d9cb6888243f86e1967105720e3859fa905cfb5
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
+ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030897"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65294102"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -59,7 +59,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 
 <sup>5</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
 
-<sup>6</sup> Membros de canais compartilhados de fora da equipe contam com esse limite. Equipes no GCC podem acomodar 25.000 membros, mas as equipes no GCCH/DoD só podem acomodar 2.500 membros. Observe ainda que as menções de equipes/canal são bloqueadas em equipes com mais de 10.000 membros.
+<sup>6</sup> Membros de canais compartilhados de fora da equipe contam com esse limite. Observe ainda que as menções de equipes/canal são bloqueadas em equipes com mais de 10.000 membros.
 
 > [!NOTE]
 > Para limites de visualização de canais compartilhados, confira [Limites de canais compartilhados (visualização)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
