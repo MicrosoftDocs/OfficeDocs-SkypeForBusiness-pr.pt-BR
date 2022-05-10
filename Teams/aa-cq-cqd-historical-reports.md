@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI exibir os dados históricos do Atendedor Automático e da Fila de Chamadas.
-ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
+ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "63711485"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65294092"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Relatório histórico de fila & atendedor automático
 
@@ -99,7 +99,7 @@ Você precisará atualizar os dados para ver os novos dados de análise.
 
 Você pode personalizar determinados aspectos de visualização dos relatórios, como adicionar ou remover campos a serem mostrados nas várias visualizações, alterar o tipo de gráfico e assim por diante.
 
-Não é possível adicionar campos de dados adicionais ao relatório.
+Não é possível adicionar mais campos de dados ao relatório.
 
 ### <a name="change-color-schema"></a>Alterar esquema de cor 
 
@@ -157,7 +157,7 @@ Execute as seguintes etapas:
 
 |Nome                                    |Tipo de dados                |Descrição                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Nome do AA                                 |Texto                     |Nome da conta de recurso anexada ao Atendedor Automático<br><br>Se o nome completo da Conta de Recurso **aa_test@microsoft.com** esse valor será: **aa_test** |
+|Nome do AA                                 |Texto                     |Nome da conta de recurso anexada ao Atendedor Automático<br><br>Se o nome completo da Conta de Recurso **aa_test@microsoft.com**, esse valor será: **aa_test** |
 |AACallerActionCount                     |Número inteiro             |Resumir: Soma<br>Contagem de ações selecionadas pelo chamador no Atendedor Automático durante a chamada  |
 |AACallFlow                              |Texto                     |Encapsula os diferentes estados da Chamada de Atendedor Automático – valores possíveis:<br><br>§ abs_search<br>§ comunicado<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |Texto                     |Resultado final da chamada – valores possíveis:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ desconhecido<br>§ user_terminated |
@@ -218,7 +218,7 @@ Execute as seguintes etapas:
 
 |Nome                                    |Tipo de dados                |Descrição                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+|Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com**, esse valor será: **cq_test** |
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>Descrição dos campos CQD fCallQueueAnalytics
 
@@ -226,7 +226,7 @@ Execute as seguintes etapas:
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Contagem de chamadas                              |Número inteiro             |Resumir: Soma<br>Número de chamadas                                          |
 |Resultado da chamada da fila de chamadas                  |Texto                     |Estado final da chamada da fila de chamadas – valores possíveis:<br><br>§ agent_joined_conference<br>§ recusado<br>§ desconectado<br>§ erro<br>§ falhou<br>§ inválido<br>§ estouro<br>§ timed_out<br>§ transferred_to_agent |
-|Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+|Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com**, esse valor será: **cq_test** |
 |Tipo de destino da fila de chamadas                  |Texto                     |***Tipo de destino de redirecionamento de chamada – valores possíveis:***<br><br>§ ApplicationEndpoint<br>§ Caixa de correio<br>§ Outros<br>§ Usuário |
 |Tipo <sup>de Chamada1</sup>                   |Texto                     |Tipo de chamada – valores possíveis:<br><br>§ Externo<br>§ Interno           |
 |Data                                    |Data/hora                |Data e hora de início da chamada da Fila de Chamadas (hora) (UTC)                           | 
@@ -250,7 +250,7 @@ Execute as seguintes etapas:
 |Contagem de chamadas                              |Número inteiro             |Resumir: Soma<br>Número de chamadas                  |
 |Resultado da chamada da fila de chamadas                  |Texto                     |Estado final da chamada da fila de chamadas – valores possíveis:<br><br>§ agent_joined_conference<br>§ recusado<br>§ desconectado<br>§ erro<br>§ falhou<br>§ inválido<br>§ estouro<br>§ timed_out<br>§ transferred_to_agent |
 |Ação de Estado Final da Fila de Chamadas           |Texto                     |Ação final da fila de chamadas – valores possíveis:<br><br>§ desconectar (timed_out chamadas)<br>§ disconnect_with_busy (chamadas estouro)<br>§ failed_to_accept_call<br>§ para frente<br>§ shared_voicemail<br>§ outros<br>§ caixa postal |
-|Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+|Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com**, esse valor será: **cq_test** |
 |Data                                    |Data/hora                |Data e hora de início da chamada da Fila de Chamadas (hora) (UTC)   |
 |Isabandoned                             |True/false               |True se a chamada não for atendida por um agente           |
 
@@ -288,11 +288,11 @@ Execute as seguintes etapas:
 
 |Nome                                    |Tipo de dados                |Descrição                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|Nome do Agente                              |Texto                     |UPN do usuário<br>Se o nome de usuário completo **user@microsoft.com** esse valor será: **usuário** |
+|Nome do Agente                              |Texto                     |UPN do usuário<br>Se o nome de usuário completo **user@microsoft.com**, esse valor será: **usuário** |
 |Duração Média da Chamada (Segundo)          |Número decimal           |Resumir: Soma<br>A duração média das chamadas da fila de chamadas atendidas em segundos |
-|Contagem de chamadas                              |Número inteiro             |Resumir: Soma<br>Número de chamadas apresentadas e atendidas pelo agente     |
+|Contagem de chamadas                              |Número inteiro             |Resumir: Soma<br>Número de chamadas apresentadas ao agente     |
 |Duração da chamada (minuto)                  |Número inteiro             |Resumir: Soma<br>Duração total da chamada de chamadas atendidas em minutos (arredondado para baixo até o minuto mais próximo)  |
-|Nome da Fila de Chamadas                         |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com** esse valor será: **cq_test** |
+|Nome da Fila de Chamadas                         |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com**, esse valor será: **cq_test** |
 |Data                                    |Data                     |                                                    |
 
 
@@ -302,7 +302,7 @@ Execute as seguintes etapas:
 
 ## <a name="known-issues"></a>Problemas Conhecidos
 
-- A fila de chamadas e os atendedores automáticos são mostrados pela ID da conta de recurso em vez de nomes de fila de chamadas/atendedores automáticos.  Para mostrar todo o tráfego para um atendedor automático ou fila de chamadas, você deve selecionar todas as contas de recursos atribuídas ao atendedor automático ou fila de chamadas.
+- A fila de chamadas e os atendedores automáticos são mostrados pela ID da conta de recurso em vez de nomes de fila de chamadas/atendedores automáticos.  Para mostrar todo o tráfego de um atendedor automático ou fila de chamadas, você deve selecionar todas as contas de recursos atribuídas ao atendedor automático ou fila de chamadas.
 
 - Apenas 28 dias de histórico estão disponíveis no painel, pois os dados da fila de chamadas/atendedor automático são considerados dados pessoais e estão sujeitos a políticas de retenção de privacidade de dados.
 
