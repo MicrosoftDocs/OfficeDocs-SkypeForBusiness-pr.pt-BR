@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6361e9454f6df301c0fbf1c91e39158115f2300
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817792"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303993"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -38,7 +38,7 @@ Quando estiver pronto para habilitar o Location-Based roteamento, confira:
 > [!NOTE]
 > Você não deve usar Location-Based roteamento dinâmico para rotear chamadas PSTN dinamicamente com base na localização do usuário. Fazer isso pode causar resultados não intencionais.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Location-Based roteamento permite restringir o bypass de chamada tarifada para um usuário com base na política e na localização geográfica do usuário no momento de uma chamada PSTN de entrada ou saída. 
 
@@ -169,11 +169,11 @@ Quando um usuário está habilitado para Location-Based roteamento, o seguinte s
 
   - Se a transferência será permitida se baseia no seguinte:
   
-    - As Location-Based de roteamento do usuário que está recebendo a chamada transferida.
+    - As Location-Based de roteamento do usuário que está sendo transferido para o PSTN.
     - O local do site de rede do ponto de extremidade.
     - Se a localização está habilitada para Location-Based Roteamento.
 
-    A transferência será permitida se o usuário que recebe a chamada transferida conseguir fazer essa chamada PSTN em seu local atual usando o mesmo gateway PSTN.
+    A transferência será permitida se o usuário que está sendo transferido for capaz de fazer essa chamada PSTN em seu local atual usando o mesmo gateway PSTN.
 
 - **Para uma chamada PSTN** de entrada ou saída e transferência para outro Teams usuário, se a transferência é permitida depende do seguinte:
 
@@ -299,15 +299,15 @@ A tabela a seguir mostra se o encaminhamento de chamadas e transferências de ch
 
     - Se o chamador estiver habilitado para Location-Based roteamento, ele poderá ser transferido somente para um gateway habilitado para roteamento Location-Based localizado no mesmo site de rede.
  
-A tabela a seguir mostra como Location-Based roteamento afeta o roteamento de uma chamada VOIP de User1 no Site1 para usuários em locais diferentes que transferem ou encaminham a chamada para um ponto de extremidade PSTN.  
+A tabela a seguir mostra como o roteamento de Location-Based afeta o roteamento de uma chamada VOIP do Location-Based Routing habilitado para User1 no Site1 para usuários em locais diferentes que transferem ou encaminham a chamada para um ponto de extremidade PSTN.  
 
-|Usuário iniciando a transferência ou encaminhamento de chamadas  |Transferir para PSTN  |Encaminhar para PSTN  |
-|---------|---------|---------|
-|Mesmo site de rede, site habilitado para Location-Based roteamento (User2)   |A transferência de chamada só pode ser roteada por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User2         |O encaminhamento de chamadas só pode ser roteado por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User2         |
-|Site de rede diferente, site habilitado para Location-Based roteamento (Usuário3)    |A transferência de chamada só pode ser roteada por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User3         |O encaminhamento de chamadas só pode ser roteado por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User3         |
-|Site de rede diferente, site não habilitado para Location-Based roteamento (Usuário4)    |A transferência de chamada só pode ser roteada por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User4         |O encaminhamento de chamadas só pode ser roteado por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User4         |
-|Rede interna desconhecida (User5)     |A transferência de chamada só pode ser roteada por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User5         |O encaminhamento de chamadas só pode ser roteado por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User5         |
-|Rede externa desconhecida (User6)   |A transferência de chamada só pode ser roteada por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User6        |O encaminhamento de chamadas só pode ser roteado por meio Location-Based Gateway1 habilitado para Roteamento no Site1, com base na política de roteamento de voz do User6         |
+|Usuário iniciando a transferência ou encaminhamento de chamadas  |Transferir ou encaminhar para pSTN  |
+|---------|---------|
+|Mesmo site de rede, site habilitado para Location-Based roteamento (User2)   |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User2 resultar em uma rota por meio do gateway1 habilitado para roteamento de Location-Based no Site1         |
+|Site de rede diferente, site habilitado para Location-Based roteamento (Usuário3)    |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User3 resultar em uma rota por meio de Location-Based Gateway1 habilitado para Roteamento1 no Site1 |
+|Site de rede diferente, site não habilitado para Location-Based roteamento (Usuário4)    |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User4 resultar em uma rota por meio do gateway1 habilitado para roteamento Location-Based no Site1          |
+|Rede interna desconhecida (User5)     |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User5 resultar em uma rota por meio do gateway1 habilitado para roteamento de Location-Based no Site1          |
+|Rede externa desconhecida (User6)   |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User6 resultar em uma rota por meio do gateway1 habilitado para roteamento Location-Based no Site1          |
 
 ### <a name="simultaneous-ringing"></a>Toque simultâneo
 
@@ -328,15 +328,15 @@ A tabela a seguir mostra se Location-Based roteamento permite toque simultâneo 
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>Toque simultâneo para um ponto de extremidade PSTN
 
-A tabela a seguir mostra Location-Based roteamento para uma chamada VoIP de entrada de User1 localizada em Site1 para usuários em locais diferentes com anel simultâneo definido como um número PSTN. 
+A tabela a seguir mostra Location-Based de roteamento para uma chamada VoIP de entrada do Location-Based Routing habilitado user1 localizado no Site1 para usuários em locais diferentes com anel simultâneo definido como um número PSTN. 
 
 |Local do ponto de extremidade do usuário chamado  |O destino de anel simultâneo é o ponto de extremidade PSTN |
 |---------|---------|
-|Mesmo site de rede, site habilitado para Location-Based roteamento (User2)    |A chamada só pode ser roteada por meio Location-Based Gateway de Roteamento1 no Site1, com base na política de roteamento de voz do User2       |
-|Site de rede diferente habilitado para Location-Based roteamento (Usuário3)    |A chamada só pode ser roteada por meio Location-Based Gateway de Roteamento1 no Site1, com base na política de roteamento de voz do User3        |
-|Site de rede diferente não habilitado para Location-Based roteamento (User4)    |A chamada só pode ser roteada por meio Location-Based Gateway de Roteamento1 no Site1, com base na política de roteamento de voz do User4         |
-|Rede interna desconhecida (User5)    |A chamada só pode ser roteada por meio Location-Based Gateway de Roteamento1 no Site1, com base na política de roteamento de voz do User5         |
-|Rede externa desconhecida (User6)   |A chamada só pode ser roteada por meio Location-Based Gateway de Roteamento1 no Site1, com base na política de roteamento de voz do User6         |
+|Mesmo site de rede, site habilitado para Location-Based roteamento (User2)    |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User2 resultar em uma rota por meio do gateway1 habilitado para roteamento de Location-Based no Site1        |
+|Site de rede diferente habilitado para Location-Based roteamento (Usuário3)    |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User3 resultar em uma rota por meio de Location-Based Gateway1 habilitado para Roteamento1 no Site1         |
+|Site de rede diferente não habilitado para Location-Based roteamento (User4)    |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User4 resultar em uma rota por meio do gateway1 habilitado para roteamento Location-Based no Site1          |
+|Rede interna desconhecida (User5)    |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User5 resultar em uma rota por meio do gateway1 habilitado para roteamento de Location-Based no Site1          |
+|Rede externa desconhecida (User6)   |A chamada PSTN resultante será permitida somente se a rota calculada com base na política de roteamento de voz do User6 resultar em uma rota por meio do gateway1 habilitado para roteamento Location-Based no Site1          |
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>Chamadas de entrada por meio de aplicativos de voz (Atendedor Automático ou Fila de Chamadas)
 
@@ -395,7 +395,7 @@ Em uma chamada em conferência iniciada por um usuário sem uma licença de audi
 
 Se o usuário habilitado para roteamento de Location-Based estiver ingressando na chamada de conferência de um site interno que não está habilitado para roteamento Location-Based, as restrições no parágrafo acima não serão impostas. 
 
-A conferência em rede para Audioconferência NÃO deve ser implantada com nenhum equipamento de telefonia na Índia.
+A conferência em rede para Audioconferência não deve ser implantada com nenhum equipamento de telefonia na Índia.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para Location-Based roteamento
