@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de caixa postal
+title: Gerenciar Políticas de Caixa Postal
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -21,159 +21,98 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Gerenciar Políticas de Caixa Postal para seus usuários.
-ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Gerenciar políticas de caixa postal para seus usuários.
+ms.openlocfilehash: 3f4c64194fc9e2b24c59dc7bc06ed972e801a6a8
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604420"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370824"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>Configuração de políticas de caixa postal em sua organização
 
 > [!WARNING]
-> Para Skype for Business clientes, desabilitar a caixa postal por meio de uma política de chamada Microsoft Teams também pode desabilitar o serviço de caixa postal para seus Skype for Business usuários.
+> Para Skype for Business clientes, desabilitar a caixa postal por meio de uma política Microsoft Teams chamada também pode desabilitar o serviço de caixa postal para seus Skype for Business usuários.
 
-## <a name="voicemail-organization-defaults-for-all-users"></a>Padrão da organização de caixa postal para todos os usuários
+Você pode usar políticas de caixa postal para controlar diferentes recursos relacionados ao Caixa postal na Nuvem.
+
+## <a name="voicemail-organization-defaults-for-all-users"></a>O padrão da organização da caixa postal para todos os usuários
 - A transcrição da caixa postal está habilitada.
+- A tradução da transcrição da caixa postal está habilitada.
 - O mascaramento de profanidade de transcrição de caixa postal está desabilitado.
 - A duração máxima da gravação é definida como cinco minutos.
+- A edição de regras de atendimento a chamadas está habilitada.
+- Os idiomas de prompt do sistema primário e secundário são definidos como nulos e a configuração de idioma da caixa postal do usuário é usada.
 
-Você pode controlar esses padrões usando os cmdlets [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) e [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
+Você pode usar a política global (padrão de toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.
 
-As mensagens de caixa postal recebidas pelos usuários em sua organização são transcritas na região onde sua organização Microsoft 365 ou Office 365 está hospedada. A região onde seu locatário está hospedado pode não ser a mesma onde o usuário que recebe a mensagem de caixa postal está localizado. Para exibir a região onde seu locatário [](https://go.microsoft.com/fwlink/p/?linkid=2067339) está hospedado, vá para a página Perfil da Organização e clique em Exibir **detalhes** ao lado de **Data location**.
+## <a name="create-a-custom-voicemail-policy"></a>Criar uma política de caixa postal personalizada
+
+Siga estas etapas para criar uma política de caixa postal personalizada.
+
+1. No painel de navegação à esquerda do Microsoft Teams de administração, vá para políticas **do VoiceVoicemail** > .
+2. Selecione **Adicionar**.
+3. Ative ou desative os recursos que você deseja usar em sua política de caixa postal.
+4. Selecione **Salvar**.
+
+## <a name="edit-a-voicemail-policy"></a>Editar uma política de caixa postal
+
+Siga estas etapas para editar uma política de caixa postal existente.
+
+1. No painel de navegação esquerdo do Microsoft Teams de administração, selecione **políticas** **do VoiceVoicemail** > .
+2. Clique ao lado da política que você deseja modificar e selecione **Editar**.
+3. Faça as alterações desejadas e clique em **Salvar**.
 
 > [!IMPORTANT]
-> Não é possível criar uma nova instância de política para mascaramento de profanidade de transcrição e transcrição usando o cmdlet **New-CsOnlineVoiceMailPolicy** e não é possível remover uma instância de política existente usando o cmdlet **Remove-CsOnlineVoiceMailPolicy.**
-
-Você pode gerenciar as configurações da transcrição para os usuários usando as políticas de caixa postal. Para ver todas as instâncias de política de caixa postal disponíveis, você pode usar o cmdlet [Get-CsOnlineVoicemailPolicy.](/powershell/module/skype/Get-CsOnlineVoicemailPolicy)
-
-```PowerShell
-PS C:\> Get-CsOnlineVoicemailPolicy
+> Você não pode editar ou remover as instâncias de política pré-configuradas chamadas TranscriptionDisabled e TranscriptionProfanityMaskingEnabled.
 
 
-Identity                            : Global
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
+## <a name="assign-a-custom-voicemail-policy-to-users"></a>Atribuir uma política de caixa postal personalizada aos usuários
 
-Identity                            : Tag:Default
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Identity                            : Tag:TranscriptionProfanityMaskingEnabled
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : True
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionDisabled
-EnableTranscription                 : False
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-```
+## <a name="voicemail-policy-settings"></a>Configurações de política de caixa postal
   
-## <a name="turning-off-transcription-for-your-organization"></a>Desativação da transcrição para sua organização
+### <a name="enable-transcription"></a>Habilitar transcrição
 
-Como a configuração padrão para transcrição está em sua organização, talvez você queira desabilitá-la usando [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Para fazer isso, execute:
+Essa configuração controla se o serviço Caixa postal na Nuvem gerará uma transcipação de texto da caixa postal gravada e a incluirá na mensagem de voz. A transcrição será feita com base no idioma detectado na caixa postal gravada.
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscription $false
-```
+### <a name="transcription-translation"></a>Tradução de transcrição
 
-## <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Ativação do mascaramento de obscenidades para sua organização
+Essa configuração controla se o serviço Caixa postal na Nuvem traduzirá a transcrição da caixa postal gravada. A tradução será tentada no idioma preferencial do receptor da caixa postal.
 
-Mascaramento de obscenidades está desativado por padrão para sua organização. Se houver um requisito de negócios para habilitá-lo, você pode habilitar o mascaramento de obscenidades usando [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Para fazer isso, execute:
+### <a name="transcription-profanity-masking"></a>Mascaramento de profanidade de transcrição
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
-```
+Essa configuração controla se o serviço Caixa postal na Nuvem mascarará as profanidades encontradas na transcrição da caixa postal.
 
-## <a name="changing-the-recording-duration-for-your-organization"></a>Alterar a duração da gravação para sua organização
+### <a name="maximum-recording-duration"></a>Duração máxima da gravação
 
-O comprimento máximo de gravação é definido como cinco minutos por padrão para sua organização. Se houver um requisito comercial para aumentar ou diminuir o comprimento máximo de gravação, isso pode ser feito usando [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Por exemplo, para definir o tempo máximo de gravação como 60 segundos, execute:
+O comprimento máximo da gravação controla o tempo máximo em que uma caixa postal pode ser registrada. O padrão é 5 minutos.
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
-```
+### <a name="call-answering-rules"></a>Regras de atendimento de chamadas
 
-## <a name="dual-language-system-prompts-for-your-organization"></a>Prompts do sistema de idiomas duplos para sua organização
+Essa configuração controla se o usuário tem permissão para configurar regras de atendimento de chamadas de caixa postal Microsoft Teams.
 
-Por padrão, os prompts do sistema de caixa postal são apresentados aos chamadores no idioma selecionado pelo usuário ao configurar sua caixa postal. Se houver um requisito comercial para que os prompts do sistema de caixa postal sejam apresentados em dois idiomas, isso poderá ser feito usando [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). Um idioma principal e secundário deve ser definido e pode não ser o mesmo. Para fazer isso, execute:
+### <a name="dual-language-system-prompts"></a>Prompts do sistema de linguagem dupla
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
-```
+Por padrão, os prompts do sistema de caixa postal são apresentados aos chamadores no idioma selecionado pelo usuário ao configurar sua caixa postal. Se houver um requisito de negócios para que os prompts do sistema de caixa postal sejam apresentados em dois idiomas, um idioma primário e secundário poderá ser definido e eles poderão não ser os mesmos.
 
-## <a name="turning-off-transcription-for-a-user"></a>Desativação da transcrição para usuário
+### <a name="share-data-for-service-improvements"></a>Compartilhar dados para melhorias de serviço
 
-As políticas de usuário são avaliadas antes das configurações organizacionais padrão. Por exemplo, se a transcrição da caixa postal estiver habilitada para todos os seus usuários, você poderá atribuir uma política para desabilitar a transcrição para um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy.](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy)
-
-Para desabilitar a transcrição para um único usuário, execute:
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
-```
-
-## <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Ativação do mascaramento de obscenidades para um usuário
-
-Para habilitar o mascaramento de obscenidades para um usuário específico, você pode atribuir uma política para habilitar o mascaramento de obscenidades de um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy).
-
-Para habilitar o mascaramento de obscenidades para um único usuário, execute:
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
-```
-
-## <a name="changing-the-recording-duration-for-a-user"></a>Alterar a duração da gravação para um usuário
-
-Primeiro, você deve criar uma política de caixa postal personalizada usando o cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) O comando mostrado abaixo cria uma política de caixa postal online por usuário OneMinuteVoicemailPolicy com MaximumRecordingLength definida como 60 segundos e outros campos definidos como valor global de nível de locatário.
-
-```PowerShell
-New-CsOnlineVoicemailPolicy -Identity "OneMinuteVoicemailPolicy" -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
-```
-
-Para atribuir essa política personalizada a um usuário, execute: 
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip:amosmar@contoso.com
-```
-
-## <a name="dual-language-system-prompts-for-a-user"></a>Prompts do sistema de idiomas duplos para um usuário
-
-Primeiro, você deve criar uma política de caixa postal personalizada usando o cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) O comando mostrado abaixo cria uma política de caixa postal online por usuário enUS-esSP-VoicemailPolicy com o PrimarySystemPromptLanguage definido como en-US (inglês - Estados Unidos) e SecondarySystemPromptLanguage definido como es-SP (Espanhol - Espanha).
-
-```PowerShell
-New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
-```
-
-Para atribuir essa política personalizada a um usuário, execute: 
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity sip:amosmar@contoso.com
-```
-
-> [!NOTE]
-> O Get-CsOnlineVoicemailPolicy cmdlet não está retornando atualmente os valores para PrimarySystemPromptLanguage e SecondarySystemPromptLanguage. Para ver esses valores modificarem o comando da seguinte forma:
->
-> >```PowerShell
-> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
-> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).SecondarySystemPromptLanguage 
->
-> Substitua **PolicyName** pelo nome da política.
+Especifica se os dados de caixa postal e transcrição são compartilhados com o serviço para treinamento e melhoria da precisão. Se definido como false, os dados da caixa postal não serão compartilhados, independentemente da escolha do usuário.
 
 
 > [!IMPORTANT]
-> O serviço de caixa postal em Microsoft 365 e Office 365 armazena em cache políticas de caixa postal e atualiza o cache a cada 6 horas. Portanto, as alterações de política feitas podem levar até 6 horas para serem aplicadas.
+> O serviço de caixa postal Microsoft 365 e Office 365 armazena em cache as políticas de caixa postal e atualiza o cache a cada 6 horas. Portanto, as alterações de política feitas podem levar até 6 horas para serem aplicadas.
+
+## <a name="related-articles"></a>Artigos relacionados
+
+[New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
+
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
+
+[Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/grant-csonlinevoicemailpolicy)
+
+[Remove-CsOnlineVoicemailPolicy](/powershell/module/skype/remove-csonlinevoicemailpolicy)

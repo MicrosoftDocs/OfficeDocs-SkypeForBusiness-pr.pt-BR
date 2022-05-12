@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
-ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839192"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370804"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>Ativar ou desativar o acesso de Microsoft Teams convidado
 
@@ -60,6 +60,7 @@ Este artigo descreve como definir as configurações de acesso de convidado , in
       - **Reunir Agora** – ative **essa configuração para** permitir que os convidados usem o recurso Reunir Agora Microsoft Teams.
       - **Editar mensagens enviadas** - **Ativar** essa configuração para permitir que os convidados editem as mensagens enviadas anteriormente.
       - **Excluir mensagens enviadas** – ative **essa** configuração para permitir que os convidados excluam as mensagens enviadas anteriormente.
+      - **Excluir chat** – ative essa **configuração para** permitir que os convidados excluam uma conversa de chat inteira.
       - **Chat** - **Ativar** essa configuração para oferecer aos convidados a capacidade de usar o chat no Teams.
       - **Giphy em conversas** – ative **essa** configuração para permitir que os convidados usem Giphys em conversas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo.
       - **Classificação de conteúdo para Giphy** – Selecione uma classificação na lista suspensa:
