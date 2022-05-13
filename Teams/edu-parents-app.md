@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187107"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393865"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a Conexão Pai no Microsoft Teams para Educação
 
@@ -68,34 +68,44 @@ A Conexão de Pais permite que educadores e responsáveis conversem, enviem emai
 
 ### <a name="school-data-sync"></a>School Data Sync
 
-- Você precisa School Data Sync (SDS) para preencher as informações de contato relacionadas ao pai e ao responsável **de cada** aluno.
+- Você precisa School Data Sync (SDS) para preencher as informações de contato relacionadas ao pai e **ao responsável de cada** aluno.
   - [Implantar SDS](/schooldatasync/parents-and-guardians-in-sds)
 
-- Se você precisar de ajuda para configurar o SDS e preencher contatos relacionados a  pais e responsáveis para os alunos em seu locatário, entre em contato com a equipe de Sucesso do Cliente EDU:
+- Se você precisar de ajuda para configurar SDS e preencher contatos relacionados a pais e responsáveis  para os alunos em seu locatário, entre em contato com a equipe de Sucesso do Cliente EDU:
   - Concluindo o processo de RFA em [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Abrindo um tíquete no [Suporte](https://aka.ms/sdssupport).
 
-- Atualmente, o SDS dá suporte apenas à ingestão de dados baseada em CSV para Contatos Pai; No entanto, você pode usar a Sincronização de [API do PowerSchool](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou a Sincronização de [API do OneRoster](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) para todos os dados da lista de participantes e apenas adicionar contatos pai usando CSV.
-  - Crie um segundo perfil de sincronização usando o [formato de Sincronização CSV do SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
+- Atualmente, o SDS dá suporte apenas à ingestão de dados baseada em CSV para Contatos Pai; no entanto, você pode usar a Sincronização de [API do PowerSchool](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou a Sincronização de [API do OneRoster](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) para todos os dados de lista de participação e apenas adicionar Contatos Pai usando CSV.
+  - Crie um segundo perfil de sincronização usando o [formato SDS sincronização CSV v1](/schooldatasync/school-data-sync-format-csv-files-for-sds).
   - Efetue pull dos dois [arquivos pai preenchidos](/schooldatasync/parent-contact-sync-file-format) com o restante dos arquivos v1 vazios (apenas os cabeçalhos).
     - User.csv
     - Guardianrelationship.csv
   - Para exibir um conjunto de exemplo dos arquivos CSV v1, consulte os atributos [mínimos necessários GitHub arquivos](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - Se você quiser automatizar a extração dos arquivos CSV após a sincronização inicial, leia nosso [documento CSV Sincronização de Arquivos Automação](/schooldatasync/csv-file-sync-automation).
-  - Para obter ajuda com a configuração da sincronização de dados do SDS, entre em contato com nossa [equipe](https://www.microsoft.com/fasttrack?rtc=1) de sucesso do cliente ou [abra um tíquete de suporte](https://edusupport.microsoft.com/support?product_id=data_sync).
+  - Para obter ajuda com a configuração da sincronização SDS dados, entre em contato com nossa [equipe](https://www.microsoft.com/fasttrack?rtc=1) de sucesso do cliente ou [abra um tíquete de suporte](https://edusupport.microsoft.com/support?product_id=data_sync).
 
-### <a name="teams-admin-center---policies"></a>Teams Admin Center – Políticas
+### <a name="teams-admin-center-policies"></a>Teams do centro de administração
 
 - Os proprietários da equipe de Teams devem ter um chat Teams ativado.
 - Os proprietários da equipe de classe devem ter acesso **externo Teams contas não gerenciadas por uma organização** ativadas.
-  - Isso deve ser ativado no nível do locatário e no nível do usuário. A configuração de nível de locatário pode ser encontrada em **Usuários > Acesso** Externo no Teams Admin Center. Essa configuração também pode ser acessada por meio do PowerShell. As políticas de acesso externo no nível do usuário só podem ser acessadas por meio do PowerShell. Consulte os comandos do PowerShell abaixo para obter mais diretrizes.
+  - Isso deve ser ativado no nível do locatário e no nível do usuário. A configuração de nível de locatário pode ser encontrada em **Usuários > Acesso** Externo no Teams de administração. Essa configuração também pode ser acessada por meio do PowerShell. As políticas de acesso externo no nível do usuário só podem ser acessadas por meio do PowerShell. Consulte os comandos do PowerShell abaixo para obter mais diretrizes.
 
-> [!NOTE]
->Pais e responsáveis são classificados como usuários externos no recurso Pais, o que significa que eles não têm direitos de locatário completos. Eles só têm acesso ao chat ou chat aos quais são adicionados, bem como arquivos, imagens e outros conteúdos compartilhados no chat.
->
->Além disso, os usuários externos podem ver a presença (offline, disponível, ocupada etc.) dos usuários da sua organização, mas isso pode ser desativado usando o PowerShell para proteger a privacidade dos usuários. No PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) e defina ``EnablePrivacyMode=true``.
->
->Embora pais e responsáveis sejam usuários externos, suas contribuições para chats são detectáveis. Saiba como conduzir uma investigação Teams descoberta eletrônica lendo Realizar uma investigação de Descoberta Eletrônica do conteúdo [Microsoft Teams.](ediscovery-investigation.md)
+#### <a name="parent-and-guardian-restrictions"></a>Restrições de pais e responsáveis
+Pais e responsáveis são classificados como usuários externos na Conexão de Pais, o que significa que eles não têm direitos de locatário completos. Eles só têm acesso ao chat ou chat aos quais são adicionados, bem como arquivos, imagens e outros conteúdos compartilhados no chat.
+
+Além disso, os usuários externos podem ver a presença (offline, disponível, ocupada etc.) dos usuários da sua organização, mas isso pode ser desativado usando o PowerShell para proteger a privacidade dos usuários. No PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) e defina ``EnablePrivacyMode=true``.
+
+Embora pais e responsáveis sejam usuários externos, suas contribuições para chats são detectáveis. Saiba como conduzir uma investigação Teams descoberta eletrônica lendo Realizar uma investigação de Descoberta Eletrônica do conteúdo [Microsoft Teams.](ediscovery-investigation.md)
+
+#### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Bloqueando um pai ou responsável em um chat
+Os educadores podem bloquear um guardião no chat iniciado na Conexão Pai.
+
+O proprietário da classe pode:
+
+1. Abra o cartão de perfil do guardião, selecione a elipse e Bloquear **Usuário**. 
+2. Em seguida, remova o guardião do chat. 
+
+O usuário bloqueado não poderá iniciar chats adicionais com o proprietário da classe.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Permitir acesso externo com Teams contas não gerenciadas por uma organização
 
