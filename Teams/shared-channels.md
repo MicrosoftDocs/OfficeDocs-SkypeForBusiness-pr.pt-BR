@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Aprenda a usar e a gerenciar canais privados no Microsoft Teams (Visualização).
-ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817842"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393875"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Canais compartilhados no Microsoft Teams (Visualização)
 
@@ -150,7 +150,7 @@ A tabela a seguir descreve o número máximo de canais e membros.
 |Membros em uma equipe|25.000|Inclui todos os usuários na equipe e membros diretos nos canais compartilhados.|
 |Canais compartilhados por equipe|50|Hospedado e compartilhado com a equipe. (Inclui canais excluídos durante a janela de recuperação de 30 dias.)|
 |Equipes com quem um canal pode ser compartilhado|50|Excluindo a equipe pai|
-|Membros em um canal compartilhado|1.000 membros diretos, incluindo até 50 equipes. (Cada equipe com a qual o canal é compartilhado conta como um membro tendo em vista esse limite).|As atualizações em tempo real só estão disponíveis para 25.000 usuários por vez e apenas 25.000 usuários serão exibidos na lista de canais.|
+|Membros em um canal compartilhado|5.000 membros diretos, incluindo até 50 equipes. (Cada equipe com a qual o canal é compartilhado conta como um membro tendo em vista esse limite).|As atualizações em tempo real só estão disponíveis para 25.000 usuários por vez e apenas 25.000 usuários serão exibidos na lista de canais.|
 
 As seguintes limitações também se aplicam:
 
