@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294102"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400237"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -124,9 +124,9 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |------------|---------------|
 |Número de pessoas em uma reunião (podem conversar e telefonar)  | 1000, inclui GCC, GCCH e DoD, mas não A1 (300). **Somente exibição** permite que até 20.000 participantes, somente ouvintes, participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, bem como, Governo (GCC, GCC High, DoD). Em breve, a experiência somente exibição também estará disponível para seminários. Saiba mais sobre a [Experiência somente exibição](view-only-meeting-experience.md).<sup>1,2</sup>|
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
-|Número de chamadas ativas simultâneas | 4 |
-|Tamanho máximo do arquivo do PowerPoint | 2GB|
+|Tamanho máximo do arquivo do PowerPoint | 2 GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
+| Duração máxima da gravação da reunião | 4 horas ou 1,5 GB. Quando esse limite for atingido, a gravação terminará e será reiniciada automaticamente.
   
 <sup>1</sup> Para obter a melhor experiência em grandes reuniões, seminários via web e eventos ao vivo, a Microsoft recomenda o uso da versão mais recente do cliente de área de trabalho do Microsoft Teams ou clientes móveis do Microsoft Teams.
 
