@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para Microsoft Teams.
-ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 91f7a1a8d3e8ea68b113d98d667aeaae9a90dd4e
+ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217915"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65406397"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para Microsoft Teams
 
@@ -81,6 +81,7 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poli                 |Studio P21 Monitor                                         |5/12/2022       |Certificado para Microsoft Teams                           |
 |Yealink              |Fone de ouvido UH38                                               |5/2/2022        |Certificado para Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Certificado para Microsoft Teams                           |
 |Logitech             |Zone True Wireless Earbuds                                 |5/2/2022        |Certificado para Microsoft Teams                           |
