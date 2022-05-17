@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião Microsoft Teams.
-ms.openlocfilehash: 4496896cc86cfd64f175b9cab7c58c3798b9249f
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063242"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442017"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião Microsoft Teams
 
@@ -181,3 +181,5 @@ O arquivo será excluído dentro de cinco dias a partir da data de validade, emb
 [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
 
 [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
+
+[Limites e especificações do Microsoft Teams](/microsoftteams/limits-specifications-teams)

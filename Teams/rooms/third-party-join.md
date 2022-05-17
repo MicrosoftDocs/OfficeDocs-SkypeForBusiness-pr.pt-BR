@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este artigo discute como configurar sua organização e Salas do Teams dispositivos para dar suporte à junção de reuniões de terceiros no Cisco WebEx e no Zoom.
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846600"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65441997"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Habilitar Teams de sala para ingressar em reuniões de terceiros
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Habilitar Salas do Teams dispositivos para ingressar em reuniões de terceiros
 
 > [!NOTE]
 > Atualmente, esse recurso só está disponível no Salas do Teams no Windows.
@@ -65,8 +65,8 @@ Para habilitar a experiência de ingresso com um toque, as informações de link
 
 Aqui estão alguns exemplos de entradas que talvez você precise adicionar ao *seu Defender para Office 365 Cofre Links* Não reescrever lista ou lista de exceções de reescrita de URL de terceiros:
 
-- **Cisco WebEx** `*.webex.com*`
-- **Zoom**`*.zoom.us*`, `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **Zoom**`*.zoom.us/*`, `*.zoom.com/*``*.zoomgov.com/*`
 
 Para obter uma lista completa de URLs a serem adicionadas *aos links do* Defender para Office 365 Cofre Não reescrever lista ou lista de exceções de reescrita de URL de terceiros, entre em contato com o provedor de serviços de reunião de terceiros do qual você deseja aceitar convites de reunião.
 
