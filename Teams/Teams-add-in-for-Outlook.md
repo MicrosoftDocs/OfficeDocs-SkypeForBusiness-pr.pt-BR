@@ -19,14 +19,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392869"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462025"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
+
+Este artigo detalha os requisitos de autenticação e a funcionalidade do suplemento Reunião do Teams no Outlook para seus usuários finais. Ele também mostra como você pode habilitar reuniões privadas e ajustar as configurações de política para usuários no Modo Ilha. Se você estiver tendo problemas com o suplemento, consulte nossas [diretrizes de solução de problemas mais recentes](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
 
 O suplemento de reunião do Teams permite que os usuários agendem uma reunião do Teams no Outlook. O suplemento está disponível para o Outlook no Windows, Mac, Web e dispositivos móveis.
 
@@ -126,59 +128,6 @@ O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, ent
 - Os usuários não podem agendar eventos ao vivo no Outlook. Vá para o Teams para agendar eventos ao vivo. Para obter mais informações, consulte [O que são eventos ao vivo do Microsoft Teams?](teams-live-events/what-are-teams-live-events.md).
 
 Saiba mais sobre [reuniões e chamadas no Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
-## <a name="troubleshooting"></a>Solução de problemas
-
-Use as etapas a seguir para solucionar os problemas com o suplemento de Reunião do Teams.
-
-> [!NOTE]
-> Esse cenário também pode ser gerenciado usando a [linha de comando do Assistente de Recuperação e Suporte da Microsoft](/office365/troubleshoot/administration/sara-command-line-version) com SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
-
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>O suplemento de Reunião do Teams no Outlook para Windows não mostra
-
-Se você não conseguir instalar o suplemento de Reunião do Teams para o Outlook, tente estas etapas de solução de problemas.
-
-[Faça o download](https://aka.ms/SaRA-TeamsAddInScenario) e execute o [Assistente de Recuperação e Suporte da Microsoft](https://aka.ms/SaRA_Home) para executar as etapas e correções automatizadas de solução de problemas.
-
-Alternativamente, execute as seguintes etapas manualmente:
-
-- Os usuários do Windows 7 devem instalar a [atualização para o Tempo de execução do Windows Universal C](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que o suplemento de Reunião do Teams funcione.
-- Verifique se o usuário tem uma política de atualização do Teams que permite agendar reuniões no Teams. Consulte [Atualização do Skype for Business para Teams](/microsoftteams/meeting-policies-in-teams-general) para obter mais detalhes.
-- Verifique se o usuário tem uma política de Reuniões do Teams que permite o complemento do Outlook. Confira [Configurações de política de reunião - Geral](./meeting-policies-in-teams-general.md#outlook-add-in) para obter mais detalhes.
-- Certifique-se de que o usuário tenha o cliente de área de trabalho do Teams instalado. O suplemento da reunião não será instalado ao usar apenas o cliente web Teams.
-- Certifique-se de que o usuário tenha o Outlook 2013 ou posterior instalado.
-- Certifique-se de que o usuário tenha permissão para executar o regsvr32.exe.
-- Certifique-se de que todas as atualizações disponíveis para o cliente de área de trabalho do Outlook foram aplicadas.
-- Siga estas etapas:
-  - Reinicie o cliente de área de trabalho do Teams.
-  - Saia e entre novamente no cliente de área de trabalho do Teams.
-  - Reinicie o cliente para área de trabalho do Outlook. (Certifique-se de que o Outlook não esteja sendo executado no modo de administrador.)
-
-Se você ainda não vir o suplemento, certifique-se de que ele não esteja desabilitado no Outlook.
-
-- No Outlook, escolha **Arquivo** e depois **Opções**.
-- Selecione a guia **Suplementos** da caixa de diálogo **Opções do Outlook**.
-- Confirme se **Suplemento de Reunião do Microsoft Teams para Microsoft Office** está listado em **Suplementos de Aplicativos Ativos**
-- Se o suplemento de Reunião do Teams estiver listado em **Suplementos de aplicativos desativados**, selecione **Suplementos COM** em **Gerenciar** e selecione **Ir...**
-- Marque a caixa de seleção ao lado de **Suplemento de Reunião do Microsoft Teams para Microsoft Office**.
-- Escolha **OK** em todas as caixas de diálogo e reinicie o Outlook.
-
-Para obter orientação geral sobre como gerenciar suplementos, consulte [ Exibir, gerenciar e instalar suplementos em programas do Office ](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
-
-Se o suplemento ainda não aparecer, use as seguintes etapas para verificar as configurações do registro.
-
-> [!NOTE]
-> A edição incorreta do registro pode causar danos graves ao sistema. Antes de alterar o Registro, faça backup de todos os dados importantes do computador.
-- Iniciar o RegEdit.exe
-- Navegue até HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
-- Verifique se TeamsAddin.FastConnect existe.
-- Em TeamsAddin.FastConnect, verifique se LoadBehavior existe e está definido como 3.
-  - Se o LoadBehavior tiver um valor diferente de 3, altere-o para 3 e reinicie o Outlook.
-
-### <a name="delegate-scheduling-does-not-work"></a>Agendamento de delegação não funciona
-
-Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. Como solução alternativa, o administrador pode adicionar a seguinte cadeia de caracteres à Lista de permissões do EWS: "*SchedulingService*". 
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
