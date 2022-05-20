@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menus para acessar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 76755e722abdcde6673baac42681697165921aca
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e811586a42c113960d61f51cd30ce824646d3b7c
+ms.sourcegitcommit: a867e2cc94adb96eba5e989a4d7ba5fe7a427939
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059272"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65611907"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar para Teams atendedores automáticos e filas de chamadas
 
-Os atendedores automáticos permitem que você configure opções de menu para rotear chamadas com base na entrada do chamador. Opções de menu, como "Para Vendas, pressione 1.  Para serviços, pressione 2", para um atendedor automático, permita que uma organização forneça uma série de opções que orientam os chamadores para seu destino rapidamente, sem depender de um operador humano para lidar com chamadas de entrada.
+Os atendedores automáticos permitem que você configure opções de menu para rotear chamadas com base na entrada do chamador. As opções de menu para um atendedor automático, como "Para Vendas, pressione 1– Para Serviços pressionar 2", permitem que uma organização forneça uma série de opções que orientam os chamadores para seu destino rapidamente, sem depender de um operador humano para lidar com chamadas de entrada.
 
-As filas de chamadas estão aguardando áreas para chamadores. Para situações em que os chamadores precisam entrar em contato com alguém com uma especialização específica , como vendas ou serviço, em vez de uma pessoa específica, você pode usar filas de chamadas para conectar chamadores ao grupo de agentes que podem ajudá-los. Os chamadores são colocados em espera até que um agente atribuído à fila esteja disponível para receber sua chamada.
+As filas de chamadas estão aguardando áreas para chamadores. Para situações em que os chamadores precisam entrar em contato com alguém com uma especialização específica, como vendas ou serviço, em vez de uma pessoa específica, você pode usar filas de chamadas para conectar chamadores ao grupo de agentes que podem ajudá-los. Os chamadores são colocados em espera até que um agente atribuído à fila esteja disponível para receber sua chamada.
 
 Usados juntos, os atendedores automáticos e as filas de chamadas podem rotear facilmente os chamadores para a pessoa ou o departamento apropriado em sua organização.
 
@@ -70,8 +70,8 @@ Você pode atribuir um número de telefone a uma fila de chamadas, no entanto, a
 Para configurar atendedores automáticos e filas de chamadas, você precisa dos seguintes recursos:
 
 - Uma conta de recurso para cada atendedor automático e cada fila de chamadas
-- Um sistema Telefone Microsoft gratuito – licença de usuário virtual para cada conta de recurso
-- Pelo menos um número [de serviço da Microsoft](getting-service-phone-numbers.md), Conexão do operador, número de Roteamento Direto ou um número híbrido para cada conta de recurso que você deseja que seja discada diretamente
+- Um sistema Telefone Microsoft gratuito – licença de usuário virtual para cada conta de recurso que será discada diretamente de Teams usuários ou números de telefone externos
+- Pelo menos um número de serviço da [Microsoft](getting-service-phone-numbers.md), Conexão do operador, número de Roteamento Direto ou um número híbrido para cada conta de recurso que você deseja que seja discada diretamente de números de telefone externos
  - O número do serviço pode ser um número de chamada tarifada ou gratuita
 
 > [!NOTE]
@@ -80,15 +80,25 @@ Para configurar atendedores automáticos e filas de chamadas, você precisa dos 
 Os agentes que recebem chamadas das filas de chamadas devem Enterprise Voice usuários online ou locais habilitados. Além disso, se as filas de chamadas estão usando números de Roteamento Direto, os agentes que precisam fazer conferências ou transferir chamadas também exigirão:
 
 - Uma política de roteamento de voz online atribuída se a fila de chamadas usar o modo de transferência
-- Uma licença de Audioconferência ou uma política de roteamento de voz online atribuída se a fila de chamadas usar o modo de conferência
+- Uma Audioconferência licença ou política de roteamento de voz online atribuída se a fila de chamadas usar o modo de conferência
 
 Se os agentes estiverem usando o aplicativo Microsoft Teams para chamadas de fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
-Ao usar uma conta de recurso para fins de ID de linha de chamada em filas de chamadas ou quando um atendedor automático ou fila de chamadas está transferindo chamadas para um número de telefone externo, a conta de recurso deve ter uma licença de usuário virtual do Sistema de Telefonia e uma das seguintes atribuídas:
+Ao usar uma conta de recurso para fins de ID de linha de chamada em filas de chamadas, a conta de recurso deve ter uma licença de usuário virtual do Sistema de Telefonia e uma das seguintes atribuídas:
 
 - Uma [licença do Plano](calling-plans-for-office-365.md) de Chamadas e um número de telefone atribuído
 - Um [Conexão do operador](operator-connect-plan.md) de telefone atribuído
 - Uma [política de roteamento de voz online](manage-voice-routing-policies.md) (atribuição de número de telefone é opcional ao usar o Roteamento Direto)
+
+Quando um atendedor automático ou fila de chamadas está transferindo chamadas para um número externo, contas de recursos específicas, conforme descrito abaixo, devem ter uma licença de usuário virtual do Sistema de Telefonia e uma das seguintes atribuídas:
+
+- Uma [licença do Plano](calling-plans-for-office-365.md) de Chamadas e um número de telefone atribuído
+- Um [Conexão do operador](operator-connect-plan.md) de telefone atribuído
+- Uma [política de roteamento de voz online](manage-voice-routing-policies.md) (atribuição de número de telefone é opcional ao usar o Roteamento Direto)
+
+Qual conta de recurso licenciar:
+- Licencie a conta de recurso no primeiro atendedor automático que recebe a chamada quando esse atendedor automático é transferido para outros atendedores automáticos ou filas de chamadas que transferem chamadas externamente
+- Em todos os outros cenários de chamada, licencie a conta de recurso do atendedor automático ou da fila de chamadas que executa a transferência externa
 
 > [!NOTE]
 > Se o Plano de Chamadas atribuído à conta de recurso for desabilitado ou for removido, os Créditos de Comunicação, se disponíveis no locatário (sem serem [atribuídos](what-are-communications-credits.md) à conta de recurso), serão consumidos. Se não houver Nenhum Plano de Chamada ou Créditos de Comunicação, a chamada falhará.
