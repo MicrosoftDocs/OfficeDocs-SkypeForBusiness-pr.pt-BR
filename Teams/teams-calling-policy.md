@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65313103"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65601589"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Chamadas e encaminhamento de chamadas no Teams
 
@@ -99,7 +99,7 @@ Ocupado em Disponibilidade (Opções de Disponibilidade) permite configurar como
 
 Essa configuração permite que os usuários chamem números PSTN usando o Teams cliente Web.
 
-### <a name="incoming-meeting-invites-are-automatically-answered"></a>Os convites de reunião de entrada são respondidos automaticamente
+### <a name="automatically-answer-incoming-meeting-invites"></a>Responder automaticamente aos convites de reunião recebidos
 
 Essa configuração controla se os convites de reunião de entrada são respondidos automaticamente. Ela está desativada por padrão. Lembre-se de que essa configuração se aplica somente a convites de reunião de entrada. Ele não se aplica a outros tipos de chamadas.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592886"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598354"
 ---
 # <a name="shifts-connectors"></a>Conectores de turnos
 
@@ -30,7 +30,7 @@ Os conectores shifts permitem que você integre o Shifts, a ferramenta de gerenc
 
 Conectar seu sistema WFM ao Teams capacita sua força de trabalho de linha de frente a gerenciar agendas com mais eficiência e simplifica os processos diários para maior envolvimento e produtividade. Seus funcionários de linha de frente têm um local para o agendamento, a comunicação e a colaboração precisam trabalhar, de qualquer lugar, em qualquer dispositivo.
 
-Oferecemos conectores shifts gerenciados e de software livre. Este artigo fornece uma visão geral dos conectores do Shifts e como eles funcionam.
+Este artigo fornece uma visão geral dos conectores do Shifts e como eles funcionam.
 
 ## <a name="how-shifts-connectors-work"></a>Como funcionam os conectores do Shifts
 
@@ -115,17 +115,6 @@ Os trabalhadores da linha de frente podem:
 - Solicite folga, abra turnos e troque e ofereça turnos em Turnos.
 
 Para saber mais, vá para https://connect.zebra.com/microsoft-connectors.
-
-## <a name="open-source-shifts-connectors"></a>Conectores shifts de software livre
-
-Conectores shifts de software livre são integrações orientadas pela comunidade [criadas em Shifts Graph APIs](/graph/api/resources/shift). Os seguintes conectores de software livre estão disponíveis:
-
-- Kronos-to-Teams WFC local
-- Conector shifts de JDA para Teams (para Blue Yonder versão 2017 a 2020.2)
-
-Cada conector vem com diretrizes detalhadas de implantação e configuração. Eles incluem scripts de implantação do ARM (Azure Resource Manager) que permitem hospedar todos os serviços necessários no Microsoft Azure. O código-fonte e os scripts de implantação estão disponíveis para download em um [GitHub repositório](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors). Você pode implantar como está ou personalizar ou estender para atender às suas necessidades.
-
-Para saber mais, confira [conectores shifts prontos para produção](/microsoftteams/platform/samples/shifts-wfm-connectors).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
