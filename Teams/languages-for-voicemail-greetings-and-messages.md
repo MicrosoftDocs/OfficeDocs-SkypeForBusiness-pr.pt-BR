@@ -1,5 +1,5 @@
 ---
-title: Teams idiomas para saudações e mensagens de caixa postal
+title: Teams idiomas para mensagens e saudações da caixa postal
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,75 +20,75 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Saiba quais idiomas você pode definir em Skype for Business para as mensagens padrão do sistema e saudações de caixa postal.
-ms.openlocfilehash: 8393e8a50913548a8e6ec64bcf26154e0af5b148
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Saiba quais idiomas você pode definir em Skype for Business para as mensagens padrão do sistema e as saudações da caixa postal.
+ms.openlocfilehash: 2a9b33e26bde9017be29412bb96086c708a150c1
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011935"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624135"
 ---
-# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para saudações e mensagens de caixa postal
+# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para mensagens e saudações da caixa postal
 
-Teams os idiomas a seguir para saudações de caixa postal.
+Teams dá suporte aos seguintes idiomas para saudações de caixa postal.
   
 
 
-|Linguagem  |País/Região |Disponível para visualização do usuário no email? |Disponível quando o usuário liga? |Transcrição disponível?  |
-|:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|Árabe        |Egito              |Sim                                          |Sim                                   |Não  |
-|Árabe        |Saudi Arabia (المملكة العربية السعودية)       |Sim, mas árabe (Egito) é usado.             |Não                                    |Não  |
-|Búlgaro     |Bulgária           |Sim                                          |Sim                                   |Não  |
-|Catalão       |Catalão            |Sim                                          |Sim                                   |Não  |
-|Chinês (Simplificado)   |China     |Sim                                          |Sim                                   |Sim |
-|Chinês (Hong Kong)    |China     |Sim, mas chinês (tradicional) é usado.      |Sim                                   |Sim, mas chinês (tradicional) é usado. |
-|Chinês (Tradicional)  |Taiwan    |Sim                                          |Sim                                   |Não  |
-|Croata      |Croácia            |Sim                                          |Sim                                   |Não  |
-|Tcheco         |República Tcheca     |Sim                                          |Sim                                   |Não  |
-|Dinamarquês        |Dinamarca            |Sim                                          |Sim                                   |Não  |
-|Holandês         |Bélgica            |Sim, mas holandês (Países Baixos) é usado.        |Sim                                   |Não  |
-|Holandês         |Países Baixos        |Sim                                          |Sim                                   |Não  |
-|Inglês       |Austrália          |Sim, mas inglês (Estados Unidos) é usado.    |Sim                                   |Sim, mas inglês (Estados Unidos) é usado. |
-|Inglês       |Canadá             |Sim, mas inglês (Estados Unidos) é usado.    |Sim                                   |Sim, mas inglês (Estados Unidos) é usado. |
-|Inglês       |Índia              |Sim, mas inglês (Estados Unidos) é usado.    |Sim                                   |Sim, mas inglês (Estados Unidos) é usado. |
-|Inglês       |Irlanda            |Sim, mas inglês (Estados Unidos) é usado.    |Sim                                   |Não  |
-|Inglês       |Filipinas        |Sim, mas inglês (Estados Unidos) é usado.    |Não                                    |Não  |
-|Inglês       |África do Sul       |Sim, mas inglês (Estados Unidos) é usado.    |Não                                    |Não  |
-|Inglês       |Grã-Bretanha      |Sim                                          |Sim                                   |Sim |
-|Inglês       |Estados Unidos      |Sim                                          |Sim                                   |Sim |
-|Estoniano      |Estônia            |Sim                                          |Sim                                   |Não  |
-|Finlandês       |Finlândia            |Sim                                          |Sim                                   |Não  |
-|Francês        |Bélgica            |Sim, mas francês (França) é usado.            |Sim                                   |Não  |
-|Francês        |Canadá             |Sim                                          |Sim                                   |Sim, mas francês (França) é usado.   |
-|Francês        |França             |Sim                                          |Sim                                   |Sim |
-|Francês        |Suíça        |Sim, mas francês (França) é usado.            |Sim                                   |Sim |
-|Alemão        |Áustria            |Sim, mas alemão (Alemanha) é usado.           |Sim                                   |Não  |
-|Alemão        |Alemanha            |Sim                                          |Sim                                   |Sim |
-|Alemão        |Suíça        |Sim, mas alemão (Alemanha) é usado.           |Sim                                   |Não  |
-|Grego         |Grécia             |Sim                                          |Sim                                   |Não  |
-|Hebraico        |Israel             |Sim                                          |Não                                    |Não  |
-|Híndi         |Índia              |Sim                                          |Não                                    |Não  |
-|Húngaro     |Hungria            |Sim                                          |Não                                    |Não  |
-|Indonésio    |Indonésia          |Sim                                          |Sim                                   |Não  |
-|Italiano       |Itália              |Sim                                          |Sim                                   |Sim |
-|Japonês      |Japão              |Sim                                          |Sim                                   |Sim |
-|Coreano        |Coreano             |Sim                                          |Sim                                   |Não  |
-|Letão       |Letônia             |Sim                                          |Sim                                   |Não  |
-|Lituano    |Lituânia          |Sim                                          |Sim                                   |Não  |
-|Norueguês (Bokmal)   |Noruega      |Sim                                          |Sim                                   |Não  |
-|Polonês        |Polônia             |Sim                                          |Sim                                   |Não  |
-|Português    |Brasil             |Sim, mas português (Portugal) é usado.      |Sim                                   |Sim |
-|Português    |Portugal           |Sim                                          |Sim                                   |Sim, mas português (Brasil) é usado.  |
-|Romeno      |Romênia            |Sim                                          |Sim                                   |Não  |
-|Russo       |Rússia             |Sim                                          |Sim                                   |Não  |
-|Eslovaco        |Eslováquia           |Sim                                          |Sim                                   |Não  |
-|Esloveno     |Eslovênia           |Sim                                          |Sim                                   |Não  |
-|Espanhol       |Espanha              |Sim                                          |Sim                                   |Sim |
-|Espanhol       |México             |Sim                                          |Sim                                   |Sim, mas espanhol (Espanha) é usado.   |
-|Sueco       |Suécia             |Sim                                          |Sim                                   |Não  |
-|Tailandês          |Tailândia           |Sim                                          |Sim                                   |Não  |
-|Turco       |Turquia             |Sim                                          |Sim                                   |Não  |
-|Vietnamita    |Vietnã            |Sim                                          |Sim                                   |Não  |
-|Galês         |País de Gales              |Sim                                          |Sim                                   |Não  |
+|Linguagem      |País/Região     |Id     |Disponível para visualização do usuário no email?     |Disponível quando o usuário liga?     |Transcrição disponível?      |
+|:-------------|:------------------|:------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
+|Árabe        |Egito              |ar-EG  |Sim                                          |Sim                                   |Não  |
+|Árabe        |Saudi Arabia (المملكة العربية السعودية)       |ar-SA  |Sim, mas árabe (Egito) é usado.             |Não                                    |Não  |
+|Búlgaro     |Bulgária           |bg-BG  |Sim                                          |Sim                                   |Não  |
+|Catalão       |Catalão            |ca-ES  |Sim                                          |Sim                                   |Não  |
+|Chinês (Simplificado)   |China     |zh-CN  |Sim                                          |Sim                                   |Sim |
+|Chinês (Hong Kong)    |China     |zh-HK  |Sim, mas chinês (tradicional) é usado.      |Sim                                   |Sim, mas chinês (tradicional) é usado. |
+|Chinês (Tradicional)  |Taiwan    |zh-TW  |Sim                                          |Sim                                   |Não  |
+|Croata      |Croácia            |hr-HR  |Sim                                          |Sim                                   |Não  |
+|Tcheco         |República Tcheca     |cs-CZ  |Sim                                          |Sim                                   |Não  |
+|Dinamarquês        |Dinamarca            |da-DK  |Sim                                          |Sim                                   |Não  |
+|Holandês         |Bélgica            |nl-BE  |Sim, mas holandês (Países Baixos) é usado.        |Sim                                   |Não  |
+|Holandês         |Países Baixos        |nl-NL  |Sim                                          |Sim                                   |Não  |
+|Inglês       |Austrália          |en-AU  |Sim, mas o inglês (Estados Unidos) é usado.    |Sim                                   |Sim, mas o inglês (Estados Unidos) é usado. |
+|Inglês       |Canadá             |en-CA  |Sim, mas o inglês (Estados Unidos) é usado.    |Sim                                   |Sim, mas o inglês (Estados Unidos) é usado. |
+|Inglês       |Índia              |en-IN  |Sim, mas o inglês (Estados Unidos) é usado.    |Sim                                   |Sim, mas o inglês (Estados Unidos) é usado. |
+|Inglês       |Irlanda            |en-IE  |Sim, mas o inglês (Estados Unidos) é usado.    |Sim                                   |Não  |
+|Inglês       |Filipinas        |en-PH  |Sim, mas o inglês (Estados Unidos) é usado.    |Não                                    |Não  |
+|Inglês       |África do Sul       |en-ZA  |Sim, mas o inglês (Estados Unidos) é usado.    |Não                                    |Não  |
+|Inglês       |Grã-Bretanha      |en-GB  |Sim                                          |Sim                                   |Sim |
+|Inglês       |Estados Unidos      |en-US  |Sim                                          |Sim                                   |Sim |
+|Estoniano      |Estônia            |et-EE  |Sim                                          |Sim                                   |Não  |
+|Finlandês       |Finlândia            |fi-FI  |Sim                                          |Sim                                   |Não  |
+|Francês        |Bélgica            |fr-BE  |Sim, mas francês (França) é usado.            |Sim                                   |Não  |
+|Francês        |Canadá             |fr-CA  |Sim                                          |Sim                                   |Sim, mas francês (França) é usado.   |
+|Francês        |França             |fr-FR  |Sim                                          |Sim                                   |Sim |
+|Francês        |Suíça        |fr-CH  |Sim, mas francês (França) é usado.            |Sim                                   |Sim |
+|Alemão        |Áustria            |de-AT  |Sim, mas alemão (Alemanha) é usado.           |Sim                                   |Não  |
+|Alemão        |Alemanha            |de-DE  |Sim                                          |Sim                                   |Sim |
+|Alemão        |Suíça        |de-CH  |Sim, mas alemão (Alemanha) é usado.           |Sim                                   |Não  |
+|Grego         |Grécia             |el-GR  |Sim                                          |Sim                                   |Não  |
+|Hebraico        |Israel             |he-IL  |Sim                                          |Não                                    |Não  |
+|Híndi         |Índia              |hi-IN  |Sim                                          |Não                                    |Não  |
+|Húngaro     |Hungria            |hu-HU  |Sim                                          |Não                                    |Não  |
+|Indonésio    |Indonésia          |id-ID  |Sim                                          |Sim                                   |Não  |
+|Italiano       |Itália              |it-IT  |Sim                                          |Sim                                   |Sim |
+|Japonês      |Japão              |ja-JP  |Sim                                          |Sim                                   |Sim |
+|Coreano        |Coreano             |ko-KR  |Sim                                          |Sim                                   |Não  |
+|Letão       |Letônia             |lv-LV  |Sim                                          |Sim                                   |Não  |
+|Lituano    |Lituânia          |lt-LT  |Sim                                          |Sim                                   |Não  |
+|Norueguês (Bokmal)   |Noruega      |nb-NO  |Sim                                          |Sim                                   |Não  |
+|Polonês        |Polônia             |pl-PL  |Sim                                          |Sim                                   |Não  |
+|Português    |Brasil             |pt-BR  |Sim, mas português (Portugal) é usado.      |Sim                                   |Sim |
+|Português    |Portugal           |pt-PT  |Sim                                          |Sim                                   |Sim, mas português (Brasil) é usado.  |
+|Romeno      |Romênia            |ro-RO  |Sim                                          |Sim                                   |Não  |
+|Russo       |Rússia             |ru-RU  |Sim                                          |Sim                                   |Não  |
+|Eslovaco        |Eslováquia           |sk-SK  |Sim                                          |Sim                                   |Não  |
+|Esloveno     |Eslovênia           |sl-SL  |Sim                                          |Sim                                   |Não  |
+|Espanhol       |Espanha              |es-ES  |Sim                                          |Sim                                   |Sim |
+|Espanhol       |México             |es-MX  |Sim                                          |Sim                                   |Sim, mas espanhol (Espanha) é usado.   |
+|Sueco       |Suécia             |sv-SE  |Sim                                          |Sim                                   |Não  |
+|Tailandês          |Tailândia           |th-TH  |Sim                                          |Sim                                   |Não  |
+|Turco       |Turquia             |tr-TR  |Sim                                          |Sim                                   |Não  |
+|Vietnamita    |Vietnã            |vi-VN  |Sim                                          |Sim                                   |Não  |
+|Galês         |Gales              |cy-GB  |Sim                                          |Sim                                   |Não  |
 
  

@@ -3,7 +3,7 @@ title: Alterar o idioma padrão de saudações e emails
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -22,61 +22,78 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Saiba como configurar o Microsoft Teams e Skype for Business usar outro idioma para a saudação padrão da caixa postal da sua organização.
-ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Saiba como configurar o Microsoft Teams e Skype for Business outro idioma para a saudação da caixa postal padrão da sua organização.
+ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014415"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624085"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
-Se você for um [administrador global,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)poderá configurar um Skype for Business para reproduzir sua saudação de caixa postal padrão em outro idioma. A saudação padrão do sistema é semelhante a: "Por favor, deixe uma mensagem para John Smith. Grave sua mensagem após o sinal. Ao final da gravação, desligue ou pressione a tecla jogo da velha para ver mais opções".
-  
- **Primeiro, leia estas informações importantes:**
-  
-- **Os idiomas disponíveis são determinados pelo local da organização**. Por exemplo, se a sua organização está nos Estados Unidos, você pode definir o idioma padrão como inglês ou espanhol. Se a sua organização está no Canadá, você pode escolher entre inglês e francês. Para uma lista de idiomas com suporte em Teams Skype for Business, consulte o seguinte:
-  - [Microsoft Teams idiomas com suporte](languages-for-voicemail-greetings-and-messages.md)
-  - [Skype for Business idiomas com suporte](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
+Caixa postal na Nuvem usa várias configurações de idioma para reproduzir saudações, gerar traduções de transcrição e gerar mensagens de caixa postal. As configurações de idioma podem ser especificadas por padrão no nível do locatário, por política ou individualmente em um determinado usuário.
 
-- **Alterar idiomas para mensagens de caixa postal e mensagens de caixa postal de cada usuário.** Você pode alterar o idioma preferencial dos usuários, o que alterará o idioma de suas mensagens de caixa postal e de caixa postal enviadas para sua caixa de correio Outlook caixa de correio. Para obter mais informações, [consulte How to set language and region settings for Microsoft 365 or Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+## <a name="greetings"></a>Saudações
+As saudações são executadas para o chamador deixando a caixa postal e podem ser os seguintes tipos:
 
-  > [!NOTE]
-  > Depois de entrar, os usuários podem alterar seu próprio idioma de saudação por meio das configurações. Para obter mais informações, consulte [Change your display language and time zone in Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
-  
-- **Deseja gravar sua mensagem de caixa postal de saída?** Veja [Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Para Microsoft Teams - Os usuários podem alterar suas configurações de caixa postal Teams [configurações do](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) cliente da área de trabalho
+- Saudações do sistema
+- Saudações personalizadas registradas pelo usuário que está sendo chamado
+- Saudação de conversão de texto em fala personalizada especificada no usuário que está sendo chamado
 
-- **Deseja alterar o idioma do prompt de caixa postal?** Para Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em Prompt **Language**. Para Microsoft Teams - Os usuários podem alterar sua saudação de caixa postal das [configurações Teams cliente da área de trabalho](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+O idioma usado para reproduzir as saudações do sistema é, em ordem de prioridade, o idioma de prompt primário e secundário especificado na política de caixa postal online atribuída ao usuário, o idioma preferencial especificado para o usuário ou o idioma do locatário padrão.
+
+A saudação personalizada e de ausência temporária é registrada pelo usuário no idioma escolhido pelo usuário.
+
+Se as saudações personalizadas de conversão de texto em fala forem especificadas para o usuário pelo usuário ou pelo administrador de locatários, o idioma usado para gerar a fala será o PromptLanguage especificado junto com as saudações de conversão de texto em fala.
+
+As saudações personalizadas de conversão de texto em fala só serão usadas se não houver saudações personalizadas registradas para o usuário.
+
+## <a name="transcription"></a>Transcrição
+Se habilitado pela política de caixa postal online para o usuário que está sendo chamado, Caixa postal na Nuvem tentará transcrever a caixa postal deixada pelo chamador. Ele usará a detecção de fala para entender o idioma usado no conteúdo de áudio e, se possível, transcrever o conteúdo usando o idioma detectado.
+
+## <a name="transcription-translation"></a>Tradução de transcrição
+Se habilitado pela política de caixa postal online para o usuário que está sendo chamado, Caixa postal na Nuvem traduzirá a caixa postal transcrita. Ele traduzirá do idioma detectado durante a detecção de fala para, em ordem de prioridade, o idioma preferencial especificado para o usuário ou o idioma do locatário padrão.
+
+## <a name="voicemail-message-template"></a>Modelo de mensagem de caixa postal
+Caixa postal na Nuvem gerará a mensagem de voz usando um modelo de idioma com base em, em ordem de prioridade, o idioma preferencial especificado para o usuário ou o idioma de locatário padrão.
+
+## <a name="setting-the-preferred-language-for-a-user"></a>Definindo o idioma preferencial para um usuário
+Você pode definir o idioma preferencial para um usuário usando o PowerShell no Azure Active Directory ou no Active Directory local. Para obter mais informações, [consulte Como definir configurações de idioma e região para Microsoft 365 ou Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+
+Os usuários podem alterar seu próprio idioma preferido por meio de suas configurações depois de entrar. Para obter mais informações, [consulte Alterar o idioma de exibição e o fuso horário no Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Alterar o idioma do sistema para todas as pessoas na organização
 
-1. Entre com sua [conta de administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Entre com sua conta [de administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
-2. Na Centro de administração do Microsoft 365, **escolha** Configurações  >  **Configurações** perfil  >  **da Organização.**
-
-     ![Captura de tela mostrando como escolher Configurações e, em seguida, perfil de organização.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
-  
-3. Escolha **Editar**.
-
-    ![Captura de tela mostrando a opção Editar.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
-  
+2. Na página Centro de administração do Microsoft 365, escolha **Configurações** >  **Organização** >  **de configurações.**
+3. Escolha **informações da organização**.
 4. Selecione um idioma na lista **Idioma preferencial** para todas as pessoas em sua organização.
-
 5. Escolha **Salvar**.
 
-## <a name="related-articles-for-the-admin"></a>Artigos relacionados para o administrador
+**Os idiomas disponíveis são determinados pelo local da organização**. Por exemplo, se a sua organização está nos Estados Unidos, você pode definir o idioma padrão como inglês ou espanhol. Se a sua organização está no Canadá, você pode escolher entre inglês e francês.
 
-- [Sistema de Telefonia e Planos de Chamadas](calling-plan-landing-page.md)
+## <a name="supported-languages-in-cloud-voicemail"></a>Idiomas com suporte no Caixa postal na Nuvem
+Para obter uma lista de idiomas com suporte no Caixa postal na Nuvem para Microsoft Teams e Skype for Business, consulte [Caixa postal na Nuvem idiomas compatíveis](languages-for-voicemail-greetings-and-messages.md).
+  
 
-- [Configurar Planos de Chamadas](set-up-calling-plans.md)
+## <a name="custom-greeting-recorded-by-a-user"></a>Saudação personalizada registrada por um usuário
+Os usuários podem gravar suas próprias saudações personalizadas e fora do escritório. Confira [Teams configurações do cliente da área de](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) trabalho e [verifique Skype for Business caixa postal e opções](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
-- [Planejar Sistema de Telefonia em Microsoft 365 ou Office 365 com conectividade PSTN local no Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>Saudação de conversão de texto em fala personalizada especificada para um usuário
+O administrador de locatários pode especificar a saudação de texto em fala personalizada e o idioma de prompt para um usuário usando o cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>Saudação de conversão de texto em fala personalizada especificada por um usuário
+Os usuários podem especificar suas próprias saudações personalizadas de conversão de texto em fala e o idioma usado para as saudações. Por Microsoft Teams - Os usuários podem alterar a saudação da caixa postal das [Teams do cliente da área de trabalho](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). Por Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em **Idioma do Prompt**. 
 
-- [Alterar o idioma de exibição e o fuso horário no Microsoft 365 ou Office 365 para Empresas](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 
-- [Adicionar um idioma ou definir preferências de idioma no Office 2010 e posterior](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
+## <a name="related-articles"></a>Artigos relacionados
 
-- [Habilitar ou alterar o idioma de layout do teclado](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)
+
+[Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings)
+
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)

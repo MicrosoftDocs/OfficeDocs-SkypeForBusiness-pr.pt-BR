@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: f059f55281df2925511b85941fefbb675d781852
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 2806499e81b524168944e6cca2e9a6acb4d0b6a7
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125446"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624125"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
@@ -148,7 +148,7 @@ As seções a seguir descrevem como gerenciar chamadas de emergência para Conex
 
 Cada Conexão do operador usuário é habilitado automaticamente para chamadas de emergência. Chamadas de emergência são roteadas automaticamente para a Conexão do operador para um determinado número.
 
-A capacidade de um administrador de locatários definir o endereço registrado para um usuário do Conexão do operador dependerá dos recursos atribuídos ao número quando a operadora os carregar em um inventário de clientes. Com base nessa configuração,&mdash; o administrador do locatário pode ou não precisar definir&mdash;, modificar ou excluir o local de emergência de um usuário. 
+A capacidade de um administrador de locatários definir o endereço registrado para um usuário do Conexão do operador dependerá dos recursos atribuídos ao número quando a operadora os carregar em um inventário de clientes. Com base nessa configuração, o administrador de locatários&mdash; pode ou não ser necessário ou&mdash; não ser capaz de definir, modificar ou excluir o local de emergência de um usuário. 
 
 ### <a name="dynamic-emergency-calling-for-operator-connect"></a>Chamada de emergência dinâmica para Conexão do operador
 
@@ -275,9 +275,6 @@ Durante uma chamada de emergência, uma central de segurança é conferênciada 
 ### <a name="custom-emergency-disclaimer"></a>Aviso de isenção de responsabilidade de emergência personalizado
 
 Os administradores têm a capacidade de adicionar uma faixa personalizada no locatário para que seus usuários habilitem o E911. Os usuários podem ignorar a faixa quando confirmarem seu endereço e a faixa reaparecerá quando Teams for reiniciado. Para habilitar esse recurso, defina  o aviso de isenção de responsabilidade do serviço de emergência na política de chamada de Teams de emergência e insira uma mensagem de cadeia de caracteres a ser exibida aos usuários. Esse campo é opcional ao configurar uma política personalizada e o campo de cadeia de caracteres é limitado a 250 caracteres.
-
-> [!NOTE]
-> Atualmente, isso é configurável usando o PowerShell com a política EnhancedEmergencyServicesDisclaimer. No futuro, isso também será configurável no centro Teams administrador.
 
     
 ## <a name="related-topics"></a>Tópicos relacionados
