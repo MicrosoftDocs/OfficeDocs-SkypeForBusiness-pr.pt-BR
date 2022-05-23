@@ -1,7 +1,7 @@
 ---
 title: Navegar por Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5c87bca0eacfdc85ca39d997488a97faedaf0824
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922672"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635239"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegue Microsoft Teams
 
-Agora que você tem uma compreensão clara do caminho e das necessidades exclusivos da sua organização, é hora de começar sua jornada para uma colaboração avançada com Microsoft Teams. Use a seção a seguir para saber como navegar pelas funcionalidades do Kaziala complementadas Teams.
+Agora que você tem uma compreensão clara do caminho e das necessidades exclusivos da sua organização, é hora de começar sua jornada para uma colaboração avançada com Microsoft Teams. Use a seção a seguir para saber como navegar Kaizala recursos da Teams.
 
 | De Kaizala | Para Teams |
 |---------|-----------------------|
@@ -42,7 +42,7 @@ Agora que você tem uma compreensão clara do caminho e das necessidades exclusi
 | | [Para usuários finais](#end-user-guidance) |
 | Kaizala de grupo| [Kaizala de grupo](#kaizala-group-dissolution) |
 | Kaizala dados do locatário| [Exportar Kaizala de locatário](#export-kaizala-tenant-data)  |
-| Colaborando com usuários externos (fornecedores/fornecedores/parceiros)| [Usando Teams para trabalho e Teams para interoperabilidade de uso pessoal](#collaborating-with-external-usersvendorssupplierspartners) |
+| Colaborando com usuários externos (fornecedores/fornecedores/parceiros)| [Adicionar ou convidar pessoas fora de sua Teams para um chat](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## <a name="getting-started"></a>Introdução
 
@@ -185,6 +185,7 @@ Crie um comunicado para notificar os membros da equipe sobre notícias ou açõe
 - Digite um título, altere a cor da tela de fundo ou adicione uma imagem de plano de fundo para a área de título.
 
 - Digite o assunto do anúncio na área Adicionar uma subtítulo, depois o corpo da mensagem e selecione o botão Enviar.
+
     ![Comunicado móvel](media/kaizala-to-teams-image10.png)
 
 **Etapa 3**: Selecionar canais para transmissão de mensagem.
@@ -202,21 +203,21 @@ Microsoft Teams fornece várias funcionalidades e soluções para cartões de a�
 
 ![Envolva seu pessoal com Teams](media/kaizala-to-teams-image12.png)
 
-A Teams permite que você use as ferramentas de organização existentes por meio da integração com o Microsoft Teams juntamente com aplicativos de Microsoft 365 prontos para uso e aplicativos de terceiros. Há mais de 300 aplicativos externos disponíveis no Microsoft Teams.
+A Teams permite que você use as ferramentas de organização existentes por meio da integração com o Microsoft Teams juntamente com aplicativos de Microsoft 365 prontos para uso e aplicativos de terceiros. Há mais de 800 aplicativos externos disponíveis no Microsoft Teams.
 
 ### <a name="polls-surveys-and-checklists-in-teams"></a>Votações, pesquisas e listas de verificação Teams
 
 [As](https://github.com/OfficeDev/microsoft-teams-apps-poll/wiki) [votações, pesquisas](https://github.com/OfficeDev/microsoft-teams-apps-survey) [e cartões de](https://github.com/OfficeDev/microsoft-teams-app-checklist) ação da lista de verificação agora estão disponíveis como modelos de aplicativo [](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) de extensão de Teams de mensagem no GitHub.
 
-**A** votação permite que os usuários criem e enviem votações rapidamente em um chat ou canal para saber a opinião de sua equipe. O aplicativo de sondagem tem suporte em todas as plataformas – Teams desktop, navegador, iOS e clientes Android. Ele está pronto para implantação como parte de sua assinatura Microsoft 365 existente
+**A** votação permite que os usuários criem e enviem votações rapidamente em um chat ou canal para saber a opinião de sua equipe. O aplicativo de sondagem tem suporte em todas as plataformas – Teams desktop, navegador, iOS e Android clientes. Ele está pronto para implantação como parte de sua assinatura Microsoft 365 existente
 
 ![Sonda o modelo de aplicativo Teams](media/polltemplatecompose.gif)
 
-**A** pesquisa permite que os usuários criem uma pesquisa em um chat ou canal para fazer uma série de perguntas e obter insights acionáveis. Use a Pesquisa para – Registros, Registros, Comentários, Depoimentos, Captura de Cliente Potencial, Relatórios, Reclamações e Avaliações. O aplicativo de pesquisa tem suporte em todas as plataformas – Teams desktop, navegador, iOS e clientes Android. Ele está pronto para implantação como parte de sua assinatura de Microsoft 365 existente.
+**A** pesquisa permite que os usuários criem uma pesquisa em um chat ou canal para fazer uma série de perguntas e obter insights acionáveis. Use a Pesquisa para – Registros, Registros, Comentários, Depoimentos, Captura de Cliente Potencial, Relatórios, Reclamações e Avaliações. O aplicativo de pesquisa tem suporte em todas as plataformas – Teams desktop, navegador, iOS e Android clientes. Ele está pronto para implantação como parte de sua assinatura de Microsoft 365 existente.
 
 ![Modelo de aplicativo de pesquisa no Teams](media/surveytemplatecompose.gif)
 
-**A lista de** verificação permite que você colabore com sua equipe criando uma lista de verificação compartilhada em um chat ou canal. O aplicativo de lista de verificação tem suporte em todas as plataformas – Teams desktop, navegador, iOS e clientes Android. Ele está pronto para implantação como parte de sua assinatura de Microsoft 365 existente.
+**A lista de** verificação permite que você colabore com sua equipe criando uma lista de verificação compartilhada em um chat ou canal. O aplicativo de lista de verificação tem suporte em todas as plataformas – Teams desktop, navegador, iOS e Android clientes. Ele está pronto para implantação como parte de sua assinatura de Microsoft 365 existente.
 
 ![Modelo de aplicativo de lista de verificação Teams](media/checklisttemplatecompose.gif)
 
@@ -242,13 +243,13 @@ Crie e envie mensagens destinadas a várias equipes ou a um grande número de fu
 
 ### <a name="photo-check-ins"></a>Check-ins de fotos
 
-Use a Teams Smart Camera para capturar e compartilhar uma imagem anotada com sua equipe. Compartilhe facilmente sua localização com precisão para manter sua equipe em dia. Precisa ter mais informações para comunicar como os recursos de Kaizala são mapeados para Teams. Definitivamente, temos o máximo de informações do conjunto de slides que podemos para o documento.
+Use o Teams Smart Câmera para capturar e compartilhar uma imagem anotada com sua equipe. Compartilhe facilmente sua localização com precisão para manter sua equipe em dia. Precisa ter mais informações para comunicar como os recursos de Kaizala são mapeados para Teams. Definitivamente, temos o máximo de informações do conjunto de slides que podemos para o documento.
 
 [Use o modelo de aplicativo de check-ins](/microsoftteams/platform/samples/app-templates#staff-check-ins) de equipe para permitir que a equipe de linha de frente forneça facilmente informações críticas e atualizações de status de tempo em uma base agendada ou ad hoc diretamente do Teams. O aplicativo dá suporte a localização em tempo real, fotos, anotações, notificações de lembrete e fluxos de trabalho automatizados.
 
 ### <a name="quiz-in-teams"></a>Teste no Teams
 
-O Teste é uma extensão [Teams de](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) mensagens personalizada que permite que você crie um teste dentro de um chat ou canal para verificação de conhecimentos e resultados instantâneos. Você pode usar Testes para, exames em classe e offline, verificação de conhecimentos dentro da equipe e para testes divertidos dentro de uma equipe. O aplicativo de teste tem suporte em várias plataformas, como Teams desktop, navegador, iOS e clientes Android. Este aplicativo está pronto para implantação como parte de sua assinatura Microsoft 365 existente.
+O Teste é uma extensão [Teams de](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) mensagens personalizada que permite que você crie um teste dentro de um chat ou canal para verificação de conhecimentos e resultados instantâneos. Você pode usar Testes para, exames em classe e offline, verificação de conhecimentos dentro da equipe e para testes divertidos dentro de uma equipe. O aplicativo de teste tem suporte em várias plataformas, como Teams desktop, navegador, iOS e Android clientes. Este aplicativo está pronto para implantação como parte de sua assinatura Microsoft 365 existente.
 
 [Obter em GitHub](https://github.com/OfficeDev/microsoft-teams-apps-quiz)
 
@@ -258,7 +259,7 @@ O Teste é uma extensão [Teams de](/microsoftteams/platform/messaging-extension
 
 [Use o modelo de aplicativo Checkins](/microsoftteams/platform/samples/app-templates#staff-check-ins) de Equipe para permitir que a equipe de linha de frente forneça facilmente informações críticas de tempo e atualizações de status em uma base agendada ou ad hoc diretamente do Teams. O aplicativo dá suporte a localização em tempo real, fotos, anotações, notificações de lembrete e fluxos de trabalho automatizados.
 
-Use Teams para facilitar o treinamento para sua organização. O treinamento é um aplicativo [Teams](/microsoftteams/platform/what-are-messaging-extensions) extensão de mensagens personalizado que permite que os usuários publiquem um treinamento em um chat ou canal para compartilhamento de conhecimento offline e atualização. O aplicativo tem suporte em vários clientes Teams plataforma, como desktop, navegador, iOS e Android. Este aplicativo está pronto para implantação como parte de sua Microsoft 365 assinatura.
+Use Teams para facilitar o treinamento para sua organização. O treinamento é um aplicativo [Teams](/microsoftteams/platform/what-are-messaging-extensions) extensão de mensagens personalizado que permite que os usuários publiquem um treinamento em um chat ou canal para compartilhamento de conhecimento offline e atualização. O aplicativo tem suporte em vários clientes Teams plataforma, como área de trabalho, navegador, iOS e Android. Este aplicativo está pronto para implantação como parte de sua Microsoft 365 assinatura.
 
 [Obter em GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
@@ -282,13 +283,13 @@ Siga esta abordagem de três etapas para obter suas soluções para Microsoft Te
 
 3. Explore as abordagens a seguir por frequência e complexidade de uso.
 
-    - Explorar soluções alternativas com [recursos Microsoft Teams nativo](/microsoftteams/platform/concepts/capabilities-overview)
+    - Aproveitar os recursos Microsoft Teams nativos
 
-    - Usar [integrações de aplicativos 3P](deploy-apps-microsoft-teams-landing-page.md)
+    - Usar [a integração de aplicativos de terceiros e explorar a loja de aplicativos](deploy-apps-microsoft-teams-landing-page.md)
 
     - Descobrir [modelos de aplicativo](/microsoftteams/platform/samples/app-templates)
 
-    - Criar [desenvolvimento de solução personalizada](/microsoftteams/platform/overview)
+    - Criar [aplicativos personalizados usando a Teams plataforma](/microsoftteams/platform/overview)
 
 ## <a name="management-in-microsoft-teams"></a>Gerenciamento no Microsoft Teams
 
@@ -300,7 +301,7 @@ Os administradores podem gerenciar toda Teams carga de trabalho ou podem ter per
 
 Para navegar pelo centro de administração, [visite Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-Você pode monitorar a segurança e a conformidade da sua organização Microsoft 365 portal de conformidade do [Microsoft Purview](/microsoft-365/compliance/microsoft-365-compliance-center) e a [Central de Segurança da Microsoft](/microsoft-365/security/defender/overview-security-center).
+Você pode monitorar a segurança e a conformidade da sua organização Microsoft 365 com o [portal de conformidade do Microsoft Purview](/microsoft-365/compliance/microsoft-365-compliance-center) e a [Central de Segurança da Microsoft](/microsoft-365/security/defender/overview-security-center).
 
 Proteja sua empresa e capacite seus usuários no [centro de administração do Azure Active Directory](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) em que você pode examinar grupos, identidade, licenças e acesso entre Microsoft 365.
 
@@ -315,9 +316,9 @@ Use a tabela a seguir para navegar pelas funcionalidades correspondentes no Micr
 | Criar grupos (conectado à organização) | **Criar equipes** por meio da Área de Trabalho ou do aplicativo móvel |
 | Adicionando usuários em massa | Para adicionar usuários em massa à equipe – considere a criação de uma equipe por meio de grupos do O365, DLs do O365 ou grupo de segurança |
 | Diretório | Pesquise qualquer pessoa em sua organização por meio da **Barra de Pesquisa** nas equipes. Os resultados da Pesquisa também retornarão arquivos, mensagens e postagens |
-| Análise (Cartões de Ação) | **Pesquisas**, **Pesquisas eChecklists** **têm relatórios internos com dados baixáveis. Os trabalhos também podem ser atribuídos com a ajuda do Planejador** de Tarefas **. Outros aplicativos de terceiros, comoTrello****,** Wrike** também podem ser usados com facilidade no Microsoft Teams |
+| Análise (Cartões de Ação) | **Pesquisas**, **pesquisas e** **listas de** verificação criaram relatórios com dados baixáveis. Os trabalhos também podem ser atribuídos com a ajuda do aplicativo Tarefas Teams, disponível para usuários. Para mais cenários, aplicativos de terceiros, como **o Trello**, **o Asana** também pode ser explorado para ser usado em Teams. |
 | Extensões – Conectores | Use a **opção Conectores** no menu (...) para qualquer canal para o qual o conector é necessário. |
-| Relatório de adoção de análise (uso), relatório de uso, relatório de atividades | Os proprietários da equipe podem acessar relatórios para suas equipes navegando no menu (...) para gerenciar **o** **teamanalytics** > . |
+| [Relatório de adoção de análise (uso](teams-analytics-and-reports/view-analytics.md)), [relatório de uso](teams-analytics-and-reports/teams-usage-report.md), [relatório de atividades](teams-analytics-and-reports/user-activity-report.md) | Os proprietários da equipe podem acessar relatórios para suas equipes navegando no menu (...) para gerenciar **o** **teamanalytics** > . |
 
 > [!NOTE]
 > Teams usuários finais podem usar o Teams desktop ou móvel para gerenciar suas equipes e canais individuais e não precisarão acessar o centro de administração do Teams.
@@ -415,20 +416,27 @@ Ao usar Teams, você ainda pode manter o controle dos dados corporativos Kaizala
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>Colaborando com usuários externos (fornecedores/fornecedores/parceiros)
 
-Colaborar com fornecedores, fornecedores, parceiros e outros usuários externos é mais fácil do que nunca Microsoft Teams. Com Teams, os usuários têm a capacidade de adicionar usuários externos com números de telefone. Isso é compatível com Conexão Microsoft Teams. Os usuários dentro da organização podem se comunicar com usuários externos usando Teams para trabalho e Teams para interoperabilidade de contas pessoais. A colaboração de usuários externos Teams também pode ser feita com acesso de convidado usando um email pessoal ou oficial. Há suporte para postagem cruzada de comunicados entre equipes e canais com Teams. Por exemplo: seus fornecedores e fornecedores seriam capazes de enviar comunicados uns aos outros Teams canais ou equipes. Visite [Enviar um comunicado para um canal](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992) para saber mais sobre o que damos suporte no Teams.
+Microsoft Teams oferece soluções seguras para colaborar com partes externas e, com Conexão Microsoft Teams estamos facilitando ainda mais o trabalho com qualquer pessoa de fora da sua organização. Teams permite que os usuários comerciais conversem com usuários comerciais externos, ou seja, usuários comerciais em outras organizações. Com base nesse privilégio, estamos permitindo que você converse com membros da equipe fora da sua organização, mesmo que eles estejam usando uma Teams pessoal. Essas contas são usadas com frequência pelo SMB e, portanto, essa nova funcionalidade ajuda você a fortalecer a relação com parceiros externos.
 
-## <a name="what-is-external-access-in-teams"></a>O que é o Acesso Externo Teams?
+Conforme anunciado anteriormente no [Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127), você pode convidar qualquer usuário do Teams para conversar inserindo o endereço de email completo ou o número de telefone que você deseja acessar e iniciar um chat um-para-um ou em grupo com qualquer pessoa com uma conta pessoal da Microsoft, sem necessidade de alternância de locatário.
 
-O acesso externo é uma maneira de os usuários do Teams de um domínio externo inteiro encontrarem, ligarem, baterem papo e marcarem reuniões com você no Teams. Para saber mais sobre como gerenciar o acesso externo, visite [Gerenciar acesso externo](/microsoftteams/manage-external-access).
+Conversar com usuários externos sem a necessidade de alternar locatários permite que você obtenha os resultados de que precisa mais rapidamente. Vamos examinar mais detalhadamente como ele funciona.
 
-## <a name="what-is-guest-access-in-teams"></a>O que é o Acesso de Convidado Teams?
+Dependendo das configurações administrativas da sua organização e do usuário da conta pessoal do Teams, você pode iniciar conversas com usuários externos da conta pessoal do Teams e os usuários da conta pessoal do Teams externos podem iniciar conversas com Teams usuários do trabalho.
 
-Com [o acesso de](/MicrosoftTeams/guest-access) convidados, você pode fornecer acesso a equipes, documentos em canais, recursos, chats e aplicativos para pessoas de fora da sua organização, mantendo o controle sobre seus dados corporativos. Nenhum licenciamento adicional é necessário para adicionar Convidados Teams.
+Teams usuários gerenciados por uma organização podem convidar Teams usuários de contas pessoais com os quais eles querem conversar inserindo seu endereço de email completo ou número de telefone. Teams usuários pessoais podem inserir o endereço de email organizacional exato do usuário que eles querem acessar e tentar iniciar um chat.
 
-## <a name="who-can-be-a-guest-in-teams"></a>Who pode ser um convidado no Teams?
+Se as pessoas com quem você deseja conversar ainda não Teams, elas receberão um email ou uma mensagem de texto convidando-os a participar da conversa usando uma conta pessoal. Quando eles se registrarem e se conectarem Teams conta pessoal, eles poderão participar do chat.
 
-Um convidado é alguém que não é um funcionário ou membro da sua organização. Eles não têm uma conta corporativa com sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores.
-Qualquer pessoa que não faz parte da sua organização pode ser [adicionada como convidado no Teams](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team). Isso significa que qualquer pessoa com uma conta de negócios (ou seja, uma conta do Azure Active Directory) ou uma conta de email do consumidor (por exemplo, outlook.com, gmail.com etc.) pode participar como convidado no Teams com acesso a equipes e experiências de canal.
+Depois que as pessoas convidadas aceitarem o convite, você poderá iniciar um novo chat um-para-um ou em grupo ou até mesmo adicioná-los a um chat em grupo externo existente. Essa conversa de chat aparecerá junto com seus outros chats, sem a necessidade de alternar entre locatários para exibir o chat.
+
+Como parte do seu chat, você pode se expressar enviando e recebendo mensagens avançadas, GIFs e mídia.
+
+Você pode optar por permanecer somente nas conversas em que deseja estar. Você pode bloquear mensagens de usuários externos ou sair de um chat em grupo.
+
+Teams usuários gerenciados por uma organização e Teams de contas pessoais têm a opção de recusar um convite externo. É possível enviar mensagens a um usuário externo até 10 vezes antes de aceitar, mas se não houver aceitação após 10 mensagens, você não poderá enviar mensagens adicionais para esse usuário.
+
+Exiba [](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) a página de suporte e leia o [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) para saber mais sobre como o Teams permite que você colabore perfeitamente com clientes e parceiros externos dentro da segurança e segurança de seu workspace de Teams confiável.
 
 ## <a name="next-steps"></a>Próximos passos
 
