@@ -1,7 +1,7 @@
 ---
-title: Gerenciar políticas de voz e chamadas em Teams
-author: karlistites
-ms.author: kastites
+title: Gerenciar políticas de voz e chamada no Teams
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,26 +15,26 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5207f9bbfc7212d09394f5b507559c715e561b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8a63aa772d94a4a385301315d1c1bd3b6488fa3b
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577735"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646460"
 ---
-# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de voz e chamadas em Microsoft Teams
+# <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de voz e chamada no Microsoft Teams
 
-As políticas de voz e chamada são usadas para controlar voz e chamadas em Microsoft Teams.
+As políticas de voz e chamada são usadas para controlar a voz e a chamada Microsoft Teams.
 
 ## <a name="emergency-calling-policies"></a>Políticas de chamada de emergência
 
-Você usa [políticas de chamada de](manage-emergency-calling-policies.md) emergência para configurar o que acontece quando um usuário em sua organização faz uma chamada de emergência. Essas políticas são gerenciadas no centro de administração Teams ou usando Windows PowerShell.
+Você usa [políticas de chamada de emergência](manage-emergency-calling-policies.md) para configurar o que acontece quando um usuário em sua organização faz uma chamada de emergência. Essas políticas são gerenciadas no Teams de administração ou usando Windows PowerShell.
 
 ![Captura de tela da política de chamada de emergência.](media/emergency-calling-policy2.png)
 
 ## <a name="emergency-call-routing-policies"></a>Políticas de roteamento de chamadas de emergência
 
-Se sua organização tiver implantado Sistema de Telefonia Roteamento **Direto,** você poderá usar políticas de roteamento de chamadas de emergência para determinar para onde as chamadas de emergência são roteadas, se os serviços de emergência aprimorados estão habilitados e quais números são usados para serviços de emergência. [](manage-emergency-call-routing-policies.md) Essas políticas são gerenciadas usando o PowerShell ou no Microsoft Teams de administração.
+Se sua organização tiver implantado o Sistema de Telefonia Roteamento Direto, você poderá [](manage-emergency-call-routing-policies.md) usar políticas de roteamento de chamadas de emergência para determinar para onde as chamadas de emergência são roteados, se os serviços **de emergência aprimorados** estão habilitados e quais números são usados para serviços de emergência. Essas políticas são gerenciadas usando o PowerShell ou no Microsoft Teams de administração.
 
 ![Captura de tela da política de roteamento de chamadas de emergência.](media/emergency-call-routing-policy.png)
 
@@ -46,7 +46,7 @@ Se sua organização tiver implantado Sistema de Telefonia Roteamento **Direto,*
 
 ## <a name="voice-routing-policies"></a>Políticas de roteamento de voz
 
-Uma [política de roteamento de](manage-voice-routing-policies.md) voz é um contêiner para registros de uso da PSTN (Rede Telefônica Pública Comugada). Você pode usar essas políticas se sua organização tiver implantado Sistema de Telefonia **Roteamento Direto.** As políticas de roteamento de voz podem ser gerenciadas com o PowerShell ou no Teams de administração.
+Uma [política de roteamento de](manage-voice-routing-policies.md) voz é um contêiner para registros de uso de PSTN (Rede Telefônica Pública Comunada). Você poderá usar essas políticas se sua organização tiver implantado **Sistema de Telefonia Roteamento Direto**. As políticas de roteamento de voz podem ser gerenciadas com o PowerShell ou no Teams de administração.
 
 ![Captura de tela da política de roteamento de voz.](media/voice-routing-policy.png)
 
@@ -56,21 +56,21 @@ Uma [política de roteamento de](manage-voice-routing-policies.md) voz é um con
 
 ![Captura de tela da política de chamada.](media/calling-policy.png)
 
-## <a name="call-park-and-retrieve-policies"></a>Estacionamento de chamada e políticas de recuperação
+## <a name="call-park-and-retrieve-policies"></a>Estacionamento de chamadas e recuperação de políticas
 
-[O estacionamento de chamada e a](call-park-and-retrieve.md) recuperação permitem que os usuários coloquem outros usuários em espera e habilitam o mesmo usuário ou outra pessoa a continuar a chamada.
+[O estacionamento de chamadas e](call-park-and-retrieve.md) a recuperação permitem que os usuários coloquem outros usuários em espera e habilitem o mesmo usuário ou outra pessoa a continuar a chamada.
 
-![Captura de tela do estacionamento de chamada e política de recuperação.](media/call-park-policy.png)
+![Captura de tela do estacionamento de chamadas e da política de recuperação.](media/call-park-policy.png)
 
 ## <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
-[Planos de discagem](create-and-manage-dial-plans.md) traduzem números de telefone discados para autorização e roteamento de chamadas. Você pode criar e gerenciar planos de discagem por meio do PowerShell ou no Microsoft Teams de administração.
+[Os planos de discagem](create-and-manage-dial-plans.md) convertem números de telefone discados para autorização e roteamento de chamadas. Você pode criar e gerenciar planos de discagem por meio do PowerShell ou no Microsoft Teams de administração.
 
 ![Captura de tela do plano de discagem.](media/dial-plans.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-* [Gerenciar políticas de chamada de emergência em Microsoft Teams](manage-emergency-calling-policies.md)
+* [Gerenciar políticas de chamadas de emergência no Microsoft Teams](manage-emergency-calling-policies.md)
 * [Gerenciar políticas de roteamento de chamada](manage-emergency-call-routing-policies.md)
 * [Gerenciar políticas de identificação de chamadas no Microsoft Teams](caller-id-policies.md)
 * [Gerenciar políticas de roteamento de voz](manage-voice-routing-policies.md)

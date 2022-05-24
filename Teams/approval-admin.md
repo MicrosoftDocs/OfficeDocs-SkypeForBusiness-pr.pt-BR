@@ -1,9 +1,9 @@
 ---
 title: Disponibilidade do aplicativo Aprovações no Teams
-author: guptaashish
-ms.author: guptaashish
+author: mkbond007
+ms.author: mabond
 ms.reviewer: farhazk
-manager: prkosh
+manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186977"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646250"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -99,10 +99,10 @@ Permissões de modelo de aprovação
 
 - Todos os proprietários da equipe podem criar um modelo de aprovação para as equipes que eles têm.
 
-- Quando um administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente um novo grupo Azure Active Directory (AAD) para todos os administradores do locatário, incluindo os administradores de serviços globais e Teams. Esses administradores são adicionados como proprietários do grupo, para que possam cogerenciar modelos organizacionais. Os administradores que são novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários do grupo para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
+- Quando um administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente um novo grupo do Azure Active Directory (AAD) para todos os administradores do locatário, incluindo os administradores de serviços globais e Teams. Esses administradores são adicionados como proprietários do grupo, para que possam cogerenciar modelos organizacionais. Os administradores que são novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários do grupo para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
 
 > [!Note]
-> Se um administrador excluir o grupo, você terá um mês para restaurá-lo no portal Azure Active Directory (AAD) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir esse grupo dentro da lixeira, você perderá todos os dados relacionados.
+> Se um administrador excluir o grupo, você terá um mês para restaurá-lo no portal do Azure Active Directory (AAD) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir esse grupo dentro da lixeira, você perderá todos os dados relacionados.
 
 ## <a name="disable-the-approvals-app"></a>Desabilitar o aplicativo Aprovações
 
