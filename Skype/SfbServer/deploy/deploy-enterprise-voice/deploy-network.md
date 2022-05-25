@@ -1,6 +1,6 @@
 ---
-title: 'Implantar regiões de rede, sites e sub-redes em Skype for Business'
-ms.reviewer: null
+title: Implantar regiões de rede, sites e sub-redes em Skype for Business
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,37 +8,42 @@ audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - IT_Skype16
-  - Strat_SB_Admin
-ms.custom: null
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 'Crie ou modifique regiões de rede, sites de rede e associe sub-redes de rede Skype for Business Server. Todos eles são usados para os recursos avançados Enterprise Voice: bypass de mídia, controle de admissão de chamadas e roteamento baseado em local.'
+description: 'Crie ou modifique regiões de rede, sites de rede e associe sub-redes de rede Skype for Business Server. Todos eles são usados para os recursos avançados Enterprise Voice: bypass de mídia, controle de admissão de chamadas e roteamento baseado em localização.'
+ms.openlocfilehash: ba2ec89de389c9ee7dc85dc5d6d350e3e7b12c1f
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671577"
 ---
-
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implantar regiões de rede, sites e sub-redes em Skype for Business
 
-Crie ou modifique regiões de rede, sites de rede e associe sub-redes de rede Skype for Business Server. Todos eles são usados para os recursos avançados Enterprise Voice: bypass de mídia, controle de admissão de chamadas e roteamento baseado em local.
+Crie ou modifique regiões de rede, sites de rede e associe sub-redes de rede Skype for Business Server. Todos eles são usados para os recursos avançados Enterprise Voice: bypass de mídia, controle de admissão de chamadas e roteamento baseado em localização.
 
-Os recursos Enterprise Voice avançados são [controle de](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) admissão de [chamadas, bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) de [mídia,](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) roteamento baseado em local [e E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Todos esses recursos exigem que você crie regiões de rede, sites de rede e sub-redes. Por exemplo, todos esses recursos exigem que cada sub-rede em sua topologia seja associada a um site de rede específico, e cada site de rede deve ser associado a uma região de rede. Para obter mais informações sobre esses termos, consulte [Configurações de rede para os recursos de Enterprise Voice avançados no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
+Os recursos avançados Enterprise Voice são [controle](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) de admissão de [chamadas,](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) [bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md) de mídia, roteamento baseado em localização [e E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Todos esses recursos exigem que você crie regiões de rede, sites de rede e sub-redes. Por exemplo, todos esses recursos exigem que cada sub-rede em sua topologia esteja associada a um site de rede específico e cada site de rede deve ser associado a uma região de rede. Para obter mais informações sobre esses termos, consulte [Configurações de rede para os recursos de Enterprise Voice avançados no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
-O controle de admissão de chamada e o E9-1-1 têm requisitos de configuração adicionais para sites de rede:
+O controle de admissão de chamadas e o E9-1-1 têm requisitos de configuração adicionais para sites de rede:
 
-- O controle de admissão de chamada exige que um perfil de política de largura de banda seja especificado para cada site restringido pelas limitações de largura de banda wan. Se você planeja implantar o controle de admissão de chamada, crie perfis de política de largura de [banda Skype for Business Server](create-bandwidth-policy-profiles.md) antes de configurar seus sites de rede.
+- O controle de admissão de chamadas requer que um perfil de política de largura de banda seja especificado para cada site restrito por limitações de largura de banda wan. Se você planeja implantar o controle de admissão de chamadas, deverá criar perfis de política de largura [de banda Skype for Business Server](create-bandwidth-policy-profiles.md) antes de configurar seus sites de rede.
 
-- O E9-1-1 exige que uma política de local seja especificada para cada site. Se você planeja implantar o E9-1-1, crie políticas de localização no [Skype for Business Server antes de](create-location-policies.md) configurar seus sites de rede.
+- O E9-1-1 exige que uma política de local seja especificada para cada site. Se você planeja implantar o E9-1-1, deverá criar políticas de [](create-location-policies.md) localização no Skype for Business Server antes de configurar seus sites de rede.
 
 ## <a name="create-or-modify-a-network-region"></a>Criar ou modificar uma região de rede
 
-Se você já criou regiões de rede para um desses recursos, não precisa criar novas regiões de rede; outros recursos Enterprise Voice recursos avançados usarão essas mesmas regiões de rede.
+Se você já tiver criado regiões de rede para um desses recursos, não precisará criar novas regiões de rede; outros recursos Enterprise Voice avançados usarão essas mesmas regiões de rede.
 
 Porém, talvez seja necessário modificar uma definição de região de rede existente para aplicar configurações específicas ao recurso. Por exemplo, se você cria regiões de rede para o E9-1-1 (que não exige um local central associado) e depois implanta o controle de admissão de chamadas, precisará modificar as definições de região de rede para especificar um local central.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Para criar uma região de rede usando Skype for Business Server Shell de Gerenciamento
+### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Para criar uma região de rede usando Skype for Business Server Management Shell
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
 
 2. Execute o cmdlet New-CsNetworkRegion para criar regiões de rede:
 
@@ -76,9 +81,9 @@ Porém, talvez seja necessário modificar uma definição de região de rede exi
 
 9. Para concluir a criação das regiões de rede para sua topologia, repita as etapas 4 a 8 com as configurações de outras regiões.
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Para modificar uma região de rede usando Skype for Business Server Shell de Gerenciamento
+### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Para modificar uma região de rede usando Skype for Business Server Management Shell
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
 
 2. Execute o cmdlet Set-CsNetworkRegion para modificar uma região de rede existente:
 
@@ -92,7 +97,7 @@ Porém, talvez seja necessário modificar uma definição de região de rede exi
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    Neste exemplo, você modificou uma região de rede existente chamada "NorthAmerica" (criada usando os procedimentos anteriores neste tópico) alterando a descrição. Se uma descrição existisse para a região "NorthAmerica", esse comando a substituiria com esse valor; se nenhuma descrição tiver sido definida, este comando a definirá.
+    Neste exemplo, você modificou uma região de rede existente chamada "NorthAmerica" (criada usando os procedimentos anteriores neste tópico) alterando a descrição. Se uma descrição existir para a região "NorthAmerica", esse comando a substituirá por esse valor; se nenhuma descrição tiver sido definida, esse comando a definirá.
 
 3. Para modificar outras regiões de rede, repita a etapa 2 com as configurações de outras regiões.
 
@@ -106,9 +111,9 @@ Porém, talvez seja necessário modificar uma definição de região de rede exi
 
 4. Na tabela, clique na região de rede que você deseja modificar.
 
-5. Clique em **Editar** e em **Mostrar detalhes…**.
+5. Clique **em Editar** e em **Mostrar detalhes...**.
 
-6. Na página **Editar Região** , altere os valores das configurações dessa região de rede conforme apropriado.
+6. Na página **Editar Região** , altere os valores para as configurações desta região de rede conforme apropriado.
 
 7. Clique em **Confirmar**.
 
@@ -116,11 +121,11 @@ Porém, talvez seja necessário modificar uma definição de região de rede exi
 
 ## <a name="create-or-modify-a-network-site"></a>Criar ou modificar um site de rede
 
-Se você já criou sites de rede para um desses recursos, não precisa criar novos sites de rede; outros recursos Enterprise Voice recursos avançados usarão esses mesmos sites de rede. Você pode, porém, precisar modificar uma definição de site de rede existente para aplicar configurações específicas do recurso. Por exemplo, se você criou um site de rede para o E9-1-1, você precisa modificar o site de rede durante a implantação do controle de admissão de chamada para aplicar um perfil de política de largura de banda.
+Se você já tiver criado sites de rede para um desses recursos, não precisará criar novos sites de rede; outros recursos Enterprise Voice avançados usarão esses mesmos sites de rede. Você pode, porém, precisar modificar uma definição de site de rede existente para aplicar configurações específicas do recurso. Por exemplo, se você criou um site de rede para o E9-1-1, você precisa modificar o site de rede durante a implantação do controle de admissão de chamada para aplicar um perfil de política de largura de banda.
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para criar um site de rede usando Skype for Business Server Shell de Gerenciamento
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para criar um site de rede usando o Skype for Business Server Management Shell
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
 
 2. Execute o cmdlet do New-CsNetworkSite para criar sites de rede:
 
@@ -171,9 +176,9 @@ Se você já criou sites de rede para um desses recursos, não precisa criar nov
 
 11. Para concluir a criação de sites de rede para a sua topologia, repita as etapas 4 a 10 com as configurações de outros sites.
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para modificar um site de rede usando Skype for Business Server Shell de Gerenciamento
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para modificar um site de rede usando o Skype for Business Server Management Shell
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
 
 2. Execute o cmdlet Set-CsNetworkSite para modificar os sites de rede:
 
@@ -204,9 +209,9 @@ Se você já criou sites de rede para um desses recursos, não precisa criar nov
 
 4. Na tabela, clique no site de rede que você quer modificar.
 
-5. Clique em **Editar**, e depois clique em **Mostra detalhes…**.
+5. Clique **em Editar** e em **Mostrar detalhes...**.
 
-6. Na página **Editar Site** , altere os valores para as configurações desse site de rede conforme apropriado.
+6. Na página **Editar Site** , altere os valores para as configurações deste site de rede conforme apropriado.
 
 7. Clique em **Confirmar**.
 
@@ -215,13 +220,13 @@ Se você já criou sites de rede para um desses recursos, não precisa criar nov
 ## <a name="associate-a-subnet-with-a-network-site"></a>Associar uma sub-rede a um site de rede
 <a name="BKMK_AssociateSubnets"> </a>
 
-Todas as sub-redes da sua rede devem ser associadas a um local de rede específico, pois as informações da sub-rede são usadas para determinar o local de rede em que um ponto de extremidade se encontra quando uma nova sessão é iniciada. Quando o local de cada parte em uma sessão é conhecido, os recursos de Enterprise Voice avançados podem aplicar essas informações para determinar como lidar com a configuração ou o roteamento de chamadas.
+Todas as sub-redes da sua rede devem ser associadas a um local de rede específico, pois as informações da sub-rede são usadas para determinar o local de rede em que um ponto de extremidade se encontra quando uma nova sessão é iniciada. Quando a localização de cada parte em uma sessão é conhecida, os recursos avançados Enterprise Voice podem aplicar essas informações para determinar como lidar com a configuração ou o roteamento de chamadas.
 
-Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/Vídeo em sua implantação devem ser adicionados às suas definições de configuração de rede. Estes endereços IP são adicionados como sub-redes com uma máscara de 32. O site de rede associado deve corresponder ao site de rede configurado adequado. Por exemplo, o endereço IP público que corresponde ao serviço de Borda A/V no site central Chicago seria NetworkSiteID Chicago.
+Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/Vídeo em sua implantação devem ser adicionados às suas definições de configuração de rede. Estes endereços IP são adicionados como sub-redes com uma máscara de 32. O site de rede associado deve corresponder ao site de rede configurado adequado. Por exemplo, o endereço IP público que corresponde ao serviço A/V Edge no site central Chicago seria NetworkSiteID Chicago.
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para associar uma sub-rede a um site de rede usando Skype for Business Server Shell de Gerenciamento
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Para associar uma sub-rede a um site de rede usando Skype for Business Server Management Shell
 
-1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+1. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
 
 2. Execute o cmdlet **New-CsNetworkSubnet** para associar uma sub-rede a um site da rede:
 
@@ -253,9 +258,9 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+2. Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
 
-3. Execute o seguinte cmdlet **para importarsubnet.csv** e, em seguida, armazene seu conteúdo no armazenamento de gerenciamento do Lync Server:
+3. Execute o seguinte cmdlet para importar **subnet.csv** e, em seguida, armazene seu conteúdo no repositório de gerenciamento do Lync Server:
 
    ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
@@ -278,7 +283,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 7. Clique em **ID do site da rede** e selecione o ID do site para o qual está adicionando esta sub-rede.
 
     > [!NOTE]
-    > Se sites da rede ainda não estiverem criados, a lista estará vazia. Para obter detalhes sobre o procedimento, consulte [Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site). Você também pode configurar IDs de site para a sua implantação executando o cmdlet **Get-CsNetworkSite**. Para obter detalhes, consulte a documentação Skype for Business Server Shell de Gerenciamento.
+    > Se sites da rede ainda não estiverem criados, a lista estará vazia. Para obter detalhes sobre o procedimento, consulte [Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site). Você também pode configurar IDs de site para a sua implantação executando o cmdlet **Get-CsNetworkSite**. Para obter detalhes, consulte a documentação Skype for Business Server Do Shell de Gerenciamento.
 
 8. Opcionalmente, clique em **Descrição** e digite informações adicionais para descrever esta sub-rede.
 
@@ -296,7 +301,7 @@ A informação de alerta relevante e um exemplo são como segue:
 
  **Nível**: 2
 
- **Descrição**: as sub-redes dos seguintes endereços IP: \<List of IP Addresses\> não estão configuradas ou as sub-redes não estão associadas a um Site de Rede.
+ **Descrição**: as sub-redes para os seguintes endereços IP: \<List of IP Addresses\> não estão configuradas ou as sub-redes não estão associadas a um Site de Rede.
 
  **Causa**: as sub-redes para os endereços IP correspondentes estão ausentes nas definições de configuração da rede ou as sub-redes não estão associadas a um site da rede.
 
@@ -311,19 +316,18 @@ Por exemplo, se a lista de endereços IP no alerta especificar 10.121.248.226 e 
 ## <a name="see-also"></a>Confira também
 <a name="BKMK_AssociateSubnets"> </a>
 
+[New-CsNetworkRegion](/powershell/module/skype/new-csnetworkregion)
 
-[New-CsNetworkRegion](/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[Get-CsNetworkRegion](/powershell/module/skype/get-csnetworkregion)
 
-[Get-CsNetworkRegion](/powershell/module/skype/get-csnetworkregion?view=skype-ps)
+[Set-CsNetworkRegion](/powershell/module/skype/set-csnetworkregion)
 
-[Set-CsNetworkRegion](/powershell/module/skype/set-csnetworkregion?view=skype-ps)
+[Remove-CsNetworkRegion](/powershell/module/skype/remove-csnetworkregion)
 
-[Remove-CsNetworkRegion](/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
+[New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet)
 
-[New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[Get-CsNetworkSubnet](/powershell/module/skype/get-csnetworksubnet)
 
-[Get-CsNetworkSubnet](/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
+[Set-CsNetworkSubnet](/powershell/module/skype/set-csnetworksubnet)
 
-[Set-CsNetworkSubnet](/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
-
-[Remove-CsNetworkSubnet](/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+[Remove-CsNetworkSubnet](/powershell/module/skype/remove-csnetworksubnet)

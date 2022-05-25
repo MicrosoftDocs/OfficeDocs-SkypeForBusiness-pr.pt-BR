@@ -18,50 +18,47 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Como suspirá-la para uma conta de Retransmissão IP para o Canadá.
-ms.openlocfilehash: d062ec96a35d01fc5986af24a2bc52adf8138440
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Como suspirar por uma conta de Retransmissão de IP para o Canadá.
+ms.openlocfilehash: 63b4bf27d12a11200ed6dc4601d7116089013a40
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620538"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671687"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>IP Relay no Canadá - Criar conta
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Para obter uma conta de Retransmissão [IP](mailto:ptn@microsoft.com)configurada para o Canadá, preencha as informações abaixo e envie-as por email para ptn@microsoft.com .
+Para configurar uma conta de Retransmissão de IP para o [Canadá](mailto:ptn@microsoft.com), preencha as informações anotadas abaixo e envie-as por email para ptn@microsoft.com.
 
-- Nome & sobrenome:
+- Primeiro & sobrenome:
 
-- Microsoft 365 ou Office 365 nome de domínio da organização:(Exemplo: Contoso.com)   
+- Microsoft 365 ou Office 365 nome de domínio da organização:(exemplo: Contoso.com)
 
-- Microsoft 365 ou Office 365 número de telefone do usuário:(Exemplo: +1 XXX XXX XXXX)
+- Microsoft 365 ou Office 365 número de telefone do usuário:(Exemplo: +1 XXX XXXX)
 
-- Senha (8 a 16 caracteres):    
+- Senha (8 a 16 caracteres):
 
-- Endereço físico mais provável no momento de uma emergência: 
+- O endereço físico mais provável no momento de uma emergência:
 
-- Nome & Número da Rua: 
+- Nome do & da Rua:
 
-- Apartamento / Pacote:    
+- Apartment/Suite:
 
-- Cidade: 
+- Cidade:
 
-- Província/Estado: 
+- Província/Estado:
 
-- Código Postal / CEP:   
+- CEP/CEP:
 
-- Telefone Número: 
+- Telefone número:
 
-- Microsoft 365 ou Office 365 Email:
+- Microsoft 365 ou Office 365 email:
 
 > [!NOTE]
-> O endereço de email acima receberá mensagens deixadas para você se você não estiver online quando alguém chamar por você por meio de Retransmissão IP. 
+> O endereço de email acima receberá mensagens deixadas para você se você não estiver online quando alguém ligar para você por meio da Retransmissão de IP. 
 
-Depois que sua conta estiver pronta (dentro de 24 horas úteis), enviaremos emails de volta com o Nome de Usuário e Senha. 
+Quando sua conta estiver pronta (dentro de 24 horas úteis), enviaremos um email para você com o Nome de Usuário e a Senha. 
 
-
-Em seguida, consulte o [Ip Relay no Canadá - guia do usuário](ip-relay-canada-user-guide.md) para começar. 
-
-
+Em seguida, consulte a [Retransmissão de IP no Canadá – guia do usuário](ip-relay-canada-user-guide.md) para começar. 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar as Notificações por push da Microsoft e asNotificações por push da Apple, é necessário criar uma política para definir quais tipos de notificação por push você precisa.
-ms.openlocfilehash: 2479c30c15e29f5ab7ef95356130164d4383affd
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 2d992fc90891dbbf39d3f18dcce5e6b509e66280
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62416844"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671797"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente Móvel: Configuração de Notificação por Push
  
@@ -29,7 +29,7 @@ Para configurar as **Notificações por push da Microsoft** e as **Notificaçõe
 Na tela de configuração principal, é possível clicar em **Atualizar** para atualizar e preencher novamente a lista de políticas. Uma caixa de pesquisa é fornecida para reduzir a lista de políticas exibidas. À medida que você digita o nome que está procurando, a lista de políticas é reduzida automaticamente.
   
 > [!IMPORTANT]
-> As configurações de política aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política é: a política de usuário (mais influência) substitui uma política de Site e, em seguida, uma política de Site substitui uma política Global (menos influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto. 
+> As configurações de política aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência de política é: a política do usuário (mais influência) substitui uma política de site e, em seguida, uma política de site substitui uma política global (menos influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto. 
   
 Há duas seleções disponíveis para criação e edição de política:
   
@@ -37,7 +37,7 @@ Há duas seleções disponíveis para criação e edição de política:
     
 2. **Editar**: selecione uma política e clique em Editar para selecionar uma ação de um menu suspenso. Você pode apenas editar sites que já criou ou editar a Política Global:
     
-   - **Mostrar detalhes…**: exibe informações sobre a política atualmente selecionada. Você poderá fazer alterações na política existente.
+   - **Mostrar detalhes...**: exibe informações sobre a política selecionada no momento. Você poderá fazer alterações na política existente.
     
    - **Selecionar tudo**: se você tiver algumas políticas e precisar selecionar todas elas, clique em Selecionar tudo
     
@@ -48,9 +48,9 @@ Há duas seleções disponíveis para criação e edição de política:
   
 A criação de uma nova política ou edição de uma política existente está associada a duas ações:
   
-- **Commit** A ação de confirmação cria ou atualiza a política e salva as alterações
+- **Cometer** A ação de confirmação cria ou atualiza a política e salva as alterações
     
-- **Cancelar** A ação cancel descarta todas as alterações feitas desde a última ação de confirmação. Se você cancelar, quaisquer alterações feitas serão perdidas.
+- **Cancelar** A ação de cancelamento descarta todas as alterações feitas desde a última ação de confirmação. Se você cancelar, quaisquer alterações feitas serão perdidas.
     
 Duas configurações são possíveis para a **Configuração de Notificação por Push**. As configurações são associadas aos serviços de notificação por push da Microsoft e da Apple. Habilite a notificação por push para qualquer um desses serviços marcando a caixa de seleção ao lado do nome do serviço. É possível desmarcar a caixa de seleção clicando nela. Depois de fazer suas seleções, confirme ou cancele. Clicar em confirmar salvará as alterações na política.
   

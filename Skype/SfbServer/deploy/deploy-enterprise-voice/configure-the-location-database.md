@@ -1,5 +1,5 @@
 ---
-title: Configurar o banco de dados de localização em Skype for Business Server
+title: Configurar o banco de dados de localização Skype for Business Server
 ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configure, preencha e publique o banco de dados de localização E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Configure, popule e publique o banco de dados de localização E9-1-1 no Skype for Business Server Enterprise Voice.
+ms.openlocfilehash: fc7f53e1b62ec23e8075a9eac0d1158ee0143a5b
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400715"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671557"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização em Skype for Business Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização Skype for Business Server
  
-Configure, preencha e publique o banco de dados de localização E9-1-1 no Skype for Business Server Enterprise Voice. 
+Configure, popule e publique o banco de dados de localização E9-1-1 no Skype for Business Server Enterprise Voice. 
   
 Para que os clientes possam detectar automaticamente seu local na rede, primeiro configure o banco de dados de localização. 
   
 Para configurar o banco de dados de localização, execute as seguintes tarefas:
   
-- Preencha o banco de dados com um mapeamento de elementos de rede para os locais. Se você usar um gateway ELIN (Número de Identificação de Local de Emergência), você precisará incluir o ELIN no \<CompanyName\> campo.
+- Preencha o banco de dados com um mapeamento de elementos de rede para os locais. Se você usar um gateway ELIN (Número de Identificação de Local de Emergência), precisará incluir o ELIN no \<CompanyName\> campo.
     
     Se você não preencher o banco de dados local e o **Local necessário** na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
     
@@ -39,7 +39,7 @@ Para configurar o banco de dados de localização, execute as seguintes tarefas:
     
 - Publicar o banco de dados atualizado.
     
-## <a name="populate-the-location-database"></a>Preencher o banco de dados de localização
+## <a name="populate-the-location-database"></a>Popular o banco de dados de localização
 
 Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um mapa de conexões de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar subredes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
   
@@ -47,12 +47,12 @@ Para localizar clientes automaticamente em uma rede, primeiro você precisa pree
   
 Se você usa um gateway de número da chamada de emergência (Emergency Location Identification Number - ELIN), inclua o ELIN no campo **CompanyName** para cada local. Você pode incluir diversos ELINs para cada local, separados por ponto e vírgula.
   
-|**Elemento de rede**|**Colunas obrigatórias**|
+|**Elemento Network**|**Colunas obrigatórias**|
 |:-----|:-----|
-|**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Sub-rede** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Porta** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Sub-rede** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Porta** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ...\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ...\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para adicionar elementos de rede no banco de dados de localização
 
@@ -120,7 +120,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar endereços localizados no banco de dados de localização
 
-1.  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+1.  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
     
 2. Execute os cmdlets a seguir para configurar a conexão com o provedor de serviços de emergência.
     
@@ -139,13 +139,13 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
     
 ## <a name="publish-the-location-database"></a>Publicar o banco de dados de localização
 
-Os novos locais adicionados ao banco de dados de localização não serão disponibilizados para o cliente até que sejam publicados.
+Os novos locais que você adicionou ao banco de dados de localização não serão disponibilizados para o cliente até que sejam publicados.
   
-Se você usar gateways ELIN (Número de Identificação de Local de Emergência), também precisará carregar os ELINs para o banco de dados de Identificação Automática de Localização (ALI) da operadora PSTN (rede telefônica pública comutado). Sua operadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua operadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço Informações de Local e formatar-os conforme necessário.
+Se você usar gateways ELIN (Número de Identificação de Localização de Emergência), também precisará carregar os ELINs no banco de dados ALI (Identificação De Localização Automática) da operadora PSTN. Sua operadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua operadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço informações de localização e formatá-los conforme necessário.
   
 ### <a name="to-publish-the-location-database"></a>Para publicar o banco de dados de localização
 
--  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, em** Todos os **Programas, em** Skype for Business **2015** e em Skype for Business Server **Gerenciamento**.
+-  Inicie o shell Skype for Business Server gerenciamento: clique em **Iniciar, clique** em Todos os **Programas, clique** em **Skype for Business 2015** e, em seguida, clique **Skype for Business Server Shell de Gerenciamento**.
     
 - Execute o cmdlet a seguir para publicar o banco de dados de localização.
     
