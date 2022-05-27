@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514562"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681602"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Entrar no Microsoft Teams
 
@@ -84,7 +84,7 @@ As imagens a seguir mostram como os usuários podem adicionar várias contas nos
 
 ## <a name="restrict-sign-in-to-teams"></a>Restringir login para o Microsoft Teams
 
-A organização pode querer restringir como os aplicativos aprovados pela empresa são usados em dispositivos gerenciados, por exemplo, para restringir a capacidade dos estudantes ou funcionários de acessar dados de outras organizações ou usar aplicativos aprovados pela empresa para cenários pessoais. Estas restrições podem ser aplicadas definindo Políticas de Dispositivos que os aplicativos do Teams reconhecem.
+A organização pode querer restringir como os aplicativos aprovados pela empresa são usados ​​em dispositivos gerenciados, por exemplo, para restringir a capacidade dos alunos ou funcionários de acessar dados de outras organizações ou usar aplicativos aprovados pela empresa para cenários pessoais. Essas restrições podem ser aplicadas pela configuração de Políticas de Dispositivos que os aplicativos o Microsoft Teams reconhece.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Como restringir o login em dispositivos móveis
 
@@ -112,7 +112,7 @@ Para criar uma política de configuração de aplicativo para dispositivos Andro
 
 Os aplicativos do Teams no Windows e no macOS estão ganhando suporte para políticas de dispositivo que restringem o acesso à sua organização. As políticas podem ser definidas por meio de soluções usuais de Gerenciamento de Dispositivos, como MDM (Gerenciamento de dispositivos Móveis) ou GPO (Objeto de Política de Grupo). 
 
-Quando esta política é configurada em um dispositivo, os usuários só podem entrar com contas hospedadas em um locatário do Azure Active Directory incluído na “Lista de Permissões de Locatário” definida na política. A política se aplica a todos os logins, incluindo contas iniciais e adicionais. Se sua organização abrange vários locatários do Azure Active Directory, você pode incluir várias IDs de Locatário na Lista de Permissões. Os links para adicionar outra conta podem continuar visíveis no aplicativo Microsoft Teams, mas não estarão operacionais.
+Quando esta política é configurada em um dispositivo, os usuários só podem entrar com contas hospedadas em um locatário do Azure Active Directory incluído na "Lista de Permissões de Locatário" definida na política. A política se aplica a todos os logins, incluindo contas iniciais e adicionais. Se sua organização abrange vários locatários do Azure Active Directory, você pode incluir várias IDs de Locatário na Lista de Permissões. Os links para adicionar outra conta podem continuar visíveis no aplicativo Microsoft Teams, mas não estarão operacionais.
 
 > [!NOTE]
 > 

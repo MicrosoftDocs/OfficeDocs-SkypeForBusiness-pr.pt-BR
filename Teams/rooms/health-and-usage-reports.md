@@ -18,18 +18,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Relatando dados do nó para integridade e uso de relatórios
 f1keywords: ''
-ms.openlocfilehash: 400da9dca104bb5ff743a8c032d3997bd282e25a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64757085"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674813"
 ---
 # <a name="health-and-usage-reports"></a>Relatórios de integridade e uso
 
-O nó de relatório contém dados para a integridade e o uso de suas Salas Gerenciadas da Microsoft e insights de serviço. **O 
+O nó de relatório contém dados para a integridade e o uso de suas Salas Gerenciadas da Microsoft e insights de serviço. A **Visão geral** mostra as tendências de integridade de todo o locatário de suas salas. A **guia** Integridade exibe uma lista de salas com seus dados de integridade correspondentes. O uso da sala com base nas informações do calendário e nos dados de qualidade da chamada é visível na **guia** Uso.
 
-**A visão** geral exibe as tendências de integridade de todo o locatário de suas salas. A **guia** Integridade exibe uma lista de salas com seus dados de integridade correspondentes. O uso da sala com base nas informações do calendário e nos dados de qualidade da chamada é visível na **guia** Uso.
 ## <a name="navigating-reports"></a>Navegando em relatórios
 
 <!--![A screenshot of active tickets bar graph](../media/health-and-usage-002new.png)-->
@@ -58,6 +57,7 @@ No submenu, é possível filtrar a lista de tíquetes pela subcategoria selecion
 Para navegar de volta, clique na rosca ou clique na trilha na parte superior esquerda.
 
 Para navegar até um tíquete específico neste modo de exibição de lista, clique no link na coluna **De tíquete de suporte**.
+
 ### <a name="ticket-history"></a>Histórico de tíquetes
 
 O gráfico de histórico de tíquetes mostra uma comparação de incidentes atribuídos a você ou à Microsoft durante o período de tempo especificado.
@@ -66,17 +66,21 @@ O gráfico de histórico de tíquetes mostra uma comparação de incidentes atri
 > Se um tíquete mudar de proprietário em um dia, quem possui a tarefa na maior parte do dia terá o tíquete contado para ele. Por exemplo, se você atribuir o tíquete à Microsoft no início do dia, o tíquete conta para **Atribuído à Microsoft** para o dia.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
+
 ### <a name="health-history"></a>Histórico de integridade
 
 Esse grafo mostra a integridade média (definição na seção Integridade) para todas as salas no locatário, bem como a integridade média de todos os clientes MMR no dia a dia. Você pode exibir a integridade média por até 90 dias.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
-### <a name="most-reliableleast-reliable-rooms"></a>Salas mais confiáveis/menos confiáveis:
+
+### <a name="most-reliableleast-reliable-rooms"></a>Salas mais confiáveis/menos confiáveis
 
 Duas tabelas mostram as salas mais confiáveis e menos confiáveis com base na integridade. Para a exibição de lista completa, selecione Integridade e, em seguida, classifique a lista pela coluna Integridade.
 
-### <a name="rooms-history"></a>Histórico de salas: 
+### <a name="rooms-history"></a>Histórico de salas
+
 Fornece uma visão histórica das salas registradas no serviço e fornece uma visão comparativo das salas que foram íntegras ou não monitoradas no mesmo período.
+
 ## <a name="health"></a>Saúde
 
 Para navegar até o relatório de integridade de todas as salas, selecione Relatórios e, em seguida,  **selecione Integridade**.
@@ -121,26 +125,27 @@ Os títulos fornecem algumas informações:
 - Número total de reuniões reservadas por meio da troca
 - Porcentagem de reuniões reservadas que incluíam um link Skype ou Teams agendado
 - Total de chamadas com participação de sala
--   Agregar a pontuação de desempenho de chamadas de todas as chamadas classificadas com qualidade "Boa" para todas as chamadas. 
+- Agregar a pontuação de desempenho de chamadas de todas as chamadas classificadas com qualidade "Boa" para todas as chamadas. 
 
 Abaixo das métricas de título está um índice de salas com métricas correspondentes. Selecione uma sala para exibir mais detalhes de uso. As métricas na tabela são descritas na tabela a seguir.
 
-| Coluna |  Descrição |
-|--------| -------------------|
-| Utilização   | Porcentagem de tempo em que a sala foi reservada durante o horário comercial no período selecionado. Ex. Período de tempo definido como 7 dias. 80% de utilização ao longo dos meios que o quarto foi reservado por 32/40 horas |
-| Reservado online |   Das reuniões reservadas, a porcentagem das quais foram habilitadas com Teams. Ex. 10 reuniões foram agendadas. Disso, 8 tinham um Teams link. Booked Online = 80% |
-| Reuniões agendadas | Número absoluto de reuniões agendadas na sala |
-| Total de chamadas | Número absoluto de chamadas com a sala como participante. |
-Desempenho da chamada |  Porcentagem de chamadas com uma classificação "Boa". Cada chamada é avaliada e recebe uma classificação Boa, Ruim, Desconhecida. Essa métrica é calculada de Boas chamadas/Total de chamadas |
+|Coluna|Descrição|
+|---|---|
+|Utilização|Porcentagem de tempo em que a sala foi reservada durante o horário comercial no período selecionado. Ex. Período de tempo definido como 7 dias. 80% de utilização ao longo dos meios que o quarto foi reservado por 32/40 horas|
+|Reservado online|Das reuniões reservadas, a porcentagem das quais foram habilitadas com Teams. Ex. 10 reuniões foram agendadas. Disso, 8 tinham um Teams link. Booked Online = 80%|
+|Reuniões agendadas|Número absoluto de reuniões agendadas na sala|
+|Total de chamadas|Número absoluto de chamadas com a sala como participante.|
+Desempenho da chamada|Porcentagem de chamadas com uma classificação "Boa". Cada chamada é avaliada e recebe uma classificação Boa, Ruim, Desconhecida. Essa métrica é calculada de Boas chamadas/Total de chamadas|
 
 O uso é calculado no final de cada dia à meia-noite (00:00) hora local do dispositivo da sala de reunião. A utilização é calculada com base no tempo total de reunião reservado para esse dia dividido por 8 horas.
+
 ## <a name="usage-details-of-a-room"></a>Detalhes de uso de uma sala
- 
+
 Clicar em uma sala no modo de exibição de lista solicita um submenu com informações mais detalhadas. Na guia Utilização do submenu, há um gráfico mostrando as horas de uso dos últimos cinco dias úteis. Para cada dia, há duas barras: azul representa a hora da reunião reservada; roxo representa a hora agendada Teams/Skype reuniões habilitadas. Na parte inferior, as reservas médias de reunião e a duração dos últimos cinco dias úteis são calculadas.
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-A **tabela** Chamadas mostra reuniões nas quais a sala participou de uma Teams chamada. A Qualidade de Áudio da Sala é avaliada apenas para a sala, não para todos os participantes. Para exibir a qualidade da chamada para todos os participantes de uma chamada específica, selecione uma chamada clicando na Hora de Início. 
+A **tabela** Chamadas mostra reuniões nas quais a sala participou de uma Teams chamada. A Qualidade de Áudio da Sala é avaliada apenas para a sala, não para todos os participantes. Para exibir a qualidade da chamada para todos os participantes de uma chamada específica, selecione uma chamada clicando na Hora de Início.
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 

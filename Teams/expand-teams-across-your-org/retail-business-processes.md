@@ -7,20 +7,28 @@ ms.author: samanro
 audience: admin
 manager: pamgreen
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
+- microsoftcloud-retail
+- m365solution-retail
+- m365solution-scenario
 ms.localizationpriority: high
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Retail
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b5befb4fbb128b9adc099ce9822a4595ec8e5978
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753104"
 ---
-
 # <a name="simplify-business-processes-in-retail-environments"></a>Simplifique os processos de negócios em ambientes de varejo
 
 Você pode utilizar os aplicativos do Teams, o Power Apps e o Power BI para simplificar os processos de negócios para suas equipes de varejo.

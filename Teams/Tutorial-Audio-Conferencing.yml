@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: 'Tutorial: Audioconferência - Microsoft Teams'
+title: 'Tutorial: Audioconferência – Microsoft Teams'
 metadata:
   title: Audioconferência no Microsoft Teams
-  description: Use este tutorial interativo para saber os requisitos, etapas de planejamento e relatórios para Audioconferência Microsoft Teams.
+  description: Use este tutorial interativo para aprender os requisitos, as etapas de planejamento e os relatórios para Audioconferência no Microsoft Teams.
   ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020
@@ -22,40 +22,40 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1ff41ead7e06d0aae227c64befb066031068ce3a
-  ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
+  ms.openlocfilehash: 3394afabda431f5a9da72fed1d3f8939d2b1a12d
+  ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/01/2022
-  ms.locfileid: "64617652"
+  ms.lasthandoff: 05/25/2022
+  ms.locfileid: "65681372"
 items:
 - durationInMinutes: 1
   content: >
-    Neste treinamento, apresentamos a Audioconferência no Microsoft Teams— a capacidade de ingressar em uma reunião Teams de um telefone normal e discar de uma reunião para um número de telefone. Vamos abranger os recursos da Audioconferência em Teams além de requisitos e considerações de planejamento para Teams.
+    Neste treinamento, apresentamos Audioconferência no Microsoft Teams — a capacidade de ingressar em uma reunião Teams de um telefone normal e discar de uma reunião para um número de telefone. Abordaremos os recursos de Audioconferência em Teams além dos requisitos e das considerações de planejamento para Teams.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
 
-    Esse treinamento será útil para você se você for um:
+    Este treinamento será útil se você for:
 
     -   Profissional de TI.
 
     -   Responsável pelo planejamento, implantação ou gerenciamento do Teams.
 
-    -   Considerando o planejamento, a implantação ou o gerenciamento da Audioconferência Teams.
+    -   Considerando planejar, implantar ou gerenciar Audioconferência no Teams.
 
 
-    Cobriremos as seguintes seções:
+    Abordaremos as seguintes seções:
 
-    -   Requisitos de audioconferência
+    -   Audioconferência requisitos
 
     -   Etapas de planejamento
 
     -   Relatórios
 
 
-    A audioconferência adiciona recursos e funcionalidades a reuniões Teams. Recomendamos que você conclua [reuniões no Microsoft Teams](./tutorial-meetings-in-teams.yml) antes deste tutorial.
+    Audioconferência adiciona recursos e funcionalidades a reuniões no Teams. Recomendamos que você conclua [reuniões em Microsoft Teams](./tutorial-meetings-in-teams.yml) antes deste tutorial.
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -64,37 +64,37 @@ items:
     Se quiser fazer alguma pergunta ou comentário sobre o treinamento:
 
 
-    -   Poste na seção comentários na parte inferior da página "Próximas etapas" deste tutorial
+    -   Poste na seção de comentários na parte inferior da página "Próximas etapas" deste tutorial
 
 
-    Para nos dar comentários sobre o Teams, como ideias para novos recursos, visite o [portal Teams Comentários](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
-- title: Audioconferência em Teams
+    Para nos fornecer comentários sobre o Teams, como ideias para novos recursos, visite o [portal Teams Comentários](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+- title: Audioconferência no Teams
   durationInMinutes: 12
-  content: "\nCom a Audioconferência, os participantes usam um telefone regular para participar de reuniões Teams— discando para a reunião a partir de seu telefone ou usando a funcionalidade de discagem de dentro da reunião. Revise os seguintes recursos para saber mais sobre Audioconferência:\n-   [Recursos de audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Features) (tempo de leitura estimado de 1 minuto)\n-   [9 dicas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para reunião com Microsoft Teams (tempo de leitura estimado para \"\\#1 - Participar de uma reunião via Audioconferência\" é de 1 minuto; mais se você ler todo o artigo)\n-   [Perguntas comuns de audioconferência](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (tempo de leitura estimado de 7 minutos)\n-   [Discar de uma reunião para que outras pessoas possam participar](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) dela (tempo de leitura estimado de 2 minutos)\n"
+  content: "\nCom Audioconferência, os participantes usam um telefone regular para participar de reuniões de Teams — discando para a reunião pelo telefone ou usando a funcionalidade de discagem de dentro da reunião. Examine os seguintes recursos para saber mais sobre Audioconferência:\n-   [Audioconferência recursos](https://products.office.com/skype-for-business/audio-conferencing#Features) (tempo de leitura estimado de 1 minuto)\n-   [9 dicas para reunião com](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) Microsoft Teams (tempo estimado de leitura para \"\\#1 – Ingressar em uma reunião por meio Audioconferência\" é de 1 minuto; mais se você ler o artigo inteiro)\n-   [Audioconferência perguntas comuns](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (tempo de leitura estimado de 7 minutos)\n-   [Discar de uma reunião para que outras pessoas possam ingressar](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) nela (tempo de leitura estimado de 2 minutos)\n"
 - title: Cenário – Audioconferência
   durationInMinutes: 1
-  content: "\nGarth trabalha na Contoso, uma empresa que tem vários escritórios. Garth frequentemente precisa se conectar com pessoas em outros locais de escritório e, como ele geralmente trabalha de casa ou sai na estrada, ele é um grande fã de reuniões Teams reuniões. Quando Garth envia um convite de reunião, ele adiciona automaticamente informações para Audioconferência. Isso torna os seguintes cenários possíveis:\n-   Alice quer participar da reunião de Garth, mas ela está na estrada e não tem acesso a uma rede confiável. Portanto, ela ins junta-se à reunião usando as coordenadas discadas do convite da reunião. Durante o processo de discagem, ela usa seu PIN para autenticar, para que ela seja reconhecida pelo sistema como \"Alice\".\n-   Bob, que está atualmente em um hotel, participa da reunião usando o cliente Teams em seu computador. Infelizmente, a qualidade de áudio pela conexão com a Internet no hotel não é boa, então Bob disca para seu próprio número de telefone da reunião para ingressar por meio da PSTN (rede telefônica pública comutado).\n-   Se os participantes da reunião decidirem durante a chamada que querem adicionar usuários em um número de telefone diferente, eles podem apenas discar para o número de telefone e trazer outras pessoas para a reunião.\n-   Outros usuários também podem ingressar no cliente Teams em seu computador, Mac ou dispositivo móvel.\n\nNo Teams, o organizador de reuniões pode finalizar uma reunião para todos os participantes. Isso é útil em cenários como os seguintes:\n\n-   Educadores podem garantir que os alunos não fiquem em uma reunião sem supervisão após o término da aula.\n-   Para as reuniões que estão sendo gravadas, como o webinars, os organizadores de reuniões podem garantir que a gravação termine quando a reunião terminar.\n-   Encerrar uma reunião para todos os participantes pode ajudar a reduzir o uso e a cobrança PSTN da sua organização. \n\nPor exemplo, quando a reunião termina, Paulo pode clicar em **Finalizar reunião** de dentro da reunião no Teams para finalizar a reunião e remover todos os participantes dela.\n"
-- title: Considerações sobre Skype for Business clientes
+  content: "\nHenrique trabalha na Contoso, uma empresa que tem vários escritórios. Garth frequentemente precisa se conectar com pessoas em outros locais de escritório, e como ele geralmente trabalha em casa ou sai na estrada, é um grande fã de reuniões Teams reuniões. Quando Henrique envia um convite para reunião, ele adiciona automaticamente informações para Audioconferência. Isso possibilita os seguintes cenários:\n-   Alice quer participar da reunião de Henrique, mas ela está na estrada e não tem acesso a uma rede confiável. Portanto, ela ingressa na reunião usando as coordenadas de discagem do convite da reunião. Durante o processo de discagem, ela usa seu PIN para autenticar, para que ela seja reconhecida pelo sistema como \"Alice\".\n-   Bob, que está atualmente em um hotel, participa da reunião usando o cliente Teams em seu computador. Infelizmente, a qualidade do áudio pela conexão com a Internet no hotel não é boa, então Bob disca para seu próprio número de telefone da reunião para ingressar por meio da rede telefônica pública comuada (PSTN).\n-   Se os participantes da reunião decidirem durante a chamada que querem adicionar usuários a um número de telefone diferente, eles podem apenas discar para o número de telefone e trazer outras pessoas para a reunião.\n-   Outros usuários também podem ingressar do Teams cliente em seu PC, Mac ou dispositivo móvel.\n\nNo Teams, o organizador de reuniões pode finalizar uma reunião para todos os participantes. Isso é útil em cenários como os seguintes:\n\n-   Educadores podem garantir que os alunos não fiquem em uma reunião sem supervisão após o término da aula.\n-   Para as reuniões que estão sendo gravadas, como o webinars, os organizadores de reuniões podem garantir que a gravação termine quando a reunião terminar.\n-   Encerrar uma reunião para todos os participantes pode ajudar a reduzir o uso e a cobrança de PSTN da sua organização. \n\nPor exemplo, quando a reunião termina, Paulo pode clicar em **Finalizar reunião** de dentro da reunião no Teams para finalizar a reunião e remover todos os participantes dela.\n"
+- title: Considerações para Skype for Business clientes
   durationInMinutes: 1
-  content: "\nSe você já estiver usando Skype for Business, você precisará considerar o seguinte:\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business usuários do Server-homed\n\nSe você estiver usando o Skype for Business Server, Teams reuniões agendadas por usuários que estão Skype for Business local não incluirão coordenadas de reunião PSTN. Se você atribuiu licenças de Audioconferência a esses usuários antes de 1º de março de 2019, talvez seja necessário desatribuir essas licenças, aguardar por 2 horas e reatribuí-las para que os usuários vejam as coordenadas de reunião PSTN.\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business usuários com residência online\n\nSe os usuários estão no Skype for Business Online e já estão habilitados para Audioconferência, eles serão habilitados automaticamente para Audioconferência em Teams. O PIN usado para autenticação em reuniões quando discam será o mesmo para Skype for Business e Teams.\n"
-- title: Visualizar Audioconferência
+  content: "\nSe você já estiver usando Skype for Business, será necessário considerar o seguinte:\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business Server usuários hospedados\n\nSe você estiver usando Skype for Business Server, Teams reuniões agendadas por usuários hospedados no Skype for Business local não incluirão coordenadas de reunião PSTN. Se você atribuiu licenças de Audioconferência a esses usuários antes de 1º de março de 2019, talvez seja necessário cancelar a atribuição dessas licenças, aguardar duas horas e reatribuir para que os usuários vejam as coordenadas da reunião PSTN.\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business usuários hospedados online\n\nSe os usuários estiverem hospedados no Skype for Business Online e já estiverem habilitados para Audioconferência, eles serão habilitados automaticamente para Audioconferência no Teams. O PIN que eles usam para autenticação em reuniões quando discam será o mesmo para Skype for Business e Teams.\n"
+- title: Prever Audioconferência
   durationInMinutes: 48
-  content: "\nAs diretrizes práticas abordam detalhadamente o que é necessário para planejar e implementar a Audioconferência com êxito. Revise os seguintes artigos para entender estas etapas de planejamento técnico:\n\n-   [Definir meu sucesso - Audioconferência](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice) (tempo de leitura estimado de 11 minutos)\n-   [Tomar decisões de meu serviço - Audioconferência](./deploy-audio-conferencing-teams-landing-page.md) (tempo de leitura estimado de 12 minutos)\n-   [Avaliar meu ambiente](./3-envision-evaluate-my-environment.md) (tempo de leitura estimado de 12 minutos)\n-   [Planejar meu gerenciamento de serviço](./4-envision-plan-my-service-management.md) (tempo de leitura estimado de 5 minutos)\n-   [Planejar a experiência dos meus usuários](./5-envision-plan-my-users-experience.md) (tempo de leitura estimado de 5 minutos)\n-   [Documentar meu plano de sucesso](./6-envision-document-my-success-plan.md) (tempo de leitura estimado de 6 minutos)\n"
-- title: Conferência de Áudio Integrada
+  content: "\nAs diretrizes práticas abordam detalhadamente o que é necessário para planejar e implementar com êxito Audioconferência. Examine os seguintes artigos para entender estas etapas de planejamento técnico:\n\n-   [Definir meu sucesso - Audioconferência](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice) (tempo de leitura estimado de 11 minutos)\n-   [Tomar minhas decisões de serviço – Audioconferência](./deploy-audio-conferencing-teams-landing-page.md) (tempo de leitura estimado de 12 minutos)\n-   [Avaliar meu ambiente](./3-envision-evaluate-my-environment.md) (tempo de leitura estimado de 12 minutos)\n-   [Planejar meu gerenciamento de serviço](./4-envision-plan-my-service-management.md) (tempo de leitura estimado de 5 minutos)\n-   [Planejar a experiência dos meus usuários](./5-envision-plan-my-users-experience.md) (tempo de leitura estimado de 5 minutos)\n-   [Documentar meu plano de sucesso](./6-envision-document-my-success-plan.md) (tempo de leitura estimado de 6 minutos)\n"
+- title: Integração Audioconferência
   durationInMinutes: 13
-  content: "\nAssim como a previsão, a integração é abordada nas diretrizes práticas. Revise os seguintes artigos para entender como integrar usuários para Audioconferência:\n\n-   [Preparar meu serviço](./1-onboard-prepare-my-service.md) (tempo de leitura estimado de 6 minutos)\n-   [Preparar meus usuários](./2-onboard-prepare-my-users.md) (tempo de leitura estimado de 2 minutos)\n-   [Implantar meu serviço](./3-onboard-deploy-my-service.md) (tempo de leitura estimado de 3 minutos)\n-   [Solução de problemas de audioconferência e problemas](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) conhecidos (tempo de leitura estimado para Teams conteúdo específico é de 2 minutos)\n"
+  content: "\nAssim como a previsão, a integração é abordada nas diretrizes práticas. Examine os seguintes artigos para entender como integrar usuários para Audioconferência:\n\n-   [Preparar meu serviço](./1-onboard-prepare-my-service.md) (tempo de leitura estimado de 6 minutos)\n-   [Preparar meus usuários](./2-onboard-prepare-my-users.md) (tempo de leitura estimado de 2 minutos)\n-   [Implantar meu serviço](./3-onboard-deploy-my-service.md) (tempo de leitura estimado de 3 minutos)\n-   [Audioconferência solução de problemas e problemas conhecidos](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (o tempo de leitura estimado para Teams conteúdo específico é de 2 minutos)\n"
 - title: Exercício – Configurar Audioconferência
   durationInMinutes: 20
-  content: "\nNeste exercício, você terá a chance de testar a Audioconferência Teams.\nEmbora não esteja descrito como executar cada ação, recomendamos alguns cenários para você experimentar.\n\n### <a name=\"requirements\"></a>Requisitos\n-   Um locatário do Office 365 com as licenças adequadas para usar o Teams.\n    -   Recomendamos enfaticamente que você use um locatário de teste dedicado.\n    -   Se você não tem um locatário de teste, pode se inscrever para um locatário de avaliação em: [Avaliação do Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).\n    -   Não execute nenhum teste em seu ambiente de produção. A alteração de configurações ou políticas pode ter um impacto negativo em todos os usuários e pode afetar sua experiência.\n-   Ao menos dois terminais\n    -   Podem ser dois computadores, mas você também pode usar o cliente em seu celular.\n    -   Um telefone que pode discar para reuniões e ser discado para\n\n### <a name=\"suggested-scenarios-to-test\"></a>Cenários de teste sugeridos\n-   Habilitar usuários para Audioconferência.\n-   Definir números de ponte de conferência diferentes para usuários diferentes.\n-   Altere o número padrão da ponte de conferência para o locatário.\n-   Alterar configurações para o número da ponte de conferência (idiomas diferentes).\n-   Alterar configurações globais para pontes de conferência (notificações de entrada e saída de reunião, tamanho do PIN, notificações por email).\n-   Observe o email que está sendo enviado aos usuários.\n-   Agende Teams reuniões e revise o convite da reunião.\n-   Participe de uma reunião de um telefone.\n-   Discar de uma reunião para um telefone.\n-   Use controles de multifrequência de tom duplo durante uma reunião para silenciar e desativar um telefone.\n-   Termine a reunião para todos os usuários. \n"
+  content: "\nNeste exercício, você terá a chance de testar Audioconferência em Teams.\nEmbora não descrevamos como executar cada ação, recomendamos alguns cenários para experimentar.\n\n### <a name=\"requirements\"></a>Requisitos\n-   Um locatário do Office 365 com as licenças adequadas para usar o Teams.\n    -   Recomendamos enfaticamente que você use um locatário de teste dedicado.\n    -   Se você não tiver um locatário de teste, poderá se inscrever para um locatário de avaliação no [Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).\n    -   Não execute nenhum teste em seu ambiente de produção. A alteração de configurações ou políticas pode ter um impacto negativo em todos os usuários e pode afetar sua experiência.\n-   Ao menos dois terminais\n    -   Podem ser dois computadores, mas você também pode usar o cliente em seu celular.\n    -   Um telefone que pode discar para reuniões e ser discado para\n\n### <a name=\"suggested-scenarios-to-test\"></a>Cenários de teste sugeridos\n-   Habilitar usuários para Audioconferência.\n-   Defina números de ponte de conferência diferentes para usuários diferentes.\n-   Altere o número da ponte de conferência padrão para o locatário.\n-   Altere as configurações do número da ponte de conferência (idiomas diferentes).\n-   Altere as configurações globais para pontes de conferência (notificações de entrada e saída de reunião, comprimento do PIN, notificações por email).\n-   Observe o email que está sendo enviado aos usuários.\n-   Agende Teams reuniões e examine o convite da reunião.\n-   Participe de uma reunião de um telefone.\n-   Discar de uma reunião para um telefone.\n-   Use controles de várias frequências de tom duplo em uma reunião para ativar e desativar o mudo de um telefone.\n-   Encerrar a reunião para todos os usuários. \n"
 - title: Valor da unidade
   durationInMinutes: 1
-  content: "\nDe uma perspectiva de relatório, você tem duas áreas para olhar:\n-   Utilização: quantas reuniões são realizadas?\n-   Qualidade: qual é a qualidade das reuniões?\n\nVocê deve monitorar com atenção ambas as áreas:\n-   Baixa utilização significa que os usuários, por algum motivo, não estão usando o produto. Você só pode determinar os motivos investigando mais.\n    Os motivos podem variar da percepção de que as reuniões estão aquém das necessidades do usuário até a falta de conhecimento ou treinamento, passando por problemas de qualidade.\n-   A baixa qualidade, por outro lado, significa que existem problemas de conectividade entre os usuários e o Office 365. A baixa qualidade pode levar a uma experiência do usuário desagradável e, consequentemente, a um baixo uso. Consulte [Relatórios do Microsoft 365 no Centro de Administração - atividade do usuário do Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (tempo de leitura estimado em 5 minutos) para saber mais sobre os relatórios de uso.\n\nO gerenciamento da qualidade não é assunto deste treinamento, mas consulte o seguinte material de treinamento:\n\n-   [Operar meu serviço](./1-drive-value-operate-my-service.md)\n"
+  content: "\nDe uma perspectiva de relatório, você tem duas áreas para examinar:\n-   Utilização: quantas reuniões são realizadas?\n-   Qualidade: qual é a qualidade das reuniões?\n\nVocê deve monitorar com atenção ambas as áreas:\n-   Baixo uso significa que os usuários, por um motivo ou outro, não estão usando o produto. Você só pode determinar os motivos investigando mais detalhadamente.\n    Os motivos podem variar da percepção de que as reuniões estão aquém das necessidades do usuário até a falta de conhecimento ou treinamento, passando por problemas de qualidade.\n-   A baixa qualidade, por outro lado, significa que existem problemas de conectividade entre os usuários e o Office 365. A baixa qualidade pode levar a uma experiência do usuário desagradável e, consequentemente, a um baixo uso. Consulte [Relatórios do Microsoft 365 no Centro de Administração - atividade do usuário do Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (tempo de leitura estimado em 5 minutos) para saber mais sobre os relatórios de uso.\n\nO gerenciamento da qualidade não é assunto deste treinamento, mas consulte o seguinte material de treinamento:\n\n-   [Operar meu serviço](./1-drive-value-operate-my-service.md)\n"
 - title: Próximas etapas
   durationInMinutes: 1
   content: >-
     Neste treinamento, abordamos estes pontos de aprendizagem principais:
 
-    -   Audioconferência em Teams
+    -   Audioconferência no Teams
 
     -   Requisitos para Audioconferência
 
@@ -104,11 +104,11 @@ items:
     ### <a name="next-steps"></a>Próximos passos
 
 
-    1.  Comece a usar Audioconferência Teams.
+    1. Comece a Audioconferência no Teams.
 
     2.  Envie-nos seus comentários:
         - Poste na seção de comentários na parte inferior desta página.
-        - Para nos dar Teams comentários do produto ou para solicitar um novo recurso, acesse o [portal Teams Comentários](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+        - Para nos fornecer Teams comentários sobre o produto ou solicitar um novo recurso, acesse o [portal Teams Comentários](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Mantenha-se atualizado:
         - Siga o [Blog do Teams](https://aka.ms/teamsblog).
         - Leia o [Roteiro do Teams](https://aka.ms/O365Roadmap).

@@ -10,32 +10,32 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Use os procedimentos deste artigo para habilitar ou desabilitar o bypass de mídia usando o painel Skype for Business Server Controle.
-ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Use os procedimentos neste artigo para habilitar ou desabilitar o bypass de mídia usando o Skype for Business Server Painel de Controle.
+ms.openlocfilehash: 38ec29c6e4b51a4c6898b13c4de0172f55947907
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62396483"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675333"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar e desabilitar bypass de mídia no Skype for Business Server
 
-Use os procedimentos deste artigo para habilitar ou desabilitar o bypass de mídia usando o painel Skype for Business Server Controle.
+Use os procedimentos neste artigo para habilitar ou desabilitar o bypass de mídia usando o Skype for Business Server Painel de Controle.
 
 ## <a name="enable-network-media-bypass"></a>Habilitar bypass de mídia de rede 
 
-As configurações de bypass de mídia se aplicam globalmente em uma implantação Skype for Business Server mídia. O desvio de mídia permite que chamadas ignorem o Servidor de Mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+As configurações de bypass de mídia se aplicam globalmente em uma Skype for Business Server implantação. O desvio de mídia permite que chamadas ignorem o Servidor de Mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
-Você pode habilitar e configurar o bypass de mídia Skype for Business Server Painel de Controle.
+Você pode habilitar e configurar o bypass de mídia do Skype for Business Server Painel de Controle.
 
 
 ### <a name="to-enable-and-configure-media-bypass"></a>Para habilitar e configurar o desvio de mídia
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
+2.  Abra uma janela do navegador e insira a URL Administração para abrir o Skype for Business Server Painel de Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Global**.
+3.  Na barra de navegação à esquerda, clique em **Configuração de** Rede e, em seguida, clique em **Global**.
 
 4.  Na página **Global**, clique na configuração **Global**. Sempre existe somente uma configuração, sempre chamada Global.
 
@@ -60,16 +60,16 @@ Você pode habilitar e configurar o bypass de mídia Skype for Business Server P
 
 ## <a name="disable-network-media-bypass"></a>Desabilitar bypass de mídia de rede
 
-As configurações de bypass de mídia se aplicam globalmente em uma implantação Skype for Business Server mídia. O desvio de mídia permite que chamadas ignorem o Servidor de Mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Você pode desabilitar o bypass de mídia Skype for Business Server Painel de Controle. 
+As configurações de bypass de mídia se aplicam globalmente em uma Skype for Business Server implantação. O desvio de mídia permite que chamadas ignorem o Servidor de Mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Você pode desabilitar o bypass de mídia do Skype for Business Server Painel de Controle. 
 
 
 ### <a name="to-disable-media-bypass"></a>Para desativar o desvio de mídia
 
 1.  De uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou é atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o painel Skype for Business Server Controle. 
+2.  Abra uma janela do navegador e insira a URL Administração para abrir o Skype for Business Server Painel de Controle. 
 
-3.  Na barra de navegação esquerda, clique em **Configuração de** Rede e clique em **Global**.
+3.  Na barra de navegação à esquerda, clique em **Configuração de** Rede e, em seguida, clique em **Global**.
 
 4.  Na página **Global**, clique na configuração **Global**. Sempre existe somente uma configuração, sempre chamada Global.
 

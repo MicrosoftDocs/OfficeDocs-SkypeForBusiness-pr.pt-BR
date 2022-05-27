@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39ec36c8162acb4bc95430afa48dac7bb80c772e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 162c761d58e47dc287ee76d29a512aea9ce7a990
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617397"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674843"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams para RealWear
 
@@ -36,7 +36,7 @@ Este artigo aborda o cliente do Microsoft Teams para dispositivos portáteis Rea
 
 ## <a name="required-licenses"></a>Licenças necessárias
 
-As licenças do Microsoft Teams fazem parte das assinaturas do Microsoft 365 e Office 365. Nenhum licenciamento adicional é necessário para usar o Teams para RealWear. Para saber mais sobre como obter o Teams, confira [Como faço para obter acesso ao Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
+As licenças do Microsoft Teams fazem parte das assinaturas do Microsoft 365 e Office 365. Nenhum licenciamento adicional é necessário para usar o Teams para RealWear. Para obter mais informações sobre como obter o Teams, confira [Como obter acesso ao Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
 
 ## <a name="managing-realwear-devices"></a>Gerenciar dispositivos RealWear
 

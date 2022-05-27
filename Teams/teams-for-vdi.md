@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624145"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681582"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -101,6 +101,9 @@ Você pode implantar o Teams da área de trabalho para VDI usando uma instalaç�
 Para uma configuração persistente dedicada, a instalação por computador e por usuário funcionará. No entanto, para uma configuração não persistente, o Teams requer uma instalação por computador para funcionar com eficiência. Consulte a [seção de configuração não](#non-persistent-setup) persistente.
 
 Com a instalação por computador, as atualizações automáticas são desabilitadas. Isso significa que, para atualizar o Teams, você deve desinstalar a versão atual para atualizar para uma versão mais recente. Com a instalação por usuário, as atualizações automáticas são habilitadas.
+
+> [!IMPORTANT]
+> Mantenha o Teams da área de trabalho em seu ambiente VDI atualizado. Teams versões do aplicativo da área de trabalho com datas de lançamento com mais de 90 dias anteriores à [](/officeupdates/teams-app-versioning) data de lançamento da versão atual não têm suporte. As versões Teams aplicativo da área de trabalho sem suporte mostram uma página de bloqueio para os usuários e solicitam que eles atualizem seus aplicativos.
 
 Para a maioria das implantações de VDI, recomendamos que você implante Teams usando a instalação por computador. Para atualizar para a versão mais Teams, comece com o procedimento de desinstalação seguido pela implantação Teams versão mais recente.
 
@@ -299,8 +302,8 @@ Para atribuir uma política a vários usuários por vez:
 Ou você também pode fazer o seguinte:
 
 1. No painel de navegação esquerdo do Teams de administração, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **políticas** **voiceCalling** >  e clique **em DisallowCalling**.
-    - Vá para **políticas** **MeetingsMeeting** >  e clique em **AllOff**.
+    - Vá para **políticas de** > **Chamada de** Voz e clique **em DisallowCalling**.
+    - Vá para **políticas de Reunião** > **de** Reuniões e clique **em AllOff**.
 2. Selecione **Gerenciar usuários**.
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 4. Quando terminar de adicionar usuários, clique em **Salvar**.
@@ -355,8 +358,8 @@ Para atribuir uma política a vários usuários por vez:
 Ou você também pode fazer o seguinte:
 
 1. No painel de navegação esquerdo do Teams de administração, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **políticas** **voiceCalling** >  e clique **em AllowCalling**.
-    - Vá para **políticas** **MeetingsMeeting** >  e clique em **AllOn**.
+    - Vá para **políticas de** > **Chamada de** Voz e clique **em AllowCalling**.
+    - Acesse as **políticas de Reunião** > **de** Reuniões e clique **em AllOn**.
 2. Selecione **Gerenciar usuários**.
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 4. Quando terminar de adicionar usuários, clique em **Salvar**.

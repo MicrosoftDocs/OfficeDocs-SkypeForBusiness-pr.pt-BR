@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: Saiba como um usuário com status Ausente ou Não Perturbe, pode definir de maneira explícita outro usuário como um delegado na sua mensagem de status.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596185"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674203"
 ---
 # <a name="message-delegation"></a>Delegação de mensagens
 
@@ -62,7 +62,7 @@ Um usuário só pode definir uma nota no Teams se seu modo for TeamsOnly ou Isla
   
 Não há nenhuma indicação visual de que uma nota tenha sido enviada pelo Skype for Business.
 
-O Skype for Business não impõe um limite de caracteres às notas de status. O Microsoft Teams exibirá apenas os primeiros 280 caracteres de um conjunto de notas do Skype for Business. Uma elipse (...) no final de uma nota indica truncagem.
+O Skype for Business não impõe um limite de caracteres às notas de status. O Microsoft Teams exibirá apenas os primeiros 280 caracteres de um conjunto de notas do Skype for Business. Uma elipse (...) no final de uma nota indica truncamento.
   
 O Skype for Business não oferece suporte a prazos de validade para notas.
 

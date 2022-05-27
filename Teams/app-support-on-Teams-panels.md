@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bf4066675755e0f93844644a6a59404af678a38
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 1f9d2e3b17f852dcd020dc11c323bbc24c2dfc30
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635409"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675903"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams de aplicativos/lob (linha de negócios) em Teams painéis
 
@@ -36,7 +36,7 @@ Teams painéis adicionam suporte para Teams [aplicativos/aplicativos de linha de
 
 ## <a name="teams-app-experience-on-teams-panels"></a>Teams experiência do aplicativo em Teams painéis
 
-![Captura de tela do Teams de administração mostrando qual seção permitirá que os usuários naveguem até aplicativos.](media/tac1update.png) 
+![Captura de tela do Teams de administração mostrando qual seção permitirá que os usuários naveguem até aplicativos.](media/tac1update.png)
 
 *A Teams tela inicial dos painéis inclui opções de navegação do aplicativo, descritas na captura de tela em vermelho. Observe que esses são ícones de exemplo e podem não estar disponíveis para uso.*
 
@@ -44,7 +44,7 @@ Teams painéis adicionam suporte para Teams [aplicativos/aplicativos de linha de
 
 *Quando um usuário final tocar em um dos ícones do aplicativo, ele verá a tela Teams aplicativo exibida na captura de tela anterior. O retângulo cinza na captura de tela é onde os aplicativos são exibidos no painel do Teams. A barra de aplicativos é fixa e faz parte do Teams aplicativo de painéis.*
 
-## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Configurar e gerenciar aplicativos Teams painéis no Teams de administração 
+## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Configurar e gerenciar aplicativos Teams painéis no Teams de administração
 
 Microsoft Teams aplicativos trazem informações importantes, ferramentas comuns e processos confiáveis para onde as pessoas se reúnem, aprendem e trabalham. Teams aplicativos funcionam [por meio de funcionalidades integradas](/microsoftteams/platform/concepts/capabilities-overview). Agora, como administrador de TI, você tem a opção de quais aplicativos incluir no dispositivo de painéis Teams sua organização e personalizar permissões por meio do centro de administração Teams[.](https://admin.teams.microsoft.com/)
 
@@ -62,11 +62,11 @@ Depois de configurar aplicativos, você pode [](/microsoftteams/teams-app-permis
 
 Como Teams oferece a capacidade de exibir uma ampla variedade de aplicativos, os administradores podem decidir quais aplicativos são mais essenciais para a organização e fixá-lo apenas na tela inicial dos painéis  do Teams para acesso rápido. Se houver mais de cinco aplicativos fixados ou aplicativos desafixados, eles aparecerão na **tela** Mais. A Microsoft recomenda criar uma política de configuração de aplicativo personalizada especificamente para Teams painéis.
 
-![Captura de tela da interface do usuário da página de políticas de configuração do aplicativo.](media/appsetup1.png) 
+![Captura de tela da interface do usuário da página de políticas de configuração do aplicativo.](media/appsetup1.png)
 
 Para gerenciar aplicativos **fixados** \>  \>  \> exibidos nos painéis do Teams, entre no centro de administração do Teams para sua organização e navegue até políticas de Instalação de aplicativos do Teams Selecionar ou criar uma nova política de aplicativos fixados **.**
 
-![Captura de tela da seção de aplicativos fixados na interface do usuário.](media/appsetup2.png) 
+![Captura de tela da seção de aplicativos fixados na interface do usuário.](media/appsetup2.png)
 
 *Os aplicativos incluídos nesta imagem são apenas exemplos e podem não estar disponíveis para uso.*
 
@@ -74,7 +74,7 @@ A Microsoft recomenda que você **desative Upload** aplicativos personalizados  
 
 Para obter mais informações sobre como fixar aplicativos, consulte [Gerenciar políticas de configuração de aplicativo](/microsoftteams/teams-app-setup-policies).
 
-## <a name="manage-apps-display-order-in-teams-panels"></a>Gerenciar a ordem de exibição de aplicativos Teams painéis 
+## <a name="manage-apps-display-order-in-teams-panels"></a>Gerenciar a ordem de exibição de aplicativos Teams painéis
 
 ![Captura de tela da seção aplicativos na interface do usuário.](media/appsetup3.png)
 
@@ -122,6 +122,6 @@ Nem todos os aplicativos podem ser fixados Teams por meio de uma política de co
 
 ![Captura de tela da seção de política de configuração na interface do usuário com um pop-up confirmando que a fixação do usuário está ativa.](media/appsetup4.png)
 
-*Os aplicativos incluídos nesta imagem são apenas exemplos e podem não estar disponíveis para uso.* 
+*Os aplicativos incluídos nesta imagem são apenas exemplos e podem não estar disponíveis para uso.*
 
 Esse comportamento é esperado para um dispositivo em um espaço compartilhado e ajuda a evitar a fixação não intencional do aplicativo.

@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e57686e2decb5b2d663f75f1ad7884220a9ff4c2
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922802"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675403"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informações no Microsoft Teams
 
-Os IBs ([Barreiras de Informações) do Microsoft Purview](/microsoft-365/compliance/information-barriers) são políticas que um administrador pode configurar para impedir que indivíduos ou grupos se comuniquem entre si. Os IBs serão úteis se, por exemplo, um departamento estiver tratando informações que não devem ser compartilhadas com outros departamentos. Os IBs também são úteis quando um grupo precisa ser isolado ou impedido de se comunicar com qualquer pessoa fora desse grupo. Os canais compartilhados Microsoft Teams são compatíveis com as barreiras de informações. Dependendo do tipo de compartilhamento, as políticas de barreiras de informações podem restringir o compartilhamento de determinadas maneiras. Para obter mais informações sobre canais compartilhados e comportamento de barreiras de informações, consulte [Barreiras de informações e Canais Compartilhados](information-barriers-shared-channels.md).
+[Microsoft Purview IBs (Barreiras](/microsoft-365/compliance/information-barriers) de Informações) são políticas que um administrador pode configurar para impedir que indivíduos ou grupos se comuniquem entre si. Os IBs serão úteis se, por exemplo, um departamento estiver tratando informações que não devem ser compartilhadas com outros departamentos. Os IBs também são úteis quando um grupo precisa ser isolado ou impedido de se comunicar com qualquer pessoa fora desse grupo. Os canais compartilhados Microsoft Teams são compatíveis com as barreiras de informações. Dependendo do tipo de compartilhamento, as políticas de barreiras de informações podem restringir o compartilhamento de determinadas maneiras. Para obter mais informações sobre canais compartilhados e comportamento de barreiras de informações, consulte [Barreiras de informações e Canais Compartilhados](information-barriers-shared-channels.md).
 
 Por Microsoft Teams, as barreiras de informações podem determinar e impedir os seguintes tipos de colaborações não autorizadas:
 

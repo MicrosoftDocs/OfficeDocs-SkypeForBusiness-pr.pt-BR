@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams de chamada com suporte para idiomas
+title: Microsoft Teams idiomas compatíveis com a fila de chamadas
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,24 +20,24 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams de chamada com suporte para idiomas
-ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: Microsoft Teams idiomas compatíveis com a fila de chamadas
+ms.openlocfilehash: c33745aaa5a1b0ddbfb3c7438fdc8bf72c8af592
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249543"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674713"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams de chamada com suporte para idiomas
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams idiomas compatíveis com a fila de chamadas
 
-A fila de chamada dá suporte aos seguintes idiomas para Texto para Fala (TTS):
+A fila de chamadas dá suporte aos seguintes idiomas para TTS (Conversão de Texto em Fala):
 
 |Linguagem                                |
 |:---------------------------------------|
 |Árabe (Egito)                          |
 |Catalão (Catalunha)                       |
-|Chinês (Simplificado, PRC)               |
-|Chinês (Tradicional, Hong Kong)        |
+|Chinês (simplificado, PRC)               |
+|Chinês (tradicional, Hong Kong)        |
 |Chinês (Tradicional, Taiwan)           |
 |Croata (Croácia)                      |
 |Tcheco (República Tcheca)                  |
@@ -58,7 +58,7 @@ A fila de chamada dá suporte aos seguintes idiomas para Texto para Fala (TTS):
 |Italiano (Itália)                         |
 |Japonês (Japão)                        |
 |Coreano (Coreia)                          |
-|Bokmal norueguês (Noruega)               |
+|Norueguês Bokmal (Noruega)               |
 |Polonês (Polônia)                         |
 |Português (Brasil)                     |
 |Português (Portugal)                   |

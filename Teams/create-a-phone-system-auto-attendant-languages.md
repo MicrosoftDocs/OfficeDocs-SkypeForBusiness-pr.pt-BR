@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams idiomas compatíveis com o atendedor automático
-ms.openlocfilehash: 0a513e31f94052abc07707ddd57bc116c4768aff
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462035"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676453"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams idiomas compatíveis com o atendedor automático
 
@@ -38,17 +38,17 @@ O atendedor automático dá suporte aos seguintes idiomas para TTS (Conversão d
 |Catalão (Catalunha)                       |Y                        |Y                                      |
 |Chinês (simplificado, PRC)               |Y                        |Y                                      |
 |Chinês (tradicional, Hong Kong)        |Y                        |                                       |
-|Chinês (Tradicional, Taiwan)           |Y                        |                                       |    
-|Croata (Croácia)                      |Y                        |                                       |    
-|Tcheco (República Tcheca)                  |Y                        |                                       |    
-|Dinamarquês (Dinamarca)                        |Y                        |                                       |    
-|Holandês (Países Baixos)                     |Y                        |                                       |    
+|Chinês (Tradicional, Taiwan)           |Y                        |                                       |
+|Croata (Croácia)                      |Y                        |                                       |
+|Tcheco (República Tcheca)                  |Y                        |                                       |
+|Dinamarquês (Dinamarca)                        |Y                        |                                       |
+|Holandês (Países Baixos)                     |Y                        |                                       |
 |Inglês (Austrália)                     |Y                        |Y                                      |
 |Inglês (Canadá)                        |Y                        |Y                                      |
 |Inglês (Índia)                         |Y                        |Y                                      |
 |Inglês (Reino Unido)                |Y                        |Y                                      |
 |Inglês (Estados Unidos)                 |Y                        |Y                                      |
-|Finlandês (Finlândia)                       |Y                        |                                       |    
+|Finlandês (Finlândia)                       |Y                        |                                       |
 |Francês (Canadá)                         |Y                        |Y                                      |
 |Francês (França)                         |Y                        |Y                                      |
 |Alemão (Alemanha)                        |Y                        |Y                                      |
@@ -57,21 +57,21 @@ O atendedor automático dá suporte aos seguintes idiomas para TTS (Conversão d
 |Indonésio (Indonésia)                  |Y                        |                                       |
 |Italiano (Itália)                         |Y                        |Y                                      |
 |Japonês (Japão)                        |Y                        |Y                                      |
-|Coreano (Coreia)                          |Y                        |                                       |    
-|Norueguês Bokmal (Noruega)               |Y                        |                                       |    
-|Polonês (Polônia)                         |Y                        |                                       |    
+|Coreano (Coreia)                          |Y                        |                                       |
+|Norueguês Bokmal (Noruega)               |Y                        |                                       |
+|Polonês (Polônia)                         |Y                        |                                       |
 |Português (Brasil)                     |Y                        |Y                                      |
-|Português (Portugal)                   |Y                        |                                       |    
-|Romeno (Romênia)                      |Y                        |                                       |    
-|Russo (Rússia)                        |Y                        |                                       |    
-|Eslovaco (Eslováquia)                       |Y                        |                                       |    
-|Esloveno (Eslovênia)                    |Y                        |                                       |    
+|Português (Portugal)                   |Y                        |                                       |
+|Romeno (Romênia)                      |Y                        |                                       |
+|Russo (Rússia)                        |Y                        |                                       |
+|Eslovaco (Eslováquia)                       |Y                        |                                       |
+|Esloveno (Eslovênia)                    |Y                        |                                       |
 |Espanhol (México)                        |Y                        |Y                                      |
 |Espanhol (Espanha, Internacional)          |Y                        |Y                                      |
-|Sueco (Suécia)                        |Y                        |                                       |    
-|Tailandês (Tailândia)                         |Y                        |                                       |    
-|Turco (Turquia)                        |Y                        |                                       |    
-|Vietnamita (Vietnã)                    |Y                        |                                       |    
+|Sueco (Suécia)                        |Y                        |                                       |
+|Tailandês (Tailândia)                         |Y                        |                                       |
+|Turco (Turquia)                        |Y                        |                                       |
+|Vietnamita (Vietnã)                    |Y                        |                                       |
 
 > [!NOTE]
 > Escolher um idioma que não dá suporte ao Reconhecimento de Fala desabilitará a opção de entradas de voz no menu e discar por nome será restrito ao uso apenas da entrada do teclado (DTMF). Consulte a entrada [Discagem por Nome - Teclado (DTMF)](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) para obter mais informações.

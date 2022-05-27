@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Aprenda a personalizar uma política de Mensagens Seguras para o Microsoft Teams que pode incluir confirmação de leitura e notificações prioritárias.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: c450bb298e0a0e01440442d0813708048005a652
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045513"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674863"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para organizações de saúde
 
@@ -41,15 +41,15 @@ As políticas podem ser facilmente gerenciadas no [centro de administração do 
  
  Para editar a política de Mensagens padrão existente para sua organização, clique em **Global (padrão em toda a organização)** e faça as suas alterações. Para criar uma nova política de mensagens personalizada, clique em **Adicionar** e selecione as suas configurações. Escolha **Salvar** quando terminar.
 
-![Captura de tela das configurações de política de mensagens.](../../media/hc-messaging-policy.png)
+![Captura de tela das configurações da política de mensagens.](../../media/hc-messaging-policy.png)
 
 As configurações a seguir são de interesse especial para os aplicativos de saúde e devem ser consideradas na concepção de uma política customizada para uso no campo de saúde:
 
-## <a name="read-receipts&quot;></a>Confirmação de leitura
+## <a name="read-receipts"></a>Confirmação de leitura
 
 A confirmação de leitura permite que o remetente de uma mensagem de bate-papo saiba quando a sua mensagem foi lida pelo destinatário em chats individuais e em grupo de 20 pessoas ou menos. Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, ativadas para todos ou desativadas para todos. As confirmações de leitura de mensagem são importantes em organizações de saúde porque eliminam a incerteza sobre se uma mensagem foi lida.
 
-Para aplicativos de saúde, escolha **Controlado pelo usuário** ou **Ativado para todos**. Lembre-se de que, ao usar a configuração **Ativado para todos**, a única maneira de definir confirmações para todos os  locatários é ter apenas uma política de mensagens para todos os locatários (a política padrão denominada &quot;Global - padrão para toda a organização") ou fazer com que todas as políticas de mensagens no locatário usem as mesmas configurações para confirmações. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
+Para aplicativos de saúde, escolha **Controlado pelo usuário** ou **Ativado para todos**. Lembre-se de que, ao usar a configuração **Ativado para todos**, a única maneira de definir confirmações para todos os  locatários é ter apenas uma política de mensagens para todos os locatários (a política padrão denominada "Global - padrão para toda a organização") ou fazer com que todas as políticas de mensagens no locatário usem as mesmas configurações para confirmações. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
 
 *Exemplo de uso sem confirmação de leitura:* Jakob Roth, um paciente de alto risco, é internado no hospital.  Sofia Krause é uma enfermeira que trabalha como parte da equipe interdisciplinar (IDT) de profissionais de saúde, que inclui diferentes especialistas, e é designada como coordenadora de cuidados primários responsável por este paciente.  Sofia envia emails e outras mensagens instantâneas para um grupo de enfermeiras e médicos que usam uma variedade de aplicativos e mensagens instantâneas e, geralmente, não obtém resposta ou indicação se uma mensagem foi lida pelos membros da equipe. Devido aos processos de comunicação emaranhados, a medicação de Jakob é mal aplicada e a sua permanência no hospital é prolongada.
 

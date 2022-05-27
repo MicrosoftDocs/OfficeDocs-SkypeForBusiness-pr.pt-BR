@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Depois de implantar um ou mais Servidores de Borda, você deve habilitar os tipos de acesso externo que terão suporte na sua organização.
-ms.openlocfilehash: da44136b314fc71a1c934edb0e4f5dc335b78e4a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 6134d2d6f5e2a204a18fdbda3360d39f00ed46f2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62416604"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674583"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gerenciar a política de acesso externo da sua organização
 
@@ -41,12 +41,12 @@ Por padrão, não há políticas configuradas para suportar o acesso de usuário
 
 Essas opções incluem os seguintes tipos de acesso externo:
 
-  - **Habilitar comunicações com usuários federados**   Habilita isso se quiser dar suporte ao acesso do usuário a domínios de parceiros federados. Essa configuração configura a capacidade de os usuários se comunicarem com outros domínios federados SIP, bem como provedores hospedados, como Microsoft 365 ou Office 365. 
+  - **Habilitar comunicações com usuários federados**   Habilite isso se você quiser dar suporte ao acesso do usuário a domínios de parceiros federados. Essa configuração define a capacidade de os usuários se comunicarem com outros domínios federados SIP, bem como provedores hospedados, como Microsoft 365 ou Office 365. 
 
 
-  - **Habilitar comunicações com usuários remotos**   Habilita essa opção se você quiser que os usuários em sua organização que estejam fora do firewall, como os operadores de telecomunicações e os usuários que estão viajando, sejam capazes de se conectar ao Skype for Business Server pela Internet.
+  - **Habilitar comunicações com usuários remotos**   Habilite essa opção se quiser que os usuários em sua organização que estão fora do firewall, como os usuários que estão viajando e de telecomunicações, possam se conectar ao Skype for Business Server pela Internet.
 
-  - **Habilitar comunicações com usuários públicos**   Habilita essa opção se quiser que os usuários internos sejam capazes de se comunicar com contatos do provedor de IM público.
+  - **Habilitar comunicações com usuários públicos**   Habilite essa opção se quiser que os usuários internos possam se comunicar com contatos do provedor de mensagens instantâneas públicas.
    
 
 > [!NOTE]  

@@ -19,12 +19,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "61545002"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674653"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -214,8 +214,8 @@ Os aplicativos são fixados na barra do aplicativo. Esta é a barra do lado do c
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](teams-app-setup-policies.md).
 
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de configuração**.
-2. Clique em  **Adicionar**.  
+1. Na navegação esquerda do centro de administração do Microsoft Teams, acesse **Políticas de configuração** >  de **aplicativos do Teams**.
+2. Clique em **Adicionar**.  
 3. Insira um nome e uma descrição para a política. Por exemplo, política de configuração do aplicativo de gerente de Linha de frente.
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Captura de tela do exemplo de nome e descrição da política de configuração de aplicativo do gerenciador de linha de frente.":::
 
@@ -227,7 +227,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Captura de tela da tela Adicionar aplicativos fixados, mostrando o botão Adicionar para o aplicativo Turnos":::
 
 7. Remova a Chamada, se for exibido. A remoção desse recurso não o desabilitará para o usuário, mas impedirá que ele apareça na barra do aplicativo para simplificar a experiência do usuário final.
-8. Organize os aplicativos na seguinte ordem para ditar sua ordem na barra de aplicativos do Teams e clique em  **Salvar**.
+8. Organize os aplicativos na seguinte ordem para ditar sua ordem na barra de aplicativos do Teams e clique em **Salvar**.
 
     - Atividade
     - Bate-papo
@@ -241,8 +241,8 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Escolhemos algumas das opções recomendadas com base nas práticas recomendadas e para melhorar a facilidade de integrar novos usuários em escala. Para saber mais, clique [aqui](teams-app-setup-policies.md).
 
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de configuração**.
-2. Clique em  **Adicionar**.
+1. Na navegação esquerda do centro de administração do Microsoft Teams, acesse **Políticas de configuração** >  de **aplicativos do Teams**.
+2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política. Por exemplo, política de configuração de aplicativo de Trabalhador de linha de frente.
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Captura de tela do exemplo de nome e descrição da política de configuração de aplicativo de trabalhador de linha de frente.":::
 
@@ -255,7 +255,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Captura de tela da tela Adicionar aplicativos fixados, mostrando o botão Adicionar para o aplicativo Turnos":::
 
 7. Remova Reuniões e Chamadas, se aparecerem. A remoção desses recursos não os desabilitará para o usuário, mas impedirá que apareçam na barra de aplicativos para simplificar a experiência do usuário final.
-8. Organize os aplicativos na seguinte ordem para ditar sua ordem na barra de aplicativos do Teams e clique em  **Salvar**.
+8. Organize os aplicativos na seguinte ordem para ditar sua ordem na barra de aplicativos do Teams e clique em **Salvar**.
     - Atividade
     - Bate-papo
     - Teams
@@ -273,31 +273,31 @@ Como administrador, você pode usar as políticas de permissão do aplicativo pa
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Estas são algumas das opções com base nas práticas recomendadas que podem melhorar a facilidade de integração de novos usuários em escala. Para saber mais, clique [aqui](teams-app-permission-policies.md).
 
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de permissão**.
-2. Clique em  **Adicionar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Políticas de permissão**.
+2. Clique em **Adicionar**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de tela da página Adicionar política de permissão do aplicativo.":::
 
 3. Insira um nome e uma descrição para a política. Por exemplo, política de permissão do aplicativo do gerente de Linha de Frente.
-4. Em  **aplicativos da Microsoft**, selecione **Permitir todos os aplicativos**.
-5. Em  **Aplicativos de terceiros**, selecione **Permitir todos os aplicativos**.
+4. Em **aplicativos da Microsoft**, selecione **Permitir todos os aplicativos**.
+5. Em **Aplicativos de terceiros**, selecione **Permitir todos os aplicativos**.
 6. Em **Aplicativos personalizados**, selecione **Permitir todos os aplicativos**.
-7. Clique em **Salvar**.
+7. Clique em **Salvar**.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>Criar a política de permissão do aplicativo do trabalhador de linha de frente
 
 As seguintes configurações podem ser personalizadas para atender às suas necessidades de negócios. Estas são algumas das opções com base nas práticas recomendadas que podem melhorar a facilidade de integração de novos usuários em escala. Para saber mais, clique [aqui](teams-app-permission-policies.md).
 
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para  **Aplicativos do Teams** > **Políticas de permissão**.
-2. Clique em  **Adicionar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Políticas de permissão**.
+2. Clique em **Adicionar**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Captura de tela da página Adicionar política de permissão do aplicativo.":::
 
 3. Insira um nome e uma descrição para a política. Por exemplo, política de permissão do aplicativo de Trabalhador de linha de frente.
-4. Em  **aplicativos da Microsoft**, selecione **Permitir todos os aplicativos**.
-5. Em  **Aplicativos de terceiros**, selecione **Bloquear todos os aplicativos**.
+4. Em **aplicativos da Microsoft**, selecione **Permitir todos os aplicativos**.
+5. Em **Aplicativos de terceiros**, selecione **Bloquear todos os aplicativos**.
 6. Em **Aplicativos personalizados**, selecione **Permitir todos os aplicativos**.
-7. Clique em **Salvar**.
+7. Clique em **Salvar**.
 
 ## <a name="users-and-security-groups"></a>Usuários e grupos de segurança
 

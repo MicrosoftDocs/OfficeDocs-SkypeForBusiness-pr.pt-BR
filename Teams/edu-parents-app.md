@@ -1,5 +1,5 @@
 ---
-title: Configuração de administrador de Pais no Teams para Educação
+title: Administração configuração de Pais no Teams para Educação
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393865"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676123"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a Conexão Pai no Microsoft Teams para Educação
 
@@ -102,8 +102,8 @@ Os educadores podem bloquear um guardião no chat iniciado na Conexão Pai.
 
 O proprietário da classe pode:
 
-1. Abra o cartão de perfil do guardião, selecione a elipse e Bloquear **Usuário**. 
-2. Em seguida, remova o guardião do chat. 
+1. Abra o cartão de perfil do guardião, selecione a elipse e Bloquear **Usuário**.
+2. Em seguida, remova o guardião do chat.
 
 O usuário bloqueado não poderá iniciar chats adicionais com o proprietário da classe.
 

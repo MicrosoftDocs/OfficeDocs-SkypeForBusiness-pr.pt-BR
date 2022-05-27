@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922822"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675343"
 ---
 # <a name="shifts-data-faq"></a>Perguntas frequentes sobre deslocamentos de dados
 
@@ -45,7 +45,7 @@ Ao configurar o Teams, você escolhe um país ou região, que é definido no ní
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>Posso acessar e exportar ou excluir dados pessoais de um usuário no Shifts?
 
-O Shifts está em conformidade com o GDPR (Regulamento Geral sobre a Proteção de Dados).Uma solicitação formal de uma pessoa (conhecida como titular dos dados) para executar uma ação em seus dados pessoais é chamada de DSR (Solicitação de Entidade de Dados). Você pode encontrar e agir em dados pessoais em Turnos em resposta a uma DSR.
+O Shifts está em conformidade com o GDPR (Regulamento Geral sobre a Proteção de Dados). Uma solicitação formal de uma pessoa (conhecida como titular dos dados) para executar uma ação em seus dados pessoais é chamada de DSR (Solicitação de Entidade de Dados). Você pode encontrar e agir em dados pessoais em Turnos em resposta a uma DSR.
 
 Você pode usar a ferramenta Descoberta Eletrônica de Pesquisa de Conteúdo no portal de conformidade do Microsoft Purview para pesquisar e exportar dados de agendamento e relógio para Excel. Para todos os outros dados do Shifts, você pode fazer capturas de tela dos dados.
 
@@ -63,7 +63,7 @@ Não há nenhuma opção para excluir apenas os dados do Shifts. Se você exclui
 
 Você poderá recuperar um agendamento excluído se o grupo Microsoft 365 que o dá suporte (ou a equipe no Teams) for restaurado.
 
-Por padrão, um grupo Microsoft 365 excluído é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão reversível" porque você ainda pode restaurar o grupo. Para saber mais, confira [Restaurar um grupo Microsoft 365 excluído](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
+Por padrão, um grupo Microsoft 365 excluído é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão reversível" porque você ainda pode restaurar o grupo. Para saber mais, confira [Restaurar um grupo Microsoft 365 excluído](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center).
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>Posso usar políticas de retenção personalizadas para dados do Shifts?
 

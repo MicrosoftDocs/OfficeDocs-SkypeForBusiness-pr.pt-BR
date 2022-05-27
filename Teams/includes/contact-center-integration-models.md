@@ -2,80 +2,79 @@
 
 <a name="steps"></a>
 
-Como provedor de soluções de central de contatos, há três modelos a escolher para integrar sua solução de central de contatos conectada ao Teams:
+Como provedor de soluções do contact center, há três modelos a serem escolhidos para integrar sua solução de central de contatos conectada ao Teams:
 
-- Se você quiser usar SBCs certificados e Roteamento Direto para conectar uma solução de central de contatos ao Teams, consulte o Conexão [modelo](?tabs=connect#steps).
+- Se você quiser usar SBCs certificados e Roteamento Direto para conectar uma solução do contact center ao Teams, consulte o [Conexão modelo](?tabs=connect#steps).
 
-- Se você quiser usar bots do Azure e as APIs de Comunicação do Microsoft Graph para permitir que os provedores de soluções criem aplicativos Teams, consulte o modelo [extend .](?tabs=extend#steps)
+- Se você quiser usar bots do Azure e as APIs de Comunicação do Microsoft Graph para permitir que os provedores de soluções criem aplicativos Teams, consulte o [modelo Estender](?tabs=extend#steps).
 
-- Se você quiser usar um SDK que permita que os provedores de soluções insumentem experiências Teams nativas em seu Aplicativo, consulte o [modelo power](?tabs=power#steps). As soluções de energia serão possíveis quando o SDK estiver disponível, no final de 2021.
+- Se você quiser usar um SDK que permite que os provedores de soluções criem experiências Teams nativas em seu aplicativo, consulte o [modelo do Power](?tabs=power#steps). As soluções de energia serão possíveis quando o SDK estiver disponível, até o final de 2021.
 
 ### <a name="the-connect-model"></a>[**O Conexão modelo**](#tab/connect)
 
-O Conexão usa SBCs certificados pela Microsoft e Roteamento Direto para conectar soluções de contact center Teams infraestrutura do sistema de telefonia, habilitando o roteamento, a configuração e as percepções do sistema aprimoradas.
+O Conexão modelo usa SBCs certificados pela Microsoft e Roteamento Direto para conectar soluções de contact center Teams infraestrutura do sistema de telefonia, habilitando o roteamento, a configuração e os insights do sistema aprimorados.
 
-Os agentes podem configurar assistentes virtuais automatizados e filas de roteamento baseadas em habilidades para coletar informações e conectar clientes com especialistas no assunto.
+Os agentes podem configurar assistentes virtuais automatizados e filas de roteamento baseadas em habilidades para coletar informações e conectar clientes a especialistas no assunto.
 
-**Destaques do recurso:**
-
-Embora esses recursos não sejam uma lista abrangente de recursos para esse modelo de integração, as áreas de foco incluem:
-
-  - Office 365 authN para que os agentes se conectem ao locatário da Microsoft a partir do cliente CCaaS integrado 
-
-  - Veja quando os agentes estão disponíveis com Teams
-
-  - Transferências e suporte a chamada de grupo com Teams 
-
-  - Teams Graph APIs e APIs de Comunicação na Nuvem para integração com Teams 
-
-  - Tronco SIP de vários locatários para dar suporte a vários clientes no SBC do provedor de soluções.  
-
-  - Provedores de soluções para usar o [ <span class="underline">controlador de borda de sessão certificado pela Microsoft (SBC)</span>](../direct-routing-border-controllers.md)
-
-
-### <a name="the-extend-model"></a>[**O modelo Extend**](#tab/extend)
-
-O modelo Extend se integra ao cliente Teams usando a plataforma cliente [Teams](/microsoftteams/platform/overview), [apIs](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) Teams Graph e [API de Comunicações](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)na Nuvem no Microsoft Graph . O modelo Extend também usa o sistema Teams telefone para todas as experiências de controle de chamadas e chamadas da central de contatos, e o provedor de soluções do centro de contatos atua como uma operadora de telefonia junto com Microsoft 365.
-
-Os agentes podem usar Teams para colaboração interna e comunicação externa e podem se beneficiar de notas dinâmicas e contextuais correlacionando dados de vários sistemas antes de iniciar um envolvimento e, em seguida, evitar a alternência de contexto custosa.
-
-As organizações podem projetar fluxos de trabalho e configurações de roteamento avançadas para o indivíduo e medir a qualidade de seu sistema e interações.
-
-**Destaques do recurso:**
+**Destaques de recursos:**
 
 Embora esses recursos não sejam uma lista abrangente de recursos para esse modelo de integração, as áreas de foco incluem:
 
-  - Teams Graph APIs e APIs de Comunicação na Nuvem para integração com Teams 
+- Office 365 autenticação para que os agentes se conectem ao locatário da Microsoft do cliente CCaaS integrado
 
-  - Teams aplicativo baseado em agente para experiências de agente 
+- Veja quando os agentes estão disponíveis com Teams
 
-  - Teams como o ponto de extremidade de chamada principal para os agentes 
+- Transferências e suporte a chamadas em grupo com Teams
 
-  - Teams cliente chamando todos os controles de chamada
+- APIs Teams Graph e APIs de Comunicação na Nuvem para integração com Teams
 
-  - Aplicativo de experiência do agente para cliente web e móvel Teams web
+- Tronco SIP multilocatário para dar suporte a vários clientes no SBC do provedor de soluções.
 
-  - Análise, gerenciamento de fluxo de trabalho, experiências baseadas em função para agentes no aplicativo CCaaS em Teams
+- Provedores de solução para usar o [<span class="underline">controlador de borda de sessão certificado pela Microsoft (SBC)</span>](../direct-routing-border-controllers.md)
 
-  - Experiências de chat e colaboração integradas Teams clientes 
+### <a name="the-extend-model"></a>[**O modelo Estender**](#tab/extend)
 
-  - Preservar o desempenho e a qualidade Teams experiências do cliente em todos os aplicativos  
+O modelo Estender integra-se ao cliente Teams usando [a](/microsoftteams/platform/overview) plataforma de cliente Teams, [apIs](/graph/api/resources/teams-api-overview) de Teams Graph e API de Comunicações na Nuvem no [Microsoft Graph](/graph/api/resources/communications-api-overview). O modelo Estender também usa o sistema de telefonia Teams para todas as chamadas do centro de contatos e experiências de controle de chamadas, e o provedor de soluções do centro de contatos atua como uma operadora de telefonia junto com Microsoft 365.
 
-### <a name="the-power-model"></a>[**O modelo Power**](#tab/power)
+Os agentes podem usar Teams para colaboração interna e comunicação externa e podem se beneficiar de notas contextuais dinâmicas que correlacionam dados de vários sistemas antes de iniciar um compromisso e evitar a alternância de contexto dispendiante.
 
-O modelo Power permite que os provedores de soluções criem aplicativos de voz nativos baseados no Azure usando a infraestrutura de chamada Teams e a plataforma de cliente para fornecer soluções modernas e inteligentes para conexão colaborativa de cliente e agente. O objetivo do modelo Power é fornecer uma experiência de central de contatos de um aplicativo com uma tela.
+As organizações podem projetar fluxos de trabalho e configurações avançadas de roteamento até o indivíduo e medir a qualidade de seu sistema e interações.
 
-**Destaques do recurso:**
+**Destaques de recursos:**
 
 Embora esses recursos não sejam uma lista abrangente de recursos para esse modelo de integração, as áreas de foco incluem:
 
-  - Experiências de agente formais habilitadas de forma nativa para comunicação omnicanal por meio Teams SDK 
+- APIs Teams Graph e APIs de Comunicação na Nuvem para integração com Teams
 
-  - Usar Teams de colaboração para colaboração de agentes e interações do cliente  
+- Teams baseado em aplicativo para experiências de agente
 
-  - Provisionamento rápido de serviços de nuvem, implantar em qualquer lugar 
+- Teams como o ponto de extremidade de chamada principal para os agentes
 
-  - Controle de conversa direta e interação com os usuários durante Teams conversas 
+- Teams cliente chamando todos os controles de chamada
 
->[!NOTE]
-> O modelo Power estará disponível no final de 2021.
+- Aplicativo de experiência do agente para Teams web e cliente móvel
+
+- Análise, gerenciamento de fluxo de trabalho, experiências baseadas em função para agentes no aplicativo CCaaS Teams
+
+- Experiências de chat e colaboração integradas Teams clientes
+
+- Preservar o desempenho e a qualidade Teams experiências do cliente em todos os aplicativos
+
+### <a name="the-power-model"></a>[**O modelo de energia**](#tab/power)
+
+O modelo de energia permite que os provedores de soluções criem aplicativos de voz nativos baseados no Azure usando a infraestrutura de chamada do Teams e a plataforma de cliente para fornecer soluções modernas e inteligentes para conexão colaborativa de cliente e agente. O objetivo do modelo do Power é fornecer uma experiência de centro de contato de um aplicativo com uma tela.
+
+**Destaques de recursos:**
+
+Embora esses recursos não sejam uma lista abrangente de recursos para esse modelo de integração, as áreas de foco incluem:
+
+- Experiências formais de agente habilitadas nativamente para comunicação omnicanal por meio Teams SDK
+
+- Usar Teams de colaboração para colaboração de agente e interações com o cliente
+
+- Provisionamento rápido de serviços de nuvem, implantar em qualquer lugar
+
+- Controle de conversa direta e interação com os usuários durante Teams conversas
+
+> [!NOTE]
+> O modelo de energia estará disponível até o final de 2021.

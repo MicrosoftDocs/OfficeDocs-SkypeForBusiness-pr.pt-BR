@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370894"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681782"
 ---
 # <a name="plan-for-sip-gateway"></a>Planejar o Gateway SIP
 
@@ -47,8 +47,7 @@ O Gateway SIP conecta dispositivos SIP compatíveis Teams para ajudar os usuári
 - **Multi freqüência de tom duplo:** Os usuários do dispositivo SIP podem pressionar teclas de número para fornecer entrada durante chamadas interativas de resposta de voz.
 - **Teams reuniões: um** usuário do dispositivo SIP pode ingressar em uma reunião Teams discando o número de acesso à reunião. Os participantes da reunião podem adicionar um usuário de dispositivo SIP à reunião discando para o número de telefone do usuário ou simplesmente adicionando um participante clicando em 'Solicitar para Ingressar' também alertará o dispositivo SIP do usuário. Os usuários convidados de outra organização podem ser adicionados a uma reunião Teams por um participante que disca para o número de um usuário convidado para incluir esse convidado.
 - **Transferências de chamada:** Os usuários do dispositivo SIP podem transferir chamadas. O Gateway SIP dá suporte a transferências cegas e consultivas.
-- **Encaminhamento de chamadas local:** Um usuário do dispositivo SIP pode definir regras de encaminhamento (sempre, no tempo limite e ocupado) para o dispositivo. Se o dispositivo estiver conectado ao Gateway SIP, a chamada será redirecionada para o endereço de destino com base na regra definida pelo usuário do dispositivo. Para fazer com que o encaminhamento de chamadas local funcione, o administrador deve definir o `AllowCallRedirect` atributo como `Set-CsTeamsCallingPolicy` `Enabled`. 
-
+- **Encaminhamento de chamadas local:** Um usuário do dispositivo SIP pode definir regras de encaminhamento (sempre, no tempo limite e ocupado) para o dispositivo. Se o dispositivo estiver conectado ao Gateway SIP, a chamada será redirecionada para o endereço de destino com base na regra definida pelo usuário do dispositivo. Para fazer com que o encaminhamento de chamadas local funcione, o administrador deve definir o `AllowCallRedirect` atributo como `Set-CsTeamsCallingPolicy` `Enabled`.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Requisitos para usar o Gateway SIP
 
@@ -56,7 +55,8 @@ Teams usuários devem ter um número de telefone com chamada PSTN habilitada par
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, software e licenças
 
-Se você tiver um dispositivo SIP ou 3PIP, deverá ter: 
+Se você tiver um dispositivo SIP ou 3PIP, deverá ter:
+
 - Uma licença para Sistema de Telefonia (via E5 ou uma licença autônoma)
 - Habilitação de PSTN (ou seja, um número de telefone) por meio de um plano de chamada Microsoft Teams, roteamento direto ou Conexão do operador
 - Uma licença do Common Area Telefone para qualquer dispositivo de área comum

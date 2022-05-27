@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos para grandes organizações no Microsoft Teams.
-ms.openlocfilehash: a0b50a83e54059dca68562c2140ece6253448dd0
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059092"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674363"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -128,7 +128,7 @@ Se você não atribuiu chaves de discagem, escolha uma opção para pesquisa **d
 
 **Discar por extensão** – se você habilitar essa opção, os chamadores poderão se conectar com os usuários em sua organização discando sua extensão de telefone. Qualquer usuário online ou qualquer usuário hospedado localmente usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com **o Dial por extensão**. (Você pode definir quem é e não está incluído no diretório na página de escopo [do Dial](#dial-scope) .)
 
-Os usuários que você deseja disponibilizar para o Dial By Extension precisam ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory (e sincronizados por meio do Azure AD Conexão) ou Azure Active Directory. (Consulte [Adicionar usuários individualmente ou em massa](/microsoft-365/admin/add-users/add-users) para obter mais informações.)
+Os usuários que você deseja disponibilizar para o Dial By Extension precisam ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory (e sincronizados via Azure AD Conexão) ou Azure Active Directory. (Consulte [Adicionar usuários individualmente ou em massa](/microsoft-365/admin/add-users/add-users) para obter mais informações.)
 
 - OfficePhone/TelephoneNumber (AD e Azure AD)
 - HomePhone (AD)

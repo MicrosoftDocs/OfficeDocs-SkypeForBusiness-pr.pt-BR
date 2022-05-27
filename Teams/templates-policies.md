@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar modelos de equipe no centro de administração
-ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248933"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681392"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gerenciar modelos de equipe no centro de administração
 
@@ -106,7 +106,7 @@ R: Todos os modelos excluídos não estarão mais presentes em nenhuma política
 
 R: Sim.
 
-1. No centro Teams administrador, vá para **usuários** **usersManage** > .
+1. No centro Teams administradores, vá para Gerenciar **Usuários** > .
 1. Na lista de usuários, selecione os usuários que você deseja atribuir à política de modelos.
 1. Selecione **Editar configurações** e, em seguida, em **Política de** Modelos, escolha a política que você deseja atribuir.
 1. Escolha **Aplicar**.
@@ -117,7 +117,7 @@ Para saber mais, confira [Atribuir uma política a usuários individuais](assign
 
 R: No Teams de administração:
 
-1. Acesse **Usuários** **do UsersManage** > .
+1. Vá para **Usuários** > **Gerenciar usuários**.
 2. Selecione **Filtrar**, defina um filtro para a política de modelos e, em seguida, **escolha Aplicar**.
 
     ![A política de modelos selecionados e a exibição de usuários.](media/template-policies-5.png)

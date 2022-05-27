@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62362977"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675643"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -106,12 +106,12 @@ Talvez seja necessário restringir os recursos fornecidos aos **estudantes de en
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>Criar equipes de classe para uso seguro na sala de aula
 
-O Microsoft Teams para Educação oferece   [tipos de equipes específicos](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)  para uso educacional. O[ Tipo de equipe de classe](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) foi projetado para uso em sala de aula e vem com recursos específicos que oferecem suporte às necessidades de sala de aula, incluindo:  
+O Microsoft Teams para Educação oferece [tipos de equipe específicos](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) para uso educacional. O[ Tipo de equipe de classe](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) foi projetado para uso em sala de aula e vem com recursos específicos que oferecem suporte às necessidades de sala de aula, incluindo:  
 
 - Tarefas
 - Notas
 - Bloco de anotações de classe do OneNote  
-- [Pasta de materiais de classe](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  garantindo o conteúdo somente leitura para estudantes
+- [Pasta de Materiais de aula](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) para proteger conteúdo somente leitura para alunos
 - O [Insights](./class-insights.md) fornece dados em tempo real sobre o compromisso, as atribuições e o bem-estar dos alunos em cada sala de aula. 
 - [Acesso antecipado ao professor](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) para configurar a classe antes que os alunos sejam adicionados 
 - A capacidade silenciar alunos bagunceiros e outras permissões especiais.  
@@ -127,7 +127,7 @@ Vamos percorrer várias opções para ajudá-lo a escolher o caminho de implanta
 
 #### <a name="automatic-team-creation-using-sds"></a>Criação automática de equipe usando SDS
 
-A automação da criação de equipe economiza o tempo dos administradores de TI e dos professores. Isso garante que os professores tenham todas as equipes de classe criadas e prontas para serem configuradas ao entrar. [A SDS (School Data Sync)](/SchoolDataSync) é uma ferramenta gratuita do Office 365 Education que lê os dados do sistema de um registro de instituição educacional, por exemplo, um SIS (sistema de informações de alunos) ou LMS (sistema de gerenciamento de aprendizagem). O SDS usa os dados para enriquecer a configuração do Office 365 de várias maneiras, incluindo a criação de equipes de classe em massa e a manutenção da sincronização com o seu sistema de informações para que o instrutor e a associação do aluno sejam atualizados conforme as alterações no registro. O SDS pode importar dados de qualquer sistema de registro e tem conectores internos para muitos dos [fornecedores SIS](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support) existentes do mundo. É altamente recomendável usar SDS, uma vez que fornece os seguintes benefícios.  
+A automação da criação de equipe economiza o tempo dos administradores de TI e dos professores. Isso garante que os professores tenham todas as equipes de classe criadas e prontas para serem configuradas ao entrar. [A SDS (School Data Sync)](/SchoolDataSync) é uma ferramenta gratuita do Office 365 Education que lê os dados do sistema de um registro de instituição educacional, por exemplo, um SIS (sistema de informações de alunos) ou LMS (sistema de gerenciamento de aprendizagem). O SDS usa os dados para enriquecer a configuração do Office 365 de várias maneiras, incluindo a criação de equipes de classe em massa e a manutenção da sincronização com o seu sistema de informações para que o instrutor e a associação do aluno sejam atualizados conforme as alterações no registro. O SDS pode importar dados de qualquer sistema de registro e possui conectores integrados para muitos dos [fornecedores de SIS](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support) existentes no mundo. É altamente recomendável usar SDS, uma vez que fornece os seguintes benefícios.  
 
 ###### <a name="benefits"></a>Benefícios
 
@@ -215,7 +215,7 @@ Com o PowerShell, você pode escrever um script para criar equipes, canais e def
 
 #### <a name="manual-team-creation"></a>Criação da equipe manualmente
 
-Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreiras mínimas e terão a flexibilidade para adaptá-lo às suas necessidades. Uma forma dos usuários personalizarem a experiência do Teams é ter a capacidade de criar equipes que atendam às suas necessidades. Os professores configuram seu próprio tipo de classe da equipe e convidam os alunos conforme mostrado [aqui](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Os professores podem [adicionar alunos à equipe](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), ao [compartilharem um código de ingresso](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) ou ao [compartilharem um link para a equipe](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Se possível, é melhor que os professores adicionem seus alunos à equipe para garantir que eles tenham acesso e sejam notificados de que foram adicionados a uma equipe.
+Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreiras mínimas e terão a flexibilidade para adaptá-lo às suas necessidades. Uma forma dos usuários personalizarem a experiência do Teams é ter a capacidade de criar equipes que atendam às suas necessidades. Os professores configuram seu próprio tipo de classe da equipe e convidam os alunos conforme mostrado [aqui](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Os professores podem [adicionar alunos à equipe](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), ao [compartilharem um código de ingresso](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) ou ao [compartilharem um link para a equipe](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Se possível, é melhor que os educadores adicionem seus alunos à equipe para garantir que eles tenham acesso e sejam notificados de que foram adicionados a uma equipe.
 
 ##### <a name="benefits"></a>Benefícios
 
@@ -241,7 +241,7 @@ As Equipes de Classe de Acesso Antecipado permitem que os educadores acessem sua
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>Como criar equipes de classe que permitem aos educadores acesso antecipado a configurar uma equipe antes da admissão de estudantes?
 
-As equipes criadas a partir de grupos (por meio de SDS, ministradas por educadores ou API do Graph) criam automaticamente as equipes de acesso antecipado por padrão. Para criar sua própria equipe de acesso inicial usando a API do Graph, será necessário [criar uma classe](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) e [criar a equipe a partir de um grupo](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
+As equipes criadas a partir de grupos (por meio de SDS, ministradas por educadores ou API do Graph) criam automaticamente as equipes de acesso antecipado por padrão. Para criar suas próprias equipes de acesso antecipado usando a API do Graph, você precisará [criar uma turma](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) e [criar a equipe a partir de um grupo](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>Como verificar se uma classe está ativada?
 
@@ -249,7 +249,7 @@ No [tipo de recurso equipe](/graph/api/resources/team?view=graph-rest-beta&prese
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>Como ativar uma classe para um educador?
 
-Use a [API de Atualização de Equipe](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) e defina a ```isMembershipLimitedToOwners``` propriedade como falso para ativar a equipe em nome de seu educador. Observe que, depois que uma equipe é ativada, não é possível revertê-la.
+Use a [API de atualização da equipe](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) e defina a propriedade ```isMembershipLimitedToOwners``` como false para ativar a equipe em nome de seu educador. Observe que, depois que uma equipe é ativada, não é possível revertê-la.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Criar as equipes de funcionários para comunicação e colaboração dos funcionários
 

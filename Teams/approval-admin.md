@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646250"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676493"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
 
@@ -65,7 +65,7 @@ O CDM (Common Data Model) é a linguagem de dados compartilhada usada por aplica
 
 Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
 
-Aprovações criados com base em um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre  [o Armazenamento de dados para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Aprovações criados com base em um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre [o Armazenamento de dados para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Se você excluir o modelo de formulário Microsoft Forms site, ele interromperá o modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de aprovação que é excluído no Microsoft Forms.
@@ -114,7 +114,7 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   3. Procure o aplicativo Aprovações.
 
-     ![mostra a navegação do Centro de administração com Teams Aplicativos > Gerenciar Aplicativos realçados.](media/manage-approval-apps.png)
+     ![mostra a navegação Administração central com os Teams aplicativos > Gerenciar Aplicativos realçados.](media/manage-approval-apps.png)
 
   4. Selecione **Aprovações**.
 
@@ -223,7 +223,7 @@ Para usar o Aprovações de assinatura e do aplicativo, você precisa de uma lic
 
 Você pode usar o Teams de administração para controlar quais provedores de assinaturas de email de terceiros estão disponíveis para seus usuários no Aprovações aplicativo. Por padrão, os provedores de assinatura de e são habilitados no Aprovações aplicativo. Quando você desabilita um provedor de assinatura automática, os usuários não terão acesso a esse provedor quando criarem aprovações. Os usuários também não poderão exibir solicitações de assinatura e que foram criadas usando esse provedor.
 
-1. No painel esquerdo do centro de administração Teams, acesse Teams **appsManage** > .
+1. No painel esquerdo do centro de administração do Teams, acesse **Teams aplicativos** > **Gerenciar aplicativos**.
 2. Pesquise o Aprovações aplicativo e selecione-o.
 3. Vá para a **Configurações** e, em seguida, siga um ou mais dos seguintes procedimentos:
 

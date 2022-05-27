@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como atualizar aplicativos Microsoft Teams.
-ms.openlocfilehash: ce788bcdfb690aec305b71ec881a865385c895c2
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+description: Saiba como atualizar aplicativos no Microsoft Teams.
+ms.openlocfilehash: ed9a1de2e182088a20721758c63f8b6d83cc36df
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442277"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674993"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Atualizar aplicativos no Microsoft Teams
 

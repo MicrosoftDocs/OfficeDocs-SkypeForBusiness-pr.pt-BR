@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião Microsoft Teams.
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646210"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675353"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião Microsoft Teams
 
@@ -112,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 Você pode definir a data de validade no centro Teams de administração em **Políticas de reunião.** Depois de ativar as **Reuniões expirarem automaticamente,** você terá a opção de definir uma expiração de gravação.
 
-![Captura de tela do Centro de administração da política de expiração da reunião.](media/meeting-expiration-policy.jpg)
+![Administração de tela central da política de expiração da reunião.](media/meeting-expiration-policy.jpg)
 
 ### <a name="security-and-compliance"></a>Segurança e conformidade
 
@@ -131,7 +131,7 @@ Por exemplo:
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Esse recurso aplicará a retenção de arquivos?
 
-Não, os arquivos não serão retidos devido a esse recurso ou suas configurações. Se um usuário com permissões de exclusão tentar excluir um TMR que tenha uma configuração de expiração, a ação de exclusão desse usuário será executada.
+Não, os arquivos não serão retidos devido a esse recurso ou suas configurações. Se um usuário com permissões de exclusão tentar excluir uma TMR que tenha uma configuração de expiração, a ação de exclusão desse usuário será executada.
 
 ### <a name="what-skus-are-required-for-this-feature"></a> Quais SKUs são necessários para esse recurso?
 

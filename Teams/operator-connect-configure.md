@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
-ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
+ms.openlocfilehash: 8d3b56a7935f31413829c89285fc81ee70023ab4
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "65284066"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675763"
 ---
 # <a name="configure-operator-connect"></a>Configurar Conexão do operador
 
@@ -71,7 +71,7 @@ Para adquirir números para novos Teams novos usuários, siga estas etapas:
 4. **Atribuir números.** Depois que o operador concluir o pedido, ele carregará números em seu locatário. Você pode exibir os números e o provedor no centro de Teams de administração, indo para **Voz > Telefone números**. Atribua números aos usuários do Teams de administração ou usando o PowerShell. Para obter mais informações, consulte [Atribuir números](#assign-numbers).
 
 > [!NOTE]
-> Além de esquecer os números de telefone para seus  [usuários, você](getting-phone-numbers-for-your-users.md) pode obter números de telefone de chamada tarifada ou gratuita para serviços como Audioconferência (para pontes de conferência), Atendedores Automáticos e Filas de Chamadas (também chamados de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes. Por exemplo, um número de serviço pode lidar com centenas de chamadas simultaneamente, enquanto o número de telefone de um usuário só pode manipular algumas chamadas simultaneamente. Para obter números de serviço, entre em contato com seu operador.
+> Além de obter números de telefone para seus [usuários, você](getting-phone-numbers-for-your-users.md) pode obter números de chamada tarifada ou gratuita para serviços como Audioconferência (para pontes de conferência), Atendedores Automáticos e Filas de Chamadas (também chamados de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes. Por exemplo, um número de serviço pode lidar com centenas de chamadas simultaneamente, enquanto o número de telefone de um usuário só pode manipular algumas chamadas simultaneamente. Para obter números de serviço, entre em contato com seu operador.
 
 ### <a name="emergency-addresses"></a>Endereços de emergência
 

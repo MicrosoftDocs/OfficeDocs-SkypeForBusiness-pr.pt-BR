@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635239"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674833"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegue Microsoft Teams
 
@@ -89,7 +89,7 @@ Há duas maneiras de mover seus grupos Kaizala simples para Teams:
 
 - Opção 2: alternar de um grupo Kaizala simples para uma Teams de equipe
 
-**Opção 1: alternar de um grupo Kaizala simples para um chat em grupo no Teams**
+**Opção 1: alternar de um grupo Kaizala simples para um chat em grupo Teams**:
 
 Você pode criar um chat Teams grupo para manter conversas rápidas e transitórias com até 250 participantes. Os chats em grupo permitem que as pessoas em sua organização tenham um local central para conversas abertas em que qualquer pessoa pode ser adicionada ao chat.
 
@@ -102,23 +102,23 @@ Você pode criar um chat Teams grupo para manter conversas rápidas e transitór
 2. Adicione pessoas à conversa.
 
     ![Adicionar pessoas à conversa](media/kaizala-to-teams-image5.png)
-    
+
    Ao adicionar alguém a um chat em grupo (não um para um), você pode incluir o histórico de **chat** e a  duração do histórico que deseja compartilhar com ela.
 
 3. Gerenciar chat em grupo.
   
     ![Gerenciar chat em grupo](media/manage-groupchats.png)
-    
+
    Para ver quem está em um chat em grupo, passe o mouse sobre o número de participantes no cabeçalho do chat para mostrar uma lista dos nomes de todos.
 
-**Opção 2: alternar de um grupo Kaizala simples para uma Teams de equipe**
-   
+**Opção 2: alternar de um grupo Kaizala simples para uma Teams equipe**:
+
 Para comunicação de grupo grande direcionada, você pode criar uma equipe para um grupo simples. Você pode adicionar até 25.000 membros para se envolver em comunicação estruturada com conversas encadeadas. Esse tipo de comunicação permite funções de moderação e administração para garantir que as coisas estejam funcionando sem problemas.
 
 1. Criar uma equipe: para começar a usar o Teams, você deve criar uma equipe, adicionar pessoas e adicionar canais. Para saber mais, confira [suas primeiras equipes](get-started-with-teams-create-your-first-teams-and-channels.md).
 2. Examine o guia para os proprietários da equipe:
 
-Como proprietário [da](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us) equipe, você pode adicionar novos membros e convidados, alterar membros em proprietários, gerenciar canais e configurações e arquivar uma equipe que não está mais em uso.
+   Como proprietário [da](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us) equipe, você pode adicionar novos membros e convidados, alterar membros em proprietários, gerenciar canais e configurações e arquivar uma equipe que não está mais em uso.
 
 3. Adicione membros em massa a uma equipe:
 
@@ -295,17 +295,17 @@ Siga esta abordagem de três etapas para obter suas soluções para Microsoft Te
 
 ### <a name="it-professionals"></a>Profissionais de TI
 
-Faça a transição administrativa do portal Kaizala Management para o Microsoft Teams Admin Center. O Teams de administração é usado principalmente para uso apenas de funções de administrador.
+Faça a transição administrativa do portal Kaizala Management para o Microsoft Teams Administração Center. O Teams de administração é usado principalmente para uso apenas de funções de administrador.
 
 Os administradores podem gerenciar toda Teams carga de trabalho ou podem ter permissões delegadas para solucionar problemas de qualidade de chamada ou gerenciar as necessidades de telefonia da sua organização.
 
-Para navegar pelo centro de administração, [visite Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+Para navegar pelo centro de administração, [visite Microsoft Teams Administração Center](https://admin.teams.microsoft.com/).
 
 Você pode monitorar a segurança e a conformidade da sua organização Microsoft 365 com o [portal de conformidade do Microsoft Purview](/microsoft-365/compliance/microsoft-365-compliance-center) e a [Central de Segurança da Microsoft](/microsoft-365/security/defender/overview-security-center).
 
 Proteja sua empresa e capacite seus usuários no [centro de administração do Azure Active Directory](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) em que você pode examinar grupos, identidade, licenças e acesso entre Microsoft 365.
 
-## <a name="kaizala-management-portal-to-teams-admin-center"></a>Portal de Gerenciamento do Kaizala ao Teams Admin Center
+## <a name="kaizala-management-portal-to-teams-admin-center"></a>Portal de Gerenciamento do Kaizala para Teams Administração Central
 
 ### <a name="end-user-guidance"></a>Diretrizes do usuário final
 
@@ -318,10 +318,10 @@ Use a tabela a seguir para navegar pelas funcionalidades correspondentes no Micr
 | Diretório | Pesquise qualquer pessoa em sua organização por meio da **Barra de Pesquisa** nas equipes. Os resultados da Pesquisa também retornarão arquivos, mensagens e postagens |
 | Análise (Cartões de Ação) | **Pesquisas**, **pesquisas e** **listas de** verificação criaram relatórios com dados baixáveis. Os trabalhos também podem ser atribuídos com a ajuda do aplicativo Tarefas Teams, disponível para usuários. Para mais cenários, aplicativos de terceiros, como **o Trello**, **o Asana** também pode ser explorado para ser usado em Teams. |
 | Extensões – Conectores | Use a **opção Conectores** no menu (...) para qualquer canal para o qual o conector é necessário. |
-| [Relatório de adoção de análise (uso](teams-analytics-and-reports/view-analytics.md)), [relatório de uso](teams-analytics-and-reports/teams-usage-report.md), [relatório de atividades](teams-analytics-and-reports/user-activity-report.md) | Os proprietários da equipe podem acessar relatórios para suas equipes navegando no menu (...) para gerenciar **o** **teamanalytics** > . |
+| [Relatório de adoção de análise (uso](teams-analytics-and-reports/view-analytics.md)), [relatório de uso](teams-analytics-and-reports/teams-usage-report.md), [relatório de atividades](teams-analytics-and-reports/user-activity-report.md) | Os proprietários da equipe podem acessar relatórios para suas equipes navegando no menu (...) para **gerenciar a análise de** > **equipe**. |
 
 > [!NOTE]
-> Teams usuários finais podem usar o Teams desktop ou móvel para gerenciar suas equipes e canais individuais e não precisarão acessar o centro de administração do Teams.
+> Teams usuários finais podem usar Teams desktop ou móvel para gerenciar suas equipes e canais individuais e não precisarão acessar o Teams Administração central.
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala de grupo
 

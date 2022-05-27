@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f50a76eb6dfafdabfb2ea679fe86b91954c364f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 52bc9b577b545ff7658b0317baca7eb6098dd335
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635469"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675133"
 ---
 # <a name="teams-devices-for-education"></a>Teams para Educação
 
@@ -33,17 +33,17 @@ ms.locfileid: "65635469"
 
 ### <a name="hybrid-and-blended-education-is-here-to-stay"></a>A educação híbrida e misturada está aqui para ficar
 
-Learning futuro será híbrido e combinado. Educadores e alunos exigem uma experiência fluida realizada em um continuum de espaços, motivada por uma necessidade de flexibilidade quando se trata de como e onde o aprendizado ocorre. A educação não será restrita a uma sala de aula física ou estritamente a ambientes virtuais; a participação remota será tão dinâmica quanto o aprendizado presencial. A flexibilidade que o aprendizado híbrido e combinado oferece, embora não seja novidade para todos, será novidade para muitos e terá um impacto de grande alcance. 
+Learning futuro será híbrido e combinado. Educadores e alunos exigem uma experiência fluida realizada em um continuum de espaços, motivada por uma necessidade de flexibilidade quando se trata de como e onde o aprendizado ocorre. A educação não será restrita a uma sala de aula física ou estritamente a ambientes virtuais; a participação remota será tão dinâmica quanto o aprendizado presencial. A flexibilidade que o aprendizado híbrido e combinado oferece, embora não seja novidade para todos, será novidade para muitos e terá um impacto de grande alcance.
 
-A sala de aula moderna e híbrida não terá limites. Os alunos e educadores serão capacitados pelo aprendizado síncrono e assíncrono, bem como pelo envolvimento interativo e multi modal projetado para atender às necessidades de cada aluno em todas as circunstâncias. Teams dispositivos foram projetados para dar suporte a uma variedade de espaços para que nenhuma voz seja inohesibil. 
+A sala de aula moderna e híbrida não terá limites. Os alunos e educadores serão capacitados pelo aprendizado síncrono e assíncrono, bem como pelo envolvimento interativo e multi modal projetado para atender às necessidades de cada aluno em todas as circunstâncias. Teams dispositivos foram projetados para dar suporte a uma variedade de espaços para que nenhuma voz seja inohesibil.
 
 ### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>Alunos e educadores se destacam Salas do Microsoft Teams
 
--   Salas do Microsoft Teams o aprendizado seguro, seguro e focado no aluno, desde a integração de sala de aula até salas de grupo para colaboração mais focada e até mesmo um-para-um para atender às necessidades e perguntas específicas dos alunos.
+- Salas do Microsoft Teams o aprendizado seguro, seguro e focado no aluno, desde a integração de sala de aula até salas de grupo para colaboração mais focada e até mesmo um-para-um para atender às necessidades e perguntas específicas dos alunos.
 
--   Usar dispositivos pessoais e compartilhados em um ambiente de aprendizado digital ou híbrido ajuda os alunos a socializar e obter as principais habilidades que usarão ao longo de suas vidas.
+- Usar dispositivos pessoais e compartilhados em um ambiente de aprendizado digital ou híbrido ajuda os alunos a socializar e obter as principais habilidades que usarão ao longo de suas vidas.
 
--   Teams funcionalidade não está restrita à sala de aula. Educadores e administradores podem se conectar facilmente com outros docentes e funcionários dentro da mesma escola ou em todo o distrito escolar de sua casa, escritório ou onde quer que eles otimizaram seu ambiente. Com Teams, o desenvolvimento profissional pode ser acessado de qualquer lugar.
+- Teams funcionalidade não está restrita à sala de aula. Educadores e administradores podem se conectar facilmente com outros docentes e funcionários dentro da mesma escola ou em todo o distrito escolar de sua casa, escritório ou onde quer que eles otimizaram seu ambiente. Com Teams, o desenvolvimento profissional pode ser acessado de qualquer lugar.
 
 ### <a name="bring-digital-flexibility-to-physical-spaces"></a>Trazer flexibilidade digital para espaços físicos
 
@@ -62,21 +62,21 @@ Salas do Teams ir além do que pode ser feito com o Teams em dispositivos pessoa
 
 Sistemas não nativos e auto-criados que dependem de serviços externos, ou uma conexão traga seu próprio dispositivo, nunca corresponderão realmente à facilidade de uso ou à qualidade imersiva de uma sala Teams nativa.
 
-**Criado para fins Teams** 
+**Criado para fins Teams**:
 
 Áudio, vídeo e compartilhamento avançados
 
-**Portfólio de dispositivos expansivos para qualquer sala**
+**Portfólio de dispositivos expansivos para qualquer sala**:
 
 Selecionar entre fatores forma totalmente modularizados ou integrados entre Android ou Windows sistemas operacionais
 
-**Experiências de sala reimaginadas**
+**Experiências de sala reimaginadas**:
 
 Participe Teams reuniões sem atrito para participar de reuniões inclusivas e colaborativas para alunos e educadores.
 
-**Facilmente gerenciado de um só lugar**
+**Gerenciado facilmente de um só lugar**:
 
-Gerencie e mantenha os dispositivos totalmente atualizados e prontos para uso no Teams Admin Center e habilite o gerenciamento proativo 24x7 da Microsoft com Salas do Microsoft Teams Premium
+Gerencie e mantenha os dispositivos totalmente atualizados e prontos para uso no Teams Administração Center e habilite o gerenciamento proativo 24x7 da Microsoft com Salas do Microsoft Teams Premium
 
 ## <a name="space-considerations"></a>Considerações sobre o espaço
 
@@ -98,7 +98,7 @@ O seguinte par de imagens ilustra as configurações Teams otimizadas em um espa
 
 *As atividades no espaço se concentrarão na co-criação colaborativa?*
 
-A criatividade requer um layout e uma implantação de tecnologia projetadas em torno da colaboração do usuário. O espaço certo facilita o trabalho entre os usuários e a tecnologia perfeitamente e elimina o atrito até mesmo para os usuários mais iniciantes. Teams dispositivos foram projetados para serem amigáveis o suficiente para que os jovens alunos naveguem de forma apropriada e para que os educadores controlem e personalizem desde o primeiro uso. 
+A criatividade requer um layout e uma implantação de tecnologia projetadas em torno da colaboração do usuário. O espaço certo facilita o trabalho entre os usuários e a tecnologia perfeitamente e elimina o atrito até mesmo para os usuários mais iniciantes. Teams dispositivos foram projetados para serem amigáveis o suficiente para que os jovens alunos naveguem de forma apropriada e para que os educadores controlem e personalizem desde o primeiro uso.
 
 *E quanto aos espaços em que o compartilhamento de conteúdo com participantes presenciais e remotos é a prioridade?*
 
@@ -108,7 +108,7 @@ O compartilhamento de conteúdo e a colaboração remota exigem uma experiência
 
 As opções corretas de tecnologia de áudio e vídeo ajudarão os usuários a tirar o máximo de suas Microsoft Teams reuniões.
 
-*Áudio*
+*Áudio*:
 
 As considerações de áudio são essenciais para garantir que os participantes remotos e na sala possam ser claramente ouvidos e compreendidos. A cobertura do microfone e do alto-falante deve incluir todos os assentos da sala sem deixar lacunas.
 
@@ -116,19 +116,16 @@ As considerações de áudio são essenciais para garantir que os participantes 
 
 Emparelhar o microfone e os alto-falantes certos para cada espaço fornecerá os melhores resultados possíveis para ser ouvido claramente sem distrações.
 
--   Em espaços potencialmente barulhentos, como uma sala comum na casa ou nas mesas em uma sala de aula, os fones de ouvido oferecem a melhor experiência possível restringindo o som somente aos participantes da reunião. Os microfones de fone de ouvido são projetados para selecionar apenas a fala da reunião, e os alto-falantes estão contidos para que somente os participantes da reunião possam ouvir o que está acontecendo.
+- Em espaços potencialmente barulhentos, como uma sala comum na casa ou nas mesas em uma sala de aula, os fones de ouvido oferecem a melhor experiência possível restringindo o som somente aos participantes da reunião. Os microfones de fone de ouvido são projetados para selecionar apenas a fala da reunião, e os alto-falantes estão contidos para que somente os participantes da reunião possam ouvir o que está acontecendo.
 
--   Em configurações mais privadas (por exemplo, o quarto de um aluno), a opção de dispositivos pode expandir para incluir itens como viva-voz pessoais. Esses dispositivos pessoais permitem o mesmo nível de qualidade de conversa que em headsets, mas sem a restrição de ter que usar o dispositivo.
+- Em configurações mais privadas (por exemplo, o quarto de um aluno), a opção de dispositivos pode expandir para incluir itens como viva-voz pessoais. Esses dispositivos pessoais permitem o mesmo nível de qualidade de conversa que em headsets, mas sem a restrição de ter que usar o dispositivo.
 
--   Em espaços compartilhados, as opções se expandem, mas os mesmos princípios permanecem: os participantes da reunião precisam ser ouvidos e ouvir outras pessoas com clareza.
+- Em espaços compartilhados, as opções se expandem, mas os mesmos princípios permanecem: os participantes da reunião precisam ser ouvidos e ouvir outras pessoas com clareza.
+  - Os dispositivos de áudio all-in-one são opções fáceis de implantar e de alta qualidade para espaços menores com um número limitado de participantes sentados relativamente perto do dispositivo de áudio.
+  - Em espaços maiores, os microfones e alto-falantes são separados para garantir a cobertura máxima entre todos os participantes no espaço. Muitas soluções para salas de médio a grande porte estão disponíveis como parte de um kit que não requer configuração, apenas instalação física de microfones e alto-falantes.
+  - Nos espaços muito maiores e mais complexos, há soluções que permitem que uma variedade de tipos de microfone e locutor seja usada em conjunto, como capturar um palestrante e a voz do público-alvo de um grande salão ao mesmo tempo que traz a chamada para todos. Essas soluções são mais bem obtidas quando implantadas por um parceiro [da Microsoft](https://cloudpartners.transform.microsoft.com/teams-mrpp) que tem experiência no design e implantação de soluções mais envolvidas tecnicamente.
 
-    -   Os dispositivos de áudio all-in-one são opções fáceis de implantar e de alta qualidade para espaços menores com um número limitado de participantes sentados relativamente perto do dispositivo de áudio.
-
-    -   Em espaços maiores, os microfones e alto-falantes são separados para garantir a cobertura máxima entre todos os participantes no espaço. Muitas soluções para salas de médio a grande porte estão disponíveis como parte de um kit que não requer configuração, apenas instalação física de microfones e alto-falantes.
-
-    -   Nos espaços muito maiores e mais complexos, há soluções que permitem que uma variedade de tipos de microfone e locutor seja usada em conjunto, como capturar um palestrante e a voz do público-alvo de um grande salão ao mesmo tempo que traz a chamada para todos. Essas soluções são mais bem obtidas quando implantadas por um parceiro [da Microsoft](https://cloudpartners.transform.microsoft.com/teams-mrpp) que tem experiência no design e implantação de soluções mais envolvidas tecnicamente.
-
-*Vídeo*
+*Vídeo*:
 
 O vídeo é tão importante quanto o áudio. Capturar comunicação física, não verbal, como expressões faciais ou gestos, é tão importante quanto o conteúdo da sala de aula ou da reunião para garantir o máximo de envolvimento e compreensão. As salas precisam ser equipados com o tamanho apropriado de exibição para que todos possam experimentar a reunião corretamente, seja na sala ou remota. As salas também precisam ter a cobertura de câmera e o campo de visão (FOV) corretos para capturar efetivamente todos os participantes da reunião na sala para aqueles que ingressarem remotamente.
 
@@ -136,11 +133,11 @@ O vídeo é tão importante quanto o áudio. Capturar comunicação física, nã
 
 Vídeo de alta qualidade é uma necessidade para a colaboração Teams moderna. A tecnologia para câmeras tem avançado significativamente com câmeras de alta qualidade agora disponíveis para todos os espaços.
 
--   Câmeras incluídas em dispositivos como laptops e tablets são um ótimo ponto de partida para uso por indivíduos que participam de chamadas de vídeo. Para usuários que procuram trazer uma experiência de vídeo mais avançada para um espaço pessoal, as câmeras externas representam um passo a passo de dispositivos inseridos e podem ser usadas em um número maior de cenários e configurações, garantindo que os participantes da chamada compartilhem a melhor exibição de qualidade de si mesmos. Esses dispositivos são facilmente instalados com conexões USB simples encontradas em todos os computadores.
+- Câmeras incluídas em dispositivos como laptops e tablets são um ótimo ponto de partida para uso por indivíduos que participam de chamadas de vídeo. Para usuários que procuram trazer uma experiência de vídeo mais avançada para um espaço pessoal, as câmeras externas representam um passo a passo de dispositivos inseridos e podem ser usadas em um número maior de cenários e configurações, garantindo que os participantes da chamada compartilhem a melhor exibição de qualidade de si mesmos. Esses dispositivos são facilmente instalados com conexões USB simples encontradas em todos os computadores.
 
--   Em espaços compartilhados, as opções e os recursos se expandem. Salas menores podem ser cobertas por câmeras incluídas em todos os dispositivos de áudio, como barras de som. Essas câmeras normalmente apresentam um amplo campo de visão, garantindo que capturem todos os participantes no espaço em uma única captura. Muitas dessas câmeras também apresentam coisas como enquadramento inteligente da imagem (para que a câmera mostre apenas as pessoas na reunião e não cadeiras vazias) para acompanhar e entender a utilização do espaço.
+- Em espaços compartilhados, as opções e os recursos se expandem. Salas menores podem ser cobertas por câmeras incluídas em todos os dispositivos de áudio, como barras de som. Essas câmeras normalmente apresentam um amplo campo de visão, garantindo que capturem todos os participantes no espaço em uma única captura. Muitas dessas câmeras também apresentam coisas como enquadramento inteligente da imagem (para que a câmera mostre apenas as pessoas na reunião e não cadeiras vazias) para acompanhar e entender a utilização do espaço.
 
--   Em salas maiores, as câmeras apresentam a tecnologia necessária para capturar participantes em uma variedade de locais a distâncias variáveis. Essas câmeras podem capturar grupos ou se concentrar em indivíduos específicos, mantendo uma grande clareza visual. Os dispositivos que podem acompanhar e destacar apenas alto-falantes ativos são usados regularmente em espaços maiores para que muitos participantes possam ser apresentados individualmente durante uma reunião enquanto contribuem com seus pensamentos.
+- Em salas maiores, as câmeras apresentam a tecnologia necessária para capturar participantes em uma variedade de locais a distâncias variáveis. Essas câmeras podem capturar grupos ou se concentrar em indivíduos específicos, mantendo uma grande clareza visual. Os dispositivos que podem acompanhar e destacar apenas alto-falantes ativos são usados regularmente em espaços maiores para que muitos participantes possam ser apresentados individualmente durante uma reunião enquanto contribuem com seus pensamentos.
 
 ### <a name="how-do-you-interact-virtually-beyond-video-streams"></a>Como você interage virtualmente além dos fluxos de vídeo?
 
@@ -150,7 +147,7 @@ Um cenário comum é compartilhar conteúdo diretamente do dispositivo de um par
 
 Para conteúdo do mundo físico, espaços com sistemas de sala Microsoft Teams podem lidar com um quadro de comunicações ou uma câmera de documento que permite a revisão coordenada e a discussão do conteúdo do espaço.
 
-Para uma experiência totalmente interativa, as exibições interativas (como a família Surface Hub de produtos e o Microsoft Digital Whiteboard) facilitam a criação interativa de conteúdo para alunos presenciais, bem como para alunos remotos. 
+Para uma experiência totalmente interativa, as exibições interativas (como a família Surface Hub de produtos e o Microsoft Digital Whiteboard) facilitam a criação interativa de conteúdo para alunos presenciais, bem como para alunos remotos.
 
 ## <a name="example-spaces"></a>Espaços de exemplo
 
@@ -170,19 +167,17 @@ Um laptop em Teams garante que o usuário não esteja restrito a uma área de tr
 
 *Dispositivos de* *exemplo:*
 
--   [Laptop HP – 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
+- [Laptop HP – 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
 
--   As opções alternativas de laptop incluem:
+- As opções alternativas de laptop incluem:
+  - [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) – Maior para o Ensino Superior
+  - [Laptop Microsoft Surface Go](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) – Ótimo para K-12
 
-    -   [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) – Maior para o Ensino Superior
-
-    -   [Laptop Microsoft Surface Go](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) – Ótimo para K-12
-
--   [Headset EPOS Sennheiser – Adapt 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
+- [Headset EPOS Sennheiser – Adapt 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
 
 *Instalar ou configurar esta solução é:*
 
-Muito fácil. Isso é algo que pode ser tratado inteiramente pelos usuários finais, simplesmente comando seu computador com um fone de ouvido certificado para chamadas de áudio e vídeo. 
+Muito fácil. Isso é algo que pode ser tratado inteiramente pelos usuários finais, simplesmente comando seu computador com um fone de ouvido certificado para chamadas de áudio e vídeo.
 
 ### <a name="personal-space"></a>Espaço pessoal
 
@@ -202,11 +197,11 @@ Um espaço pessoal menor, mais silencioso e mais focado significa que o usuário
 
 *Dispositivos mostrados:*
 
--   Computador pessoal com Windows 10 e vídeo externo
+- Computador pessoal com Windows 10 e vídeo externo
 
--   [Yealink USB Webcam – UVC20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc20/854)
+- [Yealink USB Webcam – UVC20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc20/854)
 
--   [Poly Speakerphone – Sync 20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)
+- [Poly Speakerphone – Sync 20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)
 
 *Exemplo B:*
 
@@ -222,9 +217,9 @@ Atendendo à mesma finalidade do Exemplo A, essa solução aborda um espaço pes
 
 *Dispositivos mostrados:*
 
--   Computador pessoal com Windows 10 e vídeo externo
+- Computador pessoal com Windows 10 e vídeo externo
 
--   [Poly Soundbar – Studio P15](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio-p15/821)
+- [Poly Soundbar – Studio P15](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio-p15/821)
 
 *Instalar ou configurar esta solução é:*
 
@@ -246,19 +241,18 @@ Uma grande exibição proporciona aos participantes remotos uma presença físic
 
 *Dispositivos mostrados:*
 
--   Sistema de Sala [- Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+- Sistema de Sala [- Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - Observe que a solução Surface Hub representa uma experiência premium para colaboração e uso interativo. Uma [Microsoft Teams room emparelhada](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) com uma tela grande pode ser usada como uma alternativa nesse mesmo cenário.
 
-    -   Observe que a solução Surface Hub representa uma experiência premium para colaboração e uso interativo. Uma [Microsoft Teams room emparelhada](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) com uma tela grande pode ser usada como uma alternativa nesse mesmo cenário.
+- Captura de quadro de comunicações analógico – [Logitech Brio Content Câmera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
--   Captura de quadro de comunicações analógico – [Logitech Brio Content Câmera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- Câmera e áudio – [kit logitech Rally Plus](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
 
--   Câmera e áudio – [kit logitech Rally Plus](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
-
--   Console de Toque para Controle de Sala – [Logitech TAP](https://www.logitech.com/products/video-conferencing/room-solutions/tap.html?crid=1691)
+- Console de Toque para Controle de Sala – [Logitech TAP](https://www.logitech.com/products/video-conferencing/room-solutions/tap.html?crid=1691)
 
 *Instalar ou configurar esta solução é:*
 
-Complexo. Essa sala apresenta uma instalação física, incluindo a conexão, que requer um parceiro de implantação da AV com conhecimento para planejar e implantar corretamente as soluções de câmera e áudio para que elas funcionem perfeitamente para os usuários finais no espaço. 
+Complexo. Essa sala apresenta uma instalação física, incluindo a conexão, que requer um parceiro de implantação da AV com conhecimento para planejar e implantar corretamente as soluções de câmera e áudio para que elas funcionem perfeitamente para os usuários finais no espaço.
 
 ### <a name="lecture-halls"></a>Salas de aula
 
@@ -276,13 +270,13 @@ Os participantes remotos podem ver o mesmo campo de visão que os participantes 
 
 *Dispositivos mostrados:*
 
--   Sistema de Sala – [Crestron Flex C100 para](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) Teams com um projetor instalado e uma tela baseada em carrinho
+- Sistema de Sala – [Crestron Flex C100 para](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) Teams com um projetor instalado e uma tela baseada em carrinho
 
--   Quadro de Comunicações Digital [Opcional – Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+- Quadro de Comunicações Digital [Opcional – Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
--   Câmera – [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
+- Câmera – [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
 
--   Áudio instalado – [QSC e Sennheiser para Salas Grandes](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
+- Áudio instalado – [QSC e Sennheiser para Salas Grandes](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
 *Instalar ou configurar esta solução é:*
 
@@ -300,13 +294,13 @@ Um sistema de sala com uma tela frontal grande baseada em projetor, vários cons
 
 *Dispositivos mostrados:*
 
--   Sistema de Sala – [Crestron Flex C100 para](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) Teams projetor instalado
+- Sistema de Sala – [Crestron Flex C100 para](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) Teams projetor instalado
 
--   Quadros de comunicações digitais duplos opcionais [– Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+- Quadros de comunicações digitais duplos opcionais [– Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
--   Câmera – [Yealink UVC84](https://www.yealink.com/product/camera-uvc84)
+- Câmera – [Yealink UVC84](https://www.yealink.com/product/camera-uvc84)
 
--   Áudio instalado – [QSC e Sennheiser para Salas Grandes](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
+- Áudio instalado – [QSC e Sennheiser para Salas Grandes](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
 *Instalar ou configurar esta solução é:*
 
@@ -314,7 +308,7 @@ Altamente complexo. Um espaço de várias finalidades, conforme descrito, requer
 
 ## <a name="dont-forget-security"></a>Não se esqueça da segurança
 
-É essencial garantir que suas soluções estejam seguras contra ameaças cibernéticas. A Microsoft usa IA e automação de ponta para manter dados e informações privadas seguros ao usar um Salas do Teams ou dispositivo. Proteger sua escola ou instituição começa com gerenciamento de identidades e acesso (por meio do Azure Active Directory) e gerenciamento de dispositivos (por meio do Intune/AutoPilot). 
+É essencial garantir que suas soluções estejam seguras contra ameaças cibernéticas. A Microsoft usa IA e automação de ponta para manter dados e informações privadas seguros ao usar um Salas do Teams ou dispositivo. Proteger sua escola ou instituição começa com gerenciamento de identidades e acesso (por meio do Azure Active Directory) e gerenciamento de dispositivos (por meio do Intune/AutoPilot).
 
 ## <a name="more-information"></a>Mais informações
 

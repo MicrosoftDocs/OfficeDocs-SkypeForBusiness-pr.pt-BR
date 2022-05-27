@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187117"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675513"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>Personalizar aplicativos do Teams para seus funcionários de linha de frente
 
@@ -55,7 +55,7 @@ Os aplicativos são fixados na barra de aplicativos, que é a barra na parte inf
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="A experiência de aplicativo de linha de frente personalizada na Teams desktop" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>Controles de administrador
+## <a name="admin-controls"></a>Administração controles
 
 > [!NOTE]
 > A **configuração de fixação** do usuário deve ser ativada na política de configuração de aplicativo global (padrão em toda a [organização) para](teams-app-setup-policies.md) que esse recurso entre em vigor.
@@ -66,7 +66,7 @@ Tenha em mente que todas as políticas [de configuração de](teams-app-setup-po
 
 Esse recurso está habilitado por padrão. No entanto, se você não quiser a experiência de aplicativo de linha de frente personalizada fornecida pela Microsoft, poderá desativar o recurso. Para desativar ou ativar o recurso:
 
-1. No painel de navegação esquerdo do Microsoft Teams de administração, acesse Teams **appsManage** >  e, em seguida, selecione configurações de aplicativo em toda **a organização**.
+1. No painel de navegação à esquerda do centro de administração Microsoft Teams, acesse Teams **aplicativos** >  Gerenciar **aplicativos** **e, em** seguida, selecione configurações de aplicativo em toda a organização.
 2. Em **aplicativos personalizados**, **alterne a opção Mostrar aplicativos** personalizados para **Desativado** ou **Ativado**.
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Captura de tela da configuração Mostrar aplicativos personalizados na página Gerenciar aplicativos do Teams de administração" lightbox="media/tailored-teams-apps-admin-center.png":::

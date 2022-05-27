@@ -1,5 +1,5 @@
 ---
-title: Relatório de uso de discagem de audioconferência
+title: Audioconferência de uso de discagem
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -21,28 +21,28 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Saiba quais países e regiões têm números de conferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: 16cdae3a377d5ce87c218affc4944051f14f2631
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 067ff702478e6b7bae38db458a7088021386e6ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106436"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675423"
 ---
-# <a name="audio-conferencing-dial-out-usage-report"></a>Relatório de uso de discagem de audioconferência
+# <a name="audio-conferencing-dial-out-usage-report"></a>Audioconferência de uso de discagem
 
-O relatório de uso de discagem de Audioconferência no centro de administração do Teams fornece uma visão geral do uso e dos dólares gastos para o serviço de discagem de audioconferência. Esse relatório permite que os administradores consumam dados no nível do usuário em termos de créditos de comunicação gastos e minutos de discagem usados. Ele ajudará os administradores a determinar os créditos de comunicação futuros necessários a partir de qualquer ponto no tempo.
+O Audioconferência de uso de discagem no centro de administração do Teams fornece uma visão geral do uso e dos dólares gastos para o serviço de discagem de audioconferência. Esse relatório permite que os administradores consumam dados no nível do usuário em termos de créditos de comunicação gastos e minutos de discagem usados. Ele ajudará os administradores a determinar os créditos de comunicação futuros necessários a partir de qualquer ponto no tempo.
 
-## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Exibir o relatório de uso de discagem de Audioconferência
+## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>Exibir o Audioconferência de uso de discagem
 
-No painel de navegação à esquerda do Microsoft Teams de administração,  **selecioneAnalytics &**  **reportsUsage** >. No  **reportstab doView** , em  **Relatório**, selecione o relatório de uso de **discagem de Audioconferência**.
+Na navegação à esquerda do centro de administração Microsoft Teams, selecione **Relatórios de uso** \> & **análise.** Na guia **Exibir relatórios**, em **Relatório**, selecione o Audioconferência **de uso de discagem**.
 
-No  **intervalo UnderDate**, você pode selecionar um intervalo predefinido de 7 ou 28 dias ou definir um intervalo personalizado.
+Em **Intervalo de datas**, você pode selecionar um intervalo predefinido de 7 ou 28 dias ou definir um intervalo personalizado.
 
- **UnderCountry Previsioned**, selecione um país preferencial ou selecione todos e, em seguida, selecione  **Executar relatório**.
+Em **País Previsão**, selecione um país preferencial ou selecione todos e, em seguida, **selecione Executar relatório**.
 
 ## <a name="report-details"></a>Detalhes do relatório
 
-O relatório de uso de discagem de Audioconferência tem três guias principais que exibirão informações em um formato de gráfico com base no intervalo selecionado nas listas suspensas acima dele:
+O Audioconferência de uso de discagem tem três guias principais que exibirão informações em um formato de gráfico com base no intervalo selecionado nas listas suspensas acima dele:
 
 - A **guia** Custo mostra os créditos de comunicação gastos durante o período selecionado e a tabela abaixo fornece detalhes de nível de usuário.
 - A **guia Minutos de uso** mostra o total de minutos de discagem durante o período selecionado e a tabela abaixo forneceu detalhes de nível de usuário.

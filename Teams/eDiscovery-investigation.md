@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031916"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675303"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -36,27 +36,26 @@ A Descoberta Eletrônica de mensagens e arquivos em [canais privados](private-ch
 
 Nem todo Teams conteúdo é eDiscoverable. A tabela a seguir mostra os tipos de conteúdo que você pode pesquisar usando as ferramentas de Descoberta Eletrônica da Microsoft:
 
-| Tipo de conteúdo | Descoberta Eletrônica | Observações |
-|:--- | :--- |:--- |
-|Gravações de áudio | Não | |
+|Tipo de conteúdo|Descoberta Eletrônica|Observações|
+|---|---|---|
+|Gravações de áudio|Não||
 |Conteúdo do cartão|Sim|Consulte [Pesquisar conteúdo de cartão](#search-for-card-content) para obter mais informações.|
-|Links de chat | Sim | |
-|Mensagens de chat | Sim |Isso inclui conteúdo em canais Teams padrão, chats 1:1, chats em grupo 1:N e chats com os participantes do usuário convidado.  |
-|Snippets de código | Não | |
-|Mensagens editadas | Sim | Se o usuário estiver em espera, as versões anteriores das mensagens editadas também serão preservadas. |
-|Emojis, GIFs e adesivos | Sim | |
-|Notificações de feed | Não | |
-|Imagens embutidas | Sim | |
-|Loop componentes| Sim|O conteúdo em um componente de loop é salvo em um arquivo .fluid armazenado na conta OneDrive for Business do usuário que envia o componente de loop. Isso significa que você precisa incluir OneDrive como uma fonte de dados ao pesquisar conteúdo em componentes de loop. |
-|Conversas de mensagens instantâneas de reunião | Sim | |
-|Metadados <sup>de reunião1</sup> | Sim |  |
-|Nome do canal | Sim | |
-|Mensagens de chat de canal privado e compartilhado | Sim | |
-|Citações | Sim | O conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado. |
-|Reações (como likes, hearts e outras reações) | Não | |
-|Assunto | Sim | |
-|Tabelas | Sim | |
-||||
+|Links de chat|Sim||
+|Mensagens de chat|Sim|Isso inclui conteúdo em canais Teams padrão, chats 1:1, chats em grupo 1:N e chats com os participantes do usuário convidado.|
+|Snippets de código|Não||
+|Mensagens editadas|Sim|Se o usuário estiver em espera, as versões anteriores das mensagens editadas também serão preservadas.|
+|Emojis, GIFs e adesivos|Sim||
+|Notificações de feed|Não||
+|Imagens embutidas|Sim||
+|Loop componentes|Sim|O conteúdo em um componente de loop é salvo em um arquivo .fluid armazenado na conta OneDrive for Business do usuário que envia o componente de loop. Isso significa que você precisa incluir OneDrive como uma fonte de dados ao pesquisar conteúdo em componentes de loop.|
+|Conversas de mensagens instantâneas de reunião|Sim||
+|Metadados<sup>de reunião 1</sup>|Sim||
+|Nome do canal|Sim||
+|Mensagens de chat de canal privado e compartilhado|Sim||
+|Citações|Sim|O conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado.|
+|Reações (como likes, hearts e outras reações)|Não||
+|Assunto|Sim||
+|Tabelas|Sim||
 
 <sup>1</sup> Os metadados de reunião (e chamada) incluem o seguinte:
 
@@ -174,9 +173,9 @@ Você pode usar as ferramentas de Descoberta Eletrônica para pesquisar Teams co
 
 Para pesquisar conteúdo para usuários convidados:
 
-1. Conexão ao PowerShell do Azure AD. Para obter instruções, consulte a seção "Conexão com o Azure Active Directory PowerShell" no Conexão [para Microsoft 365 com o PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Conclua as Etapas 1 e 2 no artigo anterior.
+1. Conexão para Azure AD PowerShell. Para obter instruções, consulte a seção "Conexão com o Azure Active Directory PowerShell" no Conexão [para Microsoft 365 com o PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Conclua as Etapas 1 e 2 no artigo anterior.
 
-2. Depois de se conectar com êxito ao PowerShell do Azure AD, execute o comando a seguir para exibir o NOME UPN para todos os usuários convidados em sua organização. Você precisa usar o UPN do usuário convidado ao criar a pesquisa na etapa 4.
+2. Depois de se conectar com êxito ao Azure AD PowerShell, execute o comando a seguir para exibir o nome UPN para todos os usuários convidados em sua organização. Você precisa usar o UPN do usuário convidado ao criar a pesquisa na etapa 4.
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -207,7 +206,7 @@ Para pesquisar conteúdo para usuários convidados:
    Start-ComplianceSearch <search name>
    ```
 
-6. Vá para [https://compliance.microsoft.com](https://compliance.microsoft.com) e clique em **Mostrar pesquisa** **allContent** > .
+6. Vá para e [https://compliance.microsoft.com](https://compliance.microsoft.com) clique em **Mostrar toda a pesquisa** > **de conteúdo**.
 
 7. Na lista de pesquisas, selecione a pesquisa que você criou na etapa 4 para exibir a página de submenu.
 
@@ -234,11 +233,11 @@ Ao exibir o conteúdo do cartão nos resultados da pesquisa de conteúdo, o cont
 ![Conteúdo do cartão na Teams do canal.](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>Conteúdo do cartão nos resultados da pesquisa
-  
+
 ![Mesmo conteúdo de cartão nos resultados de uma pesquisa de conteúdo.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Para exibir imagens do conteúdo do cartão nos resultados da pesquisa no momento (como as marcas de seleção na captura de tela anterior), você precisa estar conectado ao Teams (https://teams.microsoft.com)em uma guia diferente na mesma sessão do navegador que você usa para exibir os resultados da pesquisa. Caso contrário, os espaços reservados de imagem serão exibidos.
+> Para exibir imagens do conteúdo do cartão nos resultados da pesquisa no momento (como as marcas de seleção na captura de tela anterior), você precisa estar conectado ao Teams (<https://teams.microsoft.com>em) em uma guia diferente na mesma sessão do navegador que você usa para exibir os resultados da pesquisa. Caso contrário, os espaços reservados de imagem serão exibidos.
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>Descoberta Eletrônica em ambientes federados e não federados
 

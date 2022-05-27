@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como usar o aplicativo Bookings em Microsoft Teams agendar, gerenciar e conduzir compromissos virtuais.
-ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
-ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
+ms.openlocfilehash: 7579c524a28ee51c622a805d1ea945c33596cb56
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "65534376"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65682132"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>Ajudar seus clientes e clientes a usar compromissos virtuais
 
@@ -76,7 +76,7 @@ Link para a página de reserva da sua organização. Informe aos clientes se há
 
 **Who posso marcar uma consulta?**
 
-Certifique-se de que seus clientes possam manter relações com seus provedores preferenciais compartilhando quais, se houver, a equipe está operando exclusivamente virtualmente ou pessoalmente.
+Verifique se os clientes podem manter relações com seus provedores preferenciais compartilhando quais, se houver, os membros da equipe estão operando exclusivamente virtualmente ou pessoalmente.
 
 **Como fazer cancelar ou reagendar um compromisso virtual?**
 
@@ -110,10 +110,10 @@ Baixe e [personalize](#customize-your-infographic) um desses infográficos para 
 
 | Gráfico                | Descrição e links              |
 | :------------------- | -------------------: |
-| [![Imagem do infográfico de serviços financeiros](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | Infográfico personalizável para sua organização de serviços financeiros <br> [Baixar como um PDF](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [Baixar como um PowerPoint](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
-| [![Imagem do infográfico de varejo](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | Infográfico personalizável para sua organização de varejo <br> [Baixar como um PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [Baixar como um PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
-| [![Imagem do infográfico de serviços de saúde](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | Infográfico personalizável para sua organização de saúde <br> [Baixar como um PDF](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [Baixar como um PowerPoint](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
-| [![Imagem do infográfico não específico do setor.](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | Infográfico personalizável não específico para um setor específico <br> [Baixar como um PDF](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [Baixar como um PowerPoint](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
+| [![Imagem do infográfico de serviços financeiros](../media/vv-finserv-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) | Infográfico personalizável para sua organização de serviços financeiros <br> [Baixar como um PDF](https://go.microsoft.com/fwlink/?linkid=2196520&clcid=0x409) <br> [Baixar como um PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196449&clcid=0x409)
+| [![Imagem do infográfico de varejo](../media/vv-retail-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) | Infográfico personalizável para sua organização de varejo <br> [Baixar como um PDF](https://go.microsoft.com/fwlink/?linkid=2196452&clcid=0x409) <br> [Baixar como um PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196451&clcid=0x409) |
+| [![Imagem do infográfico de serviços de saúde](../media/vv-healthcare-thumbnail.png)](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) | Infográfico personalizável para sua organização de saúde <br> [Baixar como um PDF](https://go.microsoft.com/fwlink/?linkid=2196357&clcid=0x409) <br> [Baixar como um PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196450&clcid=0x409) |
+| [![Imagem do infográfico não específico do setor.](../media/va-generic-thumb.png)](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) | Infográfico personalizável não específico para um setor específico <br> [Baixar como um PDF](https://go.microsoft.com/fwlink/?linkid=2196355&clcid=0x409) <br> [Baixar como um PowerPoint](https://go.microsoft.com/fwlink/?linkid=2196356&clcid=0x409) |
 
 ### <a name="customize-your-infographic"></a>Personalizar seu infográfico
 

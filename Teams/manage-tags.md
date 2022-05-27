@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização em Microsoft Teams.
-ms.openlocfilehash: 0fa615f2bbcdd7965777925b2413717779ad4a7a
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442007"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675543"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
@@ -35,7 +35,7 @@ Conforme mencionado anteriormente, há dois tipos de marcas no Teams.
 - **Marcação por turno**: com esse recurso, as pessoas recebem automaticamente marcas que correspondem ao nome do grupo de turnos e agendamento no aplicativo [Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) Teams. Por exemplo, a marca "EngineerOnCall" atinge todos os engenheiros agendados no Turnos para trabalhar no momento em que a marca é usada em uma postagem de chat ou canal. Com a marcação por turno, Teams o trabalho de adivinhação de saber o nome da equipe no turno quando os usuários precisam retransmitir rapidamente as informações. A marcação por turno também pode ser apoiada pelos principais sistemas de gerenciamento de força de trabalho, como JDA, Kronos e AMiON, integrando-os com Shifts no Teams. Para saber mais sobre como configurar esse recurso, consulte [Configurar a marcação por turno](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Não há suporte para marcas em canais privados ou compartilhados.  
+> Não há suporte para marcas em canais privados ou compartilhados.
 
 ## <a name="how-tags-work"></a>Como as marcas funcionam
 
@@ -55,7 +55,7 @@ Como administrador, você pode controlar como as marcas são usadas em sua organ
 
 ![Captura de tela das configurações de marcação no Microsoft Teams de administração.](media/manage-tags-admin-settings.png)
 
-Uma equipe pode ter até 100 marcas, até 200 membros da equipe podem ser atribuídos a uma marca e até 25 marcas na mesma equipe podem ser atribuídas a um único usuário. 
+Uma equipe pode ter até 100 marcas, até 200 membros da equipe podem ser atribuídos a uma marca e até 25 marcas na mesma equipe podem ser atribuídas a um único usuário.
 
 ### <a name="set-who-can-add-custom-tags"></a>Definir quem pode adicionar marcas personalizadas
 
@@ -91,15 +91,15 @@ Veja como adicionar marcas personalizadas e como configurar a marcação por tur
 
 ### <a name="create-and-assign-custom-tags"></a>Criar e atribuir marcas personalizadas
 
-Para criar e atribuir marcas personalizadas, **selecione Teams** no lado esquerdo do aplicativo e, em seguida, localize sua equipe na lista. Selecione **mais 1 opções e**, em seguida, escolha **Gerenciar marcas**. Aqui, você pode criar marcas e atribuí-las às pessoas da sua equipe.
+Para criar e atribuir marcas personalizadas, **selecione Teams** no lado esquerdo do aplicativo e, em seguida, localize sua equipe na lista. Selecione **... Mais opções** e escolha **Gerenciar marcas**. Aqui, você pode criar marcas e atribuí-las às pessoas da sua equipe.
 
 ![Captura de tela de como aplicar marcas no Teams cliente.](media/manage-tags-teams.png)
 
-Para excluir uma marca, selecione **1 Mais opções** ao lado da marca e, em seguida, **selecione Excluir marca**.
+Para excluir uma marca, selecione **... Mais opções** ao lado da marca e, em seguida, selecione **Excluir marca**.
 
 ### <a name="set-up-tagging-by-shift"></a>Configurar a marcação por turno
 
-A marcação por turno permite que os usuários alcancem as pessoas no turno em tempo real. Teams atribui automaticamente aos usuários marcas correspondentes ao nome do grupo de turnos e agendamento do aplicativo Shifts, permitindo mensagens dinâmicas baseadas em função. As notificações são enviadas somente para as pessoas que estão de turno no momento em que uma marca é usada para iniciar um chat ou em uma postagem de canal. 
+A marcação por turno permite que os usuários alcancem as pessoas no turno em tempo real. Teams atribui automaticamente aos usuários marcas correspondentes ao nome do grupo de turnos e agendamento do aplicativo Shifts, permitindo mensagens dinâmicas baseadas em função. As notificações são enviadas somente para as pessoas que estão de turno no momento em que uma marca é usada para iniciar um chat ou em uma postagem de canal.
 
 1. No Teams, vá para o [aplicativo Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop).
 2. Crie [grupos de turnos](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) e nomeie-os após um atributo, como uma função. Por exemplo, EngineerOnCall. O nome do grupo de turnos será o nome da marca.

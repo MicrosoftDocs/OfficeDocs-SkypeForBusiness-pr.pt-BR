@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamada (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: 01159d64a1c9fdb48321bdb82b6199d6861c4bfa
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462045"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675933"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -753,7 +753,7 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Taxa de perda de pacotes P50 | Porcentagem | 50% das solicitações devem ter uma taxa de perda de pacote inferior à determinada.|
 |Atraso pós-discagem de saída PSTN| Milissegundos | O atraso que ocorre em chamadas de saída medida desde o momento em que um número foi discado até que o chamador ou a terceira parte chamada ouça o toque.|
 |Atraso de pós-discagem de entrada PSTN | Milissegundos | O tempo ou atraso que ocorre em chamadas de entrada medida desde o momento em que um número foi discado até que o chamador ou a terceira parte chamada ouça o toque.|
-|Percentual bom de NER PSTN | Porcentagem | O NER mede a capacidade de uma rede de fornecer chamadas medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.<br/>NER = (Chamadas atendidas + Usuário Ocupado + Anel sem Resposta + Convulsões de Rejeição de Terminal)/ Total de Chamadas de Tentativa x 100. Há um erro de até 0,2% para essa medida. Consulte a observação abaixo para obter detalhes.|
+|Percentual bom de NER PSTN | Porcentagem | O NER mede a capacidade de uma rede de fornecer chamadas medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.<br/>NER = (Chamadas atendidas + Usuário Ocupado + Anel sem Resposta + Convulsões de Rejeição de Terminal) / Total de Chamadas de Tentativa x 100. Há um erro de até 0,2% para essa medida. Consulte a observação abaixo para obter detalhes.|
 | Média de segundos de duração da cadeia do atendedor automático | Inteiro | A duração média que os usuários gastam no Atendedor Automático, medida em segundos. |
 | Média de segundos de duração da fila de chamadas | Inteiro | A duração média que os usuários estão esperando para que uma Fila de Chamadas seja atendida por um agente, medida em segundos. |
 
