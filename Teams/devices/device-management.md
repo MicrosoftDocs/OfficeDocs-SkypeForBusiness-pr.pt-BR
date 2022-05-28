@@ -1,7 +1,7 @@
 ---
 title: Gerenciar seus dispositivos no Microsoft Teams
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4346d82e490d28840e029d257cbeeb4c4e10765
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65220252"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65767237"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams: gerenciando seus dispositivos 
 
@@ -66,13 +66,13 @@ Para obter detalhes sobre como gerenciar seus dispositivos Salas do Teams, consu
 | Exibir atividade de reunião                  | Selecione um nome de dispositivo para abrir os detalhes do dispositivo > **Atividade**. Ao abrir a **guia Atividade** , você pode ver todas as reuniões das que o dispositivo participou. Esta exibição de resumo mostra a hora de início da reunião, o número de participantes, sua duração e a qualidade geral da chamada.                                                                                        |
 | Exibir detalhes da reunião                   | Selecione um nome de dispositivo para abrir os detalhes do dispositivo > **atividade >** selecionar uma reunião. Ao abrir os detalhes de uma reunião, você pode ver todos os participantes da reunião, por quanto tempo eles estavam na chamada, os tipos de sessão Teams e sua qualidade de chamada individual. Se você quiser ver informações técnicas sobre a chamada de um participante, selecione a hora de início da chamada do participante. |
 
-## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Gerenciar telefones, Salas do Teams no Android, Teams telas e Teams painéis 
+## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>Gerenciar telefones, Salas do Teams em Android, Teams telas e Teams painéis 
 
 No centro de administração do Teams, você pode exibir e gerenciar telefones, Salas do Teams no Android, exibições do Teams e painéis Teams registrados no Teams em sua organização. As informações que você verá para cada dispositivo incluem nome do dispositivo, fabricante, modelo, usuário, status, ação, visto pela última vez e histórico. Você pode personalizar a exibição para mostrar as informações que atendem às suas necessidades.
 
-Telefones, Salas do Teams no Android, Teams telas e painéis Teams são registrados automaticamente no Microsoft Intune se você tiver se inscrito nele. Depois que um dispositivo é registrado, a conformidade do dispositivo é confirmada e as políticas de acesso condicional são aplicadas ao dispositivo.
+Telefones, Salas do Teams em Android, Teams telas e painéis Teams são registrados automaticamente no Microsoft Intune se você tiver se inscrito. Depois que um dispositivo é registrado, a conformidade do dispositivo é confirmada e as políticas de acesso condicional são aplicadas ao dispositivo.
 
-Aqui estão alguns exemplos de como você pode gerenciar telefones, Salas do Teams no Android, Teams e painéis Teams em sua organização.  
+Aqui estão alguns exemplos de como você pode gerenciar telefones, Salas do Teams em Android, Teams e painéis Teams em sua organização.  
 
 | Para fazer isso...                           | Faça isso                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -93,7 +93,7 @@ Use perfis de configuração para gerenciar configurações e recursos para dife
 
 Para criar um perfil de configuração para um Teams tipo de dispositivo:
 
-1. No painel de navegação esquerdo, vá para **Teams dispositivos** > o tipo de dispositivo Teams os perfis de **configuração do >.** Por exemplo, selecione **Teams dispositivos** >  **Teams panelsConfiguration** >  para criar um novo perfil de configuração para Teams painéis.
+1. No painel de navegação esquerdo, vá para **Teams dispositivos** > o tipo de dispositivo Teams os perfis de **configuração do >.**  Por exemplo, selecione Teams **dispositivos Teams** >  **perfis** >  de configuração para criar um novo perfil de configuração para Teams painéis.
 2. Clique em **Adicionar**.
 3. Insira um nome para o perfil e, opcionalmente, adicione uma descrição amigável.
 4. Especifique as configurações desejadas para o perfil e clique em **Salvar**.
