@@ -1,7 +1,7 @@
 ---
 title: Salas do Microsoft Teams manutenção e operações
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Saiba mais sobre como gerenciar Salas do Microsoft Teams.
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125466"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761053"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas do Microsoft Teams manutenção e operações
  
@@ -30,7 +30,7 @@ Salas do Microsoft Teams é a solução de conferência da Microsoft projetada p
 
 Para coletar logs no Teams de administração, acesse Teams **dispositivos > Salas do Teams no Windows**. Selecione o nome de exibição do dispositivo para o qual você deseja obter logs. No painel superior, selecione "Baixar logs do dispositivo". Depois de confirmar, os logs estarão prontos para download na guia Histórico após alguns minutos.
 
-Você também pode usar o PowerShell para coletar logs. Você deve invocar o script de coleção de logs fornecido com o Salas do Microsoft Teams aplicativo. No [modo Administrador](rooms-operations.md), inicie um prompt de comando com privilégios elevados e emita o seguinte comando:
+Você também pode usar o PowerShell para coletar logs. Você deve invocar o script de coleção de logs fornecido com o Salas do Microsoft Teams aplicativo. No [Administração,](rooms-operations.md) inicie um prompt de comando com privilégios elevados e emita o seguinte comando:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -96,11 +96,11 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 
 |Grupo de trabalho |Não ingresso em domínio|Ingresso em domínio|
 |:-----|:-----|:-----|
-|Reiniciar  <br/> |Teams de administração  <br/> Área de trabalho remota  <br/> PowerShell remoto  <br/> | <br/>Área de trabalho remota (requer configuração adicional)  <br/> PowerShell remoto (requer configuração adicional)  <br/> Configuration Manager  <br/> |
+|Reiniciar  <br/> |Centro de administração do Teams  <br/> Área de trabalho remota  <br/> PowerShell remoto  <br/> | <br/>Área de trabalho remota (requer configuração adicional)  <br/> PowerShell remoto (requer configuração adicional)  <br/> Configuration Manager  <br/> |
 |Atualização do sistema operacional  <br/> |Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Atualização de aplicativos  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
-|Configuração da Conta  <br/> |Teams de administração  <br/> |Teams de administração  <br/> |
-|Acesso aos logs  <br/> |Teams de administração  <br/> Powershell  <br/> |Teams de administração <br/> Powershell  <br/>  |
+|Configuração da Conta  <br/> |Centro de administração do Teams  <br/> |Centro de administração do Teams  <br/> |
+|Acesso aos logs  <br/> |Centro de administração do Teams  <br/> Powershell  <br/> |Centro de administração do Teams <br/> Powershell  <br/>  |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Configurando Política de Grupo para Salas do Microsoft Teams
 <a name="GroupPolicy"> </a>
@@ -159,10 +159,10 @@ Você pode executar as seguintes operações de gerenciamento remotamente usando
   
 Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
   
-1. Entre como Administrador em um Salas do Microsoft Teams dispositivo.
+1. Entre como Administração em um Salas do Microsoft Teams dispositivo.
 2. Abra um prompt de comando do PowerShell com privilégios elevados.
 3. Insira o seguinte comando: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Abra a Política de Segurança Local e adicione  o grupo de segurança Administradores ao **security Configurações** >  **Local PoliciesUser** >  **Rights** **AssignmentAccess** >  este computador da rede.
+4. Abra a Política de Segurança Local e adicione o grupo de segurança *Administradores* >  >  >  à Configurações Atribuição de Direitos de Usuário de Políticas Locais Acessar **este computador da rede**.
 
 Para executar uma operação de gerenciamento:
   
@@ -230,14 +230,14 @@ Se você precisar gerenciar as atualizações de aplicativo manualmente, mas nã
 ## <a name="admin-mode-and-device-management"></a>Modo de administração e gerenciamento de dispositivo
 <a name="AdminMode"> </a>
 
-Algumas funções de gerenciamento, como instalar manualmente um certificado de autoridade de certificação privado, exigem Salas do Teams no modo De administração. 
+Algumas funções de gerenciamento, como instalar manualmente um certificado de autoridade de certificação privado, exigem Salas do Teams no Administração privado. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternando para o modo De administração e de volta quando o Salas do Microsoft Teams aplicativo está em execução
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternar para o Administração e voltar quando o aplicativo Salas do Microsoft Teams está em execução
 
 1. Desligue todas as chamadas em andamento e retorne à tela inicial.
 2. Selecione o ícone de engrenagem e abra o menu (as **opções são Configurações**, **Acessibilidade** e **Reiniciar Dispositivo**).
 3. Selecione **Configurações**.
-4. Insira a senha do Administrador. A tela Configuração será exibida.  Se o dispositivo não estiver ingressado no domínio, a conta administrativa local (nome de usuário "Admin") será usada por padrão. A senha padrão dessa conta é 'sfb'. Altere essa senha assim que possível. Se o computador estiver ingressado no domínio, você poderá entrar com uma conta de domínio com privilégios apropriados.
+4. Insira a senha do Administrador. A tela Configuração será exibida.  Se o dispositivo não estiver ingressado no domínio, a conta administrativa local (nome de usuário "Administração") será usada por padrão. A senha padrão dessa conta é 'sfb'. Altere essa senha assim que possível. Se o computador estiver ingressado no domínio, você poderá entrar com uma conta de domínio com privilégios apropriados.
 5. Selecione **Windows Configurações** na coluna esquerda.
 6. Faça logon no desktop usando as credenciais administrativas. Você terá os privilégios necessários para gerenciar o dispositivo.
 7. Execute as tarefas administrativas necessárias.
@@ -245,9 +245,9 @@ Algumas funções de gerenciamento, como instalar manualmente um certificado de 
     
 O console retorna ao seu modo de operação normal. O procedimento a seguir exige que você conecte um teclado ao dispositivo, caso ele esteja sem.  
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Alternando para o Modo de Administrador e voltando quando o Salas do Microsoft Teams aplicativo falhar
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Alternar para o Administração e voltar quando o aplicativo Salas do Microsoft Teams falha
 
-1. Pressione a tecla do Windows cinco vezes em uma sucessão rápida. Isso levará você para a tela de logon do Windows.  
+1. Pressione a tecla do Windows cinco vezes em uma sucessão rápida. Isso levará você para a tela de logon do Windows. 
 2. Faça logon no desktop usando as credenciais administrativas.
 3. Execute as tarefas administrativas necessárias.
 4. Reinicie o computador quando terminar.

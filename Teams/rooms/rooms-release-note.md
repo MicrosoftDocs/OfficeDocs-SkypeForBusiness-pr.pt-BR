@@ -1,7 +1,7 @@
 ---
 title: Notas sobre a versão Salas do Microsoft Teams (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administração pode ler as notas de versão para Salas do Microsoft Teams, que listam melhorias cumulativas no Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753054"
+ms.locfileid: "65761103"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -95,8 +95,8 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Consulte [Team
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022)
 
 Introduzido nesta atualização:
-- Correção de bug para o Jabra Panacast 50
-- Correção de bug para ingresso na reunião anônima entre nuvens
+- Correção de bug para vários fluxos de vídeo simultâneos do Jabra Panacast 50 (vídeo de reunião, vídeo de câmera de conteúdo)
+- As reuniões entre nuvens agora podem usar o dispositivo de áudio de conferência padrão
 - Correções de qualidade e confiabilidade
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)

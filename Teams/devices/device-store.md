@@ -1,7 +1,7 @@
 ---
 title: Teams de dispositivos
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
 ms.topic: article
@@ -15,55 +15,55 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
-description: Saiba como procurar e comprar dispositivos no armazenamento de dispositivos Teams centro de administração
-ms.openlocfilehash: f83fd22192a8145167ff04a2bd73b88746dd3ce7
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+description: Saiba como procurar e comprar dispositivos no repositório de dispositivos Teams centro de administração
+ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457074"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761443"
 ---
-# <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos no Teams de dispositivos
+# <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos no repositório Teams dispositivos
 
 >[!NOTE]
->O Teams de dispositivos está disponível no momento apenas na **visualização pública**. A visualização pública permite testar os recursos futuros e fornecer comentários. Os recursos incluídos na visualização pública podem não estar completos, podem sofrer alterações e não têm suporte no Office 365 Government Cloud.
+>O Teams de dispositivos está disponível atualmente apenas em **visualização pública**. A visualização pública permite que você teste os recursos futuros e forneça comentários. Os recursos incluídos na versão prévia pública podem não estar completos, podem passar por alterações e não têm suporte no Office 365 Government Cloud.
 
-O armazenamento de dispositivos no Teams de administração permite que você navegue, compre e provisione dispositivos certificados para Microsoft Teams.  
+O repositório de dispositivos no Teams de administração permite que você navegue, compre e provisione dispositivos certificados para Microsoft Teams.  
 
- Para usar o armazenamento de dispositivos no Teams de administração, vá para **Dispositivos > Store**.
+ Para usar o repositório de dispositivos no Teams de administração, acesse **Dispositivos > Store**.
 
 ## <a name="requirements"></a>Requisitos
 
-Para usar o armazenamento de dispositivos, você deve ser um administrador global, Teams administrador ou um Teams de dispositivos.
+Para usar o repositório de dispositivos, você deve ser um administrador global, Teams administrador ou um administrador Teams dispositivo.
 
 ## <a name="browse-the-store"></a>Procurar na loja
 
-O armazenamento de dispositivos inclui todos os dispositivos certificados para Teams, incluindo fones de ouvido, câmeras da Web e dispositivos Teams, como Salas do Teams, telefones de mesa e Teams displays. Você pode classificar, filtrar ou pesquisar para encontrar o dispositivo de que sua organização precisa.
+O repositório de dispositivos inclui todos os dispositivos certificados para Teams, incluindo headsets, câmeras da Web e dispositivos Teams, como Salas do Teams, telefones de mesa e Teams telas. Você pode classificar, filtrar ou pesquisar para encontrar o dispositivo de que sua organização precisa.
 
 ## <a name="purchase-devices"></a>Comprar dispositivos
 
-Quando você compra dispositivos do armazenamento de dispositivos, o pagamento e o cumprimento, incluindo envio e entrega, são tratados por UnifiedCommunications.com, um parceiro de atendimento de terceiros da Microsoft.  
+Quando você compra dispositivos da loja de dispositivos, o pagamento e o cumprimento, incluindo o envio e a entrega, são tratados por UnifiedCommunications.com, um parceiro de cumprimento de terceiros da Microsoft.  
 
-Você pode pagar com um cartão de crédito ou uma ordem de compra. O pagamento de ordem de compra requer configuração única com o provedor de atendimento.
+Você pode pagar com um cartão de crédito ou uma ordem de compra. O pagamento da ordem de compra requer configuração única com o provedor de atendimento.
 
 Todos os pedidos podem ser retornados até 30 dias após serem entregues.
 
-## <a name="data-handling-and-sharing"></a>Tratamento e compartilhamento de dados
+## <a name="data-handling-and-sharing"></a>Manipulação e compartilhamento de dados
 
-O Teams de dispositivos precisa compartilhar informações básicas do usuário e da empresa, incluindo GUIDs de usuário e locatário, com UnifiedCommunications.com para habilitar a compra no centro de administração Teams.
+O Teams de dispositivos precisa compartilhar informações básicas do usuário e da empresa, incluindo GUIDs de usuário e locatário, com o UnifiedCommunications.com para habilitar a compra no centro de administração do Teams.
 
-O compartilhamento de dados está desligado por padrão. Para habilita-lo, vá para o armazenamento de Teams, selecione o ícone de configurações e ative a configuração.  
+O compartilhamento de dados é desativado por padrão. Para habilita-lo, vá para o repositório Teams dispositivos, selecione o ícone de configurações e ative a configuração.  
 
-Quando essa configuração estiver desligada, os dados não serão compartilhados e você poderá navegar no armazenamento de Teams dispositivos, mas não poderá fazer compras. Os dados coletados e compartilhados com o provedor de atendimento enquanto a configuração estava em são processados conforme especificado em sua declaração de privacidade.
+Quando essa configuração estiver desativada, os dados não serão compartilhados e você poderá procurar o repositório Teams dispositivos, mas não poderá fazer compras. Os dados coletados e compartilhados com o provedor de cumprimento enquanto a configuração estava ativada são processados conforme especificado em sua política de privacidade.
 
-## <a name="order-tracking-and-history"></a>Histórico e acompanhamento de pedido
+## <a name="order-tracking-and-history"></a>Histórico e acompanhamento de pedidos
 
-Você pode exibir o histórico de pedidos indo para **Store > Histórico** de Pedidos, que inclui todos os pedidos colocados por você e outros administradores na organização. O histórico de pedidos também inclui o status de envio de seus pedidos. Para perguntas sobre o controle de pedido, retornos ou reembolsos, entre em contato UnifiedCommunications.com. Suas informações de contato estão disponíveis na página Histórico do pedido.
+Você pode exibir o histórico de pedidos indo para a Loja **>** histórico de pedidos, que inclui todos os pedidos feitos por você e por outros administradores na organização. O histórico de pedidos também inclui o status de envio de seus pedidos. Para perguntas sobre acompanhamento de pedidos, devoluções ou reembolsos, entre em contato UnifiedCommunications.com. Suas informações de contato estão disponíveis na página Histórico de pedidos.
 
-Os pedidos colocados no Teams de dispositivos e todos os dados associados a eles são classificados como pedidos de locatário e dados de locatário.
+Os pedidos feitos no repositório Teams dispositivos e todos os dados associados a eles são classificados como pedidos de locatário e dados de locatário.
 
-## <a name="provision-devices"></a>Provisione dispositivos
+## <a name="provision-devices"></a>Provisionar dispositivos
 
-Quando você compra dispositivos que suportam provisionamento remoto, o endereço MAC desses dispositivos é adicionado automaticamente ao centro de administração Teams quando o dispositivo é enviado. Dependendo da ordem e quando ele é Teams de administração.
+Quando você compra dispositivos que dão suporte ao provisionamento remoto, o endereço MAC desses dispositivos é adicionado automaticamente ao centro de administração do Teams quando o dispositivo é enviado. Dependendo do pedido e quando ele é enviado, pode levar aproximadamente 5 dias para que o endereço MAC apareça no Teams de administração.
 
-Depois que seus dispositivos são entregues, consulte [Provisionar remotamente dispositivos](remote-provision-remote-login.md#generate-a-verification-code) para concluir o processo de provisionamento e entrada.
+Depois que os dispositivos forem entregues, consulte [Provisionar dispositivos remotamente](remote-provision-remote-login.md#generate-a-verification-code) para concluir o processo de provisionamento e entrada.

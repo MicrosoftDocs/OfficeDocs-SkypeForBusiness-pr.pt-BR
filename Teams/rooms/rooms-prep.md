@@ -1,7 +1,7 @@
 ---
 title: Preparar seu ambiente
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como preparar sua infraestrutura para implantar Salas do Microsoft Teams para que você possa aproveitar todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b04ecd5b10f82e3f331bc2e888f59927de52e18c
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838992"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761243"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -43,7 +43,7 @@ Uma *conta de* recurso é uma conta que o cliente Salas do Microsoft Teams usa p
 
 Para funcionar corretamente, Salas do Microsoft Teams deve ter acesso a uma rede com fio que atenda a estes requisitos:
   
-- Acesso à sua instância do Active Directory ou Azure Active Directory (Azure AD), bem como ao Microsoft Exchange e Microsoft Teams.
+- Acesso à sua instância do Active Directory Azure Active Directory (Azure AD), bem como ao Microsoft Exchange e Microsoft Teams.
 
 - Acesso a um servidor que pode fornecer um endereço IP usando DHCP. Salas do Microsoft Teams pode ser configurado com um endereço IP estático na primeira inicialização da unidade.
 
@@ -79,7 +79,7 @@ Você instalará os certificados da mesma forma como faria para qualquer outro c
 Salas do Microsoft Teams é projetado para herdar as configurações de proxy do Windows sistema operacional. Acesse o Windows sistema operacional da seguinte maneira:
   
 1. Na interface do usuário Salas do Microsoft Teams, clique no ícone de engrenagem Configurações em que você será solicitado a fornecer a senha de Administrador local no dispositivo (a senha padrão é **sfb**).
-2. Toque em **Configurações** seguido de tocar no botão Ir para **Windows** e, em seguida, tocar no botão Ir para Entrada do  Administrador e, em seguida, clicar no botão Administrador (se o computador estiver ingressado no domínio, escolha Outro Usuário **e** use .\admin como o nome de usuário).
+2. Toque em **Configurações** seguido de tocar no botão Ir para **Windows** e, em seguida, tocar no botão Ir para entrar no **Administração** e, em seguida, clicar no botão Administrador (se o computador  estiver ingressado no domínio, escolha Outro Usuário **e** use .\admin como o nome de usuário).
 3. Na caixa **Pesquisar Windows** inferior esquerda, digite regedit (pressione a tela ou clique com o botão direito do mouse e escolha Executar **como administrador**).
 4. Clique na pasta HKEY_USERS (você verá uma lista de SIDs de usuários do computador) e verifique se a pasta raiz HKEY_USERS está selecionada.
        
@@ -131,14 +131,14 @@ Salas do Teams inclui uma conta local sem senha chamada "Skype". Essa conta é u
   
 ### <a name="admin---local-administrator-account"></a>"Administrador" - Conta do Administrador Local
 
-Salas do Microsoft Teams senha padrão é definida como "sfb". A senha pode ser alterada localmente por meio do modo Admin ou no arquivo AutoUnattend.xml (use o gerenciador de imagens do sistema do Windows do ADK para fazer a alteração no arquivo xml).
+Salas do Microsoft Teams senha padrão é definida como "sfb". A senha pode ser alterada localmente por meio do modo Administração ou no arquivo AutoUnattend.xml (use o gerenciador de imagens do sistema do Windows do ADK para fazer a alteração no arquivo xml).
   
 > [!CAUTION]
 > Altere a senha Salas do Microsoft Teams logo que possível. 
   
 A senha do Administrador local não é incluída como opção durante a Instalação.
 
-Você pode ler mais sobre a conta de administrador no [artigo Salas do Microsoft Teams Segurança](security.md).
+Você pode ler mais sobre a Administração no artigo [Salas do Microsoft Teams Segurança](security.md).
   
 ### <a name="machine-account"></a>Conta do computador
 

@@ -1,7 +1,7 @@
 ---
 title: Check-in e liberação de sala Microsoft Teams painéis
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: gary.lai
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: Este artigo fornece diretrizes sobre como habilitar o check-in e a versão da sala Teams de painéis.
-ms.openlocfilehash: 3cf1f48a71f88f012c6d33ba608ee40b53cda474
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: a1fc01b349a2189ab2f5ca09ff6b856338fbcdbb
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65218015"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761273"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Check-in e liberação de sala Microsoft Teams painéis
 
@@ -28,7 +28,7 @@ Quando o check-in e a versão da sala estão habilitados, os usuários fazem che
 
 ## <a name="requirements"></a>Requisitos 
 
-Esse recurso pode ser usado em uma implantação painel do Teams autônoma. Você também pode emparelhar painéis Teams com o Salas do Teams no Android com a versão 1449/1.0.96.2022011305 ou posterior para obter funcionalidades adicionais, como notificações de check-in.  
+Esse recurso pode ser usado em uma implantação painel do Teams autônoma. Você também pode emparelhar painéis Teams com o Salas do Teams no Android com a versão do aplicativo 1449/1.0.96.2022011305 ou posterior para obter funcionalidades adicionais, como notificações de check-in.  
 
 ## <a name="enable-check-in-and-room-release"></a>Habilitar check-in e liberação de sala 
 
@@ -36,13 +36,13 @@ O check-in e a liberação da sala estão desativados por padrão. Para ativá-l
 
 1. No painel do Teams, entre usando suas credenciais de administrador.  
 
-2. Vá para **Configurações > configurações do dispositivo > de administrador > Teams configurações de administrador > Reuniões**.
+2. Vá para **Configurações > configurações do dispositivo > Administração configurações > Teams de administrador > Reuniões**.
 
 3. Ative a Sala de lançamento se ninguém fizer o logon.
 
 4. Para ajustar a quantidade de tempo que os usuários precisam fazer check-in antes que a sala seja liberada, vá para Liberar depois **:** e selecione uma opção na lista suspensa.  
 
-Quando Teams painéis são emparelhados com uma sala Teams no Android, um usuário pode fazer check-in in ingressando na reunião na Teams Sala.  
+Quando Teams painéis são emparelhados com uma Sala Teams no Android, um usuário pode fazer check-in in ingressando na reunião na Teams Sala.  
 
 ## <a name="turn-on-check-in-notifications"></a>Ativar notificações de check-in
 
@@ -55,7 +55,7 @@ Para ativar as notificações de check-in,
 
 1. No painel do Teams, entre usando suas credenciais de administrador. 
 
-2. Vá para **Configurações > configurações do dispositivo > de administrador > Teams configurações de administrador > Reuniões**.
+2. Vá para **Configurações > configurações do dispositivo > Administração configurações > Teams de administrador > Reuniões**.
 
 3. Vá para **Check-in** e **ative a notificação de envio de check-in**.
 

@@ -1,7 +1,7 @@
 ---
 title: Criar contas de recursos para salas e dispositivos Teams compartilhados
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este artigo para obter informações sobre como criar contas de recursos para salas e dispositivos compartilhados, incluindo Salas do Microsoft Teams, Salas do Teams no Surface Hub e hot-desking em Teams telas.
-ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885019"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760883"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Criar e configurar contas de recursos para salas e dispositivos Teams compartilhados
 
-Este artigo fornece etapas para criar contas de recursos para espaços e dispositivos compartilhados e inclui etapas para configurar contas de recursos para o Salas do Microsoft Teams no Windows, Salas do Teams no Android, Salas do Teams no Surface Hub e hot-desking em Teams é exibido.
+Este artigo fornece etapas para criar contas de recursos para espaços e dispositivos compartilhados e inclui etapas para configurar contas de recursos para Salas do Microsoft Teams no Windows, Salas do Teams no Android e Salas do Teams no Surface Hub e a mesa quente em Teams telas.
 
 Microsoft 365 de recursos são contas de caixa de correio e Teams que são dedicadas a recursos específicos, como uma sala ou projetor. Essas contas de recursos podem responder automaticamente a convites de reunião usando regras que você define quando são criadas. Por exemplo, se você tiver um recurso comum, como uma sala de conferência, poderá configurar uma conta de recurso para essa sala de conferência que aceitará ou recusará automaticamente convites de reunião, dependendo da disponibilidade do calendário. 
 
@@ -62,7 +62,7 @@ Antes de criar uma Microsoft 365 de recursos, verifique se ela precisa de qual t
 
 - **Chamadas PSTN** Se você quiser que o recurso faça ou receba chamadas de ou para um número de telefone externo (chamado de rede telefônica pública comunada ou chamada PSTN), precisará de uma licença Microsoft 365 Sistema de Telefonia ou Microsoft 365 Business Voice. Você só precisa concluir a Etapa 1 na visão geral a seguir. Em seguida, [Microsoft Teams licenças de complemento para](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) obter mais informações.
 
-- &mdash;Se você estiver usando apenas uma conta de recurso para reservar um recurso que seja,&mdash; convide o recurso para sua reunião e aceite ou recuse automaticamente o convite, você não precisa atribuir uma licença à conta de recurso e só precisa concluir a Etapa 1 na visão geral a seguir.  
+- Se você estiver usando apenas uma conta de recurso para reservar um recurso que seja,&mdash;convide o recurso para sua reunião e aceite ou recuse automaticamente o convite, você não precisa atribuir uma licença à conta de recurso e só precisa concluir a&mdash;Etapa 1 na visão geral a seguir.  
 
 ## <a name="overview"></a>Visão Geral
 
@@ -104,9 +104,9 @@ Crie uma conta de recurso usando um método de uma das seguintes guias:
       - Duração máxima (horas): 24
     - Aceitar automaticamente solicitações de reunião
 
-    Se você quiser alterá-las, selecione **Definir opções de agendamento** antes de selecionar **Fechar**. Se você quiser alterá-los mais tarde, vá para **ResourcesRooms** >  **& equipamento**, selecione a conta de recurso. Em Seguida, **em Opções de Reserva**, selecione **Editar**.
+    Se você quiser alterá-las, selecione **Definir opções de agendamento** antes de selecionar **Fechar**. Se você quiser alterá-los mais tarde, vá  >  para Salas de Recursos **& equipamento**, selecione a conta de recurso. Em Seguida, **em Opções de Reserva**, selecione **Editar**.
 
-6. Vá para **usuários** **UsersActive** >  e selecione a sala que você criou para abrir o painel de propriedades.
+6. Vá para **Usuários** > **Ativos e** selecione a sala que você criou para abrir o painel de propriedades.
 
 7. Em seguida, atribua uma senha à conta de recurso. No painel, selecione **Redefinir senha**.
  
@@ -202,7 +202,7 @@ Para obter informações detalhadas sobre sintaxe e parâmetro, consulte [New-Ma
 > [!IMPORTANT]
 > Se você estiver usando apenas essa conta de recurso para reservar espaço e aceitar ou recusar convites automaticamente, você concluiu a configuração. Se você estiver usando essa conta de recurso para chamadas PSTN, consulte [Microsoft Teams licenças](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) de complemento para determinar de qual licença ela precisa.
 >
-> Prossiga para a próxima seção somente se a conta de recurso for para um Salas do Teams no Windows, Salas do Teams no Android, Salas do Teams no Surface Hub ou uma exibição Teams com mesa quente.
+> Continue para a próxima seção somente se a conta de recurso for para um Salas do Teams no Windows, Salas do Teams no Android, Salas do Teams no Surface Hub ou uma exibição Teams com mesa quente.
 
 ## <a name="configure-mailbox-properties"></a>Configurar propriedades da caixa de correio
 
@@ -310,12 +310,12 @@ A conta de recurso precisa de Microsoft 365 ou Office 365 para entrar Microsoft 
 > [!NOTE]
 > Salas do Microsoft Teams Padrão e Salas do Microsoft Teams Premium são os dois SKUs disponíveis para dispositivos de sala de reunião compartilhados, incluindo Salas do Teams. Uma licença de sala de reunião é necessária para Teams exibições com mesa quente. Para obter mais informações, consulte [Teams licenciamento da sala de reunião](rooms-licensing.md).
 
-Para atribuir licenças usando o Centro de administração do Microsoft 365, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users). Para atribuir licenças usando o Azure AD, consulte uma das seguintes guias:
+Para atribuir licenças usando o Centro de administração do Microsoft 365, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users). Para atribuir licenças usando Azure AD, consulte uma das seguintes guias:
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. Conexão para o Azure AD
+1. Conexão para Azure AD
   
     ```PowerShell
     Connect-AzureAD

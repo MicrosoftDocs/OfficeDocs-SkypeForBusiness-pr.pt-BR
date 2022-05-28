@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Saiba como integrar o conector Teams EHR para permitir que os provedores de serviços de saúde em sua organização realizem compromissos virtuais com pacientes ou outros provedores no Teams diretamente do sistema Epic EHR.
-ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: c34c8fbb32d78c1380267ce6876e947b877ce383
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465432"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760943"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>Compromissos virtuais com o Teams – Integração ao Epic EHR
 
@@ -62,7 +62,7 @@ Examine as informações a seguir para entender o processo de integração geral
 
 Você precisará solicitar acesso ao aplicativo Teams aplicativo.
 
-1. Solicitação para baixar o aplicativo Teams aplicativo no [marketplace epic app Demarmar.](https://apporchard.epic.com/Gallery?id=6153) Isso dispara uma solicitação da Epic para a equipe de conector do Microsoft EHR.
+1. Solicitação para baixar o aplicativo Teams aplicativo no [marketplace epic app Demarmar.](https://apporchard.epic.com/Gallery?id=16793) Isso dispara uma solicitação da Epic para a equipe de conector do Microsoft EHR.
 1. Depois de fazer sua solicitação, envie um email [](mailto:teamsforhealthcare@service.microsoft.com) para TeamsForHealthcare@service.microsoft.com com o nome da sua organização, a ID do locatário e o endereço de email do contato técnico da Epic.
 1. A equipe de conectores do Microsoft EHR responderá ao seu email com a confirmação da habilitação.
 

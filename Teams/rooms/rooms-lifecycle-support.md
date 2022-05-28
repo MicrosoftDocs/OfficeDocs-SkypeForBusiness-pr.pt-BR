@@ -1,7 +1,7 @@
 ---
 title: Salas do Microsoft Teams versão do aplicativo
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Saiba mais sobre o suporte ao ciclo de Salas do Microsoft Teams, incluindo a estrutura de suporte dinâmico e suas fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0353dc1a52dbc16d42d7c7e2f974675bb5098aa
-ms.sourcegitcommit: cd4464fe9bf0f38ed4c3ca058a51bcd29578eef9
+ms.openlocfilehash: 8348db0129b31920335351f2ebde4ed5db8a3d36
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65316507"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761063"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salas do Microsoft Teams versão do aplicativo
  

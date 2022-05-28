@@ -1,7 +1,7 @@
 ---
-title: Entrar e sair remotamente para Teams Dispositivos Android
-author: cazawideh
-ms.author: czawideh
+title: Entrada remota e saída para dispositivos Teams Android remotos
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: prasad.gholve
 ms.topic: article
@@ -17,25 +17,25 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como entrar remotamente e sair de Teams Dispositivos Android
-ms.openlocfilehash: 13566268df77f0d5f963829444002dc753569ec8
-ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
+description: Saiba como entrar remotamente e sair de Teams Android dispositivos
+ms.openlocfilehash: 5688ed8b7edf49e3048cb8b36b7e033030c09d5b
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070565"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761423"
 ---
-# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Entrar e sair remotamente para Teams Dispositivos Android
+# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>Entrada remota e saída para dispositivos Teams Android remotos
 
-Este artigo descreve como entrar remotamente e sair Teams dispositivos Android Teams centro de administração. Se você ainda não provisionou um dispositivo ou se o dispositivo está provisionado, mas nunca foi conectado, consulte Provisionamento remoto e entrada para dispositivos Android Teams [.](remote-provision-remote-login.md)
+Este artigo descreve como entrar remotamente e sair Teams Android dispositivos do centro de Teams administrador. Se você ainda não provisionou um dispositivo ou se o dispositivo foi provisionado, mas nunca foi conectado, consulte Provisionamento remoto e entrada para Teams Android [dispositivos](remote-provision-remote-login.md).
 
-## <a name="remote-sign-in"></a>Entrar remotamente
+## <a name="remote-sign-in"></a>Entrada remota
 
-Depois que um dispositivo for provisionado e conectado pela primeira vez,  ele aparecerá em sua página correspondente sob o nó dispositivos Teams do centro de administração Teams.
+Depois que um dispositivo for provisionado e conectado pela primeira vez, ele aparecerá em sua página correspondente no nó Teams dispositivos do centro de administração do Teams.
 
-Para entrar em um dispositivo que foi assinado, vá para a página de dispositivo correspondente.
+Para entrar em um dispositivo que foi conectado, vá para a página do dispositivo correspondente.
 
-1. Selecione o dispositivo que você deseja entrar.
+1. Selecione o dispositivo no qual você deseja entrar.
 
 2. Vá para o menu **Ações** e selecione **Entrar em um usuário**.
 
@@ -47,6 +47,6 @@ Para entrar em um dispositivo que foi assinado, vá para a página de dispositiv
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Provisionamento remoto e entrada para dispositivos Teams Android](remote-provision-remote-login.md)
+- [Provisionamento remoto e entrada para Teams Android dispositivos](remote-provision-remote-login.md)
 - [Gerenciar seus dispositivos no Teams](device-management.md)
 - [Atualizar Teams dispositivos remotamente](remote-update.md)
