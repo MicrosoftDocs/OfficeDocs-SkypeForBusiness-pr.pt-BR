@@ -585,7 +585,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -1495,7 +1495,9 @@ items:
             href: approval-admin.md
           - name: Gerenciar o aplicativo Turnos
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-      - name: Administrar aplicativos de terceiros
+          - name: Gerenciar o aplicativo Atualizações
+            href: manage-updates-app.md
+      - name: Gerenciar aplicativos de terceiros
         items:
           - name: Entenda os aplicativos de terceiros
             href: overview-third-party-apps.md
@@ -1509,9 +1511,9 @@ items:
             href: purchase-third-party-apps.md
       - name: Modelos de aplicativos para o Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Controlar aplicativos de linha de negócios personalizados
+      - name: Gerenciar aplicativos personalizados de linha de negócios
         items:
-          - name: Gerenciar os aplicativos Power Platform no Centro de Administração do Microsoft Teams
+          - name: Gerenciar aplicativos do Power Platform no Centro de administração do Teams
             href: manage-power-platform-apps.md
           - name: Publicar aplicativos personalizados na loja da sua organização
             href: submit-approve-custom-apps.md
@@ -1521,7 +1523,7 @@ items:
             href: customize-apps.md
           - name: Marcar a loja de aplicativos da sua organização
             href: customize-your-app-store.md
-      - name: Controles de administrador e governança de aplicativos
+      - name: Controles de administrador para controlar aplicativos
         items:
           - name: Visão geral do gerenciamento de aplicativos para administradores
             href: manage-apps.md
@@ -1537,7 +1539,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Personalizar os aplicativos do Teams para seus funcionários da linha de frente
             href: pin-teams-apps-based-on-license.md
-          - name: Examinar as permissões do Azure Active Directory e conceder consentimento do administrador
+          - name: Sobre permissões do Azure AD e consentimento de administrador
             href: app-permissions-admin-center.md
           - name: Gerenciar o consentimento específico do recurso para sua organização
             href: resource-specific-consent.md

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 648150f67471f1721a035e2fd19fded274ecd05e
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 4872cb6222d8841bb2efe6be0e19fa17d3557e33
+ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681592"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65780637"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissão de aplicativos no Microsoft Teams
 
@@ -59,12 +59,13 @@ Use uma ou mais políticas de permissão de aplicativo personalizadas, se você 
 
 1. Forneça um nome e uma descrição para a política.
 1. Em **Aplicativos da Microsoft**, **Aplicativos de terceiros** e **Aplicativos personalizados**, selecione um dos seguintes:
-   - **Permitir todos os aplicativos**
-   - **Permita aplicativos específicos e bloqueie todos os outros**
-   - **Bloquear aplicativos específicos e permita todos os outros**
-   - **Bloquear todos os aplicativos**
 
-1. Se você selecionou **Permitir aplicativos específicos e bloquear outros**, adicione os aplicativos que deseja permitir:
+    * Permitir todos os aplicativos
+    * Permita aplicativos específicos e bloqueie todos os outros
+    * Bloquear aplicativos específicos e permita todos os outros
+    * Bloquear todos os aplicativos
+
+1. Se você **selecionou Permitir aplicativos específicos e bloquear todos os outros**, adicione os aplicativos que deseja permitir:
 
     1. Selecione **Permitir aplicativos**.
     1. Pesquise os aplicativos que você deseja permitir e selecione **Adicionar**. Os resultados da pesquisa são filtrados para o editor do aplicativo (**aplicativos da Microsoft**, **aplicativos de terceiros** ou **aplicativos personalizados**).
@@ -104,8 +105,9 @@ Use as configurações de aplicativos de toda a organização para controlar se 
   ![Captura de tela das configurações de aplicativo em toda a organização GCC.](media/app-permission-policies-gcc-org-wide.png)
 
 1. Em **Aplicativos de terceiros**, desabilite ou ative essas configurações para controlar o acesso a aplicativos de terceiros:
-   - **Permitir aplicativos de terceiros**: essa opção controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar esta configuração, seus usuários não poderão instalar ou usar aplicativos de terceiros. Em um Microsoft 365 Government – implantação de GCCH e DoD do Teams, essa configuração está desativada por padrão.
-   - Permitir novos aplicativos de terceiros publicados na loja por **padrão: essa** opção controla se novos aplicativos de terceiros publicados na loja de aplicativos do Teams ficam automaticamente disponíveis no Teams. Você só pode definir essa opção se permitir aplicativos de terceiros.
+
+    * **Permitir aplicativos de terceiros**: essa opção controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar esta configuração, seus usuários não poderão instalar ou usar aplicativos de terceiros. Em um Microsoft 365 Government – implantação de GCCH e DoD do Teams, essa configuração está desativada por padrão.
+    * Permitir novos aplicativos de terceiros publicados na loja por **padrão: essa** opção controla se novos aplicativos de terceiros publicados na loja de aplicativos do Teams ficam automaticamente disponíveis no Teams. Você só pode definir essa opção se permitir aplicativos de terceiros.
 
 1. Em **Aplicativos bloqueados**, adicione os aplicativos que deseja bloquear em sua organização. Em um Microsoft 365 Government – implantação de GCCH e DoD do Teams, todos os aplicativos de terceiros são adicionados a essa lista por padrão. Para qualquer aplicativo de terceiros que você deseja permitir em sua organização, remova o aplicativo desta lista de aplicativos bloqueados. Quando você bloqueia um aplicativo em toda a organização, o aplicativo é bloqueado automaticamente para todos os usuários, independentemente de ele ser permitido em qualquer política de permissão de aplicativo.
 
@@ -156,12 +158,12 @@ Os usuários não podem interagir com um aplicativo bloqueado ou seus recursos, 
 
 Por exemplo, quando um aplicativo é bloqueado, os usuários não podem realizar nenhuma das seguintes tarefas:
 
-- Adicionar o aplicativo pessoalmente ou em um chat ou equipe
-- Enviar mensagens para o bot do aplicativo
-- Execute ações de botão que enviam informações de volta ao aplicativo, como mensagens acionáveis  
-- Exibir a guia do aplicativo
-- Configurar conectores para receber notificações
-- Usar a extensão de mensagens do aplicativo
+* Adicionar o aplicativo pessoalmente ou em um chat ou equipe
+* Enviar mensagens para o bot do aplicativo
+* Execute ações de botão que enviam informações de volta ao aplicativo, como mensagens acionáveis  
+* Exibir a guia do aplicativo
+* Configurar conectores para receber notificações
+* Usar a extensão de mensagens do aplicativo
 
 O portal legado permitia controlar aplicativos no nível da organização, o que significa que quando um aplicativo é bloqueado, ele é bloqueado para todos os usuários da organização. O bloqueio de um aplicativo na página [Gerenciar aplicativos](manage-apps.md) funciona exatamente da mesma maneira.
 
@@ -169,6 +171,6 @@ Para políticas de permissão de aplicativo atribuídas a usuários específicos
 
 ## <a name="see-also"></a>Confira também
 
-- [Configurações de administrador para aplicativos no Teams](admin-settings.md)
-- [Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)
-- [Teams de disponibilidade de recursos](/office365/servicedescriptions/teams-service-description#feature-availability)
+* [Configurações de administrador para aplicativos no Teams](admin-settings.md)
+* [Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)
+* [Teams de disponibilidade de recursos](/office365/servicedescriptions/teams-service-description#feature-availability)
