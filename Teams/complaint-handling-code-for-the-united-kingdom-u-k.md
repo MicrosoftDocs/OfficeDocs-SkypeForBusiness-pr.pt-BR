@@ -1,5 +1,5 @@
 ---
-title: Código de tratamento de reclamações para o Reino Unido. - Microsoft 365 planos de chamada
+title: Código de tratamento de reclamações para o Reino Unido - Microsoft 365 planos de chamadas
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,17 +22,17 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Faça uma reclamação Skype serviços de chamada para empresas (PSTN Calling no Reino Unido), cronogramas para respostas e resolução de disputas para reclamações não resolvidas.
-ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Faça uma reclamação para Skype serviços de chamada de negócios (Chamada PSTN no Reino Unido), cronogramas para respostas e resolução de controvérsias para reclamações não resolvidas.
+ms.openlocfilehash: 996149ad23ec8c9258dd3ef953aeffe8c3aea041
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604600"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823712"
 ---
-# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planos de chamada em Microsoft 365 - Código de tratamento de reclamações para o Reino Unido (Reino Unido)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planos de chamada Microsoft 365 - Código de tratamento de reclamações para o Reino Unido (Reino Unido)
 
-Este Código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de Plano de Chamada do Microsoft 365 (o "Serviço") de acordo com as regulamentações de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Esse Código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de Plano de Chamada do Microsoft 365 (o "Serviço") de acordo com as regulamentações de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
 
 ## <a name="how-to-make-a-complaint"></a>Como fazer uma reclamação
 
@@ -52,7 +52,7 @@ Se não puder resolver o problema imediatamente, o representante do Skype for Bu
 
 O Skype for Business visa resolver todas as reclamações relacionadas ao Serviço no prazo de sete (7) dias úteis após o recebimento.
 
-Se você não está satisfeito com a maneira como sua reclamação sobre o Serviço é gerenciada, você pode solicitar que o representante do Skype for Business que esteja manipulando sua reclamação, por telefone ou email, para escalonar a reclamação de acordo com seu contrato de serviço. A Microsoft avaliará a reclamação no prazo de sete (7) dias a contar do recebimento.
+Se você estiver infeliz com a maneira como sua reclamação sobre o Serviço é gerenciada, peça ao representante do Skype for Business que esteja tratando sua reclamação, por telefone ou email, para escalonar a reclamação de acordo com seu contrato de serviço. A Microsoft avaliará a reclamação no prazo de sete (7) dias a contar do recebimento.
 
 ## <a name="alternative-dispute-resolution"></a>Solução alternativa de controvérsias
 
@@ -62,9 +62,9 @@ Os Serviços de Ombudsman são independentes da Microsoft e tornarão uma decis�
 
 Todas as reclamações devem ser enviadas aos Serviços de Ombudsman no prazo de 12 (doze) meses a contar do envio da reclamação ao Skype for Business.
 
-As etapas para encaminhar uma reclamação aos Serviços de Ombudsman podem ser encontradas no [site](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) de Serviços de Ombudsman.
+As etapas para fazer referência a uma reclamação aos Serviços de Ouvidoria podem ser encontradas no site dos Serviços de [Ouvidoria dos Serviços de Ombudsman](https://www.ombudsman-services.org/).
 
-Você pode entrar em contato com o Ombudsman Services preenchendo um formulário de contato no site do Ombudsman Services ou por telefone, carta ou email:
+Você pode entrar em contato com os Serviços de Ouvidoria preenchendo um formulário de contato no site dos Serviços de Ouvidoria ou por telefone, carta ou email:
 
 - Formulário de contato: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

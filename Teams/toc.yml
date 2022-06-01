@@ -219,7 +219,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -228,7 +228,7 @@ items:
                   - name: Desabilitar híbrido para completar a migração para ApenasTeams
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: Atualizar entradas DNS
-                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
                   - name: Decidir como gerenciar os atributos após o encerramento
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Mover pontos de extremidade do aplicativo para a nuvem
@@ -585,7 +585,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -1838,7 +1838,7 @@ items:
           - name: Mover do Conector do Skype for Business Online para o módulo Windows PowerShell do Teams
             href: teams-powershell-move-from-sfbo.md
           - name: Referência de Cmdlet para o Teams
-            href: /powershell/module/teams/?view=teams-ps
+            href: /powershell/module/teams
       - name: Documentação de desenvolvedor do Teams
         href: /microsoftteams/platform
       - name: Atualizações de conteúdo do Teams

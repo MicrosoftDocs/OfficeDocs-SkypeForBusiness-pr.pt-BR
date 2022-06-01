@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: c65b51b34de54f419db341d5e1328a93746f0984
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635389"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823306"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Planejando uma transição bem-sucedida de Kaizala para Microsoft Teams
 
@@ -70,7 +70,7 @@ Depois de seguir a estrutura recomendada para planejar uma transição bem-suced
 
 ### <a name="get-ready"></a>Prepare-se
 
- 1. Verifique se há licenças Teams para todos. Confira os [planos do Teams](/microsoft-teams/compare-microsoft-teams-options?rtc=1) e a [descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+ 1. Verifique se há licenças Teams para todos. Confira os [planos do Teams](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot%3aprimaryr1) e a [descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
  2. Use [Microsoft Teams diretrizes de adoção](https://adoption.microsoft.com/microsoft-teams/#get-started) para distribuir Teams em sua organização.
 
@@ -78,7 +78,7 @@ Depois de seguir a estrutura recomendada para planejar uma transição bem-suced
 
  4. Use esses recursos de treinamento para ajudar os usuários em sua organização a aprender e tirar o máximo Teams:
 
-    - Para preparação do administrador de TI, consulte [recursos de treinamento do administrador](/microsoftteams/itadmin-readiness).
+    - Para saber Administração de TI, confira [Administração de treinamento](/microsoftteams/itadmin-readiness).
 
     - Para treinamento ministrado por instrutor, consulte [treinamento ministrado por instrutor para Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page).
   

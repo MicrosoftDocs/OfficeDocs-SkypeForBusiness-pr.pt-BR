@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na República Tcheca para Microsoft Teams.
-ms.openlocfilehash: 93e25d7e9ab1776e5ff2cd534f9e8eb9c2e17187
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c37e38ddf4f85c39255a9f30e25c70a67e311a38
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62402675"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823466"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Telefone gerenciamento de números para a República Tcheca
 
@@ -37,11 +37,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário ou serviço que não estão listados no Microsoft Teams de administração. |Na República Tcheca, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e [contate o Service Desk TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>[Nova solicitação de número de telefone para a República Tcheca (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf ). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, concluí-lo na íntegra e enviá-lo para nós.<br/><br/>Os novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
-|Obter números de telefone transferidos para nós. | Baixe este formulário. <br/><br/>[Carta de Autorização (LOA) para a República Tcheca (todos os números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Preencha-o e [entre em contato com o Service Desk TNS para obter instruções](contact-tns-service-desk.md). Você também deve incluir uma conta de utilitário do endereço comercial para o qual deseja transferir números.<br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída neste mercado. <br/><br/>Esses números não podem ser usados para conferência no momento. |
-|Publicar/não publicar números de telefone no diretório telefônico nacional.  <br/> |[Entre em contato com o Service Desk TNS para obter](contact-tns-service-desk.md) instruções sobre a lista de números de telefone que você deseja publicar/não publicar. <br/> |
-|Altere o número de um usuário para um número de serviço.  <br/> |[Entre em contato com o Service Desk TNS para obter](contact-tns-service-desk.md) instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
-|Fazer atualizações de serviço de diretório para chamar fila ou números de atendimento automático|Para adicionar ou alterar números de fila de chamada ou de atendimento automático, entre em contato [com o Service Desk TNS para obter instruções](contact-tns-service-desk.md). |
+|Obtenha novos números de telefone de usuário ou serviço que não estão listados no centro Microsoft Teams administrador. |Na República Tcheca, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e entre em contato com o [Service Desk do TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>`[New phone number request for the Czech Republic (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf )`. <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, conclua-o por completo e envie-o para nós.<br/><br/>Novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
+|Obter números de telefone transferidos para nós. | Baixe este formulário. <br/><br/>[Carta de Autorização (LOA) para a República Tcheca (todos os números) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Preencha-o e [entre em contato com o Service Desk do TNS para obter instruções](contact-tns-service-desk.md). Você também deve incluir uma fatura do utilitário do endereço comercial para o qual deseja transferir números.<br/><br/>A transferência de números pode levar de duas a três semanas para ser concluída nesse mercado. <br/><br/>Esses números não podem ser usados para conferência no momento. |
+|Publicar/cancelar a publicação de números de telefone no diretório de telefone nacional.  <br/> |[Entre em contato com o Service Desk do TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
+|Altere o número de um usuário para um número de serviço.  <br/> |[Entre em contato com o Service Desk do TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Fazer atualizações do serviço de diretório para chamar números de fila ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato [com o Service Desk do TNS para obter instruções](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -51,4 +51,4 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
   
-[Rótulo de aviso de isenção de responsabilidade de chamada de emergência](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Rótulo de aviso de isenção de responsabilidade de Chamada de Emergência](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

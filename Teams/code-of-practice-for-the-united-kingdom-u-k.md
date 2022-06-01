@@ -1,5 +1,5 @@
 ---
-title: Código de prática para o Reino Unido. - Microsoft 365 planos de chamada
+title: Código de prática para o Reino Unido - Microsoft 365 planos de chamadas
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,17 +22,17 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Saiba o código de prática para planos de chamada PSTN para Skype for Business Reino Unido, incluindo, onde obter ajuda e como enviar reclamações e resolver disputas.
-ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Aprenda o código de prática para planos de Chamada PSTN para Skype for Business Reino Unido, incluindo, onde obter ajuda e como enviar reclamações e resolver controvérsias.
+ms.openlocfilehash: 526e34bce5ec36188287154a4f578a56942fa36f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580195"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823030"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Planos de chamada Microsoft 365 - Código de prática para o Reino Unido (Reino Unido)
 
-Este Código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de Plano de Chamada do Microsoft 365 ou Office 365 (o "Serviço") de acordo com as regulamentações de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Esse Código aplica-se a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de Plano de Chamada do Microsoft 365 ou Office 365 (o "Serviço") de acordo com as regulamentações de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
 
 ## <a name="1-about-skype-for-business"></a>1. Sobre o Skype for Business
 
@@ -52,7 +52,7 @@ Você pode obter resposta a algumas de suas dúvidas visitando o [site do Skype 
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Reclamações e solução de controvérsias
 
-Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossos Planos de Chamada em Microsoft 365 ou Office 365 - o código de tratamento de reclamações para a página reino unido [(Reino Unido)](complaint-handling-code-for-the-united-kingdom-u-k.md) detalha os procedimentos para pequenas empresas registrarem uma reclamação conosco e nosso esquema independente de resolução de conflitos.
+Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossos Planos de Chamada [no Microsoft 365 ou Office 365](complaint-handling-code-for-the-united-kingdom-u-k.md) – código de tratamento de reclamações para a página reino unido (Reino Unido) detalha os procedimentos para pequenas empresas apresentarem uma reclamação conosco e nosso esquema independente de resolução de controvérsias.
   
 ## <a name="4-number-porting"></a>4. Portabilidade numérica
 
@@ -64,9 +64,9 @@ Microsoft 365 ou Office 365 plano de chamada depende de sua conexão de banda la
 
 ## <a name="6-emergency-calls"></a>6. Chamadas de emergência
 
-O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para o 999 ou 112 operam de forma diferente com serviços Microsoft 365 ou Office 365 de Chamada do que nos serviços telefônicos tradicionais. Os clientes são obrigados a notificar cada usuário do Microsoft 365 ou Office 365 serviços de Plano de Chamada dessas diferenças.
+O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para 999 ou 112 operam de forma diferente com os serviços Microsoft 365 ou Office 365 de Chamada do que nos serviços telefônicos tradicionais. Os clientes precisam notificar cada usuário sobre os serviços Microsoft 365 ou Office 365 plano de chamadas de dados sobre essas diferenças.
 
-As diferenças incluem o seguinte: (i) Skype for Business pode não saber a localização real de um chamador, o que pode resultar em que os serviços de emergência estão sendo despachados para o local errado; (ii) quando um usuário Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por um operador a fornecer sua localização atual para ajudar a rotear corretamente a chamada de emergência e encaminhar os serviços de emergência; (iii) se o dispositivo do usuário não tiver energia, estiver com uma falta de energia ou, por qualquer motivo, não puder acessar a Internet de outra forma, o usuário não poderá fazer uma chamada de emergência por meio dos serviços Microsoft 365 ou Office 365 Plano de Chamada; e (iv) embora os serviços de Plano de Chamada Microsoft 365 e Office 365 possam ser usados em qualquer lugar do mundo onde uma conexão com a Internet está disponível, os usuários não devem chamar 999 ou 112 fora da Inglaterra, País de Gales, Escócia ou Irlanda do Norte, pois a chamada provavelmente não será roteada para o serviço de emergência apropriado.
+As diferenças incluem o seguinte: (i) Skype for Business pode não saber a localização real de um chamador, o que pode fazer com que os serviços de emergência sejam transferidos para o local errado; (ii) quando um usuário do Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por um operador a fornecer sua localização atual para auxiliar no roteamento adequado da chamada de emergência e na respatriação dos serviços de emergência; (iii) se o dispositivo do usuário não tiver energia, estiver enfrentando uma interrupção de energia ou, por qualquer motivo, não puder acessar a Internet de outra forma, o usuário não poderá fazer uma chamada de emergência por meio dos serviços de Plano de Chamadas do Microsoft 365 ou Office 365; e (iv), embora Microsoft 365 e Office 365  Os serviços de Plano de Chamadas podem ser usados em qualquer lugar do mundo onde uma conexão com a Internet está disponível, os usuários não devem ligar para 999 ou 112 fora da Inglaterra, Gales, Escócia ou Irlanda do Norte, pois a chamada provavelmente não será encaminhada para o serviço de emergência apropriado.
 
 É importante que todos os clientes registrem a localização dos usuários e mantenham essas informações atualizadas para que possam ser fornecidas aos serviços de emergência. Você pode fazer mudanças nas informações de localização online por meio do portal do administrador do Skype for Business.
 
@@ -118,7 +118,7 @@ Um discador da Internet, que é semelhante a um vírus de computador, é um soft
 
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organização independente aprovada pela Ofcom. A PhonepayPlus regula os Serviços de Tarifa Premium e investiga reclamações dos consumidores. Todos os Provedores de Serviços devem aderir ao Código de Conduta da PhonepayPlus, que pode ser encontrado em [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Se um Provedor de Serviços violar o Código de Conduta, a PhonepayPlus poderá:
+Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organização independente aprovada pela Ofcom. A PhonepayPlus regula os Serviços de Tarifa Premium e investiga reclamações dos consumidores. Todos os Provedores de Serviços devem aderir ao Código de Prática PhonepayPlus, que pode ser encontrado no [código de prática](https://psauthority.org.uk/for-business/code-15). Se um Provedor de Serviços violar o Código de Conduta, a PhonepayPlus poderá:
 
 - Solicitar que uma das partes corrija uma violação
 
@@ -128,7 +128,7 @@ Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organiz
 
 ### <a name="service-provider-contact-information"></a>informações de contato do provedor de serviços
 
-Para encontrar as informações de contato do Provedor de Serviços, você pode usar a ferramenta #NumberChecker da PhonepayPlus em [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Se achar que foi cobrado indevidamente por um Serviço de Tarifa Premium, entre em contato diretamente com o Provedor de Serviços.
+Para encontrar informações de contato para um Provedor de Serviços, você pode usar a ferramenta de #NumberChecker PhonepayPlus em Enviar [uma consulta online](https://psauthority.org.uk/For-Consumers/Contact-Us). Se achar que foi cobrado indevidamente por um Serviço de Tarifa Premium, entre em contato diretamente com o Provedor de Serviços.
 
 ### <a name="complaints"></a>Reclamações
 
@@ -136,7 +136,7 @@ Para fazer à PhonepayPlus uma reclamação sobre um Provedor de Serviços, voc�
 
 - Telefone: 0300 30 300 20 (9h30-17h, de segunda a sexta)
 
-- Consulta online: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- Consulta Online: [Enviar uma consulta online](https://psauthority.org.uk/For-Consumers/Contact-Us)
 
 ### <a name="dispute-resolution"></a>Solução de controvérsias
 

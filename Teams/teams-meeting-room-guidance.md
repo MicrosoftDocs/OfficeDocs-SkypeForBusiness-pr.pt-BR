@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681742"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823396"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Diretrizes de sala de reunião para Teams
 
@@ -83,7 +83,7 @@ Prepare seus usuários para fazer isso em estágios para maximizar Teams experi�
 
 Você pode começar com esse plano abordando todos os espaços de reunião não AV ou não equipados com colaboração. Você ainda pode aproveitar as Teams em suas salas de reunião, mesmo que essas salas de reunião ainda não tenham Teams dispositivos instalados.
 
-*Áudio:* Uma ótima ponte para uma sala completa do Teams é planejar a tecnologia de reunião fornecendo aos usuários individuais dispositivos de áudio certificados pelo Teams para salas e grupos menores ou implantando-os em salas antes de uma solução completa do Salas do Teams para espaços maiores destinados a grupos maiores em que um dispositivo pequeno não o cortará.
+*Áudio:* Uma ótima ponte para um Salas do Teams completo é planejar a tecnologia de reunião fornecendo aos usuários individuais dispositivos de áudio certificados pelo Teams para salas e grupos menores ou implantando-os em salas antes de uma solução completa do Salas do Teams para espaços maiores destinados a grupos maiores em que um dispositivo pequeno não o cortará.
 
 *Vídeo:* Quando essas salas são usadas, os usuários individuais podem trazer seus próprios dispositivos para compartilhar no conteúdo da reunião Teams e capturar suas expressões com suas câmeras individuais. Os usuários podem designar alguém para ser a única fonte de áudio para o grupo local, conectando esse dispositivo pessoal ao dispositivo de áudio certificado, para que todos (locais e remotos) tenha uma experiência positiva com o áudio da reunião.
 

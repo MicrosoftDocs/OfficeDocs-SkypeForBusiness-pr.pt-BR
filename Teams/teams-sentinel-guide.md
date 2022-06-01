@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745500dd0ac30d717e37ec9287618342554b26c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cf7d4e9670d8ea282105eaa057347fa7e9f6dac
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627023"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822990"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel e Microsoft Teams
 
@@ -220,13 +220,13 @@ SigninLogs
 
 **Obrigado pela sua colaboração de conteúdo, Pete Bryan, Nicholas DiCola e Matthew Lowe.** Mila Dias e as pessoas com quem ela colabora continuam a desenvolver consultas de detecção e consultas para Equipes.
 
-Mantenha-se em contato com este [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) para repositório de atualizações.
+Mantenha-se em contato com este [Git Hub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/) para repositório de atualizações.
 
 Monitore as atualizações para o [analisador](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) e o [aplicativo lógico](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) usados neste artigo.
 
 Você também pode participar e contribuir com a [comunidade do Azure Sentinel](https://github.com/Azure/Azure-Sentinel/wiki). Estamos ativamente procurando comentários neste artigo; portanto, use a opção de comentários abaixo. Obrigado e feliz busca. 
 
-[Registrar seu aplicativo no Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Registrar seu aplicativo no Azure AD](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
 [Ativar ou desativar a pesquisa de log de auditoria](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 

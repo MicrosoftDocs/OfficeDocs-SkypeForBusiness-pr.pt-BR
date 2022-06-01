@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781016"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823722"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Atualizações para sua organização no Microsoft Teams
 
@@ -53,6 +53,8 @@ Nas instalações de fabricação da loja, os funcionários realizam verificaç�
 ![Imagem do modelo passo a passo de segurança semanal em um dispositivo móvel.](media/updates-mobile.png)
 
 Enquanto isso, uma equipe de funcionários remotos está atualizando o site da loja. Eles são distribuídos entre fusos horários, portanto, reuniões de stand-up diárias não são convenientes. Em vez disso, cada um dos membros da equipe envia relatórios diários de Atualizações sobre seu progresso para o líder da equipe.
+
+[Baixe o lookbook Atualizações](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) para ver mais exemplos do que você pode fazer com atualizações.
 
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 

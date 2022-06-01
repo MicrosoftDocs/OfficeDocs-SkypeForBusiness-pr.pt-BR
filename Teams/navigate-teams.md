@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674833"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823452"
 ---
 # <a name="navigate-microsoft-teams"></a>Navegue Microsoft Teams
 
@@ -259,7 +259,7 @@ O Teste é uma extensão [Teams de](/microsoftteams/platform/messaging-extension
 
 [Use o modelo de aplicativo Checkins](/microsoftteams/platform/samples/app-templates#staff-check-ins) de Equipe para permitir que a equipe de linha de frente forneça facilmente informações críticas de tempo e atualizações de status em uma base agendada ou ad hoc diretamente do Teams. O aplicativo dá suporte a localização em tempo real, fotos, anotações, notificações de lembrete e fluxos de trabalho automatizados.
 
-Use Teams para facilitar o treinamento para sua organização. O treinamento é um aplicativo [Teams](/microsoftteams/platform/what-are-messaging-extensions) extensão de mensagens personalizado que permite que os usuários publiquem um treinamento em um chat ou canal para compartilhamento de conhecimento offline e atualização. O aplicativo tem suporte em vários clientes Teams plataforma, como área de trabalho, navegador, iOS e Android. Este aplicativo está pronto para implantação como parte de sua Microsoft 365 assinatura.
+Use Teams para facilitar o treinamento para sua organização. O treinamento é um aplicativo [Teams](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet) extensão de mensagens personalizado que permite que os usuários publiquem um treinamento em um chat ou canal para compartilhamento de conhecimento offline e atualização. O aplicativo tem suporte em vários clientes Teams plataforma, como área de trabalho, navegador, iOS e Android. Este aplicativo está pronto para implantação como parte de sua Microsoft 365 assinatura.
 
 [Obter em GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
