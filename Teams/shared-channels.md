@@ -1,5 +1,5 @@
 ---
-title: Canais compartilhados no Microsoft Teams (Visualização)
+title: Canais compartilhados no Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Aprenda a usar e a gerenciar canais privados no Microsoft Teams (Visualização).
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
+ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393875"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65785981"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Canais compartilhados no Microsoft Teams (Visualização)
+# <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
 Os canais compartilhados no Microsoft Teams criam espaços de colaboração onde você pode convidar pessoas que não estão na equipe. Apenas os usuários que são proprietários ou membros do canal compartilhado podem acessar o canal. Embora os convidados (pessoas com contas de convidado do Azure Active Directory na sua organização) não possam ser adicionados a um canal compartilhado, você pode convidar pessoas de fora da sua organização para participarem de um canal compartilhado usando a conexão direta do Azure AD B2B.
 
@@ -36,12 +36,6 @@ Apenas os membros de canais privados podem ver e participar de canais privados a
 Quando um canal privado é criado, ele é vinculado à equipe pai e não pode ser movido para uma equipe diferente. Além disso, os canais compartilhados não podem ser convertidos em canais padrão e vice-versa.
 
 [Compare os canais compartilhados com outros tipos de canais](/microsoftteams/teams-channels-overview#channel-feature-comparison).
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>Práticas recomendadas para a visualização de canais compartilhados
-
-Os canais compartilhados estão em visualização e exigem que você tenha configurado o [Visualização Pública Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates). Se você planeja compartilhar canais com outras organizações, elas também devem ter configurado a Visualização Pública do Teams.
-
-Recomendamos que você habilite a visualização para todos os seus usuários. Os usuários para os quais a visualização não está habilitada não podem criar canais compartilhados, mas ainda podem ser adicionados a canais compartilhados. Habilitar a visualização para todos os usuários pode ajudar a garantir uma experiência consistente.
 
 ## <a name="getting-started-with-shared-channels"></a>Introdução aos canais compartilhados
 
@@ -141,14 +135,14 @@ Os artigos a seguir podem ser úteis para os usuários em sua organização quan
 
 [Proprietários de canais compartilhados e vagas de membros no Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>Limites dos canais compartilhados (visualização)
+## <a name="limits-for-shared-channels"></a>Limites para canais compartilhados
 
 A tabela a seguir descreve o número máximo de canais e membros.
 
 |Máximo...|Valor|Observações|
 |:---------|:----|:----|
 |Membros em uma equipe|25.000|Inclui todos os usuários na equipe e membros diretos nos canais compartilhados.|
-|Canais compartilhados por equipe|50|Hospedado e compartilhado com a equipe. (Inclui canais excluídos durante a janela de recuperação de 30 dias.)|
+|Canais compartilhados por equipe|200|Hospedado e compartilhado com a equipe. (Inclui canais excluídos durante a janela de recuperação de 30 dias.)|
 |Equipes com quem um canal pode ser compartilhado|50|Excluindo a equipe pai|
 |Membros em um canal compartilhado|5.000 membros diretos, incluindo até 50 equipes. (Cada equipe com a qual o canal é compartilhado conta como um membro tendo em vista esse limite).|As atualizações em tempo real só estão disponíveis para 25.000 usuários por vez e apenas 25.000 usuários serão exibidos na lista de canais.|
 
@@ -156,7 +150,7 @@ As seguintes limitações também se aplicam:
 
 - Os canais compartilhados dão suporte a guias, exceto Stream, Planner e Forms.
 
-- Aplicativos LOB, bots, conectores e extensões de mensagem não possuem suporte para visualização pública.
+- Aplicativos LOB, bots, conectores e extensões de mensagem não são compatíveis.
 
 - Quando você cria uma equipe de uma equipe existente, os canais compartilhados na equipe existente não serão copiados.
 
