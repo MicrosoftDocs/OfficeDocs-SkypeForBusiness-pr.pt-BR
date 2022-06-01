@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785981"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795633"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -155,6 +155,73 @@ As seguintes limitações também se aplicam:
 - Quando você cria uma equipe de uma equipe existente, os canais compartilhados na equipe existente não serão copiados.
 
 - As notificações de canais compartilhados não estão incluídas nos e-mails das atividades perdidas.
+
+## <a name="supported-apps-in-shared-channels"></a>Aplicativos com suporte em canais compartilhados
+
+Para obter informações sobre como preparar seu aplicativo para canais compartilhados, consulte [Como abrir seu aplicativo para colaboração entre organizações com o Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+
+Os aplicativos a seguir têm suporte para uso em canais compartilhados. 
+
+- Atividade
+- Adobe Acrobat Sign
+- Asana
+- Calendário
+- Calendário Pro
+- Chamadas
+- Bate-papo
+- Código por Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- Arquivos
+- Flipgrid
+- Freehand por InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- Listas
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Pesquisar
+- SharePoint
+- Páginas do SharePoint
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- TeamViewer
+- Trabalho em equipe
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Palavra
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
