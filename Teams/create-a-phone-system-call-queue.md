@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas para grandes organizações no Microsoft Teams, que fornece uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059082"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840983"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -156,6 +156,8 @@ As contas Teams agentes devem ser definidas Teams modo somente de Teams. Os agen
 
 > [!NOTE]
 > Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
+>
+> O modo de conferência será necessário Teams os usuários precisarem consultar/transferir chamadas com filas de chamadas.
 
 > [!TIP]
 > Definir **o modo de conferência** **como Ativado** é a configuração recomendada.
@@ -221,6 +223,9 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 
 > [!NOTE]
 > Se o número máximo de chamadas for definido como 0, então a mensagem de saudação não será reproduzida.
+>
+> Ao redirecionar para a caixa postal compartilhada, certifique-se de permitir que as pessoas de fora dessa organização enviem **emails** para essa equipe habilitada para a equipe/grupo no centro de Administração Microsoft 365.
+
 
 ## <a name="call-timeout-handling"></a>Administração de tempo limite de chamada
 
@@ -229,6 +234,9 @@ Você pode optar por desconectar a chamada ou redirecioná-la para qualquer um d
 **Tempo limite de chamada: o tempo máximo de espera** especifica o tempo máximo que uma chamada pode estar em espera na fila antes de ser redirecionada ou desconectada. É possível especificar um valor de 0 segundos a 45 minutos.
 
 Você pode optar por desconectar a chamada ou redirecioná-la para um dos destinos de roteamento de chamadas. Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila. Para transferências externas, consulte [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) e as [transferências](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de número de telefone externo - detalhes técnicos para formatação de número.
+
+> [!NOTE]
+> Ao redirecionar para a caixa postal compartilhada, certifique-se de permitir que as pessoas de fora dessa organização enviem **emails** para essa equipe habilitada para a equipe/grupo no centro de Administração Microsoft 365.
 
 Quando você tiver selecionado as opções de tempo limite de chamada, clique em **Salvar**.
 
@@ -244,20 +252,21 @@ As seguintes configurações são recomendadas:
 
 ## <a name="call-queue-feature-compatibility"></a>Compatibilidade de recursos da fila de chamadas
 
-|Recurso                          |Teams <sup>Desktop1</sup> |Teams <sup>Mobile2</sup> |Lync |Telefones IP | Filas de Chamadas Padrão |Filas de Chamadas Baseadas em Canal | Comentário |
+|Recurso                          |Teams Desktop<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |Telefones IP | Filas de Chamadas Padrão |Filas de Chamadas Baseadas em Canal | Comentário |
 |:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
 |**Métodos de roteamento de agente**        |                          |                         |     |          |                      |                          |              |
 |`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Padrão*     |
 |`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*Recomendado* |
 |`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Recomendado* |
-|`Serial`                         |Y                         |Y                        |Y    |Y         |<sup>Y4</sup>         |<sup>Y4</sup>             |              |
+|`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
+|**Opções de roteamento de agente**        |                          |                         |     |          |                      |                          |              |
+|`Presence Based Routing`<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recomendado* |
+|`Agents can Opt-out`               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Padrão*     |
 |**Modos de transferência**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |<sup>Y6</sup>|Y                  |Y                         |*Recomendado* |
-|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
-|Roteamento baseado em <sup>presença3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recomendado* |
-|Os agentes podem recusar               |Y                         |Y                        |<sup>Y7</sup>|<sup>Y7</sup>|Y          |Y                         |*Padrão*     |
-|Filas baseadas em canal             |Y                         |N                        |N    |N         |n/a                   |<sup>Y8</sup>             |              |
-|A notificação do sistema de chamada mostra o Nome da Conta de Recurso |<sup>Y9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*Recomendado* |
+|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Padrão*              |
+|**Chamada colaborativa**        |                          |                         |     |          |                      |                          |              |
+|`Channel Based Queues`             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |**ID do chamador dinâmico**            |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
@@ -265,10 +274,12 @@ As seguintes configurações são recomendadas:
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
+|**Diversos**    |                          |                         |     |          |                      |                          |Consulte a Observação 10   |
+|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
 
 Observações:
 1. Microsoft Teams Windows cliente, Microsoft Teams Mac, Microsoft Teams infraestrutura de área de trabalho virtualizada, Microsoft Teams cliente Web.
-2. Microsoft Teams iPhone aplicativo, Microsoft Teams aplicativo Android.
+2. Microsoft Teams iPhone aplicativo, Microsoft Teams Android aplicativo.
 3. Selecionar o idle mais longo para o método de roteamento de agente habilitará automaticamente o roteamento baseado em presença.
 4. Só é possível definir a ordem ao adicionar usuários individuais como parte das filas de chamadas padrão. Quando uma lista de distribuição ou Teams canal é usada, a ordem será alfabética.
 5. Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.

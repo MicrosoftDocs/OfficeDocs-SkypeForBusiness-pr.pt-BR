@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para Microsoft Teams.
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760893"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840963"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para Microsoft Teams
 
@@ -74,13 +74,14 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em maio de 2022*
+*Tabela atualizada em junho de 2022*
 
 > [!NOTE]
 > O formato de data é MMDDYYYY.
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |Headsets da série C10/C20/C50                                |5/31/2022       |Certificado para Microsoft Teams                           |
 |Poli                 |Studio P21 Monitor                                         |5/12/2022       |Certificado para Microsoft Teams                           |
 |Yealink              |Fone de ouvido UH38                                               |5/2/2022        |Certificado para Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Certificado para Microsoft Teams                           |
@@ -146,8 +147,8 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 |Lenovo               |Pro fone de ouvido estéreo VoIP com fio                              |12/21/2020      |Skype for Business com a atualização para Microsoft Teams      |
 |Poli                 |Savi Office 7320                                           |12/18/2020      |Certificado para Microsoft Teams                           |
 |Poli                 |Savi Office 7310                                           |12/18/2020      |Certificado para Microsoft Teams                           |
-|Jabra                |Desenvolver fone de ouvido 75e                                         |12/16/2020      |Skype for Business com a atualização para Microsoft Teams      |
-|Jabra                |Desenvolver fone de ouvido 65e                                         |12/16/2020      |Skype for Business com a atualização para Microsoft Teams      |
+|Jabra                |Desenvolver 75e /ES headset                                         |12/16/2020      |Skype for Business com a atualização para Microsoft Teams      |
+|Jabra                |Desenvolver 65e/ES headset                                         |12/16/2020      |Skype for Business com a atualização para Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Certificado para Microsoft Teams                           |

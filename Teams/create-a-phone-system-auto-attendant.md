@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos para grandes organizações no Microsoft Teams.
-ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f177f1dd34f4f8f9497e7800007b5be868230dfe
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674363"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840973"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -44,6 +44,7 @@ Os atendedores automáticos podem direcionar chamadas, com base na entrada dos c
 - **Pessoa na organização –** uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado localmente usando Skype for Business Server.
 - **Aplicativo de voz** – outro atendedor automático ou uma fila de chamadas. (Escolha a conta de recurso associada ao atendedor automático ou fila de chamadas ao escolher esse destino.)
 - **Caixa** postal – a caixa postal associada a um grupo Microsoft 365 que você especificar. Você pode escolher se deseja transcrições de caixa postal e "Deixe uma mensagem após o tom". prompt do sistema.
+- - No M365 Administração Center, habilite "Permitir que pessoas de fora da organização enviem email para esta equipe" para o grupo Microsoft 365 que você especifica
 - **Número de telefone externo** - qualquer número de telefone. (Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
 - **Comunicado (arquivo de áudio)** – Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB. O sistema reproduz o comunicado e, em seguida, retorna ao menu atendedor automático.
 - **Comunicado (Digitado)** – digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o comunicado e, em seguida, retorna ao menu atendedor automático.
