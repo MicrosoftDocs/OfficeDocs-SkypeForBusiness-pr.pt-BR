@@ -8,7 +8,7 @@ Como provedor de soluções do contact center, há três modelos a serem escolhi
 
 - Se você quiser usar bots do Azure e as APIs de Comunicação do Microsoft Graph para permitir que os provedores de soluções criem aplicativos Teams, consulte o [modelo Estender](?tabs=extend#steps).
 
-- Se você quiser usar um SDK que permite que os provedores de soluções criem experiências Teams nativas em seu aplicativo, consulte o [modelo do Power](?tabs=power#steps). As soluções de energia serão possíveis quando o SDK estiver disponível, até o final de 2021.
+- Se você quiser usar um SDK que permite que os provedores de soluções criem experiências Teams nativas em seu aplicativo, consulte o [modelo do Power](?tabs=power#steps). As soluções de energia serão possíveis quando o SDK estiver disponível. Em breve.
 
 ### <a name="the-connect-model"></a>[**O Conexão modelo**](#tab/connect)
 
@@ -64,17 +64,6 @@ Embora esses recursos não sejam uma lista abrangente de recursos para esse mode
 
 O modelo de energia permite que os provedores de soluções criem aplicativos de voz nativos baseados no Azure usando a infraestrutura de chamada do Teams e a plataforma de cliente para fornecer soluções modernas e inteligentes para conexão colaborativa de cliente e agente. O objetivo do modelo do Power é fornecer uma experiência de centro de contato de um aplicativo com uma tela.
 
-**Destaques de recursos:**
-
-Embora esses recursos não sejam uma lista abrangente de recursos para esse modelo de integração, as áreas de foco incluem:
-
-- Experiências formais de agente habilitadas nativamente para comunicação omnicanal por meio Teams SDK
-
-- Usar Teams de colaboração para colaboração de agente e interações com o cliente
-
-- Provisionamento rápido de serviços de nuvem, implantar em qualquer lugar
-
-- Controle de conversa direta e interação com os usuários durante Teams conversas
 
 > [!NOTE]
-> O modelo de energia estará disponível até o final de 2021.
+> Em breve.
