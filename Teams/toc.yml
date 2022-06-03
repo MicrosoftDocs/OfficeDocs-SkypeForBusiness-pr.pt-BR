@@ -1693,7 +1693,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Compromissos virtuais com o Teams - Integração no Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Relatórios de administrador de Registro de Integridade Eletrônica
+              - name: Relatório de Compromissos Virtuais do conector EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Compromissos virtuais com o Teams e o Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
