@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676123"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860792"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a Conexão Pai no Microsoft Teams para Educação
 
@@ -56,13 +56,13 @@ A Conexão de Pais permite que educadores e responsáveis conversem, enviem emai
 > - Recursos de PBX (Exchange branch público).
 > - Conexão com o PSTN.
 >
-> Microsoft 365 A1 e planos A3 não incluem recursos PBX nem conexão PSTN. Você pode comprar [licenças de complemento para cada uma delas](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Microsoft 365 A1 e planos A3 não incluem recursos PBX nem conexão PSTN. Você pode comprar [licenças de complemento para cada uma delas](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 >
 > Microsoft 365 A5 planos incluem apenas recursos pbx usando Teams Sistema de Telefonia. Você ainda precisará comprar um plano de chamada [Teams ou usar](pstn-connectivity.md) uma solução de terceiros para se conectar a números externos no PSTN.
 >
 > Para obter mais informações sobre todas as opções para obter conectividade PSTN, consulte as [opções de conectividade PSTN](pstn-connectivity.md).
 >
-> Para obter mais informações sobre Teams licenciamento de chamada, [Teams opções de licenciamento de complemento](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> Para obter mais informações sobre Teams licenciamento de chamada, [Teams opções de licenciamento de complemento](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## <a name="requirements"></a>Requisitos
 
@@ -91,13 +91,20 @@ A Conexão de Pais permite que educadores e responsáveis conversem, enviem emai
   - Isso deve ser ativado no nível do locatário e no nível do usuário. A configuração de nível de locatário pode ser encontrada em **Usuários > Acesso** Externo no Teams de administração. Essa configuração também pode ser acessada por meio do PowerShell. As políticas de acesso externo no nível do usuário só podem ser acessadas por meio do PowerShell. Consulte os comandos do PowerShell abaixo para obter mais diretrizes.
 
 #### <a name="parent-and-guardian-restrictions"></a>Restrições de pais e responsáveis
-Pais e responsáveis são classificados como usuários externos na Conexão de Pais, o que significa que eles não têm direitos de locatário completos. Eles só têm acesso ao chat ou chat aos quais são adicionados, bem como arquivos, imagens e outros conteúdos compartilhados no chat.
+
+Pais e responsáveis são classificados como usuários *externos* na Conexão de Pais, o que significa que eles não têm direitos de locatário completos. Eles só têm acesso ao chat ou chat dos quais fazem parte e os arquivos, imagens e outros conteúdos compartilhados no chat.
+
+Para chats externos, os usuários internos e externos podem adicionar usuários ao chat. Para saber mais sobre a experiência de chat externo, consulte [Gerenciar reuniões externas e chat Microsoft Teams](manage-external-access.md).
 
 Além disso, os usuários externos podem ver a presença (offline, disponível, ocupada etc.) dos usuários da sua organização, mas isso pode ser desativado usando o PowerShell para proteger a privacidade dos usuários. No PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) e defina ``EnablePrivacyMode=true``.
 
 Embora pais e responsáveis sejam usuários externos, suas contribuições para chats são detectáveis. Saiba como conduzir uma investigação Teams descoberta eletrônica lendo Realizar uma investigação de Descoberta Eletrônica do conteúdo [Microsoft Teams.](ediscovery-investigation.md)
 
+> [!IMPORTANT]
+> Os administradores de TI devem instruir todos os Proprietários de Classe sobre as práticas recomendadas para compartilhar informações dos alunos por chat, incluindo riscos à privacidade dos alunos.
+
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>Bloqueando um pai ou responsável em um chat
+
 Os educadores podem bloquear um guardião no chat iniciado na Conexão Pai.
 
 O proprietário da classe pode:
