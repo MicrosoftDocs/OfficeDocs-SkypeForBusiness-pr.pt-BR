@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 2daf43e3166c70c0947706d3d8f9ce8166fc1e91
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: a5ebc44e3fb7f4f49f97efe61cec59828b6b5e7c
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823020"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860742"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams certificados Android certificados
 
@@ -245,6 +245,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão de produto incluída |
 |:--------------|:-----------------|:-------------------------|
+| Logi Tap Device  |  `1.5.705`   | Atualização 1 de 2022    |
 | Poly Studio X30 | `3.11.0.364021`          | Atualização 1 de 2022    |
 | Poly Studio X50 | `3.11.0.364021`          | Atualização 1 de 2022    |
 | Logi Companheiro de Quarto |   `1.6.290`   | Atualização 1 de 2022    |
