@@ -219,7 +219,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -455,6 +455,8 @@ items:
             href: teams-analytics-and-reports/information-protection-license-report.md
           - name: Relatório de uso de Visitas Virtuais do Microsoft Teams
             href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Relatório de Compromissos Virtuais do conector EHR do Teams
+            href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
       - name: 'Arquivos de log, integridade do serviço e suporte'
         items:
           - name: Usar arquivos de log para monitorar e solucionar problemas do Teams
@@ -669,7 +671,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar implantação
+              - name: Planejar sua implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md
@@ -1693,7 +1695,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: Compromissos virtuais com o Teams - Integração no Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: Relatório de Compromissos Virtuais do conector EHR
+              - name: Relatório de Compromissos Virtuais do conector EHR do Teams
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Compromissos virtuais com o Teams e o Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md

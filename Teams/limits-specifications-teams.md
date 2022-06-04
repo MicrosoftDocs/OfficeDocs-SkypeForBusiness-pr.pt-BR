@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400237"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886628"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -97,6 +97,8 @@ Os usuários que participam de conversas que fazem parte da lista de bate-papo d
 |Tamanho de cada anexo de arquivo | Menor que 10 MB |
 |Número de imagens embutidas<sup>2</sup> |50   |
 
+> [!NOTE]
+> Há um limite de limitação de quantos emails você pode enviar para um canal. O limite é de seis emails por dez segundos por canal por usuário e oito emails por dez segundos por locatário por usuário.
 <sup>1</sup> Se a mensagem exceder esse limite, uma mensagem de visualização será gerada e o usuário será solicitado a baixar e exibir o email original no link fornecido.
 
 <sup>2</sup> Se o número de anexos ou imagens exceder, você verá uma mensagem de erro.
