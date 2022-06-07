@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564733"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913419"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniões, seminários via web e eventos ao vivo 
 
@@ -51,9 +51,9 @@ A tabela a seguir resume os três tipos de reuniões, o número de participantes
 | Eventos ao vivo | Até 20.000** |-Transmitir para as grandes audiências. <br>-P e R moderada para a interação com o público. <br> -Pode especificar os produtores e apresentadores, incluindo os apresentadores externos.<br>-Oferece suporte às funcionalidades de produção mais avançadas. | Não |
 ||||
 
-*Os usuais 10.000 aumentaram para 20.000 até 30 de junho de 2022.<br>
+*Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022.<br>
 
-**Os usuais 10.000 aumentaram para 20.000 até 30 de junho de 2022. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance). 
+**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance). 
 
 Observe que o NDI é totalmente suportado em reuniões, webinars e eventos ao vivo, permitindo que você produza a transmissão usando ferramentas como OBS e Wirecast. Para obter mais informações, consulte [Usar a tecnologia NDI® no Microsoft Teams](use-ndi-in-meetings.md).
 
