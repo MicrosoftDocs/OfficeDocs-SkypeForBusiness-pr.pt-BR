@@ -19,20 +19,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 393793e5c0a5c4a305f26427951968c5614c052f
+ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823722"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65928854"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Atualizações para sua organização no Microsoft Teams
 
 ## <a name="what-is-the-updates-app"></a>O que é o aplicativo Atualizações
 
-As Atualizações no Microsoft Teams app fornecem um local centralizado para os membros da sua organização criarem, revisarem e enviarem atualizações. Ao criar modelos, você pode usar o aplicativo Atualizações para controlar tudo o que sua organização precisa. As atualizações estão disponíveis para desktop e dispositivos móveis.
+O aplicativo Atualizações no Microsoft Teams fornece um local centralizado para os membros da sua organização criarem, revisarem e enviarem atualizações. Ao criar modelos, você pode usar o aplicativo Atualizações para controlar tudo o que sua organização precisa. As atualizações estão disponíveis para desktop e dispositivos móveis.
 
-No Teams, os usuários podem obter atualizações da Teams app store. Eles verão todas as atualizações necessárias para enviar **na página Enviar** .
+No Teams, os usuários podem obter atualizações da loja de aplicativos do Teams. Eles verão todas as atualizações necessárias para enviar **na página Enviar** .
 
 [![Imagem da página Enviar no Teams para área de trabalho.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
@@ -40,7 +40,7 @@ Os usuários podem exibir as atualizações atribuídas na **página** Revisão.
 
 [![Imagem da página Revisão no Teams para área de trabalho.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
-Quando um usuário recebe uma atualização, ele é exibido em seu feed de Teams atividade. Os usuários também podem exibir todas as suas solicitações de atualização atuais e envios anteriores no aplicativo Atualizações. Além disso, qualquer pessoa pode criar modelos e enviar solicitações de atualização.
+Quando um usuário recebe uma atualização, ele é exibido no feed de atividades do Teams. Os usuários também podem exibir todas as suas solicitações de atualização atuais e envios anteriores no aplicativo Atualizações. Além disso, qualquer pessoa pode criar modelos e enviar solicitações de atualização.
 
 As atualizações são fornecidos com modelos já disponíveis para cenários de negócios comuns e a opção de criar seu próprio modelo. Qualquer pessoa pode criar um modelo para novos tipos de atualizações.
 
@@ -66,22 +66,22 @@ Você precisa de permissão para os seguintes itens implantarem atualizações:
 
 - Função de administrador em seu ambiente de destino.
 
-- Licença para Power Automate, Office 365 ou Dynamics 365.
+- Licença para o Power Automate, Office 365 ou Dynamics 365.
 
-- A licença Microsoft Forms é necessária para que os usuários configurem novos modelos.
+- A licença do Microsoft Forms é necessária para que os usuários configurem novos modelos.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Armazenamento com o Microsoft Dataverse
 
 O CDM (Common Data Model) é a linguagem de dados compartilhada usada por aplicativos de negócios e analíticos no Microsoft Dataverse. Ele consiste em um conjunto de esquemas de dados padronizados e extensíveis publicados pela Microsoft e nossos parceiros que permitem a consistência dos dados e seu significado em aplicativos e processos de negócios. Saiba mais sobre o [Common Data Model](/common-data-model/).
 
-As atualizações criadas com base em um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. Saiba mais sobre  [o Armazenamento de dados para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+As atualizações criadas com base em um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. Saiba mais sobre  [o Armazenamento de dados para o Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->Se você excluir o modelo de formulário no site Microsoft Forms, ele interromperá o modelo de Atualizações e os usuários não poderão enviar a atualização. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo que foi excluído no Microsoft Forms.
+>Se você excluir o modelo de Formulário no site do Microsoft Forms, ele interromperá o modelo de Atualizações e os usuários não poderão enviar a atualização. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo que foi excluído no Microsoft Forms.
 
-## <a name="updates-teams-app-permissions"></a>Atualizações Teams do aplicativo
+## <a name="updates-teams-app-permissions"></a>Atualiza as permissões de aplicativo do Teams
 
-O aplicativo Updates Teams permite que você acesse os seguintes recursos:
+O aplicativo Atualizações do Teams permite que você acesse os seguintes recursos:
 
 - Receba mensagens e dados que você fornece a ela.
 
@@ -112,7 +112,7 @@ O aplicativo Atualizações está disponível por padrão. Você pode desabilita
 
   3. Pesquise o aplicativo Atualizações.
 
-     [![Captura de tela da navegação Administração central com os Teams Aplicativos > Gerenciar Aplicativos realçados.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
+     [![Captura de tela da navegação do Centro de administração com os Aplicativos do Teams > Gerenciar Aplicativos realçados.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
   4. Selecione **Atualizações**.
 
@@ -121,17 +121,7 @@ O aplicativo Atualizações está disponível por padrão. Você pode desabilita
 
 ## <a name="pin-updates-to-teams"></a>Fixar atualizações no Teams
 
-### <a name="use-the-tailored-frontline-app-experience-to-pin-updates-and-other-apps-to-teams"></a>Use a experiência de aplicativo de linha de frente personalizada para fixar atualizações e outros aplicativos Teams
-
-A experiência de aplicativo de linha de frente personalizada Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Atualizações, Aprovações, Walkie Talkie, Tarefas e Turnos. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
-
-Os aplicativos são fixados na barra de aplicativos , a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
-
-Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, consulte [Personalizar Teams aplicativos para seus trabalhadores de linha de frente](pin-teams-apps-based-on-license.md).
-
-### <a name="use-an-app-setup-policy-to-pin-updates-to-teams"></a>Usar uma política de configuração de aplicativo para fixar atualizações Teams
-
-As políticas de configuração de aplicativo permitem Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
+As políticas de configuração de aplicativo permitem que você personalize o Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários. Os aplicativos são fixados na barra de aplicativos , a barra ao lado do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
 
 Para fixar o aplicativo Atualizações para seus usuários, você pode editar a política global (padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
 
@@ -139,11 +129,11 @@ Para fixar o aplicativo Atualizações para seus usuários, você pode editar a 
 
 As atualizações criadas a partir do aplicativo Atualizações são armazenadas no ambiente padrão do Microsoft Dataverse, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Os dados armazenados no Forms não serão excluídos até que os criadores do modelo os limpem na guia formulários excluídos no Microsoft Forms Web.
+Os dados armazenados nos Formulários não serão excluídos até que os criadores do modelo os limpem na guia formulários excluídos no aplicativo Web do Microsoft Forms.
 
 ## <a name="conditional-access-policies"></a>Políticas de acesso condicional
 
-Atualmente, o aplicativo Atualizações no Teams não dá suporte a políticas de Acesso Condicional definidas para Microsoft Teams.
+Atualmente, o aplicativo Atualizações no Teams não dá suporte a políticas de Acesso Condicional definidas para o Microsoft Teams.
 
 ## <a name="data-limitations"></a>Limitações de dados
 
@@ -151,7 +141,7 @@ Cada usuário pode criar no máximo 400 modelos de Atualizações, e cada modelo
 
 ## <a name="security"></a>Segurança
 
-No aplicativo Teams Atualizações, os usuários têm acesso para criar novas atualizações e exibir atualizações que eles enviaram e receberam. Os usuários não terão acesso a Atualizações criadas por outras pessoas, a menos que sejam um visualizador da solicitação.
+No aplicativo Atualizações do Teams, os usuários têm acesso para criar novas atualizações e exibir atualizações que eles enviaram e receberam. Os usuários não terão acesso a Atualizações criadas por outras pessoas, a menos que sejam um visualizador da solicitação.
 
 > [!Note]
 > Um usuário receberá uma função de visualizador de uma solicitação se ele fizer parte do chat ou canal em que o relatório de atualização foi criado ou se o criador do modelo o adicionar manualmente como um visualizador. Eles não terão a capacidade de tomar medidas na solicitação se não tiverem essa função quando o relatório foi criado.
