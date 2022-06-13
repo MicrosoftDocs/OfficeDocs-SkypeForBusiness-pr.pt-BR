@@ -587,7 +587,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -1033,6 +1033,8 @@ items:
         items:
           - name: Orientações do Sistema de Telefonia
             href: business-voice/whats-business-voice.md
+          - name: Migrar das licenças do Business Voice para a Telefonia do Teams
+            href: business-voice-to-teams-phone-licenses.md
           - name: Disponibilidade de países e regiões
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Verificar a conexão com a Internet
@@ -1179,7 +1181,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: 'Chile '
+              - name: Chile
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1405,6 +1407,8 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: Incidentes relatados pelo cliente
             href: rooms/customer-reported-incidents.md
+          - name: Usando o aplicativo móvel de Salas do Teams
+            href: rooms/extended-mobile-app.md
       - name: Dispositivos
         items:
           - name: Repositório de dispositivos do Teams
