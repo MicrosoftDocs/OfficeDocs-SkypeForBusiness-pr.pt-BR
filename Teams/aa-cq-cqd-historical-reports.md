@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI exibir os dados históricos do Atendedor Automático e da Fila de Chamadas.
-ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294092"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046443"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Relatório histórico de fila & atendedor automático
 
@@ -122,7 +122,7 @@ Execute as seguintes etapas:
 
 |Seção Relatório                          |Descrição                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Origem da chamada de <sup>entrada1</sup>        |Distribuição de chamadas por fonte de chamada interna/externa             |
+|Fonte de chamada<sup>de entrada 1</sup>        |Distribuição de chamadas por fonte de chamada interna/externa             |
 |Totais do método de pesquisa de diretório          |Distribuição de chamadas por tipo de pesquisa                               |
 |Ação do chamador                           |Distribuição de chamadas por receptor de chamada                             |
 |Resultado da chamada                             |Distribuição de chamadas por estado de chamada final                          |
@@ -145,7 +145,7 @@ Execute as seguintes etapas:
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Seletor de data                                   |AAStartTime                                |Nenhum                |
 |Atendedor Automático                                  |Nome do AA                                    |Nenhum                |
-|Origem da chamada de <sup>entrada1</sup>                |Tipo de Chamada<br>TotalCallCount                |Chamadas externas: o tipo de chamada é externo<br>Chamadas internas: o tipo de chamada é interno |
+|Fonte de chamada<sup>de entrada 1</sup>                |Tipo de Chamada<br>TotalCallCount                |Chamadas externas: o tipo de chamada é externo<br>Chamadas internas: o tipo de chamada é interno |
 |Totais do método de pesquisa de diretório                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod é abs_search_dtmf ou abs_search_name    |
 |Ações do chamador                                  |AATransferAction<br>TotalCallCount         |Nenhum                                                             |
 |Média de segundos no AA<br>Média de ações do chamador |AAChainDuration<br>AACallerActionCount     |Nenhum                                                             |
@@ -160,7 +160,7 @@ Execute as seguintes etapas:
 |Nome do AA                                 |Texto                     |Nome da conta de recurso anexada ao Atendedor Automático<br><br>Se o nome completo da Conta de Recurso **aa_test@microsoft.com**, esse valor será: **aa_test** |
 |AACallerActionCount                     |Número inteiro             |Resumir: Soma<br>Contagem de ações selecionadas pelo chamador no Atendedor Automático durante a chamada  |
 |AACallFlow                              |Texto                     |Encapsula os diferentes estados da Chamada de Atendedor Automático – valores possíveis:<br><br>§ abs_search<br>§ comunicado<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Texto                     |Resultado final da chamada – valores possíveis:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ desconhecido<br>§ user_terminated |
+|AACallResult                            |Texto                     |Resultado final da chamada – valores possíveis:<br><br>§ failed_to_establish_media (não foi possível estabelecer a parte de mídia da chamada)<br>§ failover_to_operator (chamada transferida para o operador normalmente devido a um erro do sistema)<br>§ oaa_chain_too_long (muitas pernas no AA)<br>§ oaa_session_too_long (a sessão do AA durou muito tempo)<br>§ service_declined (AA não aceitou a chamada)<br>§ service_terminated (a configuração do AA desconecta a chamada)<br>§ terminated_automatic_selection (a configuração do AA desconecta as chamadas)<br>§ terminated_no_operator (chamada encerrada devido a erro nenhum operador definido) <br>§ terminated_transfer_failed (chamada encerrada como falha na transferência - normalmente para número expernal)<br>***§ transferred_to_operator*** (a chamada foi transferida para o operador - normalmente devido a um erro de entrada do usuário)<br>§ transferred_to_receptionist (o mesmo que transferred_to_operator)<br>§ transferred_to_self (a chamada foi retornada para o início do AA - normalmente de uma opção de anúncio de menu)<br>§ transferred_to_shared_voicemail (a chamada foi transferida para a caixa postal compartilhada)<br>§ transferred_to_user (a chamada foi transferida para um usuário – inclui filas de chamadas)<br>§ desconhecido (ocorreu um erro desconhecido)<br>§ user_terminated (chamador desligado) |
 |AAChainDuration                         |Número decimal           |Resumir: Soma<br>Duração da chamada no Atendedor Automático                     |
 |AAChainIndex                            |Texto                     |                                                                         |
 |AAConnectivityType                      |Texto                     |Tipo de chamada – valores possíveis:<br><br>§ ExternalCall<br>§ InternalCall |
@@ -168,7 +168,7 @@ Execute as seguintes etapas:
 |AADirectorySearchMethod                 |Texto                     |Último método de pesquisa de catálogo de endereços – valores possíveis:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |Data/hora                |Hora de início da chamada do Atendedor Automático                                           |
 |AATransferAction                        |Texto                     |Tipo de destino de transferência de chamada – valores possíveis:<br><br>***§ aplicativo - entidade de aplicativo de** _<br>voz§ external_pstn<br>_*_§ hunt_group - Entidade fila_*_<br>_* de chamadas _§ orgaa - entidade Atendedor Automático Organizacional_**<br>§ shared_voicemail<br>§ desconhecido<br>§ usuário |
-|Tipo <sup>de Chamada1</sup>                   |Texto                     |Tipo de chamada – valores possíveis:<br><br>§ Externo<br>§ Interno         |
+|Tipo de Chamada<sup>1</sup>                   |Texto                     |Tipo de chamada – valores possíveis:<br><br>§ Externo<br>§ Interno         |
 |IsAAInvolved                            |Texto                     |Sempre 1                                                                 |
 |PSTNMinutes                             |Número inteiro             |Resumir: Soma<br>Uso total de minutos                                     |
 |TotalCallCount                          |Número inteiro             |Resumir: Soma<br>Sempre 1 – usado para fornecer a soma de todas as chamadas            |
@@ -180,7 +180,7 @@ Execute as seguintes etapas:
 
 |Seção Relatório                          |Descrição                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Origem da chamada de <sup>entrada1</sup>        |Distribuição de chamada por fonte de chamada interna/externa              |
+|Fonte de chamada<sup>de entrada 1</sup>        |Distribuição de chamada por fonte de chamada interna/externa              |
 |Volume da chamada                             |Distribuição de chamadas por filas de chamadas                                |
 |Resultado do chamador                           |Distribuição de chamada por resultado de chamada                                |
 |Ação total de chamada de tempo limite/estouro      |Distribuição de chamada NÃO encaminhada (abandonada) por resultado da chamada       |
@@ -205,7 +205,7 @@ Execute as seguintes etapas:
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |Seletor de data                       |Dates -> DateTime                     |Nenhum                  |
 |Chamar Identidade da Fila                 |dCQ-CQIdentity -> de Fila de Chamadas |Nenhum                  |
-|Origem da chamada de <sup>entrada1</sup>    |fCallQueueAnalytics -> chamada<br>fCallQueueAnalytics -> tipo de chamada    |Chamadas externas: o tipo de chamada é externo<br>Chamadas internas: o tipo de chamada é interno |
+|Fonte de chamada<sup>de entrada 1</sup>    |fCallQueueAnalytics -> chamada<br>fCallQueueAnalytics -> tipo de chamada    |Chamadas externas: o tipo de chamada é externo<br>Chamadas internas: o tipo de chamada é interno |
 |Tempo médio de espera                    |fCallQueueFinalStateAction -> duração média da chamada (segundos) |Antes da transferência: o resultado da chamada da fila de chamadas agent_joined_conference ou transferred_to_agent<br>Antes de desligar: o resultado da chamada à fila de chamadas não agent_joined_conference ou transferred_to_agent |
 |Resultado da chamada                         |fCallQueueAnalytics -> chamada<br>fCallQueueAnalytics -> chamada da fila de chamada | Nenhum |
 |Ação total de chamadas de tempo limite/estouro |fCallQueueFinalStateAction -> chamada<br>fCallQueueFinalStateAction -> estado final da fila de chamada |A Ação de Estado Final da Fila de Chamadas não está encaminhada |
@@ -225,10 +225,10 @@ Execute as seguintes etapas:
 |Nome                                    |Tipo de dados                |Descrição                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Contagem de chamadas                              |Número inteiro             |Resumir: Soma<br>Número de chamadas                                          |
-|Resultado da chamada da fila de chamadas                  |Texto                     |Estado final da chamada da fila de chamadas – valores possíveis:<br><br>§ agent_joined_conference<br>§ recusado<br>§ desconectado<br>§ erro<br>§ falhou<br>§ inválido<br>§ estouro<br>§ timed_out<br>§ transferred_to_agent |
+|Resultado da chamada da fila de chamadas                  |Texto                     |Estado final da chamada da fila de chamadas – valores possíveis:<br><br>§ agent_joined_conference (chamadas de modo de conferência atendidas)<br>§ recusado<br>§ desconectado<br>§ erro<br>§ falhou<br>§ inválido<br>§ estouro (condição de estouro atendida)<br>§ timed_out (condição de tempo limite atendida)<br>§ transferred_to_agent (chamadas de modo de tranfer respondidas {default}) |
 |Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com**, esse valor será: **cq_test** |
 |Tipo de destino da fila de chamadas                  |Texto                     |***Tipo de destino de redirecionamento de chamada – valores possíveis:***<br><br>§ ApplicationEndpoint<br>§ Caixa de correio<br>§ Outros<br>§ Usuário |
-|Tipo <sup>de Chamada1</sup>                   |Texto                     |Tipo de chamada – valores possíveis:<br><br>§ Externo<br>§ Interno           |
+|Tipo de Chamada<sup>1</sup>                   |Texto                     |Tipo de chamada – valores possíveis:<br><br>§ Externo<br>§ Interno           |
 |Data                                    |Data/hora                |Data e hora de início da chamada da Fila de Chamadas (hora) (UTC)                           | 
 |Isabandoned                             |True/false               |True se a chamada não for atendida por um agente                                   |
 |Tipo de conectividade PSTN                  |Texto                     |Tipo de chamada – valores possíveis:<br><br>§ ExternalCall<br>§ InternalCall   |
@@ -248,7 +248,7 @@ Execute as seguintes etapas:
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |Duração média da chamada (segundos)         |Número decimal           |Resumir: Soma<br>Duração média da chamada em segundos |
 |Contagem de chamadas                              |Número inteiro             |Resumir: Soma<br>Número de chamadas                  |
-|Resultado da chamada da fila de chamadas                  |Texto                     |Estado final da chamada da fila de chamadas – valores possíveis:<br><br>§ agent_joined_conference<br>§ recusado<br>§ desconectado<br>§ erro<br>§ falhou<br>§ inválido<br>§ estouro<br>§ timed_out<br>§ transferred_to_agent |
+|Resultado da chamada da fila de chamadas                  |Texto                     |Estado final da chamada da fila de chamadas – valores possíveis:<br><br>§ agent_joined_conference (chamadas de modo de conferência atendidas)<br>§ recusado<br>§ desconectado<br>§ erro<br>§ falhou<br>§ inválido<br>§ estouro (condição de estouro atendida)<br>§ timed_out (condição de tempo limite atendida)<br>§ transferred_to_agent (chamadas de modo de transferência atendidas {default} |
 |Ação de Estado Final da Fila de Chamadas           |Texto                     |Ação final da fila de chamadas – valores possíveis:<br><br>§ desconectar (timed_out chamadas)<br>§ disconnect_with_busy (chamadas estouro)<br>§ failed_to_accept_call<br>§ para frente<br>§ shared_voicemail<br>§ outros<br>§ caixa postal |
 |Chamar Identidade da Fila                     |Texto                     |Nome da conta de recurso anexada à Fila de Chamadas<br><br>Se o nome completo da Conta de Recurso **cq_test@microsoft.com**, esse valor será: **cq_test** |
 |Data                                    |Data/hora                |Data e hora de início da chamada da Fila de Chamadas (hora) (UTC)   |

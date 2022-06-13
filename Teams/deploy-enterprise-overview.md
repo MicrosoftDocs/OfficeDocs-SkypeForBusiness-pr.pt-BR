@@ -1,7 +1,7 @@
 ---
 title: Visão geral da implantação do Microsoft Teams empresarial
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617417"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045570"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Visão geral da implantação do Microsoft Teams empresarial
 
 Se você for uma empresa de médio ou grande porte, precisará pensar em como implantará o serviço para seus usuários, como implantará o cliente do Microsoft Teams neles, como seu design de rede pode afetar a qualidade da comunicação em tempo real e assim por diante. Confira as seções a seguir para obter indicações de artigos que ajudarão você a planejar o Teams em sua organização.
 
 > [!NOTE]
-> Se você ainda não fez isso, sugerimos que você inicie a implantação do Teams com um piloto. Um piloto permitirá que você e alguns dos primeiros adotantes se familiarizem com o Teams e suas características antes do seu planejamento e eventual lançamento. Para obter mais informações sobre como iniciar seu piloto, consulte [Começar a usar o Microsoft Teams](get-started-with-teams-quick-start.md).
+> Se você ainda não fez isso, é altamente recomendável iniciar a implantação do Teams com um piloto. Um piloto permitirá que você e alguns usuários pioneiros se familiarizem com o Teams e seus recursos antes de planejar e implementar eventualmente. Para obter mais informações sobre como iniciar seu piloto, confira [Introdução ao Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Depois de ler as seções abaixo e estiver pronto para começar a implantar o Teams em sua organização, confira [Configurar o Microsoft Teams em sua empresa](deploy-enterprise-setup.md).
 

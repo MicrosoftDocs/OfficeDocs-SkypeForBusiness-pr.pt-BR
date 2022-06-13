@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Saiba como procurar e comprar dispositivos no repositório de dispositivos Teams centro de administração
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761443"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045640"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos no repositório Teams dispositivos
 
@@ -34,7 +34,7 @@ O repositório de dispositivos no Teams de administração permite que você nav
 
 ## <a name="requirements"></a>Requisitos
 
-Para usar o repositório de dispositivos, você deve ser um administrador global, Teams administrador ou um administrador Teams dispositivo.
+Para usar o repositório de dispositivos, você deve ser um administrador global ou um Teams administrador.
 
 ## <a name="browse-the-store"></a>Procurar na loja
 

@@ -1,7 +1,7 @@
 ---
 title: Configurar o Microsoft Teams em sua pequena empresa
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767144"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045440"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurar o Microsoft Teams em sua pequena empresa
 
 Há várias maneiras de personalizar o Teams. As seções a seguir mostram como configurar cada carga de trabalho do Teams: **chats, equipes e canais**; **reuniões e conferências** e **soluções de voz**. A ordem em que você configura cada carga de trabalho é com você. Embora seja recomendável configurar primeiro os chats, equipes e canais de carga de trabalho, você pode começar com reuniões, conferências ou até mesmo a voz na nuvem. A escolha é sua!
 
 > [!NOTE]
-> Se você ainda não fez isso, sugerimos que você inicie a implantação do Teams com um piloto. Um piloto permitirá que você e alguns dos primeiros adotantes se familiarizem com o Teams e suas características antes do seu planejamento e eventual lançamento. Para obter mais informações sobre como iniciar seu piloto, consulte [Começar a usar o Microsoft Teams](get-started-with-teams-quick-start.md).
+> Se você ainda não fez isso, é altamente recomendável iniciar a implantação do Teams com um piloto. Um piloto permitirá que você e alguns usuários pioneiros se familiarizem com o Teams e seus recursos antes de planejar e implementar eventualmente. Para obter mais informações sobre como iniciar seu piloto, confira [Introdução ao Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Antes de lançar o Teams de forma abrangente, certifique-se de que sua organização está pronta, revendo os itens em [Certifique-se de que você está pronto](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
@@ -86,7 +86,7 @@ Para obter mais informações sobre a Telefonia do Teams com Plano de Chamadas p
 
 ## <a name="deploy-clients"></a>Implantar clientes
 
-Quando você estiver pronto para que seus usuários comecem a usar o Teams, eles podem instalar o cliente do Teams nos computadores Windows, Mac ou Linux, ou no seu dispositivo Android ou iOS. Os usuários podem baixar o cliente do Teams diretamente do <https://teams.microsoft.com/downloads>.
+Quando você estiver pronto para os usuários começarem a usar o Teams, eles poderão instalar o cliente do Teams em seus computadores Windows, Mac ou Linux ou em seus dispositivos Android ou iOS. Os usuários podem baixar o cliente do Teams diretamente do <https://teams.microsoft.com/downloads>.
 
 Certifique-se de que todos que usarão o Teams tenham uma licença do Teams. Para obter mais informações de como atribuir uma licença do Teams, consulte [Gerenciar o acesso do usuário ao Teams](user-access.md#using-the-microsoft-365-admin-center).
 

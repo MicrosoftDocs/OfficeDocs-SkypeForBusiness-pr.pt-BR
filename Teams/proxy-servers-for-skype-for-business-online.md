@@ -1,7 +1,7 @@
 ---
 title: Servidores proxy para Teams ou Skype for Business Online
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: reference
@@ -22,26 +22,26 @@ ms.custom:
 - Optimization
 - seo-marvel-apr2020
 description: Este artigo fornece informações sobre como usar um servidor proxy com Microsoft Teams ou Skype for Business.
-ms.openlocfilehash: 559a42c19aa47a9e72a5c0549e80f45de8d50fdf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61a1878b3c7057de7dddbcd63c480f80c2f16e0f
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582155"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045430"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para Teams ou Skype for Business Online
 
-Este artigo fornece orientações sobre como usar um servidor proxy com Teams ou Skype for Business.
+Este artigo fornece diretrizes sobre como usar um servidor proxy com Teams ou Skype for Business.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>É recomendável não usar um servidor proxy
 
-Quando se trata de Teams ou Skype for Business de proxies, a Microsoft recomenda ignorar proxies. Os proxies não Teams ou Skype for Business mais seguros porque o tráfego já está criptografado.
+Quando se trata de Teams ou Skype for Business por proxies, a Microsoft recomenda ignorar proxies. Os proxies não tornam as Teams ou Skype for Business mais seguras porque o tráfego já está criptografado.
   
-E o uso de um proxy pode ocasionar problemas. Problemas relacionados ao desempenho podem ocorrer no ambiente devido à latência e à perda de pacote. Problemas como esses resultarão em uma experiência negativa em cenários Teams ou Skype for Business como áudio e vídeo, onde fluxos em tempo real são essenciais.
+E o uso de um proxy pode ocasionar problemas. Problemas relacionados ao desempenho podem ocorrer no ambiente devido à latência e à perda de pacote. Problemas como esses resultarão em uma experiência negativa em cenários Teams ou Skype for Business como áudio e vídeo, em que os fluxos em tempo real são essenciais.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Caso seja necessário o uso de um servidor proxy
 
-Algumas organizações não têm opção de ignorar um proxy para Teams ou Skype for Business tráfego. Nesse caso, os problemas mencionados acima deverão ser levados em consideração.
+Algumas organizações não têm nenhuma opção para ignorar um proxy para Teams ou Skype for Business tráfego. Nesse caso, os problemas mencionados acima deverão ser levados em consideração.
   
 A Microsoft também recomenda:
   
@@ -51,7 +51,7 @@ A Microsoft também recomenda:
     
 - Permissão para tráfego UDP
     
-- Seguindo as outras recomendações em nossas diretrizes de rede: [Preparar a](prepare-network.md) rede da sua organização para Teams
+- Seguindo as outras recomendações em nossas diretrizes de rede: [preparar a rede da sua organização para Teams](prepare-network.md)
   
     
 A observação desta diretriz minimizará problemas potenciais.

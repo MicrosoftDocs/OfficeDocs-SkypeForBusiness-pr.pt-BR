@@ -1,8 +1,8 @@
 ---
-title: Administração recursos de treinamento – Microsoft Teams
+title: Recursos de treinamento do administrador – Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675583"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045850"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introdução ao treinamento de administrador para Microsoft Teams
 
@@ -96,7 +96,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Título                                                                       | Abstrata                                                                                                                                                                                                               |  Link para o Guia                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identidade, gerenciamento de acesso & Proteção contra Ameaças para Teams                   | Saiba como usar os centros de administração da Microsoft e o PowerShell para configurar políticas de acesso e identidade e habilitar Office 365 Proteção Avançada contra Ameaças para Teams                                                            | [Teams de segurança](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Purview DLP (prevenção contra perda de dados) para Microsoft Teams                     | Saiba como adicionar Microsoft Teams a uma política DLP existente e como criar uma nova política, seja com base em um modelo ou totalmente personalizada às necessidades de proteção de dados da sua organização.                        | [Teams DLP](https://aka.ms/teamsdlpguide)         |
+| Políticas de DLP (prevenção contra perda de dados) do Microsoft Purview para Microsoft Teams                     | Saiba como adicionar Microsoft Teams a uma política DLP existente e como criar uma nova política, seja com base em um modelo ou totalmente personalizada às necessidades de proteção de dados da sua organização.                        | [Teams DLP](https://aka.ms/teamsdlpguide)         |
 | Gerenciando a conformidade no Teams                                                | Use Microsoft 365 segurança, conformidade do Microsoft 365 e centros de administração do Microsoft Teams, bem como o Windows PowerShell para gerenciar e configurar as políticas de Microsoft Teams de uma organização do Office 365 e configurações. | [Gerenciando a conformidade Teams guia](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams Supervisor: Implantando chats, equipes, canais e aplicativos no Microsoft Teams | Saiba como usar o Teams assistente para avaliar seu ambiente e criar um plano para implantar chats, equipes, canais e aplicativos.                                                                                         |  [Teams Supervisor guia](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Simplificando a Teams administração com o PowerShell e grupos dinâmicos        | Converta um Office 365 de associação estática para dinâmico e use Windows PowerShell para atribuir uma nova política de permissão de aplicativo a todos os membros.                                                                         |  [Guia de administração Teams fluxo](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
