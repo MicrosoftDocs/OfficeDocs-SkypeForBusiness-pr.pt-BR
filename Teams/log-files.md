@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre os logs de Depuração, Mídia e Área de Trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar com o monitoramento e a solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059102"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056941"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Usar arquivos de log para monitorar e solucionar problemas Microsoft Teams
 
@@ -95,12 +95,16 @@ Os registros de depuração mostram os seguintes fluxos de dados:
 -   Chamada/conversa
 
 Para coletar logs para Linux:
-- Atalho de teclado: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Atalho de teclado: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - Os arquivos estarão disponíveis em `~/Downloads`
 
 Para coletar logs para Navegador e Windows:
-- Atalho de teclado: <kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- Atalho de teclado: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - Os arquivos estarão disponíveis em `%userprofile%\Downloads`
+
+Para coletar logs para Mac:
+- Atalho de teclado: <kbd>Opção</kbd> + <kbd>Comando</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
+- Os arquivos estarão disponíveis em `~/Downloads`
 
 ## <a name="media-logs"></a>Registros de mídia
 
@@ -153,7 +157,11 @@ Consulte a _seção Coletar e habilitar o registro_ em log para Windows e instru
 Para coletar logs para Linux:
 - Clique no ícone do Microsoft Teams na bandeja do sistema e selecione **Obter Logs**.
 - Os arquivos estarão disponíveis em `~/.config/Microsoft/Microsoft Teams/logs.txt`.
-  
+
+Para coletar logs para Mac:
+- Clique no menu Ajuda no Microsoft Teams e selecione **Coletar arquivos de suporte**.
+- O `logs.txt` arquivo estará na pasta Área de Trabalho dentro da pasta _Log \<local date and time>de Diagnóstico do MSTeams_.
+
 Para coletar logs para Windows:
 - Clique no ícone Microsoft Teams na bandeja do sistema e selecione **Coletar arquivos de suporte**.
 - O `logs.txt` arquivo será aberto em Bloco de notas automaticamente.
