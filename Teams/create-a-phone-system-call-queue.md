@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas para grandes organizações no Microsoft Teams. As filas de chamadas fornecem uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: 0d871572f1b1c9b3baa727d35e66f21d93be1f58
+ms.sourcegitcommit: cd34cb3082392d4ca3390b2ecf5bcfe1db7d1046
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046433"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66068676"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -155,6 +155,8 @@ As contas Teams agentes devem ser definidas para o modo TeamsOnly. Os agentes qu
 > [!NOTE]
 > Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
 >
+> Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de Skype for Business Server.
+> 
 > O modo de conferência será necessário Teams os usuários precisarem consultar/transferir chamadas com filas de chamadas.
 
 > [!TIP]
