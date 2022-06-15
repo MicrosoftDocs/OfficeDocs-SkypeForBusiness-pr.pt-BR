@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
-ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
+ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65795633"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66057051"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -96,10 +96,12 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 Cada canal compartilhado tem [seu próprio site do SharePoint](/SharePoint/teams-connected-sites). O site separado é para garantir que o acesso aos arquivos do canal compartilhado seja restrito apenas aos membros do canal compartilhado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
 
+Um site de canal compartilhado herda o rótulo de confidencialidade da equipe pai. Isso permanecerá verdadeiro mesmo que o canal seja compartilhado diretamente com outra equipe.
+
 > [!NOTE]
 > Somente pessoas com permissões de proprietário ou membros do canal terão acesso ao conteúdo no site do canal compartilhado. Os administradores e as pessoas da equipe não terão acesso, a menos que também sejam membros do canal.
 
-Um site do canal compartilhado sincroniza a classificação dos dados do site da equipe pai. A associação ao proprietário do site e aos grupos de membros é mantida em sincronia com a associação do canal compartilhado. As permissões de site de um site de canal compartilhado não podem ser gerenciadas independentemente pelo SharePoint. 
+A associação ao proprietário do site e aos grupos de membros é mantida em sincronia com a associação do canal compartilhado. As permissões de site de um site de canal compartilhado não podem ser gerenciadas independentemente pelo SharePoint. 
 
 O Teams gerencia o ciclo de vida do site de canal compartilhado. Se o site for excluído fora do Teams, ele será restaurado automaticamente dentro de quatro horas, desde que o canal compartilhado ainda esteja ativo. Se o site for excluído permanentemente, um novo site será provisionado ao canal privado.
 
