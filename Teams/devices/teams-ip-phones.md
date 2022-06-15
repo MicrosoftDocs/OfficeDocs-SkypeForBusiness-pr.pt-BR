@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: a5ebc44e3fb7f4f49f97efe61cec59828b6b5e7c
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 20edc2195d09d802d2812e207c7d6052195a9945
+ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860742"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088547"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams certificados Android certificados
 
@@ -245,6 +245,15 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão de produto incluída |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar    | `1.6.552`         | Atualização nº 2 de 2022    |
+| Logi Rallybar Mini | `1.6.552`       | Atualização nº 2 de 2022   |
+| Barra limpa | `NFB1.20220512.2200` | Atualização nº 2 de 2022 |
+| Console de toque do Neat Pad | `NFA1.20220512.2158`  |  Atualização nº 2 de 2022 |
+| Placa limpa | `NFC1.20220512.2200` |  Atualização nº 2 de 2022 |
+| Yealink MeetingBar A20 | `133.15.0.95 `   | Atualização nº 2 de 2022  |
+| Yealink MeetingBar A30 | `133.15.0.95 `   | Atualização nº 2 de 2022  |
+| Yealink CTP18 | `137.15.0.53`     | Atualização nº 2 de 2022    |
+| Yealink VC210 + VC210 | `118.15.0.69`     | Atualização nº 2 de 2022    |
 | Logi Tap Device  |  `1.5.705`   | Atualização 1 de 2022    |
 | Poly Studio X30 | `3.11.0.364021`          | Atualização 1 de 2022    |
 | Poly Studio X50 | `3.11.0.364021`          | Atualização 1 de 2022    |
