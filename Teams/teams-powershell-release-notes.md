@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b942cb3bf57c169d0f278a90e94d9792c315eb
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 87f3a65821b243372dcf990071b3bf1a2eb3b484
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785991"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103218"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams de versão do PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece as versões mais recentes Teams alterações do PowerShell 
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| Junho de 2022 | [Versão prévia 4.4.3](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Dá suporte ao parâmetro IncludeResources para Get-CsAutoAttendantStatus cmdlet.</li><li>Dá suporte ao parâmetro SoftDeletedUsers para Get-CsOnlineUser cmdlet.</li><li>Versões [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Dá suporte ao parâmetro opcional AuthorizedUsers para os cmdlets [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Corrige parâmetros de prompt de caixa postal compartilhados em que o tipo de prompt não pôde ser alternado depois que eles foram definidos para Set-CsCallQueue cmdlet.</li><li> Corrige os cmdlets [New\|Set]-CsOnlineSchedule para funcionar no formato de data/hora europeu.</li>
 | Maio de 2022 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>Melhorias no tamanho do módulo.</li><li>Os parâmetros sem suporte na versão modernizada de todos os cmdlets resultarão em erro.</li><li>Corrige o tratamento de erros para [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlets.</li><li>Pretere o Test-CsOnlineLisCivicAddress cmdlet.</li><li>O NOME UPN (Nome UPN) & GUID pode ser usado agora como identidade em cmdlets modernizados [Get\|Remove]-CsOnlineApplicationInstanceAssociation.</li><li> [ALTERAÇÃO SIGNIFICATIVA] Get-CsOnlineUser - Os atributos de política na saída agora serão nulos se um usuário não tiver essa política atribuída. Esses atributos costumavam ser objetos UserPolicyDefinition vazios em versões anteriores (3.0.0 a 4.3.1).</li><li>Corrige Set-CsCallQueue para permitir valores de matriz nulos ou vazios nos parâmetros de entrada.</li><li>Get-CsPhoneNumberAssignment - os atributos & IsoSubdivision são adicionados à saída.</li>
 | Maio de 2022 | [Versão prévia 4.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>Melhorias no tamanho do módulo.</li><li>Os parâmetros sem suporte na versão modernizada de todos os cmdlets resultarão em erro.</li><li>Corrige o tratamento de erros para [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlets.</li><li>Libera a implantação em cmdlets de escala em versão prévia – New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus.</li><li>O NOME UPN (Nome UPN) & GUID pode ser usado agora como identidade em cmdlets modernizados [Get\|Remove]-CsOnlineApplicationInstanceAssociation.</li>
 | Maio de 2022 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>Corrige tratamentos de erro para cmdlets [Set\|Remove]-CsPhoneNumberAssignment.</li><li>[Obter\| Definir\|Remove]-CsOnlineLisSubnet – correções para o parâmetro sub-rede nos cmdlets modernizados.</li><li>[Obter\| Set]-CsOnlineLisLocation & [Get\|Set]-CsOnlineLisCivicAddress – correções em torno dos parâmetros com suporte nos cmdlets modernizados (mais detalhes nas respectivas documentações públicas).</li>
