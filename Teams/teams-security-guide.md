@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ed354dfca3ac8600bd25122daa15d3ecf743e55
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6e5dcee1e45ec191853f088887e7ed36f8e3fbc6
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817782"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103198"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
@@ -79,7 +79,7 @@ O TLS autentica todas as partes e criptografa todo o tráfego. O uso do TLS impe
 
 ### <a name="man-in-the-middle-attack"></a>Ataque Man-in-the-Middle
 
-Um ataque man-in-the-middle ocorre quando um invasor redireciona a comunicação entre dois usuários por meio do computador do invasor sem o conhecimento dos dois usuários que se comunicam. O invasor pode monitorar e ler o tráfego antes de enviá-lo para o destinatário pretendido. Cada usuário na comunicação envia tráfego e recebe tráfego do invasor sem saber, pensando que está se comunicando apenas com o usuário pretendido. Esse cenário poderá acontecer se um invasor puder modificar o Active Directory Domain Services para adicionar seu servidor como um servidor confiável ou modificar a configuração de DNS para fazer com que os clientes se conectem por meio do invasor a caminho do servidor.
+Um ataque man-in-the-middle ocorre quando um invasor redireciona a comunicação entre dois usuários por meio do computador do invasor sem o conhecimento dos dois usuários que estão se comunicando. O invasor pode monitorar e ler o tráfego antes de enviá-lo ao destinatário pretendido. Cada usuário presente na comunicação, sem saber, envia e recebe tráfego do invasor pensando estar se comunicando apenas com o usuário pretendido. Esse cenário pode acontecer se um invasor puder modificar os Serviços de Domínio do Active Directory para adicionar o servidor dele como um servidor confiável ou modificar a configuração DNS ou usar outros meios para fazer com que os clientes se conectem através do invasor no caminho para o servidor.
 
 Ataques man-in-the-middle no tráfego de mídia entre dois pontos de extremidade que participam do compartilhamento de áudio, vídeo e aplicativo do Teams são impedidos usando o *Protocolo em Tempo Real Seguro* (SRTP) para criptografar o fluxo de mídia. As chaves criptográficas são negociadas entre os dois pontos de extremidade através de um protocolo de sinalização proprietário (protocolo de Sinalização de Chamada do Teams) que utiliza o canal UDP/TCP criptografado TLS 1.2 e AES-256 (no modo GCM).
 
@@ -292,7 +292,7 @@ Os organizadores da reunião controlam se os participantes podem ingressar em um
 Os padrões são:
 
 - *Pessoas na minha organização* – toda pessoa fora da organização espera no lobby até ser admitido.
-- *Pessoas da minha organização e de organizações confiáveis* - Usuários autenticados e usuários externos dos domínios do Teams e do Skype for Business que estão na lista de permissões de acesso externo podem ignorar o lobby. Todos os outros usuários aguardarão no lobby até serem aceitos.
+- *Pessoas em minha organização, organizações confiáveis e convidados* - Usuários autenticados dentro da organização, incluindo usuários convidados e usuários de organizações confiáveis, ingressam na reunião diretamente sem esperar no lobby. Os usuários anônimos aguardam o lobby.
 - *Todas as pessoas*– todos os participantes da reunião ignoram o o lobby uma vez que um usuário autenticado entrou em uma reunião. 
 
 ### <a name="presenter-capabilities"></a>Recursos do apresentador
