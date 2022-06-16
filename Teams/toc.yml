@@ -219,7 +219,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: Atendedores automáticos e filas de chamadas
             items:
-              - name: Planejamento
+              - name: Planejar atendedores automáticos e filas de chamadas
                 href: plan-auto-attendant-call-queue.md
-              - name: Configuração do atendedor automático
+              - name: Planejar um fluxo de roteamento de chamadas
+                href: plan-your-call-routing-flow.md
+              - name: Configurar atendentes automáticos
                 href: create-a-phone-system-auto-attendant.md
-              - name: Configuração da fila de chamadas
+              - name: Configurar filas de chamadas
                 href: create-a-phone-system-call-queue.md
               - name: Gerenciar contas de recursos do Teams
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: Relatórios
                 href: aa-cq-cqd-historical-reports.md
+              - name: Referência de cmdlet do PowerShell para atendedores automáticos e filas de chamadas
+                href: call-queue-auto-attendant-cmdlets.md
               - name: Referência de voz e discagem
                 href: dial-voice-reference.md
           - name: Bloquear chamadas de entrada
@@ -1056,7 +1060,7 @@ items:
               - name: 'Etapa 5: atribuir números de telefone aos usuários'
                 href: business-voice/set-up-assign-numbers.md
               - name: 'Etapa 6: configurar um atendedor automático'
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: 'Etapa 7: números de telefone da porta (opcional)'
                 href: business-voice/port-phone-numbers.md
               - name: Recursos de pós-instalação
@@ -1072,13 +1076,9 @@ items:
               - name: Criar um ou mais usuários
                 href: business-voice/create-users.md
               - name: Configurar uma fila de chamadas
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: Configurar um atendedor automático
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: Gerenciar a configuração do Sistema de Telefonia
             items:
-              - name: Criar um ou mais usuários
-                href: business-voice/create-users.md
               - name: Gerenciar dispositivos
                 href: business-voice/manage-devices.md
               - name: Monitorar a qualidade da chamada
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Licenciamento de políticas de mensagens
             href: teams-add-on-licensing/pri-message.md
-          - name: Sistema de Telefonia do Microsoft 365 – licença de Usuário Virtual
+          - name: Telefone padrão do Microsoft Teams – Licença de usuário virtual
             href: teams-add-on-licensing/virtual-user.md
           - name: Comece a usar o Teams Essentials
             href: get-started-with-teams-essentials.md

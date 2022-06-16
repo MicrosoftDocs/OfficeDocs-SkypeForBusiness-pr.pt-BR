@@ -1,5 +1,5 @@
 ---
-title: Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz
+title: Referência de reconhecimento de voz e discagem de fila de chamadas e atendedor automático
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,50 +21,50 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Saiba mais sobre as opções de discagem de fila de chamadas e atendimento automático e reconhecimento de voz Teams.
-ms.openlocfilehash: db9eb9b4a31bd4d78c2e2519943cb405022e9fc6
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+description: Saiba mais sobre o atendedor automático e as opções de discagem de fila de chamadas e reconhecimento de voz Teams.
+ms.openlocfilehash: 784dcbf16c5122c165dc1a949fa237769c9837d3
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711275"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124186"
 ---
-# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referência de discagem de fila de chamada e atendimento automático e reconhecimento de voz
+# <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referência de reconhecimento de voz e discagem de fila de chamadas e atendedor automático
 
-Dial by Name ou Extension é um recurso de atendimento automático que permite que os chamadores cheguem Teams usuários em sua organização. Usar seus chamadores de teclado de voz ou telefone pode dizer ou inserir o nome completo ou parcial ou extensão da pessoa que eles gostaria de alcançar. O atendente automático pesquisará o diretório da empresa, localizará a pessoa e, em seguida, transferirá o chamador para ela.  Discar por Nome ou Discar por Extensão são opções configuradas quando você configura as configurações de fluxo [de chamada em um atendimento automático](create-a-phone-system-auto-attendant.md#call-flow).
+Discagem por Nome ou Extensão é um recurso de atendedor automático que permite que os chamadores acessem Teams usuários em sua organização. O uso de seus chamadores de teclado de voz ou telefone pode dizer ou inserir o nome completo ou parcial ou a extensão da pessoa que deseja acessar. O atendedor automático pesquisará o diretório da empresa, localizará a pessoa e transferirá o chamador para ela.  Discagem por Nome ou Discar por Extensão são opções configuradas quando você define as configurações de fluxo [de chamada em um atendedor automático](create-a-phone-system-auto-attendant.md?tabs=call-flow).
 
+## <a name="searching-for-users"></a>Pesquisando usuários
 
-## <a name="searching-for-users"></a>Pesquisar usuários
+Teams usuários que podem ser acessados usando o Discagem por Nome não precisam ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem ser Enterprise Voice habilitados para Skype for Business Server usuários. Para organizações multi-nacionais, Discagem por Nome encontrar e transferir chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões.
 
-Teams usuários que podem ser atingidos usando Discagem por Nome não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem estar Enterprise Voice habilitados para Skype for Business Server usuários. Para organizações multi-nacionais, Dial by Name encontrará e transferirá chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões.
+Teams usuários que podem ser acessados usando o Dial by Extension não precisam ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem estar Enterprise Voice habilitados para Skype for Business Server usuários. Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. Para organizações multinacionais, o Dial by Extension localizará e transferirá chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões.
 
-Teams usuários que podem ser atingidos usando Discagem por Extensão não são necessários para ter um número de telefone ou ter Planos de Chamadas atribuídos **a eles,** mas eles devem ser Enterprise Voice habilitados para usuários Skype for Business Server. Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. Para organizações multi-nacionais, o Dial by Extension encontrará e transferirá chamadores para Microsoft Teams usuários que estão em diferentes países ou regiões. 
-
-Considerando os pré-requisitos envolvidos, Discar por Nome ou Extensão deve ser explicitamente habilitado ao configurar um atendimento automático.
+Considerando os pré-requisitos envolvidos, o Discagem por Nome ou Extensão deve ser habilitado explicitamente ao configurar um atendedor automático.
 
 ### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 
-Não há limite para o número de usuários do Active Directory Discar por Nome e Discar por Extensão pode dar suporte quando um chamador pesquisa por uma pessoa específica. Um chamador pode inserir nomes parciais ou completos (FirstName + LastName e também LastName + FirstName), mas precisa do número de extensão completo. O tamanho máximo da lista de nomes que um único atendimento automático pode suportar usando o reconhecimento de fala é de 80.000 usuários.
+Não há limite para o número de usuários do Active Directory que Discagem por Nome e Dial by Extension podem dar suporte quando um chamador procura uma pessoa específica. Um chamador pode inserir nomes parciais ou completos (FirstName + LastName e também LastName + FirstName), mas precisa do número de extensão completo. O tamanho máximo da lista de nomes que um único atendedor automático pode dar suporte usando o reconhecimento de fala é de 80.000 usuários.
   
 |Tipo de entrada|Formato de pesquisa|Número máximo de usuários em uma organização|
 |:-----|:-----|:-----|
 |DTMF (entrada de teclado) |Parcial  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome |Sem limite  |
-|Fala (entrada de voz) |FirstName  <br/> LastName  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  | 80.000 usuários |
+|Fala (entrada de voz) |Firstname  <br/> Lastname  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  | 80.000 usuários |
 
 > [!NOTE]
-> Se você estiver usando Dial by Name com reconhecimento de fala, mas o Active Directory da sua organização for maior que 80.000 usuários e você não tiver limitado o escopo de Discagem por Nome usando o [](create-a-phone-system-auto-attendant.md#dial-scope) recurso Escopo de Discagem, Dial by Name ainda funcionará para seus chamadores usando um teclado de telefone e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
- 
-### <a name="search-considerations"></a>Considerações sobre pesquisa 
-Dial by Name pesquisa primeiro o diretório de toda a organização antes de aplicar qualquer Lista de Inclusão ou Exclusão de Escopo de Discagem que tenham sido configuradas. Se a pesquisa inicial em relação ao diretório inteiro retornar mais de 100 usuários, as listas de Escopo de Discagem não serão aplicadas, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados.
- 
- 
+> Se você estiver usando o Discagem por Nome com reconhecimento de fala, mas o Active Directory da sua organização for maior que 80.000 usuários e você não tiver limitado o escopo do Discagem por Nome usando o recurso Escopo de Discagem, o Discagem por Nome ainda funcionará para seus chamadores usando um teclado de telefone e as entradas de voz estarão disponíveis para todos os outros cenários.[](create-a-phone-system-auto-attendant.md?tabs=dial-scope) Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
+
+### <a name="search-considerations"></a>Considerações de pesquisa
+
+Discagem por Nome pesquisa primeiro o diretório de toda a organização antes de aplicar qualquer Lista de Inclusão ou Exclusão de Escopo de Discagem que tenha sido configurada. Se a pesquisa inicial em todo o diretório retornar mais de 100 usuários, as listas de Escopo de Discagem não serão aplicadas, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados.
+
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
-As pessoas que estão ligando podem usar Dial by Name para chegar aos usuários especificando o nome completo ou parcial da pessoa que estão tentando alcançar. Há vários formatos que podem ser usados quando o nome é inserido.
 
-Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles estão inserindo o nome, eles serão solicitados a encerrar a entrada do teclado com a tecla #. Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
+As pessoas que estão ligando podem Discagem por Nome para acessar os usuários especificando o nome completo ou parcial da pessoa que estão tentando acessar. Há vários formatos que podem ser usados quando o nome é inserido.
+
+Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles estiverem inserindo o nome, eles serão solicitados a encerrar a entrada do teclado com a tecla #. Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
 
 > [!NOTE]
-> Se mais de 5 nomes permanecerem após a aplicação de listas Incluir ou Excluir escopo de discagem, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados. 
+> Se mais de 5 nomes permanecerem depois que qualquer lista de Inclusão ou Exclusão de Escopo de Discagem tiver sido aplicada, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados.
   
 As pessoas podem pesquisar os nomes em sua organização usando os seguintes formatos de pesquisa em seu teclado de telefone:
   
@@ -72,13 +72,13 @@ As pessoas podem pesquisar os nomes em sua organização usando os seguintes for
 |:-----|:-----|:-----|:-----|
 |Nome + Sobrenome |Completo  |Amos0Marble# |Amos Marble |
 |Sobrenome + Nome |Completo |Marble0Amos#  |Amos Marble |
-|FirstName  |Completo   |Amos#   |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
-|LastName |Completo |Marble#  |Pressione 1 para Amos Marble  <br/> Pressione 2 para Mary Marble |
+|Firstname  |Completo   |Amos#   |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
+|Lastname |Completo |Marble#  |Pressione 1 para Amos Marble  <br/> Pressione 2 para Mary Marble |
 |Nome ou Sobrenome |Parcial |Mar# |Pressione 1 para Mary Marble  <br/> Pressione 2 para Mary Jones  <br/> Pressione 3 para Amos Marcus |
 |Nome + Sobrenome |Parcial |Amos0Mar # |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
 |Sobrenome + Nome |Parcial |Mar0Am# |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
 
-Há vários caracteres especiais que são usados durante a pesquisa de pessoas por meio de um teclado de telefone. Por exemplo, a pessoa será solicitado a usar a chave de libra (#), enquanto a tecla zero (0) é usada para um espaço entre nomes. Pressionar a tecla asterisco (*) repetirá a lista de nomes correspondentes para a pessoa.
+Há vários caracteres especiais que são usados durante a pesquisa de pessoas por meio de um teclado de telefone. Por exemplo, a pessoa será solicitado a usar a tecla pound (#), enquanto a tecla zero (0) é usada para um espaço entre nomes. Pressionar a tecla asterisco (*) repetirá a lista de nomes correspondentes para a pessoa.
   
 |Caractere de teclado de telefone especial|O que significa|
 |:-----|:-----|
@@ -88,14 +88,14 @@ Há vários caracteres especiais que são usados durante a pesquisa de pessoas p
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Discar por Nome - Reconhecimento de nome pela fala
 
-As pessoas podem procurar outras pessoas em sua organização com sua voz (reconhecimento de fala). Eles também podem entrar em contato com qualquer pessoa no Active Directory dizendo o nome completo ou parcial da pessoa que está tentando localizar. O uso de entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
+As pessoas podem pesquisar outras pessoas em sua organização com sua voz (reconhecimento de fala). Eles também podem entrar em contato com qualquer pessoa no Active Directory dizendo o nome completo ou parcial da pessoa que está tentando localizar. O uso de entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
   
-Você pode habilitar o reconhecimento de fala para um atendimento automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. Telefone entrada do teclado pode ser usada a qualquer momento, mesmo que o reconhecimento de fala seja habilitado no atendimento automático.
+Você pode habilitar o reconhecimento de fala para um atendedor automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. Telefone entrada do teclado poderá ser usada a qualquer momento, mesmo que o reconhecimento de fala esteja habilitado no atendedor automático.
   
-Assim como com a entrada do teclado de telefone, se vários nomes são encontrados, a pessoa que está chamando ouvir uma lista de nomes para selecionar.
+Assim como acontece com a entrada do teclado do telefone, se vários nomes forem encontrados, a pessoa que está chamando ouvirá uma lista de nomes para selecionar.
 
 > [!NOTE]
-> Se mais de 5 nomes permanecerem após a aplicação de listas Incluir ou Excluir escopo de discagem, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados. 
+> Se mais de 5 nomes permanecerem depois que qualquer lista de Inclusão ou Exclusão de Escopo de Discagem tiver sido aplicada, a pesquisa falhará e o chamador será informado de que muitos nomes foram encontrados.
   
 Os chamadores podem dizer nomes nos seguintes formatos:
   
@@ -103,20 +103,40 @@ Os chamadores podem dizer nomes nos seguintes formatos:
 |:-----|:-----|:-----|:-----|
 |Nome + Sobrenome |Completo |Amos Marble |Amos Marble |
 |Sobrenome + Nome |Completo  |Marble Amos |Amos Marble |
-|FirstName |Completo |Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones |
-|LastName |Completo |Marble |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble |
-|Nome ou Sobrenome |Parcial |Mar |Pressione ou diga 1 para Mary Marble  <br/> Pressione ou diga 2 para Mary Jones  <br/> Pressione ou diga 3 para Amos Marco |
-|Nome + Sobrenome |Parcial |Amos Mar |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou diga 2 para Amos Marco |
-
+|Firstname |Completo |Amos |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones |
+|Lastname |Completo |Marble |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble |
+|Nome ou Sobrenome |Parcial |Março |Pressione ou diga 1 para Mary Marble  <br/> Pressione ou diga 2 para Mary Jones  <br/> Pressione ou diga 3 para Amos Marcus |
+|Nome + Sobrenome |Parcial |Amos Mar |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou diga 2 para Amos Marcus |
 
 > [!NOTE]
-> Pode levar até 36 horas para que um novo usuário tenha seu nome listado no diretório para Discagem por Nome com reconhecimento de fala devido ao atraso de replicação do Active Directory.
-  
+> Pode levar até 36 horas para que um novo usuário tenha seu nome listado no diretório para Discagem por Nome reconhecimento de fala devido ao atraso de replicação do Active Directory.
+
+### <a name="dial-by-extension"></a>Discar por extensão
+
+Os usuários que você deseja disponibilizar para o **Dial By Extension** precisam ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory (e sincronizados por meio do Azure AD Conexão) ou Azure Active Directory. (Consulte [Adicionar usuários individualmente ou em massa](/microsoft-365/admin/add-users/add-users) para obter mais informações.)
+
+- OfficePhone/TelephoneNumber (AD e Azure AD)
+- HomePhone (AD)
+- Mobile/MobilePhone (AD e Azure AD)
+- OtherTelephone (AD)
+
+O formato necessário para inserir a extensão no campo número de telefone do usuário pode ser um dos seguintes formatos:
+
+- *+\<phone number>;ext=\<extension>*
+- *+\<phone number>X\<extension>*
+- *X\<extension>*
+
+- Exemplo 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
+- Exemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+- Exemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+
+Você pode definir a extensão [no Centro de administração do Microsoft 365 ou](https://admin.microsoft.com/) no [Azure Active Directory de administração](https://aad.portal.azure.com). Pode levar até 12 horas para que as alterações estejam disponíveis para atendedores automáticos e filas de chamadas.
+
 ## <a name="language-support"></a>Suporte a idiomas
 
-O suporte a idiomas para reconhecimento de texto para fala e fala está disponível nesses [idiomas com suporte](create-a-phone-system-auto-attendant-languages.md).
+O suporte a idiomas para reconhecimento de texto em fala e fala está disponível nesses [idiomas com suporte](create-a-phone-system-auto-attendant-languages.md).
 
-Os seguintes comandos de voz estão disponíveis para reconhecimento de fala: 
+Os seguintes comandos de voz estão disponíveis para reconhecimento de fala:
   
 |Comando de voz| Corresponde a |
 |:-----|:-----|

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados na loja de aplicativos da sua organização no Microsoft Teams de administração.
-ms.openlocfilehash: 586ece26155daa5a1627dc6288cbc5c88ee52f18
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681932"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124346"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 
@@ -33,9 +33,7 @@ Este artigo fornece diretrizes de ponta a ponta sobre como levar seu aplicativo 
 
 ![Visão geral do seu aplicativo, desde o desenvolvimento até a implantação.](media/upload-custom-apps.png)
 
-## <a name="develop"></a>Desenvolver
-
-### <a name="create-your-app"></a>Criar seu aplicativo
+## <a name="create-your-app"></a>Criar seu aplicativo
 
 A Microsoft Teams de desenvolvedores torna mais fácil para os desenvolvedores integrarem seus próprios aplicativos e serviços para melhorar a produtividade, tomar decisões mais rapidamente e criar colaboração em torno de conteúdo e fluxos de trabalho existentes. Os aplicativos criados na plataforma Teams são pontes entre o cliente Teams e seus serviços e fluxos de trabalho, colocando-os diretamente no contexto da plataforma de colaboração. Para obter mais informações, acesse a documentação [Teams desenvolvedor.](/microsoftteams/platform/)
 
@@ -43,9 +41,9 @@ A Microsoft Teams de desenvolvedores torna mais fácil para os desenvolvedores i
 
 ### <a name="get-the-app-package"></a>Obter o pacote do aplicativo
 
-Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor deverá produzir um pacote do aplicativo. Eles podem usar [o App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) para isso. Eles enviarão o arquivo no formato .zip arquivo.
+Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor produzirá um pacote do aplicativo. Eles podem usar [o App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) para isso. Eles enviarão o arquivo no formato .zip arquivo.
 
-A Microsoft [usa essas diretrizes para](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines) garantir que os aplicativos cumpram os padrões de qualidade e segurança da loja de Teams aplicativos globais.
+Todos os aplicativos na Teams store passam por uma validação de aplicativo obrigatória para atender aos padrões de qualidade e segurança da loja de Teams aplicativos globais.[](overview-of-app-validation.md) Além disso, a Microsoft incentiva fortemente os desenvolvedores de aplicativos a [](overview-of-app-certification.md) participar de um programa de conformidade de aplicativo opcional que indica controles de conformidade, segurança e privacidade aprimorados. Para obter mais informações, consulte [Teams de validação de aplicativo](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>Permitir que usuários confiáveis carreguem aplicativos personalizados
 
@@ -57,25 +55,33 @@ Para validar se o aplicativo está funcionando corretamente em seu locatário de
 Para permitir que usuários confiáveis carreguem aplicativos personalizados, siga estas etapas:
 
 1. Ative **a configuração Permitir interação com aplicativos personalizados** em toda a organização. Para fazer isso:
+
     1. No painel de navegação esquerdo do centro de administração Microsoft Teams, acesse Teams **aplicativos** >  Gerenciar aplicativos **e clique em** Configurações de aplicativos **em toda a organização**.
+    
     2. Em **Aplicativos personalizados**, **ative Permitir interação com aplicativos personalizados** e clique em **Salvar**.
-2. Desative a **configuração Upload aplicativos personalizados** na política de configuração de aplicativo global. Para fazer isso:
+    
+1. Desative a **configuração Upload aplicativos personalizados** na política de configuração de aplicativo global. Para fazer isso:
+
     1. No painel de navegação à esquerda do centro de administração do Microsoft Teams,  >  acesse Teams configuração de aplicativos e clique na política **Global (** padrão em toda a organização).
+    
     2. Desative **Upload aplicativos personalizados** e clique em **Salvar**.
-3. Crie uma nova política de configuração de aplicativo que permita carregar aplicativos personalizados e atribuí-lo ao seu conjunto de usuários confiáveis. Para fazer isso:
+    
+1. Crie uma nova política de configuração de aplicativo que permita carregar aplicativos personalizados e atribuí-lo ao seu conjunto de usuários confiáveis. Para fazer isso:
+
     1. No painel de navegação esquerdo do centro de administração Microsoft Teams,  >  vá para Teams políticas de instalação de aplicativos **e clique em** **Adicionar**. Dê um nome e uma descrição à nova política, **ative Upload aplicativos personalizados** e clique em **Salvar**.
+    
     2. Selecione a nova política que você criou e clique em **Gerenciar usuários**. Pesquise um usuário, clique **em Adicionar** e, em seguida, clique em **Aplicar**. Repita esta etapa para atribuir a política a todos os usuários confiáveis.
 
-        ![Captura de tela da página "Adicionar política de configuração de aplicativo"](media/manage-your-lob-apps-new-app-setup-policy.png)
+       ![Captura de tela da página "Adicionar política de configuração de aplicativo"](media/manage-your-lob-apps-new-app-setup-policy.png)
 
-    Esses usuários agora podem carregar o manifesto do aplicativo para validar se o aplicativo está funcionando corretamente no locatário de produção.
+Esses usuários agora podem carregar o manifesto do aplicativo para validar se o aplicativo está funcionando corretamente no locatário de produção.
 
 ## <a name="upload"></a>Upload
 
-Para disponibilizar o aplicativo aos usuários na loja de aplicativos da sua organização, carregue o aplicativo. Você pode fazer isso na [página Gerenciar aplicativos](manage-apps.md) do Microsoft Teams de administração.
+Para disponibilizar o aplicativo aos usuários na loja de aplicativos da sua organização, carregue o aplicativo.
 
-1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
-2. Selecione **Upload**, clique **Upload**, selecione o pacote do aplicativo que você recebeu do desenvolvedor e selecione **Abrir**.
+1. Na navegação à esquerda do centro de administração Microsoft Teams, acesse **Teams aplicativos** > **[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Selecione **Upload**, clique **Upload**, selecione o pacote do aplicativo que você recebeu do desenvolvedor e selecione **Abrir**.
 
    ![Captura de tela do carregamento de um aplicativo no centro de administração.](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -97,40 +103,26 @@ Para examinar o log de auditoria, você precisa ativar a auditoria no [Centro de
 
 ## <a name="discover-and-adopt"></a>Descobrir e adotar
 
-Os usuários que têm permissões para o aplicativo podem encontrá-lo na loja de aplicativos da sua organização. Acesse Built **for *Your Organization Name*** na página Aplicativos para encontrar os aplicativos personalizados da sua organização.
+Os usuários finais que têm permissões para o aplicativo podem encontrá-lo na loja de aplicativos da sua organização. Acesse Built **for *Your Organization Name*** na página Aplicativos para encontrar os aplicativos personalizados da sua organização.
 
-![Captura de tela da página Aplicativos mostrando o aplicativo publicado.](media/custom-app-lifecycle-discovery.png)
+:::image type="content" source="media/custom-app-lifecycle-discovery.png" alt-text="Captura de tela da Teams mostrando o aplicativo personalizado publicado para a organização" lightbox="media/custom-app-lifecycle-discovery.png":::
 
 Se você criou e atribuiu uma política de configuração de aplicativo, o aplicativo será fixado na barra de aplicativos no Teams para facilitar o acesso para os usuários que foram atribuídos à política.
 
 ## <a name="update"></a>Atualizar
 
-Para atualizar um aplicativo, os desenvolvedores devem continuar seguindo as etapas [nas seções](#develop) Desenvolver e [Validar](#validate) .
+Para atualizar um aplicativo, os desenvolvedores seguem as etapas nas seções [Criar seu aplicativo](#create-your-app) e [Validar](#validate) .
 
 Você pode atualizar o aplicativo na página Gerenciar aplicativos no Microsoft Teams de administração. Para fazer isso, no painel de navegação esquerdo do centro de administração Microsoft Teams, acesse **Teams aplicativos** > **Gerenciar aplicativos**. Clique no nome do aplicativo e clique em **Atualizar**. Isso substitui o aplicativo existente e todas as políticas de permissão de aplicativo e políticas de configuração de aplicativo permanecem impostas para o aplicativo atualizado.
 
 ### <a name="end-user-update-experience"></a>Experiência de atualização do usuário final
 
-Na maioria dos casos, depois de concluir uma atualização de aplicativo, a nova versão será exibida automaticamente para os usuários finais. No entanto, há algumas atualizações no manifesto Microsoft Teams [que](/microsoftteams/platform/resources/schema/manifest-schema) exigem que a aceitação do usuário seja concluída:
-
-- Um bot foi adicionado ou removido
-- A propriedade "botId" de um bot existente foi alterada
-- A propriedade "isNotificationOnly" de um bot existente foi alterada
-- A funcionalidade SupportsCalling, SupportsVideo e SupportsFiles de um bot foi adicionada
-- Uma extensão de mensagens foi adicionada
-- Um novo conector foi adicionado
-- Permissões dentro de "Autorização" foram adicionadas ou alteradas
-
-![Captura de tela da lista de aplicativos mostrando aplicativos que têm uma nova versão disponível.](media/manage-your-custom-apps-update1.png)
-
-![Captura de tela da opção de atualização para um aplicativo.](media/manage-your-custom-apps-update2.png)
+Na maioria dos casos, depois de concluir uma atualização de aplicativo, a nova versão será exibida automaticamente para os usuários finais. Para obter mais informações, consulte [a experiência de atualização do usuário final](apps-update-experience.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Publicar um aplicativo personalizado enviado por meio da API de Envio Teams Aplicativo](submit-approve-custom-apps.md)
-
-- [Gerenciar seus aplicativos no Microsoft Teams de administração](manage-apps.md)
-- [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
-
-- [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
-- [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
+* [Publicar um aplicativo personalizado enviado por meio da API de Envio Teams Aplicativo](submit-approve-custom-apps.md)
+* [Gerenciar seus aplicativos no Microsoft Teams de administração](manage-apps.md)
+* [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
+* [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
+* [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
