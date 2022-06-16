@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião Teams para participantes e convidados.
-ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: f63056740ab42c3dde0e05e8b9321173ea20091f
+ms.sourcegitcommit: c73f27ee7a208ae73784edf5b23adc699cf69327
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393745"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66130764"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
 <a name="bkmeetingparticipants"> </a>
 
-Essas configurações controlam quais participantes da reunião devem aguardar no lobby, antes que eles sejam admitidos na reunião e o nível de participação deles permitidos em uma reunião.
+Essas configurações controlam quais participantes da reunião aguardam no lobby antes de serem admitidos na reunião e o nível de participação permitido em uma reunião.
 
 - [Permitir que pessoas anônimas ingressem em uma reunião](#let-anonymous-people-join-a-meeting)
 - [Permitir que pessoas anônimas iniciem uma reunião](#let-anonymous-people-start-a-meeting)
@@ -55,7 +55,7 @@ Essa configuração é uma política por organizador que permite reuniões de co
 
 ## <a name="automatically-admit-people"></a>Aceitar pessoas automaticamente
 
-Esta é uma política por organizador. Essa configuração controla se as pessoas participam de uma reunião ou esperam no lobby até que sejam admitidas por um usuário autenticado. Essa configuração não se aplica aos usuários de acesso telefônico.
+Esta é uma política por organizador. Essa configuração controla se as pessoas ingressam em uma reunião diretamente ou aguardam no lobby até serem reconhecidas por um usuário autenticado. Essa configuração não se aplica a usuários de discagem.
 
 ![Captura de tela mostrando uma reunião com um usuário no lobby.](media/meeting-policies-lobby.png)
 
@@ -66,12 +66,12 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
   
 |Valor de configuração  |Comportamento de ingresso |
 |---------|---------|
-|**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários externos de organizações confiáveis (federado), convidados e usuários anônimos.     |
-|**Pessoas na minha organização e convidados**     |Os usuários autenticados dentro da organização, incluindo usuários convidados, ingressam na reunião diretamente sem aguardar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam no lobby. Essa é a configuração padrão.    |
-|**Pessoas da minha organização e organizações confiáveis**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, entram na reunião diretamente sem aguardar no lobby.  Os usuários anônimos aguardam o lobby.   |
-|**Pessoas na minha organização**    |Os usuários autenticados de dentro da organização ingressam na reunião diretamente sem aguardar no lobby.  Os usuários de organizações confiáveis, usuários convidados e usuários anônimos aguardam no lobby.          |
-|**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página Teams opções de reunião do cliente, ela aparece como "Somente eu".          |
-|**Somente usuários convidados**    |Somente usuários convidados e organizadores da reunião podem ingressar na reunião diretamente sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página Teams opções de reunião do cliente, ela aparece como "Pessoas que eu convidar". Os usuários adicionados como parte de um grupo de distribuição terão que passar pelo lobby.      |
+|**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários de organizações confiáveis, convidados e usuários anônimos.     |
+|**Pessoas na minha organização e convidados**     |Os usuários autenticados dentro da organização, incluindo convidados, ingressam na reunião diretamente sem esperar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam o lobby. Essa é a configuração padrão.    |
+|**Pessoas da minha organização e organizações confiáveis**     |Os usuários autenticados dentro da organização, incluindo convidados e usuários de organizações confiáveis, ingressam na reunião diretamente sem aguardar no lobby.  Os usuários anônimos aguardam o lobby.   |
+|**Pessoas na minha organização**    |Os usuários autenticados de dentro da organização ingressam na reunião diretamente sem aguardar no lobby.  Os usuários de organizações confiáveis, convidados e usuários anônimos aguardam no lobby.          |
+|**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página Teams opções de reunião do cliente, ela aparece como "Somente eu".          |
+|**Somente usuários convidados**    |Somente usuários convidados e organizadores da reunião podem ingressar na reunião diretamente sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página Teams opções de reunião do cliente, ela aparece como "Pessoas que eu convidar". Os usuários adicionados como parte de um grupo de distribuição terão que passar pelo lobby.      |
 
  > [!NOTE]
 > As organizações confiáveis são domínios com os qual você permite comunicações federadas Teams. Se você habilitar Permitir todos os **domínios externos** para acesso externo no centro de administração do Teams, qualquer usuário autenticado em qualquer Teams organização será confiável. Se você optar por especificar domínios externos permitidos e bloquear todos os outros, os domínios permitidos se tornarão organizações confiáveis. Qualquer domínio bloqueado é considerado não uma organização confiável.
@@ -100,16 +100,19 @@ Essa configuração é uma política por usuário e se aplica durante uma reuni�
 
 Essa configuração é uma configuração por participante. Essa configuração controla se o chat de reunião é permitido na reunião do usuário.
 
+Essa configuração não se aplica a reuniões de canal. Depois que essa política de chat de reunião é aplicada aos usuários, um organizador não pode substituir essa política por meio de opções de reunião.
+
 |Valor de configuração |Comportamento  |
 |---------|---------|
-|**Habilitado**     | Todos os participantes podem escrever e exibir mensagens de chat. |
-|**Não habilitado**     | O chat de reunião está desativado para todos os participantes.  |
+|**Ativá-lo para todos**     | Todos os participantes podem escrever e exibir mensagens de chat. |
+|**Desative-o para todos**     | O chat de reunião está desativado para todos os participantes.  |
+|**Ativá-lo para todos, exceto usuários anônimos**     | O acesso de gravação de chat de reunião está desativado somente para participantes anônimos.  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar configurações de política de reunião
 
-Para habilitar as configurações de política de reunião, você pode usar o centro de [administração do Teams](https://admin.teams.microsoft.com/policies/meetings) (**Meeting PoliciesEdit** >  **um** **policyParticipants** >  & convidados) ou o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) no Teams PowerShell. 
+Para habilitar as configurações de política de reunião, você pode usar o centro de [administração do Teams](https://admin.teams.microsoft.com/policies/meetings) **(** >  > Políticas de Reunião Editam uma política de participantes **& convidados**) ou o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) no Teams PowerShell. 
 
 Neste exemplo, usamos o PowerShell para modificar a política de reunião global para permitir que qualquer pessoa inicie ou ingresse em uma reunião.
 
