@@ -1,201 +1,186 @@
-#### <a name="video-demonstration"></a>Demonstração de vídeo
+## <a name="video-demonstration"></a>Demonstração em vídeo
 
-Este vídeo mostra um exemplo básico de como criar um assistente automático no Microsoft Teams.
+Este vídeo mostra um exemplo básico de como criar um atendedor automático no Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
-#### <a name="before-you-begin"></a>Antes de você começar
+### <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Siga estas etapas para configurar o atendedor automático
 
-Obter os números de serviço (números de serviço são um tipo especial de número de telefone que são usados por atendentes automáticos) que você precisa para os atendimentos automáticos que você deseja que sejam acessíveis discando diretamente de fora da sua organização. Isso pode incluir [a transferência de números de outro provedor ou](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) [a solicitação de novos números de serviço](../getting-service-phone-numbers.md).
+# <a name="step-1---general-info"></a>[Etapa 1 – Informações gerais](#tab/general-info)
 
-Cada atendente automático precisa ter uma licença *Microsoft Teams Telefone Standard - Virtual User*. Quando você comprou o Teams Telefone Standard ou o Teams Telefone com licenças de pacote do Plano de Chamada, também recebeu várias licenças do *Microsoft Teams Telefone Standard - Virtual User*, portanto, provavelmente não é necessário solicitar mais. No entanto, se você precisar de mais no futuro, poderá obter seguindo as instruções em [Teams Telefone Licença Padrão - Usuário Virtual](../teams-add-on-licensing/virtual-user.md).
+## <a name="general-info"></a>Informações gerais
 
-Se você quiser que sua rota de atendimento automático seja chamada de forma diferente nos feriados, crie os [feriados](../set-up-holidays-in-teams.md) que deseja usar antes de criar o atendimento automático.
+![Captura de tela das configurações do atendedor automático para nome, operador, fuso horário, idioma e entradas de voz.](../media/auto-attendant-general-info-page-new.png)
 
-<a name="steps"></a>
+1. Digite um nome para o atendedor automático na caixa na parte superior.
 
-#### <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Siga estas etapas para configurar o seu assistente automático
+2. Para designar um operador, especifique o destino para chamadas ao operador. Essa designação é opcional (mas recomendada). Defina **a opção** Operador para permitir que os chamadores interrompam os menus e conversem com uma pessoa designada.
 
-# <a name="step-1---phone-number"></a>[Etapa 1 - Telefone número](#tab/phone-number)
+3. Especifique o fuso horário para esse atendedor automático. O fuso horário será usado para calcular o horário comercial se você [criar um fluxo de chamada separado para horas extras](?tabs=after-hours).
+
+4. [Especifique um idioma com suporte](../create-a-phone-system-auto-attendant-languages.md) para esse atendedor automático. Esse é o idioma que será usado para prompts de voz gerados pelo sistema.
+
+5. Escolha se deseja habilitar entradas de voz. Quando habilitado, o nome de cada opção de menu se torna uma palavra-chave de reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a tecla 1 ou podem dizer "Vendas" para selecionar a opção de menu chamada "Vendas".
+
+   > [!NOTE]
+   > Se você escolher um idioma na Etapa 4 que não dá suporte a entradas de voz, essa opção será desabilitada.
+
+6. Selecione **Avançar**.
+
+# <a name="step-2---call-flow"></a>[Etapa 2 – Fluxo de chamadas](#tab/call-flow)
+
+## <a name="call-flow"></a>Fluxo de chamadas
+
+![Captura de tela das configurações de mensagem de saudação.](../media/auto-attendant-call-flow-greeting-message.png)
+
+Escolha se deseja reproduzir uma saudação quando o atendedor automático atender uma chamada.
+
+Se você selecionar **Reproduzir um arquivo de áudio**, poderá usar  o botão Upload arquivo para carregar uma mensagem de saudação gravada salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB.
+
+Se você selecionar **Digitar uma mensagem** de saudação, o sistema lerá o texto que você digitar (até 1000 caracteres) quando o atendedor automático atender uma chamada.
+
+![Captura de tela das configurações de roteamento de chamadas.](../media/auto-attendant-call-flow-route-call-message.png)
+
+Escolha como você deseja rotear a chamada.
+
+Se você selecionar **Desconectar**, o atendedor automático desligará a chamada.
+
+Se você selecionar **Redirecionar chamada**, poderá escolher um dos destinos de roteamento de chamadas.
+
+Se você selecionar **opções de menu** Reproduzir, poderá optar por  Reproduzir um arquivo de áudio ou Digitar uma mensagem de saudação e, em seguida, escolher entre as opções de menu e **a** pesquisa de diretório.
+
+### <a name="menu-options"></a>Opções de menu
+
+![Captura de tela das opções de tecla de discagem.](../media/auto-attendant-call-flow-menu-options-complete.png)
+
+Para opções de discagem, atribua as teclas de 0 a 9 no teclado telefônico a um dos destinos de roteamento de chamadas. (As chaves \* (asterisco) e \# (libra) são reservados pelo sistema e não podem ser reatribuídos. Pressionar qualquer uma dessas teclas repetirá o menu atual.)
 
 > [!NOTE]
-> Se você estiver seguindo as etapas para configurar o Teams Sistema de Telefonia com o pacote Plano de Chamadas pela primeira vez e estiver na Etapa **6:** Configurar um atendimento automático para o número de telefone principal da sua empresa, você já concluiu as etapas nesta guia. Vá para a próxima guia: [Informações](?tabs=general-info#steps) gerais do atendimento automático.
+> A tecla #só faz backup para o atendedor automático mais recente. Depois que o limite for cruzado para um novo atendedor automático, a tecla # não poderá levá-lo até o anterior.
 
-Cada atendimento automático criado requer uma conta de recurso. Isso é semelhante a uma conta de usuário, exceto que a conta está associada a um atendimento automático ou fila de chamada em vez de uma pessoa. Nesta etapa, criaremos a conta, atribuiremos Microsoft Teams Telefone a ela uma licença *Padrão - Usuário Virtual* e atribuiremos um número de serviço.
+Mapeamentos de chave não precisam ser contínuos. É possível criar um menu com as teclas 0, 1 e 3 mapeadas para opções, enquanto a tecla número 2 não é usada.
 
-### <a name="create-a-resource-account"></a>Criar uma conta de recurso
+Recomendamos mapear a chave zero para o operador se você tiver configurado uma. Se o operador não estiver definido como nenhuma chave, o comando de voz "Operador" também será desabilitado.
 
-Você pode criar uma conta de recurso no Teams de administração.
+Para cada opção de menu, especifique as seguintes configurações:
 
-1. No centro Teams de administração, expanda as configurações em toda a **organização** e clique em **Contas de recursos**.
+- **Tecla de** discagem – a chave no teclado do telefone para acessar essa opção. Se houver entradas de voz disponíveis, os chamadores também poderão dizer esse número para acessar a opção.
 
-2. Clique em **Adicionar**.
+- **Comando de** voz – define o comando de voz que um chamador pode dar para acessar essa opção, se as entradas de voz estão habilitadas. Ele pode conter várias palavras, como "Atendimento ao Cliente" ou "Operações e Motivos". Por exemplo, o chamador pode pressionar 2, dizer "dois" ou dizer "Vendas" para selecionar a opção mapeada para as duas teclas. Esse texto também é renderizado por conversão de texto em fala para o prompt de confirmação do serviço, que pode ser algo como "Transferindo sua chamada para vendas".
 
-3. No painel **Adicionar conta de** recurso, preencha Nome de exibição, Nome **de** **usuário** e escolha **Atendimento** automático para o tipo **de conta de recurso**
+- **Redirecionar para** – o destino de roteamento de chamadas usado quando os chamadores escolhem essa opção. Se você estiver redirecionando para um atendedor automático ou fila de chamadas, escolha a conta de recurso associada a ela.
 
-4. Clique em **Salvar**.
+### <a name="directory-search"></a>Pesquisa de diretório
 
-    A nova conta aparecerá na lista de contas.
+Se você atribuir chaves de discagem a destinos, recomendamos que você escolha **Nenhuma** para **pesquisa de diretório**. Se um chamador tentar discar um nome ou extensão usando chaves atribuídas a destinos específicos, ele poderá ser roteado inesperadamente para um destino antes de terminar de inserir o nome ou a extensão. Recomendamos que você crie um atendedor automático separado para pesquisa de diretório e tenha o link principal do atendedor automático com uma chave de discagem.
 
-### <a name="assign-a-license"></a>Atribuir uma licença
+Se você não atribuiu chaves de discagem, escolha uma opção para pesquisa **de diretório**.
 
-Você deve atribuir uma *licença Microsoft Teams Telefone Standard - Virtual User* à conta de recurso.
+**Discar por nome** – Se você habilitar essa opção, os chamadores poderão dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online ou qualquer usuário hospedado localmente usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com o Dial por nome. (Você pode definir quem é e não está incluído no diretório na página de escopo [do Dial](?tabs=#dial-scope) .)
 
-1. Na Centro de administração do Microsoft 365, clique na conta de recurso à qual você deseja atribuir uma licença.
+**Discar por extensão** – se você habilitar essa opção, os chamadores poderão se conectar com os usuários em sua organização discando sua extensão de telefone. Qualquer usuário online ou qualquer usuário hospedado localmente usando o Skype for Business Server, é um usuário qualificado e pode ser encontrado com **o Dial por extensão**. (Você pode definir quem é e não está incluído no diretório na página de escopo [do Dial](?tabs=dial-scope) .)
 
-2. Na guia **Licenças e Aplicativos**, em **Licenças**, selecione **Microsoft Teams Telefone Padrão - Usuário Virtual**.
+Os usuários que você deseja disponibilizar para o Dial By Extension precisam ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory (e sincronizados via Azure AD Conexão) ou Azure Active Directory. Para obter mais informações, [consulte Adicionar usuários individualmente ou em massa](/microsoft-365/admin/add-users/add-users).
 
-3. Clique em **Salvar alterações**.
+- OfficePhone/TelephoneNumber (AD e Azure AD)
+- HomePhone (AD)
+- Mobile/MobilePhone (AD e Azure AD)
+- OtherTelephone (AD)
 
-### <a name="assign-a-service-number"></a>Atribuir um número de serviço
+O formato necessário para inserir a extensão no campo número de telefone do usuário pode ser um dos seguintes formatos:
 
-Se você precisar que esse atendimento automático seja acessível por um número de telefone, atribua esse número à conta de recurso.
+- *+\<phone number>;ext=\<extension>*
+- *+\<phone number>X\<extension>*
+- *X\<extension>*
 
-1. No centro Teams de administração, na página Contas de recursos, selecione a conta de recurso à qual você deseja atribuir um número de serviço e clique em Atribuir **/desatribuição**.
+- Exemplo 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
+- Exemplo 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+- Exemplo 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-2. Na lista **Telefone de tipos de** número, escolha o tipo de número que você deseja usar.
+Você pode definir a extensão [no Centro de administração do Microsoft 365 ou](https://admin.microsoft.com/) no [Azure Active Directory de administração](https://aad.portal.azure.com). Pode levar até 12 horas para que as alterações estejam disponíveis para atendedores automáticos e filas de chamadas.
 
-3. Na caixa **Número de telefone atribuído** , pesquise o número que deseja usar e clique em **Adicionar**.
+> [!NOTE]
+> Se você quiser usar os recursos Discar por nome e  Discar por extensão, poderá atribuir uma tecla de discagem no atendedor automático principal para acessar um atendedor automático habilitado para Discar **por nome**. Dentro desse atendedor automático, você pode atribuir a tecla 1 (que não tem letras associadas a ela) para alcançar o atendedor automático **de** discagem por extensão.
 
-4. Clique em **Salvar**.
+Para obter mais informações, consulte [Discagem e referência de voz](../dial-voice-reference.md).
 
-> [!div class="nextstepaction"]
-> [Etapa 2 - Informações gerais do atendimento automático >](?tabs=general-info#steps)
+Depois de selecionar uma opção **de pesquisa de** diretório, selecione **Avançar**.
 
-# <a name="step-2---attendant-general-info"></a>[Etapa 2 - Informações gerais do atendente](#tab/general-info)
+# <a name="step-3---after-hours"></a>[Etapa 3 – Após o horário](#tab/after-hours)
 
-Para configurar um atendimento automático
+## <a name="call-flow-for-after-hours"></a>Fluxo de chamadas para horas extras
 
-1. No centro Teams de administração, **expanda Voz**, clique em **Assistentes automáticos** e clique em **Adicionar**.
+![Captura de tela das configurações de dia e hora após o horário.](../media/auto-attendant-business-hours.png)
 
-2. Digite um nome para o atendimento automático na caixa na parte superior.
+O horário comercial pode ser definido para cada atendedor automático. Se os horários comerciais não forem definidos, todos os dias e todas as horas do dia serão considerados horários comerciais, porque um cronograma 24/7 é definido por padrão. O horário comercial pode ser definido com intervalos no tempo durante o dia e todas as horas que não estão definidas como horas comerciais são consideradas após o horário comercial. Você pode definir diferentes opções de tratamento de chamadas de entrada e saudações para o horário de expediente.
 
-3. Se você quiser designar um operador, especifique o destino das chamadas para o operador. Isso é opcional (mas recomendado). Você pode definir a **opção Operador** para permitir que os chamadores possam sair dos menus e falar com uma pessoa designada.
+Dependendo de como você configurou seus atendedores automáticos e filas de chamadas, talvez seja necessário especificar apenas o roteamento de chamadas após o horário comercial para atendedores automáticos com números de telefone diretos.
 
-4. Especifique o fuso horário desse atendimento automático. O fuso horário é usado para calcular o horário comercial se você criar um fluxo de chamada separado para depois do horário.
+Se você quiser roteamento de chamadas separado para chamadores após o horário comercial, especifique seu horário comercial para cada dia. Selecione **Adicionar novo horário** para especificar vários conjuntos de horas para um determinado dia, por exemplo, para especificar uma pausa de almoço.
 
-5. [Especifique um idioma com suporte](../create-a-phone-system-auto-attendant-languages.md) para esse atendimento automático. Esse é o idioma que será usado para prompts de voz gerados pelo sistema.
+Depois de especificar seu horário comercial, escolha as opções de roteamento de chamadas para horas extras. As mesmas opções estão disponíveis para o roteamento de chamadas de horário comercial especificado acima.
 
-6. Escolha se deseja habilitar entradas de voz. Quando habilitada, o nome de cada opção de menu se torna uma palavra-chave de reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a tecla 1 ou podem dizer "Vendas" para selecionar a opção de menu chamada "Vendas".
+Selecione **Avançar** quando terminar.
 
-7. Click **Next**.
+# <a name="step-4---holidays"></a>[Etapa 4 – Feriados](#tab/holidays)
 
-> [!div class="nextstepaction"]
-> [Etapa 3 - Fluxo de chamada >](?tabs=call-flow#steps)
+## <a name="call-flows-during-holidays"></a>Fluxos de chamadas durante feriados
 
-# <a name="step-3---call-flow"></a>[Etapa 3 - Fluxo de chamada](#tab/call-flow)
+![Captura de tela das configurações de saudação de feriados e feriados.](../media/auto-attendant-holiday-greeting.png)
 
-Escolha suas opções de fluxo de chamada
+O atendedor automático pode ter um fluxo de chamada para cada [Feriado que você configurou](../set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
-1. Escolha se deseja reproduzir uma saudação quando o atendente automático atender uma chamada.
-
-    Se você selecionar **Reproduzir um arquivo de áudio**, poderá usar o botão de arquivo **Upload** para carregar uma mensagem de saudação gravada salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior do que 5 MB.
-
-    Se você selecionar **Digitar uma** mensagem de saudação, o sistema lerá o texto que você digitará (até 1000 caracteres) quando o atendemento automático atender a uma chamada.
-
-2. Escolha como você deseja rotear a chamada.
-
-    Se você selecionar **Desconectar**, o atendimento automático desligará a chamada.
-
-    Se você selecionar **Redirecionar chamada**, poderá escolher um dos destinos de roteamento de chamadas.
-
-    Se você selecionar **Opções de menu** Reproduzir, poderá optar por **Reproduzir** um arquivo de áudio  ou Digitar uma mensagem de saudação e escolher entre opções de menu e pesquisa de diretório.
-
-3. Se você quiser que os chamadores usem teclas de discagem para navegar, em Definir opções de **menu**, escolha o que você deseja que aconteça quando os chamadores pressionarem uma tecla de discagem. (Se você estiver criando esse atendimento automático como um diretório da empresa, deixe as opções da chave de discagem em branco.)
-
-    Você pode definir qualquer uma das teclas de discagem para os seguintes destinos:
-
-    - **Pessoa na organização** - uma pessoa em sua organização que é capaz de receber chamadas de voz.
-    - **Aplicativo de voz** - outro atendimento automático ou uma fila de chamadas.
-    - **Número de telefone externo** - qualquer número de telefone. Use este formato: +[código do país][código de área][número de telefone]
-    - **Caixa** postal - a caixa de correio de voz associada a um grupo Microsoft 365 que você especificar. Você pode escolher se deseja transcrições de caixa postal e o "Por favor, deixe uma mensagem após o tom". prompt do sistema.
-    - **Operador** - o operador definido para o atendimento automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos nesta lista.
-
-    Recomendamos a configuração de 0 tecla para o operador.
-
-    Para cada opção de menu, especifique o seguinte:
-
-    - **Tecla de** discagem - a chave no teclado do telefone para acessar essa opção.
-
-    - **Comando de** voz - define o comando de voz que um chamador pode dar para acessar essa opção, se as entradas de voz estão habilitadas. Ele pode conter várias palavras como "Atendimento ao Cliente" ou "Operações e Motivos". 
-
-    - **Redirecionar** para onde você deseja que a chamada vá quando os chamadores escolherem essa opção. Se você estiver redirecionando para um atendimento automático ou fila de chamada, escolha a conta de recurso associada a ela.
-
-4. Se você quiser usar esse assistente automático como diretório da empresa, em Pesquisa **de** diretório, selecione **Discar por nome**. Quando você habilita essa opção, os chamadores podem dizer o nome do usuário ou digitá-lo no teclado do telefone. Qualquer usuário online com uma Sistema de Telefonia é um usuário qualificado e pode ser encontrado com Dial pelo nome.
-
-    (Você pode escolher **Discar por extensão**, no entanto, a extensão deve ser configurada em Azure Active Directory.)
-
-5. Depois de selecionar uma opção **de pesquisa de** diretório, clique em **Próximo**.
-
-> [!div class="nextstepaction"]
-> [Etapa 4 - Fluxo de chamada após o horário >](?tabs=after-hours#steps)
-
-# <a name="step-4---after-hours"></a>[Etapa 4 - Após o horário](#tab/after-hours)
-
-O horário comercial pode ser definido para cada atendimento automático. Se os horários comerciais não forem definidos, todos os dias e todas as horas do dia serão considerados horários comerciais, porque um cronograma 24/7 é definido por padrão. O horário comercial pode ser definido com pausas no tempo durante o dia e todas as horas que não estão definidas como horário comercial são consideradas após o horário. Você pode definir diferentes opções de tratamento de chamadas de entrada e saudações para o pós-horário.
-
-Dependendo de como você configurou seus atendimentos automáticos e filas de chamadas, talvez seja necessário especificar apenas o roteamento de chamadas após o horário para os atendimentos automáticos com números de telefone diretos.
-
-Se você quiser roteamento de chamadas separado para chamadores após o horário, especifique seu horário comercial para cada dia. Clique **em Adicionar novo horário** para especificar vários conjuntos de horas para um determinado dia, por exemplo, para especificar uma pausa de almoço.
-
-Depois de especificar seu horário comercial, escolha suas opções de roteamento de chamadas para o horário de expediente. As mesmas opções estão disponíveis para o roteamento de chamadas de horário comercial especificado na **Etapa 3 - Fluxo de chamadas**.
-
-Clique **em Próximo** quando terminar.
-
-> [!div class="nextstepaction"]
-> [Etapa 5 - Fluxo de chamada de feriado >](?tabs=holidays#steps)
-
-# <a name="step-5---holidays"></a>[Etapa 5 - Feriados](#tab/holidays)
-
-Você pode ter chamadas para o seu atendimento automático roteados de forma diferente em feriados do que em outros dias. (Se você não quiser ter um fluxo de chamada diferente para feriados, ignore esta etapa.)
-
-O seu atendente automático pode ter um fluxo de chamada para cada feriado que você definiu. Você pode adicionar até 20 feriados agendados para cada atendedor automático.
-
-1. Na página Configurações de chamada de feriado, clique em **Adicionar**.
+1. Na página configurações de chamada de Feriado, selecione **Adicionar**.
 
 2. Digite um nome para essa configuração de feriado.
 
-3. No menu **suspenso Feriado** , escolha o feriado que você deseja usar.
+3. Na lista **suspensa** Feriado, escolha o feriado que você deseja usar.
 
 4. Escolha o tipo de saudação que você deseja usar.
 
-5. Escolha se deseja **desconectar ou** **redirecionar** a chamada.
+    ![Captura de tela das configurações de ação de chamada de feriado.](../media/auto-attendant-holiday-actions.png)
 
-6. Se você optou por redirecionar, escolha o destino de roteamento de chamadas para a chamada.
+5. Escolha se deseja **desconectar** ou **redirecionar** a chamada.
 
-7. Clique em **Salvar**.
+6. Se você optar por redirecionar, escolha o destino de roteamento de chamadas para a chamada.
 
-    Repita o procedimento conforme necessário para cada feriado adicional.
+7. Selecione **Salvar**.
 
-    Quando você adicionou todos os feriados, clique em **Próximo**.
+![Captura de tela das configurações de feriados com feriados listados.](../media/auto-attendant-holiday-call-settings.png)
 
-> [!div class="nextstepaction"]
-> [Etapa 6 - Escolher quem está no diretório >](?tabs=dial-scope#steps)
+Repita o procedimento conforme necessário para cada feriado adicional.
 
-# <a name="step-6---directory-members"></a>[Etapa 6 - Membros do diretório](#tab/dial-scope)
+Quando você tiver adicionado todos os seus feriados, selecione **Avançar**.
 
-O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online com uma Teams Telefone de usuário.
+# <a name="step-5---dial-scope"></a>[Etapa 5 – Escopo de discagem](#tab/dial-scope)
 
-Você pode incluir ou excluir usuários específicos selecionando Grupo de usuários personalizado em  **Incluir** ou Excluir e escolher um ou mais grupos de Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, ele será excluído do diretório.)
+## <a name="dial-scope"></a>Escopo de discagem
+
+![Captura de tela das opções de inclusão e exclusão do escopo de discagem.](../media/auto-attendant-dial-scope.png)
+
+O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online ou hospedados localmente usando Skype for Business Server.
+
+Você pode incluir ou excluir usuários específicos selecionando o grupo de  usuários personalizado  em Incluir ou Excluir e escolhendo um ou mais grupos de Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, ele será excluído do diretório.)
 
 > [!NOTE]
 > Pode levar até 36 horas para que um novo usuário tenha seu nome listado no diretório.
 
-Quando terminar de definir o escopo de discagem, clique em **Próximo**.
+Quando terminar de definir o escopo de discagem, selecione **Avançar**.
 
-> [!div class="nextstepaction"]
-> [Etapa 7 - Atribuir uma conta de recurso >](?tabs=resource-accounts#steps)
+# <a name="step-6---resource-accounts"></a>[Etapa 6 – Contas de recursos](#tab/resource-accounts)
 
-# <a name="step-7---resource-accounts"></a>[Etapa 7 - Contas de recursos](#tab/resource-accounts)
+## <a name="resource-accounts"></a>Contas de recursos
 
-Todos os atendentes automáticos devem ter uma conta de recurso associada.  Os atendentes automáticos de primeiro nível precisarão de pelo menos uma conta de recurso que tenha um número de serviço associado. Se desejar, você pode atribuir várias contas de recurso a um atendimento automático, cada uma com um número de serviço separado.
+Todos os atendedores automáticos devem ter uma conta de recurso associada.  Os atendedores automáticos de primeiro nível precisarão de pelo menos uma conta de recurso que tenha um número de serviço associado. Se desejar, você pode atribuir várias contas de recurso a um atendedor automático, cada uma com um número de serviço separado.
 
-Para adicionar uma conta de recurso
+![Captura de tela do painel Adicionar contas da conta de recurso.](../media/auto-attendant-add-resource-account.png)
 
-1. Clique **em Adicionar** e pesquisar a conta que você deseja adicionar. Clique **em Adicionar** e clique em **Adicionar**.
+Para adicionar uma conta de recurso, **selecione Adicionar conta** e pesquise a conta que você deseja adicionar. Selecione **Adicionar** e, em seguida, **selecione Adicionar**.
 
-2. Quando terminar de adicionar contas de serviço, clique em **Enviar**.
+![Captura de tela da lista de contas de recursos mostrando a conta de recurso com o número de serviço atribuído.](../media/auto-attendant-resource-account-assigned.png)
 
-    Isso conclui a configuração do atendimento automático.
+Quando terminar de adicionar contas de recursos, selecione **Enviar para** concluir a configuração do atendedor automático.
+
+Para obter mais informações, consulte [Gerenciar Teams de recursos](../manage-resource-accounts.md).
 
 ---
