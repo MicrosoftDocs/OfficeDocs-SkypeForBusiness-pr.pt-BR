@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Integração Salas do Teams dispositivos a serviços gerenciados
 f1keywords: ''
-ms.openlocfilehash: d40daed54a04ca7d9949ecc63f57c379aee6b666
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675783"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167315"
 ---
 # <a name="enroll-device-into-managed-service"></a>Registrar dispositivo no Serviço Gerenciado
 
@@ -85,10 +85,10 @@ Para fazer logon no dispositivo como Administrador (administrador local):
 > [!NOTE]
 > Se o *computador estiver* ingressado no domínio, escolha Outro **Usuário e use** **.\admin** ou o nome de usuário do administrador local configurado no dispositivo como o nome de usuário.
 
-Para retornar ao aplicativo Microsoft Teams Room depois de executar as tarefas administrativas necessárias:
+Para retornar ao aplicativo Salas do Microsoft Teams depois de executar as tarefas administrativas necessárias:
 
 1. No Windows ***menu Iniciar***, saia da conta Administração cliente.
-1. Volte para Microsoft Teams Sala selecionando o ícone de conta de usuário no lado esquerdo da tela e, em seguida, selecionando **Skype**.
+1. Retorne ao Salas do Microsoft Teams selecionando o ícone de conta de usuário no lado esquerdo da tela e, em seguida, selecionando **Skype**.
 
 > [!NOTE]
 > Se o Skype usuário não estiver listado, selecione Outro Usuário, insira ***.\skype*** como o nome de usuário e entre.
