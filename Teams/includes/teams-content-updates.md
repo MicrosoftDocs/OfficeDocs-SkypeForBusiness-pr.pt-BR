@@ -3,6 +3,38 @@
 
 
 
+## <a name="week-of-june-13-2022"></a>Semana de 13 de junho de 2022
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 6/13/2022 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 6/13/2022 | [Use Power BI para analisar dados CQD para Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modificado |
+| 6/13/2022 | [Migrar do Business Voice para Teams Telefone licenças](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | modificado |
+| 6/13/2022 | [Usar arquivos de log para solucionar problemas no Microsoft Teams](/MicrosoftTeams/log-files) | modificado |
+| 6/13/2022 | [Dados e Informações de Privacidade](/MicrosoftTeams/rooms/data-and-privacy-info) | modificado |
+| 6/13/2022 | [Salas do Microsoft Teams gerenciamento de atualizações](/MicrosoftTeams/rooms/update-management) | modificado |
+| 6/15/2022 | [Teams módulo do PowerShell – Versões com suporte](/MicrosoftTeams/teams-powershell-supported-versions) | modificado |
+| 6/16/2022 | [Referência de cmdlet do PowerShell para atendedores automáticos e filas de chamadas](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | adicionado |
+| 6/16/2022 | [Planejar o fluxo de roteamento de chamadas para Microsoft Teams](/MicrosoftTeams/plan-your-call-routing-flow) | adicionado |
+| 6/16/2022 | [Permissões e considerações dos aplicativos Microsoft Teams](/MicrosoftTeams/app-permissions) | modificado |
+| 6/16/2022 | [Atribuir, alterar ou remover o número de telefone de um usuário](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modificado |
+| 6/16/2022 | Configurar um atendedor automático para o Microsoft Teams – pequeno negócio | removido |
+| 6/16/2022 | Criar uma fila de chamadas no Telefonia do Microsoft Teams System – tutorial de pequenas empresas | removido |
+| 6/16/2022 | [Atribuir Teams Sistema de Telefonia números de telefone a seus usuários](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modificado |
+| 6/16/2022 | Configurar um atendedor automático para o número de telefone principal da sua empresa | removido |
+| 6/16/2022 | [Configurar uma conta de recurso Telefonia do Microsoft Teams sistema](/MicrosoftTeams/business-voice/set-up-resource-account) | modificado |
+| 6/16/2022 | [Teams Sistema de Telefonia para pequenas e médias empresas](/MicrosoftTeams/business-voice/whats-business-voice) | modificado |
+| 6/16/2022 | [Configurar um atendedor automático para Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 6/16/2022 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 6/16/2022 | [Modificar a aparência dos aplicativos na loja de Teams sua organização](/MicrosoftTeams/customize-apps) | modificado |
+| 6/16/2022 | [Referência de reconhecimento de voz e discagem de fila de chamadas e atendedor automático](/MicrosoftTeams/dial-voice-reference) | modificado |
+| 6/16/2022 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
+| 6/16/2022 | [Planejar para Teams atendedores automáticos e filas de chamadas](/MicrosoftTeams/plan-auto-attendant-call-queue) | modificado |
+| 6/16/2022 | [Upload seus aplicativos personalizados no Microsoft Teams de administração](/MicrosoftTeams/upload-custom-apps) | modificado |
+| 6/16/2022 | [Gerenciar políticas de reunião para participantes e convidados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
+
+
 ## <a name="week-of-june-06-2022"></a>Semana de 06 de junho de 2022
 
 
@@ -37,7 +69,7 @@
 | 6/1/2022 | [Criar uma fila de chamadas no Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
 | 6/2/2022 | [Requisitos de hardware para o Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
 | 6/2/2022 | [Restrições de caracteres especiais nas políticas do Teams](/MicrosoftTeams/special-character-restrictions-in-policy-names) | modificado |
-| 6/2/2022 | [Configuração de administrador de Pais no Teams para Educação](/MicrosoftTeams/edu-parents-app) | modificado |
+| 6/2/2022 | [Administração configuração de Pais no Teams para Educação](/MicrosoftTeams/edu-parents-app) | modificado |
 | 6/3/2022 | [Microsoft Teams EHR connector Virtual Compromissos report](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | modificado |
 
 
@@ -77,7 +109,7 @@
 | 5/25/2022 | [Contas de usuário em ambiente híbrido com PSTN](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | modificado |
 | 5/25/2022 | [Conduzir uma investigação de Descoberta Eletrônica do conteúdo](/MicrosoftTeams/ediscovery-investigation) | modificado |
 | 5/25/2022 | [Teams para Educação Assistente de Política para aplicar facilmente políticas para aprendizado seguro](/MicrosoftTeams/easy-policy-setup-edu) | modificado |
-| 5/25/2022 | [Configuração de administrador de Pais no Teams para Educação](/MicrosoftTeams/edu-parents-app) | modificado |
+| 5/25/2022 | [Administração configuração de Pais no Teams para Educação](/MicrosoftTeams/edu-parents-app) | modificado |
 | 5/25/2022 | [Sincronizar dados do SIS (Sistema de Informações do Aluno) com o Education Insights](/MicrosoftTeams/education-insights-sis-data-sync) | modificado |
 | 5/25/2022 | [Tarefas do Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | modificado |
 | 5/25/2022 | [Usar o PowerShell para conectar turnos ao Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | modificado |
@@ -153,22 +185,3 @@
 | 5/20/2022 | [Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto](/MicrosoftTeams/manage-emergency-call-routing-policies) | modificado |
 | 5/20/2022 | [Gerenciar políticas de chamadas de emergência no Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modificado |
 | 5/20/2022 | [Microsoft Teams de versão do PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
-
-
-## <a name="week-of-may-09-2022"></a>Semana de 09 de maio de 2022
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 5/9/2022 | [Habilitar usuários para Roteamento Direto](/MicrosoftTeams/direct-routing-enable-users) | modificado |
-| 5/9/2022 | [Configurar Conexão do operador](/MicrosoftTeams/operator-connect-configure) | modificado |
-| 5/9/2022 | [Atribuir políticas no Teams](/MicrosoftTeams/policy-assignment-overview) | modificado |
-| 5/9/2022 | [Relatório histórico de fila & atendedor automático](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modificado |
-| 5/10/2022 | [Planejar o Roteamento baseado na localização para o Roteamento direto](/MicrosoftTeams/location-based-routing-plan) | modificado |
-| 5/10/2022 | [Políticas de chamada Microsoft Teams: recursos de chamada e encaminhamento de chamadas](/MicrosoftTeams/teams-calling-policy) | modificado |
-| 5/10/2022 | [Salas do Microsoft Teams versão do aplicativo](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
-| 5/12/2022 | [Gerenciar Políticas de Caixa Postal](/MicrosoftTeams/manage-voicemail-policies) | modificado |
-| 5/12/2022 | [Configurar o Gateway SIP](/MicrosoftTeams/sip-gateway-configure) | modificado |
-| 5/12/2022 | [Configuração de administrador de Pais no Teams para Educação](/MicrosoftTeams/edu-parents-app) | modificado |
-| 5/13/2022 | [Aplicativo Walkie Talkie no Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
-| 5/13/2022 | [Requisitos das Salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
