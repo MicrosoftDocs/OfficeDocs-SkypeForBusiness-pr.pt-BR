@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar e gerenciar políticas de configuração de aplicativo Microsoft Teams para usuários em sua organização.
+description: Saiba como criar, editar e gerenciar políticas de configuração de aplicativo para fixar aplicativos, instalar aplicativos e permitir que os usuários carreguem aplicativos personalizados.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 05e70d9b1e69ff72eda8e984af1cb1228842f5da
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 58a2b8730c4f3d02746aeb0bb3887bcd63d44918
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65786001"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190472"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 

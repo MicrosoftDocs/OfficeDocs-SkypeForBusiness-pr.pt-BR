@@ -12,16 +12,16 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: Saiba como comprar aplicativos de terceiros para Teams no Microsoft Teams de administração.
+description: Saiba como comprar aplicativos de terceiros da Teams usando um cartão de crédito, um cartão de débito ou por meio da cobrança da fatura.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 33d5faec0694c666b2f392713d235cb52ef8b0e8
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137082"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190321"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para Teams
 
@@ -38,7 +38,7 @@ Aqui, você também pode comprar licenças para serviços oferecidos por aplicat
 > [!IMPORTANT]
 > Quando você habilita a compra de aplicativos, ele também ativa a compra no aplicativo. Os usuários podem ver ofertas de compra no aplicativo que são controladas pelo ISV para seu aplicativo. Se você quiser impedir que os usuários adquiram um aplicativo, será necessário bloquear o aplicativo. Para obter mais informações sobre como bloquear um aplicativo, consulte [Gerenciar](app-policies.md) políticas de aplicativo ou saiba como bloquear um aplicativo [no nível da organização](manage-apps.md#allow-and-block-apps).
 
-1. No painel esquerdo do centro de administração Microsoft Teams, acesse Teams **appsManage** > . Você deve ser um administrador global ou Teams de serviço para acessar a página.
+1. No painel esquerdo do centro de administração do Microsoft Teams, acesse Teams **Aplicativos** > **Gerenciados**. Você deve ser um administrador global ou Teams de serviço para acessar a página.
 1. Pesquise o aplicativo desejado. Para identificar aplicativos que têm uma assinatura de SaaS paga, examine a coluna **Licenças** . Cada aplicativo terá um dos seguintes valores:
     - **Compra**: o aplicativo oferece uma assinatura de SaaS e está disponível para compra.  
     - **Comprado**: o aplicativo oferece uma assinatura de SaaS e você comprou licenças para ele.
@@ -72,7 +72,7 @@ Selecione **Gerenciar licenças** para acessar o Centro de administração do Mi
 Os administradores globais podem adicionar mais licenças, remover licenças e cancelar assinaturas para compras feitas por qualquer pessoa na organização. Teams administradores de serviço podem executar as mesmas ações para compras feitas por si mesmos. No entanto, se um Teams administrador de serviços também tiver a função de administrador de Cobrança, ele poderá gerenciar compras feitas por qualquer pessoa na organização.
 
 > [!NOTE]
-> Se um administrador global quiser gerenciar uma assinatura adquirida por outro administrador global, ele precisará estar na mesma conta de cobrança. Você pode dar a outro administrador global acesso a uma assinatura adquirida selecionando o aplicativo no Centro de administração do Microsoft 365. A partir daí, vá para **Exibir perfil de** **cobrançaSelecione** >  >  a conta de **cobrançaAssign rolesAddicione** >  **outros administradores globais**.
+> Se um administrador global quiser gerenciar uma assinatura adquirida por outro administrador global, ele precisará estar na mesma conta de cobrança. Você pode dar a outro administrador global acesso a uma assinatura adquirida selecionando o aplicativo no Centro de administração do Microsoft 365. A partir daí, vá para **Exibir perfil de cobrança** > **Selecionar conta de cobrança Atribuir** > **funções** > **Adicionar outros administradores globais**.
 
 ### <a name="invoice-billing"></a>Cobrança da fatura
 

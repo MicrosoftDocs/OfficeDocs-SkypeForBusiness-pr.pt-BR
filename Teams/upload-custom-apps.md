@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados na loja de aplicativos da sua organização no Microsoft Teams de administração.
-ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 01a74422ef5bc1f9c63c6ea1c7ecf2e05cc377a4
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124346"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190351"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 
@@ -41,7 +41,7 @@ A Microsoft Teams de desenvolvedores torna mais fácil para os desenvolvedores i
 
 ### <a name="get-the-app-package"></a>Obter o pacote do aplicativo
 
-Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor produzirá um pacote do aplicativo. Eles podem usar [o App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) para isso. Eles enviarão o arquivo no formato .zip arquivo.
+Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor deverá produzir um pacote do aplicativo. Eles podem usar [o App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). Eles enviarão o arquivo no formato .zip arquivo.
 
 Todos os aplicativos na Teams store passam por uma validação de aplicativo obrigatória para atender aos padrões de qualidade e segurança da loja de Teams aplicativos globais.[](overview-of-app-validation.md) Além disso, a Microsoft incentiva fortemente os desenvolvedores de aplicativos a [](overview-of-app-certification.md) participar de um programa de conformidade de aplicativo opcional que indica controles de conformidade, segurança e privacidade aprimorados. Para obter mais informações, consulte [Teams de validação de aplicativo](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 

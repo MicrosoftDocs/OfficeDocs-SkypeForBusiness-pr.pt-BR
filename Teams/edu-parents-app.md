@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860792"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190615"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a Conexão Pai no Microsoft Teams para Educação
 
@@ -41,12 +41,11 @@ Aqui estão alguns recursos que os administradores de TI podem compartilhar com 
 
 A Conexão de Pais permite que educadores e responsáveis conversem, enviem emails e liguem usando Teams.
 
-- Teams dados de contato do guardião permanecem atualizados com o SIS usando School Data Sync (SDS).
+- Os educadores podem iniciar chats com responsáveis.
+  - Se o responsável não tiver uma conta Teams consumidor, ele receberá a mensagem inicial do educador e um convite por email para ir para Teams.
 - Funciona com chat supervisionado. Para obter mais informações, [consulte Usar chats supervisionados Microsoft Teams](supervise-chats-edu.md).
   - Por padrão, os tutores têm permissões restritas, portanto, eles não podem conversar com os alunos ou remover usuários de chats.
   - Essa configuração pode ser alterada pelo administrador do locatário.
-- Os educadores podem iniciar chats com responsáveis.
-  - Se o responsável não tiver uma conta Teams consumidor, ele receberá a mensagem inicial do educador e um convite por email para ir para Teams.
 - Os educadores podem clicar no email de um responsável para e-mail usando seu cliente de email nativo.
 - Os educadores podem clicar no número de telefone de um responsável para chamá-los Teams.
 
@@ -66,7 +65,17 @@ A Conexão de Pais permite que educadores e responsáveis conversem, enviem emai
 
 ## <a name="requirements"></a>Requisitos
 
+Você precisa usar o Microsoft Graph ou School Data Sync (SDS) para preencher as informações de contato relacionadas ao pai e ao responsável de cada aluno.
+
+### <a name="graph-api"></a>API do Graph
+
+Se você já usa o [Microsoft Graph SDK do PowerShell](/powershell/microsoftgraph/overview) para criar identidades de aluno, você pode incluir facilmente o tipo de recurso [relatedContact](/graph/api/resources/relatedcontact).
+
 ### <a name="school-data-sync"></a>School Data Sync
+
+Teams dados de contato do guardião permanecem atualizados com o SIS usando School Data Sync (SDS), quando SDS é configurado para sincronizar regularmente.
+
+Se o guardião for removido dos *registros de um* Aluno, quaisquer chats existentes que o envolvam conterão uma faixa visível para o proprietário do chat. Essa faixa fará com que o proprietário do chat fique ciente da alteração, solicitando que ele remova o guardião do chat. A Microsoft não atualizará automaticamente a associação de chat para remover o guardião.
 
 - Você precisa School Data Sync (SDS) para preencher as informações de contato relacionadas ao pai e **ao responsável de cada** aluno.
   - [Implantar SDS](/schooldatasync/parents-and-guardians-in-sds)

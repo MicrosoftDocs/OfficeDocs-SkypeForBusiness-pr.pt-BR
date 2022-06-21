@@ -1,7 +1,7 @@
 ---
 title: Visão geral da validação de aplicativos e teste de aplicativos pela Microsoft
 ms.reviewer: ''
-description: Entenda as verificações de qualidade e a validação de aplicativos feitas para os aplicativos do Teams.
+description: Saiba mais sobre as diretrizes de validação de aplicativos do Teams com base nas políticas de certificação do marketplace. Entenda como a Microsoft garante que os aplicativos do Teams cumpram os altos padrões de privacidade e segurança.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 8172db3e67ad895427e90ed3821e1c6fb61f5df9
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910897"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190486"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validação executada pela Microsoft para todos os aplicativos do Teams
 
