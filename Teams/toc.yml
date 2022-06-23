@@ -1487,7 +1487,7 @@ items:
             href: rooms/with-skype-for-business-server-2015.md
   - name: Gerenciar aplicativos
     items:
-      - name: Visão Geral
+      - name: Entender os aplicativos no Teams
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Gerenciar aplicativos fornecidos pela Microsoft
         items:
@@ -1513,7 +1513,7 @@ items:
             href: overview-of-app-validation.md
           - name: 'Segurança, conformidade e privacidade de aplicativos de terceiros'
             href: overview-of-app-certification.md
-          - name: Use o Microsoft 365 ou Office 365 e conectores personalizados
+          - name: Gerenciar Microsoft 365 e conectores personalizados
             href: Office-365-custom-connectors.md
           - name: Comprar aplicativos de terceiros para o Teams
             href: purchase-third-party-apps.md
@@ -1533,7 +1533,7 @@ items:
             href: customize-your-app-store.md
       - name: Controles de administrador para controlar aplicativos
         items:
-          - name: Visão geral do gerenciamento de aplicativos para administradores
+          - name: Visão geral do gerenciamento de aplicativos
             href: manage-apps.md
           - name: Políticas de aplicativo
             items:
@@ -1547,7 +1547,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Personalizar os aplicativos do Teams para seus funcionários da linha de frente
             href: pin-teams-apps-based-on-license.md
-          - name: Sobre permissões do Azure AD e consentimento de administrador
+          - name: Permissões de gráfico e consentimento de administrador no Azure Active Directory
             href: app-permissions-admin-center.md
           - name: Gerenciar o consentimento específico do recurso para sua organização
             href: resource-specific-consent.md
@@ -1555,11 +1555,11 @@ items:
             href: app-permissions.md
           - name: Comportamento do aplicativo com base em tipos de usuários
             href: non-standard-users.md
-          - name: Atualizar aplicativos para versões mais recentes como usuários finais
+          - name: Atualizações de aplicativo e função de administrador
             href: apps-update-experience.md
           - name: Gerenciar o acesso aos aplicativos do Teams no Microsoft 365
             href: manage-third-party-teams-apps.md
-      - name: "Relatório de uso do\_aplicativo"
+      - name: Análise e relatório de uso do aplicativo
         href: teams-analytics-and-reports/app-usage-report.md
   - name: Diretrizes governamentais e de indústrias
     items:
