@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre os requisitos para dar suporte às Salas do Microsoft Teams, incluindo a escolha do dispositivo apropriado, microfones, alto-falantes, câmeras e telas.
+description: Saiba mais sobre os requisitos de suporte Salas do Microsoft Teams, incluindo a escolha do dispositivo, microfones, alto-falantes, câmeras e monitores apropriados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886648"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241020"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
-As Salas do Microsoft Teams são dimensionados para tamanhos de sala diferentes. As Salas do Teams usam uma ampla variedade de periféricos de áudio e vídeo certificados com base no tamanho e no uso da sala. Ao selecionar o dispositivo principal e o console corretos, combinados com microfones, alto-falantes, câmeras e telas apropriadas para o espaço, você pode implantar Salas do Microsoft Teams em espaços de qualquer tamanho, desde pequenos espaços de grupo até grandes espaços de conferência e salas de reuniões.  O conjunto completo de todos os periféricos de áudio e vídeo certificados disponíveis que podem ser usados para configurar a sua sala está disponível [Mostruário do dispositivo](https://products.office.com/microsoft-teams/across-devices).
+Salas do Microsoft Teams dimensionar para tamanhos de sala diferentes. Salas do Teams uma ampla variedade de periféricos de áudio e vídeo certificados com base no tamanho e no uso da sala. Ao selecionar o dispositivo principal e o console corretos, combinados com microfones, alto-falantes, câmeras e telas apropriadas para o espaço, você pode implantar o Salas do Microsoft Teams em espaços de qualquer tamanho, desde pequenos espaços de grupo até espaços de conferência grandes e salas de reuniões.  O conjunto completo de todos os periféricos de áudio e vídeo certificados disponíveis que podem ser usados para configurar a sua sala está disponível [Mostruário do dispositivo](https://products.office.com/microsoft-teams/across-devices).
 
 Este artigo resume a implantação e os requisitos de configuração do dispositivo para dar suporte às Salas do Microsoft Teams.
 
-Sua implantação envolve a criação e a configuração de conta de recursos das Salas do Teams, conforme descrito [em Implantar Salas do Microsoft Teams](rooms-deploy.md).
+Sua implantação envolve a criação e a configuração da conta de Salas do Teams conforme descrito em [Implantar Salas do Microsoft Teams](rooms-deploy.md).
 
 Consulte:
 
 - [Opções de licença baseadas em seu plano: Salas do Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> As Salas do Microsoft Teams se conectarão ao Microsoft Teams, ao Skype for Business Server 2019 ou ao Skype for Business Server 2015 e poderão ingressar em reuniões hospedadas por qualquer um desses serviços.
+> Salas do Microsoft Teams entrar no Microsoft Teams, Skype for Business Server 2019 ou Skype for Business Server 2015 e pode ingressar em reuniões hospedadas por qualquer um desses serviços.
 >
-> As plataformas anteriores, como o Lync Server 2013, não são compatíveis com as Salas do Microsoft Teams. Não há suporte para Salas do Microsoft Teams no Microsoft 365 ou office 365 operado por ambientes 21Vianet ou DoD.
+> As plataformas anteriores, como o Lync Server 2013, não são compatíveis com as Salas do Microsoft Teams. Salas do Microsoft Teams não tem suporte no Microsoft 365 ou Office 365 operados por ambientes 21Vianet ou DoD.
 >
 > Se você tiver um Exchange Server local, as salas do Microsoft Teams exigirá o uso do Exchange Server 2013 SP1 ou posterior.
 
@@ -121,7 +121,7 @@ Todos os pacotes e dispositivos da Sala do Microsoft Teams estão disponíveis e
   |Surface Pro </br>(quinta geração) |Core i5 |8 GB ou 4 GB |128 GB ou mais |
   |Surface Pro 4 |Core i5 |8 GB ou 4 GB |128 GB ou mais |
 
-- Os dispositivos Surface Pro exigem uma das seguintes opções de estação de encaixe:
+- Surface Pro dispositivos exigem uma das seguintes opções de estação de encaixe:
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -182,6 +182,7 @@ Esses dispositivos estão disponíveis na [Mostruário de produtos de acessório
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[Barra de Vídeo do Poly Studio P15](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
 |[Câmera poly Studio E70](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
+|[Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30)|2.0.0.001096|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |

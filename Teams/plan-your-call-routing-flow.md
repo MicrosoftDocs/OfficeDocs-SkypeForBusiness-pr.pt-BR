@@ -1,5 +1,5 @@
 ---
-title: Planejar o fluxo de roteamento de chamadas para Microsoft Teams
+title: Planejar seu fluxo de roteamento de chamadas para o Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,13 +19,13 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Saiba como planejar seu fluxo de roteamento de chamadas para atendedores automáticos e filas de chamadas Microsoft Teams.
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Saiba como planejar seu fluxo de roteamento de chamadas para atendedores automáticos e filas de chamadas no Microsoft Teams.
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124564"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240980"
 ---
 # <a name="plan-your-call-routing-flow"></a>Planejar o fluxo de roteamento de chamadas
 
@@ -47,8 +47,9 @@ Quando as chamadas são redirecionadas por um atendedor automático ou fila de c
 
 - **Pessoa na organização -** uma pessoa em sua organização que é capaz de receber chamadas de voz. Pode ser um usuário online ou um usuário hospedado localmente usando Skype for Business Server.
 - **Aplicativo de voz** – outro atendedor automático ou uma fila de chamadas. Escolha a conta de recurso associada ao destino.
-- **Número de telefone externo** - qualquer número de telefone. (Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Caixa** postal – a caixa postal associada a um grupo Microsoft 365 que você especificar. Você pode escolher se deseja transcrições de caixa postal e "Deixe uma mensagem após o tom". prompt do sistema.
+- **Número de telefone externo** - qualquer número de telefone. Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+
+- **Caixa** postal – a caixa de correio de voz associada a um grupo do Microsoft 365 especificado por você. Você pode escolher se deseja transcrições de caixa postal e "Deixe uma mensagem após o tom". prompt do sistema.
 - **Operador** (somente atendedor automático) – o operador definido para o atendedor automático. Definir um operador é opcional. Um operador pode ser qualquer um dos outros destinos nesta lista.
 
 Os atendedores automáticos oferecem opções de roteamento de chamadas separadas para chamadas recebidas fora do horário comercial e em feriados.
