@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913419"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240970"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniões, seminários via web e eventos ao vivo 
 
@@ -176,6 +176,8 @@ Para realizar um evento de sucesso, siga as práticas descritas abaixo:
 ### <a name="guidelines-for-your-end-users"></a>Diretrizes para seus usuários finais
 
 Seus organizadores e apresentadores devem implementar as recomendações abaixo:
+
+- Para reuniões com mais de 10 participantes, use [Perguntas e Respostas](/MicrosoftTeams/manage-qna-for-teams) para dar aos participantes a oportunidade de formalmente fazer e receber respostas a perguntas, bem como participar de discussões estruturadas.
 
 - Para criar uma reunião tranquila, os organizadores do evento podem definir apresentadores predefinidos. Após o início de uma reunião, os apresentadores também podem promover outros participantes à função de apresentador.
 
