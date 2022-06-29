@@ -1,5 +1,5 @@
 ---
-title: Teams de dispositivos
+title: Repositório de dispositivos do Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,30 +15,27 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
-description: Saiba como procurar e comprar dispositivos no repositório de dispositivos Teams centro de administração
-ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+description: Saiba como procurar e comprar dispositivos na loja de dispositivos do Centro de administração do Teams
+ms.openlocfilehash: 9e555cd0f389c8158e66b824183a1038fc11ce04
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045640"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240710"
 ---
-# <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos no repositório Teams dispositivos
+# <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos na loja de dispositivos do Teams
 
->[!NOTE]
->O Teams de dispositivos está disponível atualmente apenas em **visualização pública**. A visualização pública permite que você teste os recursos futuros e forneça comentários. Os recursos incluídos na versão prévia pública podem não estar completos, podem passar por alterações e não têm suporte no Office 365 Government Cloud.
+O repositório de dispositivos no Centro de administração do Teams permite que você navegue, compre e provisione dispositivos certificados para o Microsoft Teams.  
 
-O repositório de dispositivos no Teams de administração permite que você navegue, compre e provisione dispositivos certificados para Microsoft Teams.  
-
- Para usar o repositório de dispositivos no Teams de administração, acesse **Dispositivos > Store**.
+ Para usar o repositório de dispositivos no centro de administração do Teams, acesse **Dispositivos > Store**.
 
 ## <a name="requirements"></a>Requisitos
 
-Para usar o repositório de dispositivos, você deve ser um administrador global ou um Teams administrador.
+Para usar o repositório de dispositivos, você deve ser um administrador global ou um administrador do Teams.
 
 ## <a name="browse-the-store"></a>Procurar na loja
 
-O repositório de dispositivos inclui todos os dispositivos certificados para Teams, incluindo headsets, câmeras da Web e dispositivos Teams, como Salas do Teams, telefones de mesa e Teams telas. Você pode classificar, filtrar ou pesquisar para encontrar o dispositivo de que sua organização precisa.
+O repositório de dispositivos inclui todos os dispositivos certificados para o Teams, incluindo headsets, câmeras da Web e dispositivos teams, como Salas do Teams, telefones de mesa e monitores do Teams. Você pode classificar, filtrar ou pesquisar para encontrar o dispositivo de que sua organização precisa.
 
 ## <a name="purchase-devices"></a>Comprar dispositivos
 
@@ -50,20 +47,20 @@ Todos os pedidos podem ser retornados até 30 dias após serem entregues.
 
 ## <a name="data-handling-and-sharing"></a>Manipulação e compartilhamento de dados
 
-O Teams de dispositivos precisa compartilhar informações básicas do usuário e da empresa, incluindo GUIDs de usuário e locatário, com o UnifiedCommunications.com para habilitar a compra no centro de administração do Teams.
+O repositório de dispositivos do Teams precisa compartilhar informações básicas do usuário e da empresa, incluindo GUIDs de usuário e locatário, com o UnifiedCommunications.com para habilitar a compra no Centro de administração do Teams.
 
-O compartilhamento de dados é desativado por padrão. Para habilita-lo, vá para o repositório Teams dispositivos, selecione o ícone de configurações e ative a configuração.  
+O compartilhamento de dados é desativado por padrão. Para habilita-lo, acesse o repositório de dispositivos do Teams, selecione o ícone de configurações e ative a configuração.  
 
-Quando essa configuração estiver desativada, os dados não serão compartilhados e você poderá procurar o repositório Teams dispositivos, mas não poderá fazer compras. Os dados coletados e compartilhados com o provedor de cumprimento enquanto a configuração estava ativada são processados conforme especificado em sua política de privacidade.
+Quando essa configuração estiver desativada, os dados não serão compartilhados e você poderá procurar o repositório de dispositivos do Teams, mas não poderá fazer compras. Os dados coletados e compartilhados com o provedor de cumprimento enquanto a configuração estava ativada são processados conforme especificado em sua política de privacidade.
 
 ## <a name="order-tracking-and-history"></a>Histórico e acompanhamento de pedidos
 
 Você pode exibir o histórico de pedidos indo para a Loja **>** histórico de pedidos, que inclui todos os pedidos feitos por você e por outros administradores na organização. O histórico de pedidos também inclui o status de envio de seus pedidos. Para perguntas sobre acompanhamento de pedidos, devoluções ou reembolsos, entre em contato UnifiedCommunications.com. Suas informações de contato estão disponíveis na página Histórico de pedidos.
 
-Os pedidos feitos no repositório Teams dispositivos e todos os dados associados a eles são classificados como pedidos de locatário e dados de locatário.
+Os pedidos feitos no armazenamento de dispositivos do Teams e todos os dados associados a eles são classificados como pedidos de locatário e dados de locatário.
 
 ## <a name="provision-devices"></a>Provisionar dispositivos
 
-Quando você compra dispositivos que dão suporte ao provisionamento remoto, o endereço MAC desses dispositivos é adicionado automaticamente ao centro de administração do Teams quando o dispositivo é enviado. Dependendo do pedido e quando ele é enviado, pode levar aproximadamente 5 dias para que o endereço MAC apareça no Teams de administração.
+Quando você compra dispositivos que dão suporte ao provisionamento remoto, o endereço MAC desses dispositivos é adicionado automaticamente ao centro de administração do Teams quando o dispositivo é enviado. Dependendo do pedido e quando ele é enviado, pode levar aproximadamente 5 dias para que o endereço MAC apareça no centro de administração do Teams.
 
 Depois que os dispositivos forem entregues, consulte [Provisionar dispositivos remotamente](remote-provision-remote-login.md#generate-a-verification-code) para concluir o processo de provisionamento e entrada.

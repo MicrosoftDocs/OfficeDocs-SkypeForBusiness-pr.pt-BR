@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6cfc36c2f695775940c97441d87dc776619ffd8
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cfb9cf174488cfc8043cf04ab08f7eadba920bc3
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675963"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240750"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Criar uma equipe de toda a organização no Microsoft Teams
 
@@ -36,11 +36,11 @@ Somente administradores globais podem criar equipes de toda a organização. Atu
 
 ![Captura de tela da opção em toda a organização para criar uma equipe em toda a organização.](media/create-org-wide-team.png "Captura de tela da opção em toda a organização para criar uma equipe de toda a organização")
 
-Quando uma equipe de toda a organização é criada, todos os administradores globais e Teams de serviço são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md).
+Quando uma equipe de toda a organização é criada, todos os administradores globais e administradores de serviços do Teams são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md).
 
 Os seguintes tipos de contas não serão adicionados à sua equipe de toda a organização:
 
-- Contas impedidas de entrar
+- Contas que estão impedidas de entrar
 - Usuários convidados
 - Contas de recurso ou serviço (por exemplo, contas associadas a atendedores automáticos e filas de chamadas)
 - Contas de sala ou equipamento
@@ -94,9 +94,9 @@ Embora os membros não possam sair de uma equipe de toda a organização, como p
 
 ## <a name="faq"></a>Perguntas frequentes
 
-### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>Há uma maneira de criar uma equipe de toda a organização além de usar o Teams cliente?
+### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>Há uma maneira de criar uma equipe de toda a organização além de usar o cliente do Teams?
 
-Somente administradores globais podem criar uma equipe de toda a organização usando o Teams cliente. Se a sua organização limita a criação de equipes ao uso do PowerShell, a solução alternativa recomendada é adicionar seus administradores globais ao grupo de segurança de usuários que podem criar uma equipe.
+Somente administradores globais podem criar uma equipe de toda a organização usando o cliente do Teams. Se a sua organização limita a criação de equipes ao uso do PowerShell, a solução alternativa recomendada é adicionar seus administradores globais ao grupo de segurança de usuários que podem criar uma equipe.
 
 Para obter mais informações, confira [Gerenciar quem pode criar grupos](/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
@@ -107,7 +107,7 @@ Se essa solução alternativa não for uma opção, você poderá usar o PowerSh
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>Há uma maneira de converter uma equipe existente em uma equipe de toda a organização?
 
-Os administradores globais podem converter uma equipe existente em uma equipe de toda a organização editando-a Teams cliente. Vá para o nome da equipe, clique em **Mais opções** > **Editar equipe**.
+Os administradores globais podem converter uma equipe existente em uma equipe de toda a organização editando-a no cliente do Teams. Vá para o nome da equipe, clique em **Mais opções** > **Editar equipe**.
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>Posso criar uma equipe de toda a organização usando um modelo de equipe?
 
@@ -115,4 +115,4 @@ Os modelos de equipe não podem ser usados para criar uma equipe de toda a organ
 
 ## <a name="see-also"></a>Confira também
 
-Assista a um vídeo [sobre como criar uma equipe de toda a empresa no Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
+Assista a um vídeo [sobre como criar uma equipe de toda a organização no Microsoft Teams](https://www.youtube.com/watch?v=x3qGlwwCz_w).

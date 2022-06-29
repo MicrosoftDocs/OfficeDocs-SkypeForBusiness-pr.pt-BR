@@ -1,7 +1,7 @@
 ---
 title: Alterar o idioma padrão de saudações e emails
-author: dstrome
-ms.author: dstrome
+author: crowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
 ms.topic: article
@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Saiba como configurar o Microsoft Teams e Skype for Business outro idioma para a saudação da caixa postal padrão da sua organização.
-ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+description: Saiba como configurar o Microsoft Teams e Skype for Business usar outro idioma para a saudação da caixa postal padrão da sua organização.
+ms.openlocfilehash: 30e122c0d41c93326cdfa39de4c0ceb3a6d55cd2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624085"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241120"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -45,7 +45,7 @@ O idioma usado para reproduzir as saudações do sistema é, em ordem de priorid
 
 A saudação personalizada e de ausência temporária é registrada pelo usuário no idioma escolhido pelo usuário.
 
-Se as saudações personalizadas de conversão de texto em fala forem especificadas para o usuário pelo usuário ou pelo administrador de locatários, o idioma usado para gerar a fala será o PromptLanguage especificado junto com as saudações de conversão de texto em fala.
+Se as saudações personalizadas de conversão de texto em fala forem especificadas para o usuário pelo usuário ou pelo administrador do locatário, o idioma usado para gerar a fala será o PromptLanguage especificado junto com as saudações de conversão de texto em fala.
 
 As saudações personalizadas de conversão de texto em fala só serão usadas se não houver saudações personalizadas registradas para o usuário.
 
@@ -59,33 +59,36 @@ Se habilitado pela política de caixa postal online para o usuário que está se
 Caixa postal na Nuvem gerará a mensagem de voz usando um modelo de idioma com base em, em ordem de prioridade, o idioma preferencial especificado para o usuário ou o idioma de locatário padrão.
 
 ## <a name="setting-the-preferred-language-for-a-user"></a>Definindo o idioma preferencial para um usuário
-Você pode definir o idioma preferencial para um usuário usando o PowerShell no Azure Active Directory ou no Active Directory local. Para obter mais informações, [consulte Como definir configurações de idioma e região para Microsoft 365 ou Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+Você pode definir o idioma preferencial para um usuário usando o PowerShell no Azure Active Directory ou no Active Directory local. Para obter mais informações, [consulte Como definir configurações de idioma e região para o Microsoft 365 ou Office 365](/office365/troubleshoot/access-management/set-language-and-region).
 
-Os usuários podem alterar seu próprio idioma preferido por meio de suas configurações depois de entrar. Para obter mais informações, [consulte Alterar o idioma de exibição e o fuso horário no Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
+Os usuários podem alterar seu próprio idioma preferido por meio de suas configurações depois de entrar. Para obter mais informações, consulte [Alterar o idioma de exibição e o fuso horário no Microsoft 365 para Empresas](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Alterar o idioma do sistema para todas as pessoas na organização
 
 1. Entre com sua conta [de administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
-2. Na página Centro de administração do Microsoft 365, escolha **Configurações** >  **Organização** >  **de configurações.**
+2. Na página Centro de administração do Microsoft 365, escolha **Configurações da** > **Organização configurações** > **perfil da organização**.
+
 3. Escolha **informações da organização**.
+
 4. Selecione um idioma na lista **Idioma preferencial** para todas as pessoas em sua organização.
+
 5. Escolha **Salvar**.
 
 **Os idiomas disponíveis são determinados pelo local da organização**. Por exemplo, se a sua organização está nos Estados Unidos, você pode definir o idioma padrão como inglês ou espanhol. Se a sua organização está no Canadá, você pode escolher entre inglês e francês.
 
 ## <a name="supported-languages-in-cloud-voicemail"></a>Idiomas com suporte no Caixa postal na Nuvem
-Para obter uma lista de idiomas com suporte no Caixa postal na Nuvem para Microsoft Teams e Skype for Business, consulte [Caixa postal na Nuvem idiomas compatíveis](languages-for-voicemail-greetings-and-messages.md).
+Para obter uma lista de idiomas com suporte no Caixa postal na Nuvem microsoft Teams e Skype for Business, consulte [Caixa postal na Nuvem idiomas compatíveis](languages-for-voicemail-greetings-and-messages.md).
   
 
 ## <a name="custom-greeting-recorded-by-a-user"></a>Saudação personalizada registrada por um usuário
-Os usuários podem gravar suas próprias saudações personalizadas e fora do escritório. Confira [Teams configurações do cliente da área de](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) trabalho e [verifique Skype for Business caixa postal e opções](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+Os usuários podem gravar suas próprias saudações personalizadas e fora do escritório. Confira [as configurações do cliente da área de](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) trabalho do Teams [e verifique Skype for Business caixa postal e opções](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
 ## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>Saudação de conversão de texto em fala personalizada especificada para um usuário
-O administrador de locatários pode especificar a saudação de texto em fala personalizada e o idioma de prompt para um usuário usando o cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
+O administrador de locatários pode especificar a saudação de texto em fala personalizada e o idioma de prompt para um usuário usando a guia Caixa Postal na página de detalhes do usuário no Centro de administração do Teams ou usando o cmdlet [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) .
 
 ## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>Saudação de conversão de texto em fala personalizada especificada por um usuário
-Os usuários podem especificar suas próprias saudações personalizadas de conversão de texto em fala e o idioma usado para as saudações. Por Microsoft Teams - Os usuários podem alterar a saudação da caixa postal das [Teams do cliente da área de trabalho](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). Por Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em **Idioma do Prompt**. 
+Os usuários podem especificar suas próprias saudações personalizadas de conversão de texto em fala e o idioma usado para as saudações. Para o Microsoft Teams – os usuários podem alterar a saudação da caixa postal das [configurações do cliente da área de trabalho do Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). Por Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em **Idioma do Prompt**. 
 
 
 ## <a name="related-articles"></a>Artigos relacionados

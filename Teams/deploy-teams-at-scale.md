@@ -1,5 +1,5 @@
 ---
-title: Implantar equipes em escala para trabalhadores da linha de frente Microsoft Teams
+title: Implantar equipes em escala para trabalhadores de linha de frente no Microsoft Teams
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: rahuldey
@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 561eaf310201b99ada9cce4dde49746d58d77088
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: feffd8e6f651b4592e789cd24243f01417f1b966
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046020"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240728"
 ---
-# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Implantar equipes em escala para trabalhadores da linha de frente Microsoft Teams
+# <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>Implantar equipes em escala para trabalhadores de linha de frente no Microsoft Teams
 
 > [!NOTE]
-> Esse recurso está atualmente em versão prévia privada. Se você quiser participar da versão prévia privada, entre em contato [conosco em dscale@microsoft.com](mailto:dscale@microsoft.com).
+> Esse recurso está atualmente em versão prévia pública. Se quiser participar, entre em contato conosco [às dscale@microsoft.com.](mailto:dscale@microsoft.com)
+
 
 ## <a name="overview"></a>Visão Geral
  
@@ -51,7 +51,7 @@ A implantação de equipes em escala permite que você:
 ## <a name="how-to-deploy-teams-at-scale"></a>Como implantar equipes em escala
 
 > [!NOTE]
-> Antes de implantar suas equipes, verifique se todos os proprietários de equipes têm uma Teams licença.
+> Antes de implantar suas equipes, verifique se todos os proprietários de equipes têm uma licença do Teams.
 
 Siga estas etapas para implantar um grande número de equipes por vez.
 
@@ -66,7 +66,7 @@ Você precisará criar dois arquivos CSV para cada lote de equipes que implantar
     |**Nome da equipe**|O nome da equipe.|
     |**ID da equipe existente**|Se você estiver adicionando ou removendo usuários de uma equipe existente, especifique a ID da equipe.|
     |**Visibilidade**|Se a equipe é pública (qualquer pessoa em sua organização pode ingressar) ou privada (os usuários precisam de aprovação dos proprietários da equipe para ingressar). As opções são **Pública** e **Privada**.|
-    |**ID do Modelo de Equipe**|Se você estiver criando uma equipe com base em um modelo predefinido ou personalizado, especifique a ID do modelo de equipe. Consulte [Introdução modelos de](get-started-with-teams-templates-in-the-admin-console.md) equipe no centro de administração do Teams para obter uma lista de IDs e modelos de equipe pré-criados. Se você quiser usar o modelo de equipe padrão padrão, deixe isso em branco.|
+    |**ID do Modelo de Equipe**|Se você estiver criando uma equipe com base em um modelo predefinido ou personalizado, especifique a ID do modelo de equipe. Consulte [Introdução aos modelos de equipe no](get-started-with-teams-templates-in-the-admin-console.md) Centro de administração do Teams para obter uma lista de IDs e modelos de equipe pré-criados. Se você quiser usar o modelo de equipe padrão padrão, deixe isso em branco.|
 
 - **Um arquivo CSV que mapeia os usuários que você está adicionando a cada equipe**. Esse arquivo deve conter essas colunas necessárias, na seguinte ordem, começando com a primeira coluna:
 
@@ -120,14 +120,14 @@ Use o ```New-CsBatchTeamsDeployment``` cmdlet para enviar um lote de equipes a s
 
 1. Instale o PowerShell versão 7 ou posterior. Para obter diretrizes passo a passo, consulte [Instalar o PowerShell no Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Execute o PowerShell no modo de administrador.
-1. Execute o seguinte para desinstalar todos os módulos Teams PowerShell instalados anteriormente.
+1. Execute o seguinte para desinstalar qualquer módulo do PowerShell do Teams instalado anteriormente.
 
     ```powershell
     Uninstall-module -Name MicrosoftTeams -Force -Allversions
     ```
 
     Se você receber uma mensagem de erro, já estará definido. Vá para a próxima etapa.
-1. Baixe e instale a [versão mais recente do módulo Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams).
+1. Baixe e instale a [versão mais recente do módulo PowerShell do Teams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 1. Execute o seguinte para se conectar ao Teams.
 
@@ -137,7 +137,7 @@ Use o ```New-CsBatchTeamsDeployment``` cmdlet para enviar um lote de equipes a s
 
     Quando for solicitado, entre usando suas credenciais de administrador.
 
-1. Execute o seguinte para obter uma lista dos comandos no módulo Teams PowerShell.
+1. Execute o seguinte para obter uma lista dos comandos no módulo do PowerShell do Teams.
 
     ```powershell
     Get-Command -Module MicrosoftTeams

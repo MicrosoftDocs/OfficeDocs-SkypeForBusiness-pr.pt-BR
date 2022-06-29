@@ -1,5 +1,5 @@
 ---
-title: Configurar um atendedor automático para Microsoft Teams
+title: Configurar um atendedor automático para o Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,27 +20,27 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Saiba como configurar e gerenciar atendedores automáticos no Microsoft Teams.
-ms.openlocfilehash: 7cfce516946d38f794e9803e5ecfb30c128cb149
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124166"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240940"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
-Os atendedores automáticos permitem que as pessoas liguem para sua organização e naveguem por um sistema de menus para falar com o departamento certo, fila de chamadas, pessoa ou operador. Você pode criar atendedores automáticos para sua organização com o Microsoft Teams de administração ou com o PowerShell.
+Os atendedores automáticos permitem que as pessoas liguem para sua organização e naveguem por um sistema de menus para falar com o departamento certo, fila de chamadas, pessoa ou operador. Você pode criar atendedores automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell.
 
-Verifique se você leu [o Plano para Teams atendedores automáticos e filas](plan-auto-attendant-call-queue.md) de chamadas e seguiu as [](plan-auto-attendant-call-queue.md#getting-started) etapas de introdução antes de seguir os procedimentos neste artigo.
+Verifique se você leu o [Plano para atendedores automáticos do Teams e as filas](plan-auto-attendant-call-queue.md) de [](plan-auto-attendant-call-queue.md#getting-started) chamadas e seguiu as etapas de introdução antes de seguir os procedimentos neste artigo.
 
 Os atendedores automáticos podem direcionar chamadas, com base na entrada dos chamadores, para um dos seguintes destinos:
 
 - **Operador** – o operador definido para o atendedor automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos nesta lista.
 - **Pessoa na organização –** uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado localmente usando Skype for Business Server.
 - **Aplicativo de voz** – outro atendedor automático ou uma fila de chamadas. (Escolha a conta de recurso associada ao atendedor automático ou fila de chamadas ao escolher esse destino.)
-- **Caixa** postal – a caixa postal associada a um grupo Microsoft 365 que você especificar. Você pode escolher se deseja transcrições de caixa postal e "Deixe uma mensagem após o tom". prompt do sistema.
-  - No M365 Administração Center, habilite "Permitir que pessoas de fora da organização enviem email para esta equipe" para o grupo Microsoft 365 que você especificar
-- **Número de telefone externo** - qualquer número de telefone. (Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **Caixa** postal – a caixa de correio de voz associada a um grupo do Microsoft 365 especificado por você. Você pode escolher se deseja transcrições de caixa postal e "Deixe uma mensagem após o tom". prompt do sistema.
+  - No M365 Administração Center, habilite "Permitir que pessoas de fora da organização enviem email para esta equipe" para o grupo do Microsoft 365 especificado
+- **Número de telefone externo** - qualquer número de telefone. Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
 - **Comunicado (arquivo de áudio)** – Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB. O sistema reproduz o comunicado e, em seguida, retorna ao menu atendedor automático.
 - **Comunicado (Digitado)** – digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o comunicado e, em seguida, retorna ao menu atendedor automático.
 
@@ -53,15 +53,15 @@ As etapas para adicionar um atendedor automático são:
 1. Configurar o escopo de discagem.
 1. Configurar contas de recursos.
 
-As etapas descritas no artigo criam atendedores automáticos usando o Teams de administração. Para obter instruções **para criar atendedores automáticos usando o PowerShell**, consulte [Criando atendedores automáticos com cmdlets do PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md).
+As etapas descritas no artigo criam atendedores automáticos usando o centro de administração do Teams. Para obter instruções **para criar atendedores automáticos usando o PowerShell**, consulte [Criando atendedores automáticos com cmdlets do PowerShell](create-a-phone-system-auto-attendant-via-cmdlets.md).
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Siga estas etapas para configurar o atendedor automático
-
-Para configurar um atendedor automático, no centro [de](https://go.microsoft.com/fwlink/p/?linkid=2066851) administração Teams **, expanda** Voz, selecione **Atendedores automáticos** e, em seguida, **selecione Adicionar**.
 
 # <a name="step-1---general-info"></a>[Etapa 1 – Informações gerais](#tab/general-info)
 
 ## <a name="step-1---set-the-auto-attendants-general-information"></a>Etapa 1 – Definir as informações gerais do atendedor automático
+
+Para configurar um atendedor automático, no centro de administração do [Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**, expanda** Voz, selecione **Atendedores automáticos** e, em seguida, **selecione Adicionar**.
 
 1. Digite um nome para o atendedor automático na caixa na parte superior.
 
@@ -78,13 +78,14 @@ Para configurar um atendedor automático, no centro [de](https://go.microsoft.co
 
 Depois de definir as informações gerais do atendedor automático, selecione **Avançar**.
 
+
 # <a name="step-2---basic-call-flow"></a>[Etapa 2 – Fluxo de chamadas básico](#tab/call-flow)
 
 ## <a name="step-2---set-up-the-basic-call-flow"></a>Etapa 2 – Configurar o fluxo de chamada básico
 
 ### <a name="set-a-greeting"></a>Definir uma saudação
 
-- Se você selecionar **Reproduzir um arquivo de áudio**, poderá usar  o botão Upload arquivo para carregar uma mensagem de saudação gravada salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB.
+- Se você selecionar **Reproduzir um arquivo de áudio** , poderá usar o **botão** Carregar arquivo para carregar uma mensagem de saudação gravada salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB.
 
 - Se você selecionar **Digitar uma mensagem** de saudação, o sistema lerá o texto que você digitar (até 1000 caracteres) quando o atendedor automático atender uma chamada.
 
@@ -181,7 +182,7 @@ Depois de adicionar todas as suas horas de feriado, selecione **Avançar**.
 
 O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online ou hospedados localmente usando Skype for Business Server.
 
-Você pode incluir ou excluir usuários específicos selecionando o grupo de  usuários personalizado  em Incluir ou Excluir e escolhendo um ou mais grupos de Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
+Você pode incluir ou excluir usuários específicos selecionando Grupo de usuários  personalizado em  Incluir ou Excluir e escolhendo um ou mais grupos do Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
 
 Se um usuário estiver em ambas as listas, ele será excluído do diretório.
 
@@ -200,7 +201,7 @@ Para adicionar uma conta de recurso, **selecione Adicionar conta** e pesquise a 
 
 Depois de adicionar contas de recursos, selecione **Avançar**.
 
-Consulte [Gerenciar Teams de recursos para](manage-resource-accounts.md) obter mais informações.
+Consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md) para obter mais informações.
 
 # <a name="additional-resources"></a>[Recursos adicionais](#tab/additional-resources)
 
@@ -210,13 +211,13 @@ Consulte [Gerenciar Teams de recursos para](manage-resource-accounts.md) obter m
 
 Consulte os [Pré-requisitos para](plan-auto-attendant-call-queue.md#prerequisites) permitir que os atendedores automáticos transfira chamadas externamente.  Além disso:
 
-- Para uma conta de recurso com [](calling-plans-for-office-365.md) uma licença de Plano de Chamada [ou](operator-connect-plan.md) um número de Conexão do operador, o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
+- Para uma conta de recurso com [](calling-plans-for-office-365.md) uma licença de Plano [](operator-connect-plan.md) de Chamada ou um número de Conexão do Operador, o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código de área][número de telefone]).
 
 - Para uma conta de recurso com uma política de roteamento de voz online de Licença Telefonia do Microsoft Teams e Roteamento Direto, o formato de número de telefone de transferência externa depende das configurações do Controlador de Borda de Sessão [(SBC](direct-routing-connect-the-sbc.md)).
 
 O número de telefone de saída exibido é determinado da seguinte maneira:
 
-- Para o Plano de Chamadas e Conexão do operador números, o número de telefone do chamador original é exibido.
+- Para números de Plano de Chamada e Conexão do Operador, o número de telefone do chamador original é exibido.
 - Para números de Roteamento Direto, o número enviado baseia-se na configuração de PAI (identidade P-Asserted-Identity) no SBC, da seguinte maneira:
   - Se definido como Desabilitado, o número de telefone do chamador original será exibido. Essa é a configuração padrão e recomendada.
   - Se definido como Habilitado, o número de telefone da conta de recurso será exibido.
@@ -230,7 +231,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 1. Selecione **Executar testes** abaixo, o que preencherá o diagnóstico no Centro de Administração do Microsoft 365.
 
    > [!div class="nextstepaction"]
-   > [Executar testes: Teams Atendedor Automático](https://aka.ms/TeamsAADiag)
+   > [Executar testes: Atendedor Automático do Teams](https://aka.ms/TeamsAADiag)
 
 2. No painel Executar diagnóstico, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
 
@@ -240,7 +241,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 
 ### <a name="related-topics"></a>Tópicos relacionados
 
-[Veja o que você obtém com Teams Telefone](./here-s-what-you-get-with-phone-system.md)
+[Veja o que você obtém com o Telefone do Teams](./here-s-what-you-get-with-phone-system.md)
 
 [Obter números de telefone de serviço](./getting-service-phone-numbers.md)
 

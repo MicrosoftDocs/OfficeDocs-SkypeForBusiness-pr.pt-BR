@@ -1,5 +1,5 @@
 ---
-title: Conformidade de comunicação com Microsoft Teams
+title: Conformidade de comunicação com o Microsoft Teams
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: Learning sobre a conformidade de comunicação, parte do conjunto de soluções de risco interno, da perspectiva Microsoft Teams (isso faz parte da funcionalidade de conformidade de comunicação M365).
+description: Aprender sobre a conformidade de comunicação, parte do conjunto de soluções de risco interno, da perspectiva do Microsoft Teams (isso faz parte da funcionalidade de conformidade de comunicação do M365).
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 091fe5eba9d17cefc442978cb3090aaca87844d8
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922642"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240740"
 ---
-# <a name="communication-compliance-with-microsoft-teams"></a>Conformidade de comunicação com Microsoft Teams
+# <a name="communication-compliance-with-microsoft-teams"></a>Conformidade de comunicação com o Microsoft Teams
 
-A Conformidade de Comunicação do Microsoft Purview é uma solução de risco interno no Microsoft 365 que ajuda a minimizar os riscos de comunicação, ajudando você a detectar, capturar e agir em mensagens inadequadas em sua organização.
+Conformidade de Comunicações do Microsoft Purview é uma solução de risco interno no Microsoft 365 que ajuda a minimizar os riscos de comunicação, ajudando você a detectar, capturar e agir em mensagens inadequadas em sua organização.
 
-Por Microsoft Teams, a conformidade de comunicação ajuda a identificar os [](/microsoft-365/compliance/communication-compliance-feature-reference) seguintes tipos de conteúdo inadequado em canais Teams, canais Teams privados ou em chats em grupo e 1:1:
+Para o Microsoft Teams, a conformidade de comunicação [](/microsoft-365/compliance/communication-compliance-feature-reference) ajuda a identificar os seguintes tipos de conteúdo inadequado em canais do Teams, canais privados do Teams ou em chats em grupo e 1:1:
 
 - Linguagem ofensiva, profano e assediada
 - Imagens adultas, geladas e gory
@@ -37,35 +37,35 @@ Para obter mais informações sobre conformidade de comunicação e como configu
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Como usar a conformidade de comunicação no Microsoft Teams
 
-A conformidade e Microsoft Teams comunicação são totalmente integradas e podem ajudar a minimizar os riscos de comunicação em sua organização. Depois de configurar suas primeiras políticas de conformidade de comunicação, você poderá gerenciar ativamente mensagens inadequadas Microsoft Teams conteúdo que é automaticamente sinalizado em alertas.
+A conformidade de comunicação e o Microsoft Teams estão totalmente integrados e podem ajudar a minimizar os riscos de comunicação em sua organização. Depois de configurar suas primeiras políticas de conformidade de comunicação, você poderá gerenciar ativamente mensagens e conteúdo inadequados do Microsoft Teams que são automaticamente sinalizados em alertas.
 
 ### <a name="getting-started"></a>Introdução
 
-A introdução à conformidade de comunicação no Microsoft Teams começa com o planejamento e [](/microsoft-365/compliance/communication-compliance-plan) a criação de políticas predefinidas ou personalizadas para identificar atividades inadequadas do usuário em canais Teams ou em grupos e 1:1. Tenha em mente que você precisará configurar [algumas](/microsoft-365/compliance/communication-compliance-configure) permissões e pré-requisitos básicos como parte do processo de configuração.
+A introdução à conformidade de comunicação no Microsoft Teams começa com [](/microsoft-365/compliance/communication-compliance-plan) o planejamento e a criação de políticas predefinidas ou personalizadas para identificar atividades inadequadas do usuário em canais do Teams ou em grupos e 1:1. Tenha em mente que você precisará configurar [algumas](/microsoft-365/compliance/communication-compliance-configure) permissões e pré-requisitos básicos como parte do processo de configuração.
 
-Teams administradores podem configurar políticas de conformidade de comunicação nos seguintes níveis:
+Os administradores do Teams podem configurar políticas de conformidade de comunicação nos seguintes níveis:
 
-- **Nível de** usuário: as políticas nesse nível se aplicam a um usuário Teams individual ou podem ser aplicadas a todos os Teams em sua organização. Essas políticas abrangem mensagens que esses usuários podem enviar em chats em grupo ou 1:1. As comunicações de chat para os usuários são monitoradas automaticamente em Microsoft Teams em que os usuários são membros.
-- **Teams nível**: as políticas nesse nível se aplicam a um Microsoft Teams, incluindo um canal privado. Essas políticas abrangem mensagens enviadas somente Teams canal.
+- **Nível de** usuário: as políticas nesse nível se aplicam a um usuário individual do Teams ou podem ser aplicadas a todos os usuários do Teams em sua organização. Essas políticas abrangem mensagens que esses usuários podem enviar em chats em grupo ou 1:1. As comunicações de chat para os usuários são monitoradas automaticamente em todos os Microsoft Teams em que os usuários são membros.
+- **Nível do Teams**: as políticas nesse nível se aplicam a um canal do Microsoft Teams, incluindo um canal privado. Essas políticas abrangem apenas as mensagens enviadas no canal do Teams.
 
 ### <a name="report-a-concern-in-microsoft-teams"></a>Relatar uma preocupação no Microsoft Teams
 
 >[!NOTE]
->As mensagens relatadas pelo usuário começarão a estar disponíveis para organizações [](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) licenciadas para conformidade de comunicação e Microsoft Teams a partir de maio de 2022. Esse recurso deve estar disponível para todas as organizações licenciadas até 31 de agosto de 2022.
+>A disponibilidade de mensagens relatadas pelo usuário para organizações [](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) licenciadas e usando a conformidade de comunicação e o Microsoft Teams começou em maio de 2022. Esse recurso estará disponível até 31 de agosto de 2022 para todas as organizações licenciadas e usando a conformidade de comunicação até julho de 2022. Para organizações que começam a usar a conformidade de comunicação após julho de 2022, a disponibilidade da política de mensagens relatadas pelo usuário pode levar até 30 dias a partir da data de seu licenciamento e do primeiro uso da conformidade de comunicação.
 
-A *opção Relatar uma* preocupação Teams mensagens é habilitada por padrão e pode ser controlada por meio Teams de mensagens no centro [de administração Teams.](/microsoftteams/manage-teams-in-modern-portal) Isso permite que os usuários em sua organização enviem mensagens inadequadas para revisão pelos revisores de conformidade de comunicação para a política. Para obter mais informações sobre mensagens relatadas pelo usuário na conformidade de comunicação, consulte [Políticas de conformidade de comunicação](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
+A *opção Relatar uma preocupação* nas mensagens de chat internas do Teams é habilitada por padrão e pode ser controlada por meio de políticas de mensagens do Teams no centro [de administração do Teams](/microsoftteams/manage-teams-in-modern-portal). Isso permite que os usuários em sua organização enviem mensagens de chat internas inadequadas para revisão por revisores de conformidade de comunicação para a política. Para obter mais informações sobre mensagens relatadas pelo usuário na conformidade de comunicação, consulte [Políticas de conformidade de comunicação](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
 ![Menu Relatar uma preocupação.](./media/communication-compliance-report-a-concern-full-menu.png)
 
-Depois de enviar a mensagem para revisão, o usuário recebe uma confirmação do envio em Microsoft Teams. Outros participantes no chat não veem essa notificação.
+Depois de enviar a mensagem para revisão, o usuário recebe uma confirmação do envio no Microsoft Teams. Outros participantes no chat não veem essa notificação.
 
 ![Relate uma confirmação de preocupação.](./media/communication-compliance-report-a-concern.png)
 
-Os usuários em sua organização obtêm automaticamente a política global, a menos que você crie e atribua uma política personalizada. Edite as configurações na política global ou crie e atribua uma ou mais políticas personalizadas para ativar ou desativar esse recurso. Para obter mais informações, consulte [Gerenciar políticas de mensagens Teams](/microsoftteams/messaging-policies-in-teams).
+Os usuários em sua organização obtêm automaticamente a política global, a menos que você crie e atribua uma política personalizada. Edite as configurações na política global ou crie e atribua uma ou mais políticas personalizadas para ativar ou desativar esse recurso. Para obter mais informações, consulte [Gerenciar políticas de mensagens no Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir em mensagens inadequadas em Microsoft Teams
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir em mensagens inadequadas no Microsoft Teams
 
-Depois de configurar suas políticas e receber alertas de conformidade de comunicação para Microsoft Teams mensagens, é hora de os revisores de conformidade em sua organização agirem sobre essas mensagens. Isso também incluirá mensagens relatadas pelo usuário, se habilitadas para sua organização. Os revisores podem ajudar a proteger sua organização examinando alertas de conformidade de comunicação e removendo mensagens sinalizadas da exibição Microsoft Teams.
+Depois de configurar suas políticas e receber alertas de conformidade de comunicação para mensagens do Microsoft Teams, é hora de os revisores de conformidade em sua organização agirem sobre essas mensagens. Isso também incluirá mensagens relatadas pelo usuário, se habilitadas para sua organização. Os revisores podem ajudar a proteger sua organização examinando alertas de conformidade de comunicação e removendo mensagens sinalizadas da exibição no Microsoft Teams.
 
 ![Remova uma mensagem no Teams.](./media/communication-compliance-remove-teams-message.png)
 
