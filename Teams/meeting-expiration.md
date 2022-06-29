@@ -1,5 +1,5 @@
 ---
-title: Políticas de reunião e expiração de reunião Microsoft Teams
+title: Políticas de reunião e expiração de reunião no Microsoft Teams
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -16,24 +16,24 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião Microsoft Teams.
-ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Saiba como usar as configurações de política de reunião para controlar a expiração da reunião no Microsoft Teams.
+ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675353"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529683"
 ---
-# <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião Microsoft Teams
+# <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Políticas de reunião e expiração de reunião no Microsoft Teams
 
-[As políticas](meeting-policies-overview.md) de reunião Microsoft Teams são usadas para controlar se os usuários em sua organização podem iniciar e agendar reuniões e os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Gerencie políticas de reunião no centro de administração do Microsoft Teams ou usando os cmdlets [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy do PowerShell.
+[As políticas de](meeting-policies-overview.md) reunião no Microsoft Teams são usadas para controlar se os usuários em sua organização podem iniciar e agendar reuniões e os recursos que estão disponíveis para os participantes da reunião para reuniões agendadas pelos usuários. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou usando cmdlets [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy do PowerShell.
 
-As configurações de política de reunião que controlam se os usuários podem iniciar e agendar reuniões e também controlar a expiração de reuniões agendadas pelos usuários. Quando um link de ingresso na reunião e a ID de conferência de uma reunião expiram, ninguém pode ingressar na reunião. As configurações de política de reunião a seguir determinam se os usuários podem iniciar e agendar reuniões Teams. Discutiremos as configurações da reunião neste artigo.
+As configurações de política de reunião que controlam se os usuários podem iniciar e agendar reuniões e também controlar a expiração de reuniões agendadas pelos usuários. Quando um link de ingresso na reunião e a ID de conferência de uma reunião expiram, ninguém pode ingressar na reunião. As configurações de política de reunião a seguir determinam se os usuários podem iniciar e agendar reuniões no Teams. Discutiremos as configurações da reunião neste artigo.
 
 - [Reunir-se agora em canais](meeting-policies-in-teams-general.md#meet-now-in-channels): controla se um usuário pode iniciar uma reunião improvisada em um canal.
 - [Agendamento de reunião de canal](meeting-policies-in-teams-general.md#channel-meeting-scheduling): controla se um usuário pode agendar uma reunião em um canal.
 - [Agendamento de reunião privada](meeting-policies-in-teams-general.md#private-meeting-scheduling): controla se um usuário pode agendar uma reunião privada no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
-- [Outlook adicionar: controla se](meeting-policies-in-teams-general.md#outlook-add-in) um usuário pode agendar uma reunião privada do Outlook. Uma reunião é particular quando não é publicada em um canal de uma equipe.
+- [Suplemento do Outlook](meeting-policies-in-teams-general.md#outlook-add-in): controla se um usuário pode agendar uma reunião privada do Outlook. Uma reunião é particular quando não é publicada em um canal de uma equipe.
 - [Reunir-se agora em reuniões privadas](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): controla se um usuário pode iniciar uma reunião privada improvisada.
 
 Por padrão, essas configurações estão ativadas. Quando qualquer uma dessas configurações é desativada, qualquer usuário que recebe a política não pode iniciar ou agendar novas reuniões desse tipo. Ao mesmo tempo, os links de ingresso na reunião e as IDs de conferência de todas as reuniões existentes desse tipo que o usuário iniciou ou agendou anteriormente expiram.
@@ -63,7 +63,7 @@ Aqui está um resumo de como funciona a expiração da reunião para cada uma da
 |Se você quiser...&nbsp;&nbsp; |Faça isso&nbsp;&nbsp;&nbsp;&nbsp;  |Comportamento de ingresso na reunião&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
 |Expirar reuniões privadas agora iniciadas por um usuário&nbsp;&nbsp;|Desative **o Meet agora em reuniões particulares**.&nbsp;&nbsp;|Ninguém pode ingressar em **reuniões privadas do Meet agora** iniciadas pelo usuário.|
-|Expirar reuniões privadas agendadas por um usuário&nbsp;&nbsp;|Desative **o agendamento de reunião privada**  **e desative Outlook suplemento**. &nbsp;&nbsp;|Ninguém pode ingressar em reuniões privadas agendadas pelo usuário. Isso impede que as pessoas ingressem nas seguintes reuniões:<ul><li>Reuniões particulares que ocorreram no passado.</li><li>Reuniões particulares agendadas para o futuro e que ainda não ocorreram.</li><li>Instâncias futuras de reuniões privadas recorrentes.</li></ul><br>O **agendamento de** reuniões **particulares e Outlook suplemento** devem estar desativados para expirar as reuniões privadas agendadas por um usuário. Se uma configuração estiver desativada e a outra estiver ativada, os links de ingresso na reunião e as IDs de conferência das reuniões existentes permanecerão ativos e não expiram.|
+|Expirar reuniões privadas agendadas por um usuário&nbsp;&nbsp;|Desative **o agendamento de reunião** _privada e_ **desative o suplemento do Outlook**. &nbsp;&nbsp;|Ninguém pode ingressar em reuniões privadas agendadas pelo usuário. Isso impede que as pessoas ingressem nas seguintes reuniões:<ul><li>Reuniões particulares que ocorreram no passado.</li><li>Reuniões particulares agendadas para o futuro e que ainda não ocorreram.</li><li>Instâncias futuras de reuniões privadas recorrentes.</li></ul><br>O **agendamento de reuniões privadas** **e o suplemento do Outlook** devem estar desativados para expirar reuniões privadas agendadas por um usuário. Se uma configuração estiver desativada e a outra estiver ativada, os links de ingresso na reunião e as IDs de conferência das reuniões existentes permanecerão ativos e não expiram.|
 |Expirar reuniões **do canal Reunir agora** iniciadas por um usuário&nbsp;&nbsp;|Desative **Reunir agora nos canais e** _desative_ o **agendamento de reunião do Canal**.&nbsp;&nbsp;|Ninguém pode ingressar no canal **Reunir agora reuniões** iniciadas pelo usuário.|
 |Expirar reuniões de canal agendadas por um usuário&nbsp;&nbsp;|Desative o **agendamento de reunião do Canal**.&nbsp;&nbsp;|Ninguém pode ingressar em reuniões de canal agendadas pelo usuário. Isso impede que as pessoas ingressem nas seguintes reuniões:<ul><li>Reuniões de canal que ocorreram no passado.</li><li>Reuniões de canal agendadas para o futuro e que ainda não ocorreram.</li><li>Instâncias futuras de reuniões de canal recorrentes.</li></ul>|
 
@@ -77,26 +77,26 @@ Se você quiser que as pessoas acessem reuniões que foram agendadas anteriormen
 
 ## <a name="changes-to-meeting-expiration"></a>Alterações na expiração da reunião
 
-Todas as TMRs (Teams de reunião) recém-criadas terão uma expiração padrão de 120 dias. Isso é ativado por padrão para todos os locatários. Isso significa que, por padrão, todas as TMRs criadas depois que esse recurso foi ativado serão excluídas 120 dias após a data de criação. Os administradores também podem definir reuniões para **nunca expirar automaticamente**. O OneDrive e SharePoint monitorarão a data de validade definida em todas as TMRs e moverão automaticamente as TMRs para a lixeira na data de validade.
+Todas as TMRs (gravações de reunião) recém-criadas do Teams terão uma expiração padrão de 120 dias. Isso é ativado por padrão para todos os locatários. Isso significa que, por padrão, todas as TMRs criadas depois que esse recurso foi ativado serão excluídas 120 dias após a data de criação. Os administradores também podem definir reuniões para **nunca expirar automaticamente**. O sistema OneDrive e SharePoint monitorará a data de validade definida em todas as TMRs e moverá automaticamente as TMRs para a lixeira na data de validade.
 
 > [!NOTE]
-> Uma cópia da transcrição da reunião é salva OneDrive SharePoint uma segunda cópia é salva Exchange armazenamento temporário. A cópia do OSDP expira quando o TMR expira automaticamente.
+> Uma cópia da transcrição da reunião é salva no SharePoint do OneDrive e uma segunda cópia é salva no Exchange no armazenamento temporário. A cópia do OSDP expira quando o TMR expira automaticamente.
 
 A expiração automática da reunião é um mecanismo leve de manutenção para reduzir a desordem de armazenamento criada por TMRs mais antigas. Em média, em todos os clientes, 96% das TMRs não são observadas após 60 dias e 99% não são observadas após 110 dias. Acreditamos que quase todos os clientes se beneficiarão da carga de armazenamento reduzida em seu locatário removendo gravações que provavelmente não serão observadas novamente após 60 dias. Nossa meta é fornecer uma experiência o mais limpa possível para todos os clientes por padrão.
 
-Use a expiração da reunião para limitar o OneDrive ou SharePoint para o consumo de armazenamento em nuvem orientado por Teams de reunião. Uma gravação típica de reunião consome cerca de 400 MB por hora de gravação.
+Use a expiração da reunião para limitar o OneDrive ou o SharePoint para consumo de armazenamento em nuvem orientado pelos registros de reunião do Teams. Uma gravação típica de reunião consome cerca de 400 MB por hora de gravação.
 
 > [!NOTE]
 > A data de expiração padrão máxima para usuários A1 é de 30 dias.
 
 ### <a name="expiration-date"></a>Data de validade
 
-- A data de expiração é calculada como  o dia em que ela é criada mais o número padrão de dias definido na política de Teams **pelo administrador**.
+- A data de validade é calculada **como o dia** em que é criada, além do número padrão de dias definido na política **do Teams pelo administrador**.
 - A reprodução não afeta a data de validade.
 
 ### <a name="change-the-default-expiration-date"></a>Alterar a data de validade padrão
 
-Os administradores podem editar a configuração de expiração padrão no PowerShell ou no Teams de administração. As alterações só afetarão  as TMRs recém-criadas desse ponto em diante. Ele não afetará as gravações criadas antes dessa data. Os administradores não podem alterar a data de validade em TMRs existentes. Isso é feito para proteger a decisão do usuário que possui a TMR. As reuniões e chamadas podem ser controladas por essa configuração.
+Os administradores podem editar a configuração de expiração padrão no PowerShell ou no Centro de administração do Teams. As alterações só afetarão  as TMRs recém-criadas desse ponto em diante. Ele não afetará as gravações criadas antes dessa data. Os administradores não podem alterar a data de validade em TMRs existentes. Isso é feito para proteger a decisão do usuário que possui a TMR. As reuniões e chamadas podem ser controladas por essa configuração.
 
 O valor da data de validade pode ser definido da seguinte maneira:
 
@@ -110,7 +110,7 @@ Exemplo de comando do PowerShell:
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 ```
 
-Você pode definir a data de validade no centro Teams de administração em **Políticas de reunião.** Depois de ativar as **Reuniões expirarem automaticamente,** você terá a opção de definir uma expiração de gravação.
+Você pode definir a data de validade no Centro de administração do Teams em **Políticas de reunião.** Depois de ativar as **Reuniões expirarem automaticamente,** você terá a opção de definir uma expiração de gravação.
 
 ![Administração de tela central da política de expiração da reunião.](media/meeting-expiration-policy.jpg)
 
@@ -120,13 +120,13 @@ Você pode definir a data de validade no centro Teams de administração em **Po
 
 Não, você não deve confiar nisso para proteção legal, pois os usuários finais podem modificar a data de validade de todas as gravações que eles controlam.
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Uma política de retenção e/ou exclusão que eu defini no Centro de conformidade de segurança & substituirá a configuração Teams de expiração da gravação da reunião?
+#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Uma política de retenção e/ou exclusão que eu defina no Centro de conformidade de segurança & substituirá a configuração de expiração de gravação de reunião do Teams?
 
 Sim, todas as políticas definidas no centro de conformidade terão precedência total.
 
 Por exemplo:
 
-- Se você tiver uma política que diz que todos os arquivos em um site devem ser retidos por 100 dias e a configuração de expiração para uma gravação de reunião do Teams for de 30 dias, a gravação será mantida por 100 dias completos.
+- Se você tiver uma política que diz que todos os arquivos em um site devem ser mantidos por 100 dias e a configuração de expiração para uma gravação de reunião do Teams for de 30 dias, a gravação será mantida por 100 dias completos.
 - Se você tiver uma política de exclusão que diz que todas as gravações de reunião do Teams serão excluídas após cinco dias e você tiver uma configuração de expiração para uma gravação de reunião do Teams de 30 dias, a gravação será excluída após cinco dias.
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Esse recurso aplicará a retenção de arquivos?
@@ -142,15 +142,15 @@ Não, os arquivos não serão retidos devido a esse recurso ou suas configuraç�
 
 É recomendável usar as políticas de retenção e/ou exclusão de segurança e/ou exclusão. Essa oferta é destinada a resolver questões legais administrativas e políticas complexas orientadas por SLA.
 
-O recurso de expiração automática destina-se exclusivamente a um mecanismo de manutenção leve para reduzir a desordem de armazenamento criada com base em Teams de reuniões antigas.
+O recurso de expiração automática destina-se exclusivamente a um mecanismo de manutenção leve para reduzir a confusão de armazenamento criada a partir de gravações de reuniões antigas do Teams.
 
 ### <a name="will-future-tmrs-migrated-from-classic-stream-after-this-feature-is-released-have-auto-expiration-applied-to-them-too"></a>As TMRs futuras migrados do Fluxo Clássico após o lançamento desse recurso também terão a expiração automática aplicada a elas?
 
 Não, as TMRs migradas não virão com uma expiração definida. Em vez disso, incentivamos os administradores a migrar apenas as TMRs que desejam reter. Mais detalhes serão fornecidos na documentação de migração.
 
-### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>Como esse recurso é diferente da mensagem de expiração que vejo quando um carregamento de TMR para OneDrive e SharePoint falha?
+### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>Como esse recurso é diferente da mensagem de expiração que vejo quando um carregamento de TMR no OneDrive e no SharePoint falha?
 
-Quando uma gravação não é carregada no OneDrive ou no SharePoint, o aplicativo Teams exibe uma mensagem no chat de que os usuários têm até 21 dias para baixar a TMR antes que ela seja excluída permanentemente do servidor Teams. Essa experiência de expiração existente devido a carregamentos TMR com falha não está relacionada ao OneDrive e SharePoint recurso de expiração automática que está sendo discutido no documento de ajuda.
+Quando uma gravação não é carregada no OneDrive ou no SharePoint, o aplicativo Teams exibe uma mensagem no chat que os usuários têm até 21 dias para baixar a TMR antes que ela seja excluída permanentemente do servidor do Teams. Essa experiência de expiração existente devido a carregamentos de TMR com falha não está relacionada ao recurso de expiração automática do OneDrive e do SharePoint que está sendo discutido no documento de ajuda.
 
 ### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Como fazer a distribuição de reprodução TMR para que eu saiba qual deve ser o padrão de expiração automática ideal para meu locatário?
 
@@ -167,7 +167,7 @@ Você verá estatísticas de arquivo que mostram:
 
 ### <a name="when-will-the-file-be-deleted"></a>Quando o arquivo será excluído?
 
-O arquivo será excluído dentro de cinco dias a partir da data de validade, embora essa não seja uma garantia estrita. O proprietário do arquivo receberá uma notificação por email quando a gravação expirar e será direcionado para a lixeira para recuperar a gravação.
+A gravação geralmente é excluída dentro de um dia após a data de validade, mas em instâncias raras pode levar até cinco dias. O proprietário do arquivo receberá uma notificação por email quando a gravação expirar e será direcionado para a lixeira para recuperar a gravação.
 
 > [!NOTE]
 > Na data de validade, a gravação é movida para a lixeira e o campo de data de validade é limpo. Se você recuperar a gravação da lixeira, ela não será excluída por esse recurso novamente porque a data de validade foi desmarcada.

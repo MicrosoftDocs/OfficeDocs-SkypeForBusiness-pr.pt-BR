@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas no Microsoft Teams. As filas de chamadas fornecem uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 6761fc7c6864b03f66ff56df3fc419e6e8aa38d6
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124386"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494688"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -41,7 +41,7 @@ As filas de chamada fornecem:
 - Roteamento de chamadas, na ordem *Primeiro a Entrar, Primeiro a Sair* (PEPS), para os agentes.
 - Opções de administração para estouro da fila e tempo limite.
 
-Antes de seguir os procedimentos deste artigo, certifique-se de ter lido o Plano para Teams atendedores [automáticos e filas](plan-auto-attendant-call-queue.md) de chamadas e seguiu as etapas [de introdução](plan-auto-attendant-call-queue.md#getting-started).
+Antes de seguir os procedimentos neste artigo, verifique se você leu o Plano para atendedores [automáticos do Teams e as filas](plan-auto-attendant-call-queue.md) de chamadas e seguiu as etapas [de introdução](plan-auto-attendant-call-queue.md#getting-started).
 
 As etapas para configurar uma fila de chamadas incluem:
 
@@ -52,7 +52,7 @@ As etapas para configurar uma fila de chamadas incluem:
 1. Definir tratamento de estouro de chamada
 1. Definir tratamento de tempo limite de chamada
 
-As etapas descritas no artigo criam filas de chamadas usando o Teams de administração. Para obter instruções para criar filas de chamadas usando o PowerShell, consulte [Criando filas de chamadas com cmdlets do PowerShell](create-a-phone-system-call-queue-via-cmdlets.md).
+As etapas descritas no artigo criam filas de chamadas usando o Centro de administração do Teams. Para obter instruções para criar filas de chamadas usando o PowerShell, consulte [Criando filas de chamadas com cmdlets do PowerShell](create-a-phone-system-call-queue-via-cmdlets.md).
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>Siga estas etapas para configurar sua fila de chamadas
 
@@ -60,7 +60,7 @@ As etapas descritas no artigo criam filas de chamadas usando o Teams de administ
 
 ## <a name="step-1-set-up-general-information"></a>Etapa 1: Configurar informações gerais
 
-Para configurar uma fila de chamadas, no centro [de](https://go.microsoft.com/fwlink/p/?linkid=2066851) administração Teams **, expanda** Voz, selecione **Filas de chamadas** e, em seguida, **selecione Adicionar**.
+Para configurar uma fila de chamadas, no centro de administração do [Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**, expanda** Voz, selecione **Filas de chamadas** e, em seguida, **selecione Adicionar**.
 
 Digite um nome para a fila de chamadas na caixa na parte superior.
 
@@ -87,11 +87,11 @@ Se você precisar criar uma conta de recurso:
 
 Os agentes verão o nome da conta de recurso quando receberem uma chamada de entrada.
 
-Para obter mais informações, consulte [Gerenciar Teams de recursos](manage-resource-accounts.md).
+Para obter mais informações, consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md).
 
 ### <a name="assign-a-calling-id-optional"></a>Atribuir uma ID de chamada (opcional)
 
-**Disponível para usuários da área Teams de chamada colaborativa/canal e usuários Teams cliente móvel com filas de chamadas padrão.**
+**Disponível para usuários da área de trabalho de chamada colaborativa/canal do Teams e usuários do cliente móvel do Teams com filas de chamadas padrão.**
 
 Você pode atribuir números de identificação de chamadas de saída para os agentes especificando uma ou mais contas de recurso com um número de telefone. Os agentes podem selecionar qual número de ID do chamador de saída usar com cada chamada de saída que fizerem. Dentro do Aplicativo de Chamadas, os agentes podem usar o número da Fila de Chamadas (CQ) /Atendedor Automático (AA) ou seu próprio DID (Direct InWard Dial) pessoal.
 
@@ -99,7 +99,7 @@ Você pode atribuir números de identificação de chamadas de saída para os ag
 > A conta de recurso usada para fins de ID de chamada deve ter um **sistema Telefonia do Microsoft Teams –** licença de usuário virtual e uma das seguintes atribuídas:
 >
 > - Uma licença do Plano de Chamadas e um número de telefone atribuído
-> - Um Conexão do operador de telefone atribuído
+> - Um número de telefone do Operator Connect atribuído
 > - Uma política de roteamento de voz online (atribuição de número de telefone é opcional ao usar o Roteamento Direto)
 
 1. Em **Atribuir ID de chamada**, selecione o **botão** Adicionar.
@@ -122,7 +122,7 @@ Se você não tiver uma conta de recurso com um número de telefone atribuído:
 Depois de criar essa nova conta de recurso para a ID de chamada, você ainda precisará:
 
 - Atribuir uma [Telefonia do Teams Padrão – licença de usuário virtual](manage-resource-accounts.md#assign-a-license)
-- Atribuir uma licença do Plano de Chamada da Microsoft, atribuir um número Conexão do operador telefone ou atribuir uma política de roteamento de voz online para Roteamento Direto
+- Atribuir uma licença do Plano de Chamada da Microsoft, atribuir um número de telefone do Operator Connect ou atribuir uma política de roteamento de voz online para Roteamento Direto
 - Atribua [o número de telefone de serviço à conta de recurso](manage-resource-accounts.md#assign-a-service-number), se você estiver usando o Plano de Chamadas da Microsoft
 
 ### <a name="set-the-call-queue-language"></a>Definir o idioma da fila de chamadas
@@ -141,13 +141,13 @@ Especifique se você deseja reproduzir uma *saudação* para os chamadores quand
 
 Se você selecionar **Reproduzir um** arquivo de áudio, deverá carregar um arquivo MP3, WAV ou WMA contendo a saudação que deseja reproduzir. A gravação carregada não pode ser maior do que 5 MB.
 
-Teams fornece música padrão aos chamadores enquanto eles *estão em espera em uma fila*.
+O Teams fornece música padrão para os chamadores enquanto eles *estão em espera em uma fila*.
 
 - A música padrão fornecida nas filas de chamadas do Teams é livre de royalties pagáveis pela organização.
 - Se você quiser reproduzir um arquivo de áudio específico, escolha **Reproduzir um arquivo de áudio** e carregue um arquivo MP3, WAV ou WMA.
 
 > [!NOTE]
-> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço Microsoft Teams, que pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os proprietários de direitos relevantes, que podem incluir artistas, atores,  artistas, músicos, compositores, compositores, gravadoras, editores de música, sindicatos, grêmio, sociedades de direitos, organizações de gestão coletiva e quaisquer outras partes que têm, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
+> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço do Microsoft Teams, que pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os proprietários de direitos relevantes, que podem incluir artistas,  atores, artistas, músicos, compositores, compositores, gravadoras, editores de música, sindicatos, grêmio, sociedades de direitos, organizações de gestão coletiva e quaisquer outras partes que são proprietários, controlam ou licenciam os direitos autorais de música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
 
 Depois de selecionar uma saudação e música em espera, selecione o botão Avançar  na parte inferior da página Adicionar **uma fila de** chamadas.
 
@@ -157,19 +157,19 @@ Depois de selecionar uma saudação e música em espera, selecione o botão Avan
 
 Examine os [pré-requisitos para adicionar agentes a uma fila de chamadas](plan-auto-attendant-call-queue.md#prerequisites).
 
-### <a name="teams-channel"></a>Teams canal
+### <a name="teams-channel"></a>Canal do Teams
 
-Você pode adicionar até 200 agentes por meio de um Teams canal. Você deve ser um membro da equipe ou o criador ou proprietário do canal para adicionar um canal à fila.
+Você pode adicionar até 200 agentes por meio de um canal do Teams. Você deve ser um membro da equipe ou o criador ou proprietário do canal para adicionar um canal à fila.
 
-Se você quiser usar [um canal Teams para gerenciar a fila](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
+Se você quiser usar [um canal do Teams para gerenciar a fila](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
 
 1. Selecione o **botão de opção Escolher** uma equipe e **selecione Adicionar um canal**.
 1. Pesquise a equipe que você deseja usar, selecione-a e selecione **Adicionar**.
 1. Selecione o canal que você deseja usar (há suporte apenas para canais padrão) e selecione **Aplicar**.
 
-Os seguintes clientes têm suporte ao usar um canal Teams para filas de chamadas:
+Os seguintes clientes têm suporte ao usar um canal do Teams para filas de chamadas:
 
-- Microsoft Teams Windows cliente
+- Cliente Windows do Microsoft Teams
 - Cliente Microsoft Teams para Mac
 
 > [!NOTE]
@@ -206,14 +206,17 @@ Para **adicionar um grupo** à fila:
 - A versão mais recente do cliente de área de trabalho do Microsoft Teams, do aplicativo Android ou do aplicativo iOS
 - Telefonia do Microsoft Teams versão 1449/1.0.94.2020051601 ou posterior
   
-As contas Teams agentes devem ser definidas para o modo TeamsOnly. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas. Recomendamos habilitar o modo de conferência para suas filas de chamadas se os agentes estão usando clientes compatíveis.
+As contas do Teams dos agentes devem ser definidas para o modo TeamsOnly. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas. Recomendamos habilitar o modo de conferência para suas filas de chamadas se os agentes estão usando clientes compatíveis.
 
 > [!NOTE]
 > Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
 >
 > Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de Skype for Business Server.
 > 
-> O modo de conferência será necessário Teams os usuários precisarem consultar/transferir chamadas com filas de chamadas.
+> O modo de conferência será necessário se os usuários do Teams precisarem consultar/transferir chamadas com filas de chamadas.
+>
+> Os agentes podem ouvir a música configurada em espera na fila por até 2 segundos ao ingressar pela primeira vez na chamada.
+
 
 > [!TIP]
 > Definir **o modo de conferência** **como Ativado** é a configuração recomendada.
@@ -259,12 +262,6 @@ Se um agente optar por não receber chamadas, ele não será incluído na lista 
 
 Recomendamos ativar o **roteamento baseado em presença**.
 
-### <a name="call-agents-can-opt-out-of-taking-calls"></a>Os agentes de chamada podem recusar a chamada
-
-Você pode especificar se os agentes de chamada têm a capacidade de recusar chamadas ou não.
-
-Recomendamos a ativação **de agentes de chamada que podem recusar a execução de chamadas**.
-
 > [!NOTE]
 > Quando **o ocioso** mais longo é selecionado como o método de roteamento, o roteamento baseado em presença é necessário e habilitado automaticamente, embora a  alternância de roteamento baseado em presença esteja desativada e esmaeciada.
 >
@@ -273,6 +270,12 @@ Recomendamos a ativação **de agentes de chamada que podem recusar a execução
 > Ao usar o **roteamento** baseado em presença, pode haver ocasiões em que um agente recebe uma chamada da fila logo após ficar indisponível ou um pequeno atraso ao receber uma chamada da fila depois de se tornar disponível.
 >
 > Os agentes que usam o cliente do Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado. Se você tiver agentes que usam o Skype for Business, não habilite o roteamento de chamadas baseado em presença.
+
+### <a name="call-agents-can-opt-out-of-taking-calls"></a>Os agentes de chamada podem recusar a chamada
+
+Você pode especificar se os agentes de chamada têm a capacidade de recusar chamadas ou não.
+
+Recomendamos a ativação **de agentes de chamada que podem recusar a execução de chamadas**.
 
 ### <a name="agent-alert-time"></a>Tempo de alerta do agente
 
@@ -296,7 +299,7 @@ Você pode optar por **desconectar** a chamada ou **redirecioná-la** para qualq
 
 Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila.
 
-Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-call-queue.md#prerequisites) e as [transferências](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de número de telefone externo – detalhes técnicos para formatação de número.
+Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-call-queue.md#prerequisites) e as [transferências](create-a-phone-system-auto-attendant.md?tabs=additional-resources) de número de telefone externo – detalhes técnicos para formatação de número.
 
 > [!NOTE]
 > Se o número máximo de chamadas for definido como 0, a mensagem de saudação não será reproduzida.
@@ -317,7 +320,7 @@ Você pode optar por **desconectar** a chamada ou **redirecioná-la** para um do
 
 Por exemplo, você pode pedir ao chamador que deixe uma mensagem de voz para os agentes na fila.
 
-Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-call-queue.md#prerequisites) e as [transferências](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) de número de telefone externo - detalhes técnicos para formatação de número.
+Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-call-queue.md#prerequisites) e as [transferências](create-a-phone-system-auto-attendant.md?tabs=additional-resources) de número de telefone externo – detalhes técnicos para formatação de número.
 
 > [!NOTE]
 > Ao redirecionar para a caixa postal compartilhada, certifique-se de permitir que as pessoas de fora dessa organização enviem **emails** para essa equipe habilitada para a equipe/grupo no centro de Administração Microsoft 365.
@@ -364,13 +367,13 @@ As seguintes configurações são recomendadas:
 
 ### <a name="notes"></a>Observações
 
-1. Microsoft Teams Windows cliente, Microsoft Teams Mac, Microsoft Teams na Infraestrutura de Área de Trabalho Virtualizada.
-2. Microsoft Teams iPhone aplicativo, Microsoft Teams Android aplicativo.
+1. Cliente Windows do Microsoft Teams, Cliente Mac do Microsoft Teams, Microsoft Teams na Infraestrutura de Área de Trabalho Virtualizada.
+2. Aplicativo Microsoft Teams para iPhone, aplicativo Do Microsoft Teams para Android.
 3. Selecionar o idle mais longo para o método de roteamento de agente habilitará automaticamente o roteamento baseado em presença.
-4. Só é possível definir a ordem ao adicionar usuários individuais como parte das filas de chamadas padrão. Quando uma lista de distribuição ou Teams canal é usada, a ordem será alfabética.
+4. Só é possível definir a ordem ao adicionar usuários individuais como parte das filas de chamadas padrão. Quando uma lista de distribuição ou canal do Teams é usado, a ordem será alfabética.
 5. Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
 6. Telefonia do Microsoft Teams apenas.
-7. Por meio da página Configurações Portal do Usuário em [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
+7. Por meio da página do Portal de Configurações do Usuário em [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Há suporte apenas para canais públicos.
 9. Atendedores Automáticos e Filas de Chamadas não podem transferir chamadas entre métodos de conectividade PSTN.
 
@@ -387,12 +390,12 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
 - Cliente Skype for Business para iPad (versão 6.16.0 e posterior)
 - Cliente Microsoft Teams para Windows (versões 32-bit e 64-bit)
 - Cliente Microsoft Teams para Mac
-- Microsoft Teams [Virtualized Desktop Infrastructure](teams-for-vdi.md) (Windows Virtual Desktop, Citrix e VMware)
+- Microsoft Teams na [Infraestrutura de Área de Trabalho Virtualizada](teams-for-vdi.md) (Área de Trabalho Virtual do Windows, Citrix e VMware)
 - Aplicativo Microsoft Teams para iPhone
 - Aplicativo Microsoft Teams para Android
 
   > [!NOTE]
-  > As filas de chamadas que recebem um número de roteamento direto não têm suporte para clientes Skype for Business, clientes Lync ou para Telefones IP do Skype for Business como agentes. O Teams cliente tem suporte apenas com um modo de [coexistência de Teams somente](setting-your-coexistence-and-upgrade-settings.md).
+  > As filas de chamadas que recebem um número de roteamento direto não têm suporte para clientes Skype for Business, clientes Lync ou para Telefones IP do Skype for Business como agentes. O cliente do Teams só tem suporte com um [modo de coexistência somente do Teams](setting-your-coexistence-and-upgrade-settings.md).
 
 ## <a name="call-queue-diagnostic-tool"></a>Ferramenta de Diagnóstico de Fila de Chamadas
 
@@ -401,7 +404,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 1. Selecione **Executar testes** abaixo, o que preencherá o diagnóstico no Centro de Administração do Microsoft 365.
 
    > [!div class="nextstepaction"]
-   > [Executar testes: Teams fila de chamadas](https://aka.ms/TeamsCallQueueDiag)
+   > [Executar testes: Fila de Chamadas do Teams](https://aka.ms/TeamsCallQueueDiag)
 
 2. No painel Executar diagnóstico, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
 

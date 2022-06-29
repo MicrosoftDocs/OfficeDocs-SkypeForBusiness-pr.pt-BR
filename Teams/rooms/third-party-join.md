@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este artigo discute como configurar sua organização e Salas do Teams dispositivos para dar suporte à ingresso em reuniões de terceiros no Cisco Webex e no Zoom.
-ms.openlocfilehash: 93b853e8b9d0a692062bb0c81d670c42701ca415
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 23eefeb564e3333b1bc2105a1fc4d57a0ff41bbe
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045410"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529673"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Habilitar Salas do Teams dispositivos para ingressar em reuniões de terceiros
 
@@ -26,12 +26,12 @@ Salas do Microsoft Teams dispositivos dão suporte a uma experiência de toque �
 
 Dispositivos e serviços com suporte:
 
-- MTR no Windows, todos os modelos certificados – Zoom, Cisco WebEx
+- MTR no Windows, todos os modelos certificados – Zoom, Cisco Webex
 
-- MTR em Android, Poly, Yealink e Logitech certificados – Zoom
+- MTR em modelos certificados para Android, Poly, Yealink e Logitech – Zoom
 
 > [!NOTE]
-> Para ingressar em uma reunião do Cisco WebEx de um dispositivo Salas do Teams, a reunião da Cisco precisa ser hospedada no WebEx Meetings Pro usando o aplicativo Web Cisco WebEx versão WBS 40.7 ou posterior. 
+> Para ingressar em uma reunião do Cisco Webex de um dispositivo Salas do Teams, a reunião da Cisco precisa ser hospedada no Webex Meetings Pro usando o cisco Webex web application versão WBS 40.7 ou posterior. 
 
 Antes de ingressar em reuniões de terceiros Salas do Teams, você precisa fazer o seguinte:
 
@@ -45,7 +45,7 @@ As seções a seguir mostram como concluir cada uma dessas etapas.
 
 A primeira coisa que você precisa fazer para habilitar uma experiência de ingresso com um toque nas Salas de Equipe é definir as regras de processamento de calendário para a caixa de correio da sala de Exchange Online do dispositivo. A caixa de correio da sala precisa permitir reuniões externas e manter o corpo e o assunto da mensagem para que ele possa ver a URL necessária para ingressar na reunião de terceiros. Para definir essas opções de caixa de correio de sala usando o cmdlet [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing.) , faça o seguinte:
 
-1. Conexão para Exchange Online PowerShell. Para obter mais informações, consulte Conexão para Exchange Online [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) com autenticação básica ou Conexão para Exchange Online PowerShell usando a autenticação [multifator](/powershell/exchange/mfa-connect-to-exchange-online-powershell), dependendo do método de autenticação.
+1. Conecte-se Exchange Online PowerShell. Para obter mais informações, consulte Conectar-se ao [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) com autenticação básica ou [conectar-se ao Exchange Online PowerShell](/powershell/exchange/mfa-connect-to-exchange-online-powershell) usando a autenticação multifator, dependendo do método de autenticação.
 
 2. Obtenha o NOME UPN da caixa de correio da sala se você não o souber executando o seguinte comando:
 
@@ -65,19 +65,19 @@ Saiba mais sobre [o Exchange Online PowerShell](/powershell/exchange/exchange-on
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Etapa 2: Configurar a proteção Office 365 ameaças e a reescrita de link
 
-Para habilitar a experiência de ingresso com um toque, as informações de link de ingresso na reunião de terceiros precisam estar presentes e legível no convite da reunião. Se sua organização usar o recurso de links seguros do Microsoft Defender para Office 365 ou se você usar uma solução de terceiros que examina todas as URLs de entrada e saída em busca de ameaças, ela poderá alterar as URLs de ingresso na reunião e tornar [a](/microsoft-365/security/office-365-security/safe-links) reunião irreconhecível pelo dispositivo Salas do Teams. Para garantir que isso não aconteça, você precisa adicionar as URLs do serviço de reunião de terceiros aos Links do Defender para Office 365 Cofre Não reescrever [a ](/microsoft-365/security/office-365-security/safe-links) lista ou a lista de exceções de reescrita de URL de terceiros.
+Para habilitar a experiência de ingresso com um toque, as informações de link de ingresso na reunião de terceiros precisam estar presentes e legível no convite da reunião. Se sua organização usar o recurso de links seguros do Microsoft Defender para Office 365 ou se você usar uma solução de terceiros que examina todas as URLs de entrada e saída em busca de ameaças, ela poderá alterar as URLs de ingresso na reunião e tornar [a](/microsoft-365/security/office-365-security/safe-links) reunião irreconhecível pelo dispositivo Salas do Teams. Para garantir que isso não aconteça, você precisa adicionar as URLs do serviço de reunião de terceiros ao Office 365 Defender para Links Seguros não reescrever [a ](/microsoft-365/security/office-365-security/safe-links) lista ou a lista de exceções de reescrita de URL de terceiros.
 
  Se você usar uma solução de terceiros, consulte as instruções dessa solução para adicionar URLs à sua lista de exceções de reescrita de URL.
 
-Aqui estão alguns exemplos de entradas que talvez você precise adicionar ao *seu Defender para Office 365 Cofre Links* Não reescrever lista ou lista de exceções de reescrita de URL de terceiros:
+Aqui estão alguns exemplos de entradas que talvez você precise adicionar ao seu *Defender para Office 365 Links Seguros* Não reescrever lista ou lista de exceções de reescrita de URL de terceiros:
 
 - **Cisco Webex** `*.webex.com/*`
 - **Zoom**`*.zoom.us/*`, `*.zoom.com/*``*.zoomgov.com/*`
 
-Para obter uma lista completa de URLs a serem adicionadas *aos links do* Defender para Office 365 Cofre Não reescrever lista ou lista de exceções de reescrita de URL de terceiros, entre em contato com o provedor de serviços de reunião de terceiros do qual você deseja aceitar convites de reunião.
+Para obter uma lista completa de URLs a serem adicionadas *aos links seguros* do Defender para Office 365 Não reescrever lista ou lista de exceções de reescrita de URL de terceiros, entre em contato com o provedor de serviços de reunião de terceiros do qual você deseja aceitar convites de reunião.
 
 > [!CAUTION]
-> Adicione apenas URLs em que você confia ao *seu Microsoft Defender para Office 365 Cofre Links* Não reescreva lista ou lista de exceções de reescrita de URL de terceiros.
+> Adicione apenas URLs em que você confia *Microsoft Defender para Office 365 Links Seguros* Não reescreva a lista ou a lista de exceções de reescrita de URL de terceiros.
 
 ## <a name="step-3a-enable-third-party-meetings-on-teams-rooms-on-windows"></a>Etapa 3a: Habilitar reuniões de terceiros Salas do Teams no Windows
 
@@ -88,7 +88,7 @@ A última etapa que você precisa fazer é permitir que Salas do Teams ingressar
 Para configurar Salas do Teams no Windows usando o console touchscreen, faça o seguinte:
 
 1. No console Salas do Microsoft Teams, selecione **Mais**.
-2. Selecione **Configurações** e insira o nome de usuário e a senha do administrador do dispositivo.
+2. Selecione **Configurações e** insira o nome de usuário e a senha do administrador do dispositivo.
 3. Vá para a **guia Reuniões** e selecione um provedor de reunião de terceiros que você deseja habilitar (por exemplo, **Webex**, **Zoom** etc.).
 4. Se você quiser ingressar em reuniões com o nome de usuário e o endereço de email associados à caixa de correio da sala, selecione **Ingressar com as informações da sala**.
 5. Se você quiser ingressar em reuniões com um nome de usuário e endereço de email  alternativos, selecione Ingressar com informações personalizadas e insira o nome de usuário e o endereço de email que deseja usar.
@@ -126,7 +126,7 @@ Para configurar Salas do Teams no Android usando o console touchscreen ou a tela
 1.  No console Salas do Microsoft Teams ou na tela frontal da sala, selecione **Mais**.
 2.  Selecione **Configurações** e:
     -   Se estiver usando uma conta pessoal (por exemplo, uma conta com uma licença E5), escolha a **opção** Reuniões.
-    -   Se estiver usando uma conta compartilhada (por exemplo, uma conta de recurso com uma licença do Salas do Teams), escolha Configurações de **dispositivo,** localize as configurações de administrador do **Teams**, insira uma senha de administrador e escolha uma opção **Reuniões**.
+    -   Se estiver usando uma conta compartilhada (por exemplo, uma conta de recurso com uma licença do Salas do Teams), escolha Configurações do **dispositivo,** localize as configurações do **Teams Administração**, insira uma senha de administrador e escolha uma opção **Reuniões**.
       > [!NOTE]
       > Alguns fabricantes de dispositivos exigem uma senha de administrador antes **que as configurações do** dispositivo possam ser acessadas.
 

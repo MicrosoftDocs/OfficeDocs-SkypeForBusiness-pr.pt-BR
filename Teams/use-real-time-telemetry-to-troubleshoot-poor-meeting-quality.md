@@ -21,37 +21,37 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: Use a telemetria em tempo real com detalhes sobre dispositivos, redes e conectividade para solucionar problemas do usuário com Microsoft Teams agendadas.
-ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+description: Use a telemetria em tempo real com detalhes sobre dispositivos, redes e conectividade para solucionar problemas do usuário com reuniões agendadas do Microsoft Teams.
+ms.openlocfilehash: c7bc5ee0415a289782cad1dd7daa5c13bdaf7364
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125796"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494718"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetria em tempo real para solucionar problemas de qualidade de reunião
 
-Este artigo explica como usar o Real-Time Analytics (RTA) para solucionar problemas Microsoft Teams qualidade de reunião para usuários individuais. Você pode acessar Real-Time Analytics se tiver uma das seguintes funções:
+Este artigo explica como usar o Real-Time Analytics (RTA) para solucionar problemas de baixa qualidade de reunião do Microsoft Teams para usuários individuais. Você pode acessar Real-Time Analytics se tiver uma das seguintes funções:
 
 - Administrador do Teams
-- Teams de Suporte de Comunicações
+- Especialista em Suporte de Comunicações do Teams
 - Engenheiro de Suporte de Comunicações de Equipes
 
-Para obter mais informações sobre Teams de administrador, consulte [Usar funções Microsoft Teams administrador para gerenciar Teams](/MicrosoftTeams/using-admin-roles).
+Para obter mais informações sobre as funções de administrador do Teams, [consulte Usar funções de administrador do Microsoft Teams para gerenciar o Teams](/MicrosoftTeams/using-admin-roles).
 
 Real-Time Analytics permite que os administradores de TI examinem as reuniões agendadas de seus usuários importantes e vejam áudio, vídeo, compartilhamento de conteúdo e problemas relacionados à rede. Como administrador, você pode usar essa telemetria para investigar esses problemas durante as reuniões e solucionar problemas em tempo real.
 
 ## <a name="what-is-real-time-analytics"></a>O que é Real-Time Analytics?
 
-Hoje, a solução de problemas de reunião individual está disponível para Teams administradores por meio da [Análise](use-call-analytics-to-troubleshoot-poor-call-quality.md) de Chamadas após o término da reunião. Real-Time Analytics permite que os administradores solucionem problemas de reuniões agendadas enquanto estão em andamento.
+Hoje, a solução de problemas de reunião individual está disponível para administradores do Teams por meio da [Análise](use-call-analytics-to-troubleshoot-poor-call-quality.md) de Chamadas após o término da reunião. Real-Time Analytics permite que os administradores solucionem problemas de reuniões agendadas enquanto estão em andamento.
 
-Real-Time Analytics mostra informações detalhadas sobre Teams reuniões para cada usuário em sua Office 365, atualizadas em tempo real. Ele inclui informações sobre dispositivos, rede, conectividade, áudio, vídeo e problemas de compartilhamento de conteúdo, o que ajudará os administradores a solucionar problemas de qualidade de chamada com mais eficiência.
+Real-Time Analytics mostra informações detalhadas sobre reuniões do Teams para cada usuário em sua Office 365, atualizadas em tempo real. Ele inclui informações sobre dispositivos, rede, conectividade, áudio, vídeo e problemas de compartilhamento de conteúdo, o que ajudará os administradores a solucionar problemas de qualidade de chamada com mais eficiência.
 
-Como administrador Teams, você obtém acesso completo a todos os dados de telemetria em tempo real para cada usuário. Além disso, você pode atribuir funções Azure Active Directory a equipe de suporte. Para saber mais sobre essas funções, confira [Conceder permissão para suporte e equipe de suporte técnico](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
+Como administrador do Teams, você obtém acesso completo a todos os dados de telemetria em tempo real para cada usuário. Além disso, você pode atribuir funções do Azure Active Directory para dar suporte à equipe. Para saber mais sobre essas funções, confira [Conceder permissão para suporte e equipe de suporte técnico](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
 
 ## <a name="where-to-find-per-user-real-time-troubleshooting-telemetry"></a>Onde encontrar telemetria de solução de problemas por usuário em tempo real
 
-Para ver todas as informações de reunião e dados de um usuário, vá para o Teams [de administração](https://admin.teams.microsoft.com). Em **Usuários** **do UsersManage** > , selecione um usuário e abra a guia **Reuniões & chamadas na** página de perfil do usuário. Em **Reuniões recentes**, você verá uma lista de reuniões que o usuário participou nas últimas 24 horas para as quais a *telemetria* em tempo real está disponível, incluindo todas as reuniões em andamento. Se a reunião não estiver em andamento ou não tiver dados de telemetria em tempo real, ela aparecerá em **reuniões anteriores**.
+Para ver todas as informações e dados de reunião de um usuário, acesse o Centro [de administração do Teams](https://admin.teams.microsoft.com). Em **Gerenciar** > **Usuários**, selecione um usuário e abra a guia **Reuniões & chamadas na** página de perfil do usuário. Em **Reuniões recentes**, você verá uma lista de reuniões que o usuário participou nas últimas 24 horas para as quais a *telemetria* em tempo real está disponível, incluindo todas as reuniões em andamento. Se a reunião não estiver em andamento ou não tiver dados de telemetria em tempo real, ela aparecerá em **reuniões anteriores**.
 
 :::image type="content" alt-text="Captura de tela da tabela de reuniões recentes." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
@@ -63,15 +63,44 @@ Para examinar a telemetria de um determinado usuário para uma reunião em andam
 
 :::image type="content" alt-text="Captura de tela dos dados de sessão do usuário da análise de chamada." source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
-## <a name="measures-available-in-real-time-analytics"></a>Medidas disponíveis no Real-Time Analytics
+## <a name="details-and-measures-available-in-real-time-analytics"></a>Detalhes e medidas disponíveis no Real-Time Analytics
+
+### <a name="device-information"></a>Informações do dispositivo
+| Nome | Descrição | Possíveis motivos para valores em branco|
+|:---|:---|:---|
+| Dispositivo de captura de áudio | Nome do dispositivo de captura de áudio (por exemplo: microfone) em uso | O sistema pode não ter um nome associado ao dispositivo (por exemplo: Área de Trabalho Remota ou Dispositivo de 'Áudio remoto' da máquina virtual)  |
+| Dispositivo de renderização de áudio | Nome do dispositivo de renderização de áudio (por exemplo: alto-falantes ou fones de ouvido) em uso | O sistema pode não ter um nome associado ao dispositivo (por exemplo: Área de Trabalho Remota ou Dispositivo de 'Áudio remoto' da máquina virtual)  |
+| Dispositivo de captura de vídeo | Nome do dispositivo de captura de vídeo em uso | O usuário não está enviando vídeo do ponto de extremidade que está sendo monitorado |
+
+### <a name="connectivity-information"></a>Informações de conectividade
+| Indicador | Unidades/Valores possíveis | Descrição | Possíveis motivos para valores em branco|
+|:---|:---|:---|:---|
+| Tipo de rede | &bull; Ethernet <br/> &bull; Wi-Fi | Tipo de conexão de rede em uso | |
+| Wi-Fi força | &bull; Excelente: -50dBm ou superior <br/> &bull; Bom: -51 dBm a -64 dBm<br/> &bull; Ruim: -65 dBm ou inferior | Força da conexão de Wi-Fi atual do usuário | O usuário não está conectado ao Wi-Fi |
+| Wi-Fi canal | Inteiro | Canal sobre o qual o Wi-Fi de acesso da rede está transmitindo | O usuário não está conectado ao Wi-Fi |
+| Tipo físico | Cadeia de caracteres <br/> &bull; Exemplo: 802.11ac | Tipo de infraestrutura sem fio em uso | O usuário não está conectado ao Wi-Fi |
+| Wi-Fi banda | 2,4 GHz ou 5 GHz | Wi-Fi banda à qual o usuário está conectado | O usuário não está conectado ao Wi-Fi |
+| Localização | Cadeia de caracteres | País no qual o usuário está localizado | As informações de localização do usuário estão bloqueadas ou indisponíveis |
+| Endereço IP local | Cadeia de caracteres (IP:Port) | Endereço IP local do ponto de extremidade do usuário e da porta de mídia | |
+| Endereço IP reflexivo do servidor | Cadeia de caracteres (IP:Port) | Endereço IP público do ponto de extremidade do usuário e da porta de mídia | |
+| Tipo de conectividade | UDP ou TCP | Protocolo de camada de transporte em uso; O UDP é preferencial para mídia em tempo real | |
+
+### <a name="user-signals"></a>Sinais do usuário
+Os sinais do usuário identificam quando um usuário está participando ativamente da chamada, não está falando, mas não está mudo ou está mudo. Atualmente, os sinais do usuário só estão disponíveis para áudio.
+
+| Modalidade | Valores possíveis | Descrição |
+|:---|:---|:---|
+| Áudio | &bull; Inmutável, participante falando <br/> &bull; Sem deslocamento, sem falar <br/> &bull; Silenciado | Indica o comportamento do usuário para a parte de áudio da chamada  |
+
 
 ### <a name="audio"></a>Áudio
 |Nome da Medida |Unidades |Limite bom |Descrição |
 |:---|:---|:---|:---|
 |Tremulação |Milissegundos |Menos de 30 ms |Tremulação é uma medida da variação no atraso de pacotes para um fluxo de dados. Quando isso é muito alto, o áudio pode ficar indisponindo. | 
 |Perda de pacotes |Porcentagem |Menos de 5% |A perda de pacotes ocorre quando os pacotes de dados não chegam ao destino. O percentual de pacotes perdidos baseia-se no número total de pacotes enviados. |
-|Tempo de ida e volta |Milissegundos |Menos de 500 ms |O tempo de viagem de ida e volta é o tempo necessário para que um único pacote viaje do cliente para o ponto de extremidade remoto e volte para o cliente. O tempo de viagem de ida e volta alto pode causar atrasos na reprodução do fluxo. Um exemplo disso é quando duas pessoas em uma reunião estão falando sem querer umas sobre as outras devido ao atraso. |
+|Tempo de ida e volta |Milissegundos |Menos de 500 ms |O tempo de viagem de ida e volta é o tempo necessário para que um único pacote viaje do cliente para o ponto de extremidade remoto e volte para o cliente. O tempo de viagem de ida e volta alto pode causar atrasos na reprodução do fluxo. Um exemplo disso é quando duas pessoas em uma reunião estão falando sem querer umas sobre as outras devido ao atraso. Mostrado somente para áudio de saída. |
 |Bitrate |Quilobits por segundo (Kbps) |Maior que 24 Kbps |Taxa de transferência do fluxo de áudio expressa em quilobits por segundo. |
+| Codec | Cadeia de caracteres <br/> &bull; Exemplo: SATIN | Somente informações | Exibe o codec de áudio que está sendo enviado e recebido. Um codec diferente pode ser recebido do que aquele que está sendo enviado. |
 
 
 ### <a name="video"></a>Vídeo
@@ -104,14 +133,14 @@ Para examinar a telemetria de um determinado usuário para uma reunião em andam
 - iOS
 
 > [!NOTE]
-> Teams cliente Web (incluindo VDI) não dá suporte à entrega de telemetria em tempo real.
+> O cliente Web do Teams (incluindo VDI) não dá suporte à entrega de telemetria em tempo real.
 
-## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Teams com suporte para telemetria em tempo real
+## <a name="teams-devices-with-support-for-real-time-telemetry"></a>Dispositivos do Teams com suporte para telemetria em tempo real
 
 - MTR – Surface Hub
-- MTR - Teams display
+- MTR – Exibição do Teams
 - MTR – Barra de colaboração
-- Dispositivos ip Telefone ip
+- Dispositivos ip phone
 
 > [!NOTE]
 > Dispositivos que ingressaram na reunião usando soluções de CVI (Interoperabilidade de Vídeo na Nuvem) não têm suporte no Real-Time Analytics.
@@ -119,7 +148,7 @@ Para examinar a telemetria de um determinado usuário para uma reunião em andam
 
 ## <a name="limitations"></a>Limitações
 
-- A telemetria em tempo real só está disponível para reuniões agendadas. Para reuniões ad hoc como Reunir Agora, PSTN, chamadas 1:1 e chamadas de grupo, a telemetria em tempo real não está disponível.
+- A telemetria em tempo real só está disponível para reuniões agendadas e Reunir Agora. Para PSTN, chamadas 1:1 e chamadas de grupo, a telemetria em tempo real não está disponível.
 - A telemetria em tempo real só está disponível para apresentadores de evento ao vivo agendado. No momento, ele não está disponível para participantes do evento ao vivo.
 - Os dados de telemetria em tempo real estão disponíveis para uma reunião em **Reuniões recentes** por 24 horas após o término da reunião. Após 24 horas, você não poderá acessar os dados e a reunião será movida para **reuniões anteriores**. Se uma reunião tiver mais de 3 horas, a telemetria em tempo real só estará disponível nas *últimas 3 horas*.
 - A telemetria não está disponível em tempo real ao usar versões mais antigas do Teams. Se nenhuma telemetria estiver disponível, tente atualizar o cliente.
@@ -129,4 +158,4 @@ Para examinar a telemetria de um determinado usuário para uma reunião em andam
 
 [Configurar a análise de chamadas por usuário](set-up-call-analytics.md)
 
-[Use Microsoft Teams de administrador para gerenciar Teams](/MicrosoftTeams/using-admin-roles).
+[Use as funções de administrador do Microsoft Teams para gerenciar o Teams](/MicrosoftTeams/using-admin-roles).
