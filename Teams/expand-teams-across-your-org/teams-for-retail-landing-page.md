@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753044"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494728"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Introdução ao Teams para Varejo
 
@@ -127,7 +127,7 @@ A equipe de varejo geralmente é uma força de trabalho móvel: trabalhadores de
 
 Com alta rotatividade, a capacidade de adicionar e remover contas rapidamente e obter as políticas certas atribuídas é fundamental. Introdução ao assistente de Integração de Trabalhadores de Linha de Frente no Centro de administração do Microsoft 365. O assistente configura uma equipe para seus trabalhadores de linha de frente e atribui licenças e pacotes de política a cada membro da equipe. Para obter mais informações, consulte [Usar o assistente de integração de Trabalhadores de Linha de Frente para que sua força de trabalho de linha de frente entre em funcionamento](../flw-onboarding-wizard.md).
 
-Se você tiver muitos usuários para adicionar (mais de 100), poderá provisionar rapidamente usuários e equipes e atribuir todas as políticas relevantes com uma [implantação em script para trabalhadores de linha de frente](../flw-scripted-deployment.md).
+Se você tiver muitas equipes que quer implantar, consulte [Implantar equipes em escala para os trabalhadores da linha de frente](../deploy-teams-at-scale.md).
 
 A presença de Trabalhadores de Linha de Frente geralmente é menos previsível do que outras equipes, pois suas horas de trabalho normalmente não são as mesmas todos os dias. Como administrador, você pode configurar o Teams com o acesso baseado em Turno (Visualização) para mostrar um conjunto de estados de presença baseados em turnos para os Trabalhadores de Linha de Frente em sua organização indicarem quando eles estão dentro e fora do turno. Também é possível gerenciar o acesso ao Teams quando os trabalhadores de linha de frente estão fora do turno. Para obter mais informações, consulte [Gerenciar acesso baseado em turno para Trabalhadores de Linha de Frente](shifts/manage-shift-based-access-flw.md).
 

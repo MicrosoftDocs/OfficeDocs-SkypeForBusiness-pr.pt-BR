@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674653"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240410"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -105,7 +106,7 @@ Por exemplo: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\d
 > [!IMPORTANT]
 > A forma como as credenciais são gerenciadas nesses scripts pode não ser adequada para o seu uso; ela pode ser facilmente alterada para atender aos seus requisitos. Sempre siga os padrões e práticas da sua empresa para proteger contas de serviço e identidades gerenciadas.
 
-Os scripts usam credenciais armazenadas como arquivos XML em $ENV:LOCALAPPDATA\keys, ou seja, a pasta AppData\Local. A função auxiliar **Set-Creds** no módulo **BulkAddFunctions.psm1** precisa ser chamada para definir as credenciais usadas para executar esses scripts. Esta técnica elimina a necessidade de autenticação em todos os pontos de extremidade de serviço, mantendo as credenciais em um armazenamento local. De dentro de cada script, as credenciais apropriadas são lidas com a função auxiliar **Get-Creds**, e essas credenciais são usadas para conectar-se aos vários serviços.
+Os scripts usam credenciais armazenadas como arquivos XML em `$ENV:LOCALAPPDATA\keys`, ou seja, a pasta AppData\Local. A função auxiliar **Set-Creds** no módulo **BulkAddFunctions.psm1** precisa ser chamada para definir as credenciais usadas para executar esses scripts. Esta técnica elimina a necessidade de autenticação em todos os pontos de extremidade de serviço, mantendo as credenciais em um armazenamento local. De dentro de cada script, as credenciais apropriadas são lidas com a função auxiliar **Get-Creds**, e essas credenciais são usadas para conectar-se aos vários serviços.
 
 Quando você chama **Set-Creds**, é solicitado que você forneça um nome de arquivo XML que será gravado em $ENV:LOCALAPPDATA\keys. Você pode ter diferentes credenciais para diferentes serviços. Por exemplo, você pode ter diferentes credenciais para MicrosoftTeams, AzureAD e MSonline; nesse caso, você pode executar **Set-Creds** mais de uma vez, salvando cada arquivo de credencial com seu próprio nome significativo.
 
@@ -178,7 +179,7 @@ Os canais são seções dedicadas dentro de uma equipe para manter as conversas 
 
 ## <a name="create-teams-policies"></a>Criar políticas do Teams
 
-Como administrador, você pode usar as políticas de equipes no Microsoft Teams para controlar o que os usuários em sua organização podem ver. Por exemplo, você pode controlar quais aplicativos são fixados no trilho esquerdo em sua área de trabalho ou navegador da web, ou na barra inferior em dispositivos móveis, a fim de simplificar a experiência do usuário final ao integrar uma grande quantidade de usuários. Algumas dessas políticas podem ser criadas com o PowerShell e outras devem ser criadas manualmente no centro de administração do Teams.
+Como administrador, você pode usar as políticas de equipes no Microsoft Teams para controlar o que os usuários em sua organização podem ver. Por exemplo, você pode controlar quais aplicativos são fixados no trilho esquerdo em sua área de trabalho ou navegador em dispositivos móveis, para simplificar a experiência do usuário final ao integrar um grande número de usuários. Algumas dessas políticas podem ser criadas com o PowerShell e outras devem ser criadas manualmente no centro de administração do Teams.
 
 *Discussão de práticas recomendadas*: para cada uma das políticas a seguir, estamos optando por realmente criar duas políticas: uma para os funcionários da linha de frente e outra para os gerentes da linha de frente. Você pode optar por criar quantos forem necessários. Para a maioria dos clientes, duas é uma quantidade boa para começar, mesmo que você atribua as mesmas configurações para cada grupo inicialmente. À medida que sua experiência com o Teams aumentar, você poderá optar por diferenciar ainda mais sua experiência e ter as duas políticas separadas já criadas, poderá tornar isso mais simples.
 
