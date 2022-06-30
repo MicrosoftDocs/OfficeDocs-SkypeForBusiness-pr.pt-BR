@@ -1,8 +1,8 @@
 ---
 title: Práticas recomendadas para organizar equipes
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711875"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562750"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Práticas recomendadas para organizar equipes no Microsoft Teams
 
@@ -41,7 +41,7 @@ Ao criar equipes, recomendamos começar com um pequeno número de equipes e memb
 
 ## <a name="create-channels-to-focus-discussions"></a>Crie canais para concentrar discussões
 
-Depois de criar sua equipe, é uma boa ideia começar a pensar nos diferentes projetos e tipos de conversas que você precisa suportar. Crie canais iniciais para que as pessoas saibam onde contribuir e encontrar conversas existentes. Use nomes descritivos de canais para facilitar que as pessoas saibam para onde ir durante cada conversa. Adicione ferramentas (como OneNote, Power BI ou Planner) como guias a um canal para que os membros tenham tudo o que precisam, diretamente no canal. Você também pode adicionar uma página da Web comumente usada como uma guia a um canal.
+Depois de criar sua equipe, é uma boa ideia começar a pensar nos diferentes projetos e tipos de conversas que você precisa dar suporte. Crie canais iniciais para que as pessoas saibam onde contribuir e encontrar conversas existentes. Use nomes descritivos de canais para facilitar que as pessoas saibam para onde ir durante cada conversa. Adicione ferramentas (como OneNote, Power BI ou Planner) como guias a um canal para que os membros tenham tudo o que precisam, diretamente no canal. Você também pode adicionar uma página da Web comumente usada como uma guia a um canal.
 
 Saiba mais sobre como [trabalhar em equipes](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) com essas dicas rápidas aos usuários finais.
 

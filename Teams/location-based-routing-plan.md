@@ -1,14 +1,14 @@
 ---
 title: Planejar o Roteamento baseado na localização para o Roteamento direto
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: Saiba como planejar o roteamento Location-Based para Teams Telefone Roteamento Direto.
+description: Saiba como planejar o roteamento Location-Based para o Roteamento Direto de Telefone do Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303993"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562620"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
 Em alguns países e regiões, é ilegal ignorar o provedor PSTN (Rede Telefônica Pública Comuada) para diminuir os custos de chamadas de longa distância. 
 
-Este artigo descreve o que você precisa saber para usar o Location-Based roteamento para restringir o bypass de chamada tarifada para Microsoft Teams usuários com base em sua localização geográfica. Este artigo se aplica somente ao Roteamento Direto. Location-Based roteamento não se aplica ao Plano de Chamadas ou Conexão do operador.
+Este artigo descreve o que você precisa saber para usar o Location-Based roteamento para restringir o bypass de chamada tarifada para usuários do Microsoft Teams com base em sua localização geográfica. Este artigo se aplica somente ao Roteamento Direto. Location-Based roteamento não se aplica ao Plano de Chamada ou à Conexão de Operador.
 
 Quando estiver pronto para habilitar o Location-Based roteamento, confira:
 
@@ -44,9 +44,9 @@ Location-Based roteamento permite restringir o bypass de chamada tarifada para u
 
 Location-Based roteamento usa a topologia de rede que você define para região de rede, site e sub-rede. Quando o bypass de chamada tarifada é restrito para um local, você associa cada sub-rede IP e cada gateway PSTN para esse local a um site de rede. 
 
-No momento de uma chamada PSTN, o local de um usuário é determinado pela sub-rede IP à qual os pontos de extremidade Teams usuário estão conectados. Se um usuário tiver vários clientes Teams localizados em sites diferentes, o roteamento do Location-Based imporá o roteamento de cada cliente separadamente, dependendo da localização dos pontos de extremidade Teams dados.
+No momento de uma chamada PSTN, a localização de um usuário é determinada pela sub-rede IP à qual os pontos de extremidade do Teams do usuário estão conectados. Se um usuário tiver vários clientes do Teams localizados em sites diferentes, o Location-Based roteamento imporá o roteamento de cada cliente separadamente, dependendo da localização dos pontos de extremidade do Teams.
 
-Para obter mais informações sobre configurações de rede, consulte [Configurações de rede para recursos de voz na nuvem Teams](cloud-voice-network-settings.md).
+Para obter mais informações sobre configurações de rede, consulte [Configurações de rede para recursos de voz na nuvem no Teams](cloud-voice-network-settings.md).
 
 Este artigo pressupõe que um site de rede pode estar em um dos seguintes estados:
 
@@ -58,13 +58,13 @@ Este artigo pressupõe que um site de rede pode estar em um dos seguintes estado
 
 ### <a name="toll-bypass-evaluation-and-outcome"></a>Avaliação e resultado do bypass de chamada tarifada
 
-Quando Location-Based roteamento é usado, uma chamada entre um usuário Teams e o PSTN é avaliada para determinar se o bypass de chamada tarifada é restrito. Dependendo dos resultados, a chamada será ou não concluída. 
+Quando Location-Based roteamento é usado, uma chamada entre um usuário do Teams e o PSTN é avaliada para determinar se o bypass de chamada tarifada é restrito. Dependendo dos resultados, a chamada será ou não concluída. 
 
-Se um usuário estiver habilitado para o roteamento Location-Based e o usuário estiver localizado em um site em que as restrições de roteamento do Location-Based estão em vigor, o bypass de chamada tarifada será restrito para esse usuário. Teams usa as seguintes informações para determinar se o bypass de chamada tarifada é restrito: 
+Se um usuário estiver habilitado para o roteamento Location-Based e o usuário estiver localizado em um site em que as restrições de roteamento do Location-Based estão em vigor, o bypass de chamada tarifada será restrito para esse usuário. O Teams usa as seguintes informações para determinar se o bypass de chamada tarifada é restrito: 
 
-- Se o Teams usuário está habilitado para Location-Based roteamento conforme definido na política de Teams Chamada do usuário.
+- Se o usuário do Teams está habilitado para Location-Based roteamento conforme definido na política de Chamada do Teams do usuário.
 
-- O Teams local do site de rede do ponto de extremidade do usuário e se o site está habilitado ou não para Location-Based Roteamento.
+- O local do site de rede do ponto de extremidade do usuário do Teams e se o site está habilitado ou não para Location-Based Roteamento.
 
 - O local do site de rede do gateway PSTN que está sendo usado pela chamada.
 
@@ -72,13 +72,13 @@ Se um usuário estiver habilitado para o roteamento Location-Based e o usuário 
 
 - Para cenários de transferência, a rota da chamada PSTN se baseia nas configurações de roteamento da pessoa que está transferindo a chamada e nas configurações de Roteamento do Location-Based do usuário do Teams para o qual a chamada está sendo transferida.  
 
-- Para cenários de conferência e chamada em grupo, se um Teams usuário para o qual o bypass de chamada tarifada está restrito é ou se fez parte da chamada.
+- Para cenários de conferência e chamada em grupo, se um usuário do Teams para o qual o bypass de chamada tarifada está restrito é ou se fez parte da chamada.
 
-Se uma chamada não puder ser concluída, o Teams usuário será notificado da seguinte maneira:
+Se uma chamada não puder ser concluída, o usuário do Teams será notificado da seguinte maneira:
 
 - Para chamadas PSTN de saída, a seguinte mensagem aparece na janela de chamada: chamada não permitida devido às configurações da sua organização.
 
-- Para chamadas PSTN de entrada, a chamada é roteada com base nas chamadas Teams configurações de encaminhamento de chamadas não respondidas do usuário, normalmente para a caixa postal. Se o Teams usuário não tiver configurações de chamada não respondidas definidas, a chamada será desconectada.
+- Para chamadas PSTN de entrada, a chamada é roteada com base nas configurações de encaminhamento de chamadas não respondidas do usuário do Teams, normalmente para a caixa postal. Se o usuário do Teams não tiver configurações de chamada não respondidas definidas, a chamada será desconectada.
 
 ## <a name="apply-location-based-routing"></a>Aplicar Location-Based roteamento
 
@@ -106,7 +106,7 @@ A restrição de bypass de chamada tarifada controla as condições nas quais um
 
 Se um usuário estiver sob restrição de bypass de chamada tarifada, esse usuário deverá ser habilitado para Location-Based Roteamento. Quando o usuário habilitado está localizado em um site habilitado para roteamento do Location-Based, o usuário deve fazer chamadas por meio de um gateway que esteja conectado ao site e habilitado para roteamento Location-Based. 
 
-Location-Based roteamento funciona determinando o local atual do usuário com base no endereço IP do ponto de extremidade Teams usuário e aplica as regras adequadamente. O local de um usuário que está habilitado para Location-Based roteamento pode ser categorizado da seguinte maneira: 
+Location-Based roteamento funciona determinando o local atual do usuário com base no endereço IP do ponto de extremidade do Teams do usuário e aplica as regras adequadamente. O local de um usuário que está habilitado para Location-Based roteamento pode ser categorizado da seguinte maneira: 
 
 - **O usuário está localizado no mesmo site Location-Based roteamento habilitado associado ao gateway PSTN em que seu DID é atribuído.**<br>Nesse cenário, o usuário está localizado em um site de rede configurado habilitado para roteamento do Location-Based e o número DID (Direct Inward Dial) do usuário é encerrado em um gateway PSTN que está no mesmo site de rede. Por exemplo, o usuário está em seu escritório. 
 
@@ -141,7 +141,7 @@ Além disso, se você definir o GatewayLbrEnabledUserOverride como True, os usu�
 
 ## <a name="restriction-rules"></a>Regras de restrição
 
-As regras de restrição dependem se um Teams usuário está ou não habilitado para Location-Based roteamento.
+As regras de restrição dependem se um usuário do Teams está ou não habilitado para Location-Based Roteamento.
 
 ### <a name="user-is-enabled-for-location-based-routing"></a>O usuário está habilitado para roteamento Location-Based usuário
 
@@ -163,7 +163,7 @@ Quando um usuário está habilitado para Location-Based roteamento, o seguinte s
 
    - Em qualquer outro cenário, como se o usuário estiver em roaming, a chamada não é permitida e é roteada para as configurações de encaminhamento de chamadas não respondidas do usuário (normalmente caixa postal).  
    
-- **Para uma chamada VoIP 1:1 Teams transferência para PSTN**, observe o seguinte:
+- **Para uma chamada VoIP do Teams 1:1 e transferência para PSTN**, observe o seguinte:
 
   - O roteamento da chamada, ou seja, qual gateway PSTN para saída da chamada é baseado nas configurações de roteamento do usuário que está transferindo a chamada.
 
@@ -175,7 +175,7 @@ Quando um usuário está habilitado para Location-Based roteamento, o seguinte s
 
     A transferência será permitida se o usuário que está sendo transferido for capaz de fazer essa chamada PSTN em seu local atual usando o mesmo gateway PSTN.
 
-- **Para uma chamada PSTN** de entrada ou saída e transferência para outro Teams usuário, se a transferência é permitida depende do seguinte:
+- **Para uma chamada PSTN** de entrada ou saída e transferência para outro usuário do Teams, se a transferência é permitida depende do seguinte:
 
    - As configurações de roteamento do usuário que está recebendo a chamada transferida. 
    - O local do site de rede do ponto de extremidade.
@@ -186,7 +186,7 @@ Quando um usuário está habilitado para Location-Based roteamento, o seguinte s
 
 ### <a name="user-is-not-enabled-for-location-based-routing"></a>O usuário não está habilitado para roteamento Location-Based usuário
 
-Quando um usuário Teams não está habilitado para roteamento do Location-Based, todas as chamadas desse usuário devem rotear por meio de um gateway PSTN que não esteja habilitado para roteamento Location-Based. Uma chamada de entrada para esse usuário roteada por meio de um gateway PSTN habilitado para Location-Based Roteamento será roteada para as configurações de encaminhamento de chamadas não respondidas do usuário (normalmente caixa postal).
+Quando um usuário do Teams não está habilitado para roteamento Location-Based, todas as chamadas desse usuário devem ser roteados por meio de um gateway PSTN que não esteja habilitado para Location-Based Roteamento. Uma chamada de entrada para esse usuário roteada por meio de um gateway PSTN habilitado para Location-Based Roteamento será roteada para as configurações de encaminhamento de chamadas não respondidas do usuário (normalmente caixa postal).
 
 ### <a name="decision-flows-for-inbound-and-outbound-calls"></a>Fluxos de decisão para chamadas de entrada e saída
 
@@ -205,10 +205,10 @@ Os diagramas a seguir mostram os fluxos de decisão para chamadas de entrada e s
 
 Esta seção descreve diferentes cenários para restringir o bypass de chamada tarifada usando o Location-Based Roteamento. Os cenários comparam como as chamadas são roteados para usuários que não estão habilitados para roteamento de Location-Based com usuários habilitados para Location-Based Roteamento.
 
-- [Teams usuário faz uma chamada de saída para o PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teams usuário recebe uma chamada de entrada do PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teams usuário transfere ou encaminha a chamada para outro Teams usuário](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teams usuário transfere ou encaminha a chamada para o ponto de extremidade PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [O usuário do Teams faz uma chamada de saída para o PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
+- [O usuário do Teams recebe uma chamada de entrada do PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [O usuário do Teams transfere ou encaminha a chamada para outro usuário do Teams](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [O usuário do Teams transfere ou encaminha a chamada para o ponto de extremidade PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [Toque simultâneo](#simultaneous-ringing)
 - [Delegação](#delegation)
 
@@ -216,7 +216,7 @@ O diagrama a seguir mostra as restrições habilitadas pelo Location-Based rotea
 
 ![Diagrama mostrando cenários de Location-Based Roteamento.](media/lbr-direct-routing.png "Diagrama mostrando cenários para o Location-Based Roteamento")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams usuário faz uma chamada de saída para o PSTN
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>O usuário do Teams faz uma chamada de saída para o PSTN
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuário não habilitado para roteamento Location-Based usuário
 
@@ -234,7 +234,7 @@ Em comparação, o roteamento de chamadas de saída para usuários habilitados p
 |Rede interna desconhecida (Local4)    |  A chamada PSTN não é permitida, a menos que o gateway tenha GatewayLbrEnabledUserOverride definido como True       |
 |Rede externa desconhecida (Local5)    | A chamada PSTN não é permitida, a menos que o gateway tenha GatewayLbrEnabledUserOverride definido como True       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams usuário recebe uma chamada de entrada do PSTN
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>O usuário do Teams recebe uma chamada de entrada do PSTN
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuário não habilitado para roteamento Location-Based usuário
 
@@ -252,11 +252,11 @@ Em comparação, os usuários habilitados para Location-Based Roteamento só pod
 |Rede interna desconhecida (Local4)   | Chamadas não roteados para pontos de extremidade na Localização4        |
 |Rede externa desconhecida (Local5)     | Chamadas não roteados para pontos de extremidade na Localização5        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams usuário transfere ou encaminha a chamada para outro Teams usuário
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>O usuário do Teams transfere ou encaminha a chamada para outro usuário do Teams
 
 Quando um ponto de extremidade PSTN está envolvido, o roteamento do Location-Based analisa se um ou ambos os usuários estão habilitados para roteamento do Location-Based e determina se a chamada deve ser transferida ou encaminhada dependendo da localização de ambos os pontos de extremidade. 
  
-A transferência de chamada exige que o usuário iniciador atenda a chamada enquanto o encaminhamento de chamadas não exige que a chamada inicial seja atendida. As chamadas podem ser encaminhadas mesmo que User1 não esteja em um local para receber chamadas de entrada (consulte a tabela no Teams o usuário recebe uma chamada de entrada da seção [PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)) e as chamadas não poderão ser transferidas se User1 não puder receber a chamada de entrada. 
+A transferência de chamada exige que o usuário iniciador atenda a chamada enquanto o encaminhamento de chamadas não exige que a chamada inicial seja atendida. As chamadas podem ser encaminhadas mesmo que User1 não esteja em um local para receber chamadas de entrada (consulte a tabela no usuário do Teams que recebe uma chamada de entrada da seção [PSTN](#teams-user-receives-an-inbound-call-from-the-pstn) ) e as chamadas não poderão ser transferidas se User1 não puder receber a chamada de entrada. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuário não habilitado para roteamento Location-Based usuário
 
@@ -278,7 +278,7 @@ A tabela a seguir mostra se o encaminhamento de chamadas e transferências de ch
 |Rede interna desconhecida (User5)| Não permitido|Não permitido|
 |Rede externa desconhecida (User6)| Não permitido|Não permitido|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams usuário transfere ou encaminha a chamada para o ponto de extremidade PSTN
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>O usuário do Teams transfere ou encaminha a chamada para o ponto de extremidade PSTN
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Usuário não habilitado para roteamento Location-Based usuário
 
@@ -313,7 +313,7 @@ A tabela a seguir mostra como o roteamento de Location-Based afeta o roteamento 
 
 Quando um usuário habilitado para o roteamento do Location-Based recebe uma chamada e tem toque simultâneo habilitado, o roteamento do Location-Based analisa o local da parte de chamada e os pontos de extremidade das partes chamadas para determinar se a chamada deve ser roteada. O toque simultâneo segue as mesmas Location-Based que as transferências de chamadas e encaminhamentos. 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>Toque simultâneo para outro Teams usuário
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>Toque simultâneo para outro usuário do Teams
 
 A tabela a seguir mostra se Location-Based roteamento permite toque simultâneo para diferentes usuários para uma chamada PSTN de entrada para User1.
 
@@ -350,11 +350,11 @@ O encaminhamento para a caixa postal também é permitido.
 
 ### <a name="delegation"></a>Delegação
 
-Um Teams usuário pode escolher representantes que podem fazer e receber chamadas em seu nome. Os recursos de delegação Teams são afetados pelo Location-Based roteamento da seguinte maneira: 
+Um usuário do Teams pode escolher representantes que podem fazer e receber chamadas em seu nome. Os recursos de delegação no Teams são afetados pelo Location-Based roteamento da seguinte maneira: 
 
-- Para chamadas de saída de Location-Based delegado habilitado para Roteamento em nome de um delegador, as mesmas regras se aplicam. O roteamento de chamadas é baseado na política de autorização de chamada do delegado, na política de roteamento de voz e no local. Para obter mais informações, [Teams usuário faz uma chamada de saída para o PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
+- Para chamadas de saída de Location-Based delegado habilitado para Roteamento em nome de um delegador, as mesmas regras se aplicam. O roteamento de chamadas é baseado na política de autorização de chamada do delegado, na política de roteamento de voz e no local. Para obter mais informações, consulte [o usuário do Teams faz uma chamada de saída para o PSTN](#teams-user-places-an-outbound-call-to-the-pstn). 
 
-- Para chamadas PSTN de entrada para um delegador, as mesmas regras de roteamento Location-Based que se aplicam ao encaminhamento de chamadas ou ao toque simultâneo a outros usuários também se aplicam a delegados. Para obter mais informações, Teams usuário transfere ou encaminha [a chamada para](#teams-user-transfers-or-forwards-call-to-another-teams-user) outro usuário do Teams, o usuário do Teams transfere ou encaminha a chamada para o ponto de extremidade [PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) e toque [simultâneo.](#simultaneous-ringing) Quando um delegado define um ponto de extremidade PSTN como um destino de anel simultâneo, a política de roteamento de voz do delegado é usada para rotear a chamada para o PSTN. 
+- Para chamadas PSTN de entrada para um delegador, as mesmas regras de roteamento Location-Based que se aplicam ao encaminhamento de chamadas ou ao toque simultâneo a outros usuários também se aplicam a delegados. Para obter mais informações, consulte Transferências de usuário do [Teams ou encaminhamentos](#teams-user-transfers-or-forwards-call-to-another-teams-user) de chamadas para outro usuário do Teams, o usuário do Teams transfere ou encaminha a chamada para o ponto de extremidade [PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) e toque [simultâneo](#simultaneous-ringing). Quando um delegado define um ponto de extremidade PSTN como um destino de anel simultâneo, a política de roteamento de voz do delegado é usada para rotear a chamada para o PSTN. 
 
 - Para delegação, a Microsoft recomenda que o delegador e os delegados associados estejam localizados no mesmo site de rede. 
 
@@ -370,20 +370,20 @@ As sub-redes IPv4 e IPv6 têm suporte, no entanto, o IPv6 tem precedência ao ve
 
 ### <a name="client-support-for-location-based-routing"></a>Suporte ao cliente para roteamento Location-Based cliente
 
-Os seguintes Teams clientes têm suporte:
-- Teams de área de trabalho (Windows e Mac)
-- Teams clientes móveis (iOS e Android)
-- Teams IP
+Há suporte para os seguintes clientes do Teams:
+- Clientes da área de trabalho do Teams (Windows e Mac)
+- Clientes móveis do Teams (iOS e Android)
+- Telefones IP do Teams
 
-Não há suporte Teams cliente Web Skype for Business clientes web.
+Não há suporte para o cliente Web e Skype for Business teams.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Recursos não suportados pelo Roteamento Baseado em Local
 
-Location-Based roteamento não se aplica aos seguintes tipos de interações. Location-Based roteamento não é imposto quando Teams de extremidade interagem com pontos de extremidade PSTN nos seguintes cenários: 
+Location-Based roteamento não se aplica aos seguintes tipos de interações. Location-Based roteamento não é imposto quando os pontos de extremidade do Teams interagem com pontos de extremidade PSTN nos seguintes cenários: 
 
 - Estacionamento de chamada ou recuperação de chamadas PSTN por meio do estacionamento de chamada 
 
-- Um usuário de Skype for Business local ou um Skype for Business online chama um Teams usuário  
+- Um usuário do Skype for Business local ou um usuário Skype for Business Online chama um usuário do Teams  
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based roteamento para conferência
 
@@ -395,7 +395,7 @@ Em uma chamada em conferência iniciada por um usuário sem uma licença de audi
 
 Se o usuário habilitado para roteamento de Location-Based estiver ingressando na chamada de conferência de um site interno que não está habilitado para roteamento Location-Based, as restrições no parágrafo acima não serão impostas. 
 
-A conferência em rede para Audioconferência não deve ser implantada com nenhum equipamento de telefonia na Índia.
+A conferência em rede para Audioconferência NÃO deve ser implantada com nenhum equipamento de telefonia na Índia.
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para Location-Based roteamento
@@ -410,4 +410,4 @@ O VoIP (Direct Voice over IP) não deve ser implantado com nenhum equipamento de
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
-- [Configurações de rede para recursos de voz na nuvem Teams](cloud-voice-network-settings.md)
+- [Configurações de rede para recursos de voz na nuvem no Teams](cloud-voice-network-settings.md)

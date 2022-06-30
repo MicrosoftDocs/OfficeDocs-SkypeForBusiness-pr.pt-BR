@@ -1,8 +1,8 @@
 ---
-title: Solucionar problemas de conectividade com Teams cliente
+title: Solucionar problemas de conectividade com o cliente do Teams
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: troubleshooting
 ms.service: msteams
@@ -16,16 +16,16 @@ description: Solucione problemas de conectividade do cliente Microsoft Teams cau
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 524a78f5a588b0a3a233385f7892624c46e5bac541f7e8a13f647e541b0ffbff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8974aa7cf54ab61cb15650b839185daad1b82cc7
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308950"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562160"
 ---
 # <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividade do cliente Microsoft Teams
 
-A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remetida para o firewall ou para a conectividade do proxy. Verificar se as URLs, os endereços IP e as portas necessárias estão abertas no seu firewall ou no seu proxy minimizará uma resolução de problemas desnecessária. Para obter informações específicas sobre URLs e IPs necessárias para Microsoft Teams, consulte o artigo Microsoft 365 [URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) e Office 365 ENDEREÇO IP. Os cenários a seguir exigem que portas e URLs específicas sejam abertas no firewall.
+A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remetida para o firewall ou para a conectividade do proxy. Verificar se as URLs, os endereços IP e as portas necessárias estão abertas no seu firewall ou no seu proxy minimizará uma resolução de problemas desnecessária. Para obter informações específicas sobre URLs e IPs necessários para o Microsoft Teams, consulte o artigo de suporte a [URLs e endereço IP do Microsoft 365 e Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Os cenários a seguir exigem que portas e URLs específicas sejam abertas no firewall.
 
 - Autenticação
 
@@ -43,9 +43,9 @@ A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remet
 
 - Interoperabilidade do cliente Skype for Business
 
-## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Quando Teams offline ou em condições de baixa largura de banda
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Quando o Teams está offline ou em condições de baixa largura de banda
 
-A boa notícia é que Teams continua sendo executado mesmo quando você está offline ou em condições de baixa largura de banda. Teams salva todas as mensagens não enviadas para chats existentes (por até 24 horas) e as envia assim que você estiver online novamente. Se você estiver offline por mais de 24 horas, Teams permite que você escolha resendê-los ou excluir mensagens não enviadas. Estamos trabalhando para adicionar essa funcionalidade a novos chats e atualizaremos essa documentação quando estiver disponível.
+A boa notícia é que o Teams continua em execução mesmo quando você está offline ou em condições de baixa largura de banda. O Teams salva todas as suas mensagens não enviadas para chats existentes (por até 24 horas) e as envia assim que você estiver online novamente. Se você estiver offline por mais de 24 horas, o Teams permitirá que você opte por reenviar ou excluir mensagens não enviadas. Estamos trabalhando para adicionar essa funcionalidade a novos chats e atualizaremos essa documentação quando ela estiver disponível.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

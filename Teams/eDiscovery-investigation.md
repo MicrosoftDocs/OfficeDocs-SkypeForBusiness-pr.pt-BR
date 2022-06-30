@@ -17,43 +17,43 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675303"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562420"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
-Grandes Empresas geralmente são expostas a processos legais de alta penalidade que exigem o envio de todas as Informações Armazenadas Eletronicamente (ESI). Microsoft Teams conteúdo pode ser pesquisado e usado durante investigações de Descoberta Eletrônica.
+Grandes Empresas geralmente são expostas a processos legais de alta penalidade que exigem o envio de todas as Informações Armazenadas Eletronicamente (ESI). O conteúdo do Microsoft Teams pode ser pesquisado e usado durante investigações de Descoberta Eletrônica.
 
 ## <a name="overview"></a>Visão Geral
 
-Todos Microsoft Teams chats 1:1 ou em grupo são diários nas caixas de correio dos respectivos usuários. Todas as mensagens de canal padrão são registradas no diário na caixa de correio do grupo que representa a equipe. Os arquivos carregados em canais padrão são abordados na funcionalidade de Descoberta Eletrônica para SharePoint Online e OneDrive for Business.
+Todos os chats do Microsoft Teams 1:1 ou em grupo são diários nas caixas de correio dos respectivos usuários. Todas as mensagens de canal padrão são registradas no diário na caixa de correio do grupo que representa a equipe. Os arquivos carregados em canais padrão são abordados na funcionalidade de Descoberta Eletrônica do SharePoint Online e OneDrive for Business.
 
 A Descoberta Eletrônica de mensagens e arquivos em [canais privados](private-channels.md) funciona de maneira diferente dos canais padrão. Para saber mais, confira [a Descoberta Eletrônica de canais privados](#ediscovery-of-private-and-shared-channels).
 
-Nem todo Teams conteúdo é eDiscoverable. A tabela a seguir mostra os tipos de conteúdo que você pode pesquisar usando as ferramentas de Descoberta Eletrônica da Microsoft:
+Nem todo o conteúdo do Teams é Descoberta Eletrônica. A tabela a seguir mostra os tipos de conteúdo que você pode pesquisar usando as ferramentas de Descoberta Eletrônica da Microsoft:
 
 |Tipo de conteúdo|Descoberta Eletrônica|Observações|
 |---|---|---|
 |Gravações de áudio|Não||
 |Conteúdo do cartão|Sim|Consulte [Pesquisar conteúdo de cartão](#search-for-card-content) para obter mais informações.|
 |Links de chat|Sim||
-|Mensagens de chat|Sim|Isso inclui conteúdo em canais Teams padrão, chats 1:1, chats em grupo 1:N e chats com os participantes do usuário convidado.|
+|Mensagens de chat|Sim|Isso inclui conteúdo em canais padrão do Teams, chats 1:1, chats em grupo 1:N e chats com participantes do usuário convidado.|
 |Snippets de código|Não||
 |Mensagens editadas|Sim|Se o usuário estiver em espera, as versões anteriores das mensagens editadas também serão preservadas.|
 |Emojis, GIFs e adesivos|Sim||
 |Notificações de feed|Não||
 |Imagens embutidas|Sim||
-|Loop componentes|Sim|O conteúdo em um componente de loop é salvo em um arquivo .fluid armazenado na conta OneDrive for Business do usuário que envia o componente de loop. Isso significa que você precisa incluir OneDrive como uma fonte de dados ao pesquisar conteúdo em componentes de loop.|
+|Componentes de loop|Sim|O conteúdo em um componente de loop é salvo em um arquivo .fluid armazenado na conta OneDrive for Business do usuário que envia o componente de loop. Isso significa que você precisa incluir o OneDrive como uma fonte de dados ao pesquisar conteúdo em componentes de loop.|
 |Conversas de mensagens instantâneas de reunião|Sim||
 |Metadados<sup>de reunião 1</sup>|Sim||
 |Nome do canal|Sim||
 |Mensagens de chat de canal privado e compartilhado|Sim||
 |Citações|Sim|O conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado.|
-|Reações (como likes, hearts e outras reações)|Não||
+|Reações (como likes, hearts e outras reações)|Sim||
 |Assunto|Sim||
 |Tabelas|Sim||
 
@@ -81,11 +81,11 @@ Aqui está um exemplo dos metadados da reunião.
   > [!div class="mx-imgBorder"]
   > ![Os metadados da reunião da cópia de conformidade.](media/conversationOption3.png)
 
-Para obter mais informações sobre como conduzir uma investigação de Descoberta Eletrônica, [consulte Introdução com a Descoberta Eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
+Para obter mais informações sobre como conduzir uma investigação de Descoberta Eletrônica, consulte [Introdução à Descoberta Eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
 
-Microsoft Teams dados serão exibidos como mensagens instantâneas ou conversas na saída Excel exportação da Descoberta Eletrônica. Você pode abrir o arquivo `.pst` em Outlook exibir essas mensagens depois de exportá-las.
+Os dados do Microsoft Teams aparecerão como mensagens instantâneas ou conversas na saída de exportação da Descoberta Eletrônica do Excel. Você pode abrir o arquivo `.pst` no Outlook para exibir essas mensagens depois de exportá-las.
 
-Ao exibir o arquivo .pst para a equipe, todas as conversas estão localizadas na pasta Chat da Equipe em Histórico da Conversa. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que Project o canal padrão Project 7 da equipe de Especificações de Fabricação.
+Ao exibir o arquivo .pst para a equipe, todas as conversas estão localizadas na pasta Chat da Equipe em Histórico da Conversa. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que mensagem do canal padrão do Project 7 da equipe de Especificações de Fabricação.
 
 ![Captura de tela de uma pasta de bate-papo da equipe na caixa de correio de um usuário no Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -97,9 +97,9 @@ Cópias de conformidade de mensagens em canais privados e compartilhados são en
 
 - **Canais privados**. As cópias de conformidade são enviadas para a caixa de correio de todos os membros dos membros do canal privado. Isso significa que você precisa pesquisar a caixa de correio do usuário ao pesquisar conteúdo em mensagens de canal privado.
 
-- **Canais compartilhados**. Cópias de conformidade são enviadas para uma caixa de correio do sistema associada à equipe pai. Como Teams não dá suporte a uma pesquisa de Descoberta Eletrônica de uma única caixa de correio do sistema para um canal compartilhado, você precisa pesquisar a caixa de correio da equipe pai (selecionando o nome da caixa de correio da equipe) ao pesquisar conteúdo de mensagem em canais compartilhados.
+- **Canais compartilhados**. Cópias de conformidade são enviadas para uma caixa de correio do sistema associada à equipe pai. Como o Teams não dá suporte a uma pesquisa de Descoberta Eletrônica de uma única caixa de correio do sistema para um canal compartilhado, você precisa pesquisar a caixa de correio da equipe pai (selecionando o nome da caixa de correio da equipe) ao pesquisar conteúdo de mensagem em canais compartilhados.
 
-Cada canal privado e compartilhado tem seu próprio SharePoint site separado do site de equipe pai. Isso significa que os arquivos em canais privados e compartilhados são armazenados em seu próprio site e gerenciados independentemente da equipe pai. Isso significa que você deve identificar e pesquisar o site específico associado a um canal ao pesquisar conteúdo em arquivos e anexos de mensagem de canal.
+Cada canal privado e compartilhado tem seu próprio site do SharePoint separado do site de equipe pai. Isso significa que os arquivos em canais privados e compartilhados são armazenados em seu próprio site e gerenciados independentemente da equipe pai. Isso significa que você deve identificar e pesquisar o site específico associado a um canal ao pesquisar conteúdo em arquivos e anexos de mensagem de canal.
 
 Use as seções a seguir para ajudar a identificar o canal privado ou compartilhado a ser incluído em sua pesquisa de Descoberta Eletrônica.
 
@@ -107,7 +107,7 @@ Use as seções a seguir para ajudar a identificar o canal privado ou compartilh
 
 Use o procedimento nesta seção para identificar membros de um canal privado para que você possa usar ferramentas de Descoberta Eletrônica para pesquisar conteúdo na caixa de correio do membro em mensagens de canal privado.
 
-Antes de executar essas etapas, verifique se você tem a versão mais recente [do módulo Teams PowerShell](teams-powershell-overview.md) instalado.
+Antes de executar essas etapas, verifique se você tem a [versão mais recente do módulo PowerShell do Teams](teams-powershell-overview.md) instalada.
 
 1. Execute o comando a seguir para obter a ID do grupo da equipe que contém os canais compartilhados que você deseja pesquisar.
 
@@ -130,15 +130,15 @@ Antes de executar essas etapas, verifique se você tem a versão mais recente [d
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Inclua as caixas de correio de proprietários e membros de um canal privado como parte de sua consulta de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica [(Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou ao identificar e coletar conteúdo custodiante na Descoberta Eletrônica [(Premium)](/microsoft-365/compliance/add-custodians-to-case).
+4. Inclua as caixas de correio de proprietários e membros de um canal privado como parte de sua consulta de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica [(Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou ao identificar e coletar conteúdo custodiante na Descoberta [Eletrônica (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
-### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identificar o site SharePoint para canais privados e compartilhados
+### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>Identificando o site do SharePoint para canais privados e compartilhados
 
 Conforme explicado anteriormente, os arquivos compartilhados em canais privados e compartilhados (e arquivos anexados a mensagens de canal) são armazenados no conjunto de sites associado ao canal. Use o procedimento nesta seção para identificar a URL do site associado a um canal privado ou compartilhado específico. Em seguida, você pode usar as ferramentas de Descoberta Eletrônica para pesquisar conteúdo no site.
 
-Antes de executar essas etapas, [instale o shell de gerenciamento SharePoint Online e conecte-se ao SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+Antes de executar essas etapas, [instale o Shell de Gerenciamento do SharePoint Online e conecte-se ao SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
-1. Opcionalmente, execute o seguinte para obter uma lista de todos os conjuntos de sites SharePoint associados a canais compartilhados na equipe pai.
+1. Opcionalmente, execute o seguinte para obter uma lista de todos os conjuntos de sites do SharePoint associados a canais compartilhados na equipe pai.
 
    ```PowerShell
     Get-SPOSite
@@ -147,7 +147,7 @@ Antes de executar essas etapas, [instale o shell de gerenciamento SharePoint Onl
    > [!TIP]
    > A convenção de nomenclatura da URL para um site associado a canais privados e compartilhados é `[SharePoint domain]/sites/[Name of parent team]-[Name of private or shared channel]`. Por exemplo, a URL do canal compartilhado chamado "Colaboração de Parceiros", que está localizada na equipe pai da "Equipe de Engenheiros" na organização contoso é `https://contoso.sharepoint.com/sites/EngineeringTeam-PartnerCollaboration`.
 
-2. Execute os comandos do PowerShell a seguir para exibir a URL de todos os sites SharePoint associados aos canais privados e compartilhados em sua organização. A saída do script também inclui a ID de grupo da equipe pai, que você precisa executar os comandos na etapa 3.
+2. Execute os comandos do PowerShell a seguir para exibir a URL de todos os sites do SharePoint associados aos canais privados e compartilhados em sua organização. A saída do script também inclui a ID de grupo da equipe pai, que você precisa executar os comandos na etapa 3.
 
     ```PowerShell
     $sites = Get-SPOSite -Template "TEAMCHANNEL#1"
@@ -155,7 +155,7 @@ Antes de executar essas etapas, [instale o shell de gerenciamento SharePoint Onl
     ```
 
    > [!NOTE]
-   > SharePoint sites para canais privados criados antes de 28 de junho de 2021 usam `"TEAMCHANNEL#0"` o valor para a ID de modelo personalizado. Para exibir canais privados criados após essa data, use o valor `"TEAMCHANNEL#1"` ao executar os dois scripts anteriores. Os canais compartilhados usam apenas o valor de `"TEAMCHANNEL#1"`.
+   > Sites do SharePoint para canais privados criados antes de 28 de junho de 2021 usam `"TEAMCHANNEL#0"` o valor para a ID de modelo personalizado. Para exibir canais privados criados após essa data, use o valor `"TEAMCHANNEL#1"` ao executar os dois scripts anteriores. Os canais compartilhados usam apenas o valor de `"TEAMCHANNEL#1"`.
 
 3. Para cada equipe pai, execute os seguintes comandos do PowerShell para identificar os sites de canal privado e compartilhado, `$groupID` onde está a ID do grupo da equipe pai.
 
@@ -165,15 +165,15 @@ Antes de executar essas etapas, [instale o shell de gerenciamento SharePoint Onl
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Inclua o site associado a um canal privado ou compartilhado como parte de sua consulta de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica [(Padrão)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou ao identificar e coletar conteúdo custodiante na Descoberta Eletrônica [(Premium)](/microsoft-365/compliance/add-custodians-to-case).
+4. Inclua o site associado a um canal privado ou compartilhado como parte de sua consulta de pesquisa de Descoberta Eletrônica na Descoberta Eletrônica [(Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) ou ao identificar e coletar conteúdo custodiante na Descoberta [Eletrônica (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ## <a name="search-for-content-for-guest-users"></a>Pesquisar conteúdo para usuários convidados
 
-Você pode usar as ferramentas de Descoberta Eletrônica para pesquisar Teams conteúdo relacionado a usuários convidados em sua organização. Teams conteúdo de chat associado a um usuário convidado é preservado em um local de armazenamento baseado em nuvem e pode ser pesquisado para usar a Descoberta Eletrônica. Isso inclui a pesquisa de conteúdo em conversas de chat 1:1 e 1:N em que um usuário convidado é um participante com outros usuários em sua organização. Você também pode pesquisar mensagens de canal privado nas quais um usuário convidado é um participante e pesquisar conteúdo em conversas de chat de convidado *:* convidado em que os únicos participantes são usuários convidados.
+Você pode usar ferramentas de Descoberta Eletrônica para pesquisar conteúdo do Teams relacionado a usuários convidados em sua organização. O conteúdo de chat do Teams associado a um usuário convidado é preservado em um local de armazenamento baseado em nuvem e pode ser pesquisado para usar a Descoberta Eletrônica. Isso inclui a pesquisa de conteúdo em conversas de chat 1:1 e 1:N em que um usuário convidado é um participante com outros usuários em sua organização. Você também pode pesquisar mensagens de canal privado nas quais um usuário convidado é um participante e pesquisar conteúdo em conversas de chat de convidado *:* convidado em que os únicos participantes são usuários convidados.
 
 Para pesquisar conteúdo para usuários convidados:
 
-1. Conexão para Azure AD PowerShell. Para obter instruções, consulte a seção "Conexão com o Azure Active Directory PowerShell" no Conexão [para Microsoft 365 com o PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Conclua as Etapas 1 e 2 no artigo anterior.
+1. Conecte-se Azure AD PowerShell. Para obter instruções, consulte a seção "Conectar-se ao PowerShell do Azure Active Directory" em [Conectar-se ao Microsoft 365 com o PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Conclua as Etapas 1 e 2 no artigo anterior.
 
 2. Depois de se conectar com êxito ao Azure AD PowerShell, execute o comando a seguir para exibir o nome UPN para todos os usuários convidados em sua organização. Você precisa usar o UPN do usuário convidado ao criar a pesquisa na etapa 4.
 
@@ -184,7 +184,7 @@ Para pesquisar conteúdo para usuários convidados:
    > [!TIP]
    > Em vez de exibir uma lista de nomes de entidade de usuário na tela do computador, você pode redirecionar a saída do comando para um arquivo de texto. Você pode fazer isso acrescentando `> filename.txt` ao comando anterior. O arquivo de texto com os nomes de entidade de segurança do usuário será salvo na pasta atual.
 
-3. Em outra janela Windows PowerShell, conecte-se ao PowerShell do Centro de Conformidade & Segurança. Para obter instruções, [consulte Conexão o PowerShell do Centro de Conformidade & Segurança](/powershell/exchange/connect-to-scc-powershell). Você pode se conectar com ou sem usar a autenticação multifator.
+3. Em outra janela Windows PowerShell, conecte-se ao PowerShell do Centro de Conformidade & Segurança. Para obter instruções, consulte [Conectar-se ao PowerShell do Centro de Conformidade & Segurança](/powershell/exchange/connect-to-scc-powershell). Você pode se conectar com ou sem usar a autenticação multifator.
 
 4. Crie uma pesquisa de conteúdo que pesquise todo o conteúdo (como mensagens de chat e mensagens de email) em que o usuário convidado especificado era um participante executando o comando a seguir.
 
@@ -220,36 +220,36 @@ Para pesquisar conteúdo para usuários convidados:
 
 ## <a name="search-for-card-content"></a>Pesquisar conteúdo do cartão
 
-O conteúdo do cartão gerado por aplicativos Teams canais, chats 1:1 e chats 1xN é armazenado em caixas de correio e pode ser pesquisado. Um *cartão* é um contêiner de interface do usuário para partes curtas de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que podem disparar ações de cartão. Para obter mais informações, consulte [Cartões](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+O conteúdo do cartão gerado por aplicativos em canais do Teams, chats 1:1 e chats 1xN é armazenado em caixas de correio e pode ser pesquisado. Um *cartão* é um contêiner de interface do usuário para partes curtas de conteúdo. Os cartões podem ter várias propriedades e anexos e podem incluir botões que podem disparar ações de cartão. Para obter mais informações, consulte [Cartões](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
-Como outros Teams conteúdo, onde o conteúdo do cartão é armazenado é baseado no local em que o cartão foi usado. O conteúdo dos cartões usados em um Teams é armazenado na caixa de correio Teams grupo. O conteúdo do cartão para chats 1:1 e 1xN é armazenado nas caixas de correio dos participantes do chat.
+Assim como outros conteúdos do Teams, o local em que o conteúdo do cartão é armazenado é baseado no local em que o cartão foi usado. O conteúdo dos cartões usados em um canal do Teams é armazenado na caixa de correio do grupo do Teams. O conteúdo do cartão para chats 1:1 e 1xN é armazenado nas caixas de correio dos participantes do chat.
 
-Para pesquisar conteúdo de cartão, você pode usar as condições `kind:microsoftteams` de `itemclass:IPM.SkypeTeams.Message` pesquisa. Ao revisar os resultados da pesquisa, o conteúdo do cartão gerado por bots em um canal Teams tem a propriedade de email `<appname>@teams.microsoft.com`Remetente **/** Autor como , `appname` onde está o nome do aplicativo que gerou o conteúdo do cartão. Se o conteúdo do cartão foi gerado por um usuário, o valor de **Remetente/** Autor identifica o usuário.
+Para pesquisar conteúdo de cartão, você pode usar as condições `kind:microsoftteams` de `itemclass:IPM.SkypeTeams.Message` pesquisa. Ao revisar os resultados da pesquisa, o conteúdo do cartão gerado por bots em um canal do Teams tem a propriedade de email `<appname>@teams.microsoft.com`Remetente **/** Autor como , `appname` onde está o nome do aplicativo que gerou o conteúdo do cartão. Se o conteúdo do cartão foi gerado por um usuário, o valor de **Remetente/** Autor identifica o usuário.
 
 Ao exibir o conteúdo do cartão nos resultados da pesquisa de conteúdo, o conteúdo aparece como um anexo para a mensagem. O anexo é nomeado `appname.html`, onde `appname` está o nome do aplicativo que gerou o conteúdo do cartão. As capturas de tela a seguir mostram como o conteúdo do cartão (para um aplicativo chamado Asana) aparece no Teams e nos resultados de uma pesquisa.
 
 ### <a name="card-content-in-teams"></a>Conteúdo do cartão no Teams
 
-![Conteúdo do cartão na Teams do canal.](media/CardContentTeams.png)
+![Conteúdo do cartão na mensagem do canal do Teams.](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>Conteúdo do cartão nos resultados da pesquisa
 
 ![Mesmo conteúdo de cartão nos resultados de uma pesquisa de conteúdo.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Para exibir imagens do conteúdo do cartão nos resultados da pesquisa no momento (como as marcas de seleção na captura de tela anterior), você precisa estar conectado ao Teams (<https://teams.microsoft.com>em) em uma guia diferente na mesma sessão do navegador que você usa para exibir os resultados da pesquisa. Caso contrário, os espaços reservados de imagem serão exibidos.
+> Para exibir imagens do conteúdo do cartão nos resultados da pesquisa no momento (como as marcas de seleção na captura de tela anterior), você precisa estar conectado ao Teams ( <https://teams.microsoft.com>em) em uma guia diferente na mesma sessão do navegador usada para exibir os resultados da pesquisa. Caso contrário, os espaços reservados de imagem serão exibidos.
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>Descoberta Eletrônica em ambientes federados e não federados
 
 Os administradores podem usar a Descoberta Eletrônica para pesquisar conteúdo em mensagens de chat em uma reunião do Teams em ambientes federados (chamados de acesso *externo) e* não federados (chamados de acesso de *convidado) com* base nas seguintes restrições:
 
-- **Federado**: em uma reunião Teams com usuários de sua organização e usuários de uma organização externa (que têm acesso externo em sua organização), os administradores em ambas as organizações podem pesquisar conteúdo em mensagens de chat da reunião.
+- **Federado**: em uma reunião do Teams com usuários de sua organização e usuários de uma organização externa (que têm acesso externo em sua organização), os administradores em ambas as organizações podem pesquisar conteúdo em mensagens de chat da reunião.
 
-- **Não federado**: em uma reunião Teams com usuários de sua organização e usuários convidados, somente os administradores da organização que hospedam a reunião do Teams podem pesquisar conteúdo em mensagens de chat da reunião.
+- **Não federado**: em uma reunião do Teams com usuários de sua organização e usuários convidados, somente os administradores da organização que hospedam a reunião do Teams podem pesquisar conteúdo em mensagens de chat da reunião.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Microsoft 365 soluções de Descoberta Eletrônica](/microsoft-365/compliance/ediscovery)
-- [Introdução com Descoberta Eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams fluxo de trabalho na Descoberta Eletrônica (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Soluções de Descoberta Eletrônica do Microsoft 365](/microsoft-365/compliance/ediscovery)
+- [Introdução à Descoberta Eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Fluxo de trabalho do Teams na Descoberta Eletrônica (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
