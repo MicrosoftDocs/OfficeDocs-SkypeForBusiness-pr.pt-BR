@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240740"
+ms.locfileid: "66551198"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformidade de comunicação com o Microsoft Teams
 
@@ -53,7 +53,7 @@ Os administradores do Teams podem configurar políticas de conformidade de comun
 >[!NOTE]
 >A disponibilidade de mensagens relatadas pelo usuário para organizações [](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) licenciadas e usando a conformidade de comunicação e o Microsoft Teams começou em maio de 2022. Esse recurso estará disponível até 31 de agosto de 2022 para todas as organizações licenciadas e usando a conformidade de comunicação até julho de 2022. Para organizações que começam a usar a conformidade de comunicação após julho de 2022, a disponibilidade da política de mensagens relatadas pelo usuário pode levar até 30 dias a partir da data de seu licenciamento e do primeiro uso da conformidade de comunicação.
 
-A *opção Relatar uma preocupação* nas mensagens de chat internas do Teams é habilitada por padrão e pode ser controlada por meio de políticas de mensagens do Teams no centro [de administração do Teams](/microsoftteams/manage-teams-in-modern-portal). Isso permite que os usuários em sua organização enviem mensagens de chat internas inadequadas para revisão por revisores de conformidade de comunicação para a política. Para obter mais informações sobre mensagens relatadas pelo usuário na conformidade de comunicação, consulte [Políticas de conformidade de comunicação](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
+A *opção Relatar uma preocupação* para mensagens de chat pessoais e de grupo do Teams é habilitada por padrão e pode ser controlada por meio de políticas de mensagens do Teams no centro [de administração do Teams](/microsoftteams/manage-teams-in-modern-portal). Isso permite que os usuários em sua organização enviem mensagens de chat internas inadequadas para revisão por revisores de conformidade de comunicação para a política. Para obter mais informações sobre mensagens relatadas pelo usuário na conformidade de comunicação, consulte [Políticas de conformidade de comunicação](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
 ![Menu Relatar uma preocupação.](./media/communication-compliance-report-a-concern-full-menu.png)
 
