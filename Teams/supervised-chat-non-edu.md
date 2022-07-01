@@ -1,7 +1,7 @@
 ---
 title: Usar chats supervisionados para locatários não educacionais
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -14,13 +14,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba mais sobre chats supervisionados para locatários não educacionais Microsoft Teams reuniões.
-ms.openlocfilehash: 4076a2dfa93a037912649bbac88c876c498f1586
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Saiba mais sobre chats supervisionados para locatários não educacionais em reuniões do Microsoft Teams.
+ms.openlocfilehash: a06aa7b9ae24e29a70b3c1a4fc74fae134616b6b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681562"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564179"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisionados para locatários não educacionais
 
@@ -48,19 +48,19 @@ Para que o chat supervisionado funcione conforme o esperado, cada usuário em se
 
 - Permissões restritas: essa função é ideal para usuários que precisam ser supervisionados. Eles só podem iniciar chats com usuários que têm permissões completas. Ele pode participar de qualquer conversa para a qual um usuário com permissões completas o convide. Em casos de chat federados, os usuários restritos só podem ser adicionados a chats por um usuário com permissões completas que são do locatário restrito do usuário.
 
-Para definir a função de permissão de chat dos usuários, use a política de função de permissões de **chat** encontrada nas opções de política de mensagens no portal Teams administrador. Você pode usar o PowerShell para definir funções usando a política ChatPermissionRole com os valores Completo, Limitado ou Restrito. Essa política está em [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy).
+Para definir a função de permissão de chat dos usuários, use a política de função de permissões de **chat** encontrada nas opções de política de mensagens no portal de administração do Teams. Você pode usar o PowerShell para definir funções usando a política ChatPermissionRole com os valores Completo, Limitado ou Restrito. Essa política está em [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy).
 
 As funções não podem ser atribuídas a convidados em seu locatário. Os convidados recebem a função limitada.
 
 ## <a name="allow-supervised-chat"></a>Permitir chat supervisionado
 
-O chat supervisionado é desabilitado por padrão para seu locatário. Depois de definir funções de permissão de chat para seus usuários, você pode habilitar o chat  \> supervisionado em seu locatário acessando as configurações de toda a organização Teams Configurações e definindo **a** política de permissões de **chat baseadas** em função como **Ativado**. Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Esse cmdlet está em [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
+O chat supervisionado é desabilitado por padrão para seu locatário. Depois de definir as funções de permissão de chat para seus usuários, você pode habilitar o chat  \> supervisionado em seu locatário acessando as Configurações do **Teams** em toda a organização e definindo a política de permissões de **chat baseadas** em função como **Ativado**. Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Esse cmdlet está em [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
 
 O chat supervisionado deve ser habilitado para todos os usuários no locatário e não pode ser habilitado para apenas uma parte dos usuários.
 
 **Habilitar chat**:
 
-Habilite o chat para todos os usuários usando a política de Chat existente disponível no Teams de administração.
+Habilite o chat para todos os usuários usando a política de Chat existente disponível no Centro de administração do Teams.
 
 **Manter chats supervisionados**:
 

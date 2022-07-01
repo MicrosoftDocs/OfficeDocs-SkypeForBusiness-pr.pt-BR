@@ -1,7 +1,7 @@
 ---
-title: Teams de política para o governo
-author: serdars
-ms.author: serdars
+title: Pacotes de políticas do Teams para o governo
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar e gerenciar pacotes de Teams de política para sua organização governamental.
-ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Saiba como usar e gerenciar pacotes de políticas do Teams para sua organização governamental.
+ms.openlocfilehash: fdaacb8b551c1031d71c522dffdbc4afd9f551a8
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384099"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564089"
 ---
-# <a name="teams-policy-packages-for-government"></a>Teams de política para o governo
+# <a name="teams-policy-packages-for-government"></a>Pacotes de políticas do Teams para o governo
 
 > [!NOTE]
-> No momento, os pacotes de política não estão disponíveis Microsoft 365 implantações GCC Alta ou DoD.
+> Atualmente, os pacotes de política não estão disponíveis nas implantações do Microsoft 365 Government GCC High ou do DoD.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -41,19 +41,19 @@ Pacotes de política pré-definem políticas para o seguinte, dependendo do paco
 - Configuração do aplicativo
 - Eventos ao vivo
 
-Teams atualmente inclui os seguintes pacotes de política para o governo.
+Atualmente, o Teams inclui os seguintes pacotes de políticas para o governo.
 
 |Nome do pacote listado no Centro de Administração do Microsoft Teams|Melhor usado para|Descrição |
 |---------|---------|---------|
-|Oficial de segurança pública  |Agentes de segurança pública em sua organização governamental  |Cria um conjunto de políticas e configurações de política que se aplicam aos agentes de segurança pública em sua organização. |
-|Gerenciador de frontline  |Gerentes de linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Gerentes de Linha de Frente em sua organização.|
+|Oficial de segurança pública  |Oficiais de segurança pública em sua organização governamental  |Cria um conjunto de políticas e configurações de política que se aplicam a agentes de segurança pública em sua organização. |
+|Gerenciador de linha de frente  |Gerentes de linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Gerentes de Linha de Frente em sua organização.|
 |Trabalhador de linha de frente  |Trabalhadores de linha de frente em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos Trabalhadores de Linha de Frente em sua organização.|
 
-![Captura de tela de pacotes de política de saúde.](media/policy-packages-gov.png)
+![Captura de tela dos pacotes de políticas de saúde.](media/policy-packages-gov.png)
 
-Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de política de agente de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
+Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas de oficial de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
 
-![Captura de tela de políticas no pacote de trabalho da assistência médica.](media/policy-packages-public-safety-officer.png)
+![Captura de tela das políticas no pacote de trabalho clínico de saúde.](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
 

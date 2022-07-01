@@ -1,7 +1,7 @@
 ---
 title: Pacotes de políticas do Teams para a área de saúde
-author: serdars
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização da área de saúde.
-ms.openlocfilehash: d61075f03af034148205520f1d9f08c313b739ed
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417374"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563719"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Pacotes de políticas do Teams para a área de saúde
 
@@ -52,11 +52,11 @@ No momento, o Microsoft Teams inclui os seguintes pacotes de políticas.
 |Profissional de informações da área de saúde  |Operadores de informações em sua organização da área de saúde |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
 |Quartos dos pacientes de saúde  |Dispositivos de quarto dos pacientes|Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
 
-![Captura de tela de pacotes de política de saúde.](media/policy-packages-healthcare.png)
+![Captura de tela dos pacotes de políticas de saúde.](media/policy-packages-healthcare.png)
 
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas para trabalhadores clínicos da área de saúde a clínicos de sua organização, uma política chamada Healthcare_ClinicalWorker é criada para cada política do pacote.
 
-![Captura de tela de políticas no pacote de trabalho da assistência médica.](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de tela das políticas no pacote de trabalho clínico de saúde.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Começar a trabalhar com pacotes de política
 

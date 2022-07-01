@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562420"
+ms.locfileid: "66563939"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -38,7 +38,7 @@ Nem todo o conteúdo do Teams é Descoberta Eletrônica. A tabela a seguir mostr
 
 |Tipo de conteúdo|Descoberta Eletrônica|Observações|
 |---|---|---|
-|Gravações de áudio|Não||
+|Gravações de áudio|Sim||
 |Conteúdo do cartão|Sim|Consulte [Pesquisar conteúdo de cartão](#search-for-card-content) para obter mais informações.|
 |Links de chat|Sim||
 |Mensagens de chat|Sim|Isso inclui conteúdo em canais padrão do Teams, chats 1:1, chats em grupo 1:N e chats com participantes do usuário convidado.|
@@ -51,7 +51,6 @@ Nem todo o conteúdo do Teams é Descoberta Eletrônica. A tabela a seguir mostr
 |Conversas de mensagens instantâneas de reunião|Sim||
 |Metadados<sup>de reunião 1</sup>|Sim||
 |Nome do canal|Sim||
-|Mensagens de chat de canal privado e compartilhado|Sim||
 |Citações|Sim|O conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado.|
 |Reações (como likes, hearts e outras reações)|Sim||
 |Assunto|Sim||
