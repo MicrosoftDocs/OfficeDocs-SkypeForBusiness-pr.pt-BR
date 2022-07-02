@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: Aprenda a gerenciar configurações de política de reunião em Teams para compartilhamento de conteúdo.
-ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+description: Saiba como gerenciar as configurações de política de reunião no Teams para compartilhamento de conteúdo.
+ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403982"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605840"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configurações de política de reunião - Compartilhamento de conteúdo
 
@@ -79,7 +79,7 @@ Observe o exemplo a seguir.
 |Daniela   | Global   | Habilitado       |
 |Babek    | Location1MeetingPolicy        | Desabilitado   |
 
-Daniela pode dar controle da área de trabalho ou janela compartilhada a outros participantes em uma reunião organizada por Babek. No entanto, o Babek não pode dar controle a outros participantes.
+Daniela pode dar controle da área de trabalho ou janela compartilhada a outros participantes em uma reunião organizada pelo Babek. No entanto, Babek não pode dar controle a outros participantes.
 
 Para usar o PowerShell para controlar quem pode conceder controle ou aceitar solicitações de controle, use o cmdlet AllowParticipantGiveRequestControl.
 
@@ -123,7 +123,13 @@ Observe o exemplo a seguir.
 |Daniela   | Global   | Habilitado       |
 |Amanda   | Location1MeetingPolicy        | Desabilitado   |
 
-Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo que ela seja a organizadora da reunião. Daniela pode compartilhar o quadro de comunicações mesmo se uma reunião for organizada por Amanda.  
+Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo que ela seja a organizadora da reunião. Daniela pode compartilhar o quadro de comunicações mesmo se uma reunião for organizada por Amanda.
+
+Para habilitar o Whiteboard usando o PowerShell, defina o cmdlet IsWBFluidEnabled como $true [do Set-SPOTenant.](/powershell/module/sharepoint-online/set-spotenant)
+
+### <a name="annotation"></a>Anotação
+
+Quando o quadro de comunicações estiver habilitado, os usuários terão a opção de usar a anotação [, um](/office/use-annotation-while-sharing-your-screen-in-teams) recurso que permite que os participantes colaborem enquanto compartilham sua tela em uma reunião do Teams. Se o quadro de comunicações estiver desabilitado, os usuários não terão acesso à anotação.
 
 ## <a name="shared-notes"></a>Anotações compartilhadas
 

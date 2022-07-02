@@ -1,14 +1,14 @@
 ---
-title: Microsoft Teams de conteúdo
-author: SerdarSoysal
-ms.author: serdars
+title: Atualizações de conteúdo do Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Este tópico é uma lista de Microsoft Teams de ajuda que foram atualizados recentemente, incluindo links para os tópicos atualizados.
+description: Este tópico é uma lista de tópicos de ajuda do Microsoft Teams que foram atualizados recentemente, incluindo links para os tópicos atualizados.
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -18,15 +18,15 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6bc80d24c275188fb0b81a21c655aea4d7635a87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a85c915431c6b7c528565787b5ec61033b7f825
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616167"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605910"
 ---
-# <a name="microsoft-teams-content-updates"></a>Microsoft Teams de conteúdo
+# <a name="microsoft-teams-content-updates"></a>Atualizações de conteúdo do Microsoft Teams
 
-Este tópico lista Microsoft Teams tópicos que foram alterados recentemente.
+Este tópico lista os tópicos do Microsoft Teams que foram alterados recentemente.
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

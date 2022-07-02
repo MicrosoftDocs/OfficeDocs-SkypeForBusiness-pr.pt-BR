@@ -1,7 +1,7 @@
 ---
 title: Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar as avaliações de saúde do serviço em sua Teams adoção para compartilhar informações sobre uso, saúde, recurso/roteiro do projeto e outras atualizações.
+description: Saiba como usar as revisões de integridade do serviço em sua adoção do Teams para compartilhar insights sobre uso, integridade, roteiro de recursos/projeto e outras atualizações.
 f1.keywords:
 - CSH
 ms.custom: Adopt
@@ -20,21 +20,21 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb6153a1f44e7a7201e1085c9277e90bc59be000
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 207b7902a8f9df5f710b71ebfe9cde614c2cdb1e
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518763"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606040"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
 
-Em colaboração com sua equipe de implementação técnica, planeje realizar avaliações mensais de saúde do serviço para Teams. Nessas análises, você compartilhará informações sobre as seguintes medidas:
+Em colaboração com sua equipe de implementação técnica, planeje realizar revisões mensais de integridade do serviço para o Teams. Nestas revisões, você compartilhará insights sobre as seguintes medidas:
 
-- **Uso do** serviço – Dados de uso ativo e podem incluir informações sobre serviços preterido ou consumo reduzido como resultado da mudança para Teams. Normalmente, liderada pelo gerente de serviço ou pelo proprietário do produto para serviços de colaboração.
-- **Saúde do serviço** – Qualidade da chamada, saúde da reunião e saúde geral do serviço. Revisão de quaisquer incidentes de suporte e níveis de tíquete de suporte. Tópicos de segurança e governança. Normalmente, lideradas por equipes de proteção e suporte de informações. 
-- **Roteiro de funcionalidade/projeto** – Qual é o cronograma de projetos de integração restantes de funcionários ou de aperfeiçoamento de colaboração? Quais recursos adicionais sua organização vai habilitar? Normalmente, o gerente de serviço ou o proprietário do produto para serviços de colaboração em colaboração com os principais participantes da empresa.
-- **Atualização da medida de** sucesso da campanha de conscientização e treinamento – inclui alcance, participação, principais temas de comentários e problemas abertos. Inclui principais vitórias e histórias de sucesso.
-- **Teams de** ciclo de vida – Inclui número de equipes ativas versus inativas, número de equipes com usuários convidados, grupos sem proprietário e equipes com nomes duplicados. 
+- **Uso do** serviço – Dados de uso ativo e podem incluir informações sobre serviços preteridos ou consumo reduzido como resultado da mudança para o Teams. Normalmente, liderado pelo gerente de serviços ou proprietário do produto para serviços de colaboração.
+- **Integridade do serviço** – Qualidade da chamada, integridade da reunião e integridade geral do serviço. Revisão de todos os incidentes de suporte e níveis de tíquete de assistência técnica. Tópicos de segurança e governança. Normalmente, liderados por equipes de suporte e proteção de informações. 
+- **Roteiro de funcionalidade/projeto** – Qual é o cronograma de integração restante de funcionários ou outros projetos de melhoria de colaboração? Quais recursos adicionais sua organização vai habilitar? Normalmente, liderado pelo gerente de serviços ou proprietário do produto para serviços de colaboração em colaboração com os principais stakeholders de negócios.
+- **Campanha de conscientização e atualização de medidas de** sucesso de treinamento – inclui alcance, participação, principais temas de comentários e problemas abertos. Inclui principais vitórias e histórias de sucesso.
+- **Gerenciamento do ciclo de** vida do Teams – inclui o número de equipes ativas versus inativas, o número de equipes com usuários convidados, grupos sem proprietário e equipes com nomes duplicados. 
 
-Essa revisão mensal pode ser bastante formal em grandes organizações ou virtuais em empresas menores. É importante compartilhar e monitorar esses dados para garantir uma implementação saudável e cada vez mais vibrante de Microsoft Teams. 
+Esta revisão mensal pode ser bastante formal em grandes organizações ou virtuais em empresas menores. É importante compartilhar e monitorar esses dados para garantir uma implementação saudável e cada vez mais vibrante do Microsoft Teams. 

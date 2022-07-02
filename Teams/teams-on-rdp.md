@@ -1,7 +1,7 @@
 ---
-title: Usar Teams com serviços de área de trabalho remota
-author: serdars
-ms.author: serdars
+title: Usar o Teams com serviços de área de trabalho remota
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,47 +17,47 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bfd184738428c8ebe3d61c999c46c172f93e2fd
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7e18aa0ad95033550d0ef2f7c6049e700d917798
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398375"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606090"
 ---
-# <a name="teams-in-remote-desktop-services"></a>Teams serviços de área de trabalho remota
+# <a name="teams-in-remote-desktop-services"></a>Teams nos Serviços de Área de Trabalho Remota
 
-Este artigo descreve os requisitos e limitações para o uso Microsoft Teams em um ambiente de serviços de área de trabalho remota (RDS).
+Este artigo descreve os requisitos e limitações para usar o Microsoft Teams em um ambiente de serviços de área de trabalho remota (RDS).
 
-## <a name="what-is-rds"></a>O que é RDS?
+## <a name="what-is-rds"></a>O que é o RDS?
 
-O RDS (Remote Desktop Services) é a plataforma preferida para criar soluções de virtualização para cada necessidade do cliente final. O RDS permite que você forneça aplicativos virtualizados individuais, forneça acesso seguro à área de trabalho móvel e remota e forneça aos usuários finais a capacidade de executar seus aplicativos e áreas de trabalho na nuvem.
+O RDS (Serviços de Área de Trabalho Remota) é a plataforma escolhida para criar soluções de virtualização para cada necessidade do cliente final. O RDS permite que você forneça aplicativos virtualizados individuais, forneça acesso seguro à área de trabalho remota e móvel e forneça aos usuários finais a capacidade de executar seus aplicativos e áreas de trabalho da nuvem.
 
-O RDS oferece flexibilidade de implantação, eficiência de custo e extensibilidade. O RDS é fornecido por meio de várias opções de implantação, incluindo Windows Server 2016 para implantações locais, Microsoft Azure para implantações na nuvem e uma matriz robusta de soluções de parceiros.
-Dependendo do ambiente e das preferências, você pode configurar a solução RDS para virtualização baseada em sessão, como uma infraestrutura de área de trabalho virtual (VDI)
+O RDS oferece flexibilidade de implantação, eficiência de custo e extensibilidade. O RDS é fornecido por meio de uma variedade de opções de implantação, incluindo o Windows Server 2016 para implantações locais, o Microsoft Azure para implantações na nuvem e uma matriz robusta de soluções de parceiros.
+Dependendo do ambiente e das preferências, você pode configurar a solução RDS para virtualização baseada em sessão, como uma VDI (infraestrutura de área de trabalho virtual)
 
 Atualmente, o Teams em um ambiente de serviços de área de trabalho remota está disponível com suporte para a funcionalidade de colaboração e chat. Para garantir uma experiência de usuário ideal, siga as diretrizes neste artigo.
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams no RDS com chat e colaboração
 
-Se sua organização quiser usar apenas recursos de chat e colaboração no Teams, você pode definir políticas no nível do usuário para desativar a funcionalidade de chamada e reunião em Teams.
+Se sua organização quiser usar apenas recursos de chat e colaboração no Teams, você poderá definir políticas de nível de usuário para desativar a funcionalidade de chamada e reunião no Teams.
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Definir políticas para desativar a funcionalidade de chamada e reunião
 
-Você pode definir políticas usando o centro de administração Microsoft Teams ou o PowerShell. Pode levar algum tempo (algumas horas) para que as alterações de política se propaguem. Se você não vir alterações para uma determinada conta imediatamente, tente novamente em algumas horas.
+Você pode definir políticas usando o centro de administração do Microsoft Teams ou o PowerShell. Pode levar algum tempo (algumas horas) para que as alterações de política se propaguem. Se você não vir alterações para uma determinada conta imediatamente, tente novamente em algumas horas.
 
-[**Políticas de chamada**](teams-calling-policy.md): Teams inclui a política de chamada DisallowCalling interna, na qual todos os recursos de chamada estão desligados. Atribua a política DisallowCalling a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
+[**Políticas de chamada**](teams-calling-policy.md): o Teams inclui a política interna de chamada DisallowCalling, na qual todos os recursos de chamada são desativados. Atribua a política DisallowCalling a todos os usuários em sua organização que usam o Teams em um ambiente virtualizado.
 
-[**Políticas de**](meeting-policies-overview.md) reunião: Teams inclui a política de reunião AllOff interna, na qual todos os recursos de reunião estão desligados. Atribua a política AllOff a todos os usuários da sua organização que usam Teams em um ambiente virtualizado.
+[**Políticas de**](meeting-policies-overview.md) reunião: o Teams inclui a política de reunião AllOff interna, na qual todos os recursos da reunião estão desativados. Atribua a política AllOff a todos os usuários em sua organização que usam o Teams em um ambiente virtualizado.
 
-#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o Microsoft Teams de administração
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o centro de administração do Microsoft Teams
 
 Para atribuir a política de chamada DisallowCalling e a política de reunião AllOff a um usuário:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para **Usuários**.
-2. Selecione o usuário selecionando à esquerda do nome de usuário e selecione **Editar configurações**.
-3. Faça as seguintes etapas:
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, acesse **Usuários**.
+2. Selecione o usuário selecionando à esquerda do nome de usuário e, em seguida, selecione **Editar configurações**.
+3. Execute as seguintes etapas:
 
-    a.  Em **Política de Chamada**, selecione **DisallowCalling**.
+    a.  Em **Política de chamada**, selecione **DisallowCalling**.
 
     b.  Em **Política de reunião**, selecione **AllOff**.
 
@@ -67,14 +67,14 @@ Para atribuir uma política a vários usuários por vez:
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
 2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, selecione o &#x2713; (marca de seleção) na parte superior da tabela.
-3. Selecione **Editar configurações**, faça as alterações que você deseja e selecione **Aplicar**.
+3. Selecione **Editar configurações**, faça as alterações desejadas e, em seguida, **selecione Aplicar**.
 
-Ou você também pode fazer as seguintes etapas:
+Ou você também pode executar as seguintes etapas:
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
 
-    - Vá para **políticas** **voiceCalling** >  e selecione **DisallowCalling**.
-    - Vá para **MeetingsMeeting** >  policies e selecione **AllOff**.
+    - Vá para **políticas de** > **Chamada de** Voz e selecione **DisallowCalling**.
+    - Vá para **as políticas de** > **Reunião de** Reuniões e selecione **AllOff**.
 
 2. Selecione **Gerenciar usuários**.
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -88,7 +88,7 @@ O exemplo a seguir mostra como usar [Grant-CsTeamsCallingPolicy](/powershell/mod
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-Para saber mais sobre como usar o PowerShell para gerenciar políticas de chamadas, consulte [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+Para saber mais sobre como usar o PowerShell para gerenciar políticas de chamada, consulte [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 O exemplo a seguir mostra como usar [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) para atribuir a política de reunião AllOff a um usuário.
 

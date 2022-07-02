@@ -1,14 +1,14 @@
 ---
 title: Considerações sobre o modo Teams Only (Apenas Teams)
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
-description: O administrador pode aprender sobre como se preparar para uma atualização para Microsoft Teams modo Somente no Microsoft Teams de administração.
+description: Administração saber mais sobre como se preparar para uma atualização para o modo somente do Microsoft Teams no centro de administração do Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -22,36 +22,36 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8db18a835b5e54043e572400e547c7cd5989b87
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: b80a563d6d3938a597e57aab4ac93e41df976d32
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390733"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605860"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
-Os administradores de Microsoft 365 ou Office 365 podem atualizar usuários individuais ou o locatário inteiro para Teams modo Somente.  
+Os administradores do Microsoft 365 ou Office 365 podem atualizar usuários individuais ou todo o locatário para o modo Somente Teams.  
 
 [!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
-A atualização para o modo Somente Teams oferece aos usuários os benefícios completos do Microsoft Teams, o hub para trabalho em equipe no Microsoft 365 ou Office 365, por meio de uma única experiência do cliente. Os usuários no modo somente Teams receberão todas as chamadas e chats no Teams, independentemente de o remetente usar Skype for Business ou Teams e se beneficiarão do suporte de interop e federação.
+Atualizar para o modo Somente teams oferece aos usuários os benefícios completos do Microsoft Teams, o hub para trabalho em equipe no Microsoft 365 ou Office 365, por meio de uma única experiência de cliente. Os usuários no modo Somente Teams receberão todas as chamadas e chats no Teams, independentemente de o remetente usar o Skype for Business ou o Teams, e se beneficiarão do suporte de interoperabilidade e federação.
 
-Embora milhares de clientes tenham sido atualizados com êxito para Microsoft Teams, há considerações que podem influenciar a linha do tempo de atualização da sua organização e a experiência do usuário ao longo do caminho. Para obter a melhor experiência do usuário, confirme se o Microsoft Teams atende a seus requisitos de colaboração e comunicação, verifique se a rede está pronta para dar suporte ao Microsoft Teams e implemente seu plano de preparação do usuário antes de atualizar os usuários para o Microsoft Teams. 
-
-> [!IMPORTANT]
-> Se você estiver apenas iniciando seu planejamento de atualização, não deixe de revisar nosso [guia De início Microsoft Teams atualização](upgrade-start-here.md). 
-
-**Considerações de coexistência**: as organizações que já usam o Skype for Business Online e/ou Skype for Business Server podem introduzir Teams em seu ambiente em um ritmo que atenda às suas necessidades. As organizações podem Teams um conjunto desejado de usuários, conforme necessário, e os usuários que usam o Teams podem se comunicar com usuários que usam Skype for Business e vice-versa. Para gerenciar essa experiência, os administradores usam modos de coexistência, que definem a experiência do cliente do usuário final, o comportamento de roteamento de chats e chamadas de entrada e se novas reuniões são agendadas em Teams ou Skype for Business. Os usuários podem federar com usuários em outras organizações se o usuário for atualizado para Teams Somente; no entanto, **a** melhor experiência é fornecida quando ambos os usuários usam Teams. Os usuários que são atualizados para o Teams Somente ainda podem ingressar Skype for Business reuniões. 
+Embora milhares de clientes tenham atualizado com êxito para o Microsoft Teams, há considerações que podem influenciar a linha do tempo de atualização e a experiência do usuário da sua organização ao longo do caminho. Para obter a melhor experiência do usuário, confirme se o Microsoft Teams atende a seus requisitos de colaboração e comunicação, verifique se a rede está pronta para dar suporte ao Microsoft Teams e implemente seu plano de preparação do usuário antes de atualizar os usuários para o Microsoft Teams. 
 
 > [!IMPORTANT]
-> Para obter informações mais detalhadas sobre coexistência, consulte [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md). Para obter mais informações sobre Teams e Skype (Consumidor), consulte [Teams e Skype interoperabilidade](teams-skype-interop.md).
+> Se você estiver apenas iniciando seu planejamento de atualização, não deixe de examinar nossa Introdução [ao guia de atualização do Microsoft Teams](upgrade-start-here.md) . 
+
+**Considerações de coexistência**: as organizações que já usam o Skype for Business Online e/ou Skype for Business Server podem introduzir o Teams em seu ambiente em um ritmo que atenda às suas necessidades. As organizações podem distribuir incrementalmente o Teams para um conjunto desejado de usuários, conforme necessário, e os usuários que usam o Teams podem se comunicar com usuários que usam Skype for Business e vice-versa. Para gerenciar essa experiência, os administradores usam modos de coexistência, que definem a experiência do cliente do usuário final, o comportamento de roteamento de chats e chamadas de entrada e se novas reuniões são agendadas no Teams ou Skype for Business. Os usuários podem federar com usuários em outras organizações se o usuário for atualizado somente para **o Teams**; no entanto, a melhor experiência é fornecida quando ambos os usuários usam o Teams. Os usuários que são atualizados apenas para o Teams ainda podem ingressar Skype for Business reuniões. 
+
+> [!IMPORTANT]
+> Para obter informações mais detalhadas sobre coexistência, consulte [Entender o Microsoft Teams e Skype for Business coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md). Para obter mais informações sobre o Teams e o Skype (Consumidor), consulte [a interoperabilidade do Teams e do Skype](teams-skype-interop.md).
 
 
-**Considerações específicas** do usuário: alguns cenários do usuário ainda estão evoluindo e os administradores podem optar por adiar temporariamente a atualização de determinados usuários enquanto atualiza outros usuários na organização. Em particular, ainda estamos trabalhando em cenários de endereçamento para usuários cujo dispositivo principal é baseado em VDI. Para anúncios de site, monitore [o Microsoft 365 Roteiro](https://www.microsoft.com/microsoft-365/roadmap).
+**Considerações específicas do** usuário: alguns cenários de usuário ainda estão evoluindo e os administradores podem decidir adiar temporariamente a atualização de determinados usuários ao atualizar outros usuários na organização. Em particular, ainda estamos trabalhando em cenários de endereçamento para usuários cujo dispositivo primário é baseado em VDI. Para comunicados do site, monitore o [Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap).
 
 > [!NOTE]
-> Antes de mover para Teams modo Somente, você precisa substituir ou atualizar dispositivos que não suportam Teams. 
+> Antes de passar para o modo Somente teams, você precisa substituir ou atualizar dispositivos que não dão suporte ao Teams. 
 
 > [!IMPORTANT]
-> **Lembre-se**: a mudança para Teams é mais do que uma migração técnica. Uma atualização bem-sucedida avalia a preparação técnica e a preparação do usuário final. Revise nossa Skype for Business para Teams de atualização para obter mais informações [](upgrade-framework.md) sobre como planejar uma implementação da atualização para Teams.  
+> **Lembre-se**: a mudança para o Teams é mais do que uma migração técnica. Uma atualização bem-sucedida avalia a preparação técnica e a preparação do usuário final. Examine nossas diretrizes Skype for Business [atualização](upgrade-framework.md) do Teams para obter mais informações sobre como planejar uma implementação da atualização para o Teams.  

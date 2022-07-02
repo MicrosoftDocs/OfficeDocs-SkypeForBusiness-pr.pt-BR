@@ -1,7 +1,7 @@
 ---
 title: Gerenciar modelos de equipe no centro de administração
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar modelos de equipe no centro de administração
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681392"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605900"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gerenciar modelos de equipe no centro de administração
 
@@ -38,7 +38,7 @@ Assista a este breve vídeo para saber como gerenciar políticas de modelos.
 
 1. Entre no Centro de administração do Teams.
 
-2. Vá para **Teams** >  **de dados**.
+2. Acesse as políticas **de Modelos do** **Teams** > .
 
 3. Escolha **Adicionar**.
 
@@ -70,11 +70,11 @@ Você pode atribuir uma política de modelos diretamente aos usuários, individu
 > [!Note]
 > Atualmente, não há suporte para a atribuição de políticas de modelos a usuários com base na associação de grupo, como a todos os usuários em um grupo de segurança. Essa funcionalidade estará disponível no futuro.
 
-Para obter uma visão geral das maneiras de atribuir políticas no Teams, consulte [Atribuir políticas em Teams](policy-assignment-overview.md).
+Para obter uma visão geral das maneiras de atribuir políticas no Teams, consulte [Atribuir políticas no Teams](policy-assignment-overview.md).
 
 ### <a name="assign-a-templates-policy-to-individual-users"></a>Atribuir uma política de modelos a usuários individuais
 
-Você pode usar o Teams de administração ou o PowerShell para atribuir uma política de modelos a um usuário individual ou a um pequeno número de usuários por vez. Para saber mais, confira [Atribuir uma política a usuários individuais](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
+Você pode usar o Centro de administração do Teams ou o PowerShell para atribuir uma política de modelos a um usuário individual ou a um pequeno número de usuários por vez. Para saber mais, confira [Atribuir uma política a usuários individuais](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
 
 ### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>Atribuir uma política de modelos a um lote de usuários
 
@@ -102,11 +102,11 @@ R: Todos os novos modelos estarão visíveis por padrão. Você pode optar por o
 
 R: Todos os modelos excluídos não estarão mais presentes em nenhuma política de modelos.
 
-**P: Posso atribuir vários usuários a uma política de modelos no Teams de administração?**
+**P: Posso atribuir vários usuários a uma política de modelos no Centro de administração do Teams?**
 
 R: Sim.
 
-1. No centro Teams administradores, vá para Gerenciar **Usuários** > .
+1. No centro de administração do Teams, acesse Gerenciar **Usuários** > .
 1. Na lista de usuários, selecione os usuários que você deseja atribuir à política de modelos.
 1. Selecione **Editar configurações** e, em seguida, em **Política de** Modelos, escolha a política que você deseja atribuir.
 1. Escolha **Aplicar**.
@@ -115,7 +115,7 @@ Para saber mais, confira [Atribuir uma política a usuários individuais](assign
 
 **P: Como fazer exibir todos os usuários atribuídos a uma política específica?**
 
-R: No Teams de administração:
+R: No centro de administração do Teams:
 
 1. Vá para **Usuários** > **Gerenciar usuários**.
 2. Selecione **Filtrar**, defina um filtro para a política de modelos e, em seguida, **escolha Aplicar**.
@@ -132,7 +132,7 @@ R: Não, não há suporte para políticas de modelos para EDU.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Introdução com modelos de equipe no centro de administração](./get-started-with-teams-templates-in-the-admin-console.md)
+- [Introdução aos modelos de equipe no centro de administração](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [Criar um modelo de equipe personalizado](./create-a-team-template.md)
 
