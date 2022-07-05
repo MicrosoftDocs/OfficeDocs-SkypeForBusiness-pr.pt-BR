@@ -17,12 +17,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563939"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616407"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -52,7 +52,7 @@ Nem todo o conteúdo do Teams é Descoberta Eletrônica. A tabela a seguir mostr
 |Metadados<sup>de reunião 1</sup>|Sim||
 |Nome do canal|Sim||
 |Citações|Sim|O conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado.|
-|Reações (como likes, hearts e outras reações)|Sim||
+|Reações (como likes, hearts e outras reações)|Sim|Há suporte para reações para todos os clientes comerciais após 1º de junho de 2022. As reações antes dessa data não estão disponíveis para a Descoberta Eletrônica. O suporte à nuvem do governo está planejado. Não há suporte legal para reações.|
 |Assunto|Sim||
 |Tabelas|Sim||
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como rotear chamadas para números não atribuídos em sua organização.
-ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304053"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615727"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Roteamento de chamadas para números não atribuídos
 
@@ -40,7 +40,7 @@ Você pode rotear chamadas para números não atribuídos para um usuário, para
 
 ## <a name="configuration"></a>Configuração
 
-Para rotear chamadas para um número não atribuído, use o cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponível no módulo 2.5.1 ou posterior do PowerShell do Teams.
+Para rotear chamadas para um número não atribuído, use o cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment disponível no módulo 2.5.1 ou posterior do Teams PowerShell.
 
 Você precisa especificar o número ou intervalo de números chamado e o roteamento associado para chamadas a esses números. Por exemplo, o comando a seguir especifica que todas as chamadas para o número +1 (555) 222-3333 serão roteados para a conta de recurso aa@contoso.com:
 
@@ -69,13 +69,13 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Para rotear chamadas para números de assinante do Plano de Chamada da Microsoft não atribuídos, seu locatário precisa ter [Créditos de Comunicação disponíveis](what-are-communications-credits.md).
 
-- Para rotear chamadas para números de serviço do Plano de Chamadas da Microsoft não atribuídos, seu locatário precisa ter pelo menos Sistema de Telefonia – licença de Usuário Virtual.
+- Para rotear chamadas para números de serviço do Plano de Chamadas da Microsoft não atribuídos, seu locatário precisa ter pelo menos **uma licença Telefonia do Microsoft Teams conta de** recurso.
 
 - Os formatos de arquivo de áudio personalizado com suporte são WAV (PCM linear descompactado com profundidade de 8/16/32 bits em mono ou estéreo), WMA (somente mono) e MP3. O conteúdo do arquivo de áudio não pode ter mais de 5 MB.
 
-- As chamadas de entrada para Microsoft Teams chamadas de saída e de Microsoft Teams terão o número chamado verificado em relação ao intervalo de números não atribuído.
+- As chamadas de entrada para o Microsoft Teams e as chamadas de saída do Microsoft Teams terão o número chamado verificado em relação ao intervalo de números não atribuído.
 
-- Se um padrão/intervalo especificado contiver números de telefone atribuídos a um usuário ou conta de recurso no locatário, as chamadas a esses números de telefone serão roteadas para o destino apropriado e não roteadas para o tratamento de número não atribuído especificado. Não há outras verificações dos números no intervalo. Se o intervalo contiver um número de telefone externo válido, as chamadas de Microsoft Teams para esse número de telefone serão roteados de acordo com o tratamento.
+- Se um padrão/intervalo especificado contiver números de telefone atribuídos a um usuário ou conta de recurso no locatário, as chamadas a esses números de telefone serão roteadas para o destino apropriado e não roteadas para o tratamento de número não atribuído especificado. Não há outras verificações dos números no intervalo. Se o intervalo contiver um número de telefone externo válido, as chamadas de saída do Microsoft Teams para esse número de telefone serão roteados de acordo com o tratamento.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

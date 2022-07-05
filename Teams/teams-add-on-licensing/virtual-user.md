@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Telefone Padrão – Licenças de usuário virtual
+title: licenças Telefonia do Microsoft Teams conta de recurso do Telefonia do Microsoft Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,61 +19,59 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Saiba mais sobre como atribuir licenças de usuário Teams Telefone Padrão – Usuário Virtual ou um usuário Teams Telefone licenças de usuário padrão para contas de recursos em sua organização.
-ms.openlocfilehash: 542d80a8cb463df01e6e232454b2454a939a457b
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+description: Saiba mais sobre como atribuir licenças gratuitas da Conta de Recurso de Telefone do Teams ou licenças Telefonia do Teams Padrão usuário pagas a contas de recursos em sua organização.
+ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435725"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615397"
 ---
-# <a name="microsoft-teams-phone-standard--virtual-user-licenses"></a>Microsoft Teams Telefone Padrão – Licenças de usuário virtual
+# <a name="microsoft-teams-phone-resource-account-licenses"></a>licenças Telefonia do Microsoft Teams conta de recurso do Telefonia do Microsoft Teams
 
-As organizações com Teams Telefone Standard ou Teams Telefone com usuários licenciados do Plano de Chamada podem atribuir uma licença de usuário *Microsoft Teams Telefone Standard – Virtual User* ou uma licença de usuário Teams Telefone *Standard paga*  licença de usuário para contas de recursos. Nem sempre é necessário um plano de chamada da Microsoft (consulte [Plan for Teams Auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transfering calls to an external phone number).
+As organizações com Telefonia do Teams Padrão ou Telefone do Teams com usuários licenciados do Plano de Chamada podem  atribuir uma licença gratuita da conta de recurso Telefonia do Microsoft Teams ou  uma licença de usuário Telefonia do Teams Padrão paga às contas de recursos. Um plano de chamada da Microsoft nem sempre é necessário (consulte Plan [for Teams Auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transfering calls to an external phone number).
 
-Todos os atendimentos automáticos e filas de chamada exigem uma conta de recurso associada. As contas de recurso que exigem um número de telefone precisam de uma licença de usuário *Microsoft Teams Telefone Padrão – Usuário Virtual* ou  uma licença de usuário padrão Teams Telefone para que um número de telefone possa ser aplicado à conta de recurso.
+Todos os atendedores automáticos e filas de chamadas exigem uma conta de recurso associada. As contas de recurso que exigem um número de telefone  precisam de uma licença de conta de recurso Telefonia do Microsoft Teams gratuita  ou uma licença de usuário Telefonia do Teams Padrão paga antes que um número de telefone possa ser aplicado à conta de recurso.
 
 > [!TIP]
-> Nenhuma licença é necessária para contas de recursos que serão usadas com atendentes automáticos aninhados ou filas de chamadas que não tenham um número de telefone atribuído. Consulte o diagrama a seguir para fazer referência.
+> Nenhuma licença é necessária para contas de recursos que serão usadas com atendedores automáticos aninhados ou filas de chamadas que não têm um número de telefone atribuído. Consulte o diagrama a seguir para referência.
 
-:::image type="content" alt-text="Licenças de usuário virtual." source="../media/resource-account.png":::
+## <a name="resource-account-license-allocation"></a>Alocação de licença da Conta de Recurso
 
-## <a name="virtual-user-license-allocation"></a>Alocação de licença de usuário virtual
-
-Sua organização é alocada Microsoft Teams Telefone *Standard –* Licenças de usuário virtual, dependendo de seu tamanho geral. Qualquer organização que tenha pelo menos uma licença com Teams Sistema de Telefonia, incluindo Teams Telefone Standard e Teams Telefone com licenças de Plano de Chamada, tem 25 licenças de Usuário Virtual disponíveis sem custo. Quando você adiciona 10 Teams Telefone Standard ou Teams Telefone com licenças de usuário do Plano de Chamada em sua organização Microsoft Teams Telefone, mais uma licença Padrão *– Usuário Virtual* fica disponível.
+Sua organização é alocada Telefonia do Microsoft Teams *licenças* da Conta de Recurso, dependendo do tamanho geral. Qualquer organização que tenha pelo menos uma licença com recursos do Sistema de Telefonia do Teams, incluindo o Telefonia do Teams Padrão e o Telefone do Teams com licenças de Plano de Chamada, tem 25 licenças da Conta de Recurso disponíveis sem custo. Quando você adiciona 10 Telefonia do Teams Padrão ou Telefone do Teams com licenças de usuário do Plano de Chamada em sua organização, mais uma  Telefonia do Microsoft Teams de conta de recurso fica disponível.
 
 > [!NOTE]
-> Teams Telefone Standard e Teams Telefone com Plano de Chamada são licenças de complemento disponíveis para todos os Microsoft 365 assinantes. Teams Telefone Licenças padrão também são incluídas como parte de Microsoft 365 E5 planos.
+> Telefonia do Teams Padrão telefone do Teams com Plano de Chamada são licenças de complemento disponíveis para todos os assinantes do Microsoft 365. Telefonia do Teams Padrão licenças também são incluídas como parte dos planos Microsoft 365 E5 dados.
 
-Se a sua organização usa as licenças de usuário *Microsoft Teams Telefone Padrão – Virtual na* criação de nós de fila de atendimento automático ou fila de chamada, você ainda poderá usar as  licenças padrão Teams Telefone pagas com uma conta de recurso. A maioria das organizações terá licenças de Usuário Virtual suficientes com base no plano de dimensionamento.
+Se sua organização usa as licenças gratuitas Telefonia do Microsoft Teams *Conta* de Recurso na criação de nós de fila de chamadas ou atendedor automático, você ainda poderá usar as  licenças de Telefonia do Teams Padrão pagas com uma conta de recurso. A maioria das organizações terá licenças suficientes da Conta de Recurso com base no plano de dimensionamento.
 
 ### <a name="license-allocation-example"></a>Exemplo de alocação de licença
 
-A Contoso, Inc. comprou 600 licenças que incluem Sistema de Telefonia (uma para cada funcionário). A Contoso é alocada 25 mais 6 Microsoft Teams Telefone 0 licenças *Padrão – Usuário Virtual*, 85 no total. Sua organização tem 90 filas de chamadas e atendimentos automáticos que têm números de telefone. Eles precisam atribuir todas as licenças *padrão Microsoft Teams Telefone De usuário virtual* e obter cinco licenças padrão de Teams Telefone *de* preço regular.
+A Contoso, Inc. comprou 600 licenças que incluem o Sistema de Telefonia (uma para cada funcionário). A Contoso tem uma alocação inicial de 25 mais 60 *licenças Telefonia do Microsoft Teams conta* de recurso, 85 no total. Sua organização tem 90 filas de chamadas e atendedores automáticos que têm números de telefone. Eles precisam atribuir todas as licenças *Telefonia do Microsoft Teams conta* de recurso e obter cinco licenças de *Telefonia do Teams Padrão regulares*.
 
-A Contoso deve considerar o redesenho do atendimento automático e do sistema de filas de chamada. Se eles usarem menos números de telefone e nós mais aninhados que não precisam de um número de telefone, eles simplificam a implementação e reduzem os custos.
+A Contoso deve considerar a reformulação do atendedor automático e do sistema de fila de chamadas. Se eles usarem menos números de telefone e mais nós aninhados que não precisam de um número de telefone, eles simplificarão a implementação e reduzirão os custos.
 
-## <a name="how-to-buy-microsoft-teams-phone-standard--virtual-user-licenses"></a>Como comprar Microsoft Teams Telefone Standard – Licenças de usuário virtual
+## <a name="how-to-buy-microsoft-teams-phone-resource-account-licenses"></a>Como comprar licenças Telefonia do Microsoft Teams conta de recurso
 
 1. Acesse o Centro de administração do Microsoft 365.
-2. Vá para **BillingPurchase** >  **servicesAdd-ons** > .
-3. Role até o final para encontrar a **licença Microsoft Teams Telefone Standard – Virtual User**. Selecione **Comprar agora**.
+2. Vá para **Complementos de** >  Serviços  > **de Compra****de Cobrança**.
+3. Role para encontrar a licença **Telefonia do Microsoft Teams Conta de** Recurso. Selecione **Comprar agora**.
 
    > [!NOTE]
-   > Lembre-se de que você ainda deve **Comprar** a licença mesmo que ela tenha um custo zero.
+   > Tenha em mente que você ainda deve **comprar** a licença, embora ela tenha um custo zero.
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-standard--virtual-user-license"></a>Alterar uma conta de recurso existente para usar uma licença Microsoft Teams Telefone Standard – Virtual User
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>Alterar uma conta de recurso existente para usar uma licença Telefonia do Microsoft Teams conta de recurso
 
-Se você decidir alternar a licença em sua conta de recurso de uma licença *Teams Telefone Standard* para uma licença *padrão Microsoft Teams Telefone Padrão – Usuário Virtual*:
+Se você decidir alternar a licença em sua conta de recurso de uma licença *Telefonia do Teams Padrão* para uma *licença Telefonia do Microsoft Teams conta de* recurso:
 
-1. Obter a nova licença Microsoft Teams Telefone Standard – Virtual User.
-2. Siga as etapas vinculadas no Administração Microsoft 365 para [Mover usuários para uma assinatura diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+1. Obtenha a nova *licença Telefonia do Microsoft Teams conta de* recurso.
+2. Siga as etapas vinculadas no Centro de administração do Microsoft 365 mover [usuários para uma assinatura diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Sempre remova uma licença *Teams Telefone Standard* e atribua *a licença Microsoft Teams Telefone Padrão – Usuário Virtual* na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença *Microsoft Teams Telefone Padrão – Usuário Virtual* e remova a conta de recurso quebrada.
+> Sempre remova uma licença *completa Telefonia do Teams Padrão* e atribua a licença *Telefonia do Microsoft Teams conta de* recurso na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme o esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença *Telefonia do Microsoft Teams conta* de recurso e remova a conta de recurso interrompida.
 
 ## <a name="related-information"></a>Informações relacionadas
 
-[Atendedor Automático e Atualização do Serviço de Filas de Chamada](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+[Atualização do serviço Atendedor Automático e Filas de Chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
 [Gerenciar contas de recursos no Microsoft Teams](../manage-resource-accounts.md)

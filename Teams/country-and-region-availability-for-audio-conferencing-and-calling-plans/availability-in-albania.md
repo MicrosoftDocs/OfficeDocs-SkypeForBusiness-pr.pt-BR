@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade na Albânia
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
-ms.openlocfilehash: b6f129e750ad70b3b352035e917d22826df08505
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
+ms.openlocfilehash: 84a439d3ea508ec766498c6c4ac1d1c97aa62148
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401675"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616213"
 ---
 # <a name="availability-in-albania"></a>Disponibilidade na Albânia
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para a Albânia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -64,15 +64,15 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Tirana <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
-|Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Sim ([na solicitação](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|Os números de chamada gratuita estão disponíveis?  <br/> |Não  <br/> |
    
- Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferência, Atendimento automático e filas de chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendedores automáticos e filas de chamadas, consulte Obter números de telefone de serviço para [o Skype for Business e o Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

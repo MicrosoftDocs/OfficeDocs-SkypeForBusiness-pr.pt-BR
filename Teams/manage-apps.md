@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529723"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616047"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no centro de administração do Microsoft Teams
 
 Você gerencia aplicativos para sua organização na **página de aplicativos do Teams** no portal do Centro de administração do Teams. Use a página Gerenciar aplicativos para exibir e gerenciar todos os aplicativos do Teams no catálogo de aplicativos da sua organização.
 
-![Captura de tela da página Gerenciar aplicativos.](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="Captura de tela da página Gerenciar aplicativos." lightbox="media/manage-apps.png":::
 
 Para usar o Centro de administração do Teams, você deve ter uma função de administrador global Administração ou administrador do Teams. Para obter detalhes, consulte os seguintes artigos de ajuda:
 
@@ -156,7 +158,7 @@ Use o **botão Adicionar à equipe** para instalar um aplicativo em uma equipe. 
 1. Pesquise um aplicativo pelo nome e selecione o aplicativo. Não abra a página de detalhes do aplicativo.
 1. Selecione **Adicionar à equipe**.
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Captura de tela da opção Adicionar à equipe para o aplicativo que pode ser adicionado ao escopo da equipe." lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Captura de tela da opção Adicionar à equipe para o aplicativo que pode ser adicionado ao escopo da equipe.":::
 
 1. No painel **Adicionar à equipe** , pesquise a equipe à qual você deseja adicionar o aplicativo, selecione a equipe e, em seguida, **selecione Aplicar**.
 

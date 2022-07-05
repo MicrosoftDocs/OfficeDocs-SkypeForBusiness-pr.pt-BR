@@ -1,7 +1,7 @@
 ---
-title: Disponibilidade no Gana
-author: SerdarSoysal
-ms.author: serdars
+title: Disponibilidade em Gana
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Gana.
-ms.openlocfilehash: 28c3611dd2c108a84ba15ebcd1d3c9f55f2ef91b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Gana.
+ms.openlocfilehash: bb0ed535f39a98aefde6f1ca90af58f3c25ed5b2
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394643"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615897"
 ---
-# <a name="availability-in-ghana"></a>Disponibilidade no Gana
+# <a name="availability-in-ghana"></a>Disponibilidade em Gana
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Gana.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Gana.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -62,17 +62,17 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se Planos de Chamada não estão disponíveis para compra, consulte [Opções de conectividade PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
+Se os Planos de Chamadas não estão disponíveis para compra, consulte as opções de conectividade [PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Telefone números não estão vinculados a uma cidade ou local específico. <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Os números de telefone não estão vinculados a uma cidade ou local específico. <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
+|Os números de chamada gratuita estão disponíveis?  <br/> |Não  <br/> |
    
- Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos automáticos e filas de chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendedores automáticos e filas de chamadas, consulte Obter números de telefone de serviço para [o Skype for Business e o Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

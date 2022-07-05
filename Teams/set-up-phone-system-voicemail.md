@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o Caixa postal na Nuvem para seus usuários.
-ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494368"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616247"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a Caixa postal na nuvem
 
@@ -105,7 +105,7 @@ Usando Proteção de Informações do Microsoft Purview, você pode criptografar
 
 Para criptografar a mensagem de voz, você pode criar um rótulo de confidencialidade. Com o recurso de rotulagem automática, você pode garantir que o rótulo seja aplicado automaticamente às mensagens de caixa postal de entrada.
 
-Quando você habilita a caixa postal protegida, os usuários podem escutar mensagens de caixa postal protegidas chamando sua caixa postal ou abrindo a mensagem no Outlook, no Outlook na Web ou no Outlook para Android ou iOS. As mensagens de voz protegidas não podem ser abertas no Microsoft Teams ou Skype for Business.
+Quando você habilita a caixa postal protegida, os usuários podem escutar mensagens de caixa postal protegidas abrindo a mensagem no Outlook, no Outlook na Web ou no Outlook para Android ou iOS. As mensagens de voz protegidas não podem ser abertas no Microsoft Teams ou Skype for Business.
 
 Para criar um rótulo de confidencialidade para a caixa postal, [consulte Usar rótulos de confidencialidade](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). Na seção **Criptografia** , escolha **Permitir que os usuários atribuam permissões quando aplicarem o rótulo**. Selecione **No Outlook, imponha uma das restrições a seguir** e, em seguida, selecione a **opção Não Encaminhar** .
 

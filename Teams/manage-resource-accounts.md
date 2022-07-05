@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos Microsoft Teams.
-ms.openlocfilehash: 176cf304909094ae12c102f26ccbcd777366b649
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos no Microsoft Teams.
+ms.openlocfilehash: 0b8c77f7d6371ba1bfefa9837488415405e48f67
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124156"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615797"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -43,16 +43,16 @@ Confira as seguintes referências para saber mais:
 
 Você pode editar o nome **de exibição** da conta de recurso e **o tipo de conta de** recurso usando a **opção** Editar. Clique **em Salvar** quando terminar.
 
-## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Alterar uma conta de recurso existente para usar uma licença de Usuário Virtual
+## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>Alterar uma conta de recurso existente para usar uma licença de Conta de Recurso de Telefone do Teams
 
-Se você decidir alternar as licenças em sua conta de recurso existente de uma licença do Telefonia do Teams Padrão para uma licença de Usuário Virtual, precisará adquirir **a** licença gratuita de Usuário Virtual e, em seguida, seguir as etapas no Centro de administração do Microsoft 365 para mover usuários para uma assinatura [diferente.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+Se você decidir alternar as licenças em sua conta de recurso existente de uma licença do **Telefonia do Teams Padrão** para uma licença de conta de recurso do Telefonia do Microsoft Teams, precisará adquirir **a** licença gratuita da Conta de Recurso de Telefone do **Teams** e seguir as etapas nas Centro de administração do Microsoft 365 [mover usuários para uma assinatura diferente](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
 
 > [!WARNING]
-> Sempre remova uma licença Telefonia do Teams Padrão e atribua a licença de Usuário Virtual na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme o esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença de Usuário Virtual e remova a conta de recurso interrompida.
+> Sempre remova uma licença Telefonia do Teams Padrão e atribua a licença **Telefonia do Microsoft Teams conta de** recurso na mesma atividade de licença. Se você remover a licença antiga, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta de recurso poderá não funcionar mais conforme o esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença **Telefonia do Microsoft Teams conta** de recurso e remova a conta de recurso interrompida.
 
-## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
+## <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
-Para contas de recursos hospedados no Skype For Business Server 2019 que podem ser usadas com filas de chamadas na nuvem e atendedores automáticos de nuvem, consulte [Filas](/SkypeforBusiness/hybrid/plan-call-queue) de chamadas do Plan Cloud ou atendedores [automáticos do Plan Cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Implementações híbridas (números hospedados no Roteamento Direto) são configuradas usando o cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) em um servidor Skype for Business Server 2019 local.
+Para contas de recursos [hospedados](/SkypeforBusiness/hybrid/plan-call-queue) no Skype for Business Server 2019 que podem ser usadas com filas de chamadas na nuvem e atendedores automáticos de nuvem, consulte Filas de chamadas do Plan Cloud ou atendedores [automáticos do Plan Cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Implementações híbridas (números hospedados no Roteamento Direto) são configuradas usando o cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) em um servidor Skype for Business Server 2019 local.
 
 As IDs de aplicativo que você precisa usar ao criar as instâncias de aplicativo são:
 

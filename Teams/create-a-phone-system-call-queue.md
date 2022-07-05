@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas no Microsoft Teams. As filas de chamadas fornecem uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494688"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616167"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -96,7 +96,7 @@ Para obter mais informações, consulte [Gerenciar contas de recursos do Teams](
 Você pode atribuir números de identificação de chamadas de saída para os agentes especificando uma ou mais contas de recurso com um número de telefone. Os agentes podem selecionar qual número de ID do chamador de saída usar com cada chamada de saída que fizerem. Dentro do Aplicativo de Chamadas, os agentes podem usar o número da Fila de Chamadas (CQ) /Atendedor Automático (AA) ou seu próprio DID (Direct InWard Dial) pessoal.
 
 > [!NOTE]
-> A conta de recurso usada para fins de ID de chamada deve ter um **sistema Telefonia do Microsoft Teams –** licença de usuário virtual e uma das seguintes atribuídas:
+> A conta de recurso usada para fins de ID de chamada deve ter uma licença **Telefonia do Microsoft Teams conta** de recurso e uma das seguintes atribuídas:
 >
 > - Uma licença do Plano de Chamadas e um número de telefone atribuído
 > - Um número de telefone do Operator Connect atribuído
@@ -121,7 +121,7 @@ Se você não tiver uma conta de recurso com um número de telefone atribuído:
 
 Depois de criar essa nova conta de recurso para a ID de chamada, você ainda precisará:
 
-- Atribuir uma [Telefonia do Teams Padrão – licença de usuário virtual](manage-resource-accounts.md#assign-a-license)
+- Atribuir uma licença [de Conta de Recurso de Telefone do Teams](manage-resource-accounts.md#assign-a-license)
 - Atribuir uma licença do Plano de Chamada da Microsoft, atribuir um número de telefone do Operator Connect ou atribuir uma política de roteamento de voz online para Roteamento Direto
 - Atribua [o número de telefone de serviço à conta de recurso](manage-resource-accounts.md#assign-a-service-number), se você estiver usando o Plano de Chamadas da Microsoft
 
@@ -133,7 +133,7 @@ Esse idioma será usado para prompts de voz gerados pelo sistema e transcrição
 
 Depois de selecionar um idioma, selecione o **botão Avançar** na parte inferior da página **Adicionar uma fila de** chamadas.
 
-# <a name="step-2---greeting-and-music"></a>[Etapa 2 – Saudação e música](#tab/greeting-music)
+# <a name="step-2-greeting-and-music"></a>[Etapa 2: Saudação e música](#tab/greeting-music)
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Etapa 2: Adicionar uma saudação e música em espera
 
@@ -151,7 +151,7 @@ O Teams fornece música padrão para os chamadores enquanto eles *estão em espe
 
 Depois de selecionar uma saudação e música em espera, selecione o botão Avançar  na parte inferior da página Adicionar **uma fila de** chamadas.
 
-# <a name="step-3---call-answering"></a>[Etapa 3 – Atendimento de chamadas](#tab/call-answering)
+# <a name="step-3-call-answering"></a>[Etapa 3: Atendimento de chamadas](#tab/call-answering)
 
 ## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Etapa 3: Configurar quem responderá às chamadas recebidas
 
@@ -223,7 +223,7 @@ As contas do Teams dos agentes devem ser definidas para o modo TeamsOnly. Os age
 
 Depois de selecionar as opções de atendimento de chamadas, selecione o **botão** Avançar na parte inferior da página **Adicionar uma fila de** chamadas.
 
-# <a name="step-4---agent-routing"></a>[Etapa 4 – Roteamento de agente](#tab/agent-routing)
+# <a name="step-4-agent-routing"></a>[Etapa 4: Roteamento de agente](#tab/agent-routing)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>Etapa 4: Selecionar as opções de roteamento do agente
 
@@ -285,7 +285,7 @@ O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um age
 
 Depois de selecionar as opções de roteamento de chamadas do agente, selecione o **botão** Avançar na parte inferior da página **Adicionar uma fila de chamadas** .
 
-# <a name="step-5---call-overflow"></a>[Etapa 5 – Estouro de chamada](#tab/call-overflow)
+# <a name="step-5-call-overflow"></a>[Etapa 5: estouro de chamada](#tab/call-overflow)
 
 ## <a name="step-5-set-how-to-handle-call-overflow"></a>Etapa 5: Definir como lidar com estouro de chamada
 
@@ -308,7 +308,7 @@ Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-
 
 Depois de selecionar as opções de tempo limite da chamada, selecione o **botão** Avançar na parte inferior da página Adicionar **uma fila de chamadas** .
 
-# <a name="step-6---call-timeout"></a>[Etapa 6 – Tempo limite da chamada](#tab/call-timeout)
+# <a name="step-6-call-timeout"></a>[Etapa 6: Tempo limite da chamada](#tab/call-timeout)
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>Etapa 6: Definir como lidar com tempos limite de chamada
 
@@ -327,9 +327,11 @@ Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-
 
 Depois de selecionar as opções de roteamento de chamadas do agente, selecione o **botão** Enviar na parte inferior da página Adicionar **uma fila de chamadas** .
 
-# <a name="additional-resources"></a>[Recursos adicionais](#tab/additional-resources)
+---
 
-## <a name="summary-of-recommended-call-queue-settings"></a>Resumo das configurações recomendadas da fila de chamadas
+## <a name="resources-for-complex-scenarios"></a>Recursos para cenários complexos
+
+### <a name="summary-of-recommended-call-queue-settings"></a>Resumo das configurações recomendadas da fila de chamadas
 
 As seguintes configurações são recomendadas:
 
@@ -338,7 +340,7 @@ As seguintes configurações são recomendadas:
 - **Roteamento baseado em presença** para **Ativado**
 - **Tempo de alerta do agente:** para **20 segundos**
 
-## <a name="call-queue-feature-compatibility"></a>Compatibilidade de recursos da fila de chamadas
+### <a name="call-queue-feature-compatibility"></a>Compatibilidade de recursos da fila de chamadas
 
 |Recurso                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |Telefones IP | Filas de Chamadas Padrão |Filas de Chamadas Baseadas em Canal | Comentário |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -356,7 +358,7 @@ As seguintes configurações são recomendadas:
 |**Chamada colaborativa**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**ID do chamador dinâmico**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |N         |Y               |N    |N         |Y                     |n/a                       |   |
+|`Standard call queue`            |Y                         |Y         |Y               |N    |N         |Y                     |n/a                       |   |
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**Métodos de conectividade PSTN**    |                          |          |                |     |          |                      |                          |Consulte a Observação 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -365,7 +367,7 @@ As seguintes configurações são recomendadas:
 |**Diversos**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
-### <a name="notes"></a>Observações
+#### <a name="notes"></a>Observações
 
 1. Cliente Windows do Microsoft Teams, Cliente Mac do Microsoft Teams, Microsoft Teams na Infraestrutura de Área de Trabalho Virtualizada.
 2. Aplicativo Microsoft Teams para iPhone, aplicativo Do Microsoft Teams para Android.
@@ -377,7 +379,7 @@ As seguintes configurações são recomendadas:
 8. Há suporte apenas para canais públicos.
 9. Atendedores Automáticos e Filas de Chamadas não podem transferir chamadas entre métodos de conectividade PSTN.
 
-## <a name="supported-clients"></a>Clientes com suporte
+### <a name="supported-clients"></a>Clientes com suporte
 
 Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada:
 
@@ -397,7 +399,7 @@ Os clientes a seguir têm suporte para agentes de chamada em uma fila de chamada
   > [!NOTE]
   > As filas de chamadas que recebem um número de roteamento direto não têm suporte para clientes Skype for Business, clientes Lync ou para Telefones IP do Skype for Business como agentes. O cliente do Teams só tem suporte com um [modo de coexistência somente do Teams](setting-your-coexistence-and-upgrade-settings.md).
 
-## <a name="call-queue-diagnostic-tool"></a>Ferramenta de Diagnóstico de Fila de Chamadas
+### <a name="call-queue-diagnostic-tool"></a>Ferramenta de Diagnóstico de Fila de Chamadas
 
 Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstico para validar se uma fila de chamadas é capaz de receber chamadas:
 
@@ -410,9 +412,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 
 3. Os testes retornarão as melhores próximas etapas para lidar com as configurações de locatário, política e conta de recurso para validar se a fila de chamadas é capaz de receber chamadas.
 
----
-
-## <a name="related-topics"></a>Tópicos relacionados
+### <a name="related-topics"></a>Tópicos relacionados
 
 [Veja o que você obtém com Telefonia do Microsoft Teams](here-s-what-you-get-with-phone-system.md)
 

@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams e-mails de transição e pesquisas | Atualização Básica
-author: SerdarSoysal
-ms.author: serdars
+title: Emails e pesquisas de transição do Microsoft Teams | Atualização Básica
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Exemplo de emails e pesquisas para usar em conjunciton com o plano de ação de dez etapas acelerado para atualização de Skype for Business para Teams
+description: Exemplos de emails e pesquisas a serem usadas em conjunção com o plano de ação acelerada de dez etapas para atualizar do Skype for Business para o Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb091735402abf89a7eb20b681252bbb1b681ee3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409804"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615627"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemplo de emails e pesquisas para atualizar comunicações básicas
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemplos de emails e pesquisas para comunicações do Upgrade Basic
 
-## <a name="sample-emails"></a>Exemplo de emails
+## <a name="sample-emails"></a>Emails de exemplo
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>Email de stakeholder, para a etapa 1
+### <a name="stakeholder-email-for-step-1"></a>Email do stakeholder, para a etapa 1
 
 Linha do assunto:
 
@@ -53,7 +53,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Notificar emails de usuários, para a etapa 4
+### <a name="notify-users-email-for-step-4"></a>Notificar o email dos usuários, para a etapa 4
 
 Linha do assunto:
 
@@ -82,9 +82,9 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Lembrar emails dos usuários, para a etapa 6
+### <a name="remind-users-email-for-step-6"></a>Lembrar o email dos usuários, para a etapa 6
 
-Linha de assunto: LEMBRETE: prepare-se para a atualização para Teams
+Linha do assunto: LEMBRETE: Prepare-se para a atualização para o Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -113,7 +113,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Bem-vindo aos usuários por email do patrocinador executivo, para a etapa 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Emails de boas-vindas dos usuários do patrocinador executivo, para a etapa 7
 
 Linha do assunto:
 
@@ -199,31 +199,31 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a>Exemplos de pesquisas
+## <a name="sample-surveys"></a>Pesquisas de exemplo
 
-Indique o quanto você é qualificado para executar as seguintes atividades no Teams e se há uma ou mais atividades sobre as quais você gostaria de saber mais.
+Indique como você é qualificado para executar as seguintes atividades no Teams e se há uma ou mais atividades sobre as quais você gostaria de saber mais.
 
-| &nbsp; | Muito qualificado | Um pouco qualificado | Não é nada qualificado | Deseja saber mais | Não disponível | Inseguro/não familiar |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | Muito hábil | Um pouco qualificado | Não tem habilidades | Deseja saber mais | Não disponível | Insure/não familiar |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Use Teams para IM/chat com outras pessoas | | | | | | | | | | |
-| Usar Teams reuniões online | | | | | | | | | | |
-| Usar Teams para colaboração (equipes e canais) | | | | | | | | | | |
-| Usar Teams no meu dispositivo móvel | | | | | | | | | | |
+| Usar o Teams para mensagens instantâneas/conversar com outras pessoas | | | | | | | | | | |
+| Usar o Teams para reuniões online | | | | | | | | | | |
+| Usar o Teams para colaboração (equipes e canais) | | | | | | | | | | |
+| Usar o Teams em meu dispositivo móvel | | | | | | | | | | |
 
-| **O que, em caso algum, está impedindo que você use Microsoft Teams?** | **Selecionar todos os que se aplicam** |
+| **O que, se houver, está impedindo que você use o Microsoft Teams?** | **Selecionar tudo o que se aplica** |
 |---|---|
-| Nunca ouvi falar sobre isso | &#9744; |
-| Não o tenho instalado no meu computador | &#9744; |
-| Não consigo entender como isso beneficiaria a mim ou às pessoas com quem trabalho | &#9744; |
-| Não tive tempo para avaliar isso para minhas necessidades | &#9744; |
+| Nunca ouvi falar sobre isso. | &#9744; |
+| Eu não tenho ele instalado no meu computador | &#9744; |
+| Não entendo como isso beneficiaria a mim ou às pessoas com quem trabalho. | &#9744; |
+| Eu não tive tempo de avaliar isso para minhas necessidades | &#9744; |
 | Já uso outros aplicativos que atendem às minhas necessidades de comunicação e colaboração | &#9744; |
 | Eu precisaria de treinamento antes de usá-lo | &#9744; |
-| Eu tentei usá-lo, mas teve problemas técnicos ou uma experiência ruim | &#9744; |
-| Nossa mesa de suporte não pôde me ajudar com minhas perguntas | &#9744; |
-| Nothing, atualmente o uso | &#9744; |
-| Outro (especifique) | &#9744; |
+| Tentei usá-lo, mas tive problemas técnicos ou uma experiência ruim | &#9744; |
+| Nosso suporte técnico não pôde me ajudar com minhas perguntas | &#9744; |
+| Nada, eu o uso no momento | &#9744; |
+| Outros (especifique) | &#9744; |
 
-**Qual é a probabilidade de você recomendar Microsoft Teams para um amigo/colega? (0=Não é provável... 10=Extremamente provável)**
+**Qual é a probabilidade de você recomendar o Microsoft Teams para um amigo/colega? (0=Não é nada provável... 10=Extremamente provável)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

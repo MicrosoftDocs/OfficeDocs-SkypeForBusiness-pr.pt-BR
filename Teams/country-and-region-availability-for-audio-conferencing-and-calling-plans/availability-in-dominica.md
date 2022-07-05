@@ -1,37 +1,42 @@
 ---
 title: Disponibilidade no Dominica
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, fafan'
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Dominica.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Dominica.
+ms.openlocfilehash: 90c96c4d1ba17ac59a0d5693e74e4e5fd5e80a03
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615807"
 ---
-
 # <a name="availability-in-dominica"></a>Disponibilidade em Dominica
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Dominica.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Dominica.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -59,7 +64,7 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 |Minutos disponíveis para Planos de Chamadas  <br/> | Não aplicável<br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se Planos de Chamada não estão disponíveis para compra, consulte [Opções de conectividade PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
+Se os Planos de Chamadas não estão disponíveis para compra, consulte as opções de conectividade [PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

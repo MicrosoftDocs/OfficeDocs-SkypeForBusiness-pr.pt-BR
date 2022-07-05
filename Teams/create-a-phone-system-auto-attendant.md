@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Saiba como configurar e gerenciar atendedores automáticos no Microsoft Teams.
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240940"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616107"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -57,9 +57,9 @@ As etapas descritas no artigo criam atendedores automáticos usando o centro de 
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Siga estas etapas para configurar o atendedor automático
 
-# <a name="step-1---general-info"></a>[Etapa 1 – Informações gerais](#tab/general-info)
+# <a name="step-1-general-info"></a>[Etapa 1: Informações gerais](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>Etapa 1 – Definir as informações gerais do atendedor automático
+## <a name="step-1-set-the-auto-attendants-general-information"></a>Etapa 1: Definir as informações gerais do atendedor automático
 
 Para configurar um atendedor automático, no centro de administração do [Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851)**, expanda** Voz, selecione **Atendedores automáticos** e, em seguida, **selecione Adicionar**.
 
@@ -78,10 +78,9 @@ Para configurar um atendedor automático, no centro de administração do [Teams
 
 Depois de definir as informações gerais do atendedor automático, selecione **Avançar**.
 
+# <a name="step-2-basic-call-flow"></a>[Etapa 2: Fluxo de chamadas básico](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[Etapa 2 – Fluxo de chamadas básico](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>Etapa 2 – Configurar o fluxo de chamada básico
+## <a name="step-2-set-up-the-basic-call-flow"></a>Etapa 2: Configurar o fluxo de chamada básico
 
 ### <a name="set-a-greeting"></a>Definir uma saudação
 
@@ -131,9 +130,9 @@ Para obter mais informações, consulte o [Dial e a referência de voz](dial-voi
 
 Depois de definir as opções básicas de fluxo de chamadas, selecione **Avançar**.
 
-# <a name="step-3---after-hours-call-flow"></a>[Etapa 3 – Fluxo de chamadas após o horário comercial](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[Etapa 3: Fluxo de chamadas após o horário comercial](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>Etapa 3 – Configurar o fluxo de chamadas para horas extras (opcional)
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Etapa 3: Configurar o fluxo de chamadas para horas extras (opcional)
 
 O horário comercial pode ser definido para cada atendedor automático.
 
@@ -151,9 +150,9 @@ Se você quiser roteamento de chamadas separado para chamadores após o horário
 
 Depois de adicionar o fluxo de chamadas após o horário comercial, selecione **Avançar**.
 
-# <a name="step-4---holiday-call-flow"></a>[Etapa 4 – Fluxo de chamadas de feriado](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[Etapa 4: Fluxo de chamada de feriado](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>Etapa 4 – Configurar fluxos de chamadas para feriados (opcional)
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Etapa 4: Configurar fluxos de chamada para feriados (opcional)
 
 O atendedor automático pode ter um fluxo de chamada para cada [Feriado que você configurou](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
@@ -176,9 +175,9 @@ Repita o procedimento conforme necessário para cada feriado adicional.
 
 Depois de adicionar todas as suas horas de feriado, selecione **Avançar**.
 
-# <a name="step-5---dial-scope"></a>[Etapa 5 – Escopo de discagem](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[Etapa 5: Escopo de discagem](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>Etapa 5 – Configurar o escopo de discagem (opcional)
+## <a name="step-5-set-up-dial-scope-optional"></a>Etapa 5: Configurar o escopo de discagem (opcional)
 
 O *escopo de* discagem define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários em sua organização que são usuários online ou hospedados localmente usando Skype for Business Server.
 
@@ -191,9 +190,9 @@ Se um usuário estiver em ambas as listas, ele será excluído do diretório.
 
 Depois de selecionar as opções de escopo **do Dial** , selecione **Avançar**.
 
-# <a name="step-6---resource-accounts"></a>[Etapa 6 – Contas de recursos](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[Etapa 6: Contas de recursos](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>Etapa 6 – Configurar contas de recursos (opcional)
+## <a name="step-6-set-up-resource-accounts-optional"></a>Etapa 6: Configurar contas de recursos (opcional)
 
 Todos os atendedores automáticos devem ter uma conta de recurso associada.  Os atendedores automáticos de primeiro nível precisarão de pelo menos uma conta de recurso que tenha um número de serviço associado. Se desejar, você pode atribuir várias contas de recurso a um atendedor automático, cada uma com um número de serviço separado.
 
@@ -203,9 +202,9 @@ Depois de adicionar contas de recursos, selecione **Avançar**.
 
 Consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md) para obter mais informações.
 
-# <a name="additional-resources"></a>[Recursos adicionais](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>Recursos para cenários mais complexos
+## <a name="resources-for-complex-scenarios"></a>Recursos para cenários complexos
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Transferências de número de telefone externo – detalhes técnicos
 
@@ -236,8 +235,6 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 2. No painel Executar diagnóstico, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
 
 3. Os testes identificarão configurações de locatário, política ou conta de recurso que estão impedindo o atendedor automático de receber chamadas e fornecerão etapas para corrigir quaisquer problemas identificados.
-
----
 
 ### <a name="related-topics"></a>Tópicos relacionados
 
