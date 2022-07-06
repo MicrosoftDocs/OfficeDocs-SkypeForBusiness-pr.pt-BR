@@ -7,6 +7,8 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.service: msteams
+ms.subservice: meetings
+ms.custom: intro-overview
 audience: admin
 f1.keywords:
 - NOCSH
@@ -20,40 +22,37 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: d4e28437d6251156e16c2568c9adf9a708e412bd
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240970"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615667"
 ---
-# <a name="meetings-webinars-and-live-events"></a>Reuniões, seminários via web e eventos ao vivo 
+# <a name="meetings-webinars-and-live-events"></a>Reuniões, seminários via web e eventos ao vivo
 
-Há duas maneiras de se reunir no Microsoft Teams – reuniões, seminários via web e eventos ao vivo. 
+Há duas maneiras de se reunir no Microsoft Teams – reuniões, seminários via web e eventos ao vivo.
 
 Este artigo, destinado a administradores e profissionais de TI, descreve as diferenças entre reuniões, webinars e eventos ao vivo. Em seguida, ele fornece links para as informações necessárias para distribuir rapidamente essa funcionalidade para seus usuários.
 
-> [!Note]
+> [!NOTE]
 > Para saber mais sobre a configuração rápida de reuniões e eventos do Teams em diferentes plataformas, consulte [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
-
 
 [Reuniões](#meetings), [webinars](#webinars) e [eventos ao vivo](#live-events) são todos tipos de reuniões, mas webinars e eventos ao vivo fornecem controle adicional para o organizador sobre a conversa e os participantes. Os webinars oferecem interação bidirecional, enquanto os eventos ao vivo proporcionam uma experiência gerenciada de perguntas e respostas. 
 
 Os diferentes tipos de reuniões também possuem diferentes limites de participantes e recursos de participantes. 
 
 A tabela a seguir resume os três tipos de reuniões, o número de participantes recomendados e como os participantes podem interagir na reunião. Seguem seções com mais informações sobre cada tipo de reunião. Este artigo também inclui uma seção sobre [práticas recomendadas para grandes reuniões](#best-practices-for-large-meetings).
-<br><br>
 
 | Tipo de reunião | Número de participantes | Interação | Registro com suporte |
 |----------|--------|--------|-----|
-| Reuniões  | Até 20.000* <br> | -Os participantes de até 1.000 têm recursos de reuniões iguais totalmente interativos. <br> -Os participantes com mais de 1.000 até 20.000 possuem recursos de [Somente exibição](view-only-meeting-experience.md).  | Não |
-| Seminários via Web | -Até 1.000<br>Limites aumentados com recursos de [Somente exibição](view-only-meeting-experience.md) em breve. |-Os participantes de até 1.000 possuem recursos totalmente interativos. <br> -Interação com o público configurável. <br> -Pode especificar os apresentadores. | Sim |
-| Eventos ao vivo | Até 20.000** |-Transmitir para as grandes audiências. <br>-P e R moderada para a interação com o público. <br> -Pode especificar os produtores e apresentadores, incluindo os apresentadores externos.<br>-Oferece suporte às funcionalidades de produção mais avançadas. | Não |
-||||
+| Reuniões  | Até 20.000* | - Os participantes até 1.000 têm recursos de reunião iguais totalmente interativos. <br> - Os participantes acima de 1.000 até 20.000 têm recursos de [Somente visualização](view-only-meeting-experience.md).  | Não |
+| Seminários via Web | - Até 1.000<br>- Limites aumentados com recursos [Somente visualização](view-only-meeting-experience.md) em breve. |- Os participantes até 1.000 têm recursos totalmente interativos.<br> - Interação do público configurável.<br> - Pode especificar apresentadores. | Sim |
+| Eventos ao vivo | Até 20.000** |- Transmissão para grandes audiências. <br>- Perguntas e respostas moderadas para interação com o público. <br> - Pode especificar produtores e apresentadores, incluindo apresentadores externos.<br>- Suporta capacidades de produção mais avançadas. | Não |
 
-*Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022.<br>
+*Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022.
 
-**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance). 
+**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance).
 
 Observe que o NDI é totalmente suportado em reuniões, webinars e eventos ao vivo, permitindo que você produza a transmissão usando ferramentas como OBS e Wirecast. Para obter mais informações, consulte [Usar a tecnologia NDI® no Microsoft Teams](use-ndi-in-meetings.md).
 
@@ -71,32 +70,28 @@ Para obter mais informações sobre a experiência de reunião apenas para exibi
 
 A tabela a seguir destaca os principais artigos que você quer revisar:
 
-| Artigo | Descrição | 
+| Artigo | Descrição |
 |----------|--------|
 | [Configurações de reunião](meeting-settings-in-teams.md) |  Descreve como definir configurações de reuniões para usuários anônimos, convites de reunião e tráfego de mídia.  |
 | [Políticas de reunião](meeting-policies-overview.md)  | Descreve como criar e gerenciar as políticas que determinam quais recursos estão disponíveis para os participantes da reunião. | 
 | [Gerenciar a gravação de reunião na nuvem do Teams](cloud-recording.md) | Descreve como gerenciar gravações de reunião. |
 | [Gerenciar os dispositivos da sua organização](device-management.md)| Descreve como gerenciar os dispositivos da sua organização, como telefones e Salas do Teams. |
-| [Usar telemetria em tempo real para solucionar problemas de qualidade de reunião](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Descreve como usar a Análise em Tempo Real (RTA) para solucionar problemas de baixa qualidade de Reuniões do Microsoft Teams para usuários individuais. 
-|||
+| [Usar telemetria em tempo real para solucionar problemas de qualidade de reunião](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Descreve como usar a Análise em Tempo Real (RTA) para solucionar problemas de baixa qualidade de Reuniões do Microsoft Teams para usuários individuais.|
 
 ### <a name="key-training-for-end-users"></a>Treinamento principal para os usuários finais
 
 A tabela a seguir lista o treinamento disponível para os usuários finais na sua organização:
 
-| Treinamento | Descrição | 
+| Treinamento | Descrição |
 |----------|--------|
 | [Gerenciar reuniões](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) | Um vídeo de treinamento rápido para usuários que são novos nas reuniões do Teams. |
 | [Agendar uma reunião](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5) | Artigo que descreve como agendar diferentes tipos de reuniões. |
 | [Executar reuniões efetivas com o Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) | Uma aula gratuita ministrada por instrutores sobre como tornar as reuniões mais envolventes, produtivas e significativas. |
-| [Alterar as configurações dos participantes para uma reunião do Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e). | Artigo sobre como gerenciar opções de reunião.
-||
-
+| [Alterar as configurações dos participantes para uma reunião do Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e). | Artigo sobre como gerenciar opções de reunião. |
 
 ## <a name="webinars"></a>Seminários via Web
 
-Os **seminários via Web** são reuniões estruturadas em que os apresentadores e participantes possuam funções claras. Uma diferença fundamental entre seminários via Web e reuniões do Teams é que os seminários via Web oferecem suporte ao registro e fornecem dados de engajamento dos participantes. Para habilitar seminários via Web na sua organização, consulte [Configurar seminários via Web no Teams](set-up-webinars.md). 
-
+Os **seminários via Web** são reuniões estruturadas em que os apresentadores e participantes possuam funções claras. Uma diferença fundamental entre seminários via Web e reuniões do Teams é que os seminários via Web oferecem suporte ao registro e fornecem dados de engajamento dos participantes. Para habilitar seminários via Web na sua organização, consulte [Configurar seminários via Web no Teams](set-up-webinars.md).
 
 ### <a name="key-training-for-end-users"></a>Treinamento principal para os usuários finais
 
@@ -105,56 +100,52 @@ A tabela a seguir lista o treinamento disponível para os usuários finais na su
 | Treinamento | Descrição | 
 |----------|--------|
 | [Introdução aos seminários via Web do Teams](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | Um vídeo de treinamento rápido para usuários que são novos seminários via Web do Teams. |
-| [Guia de início rápido do Visual](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | Um guia visual para download que descreve como começar a agendar seminários via Web.  |
-||
+| [Guia de início rápido do Visual](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | Um guia visual para download que descreve como começar a agendar seminários via Web. |
 
 
 ## <a name="live-events"></a>Eventos ao vivo
 
-Os **Eventos ao vivo** são reuniões estruturadas que permitem que sua organização agende e produza eventos que são transmitidos para grandes públicos on-line&mdash;até 20.000 pessoas. Com eventos ao vivo, a interação do público é uma experiência gerenciada de P e R.
+**Eventos ao vivo** são reuniões estruturadas que permitem que sua organização agende e produza eventos que são transmitidos para grandes audiências online—até 20.000 pessoas. Com eventos ao vivo, a interação do público é uma experiência gerenciada de P e R.
 
 ### <a name="articles-for-administrators"></a>Artigos para administradores.
 
 A tabela a seguir destaca os principais artigos que você quer revisar:
 
-| Artigo | Descrição | 
+| Artigo | Descrição |
 |----------|--------|
 | [O que são os eventos ao vivo do Teams?](teams-live-events/what-are-teams-live-events.md)  | Uma rápida introdução aos eventos ao vivo. |
 | [Planejar eventos ao vivo do Teams](teams-live-events/plan-for-teams-live-events.md) | O que você precisa saber antes de configurar eventos ao vivo. |
 | [Configurar eventos ao vivo do Teams](teams-live-events/set-up-for-teams-live-events.md) | Descreve os pré-requisitos, como o planejamento de rede. |
-| [Configurar eventos ao vivo](teams-live-events/configure-teams-live-events.md) | Etapas para configurar eventos ao vivo.
-||
+| [Configurar eventos ao vivo](teams-live-events/configure-teams-live-events.md) | Etapas para configurar eventos ao vivo.|
 
 ### <a name="key-training-for-end-users"></a>Treinamento principal para os usuários finais
 
 A tabela a seguir lista o treinamento disponível para os usuários finais na sua organização:
 
-| Treinamento | Descrição | 
-|----------|--------|
+| Treinamento | Descrição |
+|:----------|:--------|
 | [Introdução aos eventos ao vivo](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a) | Uma introdução aos eventos ao vivo e como começar. |
 | [Treinamento em vídeo dos Eventos ao Vivo do Teams](https://support.microsoft.com/en-us/office/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502?ui=en-US&rs=en-US&ad=US) | Vídeo que descreve como planejar e agendar um evento ao vivo.  |
-||
 
-Para produzir eventos virtuais de maior escala, examine o[Guia de Eventos Virtuais](https://adoption.microsoft.com/virtual-event-guidance/), os quais possuem diretrizes para organizadores de eventos, produtores técnicos, profissionais de TI e criadores de conteúdo. 
+Para produzir eventos virtuais de maior escala, examine o[Guia de Eventos Virtuais](https://adoption.microsoft.com/virtual-event-guidance/), os quais possuem diretrizes para organizadores de eventos, produtores técnicos, profissionais de TI e criadores de conteúdo.
 
 ## <a name="apps-for-meetings"></a>Preparação para reuniões
 
 A Microsoft permite que você aprimora as experiências de reunião integrando e usando aplicativos de reunião. Por exemplo, a integração do quadro de comunicações nas reuniões do Teams é ativada pelo aplicativo web Whiteboard, que permite aos participantes das reuniões do Teams desenhem, esbocem e escrevam juntos em uma tela digital compartilhada.
 
-Você pode adicionar aplicativos de reuniões à implantação do seu Teams usando os aplicativos fornecidos com o Teams, usando aplicativos e modelos certificados de terceiros e criando seus próprios aplicativos personalizados. 
+Você pode adicionar aplicativos de reuniões à implantação do seu Teams usando os aplicativos fornecidos com o Teams, usando aplicativos e modelos certificados de terceiros e criando seus próprios aplicativos personalizados.
 
 A tabela a seguir lista artigos para obter mais informações:
 
-| Artigo | Descrição | 
+| Artigo | Descrição |
 |----------|--------|
 | [Aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) | Introdução aos aplicativos e como implantar aplicativos na sua organização. |
 | [Aplicativos para reuniões do Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Visão geral da extensibilidade do aplicativo de reunião, referências de API e como habilitar e configurar aplicativos para reuniões. |
 | [Gerenciar o quadro de comunicações no Teams](manage-whiteboard.md) | Descreve a funcionalidade do Quadro de Comunicações e como habilitar e desabilitar para sua organização. |
-||
 
 ## <a name="license-requirements-for-meetings-webinars-and-live-events"></a>Requisitos de licença de reuniões, seminários via Web e eventos ao vivo
 
-Qualquer pessoa pode participar de uma reunião do Teams, webinar ou Evento Público Ao vivo Gratuitamente &mdash;, sem necessidade de licença. 
+Qualquer pessoa pode participar de uma reunião do Teams, webinar ou evento público Ao vivo Gratuitamente, sem necessidade de licença.
 
 As pessoas que organizam, agendam e hospedam reuniões, seminários via Web ou eventos ao vivo precisarão de uma das licenças do Microsoft 365 listada na [Descrição do serviço Microsoft Teams](/office365/servicedescriptions/teams-service-description). Se você já estiver usando o Teams, provavelmente você já possua a licença necessária para organizar e hospedar reuniões, seminários via Web e eventos ao vivo.
 
@@ -166,7 +157,7 @@ Esta seção fornece orientação para administradores, juntamente com dicas que
 
 Para realizar um evento de sucesso, siga as práticas descritas abaixo:
 
-- Para obter a melhor experiência em grandes reuniões, webinars e eventos ao vivo, a Microsoft recomenda usar a versão mais recente do cliente de desktop Teams ou clientes móveis Teams. 
+- Para obter a melhor experiência em grandes reuniões, webinars e eventos ao vivo, a Microsoft recomenda usar a versão mais recente do cliente de desktop Teams ou clientes móveis Teams.
 
 - Certifique-se de que todos os [Princípios de Conectividade de Rede](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) da Microsoft tenham sido seguidos tanto no local quanto para usuários remotos.
 - Use a [telemetria de dados em tempo real](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146) para monitorar o evento e identificar possíveis problemas e sua origem.
@@ -211,10 +202,6 @@ Seus organizadores e apresentadores devem implementar as recomendações abaixo:
 - Os participantes devem desativar as notificações de chat durante grandes reuniões para evitar distrações.
 
 - Para obter mais dicas sobre como sediar grandes reuniões, consulte [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-
-
-
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -1563,6 +1563,8 @@ items:
             href: apps-update-experience.md
           - name: Gerenciar o acesso aos aplicativos do Teams no Microsoft 365
             href: manage-third-party-teams-apps.md
+          - name: Auditoria para atividades e eventos de gerenciamento de aplicativos
+            href: audit-app-management-activities.md
       - name: Análise e relatório de uso do aplicativo
         href: teams-analytics-and-reports/app-usage-report.md
   - name: Diretrizes governamentais e de indústrias
@@ -1797,7 +1799,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: Licenciamento de políticas de mensagens
             href: teams-add-on-licensing/pri-message.md
-          - name: Licença de Conta de Recurso de Telefonia do Microsoft Teams
+          - name: Licença da Conta de Recurso de Telefonia do Microsoft Teams
             href: teams-add-on-licensing/virtual-user.md
           - name: Comece a usar o Teams Essentials
             href: get-started-with-teams-essentials.md
