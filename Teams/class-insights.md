@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ff797e0793373d0cb7b476b31411ccdf377639c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674373"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647683"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -78,7 +79,7 @@ Educadores e gestores escolares têm diferentes maneiras de acessar o Insights.
 
 Educadores podem usar estes dois métodos:
 
-- [Aplicativo pessoal](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) : uma visão geral de todas as suas classes ativas está disponível à esquerda da barra de aplicativos do Teams, com a capacidade de detalhar até os dados de classe.
+- [Aplicativo pessoal](https://support.microsoft.com/office/747fd8d9-00b0-43e6-bacc-a1bf030b1867) - uma visão geral de todas as turmas ativas está disponível na barra de aplicativos à esquerda do Teams, com a capacidade de fazer drill down para dados de classe.
 - [Guias](https://support.microsoft.com/office/1386d1b4-3641-4a23-9b9c-0c6c774c2b6c) - Insights para classes específicas que possuem estão disponíveis em uma guia no menu superior de navegação de uma equipe de classe. Esta guia permite que o educador acesse diretamente os dados relevantes quando estiver na classe do Teams para ver os dados no contexto da classe.
 
 O Insights revela os dados de atividade de todos os canais de uma equipe de classe, mas só podem ser adicionados como uma guia para canais públicos. A guia reflete a atividade de todos na equipe de classe que não são proprietários (incluindo educadores que não são proprietários da equipe de classe).
@@ -250,17 +251,19 @@ Por padrão, o Insights é ativado, o que nos permite coletar análises das ativ
 :::image type="content" source="media/insights-settings.png" alt-text="Uma captura de tela da página do Centro de Administração do SDS em que você tem uma opção de configurações para ativar ou desativar o Insights.":::
 
 > [!NOTE]
-> Se você tiver desativado o Insights, os dados coletados serão excluídos. Os dados excluídos na recusa podem ser restaurados posteriormente, mesmo que o Insights seja reabilitar.
+> Se você tiver desativado o Insights, os dados coletados serão excluídos. Os dados excluídos na desativação não podem ser restaurados posteriormente, mesmo se o Insights for reativado.
 
-### <a name="turn-machine-learning-in-insights-on-or-off"></a>Ativar ou desativar o Machine Learning no Insights
+### <a name="turn-on-and-off-advanced-inferences-in-insights"></a>Habilitar e desabilitar inferências avançadas no Insights
 
-Por padrão, as experiências baseadas em concessão de máquina no Insights são desativadas. Para permitir esses insights, você precisa **Permitir o aprendizado de máquina baseado no Insights**. Ativar essa alternância não coletará nenhum dado adicional além dos dados já coletados pelo Insights para Educação.
+Quando a alternância **Permitir inferências avançadas** para o Education Insights está ativada, o Education Insights pode apresentar aos alunos, educadores e líderes educacionais inferências avançadas sobre aprendizado (como avisos de engajamento). Essas inferências permitem que os educadores forneçam suporte mais personalizado aos alunos. A alternância também controla o uso de dados de locatário para modelagem.
+
+Ativar essa alternância não coletará nenhum dado adicional além dos dados já coletados pelo Insights para Educação.
 
 - Para ajustar essa configuração, abra o [Centro de administração do SDS](https://sds.microsoft.com/) e acesse **Configurações** > **Gerenciar Insights de Educação**.
-- Ajuste o botão de alternância **Permitir Insights baseados em aprendizado de máquina** para desativado ou ativado.
+- Ajuste a alternância **Permitir** inferências avançadas para ativada ou desativada.
 
 > [!NOTE]
-> Esse botão de alternância depende da alternância **Coletar dados de atividade para Insights**. Desativar **Coletar dados de atividade para Insights** também desativará a alternância **Permitir o Insights com base em aprendizado de máquina**.
+> Esse botão de alternância depende da alternância **Coletar dados de atividade para Insights**. Desabilitar **Coletar dados de atividade para Insights** também desativará a alternância **Permitir inferências avançadas**.
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>Ativar ou desativar o SDS para Insights
 
