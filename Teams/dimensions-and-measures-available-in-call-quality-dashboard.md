@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamadas (CQD) para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551218"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682530"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -551,6 +551,9 @@ A tabela a seguir lista as dimensões atualmente disponíveis no CQD, na ordem l
 |É fila de chamadas envolvida|Boolean|Se True, uma Fila de Chamadas estava envolvida em uma determinada chamada ou fluxo. ||
 |**Reunião**||||
 |Agendando a ID do aplicativo de origem|Cadeia de caracteres |O AppID do primeiro cliente de agendamento ou de terceiros que agendou a reunião.|O cliente de agendamento não forneceu esse parâmetro por meio de sua telemetria.|
+|**Comum**||||
+| Primeira ID de recurso do ACS |Cadeia de caracteres |Identificador de recurso imutável do Serviço de Comunicação do Azure associado ao primeiro ponto de extremidade. <br/> **Exemplo:** 00000000-0000-0000-0000-0000000000000 | O ponto de extremidade não está usando SERVIÇOS DE COMUNICAÇÃO DO AZURE APIs|
+| Segunda ID de Recurso do ACS |Cadeia de caracteres |Identificador de recurso imutável do Serviço de Comunicação do Azure associado ao segundo ponto de extremidade. <br/> **Exemplo:** 00000000-0000-0000-0000-0000000000000 | O ponto de extremidade não está usando SERVIÇOS DE COMUNICAÇÃO DO AZURE APIs|
 |**Datapair**||||
 | Par de detalhes de conexão de rede  | Par enumerado <br/>**Valores possíveis:** <br/> wifi: wifi <br/> wifi : com fio <br/> Com fio: wifi <br/> Com fio: com fio <br/> MobileBB : MobileBB <br/> MobileBB: Outros <br/> MobileBB : Tunnel <br/> MobileBB: wifi <br/> MobileBB: Com fio <br/> Outros: Outros <br/> Outros: wifi <br/> Outros: com fio <br/> Túnel: Túnel <br/> Tunnel : wifi <br/> Túnel: com fio <br/> : MobileBB <br/> : Outros <br/> : túnel <br/> : wifi <br/> : com fio <br/> :  | Par de detalhes de conexão de rede para o primeiro e o segundo ponto de extremidade.  | &bull; O tipo de conectividade de rede do ponto de extremidade era desconhecido. Isso pode acontecer se a chamada não puder ser estabelecida.   |
 | Par de Categorias do Agente do Usuário  | Par enumerado  | Par de Categoria do Agente de Usuário para o primeiro e o segundo ponto de extremidade. <br/> **Valor de exemplo:** AV-MCU : OC  | &bull; O agente de usuário do ponto de extremidade não era um tipo conhecido  |
