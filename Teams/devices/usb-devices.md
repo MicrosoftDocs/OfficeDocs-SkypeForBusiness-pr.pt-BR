@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605700"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647653"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -149,8 +149,8 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 |Lenovo               |Fone de ouvido estéreo VoIP com fio pro                              |12/21/2020      |Skype for Business com a atualização para o Microsoft Teams      |
 |Poli                 |Savi Office 7320                                           |12/18/2020      |Certificado para o Microsoft Teams                           |
 |Poli                 |Savi Office 7310                                           |12/18/2020      |Certificado para o Microsoft Teams                           |
-|Jabra                |Desenvolver fone de ouvido 75e/SE                                         |12/16/2020      |Skype for Business com a atualização para o Microsoft Teams      |
-|Jabra                |Desenvolver fone de ouvido 65e/SE                                         |12/16/2020      |Skype for Business com a atualização para o Microsoft Teams      |
+|Jabra                |Desenvolver fone de ouvido 75e                                         |12/16/2020      |Skype for Business com a atualização para o Microsoft Teams      |
+|Jabra                |Desenvolver fone de ouvido 65e                                         |12/16/2020      |Skype for Business com a atualização para o Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Certificado para o Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Certificado para o Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Certificado para o Microsoft Teams                           |
@@ -167,8 +167,8 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 |EPOS/Sennheiser      |Impacto sc 660 com conector USB-ED CC 01 MS               |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |ImpactAR SC 630 com conector USB-ED CC 01 MS               |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |ImpactAR SC 260 com conector USB-ED CC 01 MS               |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |
-|Jabra                |Desenvolver fone de ouvido 75                                          |7/31/2020       |Skype for Business com a atualização para o Microsoft Teams      |
-|Jabra                |Desenvolver fone de ouvido 65                                          |7/31/2020       |Skype for Business com a atualização para o Microsoft Teams      |
+|Jabra                |Desenvolver fone de ouvido 75/SE                                          |7/31/2020       |Skype for Business com a atualização para o Microsoft Teams      |
+|Jabra                |Desenvolver fone de ouvido 65/SE                                          |7/31/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |Jabra                |Envolver o headset 50                                          |7/31/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |Avocor               |WCD - AVW-6555                                              |7/30/2020       |Certificado para o Microsoft Teams                           |
 |Jabra                |Evolve2 85 Headset                                         |7/17/2020       |Certificado para o Microsoft Teams                           |

@@ -19,12 +19,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616047"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647743"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no centro de administração do Microsoft Teams
 
@@ -62,7 +62,7 @@ As opções para realizar a maioria dos casos de uso do gerenciamento de aplicat
 | As políticas de atualização são usadas para gerenciar usuários de visualização do Teams e do Office que verão recursos de pré-lançamento ou versão prévia no aplicativo Teams.  | [Políticas de atualização do Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Visualização pública do Teams](public-preview-doc-updates.md) |
 | **Centro de administração fora do Teams** | | |
 | Gerenciar licenças e assinaturas de aplicativos de terceiros no Centro de administração do Microsoft 365 | [Centro de administração do Microsoft 365](https://admin.microsoft.com/#/licenses) | [Gerenciar assinaturas de aplicativo de terceiros](/microsoft-365/commerce/manage-saas-apps) |
-| Auditar eventos de aplicativo do Teams portal de conformidade do Microsoft Purview. | [Auditoria](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Atividades do Teams](audit-log-events.md#teams-activities) |
+| Auditar eventos de aplicativo do Teams portal de conformidade do Microsoft Purview. | [Auditoria](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Atividades do Teams](audit-app-management-activities.md) |
 | Os aplicativos podem receber permissões para sua organização e seus dados por três métodos: um administrador consente com o aplicativo para todos os usuários, um usuário concede consentimento ao aplicativo ou um administrador integrando um aplicativo e habilitando o acesso de autoatendimento ou atribuindo usuários diretamente ao aplicativo. Verifique as permissões do Graph para aplicativos. Verifique as permissões que os usuários forneceram ou que os administradores delegaram. | [Azure AD portal](https://aad.portal.azure.com/) | [Examinar as permissões concedidas a aplicativos](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---

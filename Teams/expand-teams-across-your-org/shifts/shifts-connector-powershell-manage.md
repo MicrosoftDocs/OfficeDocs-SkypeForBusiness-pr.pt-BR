@@ -1,5 +1,5 @@
 ---
-title: Usar o PowerShell para gerenciar sua conexão shifts com o Blue Yonder Workforce Management
+title: Use o PowerShell para gerenciar sua conexão shifts com o Blue Yonder Workforce Management
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a102001c9c35b3d93467a9955329ce9d314532d0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c4edf815a3ce21a820fa292a06d41275c97d78a5
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675363"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647818"
 ---
-# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Usar o PowerShell para gerenciar sua conexão shifts com o Blue Yonder Workforce Management
+# <a name="use-powershell-to-manage-your-shifts-connection-to-blue-yonder-workforce-management"></a>Use o PowerShell para gerenciar sua conexão shifts com o Blue Yonder Workforce Management
 
 ## <a name="overview"></a>Visão Geral
 
-O [Microsoft Teams Shifts do Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) permite integrar o aplicativo Shifts no Microsoft Teams com o Blue Yonder Workforce Management (Blue Yonder WFM). Depois de configurar uma conexão, os funcionários da linha de frente podem exibir e gerenciar diretamente suas agendas no WFM do Remetente Azul de dentro do Shifts.
+O [conector do Microsoft Teams Shifts para Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) permite que você integre o aplicativo Shifts no Microsoft Teams ao Blue Yonder Workforce Management (Blue Yonder WFM). Depois de configurar uma conexão, os funcionários da linha de frente podem exibir e gerenciar diretamente suas agendas no Blue Yonder WFM de dentro do Shifts.
 
 Você pode usar o [assistente do conector shifts](shifts-connector-wizard.md) no Centro de administração do Microsoft 365 ou [no PowerShell](shifts-connector-blue-yonder-powershell-setup.md) para configurar uma conexão. Depois que uma conexão for configurada, você a gerenciará usando [cmdlets do PowerShell do conector shifts](#shifts-connector-cmdlets).
 
@@ -53,7 +53,7 @@ Este artigo descreve como usar o PowerShell para fazer o seguinte:
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-7. Conexão para Teams.
+7. Conecte-se ao Teams.
 
     ```powershell
     Connect-MicrosoftTeams
@@ -101,7 +101,7 @@ Para saber mais, confira [Get-CsTeamsShiftsConnectionErrorReport](/powershell/mo
 
 ### <a name="user-mapping-errors"></a>Erros de mapeamento de usuário
 
-Erros de mapeamento de usuário poderão ocorrer se um ou mais usuários em um site WFM do Blue Yonder não for membro da equipe mapeada no Teams. Para resolver esse problema, certifique-se de que os usuários na equipe mapeada correspondam aos usuários no site WFM do Blue Yonder.
+Erros de mapeamento de usuário poderão ocorrer se um ou mais usuários em uma instância do Blue Yonder WFM não for membro da equipe mapeada no Teams. Para resolver esse problema, verifique se os usuários na equipe mapeada correspondem aos usuários na instância de WFM Azul.
 
 Para exibir detalhes de usuários não mapeados [, configure](#set-up-your-environment) seu ambiente (caso ainda não tenha feito isso) e execute o script a seguir.
 
@@ -151,18 +151,18 @@ ForEach ($mapping in $mappings){
 
 ### <a name="account-authorization-errors"></a>Erros de autorização de conta
 
-Erros de autorização de conta podem ocorrer se a conta de serviço WFM blue yonder ou Microsoft 365 de conta do sistema estão incorretas ou não têm as permissões necessárias.
+Erros de autorização de conta podem ocorrer se a conta de serviço blue yonder WFM ou as credenciais da conta do sistema do Microsoft 365 estão incorretas ou não têm as permissões necessárias.
 
-Para alterar suas credenciais de conta de serviço do Blue Yonder WFM ou de conta do sistema Microsoft 365 para a conexão, você pode executar o cmdlet [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) ou usar o script do PowerShell na seção Alterar configurações de conexão deste artigo.[](#change-connection-settings)
+Para alterar sua conta de serviço do Blue Yonder WFM ou as credenciais da conta de sistema do Microsoft 365 para a conexão, você pode executar o cmdlet [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance) ou usar o script do PowerShell [](#change-connection-settings) na seção Alterar configurações de conexão deste artigo.
 
 ## <a name="change-connection-settings"></a>Alterar as configurações de conexão
 <a name="change_settings"> </a>
 
-Use esse script para alterar as configurações de conexão. Configurações que você pode alterar incluem sua conta de serviço e senha do Blue Yonder WFM, Microsoft 365 conta do sistema, mapeamentos de equipe e configurações de sincronização.
+Use esse script para alterar as configurações de conexão. As configurações que você pode alterar incluem sua conta de serviço e senha do Blue Yonder WFM, conta de sistema do Microsoft 365, mapeamentos de equipe e configurações de sincronização.
 
-As configurações de sincronização incluem a frequência de sincronização (em minutos) e os dados de agendamento sincronizados entre o Blue Yonder WFM e o Shifts. Os dados de agendamento são definidos nos parâmetros a seguir, que você pode exibir executando [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector).
+As configurações de sincronização incluem a frequência de sincronização (em minutos) e os dados de agendamento sincronizados entre o Blue Yonder WFM Shifts. Os dados de agendamento são definidos nos parâmetros a seguir, que você pode exibir executando [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector).
 
-- O **parâmetro enabledConnectorScenarios** define os dados que são sincronizados do WFM do Remetente Azul para Shifts. As opções `Shift`são , `UserShiftPreferences``SwapRequest`, , `OpenShift`, `OpenShiftRequest`, `TimeOffRequest``TimeOff`.
+- O **parâmetro enabledConnectorScenarios** define os dados sincronizados do Blue Yonder WFM shifts. As opções `Shift`são , `UserShiftPreferences``SwapRequest`, , `OpenShift`, `OpenShiftRequest`, `TimeOffRequest``TimeOff`.
 - O **parâmetro enabledWfiScenarios** define os dados sincronizados de Shifts para Blue Yonder WFM. As opções `SwapRequest`são , `OpenShiftRequest`, `TimeOffRequest`. `UserShiftPreferences`
 
     > [!NOTE]
@@ -275,18 +275,18 @@ Write-Host "Success"
 > [!IMPORTANT]
 > Siga estas etapas somente se você optar por desabilitar turnos abertos, solicitações de turno abertas, solicitações de permuta ou solicitações de folga usando o script na seção Alterar configurações de conexão anteriormente neste artigo ou usando o cmdlet [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance).[](#change-connection-settings) A conclusão desta etapa oculta a funcionalidade em Turnos. Sem essa segunda etapa, os usuários ainda verão a funcionalidade no Shifts e receberão uma mensagem de erro de "operação sem suporte" se tentarem usá-la.
 
-Para ocultar turnos abertos, solicitações de permuta e solicitações de folga no Shifts, use o tipo de recurso de agendamento API do Graph para [definir os seguintes](/graph/api/resources/schedule) parâmetros ```false``` para cada equipe mapeada para um site WFM do Remetente Azul:
+Para ocultar turnos abertos, solicitações de permuta e solicitações de folga no Shifts, use o [](/graph/api/resources/schedule) tipo de recurso de agendamento API do Graph para definir os seguintes parâmetros ```false``` para cada equipe mapeada para uma instância de WFM Blue Yonder:
 
 - Abrir turnos: ```openShiftsEnabled```
 - Solicitações de permuta:  ```swapShiftsRequestsEnabled```
 - Solicitações de folga: ```timeOffRequestsEnabled```
 
-Para ocultar solicitações de turnos abertos em Turnos,  vá para Configurações shifts e desative a **configuração Abrir turnos**.
+Para ocultar solicitações de turnos abertos em Turnos,  vá para Configurações em Turnos e desative a **configuração Abrir turnos**.
 
 ## <a name="unmap-a-team-from-one-connection-and-map-it-to-another-connection"></a>Desmapear uma equipe de uma conexão e mapeá-la para outra conexão
 
 > [!NOTE]
-> A Microsoft 365 do sistema deve ser a mesma para ambas as conexões. Se não estiver, você receberá uma mensagem de erro "Este perfil de ator designado não tem privilégios de propriedade da equipe".
+> A conta de sistema do Microsoft 365 deve ser a mesma para ambas as conexões. Se não estiver, você receberá uma mensagem de erro "Este perfil de ator designado não tem privilégios de propriedade da equipe".
 
 Se você quiser desmapear uma equipe de uma conexão e mapeá-la para outra conexão:
 
@@ -372,7 +372,7 @@ else {
 
 ## <a name="shifts-connector-cmdlets"></a>Cmdlets do conector shifts
 
-Para obter ajuda com cmdlets do conector shifts, pesquise **CsTeamsShiftsConnection** na referência Teams [cmdlet do PowerShell](/powershell/teams/intro). Aqui estão links para alguns cmdlets comumente usados.
+Para obter ajuda com cmdlets do conector shifts, pesquise **CsTeamsShiftsConnection** na referência [de cmdlet do PowerShell do Teams](/powershell/teams/intro). Aqui estão links para alguns cmdlets comumente usados.
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)
@@ -393,7 +393,7 @@ Para obter ajuda com cmdlets do conector shifts, pesquise **CsTeamsShiftsConnect
 ## <a name="related-articles"></a>Artigos relacionados
 
 - [Conectores de turnos](shifts-connectors.md)
-- [Usar o assistente do conector do Shifts para conectar o Shifts ao Blue Yonder Workforce Management](shifts-connector-wizard.md)
-- [Usar o PowerShell para conectar turnos ao Blue Yonder Workforce Management](shifts-connector-blue-yonder-powershell-setup.md)
+- [Use o assistente do conector Shifts para conectar o Shifts ao Blue Yonder Workforce Management](shifts-connector-wizard.md)
+- [Usar o PowerShell para conectar o Shifts ao Blue Yonder Workforce Management](shifts-connector-blue-yonder-powershell-setup.md)
 - [Gerenciar o aplicativo Shifts](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Visão Geral do PowerShell do Teams](../../teams-powershell-overview.md)

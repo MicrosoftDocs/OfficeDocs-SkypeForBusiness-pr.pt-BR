@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Descreve atendedores automáticos de nuvem e filas de chamadas e explica como você pode atender a essas chamadas em Teams.
+description: Descreve os atendedores automáticos de nuvem e as filas de chamadas e explica como você pode atender a essas chamadas no Teams.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853072"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647663"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 
-Teams usuários podem receber e atender chamadas de atendedores automáticos de nuvem e filas de chamadas diretamente de seus Teams cliente.
+Os usuários do Teams podem receber e atender chamadas de atendedores automáticos de nuvem e chamar filas diretamente do cliente do Teams.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>O que são atendedores automáticos e filas de chamadas?
 
@@ -48,23 +48,25 @@ Depois que uma chamada automática de atendedor ou fila de chamadas é atendida,
 
 > [!NOTE] 
 > Chamadas de fila de chamadas não são encaminhadas com base na configuração de regras de atendimento de chamadas do usuário. Isso é para garantir que os chamadores permaneçam na fila até que um agente possa atender à chamada e o chamador não seja encaminhado inesperadamente.
-
+>
+> Os usuários que recebem chamadas de atendedores automáticos e filas de chamadas só serão apresentados com o nome do chamador se ele for fornecido do PSTN ou se o número do chamador corresponder aos contatos do cliente local da Equipe do usuário de destino.
+>
 > Os agentes não são notificados sobre chamadas perdidas ou mensagens de voz para chamadas de fila de chamadas.
 
 ## <a name="supported-clients"></a>Clientes com suporte
 
 O suporte para chamadas automáticas de atendedor e fila de chamadas está disponível nos seguintes clientes:
 
--    Microsoft Teams Windows cliente (versões de 32 e 64 bits)
+-    Cliente Windows do Microsoft Teams (versões de 32 e 64 bits)
 -    Cliente Microsoft Teams para Mac
 -    Aplicativo Microsoft Teams para iPhone
 -    Aplicativo Microsoft Teams para Android
 
-O Teams cliente tem suporte apenas com um modo de [coexistência de Teams somente](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
+O cliente do Teams só tem suporte com um [modo de coexistência somente do Teams](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o atendedor automático e o suporte à fila de chamadas para Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o suporte de atendedor automático e fila de chamadas para o Microsoft Teams
 
-Para receber chamadas automáticas de atendedor e fila de chamadas Microsoft Teams, você precisa configurar a política de interoperabilidade e a política de atualização. Examine a [migração e a interoperabilidade para organizações que Teams em conjunto com Skype for Business](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou a fila de chamadas configurados e quiser fazer isso, [](create-a-phone-system-auto-attendant.md) consulte Configurar um atendedor automático de nuvem e Criar uma fila de chamadas [na nuvem](create-a-phone-system-call-queue.md).
+Para receber chamadas automáticas de atendedor e fila de chamadas no Microsoft Teams, você precisa configurar a política de interoperabilidade e a política de atualização. Examine a [migração e a interoperabilidade para organizações que usam o Teams junto com Skype for Business](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou a fila de chamadas configurados e quiser fazer isso, [](create-a-phone-system-auto-attendant.md) consulte Configurar um atendedor automático de nuvem e Criar uma fila de chamadas [na nuvem](create-a-phone-system-call-queue.md).
 
 ## <a name="known-issues"></a>Problemas Conhecidos
 
