@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b13793222a6a53ec7c7c271578da31465044afde
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: 687d628c3f3f59cc9a584f2f673d3ef7d469b605
+ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190510"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66661017"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Visão geral de aplicativos de terceiros no Microsoft Teams
 
-Muitos fornecem aplicativos na loja do Microsoft Teams. Esses aplicativos foram criados por desenvolvedores de aplicativos e a Microsoft valida as funcionalidades básicas, a usabilidade e a segurança básica dos aplicativos. Somente após a validação, a Microsoft disponibiliza os aplicativos na loja do Microsoft Teams. Para que os usuários finais se beneficiem do avançado ecossistema de aplicativos, a governança de aplicativos pelos administradores é uma etapa fundamental. Como administrador, defina um processo de governança de aplicativos que equilibre os requisitos de aplicativos abrangentes dos usuários finais e as limitações de políticas, padrões e perfis de risco de TI.
+O Teams Store fornece muitos aplicativos úteis criados por fornecedores e desenvolvedores de software terceirizados, além dos aplicativos fornecidos pela Microsoft. Embora esses aplicativos sejam criados por provedores terceirizados, a Microsoft faz uma validação rigorosa da funcionalidade, usabilidade e segurança desses aplicativos. Somente após a validação, a Microsoft disponibiliza os aplicativos na loja do Teams. Para que os usuários finais se beneficiem do avançado ecossistema de aplicativos, a governança de aplicativos pelos administradores é uma etapa fundamental. Como administrador, defina um processo de governança de aplicativos que equilibre os requisitos de aplicativos abrangentes dos usuários finais e as limitações de políticas, padrões e perfis de risco de TI.
 
 Os aplicativos de terceiros no Microsoft Teams não são controlados ou de propriedade da Microsoft e não são regidos pelo Contrato de Assinatura do Microsoft Online. O uso de cada aplicativo de terceiros pela sua organização está sujeito aos termos e condições e à política de privacidade do aplicativo. O Centro de administração do Teams permite que você verifique todas as permissões de um aplicativo, declarações de privacidade e termos de uso antes de permitir seu uso. Como sempre, você pode permitir o uso de um aplicativo para alguns usuários específicos ou para todos os usuários. Para aplicativos de terceiros, assim como para aplicativos personalizados, o Microsoft Teams permite que os administradores permitam, proíbam, controlem e analisem o uso dos aplicativos.
 
