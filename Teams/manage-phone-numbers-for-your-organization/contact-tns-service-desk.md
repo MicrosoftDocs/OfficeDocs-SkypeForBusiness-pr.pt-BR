@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Quando você obtém números de telefone ou números de porta (transferência) para sua organização, talvez seja necessário obter ajuda e suporte na mesa de serviço do TNS.
-ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240720"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687867"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Serviços de Número de Telefone (TNS) – Service Desk
 
@@ -43,7 +43,7 @@ Para entrar em contato com a central de serviços:
 
 2. No painel esquerdo, selecione **Voz e,** em seguida, **Números de telefone**.
 
-3. No canto superior direito da página, clique em **Ações** e selecione **Obter suporte a números de telefone**. Você será transferido para o Centro de **Serviços de Número de Telefone** (Portal do Service Desk).
+3. No canto superior direito da página, clique em **Ações** e selecione **Obter suporte a números de telefone**. Você será transferido para a Central de [Serviços de Número de Telefone](https://pstnsd.powerappsportals.com/)
 
 > [!NOTE]
 > Somente alguém do mesmo locatário tem permissão para criar um caso. Por exemplo, alguém de @fabrikam.com não pode criar um caso em nome de @contoso.com.

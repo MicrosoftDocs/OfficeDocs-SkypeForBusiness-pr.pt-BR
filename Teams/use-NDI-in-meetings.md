@@ -1,5 +1,5 @@
 ---
-title: Transmitir conteúdo de reunião
+title: Transmitir conteúdo da reunião
 author: CarolynRowe
 ms.author: crowe
 ms.reviewer: aalinne
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como usar NDI e SDI para transmitir conteúdo de reunião em Microsoft Teams.
+description: Saiba como usar NDI e SDI para transmitir conteúdo de reunião no Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,53 +16,53 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65e47ccfa1963e8e95e13a1c8b94e1e051ff709c
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 5d048063f7b8efa6b853aa7273e0bcefaeb41b1f
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59941876"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687817"
 ---
-# <a name="broadcast-meeting-content"></a>Transmitir conteúdo de reunião 
+# <a name="broadcast-meeting-content"></a>Transmitir conteúdo da reunião 
 
 
 
-Teams oferece duas opções para transmitir Teams de reunião: Interface de Dispositivo de Rede (NewTek NDI®) e Interface Digital Serial (SDI):
+O Teams fornece duas opções para transmitir conteúdo de reunião do Teams: Interface de Dispositivo de Rede (NewTek NDI®) e SDI (Interface Digital Serial):
 
-- A tecnologia newTek NDI® é uma solução moderna para conectar dispositivos de mídia (como uma câmera de estúdio e um mixer). Em vez de usar conexões físicas, a tecnologia ® NDI habilita a conectividade em uma intranet local, inclusive em uma máquina local.
+- A tecnologia NewTek NDI® é uma solução moderna para conectar dispositivos de mídia (como uma câmera de estúdio e um mixer). Em vez de usar conexões físicas, a tecnologia NDI® permite a conectividade em uma intranet local, incluindo em um computador local.
 
-  A tecnologia ® NDI se tornou uma solução padrão do setor para produzir conteúdo ao vivo para fluxos e ganhou uma conscientização significativa e adoção no mundo da transmissão profissional.
+  A tecnologia NDI® tornou-se uma solução padrão do setor para produzir conteúdo ao vivo para fluxos e ganhou reconhecimento e adoção significativos no mundo da difusão profissional.
 
-- O SDI é usado em produções de transmissão desde 1989 e tem suporte na maioria dos dispositivos de hardware de estúdio herdados. Dispositivos de hardware de Sistemas de Vídeo AJA e Design Blackmagic fornecem conectividade para dispositivos de transmissão herdados que usam SDI.
+- O SDI foi usado em produção de difusão desde 1989 e tem suporte na maioria dos dispositivos de hardware de estúdio herdados. Os dispositivos de hardware dos Sistemas de Vídeo do AJA e do Blackmagic Design fornecem conectividade a dispositivos de difusão herdados que usam SDI.
 
 > [!NOTE]
-> O recurso Saída de Hardware de Vídeo que oferece suporte ao SDI está atualmente na versão De visualização.
+> O recurso hardware out de vídeo que dá suporte a SDI está atualmente em versão prévia.
 
-A ® NDI e a tecnologia SDI são suportadas em todas as localidades.
+Há suporte para a tecnologia NDI® e SDI em todas as localidades.
 
-O acesso ao uso de NDI e SDI é determinado pela política de reunião do usuário que está tentando ativar o recurso. Para a solução mais segura, não a turn on the local streaming parameter as a global setting.
+O acesso ao uso de NDI e SDI é determinado pela política de reunião para o usuário que está tentando ativar o recurso. Para a solução mais segura, não ative o parâmetro de streaming local como uma configuração global.
 
 
-## <a name="enable-broadcast-features"></a>Habilitar recursos de transmissão
+## <a name="enable-broadcast-features"></a>Habilitar recursos de difusão
 
-Para habilitar recursos de transmissão NDI® e SDI para um usuário:
+Para habilitar recursos de difusão NDI® e SDI para um usuário:
 
-1. O administrador do locatário deve permitir que o usuário final tenha o streaming local ativado para sua política de reunião. 
+1. O administrador de locatários deve permitir que o usuário final tenha o streaming local ativado para sua política de reunião. 
 
 2. O usuário final deve ativar o streaming local para seu cliente específico.
 
 
-Para habilitar o usuário final, você pode usar o centro de administração Teams ou Teams PowerShell da seguinte forma.
+Para habilitar o usuário final, você pode usar o Teams Administração central ou o PowerShell do Teams da seguinte maneira.
 
-No centro de Teams de administração, acesse Políticas de reunião > **áudio & vídeo** e selecione Permitir Streaming de **NDI**.
+No centro de administração do Teams, acesse Políticas de reunião > **áudio & vídeo** e selecione **Difusão Local**.
 
-Para usar o PowerShell, use o cmdlet Set-CsTeamsMeetingPolicy da seguinte forma:
+Para usar o PowerShell, use o Set-CsTeamsMeetingPolicy cmdlet da seguinte maneira:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-Depois que essa alteração for preenchida, o usuário final deverá ativar o streaming local para seu cliente específico Configurações  >  **Permissões**. Para obter mais informações, [consulte Transmissão de áudio e vídeo de Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
+Depois que essa alteração for preenchida, o usuário final deverá ativar o streaming local para seu cliente específico nas **Permissões de** > **Configurações**. Para obter mais informações, consulte [Transmissão de áudio e vídeo do Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
 
 
 
