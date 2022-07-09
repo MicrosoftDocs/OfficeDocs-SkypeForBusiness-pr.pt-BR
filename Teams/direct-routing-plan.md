@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o Roteamento Direto da Microsoft permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Sistema de Telefonia.
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682510"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695054"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -160,6 +160,9 @@ Depois de adicionar o nome de domínio, você também precisa criar um usuário 
 
 O SBC só precisa de um FQDN e pode atender aos usuários de qualquer espaço de endereço no locatário emparelhado. Por exemplo, um SBC com o nome sbc1.contoso.com pode receber e enviar o tráfego PSTN para usuários com endereços user@contoso.com e user@fabrikam.com, desde que esses espaços de endereço SIP sejam registrados no mesmo locatário.  
 
+ > [!NOTE]
+ > O FQDN do SBC Serviços de Comunicação do Azure roteamento direto deve ser diferente do FQDN SBC no Roteamento Direto do Teams.
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>Certificado confiável público para o SBC
 
 A Microsoft recomenda que você solicite o certificado para o SBC gerando uma CSR (solicitação de assinatura de certificação). Para obter instruções específicas sobre como gerar uma CSR para um SBC, consulte as instruções de interconexão ou a documentação fornecida por seus fornecedores SBC. 

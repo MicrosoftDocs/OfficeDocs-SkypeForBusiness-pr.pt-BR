@@ -19,12 +19,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647743"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695064"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no centro de administração do Microsoft Teams
 
@@ -119,7 +119,7 @@ Você pode exibir solicitações para disponibilizar um aplicativo bloqueado par
 
  1. Entre no centro de administração do Teams e selecione [Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="Solicitação por usuários" lightbox="media/requested-apps.png" border="true":::
+    :::image type="content" source="media/requested-apps1.png" alt-text="As solicitações do usuário final para aplicativos bloqueados são exibidas no centro de administração do Teams na coluna intitulitada Solicitações por usuários." lightbox="media/requested-apps.png":::
 
  1. Para exibir e verificar o número de solicitações para cada aplicativo, classifique as solicitações na coluna **Solicitações por** usuário.
  1. Selecione o nome do aplicativo que você deseja desbloquear e ele abrirá a página de detalhes do aplicativo.

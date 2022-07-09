@@ -20,13 +20,13 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Saiba como agendar, gerenciar e conduzir compromissos virtuais usando o aplicativo Bookings Teams.
-ms.openlocfilehash: a89eaa242cd62238d4e5c6c9d7a88f3a2e9ac62c
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+description: Saiba como agendar, gerenciar e conduzir compromissos virtuais usando o aplicativo Bookings no Teams.
+ms.openlocfilehash: 245b9fdf8cd619ea68d2d20097f1aee4bdbbf20d
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103378"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695124"
 ---
 # <a name="virtual-appointments-with-microsoft-teams-and-the-bookings-app"></a>Compromissos virtuais com o Microsoft Teams e o aplicativo Bookings
 
@@ -36,9 +36,9 @@ O [aplicativo Bookings](https://support.microsoft.com/office/what-is-bookings-42
 
 O aplicativo Bookings facilita o gerenciamento de demandas complexas de agendamento de qualquer organização. Os agendadores podem gerenciar vários calendários de departamentos e de funcionários, assim como comunicações com os participantes internos e externos em uma única experiência.
 
-Os compromissos virtuais são realizados por meio Microsoft Teams reuniões, que oferecem recursos robustos de videoconferência. Por exemplo, um médico pode compartilhar a tela e examinar os resultados do teste com um paciente. Ou um consultor bancário pode solicitar assinaturas eletrônicas em documentos, permitindo que eles fechem transações remotamente.
+Os compromissos virtuais são realizados por meio de reuniões do Microsoft Teams, que oferecem recursos robustos de videoconferência. Por exemplo, um médico pode compartilhar a tela e examinar os resultados do teste com um paciente. Ou um consultor bancário pode solicitar assinaturas eletrônicas em documentos, permitindo que eles fechem transações remotamente.
 
-Cada compromisso virtual inclui um link Teams reunião que é enviado aos participantes por email, no qual eles podem ingressar facilmente em um navegador da Web ou Teams em qualquer dispositivo. Lembretes de email automatizados ajudam a reduzir não mostrar e aprimorar o envolvimento do cliente e do cliente.
+Cada compromisso virtual inclui um link de reunião do Teams que é enviado aos participantes no email em que eles podem ingressar facilmente em um navegador da Web ou no Teams em qualquer dispositivo. Lembretes de email automatizados ajudam a reduzir não mostrar e aprimorar o envolvimento do cliente e do cliente.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
 
@@ -56,13 +56,13 @@ Este artigo fornece uma visão geral de como agendar, gerenciar e conduzir compr
 
 Se você for um administrador, consulte Gerenciar o aplicativo [Bookings no Teams](../bookings-app-admin.md) para saber mais sobre os pré-requisitos para usar o aplicativo Bookings no Teams, como controlar o acesso ao Bookings em sua organização e as configurações recomendadas de política e administrador.
 
-Lembre-se de que somente agendadores em sua organização precisam ter o aplicativo Bookings instalado Teams. A equipe que realiza ou participa de compromissos virtuais não precisa do aplicativo. Eles ingressam em compromissos Teams ou Outlook calendário ou usando o link da reunião em seu email de confirmação de reserva.
+Lembre-se de que somente agendadores em sua organização precisam ter o aplicativo Bookings instalado no Teams. Os membros da equipe que realizam ou participam de compromissos virtuais não precisam do aplicativo. Eles ingressam em compromissos do calendário do Teams ou do Outlook ou usando o link da reunião no email de confirmação de reserva.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Configurar um novo calendário de reserva
 
 ### <a name="create-the-booking-calendar"></a>Criar o calendário de reserva
 
-Em Teams, vá para **o Bookings** >  **Introdução** e selecione **Novo calendário de reserva**. Preencha o formulário e escolha o tipo de negócios relevante para sua organização.
+No Teams, vá para **Introdução ao Bookings** > **e selecione** **Novo calendário de reservas**. Preencha o formulário e escolha o tipo de negócios relevante para sua organização.
 
 :::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Captura de tela da nova tela do calendário de reserva mostrando os tipos de negócios":::
 
@@ -76,27 +76,27 @@ Para saber mais, confira [Criar um calendário do Bookings](https://support.micr
 
 No calendário de reservas, vá para **Mais opções** (...) > **Configurações** e selecione **Equipe**. Adicione membros da equipe e atribua uma função a cada pessoa que você adicionar. Você pode adicionar até 100 membros da equipe a um calendário de reserva.
 
-O aplicativo Bookings se integra ao Outlook. Depois de adicionar a equipe, você poderá exibir a disponibilidade do calendário dessa pessoa e agendar reservas para ela. Para saber mais, confira [Adicionar equipe e exibir um calendário do Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
+O aplicativo Bookings integra-se ao Outlook. Depois de adicionar membros da equipe, você poderá exibir a disponibilidade do calendário e agendar reservas para eles. Para saber mais, confira [Adicionar equipe e exibir um calendário do Bookings](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
 ### <a name="create-appointment-types"></a>Criar tipos de compromisso
 
 Crie tipos de compromisso específicos para representar os serviços oferecidos pela sua organização e personalizar a experiência de reserva. Os agendadores podem usar o tipo de compromisso para agendar um compromisso.
 
-No calendário de reserva, vá para Mais **opções (...**) > **Configurações**, selecione Tipos de compromisso **e, em** seguida, **selecione Adicionar tipo de compromisso**. Insira um nome, por&mdash;exemplo, Abertura de conta, Renovação de receita, consulta de empréstimo,&mdash;preparação de imposto e quaisquer outras informações e configurações desejadas.
+No calendário de reserva, vá para **Mais** opções (...) **> Configurações**, selecione Tipos de compromisso **e, em** seguida, **selecione Adicionar tipo de compromisso**. Insira um nome, por&mdash;exemplo, Abertura de conta, Renovação de receita, consulta de empréstimo,&mdash;preparação de imposto e quaisquer outras informações e configurações desejadas.
 
-As informações adicionadas são incluídas na confirmação por email que é enviada aos participantes sempre que esse tipo de compromisso é reservado. Você pode definir lembretes de email e outras opções, como se os participantes podem [](browser-join.md) ingressar em uma área de trabalho ou navegador móvel sem precisar baixar Teams.
+As informações adicionadas são incluídas na confirmação por email que é enviada aos participantes sempre que esse tipo de compromisso é reservado. Você pode definir lembretes de email e outras opções, como se os participantes podem [](browser-join.md) ingressar em uma área de trabalho ou navegador móvel sem precisar baixar o Teams.
 
-Se você for um administrador do Bookings, poderá vincular até quatro formulários para que os participantes preencham sempre que esse tipo de compromisso for reservado. Por exemplo, você pode exigir que os participantes preencham um formulário de registro antes que eles ingressem em um compromisso. Para vincular um formulário, escolha **Vincular um formulário**. Insira a URL do formulário e escolha **Link**. (Se esta for a primeira vez que você está vinculando um formulário, você será solicitado a criar um grupo Microsoft 365 para armazenar formulários. Escolha **Criar grupo** para criar o grupo. Você só precisa fazer isso uma vez para o calendário de reserva.)
+Se você for um administrador do Bookings, poderá vincular até quatro formulários para que os participantes preencham sempre que esse tipo de compromisso for reservado. Por exemplo, você pode exigir que os participantes preencham um formulário de registro antes que eles ingressem em um compromisso. Para vincular um formulário, escolha **Vincular um formulário**. Insira a URL do formulário e escolha **Link**. (Se esta for a primeira vez que você está vinculando um formulário, você será solicitado a criar um grupo do Microsoft 365 para armazenar formulários. Escolha **Criar grupo** para criar o grupo. Você só precisa fazer isso uma vez para o calendário de reserva.)
 
 Ao trabalhar com formulários, tenha em mente que:
 
-- Para fazer alterações em um formulário que já está vinculado a um tipo de compromisso, selecione o formulário no tipo de compromisso ou no grupo Microsoft 365 em [https://forms.office.com](https://forms.office.com).
+- Para fazer alterações em um formulário que já está vinculado a um tipo de compromisso, selecione o formulário no tipo de compromisso ou no grupo do Microsoft 365 em [https://forms.office.com](https://forms.office.com).
 - Há suporte para carregar arquivos em formulários que contêm uma pergunta de [upload](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) de arquivo quando todos os participantes são da mesma organização.
 
 Quando um agendador usa o tipo de compromisso para agendar um compromisso, ele pode optar por incluir o formulário, removê-lo ou adicionar outros formulários vinculados ao tipo de compromisso. Os participantes devem preencher o formulário antes de ingressar no compromisso.
 
 > [!NOTE]
-> Todas as informações fornecidas pelos pacientes no Forms como parte dos serviços de Reservas ou compromissos virtuais necessários para fins de continuidade ou retenção de registros médicos devem ser baixadas, copiadas e/ou anotadas diretamente nesses registros. Esse serviço não constitui um registro médico legal ou um conjunto de registros designado.
+> Se você for um provedor de serviços de saúde, todas as informações fornecidas por você ou pacientes no Teams (incluindo o aplicativo Formulários, o aplicativo Bookings, gravações de reunião, se habilitadas por você ou quaisquer outros serviços de compromissos virtuais do Teams) necessárias para fins de continuidade ou retenção de registros médicos devem ser baixadas, copiadas e/ou anotadas diretamente nesses registros por você. Esse serviço não mantém registros médicos legais ou um conjunto de registros designado.
 
 Para saber mais, confira [Criar um tipo de compromisso](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
@@ -106,13 +106,13 @@ No calendário de reservas, selecione **Nova reserva**. Selecione um tipo de com
 
 Isso inclui informações de contato do participante, o membro da equipe que fornecerá o serviço, anotações internas que somente a equipe pode ver, lembretes de email e se o participante pode ingressar em um navegador móvel. Se um formulário estiver vinculado ao tipo de compromisso, você poderá optar por incluí-lo, removê-lo ou adicionar outros formulários vinculados.
 
-A confirmação de email enviada ao participante inclui o link da reunião e um anexo para que ele possa adicionar o compromisso virtual ao calendário. A equipe também recebe uma confirmação por email e convite para reunião. Se um formulário tiver sido incluído no compromisso, os administradores e agendadores do Bookings poderão ver se o formulário foi concluído pelo participante antes do compromisso e poderão exibir a resposta do participante.
+A confirmação de email enviada ao participante inclui o link da reunião e um anexo para que ele possa adicionar o compromisso virtual ao calendário. Os membros da equipe também recebem uma confirmação por email e convite para reunião. Se um formulário tiver sido incluído no compromisso, os administradores e agendadores do Bookings poderão ver se o formulário foi concluído pelo participante antes do compromisso e poderão exibir a resposta do participante.
 
 Para saber mais, confira [Agendar uma reserva no aplicativo Teams Bookings](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
 ## <a name="conduct-an-appointment"></a>Realizar um compromisso
 
-Em seu Teams ou Outlook, vá para a reserva e, em seguida, selecione Ingressar ou o link  Teams reunião. Verifique as configurações de áudio e vídeo e selecione **Ingressar agora**. Para saber mais, confira [Realizar um compromisso do Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
+No calendário do Teams ou do Outlook, vá para a reserva e, em seguida, selecione **Ingressar** ou o link de reunião do Teams. Verifique as configurações de áudio e vídeo e selecione **Ingressar agora**. Para saber mais, confira [Realizar um compromisso do Bookings](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
 ## <a name="monitor-appointments-and-get-real-time-status-updates"></a>Monitorar compromissos e obter atualizações de status em tempo real
 
@@ -125,7 +125,7 @@ Na fila, os agendadores podem adicionar uma nova reserva, exibir detalhes releva
 A equipe pode até mesmo ingressar e gerenciar compromissos diretamente da fila.
 
 > [!NOTE]
-> Atualmente, o aplicativo Bookings dá suporte à adição de até 100 funcionários por calendário de reserva. Se você usou Graph APIs para configurar e adicionar funcionários a um calendário de reserva, esse limite pode não ser imposto. Nesse cenário, a **guia Fila** não poderá renderizar conteúdo para calendários com mais de 100 funcionários. Para uma experiência ideal, recomendamos que você não adicione mais de 100 funcionários a um calendário de reserva. Estamos trabalhando para resolver essa limitação em versões futuras.
+> Atualmente, o aplicativo Bookings dá suporte à adição de até 100 funcionários por calendário de reserva. Se você usou APIs do Graph para configurar e adicionar funcionários a um calendário de reserva, esse limite pode não ser imposto. Nesse cenário, a **guia Fila** não poderá renderizar conteúdo para calendários com mais de 100 funcionários. Para uma experiência ideal, recomendamos que você não adicione mais de 100 funcionários a um calendário de reserva. Estamos trabalhando para resolver essa limitação em versões futuras.
 
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Recursos adicionais com o aplicativo Web Bookings
 
@@ -135,16 +135,16 @@ Para saber mais, confira [Microsoft Bookings](/microsoft-365/bookings/bookings-o
 
 ## <a name="get-insight-into-virtual-appointments-usage"></a>Obter informações sobre o uso de compromissos virtuais
 
-O [relatório de uso de](../teams-analytics-and-reports/virtual-visits-usage-report.md) Visitas Virtuais no centro de administração Microsoft Teams oferece aos administradores uma visão geral Teams atividade de compromisso virtual em sua organização. O relatório mostra análises detalhadas para compromissos virtuais, incluindo compromissos do Bookings.
+O [relatório de uso de Visitas Virtuais](../teams-analytics-and-reports/virtual-visits-usage-report.md) no Centro de administração do Microsoft Teams fornece aos administradores uma visão geral da atividade de compromisso virtual do Teams em sua organização. O relatório mostra análises detalhadas para compromissos virtuais, incluindo compromissos do Bookings.
 
 Você pode exibir as principais métricas, como o tempo de espera do lobby e a duração do compromisso. Use essas informações para obter informações sobre tendências de uso para ajudá-lo a otimizar compromissos virtuais para fornecer melhores resultados de negócios.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Gerenciar a experiência de junção Teams compromissos virtuais em navegadores móveis](browser-join.md)
+- [Gerenciar a experiência de ingresso para compromissos virtuais do Teams em navegadores móveis](browser-join.md)
 
-- [Teams de uso de Visitas Virtuais](../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [Relatório de uso de Visitas Virtuais do Teams](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
-- [Introdução com o Teams para organizações de saúde](healthcare/teams-in-hc.md)
+- [Introdução ao Teams para organizações de saúde](healthcare/teams-in-hc.md)
 
-- [Aplicativo Bookings na documentação Teams ajuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Documentação da ajuda do aplicativo Bookings no Teams](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
