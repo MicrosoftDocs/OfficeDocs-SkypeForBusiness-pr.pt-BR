@@ -219,7 +219,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão geral
+              - name: Visão Geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -1489,7 +1489,7 @@ items:
             href: devices/plan-device-deployment.md
           - name: Contas de recursos para o Servidor Skype for Business
             href: rooms/with-skype-for-business-server-2015.md
-  - name: Gerenciar aplicativos
+  - name: Gerenciar aplicativos no Teams
     items:
       - name: Entender os aplicativos no Teams
         href: deploy-apps-microsoft-teams-landing-page.md
@@ -1517,10 +1517,10 @@ items:
             href: overview-of-app-validation.md
           - name: 'Segurança, conformidade e privacidade de aplicativos de terceiros'
             href: overview-of-app-certification.md
-          - name: Gerenciar Microsoft 365 e conectores personalizados
-            href: Office-365-custom-connectors.md
           - name: Comprar aplicativos de terceiros para o Teams
             href: purchase-third-party-apps.md
+          - name: Gerenciar Microsoft 365 e conectores personalizados
+            href: Office-365-custom-connectors.md
       - name: Modelos de aplicativos para o Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: Gerenciar aplicativos personalizados de linha de negócios
@@ -1531,9 +1531,9 @@ items:
             href: submit-approve-custom-apps.md
           - name: Publicar um aplicativo personalizado carregando um pacote de aplicativos
             href: upload-custom-apps.md
-          - name: Personalizar aplicativos no Teams
+          - name: Personalizar a aparência e os metadados de aplicativos
             href: customize-apps.md
-          - name: Marcar a loja de aplicativos da sua organização
+          - name: Divulgar a loja de aplicativos da sua organização
             href: customize-your-app-store.md
       - name: Controles de administrador para controlar aplicativos
         items:
@@ -1541,13 +1541,13 @@ items:
             href: manage-apps.md
           - name: Políticas de aplicativo
             items:
-              - name: Gerenciar políticas de aplicativos no Teams
+              - name: Entender as políticas de aplicativo
                 href: app-policies.md
-              - name: Gerenciar políticas de permissões de aplicativo no Teams
+              - name: Gerenciar as políticas de permissão de aplicativo
                 href: teams-app-permission-policies.md
-              - name: Gerenciar políticas de configuração de aplicativo no Teams
+              - name: Gerenciar as políticas de configuração de aplicativo
                 href: teams-app-setup-policies.md
-              - name: Gerenciar políticas de aplicativo personalizado e as configurações no Teams
+              - name: Gerenciar configurações e políticas de aplicativo personalizado
                 href: teams-custom-app-policies-and-settings.md
           - name: Personalizar os aplicativos do Teams para seus funcionários da linha de frente
             href: pin-teams-apps-based-on-license.md
@@ -1557,16 +1557,16 @@ items:
             href: resource-specific-consent.md
           - name: Entender as permissões do aplicativo e o acesso aos recursos
             href: app-permissions.md
-          - name: Comportamento do aplicativo com base em tipos de usuários
-            href: non-standard-users.md
-          - name: Atualizações de aplicativo e função de administrador
-            href: apps-update-experience.md
           - name: Gerenciar o acesso a aplicativos no Microsoft 365
             href: manage-third-party-teams-apps.md
           - name: Atividades de gerenciamento de aplicativos de Auditoria
             href: audit-app-management-activities.md
-      - name: Análise e relatório de uso do aplicativo
-        href: teams-analytics-and-reports/app-usage-report.md
+          - name: Análise e relatório de uso do aplicativo
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Comportamento do aplicativo com base em tipos de usuários
+            href: non-standard-users.md
+          - name: Atualizações de aplicativo e função de administrador
+            href: apps-update-experience.md
   - name: Diretrizes governamentais e de indústrias
     items:
       - name: Visão Geral
