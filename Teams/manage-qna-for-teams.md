@@ -15,16 +15,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre como os administradores de TI podem configurar, usar e gerenciar q&A no Teams Q&A para uma abordagem estruturada para coletar perguntas, organizar discussões, excluir mensagens individuais, usar idiomas disponíveis e entender o ciclo de vida de dados, bem como políticas de retenção e exclusão de dados.
-ms.openlocfilehash: 17de45280809ae6c5fffdce64067fe97020965ec
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494828"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713439"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Gerenciar Q&A em reuniões do Teams
 
-O Q&A é uma experiência de reunião integrada que oferece aos participantes a oportunidade de fazer e receber respostas formalmente a perguntas e participar de discussões estruturadas. Essa experiência é uma prática recomendada para reuniões com mais de 10 participantes.
+As&A permitem que os apresentadores tirem dúvidas dos participantes e as respondam em tempo real. Esse recurso é mais adequado para reuniões grandes e estruturadas, como Prefeituras, Webinars, Todas as Mãos e treinamentos.
 
 Este artigo descreve como gerenciar as&A e as políticas de nível de usuário, que determinam se um organizador pode habilitar o Teams Q&A em suas reuniões.
 
@@ -46,9 +46,6 @@ As&A podem ser usadas pelos seguintes tipos de usuário:
 - Usuário normal – um usuário com credenciais do Microsoft 365 em seu locatário.
 - Usuário federado – um usuário com credenciais do Microsoft 365 para um locatário diferente.
 - Usuário convidado – todos os convidados que você adicionar ao Microsoft Teams, SharePoint ou Azure Active Directory.
-
-> [!NOTE]
-> As&A não dão suporte a usuários anônimos no momento.
 
 Quando os administradores habilitam o Q&A, os usuários com a função organizador podem ativar o Q&A ao criar ou atualizar reuniões. Por meio das opções de reunião do Teams e do Outlook, os organizadores também podem remover o Q&A das reuniões em que ele foi adicionado anteriormente para impedir que os participantes usem o recurso.
 
@@ -113,6 +110,7 @@ A Descoberta Eletrônica para Q&A funcionará da mesma forma que a Descoberta El
 - Se você usar o Teams Q&A no aplicativo Teams do locatário, esse conteúdo estará disponível na Descoberta Eletrônica, independentemente da configuração ou da existência de sua rede do Yammer. Para usar a Descoberta Eletrônica para conteúdo padrão do Yammer, sua rede do Yammer precisa estar no [Modo Nativo](/yammer/configure-your-yammer-network/overview-native-mode).
 - Ao executar a Descoberta Eletrônica, você pode determinar se as mensagens foram geradas no Yammer ou por meio de Q&A no Teams. Na seção Metadados de Arquivo, você pode encontrar essas informações no campo Classe de Item.
 - Se sua organização usar o Teams Q&A, da plataforma Yammer, o conteúdo gerado pelo Q&A será considerado conteúdo do Yammer e será detectável. Para obter mais informações sobre a Descoberta Eletrônica em aplicativos do Microsoft 365, consulte [soluções de Descoberta Eletrônica no Microsoft 365.](/microsoft-365/compliance/ediscovery)
+- Se o organizador da reunião habilitar a postagem anônima, as perguntas que os participantes postarem serão ingeridos na caixa de correio do organizador para Descoberta Eletrônica.
 
 ## <a name="data-storage"></a>Armazenamento de dados
 

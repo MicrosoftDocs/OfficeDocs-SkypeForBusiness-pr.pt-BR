@@ -1,5 +1,5 @@
 ---
-title: Instalação em massa Teams usando Windows Instalador (MSI)
+title: Instalar o Teams em massa usando o Windows Installer (MSI)
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri
 audience: admin
-description: Use Windows arquivos MSI (Instalador) para distribuir o cliente Teams para vários usuários e computadores.
+description: Use arquivos do Windows Installer (MSI) para distribuir o cliente do Teams para vários usuários e computadores.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,30 +18,30 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc9e17f958b1770573cf6729ef6aca9b22ffe03d
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 7b8c8521aa5e19abe59aa9e4c60fcc41eff9b1c7
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893560"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713319"
 ---
-# <a name="bulk-install-teams-using-windows-installer-msi"></a>Instalação em massa Teams usando Windows Instalador (MSI)
+# <a name="bulk-install-teams-using-windows-installer-msi"></a>Instalar o Teams em massa usando o Windows Installer (MSI)
 
 > [!Tip]
 > Assista à sessão a seguir para aprender sobre os benefícios do Cliente de Área de trabalho Windows, como planejá-lo e como implantá-lo[: o Teams do Cliente de área de trabalho Windows](https://aka.ms/teams-clients).
 
-A Microsoft fornece arquivos MSI de 32 bits, 64 bits e ARM64 que você pode usar para implantar em massa Microsoft Teams selecionar usuários e computadores. Os arquivos MSI podem ser usados com [Microsoft Endpoint Configuration Manager, Política](/configmgr/core/understand/introduction) de [](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software)Grupo ou software de distribuição de terceiros, para implantar Teams sua organização. Implantações em massa são úteis porque os usuários não precisam baixar e instalar o cliente Teams manualmente. Em vez disso, Teams será implantado em computadores e, em seguida, iniciar automaticamente na primeira vez que os usuários entrarem em um computador.
+A Microsoft fornece arquivos MSI de 32 bits, 64 bits e ARM64 que você pode usar para implantar em massa o Microsoft Teams para selecionar usuários e computadores. Os arquivos MSI podem ser usados com o [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Política de Grupo](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software) ou software de distribuição de terceiros para implantar o Teams em sua organização. As implantações em massa são úteis porque os usuários não precisam baixar e instalar o cliente do Teams manualmente. Em vez disso, o Teams será implantado em computadores e, em seguida, iniciará automaticamente na primeira vez que os usuários entrarem em um computador.
 
 Recomendamos que você implante o pacote em computadores em vez de um usuário específico. Ao direcionar computadores, todos os novos usuários desses computadores se beneficiarão dessa implantação.
 
 >[!NOTE]
-> Teams também pode ser distribuído para sua organização como parte do Microsoft 365 Apps para Grandes Empresas. Para obter mais informações, confira [Implantar Microsoft Teams com Microsoft 365 Apps para Grandes Empresas](/deployoffice/teams-install).
+> O Teams também pode ser distribuído para sua organização como parte do Microsoft 365 Apps para Grandes Empresas. Para obter mais informações, confira [Implantar Microsoft Teams com Microsoft 365 Apps para Grandes Empresas](/deployoffice/teams-install).
 
 ## <a name="msi-files"></a>Arquivos MSI
 
-A tabela abaixo fornece links para arquivos MSI de 32 bits, 64 bits e ARM64 para Teams. Baixe o MSI que você deseja instalar em computadores em sua organização. A arquitetura x86 (32 bits ou 64 bits) suporta Teams é independente de outros aplicativos Office instalados em um computador.
+A tabela a seguir fornece links para arquivos MSI de 32 bits, 64 bits e ARM64 para o Teams. Baixe a MSI que você deseja instalar em computadores em sua organização. A arquitetura x86 (32 bits ou 64 bits) compatível com o Teams é independente de outros aplicativos do Office instalados em um computador.
 
-Se você tiver computadores de 64 bits, recomendamos instalar o MSI de 64 bits Teams mesmo se o computador estiver executando uma versão de 32 bits do Office. O ARM64 MSI só pode ser instalado em computadores que usam a arquitetura ARM, como o Surface Pro X.
+Se você tiver computadores de 64 bits, recomendamos instalar o MSI do Teams de 64 bits, mesmo que o computador esteja executando uma versão de 32 bits do Office. O ARM64 MSI só pode ser instalado em computadores que usam a arquitetura arm, como o Surface Pro X.
 
 > [!IMPORTANT]
 > Instale a versão de 64 bits do Teams somente em sistemas operacionais de 64 bits. Se você tentar instalar a versão de 64 bits do Teams em um sistema operacional de 32 bits, a instalação não será bem-sucedida e você não receberá uma mensagem de erro.
@@ -50,23 +50,23 @@ Se você tiver computadores de 64 bits, recomendamos instalar o MSI de 64 bits T
 |---------|---------|---------|-----------|
 |Comercial     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 |Governo dos EUA - GCC     | [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|Governo dos EUA - GCC Alta    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
-|Governo dos EUA - DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|Governo dos EUA - GCC High    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|Governo dos EUA – DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
-## <a name="how-the-microsoft-teams-msi-file-works"></a>Como o Microsoft Teams MSI funciona
+## <a name="how-the-microsoft-teams-msi-file-works"></a>Como funciona o arquivo MSI do Microsoft Teams
 
 ### <a name="pc-installation"></a>Instalação no PC
 
-O Teams MSI `%SystemDrive%\Program Files\Teams Installer` coloca um instalador em um Windows de 32 bits `%SystemDrive%\Program Files (x86)\Teams Installer` e em 64 bits Windows. Sempre que um usuário entra em um novo perfil Windows usuário, o instalador é lançado e uma cópia do aplicativo Teams é instalada na pasta desse `%LocalAppData%\Microsoft\Teams` usuário. Se um usuário já tiver o aplicativo Teams `%LocalAppData%\Microsoft\Teams` instalado na pasta, o instalador MSI ignorará o processo para esse usuário.
+O MSI do Teams coloca um instalador no `%SystemDrive%\Program Files\Teams Installer` Windows de 32 bits e `%SystemDrive%\Program Files (x86)\Teams Installer` no Windows de 64 bits. Sempre que um usuário entra em um novo perfil de usuário do Windows, o instalador é iniciado e uma cópia do aplicativo Teams é instalada na pasta desse `%LocalAppData%\Microsoft\Teams` usuário. Se um usuário já tiver o aplicativo Teams `%LocalAppData%\Microsoft\Teams` instalado na pasta, o instalador MSI ignorará o processo para esse usuário.
 
-Os arquivos MSI não podem ser usados para implantar atualizações. O Teams cliente será atualizado automaticamente quando detectar que uma nova versão está disponível no serviço. Para implantar o instalador mais recente, use o processo de reimplantação do MSI descrito abaixo. Se você implantar uma versão mais antiga do arquivo MSI, o cliente atualizará automaticamente (exceto em ambientes VDI) quando possível para o usuário. Se uma versão muito antiga for implantada, o MSI acionará uma atualização do aplicativo antes que o usuário possa usar o Teams.
+Os arquivos MSI não podem ser usados para implantar atualizações. O cliente do Teams será atualizado automaticamente quando detectar que uma nova versão está disponível no serviço. Para implantar novamente o instalador mais recente, use o processo de reimplantação da MSI descrita abaixo. Se você implantar uma versão mais antiga do arquivo MSI, o cliente atualizará automaticamente (exceto em ambientes VDI) quando possível para o usuário. Se uma versão muito antiga for implantada, o MSI acionará uma atualização do aplicativo antes que o usuário possa usar o Teams.
 
 > [!IMPORTANT]
-> Não recomendamos que você altere os locais de instalação padrão, pois isso pode quebrar o fluxo de atualização. Uma versão muito antiga pode impedir que os usuários acessem o serviço.
+> Não recomendamos que você altere os locais de instalação padrão, pois isso pode interromper o fluxo de atualização. Uma versão muito antiga pode impedir que os usuários acessem o serviço.
 
 #### <a name="target-computer-requirements"></a>Requisitos do computador de destino
 
-Certifique-se de que os computadores que você Teams ao atender aos requisitos listados nos [requisitos de hardware para Microsoft Teams](hardware-requirements-for-the-teams-app.md).
+Verifique se os computadores que você instala o Teams para atender aos requisitos listados nos [requisitos de hardware do Microsoft Teams](hardware-requirements-for-the-teams-app.md).
 
 ### <a name="vdi-installation"></a>Instalação da VDI
 
@@ -80,9 +80,9 @@ Se um usuário desinstalar o Teams de seu perfil de usuário, o instalador MSI r
 > As próximas etapas contêm informações sobre como modificar o registro. Certifique-se de fazer backup do registro antes de modificá-lo e de saber como restaurá-lo se ocorrer um problema. Para obter mais informações sobre como fazer backup, restaurar e modificar o registro, confira [Informações sobre o registro do Windows para usuários avançados](https://support.microsoft.com/help/256986).
 
 1. Desinstale o aplicativo Teams instalado para cada perfil de usuário. Para obter mais informações, confira [Desinstalar o Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
-2. Exclua o diretório recursivamente em para `%LocalAppData%\Microsoft\Teams\` cada perfil de usuário.
+2. Exclua o diretório recursivamente em `%LocalAppData%\Microsoft\Teams\` cada perfil de usuário.
 3. Exclua `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` o valor do Registro para cada perfil de usuário.
-4. Reimplantar o arquivo MSI para esse computador específico.
+4. Reimplante o arquivo MSI nesse computador específico.
 
 > [!TIP]
 > É possível também usar nosso [Script de limpeza de implantação do Teams para concluir as etapas 1 e 2](scripts/powershell-script-deployment-cleanup.md).  
@@ -93,7 +93,7 @@ O comportamento padrão do MSI é instalar o aplicativo do Teams assim que um us
 
 ### <a name="use-group-policy-recommended"></a>Usar a Política de Grupo (recomendado)
 
-Habilita **a configuração Impedir Microsoft Teams iniciar automaticamente após a instalação da** [Política de](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software) Grupo. Você pode encontrar essa configuração de política **em User** **ConfigurationPoliciesAdministrative**\\\\ **Templates**\\ **Microsoft Teams**. Esse é o método recomendado porque você pode desativar ou ativar a configuração de política de acordo com as necessidades da sua organização.
+Habilite **a configuração Impedir que o Microsoft Teams seja** iniciado automaticamente após [Política de Grupo](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software) instalação. Você pode encontrar essa configuração de política em **Modelos Administrativos** das Políticas de Configuração \\\\**do** Usuário do \\**Microsoft Teams**. Esse é o método recomendado porque você pode desativar ou ativar a configuração de política de acordo com as necessidades da sua organização.
 
 Ao habilitar esta configuração de política antes de instalar o Teams, o Teams não é iniciado automaticamente quando o usuário entrar no Windows. Após um usuário iniciar o Teams pela primeira vez, o Teams é iniciado automaticamente na próxima vez que o usuário fizer login.
 
@@ -104,7 +104,7 @@ Para saber mais, confira [Use a Política de Grupo para impedir que o Teams seja
 
 ### <a name="disable-auto-launch-for-the-msi-installer"></a>Desabilitar o início automático do instalador MSI
 
-Você pode desabilitar o lançamento automático para o instalador MSI usando o `OPTIONS="noAutoStart=true"` parâmetro da seguinte forma.  
+Você pode desabilitar a inicialização automática para o instalador MSI usando o `OPTIONS="noAutoStart=true"` parâmetro da seguinte maneira.  
 
 Para a versão de 32 bits:
 
@@ -118,7 +118,7 @@ Para a versão de 64 bits:
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-Quando um usuário faz logon no Windows, o Teams é instalado com o MSI e um atalho para iniciá-lo é adicionado à área de trabalho do usuário. O Teams não será iniciado até que o usuário inicie-o manualmente. Depois que o usuário iniciar o Teams manualmente, ele iniciará automaticamente sempre que o usuário fizer login.
+Quando um usuário faz logon no Windows, o Teams é instalado com o MSI. O Teams não será iniciado até que o usuário inicie-o manualmente. Depois que o usuário iniciar o Teams manualmente, ele iniciará automaticamente sempre que o usuário fizer login.
 
 Observe que esses exemplos também usam o parâmetro **ALLUSERS = 1**. Quando você define este parâmetro, o Instalador de Todo o Computador do Teams aparece em Programas e recursos no Painel de Controle e em Aplicativos e Recursos nas Configurações do Windows para todos os usuários do computador. Todos os usuários podem desinstalar o Teams se tiverem credenciais de administrador no computador.
 

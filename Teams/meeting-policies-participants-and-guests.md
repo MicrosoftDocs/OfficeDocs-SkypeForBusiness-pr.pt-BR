@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams para participantes e convidados.
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241130"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713349"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -112,9 +112,11 @@ Essa configuração não se aplica a reuniões de canal. Depois que essa políti
 
 ## <a name="qa-in-meetings"></a>P&A em reuniões
 
-Esta é uma política por organizador. Essa configuração controla se os organizadores podem adicionar o Q&uma experiência às suas reuniões. Por padrão, essa configuração é desabilitada. Saiba mais sobre o Q&A [aqui](/manage-qna-for-meetings). 
+Esta é uma política por organizador. Essa configuração permite que os administradores de locatários do Microsoft 365 habilitem ou desabilitem as perguntas & experiência de respostas (Q&A).
 
-Para o parâmetro QnAEngagementMode, controla essa política no PowerShell e no Q&A também pode ser ajustado no portal de administração.
+A configuração é imposta quando uma reunião é criada ou atualizada pelos Organizadores. Por padrão, essa configuração é desabilitada. Saiba mais sobre o Q&A [aqui](/manage-qna-for-meetings).
+
+O parâmetro QnAEngagementMode controla essa política no PowerShell. As&A também podem ser ajustadas no portal de administração.
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
