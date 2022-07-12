@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar atendedores automáticos por meio de cmdlets
-ms.openlocfilehash: a3f669a6540e42cd0ff4a016da0215ca79f3bd22
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
+ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676604"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66744317"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Criar um atendedor automático por meio de cmdlets
 
@@ -52,7 +52,7 @@ ms.locfileid: "65676604"
 3. Você comprou Telefonia do Microsoft Teams
 4. As filas de chamadas mencionadas abaixo já foram configuradas seguindo o guia Criando [Filas de Chamadas com cmdlets do PowerShell](create-a-phone-system-call-queue-via-cmdlets.md) .
 
-**Observação**: alguns dos cmdlets referenciados abaixo podem fazer parte da versão de Visualização Pública do Teams PowerShell. Para obter mais informações, [consulte Instalar Teams visualização pública do PowerShell](teams-powershell-install.md) e também consulte [Microsoft Teams notas de versão do PowerShell](teams-powershell-release-notes.md).
+**Observação**: alguns dos cmdlets referenciados abaixo podem fazer parte da versão prévia pública do Módulo do PowerShell do Teams. Para obter mais informações, consulte [Instalar a versão prévia pública do PowerShell do Teams](teams-powershell-install.md) e também confira As Notas [de Versão do PowerShell do Microsoft Teams](teams-powershell-release-notes.md).
 
 Os usuários que já têm o módulo MicrosoftTeams `Update-Module MicrosoftTeams` instalado devem garantir que a versão mais atualizada esteja instalada.
 
@@ -85,7 +85,7 @@ Informações de configuração adicionais:
 
 ## <a name="login"></a>Login
 
-Você será solicitado a inserir suas credenciais de Teams administrador.
+Você será solicitado a inserir suas credenciais de administrador do Teams.
 
 ```PowerShell
 $credential = Get-Credential
@@ -113,7 +113,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Criar e atribuir Conta de Recurso
 
-**Observação**: Telefone número não necessário aqui, pois a fila de chamadas é encerrada com frente por um Atendedor Automático
+**Observação**: o número de telefone não é necessário aqui, pois a fila de chamadas é front-end por um Atendedor Automático
 
 - Applicationid
   - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
@@ -211,7 +211,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ```
 
-### <a name="create-after-hours-menu-and-call-flow"></a>Menu Criar Horas Extras e Chamar Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>Menu Criar Após Horas e Fluxo de Chamadas
 
 ```PowerShell
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
@@ -288,7 +288,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### <a name="get-list-of-unassigned-service-numbers"></a>Obter lista de números de serviço não atribuídos
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### <a name="assign-available-phone-number"></a>Atribuir número de telefone disponível
