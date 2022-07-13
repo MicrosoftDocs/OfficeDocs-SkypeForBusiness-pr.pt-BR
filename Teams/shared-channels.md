@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057051"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773760"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -94,7 +94,7 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 ## <a name="shared-channel-sharepoint-sites"></a>Sites do SharePoint do canal compartilhado
 
-Cada canal compartilhado tem [seu próprio site do SharePoint](/SharePoint/teams-connected-sites). O site separado é para garantir que o acesso aos arquivos do canal compartilhado seja restrito apenas aos membros do canal compartilhado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
+Cada canal compartilhado tem [seu próprio site do SharePoint](/SharePoint/teams-connected-sites). O site separado é para garantir que o acesso aos arquivos do canal compartilhado seja restrito apenas aos membros do canal compartilhado. Esses sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um site completo por meio da [interface de gerenciamento de site](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada site é criado na mesma região geográfica do site de equipe pai. Esses sites leves têm uma ID de modelo personalizado, "TEAMCHANNEL #1", para facilitar o gerenciamento por meio do PowerShell e da API do Graph. 
 
 Um site de canal compartilhado herda o rótulo de confidencialidade da equipe pai. Isso permanecerá verdadeiro mesmo que o canal seja compartilhado diretamente com outra equipe.
 
