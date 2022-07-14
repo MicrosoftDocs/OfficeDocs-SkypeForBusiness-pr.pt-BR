@@ -1,7 +1,7 @@
 ---
 title: Políticas de gravação de eventos ao vivo
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,40 +13,40 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre políticas de gravação de eventos ao vivo.
+description: Saiba mais sobre as políticas de gravação de eventos ao vivo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3725abe49c72251b8672fb5851177586be8bf871
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62386359"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794109"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo em Microsoft Teams
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>Políticas de gravação de eventos ao vivo no Microsoft Teams
 
-Você tem várias opções para gravar um evento Microsoft Teams ao vivo. As opções de gravação são definidas usando políticas de gravação. Este artigo descreve as várias configurações.
+Você tem várias opções para gravar um evento ao vivo do Microsoft Teams. As opções de gravação são definidas usando políticas de gravação. Este artigo descreve as várias configurações.
 
 As opções de gravação são definidas usando o comando [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy) do PowerShell.
 
-## <a name="scheduling-and-option-behaviors"></a>Agendamento e comportamentos de opção
+## <a name="scheduling-and-option-behaviors"></a>Comportamentos de agendamento e opção
 
-Há duas opções de organizador durante o agendamento de uma gravação de eventos ao vivo:
+Há duas opções de organizador ao agendar uma gravação de evento ao vivo:
 
 - Gravação disponível para produtores e apresentadores
 
-  - Arquivo de gravação: fornece um arquivo de gravação que os produtores e apresentadores podem baixar depois que o evento acabar.
+  - Arquivo de gravação: fornece um arquivo de gravação que os produtores e apresentadores podem baixar após o fim do evento.
 
 - Gravação disponível para participantes
 
-  - DVR: um gravador de vídeo digital (DVR) permite que os participantes rebobinem e pausem durante o evento
+  - DVR: Um DVR (gravador de vídeo digital) permite que os participantes rebobinem e pausem durante o evento
 
-  - VOD: um vídeo sob demanda (VOD) permite que os participantes assistam após o evento ter acabado
+  - VOD: um vídeo sob demanda (VOD) permite que os participantes assistam após o fim do evento
 
-## <a name="broadcast-recording-policy-setting"></a>Configuração da política de gravação de transmissão
+## <a name="broadcast-recording-policy-setting"></a>Configuração da política de gravação de difusão
 
-Como parte da política de transmissão, há uma configuração que você pode alternar para ativar ou desativar a gravação para um evento ao vivo.
+Como parte da política de difusão, há uma configuração que você pode alternar para ativar ou desativar a gravação de um evento ao vivo.
 
 | &nbsp;| Gravação disponível para produtores e apresentadores | Gravação disponível para participantes |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
@@ -54,13 +54,13 @@ Como parte da política de transmissão, há uma configuração que você pode a
 | O organizador pode gravar ou não | Habilitado e selecionado por padrão                  | Habilitado e selecionado por padrão   |
 | Nunca gravar               | Desabilitado e não selecionado                            | Desabilitado e não selecionado      |
 
-## <a name="storage-and-persistence-behavior"></a>Armazenamento e comportamento de persistência
+## <a name="storage-and-persistence-behavior"></a>Comportamento de armazenamento e persistência
 
 | Opção                                       | Estado   | DVR                                                   | VOD                                                     | Gravando                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Gravação disponível para participantes | Selecionado     | O DVR está disponível e o ativo Serviços de Mídia do Azure (AMS) é armazenado por 180 dias | O participante pode acessar e assistir ao evento                     |                              |
-|                                                  | Não Selecionado | O DVR está disponível e o ativo AMS é armazenado por 180 dias | O participante não terá acesso ao evento após o fim |                              |
-||Desabilitado (Não selecionado)|DVR está disponível e o ativo AMS é excluído após o evento|O participante não terá acesso ao evento após o fim||
+| Gravação disponível para participantes | Selecionado     | O DVR está disponível e o ativo dos Serviços de Mídia do Azure (AMS) é armazenado por 180 dias | O participante pode acessar e assistir ao evento                     |                              |
+|                                                  | Não Selecionado | O DVR está disponível e o ativo AMS é armazenado por 180 dias | O participante não obterá acesso ao evento após o fim |                              |
+||Desabilitado (não selecionado)|O DVR está disponível e o ativo AMS é excluído após o evento|O participante não obterá acesso ao evento após o fim||
 | Gravação disponível para produtores e apresentadores | Selecionado     |                                                           |                                                             | Um MP4 é criado e armazenado por 180 dias |
 |                                                  | Não Selecionado |                                                           |                                                             | Nenhum arquivo é criado           |
 
@@ -69,4 +69,4 @@ Como parte da política de transmissão, há uma configuração que você pode a
 - [O que são eventos ao vivo de Teams?](what-are-teams-live-events.md)
 - [Planejar eventos ao vivo do Teams](plan-for-teams-live-events.md)
 - [Definir configurações de eventos ao vivo do Teams](configure-teams-live-events.md)
-- [Teams de reunião de nuvens](../cloud-recording.md)
+- [Gravação de reunião de nuvens do Teams](../cloud-recording.md)

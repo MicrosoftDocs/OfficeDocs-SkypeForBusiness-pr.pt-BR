@@ -1,52 +1,58 @@
 ---
-title: Microsoft Teams relatório de uso de eventos ao vivo
-author: SerdarSoysal
-ms.author: serdars
+title: Relatório de uso de eventos ao vivo do Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-  - M365-collaboration
-description: Saiba como usar o relatório Teams de uso de eventos ao vivo no centro de administração Microsoft Teams para obter uma visão geral Teams atividade de eventos ao vivo em sua organização.
+- M365-collaboration
+description: Saiba como usar o relatório de uso de eventos ao vivo do Teams no centro de administração do Microsoft Teams para obter uma visão geral da atividade de eventos ao vivo do Teams em sua organização.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794089"
 ---
-# <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams relatório de uso de eventos ao vivo
+# <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
-O Teams de uso de eventos ao vivo no centro de administração Microsoft Teams mostra a visão geral da atividade para eventos ao vivo realizados em sua organização. Você pode exibir informações de uso, incluindo status do evento, hora de início, exibições e tipo de produção para cada evento. Você pode obter informações sobre tendências de uso e ver quem em sua organização agenda, apresenta e produz eventos ao vivo.
+O relatório de uso de eventos ao vivo do Teams no centro de administração do Microsoft Teams mostra a visão geral da atividade para eventos ao vivo realizados em sua organização. Você pode exibir informações de uso, incluindo status do evento, hora de início, exibições e tipo de produção para cada evento. Você pode obter informações sobre tendências de uso e ver quem em sua organização agenda, apresenta e produz eventos ao vivo.
 
 ## <a name="view-the-live-event-usage-report"></a>Exibir o relatório de uso do evento ao vivo
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, clique em **Análise & relatóriosusuário** > . Na guia **Exibir relatórios**, em **Relatório**, selecione Teams **de eventos ao vivo**.
-2. Em **Intervalo de datas**, selecione um intervalo predefinido ou de definir um intervalo personalizado. Você pode definir um intervalo para mostrar dados até um ano, seis meses antes e após a data atual.
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, clique **em Análise & relatórios** > **de uso**. Na guia **Exibir relatórios** , em **Relatório**, selecione **Uso de eventos ao vivo do Teams**.
+2. Em **Intervalo de datas**, selecione um intervalo predefinido ou defina um intervalo personalizado. Você pode definir um intervalo para mostrar dados de até um ano, seis meses antes e depois da data atual.
 3. (Opcional) Em **Organizador**, você pode optar por mostrar apenas eventos ao vivo organizados por um usuário específico.
 4. Clique **em Executar relatório**.  
 
-   :::image type="content" alt-text="Captura de tela do relatório Teams de uso de eventos ao vivo no centro de administração Teams com explicações explicativas." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
+   :::image type="content" alt-text="Captura de tela do relatório de uso de eventos ao vivo do Teams no centro de administração do Teams com textos explicativo." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
 |Texto Explicativo |Descrição  |
 |--------|-------------|
-|**1**   |O Teams de eventos ao vivo pode ser exibido para ver tendências nos últimos 7, 28 dias ou um intervalo de datas personalizado definido. |
+|**1**   |O relatório de eventos ao vivo do Teams pode ser exibido para ver tendências nos últimos 7, 28 dias ou um intervalo de datas personalizado que você definiu. |
 |**2**   |Cada relatório tem uma data para quando ele foi gerado. O relatório reflete a atividade quase em tempo real quando a página é atualizada. |
-|**3**   |<ul><li>O eixo X no gráfico representa o intervalo selecionado de datas para o relatório.</li> <li> O eixo Y é a contagem total de visualizações.</li> </ul>Passe o mouse sobre o ponto em uma determinada data para ver o número de exibições em todos os eventos ao vivo nessa data.|
-|**4**   |A tabela fornece uma divisão de cada evento ao vivo. <ul><li>**Event** é o nome de exibição do evento ao vivo. Clique no nome do evento [para obter mais detalhes](#view-event-details) sobre o evento. </li> <li>**Hora de** Início refere-se à data e hora de início do evento.</li> <li>**O Status do** Evento mostra se o evento ocorreu.  </li><li>**Organizer** é o nome do organizador do evento.</li> <li>**Apresentadores** são os nomes dos apresentadores do evento.</li><li>**Os produtores** são os nomes dos produtores de eventos.</li><li>**Views** é o número de exibições exclusivas após a conclusão do evento .</li><li>**A** gravação mostra se a configuração de gravação está 1 ou off.</li><li>**Tipo de** produção mostra se o evento é produzido em Teams ou por um aplicativo ou dispositivo externo.</li></li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
+|**3**   |<ul><li>O eixo X no gráfico representa o intervalo selecionado de datas para o relatório.</li> <li> O eixo Y é a contagem total de exibição.</li> </ul>Passe o mouse sobre o ponto em uma determinada data para ver o número de exibições em todos os eventos ao vivo nessa data.|
+|**4**   |A tabela fornece uma divisão de cada evento ao vivo. <ul><li>**Evento** é o nome de exibição do evento ao vivo. Clique no nome do evento [para obter mais detalhes](#view-event-details) sobre o evento. </li> <li>**Hora de** Início refere-se à data e hora de início do evento.</li> <li>**O Status do** Evento mostra se o evento ocorreu.  </li><li>**Organizador** é o nome do organizador do evento.</li> <li>**Apresentadores** são os nomes dos apresentadores do evento.</li><li>**Produtores** são os nomes dos produtores de eventos.</li><li>**Exibições** é o número de exibições exclusivas após a conclusão do evento.</li><li>**A** gravação mostra se a configuração de gravação está ativada ou desativada.</li><li>**O Tipo de** Produção mostra se o evento é produzido no Teams ou por um aplicativo ou dispositivo externo.</li></li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
 
 ## <a name="notes"></a>Observações
-Mostramos até 100 eventos ao vivo que corresponderão aos critérios atuais do relatório. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista.
+Mostramos até 100 eventos ao vivo que correspondem aos critérios de relatório atuais. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista.
 
 Apresentadores anônimos não serão incluídos no relatório.
 
-Qualquer pessoa que assista à gravação do evento ou do evento sob demanda não será incluída na contagem de exibição. 
+Qualquer pessoa que assistir à gravação do evento ou do evento sob demanda não será incluída na contagem de exibição. 
 
 ## <a name="view-event-details"></a>Exibir detalhes do evento
 
@@ -54,7 +60,7 @@ A página de detalhes do evento ao vivo fornece um resumo dos detalhes de um eve
 
 :::image type="content" alt-text="Captura de tela mostrando detalhes de um evento ao vivo." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-Se sua organização estiver habilitada para [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN ou [Kollective](https://kollective.com) eCDN, você poderá obter análises adicionais do participante clicando no link de relatório do parceiro.
+Se sua organização estiver habilitada para [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN ou [Kollective](https://kollective.com) eCDN, você poderá obter análises de participantes adicionais clicando no link de relatório do parceiro.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

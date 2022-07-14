@@ -1,7 +1,7 @@
 ---
 title: Classificação de fluxo no Painel de Qualidade de Chamada (CQD)
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas (CQD) para Microsoft Teams e Skype for Business Online.
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas (CQD) do Microsoft Teams e Skype for Business Online.
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059252"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794289"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classificação de fluxo no Painel de Qualidade de Chamada (CQD)
 
-O CQD (Painel de Qualidade de Chamadas) para Microsoft Teams e Skype for Business Online permite que você obtenha insights sobre a qualidade das chamadas feitas usando Microsoft Teams e Skype for Business serviços. Este tópico fornece informações detalhadas sobre a classificação de qualidade dos fluxos de mídia. Para saber mais sobre o CQD e como configurá-lo, consulte [Configurar o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md).
+O Painel de Qualidade de Chamadas (CQD) para Microsoft Teams e Skype for Business Online permite que você obtenha insights sobre a qualidade das chamadas feitas usando o Microsoft Teams e Skype for Business serviços. Este tópico fornece informações detalhadas sobre a classificação de qualidade dos fluxos de mídia. Para saber mais sobre o CQD e como configurá-lo, consulte [Configurar o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definições do classificador
 
-Fluxos no CQD são classificados como _Bons__, Ruins_ ou _Não Classificados_ com base nos valores das métricas de qualidade de chave disponíveis. As métricas e condições usadas para classificar o fluxo são mostradas nas tabelas a seguir. As dimensões "Ruim devido a" do CQD podem ser usadas para entender qual métrica é responsável por _uma classificação_ ruim. Para obter mais informações sobre essas dimensões, consulte [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Os fluxos no CQD são classificados como _Bons__, Ruins_ ou _Não Classificados_ com base nos valores das métricas de qualidade de chave disponíveis. As métricas e condições usadas para classificar o fluxo são mostradas nas tabelas a seguir. As dimensões "Ruim devido a" do CQD podem ser usadas para entender qual métrica é responsável por _uma classificação_ ruim. Para obter mais informações sobre essas dimensões, consulte [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Classificador de áudio
 
@@ -48,7 +48,7 @@ Se uma ou mais das seguintes condições forem atendidas e a Utilização de Pac
 
 ### <a name="video-classifier-due-to-freeze"></a>Classificador de Vídeo devido a Congelamento
 
-O fluxo de vídeo é marcado como  _Bom_ ou Ruim com base no valor de uma pontuação de classificador gerada para estimar que o usuário final experimentou o Vídeo Congelado. Esse classificador está disponível somente para Microsoft Teams produto.
+O fluxo de vídeo é marcado como  _Bom_ ou Ruim com base no valor de uma pontuação de classificador gerada para estimar que o usuário final experimentou o Vídeo Congelado. Este classificador está disponível apenas para o produto Microsoft Teams.
 
 |Etapa Nº|Indicador|Cenário|Condição |Classificação se a condição for verdadeira |Classificação se a condição for falsa |Classificação se a métrica não estiver disponível |Explicação |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
@@ -113,13 +113,13 @@ Se a conectividade ICE tiver sido bem-sucedida para um fluxo não classificado, 
   > A dimensão "Utilização de pacote" e a medida "Utilização média de pacote" podem ser usadas para determinar a atividade de pacote de um fluxo.
 
 ## <a name="related-topics"></a>Tópicos Relacionados
-[Melhorar e monitorar a qualidade da chamada para Teams](monitor-call-quality-qos.md)
+[Melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md)
 
 [O que é CQD?](CQD-what-is-call-quality-dashboard.md)
 
 [Configurar o Painel de Qualidade de Chamada (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload locatário e criação de dados](CQD-upload-tenant-building-data.md)
+[Carregar dados de locatário e de criação](CQD-upload-tenant-building-data.md)
 
 [Dados e relatórios do CQD](CQD-data-and-reports.md)
 
@@ -127,4 +127,4 @@ Se a conectividade ICE tiver sido bem-sucedida para um fluxo não classificado, 
 
 [Dimensões e medidas disponíveis no CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Usar Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)
+[Usar o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)

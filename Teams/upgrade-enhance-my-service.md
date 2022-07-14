@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams requisitos | Aprimorar o serviço
-author: SerdarSoysal
-ms.author: serdars
+title: Requisitos do Microsoft Teams | Aprimorar o serviço
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Avalie regularmente oportunidades para aprimorar o serviço Teams após a atualização, monitore o roteiro Teams para quaisquer aprimoramentos de recursos interessantes.
+description: Avalie regularmente oportunidades para aprimorar o serviço do Teams após a atualização, monitore o roteiro do Teams para ver se há aprimoramentos de recursos interessantes.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,30 +18,30 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed54d4498f02f57131e6665291a6ffa7416722a9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 38b6036d0a2e948485afd0e168b427eebd559e87
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62393450"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794359"
 ---
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>Obter o máximo de Teams depois de atualizar
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>Obter o máximo do Teams após a atualização
 
-![Atualize o diagrama de jornada, enfatizando o estágio de Excelência Operacional.](media/upgrade-banner-op-excellence.png "Estágios da jornada de atualização, com ênfase no estágio de Excelência Operacional")
+![Diagrama de percurso de atualização, enfatizando o estágio de Excelência Operacional.](media/upgrade-banner-op-excellence.png "Estágios do percurso de atualização, com ênfase no estágio de Excelência Operacional")
 
-Este artigo faz parte do estágio de Excelência Operacional da sua jornada de atualização, que começa assim que você conclui a atualização do Skype for Business para o Teams.
+Este artigo faz parte do estágio de Excelência Operacional do seu percurso de atualização, que começa assim que você conclui a atualização do Skype for Business para o Teams.
 
-Este artigo fornece uma visão geral dos requisitos para obter o máximo de tempo de Teams após a atualização. Monitorando continuamente os Teams de serviço, você pode ter certeza de que está entregando o maior valor para sua organização.
+Este artigo fornece uma visão geral dos requisitos para obter o máximo das equipes operacionais após a atualização. Ao monitorar continuamente os recursos de serviço do Teams, você pode ter certeza de que está fornecendo o maior valor para sua organização.
 
-## <a name="enhance-your-service-overview"></a>Aprimorar sua visão geral do serviço
+## <a name="enhance-your-service-overview"></a>Aprimorar a visão geral do serviço
 
-Depois de ter implantado o Teams para sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem alguma oportunidade de aprimorar seus serviços. Isso faz parte do planejamento de melhoria contínua do serviço que é um padrão moderno para gerenciamento de serviços na nuvem.
+Depois de implantar com êxito o Teams em sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem alguma oportunidade de aprimorar seus serviços. Isso faz parte do planejamento de melhoria contínua do serviço que é um padrão moderno para o gerenciamento de serviços de nuvem.
 
-Uma ótima maneira de garantir que você esteja sempre recebendo o máximo de seus serviços é monitorar os roteiros públicos Teams novos [aprimoramentos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de recursos que podem ser de interesse para sua organização. Se você tiver acesso ao Centro de administração do Microsoft 365, você receberá atualizações regulares de nós sobre recursos novos e de alteração por meio do nosso Centro de Mensagens.
+Uma ótima maneira de garantir que você esteja sempre obtendo o máximo de seus serviços é monitorar os roteiros públicos do Teams para novos [aprimoramentos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de recursos que podem ser de interesse para sua organização. Se você tiver acesso ao Centro de administração do Microsoft 365, receberá atualizações regulares de nós sobre recursos novos e em alteração por meio do Nosso Centro de Mensagens.
 
-Quando você vir oportunidades para aprimorar seu serviço, aproveite o tempo para fazer isso direito. [Revisite Implantar chat, equipes, canais e aplicativos em](deploy-chat-teams-channels-microsoft-teams-landing-page.md) Microsoft Teams e nossas [fases](deploy-chat-teams-channels-microsoft-teams-landing-page.md) de implementação e aplicar as mesmas diretrizes de ponta a ponta. Ao fazer pequenas alterações incrementais, é improvável que você precise concluir todas as atividades e tarefas na íntegra, mas você deve avaliar cada atividade e tarefa ao longo do caminho para se dar a melhor chance de um resultado bem-sucedido.
+Quando você vir oportunidades para aprimorar seu serviço, reserve um tempo para fazer isso direito. [Revisite a implantação de chat, equipes,](deploy-chat-teams-channels-microsoft-teams-landing-page.md) canais e aplicativos no Microsoft Teams e nossas [fases](deploy-chat-teams-channels-microsoft-teams-landing-page.md) de implementação e aplique as mesmas diretrizes de ponta a ponta. Ao fazer alterações pequenas e incrementais, é improvável que você precise concluir todas as atividades e tarefas por completo, mas você deve avaliar cada atividade e tarefa ao longo do caminho para se dar a melhor chance de um resultado bem-sucedido.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará roteiros públicos e outros comunicados de serviço para novos recursos ou serviços dos quais sua organização pode se beneficiar.</li><li>Decida sobre a cadência na qual relatar esses novos recursos ou serviços de volta aos principais participantes, por meio do seu comitê de direção.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Implemente uma estratégia para se manter atualizado com seus serviços para obter o maior valor para sua organização.</li><li>Conduza aprimoramentos de serviço por meio de um ciclo de vida completo do projeto para garantir que você tenha sido responsável corretamente pelo impacto que eles têm em sua implantação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará roteiros públicos e outros comunicados de serviço para novos recursos ou serviços dos quais sua organização pode se beneficiar.</li><li>Decida sobre a cadência na qual relatar esses novos recursos ou serviços de volta aos principais stakeholders, por meio de seu comitê gestor.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Implemente uma estratégia para se manter atualizado com seus serviços para obter o máximo valor para sua organização.</li><li>Conduza melhorias de serviço por meio de um ciclo de vida completo do projeto para garantir que você tenha sido devidamente contabilizada pelo impacto que eles têm em sua implantação.</li></ul></td></tr>
 </table>

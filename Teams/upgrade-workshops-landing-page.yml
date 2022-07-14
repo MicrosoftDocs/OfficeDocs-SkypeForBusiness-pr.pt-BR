@@ -1,45 +1,51 @@
 ### YamlMime:Hub
 title: Workshop de atualização de equipe do Teams
-summary: 'Junte-se a nós para uma série de workshops de planejamento de atualização interativos e dinâmicos, onde compartilharemos o guia, as práticas recomendadas e os recursos projetados para ajudá-lo a planejar e implementar sua atualização do Teams. Para ter uma experiência ideal, comece com a sessãoPlaneje sua atualização abaixo. Clique em qualquer título do workshop para se registrar.'
+summary: Junte-se a nós para uma série de workshops de planejamento de atualização interativos e dinâmicos, onde compartilharemos o guia, as práticas recomendadas e os recursos projetados para ajudá-lo a planejar e implementar sua atualização do Teams. Para ter uma experiência ideal, comece com a sessãoPlaneje sua atualização abaixo. Clique em qualquer título de workshop para se registrar.
 brand: teams
 metadata:
   title: Workshop de atualização de equipe do Teams
-  description: 'Junte-se a nós para uma série de workshops de planejamento de atualização interativos e dinâmicos, onde compartilharemos o guia, as práticas recomendadas e os recursos projetados para ajudá-lo a planejar e implementar sua atualização do Teams. Para ter uma experiência ideal, comece com a sessãoPlaneje sua atualização abaixo. Clique em qualquer título do workshop para se registrar.'
+  description: Junte-se a nós para uma série de workshops de planejamento de atualização interativos e dinâmicos, onde compartilharemos o guia, as práticas recomendadas e os recursos projetados para ajudá-lo a planejar e implementar sua atualização do Teams. Para ter uma experiência ideal, comece com a sessãoPlaneje sua atualização abaixo. Clique em qualquer título de workshop para se registrar.
   ms.service: msteams
   ms.topic: hub-page
-  author: SerdarSoysal
-  ms.author: serdars
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
   audience: admin
   f1.keywords:
-    - NOCSH
+  - NOCSH
   ms.localizationpriority: high
   ms.collection:
-    - Teams_ITAdmin_JourneyFromSfB
-    - M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
   ms.custom:
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-    - Microsoft Teams
+  - Microsoft Teams
+  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
+  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 07/14/2022
+  ms.locfileid: "66794519"
 productDirectory:
   items:
-    - title: Planeje a atualização (Comece aqui!)
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 'Se você está atualizando para Teams antes da reforma do Skype for Business Online (31 de julho de 2021) ou movendo cenários do seu ambiente local do Skype for Business para o Teams, uma transição bem-sucedida aborda a preparação técnica e do usuário. Descubra nossa estrutura comprovada, práticas recomendadas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Teams do Skype for Business Online, Skype for Business Server ou um ambiente híbrido. Audiência – Todos (Patrocinadores corporativos, administradores de IT, gerente de preparação/alteração do usuário, líder do projeto)'
-      url: 'https://aka.ms/SfBtoTeamsPlan'
-    - title: Implementar sua Teams de atualização
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: 'Junte-se a nós para identificar e preparar-se para executar a melhor abordagem técnica para mover todas as cargas de trabalho para Teams, com base em suas metas e seu ambiente Skype for Business atual. A maioria dos clientes que concluiu transições bem-sucedidas habilitaram o Teams ao lado de seus Skype for Business Online, Skype for Business Server ou implementação híbrida. Esta sessão compartilhará considerações importantes e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para sua organização. Audiência - administradores de IT'
-      url: 'https://aka.ms/SfBtoTeamsImplement'
+  - title: Planeje a atualização (Comece aqui!)
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: Se você estiver atualizando para o Teams antes da desativação do Skype for Business Online (31 de julho de 2021) ou migrando cenários do ambiente local do Skype for Business para o Teams, uma transição bem-sucedida aborda a preparação técnica e do usuário. Descubra nossa estrutura comprovada, melhores práticas e recursos projetados para ajudá-lo a facilitar uma transição bem-sucedida para o Teams do Skype for Business Online, Skype for Business Server ou um ambiente híbrido. Audiência – Todos (patrocinadores de negócios, administradores de TI, gerente de preparação/mudança do usuário, líder de projeto)
+    url: https://aka.ms/SfBtoTeamsPlan
+  - title: Implementar a atualização do Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: Junte-se a nós para identificar e se preparar para executar a melhor abordagem técnica para mover todas as cargas de trabalho para o Teams, com base em suas metas e em seu ambiente Skype for Business atual. A maioria dos clientes que concluiu transições bem-sucedidas habilitou o Teams junto com o Skype for Business online, Skype for Business Server ou implementação híbrida atual. Esta sessão compartilhará considerações importantes e recursos valiosos para ajudá-lo a definir a melhor estratégia de migração para sua organização. Audiência – administradores de TI
+    url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:
   sections:
-    - items:
-        - title: Expandindo seus Teams cenários?
-          summary: Confira nossos workshops Teams de Fala de Giz para profissionais de IT.
-          url: ./chalk-talks-landing-page.yml
-        - title: Novo usuário do Teams?
-          summary: Saiba mais sobre como começar a Teams.
-          url: ./teams-overview.md
+  - items:
+    - title: Expandindo seus cenários do Teams?
+      summary: Confira nossos workshops de Talk de Giz do Teams para profissionais de TI.
+      url: ./chalk-talks-landing-page.yml
+    - title: Novo usuário do Teams?
+      summary: Saiba mais sobre como começar a usar o Teams.
+      url: ./teams-overview.md

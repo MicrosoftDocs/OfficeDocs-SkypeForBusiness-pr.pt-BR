@@ -1,14 +1,14 @@
 ---
-title: Modelos de email de notificação do usuário para a adoção do sistema de telefonia online
-author: SerdarSoysal
-ms.author: serdars
+title: Modelos de email de notificação do usuário para distribuição do sistema de telefonia online
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Use modelos para enviar emails aos usuários à medida que você implementa recursos de voz na nuvem Teams ou Skype for Business.
+description: Use modelos para enviar emails aos usuários conforme você implementa recursos de voz na nuvem no Teams ou Skype for Business.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d709dbbf52746c5eb3a264f6423133ac26b3c744
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 515dcd3438db958eb09554671ad1fd28195c720d
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62393464"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794569"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar a adoção do usuário do novo sistema de telefonia online
 
-Um telefone pode ser a linha de vida de um usuário. Alternar de um sistema telefônico tradicional para um sistema de telefonia online representa uma mudança significativa na maneira como os usuários trabalham e pode afetar negativamente a produtividade. O tempo necessário para informar, orientar e dar suporte aos usuários por meio dessa alteração pode ajudar a garantir uma experiência positiva do usuário e maximizar o retorno do investimento.
+Um telefone pode ser a linha de vida de um usuário. Alternar de um sistema de telefonia tradicional para um sistema de telefonia online representa uma alteração significativa na maneira como os usuários trabalham e pode afetar negativamente a produtividade. Levar tempo para informar, orientar e dar suporte aos usuários por meio dessa alteração pode ajudar a garantir uma experiência positiva do usuário e maximizar o retorno sobre o investimento.
 
-Este artigo contém modelos de email personalizáveis para ajudar a informar os usuários sobre seu novo sistema de telefonia. Personalize e envie os emails apropriados para alinhar com sua implantação de voz específica. Nós temos usado colchetes para indicar seções para personalização fácil, mas recomendamos que você adicione mensagens específicas da organização para tornar o comunicado mais relevante para seus usuários. Se aplicável à sua implantação, substitua todas as referências a "Teams" por "Skype for Business".
+Este artigo contém modelos de email personalizáveis para ajudar a informar os usuários sobre seu novo sistema de telefonia. Personalize e envie os emails apropriados para alinhar com sua implantação de voz específica. Usamos colchetes para indicar seções para facilitar a personalização, mas recomendamos que você adicione mensagens específicas da organização para tornar o comunicado mais relevante para seus usuários. Se aplicável à sua implantação, substitua todas as referências a "Teams" por "Skype for Business".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Número de email 1: enviar três semanas antes do início
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Email número 1: enviar três semanas antes do lançamento
 
 Linha do assunto:
 
@@ -94,7 +94,7 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Número de email 2: Enviar uma semana antes do início
+## <a name="email-number-2-send-one-week-before-launch"></a>Email número 2: Enviar uma semana antes do lançamento
 
 Linha do assunto:
 
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Número de email 3: Enviar no dia de início
+## <a name="email-number-3-send-on-launch-day"></a>Email número 3: Enviar no dia do lançamento
 
 Linha do assunto:
 
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Número de email 4: Enviar duas semanas após o início
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Email número 4: Enviar duas semanas após o lançamento
 
 Linha do assunto:
 

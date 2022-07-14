@@ -1,36 +1,41 @@
 ---
 title: Disponibilidade em Santa Lúcia
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Santa Lúcia.
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Saint Lúcia.
+ms.openlocfilehash: c9f26fbd15a3f627c054d23de29cb606c50b0348
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794329"
 ---
-
 # <a name="availability-in-saint-lucia"></a>Disponibilidade em Santa Lúcia
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Santa Lúcia.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Saint Lúcia.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -57,17 +62,17 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se Planos de Chamada não estão disponíveis para compra, consulte [Opções de conectividade PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
+Se os Planos de Chamadas não estão disponíveis para compra, consulte as opções de conectividade [PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não aplicável<br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não <br/> |
-|Os números gratuitos estão disponíveis?  <br/> |Sim  <br/> |
+|Os números de chamada gratuita estão disponíveis?  <br/> |Sim  <br/> |
    
- Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos automáticos e filas de chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendedores automáticos e filas de chamadas, consulte Obter números de telefone de serviço para [o Skype for Business e o Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

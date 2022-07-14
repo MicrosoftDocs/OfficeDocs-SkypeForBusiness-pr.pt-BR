@@ -1,7 +1,7 @@
 ---
 title: Relatório de participação de reunião do Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Obtenha um relatório de participação de reunião no Teams. Este 
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: ecd4e95ca70a7d5e89c85fe43b8c72c798703b73
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ff591bbb48a194dd7924aa329248fb56d7369cee
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205361"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794469"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Relatório de participação de reunião do Microsoft Teams
 

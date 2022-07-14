@@ -1,7 +1,7 @@
 ---
 title: Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -21,33 +21,33 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: Use os detalhes da Análise de Chamadas por usuário sobre dispositivos, redes e conectividade para solucionar problemas do usuário com Microsoft Teams chamadas e reuniões.
-ms.openlocfilehash: 47b60eb979c36508ed1911a70f531695c03533e5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+description: Use os detalhes da Análise de Chamadas por usuário sobre dispositivos, redes e conectividade para solucionar problemas do usuário com chamadas e reuniões do Microsoft Teams.
+ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125646"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794309"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
-Este artigo explica como usar a Análise de Chamadas para solucionar problemas de baixa qualidade de chamada ou reunião do Microsoft Teams para usuários individuais se você tiver a função de administrador do Teams, especialista de suporte de comunicações do Teams ou engenheiro de suporte Teams comunicações.
+Este artigo explica como usar a Análise de Chamadas para solucionar problemas de baixa qualidade de chamadas ou reuniões do Microsoft Teams para usuários individuais se você tiver a função de administrador do Teams, especialista de suporte de comunicações do Teams ou engenheiro de suporte de comunicações do Teams.
 
 ## <a name="call-analytics-permissions"></a>Permissões de Análise de Chamadas
 
-Este artigo pressupõe que você já configurou o Call Analytics. Caso contrário, leia Configurar [a análise de chamadas para Teams](set-up-call-analytics.md).
+Este artigo pressupõe que você já configurou o Call Analytics. Caso contrário, leia Configurar [a análise de chamadas para o Teams](set-up-call-analytics.md).
 
 ## <a name="introduction-to-call-analytics"></a>Introdução à Análise de Chamadas
 
-A Análise de Chamadas mostra informações detalhadas sobre Teams e reuniões para cada usuário em sua Office 365 conta. Ele inclui informações sobre dispositivos, redes, conectividade e qualidade de chamada (qualquer um deles pode ser um fator na baixa qualidade da chamada ou da reunião). Se você carregar informações de prédio, site e locatário, essas informações também serão mostradas para cada chamada e reunião. Use a Análise de Chamadas para ajudá-lo a descobrir por que um usuário teve uma experiência ruim de chamada ou reunião.
+A Análise de Chamadas mostra informações detalhadas sobre chamadas e reuniões do Teams para cada usuário em sua Office 365 conta. Ele inclui informações sobre dispositivos, redes, conectividade e qualidade de chamada (qualquer um deles pode ser um fator na baixa qualidade da chamada ou da reunião). Se você carregar informações de prédio, site e locatário, essas informações também serão mostradas para cada chamada e reunião. Use a Análise de Chamadas para ajudá-lo a descobrir por que um usuário teve uma experiência ruim de chamada ou reunião.
 
-A Análise de Chamadas mostra cada segmento de uma chamada ou reunião – por exemplo, de um participante para um segundo participante. Ao analisar esses detalhes, um administrador Teams pode isolar áreas problemáticas e identificar a causa raiz da baixa qualidade.
+A Análise de Chamadas mostra cada segmento de uma chamada ou reunião – por exemplo, de um participante para um segundo participante. Analisando esses detalhes, um administrador do Teams pode isolar áreas problemáticas e identificar a causa raiz da baixa qualidade.
 
-Como administrador Teams, você obtém acesso completo a todos os dados do Call Analytics para cada usuário. Além disso, você pode atribuir funções Azure Active Directory a equipe de suporte. Para saber mais sobre essas funções, leia [Conceder permissão para suporte e equipe de assistência técnica](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Não perca o que [cada função Teams suporte faz?](#what-does-each-teams-support-role-do) Abaixo.
+Como administrador do Teams, você obtém acesso completo a todos os dados do Call Analytics para cada usuário. Além disso, você pode atribuir funções do Azure Active Directory para dar suporte à equipe. Para saber mais sobre essas funções, leia [Conceder permissão para suporte e equipe de assistência técnica](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Não perca o que [cada função de Suporte do Teams faz?](#what-does-each-teams-support-role-do) Abaixo.
 
 ## <a name="where-to-find-per-user-call-analytics"></a>Onde encontrar a Análise de Chamadas por usuário
 
-Para ver todas as informações de chamada e dados de um usuário, acesse o Teams [de administração](https://admin.teams.microsoft.com). Em **Usuários**, selecione um usuário e abra a guia **Reuniões & Chamadas** na página de perfil do usuário. Aqui você encontrará todas as chamadas e reuniões para esse usuário nos últimos 30 dias.
+Para ver todas as informações de chamada e dados de um usuário, acesse o Centro [de administração do Teams](https://admin.teams.microsoft.com). Em **Usuários**, selecione um usuário e abra a guia **Reuniões & Chamadas** na página de perfil do usuário. Aqui você encontrará todas as chamadas e reuniões para esse usuário nos últimos 30 dias.
 
 ![Captura de tela de todos os dados de usuário de análise.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
@@ -55,11 +55,11 @@ Para obter informações adicionais sobre uma determinada sessão, incluindo est
 
 ![Captura de tela dos dados de sessão do usuário da análise de chamada.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
-## <a name="what-does-each-teams-support-role-do"></a>O que cada função Teams suporte faz?
+## <a name="what-does-each-teams-support-role-do"></a>O que cada função de Suporte do Teams faz?
 
-O **Teams especialista em suporte de** comunicações (suporte à Camada 1) lida com problemas básicos de qualidade de chamada. Eles não investigam problemas com reuniões. Em vez disso, eles coletam informações relacionadas e, em seguida, escalam para um engenheiro Teams de suporte de comunicações.
+O **especialista em suporte de comunicações do Teams** (suporte à Camada 1) lida com problemas básicos de qualidade de chamada. Eles não investigam problemas com reuniões. Em vez disso, eles coletam informações relacionadas e, em seguida, escalonam para um engenheiro de suporte de comunicações do Teams.
 
-O **Teams** de suporte de comunicações do Teams (suporte à Camada 2) vê informações em logs de chamadas detalhados que estão ocultos do Teams de suporte de comunicações. A tabela a seguir lista as informações disponíveis para cada Teams de suporte de comunicação.
+O **engenheiro de suporte de** comunicações do Teams (suporte à Camada 2) vê informações em logs de chamadas detalhados que estão ocultos do especialista de suporte de comunicações do Teams. A tabela a seguir lista as informações disponíveis para cada função de suporte de comunicação do Teams.
 
 A tabela a seguir informa quais informações por usuário estão disponíveis para cada função de suporte de comunicações.
 
@@ -81,7 +81,7 @@ A tabela a seguir informa quais informações por usuário estão disponíveis p
 
 ## <a name="troubleshoot-user-call-quality-problems"></a>Solucionar problemas de qualidade de chamada do usuário
 
-1. Abra o Teams de administração (<https://admin.teams.microsoft.com>) e entre com o suporte Teams comunicações do Teams ou as credenciais Teams Administrador.
+1. Abra o centro de administração do Teams (<https://admin.teams.microsoft.com>) e entre com o suporte de comunicações do Teams ou as credenciais de Administrador do Teams.
 
 2. No **Painel,** na Pesquisa de **Usuário, comece** a digitar o nome ou o endereço SIP do usuário cujas chamadas você deseja solucionar ou selecione Exibir usuários  para ver uma lista de usuários.
 

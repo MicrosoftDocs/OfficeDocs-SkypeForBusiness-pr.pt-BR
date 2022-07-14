@@ -1,7 +1,7 @@
 ---
 title: Teams em 30
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
@@ -13,25 +13,25 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: Workshops interativos e ao vivo projetados para que você se Microsoft Teams em apenas 30 dias.
+description: Workshops ao vivo e interativos projetados para ajudá-lo a trabalhar com o Microsoft Teams em apenas 30 dias.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: aaa02c0db57f253d080cc616ff91ae7fa2a287b5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392893"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794169"
 ---
 # <a name="teams-in-30"></a>Teams em 30
 <div id="main" class="v2">
     <div class="container">
-        <p>A Microsoft está animada em convidá-lo <strong>para Teams 30</strong>, uma série de workshops interativos e ao vivo projetados para ajudar a fazer com que as organizações de médio porte (500 a 5.000 funcionários) se Microsoft Teams em apenas 30 dias. Junte-se a nós para aprender as diretrizes e práticas recomendadas testadas no tempo e obter suas Teams respostas. Os participantes do workshop também receberão um convite exclusivo para horários de escritório de microfone aberto com um Teams especialista.
-           <p>Pronto para entrar? Incentivamos todos os membros da sua equipe de projeto a começar com o <i>Introdução com Teams em 30</i> sessões. Clique em um título de sessão abaixo para se inscrever.
+        <p>A Microsoft está animada em convidá-lo para o <strong>Teams no 30</strong>, uma série de workshops ao vivo e interativos projetados para ajudar a fazer com que as organizações de médio porte (500 a 5000 funcionários) possam trabalhar com o Microsoft Teams em apenas 30 dias. Junte-se a nós para aprender diretrizes e práticas recomendadas testadas pelo tempo e responder às suas perguntas do Teams. Os participantes do workshop também receberão um convite exclusivo para o horário comercial de microfone aberto com um especialista do Teams.
+           <p>Pronto para entrar? Incentivamos todos os membros da sua equipe de projeto a começar com a Introdução <i>ao Teams na sessão 30</i> . Clique em um título de sessão abaixo para se inscrever.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -44,9 +44,9 @@ ms.locfileid: "63392893"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Comece a Teams em 30 (Comece aqui!)</h3>
-                        <P>Inicie sua Teams em 30 jornadas com o pé direito. Entenda o programa, quem deve participar e quais recursos você pode usar para garantir seu sucesso.</P>
-                        <p><i>Público-alvo: patrocinadores corporativos, administradores de IT, adoção e mudança de proprietários</i></p>
+                        <h3>Introdução ao Teams no 30 (comece aqui!)</h3>
+                        <P>Inicie o Teams em 30 percursos com o pé direito. Entenda o programa, quem deve participar e quais recursos você pode usar para garantir seu sucesso.</P>
+                        <p><i>Público-alvo: patrocinadores de negócios, administradores de TI, adoção e mudança de proprietários</i></p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ ms.locfileid: "63392893"
                     </div>
                     <div class="cardText">
                         <h3>Preparar seus usuários finais</h3>
-                    <p>Descubra estratégias e recursos para preparar seus usuários, criar um contingente de campeões e garantir a aceitação do usuário como um componente principal da sua Teams de lançamento.</p><p><i>Público-alvo: adoção e mudança de proprietários</i></p>
+                    <p>Descubra estratégias e recursos para preparar seus usuários, criar um contingente de campeões e garantir a aceitação do usuário como um componente principal da distribuição do Teams.</p><p><i>Público-alvo: Adoção e alteração de proprietários</i></p>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@ ms.locfileid: "63392893"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Preparar seu ambiente - Parte I</h3>
-                    <p>De definir a base para sua Teams de lançamento. Identifique Teams pré-requisitos, práticas recomendadas de rede e segurança, políticas de coexistência, análises e relatórios e recomendações de distribuição do cliente.</p><p><i>Audiência: Administradores de TI</i></p>
+                    <h3>Preparar seu ambiente – Parte I</h3>
+                    <p>Defina a base para a distribuição do Teams. Identifique os pré-requisitos do Teams, as práticas recomendadas de rede e segurança, as políticas de coexistência, a análise e os relatórios e as recomendações de distribuição do cliente.</p><p><i>Audiência: Administradores de TI</i></p>
 </div>
                 </div>
             </div>
@@ -101,8 +101,8 @@ ms.locfileid: "63392893"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Preparar seu ambiente - Parte II</h3>
-                    <p>Agora que você tem a base no local, entenda as práticas recomendadas para implementar conformidade, retenção, governança e audioconferência para Teams.</p><p><i>Audiência: Administradores de TI</i></p>
+                        <h3>Preparar seu ambiente – Parte II</h3>
+                    <p>Agora que você tem a base em vigor, entenda as práticas recomendadas para implementar conformidade, retenção, governança e audioconferência para o Teams.</p><p><i>Audiência: Administradores de TI</i></p>
                     </div>
                 </div>
             </div>
@@ -121,8 +121,8 @@ ms.locfileid: "63392893"
                     </div>
                     <div class="cardText">
                     <h3>Otimizar e expandir</h3>
-                    <p>Projete um plano que inclua a otimização do desempenho do serviço, a expansão Teams recursos e a integração de novos usuários.</p>
-                    <p><i>Público-alvo: patrocinadores corporativos, administradores de IT, adoção e mudança de proprietários</i></p>
+                    <p>Crie um plano que inclua a otimização do desempenho do serviço, a expansão dos recursos do Teams e a integração de novos usuários.</p>
+                    <p><i>Público-alvo: patrocinadores de negócios, administradores de TI, adoção e mudança de proprietários</i></p>
                     </div>
                 </div>
             </div>
@@ -140,9 +140,9 @@ ms.locfileid: "63392893"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Teams de giz</h3>
-                    <p>Facilitados por especialistas em assunto, esses workshops interativos online oferecem uma oportunidade exclusiva de aprender práticas recomendadas e orientações práticas sobre alguns dos cenários mais populares e atraentes no Teams. As Conversas de Giz presumem que você concluiu uma Teams básica.</p>
-                    <p><strong>Pré-requisito</strong>: Teams em 30 presenças de workshop ou já habilitados para Teams em toda a sua organização.</p>
+                    <h3>Teams Giz Talks</h3>
+                    <p>Facilitados por especialistas no assunto, esses workshops interativos online oferecem uma oportunidade única de aprender melhores práticas e diretrizes práticas sobre alguns dos cenários mais populares e atraentes no Teams. O Giz Talks pressupõe que você concluiu uma distribuição básica do Teams.</p>
+                    <p><strong>Pré-requisito: Equipes</strong> em 30 workshops ou já habilitados para o Teams em toda a organização.</p>
                     <p><i>Audiência: Administradores de TI</i></p>
                     </div>
                 </div>

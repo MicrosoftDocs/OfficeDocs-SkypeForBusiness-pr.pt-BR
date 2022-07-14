@@ -21,45 +21,45 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a715e913966040c5406901403b90d5a6a421e2e4
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045870"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794679"
 ---
 # <a name="plan-for-sip-gateway"></a>Planejar o Gateway SIP
 
-O Gateway SIP permite que sua organização use qualquer dispositivo SIP compatível com Microsoft Teams para preservar seus investimentos em dispositivos SIP. Agora você pode entrar no Teams com suas credenciais corporativas e fazer e receber chamadas com um dispositivo SIP compatível. Os dispositivos compatíveis podem ser Skype for Business ip com firmware SIP padrão, telefones IP cisco com firmware SIP multiplataforma ou dispositivos SIP de fornecedores como Poly, Yealink e AudioCodes. Para saber como configurar seus dispositivos SIP para o Gateway SIP, consulte [Configurar o Gateway SIP](sip-gateway-configure.md).
+O Gateway SIP permite que sua organização use qualquer dispositivo SIP compatível com o Microsoft Teams para preservar seus investimentos em dispositivos SIP. Agora você pode entrar no Teams com suas credenciais corporativas e fazer e receber chamadas com um dispositivo SIP compatível. Os dispositivos compatíveis podem ser Skype for Business ip com firmware SIP padrão, telefones IP cisco com firmware SIP multiplataforma ou dispositivos SIP de fornecedores como Poly, Yealink e AudioCodes. Para saber como configurar seus dispositivos SIP para o Gateway SIP, consulte [Configurar o Gateway SIP](sip-gateway-configure.md).
 
 ## <a name="benefits-of-sip-gateway"></a>Benefícios do Gateway SIP
 
-O Gateway SIP conecta dispositivos SIP compatíveis Teams para ajudar os usuários a migrar diretamente para Teams telefonia. Usando o Gateway SIP, os usuários podem fazer o seguinte:
+O Gateway SIP conecta dispositivos SIP compatíveis ao Teams para ajudar os usuários a migrar diretamente para a telefonia do Teams. Usando o Gateway SIP, os usuários podem fazer o seguinte:
 
-- **Fazer chamadas:** Os usuários do dispositivo SIP podem fazer chamadas para a PSTN (Rede Telefônica Pública Comunada), para outros dispositivos SIP e para Teams e Skype for Business usuários. Os usuários do dispositivo SIP só podem chamar usuários que têm números de telefone.
-- **Receber chamadas:** Os usuários do dispositivo SIP podem receber uma chamada do PSTN, de usuários do Teams ou Skype for Business que têm dispositivos SIP e de aplicativos cliente do Teams e Skype for Business. O dispositivo SIP atua como um ponto Teams ponto de extremidade. As chamadas de entrada também serão bifurcadas para o dispositivo SIP do usuário.
+- **Fazer chamadas:** Os usuários do dispositivo SIP podem fazer chamadas para a PSTN (Rede Telefônica Pública Comunada), para outros dispositivos SIP e para o Teams e Skype for Business usuários. Os usuários do dispositivo SIP só podem chamar usuários que têm números de telefone.
+- **Receber chamadas:** Os usuários do dispositivo SIP podem receber uma chamada do PSTN, do Teams ou Skype for Business usuários que têm dispositivos SIP e do Teams e Skype for Business aplicativos cliente. O dispositivo SIP atua como um ponto de extremidade do Teams. As chamadas de entrada também serão bifurcadas para o dispositivo SIP do usuário.
 - **Várias chamadas simultâneas:** Um usuário do dispositivo SIP em uma chamada pode colocar a chamada em espera para fazer ou receber outras chamadas. Um usuário do dispositivo SIP também pode conferênciar duas chamadas.
-- **Não incomodar:** Um usuário do dispositivo SIP pode definir não incomodar no dispositivo para que o dispositivo não toque para chamadas de entrada. Isso não tem impacto sobre o status do usuário em todos os outros Teams de extremidade.
+- **Não incomodar:** Um usuário do dispositivo SIP pode definir não incomodar no dispositivo para que o dispositivo não toque para chamadas de entrada. Isso não afeta o status do usuário em todos os outros pontos de extremidade do Teams.
 - **Espera/Retomada e Mudo/Desativar Mudo:** Um usuário do dispositivo SIP pode manter e retomar ou ativar mudo e desativar o mudo de uma chamada usando os recursos para essas ações no dispositivo.
 - **Voicemail:** Os usuários do dispositivo SIP podem escutar mensagens de voz armazenadas eletronicamente que os chamadores deixam para eles.
 - **Indicador de espera de mensagem:** Os usuários do dispositivo SIP podem receber notificações que os alertam quando têm novas mensagens de caixa postal.
-- **Entrar e sair:** Os usuários de dispositivos SIP podem entrar e sair Teams no dispositivo.
+- **Entrar e sair:** Os usuários de dispositivos SIP podem entrar e sair do Teams no dispositivo.
 - **Multi freqüência de tom duplo:** Os usuários do dispositivo SIP podem pressionar teclas de número para fornecer entrada durante chamadas interativas de resposta de voz.
-- **Teams reuniões: um** usuário do dispositivo SIP pode ingressar em uma reunião Teams discando o número de acesso à reunião. Os participantes da reunião podem adicionar um usuário de dispositivo SIP à reunião discando para o número de telefone do usuário ou simplesmente adicionando um participante clicando em 'Solicitar para Ingressar' também alertará o dispositivo SIP do usuário. Os usuários convidados de outra organização podem ser adicionados a uma reunião Teams por um participante que disca para o número de um usuário convidado para incluir esse convidado.
+- **Reuniões do Teams:** Um usuário do dispositivo SIP pode ingressar em uma reunião do Teams discando o número de acesso à reunião. Os participantes da reunião podem adicionar um usuário de dispositivo SIP à reunião discando para o número de telefone do usuário ou simplesmente adicionando um participante clicando em 'Solicitar para Ingressar' também alertará o dispositivo SIP do usuário. Os usuários convidados de outra organização podem ser adicionados a uma reunião do Teams por um participante que disca para o número de um usuário convidado para incluir esse convidado.
 - **Transferências de chamada:** Os usuários do dispositivo SIP podem transferir chamadas. O Gateway SIP dá suporte a transferências cegas e consultivas.
 - **Encaminhamento de chamadas local:** Um usuário do dispositivo SIP pode definir regras de encaminhamento (sempre, no tempo limite e ocupado) para o dispositivo. Se o dispositivo estiver conectado ao Gateway SIP, a chamada será redirecionada para o endereço de destino com base na regra definida pelo usuário do dispositivo. Para fazer com que o encaminhamento de chamadas local funcione, o administrador deve definir o `AllowCallRedirect` atributo como `Set-CsTeamsCallingPolicy` `Enabled`.
 
 ## <a name="requirements-to-use-sip-gateway"></a>Requisitos para usar o Gateway SIP
 
-Teams usuários devem ter um número de telefone com chamada PSTN habilitada para usar o Gateway SIP.
+Os usuários do Teams devem ter um número de telefone com chamada PSTN habilitada para usar o Gateway SIP.
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, software e licenças
 
 Se você tiver um dispositivo SIP ou 3PIP, deverá ter:
 
-- Uma licença para Sistema de Telefonia (via E5 ou uma licença autônoma)
-- Habilitação de PSTN (ou seja, um número de telefone) por meio de um plano de chamada Microsoft Teams, roteamento direto ou Conexão do operador
-- Uma licença do Common Area Telefone para qualquer dispositivo de área comum
+- Uma licença para o Sistema de Telefonia (via E5 ou uma licença autônoma)
+- Habilitação de PSTN (ou seja, um número de telefone) por meio de um Plano de Chamada do Microsoft Teams, Roteamento Direto ou Conexão de Operador
+- Uma licença do Common Area Phone para qualquer dispositivo de área comum
 
 ## <a name="compatible-devices"></a>Dispositivos compatíveis
 
@@ -137,6 +137,27 @@ Se você tiver um dispositivo SIP ou 3PIP, deverá ter:
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Suporte a spectralink](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7212        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7502        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7522        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7532        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7622        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7642        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7722        |PCS22B     |PCS22B     |Aparelho |   |
+|          |7742        |PCS22B     |PCS22B     |Aparelho |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |Virtual IP-DECT Server One |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+|          |Estação base IP-DECT |PCS22Ab |PCS22Ab |Servidor IP-DECT |   |
+
+> [!NOTE]
+> Os handsets spectralink recebem atualizações de firmware pelo ar dos servidores Spectralink IP-DECT.
+
+> [!NOTE]
+> Para consultas de suporte, os clientes que usam sistemas IP-DECT com o Gateway SIP do Teams devem entrar em contato com o fabricante de DECT ou seus parceiros de canal de implementação.
 
 > [!NOTE]
 > Para alguns dispositivos, a versão mínima do firmware é maior que a versão de firmware aprovada. Isso ocorre porque a versão 3.X é a Skype for Business versão. Atualizamos a versão SIP que é a 2.X.
