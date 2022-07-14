@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade em Uganda
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços Microsoft 365 Office 365 de Skype for Business e Microsoft Teams disponíveis para o Uganda.
-ms.openlocfilehash: b7c9dc0f5d785fc5e301682926784b88d0daeb09
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis paraUgandá.
+ms.openlocfilehash: 4e08fc79479db944188acf9e7516a5b999aa65e6
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389705"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789966"
 ---
 # <a name="availability-in-uganda"></a>Disponibilidade em Uganda
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 Office 365 de Skype for Business e Microsoft Teams disponíveis para o Uganda.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis paraUgandá.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -62,17 +62,17 @@ Aqui estão os serviços Microsoft 365 Office 365 de Skype for Business e Micros
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se Planos de Chamada não estão disponíveis para compra, consulte [Opções de conectividade PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
+Se os Planos de Chamadas não estão disponíveis para compra, consulte as opções de conectividade [PSTN](../pstn-connectivity.md) para todas as opções disponíveis.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de tarifação gratuita e de tarifação para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Telefone números não estão vinculados a uma cidade ou local específico. <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Não geográfico ([a pedido](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
-|Os números gratuitos estão disponíveis?  <br/> |Não  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Os números de telefone não estão vinculados a uma cidade ou local específico. <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Não geográfico ([por solicitação](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|Os números de chamada gratuita estão disponíveis?  <br/> |Não  <br/> |
    
- Se você quiser obter números de telefone gratuitos e de chamada gratuita para Audioconferências, Atendimentos automáticos e filas de chamadas, consulte Obter números de telefone de serviço para Skype for Business e [Microsoft Teams](../getting-service-phone-numbers.md).
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para audioconferência, atendedores automáticos e filas de chamadas, consulte Obter números de telefone de serviço para [o Skype for Business e o Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

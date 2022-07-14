@@ -1,7 +1,7 @@
 ---
 title: Perguntas frequentes sobre o CQD (Painel de Qualidade de Chamadas)
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Leia perguntas frequentes e respostas sobre o Microsoft Teams CQD (Painel de Qualidade de Chamadas).
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: Leia perguntas frequentes e respostas sobre o CQD (Painel de Qualidade de Chamadas) do Microsoft Teams.
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823200"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789386"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Perguntas frequentes sobre o CQD (Painel de Qualidade de Chamadas)
 
@@ -40,13 +40,13 @@ ms.locfileid: "65823200"
 
 [Estou tentando usar o CQD para relatórios de tipo de uso e descobrir que alguns dos dados estão incompletos. Por que isso?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[Por que estou Skype for Business informações no CQD quando filtrei Teams dados?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Por que estou Skype for Business informações no CQD quando filtrei apenas para o Teams?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [Por que meus relatórios personalizados retornam apenas um máximo de 10.000 linhas quando sei que deve haver mais entradas?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [Por que as Wi-Fi VPN são mostradas como com fio em vez de Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[Habilitamos a gravação baseada em políticas no Teams e agora as chamadas ponto a ponto estão sendo marcadas como Conferências. O que aconteceu?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[Habilitamos a Gravação baseada em políticas no Teams e agora as chamadas ponto a ponto estão sendo marcadas como Conferências. O que aconteceu?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Por que o CQD marca uma chamada como "Boa" se um ou mais participantes da reunião tiveram uma experiência ruim?
 
@@ -83,20 +83,20 @@ Para calcular a contagem de chamadas e as medidas de contagem de usuários, uma 
 
 Essas funções de administrador podem acessar o CQD, mas não podem exibir EUII (informações de identificação do usuário final):
 
-- Microsoft 365 leitor de relatórios
-- Teams de Suporte de Comunicações
+- Leitor de Relatórios do Microsoft 365
+- Especialista em Suporte de Comunicações do Teams
 
 Para saber mais sobre as funções que podem acessar o CQD , incluindo EUII, leia Atribuir funções [para acessar o CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Estou tentando usar o CQD para relatórios de tipo de uso e descobrir que alguns dos dados estão incompletos. Por que isso?
 
-Ferramentas de gerenciamento de qualidade de chamada, como CQD, Análise de Chamadas, CallRecord API do Graph e Análise em Tempo Real, são baseadas na telemetria de diagnóstico. As informações que mostramos em Teams de gerenciamento de qualidade de chamada são tão completas quanto os dados de telemetria que recebemos dos clientes que participam de uma chamada. Há vários motivos pelos quais podemos não receber telemetria completa, como interrupções de rede ou [configurações](/microsoft-365/enterprise/urls-and-ip-address-ranges) incorretas de firewall ou proxy. Estamos continuando a trabalhar para melhorar a confiabilidade e a resiliência com as quais os clientes Teams fornecem telemetria para o serviço.
+Ferramentas de gerenciamento de qualidade de chamada, como CQD, Análise de Chamadas, CallRecord API do Graph e Análise em Tempo Real, são baseadas na telemetria de diagnóstico. As informações que mostramos nas ferramentas de gerenciamento de qualidade de chamada do Teams são tão completas quanto os dados de telemetria que recebemos dos clientes que participam de uma chamada. Há vários motivos pelos quais podemos não receber telemetria completa, como interrupções de rede ou [configurações](/microsoft-365/enterprise/urls-and-ip-address-ranges) incorretas de firewall ou proxy. Estamos continuando a trabalhar para melhorar a confiabilidade e a resiliência com as quais os clientes do Teams fornecem telemetria para o serviço.
 
-Com isso em mente, não damos suporte ao uso de ferramentas de gerenciamento de qualidade de chamada para relatórios de uso. Eles não foram projetados para acomodar nem se destinam a esses tipos de cenários de relatório, e muitas estatísticas de uso não estão e não estarão disponíveis nessas ferramentas. Teams Administração Center oferece uma série de Relatórios de [Uso e um](teams-analytics-and-reports/teams-reporting-reference.md) Relatório de Participação [](teams-analytics-and-reports/meeting-attendance-report.md) na Reunião está disponível diretamente do Teams cliente.
+Com isso em mente, não damos suporte ao uso de ferramentas de gerenciamento de qualidade de chamada para relatórios de uso. Eles não foram projetados para acomodar nem se destinam a esses tipos de cenários de relatório, e muitas estatísticas de uso não estão e não estarão disponíveis nessas ferramentas. O Teams Administração Center oferece uma [série de Relatórios](teams-analytics-and-reports/teams-reporting-reference.md) de Uso e um Relatório [](teams-analytics-and-reports/meeting-attendance-report.md) de Participação na Reunião está disponível diretamente do cliente do Teams.
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Por que estou Skype for Business informações no CQD quando filtrei Teams dados?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Por que estou Skype for Business informações no CQD quando filtrei apenas para o Teams?
 
-Ao filtrar Teams somente em relatórios CQD (isTeams = 1), você está filtrando todas as chamadas em que o primeiro ponto de extremidade é  Teams. Se o *segundo ponto de extremidade* Skype for Business, essas informações aparecerão no relatório CQD. Dependendo dos cenários dos clientes, o CQD pode incluir Skype for Business Server 2019 quando o Conector de Dados [de](/skypeforbusiness/hybrid/plan-call-data-connector) Chamada estiver configurado. Ele também pode incluir chamadas Skype Bot (AA, CVI, VDI), Eventos ao Vivo e chamadas PSTN.
+Ao filtrar para o Teams somente em relatórios CQD (isTeams = 1), você está filtrando todas as chamadas em que o primeiro ponto de *extremidade é o* Teams. Se o *segundo ponto de extremidade* Skype for Business, essas informações aparecerão no relatório CQD. Dependendo dos cenários dos clientes, o CQD pode incluir Skype for Business Server 2019 quando o Conector de Dados [de](/skypeforbusiness/hybrid/plan-call-data-connector) Chamada estiver configurado. Ele também pode incluir chamadas de Bot do Skype (AA, CVI, VDI), Eventos ao Vivo e chamadas PSTN.
 
 É possível remover informações Skype for Business de suas consultas filtrando dimensões como Primeira Categoria do Agente do Usuário e Segunda Categoria do  *Agente do Usuário*. Você também pode usar *o Par de Categorias* do Agente do Usuário que combina as dimensões Primeira e Segunda em um único filtro.
 
@@ -108,19 +108,19 @@ O CQD foi projetado para consultas de dados resumidas e não foi projetado para 
 
 É esse o comportamento esperado. O fornecedor de VPN criou um adaptador Ethernet virtual que é tratado como uma conexão com fio. Como ele não está rotulado corretamente, o sistema operacional não sabe que é uma conexão Wi-Fi relata como com fio.
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Habilitamos a gravação baseada em políticas no Teams e agora as chamadas ponto a ponto estão sendo marcadas como Conferências. O que aconteceu?
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Habilitamos a Gravação baseada em políticas no Teams e agora as chamadas ponto a ponto estão sendo marcadas como Conferências. O que aconteceu?
 
-Esse é o comportamento esperado quando a gravação baseada em políticas está habilitada Microsoft Teams. A Gravação baseada em políticas usa um bot Teams Gravador implantado no Microsoft Azure para capturar o conteúdo da reunião para fins de conformidade. No gerenciamento de qualidade de chamadas, "ponto a ponto" é uma descrição do fluxo de tráfego de mídia, não da interação entre os usuários. Como um Bot do Gravador é uma parte da chamada, a chamada não é mais ponto a ponto, mas uma chamada de várias partes. Chamadas de várias partes são classificadas como Conferências por Microsoft Teams e, portanto, elas serão indicadas como tal quando você exibir essas chamadas no CQD e em outras ferramentas de qualidade de chamada.
+Esse é o comportamento esperado quando a gravação baseada em políticas está habilitada no Microsoft Teams. A Gravação baseada em políticas usa um Bot do Gravador do Teams implantado no Microsoft Azure para capturar o conteúdo da reunião para fins de conformidade. No gerenciamento de qualidade de chamadas, "ponto a ponto" é uma descrição do fluxo de tráfego de mídia, não da interação entre os usuários. Como um Bot do Gravador é uma parte da chamada, a chamada não é mais ponto a ponto, mas uma chamada de várias partes. Chamadas de várias partes são classificadas como Conferências pelo Microsoft Teams e, portanto, elas serão indicadas como tal quando você exibir essas chamadas no CQD e em outras ferramentas de qualidade de chamada.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Melhorar e monitorar a qualidade da chamada para Teams](monitor-call-quality-qos.md)
+[Melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md)
 
 [O que é CQD?](CQD-what-is-call-quality-dashboard.md)
 
 [Configurar o Painel de Qualidade de Chamada (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload locatário e criação de dados](CQD-upload-tenant-building-data.md)
+[Carregar dados de locatário e de criação](CQD-upload-tenant-building-data.md)
 
 [Dados e relatórios do CQD](CQD-data-and-reports.md)
 
@@ -130,6 +130,6 @@ Esse é o comportamento esperado quando a gravação baseada em políticas está
 
 [Classificação de fluxo no CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Usar Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)
+[Usar o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)
 
 [Solução de problemas do Teams](/MicrosoftTeams/troubleshoot/teams)

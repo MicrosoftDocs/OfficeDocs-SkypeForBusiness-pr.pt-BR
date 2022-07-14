@@ -1,7 +1,7 @@
 ---
-title: Configurar análise de chamada para Microsoft Teams
-ms.author: serdars
-author: SerdarSoysal
+title: Configurar a análise de chamadas para o Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -19,48 +19,48 @@ f1.keywords:
 - CSH
 ms.custom:
 - Reporting
-description: Configurar a análise de chamada por usuário para identificar e solucionar Microsoft Teams problemas de qualidade de chamada.
-ms.openlocfilehash: be93a24f7d18e5b347c6375622ca47c3bdaeae26
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+description: Configure a análise de chamadas por usuário para identificar e solucionar problemas de qualidade de chamadas do Microsoft Teams.
+ms.openlocfilehash: bcfe39ccdd9a1a751b49cdc8d0f433e3707635e3
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556472"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789936"
 ---
-# <a name="set-up-call-analytics-for-microsoft-teams"></a>Configurar análise de chamada para Microsoft Teams
+# <a name="set-up-call-analytics-for-microsoft-teams"></a>Configurar a análise de chamadas para o Microsoft Teams
 
-Como administrador Microsoft Teams, você pode usar a análise de chamada por usuário para solucionar problemas de Teams de conexão e qualidade de chamada para **usuários individuais**. Para aproveitar ao máximo a análise de chamada, de configurar o seguinte:
+Como administrador do Microsoft Teams, você pode usar a análise de chamadas por usuário para solucionar problemas de conexão e qualidade de chamadas do Teams para **usuários individuais**. Para aproveitar ao máximo a análise de chamadas, configure o seguinte:
   
-- Atribua funções de suporte especializadas a pessoas, como agentes auxiliares, para permitir que eles exibirem a análise de chamada para usuários. Essas funções de suporte não podem acessar o restante do Teams de administração. 
+- Atribua funções de suporte especializadas a pessoas, como agentes de assistência técnica, para permitir que elas exibam a análise de chamadas para os usuários. Essas funções de suporte não podem acessar o restante do centro de administração do Teams. 
     
-- Adicione informações de construção, site e locatário à análise de chamada por usuário carregando um arquivo de dados .tsv ou .csv usuário.
+- Adicione informações de criação, site e locatário à análise de chamadas por usuário carregando um arquivo de dados .tsv ou .csv usuário.
     
-Quando estiver pronto para começar a usar a análise de chamada por usuário, leia [Use per-user call analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+Quando estiver pronto para começar a usar a análise de chamadas por usuário, leia Usar análise de chamadas por usuário para solucionar problemas [de baixa qualidade de chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
-## <a name="give-permission-to-support-and-helpdesk-staff"></a>Dar permissão para suporte e equipe de suporte técnico
+## <a name="give-permission-to-support-and-helpdesk-staff"></a>Conceder permissão para a equipe de suporte e assistência técnica
 
-Como administrador Teams, você tem acesso total às informações de análise de chamada para todos os usuários. Criamos algumas funções de Azure Active Directory que você pode atribuir para dar suporte a funcionários e agentes de assistência técnica para que eles também possam acessar a análise de chamada por usuário (sem ter acesso ao restante do centro de administração do Teams). Atribua a **Teams de** suporte de comunicações a usuários que devem ter uma visão limitada da análise de chamada por usuário (suporte à Camada 1). Atribua a **função Teams de** engenheiro de comunicações a usuários que precisam de acesso total à análise de chamada por usuário (suporte à Camada 2). Nenhuma função tem acesso ao restante do Teams de administração.
+Como administrador do Teams, você tem acesso completo às informações de análise de chamada para todos os usuários. Criamos algumas funções especializadas do Azure Active Directory que você pode atribuir à equipe de suporte e agentes de assistência técnica para que eles também possam acessar a análise de chamadas por usuário (sem ter acesso ao restante do centro de administração do Teams). Atribua a **função de especialista** de suporte de comunicações do Teams aos usuários que devem ter uma exibição limitada da análise de chamadas por usuário (suporte à Camada 1). Atribua a **função de** engenheiro de suporte de comunicações do Teams aos usuários que precisam de acesso completo à análise de chamadas por usuário (suporte à Camada 2). Nenhuma das funções tem acesso ao restante do centro de administração do Teams.
 
-Para saber o que cada uma dessas funções faz, leia [O que cada função Teams Suporte faz](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
+Para saber o que cada uma dessas funções faz, leia [O que cada função de Suporte do Teams faz](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
 
-Para obter mais informações sobre Teams funções de administrador, consulte [Use Teams admin roles to manage Teams](using-admin-roles.md). Para saber como atribuir funções de administrador Azure Active Directory, consulte [Exibir e atribuir funções em Azure Active Directory](/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+Para obter mais informações sobre as funções de administrador do Teams, [consulte Usar funções de administrador do Teams para gerenciar o Teams](using-admin-roles.md). Para saber como atribuir funções de administrador no Azure Active Directory, consulte [Exibir e atribuir funções no Azure Active Directory](/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
-Para saber como atribuir funções administrativas Azure Active Directory, consulte [Exibir e atribuir funções Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+Para saber como atribuir funções administrativas no Azure Active Directory, consulte [Exibir e atribuir funções no Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
-## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Upload um arquivo .tsv ou .csv para adicionar informações de construção, site e locatário
+## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Carregar um arquivo .tsv ou .csv para adicionar informações de edifício, site e locatário
 
-Você pode adicionar informações de construção, site e locatário à análise de chamada por usuário carregando um arquivo .csv ou .tsv. Com todas essas informações, a análise de chamada pode mapear endereços IP para locais físicos. Os administradores e agentes auxiliares podem usar essas informações para ajudar a detectar tendências em problemas de chamada. Por exemplo, por que os usuários no mesmo edifício têm problemas semelhantes de qualidade de chamada? 
+Você pode adicionar informações de construção, site e locatário à análise de chamadas por usuário carregando um arquivo .csv ou .tsv. Com todas essas informações, a análise de chamadas pode mapear endereços IP para locais físicos. Os administradores e agentes de assistência técnica podem usar essas informações para ajudar a identificar tendências em problemas de chamada. Por exemplo, por que os usuários no mesmo prédio têm problemas semelhantes de qualidade de chamada? 
 
-Se você for um administrador Teams ou Skype for Business, poderá usar um locatário existente e criar um arquivo de dados a partir do Teams ou do CQD (Painel de Qualidade de Chamada Skype for Business de chamada). Primeiro, você baixa o arquivo do CQD e o carrega para análise de chamada. 
+Se você for um administrador do Teams ou Skype for Business, poderá usar um locatário existente e criar um arquivo de dados do Teams ou Skype for Business CQD (Call Quality Dashboard). Primeiro, baixe o arquivo do CQD e, em seguida, carregue-o para chamar a análise. 
 
-- Para baixar um arquivo de dados existente, vá **Microsoft Teams centro** >  de **administraçãoAnalytics & reportsCall** >  **Quality Dashboard** >  **Upload now**. Na lista **Meus carregamentos** , clique **em Baixar** ao lado do arquivo que você deseja. 
+- Para baixar um arquivo de dados existente, vá para o Centro de administração do **Microsoft Teams** > **analytics & relatórios** > **do Upload do Painel** de Qualidade de  > **Chamada agora**. Na lista **Meus uploads** , clique **em Baixar** ao lado do arquivo desejado. 
 
 - Para carregar o novo arquivo, consulte [Adicionar e atualizar rótulos de relatório](/microsoftteams/learn-more-about-site-upload).
   
-Se você estiver criando o arquivo .tsv ou .csv do zero, [consulte Upload locatário e criando dados](CQD-upload-tenant-building-data.md).
+Se você estiver criando o arquivo .tsv ou .csv do zero, consulte Carregar dados de locatário [e de criação](CQD-upload-tenant-building-data.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Usar a análise de chamada por usuário para solucionar problemas de qualidade de chamada ruim](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar a análise de chamadas por usuário para solucionar problemas de baixa qualidade de chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Solução de problemas do Teams](/MicrosoftTeams/troubleshoot/teams)

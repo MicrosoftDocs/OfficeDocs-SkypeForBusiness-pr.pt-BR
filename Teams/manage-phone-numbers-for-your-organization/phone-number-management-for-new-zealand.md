@@ -1,7 +1,7 @@
 ---
-title: Telefone gerenciamento de números para a Nova Zelândia
-author: SerdarSoysal
-ms.author: serdars
+title: Gerenciamento de números de telefone para a Nova Zelândia
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,25 +19,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Nova Zelândia para Microsoft Teams.
-ms.openlocfilehash: d1508eebf4e81c61738bfa60b0b28d97720e9efb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Nova Zelândia para o Microsoft Teams.
+ms.openlocfilehash: e359fa8fe26324cf2ba607b638e3e379549b471c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124196"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789166"
 ---
-# <a name="phone-number-management-for-new-zealand"></a>Telefone gerenciamento de números para a Nova Zelândia
+# <a name="phone-number-management-for-new-zealand"></a>Gerenciamento de números de telefone para a Nova Zelândia
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Nova Zelândia para Microsoft Teams.
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Nova Zelândia para o Microsoft Teams.
   
 Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md).
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obtenha novos números de telefone de usuário ou serviço que não estão listados no centro Microsoft Teams administrador.|Na Nova Zelândia, você pode obter números de telefone para sua organização usando o Microsoft Teams de administração. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e entre em contato com o [Service Desk do TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>[Nova solicitação de número de telefone para a Nova Zelândia (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf). <br/><br/>[Nova solicitação de número de telefone para a Nova Zelândia (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, conclua-o por completo e entre em contato com o [Service Desk do TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>Novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
+|Obtenha novos números de telefone de usuário ou serviço que não estão listados no Centro de administração do Microsoft Teams.|Na Nova Zelândia, você pode obter números de telefone para sua organização usando o Centro de administração do Microsoft Teams. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e entre em contato com o [Service Desk do TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>[Nova solicitação de número de telefone para a Nova Zelândia (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf). <br/><br/>[Nova solicitação de número de telefone para a Nova Zelândia (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, conclua-o por completo e entre em contato com o [Service Desk do TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>Novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
 |Obter números de telefone transferidos para nós.  <br/> | Baixe este formulário. <br/>[Carta de Autorização (LOA) para a Nova Zelândia (Números de Usuário e Serviço) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-NZ-GEO-EN.pdf) <br/> <br/>Preencha-o e [entre em contato com o Service Desk do TNS para obter instruções](contact-tns-service-desk.md). <br/><br>A transferência de números pode levar de uma a seis semanas para ser concluída nesse mercado, dependendo da complexidade do porto.<br/><br/>Os números geográficos podem ser portados como tipo de número de serviço (para filas de chamadas & Atendedor Automático somente porque esses números não podem ser usados para conferência no momento) ou tipo de número de Assinante. Observe que o serviço de portabilidade para número de chamada gratuita (0800) não tem suporte no momento. |
 |Publicar/cancelar a publicação de números de telefone no diretório de telefone nacional.  <br/> |[Entre em contato com o Service Desk do TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Entre em contato com o Service Desk do TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |

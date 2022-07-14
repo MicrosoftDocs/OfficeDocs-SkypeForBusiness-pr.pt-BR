@@ -1,7 +1,7 @@
 ---
 title: Comitê de direção para implantação de voz na nuvem
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0aee75ce49734dad37d4e75b77c224fa82301f0b
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 46fc7550e5ee1e29b603d4124ffc5d6fe9b45951
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674673"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789546"
 ---
 # <a name="steering-committee"></a>Comitê de direção
 
@@ -71,11 +71,11 @@ Cada comitê gestor precisa de uma liderança forte e de funções e responsabil
 | Patrocinador executivo | Defensor do projeto, certifique-se de que sua direção permaneça em alinhamento com a visão da organização. Servir como autoridade final para tomar decisões que o comitê não pode concordar. | | |
 | Tomadores de decisões de negócios | Defensor do projeto, certifique-se de que sua direção permaneça em alinhamento com a visão da organização | | |
 | Arquiteto | Certifique-se de que as decisões de tecnologia sejam viáveis e se alinhe aos resultados de negócios acordados. | | |
-| Core Project Team | Forneça detalhes sobre qualquer componente específico, seja técnico ou não técnico (como adoção e gerenciamento de alterações) | | |
+| Equipe principal do projeto | Forneça detalhes sobre qualquer componente específico, seja técnico ou não técnico (como adoção e gerenciamento de alterações) | | |
 | Campeão de Qualidade | Seja aceitável para reunir métricas de qualidade. | | |
-| Gerente de programa/Project | Assumir a responsabilidade pela apresentação e pela coleta de comentários a serem incorporados ao projeto. | | |
+| Programa/Gerente de Projeto | Assumir a responsabilidade pela apresentação e pela coleta de comentários a serem incorporados ao projeto. | | |
 | Equipe de Conta de Parceiro | Forneça comentários do ponto de vista do parceiro de uma perspectiva mais ampla, outras atividades do parceiro. | | |
-| Equipe de Project parceiro | Fornecer comentários do ponto de vista do parceiro sobre a entrega do projeto | | |
+| Equipe de projeto de parceiro | Fornecer comentários do ponto de vista do parceiro sobre a entrega do projeto | | |
 
 ## <a name="schedule-steering-committee-meetings"></a>Agendar reuniões do comitê de direção 
 
@@ -88,13 +88,13 @@ Ao agendar uma reunião do comitê, leve em consideração o projeto e a cadênc
 
 ### <a name="prepare-for-the-meeting"></a>Preparar-se para a reunião
 
-Para fazer o máximo do tempo de todos, você precisa se preparar para a reunião. A equipe principal pode começar a preparar o material para a reunião do comitê de direção. Você pode criar uma PowerPoint para ajudar a se preparar para a reunião.
+Para fazer o máximo do tempo de todos, você precisa se preparar para a reunião. A equipe principal pode começar a preparar o material para a reunião do comitê de direção. Você pode criar uma apresentação do PowerPoint para ajudar a se preparar para a reunião.
 
 Os seguintes ativos devem ser concluídos e incluídos no conjunto de apresentação da reunião:
 
 -   Acompanhamento dos itens de ação anteriores do comitê de direção
 
--   Relatório de PowerPoint, relatório de status de alto nível do projeto
+-   Comitê de direção do PowerPoint, relatório de status de alto nível do projeto
 
     -   Examine o projeto em uma revisão de tipo mensal/trimestral/anual.
 
@@ -108,7 +108,7 @@ Os seguintes ativos devem ser concluídos e incluídos no conjunto de apresenta�
 
     -   Relatório sobre as OKRs que foram identificadas como importantes para o comitê; inclua as métricas de uso, sentimento do usuário, qualidade e confiabilidade.
 
--   Relatório de status semanal PowerPoint comitê de direção
+-   Comitê De Direção do PowerPoint, relatório de status semanal do projeto
 
     -   Contém realce e luzes baixas, principais problemas, itens de ação e próximas etapas.
 
@@ -128,7 +128,7 @@ Os seguintes ativos devem ser concluídos e incluídos no conjunto de apresenta�
 
         -   Identifique as próximas etapas e quais assistências podem ser necessárias para os membros do comitê.
 
--   Visão geral da qualidade: use as diretrizes de [Preparar sua rede para Teams](prepare-network.md).
+-   Visão geral da qualidade: use as diretrizes de [Preparar sua rede para o Teams](prepare-network.md).
 
     -   Esteja preparado para explicar os resultados desses relatórios de qualidade detalhadamente e inclua recomendações para corrigir os problemas encontrados.
 

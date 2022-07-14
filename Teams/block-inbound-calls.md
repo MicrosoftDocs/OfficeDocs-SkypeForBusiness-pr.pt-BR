@@ -1,7 +1,7 @@
 ---
-title: Bloquear chamadas de entrada em Microsoft Teams
-ms.author: serdars
-author: SerdarSoysal
+title: Bloquear chamadas de entrada no Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Saiba como usar o PowerShell para gerenciar o bloqueio de chamadas de entrada.
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674383"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789596"
 ---
 # <a name="block-inbound-calls"></a>Bloquear chamadas de entrada
 
-Os Planos de Chamadas da Microsoft, o Roteamento Direto Conexão do operador todos dão suporte ao bloqueio de chamadas de entrada da PSTN (Rede Telefônica Pública Comunada). Esse recurso permite que um administrador defina uma lista de padrões de número no nível global do locatário para que a ID do chamador de cada chamada PSTN de entrada para o locatário possa ser verificada em relação à lista para obter uma correspondência. Se uma correspondência for feita, uma chamada de entrada será rejeitada.
+Os Planos de Chamadas da Microsoft, o Roteamento Direto e o Operador Conectam todos os suportes ao bloqueio de chamadas de entrada da PSTN (Rede Telefônica Pública Comunada). Esse recurso permite que um administrador defina uma lista de padrões de número no nível global do locatário para que a ID do chamador de cada chamada PSTN de entrada para o locatário possa ser verificada em relação à lista para obter uma correspondência. Se uma correspondência for feita, uma chamada de entrada será rejeitada.
 
-Esse recurso de bloqueio de chamada de entrada só funciona em chamadas de entrada originadas do PSTN e só funciona em um nível global do locatário. Usuários Teams individuais não podem manipular essa lista. O Teams cliente permite que usuários individuais bloqueiem chamadas PSTN. Para obter informações sobre como os usuários finais podem implementar o bloqueio de chamadas, consulte [Gerenciar configurações de chamada Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Esse recurso de bloqueio de chamada de entrada só funciona em chamadas de entrada originadas do PSTN e só funciona em um nível global do locatário. Usuários individuais do Teams não podem manipular essa lista. O cliente do Teams permite que usuários individuais bloqueiem chamadas PSTN. Para obter informações sobre como os usuários finais podem implementar o bloqueio de chamadas, consulte [Gerenciar configurações de chamada no Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 > [!NOTE]
 > Os chamadores bloqueados podem ter comportamentos ligeiramente diferentes quando foram bloqueados. O comportamento se baseia em como a operadora do chamador bloqueado manipula a notificação de que a chamada não tem permissão para ser concluída com êxito. Os exemplos podem incluir uma mensagem da operadora informando que a chamada não pode ser concluída como discada ou simplesmente descartando a chamada.
@@ -59,7 +59,7 @@ No exemplo a seguir, o administrador de locatários deseja bloquear todas as cha
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
 ```
 
-No próximo exemplo, o administrador de locatários deseja bloquear todas as chamadas provenientes do número 1 (412) 555-1234. Para ativar o padrão de número, o **parâmetro Enabled** é definido como True.
+No próximo exemplo, o administrador do locatário deseja bloquear todas as chamadas provenientes do número 1 (412) 555-1234. Para ativar o padrão de número, o **parâmetro Enabled** é definido como True.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
@@ -108,7 +108,7 @@ Você pode adicionar exceções a padrões de número bloqueados usando os cmdle
 
 #### <a name="add-a-number-exception"></a>Adicionar uma exceção de número
 
-No exemplo a seguir, o administrador de locatários deseja permitir que os números de telefone 1 (312) 555-8882 e 1 (312) 555-8883 façam chamadas para o locatário, mesmo que esses dois números de telefone estejam no intervalo bloqueado no exemplo acima. Para habilitar isso, um novo padrão de exceção de número é criado da seguinte maneira:
+No exemplo a seguir, o administrador do locatário deseja permitir que os números de telefone 1 (312) 555-8882 e 1 (312) 555-8883 façam chamadas para o locatário, mesmo que esses dois números de telefone estejam no intervalo bloqueado no exemplo acima. Para habilitar isso, um novo padrão de exceção de número é criado da seguinte maneira:
 
 ```PowerShell
 New-CsInboundExemptNumberPattern  -Identity "AllowContoso1" -Pattern "^\+?1312555888[2|3]$" -Description "Allow Contoso helpdesk" -Enabled $True

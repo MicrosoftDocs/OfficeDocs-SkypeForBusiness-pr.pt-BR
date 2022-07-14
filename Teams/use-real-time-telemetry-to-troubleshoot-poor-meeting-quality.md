@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use a telemetria em tempo real com detalhes sobre dispositivos, redes e conectividade para solucionar problemas do usuário com reuniões agendadas do Microsoft Teams.
-ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
-ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
+ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66716797"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789616"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Usar telemetria em tempo real para solucionar problemas de qualidade de reunião
 
@@ -155,7 +155,7 @@ Os sinais do usuário identificam quando um usuário está participando ativamen
 - Se participantes externos ou usuários anônimos ingressarem em uma reunião, seu nome de exibição será exibido **como** indisponível para manter a privacidade entre locatários.
 
 > [!NOTE]
-> Como parte de uma visualização pública de tempo limitado, os dados de telemetria em tempo real estão disponíveis atualmente por **7** dias após o término de uma reunião. Os limites acima serão aplicados depois que a visualização pública for concluída.
+> Como parte de uma visualização pública de tempo limitado, os dados de telemetria em tempo real estão disponíveis atualmente por **7** dias após o término de uma reunião. Após o término da versão prévia, somente locatários com licenciamento de complemento de Comunicações Avançadas terão telemetria disponível para o período estendido de 7 dias. Todos os outros locatários estarão sujeitos aos limites mencionados anteriormente.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
