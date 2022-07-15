@@ -1,5 +1,5 @@
 ---
-title: Teams módulo do PowerShell – Versões com suporte
+title: Módulo do PowerShell do Teams – Versões com suporte
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
@@ -9,26 +9,26 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre as versões com suporte Teams módulo do PowerShell, usadas para administração de Microsoft Teams.
+description: Saiba mais sobre as versões com suporte do Módulo do PowerShell do Teams, usadas para administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad20cc285a9e882c45d2d158601ebcc90236dbf5
-ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
+ms.openlocfilehash: 175d9785cd32d18db7eebd363d08840538baa0df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66103368"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819546"
 ---
-# <a name="teams-powershell-module---supported-versions"></a>Teams módulo do PowerShell – Versões com suporte
+# <a name="teams-powershell-module---supported-versions"></a>Módulo do PowerShell do Teams – Versões com suporte
 
-Microsoft Teams versões do Módulo do PowerShell (TPM) na série 4.x.x ou posterior são as únicas versões com suporte agora. Todas as versões anteriores estão totalmente desativadas desde 15 de junho de 2022 & deixarão de funcionar (postagem do Centro de mensagens para referência – MC350371). 
+As versões do Microsoft Teams PowerShell Module (TPM) na série 4.x.x ou posterior são as únicas versões com suporte agora. Todas as versões anteriores estão totalmente desativadas desde 15 de junho de 2022 & deixarão de funcionar (postagem do Centro de mensagens para referência – MC350371). 
 
-É recomendável atualizar para a versão mais recente Teams módulo do PowerShell.
+É recomendável atualizar para a versão mais recente do Módulo do PowerShell do Teams.
 
 
 ## <a name="important-notes"></a>Observações importantes
 
-- As notas de versão para todas as Teams do Módulo do PowerShell podem ser encontradas Teams de versão [do PowerShell](teams-powershell-release-notes.md).
+- As notas sobre a versão de todas as versões do Módulo do PowerShell do Teams podem ser encontradas nas notas [de versão do PowerShell do Teams](teams-powershell-release-notes.md).
 
 - Para atualizar qualquer módulo do PowerShell, você deve usar o mesmo método usado para instalar o módulo. Por exemplo, se você usou o Install-Module originalmente, deverá usar [Update-Module](/powershell/module/powershellget/update-module) para obter a versão mais recente.
 
@@ -36,18 +36,18 @@ Microsoft Teams versões do Módulo do PowerShell (TPM) na série 4.x.x ou poste
   Update-Module MicrosoftTeams
   ```
 
-- Se estiver atualizando do Teams PowerShell versão 1.1.6, atualize seus scripts para usar `Connect-MicrosoftTeams` em vez de `New-CsOnlineSession`.
+- Se estiver atualizando do Módulo do Teams PowerShell versão 1.1.6, atualize seus scripts para usar `Connect-MicrosoftTeams` em vez de `New-CsOnlineSession`.
 
 - Durante a atualização, é recomendável não usar o TPM 4.x.x/3.x.x junto com versões anteriores à 3.0.0. Por exemplo, não é recomendável usar as versões 4.x.x & 2.6.0 juntas para diferentes operações de administrador na mesma organização.
 
 - Alterações relacionadas
-  - Atualizações do Get-CsOnlineUser & Get-CsOnlineVoiceUser no TPM 3.x.x e posteriores – mais detalhes em [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (postagem do Centro de mensagens – MC340774).
+  - Atualizações para Get-CsOnlineUser & Get-CsOnlineVoiceUser no TPM 3.x.x e posterior – mais detalhes em [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (postagem do Centro de mensagens – MC340774).
 
-  - Alterações chegando Telefone atribuição de número – mais detalhes em [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Postagem do Centro de mensagens – MC316139).
+  - Alterações na atribuição de número de telefone – mais detalhes em [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (postagem do centro de mensagens – MC316139).
 
   - Alterações de parâmetro Get-CsTenant - mais detalhes em [Get-CsTenant](/powershell/module/skype/get-cstenant) (postagem do Centro de mensagens – MC365397).
   
-  - Se os scripts usam cmdlets New/Set of Policy ou Configuration com parâmetros de tipo PSListModifier, é recomendável usar a versão mais recente (4.2.0 ou posterior).
+  - Se os scripts usam cmdlets New/Set of Policy ou Configuration com parâmetros de tipo PSListModifier, é recomendável usar a versão mais recente (4.2.0 ou posterior). Postagem do centro de mensagens para referência – MC397428.
 
 - Ao usar o TPM 4.x.x ou posterior, é recomendável não usar nenhum dos cmdlets preteridos ou sem suporte mencionados [abaixo](#deprecated-cmdlets).
 
@@ -58,12 +58,12 @@ Microsoft Teams versões do Módulo do PowerShell (TPM) na série 4.x.x ou poste
   - [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
   - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
   - [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
-  - [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint)
+  - [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint), Switch-CsOnlineApplicationEndpoint
   - [Get-CsOnlineTelephoneNumberInventoryCities](/powershell/module/skype/get-csonlinetelephonenumberinventorycities), [Get-CsOnlineTelephoneNumberInventoryAreas](/powershell/module/skype/get-csonlinetelephonenumberinventoryareas), [Get-CsOnlineTelephoneNumberInventoryCountries](/powershell/module/skype/get-csonlinetelephonenumberinventorycountries), [Get-CsOnlineTelephoneNumberInventoryRegions](/powershell/module/skype/get-csonlinetelephonenumberinventoryregions), [Get-CsOnlineTelephoneNumberInventoryTypes](/powershell/module/skype/get-csonlinetelephonenumberinventorytypes), [Search-CsOnlineTelephoneNumberInventory](/powershell/module/skype/search-csonlinetelephonenumberinventory), [Select-CsOnlineTelephoneNumberInventory](/powershell/module/skype/select-csonlinetelephonenumberinventory), [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/get-csonlinetelephonenumberavailablecount), [ Clear-CsOnlineTelephoneNumberReservation](/powershell/module/skype/clear-csonlinetelephonenumberreservation), [Get-CsOnlineTelephoneNumberReservationsInformation](/powershell/module/skype/get-csonlinetelephonenumberreservationsinformation), [Get-CsOnlineDirectoryTenantNumberCities](/powershell/module/skype/get-csonlinedirectorytenantnumbercities)
   - [Set-CsTeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/skype/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/skype/new-csteamsapppermissionpolicy)
   - [Test-CsOnlineLisCivicAddress](/powershell/module/skype/test-csonlineliscivicaddress)
 
-- Os cmdlets que não têm suporte/são relevantes para Microsoft Teams cenários estão listados abaixo.
+- Os cmdlets que não têm suporte/são relevantes para cenários do Microsoft Teams estão listados abaixo.
   - [Obter| Set]-CsUserPstnSettings
   - [Obter| Definir| Habilitar| Disable]-CsMeetingRoom
   - [Conceder| Obter| Definir| Novo| Remove]-CsConferencingPolicy
@@ -98,15 +98,19 @@ Microsoft Teams versões do Módulo do PowerShell (TPM) na série 4.x.x ou poste
   - [Obter| Definir| Novo| Remove]-CsGlobalCatalogApp
   - [Obter| Definir| Novo| Remove]-CsDefaultCatalogApp
   - [Obter| Definir| Novo| Remove]-CsTeamsAppPreset
+  - Invoke-CsUserPreferredDataLocationSync
+  - [Obter| Set]-CsTeamsUpgradeStatus
+  - Grant-CsPolicy
+  - Set-CsOnlineDirectoryUser
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Teams de versão do PowerShell](teams-powershell-release-notes.md)
+[Notas de versão do PowerShell do Teams](teams-powershell-release-notes.md)
 
-[Instalar Microsoft Teams PowerShell](teams-powershell-install.md)
+[Instalar o PowerShell do Microsoft Teams](teams-powershell-install.md)
 
-[Gerenciar Teams com Teams PowerShell](teams-powershell-managing-teams.md)
+[Gerenciar o Teams com o Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Microsoft Teams de cmdlet](/powershell/module/teams)
+[Referência de cmdlet do Microsoft Teams](/powershell/module/teams)
 
 [Skype for Business de cmdlet](/powershell/module/skype)

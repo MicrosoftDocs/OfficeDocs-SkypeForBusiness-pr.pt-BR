@@ -1,8 +1,8 @@
 ---
 title: Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cff25b181af1f5280834080bb2308c9ab9bbc8b0
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646390"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819266"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
@@ -43,7 +43,7 @@ Para organizações que desejam otimizar o gerenciamento de tarefas para os Trab
 
 ## <a name="what-you-need-to-know-about-tasks"></a>O que você precisa saber sobre o Tasks
 
-O Tasks está disponível como um aplicativo e como uma guia em um canal. O aplicativo mostra as tarefas individuais do To Do e as tarefas de equipe do Planner. A guia mostra apenas as tarefas da equipe.
+O Tasks está disponível como um aplicativo e como uma guia em um canal. O aplicativo mostra tarefas individuais de Tarefas Pendentes e tarefas de equipe do Planner. A guia mostra apenas as tarefas da equipe.
 
 Com o Tasks, os usuários obtêm uma experiência de desktop, web e celular. Se o Tasks estiver instalado no cliente de área de trabalho do Teams, os usuários também o verão em seus clientes da Web e móveis do Teams. A exceção são convidados. É importante saber que os convidados só podem acessar o Tasks como um aplicativo do cliente móvel do Teams. Os convidados verão as guias do Tasks na área de trabalho do Teams e nos clientes da web.
 
@@ -62,7 +62,7 @@ Com o Tasks, os usuários obtêm uma experiência de desktop, web e celular. Se 
 
 O Tasks é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desabilitar ou ligar o aplicativo no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
 
-1. No painel esquerdo do centro de administração Microsoft Teams, acesse Teams **appsManage** > .
+1. No painel esquerdo do centro de administração do Microsoft Teams, acesse Aplicativos **do Teams Gerenciar** > **aplicativos**.
 2. Na lista de aplicativos, siga um destes procedimentos:
 
     - Para desativar as Tarefas da sua organização, pesquise o aplicativo Tarefas, selecione-o e selecione **Bloquear**.
@@ -75,19 +75,19 @@ O Tasks é habilitado por padrão para todos os usuários do Teams em sua organi
 
 Para permitir ou impedir que usuários específicos em sua organização usem o Tasks, certifique-se de que o Tasks esteja ativado para sua organização na página [Gerenciar aplicativos](manage-apps.md) e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativo no Teams](teams-app-permission-policies.md).
 
-### <a name="pin-tasks-to-teams"></a>Fixar tarefas em Teams
+### <a name="pin-tasks-to-teams"></a>Fixar tarefas no Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Use a experiência de aplicativo de linha de frente personalizada para fixar tarefas e outros aplicativos Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>Usar a experiência de aplicativo de linha de frente personalizada para fixar tarefas e outros aplicativos no Teams
 
-A experiência de aplicativo de linha de frente personalizada Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Tarefas, Walkie Talkie, Turnos e Aprovações. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
+A experiência de aplicativo de linha de frente personalizada no Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Tarefas, Walkie Talkie, Turnos e Aprovações. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
 
-Os aplicativos são fixados na barra de aplicativos , a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
+Os aplicativos são fixados na barra de aplicativos , a barra ao lado do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
 
-Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, consulte [Personalizar Teams aplicativos para seus trabalhadores de linha de frente](pin-teams-apps-based-on-license.md).
+Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, confira Personalizar aplicativos [do Teams para seus funcionários da linha de frente](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Use uma política de configuração de aplicativo para fixar o Tasks ao Teams
 
-As políticas de configuração de aplicativo permitem Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
+As políticas de configuração de aplicativo permitem que você personalize o Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
 
 Para fixar o aplicativo Tasks para seus usuários, você pode editar a política global (Padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
 

@@ -1,16 +1,16 @@
 ---
-title: Disponibilidade do aplicativo Aprovações no Teams
-author: mkbond007
-ms.author: mabond
+title: Gerenciar o aplicativo Aprovações no Microsoft Teams
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: farhazk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Saiba mais sobre a disponibilidade do aplicativo Aprovações no Microsoft Teams.
+description: Saiba como gerenciar o aplicativo Aprovações para sua organização no Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 888bd2a3cc9b53595625f43e04ab3b1603645944
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676493"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819276"
 ---
-# <a name="teams-approvals-app-availability"></a>Disponibilidade dos aplicativos de aprovação do Teams
+# <a name="manage-the-approvals-app-in-microsoft-teams"></a>Gerenciar o aplicativo Aprovações no Microsoft Teams
 
 O aplicativo Aprovações está disponível como um aplicativo pessoal para todos os usuários do Microsoft Teams.
 O aplicativo Aprovações oferece uma maneira simples de levar auditoria, conformidade, responsabilidade e fluxos de trabalho para Aprovações estruturadas e não estruturadas em Equipes.
@@ -36,16 +36,16 @@ Os usuários podem fixar o aplicativo Aprovações para salvá-lo na barra de me
 
  ![mostra o aplicativo de aprovações com a opção pin.](media/approvalApp-pin.png)
 
-A primeira aprovação criada Aprovações aplicativo disparará o provisionamento da Solução de Aprovação no ambiente padrão do Microsoft Dataverse. Aprovações criado a partir do Aprovações aplicativo será armazenado no ambiente padrão do Microsoft Dataverse.
+A primeira aprovação criada a partir do aplicativo Aprovações disparará o provisionamento da Solução de Aprovação no ambiente padrão do Microsoft Dataverse. As aprovações criadas a partir do aplicativo Aprovações serão armazenadas no ambiente padrão do Microsoft Dataverse.
 
 Este artigo descreve os requisitos e as funções do aplicativo Aprovações.
 
 > [!NOTE]
-> Esse recurso ainda não foi lançado para Nuvem da Comunidade Governamental alta (GCCH) e usuários do DoD (Departamento de Defesa).
+> Esse recurso ainda não foi lançado para usuários do GCCH (Government Community Cloud High) e do Departamento de Defesa (DOD).
 
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 
-Para implantar o Aprovações, você precisa de permissão para os seguintes itens:
+Para implantar o aplicativo Aprovações, você precisa de permissão para os seguintes itens:
 
 - Permissões para criar um banco de dados do Microsoft Dataverse.
 
@@ -57,7 +57,7 @@ Para implantar o Aprovações, você precisa de permissão para os seguintes ite
 
 - A licença Microsoft Forms é necessária para que os usuários configurem novos modelos de aprovação.
 
-Para usar o aplicativo Aprovações, você precisa de uma licença para Power Automate e sua conta é adicionada automaticamente à função de usuário do Aprovações no ambiente de destino em sua primeira atribuição de aprovação.
+Para usar o aplicativo Aprovações, você precisa de uma licença para o Power Automate e sua conta é adicionada automaticamente à função de Usuário de Aprovações no ambiente de destino em sua primeira atribuição de aprovação.
 
 ## <a name="storage-with-microsoft-dataverse"></a>Armazenamento com o Microsoft Dataverse
 
@@ -65,7 +65,7 @@ O CDM (Common Data Model) é a linguagem de dados compartilhada usada por aplica
 
 Saiba mais sobre o fluxo [de trabalho aprovação](/power-automate/modern-approvals).
 
-Aprovações criados com base em um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre [o Armazenamento de dados para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+As aprovações criadas com base em um modelo ainda armazenam dados no Microsoft Dataverse, como título, detalhes, ID do modelo e muito mais. As respostas enviadas na solicitação de aprovação são armazenadas em Formulários. Saiba mais sobre [o Armazenamento de dados para Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Se você excluir o modelo de formulário Microsoft Forms site, ele interromperá o modelo de Aprovação e os usuários não poderão iniciar a solicitação. Os usuários receberão um erro "CDB TableNotFound" ao tentar abrir um modelo de aprovação que é excluído no Microsoft Forms.
@@ -99,10 +99,10 @@ Permissões de modelo de aprovação
 
 - Todos os proprietários da equipe podem criar um modelo de aprovação para as equipes que eles têm.
 
-- Quando um administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente um novo grupo do Azure Active Directory (AAD) para todos os administradores do locatário, incluindo os administradores de serviços globais e Teams. Esses administradores são adicionados como proprietários do grupo, para que possam cogerenciar modelos organizacionais. Os administradores que são novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários do grupo para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
+- Quando um administrador cria um modelo para toda a organização pela primeira vez, ele criará automaticamente um novo grupo do AAD (Azure Active Directory) para todos os administradores do locatário, incluindo os administradores de serviços globais e do Teams. Esses administradores são adicionados como proprietários do grupo, para que possam cogerenciar modelos organizacionais. Os administradores que são novos na organização após a criação da equipe precisam ser adicionados manualmente como proprietários do grupo para que tenham as mesmas permissões para gerenciar modelos de toda a organização.
 
 > [!Note]
-> Se um administrador excluir o grupo, você terá um mês para restaurá-lo no portal do Azure Active Directory (AAD) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir esse grupo dentro da lixeira, você perderá todos os dados relacionados.
+> Se um administrador excluir o grupo, você terá um mês para restaurá-lo no portal do AAD (Azure Active Directory) para restaurar todos os dados relacionados. Após um mês ou se o administrador excluir esse grupo dentro da lixeira, você perderá todos os dados relacionados.
 
 ## <a name="disable-the-approvals-app"></a>Desabilitar o aplicativo Aprovações
 
@@ -114,39 +114,39 @@ O aplicativo Aprovações está disponível por padrão. Você pode desabilitar 
 
   3. Procure o aplicativo Aprovações.
 
-     ![mostra a navegação Administração central com os Teams aplicativos > Gerenciar Aplicativos realçados.](media/manage-approval-apps.png)
+     ![mostra a navegação Administração central com os Aplicativos do Teams > Gerenciar Aplicativos realçados.](media/manage-approval-apps.png)
 
   4. Selecione **Aprovações**.
 
   5. Selecione o alternância para desabilitar o aplicativo em sua organização.
 
-     :::image type="content" alt-text="mostra os detalhes do Aprovações aplicativo." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="mostra os detalhes do aplicativo Aprovações." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="pin-approvals-to-teams"></a>Fixar Aprovações à Teams
+## <a name="pin-approvals-to-teams"></a>Fixar aprovações no Teams
 
-### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>Use a experiência de aplicativo de linha de frente personalizada para fixar Aprovações e outros aplicativos Teams
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>Usar a experiência de aplicativo de linha de frente personalizada para fixar aprovações e outros aplicativos no Teams
 
-A experiência de aplicativo de linha de frente personalizada Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Aprovações, Walkie Talkie, Tasks e Shifts. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
+A experiência de aplicativo de linha de frente personalizada no Teams fixa os aplicativos mais relevantes no Teams para usuários que têm uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Os aplicativos fixados incluem Aprovações, Walkie Talkie, Tarefas e Turnos. Por padrão, esse recurso está ativado, oferecendo aos funcionários da linha de frente uma experiência integrada e adaptada às suas necessidades.
 
-Os aplicativos são fixados na barra de aplicativos , a barra na lateral do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
+Os aplicativos são fixados na barra de aplicativos , a barra ao lado do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, em que os usuários podem facilmente accessá-los.
 
-Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, consulte [Personalizar Teams aplicativos para seus trabalhadores de linha de frente](pin-teams-apps-based-on-license.md).
+Para saber mais, incluindo como a experiência funciona com as políticas de aplicativo definidas por você, confira Personalizar aplicativos [do Teams para seus funcionários da linha de frente](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
-### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>Usar uma política de configuração de aplicativo para fixar Aprovações no Teams
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>Usar uma política de configuração de aplicativo para fixar aprovações no Teams
 
-As políticas de configuração de aplicativo permitem Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
+As políticas de configuração de aplicativo permitem que você personalize o Teams para fixar aplicativos que são mais importantes para seus usuários em seus usuários.
 
-Para fixar o Aprovações para seus usuários, você pode editar a política global (padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
+Para fixar o aplicativo Aprovações para seus usuários, você pode editar a política global (padrão em toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, confira [Gerenciar políticas de configuração de aplicativos no Teams](teams-app-setup-policies.md).
 
 ## <a name="retention-policy"></a>Política de retenção
 
-Aprovações criados a partir do Aprovações aplicativo são armazenados no ambiente padrão do Microsoft Dataverse, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+As aprovações criadas a partir do aplicativo Aprovações são armazenadas no ambiente padrão do Microsoft Dataverse, que não dá suporte a backups no momento. Saiba mais sobre como fazer [backup e restaurar ambientes - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Os dados armazenados no Forms não serão excluídos até que os proprietários da equipe os  limpem na guia formulários excluídos no Microsoft Forms Web.
 
 ## <a name="conditional-access-policies"></a>Políticas de acesso condicional
 
-Atualmente, o aplicativo Aprovações no Teams não dá suporte a políticas de Acesso Condicional definidas para Microsoft Teams.
+Atualmente, o aplicativo Aprovações no Teams não dá suporte a políticas de Acesso Condicional definidas para o Microsoft Teams.
 
 ## <a name="data-limitations"></a>Limitações de dados
 
@@ -215,20 +215,20 @@ No aplicativo Aprovações de Equipes, os usuários têm acesso para criar novas
 > [!Note]
 > Um usuário recebe uma função de visualizador de uma solicitação se ele fizer parte do chat ou canal em que a aprovação foi criada. Ela não terá a capacidade de tomar medidas na solicitação caso não tenha sido concedida essa função quando a aprovação foi criada.
 
-## <a name="approvals-e-signature-integration"></a>Aprovações integração de assinatura de email
+## <a name="approvals-e-signature-integration"></a>Integração de assinaturas automáticas de aprovações
 
-Para usar o Aprovações de assinatura e do aplicativo, você precisa de uma licença para o provedor de assinatura e específico que deseja usar. Para obter uma licença para sua organização, você precisará acessar o site do provedor.
+Para usar o recurso de assinatura e do aplicativo Aprovações, você precisa de uma licença para o provedor de assinatura e específico que deseja usar. Para obter uma licença para sua organização, você precisará acessar o site do provedor.
 
 ### <a name="enable-or-disable-e-signature-providers"></a>Habilitar ou desabilitar provedores de assinatura de e
 
-Você pode usar o Teams de administração para controlar quais provedores de assinaturas de email de terceiros estão disponíveis para seus usuários no Aprovações aplicativo. Por padrão, os provedores de assinatura de e são habilitados no Aprovações aplicativo. Quando você desabilita um provedor de assinatura automática, os usuários não terão acesso a esse provedor quando criarem aprovações. Os usuários também não poderão exibir solicitações de assinatura e que foram criadas usando esse provedor.
+Você pode usar o centro de administração do Teams para controlar quais provedores de assinaturas de email de terceiros estão disponíveis para seus usuários no aplicativo Aprovações. Por padrão, os provedores de assinatura automática são habilitados no aplicativo Aprovações. Quando você desabilita um provedor de assinatura automática, os usuários não terão acesso a esse provedor quando criarem aprovações. Os usuários também não poderão exibir solicitações de assinatura e que foram criadas usando esse provedor.
 
-1. No painel esquerdo do centro de administração do Teams, acesse **Teams aplicativos** > **Gerenciar aplicativos**.
-2. Pesquise o Aprovações aplicativo e selecione-o.
-3. Vá para a **Configurações** e, em seguida, siga um ou mais dos seguintes procedimentos:
+1. No painel esquerdo do Centro de administração do Teams, acesse Aplicativos **do Teams Gerenciar** > **aplicativos**.
+2. Pesquise o aplicativo Aprovações e selecione-o.
+3. Vá para **a guia Configurações** e, em seguida, siga um ou mais dos seguintes procedimentos:
 
     - Para habilitar ou desabilitar o Adobe Sign, alterne a opção para **Ativar** ou **Desativar**.
     - Para habilitar ou desabilitar o DocuSign, alterne a alternância **para Ativado** ou **Desativado**.
 4. Selecione **Enviar**.
 
-As aprovações de assinatura E criadas Aprovações aplicativo são armazenadas no ambiente de nuvem do provedor selecionado. Para exportar dados sobre assinaturas e, você precisará acessar o site do provedor. Para obter mais informações sobre armazenamento, exportação e retenção de contratos de assinatura e, consulte a documentação do provedor.
+As aprovações de assinatura E criadas a partir do aplicativo Aprovações são armazenadas no ambiente de nuvem do provedor selecionado. Para exportar dados sobre assinaturas e, você precisará acessar o site do provedor. Para obter mais informações sobre armazenamento, exportação e retenção de contratos de assinatura e, consulte a documentação do provedor.
