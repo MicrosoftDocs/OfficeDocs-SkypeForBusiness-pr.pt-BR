@@ -11,19 +11,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre modelos de equipe e como gerenciá-los no Microsoft Teams de administração.
+description: Saiba mais sobre modelos de equipe e como gerenciá-los no Centro de administração do Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab184e198c28f4100a224ae17f955ecf73e14cf9
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676143"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819352"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introdução aos modelos de equipe no Centro de administração do Teams
 
@@ -32,18 +32,18 @@ ms.locfileid: "65676143"
 > [!NOTE]
 > - Atualmente, não há suporte para canais privados e compartilhados em modelos de equipe. A criação de canal privado e compartilhado não está incluída nas definições de modelo.
 >
-> - Não há suporte para rótulos de confidencialidade em modelos de equipe GCC ambientes. A opção de rótulo de confidencialidade na equipe Criar do fluxo de modelo não será aplicada à equipe.
+> - Não há suporte para rótulos de confidencialidade em modelos de equipe em ambientes GCC. A opção de rótulo de confidencialidade na equipe Criar do fluxo de modelo não será aplicada à equipe.
 
 ## <a name="overview"></a>Visão Geral
 
-Um modelo de equipe Microsoft Teams é uma definição da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Como administrador, você pode usar modelos para implantar facilmente equipes consistentes em sua organização. Com modelos, os usuários podem criar rapidamente espaços de colaboração avançados com configurações, canais e aplicativos predefinidos.
+Um modelo de equipe no Microsoft Teams é uma definição da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Como administrador, você pode usar modelos para implantar facilmente equipes consistentes em sua organização. Com modelos, os usuários podem criar rapidamente espaços de colaboração avançados com configurações, canais e aplicativos predefinidos.
 
-Você pode gerenciar modelos de equipe no Microsoft Teams de administração ou usando o PowerShell. Você pode usar os modelos pré-criados que fornecemos e também pode [criar seus próprios modelos personalizados](#create-your-own-team-templates). Você também pode [aplicar políticas de modelo](#apply-team-template-policies) para controlar quais modelos estão disponíveis para seus usuários Teams.
+Você pode gerenciar modelos de equipe no centro de administração do Microsoft Teams ou usando o PowerShell. Você pode usar os modelos pré-criados que fornecemos e também pode [criar seus próprios modelos personalizados](#create-your-own-team-templates). Você também pode [aplicar políticas de modelo](#apply-team-template-policies) para controlar quais modelos estão disponíveis para seus usuários no Teams.
 
-Este artigo fornece uma visão geral de como trabalhar com modelos de equipe no Teams de administração. Você aprenderá sobre as propriedades com suporte em modelos, os modelos predefinidos que fornecemos, os limites de tamanho do modelo, como criar e gerenciar modelos e muito mais.
+Este artigo fornece uma visão geral de como trabalhar com modelos de equipe no centro de administração do Teams. Você aprenderá sobre as propriedades com suporte em modelos, os modelos predefinidos que fornecemos, os limites de tamanho do modelo, como criar e gerenciar modelos e muito mais.
 
 > [!NOTE]
-> Os usuários podem [criar equipes](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) com base em modelos de equipe predefinido ou personalizados no Teams aplicativo. Os desenvolvedores também podem criar programaticamente equipes de modelos de equipe pré-criados usando o Microsoft Graph. Para saber mais, confira [Introdução modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md).
+> Os usuários podem [criar equipes com base em modelos de equipe predefinido ou personalizados](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) no aplicativo Teams. Os desenvolvedores também podem criar equipes programaticamente com base em modelos de equipe pré-criados usando o Microsoft Graph. Para saber mais, confira [Introdução aos modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Funcionalidades de modelo de equipe
 
@@ -63,9 +63,9 @@ A maioria das propriedades em uma equipe é incluída e tem suporte por modelos 
 > [!NOTE]
 > Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto, verifique novamente as informações mais atualizadas sobre as propriedades com suporte.
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Modelos de equipe pré-criados no centro Teams de administração
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Modelos de equipe pré-criados no centro de administração do Teams
 
-Aqui estão os modelos de equipe pré-criados que estão disponíveis no Teams de administração. Modelos pré-criados são modelos que criamos para setores específicos. Para exibir esses modelos, na navegação à esquerda do centro de administração Teams, vá para **Teams** >  **Dem.**
+Aqui estão os modelos de equipe pré-criados que estão disponíveis no centro de administração do Teams. Modelos pré-criados são modelos que criamos para setores específicos. Para exibir esses modelos, no painel de navegação esquerdo do Centro de administração do Teams, acesse os modelos **de Equipe do** **Teams** > .
 
 Você pode duplicar modelos pré-criados, mas não pode editá-los. Se você quiser alterar as propriedades em um modelo predefinido, poderá criar um novo modelo com base em um existente e, em seguida, adicionar ou remover as propriedades desejadas. Tenha em mente que determinadas propriedades em alguns modelos não podem ser alteradas.
 
@@ -78,7 +78,7 @@ Você pode duplicar modelos pré-criados, mas não pode editá-los. Se você qui
 |Organizar o suporte ajuda| `com.microsoft.teams.template.OrganizeHelpDesk`|Canais:<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tarefas </li><li>Elogio</li><li>Relator de Problemas</li><li>Power Automate</li><li>Boletins</li></ul> |
 | Cuidados com o paciente| `com.microsoft.teams.template.healthcareWard`| Canais:<ul><li>Geral</li><li>Comunicados</li><li>Insuidades</li><li>Rodadas</li><li>Estrelada</li><li>Treinamento</li></ul> Apps: <ul><li>Wiki</li><li>Listas  </li><li>Aprovações</li><li>Boletins</li><li>Inspeção</li></ul>|
 | Comunicação de crise |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Canais: <ul><li>Geral<li>Comunicados</li><li>Notícias do mundo</li><li>Comms internas</li><li>Mensagens externas</li><li>Pedido de aprovação</li><li>Escalonamentos de clientes</li><li>Atualização executiva</li><li>Planejamento</li><li>Logística</li></ul>Apps: <ul><li>Site</li><li>Tarefas</li><li>Relator de Problemas</li><li>Aprovações</li><li>Boletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|Filial bancária| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canais: <ul><li>Geral<li>Comunicados</li><li>Insuidades</li><li>Reuniões com clientes</li><li>Aprovações solicitação </li><li>Treinamento</li><li>Desenvolvimento de Habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Diversão</li><li>Conformidade</li></ul>Aplicativos:<ul><li>Elogio </li><li>Relator de Problemas</li><li>Wiki</li><li>Calendário</li><li>Aprovações</li><li>Boletins</li><li>Ideias</li></ul>|
+|Filial bancária| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Canais: <ul><li>Geral<li>Comunicados</li><li>Insuidades</li><li>Reuniões com clientes</li><li>Solicitação de Aprovações </li><li>Treinamento</li><li>Desenvolvimento de Habilidades</li><li>Processamento de empréstimos</li><li>Reclamações do cliente</li><li>Parabéns</li><li>Diversão</li><li>Conformidade</li></ul>Aplicativos:<ul><li>Elogio </li><li>Relator de Problemas</li><li>Wiki</li><li>Calendário</li><li>Aprovações</li><li>Boletins</li><li>Ideias</li></ul>|
 |Resposta a incidentes| `com.microsoft.teams.template.CoordinateIncidentResponse`|Canais: <ul><li>Geral<li>Comunicados</li><li>Logística</li><li>Planejamento</li><li>Recuperação</li><li>Urgente</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Tarefas</li> <li>Aprovações</li> <li>Inspeção</li> <li>Power Automate</li><li>Boletins</li><li>Marcos</li></ul>|
 |Hospital| `com.microsoft.teams.template.healthcareHospital` |Canais: <ul><li>Geral</li><li>Comunicados</li><li>Conformidade</li><li>Custódia</li><li>Recursos humanos</li><li>Farmácia</li></ul> Apps: <ul><li>Wiki</li><li>Listas</li><li>Tarefas</li><li>Aprovações</li><li>Turnos</li><li>Boletins</li><li>Inspeção</li><li>Ideias</li></ul>|
 |Organizar uma loja| `com.microsoft.teams.template.retailStore` |Canais: <ul><li>Geral<li>Mudança de entrega</li><li>Preparação da loja</li><li>Aprendizado</li></ul> Aplicativos: <ul><li>Wiki</li><li>Tarefas</li><li>Turnos</li><li>Inspeção</li></ul>|
@@ -97,7 +97,7 @@ Para obter mais informações sobre maneiras de usar os modelos pré-criados em 
 - [Modelos da equipe de saúde](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Modelos de equipe de fabricação](manufacturing-teams-templates-in-the-admin-console.md)
 - [Modelos de equipe sem fins lucrativos](team-templates-nonprofit.md)
-- [Modelos de equipe de varejo](retail-teams-templates-in-the-admin-console.md)
+- [Modelos de equipe de varejo](get-started-with-retail-teams-templates.md)
 
 ## <a name="team-template-size-limits"></a>Limites de tamanho do modelo de equipe
 
@@ -113,7 +113,7 @@ Os modelos são limitados a um número específico de canais, guias e aplicativo
 |Aplicativos por modelo | 50|
 |||
 
-Para obter mais informações, [consulte Limites e especificações de Teams](limits-specifications-teams.md).
+Para obter mais informações, [consulte Limites e especificações do Teams](limits-specifications-teams.md).
 
 ## <a name="manage-team-templates"></a>Gerenciar modelos de equipe
 
@@ -121,7 +121,7 @@ Para obter mais informações, [consulte Limites e especificações de Teams](li
 
 #### <a name="view-team-templates"></a>Exibir modelos de equipe
 
-Para exibir modelos de equipe, no painel de navegação à esquerda do centro de administração Teams,  >  vá para Teams **de equipe**. Selecione um modelo para ver mais detalhes, incluindo os canais e aplicativos que ele contém.
+Para exibir modelos de equipe, no painel de navegação esquerdo do Centro de administração do Teams, acesse os modelos **de Equipe do** **Teams** > . Selecione um modelo para ver mais detalhes, incluindo os canais e aplicativos que ele contém.
 
 #### <a name="create-your-own-team-templates"></a>Criar seus próprios modelos de equipe
 
@@ -133,7 +133,7 @@ Você pode criar seus próprios modelos personalizados do zero, de uma equipe ex
 
 #### <a name="apply-team-template-policies"></a>Aplicar políticas de modelo de equipe
 
-Para controlar os modelos que os usuários veem no Teams para criar equipes[, você](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b) pode definir políticas de modelos e atribuí-los a usuários e grupos em sua organização. Para saber mais, confira [Gerenciar modelos de equipe no Teams de administração](templates-policies.md).
+Para controlar os modelos que os usuários veem no Teams para criar equipes [, você](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b) pode definir políticas de modelos e atribuí-las a usuários e grupos em sua organização. Para saber mais, confira [Gerenciar modelos de equipe no centro de administração do Teams](templates-policies.md).
 
 ### <a name="manage-team-templates-using-powershell"></a>Gerenciar modelos de equipe usando o PowerShell
 

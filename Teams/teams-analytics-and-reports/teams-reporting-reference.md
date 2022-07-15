@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os relatórios do Teams que es
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0891b9267039d8c07d437cb8e67eb2b982a0016
-ms.sourcegitcommit: cf2f2d23e6dcda0c03f22a5800a210a1c88e583f
+ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65883544"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819306"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -31,12 +31,12 @@ Uma nova experiência de análise e relatórios para o Microsoft Teams está dis
 
 ## <a name="how-to-access-the-reports"></a>Como acessar os relatórios
 
-Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, leitor global no Microsoft 365 ou Office 365, administrador de serviços do Teams ou administrador do Skype for Business. Para saber mais sobre as funções de administrador do Teams e quais relatórios cada função de administrador pode acessar, consulte [Usar funções de administrador do Teams para gerenciar o Teams](../using-admin-roles.md).
+Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou Office 365, leitor global no Microsoft 365 ou Office 365, administrador de serviços do Teams ou Skype for Business administrador. Para saber mais sobre as funções de administrador do Teams e quais relatórios cada função de administrador pode acessar, consulte [Usar funções de administrador do Teams para gerenciar o Teams](../using-admin-roles.md).
 
 Vá para o centro de administração do Microsoft Teams, no painel de navegação à esquerda, selecione **Relatórios do Analytics &** e, em Exibir **Relatórios, escolha** o relatório que você deseja executar.
 
 > [!NOTE]
-> Os relatórios no centro de administração do Microsoft Teams são separados dos relatórios de atividades do Teams que fazem parte dos relatórios do Microsoft 365 no Centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no Centro de administração do Microsoft 365, consulte relatórios de atividades do Teams no Centro de administração [do Microsoft 365](../teams-activity-reports.md)
+> Os relatórios no centro de administração do Microsoft Teams são separados dos relatórios de atividades do Teams que fazem parte dos relatórios do Microsoft 365 no Centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no Centro de administração do Microsoft 365, consulte os relatórios [de atividades do Teams no Centro de administração do Microsoft 365](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Referência de relatórios do Teams
 
@@ -55,15 +55,15 @@ Estamos melhorando continuamente a experiência de relatório do Teams e adicion
 |[Relatório de uso de PSTN do Teams – Planos de Chamadas](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Número de telefone<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou da região<br>Carga<br>Moeda<br>Duração<br>Nacionais/Internacionais<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
 |[Relatório de uso de PSTN do Teams – Roteamento Direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome de exibição<br>Endereço SIP<br>Número de telefone <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
 |[Relatório de licença de proteção de informações do Teams](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por push por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração disparados por um usuário<br><br>Quais aplicativos estão escutando eventos de notificação de alteração em toda a organização<br>|
-|[Relatório de uso de Visitas Virtuais do Teams](virtual-visits-usage-report.md)  | Número de compromissos virtuais<br>Número de compromissos do Bookings<br>Número de compromissos integrados ao EHR (Registros eletrônicos de integridade) do Teams<br>Duração média de um compromisso<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da Reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>SMS enviado
-|[Relatório de Compromissos Virtuais do conector EHR do Teams](../expand-teams-across-your-org/healthcare/ehr-admin-reports.md) | Hora de início<br>Duração<br>Principal (nome do organizador da reunião)<br>Email principal (email do organizador da reunião)<br>Departamento<br>Atendentes<br>Tempo de espera do lobby<br>Se o compromisso está dentro do limite de alocação
+|[Relatório de uso de Visitas Virtuais do Teams](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | Número de compromissos virtuais<br>Número de compromissos do Bookings<br>Número de compromissos integrados ao EHR (Registros eletrônicos de integridade) do Teams<br>Duração média de um compromisso<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da Reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>SMS enviado
+|[Relatório do conector EHR Compromissos virtuais Teams](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | Hora de início<br>Duração<br>Principal (nome do organizador da reunião)<br>Email principal (email do organizador da reunião)<br>Departamento<br>Atendentes<br>Tempo de espera do lobby<br>Se o compromisso está dentro do limite de alocação|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Tornar os dados específicos do usuário anônimos
 
-Para tornar os dados na atividade do usuário do Teams e no relatório de uso de dispositivos do Teams anônimos, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e ID do Microsoft Azure Active Directory em relatórios e suas exportações.
+Para tornar os dados na atividade do usuário do Teams e no relatório de uso de dispositivos do Teams anônimos, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e Microsoft Azure Active Directory ID em relatórios e suas exportações.
 
-1. No Centro de administração do Microsoft 365, vá  \> para As Configurações da Organização **e, na** guia Serviços, escolha **Relatórios**.
+1. No Centro de administração do Microsoft 365, vá para **As Configurações** \> da **Organização e,** na **guia Serviços**, escolha **Relatórios**.
     
 2. Selecione **Relatórios** e, em seguida, escolha **Exibir nomes de usuário, grupo e site ocultos em todos os relatórios**. Essa configuração é aplicada aos relatórios de uso no Centro de administração do Microsoft 365, bem como ao Centro de administração do Teams.
   
@@ -71,4 +71,4 @@ Para tornar os dados na atividade do usuário do Teams e no relatório de uso de
 
 > [!NOTE]
 > Habilitar essa configuração desidentirá as informações no relatório [de atividades do usuário do Teams](user-activity-report.md) e nos relatórios [de uso de dispositivos do Teams](device-usage-report.md) . Ele não afetará outros relatórios de uso disponíveis no Centro de administração do Teams.
-> Essa configuração também se aplica aos relatórios de uso do Microsoft 365 no Centro de administração do Microsoft 365, no Microsoft Graph e no Power BI.
+> Essa configuração também se aplica aos relatórios de uso do Microsoft 365 Centro de administração do Microsoft 365, Microsoft Graph e Power BI.
