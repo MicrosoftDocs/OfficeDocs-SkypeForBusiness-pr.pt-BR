@@ -1,7 +1,7 @@
 ---
 title: Gerenciar configurações da reunião
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -9,21 +9,26 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
+- ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
+ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789786"
 ---
-
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
 Como administrador, você usa as configurações de reunião do Teams para controlar se usuários anônimos podem participar de reuniões do Teams, personalizar convites para reuniões e, se desejar habilitar a Qualidade de Serviço (QoS), definir intervalos de portas para tráfego em tempo real. Essas configurações se aplicam a todas as reuniões do Teams que os usuários agendam na sua organização. Você gerencia essas configurações em **Reuniões** > **Configurações de reunião** no centro de administração do Microsoft Teams.
@@ -65,7 +70,7 @@ Como as políticas de toda a organização e por organizador controlam o ingress
 
 Qualquer outra combinação de valores impedirá que usuários anônimos participem de reuniões.
 > [!NOTE]
-> Para saber mais sobre como gerenciar políticas de reunião, consulte [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> Para saber mais sobre como gerenciar políticas de reunião, consulte [Gerenciar políticas de reunião no Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>Bloquear o ingresso anônimo para tipos de clientes específicos
 
@@ -174,7 +179,7 @@ Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protoco
 |:---             |:---                         |:---    |:---      |:---      |
 |Áudio            | 50.000–50.019               |TCP/UDP |46        |Expedited Forwarding (EF)|
 |Vídeo            | 50.020–50.039               |TCP/UDP |34        |Assured Forwarding (AF41)|
-|Compartilhamento de tela/aplicativo| 50.040-50.059      |TCP/UDP |18        |Assured Forwarding (AF21)|
+|Compartilhamento de tela/aplicativo| 50.040-50.059      |TCP/UDP |18         |Assured Forwarding (AF21)|
 | | | | |
 
 \* Os intervalos de porta que você atribui não podem se sobrepor e devem ser adjacentes uns aos outros.
