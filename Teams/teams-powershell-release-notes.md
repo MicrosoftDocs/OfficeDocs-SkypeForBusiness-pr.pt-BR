@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67a05d19d6996062690d00099aa455b3eb60fd57
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 96f2b119c36b26a0c8805bcce29edc2830e1568f
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562350"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810113"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece o log de alterações mais recente do PowerShell do Teams p
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| Julho de 2022 | [Versão prévia 4.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>Libera o parâmetro AccountType para o cmdlet Get-CsOnlineUser, que permite consultar tipos específicos de usuários.</li><li>O atributo AccountType é adicionado na saída Get-CsOnlineUser indicando o tipo de usuário. Os valores possíveis para AccountType são: 'Usuário' (contas de usuário), 'ResourceAccount' (pontos de extremidade do aplicativo ou contas de recurso), 'Convidado' (contas de convidado) & 'Desconhecido' (tipo de usuário não conhecido).</li><li>Corrige problemas com os parâmetros & grupo de classificação em cmdlets\<PolicyName\> Grant-Cs.</li>
 | Junho de 2022 | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>Dá suporte ao parâmetro IncludeResources para Get-CsAutoAttendantStatus cmdlet.</li><li>Dá suporte ao parâmetro SoftDeletedUsers para Get-CsOnlineUser cmdlet.</li><li>Versões [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Dá suporte ao parâmetro opcional AuthorizedUsers para os cmdlets [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Corrige parâmetros de prompt de caixa postal compartilhados em que o tipo de prompt não pôde ser alternado depois que eles foram definidos para Set-CsCallQueue cmdlet.</li><li> Corrige os cmdlets [New\|Set]-CsOnlineSchedule para funcionar no formato de data/hora europeu.</li><li>Versões [New\|Get\|Set\|Remove\|Grant]-CsTeamsVoiceApplicationsPolicy cmdlets.</li><li>Versões Get-CsHybridTelephoneNumber cmdlet.</li><li>Versões modernizada dos cmdlets [New\|Remove]-CsHybridTelephoneNumber.</li><li>Dá suporte a ToneStar e TonePound como valor para o parâmetro DtmfResponse New-CsAutoAttendantMenuOption cmdlet.</li><li> Corrige problemas com PSListModifier no parâmetro AllowedDomainsAsAList no cmdlet Set-CsTenantFederationConfiguration modernizado.</li><li> Dá suporte aos parâmetros Group e Rank para todos os cmdlets\<PolicyName\> Grant-Cs.</li><li> Versões Test-CsTeamsTranslationRule cmdlet.</li>
 | Junho de 2022 | [Versão prévia 4.4.3](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>Dá suporte ao parâmetro IncludeResources para Get-CsAutoAttendantStatus cmdlet.</li><li>Dá suporte ao parâmetro SoftDeletedUsers para Get-CsOnlineUser cmdlet.</li><li>Versões [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Dá suporte ao parâmetro opcional AuthorizedUsers para os cmdlets [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Corrige parâmetros de prompt de caixa postal compartilhados em que o tipo de prompt não pôde ser alternado depois que eles foram definidos para Set-CsCallQueue cmdlet.</li><li> Corrige os cmdlets [New\|Set]-CsOnlineSchedule para funcionar no formato de data/hora europeu.</li>
 | Maio de 2022 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>Melhorias no tamanho do módulo.</li><li>Os parâmetros sem suporte na versão modernizada de todos os cmdlets resultarão em erro.</li><li>Corrige o tratamento de erros para [Get\|Set]-CsOnlineDialInConferencingUser, Get-CsOnlineDialInConferencingBridge, [Get\|Set\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlets.</li><li>Pretere o Test-CsOnlineLisCivicAddress cmdlet.</li><li>O NOME UPN (Nome UPN) & GUID pode ser usado agora como identidade em cmdlets modernizados [Get\|Remove]-CsOnlineApplicationInstanceAssociation.</li><li> [ALTERAÇÃO SIGNIFICATIVA] Get-CsOnlineUser - Os atributos de política na saída agora serão nulos se um usuário não tiver essa política atribuída. Esses atributos costumavam ser objetos UserPolicyDefinition vazios em versões anteriores (3.0.0 a 4.3.1).</li><li>Corrige Set-CsCallQueue para permitir valores de matriz nulos ou vazios nos parâmetros de entrada.</li><li>Get-CsPhoneNumberAssignment - os atributos & IsoSubdivision são adicionados à saída.</li>
