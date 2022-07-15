@@ -1,13 +1,13 @@
 ---
-title: Exemplo de script do PowerShell - Teams de implantação
-author: SerdarSoysal
-ms.author: serdars
+title: Exemplo de script do PowerShell – Limpeza de implantação do Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Use este script do PowerShell para desinstalar Teams e remover a pasta Teams para usuários.
+description: Use este script do PowerShell para desinstalar o Teams e remover a pasta do Teams para usuários.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 246c47b74fc90ddfb7b38a0474bc88bff5321559
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: d7875cb01b928567d5883f36e21eb2f0de0bccf6
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62402645"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825685"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemplo de script do PowerShell - Teams implantação limpa
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemplo de script do PowerShell – Limpeza da implantação do Teams
 
-Use este script para remover Teams. Esse script desinstala Teams e remove a pasta Teams para um usuário. Execute esse script para cada perfil de usuário no qual Teams foi instalado em um computador.
+Use esse script para remover o Teams. Esse script desinstala o Teams e remove a pasta Do Teams para um usuário. Execute esse script para cada perfil de usuário no qual o Teams foi instalado em um computador.
 
 
 ## <a name="sample-script"></a>Script de exemplo
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [Implantar Teams com Microsoft 365 Apps](/deployoffice/teams-install)
+- [Implantar o Teams com Microsoft 365 Apps](/deployoffice/teams-install)

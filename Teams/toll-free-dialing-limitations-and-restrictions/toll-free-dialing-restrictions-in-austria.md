@@ -1,7 +1,7 @@
 ---
-title: Restrições de discagem gratuita na Áustria
-ms.author: serdars
-author: SerdarSoysal
+title: Restrições de discagem de chamada gratuita na Áustria
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,24 +21,24 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número gratuito.
-ms.openlocfilehash: 8335435d8eac35b0e65ae8f8165ad2f9160b00d2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Isso ajudará você a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, ele levará você para uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número de chamada gratuita.
+ms.openlocfilehash: b109d27f3e2a6c608ca92ac537ce9a51c623aa2f
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394433"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825465"
 ---
-# <a name="toll-free-dialing-restrictions-in-austria"></a>Restrições de discagem gratuita na Áustria
+# <a name="toll-free-dialing-restrictions-in-austria"></a>Restrições de discagem de chamada gratuita na Áustria
 
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md) ou saiba mais sobre limitações e restrições de discagem gratuita.
+[Localize outro país ou região](../toll-free-dialing-limitations-and-restrictions.md) ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
 |A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formatos de discagem  <br/> | 0 800 XX XXX <br>|
-|Código ISO de país/região  <br/> |AT  <br/> |
+|Formato(s) de discagem  <br/> | 0 800 XX XXX <br>|
+|Código ISO de país/região  <br/> |EM  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> | Não aplicável  <br/>  |
 |Disponibilidade de linha com fio/fixa  <br/> |Sim  <br/> |

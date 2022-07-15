@@ -1,7 +1,7 @@
 ---
-title: Exemplo de script do PowerShell – Gerenciadores de exportação e seus diretos
-author: SerdarSoysal
-ms.author: serdars
+title: Exemplo de script do PowerShell – Gerenciadores de exportação e seus relatórios diretos
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674173"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825665"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemplo de script do PowerShell – Gerenciadores de exportação e seus diretos
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>Exemplo de script do PowerShell – Gerenciadores de exportação e seus relatórios diretos
 
-Use esse script do PowerShell para exportar uma lista de gerentes e seus diretos para sua organização. Use esse script na preparação para criar uma equipe de gerente de pessoas para cada gerente com seus relatórios diretos como membros da equipe.
+Use este script do PowerShell para exportar uma lista de gerentes e seus relatórios diretos para sua organização. Use esse script na preparação para criar uma equipe de gerente de pessoas para cada gerente com seus relatórios diretos como membros da equipe.
 
 Para saber mais sobre esse script do PowerShell, consulte [Criar equipes de gerente de pessoas](../create-manager-directs-teams.md).
 

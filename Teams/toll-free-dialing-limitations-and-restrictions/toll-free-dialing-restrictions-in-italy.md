@@ -1,38 +1,43 @@
 ---
-title: Restrições de discagem gratuita na Itália
-ms.author: serdars
-author: SerdarSoysal
+title: Restrições de discagem de chamada gratuita na Itália
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'davlick, krkilaru'
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Calling Plans
-description: 'Isso ajudará você a descobrir como discar números gratuitos em cada país/região. Depois de selecionar o país/região, ele o levará a uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço gratuito em que o serviço gratuito está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número gratuito.'
+- Calling Plans
+description: Isso ajudará você a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, ele levará você para uma página específica do país que contém detalhes, restrições e limites específicos para disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. Os formatos ou formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número de chamada gratuita.
+ms.openlocfilehash: 1cb50919d18ee7ed02596f2416f295b0545ac600
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825725"
 ---
+# <a name="toll-free-dialing-restrictions-in-italy"></a>Restrições de discagem de chamada gratuita na Itália
 
-# <a name="toll-free-dialing-restrictions-in-italy"></a>Restrições de discagem gratuita na Itália
-
-[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md) ou saiba mais sobre limitações e restrições de discagem gratuita.
+[Localize outro país ou região](../toll-free-dialing-limitations-and-restrictions.md) ou saiba mais sobre limitações e restrições de discagem gratuita.
 
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
 |A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formatos de discagem  <br/> | 800 <br>803 <br>|
+|Formato(s) de discagem  <br/> | 800 <br>803 <br>|
 |Código ISO de país/região  <br/> |TI  <br/> |
 |Ilha/território coberto  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> | Não aplicável  <br/>  |
