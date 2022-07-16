@@ -1,7 +1,7 @@
 ---
 title: Configurar eventos ao vivo no Microsoft Teams
-author: serdarsoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Configure eventos ao vivo no Teams, incluindo configurar sua rede, 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a2e7061252afc5c485da01c3c1c30e9625bd07cc
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: f972fa2a78796a2768c62d191a95e68f41a91a5e
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661662"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825905"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -50,7 +50,7 @@ As políticas de eventos ao vivo são usadas para controlar quem em sua organiza
 
 <a name="bkcreatepolicy"> </a>
 
-1. Na navegação à esquerda do centro de administração Microsoft Teams, vá  >  >  para a guia Políticas de Gerenciamento de Políticas de Eventos ao Vivo **de Reuniões.**
+1. No painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para a guia **Políticas** >  >  de Gerenciamento de Políticas de Eventos ao Vivo **de Reuniões.**
 2. Siga uma das seguintes opções:
 
     - Se você quiser editar a política padrão existente, escolha **Global (padrão para toda a organização)**.
@@ -80,7 +80,7 @@ Se você criou uma política personalizada de eventos ao vivo, atribua-a aos usu
 
 Para que os usuários agendem eventos produzidos com um aplicativo ou dispositivo externo, você também deve executar as seguintes etapas:
 
-1. Habilitar o Microsoft Stream para usuários na organização. O Stream está disponível como parte de assinaturas Microsoft 365 ou Office 365 qualificadas ou como um serviço autônomo. O Stream não está incluído nos planos Business Essentials ou Business Premium. Confira [Visão geral de licenciamento Stream](/stream/license-overview) para obter mais detalhes.
+1. Habilitar o Microsoft Stream para usuários na organização. O Stream está disponível como parte de assinaturas qualificadas do Microsoft 365 ou Office 365 ou como um serviço autônomo. O Stream não está incluído nos planos Business Essentials ou Business Premium. Confira [Visão geral de licenciamento Stream](/stream/license-overview) para obter mais detalhes.
 
    >[!Note]
    > A mudança do Microsoft Stream para o [Microsoft OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento você poderá optar por aceitar essa experiência, em novembro você terá que recusar se quiser continuar usando o Stream e, no início de 2021, exigiremos que todos os clientes usem o OneDrive for Business e o Microsoft Office SharePoint Online para novas gravações de reunião. Saiba mais sobre como você pode [**atribuir licenças aos usuários**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Stream. Verifique se o Stream não está bloqueado para os usuários, conforme definido [**neste artigo**](/stream/disable-user-organization).
@@ -93,7 +93,7 @@ Para que os usuários agendem eventos produzidos com um aplicativo ou dispositiv
 
 A reprodução de vídeos ao vivo usa o protocolo de taxa de bits adaptável (ABR), mas é um fluxo de unicast, o que significa que todos os visualizadores estão obtendo seu próprio fluxo de vídeo da Internet. Para eventos ao vivo ou vídeos enviados para grande parte da sua organização, pode haver uma quantidade significativa de largura de banda de Internet consumida pelos visualizadores. Para as organizações que desejam reduzir esse tráfego de Internet para eventos ao vivo, as soluções de eventos ao vivo são integradas aos parceiros de entrega de vídeo confiáveis da Microsoft, como SDNs (redes definidas por software) ou redes de distribuição de conteúdo (eCDNs). Essas plataformas SDN/eCDN permitem que as organizações otimizem a largura de banda de rede sem sacrificar as experiências de exibição do usuário final. Nossos parceiros podem ajudar a habilitar uma distribuição de vídeo mais dimensionável e eficiente em sua rede corporativa.
 
-**Compre e configure sua solução fora do Teams** Obtenha ajuda especializada com a capacidade de redimensionamento de vídeo aproveitando os parceiros de entrega de vídeo confiáveis da Microsoft. Antes de permitir que um provedor de distribuição de vídeo seja usado com o Teams, você deve comprar e configurar a solução SDN/eCDN fora e separada de Teams.
+**Compre e configure sua solução fora do Teams** Obtenha ajuda especializada com a capacidade de redimensionamento de vídeo aproveitando os parceiros de entrega de vídeo confiáveis da Microsoft. Antes de permitir que um provedor de distribuição de vídeo seja usado com o Teams, você deve comprar e configurar a solução SDN/eCDN fora e separada do Teams.
 
 As seguintes soluções SDN/eCDN são pré-configuradas e podem ser configuradas para serem usadas com o Stream.
 
@@ -103,7 +103,7 @@ As seguintes soluções SDN/eCDN são pré-configuradas e podem ser configuradas
 
 - **Ramp OmniCache** fornece a distribuição de rede de última geração e garante a entrega tranquila de conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dando suporte a difusões de eventos ao vivo e transmissões sob demanda. O suporte para o Ramp OmniCache de eventos ao vivo produzidos no Teams será lançado em breve. [Saiba mais](https://rampecdn.com).
 
-- **Riverbed**, o padrão do setor na otimização de rede, está estendendo suas soluções de aceleração para Microsoft Teams e Stream.  Agora Microsoft 365 clientes podem acelerar com confiança o tráfego 365, incluindo o Teams e o Stream, juntamente com uma grande quantidade de outros serviços SaaS corporativos líderes para aumentar a produtividade da força de trabalho de qualquer lugar. Teams e aceleração do Stream podem ser habilitadas por meio de uma configuração sem esforço que vem com toda a garantia do suporte de nível mundial da Riverbed e do investimento contínuo.
+- **A Riverbed**, o padrão do setor em otimização de rede, está estendendo suas soluções de aceleração para o Microsoft Teams e o Stream.  Agora, os clientes do Microsoft 365 podem acelerar com confiança o tráfego 365, incluindo o Teams e o Stream, juntamente com uma grande quantidade de outros serviços SaaS corporativos líderes para aumentar a produtividade da força de trabalho de qualquer lugar. A aceleração do Teams e do Stream pode ser habilitada por meio de uma configuração sem esforço que vem com toda a garantia do suporte de nível mundial e do investimento contínuo da Riverbed.
 
 > [!NOTE]
 > A solução SDN ou eCDN escolhida está sujeita aos **Termos de serviço e política de privacidade de terceiros**, que governam o uso da solução do provedor. O uso da solução do provedor não estará sujeito aos termos de licenciamento por volume da Microsoft ou a termos de serviços online. Caso não concorde com os **termos do provedor de terceiros**, não habilite a solução no Teams.
