@@ -1,56 +1,56 @@
 ---
-title: Gerenciar o Elogio aplicativo no Teams de administração
-author: mkbond007
-ms.author: mabond
-manager: serdars
+title: Gerenciar o aplicativo Elogiar no centro de administração do Teams
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: rjam
 audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: Saiba como gerenciar o aplicativo Elogio no centro Microsoft Teams administrador.
-ms.openlocfilehash: e9da2a1903c53f469d6a64c6773715bfe1697743
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Saiba como gerenciar o aplicativo Elogiar no Centro de administração do Microsoft Teams.
+ms.openlocfilehash: 0b2e733478f309df8ff1c8253b21f01f92d800f9
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646270"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842237"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o Elogio aplicativo no centro de Microsoft Teams administrador
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo Elogiar no Centro de administração do Microsoft Teams
 
-O Elogio aplicativo no Microsoft Teams ajuda os usuários a mostrar apreciação aos membros da sua organização ou sala de aula. Os selos Elogio são projetados para ajudar a reconhecer o esforço que vai para a ampla gama de trabalhos que Teams usuários fazem, de educadores a trabalhadores de linha de frente. Para saber mais, confira [Enviar Elogio para as pessoas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
+O aplicativo Elogiar no Microsoft Teams ajuda os usuários a mostrar apreciação aos membros da sua organização ou sala de aula. Os selos em Elogio foram projetados para ajudar a reconhecer o esforço que vai para a ampla gama de trabalhos que os usuários do Teams fazem, de educadores a trabalhadores de linha de frente. Para saber mais, confira [Enviar Elogios às pessoas](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Os administradores devem ter uma Teams para acessar esse recurso. Se você tentar acessar esse recurso sem uma Teams, receberá uma mensagem de erro.
+Os administradores devem ter uma licença do Teams para acessar esse recurso. Se você tentar acessar esse recurso sem uma licença do Teams, receberá uma mensagem de erro.
 
 > [!NOTE]
-> O Elogio está disponível para um ambiente GCC nuvem, mas não para o GCC High ou DoD.
+> O aplicativo Elogiar está disponível para o ambiente de nuvem GCC, mas não para GCC High ou DoD.
 
-## <a name="enable-or-disable-praise-in-your-organization"></a>Habilitar ou desabilitar Elogio em sua organização
+## <a name="enable-or-disable-praise-in-your-organization"></a>Habilitar ou desabilitar o Elogio em sua organização
 
-Elogio é habilitado por padrão para todos os Teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
+O elogio é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de tela da Elogio detalhes do aplicativo no Teams de administração, mostrando a alternância Status.":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de tela da página de detalhes do aplicativo Elogiar no Centro de administração do Teams, mostrando a alternância Status.":::
 
-1. No painel esquerdo do centro de administração Microsoft Teams, acesse Teams **appsManage** > .
-2. Na lista de aplicativos, pesquise o aplicativo Elogio, selecione-o e alterne a alternância **Status** para **Bloqueado** ou **Permitido**.
+1. No painel esquerdo do centro de administração do Microsoft Teams, acesse Aplicativos **do Teams Gerenciar** > **aplicativos**.
+2. Na lista de aplicativos, pesquise o aplicativo Elogiar, selecione-o e alterne a alternância **status** para **Bloqueado** ou **Permitido**.
 
-Tenha em mente que essa configuração afeta o aplicativo Elogio e o recurso Elogio no aplicativo Insights do Viva no Teams.
+Tenha em mente que essa configuração afeta o aplicativo Elogiar e o recurso Elogiar no Insights do Viva aplicativo no Teams.
 
-Se você definir o Status como Bloqueado, o aplicativo Elogio será bloqueado em alguns minutos por Teams. No entanto, o Insights do Viva pode levar de 7 a 9 dias para ser bloqueado.
+Se você definir o Status como Bloqueado, o aplicativo Elogiar será bloqueado em alguns minutos para o Teams. No entanto, o Insights do Viva pode levar de 7 a 9 dias para ser bloqueado.
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar Elogio para usuários específicos em sua organização
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar o Elogio para usuários específicos em sua organização
 
-Para permitir ou impedir que usuários específicos em sua organização usem Elogio, verifique se Elogio está ativado para sua organização na página Gerenciar [aplicativos](manage-apps.md). Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](teams-app-permission-policies.md).
+Para permitir ou impedir que usuários específicos em sua organização usem o Elogiar, verifique se o Elogio está ativado para sua organização na página [Gerenciar aplicativos](manage-apps.md) . Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](teams-app-permission-policies.md).
 
 ## <a name="badges"></a>Emblemas
 
-Este é o conjunto padrão de selos no Elogio. Teams usuários em sua organização podem usar esses selos para reconhecer seus colegas para ir além e acima com seu trabalho.
+Aqui está o conjunto padrão de selos em Elogio. Os usuários do Teams em sua organização podem usar esses selos para reconhecer seus colegas para ir além e acima com seu trabalho.
 
 :::image type="content" source="media/default-set-praise.png" alt-text="Imagem de selos no conjunto de selos padrão.":::
 
 > [!NOTE]
-> A partir de fevereiro de 2022, as pessoas só podem enviar e receber selos padrão. Os selos personalizados não estão mais disponíveis e as opções para selos personalizados foram removidas do Teams de administração.
+> A partir de fevereiro de 2022, as pessoas só podem enviar e receber selos padrão. Os selos personalizados não estão mais disponíveis e as opções de selos personalizados foram removidas do centro de administração do Teams.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[Gerenciar seus aplicativos no Microsoft Teams de administração](manage-apps.md)
+[Gerenciar seus aplicativos no centro de administração do Microsoft Teams](manage-apps.md)

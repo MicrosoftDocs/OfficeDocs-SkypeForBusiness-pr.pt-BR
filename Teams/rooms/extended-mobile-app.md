@@ -18,20 +18,20 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Extensão de aplicativo móvel para Salas do Teams
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: cfeb5573ce164ea136ba3617fe73661f8ac4ca97
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046070"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842317"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>Salas do Teams aplicativo cliente móvel
 
 Pode haver ocasiões em que você precisa gerenciar Salas do Teams Serviços Gerenciados (MTMS) de seu dispositivo móvel. O aplicativo móvel tem muitos recursos que você pode gerenciar em seu dispositivo móvel ou tablet.
 ## <a name="before-you-begin"></a>Antes de você começar
 
-Você deve ser um administrador em uma Microsoft 365 para usar o aplicativo Salas do Teams móvel.
-Baixe o Salas do Teams aplicativo móvel da [Apple App Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8) ou [Google Play Store](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps).
+Você deve ser um administrador em uma organização do Microsoft 365 para usar o Salas do Teams aplicativo móvel.
+Baixe o Salas do Teams aplicativo móvel da [Apple App Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8) ou [da Google Play Store](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps).
 
 **Para obter o aplicativo móvel MTMS**
 
@@ -52,7 +52,7 @@ Aqui estão alguns dos recursos que você tem no aplicativo móvel para gerencia
 
 A página Incidentes mostra os tipos de incidentes abertos.
 
-![Tela da página de incidentes do aplicativo móvel MTMS](../media/mtms-extended-app-001.png)<!-- Imagem aprovada pela Microsoft por author.>
+![Tela da página de incidentes do aplicativo móvel MTMS](../media/mtms-extended-app-001.png)
 
 ## <a name="managing-tickets"></a>Gerenciando tíquetes
 Aqui estão alguns dos recursos que você tem no aplicativo móvel para gerenciar tíquetes.
@@ -99,7 +99,7 @@ Abaixo estão as respostas para perguntas frequentes.
 
 **O que preciso fazer para poder usar o aplicativo?**
 
-Para usar o aplicativo, você precisa ter permissões de administrador e uma assinatura Microsoft 365 válida.
+Para usar o aplicativo, você precisa ter permissões de administrador e uma assinatura válida do Microsoft 365.
 
 
 **Quais idiomas são compatíveis com o aplicativo?**
@@ -116,7 +116,7 @@ Para usar o aplicativo, você precisa ter permissões de administrador e uma ass
 Você pode experimentar algumas etapas comuns de solução de problemas de aplicativo móvel:
 - Feche e reabra o aplicativo.
 - Desinstale e reinstale o aplicativo. Verifique se você está na versão mais recente do aplicativo.
-- Se você tiver Microsoft Authenticator aplicativo portal da empresa ou instalado em seu dispositivo, tente reinstalá-lo ou atualizá-lo para a versão mais recente. Se isso não funcionar, envie um email para feedback365@microsoft.com para nos informar.
+- Se você tiver o Microsoft Authenticator ou o aplicativo portal da empresa instalado em seu dispositivo, tente reinstalá-lo ou atualizá-lo para a versão mais recente. Se isso não funcionar, envie um email para feedback365@microsoft.com para nos informar.
 
 **O que faço se minha pergunta não for respondida?**
 
@@ -126,6 +126,6 @@ O cliente móvel oferece a criação de tíquetes e o gerenciamento de recursos 
 
 **Para usar o Salas do Teams aplicativo móvel**
 
-1. Baixe o aplicativo da Apple [App Store ou na]() [Google Play Store]()
-1. Verifique se você tem uma assinatura Microsoft 365 válida.
+1. Baixe o aplicativo da Apple [App Store google]() [Play Store]()
+1. Verifique se você tem uma assinatura válida do Microsoft 365.
 1. Use suas credenciais de trabalho que você usa para acessar o Salas do Teams da área de trabalho.

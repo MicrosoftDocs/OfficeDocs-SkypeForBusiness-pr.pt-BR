@@ -1,9 +1,9 @@
 ---
 title: Gerenciar o aplicativo Listas para sua organização
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646490"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842227"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Listas para sua organização no Microsoft Teams
 
@@ -60,7 +60,7 @@ Uma agência local dos correios é responsável por classificar e entregar corre
 
 Após a reunião, os entregadores retiram a correspondência e iniciam a rota de entrega. Incidentes podem ocorrer ao longo de uma rota, por exemplo, um acidente de veículo, um problema relacionado a um cachorro ou distúrbios sociais. Quando os entregadores encontram um incidente, elas usam o Teams em seus dispositivos móveis para registrar os detalhes do incidente, que são acompanhados em uma lista no canal de equipe. Todos na equipe, incluindo os entregadores em campo, podem ver essas informações e manter-se informados.
 
-Antes de mudar para o Teams, as transportadoras de email tinham que voltar para os correios para preencher um formulário de cópia embutida para relatar um incidente, que foi então inserido em uma planilha Excel dados. O Teams dá aos entregadores de correspondência uma experiência móvel em que podem usar Listas para relatar incidentes em campo assim que acontecerem, compartilhar detalhes de incidentes com os membros da equipe, ter conversas sobre eles no canal e encaminhar incidentes para resolução.
+Antes de migrar para o Teams, as operadoras de email tinham que voltar para os correios para preencher um formulário de cópia direta para relatar um incidente, que foi inserido em uma planilha do Excel. O Teams dá aos entregadores de correspondência uma experiência móvel em que podem usar Listas para relatar incidentes em campo assim que acontecerem, compartilhar detalhes de incidentes com os membros da equipe, ter conversas sobre eles no canal e encaminhar incidentes para resolução.
 
 ## <a name="what-you-need-to-know-about-lists"></a>O que você precisa saber sobre o Listas
 
@@ -95,7 +95,7 @@ Se os usuários em sua organização criaram listas usando o aplicativo SharePoi
 
 O Listas é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
 
-1. No painel esquerdo do centro de administração Microsoft Teams, acesse Teams **appsManage** > .
+1. No painel esquerdo do centro de administração do Microsoft Teams, acesse Aplicativos **do Teams Gerenciar** > **aplicativos**.
 2. Siga um destes procedimentos:
 
     - Para desativar listas da sua organização, pesquise o aplicativo Listas, selecione-o e selecione **Bloquear**.
@@ -119,7 +119,7 @@ O Listas apoia o [Power Automate](/power-automate/flow-types) para fluxos de tra
 
 ## <a name="give-feedback-or-report-an-issue"></a>Fornecer comentários ou relatar problemas
   
-Para enviar comentários ou relatar um problema, selecione Ajuda  na parte inferior do painel esquerdo no Teams e, em seguida, selecione Relatar **um problema**. Selecione **Listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que você está enfrentando.
+Para nos enviar comentários ou relatar um problema, selecione  Ajuda na parte inferior do painel esquerdo no Teams e, em seguida, selecione Relatar **um problema**. Selecione **Listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que você está enfrentando.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

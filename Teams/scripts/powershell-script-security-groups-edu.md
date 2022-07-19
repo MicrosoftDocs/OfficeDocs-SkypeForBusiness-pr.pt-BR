@@ -1,13 +1,13 @@
 ---
 title: Exemplo de script do PowerShell – Criar grupos de segurança para educadores e alunos em sua escola
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Use este script do PowerShell para criar os grupos de segurança de que você precisa para gerenciar Teams políticas para educadores e alunos em sua escola.
+description: Use este script do PowerShell para criar os grupos de segurança necessários para gerenciar as políticas do Teams para educadores e alunos em sua escola.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 99c4e10cc37513323eb3dcfb8159977b269a667d
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681542"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838786"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemplo de script do PowerShell – Criar grupos de segurança para educadores e alunos em sua escola
 
-Use este script do PowerShell para criar os grupos de segurança que você precisa para gerenciar Microsoft Teams políticas em sua escola. O [recurso de atribuição](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) de política a grupos Teams permite atribuir uma política a um grupo de usuários, como um grupo de segurança. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas.
+Use este script do PowerShell para criar os grupos de segurança necessários para gerenciar as políticas do Microsoft Teams em sua escola. O [recurso de atribuição de](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) política a grupos no Teams permite atribuir uma política a um grupo de usuários, como um grupo de segurança. As atribuições de política serão propagadas para os membros do grupo, de acordo com as regras de precedência. À medida que os membros forem adicionados ou removidos de um grupo, as atribuições de política herdadas serão atualizadas.
 
 Esse script do PowerShell cria dois grupos de segurança, um para funcionários e educadores e outro para alunos em sua escola, com base no tipo de licença. Em seguida, você pode atribuir políticas aos grupos de segurança criados. Para obter mais informações sobre como usar esse script, consulte [Atribuir políticas a grandes conjuntos de usuários em sua escola](../batch-group-policy-assignment-edu.md).
 
@@ -34,7 +34,7 @@ Esse script faz o seguinte:
 
 - Identifica funcionários e educadores que recebem um SKU docente, cria um grupo de segurança e, em seguida, adiciona funcionários e educadores ao grupo.
 - Identifica os alunos que recebem uma SKU de Aluno, cria um grupo de segurança e, em seguida, adiciona os alunos ao grupo.
-- Atualiza a associação de cada grupo de segurança para adicionar ou remover funcionários, educadores e alunos com base em se eles têm uma licença.
+- Atualizações associação de cada grupo de segurança para adicionar ou remover funcionários, educadores e alunos com base em se eles têm uma licença.
 
 Você precisará executar esse script regularmente para manter os grupos de segurança atualizados e atualizados.
 
@@ -45,7 +45,7 @@ Você precisará executar esse script regularmente para manter os grupos de segu
 
 Baixe e instale o [módulo Skype for Business Online do PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) e reinicie o computador, se solicitado.
 
-Para se inclinar mais, consulte [Gerenciar Skype for Business Online com Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) e [Teams PowerShell.](../teams-powershell-overview.md)
+Para se inclinar mais, consulte [Gerenciar Skype for Business Online com Office 365 do PowerShell e](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) do [Teams PowerShell](../teams-powershell-overview.md).
 
 
 ## <a name="sample-script"></a>Script de exemplo

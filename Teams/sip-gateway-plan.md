@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: bbb03bcf092d1379065ced1d95e3aa61980febcc
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794679"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838996"
 ---
 # <a name="plan-for-sip-gateway"></a>Planejar o Gateway SIP
 
@@ -52,6 +52,9 @@ O Gateway SIP conecta dispositivos SIP compatíveis ao Teams para ajudar os usu�
 ## <a name="requirements-to-use-sip-gateway"></a>Requisitos para usar o Gateway SIP
 
 Os usuários do Teams devem ter um número de telefone com chamada PSTN habilitada para usar o Gateway SIP.
+
+> [!NOTE]
+> O Gateway SIP não está disponível para ambientes governamentais (GCC, GCC High e DoD).
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, software e licenças
 

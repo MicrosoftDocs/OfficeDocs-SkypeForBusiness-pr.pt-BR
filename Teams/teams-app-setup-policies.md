@@ -19,26 +19,26 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: b97f6c490f562cbd860e6c69a09e3659340dea99
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819456"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838796"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
-Como administrador, você usa políticas de configuração de aplicativo para instalar e fixar aplicativos e permitir que os usuários carreguem aplicativos personalizados. A fixação ajuda a promover a adoção de aplicativos relevantes em sua organização.
+Como administrador, você usa políticas de configuração de aplicativo para instalar e fixar aplicativos e permite que os usuários carreguem aplicativos personalizados. A fixação ajuda a promover a adoção de aplicativos relevantes em sua organização.
 
 * **Fixar aplicativos:** As políticas de configuração de aplicativo permitem que você escolha aplicativos para fixar, defina a ordem em que os aplicativos aparecem para seus usuários na barra de aplicativos do Teams ou na área de mensagem de composição. Os administradores também podem controlar se os usuários finais podem fixar seus próprios aplicativos ou não. Consulte [Fixar aplicativos](#pin-apps).
-* **Instalar aplicativos:** As políticas de configuração de aplicativo permitem que você instale aplicativos em nome dos usuários quando eles iniciam o Teams e durante as reuniões. Para obter mais informações, consulte [Instalar aplicativos](#install-apps).
+* **Instalar aplicativos:** As políticas de configuração de aplicativo permitem que você instale os aplicativos permitidos em nome dos usuários quando eles iniciam o Teams e durante as reuniões. Para obter mais informações, consulte [Instalar aplicativos](#install-apps).
 * **Carregar aplicativos personalizados:** As políticas de configuração de aplicativo permitem que os usuários carreguem aplicativos personalizados no Teams. Para obter mais informações, consulte [Carregar aplicativos personalizados](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>Fixar aplicativos
 
-Fixar aplicativos permite realçar os aplicativos que os usuários em sua organização mais precisam. A fixação funciona para aplicativos fornecidos pela Microsoft, por empresas ISV e por desenvolvedores em sua organização. Fixar um aplicativo por meio de uma política de configuração de aplicativo também o instala. Usando uma política de configuração de aplicativo, você pode realizar as seguintes tarefas:
+Fixar aplicativos permite realçar os aplicativos que os usuários em sua organização mais precisam. A fixação funciona para aplicativos fornecidos pela Microsoft, por empresas ISV e por desenvolvedores em sua organização. Fixar um aplicativo por meio de uma política de configuração de aplicativo também o instala, se o aplicativo for permitido para o usuário. Usando uma política de configuração de aplicativo, você pode realizar as seguintes tarefas:
 
-* Personalize o Teams para destacar os aplicativos mais importantes para os usuários. Escolha os aplicativos a serem fixados e defina a ordem em que eles aparecem.
+* Personalize o Microsoft Teams para os usuários finais para realçar os aplicativos mais importantes para eles. Você escolhe os aplicativos a serem fixados e a ordem em que os aplicativos são exibidos.
 * Controle se os usuários podem fixar aplicativos ou não.
 
 Os aplicativos são fixados na barra de aplicativos no lado esquerdo do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams.
@@ -51,7 +51,7 @@ As extensões de mensagens estão disponíveis na parte inferior da área de men
 
 Para criar uma política de configuração de aplicativo para fixar aplicativos, siga estas etapas:
 
-1. Faça logon no [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com).
+1. Entre no Centro [de administração do Microsoft Teams](https://admin.teams.microsoft.com).
 
 1. No painel esquerdo, acesse políticas de Instalação de **aplicativos** > **do** Teams.
 
@@ -88,13 +88,12 @@ Usando uma política de configuração de aplicativo, um administrador pode real
 
 * Instale aplicativos para usuários finais em seu ambiente pessoal do Teams, por padrão.
 * Instale aplicativos para usuários finais como [extensões de mensagens](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
-* Instale aplicativos em reuniões para organizadores de reuniões.
 
 Os usuários finais poderão instalar aplicativos por conta própria se a política [de permissão do](teams-app-permission-policies.md) aplicativo permitir.
 
 Para criar uma política de configuração de aplicativo para instalar aplicativos, siga estas etapas:
 
-1. Faça logon no centro de administração do Teams e acesse as políticas **de Instalação de aplicativos** > **do** Teams.
+1. Entre no centro de administração do Teams e acesse as políticas **de Instalação de aplicativos** > **do** Teams.
 
 2. Selecione **Adicionar**.
 
@@ -118,7 +117,7 @@ Para criar uma política de configuração de aplicativo para instalar aplicativ
 
 Para criar uma política personalizada para permitir que os usuários carreguem aplicativos personalizados, siga estas etapas:
 
-1. Faça logon no centro de administração do Teams e acesse as políticas **de Instalação de aplicativos** > **do** Teams.
+1. Entre no centro de administração do Teams e acesse as políticas **de Instalação de aplicativos** > **do** Teams.
 
 2. Selecione **Adicionar**.
 
@@ -201,7 +200,7 @@ Para exibir todos os aplicativos fixados para um usuário, os usuários podem te
 
 Os clientes móveis do Teams (iOS e Android) dão suporte a aplicativos pessoais com guias estáticas. Os aplicativos fixados no cliente da área de trabalho do Teams aparecerão nos clientes móveis do Teams. Os bots pessoais aparecerão no Chat em clientes móveis.
 
-Aplicativos de terceiros (que podem ser baixados da Loja do Teams) precisam ser aprovados antes de serem mostrados no celular. Se um administrador fixar um aplicativo, que não foi aprovado pela Microsoft para Dispositivos Móveis, ele aparecerá na Área de Trabalho do Teams, mas não aparecerá no celular. Consulte [Clientes móveis para](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) obter mais informações.
+Aplicativos de terceiros (que podem ser baixados da Loja do Teams) precisam ser aprovados antes de serem mostrados no celular. Se um administrador fixar um aplicativo, que não foi aprovado pela Microsoft para Dispositivos Móveis, ele aparecerá na Área de Trabalho do Teams, mas não aparecerá no celular. Para obter mais informações, consulte [Clientes móveis](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients).
 
 Com os clientes móveis do Teams, os usuários verão os principais aplicativos do Teams, como Atividade, Chat e Teams, e você poderá fixar alguns aplicativos internos da Microsoft, como Turnos.
 
