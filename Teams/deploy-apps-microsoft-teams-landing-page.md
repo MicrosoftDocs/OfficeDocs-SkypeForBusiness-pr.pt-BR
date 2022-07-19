@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615857"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838856"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Sobre aplicativos no Microsoft Teams
 
@@ -83,9 +83,15 @@ Os desenvolvedores podem fazer sideload de um aplicativo para disponibilizá-lo 
 
 Se você não permitir o sideload, os desenvolvedores ainda poderão testar seus aplicativos em um [locatário de teste](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Após a conclusão do desenvolvimento de aplicativos personalizados, os desenvolvedores solicitam que os administradores distribuam seus aplicativos personalizados para os usuários finais. Para obter detalhes, confira [como publicar um aplicativo personalizado](/microsoftteams/upload-custom-apps). Como administrador, você pode permitir ou não o uso de um aplicativo personalizado para usuários específicos.
 
-### <a name="about-app-templates"></a>Sobre Modelos de Aplicativo
+## <a name="about-app-templates"></a>Sobre Modelos de Aplicativo
 
-Os modelos de aplicativo para o Teams são aplicativos de exemplo funcionais e prontos para produção criados pela Microsoft para ilustrar casos de uso populares, demonstrar as práticas recomendadas de desenvolvimento de aplicativos e fornecer aplicativos de código aberto que os desenvolvedores podem estender à criação de aplicativos personalizados. Os desenvolvedores de sua organização personalizam Modelos de Aplicativo para as necessidades da organização com alterações simples no código disponível no GitHub. Como administrador, você fornece esses aplicativos como aplicativos personalizados para os usuários finais.
+Os modelos de aplicativo para o Teams são aplicativos de exemplo funcionais e prontos para produção criados pela Microsoft para realizar o seguinte:
+
+* Ilustrar os casos de uso populares
+* Demonstrar as práticas recomendadas de desenvolvimento de aplicativos
+* Fornecer aplicativos de software livre que os desenvolvedores podem estender para criar aplicativos personalizados
+
+Os desenvolvedores de sua organização personalizam Modelos de Aplicativo com alterações simples no código disponível no GitHub. Você fornece esses aplicativos como aplicativos personalizados para seus usuários finais, para atender às necessidades de qualquer organização.
 
 Para saber mais, confira [Modelos de Aplicativo do Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 

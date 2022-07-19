@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823543"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838846"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -178,3 +178,6 @@ A tabela a seguir lista os dispositivos verificados para interoperabilidade entr
 Observe a certificação concedida a uma versão principal. Isso significa que há suporte para o firmware com qualquer número no firmware SBC após a versão principal.
 
 Para fornecer comentários sobre o Microsoft Teams, como ideias para novos recursos, consulte o [portal de comentários da Microsoft](https://feedbackportal.microsoft.com/).
+
+> [!NOTE]
+> Não há suporte para o direcionamento de mídia. Durante uma chamada de Roteamento Direto, se o SBC enviar um novo IP de mídia para o Roteamento Direto do Teams, embora seja negociado na sinalização SIP, a mídia nunca será enviada para o novo endereço IP do Roteamento Direto do Teams.
