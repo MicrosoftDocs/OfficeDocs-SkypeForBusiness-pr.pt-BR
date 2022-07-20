@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8172db3e67ad895427e90ed3821e1c6fb61f5df9
-ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
+ms.openlocfilehash: 43a75e22fd5d42af50651151cde2876474300c4b
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "66190486"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880405"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Validação executada pela Microsoft para todos os aplicativos do Teams
 
@@ -41,7 +41,7 @@ Para conhecer as diretrizes detalhadas de validação às quais os desenvolvedor
 Executamos mais de 400 casos de teste para cada aplicativo antes que ele seja disponibilizado na Teams Store. Os testes garantem funcionalidade, experiência do usuário e segurança adequadas, além de garantir que todos os aplicativos estejam em conformidade com as políticas de CMO listadas publicamente. A seguir estão alguns dos testes realizados pela equipe de validação de aplicativos da Microsoft para cada aplicativo antes de serem publicados:
 
 * Certifique-se de que as permissões do Graph solicitadas pelo aplicativo são realmente as que a funcionalidade do aplicativo precisa e não quaisquer permissões extras. As permissões do Graph para aplicativos existentes são verificadas regularmente para garantir que nenhuma permissão extra seja necessária por um aplicativo.
-* Os aplicativos que exigem que os usuários entrem têm uma opção de saída.
+* Os aplicativos que exigem que os usuários façam login têm uma opção de saída.
 * Todos os fornecedores de aplicativos passam por um processo de verificação detalhada no Microsoft Partner Center. A verificação inclui verificação de email, verificação de negócios e muito mais. Para saber mais sobre a publicação de aplicativos, consulte [Como os desenvolvedores criam uma conta no Partner Center](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Guia de envio para desenvolvedores](/office/dev/store/add-in-submission-guide) e [Como os desenvolvedores publicam aplicativos](https://aka.ms/PublishToTeamsStore).
 * Somente aplicativos de fornecedores verificados podem buscar permissões do Graph de usuários finais.
 * Nenhum aplicativo pode baixar um arquivo executável.
