@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1a9058dbd583c9d795d04f27b43995c75095e80d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: fb621661ab8b5b8ace8a965e77513cd72966cf23
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647663"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880365"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 
@@ -49,7 +49,7 @@ Depois que uma chamada automática de atendedor ou fila de chamadas é atendida,
 > [!NOTE] 
 > Chamadas de fila de chamadas não são encaminhadas com base na configuração de regras de atendimento de chamadas do usuário. Isso é para garantir que os chamadores permaneçam na fila até que um agente possa atender à chamada e o chamador não seja encaminhado inesperadamente.
 >
-> Os usuários que recebem chamadas de atendedores automáticos e filas de chamadas só serão apresentados com o nome do chamador se ele for fornecido do PSTN ou se o número do chamador corresponder aos contatos do cliente local da Equipe do usuário de destino.
+> Os usuários que recebem chamadas de filas de chamadas só serão apresentados com o nome do chamador se ele for fornecido do PSTN ou se o número do chamador corresponder aos contatos do cliente local da Equipe do usuário de destino.
 >
 > Os agentes não são notificados sobre chamadas perdidas ou mensagens de voz para chamadas de fila de chamadas.
 

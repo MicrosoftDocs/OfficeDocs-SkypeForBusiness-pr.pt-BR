@@ -15,22 +15,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre como os administradores de TI podem configurar, usar e gerenciar q&A no Teams Q&A para uma abordagem estruturada para coletar perguntas, organizar discussões, excluir mensagens individuais, usar idiomas disponíveis e entender o ciclo de vida de dados, bem como políticas de retenção e exclusão de dados.
-ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713439"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880425"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>Gerenciar Q&A em reuniões do Teams
 
-As&A permitem que os apresentadores tirem dúvidas dos participantes e as respondam em tempo real. Esse recurso é mais adequado para reuniões grandes e estruturadas, como Prefeituras, Webinars, Todas as Mãos e treinamentos.
+As&A permitem que os apresentadores tirem dúvidas dos participantes e respondam-nas em tempo real. Esse recurso é mais adequado para reuniões grandes e estruturadas, como Prefeituras, Webinars, Todas as Mãos e treinamentos.
 
 Este artigo descreve como gerenciar as&A e as políticas de nível de usuário, que determinam se um organizador pode habilitar o Teams Q&A em suas reuniões.
-
-> [!NOTE]
-> Esse recurso está atualmente em versão prévia privada e não está acessível publicamente. Se você quiser participar do programa de visualização privada, inscreva-se [aqui.](https://m365crmedu.powerappsportals.com/LMSSignup/)
-
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -47,12 +43,12 @@ As&A podem ser usadas pelos seguintes tipos de usuário:
 - Usuário federado – um usuário com credenciais do Microsoft 365 para um locatário diferente.
 - Usuário convidado – todos os convidados que você adicionar ao Microsoft Teams, SharePoint ou Azure Active Directory.
 
-Quando os administradores habilitam o Q&A, os usuários com a função organizador podem ativar o Q&A ao criar ou atualizar reuniões. Por meio das opções de reunião do Teams e do Outlook, os organizadores também podem remover o Q&A das reuniões em que ele foi adicionado anteriormente para impedir que os participantes usem o recurso.
+> [!NOTE]
+> As&A não estarão disponíveis para Exibir Somente Os Participantes que ingressarem após a capacidade da reunião.
+
+Quando os administradores habilitam o Q&A, os usuários [](https://aka.ms/GetQnA) com a função organizador podem ativar o Q&A ao criar ou atualizar reuniões. Por meio das opções de reunião do Teams e do Outlook, os organizadores também podem remover o Q&A das reuniões em que ele foi adicionado anteriormente para impedir que os participantes usem o recurso.
 
 ## <a name="use-the-teams-admin-center-to-manage-qa"></a>Usar o centro de administração do Teams para gerenciar o Q&A
-
-> [!NOTE]
-> O gerenciamento&A no centro de administração não está disponível na Visualização Pública. Use o PowerShell para configurar e gerenciar o Q&A para seus usuários.
 
 Sua organização pode ter requisitos para limitar quais organizadores podem ativar o Q&A. Você pode usar o centro de administração do Teams para gerenciar quais organizadores podem ativar o Q&A em grandes reuniões.
 Siga estas etapas para controlar quais organizadores podem usar o Q&A:
@@ -155,4 +151,23 @@ A retenção de conteúdo segue as políticas de retenção definidas para o Yam
 
 **P: Qual é a diferença entre configurar o Q&A por meio da Loja de Aplicativos do Teams em vez de usar as Opções de Reunião?**
 
-**Um:** Embora não haja nenhuma diferença para a experiência do usuário participante e moderador, o Q&A deve ser configurado somente usando opções de reunião. O aplicativo Q&A na loja de aplicativos do Teams será preterido até o final de 2022, portanto, é melhor usar as Opções de Reunião para configurar o Q&A em suas reuniões.
+**Um:** Simplificamos a habilitação do Q&A por meio de Opções de Reunião. A partir de agosto de 2022, o aplicativo Q&A na loja de aplicativos do Teams não terá mais suporte, portanto, o Q&A só deve ser habilitado por meio de Opções de Reunião. Se você for o organizador de reuniões em que o Q&A foi habilitado por meio da loja de aplicativos do Teams, remova o aplicativo Q&A e, em vez disso, habilite apenas por meio das Opções de Reunião.
+
+**P: Por que estou vendo dois ícones de Q&A em minha reunião?**
+
+**Um:** Você está vendo dois ícones de Q&A em sua reunião porque o Q&A também foi habilitado por meio de Opções de Reunião. Remova o aplicativo Q&A que foi adicionado por meio do teams App Store usando as instruções abaixo. Faça isso em todas as suas reuniões em que você adicionou o Q&A por meio da loja de aplicativos do Teams.
+
+**Como remover o aplicativo Q&Um que foi adicionado da loja de aplicativos do Teams.**
+
+1. No Teams Desktop, participe da reunião em que você adicionou o Q&A.
+
+2. No painel superior, selecione a segunda ocorrência do ícone Q&A na janela Reunião do Teams – essa é a experiência do Q&A que foi adicionada por meio do Teams App Store.
+
+3. Com a guia Q&A selecionada, clique nas reticências e clique em "Remover". Isso removerá o Q&uma experiência que foi adicionada por meio da loja de aplicativos do Teams.
+
+4. Clique em "Remover" para remover permanentemente o Q&uma experiência que foi adicionada por meio da loja de aplicativos do Teams.
+
+> [!NOTE]
+> Somente o aplicativo Q&A adicionado por meio da loja de aplicativos do Teams terá reticências para remover o aplicativo Q&A. O Q&uma experiência habilitada por meio de Opções de Reunião não terá reticências e não poderá ser removido daqui.
+
+É isso! Agora há apenas um Q&uma experiência – da plataforma Opções de Reunião. O aplicativo Q&A adicionado por meio da loja de aplicativos do Teams foi removido.

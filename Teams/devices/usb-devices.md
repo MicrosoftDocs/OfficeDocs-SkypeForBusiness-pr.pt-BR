@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789156"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880385"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -74,13 +74,14 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em junho de 2022*
+*Tabela atualizada em julho de 2022*
 
 > [!NOTE]
 > O formato de data é MMDDYYYY.
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Dock Speakerphone                                          |7/13/2022       |Certificado para o Microsoft Teams                           |
 |Dell                 |Câmera WB5023                                              |6/29/2022       |Certificado para o Microsoft Teams                           |
 |EPOS                 |Headset ADAPT 560 II                                       |6/22/2022       |Certificado para o Microsoft Teams                           |
 |EPOS                 |Headsets da série C10/C20/C50                                |5/31/2022       |Certificado para o Microsoft Teams                           |

@@ -21,29 +21,29 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-description: Saiba mais sobre como a Audioconferência Microsoft 365 ou Office 365 permite que os usuários liguem para reuniões de seus telefones.
-ms.openlocfilehash: 11e1e493db38b5e830b3334f659d23f86b6b56ba
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+description: Saiba mais sobre como a Audioconferência no Microsoft 365 ou Office 365 permite que os usuários liguem para reuniões de seus telefones.
+ms.openlocfilehash: 1a03faf129a40d61605474e95c759067ce20841e
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016992"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884900"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Configurações de política de audioconferência para números de chamada tarifada e gratuita
 
-## <a name="teams-audio-conferencing-policy"></a>Teams de Audioconferência
+## <a name="teams-audio-conferencing-policy"></a>Política de Audioconferência do Teams
 
-Use políticas de audioconferência para gerenciar números de chamada tarifada e gratuita de audioconferência a serem exibidos em convites de reunião criados por usuários em sua organização. Você pode usar uma das duas políticas criadas automaticamente ou criar e atribuir políticas personalizadas. As duas políticas criadas automaticamente são globais (padrão em toda a organização) e AllowTollFreeDialinFalse (atribuídas a todos os usuários existentes na organização que não estão habilitados para números de discagem gratuita). Você gerencia políticas de audioconferência no Microsoft Teams de administração ou usando o [PowerShell](teams-powershell-overview.md).
+Use políticas de audioconferência para gerenciar números de chamada tarifada e gratuita de audioconferência a serem exibidos em convites de reunião criados por usuários em sua organização. Você pode usar uma das duas políticas criadas automaticamente ou criar e atribuir políticas personalizadas. As duas políticas criadas automaticamente são globais (padrão em toda a organização) e AllowTollFreeDialinFalse (atribuídas a todos os usuários existentes na organização que não estão habilitados para números de discagem gratuita). Você gerencia políticas de audioconferência no centro de administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
 
-- A configuração de AllowTollFreeDialin não pode mais ser gerenciada para um usuário individual por meio do Teams de administração ou do PowerShell. Os administradores de locatários só poderão gerenciar essa configuração por meio da nova política de audioconferência.
-- A política global não pode ser modificada do centro Teams administrador.
+- A configuração de AllowTollFreeDialin não pode mais ser gerenciada para um usuário individual por meio do Centro de administração do Teams ou do PowerShell. Os administradores de locatários só poderão gerenciar essa configuração por meio da nova política de audioconferência.
+- A política global não pode ser modificada do centro de administração do Teams.
 
-Quando uma Teams de audioconferência estiver habilitada no locatário, haverá duas políticas criadas automaticamente disponíveis no locatário. As duas políticas criadas automaticamente e suas configurações padrão são:
+Quando uma política de audioconferência do Teams estiver habilitada no locatário, haverá duas políticas criadas automaticamente disponíveis no locatário. As duas políticas criadas automaticamente e suas configurações padrão são:
 
 ### <a name="global-org-wide-default"></a>Global (padrão em toda a organização)
 
 Nesta política, o valor de **AllowTollfreedialin** será definido como ON e não haverá nenhum número de telefone definido na política. Essa será a Política padrão para todos os usuários no locatário que, no momento do lançamento, têm **AllowTollfreedialin** definido como **Ativado**.
-Como a política não tem nenhum número de telefone definido, quando os usuários dessa política criam uma reunião do Teams, os números de telefone disponíveis na reunião serão os mesmos números de telefone que os usuários tinham antes da política. Esses números de telefone normalmente são padrão para o país/local do usuário, a menos que sejam alterados pelo administrador do locatário para usuários individuais.
+Como a política não tem nenhum número de telefone definido, quando os usuários dessa política criam uma reunião do Teams, os números de telefone disponíveis em sua reunião serão os mesmos números de telefone que os usuários tinham antes da política. Esses números de telefone normalmente são padrão para o país/local do usuário, a menos que sejam alterados pelo administrador do locatário para usuários individuais.
 
 Por exemplo, se um usuário da Alemanha tiver o número de telefone de chamada tarifada e gratuita da Alemanha atribuído antes do lançamento da política de Audioconferência, no início, o usuário receberá a política global e os números de telefone que ele continuará vendo no convite da reunião serão os mesmos de antes da aplicação da política (ou seja,  os números de chamada tarifada e gratuita alemãs). Um usuário final não verá nenhuma alteração quando a política for iniciada. No entanto, se um administrador de locatários modificar a Política Global e incluir números de telefone específicos na política que são diferentes de antes, todos os usuários da política verão apenas os números de telefone incluídos na política em todas as reuniões agendadas.
 
@@ -64,7 +64,7 @@ Por exemplo, se um usuário da Alemanha tiver um número de telefone de chamada 
 
 Uma visão geral das etapas:
 
-1. No painel de navegação esquerdo do centro de administração Microsoft Teams, vá para Reuniões > Audioconferência.
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para Reuniões > Audioconferência.
 1. Selecione Adicionar.
 1. Insira o nome e a descrição da política. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres.
 1. Escolha as configurações que deseja.
@@ -76,7 +76,7 @@ Isso garante que os números de telefone que você selecionou para Canadá, Bots
 
 ### <a name="step-by-step-instructions-on-creating-a-custom-policy-based-on-the-example"></a>Instruções passo a passo sobre como criar uma política personalizada com base no exemplo
 
-1. No painel de navegação esquerdo do Microsoft Teams de administração, acesse a conferência **MeetingsAudio** > .
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, acesse **a** > **Audioconferência de Reuniões**.
 2. Selecione **Adicionar**.
 3. Insira o nome e a descrição da política. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres.
 4. Escolha se deseja ou não incluir números de chamada gratuita em reuniões criadas por usuários dessa política. Definir isso como **Ativado** permitirá que você adicione números de telefone gratuitos nesta política.
@@ -94,9 +94,9 @@ Isso garante que os números de telefone que você selecionou para Canadá, Bots
 
 ## <a name="edit-a-meeting-policy"></a>Editar uma política de retenção
 
-Você pode editar todas as políticas personalizadas que criar. (Observe que a política global não pode ser editada no Teams de administração)
+Você pode editar todas as políticas personalizadas que criar. (Observe que a política global não pode ser editada no centro de administração do Teams)
 
-1. No painel de navegação esquerdo do Microsoft Teams de administração, acesse a conferência **MeetingsAudio** > .
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, acesse **a** > **Audioconferência de Reuniões**.
 1. Escolha a política que você deseja editar selecionando à esquerda do nome da política e, em seguida, **selecionando Editar**.
 1. Faça edições.
 1. Selecione **Salvar**.
@@ -115,6 +115,9 @@ Para saber mais sobre as diferentes maneiras de atribuir políticas aos usuário
 
 > [!NOTE]
 > Um usuário pode receber apenas uma política de audioconferência por vez.
+
+> [!IMPORTANT]
+> Pode levar até 24 horas para que os números de telefone atribuídos apareçam no convite da reunião. Se você não estiver vendo os números atualizados serem exibidos, aguarde pelo menos 24 horas antes de entrar em contato com o suporte.
 
 ### <a name="known-issue"></a>Problema conhecido
 
