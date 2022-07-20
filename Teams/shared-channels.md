@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773760"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884910"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -157,6 +157,8 @@ As seguintes limitações também se aplicam:
 - Quando você cria uma equipe de uma equipe existente, os canais compartilhados na equipe existente não serão copiados.
 
 - As notificações de canais compartilhados não estão incluídas nos e-mails das atividades perdidas.
+
+- Não há suporte para canais compartilhados em equipes de classe.
 
 ## <a name="supported-apps-in-shared-channels"></a>Aplicativos com suporte em canais compartilhados
 
