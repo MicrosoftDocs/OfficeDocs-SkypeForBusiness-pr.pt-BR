@@ -19,16 +19,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838856"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880375"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Sobre aplicativos no Microsoft Teams
 
-Os aplicativos são uma ótima maneira de reunir suas ferramentas e serviços do local de trabalho e colaborar com outras pessoas. Os aplicativos ajudam os usuários finais a serem mais produtivos, colaborativos e eficazes em suas tarefas diárias. As organizações usam aplicativos para se conectar com seus clientes, fornecer serviços e compartilhar informações. Os aplicativos permitem que os usuários sejam mais eficazes em chats, reuniões e canais do Teams. Exemplos são os usuários finais que usam um Calendário fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots informando os usuários de QoS sobre um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal.
+Os aplicativos são uma ótima maneira de reunir suas ferramentas e serviços do local de trabalho e colaborar com outras pessoas. Os aplicativos ajudam os usuários finais a serem mais produtivos, colaborativos e eficazes em suas tarefas diárias. As organizações usam aplicativos para se conectar com seus clientes, fornecer serviços e compartilhar informações. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal.
 
 Nossa ampla seleção de aplicativos validados e seguros na loja fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados. Os usuários finais podem usar aplicativos no Teams com base apenas nas [permissões](https://admin.teams.microsoft.com/policies/app-permission) fornecidas por você. Como administrador, basta aprovar ou bloquear o uso de qualquer aplicativo para os usuários da sua organização. Você controla a disponibilidade de aplicativos para todos os usuários em reuniões, chats e canais.
 
@@ -57,15 +57,15 @@ Algumas funcionalidades padrão, como feed de atividades, chat, calendário, cha
 
 A Microsoft fornece muitos aplicativos para melhorar a produtividade e a colaboração. Você e os usuários finais podem encontrar esses aplicativos procurando a Microsoft listada como o Publicador no centro de administração ou listadas como Provedor na loja do Teams.
 
-O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas, Elogiar, Aprovações e muito mais. Recomendamos que você inclua os aplicativos do Microsoft Teams - como o Planner - na implementação inicial do Microsoft Teams.
+O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas, Elogiar, Aprovações e muito mais. Recomendamos que você inclua os aplicativos em destaque—como o Planner—em sua distribuição inicial do Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Aplicativos da Microsoft no centro de administração do Microsoft Teams." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de tela de aplicativos da Microsoft no centro de administração do Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Aplicativos de terceiros validados pela Microsoft
 
 Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de terceiros certificados pela Microsoft. A Microsoft valida a funcionalidade e a segurança desses aplicativos antes de disponibilizar esses aplicativos na loja do Teams. Para entender os benefícios da validação do aplicativo, consulte a [validação de aplicativos de terceiros](overview-of-app-validation.md).
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Um exemplo de aplicativos de terceiros na loja do Teams":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Captura de tela de um exemplo de aplicativos de terceiros na loja do Teams.":::
 
 ## <a name="custom-apps"></a>Aplicativos personalizados
 
@@ -73,23 +73,23 @@ Os aplicativos criados por desenvolvedores em sua organização são chamados de
 
 Depois que um administrador permite o uso de aplicativos personalizados, os usuários finais encontram esses aplicativos clicando em **Criado para sua organização** na navegação à esquerda da loja do Teams.
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Aplicativos personalizados na loja do Teams no aplicativo da área de trabalho do Teams" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de tela de aplicativos personalizados na loja do Teams no aplicativo de desktop do Teams." lightbox="media/built-for-your-org2.png":::
 
 ### <a name="understand-sideloading-of-custom-apps"></a>Entender o sideload de aplicativos personalizados
 
-Ao desenvolver aplicativos personalizados e antes de distribuí-los aos usuários finais, os desenvolvedores testam os aplicativos adicionando-os à loja para testá-los por conta própria ou com uma equipe na qual eles fazem sideload do aplicativo. Esse método é chamado de sideload de aplicativos e se aplica somente a aplicativos personalizados.
+Ao desenvolver aplicativos personalizados e antes de distribuí-los aos usuários finais, os desenvolvedores testam os aplicativos adicionando-os à loja para testar por conta própria ou com uma equipe na qual eles carregam o aplicativo. Esse método é chamado de sideload de aplicativos e se aplica somente a aplicativos personalizados.
 
-Os desenvolvedores podem fazer sideload de um aplicativo para disponibilizá-lo para os membros de uma equipe específica, normalmente para testar um aplicativo em desenvolvimento. Isso não exigirá aprovação do administrador se o sideload for permitido. Como administrador, você pode não permitir o sideload para qualquer desenvolvedor.
+Os desenvolvedores podem fazer sideload de um aplicativo para disponibilizá-lo aos membros de uma equipe específica, normalmente para testar um aplicativo em desenvolvimento. Usar um aplicativo dessa maneira limita seu uso aos desenvolvedores de aplicativos e não requer aprovação do administrador, desde que o administrador permita o sideload no Teams. Como administrador, você pode proibir o sideload do aplicativo para todos os desenvolvedores.
 
-Se você não permitir o sideload, os desenvolvedores ainda poderão testar seus aplicativos em um [locatário de teste](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Após a conclusão do desenvolvimento de aplicativos personalizados, os desenvolvedores solicitam que os administradores distribuam seus aplicativos personalizados para os usuários finais. Para obter detalhes, confira [como publicar um aplicativo personalizado](/microsoftteams/upload-custom-apps). Como administrador, você pode permitir ou não o uso de um aplicativo personalizado para usuários específicos.
+Se você não permitir o sideload, os desenvolvedores ainda poderão testar seus aplicativos [criando um locatário de teste separado](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Após a conclusão do desenvolvimento de aplicativos personalizados, os desenvolvedores solicitam que os administradores distribuam seus aplicativos personalizados para os usuários finais. Para obter detalhes, confira [como publicar um aplicativo personalizado](/microsoftteams/upload-custom-apps). Como administrador, você pode permitir ou não o uso de um aplicativo personalizado para usuários específicos.
 
 ## <a name="about-app-templates"></a>Sobre Modelos de Aplicativo
 
 Os modelos de aplicativo para o Teams são aplicativos de exemplo funcionais e prontos para produção criados pela Microsoft para realizar o seguinte:
 
-* Ilustrar os casos de uso populares
-* Demonstrar as práticas recomendadas de desenvolvimento de aplicativos
-* Fornecer aplicativos de software livre que os desenvolvedores podem estender para criar aplicativos personalizados
+* Ilustre os casos de uso populares.
+* Apresente as práticas recomendadas de desenvolvimento de aplicativos.
+* Forneça aplicativos de código aberto que os desenvolvedores possam estender para criar aplicativos personalizados.
 
 Os desenvolvedores de sua organização personalizam Modelos de Aplicativo com alterações simples no código disponível no GitHub. Você fornece esses aplicativos como aplicativos personalizados para seus usuários finais, para atender às necessidades de qualquer organização.
 
@@ -97,7 +97,7 @@ Para saber mais, confira [Modelos de Aplicativo do Microsoft Teams](https://adop
 
 ## <a name="understand-app-capabilities"></a>Entender os recursos do aplicativo
 
-Para fornecer experiências avançadas que permitem que os usuários finais trabalhem dentro do Teams, os desenvolvedores de aplicativos aproveitam os recursos de aplicativo a seguir. As extensões de mensagens permitem que os usuários interajam com o cliente do Teams do serviço Web. Eles pesquisam ou iniciam ações em um sistema externo. Você pode enviar o resultado da interação para o cliente do Teams como um cartão com formatação avançada. A reunião de aplicativos de extensibilidade integra os aplicativos de um desenvolvedor em reuniões e oferece uma experiência dinâmica na reunião.
+Para fornecer experiências avançadas que permitem que os usuários finais trabalhem no Teams, os desenvolvedores de aplicativos usam os seguintes recursos de aplicativo. As extensões de mensagens permitem que os usuários interajam com o cliente do Teams do serviço Web. Eles pesquisam ou iniciam ações em um sistema externo. Você pode enviar o resultado da interação para o cliente do Teams como um cartão com formatação avançada. A reunião de aplicativos de extensibilidade integra os aplicativos de um desenvolvedor em reuniões e oferece uma experiência dinâmica na reunião.
 
 Os bots também são chamados de chatbot ou bot de conversa. É um aplicativo que executa tarefas simples e repetitivas. Uma interação de bot pode ser uma pergunta e resposta rápidas ou pode ser uma conversa complexa que fornece acesso a serviços ou assistência. Os usuários podem conversar com um bot individualmente ou em um canal. Por exemplo, você pode usar o aplicativo Polly para criar pesquisas rápidas, obter comentários e fazer uma avaliação do clima empresarial.
 

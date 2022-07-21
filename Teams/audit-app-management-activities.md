@@ -15,12 +15,12 @@ description: Saiba como auditar as atividades do aplicativo Teams de usuários e
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 54cf634fb8da78081023fad3940daf4ef33450c2
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647838"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880395"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Auditoria para atividades e eventos de gerenciamento de aplicativos
 
@@ -72,6 +72,7 @@ Depois de pesquisar o sinal de auditoria no portal de conformidade, você pode e
 
 ## <a name="see-also"></a>Confira também
 
+* [Use logs de auditoria para investigar a atividade de instalação do Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Pesquisar a entrada de auditoria no portal de conformidade](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Visão geral do Auditoria Premium do Microsoft Purview](/microsoft-365/compliance/advanced-audit).
 * [Ativar ou desativar a auditoria](/microsoft-365/compliance/turn-audit-log-search-on-or-off).

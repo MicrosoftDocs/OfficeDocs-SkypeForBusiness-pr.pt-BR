@@ -1,7 +1,7 @@
 ---
-title: Operador Conexão
-author: cazawideh
-ms.author: czawideh
+title: Conexão do operador
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -15,48 +15,48 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Saiba mais sobre o Conexão, como requisitos e planejamento para implantação.
+description: Saiba mais sobre o Operator Connect, como requisitos e planejamento para implantação.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1e158eb491f0b4b4f2df19c4aa7ebe46f08950
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 745587281c5566b1ba4fe0d1ea06a44d40c8a7f2
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249663"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915179"
 ---
-# <a name="plan-for-operator-connect"></a>Plan for Operator Conexão
+# <a name="plan-for-operator-connect"></a>Planejar a Conexão do Operador
 
-O Conexão operador é outra opção para fornecer conectividade PSTN (Rede Telefônica Pública Comutado) com Teams e Sistema de Telefonia. Para obter mais informações Teams soluções de voz e opções de conectividade PSTN, consulte [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
+A Conexão do Operador é outra opção para fornecer conectividade PSTN (Rede Telefônica Pública Comunada) com o Teams e o Sistema de Telefonia. Para obter mais informações sobre soluções de voz do Teams e opções de conectividade PSTN, consulte Planejar sua solução de voz do [Teams](cloud-voice-landing-page.md) e opções [de conectividade PSTN](pstn-connectivity.md).
 
-Este artigo descreve benefícios e requisitos e fornece um link para os operadores participantes do Programa Conexão Microsoft Operator.  Se você decidir que o operador Conexão é a solução certa para sua organização, depois de ler este artigo, consulte [Configure Operator Conexão](operator-connect-configure.md).  
+Este artigo descreve os benefícios e os requisitos e fornece um link para os operadores que participam do Programa Microsoft Operator Connect.  Se você decidir que o Operator Connect é a solução certa para sua organização, depois de ler este artigo, consulte [Configurar Conexão do Operador](operator-connect-configure.md).  
 
 ## <a name="benefits"></a>Benefícios
 
-Com o Conexão operador, se o operador existente for um participante do Programa de Conexão do Operador da Microsoft, ele poderá gerenciar o serviço para trazer a chamada PSTN para Teams. O programa Conexão de operador fornece os seguintes benefícios:
+Com o Operator Connect, se o operador existente for um participante do Programa Microsoft Operator Connect, ele poderá gerenciar o serviço para trazer chamadas PSTN para o Teams. O programa Operator Connect oferece os seguintes benefícios:
 
-- **Aproveite os contratos existentes ou encontre um novo operador.** Mantenha seu operador e contratos preferenciais ou escolha um novo de uma seleção de operadores participantes para atender às suas necessidades comerciais.
+- **Aproveite os contratos existentes ou localize um novo operador.** Você mantém seu operador e contratos preferenciais ou escolhe um novo de uma seleção de operadores participantes para atender às suas necessidades de negócios.
 
-- **Infraestrutura gerenciada pelo operador.** Seu operador gerencia os serviços de chamada PSTN e controladores de borda de sessão (SBCs), permitindo que você salve na compra e gerenciamento de hardware.
+- **Infraestrutura gerenciada pelo operador.** Seu operador gerencia os serviços de chamada PSTN e os controladores de borda de sessão (SBCs), permitindo que você economize na compra e no gerenciamento de hardware.
 
-- **Implantação mais rápida e fácil.** Você pode se conectar rapidamente à sua operadora e atribuir números de telefone aos usuários -– tudo a partir do Teams de administração.
+- **Implantação mais rápida e fácil.** Você pode se conectar rapidamente ao operador e atribuir números de telefone aos usuários – tudo no Centro de administração do Teams.
 
-- **Suporte e confiabilidade aprimorados.** Os operadores fornecem suporte técnico e contratos de nível de serviço compartilhados para melhorar o serviço de suporte, enquanto o peering direto do Azure cria uma conexão de rede um para um para melhorar a confiabilidade.
+- **Suporte e confiabilidade aprimorados.** Os operadores fornecem suporte técnico e contratos de nível de serviço compartilhado para melhorar o serviço de suporte, enquanto o emparelhamento direto da plataforma Azure cria uma conexão de rede um-para-um para melhorar a confiabilidade.
 
 ## <a name="requirements"></a>Requisitos
 
- O Conexão operador pode ser a solução certa para sua organização se:
+ O Operator Connect pode ser a solução certa para sua organização se:
 
-- O Plano de Chamada da Microsoft não está disponível em sua localização geográfica.
-- Seu operador preferencial é um participante do Programa Conexão Microsoft Operator.
+- O Plano de Chamadas da Microsoft não está disponível em sua localização geográfica.
+- Seu operador preferencial é um participante do Programa Microsoft Operator Connect.
 - Você deseja encontrar um novo operador para habilitar a chamada no Teams.
 
-Para habilitar atribuições de números de telefone com Conexão operador, certifique-se de que seus usuários sejam:
+Para habilitar atribuições de número de telefone com o Operator Connect, verifique se os usuários estão:
 
-- Teams Telefone licenciado. Para saber mais, confira [O que é Sistema de Telefonia?](what-is-phone-system-in-office-365.md) e [Atribuir Teams licenças](teams-add-on-licensing/assign-teams-add-on-licenses.md)de complemento aos usuários .
-- No modo TeamsOnly. Observe que o usuário precisa estar no modo TeamsOnly, mas toda a sua organização não. Para saber mais, consulte [Understand Microsoft Teams and Skype for Business coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+- Telefone do Teams licenciado. Para saber mais, confira [O que é o Sistema de Telefonia?](what-is-phone-system-in-office-365.md) e [atribua licenças de complemento do Teams aos usuários](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- No modo TeamsOnly. Observe que o usuário precisa estar no modo TeamsOnly, mas toda a sua organização não. Para saber mais, confira [Entender o Microsoft Teams e Skype for Business coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-Para ver uma lista de operadores que participam do Programa de Conexão microsoft e os países ou regiões onde o serviço está [disponível,](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)consulte o diretório Microsoft 365 Operator Conexão .
+Para obter uma lista de operadores que participam do Programa Microsoft Operator Connect e os países ou regiões em que o serviço está disponível, consulte o diretório [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
