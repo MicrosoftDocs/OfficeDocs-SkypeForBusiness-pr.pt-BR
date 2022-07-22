@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606220"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952755"
 ---
 # <a name="share-to-teams-from-outlook"></a>Compartilhar com o Teams do Outlook
 
@@ -30,9 +30,9 @@ Compartilhar com o Teams do Outlook (Compartilhar com o Teams) permite que os us
 O recurso Compartilhar com o Teams requer um suplemento para o Outlook. Esse suplemento é instalado automaticamente sempre que um usuário faz logon no aplicativo Web do Teams ou no cliente da área de trabalho do Teams.
 
 > [!NOTE]
-> Examine os [Suplementos do Outlook no Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) e as Regras de Acesso do Cliente no [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para garantir que os suplementos do Outlook funcionem corretamente. Além disso, desabilitar experiências conectadas pode impedir que os suplementos do Outlook funcionem corretamente. Confira [experiências conectadas no Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obter mais informações.  
+> Examine os [Suplementos do Outlook no Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) e as Regras de Acesso do Cliente no [Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) para garantir que os suplementos do Outlook funcionem corretamente. Além disso, desabilitar experiências conectadas pode impedir que os suplementos do Outlook funcionem corretamente. Confira [experiências conectadas no Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) para obter mais informações. Não há suporte para caixas de correio compartilhadas no suplemento. 
 
-O compartilhamento com o Teams usa o mesmo mecanismo de transporte que quando um usuário envia um canal por email. Para compartilhar chats, emails (incluindo anexos de email) são copiados para o OneDrive do remetente. Para compartilhamento com canais, emails e anexos são copiados para a pasta **Mensagens de email** no SharePoint.
+O compartilhamento com o Teams usa o mesmo mecanismo de transporte que quando um usuário envia um canal por email. Para compartilhar chats, emails (incluindo anexos de email) são copiados para o OneDrive do remetente. Para compartilhar com canais, emails e anexos são copiados para a pasta **Email mensagens** no SharePoint.
 
 O suplemento do Outlook para Compartilhar com o Teams usa o conjunto de requisitos 1.7, conforme detalhado na documentação de [suplementos do Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook), que inclui detalhes sobre suplementos do Outlook, requisitos de ambiente para suplementos do Outlook e os clientes específicos do Outlook que têm suporte com o conjunto de requisitos 1.7.
 
