@@ -19,25 +19,22 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: 5e1b5f53ba648d1096460572562b91397b74ab3b
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695064"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958056"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no centro de administração do Microsoft Teams
 
-Você gerencia aplicativos para sua organização na **página de aplicativos do Teams** no portal do Centro de administração do Teams. Use a página Gerenciar aplicativos para exibir e gerenciar todos os aplicativos do Teams no catálogo de aplicativos da sua organização.
+Você gerencia aplicativos para sua organização na **página de aplicativos do Teams** no portal do Centro de administração do Teams. Use a página Gerenciar aplicativos para exibir e gerenciar todos os aplicativos do Teams no catálogo de aplicativos da sua organização, atender a casos de uso proeminentes para o gerenciamento de aplicativos, definir o acesso a aplicativos usando políticas e muito mais.
 
 :::image type="content" source="media/manage-apps.png" alt-text="Captura de tela da página Gerenciar aplicativos." lightbox="media/manage-apps.png":::
 
-Para usar o Centro de administração do Teams, você deve ter uma função de administrador global Administração ou administrador do Teams. Para obter detalhes, consulte os seguintes artigos de ajuda:
-
-* [Funções de administrador do Teams](./using-admin-roles.md).
-* [Funções de administrador do Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles)
-
 Para gerenciar aplicativos, use políticas para controlar permissões para usuários, instalação de aplicativos e upload de aplicativos personalizados criados em sua organização. Para entender as políticas, consulte [Visão geral das políticas de aplicativo](app-policies.md).
+
+Para usar o Centro de administração do Teams, você deve ter uma função de administrador global Administração ou administrador do Teams. Para obter detalhes, consulte [funções de administrador do Teams](./using-admin-roles.md) e [funções de administrador do Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
 > A página Gerenciar aplicativos não está disponível nas implantações do Microsoft 365 Government Community Cloud High (GCCH) ou do Departamento de Defesa (DoD) do Teams.
@@ -46,7 +43,7 @@ Durante a criação de um aplicativo, os desenvolvedores criam e adicionam uma I
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>Casos de uso do gerenciamento de aplicativos e as interfaces disponíveis
 
-As opções para realizar a maioria dos casos de uso do gerenciamento de aplicativos estão disponíveis no Centro de administração do Teams. Além disso, algumas opções estão disponíveis em outros portais.
+As opções para realizar a maioria dos casos de uso do gerenciamento de aplicativos estão disponíveis no Centro de administração do Teams. Além disso, algumas opções estão disponíveis em outros portais ou páginas do centro de administração diferentes no mesmo portal.
 
 | Casos de uso do gerenciamento de aplicativos | Vincular à interface | Documentação |
 |:----|:----|:----|
@@ -69,45 +66,20 @@ As opções para realizar a maioria dos casos de uso do gerenciamento de aplicat
 | xxx | [Manage users](https://admin.teams.microsoft.com/users) | [Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide) |  
 --->
 
-## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>Publicar um aplicativo personalizado na loja de aplicativos da sua organização
-
-Use a página Gerenciar aplicativos para publicar aplicativos criados especificamente para sua organização. Depois de publicar um aplicativo personalizado, ele estará disponível para os usuários na loja de aplicativos da sua organização. Há duas maneiras de publicar um aplicativo personalizado na loja de aplicativos da sua organização. A maneira que você usa depende de como você obtém o aplicativo.
-
-* [Aprovar um aplicativo personalizado](#approve-a-custom-app): use esse método se o desenvolvedor enviar o aplicativo diretamente para a página Gerenciar aplicativos usando a API de Envio de Aplicativos do Teams. Em seguida, você pode revisar e publicar (ou rejeitar) o aplicativo diretamente na página de detalhes do aplicativo.
-* [Carregar um pacote do aplicativo](#upload-an-app-package): use esse método se o desenvolvedor enviar o pacote do aplicativo .zip formato. Publique o aplicativo carregando o pacote do aplicativo.
-
-### <a name="approve-a-custom-app"></a>Aprovar um aplicativo personalizado
-
-O widget **aprovações pendentes** na página Gerenciar aplicativos notifica quando um desenvolvedor envia um aplicativo usando a API de Envio de Aplicativo do Teams. Um aplicativo recém-enviado é listado com um **status de** Publicação de **Enviado** e **um Status** de **Bloqueado**. Vá para a página de detalhes do aplicativo para ver mais informações sobre o aplicativo e, em seguida, para publicá-lo, defina o **status** de **Publicação como Publicar**.
-
-Você também é notificado quando um desenvolvedor envia uma atualização para um aplicativo personalizado. Em seguida, você pode revisar e publicar (ou rejeitar) a atualização na página de detalhes do aplicativo. Todas as políticas de permissão de aplicativo e políticas de configuração de aplicativo permanecem impostas para o aplicativo atualizado.
-
-Para saber mais, confira [Publicar um aplicativo personalizado enviado por meio da API de Envio de Aplicativo do Teams](submit-approve-custom-apps.md).
-
-### <a name="upload-an-app-package"></a>Carregar um pacote do aplicativo
-
-O desenvolvedor cria um pacote de aplicativos do Teams usando o [Teams App Studio](/microsoftteams/platform/get-started/get-started-app-studio) e, em seguida, o envia para você .zip formato. Quando você tiver o pacote do aplicativo, poderá carregá-lo na loja de aplicativos da sua organização.
-
-Para carregar um novo aplicativo personalizado, selecione **Carregar** para carregar o pacote do aplicativo. O aplicativo não é realçado depois de carregado, portanto, você precisará pesquisar a lista de aplicativos na página Gerenciar aplicativos para encontrá-lo.
-
-Para atualizar um aplicativo depois que ele for carregado, na lista de aplicativos na página Gerenciar aplicativos, selecione o nome do aplicativo e, em seguida, **selecione Atualizar**. Fazer uma atualização substitui o aplicativo existente e todas as políticas de permissão de aplicativo e políticas de configuração de aplicativo permanecem impostas para o aplicativo atualizado.
-
-Para saber mais, confira [Publicar um aplicativo personalizado carregando um pacote de aplicativos](upload-custom-apps.md).
-
 ## <a name="allow-and-block-apps"></a>Permitir e bloquear aplicativos
 
-A página Gerenciar aplicativos é onde você permite ou bloqueia aplicativos individuais no nível da organização. Ele mostra todos os aplicativos disponíveis e seu status atual do aplicativo no nível da organização.
+A página Gerenciar aplicativos é onde você permite ou bloqueia aplicativos individuais no nível da organização. A página exibe todo o aplicativo disponível e o status atual do aplicativo no nível da organização. A lista de aplicativos inclui aplicativos fornecidos pela Microsoft, por desenvolvedores de terceiros e por desenvolvedores em sua organização.
 
 Para permitir ou bloquear um aplicativo:
 
-1. Vá para o Centro de administração do Teams > aplicativos do Teams > Gerenciar aplicativos.
-1. Selecione um aplicativo na lista de aplicativos.
-1. Selecione **Permitir** ou **Bloquear**.
+1. Entre no Centro de administração do Teams.
+1. Página Gerenciar **aplicativos do Access Teams** > .**[](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Selecione um aplicativo na lista de aplicativos. Você pode pesquisar pelo nome do aplicativo e, em seguida, selecioná-lo.
+1. Selecione **a opção** Permitir **ou** Bloquear.
 
-Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos, esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização.  Quando você bloqueia ou permite um aplicativo em uma política de permissão de aplicativo do Teams, ele é bloqueado ou permitido para usuários que recebem essa política. Para que um usuário possa instalar e interagir com qualquer aplicativo, você deve permitir o aplicativo no nível da organização na página Gerenciar aplicativos e na política de permissão do aplicativo atribuída ao usuário.
+Quando você permite (ou bloqueia) um aplicativo na página [](https://admin.teams.microsoft.com/policies/manage-apps) Gerenciar aplicativos no Centro de administração do Teams, o aplicativo específico é permitido (ou bloqueado) para todos os usuários em sua organização. Esse método difere da política de permissão do aplicativo no contexto que permitir (ou bloquear) um aplicativo por meio da política de permissão afeta apenas os usuários específicos que recebem a política.
 
- > [!NOTE]
- > Para desinstalar um aplicativo, clique com o botão direito do  mouse no aplicativo e clique em Desinstalar ou use **o menu Mais** aplicativos no lado esquerdo.
+Um usuário pode instalar e usar um aplicativo somente quando o aplicativo é permitido por meio da configuração em todo o locatário e permitido para o usuário por meio da política de permissão.
 
 ## <a name="manage-user-requests-to-unblock-apps"></a>Gerenciar solicitações de usuário para desbloquear aplicativos
 
@@ -141,42 +113,13 @@ Você pode exibir solicitações para disponibilizar um aplicativo bloqueado par
 
 Se um administrador ignorar uma solicitação, ele não informará ao usuário final que a solicitação foi acionda. O usuário deve visitar o aplicativo na Loja para verificar se o aplicativo está desbloqueado ou não.
 
-## <a name="apps-blocked-by-publishers"></a>Aplicativos bloqueados por editores
+## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Permitir os aplicativos bloqueados pelos desenvolvedores
 
-Quando um ISV publica um aplicativo na loja de aplicativos global, eles podem precisar de administradores para configurar ou personalizar a experiência do aplicativo. O administrador pode dispo-lo para os usuários finais quando o aplicativo estiver configurado.
+Quando um desenvolvedor publica um aplicativo na loja de aplicativos do Teams, pode ser necessário que os administradores configurem ou personalizem a experiência do aplicativo. Os administradores disponibilizam a experiência para os usuários finais quando o aplicativo é configurado.
 
-Por exemplo, a Contoso Electronics é um ISV que criou um aplicativo de suporte ajuda para o Microsoft Teams. A Contoso Electronics deseja que seus clientes configurem determinadas propriedades do aplicativo para que, quando os usuários interajam com o aplicativo, ele funcione conforme o esperado. Antes que um administrador possa permitir ou bloquear o aplicativo, ele será exibido  como Bloqueado pelo editor no centro de administração do Teams e ficará oculto dos usuários finais por padrão. Depois de seguir as diretrizes do editor para configurar o aplicativo, você pode dispo-lo para os usuários alterando o status para Permitido ou impedindo que os usuários usem o aplicativo alterando o status para **Bloqueado**.
+Por exemplo, a Contoso Electronics é um ISV que criou um aplicativo de suporte ajuda para o Microsoft Teams. A Contoso Electronics deseja que seus clientes configurem determinadas propriedades do aplicativo para que, quando os usuários interajam com o aplicativo, ele funcione conforme o esperado. Antes que um administrador possa permitir ou bloquear o aplicativo, ele será exibido  como Bloqueado pelo editor no centro de administração do Teams e ficará oculto dos usuários finais por padrão. Depois de seguir as diretrizes do editor para configurar o aplicativo, você pode dispo-lo para os usuários alterando o status para **Permitido**.
 
-<!--- 
-![Screenshot of blocked by publisher status in teams admin center.](media/blocked-by-publisher.png)
---->
-
-## <a name="add-an-app-to-a-team"></a>Adicionar um aplicativo a uma equipe
-
-Use o **botão Adicionar à equipe** para instalar um aplicativo em uma equipe. Essa opção está disponível apenas para os aplicativos que podem ser instalados em um escopo de equipe. A opção não está disponível para aplicativos que só podem ser instalados no escopo pessoal.
-
-1. Pesquise um aplicativo pelo nome e selecione o aplicativo. Não abra a página de detalhes do aplicativo.
-1. Selecione **Adicionar à equipe**.
-
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="Captura de tela da opção Adicionar à equipe para o aplicativo que pode ser adicionado ao escopo da equipe.":::
-
-1. No painel **Adicionar à equipe** , pesquise a equipe à qual você deseja adicionar o aplicativo, selecione a equipe e, em seguida, **selecione Aplicar**.
-
-## <a name="customize-an-app"></a>Personalizar um aplicativo
-
-Agora você pode personalizar um aplicativo para incluir uma aparência específica de acordo com as necessidades da sua organização. Consulte [Personalizar aplicativos no Teams](customize-apps.md).
-
-## <a name="purchase-services-for-third-party-apps"></a>Comprar serviços para aplicativos de terceiros
-
-Você pode pesquisar e comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização diretamente na página Gerenciar aplicativos. A **coluna Licenças** na tabela indica se um aplicativo oferece uma assinatura de SaaS paga. Selecione **Comprar agora** para exibir planos e informações de preços e comprar licenças para seus usuários. Para saber mais, confira [Serviços de compra para aplicativos de terceiros do Teams no centro de administração do Microsoft Teams](purchase-third-party-apps.md).
-
-## <a name="grant-permissions-and-consent-to-apps-to-use-end-user-information"></a>Conceder permissões e consentimento a aplicativos para usar informações do usuário final
-
-Você pode examinar e conceder consentimento a aplicativos que solicitam permissões em nome de todos os usuários em sua organização. Faça isso para que os usuários não tenham que revisar e aceitar as permissões solicitadas pelo aplicativo quando iniciarem o aplicativo. A **coluna Permissões** indica se um aplicativo tem permissões que precisam de consentimento. Você verá um link **Exibir detalhes para** cada aplicativo registrado no Azure AD que tem permissões que precisam de consentimento. Para saber mais, confira [Exibir permissões de aplicativo e conceder consentimento do administrador no Centro de administração do Microsoft Teams](app-permissions-admin-center.md).
-
-## <a name="view-resource-specific-consent-permissions"></a>Exibir permissões de consentimento específicas do recurso
-
-As permissões de RSC (consentimento específico do recurso) permitem que os proprietários da equipe concedam consentimento para que um aplicativo acesse e modifique os dados de uma equipe. As permissões RSC são granulares e específicas do Teams que definem o que um aplicativo pode fazer em uma equipe específica. Você pode exibir permissões RSC na **guia Permissões** da página de detalhes do aplicativo para um aplicativo. Para saber mais, confira [Exibir permissões de aplicativo e conceder consentimento do administrador no Centro de administração do Microsoft Teams](app-permissions-admin-center.md).
+:::image type="content" source="media/blocked-by-publisher.png" alt-text="Captura de tela do bloqueio pelo status do editor no Centro de administração do Teams.":::
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativo em toda a organização
 
@@ -207,6 +150,6 @@ Use as configurações de aplicativo em toda a organização para controlar se o
 1. Em **Aplicativos personalizados**, desative ou ative **Permitir interação com aplicativos personalizados**. Essa configuração controla se os usuários podem interagir com aplicativos personalizados. Para saber mais, confira [Gerenciar políticas e configurações de aplicativos personalizados no Teams](teams-custom-app-policies-and-settings.md).
 1. Selecione **Salvar** para que as configurações de aplicativo em toda a organização entre em vigor.
 
-## <a name="see-also"></a>Confira também
+## <a name="related-article"></a>Artigo relacionado
 
 * [Gerenciar o Teams durante a transição do Skype for Business de administração](manage-teams-skypeforbusiness-admin-center.md)

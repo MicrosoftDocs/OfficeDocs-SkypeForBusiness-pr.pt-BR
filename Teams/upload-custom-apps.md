@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados na loja de aplicativos da sua organização no centro de administração do Microsoft Teams.
-ms.openlocfilehash: 5ef5992e01b5de4e2f4feaed51b50e2d0f16c0d8
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 8f7968a53b70ac8ffa871d03adacd648ec047c52
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642756"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958046"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 
@@ -57,20 +57,20 @@ Para permitir que usuários confiáveis carreguem aplicativos personalizados, si
 1. Ative **a configuração Permitir interação com aplicativos personalizados** em toda a organização. Para fazer isso:
 
     1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, acesse Aplicativos do **Teams** >  Gerenciar aplicativos **e clique em** **Configurações de aplicativos em toda a organização**.
-    
-    2. Em **Aplicativos personalizados**, **ative Permitir interação com aplicativos personalizados** e clique em **Salvar**.
-    
+
+    1. Em **Aplicativos personalizados**, **ative Permitir interação com aplicativos personalizados** e clique em **Salvar**.
+
 1. Desative a **configuração Carregar aplicativos personalizados** na política de configuração de aplicativo global. Para fazer isso:
 
     1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para políticas de Instalação de aplicativos do **Teams** > **e clique na** política **Global (padrão** em toda a organização).
-    
-    2. Desative **Carregar aplicativos personalizados** e clique em **Salvar**.
-    
+
+    1. Desative **Carregar aplicativos personalizados** e clique em **Salvar**.
+
 1. Crie uma nova política de configuração de aplicativo que permita carregar aplicativos personalizados e atribuí-lo ao seu conjunto de usuários confiáveis. Para fazer isso:
 
     1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para políticas de Instalação de **aplicativos** >  do Teams **e clique em** **Adicionar**. Dê um nome e uma descrição à nova política, ative Carregar aplicativos **personalizados** e clique em **Salvar**.
-    
-    2. Selecione a nova política que você criou e clique em **Gerenciar usuários**. Pesquise um usuário, clique **em Adicionar** e, em seguida, clique em **Aplicar**. Repita esta etapa para atribuir a política a todos os usuários confiáveis.
+
+    1. Selecione a nova política que você criou e clique em **Gerenciar usuários**. Pesquise um usuário, clique **em Adicionar** e, em seguida, clique em **Aplicar**. Repita esta etapa para atribuir a política a todos os usuários confiáveis.
 
        ![Captura de tela da página "Adicionar política de configuração de aplicativo"](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -119,7 +119,17 @@ Você pode atualizar o aplicativo na página Gerenciar aplicativos no Centro de 
 
 Na maioria dos casos, depois de concluir uma atualização de aplicativo, a nova versão será exibida automaticamente para os usuários finais. Para obter mais informações, consulte [a experiência de atualização do usuário final](apps-update-experience.md).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="remove"></a>Remover
+
+Para remover um aplicativo, siga estas etapas:
+
+1. Entre no Centro de administração do Teams.
+1. Página Gerenciar **aplicativos do Access Teams** > .**[](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Clique no nome do aplicativo para abrir a página de detalhes do aplicativo.
+1. Adjacente à faixa do aplicativo, selecione **Ações Excluir** > .
+1. Na caixa de diálogo, selecione **Excluir**.
+
+## <a name="related-articles"></a>Artigos relacionados
 
 * [Publicar um aplicativo personalizado enviado por meio da API de Envio de Aplicativo do Teams](submit-approve-custom-apps.md)
 * [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](manage-apps.md)
