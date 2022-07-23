@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880385"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972776"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -41,6 +41,12 @@ Os usuários não precisam substituir dispositivos certificados anteriormente ao
 - **Certificado para o Microsoft Teams** Os dispositivos certificados nesse nível indicam os dispositivos mais recentes certificados, para uma experiência do Teams sem comprometimento. Esses dispositivos oferecem todos os benefícios da certificação anterior e também incluem um botão dedicado do Teams com indicador LED. Com a maioria dos fatores forma, o botão Do Teams será um botão tátil fácil de localizar com o logotipo do Teams. A Microsoft continua trabalhando com fabricantes de dispositivos para fornecer novo valor por meio de atualizações de firmware ao longo do tempo.
 
 ### <a name="special-usage-designations"></a>Designações de uso especial
+
+- **Periféricos de áudio certificados por Bluetooth nativos**  A maioria dos fones de ouvido Bluetooth e viva-voz certificados para o Microsoft Teams foi projetada para ser usada com um dongle USB para conectividade com computadores e hosts Mac. Muitos usuários têm solicitado a opção de emparelhar diretamente seu dispositivo com o host, porque eles não têm portas USB suficientes ou não querem se lembrar de trazer o dongle USB com eles quando trabalham em locais diferentes.
+
+    Dispositivos nativos certificados por Bluetooth, incluindo fones de ouvido e alto-falantes, têm suporte em computadores Windows (o MacOS pode ter suporte no futuro). Os dispositivos são testados quanto ao desempenho de áudio, ao controle de chamadas e à integração de botões do Teams, com e sem o uso de um dongle USB.
+
+    O desempenho no modo Bluetooth nativo é afetado pelo rádio Bluetooth no computador host, portanto, recomendamos instalar as atualizações de firmware mais recentes para dispositivos e rádio Bluetooth. Uma pequena parte dos usuários pode precisar continuar a usar o dongle USB, como ao trabalhar em um ambiente de rádio de alta densidade, se o Bluetooth do computador for muito usado por vários dispositivos emparelhados ou com determinados computadores que têm rádios Bluetooth de baixo desempenho.
 
 - **Microfone Premium para Abrir Office** Todos os fones de ouvido são testados para fornecer áudio claro, mas o office aberto e outros ambientes barulhentos representam um desafio maior. Os fones de ouvido com essa designação selecionam a voz do usuário do headset, mas não transmitem o som de seus vizinhos.
 - **Tamanho da sala de reunião** Dispositivos compartilhados, como viva-voz e câmeras, têm uma distância de uso compatível. As distâncias recomendadas podem ser diferentes dependendo do fabricante. Para dar aos clientes uma orientação clara, todos os dispositivos compartilhados são testados na certificação em ambientes de ruído e tamanhos de salas bem definidos.
