@@ -459,8 +459,10 @@ items:
             href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: 'Arquivos de log, integridade do serviço e suporte'
         items:
-          - name: Usar arquivos de log para monitorar e solucionar problemas do Teams
+          - name: Configurar arquivos de log para monitoramento e solução de problemas no Teams
             href: log-files.md
+          - name: Logs e rastreamento do navegador para o Teams
+            href: browser-logs-and-tracing-for-teams.md
           - name: Verificar a integridade do serviço para o Teams
             href: service-health.md
           - name: Como pesquisar o PIN de suporte
@@ -977,6 +979,8 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Gerenciar números de telefone para Roteamento Direto
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
+          - name: Licenciamento e gerenciamento de números de telefone
+            href: phone-numbers-licensing-changes.md
       - name: Planos de discagem e roteamento
         items:
           - name: Visão Geral
