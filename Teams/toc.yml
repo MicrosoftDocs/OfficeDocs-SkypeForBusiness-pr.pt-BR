@@ -1600,8 +1600,16 @@ items:
             href: easy-policy-setup-edu.md
           - name: Conexão dos pais no Microsoft Teams para Educação
             href: edu-parents-app.md
-          - name: Coach de carreira no Teams for Education
-            href: career-coach.md
+          - name: Coach de carreira
+            items:
+              - name: Introdução ao Coach de carreira
+                href: career-coach.md
+              - name: Definir e configurar o Coach de carreira
+                href: career-coach-set-up-steps.md
+              - name: Solucionar problemas do Coach de carreira
+                href: career-coach-troubleshoot.md
+              - name: Recursos do Coach de carreira
+                href: career-coach-resources.md
           - name: Supervisionar chats no Teams
             href: supervise-chats-edu.md
           - name: Insights de Educação
@@ -1998,6 +2006,8 @@ items:
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: Termos e condições da chamada de emergência
             href: emergency-calling-terms-and-conditions.md
+      - name: Erros dos canais compartilhados
+        href: shared-channels-errors.md
       - name: Atualizar questionário de descoberta
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Notas de versão para recursos de administração do Teams

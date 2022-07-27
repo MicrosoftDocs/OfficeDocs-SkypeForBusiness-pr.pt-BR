@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735fc17c7e82c1c2362b235508b28b9b4a392439
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563969"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023994"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 
@@ -58,7 +58,7 @@ A grade exibe as seguintes propriedades:
 - **Privacidade** - o Visibility/AccessType do grupo de apoio do Microsoft 365.
 - **Status** - o status Arquivado ou Ativo desta equipe. Saiba mais sobre como arquivar equipes em [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Descrição** - a descrição do grupo de backup do Microsoft 365.
-- **Classificação** - a classificação (se usada em sua organização) atribuída ao grupo de apoio do Microsoft 365. Saiba mais sobre as classificações em [Criar classificações para grupos do Office em sua organização](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Classificação** - a classificação (se usada em sua organização) atribuída ao grupo de apoio do Microsoft 365. Saiba mais sobre classificações em [Criar classificações para Grupos do Microsoft 365 em sua organização](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization).
 - **GroupID** - o GroupID exclusivo do grupo de backup do Microsoft 365.
 
 > [!NOTE]
