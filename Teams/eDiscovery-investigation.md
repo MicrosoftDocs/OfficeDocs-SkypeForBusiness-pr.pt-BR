@@ -17,18 +17,18 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
+ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616407"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67039638"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
 Grandes Empresas geralmente são expostas a processos legais de alta penalidade que exigem o envio de todas as Informações Armazenadas Eletronicamente (ESI). O conteúdo do Microsoft Teams pode ser pesquisado e usado durante investigações de Descoberta Eletrônica.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Todos os chats do Microsoft Teams 1:1 ou em grupo são diários nas caixas de correio dos respectivos usuários. Todas as mensagens de canal padrão são registradas no diário na caixa de correio do grupo que representa a equipe. Os arquivos carregados em canais padrão são abordados na funcionalidade de Descoberta Eletrônica do SharePoint Online e OneDrive for Business.
 
@@ -69,16 +69,13 @@ Aqui está um exemplo de uma conversa de chat entre os participantes durante uma
 
 ![Conversa entre participantes no Teams.](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 Aqui está um exemplo da cópia de conformidade da mesma conversa de chat exibida em uma ferramenta de Descoberta Eletrônica.
 
 ![Conversa entre participantes nos resultados da pesquisa de Descoberta Eletrônica.](media/MeetingImConversation2.png)
 
 Aqui está um exemplo dos metadados da reunião.
 
-  > [!div class="mx-imgBorder"]
-  > ![Os metadados da reunião da cópia de conformidade.](media/conversationOption3.png)
+![Os metadados da reunião da cópia de conformidade.](media/conversationOption3.png)
 
 Para obter mais informações sobre como conduzir uma investigação de Descoberta Eletrônica, consulte [Introdução à Descoberta Eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
 

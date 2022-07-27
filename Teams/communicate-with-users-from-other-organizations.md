@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo e o acesso para convidado.
-ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125476"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023984"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
@@ -42,6 +42,11 @@ Por padrão, o acesso externo é habilitado para todos os domínios. Você pode 
 
 ![Captura de tela das configurações de acesso externo.](media/external-access-federation-settings.png)
 
+O acesso externo está disponível para os seguintes locatários:
+
+- No e entre Comercial, GCC e GCC High
+- Somente entre DOD
+
 Para configurar o acesso externo, consulte [Gerenciar acesso externo](manage-external-access.md). 
 
 >[!NOTE]
@@ -52,6 +57,12 @@ Para configurar o acesso externo, consulte [Gerenciar acesso externo](manage-ext
 Utilize o acesso de convidado para adicionar uma pessoa de fora da sua organização a uma equipe, onde ela pode bater papo, fazer uma chamada, se encontrar e colaborar em arquivos. Um convidado pode receber quase todos os mesmos recursos do Teams que um membro nativo da equipe. Para obter mais informações, consulte [Experiência de convidado no Teams](guest-experience.md).
 
 Os convidados são adicionados ao Azure Active Directory da sua organização como usuários B2B e devem se conectar ao Teams usando sua conta de convidado. Isso significa que eles podem precisar sair da própria organização para entrar na sua.
+
+O acesso de convidado está disponível para os seguintes locatários:
+
+- No e entre Comercial e GCC
+- Somente entre GCC High
+- Somente entre DOD
 
 Para configurar o acesso de convidado para o Teams, consulte [Colaborar com convidados em uma equipe ](/microsoft-365/solutions/collaborate-as-team).
 
