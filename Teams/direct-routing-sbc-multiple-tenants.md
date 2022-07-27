@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005351"
+ms.locfileid: "67024014"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -246,7 +246,7 @@ Duas novas entidades foram introduzidas:
 Exemplos:
 - Customers.adatum.biz – o tronco da operadora que precisa ser criado no locatário da operadora.
 
-- Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente. Você pode adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem criá-lo.
+- Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente. Você pode adicionar o nome do tronco derivado no locatário do cliente nas rotas de voz sem criá-lo.
 
 - A operadora precisará configurar o registro DNS resolvendo o FQDN do tronco derivado para o endereço IP SBC da operadora.
 

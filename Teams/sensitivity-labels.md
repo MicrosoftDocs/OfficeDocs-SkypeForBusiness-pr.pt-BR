@@ -1,5 +1,5 @@
 ---
-title: Rótulos de confidencialidade para Microsoft Teams
+title: Rótulos de confidencialidade para o Microsoft Teams
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -16,31 +16,31 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar rótulos de confidencialidade para proteger suas equipes Microsoft Teams.
-ms.openlocfilehash: fab5ad4e3be3da5afc6ee373aa6bebe2afae819e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+description: Saiba como usar rótulos de confidencialidade para proteger suas equipes no Microsoft Teams.
+ms.openlocfilehash: 6bbeb4d804c9f397936d331df902cc295d044d75
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922692"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023763"
 ---
-# <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de confidencialidade para Microsoft Teams
+# <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de confidencialidade para o Microsoft Teams
 
-[Os rótulos de](/microsoft-365/compliance/sensitivity-labels) confidencialidade Teams administradores para proteger e regular o acesso a conteúdo organizacional confidencial criado durante a colaboração nas equipes. Depois de configurar rótulos de confidencialidade com suas políticas associadas no portal de conformidade do [Microsoft Purview](/microsoft-365/compliance/go-to-the-securitycompliance-center), esses rótulos podem ser aplicados às equipes em sua organização.
+[Os rótulos de confidencialidade](/microsoft-365/compliance/sensitivity-labels) permitem que os administradores do Teams protejam e regularem o acesso a conteúdo organizacional confidencial criado durante a colaboração nas equipes. Depois de configurar rótulos de confidencialidade com as políticas associadas no [portal de conformidade do Microsoft Purview](/microsoft-365/compliance/go-to-the-securitycompliance-center), esses rótulos podem ser aplicados às equipes em sua organização.
 
-Atualmente, não há suporte para rótulos de confidencialidade em equipes de classe para clientes que usam SKUs Teams Education. Para saber mais sobre licenciamento, confira [Microsoft Teams descrição do serviço](/office365/servicedescriptions/teams-service-description).
+Atualmente, não há suporte para rótulos de confidencialidade em equipes de classe para clientes que usam SKUs de Educação do Teams. Para saber mais sobre licenciamento, confira a [descrição do serviço do Microsoft Teams](/office365/servicedescriptions/teams-service-description).
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>Qual é a diferença entre rótulos de confidencialidade e Teams classificação?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>Qual é a diferença entre rótulos de confidencialidade e classificação do Teams?
 
-Os rótulos de confidencialidade são diferentes Teams classificação, também conhecida como classificação de grupo do Azure AD. As classificações são cadeias de caracteres de texto que podem ser associadas a um grupo Microsoft 365, mas não têm nenhuma política real associada a elas. Você usa a classificação como metadados e, em seguida, deve usar outros métodos, como ferramentas internas e scripts, para impor políticas.
+Os rótulos de confidencialidade são diferentes da classificação do Teams, também conhecida como Azure AD de grupo. As classificações são cadeias de caracteres de texto que podem ser associadas a um grupo do Microsoft 365, mas não têm nenhuma política real associada a elas. Você usa a classificação como metadados e, em seguida, deve usar outros métodos, como ferramentas internas e scripts, para impor políticas.
 
-O benefício de usar rótulos de confidencialidade é que suas políticas são impostas automaticamente de ponta a ponta por meio de uma combinação da plataforma Grupos do Microsoft 365, do centro de conformidade e Teams serviços. Os rótulos de confidencialidade fornecem suporte avançado à infraestrutura para proteger os dados confidenciais da sua organização e garantir a conformidade com suas políticas ou regulamentos internos.
+O benefício de usar rótulos de confidencialidade é que suas políticas são impostas automaticamente de ponta a ponta por meio de uma combinação da plataforma Grupos do Microsoft 365, do portal de conformidade do Microsoft Purview e dos serviços do Teams. Os rótulos de confidencialidade fornecem suporte avançado à infraestrutura para proteger os dados confidenciais da sua organização e garantir a conformidade com suas políticas ou regulamentos internos.
 
-Se você usa a classificação Teams, consulte a seguinte documentação para obter mais informações e instruções sobre como converter esses valores em rótulos de confidencialidade: classificação de grupo clássico do [Azure AD](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
+Se você usa a classificação do Teams no momento, consulte a documentação a seguir para obter mais informações e instruções sobre como converter esses valores em rótulos de confidencialidade: classificação Azure AD [grupo clássico](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>Cenários de exemplo para rótulos de confidencialidade
 
-Cenários de exemplo de como você pode usar rótulos de confidencialidade com Teams em sua organização:
+Os cenários de exemplo de como você pode usar rótulos de confidencialidade com o Teams em sua organização incluem:
 
 - [Definir o nível de privacidade (público ou privado) para equipes](#set-the-privacy-level-for-teams)
 - [Controlar o acesso de convidados às equipes](#control-guest-access-to-teams)
@@ -69,30 +69,28 @@ Um proprietário da equipe pode alterar o rótulo de confidencialidade e a confi
 
 ### <a name="control-guest-access-to-teams"></a>Controlar o acesso de convidados às equipes
 
-Você pode usar rótulos de confidencialidade para controlar o acesso de convidados às suas equipes. Teams criado com um rótulo que não permite o acesso de convidados só estão disponíveis para usuários em sua organização. Pessoas de fora da sua organização não podem ser adicionadas à equipe.
+Você pode usar rótulos de confidencialidade para controlar o acesso de convidados às suas equipes. As equipes criadas com um rótulo que não permite o acesso de convidados só estão disponíveis para os usuários em sua organização. Pessoas de fora da sua organização não podem ser adicionadas à equipe.
 
-## <a name="microsoft-teams-admin-center"></a>Microsoft Teams de administração
+## <a name="microsoft-teams-admin-center"></a>Centro de administração do Microsoft Teams
 
-Você pode aplicar rótulos de confidencialidade ao criar ou editar uma equipe no Microsoft Teams de administração. 
-
-Os rótulos de confidencialidade também são visíveis nas propriedades  da equipe e na  coluna Classificação na página Gerenciar equipes do Microsoft Teams de administração.
+Você pode aplicar rótulos de confidencialidade ao criar ou editar uma equipe no centro de administração do Microsoft Teams. Os rótulos de confidencialidade também são visíveis nas propriedades  da equipe e na  coluna Classificação na página Gerenciar equipes do centro de administração do Microsoft Teams.
 
 ## <a name="limitations"></a>Limitações
 
-Antes de usar rótulos de confidencialidade para Teams, lembre-se das seguintes limitações:
+Antes de usar rótulos de confidencialidade para o Teams, esteja ciente das seguintes limitações:
 
-- **Não há suporte para rótulos de confidencialidade Teams Graph APIs e cmdlets do PowerShell**
+- **Não há suporte para rótulos de confidencialidade nas APIs do Teams Graph e nos cmdlets do PowerShell**
     
-    Os usuários não poderão especificar rótulos de confidencialidade ao criar equipes diretamente por meio de APIs Teams Graph ou cmdlets Teams PowerShell. No entanto, grupos modernos Graph APIs e cmdlets do PowerShell permitem a criação de grupos com rótulos de confidencialidade. Isso significa que você pode criar grupos com rótulos de confidencialidade usando esses métodos e, em seguida, converter esses grupos em equipes.
+    Os usuários não poderão especificar rótulos de confidencialidade ao criar equipes diretamente por meio de APIs do Teams Graph ou cmdlets do PowerShell do Teams. No entanto, as APIs do Graph de Grupos Modernos e os cmdlets do PowerShell permitem a criação de grupos com rótulos de confidencialidade. Isso significa que você pode criar grupos com rótulos de confidencialidade usando esses métodos e, em seguida, converter esses grupos em equipes.
 
 - **Suporte para canais privados**
     
-    Os canais privados criados em uma equipe herdam o rótulo de confidencialidade aplicado em uma equipe. O mesmo rótulo é aplicado automaticamente no conjunto SharePoint site para o canal privado.
+    Os canais privados criados em uma equipe herdam o rótulo de confidencialidade aplicado em uma equipe. O mesmo rótulo é aplicado automaticamente no conjunto de sites do SharePoint para o canal privado.
     
-    No entanto, se um usuário alterar diretamente o rótulo de confidencialidade em um site SharePoint para um canal privado, essa alteração de rótulo não será refletida no Teams cliente. Nesse cenário, os usuários continuam a ver o rótulo de confidencialidade original aplicado à equipe no cabeçalho do canal privado.
+    No entanto, se um usuário alterar diretamente o rótulo de confidencialidade em um site do SharePoint para um canal privado, essa alteração de rótulo não será refletida no cliente do Teams. Nesse cenário, os usuários continuam a ver o rótulo de confidencialidade original aplicado à equipe no cabeçalho do canal privado.
 
-## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Como criar e configurar rótulos de confidencialidade para Teams
+## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Como criar e configurar rótulos de confidencialidade para o Teams
 
-Use as instruções da documentação Microsoft 365 para criar e configurar rótulos de confidencialidade para Teams: 
+Use as instruções da documentação do Microsoft Purview para criar e configurar rótulos de confidencialidade para o Teams: 
 
-- [Use rótulos de confidencialidade para proteger o conteúdo Microsoft Teams, Microsoft 365 grupos e SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+- [Use rótulos de confidencialidade para proteger o conteúdo no Microsoft Teams, grupos do Microsoft 365 e sites do SharePoint](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).

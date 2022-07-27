@@ -21,23 +21,25 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Saiba mais sobre como usar o relatório do Painel de Qualidade de Chamada Power BI exibir os dados históricos do Atendedor Automático e da Fila de Chamadas.
-ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+description: Saiba mais sobre como usar o relatório do Power BI do Painel de Qualidade de Chamada para exibir os dados históricos do Atendedor Automático e da Fila de Chamadas.
+ms.openlocfilehash: b9bb3cf0990058cd16ed35d52d07f63be6cd90fb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046443"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024004"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Relatório histórico de fila & atendedor automático
 
-O Teams Do atendedor automático & relatório histórico da fila de chamadas Power BI modelo fornece os três relatórios a seguir:
+O Atendedor Automático do Teams & relatório histórico da fila de chamadas do Power BI fornece os três relatórios a seguir:
 
 - [Atendedor](media/cqd-teams-aa-cq-historical-report-sample-aa.png) Automático – mostrando a análise para chamadas que vêm para seus Atendedores Automáticos.
 - [Fila de](media/cqd-teams-aa-cq-historical-report-sample-cq.png) Chamadas – mostrando a análise para chamadas que vêm para suas Filas de Chamadas.
 - [Linha do tempo do](media/cqd-teams-aa-cq-historical-report-sample-at.png) agente – mostrando uma exibição de linha do tempo dos agentes que estão ativos em chamadas da Fila de Chamadas.
 
 Esses relatórios usam dados do armazenamento [de dados do Painel de Qualidade de](CQD-Power-BI-query-templates.md) Chamada. Os relatórios permitem que as organizações relatem o número de chamadas que estão sendo processadas por atendedores automáticos e filas de chamadas.  Os relatórios também fornecem informações sobre o desempenho do agente nas filas de chamadas.
+
+### <a name="v160-published-on-july-22-2022"></a>V1.60 publicada em 22 de julho de 2022
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -52,15 +54,15 @@ A conta usada para exibir o relatório histórico precisa ter permissões para a
 
 ## <a name="installation"></a>Instalação 
 
-As etapas a seguir pressupõem que você já tenha instalado Power BI Desktop no computador e que sua conta tenha as permissões necessárias para acessar o pipeline de dados CQD.
+As etapas a seguir pressupõem que você já instalou o Power BI Desktop em seu computador e que sua conta tem as permissões necessárias para acessar o pipeline de dados CQD.
 
 Execute as seguintes etapas:
 
-- Baixe o [CQD Power BI modelos de consulta](https://www.microsoft.com/download/details.aspx?id=102291) e salve o arquivo zip em um diretório em seu computador.
+- Baixe os [Modelos de Consulta do Power BI CQD](https://www.microsoft.com/download/details.aspx?id=102291) e salve o arquivo zip em um diretório em seu computador.
 
 - Clique duas vezes no arquivo zip para abri-lo.
 
-- Clique duas vezes no arquivo de modelo "CQ e AA combinado Analytics 20201105.pbit". O Power BI Desktop deve ser iniciado.
+- Clique duas vezes no arquivo de modelo "Atendedor Automático do CQD Teams & Relatório Histórico da Fila de Chamadas V1.60.pbit". O Power BI Desktop deve ser iniciado.
 
 - Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região em que seu locatário está localizado.
 
@@ -83,23 +85,23 @@ Execute as seguintes etapas:
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Captura de tela selecionando a opção atualizar.":::
 
-- Em seguida, você será solicitado a entrar. Selecione **Conta da organização** e, em **seguida, selecione Entrar**.
+- Você será solicitado a entrar. Selecione **Conta organizacional** e, em seguida, **selecione Entrar**.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Captura de tela mostrando o logon.":::
 
-- Selecione **Conexão** e assista à atualização de dados.
+- Selecione **Conectar** e assista à atualização de dados.
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>Latência de dados e análise do AA & CQ
 
-Os dados estarão disponíveis no pipeline de dados CQD dentro de 30 minutos.
+Os dados normalmente estão disponíveis dentro de 30 minutos após a conclusão da chamada; no entanto, há ocasiões em que pode levar várias horas para que os dados sejam exibidos. 
 
-Você precisará atualizar os dados para ver os novos dados de análise. 
+Você precisará atualizar os dados para ver novos dados.
 
 ## <a name="customization"></a>Personalização 
 
 Você pode personalizar determinados aspectos de visualização dos relatórios, como adicionar ou remover campos a serem mostrados nas várias visualizações, alterar o tipo de gráfico e assim por diante.
 
-Não é possível adicionar mais campos de dados ao relatório.
+O relatório contém todas as métricas de dados disponíveis no momento.
 
 ### <a name="change-color-schema"></a>Alterar esquema de cor 
 
@@ -306,6 +308,15 @@ Execute as seguintes etapas:
 
 - Apenas 28 dias de histórico estão disponíveis no painel, pois os dados da fila de chamadas/atendedor automático são considerados dados pessoais e estão sujeitos a políticas de retenção de privacidade de dados.
 
-- Em alguns cenários, a contagem de chamadas atendidas pelo agente no relatório linha do tempo do agente de fila de chamadas na nuvem pode ser diferente do número de chamadas mostradas no histórico Teams de chamadas do cliente. O Teams histórico de chamadas do cliente está correto. O suporte está investigando, mas não há tempo estimado para reparo disponível no momento.
+- Em alguns cenários, a contagem de chamadas atendidas pelo agente no relatório linha do tempo do agente da fila de chamadas na nuvem pode ser diferente do número de chamadas mostradas no histórico de chamadas do cliente do Teams. O histórico de chamadas do cliente do Teams está correto. O suporte está investigando, mas não há tempo estimado para reparo disponível no momento.
 
 - <sup>1 A</sup> **origem da chamada de** entrada nos gráficos do atendedor automático e da fila de chamadas mostra a origem final do segmento de chamada em vez da origem inicial do segmento de chamada. Por exemplo, se um atendedor automático receber uma chamada externa e transferir a chamada para outro atendedor automático ou fila de chamadas,  a origem da chamada de entrada será relatada como Interna.
+
+## <a name="version-history"></a>Histórico de versões
+|Versão  |Data da Publicação     |Filename                                                           |Descrição                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.60     |22 de julho de 2022      |Atendedor Automático do CQD Teams & Relatório Histórico da Fila de Chamadas V1.60.pbit |Consulte:<br>Atendedor Automático do CQD Teams & Relatórios Históricos da Fila de Chamadas – Alterar Log.docx no arquivo zip baixado para obter uma lista de alterações                                                                             |
+|1.00     |5 de novembro de 2020   |CQ e AA combinados Analytics 20201105.pbit                         |Versão inicial                                     |
+
+
+

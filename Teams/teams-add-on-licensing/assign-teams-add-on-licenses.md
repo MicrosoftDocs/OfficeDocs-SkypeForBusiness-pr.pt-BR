@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir licenças de complemento do Teams aos usuários para recursos como Audioconferência, Sistema de Telefonia e Planos de Chamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838816"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023672"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir licenças de complemento do Teams aos usuários
 
@@ -64,18 +64,10 @@ Use o PowerShell para atribuir licenças a usuários em massa. Para saber mais, 
 
 Aqui está um exemplo de como usar um script para atribuir licenças aos usuários.
 
-1. Instale a versão de 64 bits do Assistente de Entrada do [Microsoft Online Services para profissionais de TI RTW](/collaborate/connect-redirect?DownloadID=59185).
-2. Instale o Microsoft Azure Active Directory módulo para Windows PowerShell:
-    1. Abra um prompt de Windows PowerShell com privilégios elevados (execute Windows PowerShell como administrador).
-    2. Execute o seguinte comando:
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. Se for solicitado que você instale o provedor NuGet, digite **Y** e pressione Enter.
-    4. Se for solicitado que você instale o módulo do PSGallery, digite **Y** e pressione Enter.
-3. No prompt Windows PowerShell comando, execute o script a seguir para atribuir licenças aos usuários, \<CompanyName:License> onde está o nome da sua organização e o identificador da licença que você deseja atribuir. Por exemplo, litwareinc:MCOMEETADV.
+1. [Instale o Microsoft Azure Active Directory módulo para Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
+2. No prompt Windows PowerShell comando, execute o script a seguir para atribuir licenças aos usuários, `CompanyName:License` onde está o nome da sua organização e o identificador da licença que você deseja atribuir. Por exemplo, `litwareinc:MCOMEETADV`.
 
-    O identificador é diferente do nome amigável da licença. Por exemplo, o identificador para Audioconferência é MCOMEETADV. Para saber mais, confira [Nomes de produtos e identificadores de SKU para licenciamento](#product-names-and-sku-identifiers-for-licensing).
+    O identificador é diferente do nome amigável da licença. Por exemplo, o identificador para Audioconferência é `MCOMEETADV`. Para saber mais, confira [Nomes de produtos e identificadores de SKU para licenciamento](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.

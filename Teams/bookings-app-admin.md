@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Saiba como gerenciar o aplicativo Bookings no Teams para usuários em sua organização.
-ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e7b8cbabd7c013c47d0d3d75982eb879ccc23e98
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819286"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023782"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gerenciar o aplicativo Bookings no Microsoft Teams
 
@@ -75,7 +75,7 @@ Esse recurso está sendo implementado gradualmente no mundo todo para os cliente
 
 Ao configurar uma caixa de correio do Bookings, é usado o domínio de e-mail padrão da sua organização do Microsoft 365 ou do Office 365. No entanto, o domínio padrão pode causar problemas ao enviar convites de reunião para destinatários externos. Por exemplo, seu convite pode ser sinalizado como spam e movido para a pasta lixo eletrônico do destinatário, para que o destinatário nunca veja seu convite.
 
-Recomendamos que você altere o domínio padrão antes de criar sua caixa de correio do Bookings. Consulte as [perguntas frequentes sobre domínios](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+Recomendamos que você altere o domínio padrão antes de criar sua caixa de correio do Bookings. Consulte as [perguntas frequentes sobre domínios](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-microsoft-365).
 
 Se você precisar alterar o domínio padrão depois de criar sua caixa de correio do Bookings, use o PowerShell.
 

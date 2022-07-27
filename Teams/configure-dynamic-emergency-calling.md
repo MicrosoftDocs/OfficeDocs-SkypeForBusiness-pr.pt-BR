@@ -18,12 +18,12 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e o recurs
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972786"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023692"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -156,7 +156,7 @@ Observe que pode levar algum tempo (até algumas horas) para algumas alteraçõe
 
 - Se a habilitação dinâmica de chamadas de emergência ou configuração dinâmica da notificação de suporte de segurança for necessária, você deverá configurar endereços IP confiáveis e sites de rede.
 
-- Se apenas locais dinâmicos forem necessários, você deverá configurar apenas endereços IP confiáveis; Não é necessário definir as configurações de metwork.
+- Se apenas locais dinâmicos forem necessários, você deverá configurar apenas endereços IP confiáveis; Não é necessário definir as configurações de rede.
 
 - Se nenhum deles for necessário, a definição das configurações de rede não será necessária.
 
