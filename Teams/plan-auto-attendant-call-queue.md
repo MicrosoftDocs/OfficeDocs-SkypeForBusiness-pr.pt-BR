@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menus para acessar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616077"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070732"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar atendedores automáticos do Teams e filas de chamadas
 
@@ -69,7 +69,7 @@ Você pode atribuir um número de telefone a uma fila de chamadas, no entanto, a
 
 Para configurar atendedores automáticos e filas de chamadas, você precisa dos seguintes recursos:
 
-- Uma conta de recurso para cada atendedor automático e cada fila de chamadas
+- Uma [conta de recurso](manage-resource-accounts.md) para cada atendedor automático e cada fila de chamadas
 - Uma licença Telefonia do Microsoft Teams conta de recurso gratuita para cada conta de recurso que será discada diretamente de usuários do Teams ou números de telefone externos
 - Pelo menos um número [de serviço da Microsoft](getting-service-phone-numbers.md), número de Conexão do Operador, Número de Roteamento Direto ou um número híbrido para cada conta de recurso que você deseja que seja discável diretamente de números de telefone externos
   - O número do serviço pode ser um número de chamada tarifada ou gratuita
