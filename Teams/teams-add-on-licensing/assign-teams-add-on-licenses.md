@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir licenças de complemento do Teams aos usuários para recursos como Audioconferência, Sistema de Telefonia e Planos de Chamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023672"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156969"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir licenças de complemento do Teams aos usuários
 
@@ -54,7 +54,7 @@ Atribua licenças na página **Licenças** (para até 20 usuários por vez) ou n
 
 Para obter instruções passo a passo, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-Se você precisar atribuir licenças para um grande número de usuários, como centenas ou milhares de usuários, use o Powershell ou o licenciamento baseado em grupo no [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
+Se você precisar atribuir licenças para um grande número de usuários, como centenas ou milhares de usuários, use o PowerShell ou o licenciamento baseado em grupo no [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ## <a name="using-powershell"></a>Usando o Windows PowerShell
 
@@ -142,6 +142,8 @@ Para saber mais, confira [Exibir licenças](/office365/enterprise/powershell/vie
 | Plano de Chamadas Domésticas (120 minutos por usuário/mês para cada país) </br>*Este plano não está disponível no Estados Unidos.* | MCOPSTN5 |
 | Plano de Chamadas Domésticas (240 minutos por usuário/mês para cada país) </br>*Este plano não está disponível no Estados Unidos.* | MCOPSTN6 |
 | Créditos de Comunicação | MCOPSTNPP |
+| Planos de chamadas pagas conforme o uso (países da zona 1) | MCOPSTN_PAYG_1 |
+| Planos de chamadas pagas conforme o uso (países da Zona 2) | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

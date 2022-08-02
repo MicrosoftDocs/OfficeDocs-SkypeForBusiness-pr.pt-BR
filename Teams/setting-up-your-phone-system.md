@@ -23,23 +23,23 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-get-started
-description: Guia passo a passo que detalha como configurar o Teams Sistema de Telefonia para sua organização no Microsoft 365.
-ms.openlocfilehash: 12e202fed6ad63835c364662194be2eabf872b31
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: Guia passo a passo que detalha como configurar o Sistema de Telefonia do Teams para sua organização no Microsoft 365.
+ms.openlocfilehash: 7f5a29bc5d57d59cf8d63dbe1f61db18a906e110
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681922"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156896"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar o Sistema de telefonia da sua organização
 
-Este artigo fornece um roteiro para o conteúdo para configurar o Sistema de Telefonia – tecnologia da Microsoft para habilitar o controle de chamada e recursos de PBX (Private Branch Exchange) na nuvem Microsoft 365 privada. Links para informações mais detalhadas estão disponíveis no final de cada etapa.
+Este artigo fornece um roteiro para o conteúdo para configurar o Sistema de Telefonia – tecnologia da Microsoft para habilitar o controle de chamadas e recursos de PBX (Private Branch Exchange) na nuvem do Microsoft 365. Links para informações mais detalhadas estão disponíveis no final de cada etapa.
 
-Antes de ler este artigo, verifique se você leu o [](what-is-phone-system-in-office-365.md) que Sistema de Telefonia e veja o que você [obtém com Sistema de Telefonia](here-s-what-you-get-with-phone-system.md). Os dois últimos artigos descrevem Sistema de Telefonia requisitos e recursos.
+Antes de ler este artigo, verifique se você leu o [](what-is-phone-system-in-office-365.md) que é o Sistema de Telefonia e veja o [que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md). Os dois últimos artigos descrevem os requisitos e os recursos do Sistema de Telefonia.
 
 Este artigo descreve as seguintes etapas:
 
-- [Etapa 1: Comprar e atribuir uma licença Sistema de Telefonia usuário](#step-1-buy-and-assign-a-phone-system-license)
+- [Etapa 1: Comprar e atribuir uma licença do Sistema de Telefonia](#step-1-buy-and-assign-a-phone-system-license)
 - [Etapa 2: Escolher uma opção de conectividade PSTN](#step-2-choose-a-pstn-connectivity-option)
 - [Etapa 3: Obter números de telefone para seus usuários](#step-3-get-phone-numbers-for-your-users)
 - [Etapa 4: Obter números de telefone para serviços](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
@@ -47,19 +47,19 @@ Este artigo descreve as seguintes etapas:
 - [Etapa 6: se você quiser configurar um atendedor automático](#step-6-if-you-want-to-set-up-an-auto-attendant)
 - [Etapa 7: Configurar créditos de comunicação para números de chamada gratuita](#step-7-set-up-communications-credits-for-toll-free-numbers)
 
-## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Etapa 1: Comprar e atribuir uma licença Sistema de Telefonia usuário
+## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Etapa 1: Comprar e atribuir uma licença do Sistema de Telefonia
 
-Para atribuir uma Sistema de Telefonia a um único usuário, as etapas são as mesmas que atribuir uma licença Microsoft 365 usuário. Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações sobre licenças Sistema de Telefonia disponíveis e como adquirir e atribuir licenças, consulte Teams [licenças](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de complemento e atribuir Microsoft Teams [licenças](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses) de complemento do Microsoft Teams.
+Para atribuir uma licença do Sistema de Telefonia a um único usuário, as etapas são as mesmas que atribuir uma licença do Microsoft 365. Você também pode atribuir licenças a vários usuários em massa. Para obter mais informações sobre licenças disponíveis do Sistema de Telefonia e como adquirir e atribuir licenças, consulte licenças de complemento do Teams e atribuir [licenças](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) de complemento do [Microsoft Teams](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Etapa 2. Escolher uma opção de conectividade PSTN
 
-Para permitir que os usuários façam e recebam chamadas externas, você precisará se conectar Sistema de Telefonia rede telefônica pública comunada (PSTN). A Microsoft fornece várias opções para se conectar ao PSTN, incluindo:
+Para permitir que os usuários façam e recebam chamadas externas, você precisará conectar o Sistema de Telefonia à Rede Telefônica Pública Comunada (PSTN). A Microsoft fornece várias opções para se conectar ao PSTN, incluindo:
 
 - Plano de chamada. Uma solução totalmente na nuvem com a Microsoft como sua operadora PSTN.
 
-- Conexão do operador. Se sua operadora existente participar do programa Microsoft Conexão do operador, ela poderá gerenciar chamadas PSTN e controladores de borda de sessão (SBCs) para você.
+- Conexão do operador. Se sua operadora existente participar do programa Microsoft Operator Connect, ela poderá gerenciar chamadas PSTN e SBCs (Controladores de Borda de Sessão) para você.
 
-- Roteamento Direto. Use sua própria operadora PSTN conectando seus SBCs Sistema de Telefonia.
+- Roteamento Direto. Use sua própria operadora PSTN conectando seus SBCs ao Sistema de Telefonia.
 
 Para obter mais informações sobre todas as opções de conectividade, consulte [as opções de conectividade PSTN](pstn-connectivity.md).
 
@@ -74,20 +74,20 @@ Descreve os dois tipos de números [de telefone de usuário](manage-phone-number
 
 - [Atribuir, alterar ou remover um número de](assign-change-or-remove-a-phone-number-for-a-user.md) telefone para um usuário – Descreve como atribuir e gerenciar os números de telefone que você adquiriu.
 
-- [Quantos números de](how-many-phone-numbers-can-you-get.md) telefone você pode obter – Descreve quantos números de telefone você pode obter dependendo dos tipos de números de telefone e tipos de licenças que você comprou e atribuiu.
+- [Quantos números de](how-many-phone-numbers-can-you-get.md) telefone você pode obter – Descreve quantos números de telefone você pode obter, dependendo dos tipos de números de telefone e tipos de licenças que você comprou e atribuiu.
 
 ## <a name="step-4-get-phone-numbers-for-services-call-queues-auto-attendants"></a>Etapa 4: Obter números de telefone para serviços (filas de chamadas, atendedores automáticos)
 
 Além de obter números de telefone para seus usuários, você pode adquirir números de chamada tarifada ou gratuita para serviços como atendedores automáticos e filas de chamadas. Um número de serviço pode lidar com centenas de chamadas simultaneamente, enquanto o número de telefone de um usuário só pode lidar com algumas chamadas simultaneamente.
 
-Você pode obter números de serviço da Microsoft que estão incluídos em seu licenciamento. Se você tiver conectividade PSTN por meio Conexão do operador ou Roteamento Direto, poderá usar números de serviço fornecidos por sua própria operadora ou operador.
+Você pode obter números de serviço da Microsoft que estão incluídos em seu licenciamento. Se você tiver conectividade PSTN por meio do Operator Connect ou do Roteamento Direto, poderá usar números de serviço fornecidos por sua própria operadora ou operador.
 
 Para obter mais informações, consulte:
 
 - [Gerenciar números de telefone para](manage-phone-numbers-landing-page.md) sua organização – fornece uma visão geral dos tipos de número de telefone com links para artigos específicos para adquirir e gerenciar números, dependendo da opção de conectividade PSTN.
-Descreve os [números de telefone de](manage-phone-numbers-landing-page.md#service-telephone-numbers) serviço disponíveis na Microsoft que estão incluídos em seu licenciamento. Para obter informações sobre números de serviço fornecidos pelo Conexão do operador ou roteamento direto, entre em contato com seu provedor.
+Descreve os [números de telefone de](manage-phone-numbers-landing-page.md#service-telephone-numbers) serviço disponíveis na Microsoft que estão incluídos em seu licenciamento. Para obter informações sobre números de serviço fornecidos pelo Operator Connect ou pelo Roteamento Direto, entre em contato com seu provedor.
 
-- [Quantos números de](how-many-phone-numbers-can-you-get.md) telefone você pode obter – Descreve quantos números de telefone você pode obter dependendo dos tipos de números de telefone e tipos de licenças que você comprou e atribuiu.
+- [Quantos números de](how-many-phone-numbers-can-you-get.md) telefone você pode obter – Descreve quantos números de telefone você pode obter, dependendo dos tipos de números de telefone e tipos de licenças que você comprou e atribuiu.
 
 ## <a name="step-5-if-you-want-to-set-up-a-call-queue"></a>Etapa 5: se você quiser configurar uma fila de chamadas
 
@@ -103,7 +103,7 @@ Para obter informações sobre como configurar atendedores automáticos, consult
 
 ## <a name="step-7-set-up-communications-credits-for-toll-free-numbers"></a>Etapa 7: Configurar Créditos de Comunicação para números de chamada gratuita
 
-Se você quiser usar números de chamada gratuita com Microsoft Teams, precisará configurar os Créditos de Comunicação. As chamadas gratuitas são cobradas por minuto e exigem um saldo positivo de Créditos de Comunicação.
+Se você quiser usar números de chamada gratuita com o Microsoft Teams, precisará configurar créditos de comunicação. As chamadas gratuitas são cobradas por minuto e exigem um saldo positivo de Créditos de Comunicação.
 
 Os Créditos de Comunicação são uma maneira conveniente de adicionar números de chamada gratuita a serem usados da seguinte maneira:
 
@@ -113,9 +113,11 @@ Os Créditos de Comunicação são uma maneira conveniente de adicionar números
 
 - Para discar e pagar por minuto depois de esgotar sua atribuição de minuto mensal.
 
+- Para discar e pagar por minuto por todas as chamadas de saída, se você tiver um Plano de Chamadas Pago Conforme o Uso.
+
 Para obter mais informações, consulte [O que são Créditos de Comunicação?](what-are-communications-credits.md) e [Configurar Créditos de Comunicação para sua organização](set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 - [O que é o Sistema de Telefonia](what-is-phone-system-in-office-365.md)
 
