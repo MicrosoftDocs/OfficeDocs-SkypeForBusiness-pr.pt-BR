@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários do Teams em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713339"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156519"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -60,7 +60,7 @@ Você pode editar a política global ou criar e atribuir uma política personali
 
 Por exemplo, você deseja permitir que todos os usuários em sua organização enviem comentários e recebam pesquisas, exceto para novas contratações no treinamento. Nesse cenário, você cria uma política personalizada para desativar os dois recursos e atribuí-la a novas contratações. Todos os outros usuários em sua organização obtêm a política global com os recursos ativados.  
 
-Gerencie políticas de comentários usando o PowerShell. Use o [cmdlet **New-CsTeamsFeedbackPolicy**](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) para criar uma política personalizada. Use o cmdlet **Grant-CsTeamsFeedbackPolicy para atribuí-lo** a um ou mais usuários ou grupos de usuários, como um grupo de segurança ou grupo de distribuição. Use **Set-CsTeamsFeedbackPolicy** para definir sinalizadores específicos.
+Gerencie políticas de comentários usando o PowerShell. Use o [cmdlet **New-CsTeamsFeedbackPolicy**](/powershell/module/skype/new-csteamsfeedbackpolicy) para criar uma política personalizada. Use o cmdlet **Grant-CsTeamsFeedbackPolicy para atribuí-lo** a um ou mais usuários ou grupos de usuários, como um grupo de segurança ou grupo de distribuição. Use **Set-CsTeamsFeedbackPolicy** para definir sinalizadores específicos.
 
 Para desativar e ativar os recursos, defina os seguintes parâmetros:
 

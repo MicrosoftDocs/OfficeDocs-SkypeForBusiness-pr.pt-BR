@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como obter novos, portar ou transferir números existentes para o Teams e como mostrar as alterações aos usuários.
-ms.openlocfilehash: 18dd5a84110dc25721d9f8c027dffe861d29cbd1
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682540"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156539"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -42,31 +42,34 @@ Há três maneiras de obter números de usuário:
   
 > [!NOTE]
 > Se você precisar de ajuda para configurar números de telefone para sua organização, entre em contato com o Contato de Suporte para [Produtos Comerciais – Administração Ajuda](/microsoft-365/admin/contact-support-for-business-products).
+
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtenha novos números de telefone para seus usuários
 
- **Usando o centro de administração do Microsoft Teams**
+**Usando o centro de administração do Microsoft Teams**
 
 Você deve ser um administrador de serviço do Teams para fazer essas alterações. Veja [ Use funções de administrador Teams para gerenciar o Teams](./using-admin-roles.md) para ler sobre como obter funções e permissões de administrador.
 
 1. Acesse o Microsoft Teams Administração Center.
 
-2. No painel de navegação esquerdo, vá para **números de Telefone** > **de** Voz e clique em **Adicionar**.
+2. No painel de navegação esquerdo, vá para **números de Telefone** > **de** Voz e, em seguida, selecione **Adicionar**.
 
 3. Insira um nome para o pedido e adicione uma descrição.
 
 4. Na página Localização e quantidade, faça o seguinte:
     1. Em **País ou região**, selecione um país ou região.
     2. Em **Tipo de número**, selecione **Usuário (assinante)**.
-    3. Em **Local**, selecione um local. Se você precisar criar um novo local, clique **em Adicionar um local**.
+    3. Em **Local**, selecione um local. Se você precisar criar um novo local, selecione **Adicionar um local**.
     4. Em **Código de área**, selecione um código de área.
-    5. Em **Quantidade**, insira o número de números desejados para sua organização e clique em **Avançar** para selecionar seus números.
+    5. Em **Quantidade**, insira o número de números desejados para sua organização e selecione **Avançar** para selecionar seus números.
 
 5. Selecione os números desejados. Você tem 10 minutos para selecionar seus números de telefone e fazer seu pedido. Se você levar mais de 10 minutos, os números de telefone serão retornados para o pool de números.
 
-6. Quando estiver pronto para fazer seu pedido, clique em **Fazer pedido**.
+6. Quando estiver pronto para fazer seu pedido, selecione **Fazer pedido**.
 
     > [!IMPORTANT]
-    > O número de números de telefone para usuários (assinantes) é igual ao número total de  licenças de Plano  de Chamadas Domésticas e Plano de Chamadas Internacionais que você atribuiu multiplicado por 1,1, além de 10 números de telefone adicionais. Por exemplo, se você tiver 50 usuários no total com um Plano de Chamadas Domésticas e/ou Plano de Chamadas Internacionais, poderá adquirir **65** números de telefone **(50 x 1,1 + 10)**. Para obter detalhes, [veja quantos números de telefone você pode obter?](./how-many-phone-numbers-can-you-get.md). Se você precisar obter mais números de telefone do que isso, entre em contato com o Contato de Suporte para [Produtos Comerciais – Administração Ajuda](/microsoft-365/admin/contact-support-for-business-products).
+    > O número de números de telefone para usuários (assinantes) é igual ao número total de  licenças de Plano  de Chamadas Domésticas e Plano de Chamadas Internacionais que você atribuiu multiplicado por 1,1, além de 10 números de telefone adicionais. Por exemplo, se você tiver 50 usuários no total com um Plano de Chamadas Domésticas e/ou Plano de Chamadas Internacionais, poderá adquirir **65** números de telefone **(50 x 1,1 + 10)**. Observe que, se você tiver um Plano de Chamadas Pago Conforme o Uso, só poderá adquirir um número de telefone por licença atribuída.
+    >
+    > Para obter detalhes, [veja quantos números de telefone você pode obter?](./how-many-phone-numbers-can-you-get.md). Se você precisar obter mais números de telefone do que isso, entre em contato com o Contato de Suporte para [Produtos Comerciais – Administração Ajuda](/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Fazer a portabilidade ou transferir os números de telefone de seu provedor de serviços ou de sua operadora de telefonia
   
@@ -76,7 +79,7 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Exibir os números de telefone da sua organização
 
- **Usando o centro de administração do Microsoft Teams**
+**Usando o centro de administração do Microsoft Teams**
 
 No painel de navegação esquerdo do centro de administração,  >  vá para números de Telefone de Voz para exibir os números da sua organização, incluindo informações de localização, tipo de número e status.
   
@@ -87,9 +90,9 @@ Depois de obter seus números de telefone, você precisará atribuir um número 
 > [!NOTE]
 > Se você precisar obter mais números de telefone do que isso, entre em contato com o Contato de Suporte para [Produtos Comerciais – Administração Ajuda](/microsoft-365/admin/contact-support-for-business-products).
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
-[Perguntas comuns sobre a transferência de números de telefone](./phone-number-calling-plans/port-order-overview.md)
+[Perguntas comuns sobre transferência de números de telefone](./phone-number-calling-plans/port-order-overview.md)
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

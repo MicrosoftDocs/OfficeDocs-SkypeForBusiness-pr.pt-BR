@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 0fd39009285f411fce3719cac3b8e6f2b0673c59
-ms.sourcegitcommit: 08fe98cc6760028bdd1946ecc5d4ec61ce65e096
+ms.openlocfilehash: 346ef66bf0c042024f897d30b97fd5afed12d7f7
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67058922"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156699"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -149,6 +149,8 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware  | Versão de produto incluída  |
 |:----------------|:--------------|:----------------------------|
+|Poly Trio C60 | `7.3.1.0813` | Atualização de 2022 #1C |
+|Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | Atualização de 2022 #1C
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | Atualização de 2022 #2A  |
 |Yealink VP59             | `91.15.0.90`      | Atualização de 2022 #2A  |
 |Yealink CP960            | `73.15.0.153`     | Atualização de 2022 #2A  |

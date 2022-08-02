@@ -16,42 +16,37 @@ description: Saiba como definir o Adobe Acrobat como um visualizador de PDF padr
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: fd74ece7ba59b437fcd8b47bd184cdcfd150438d
-ms.sourcegitcommit: 4708fc1c2b8523e1074aed06b1dd6950c039f200
+ms.openlocfilehash: 913081ee0efc87d66ed304f3de5e9f00b69232fa
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2022
-ms.locfileid: "67002331"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156739"
 ---
-# <a name="adobe-acrobat-as-a-default-pdf-viewer-in-teams"></a>Adobe Acrobat como um visualizador de PDF padrão no Teams
+# <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como um visualizador de PDF padrão no Microsoft Teams
 
 > [!NOTE]
-> No momento, o Adobe Acrobat como uma experiência de PDF padrão no Teams só está disponível em versão prévia pública. [Habilite a visualização](public-preview-doc-updates.md#enable-public-preview) pública para seu locatário antes de usar esse recurso. Certifique-se de que os usuários finais alterem a versão do cliente do Teams para visualização pública para experimentar o Adobe Acrobat como visualizador de PDF no Teams.
+> No momento, o Adobe Acrobat como uma experiência de PDF padrão no Microsoft Teams só está disponível em versão prévia pública. Para usar essa funcionalidade, os administradores devem [](public-preview-doc-updates.md#enable-public-preview) habilitar a visualização pública para seu locatário e garantir que os usuários finais alterem a versão do cliente do Teams para visualização pública.
 
-Como administrador, você pode definir o Adobe Acrobat como o aplicativo padrão para exibir e editar arquivos PDF no Microsoft Teams. Os usuários finais não precisam de uma assinatura do Adobe Acrobat ou de uma ID do Adobe para exibir, pesquisar, comentar e anotar arquivos PDF.
+Como administrador, você pode definir o Adobe Acrobat como o aplicativo padrão para exibir e editar arquivos PDF no Microsoft Teams. Os usuários finais podem exibir, pesquisar, comentar e anotar arquivos PDF sem uma assinatura do Adobe Acrobat ou uma ID do Adobe.
 
 ## <a name="set-up-adobe-acrobat-app"></a>Configurar o aplicativo Adobe Acrobat
 
-Para configurar o Adobe Acrobat como o aplicativo padrão para exibir arquivos PDF, siga estas etapas:
+Antes de configurar o aplicativo, certifique-se de permitir que os aplicativos sejam usados em seu locatário, que você tenha permitido especificamente o aplicativo Adobe Acrobat e que as políticas de permissão do aplicativo o permitam. Para configurar o Adobe Acrobat como o aplicativo padrão para arquivos PDF, siga estas etapas:
 
 1. Entre no centro de administração do Teams e acesse o aplicativo **Gerenciar aplicativos** > **[do](https://admin.teams.microsoft.com/policies/manage-apps)** Teams.
 
-1. Pesquise o aplicativo Adobe Acrobat e selecione **o aplicativo Adobe Acrobat** .
-
-   > [!NOTE]
-   >
-   > * Verifique se o status do aplicativo Adobe Acrobat está definido como **Permitido**. Caso contrário, habilite **a alternância** Permitido.
-   > * Se houver alguma configuração de administrador existente na política de permissão do aplicativo ou nas configurações de aplicativo em toda a organização que tenha bloqueado o aplicativo, certifique-se de permitir o aplicativo na política de permissão do aplicativo ou nas configurações do aplicativo em toda a [organização](teams-app-permission-policies.md).[](teams-app-permission-policies.md)
+1. Pesquise o aplicativo Adobe Acrobat e selecione-o.
 
 1. Na guia **Permissões** , selecione **Examinar permissão**.
 
-1. Selecione **Aceitar**.
-
    :::image type="content" source="media/permission-policy.png" alt-text="Captura de tela da permissão do aplicativo no Centro de administração do Teams." lightbox="media/teams-app-adobe-acrobat-permission.png":::
+
+1. Selecione **Aceitar**.
 
 ## <a name="install-adobe-acrobat-app-for-all-users"></a>Instalar o aplicativo Adobe Acrobat para todos os usuários
 
-Você pode usar a política Global (padrão em toda a organização) para atribuir e disponibilizar o aplicativo Adobe Acrobat para todos os usuários. Esta etapa dispara um sinal no Teams para definir o aplicativo como o manipulador de arquivos padrão para arquivos PDF. Para atribuir o aplicativo Adobe Acrobat para todos os usuários, siga estas etapas:
+Para atribuir e disponibilizar o aplicativo Adobe Acrobat para todos os usuários, siga estas etapas:
 
 1. No Centro de administração do Teams, acesse as políticas **de Configuração de Aplicativos** > [**do**](https://admin.teams.microsoft.com/policies/app-setup) Teams.
 
@@ -67,27 +62,17 @@ Você pode usar a política Global (padrão em toda a organização) para atribu
 
 1. Selecione **Salvar**.
 
-Depois de selecionar salvar, o aplicativo Adobe Acrobat é configurado com o Teams para abrir todos os arquivos PDF no aplicativo Adobe Acrobat no aplicativo de chat, canal ou arquivos.
+Depois de selecionar salvar, o Teams usa o aplicativo Adobe Acrobat como o manipulador de arquivos padrão para arquivos PDF.
 
-Se você quiser permitir seletivamente o aplicativo Adobe Acrobat para algumas pessoas específicas ou para um grupo, poderá atribuir uma política [de permissão de aplicativo personalizada](teams-app-permission-policies.md).
+Se você quiser permitir seletivamente o aplicativo Adobe Acrobat para algumas pessoas ou para um grupo, poderá atribuir uma política de permissão de [aplicativo personalizada](teams-app-permission-policies.md).
 
 Conheça as seguintes informações sobre essa funcionalidade:
 
 * Depois que a política é configurada, normalmente leva [algumas horas](teams-app-setup-policies.md) para que o aplicativo esteja disponível para os usuários.
-Depois que a política for configurada, o aplicativo instalado estará disponível para os usuários após algumas horas.
-* A exibição de arquivos PDF fixados em canais como uma guia e a exibição de arquivos PDF no aplicativo de atribuições continua a ser alimentada pela experiência nativa do Teams.
+* Depois que a política for configurada, o aplicativo instalado estará disponível para os usuários após algumas horas.
+* A exibição de arquivos PDF fixados em canais como uma guia e a exibição de arquivos PDF no aplicativo Atribuições continua a ser alimentada pela experiência nativa do Teams.
 * O Adobe Acrobat como um visualizador de PDF padrão no Teams só funciona em clientes da Web e da área de trabalho. Não há suporte para ele no cliente móvel.
-* Os usuários precisam de um plano do Adobe Acrobat para usar ferramentas premium, como Exportar PDF, Organizar Páginas, Combinar Arquivos, Compactar PDF e Proteger PDF.
-
-> [!NOTE]
-> No cliente da área de trabalho do Teams, se você enfrentar problemas ao entrar no aplicativo Adobe Acrobat, poderá abrir o Teams no navegador e entrar. Esse é um problema conhecido e será resolvido até setembro de 2022.
-
-## <a name="faqs"></a>Faqs
-
-* Como remover o aplicativo Adobe Acrobat do cliente do Teams?
-  
-  Os usuários finais podem desinstalar o aplicativo do cliente e o administrador do Teams pode remover o aplicativo Adobe Acrobat da política de configuração.
-
-* Os administradores podem bloquear o aplicativo Adobe Acrobat depois que ele for definido como um manipulador padrão?
-  
-  Sim, mas antes que o administrador bloqueie o aplicativo, remova a política de configuração para garantir que os usuários finais sejam trazidos de volta com segurança para a experiência padrão do Teams.
+* Os usuários precisam de um plano do Adobe Acrobat para usar as ferramentas premium, como Exportar PDF, Organizar Páginas, Combinar Arquivos, Compactar PDF e Proteger PDF.
+* Para desinstalar o aplicativo, os usuários finais podem remover o aplicativo do cliente do Teams. Administração pode remover o aplicativo Adobe Acrobat usando a política de instalação.
+* Se você bloquear o aplicativo Adobe Acrobat, remova-o da política de configuração. Ele garante que a experiência do usuário final seja revertida para o uso do visualizador de arquivo PDF nativo.
+* No cliente da área de trabalho do Teams, se você enfrentar problemas ao entrar no aplicativo Adobe Acrobat, use o navegador Teams para entrar.
