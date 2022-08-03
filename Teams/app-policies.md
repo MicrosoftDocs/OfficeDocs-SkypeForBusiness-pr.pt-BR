@@ -9,38 +9,38 @@ ms.reviewer: ''
 search.appverid: ''
 description: Saiba mais sobre políticas de permissão de aplicativo, políticas de configuração de aplicativo e políticas de aplicativo personalizadas usadas para gerenciar aplicativos no Microsoft Teams.
 audience: admin
-ms.localizationpriority: medium
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bd8c6c88f9c1c207f0f6d9ebb1f64a626f2bce8
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
-ms.translationtype: MT
+ms.openlocfilehash: 547db7e0545247629ade5ed49d039a2b9ac95556
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880215"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175635"
 ---
-# <a name="overview-of-app-policies-used-to-manage-apps"></a>Visão geral das políticas de aplicativo usadas para gerenciar aplicativos
+# <a name="overview-of-app-policies-used-to-manage-apps"></a>Visão geral das políticas de aplicativos usadas para gerenciar aplicativos
 
-As políticas de aplicativo são usadas para controlar o acesso ao aplicativo e o comportamento de instalação no Microsoft Teams.
+As políticas de aplicativo são usadas para controlar o acesso ao aplicativo e o comportamento da instalação no Microsoft Teams.
 
 ## <a name="app-permission-policies"></a>Políticas de permissão do aplicativo
 
-**As políticas de permissão** de aplicativo são usadas para controlar quais aplicativos estão disponíveis para seus usuários. Como administrador, você pode permitir ou bloquear aplicativos específicos que os usuários instalam da loja de aplicativos do Teams. [As políticas de permissão de](teams-app-permission-policies.md) aplicativo são gerenciadas por meio do centro de administração do Microsoft Teams.
+**As políticas de permissão de aplicativos** são usadas para controlar quais aplicativos estão disponíveis para seus usuários. Como administrador, você pode permitir ou bloquear aplicativos específicos que seus usuários instalam na loja de aplicativos do Teams. [Políticas de permissão de aplicativo](teams-app-permission-policies.md) são gerenciadas por meio do centro de administração do Microsoft Teams.
 
 ![Captura de tela da política de permissão do aplicativo.](media/app-permission-policy.png)
 
-## <a name="app-setup-policies"></a>Políticas de configuração de aplicativo
+## <a name="app-setup-policies"></a>Políticas de configuração do aplicativo
 
-**As políticas de configuração** de aplicativo permitem que você fixe e instale aplicativos em nome de seus usuários e controle essas configurações para sua organização. [As políticas de configuração](teams-app-setup-policies.md) de aplicativo são gerenciadas no centro de administração do Teams.
+**As políticas de configuração de aplicativo** permitem fixar e instalar aplicativos em nome de seus usuários e controlar essas configurações para sua organização. [As políticas de configuração do aplicativo](teams-app-setup-policies.md) são gerenciadas no centro de administração do Teams.
 
-![Captura de tela da política de configuração de aplicativo no Centro de administração do Teams.](media/app-setup-policy.png)
+![Captura de tela da política de configuração do aplicativo no centro de administração do Teams.](media/app-setup-policy.png)
 
-## <a name="custom-app-policies"></a>Políticas de aplicativo personalizadas
+## <a name="custom-app-policies"></a>Políticas de aplicativo personalizados
 
-Você pode controlar quem pode carregar aplicativos personalizados no Teams com **políticas de aplicativo personalizadas**. [As configurações e políticas personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) são gerenciadas por meio do centro de administração do Microsoft Teams.
+Você pode controlar quem pode carregar aplicativo personalizado para o Teams com **políticas de aplicativo personalizados**. [As configurações e políticas personalizadas do aplicativo ](teams-custom-app-policies-and-settings.md) são gerenciadas por meio do centro de administração do Microsoft Teams.
 
 ![Captura de tela da política de aplicativo personalizada.](media/custom-app-policy.png)
 

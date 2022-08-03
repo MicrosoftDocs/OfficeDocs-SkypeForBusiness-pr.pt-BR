@@ -117,8 +117,6 @@ items:
         items:
           - name: Treinamento para o administrador do Teams
             href: itadmin-readiness.md
-          - name: Sessões do Teams no Ignite
-            href: ignite-2020-landing-page.md
           - name: Treinamento para o usuário final do Teams
             href: instructor-led-training-teams-landing-page.yml
   - name: Atualização do Skype for Business
@@ -219,7 +217,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -675,7 +673,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar sua implantação
+              - name: Planejar implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md
@@ -865,6 +863,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Conexão do Operador
             items:
+              - name: Novidades
+                href: operator-connect-whats-new.md
               - name: Plano para a Conexão do Operador
                 href: operator-connect-plan.md
               - name: Configurar a Conexão do Operador
@@ -1622,6 +1622,8 @@ items:
                 href: education-insights-manage-access.md
               - name: Introdução ao Reflect
                 href: reflect.md
+              - name: Entenda o Insights para o Progresso da Leitura
+                href: insights-for-reading-progress.md
           - name: Tarefas do Teams para Educação
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Recursos do Teams para administradores de Educação
