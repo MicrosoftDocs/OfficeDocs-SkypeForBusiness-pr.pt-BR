@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Saiba como configurar e gerenciar atendedores automáticos no Microsoft Teams.
-ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616107"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67176095"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -33,16 +33,19 @@ Os atendedores automáticos permitem que as pessoas liguem para sua organizaçã
 
 Verifique se você leu o [Plano para atendedores automáticos do Teams e as filas](plan-auto-attendant-call-queue.md) de [](plan-auto-attendant-call-queue.md#getting-started) chamadas e seguiu as etapas de introdução antes de seguir os procedimentos neste artigo.
 
-Os atendedores automáticos podem direcionar chamadas, com base na entrada dos chamadores, para um dos seguintes destinos:
+Os atendedores automáticos podem redirecionar chamadas, com base na entrada dos chamadores, para um dos seguintes destinos:
 
 - **Operador** – o operador definido para o atendedor automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos nesta lista.
 - **Pessoa na organização –** uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado localmente usando Skype for Business Server.
 - **Aplicativo de voz** – outro atendedor automático ou uma fila de chamadas. (Escolha a conta de recurso associada ao atendedor automático ou fila de chamadas ao escolher esse destino.)
 - **Caixa** postal – a caixa de correio de voz associada a um grupo do Microsoft 365 especificado por você. Você pode escolher se deseja transcrições de caixa postal e "Deixe uma mensagem após o tom". prompt do sistema.
   - No M365 Administração Center, habilite "Permitir que pessoas de fora da organização enviem email para esta equipe" para o grupo do Microsoft 365 especificado
-- **Número de telefone externo** - qualquer número de telefone. Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md?tabs=additional-resources).
+- **Número de telefone externo** - qualquer número de telefone. Consulte [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Comunicado (arquivo de áudio)** – Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio em . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB. O sistema reproduz o comunicado e, em seguida, retorna ao menu atendedor automático.
 - **Comunicado (Digitado)** – digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o comunicado e, em seguida, retorna ao menu atendedor automático.
+
+> [!NOTE]
+> Ao redirecionar chamadas para **uma Pessoa na organização**, essa pessoa deve estar habilitada para voz. Para obter detalhes sobre como habilitar a voz, [consulte Atribuir licenças de complemento do Teams aos usuários](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 As etapas para adicionar um atendedor automático são:
 
@@ -232,7 +235,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
    > [!div class="nextstepaction"]
    > [Executar testes: Atendedor Automático do Teams](https://aka.ms/TeamsAADiag)
 
-2. No painel Executar diagnóstico, insira a Conta de Recurso no campo Nome de Usuário ou **Email** e selecione **Executar Testes**.
+2. No painel Executar diagnóstico, insira a Conta de Recurso no nome de usuário **ou** Email e selecione **Executar Testes**.
 
 3. Os testes identificarão configurações de locatário, política ou conta de recurso que estão impedindo o atendedor automático de receber chamadas e fornecerão etapas para corrigir quaisquer problemas identificados.
 

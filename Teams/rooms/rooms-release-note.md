@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administração pode ler as notas de versão para Salas do Microsoft Teams, que listam melhorias cumulativas no Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810103"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175845"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -37,8 +37,9 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 
 ## <a name="version-history"></a>Histórico de versão
 
-|Lançamento |Publicado em <br/> Microsoft Store |
+|Soltar |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
@@ -92,6 +93,29 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams de problemas e introdução ao recurso
+
+### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
+
+Introduzido nesta atualização:
+
+- Ingressar na reunião do Teams usando a ID da reunião
+- Criptografia de ponta a ponta para chamadas 1 do Teams um para<sup>um</sup> 
+- Supressão de ruído nas reuniões<sup>do Teams 2</sup>
+- Atualização da experiência de bandeja de compartilhamento
+- Ativar mudo e desativar mudo no vídeo da sala
+- Administração para o padrão de layout somente de conteúdo  
+- A autenticação moderna está ativada por padrão
+
+ <sup>1</sup> Antes de ativar a criptografia de ponta a ponta para chamadas de um dispositivo da Sala do Teams, você precisa configurar a política para a conta de usuário do dispositivo. Você pode atualizar a política do usuário no centro de administração do Teams ou usando o Teams PowerShell. Para obter mais informações, [consulte Configurar a política para a conta de usuário da Sala do Teams.](../teams-end-to-end-encryption.md)
+
+ <sup>2 Salas do Teams</sup> suporte para supressão de ruído na versão 4.12 com substituição de administrador.
+
+> [!IMPORTANT]
+> Com essa atualização, os novos Salas do Teams agora usam a autenticação moderna como padrão ao se conectar ao Microsoft Teams e Exchange Online.
+>
+> É altamente recomendável que você teste seus Salas do Teams antes do final de agosto, ativando a autenticação moderna para suas contas de sala.
+>
+> Essa alteração ajuda a se preparar para a próxima atualização no Exchange Online desativar a autenticação básica a partir de 1º de outubro de 2022. Para obter mais informações, consulte [Preterimento de Autenticação Básica Exchange Online – Atualização de maio de 2022](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866).  
 
 ### <a name="4121390-7142022"></a>4.12.139.0 (7/14/2022)
 
