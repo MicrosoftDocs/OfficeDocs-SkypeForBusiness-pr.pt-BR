@@ -19,26 +19,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880375"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156679"
 ---
-# <a name="about-apps-in-microsoft-teams"></a>Sobre aplicativos no Microsoft Teams
+# <a name="understand-microsoft-teams-apps"></a>Entenda os aplicativos do Microsoft Teams
 
 Os aplicativos são uma ótima maneira de reunir suas ferramentas e serviços do local de trabalho e colaborar com outras pessoas. Os aplicativos ajudam os usuários finais a serem mais produtivos, colaborativos e eficazes em suas tarefas diárias. As organizações usam aplicativos para se conectar com seus clientes, fornecer serviços e compartilhar informações. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal.
 
-Nossa ampla seleção de aplicativos validados e seguros na loja fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados. Os usuários finais podem usar aplicativos no Teams com base apenas nas [permissões](https://admin.teams.microsoft.com/policies/app-permission) fornecidas por você. Como administrador, basta aprovar ou bloquear o uso de qualquer aplicativo para os usuários da sua organização. Você controla a disponibilidade de aplicativos para todos os usuários em reuniões, chats e canais.
+Nosso amplo catálogo de aplicativos validados e seguros na Loja do Teams fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados. Os usuários finais podem usar aplicativos no Teams com base apenas nas [permissões fornecidas por você](app-policies.md). Como administrador, você usa políticas de nível empresarial para permitir ou bloquear qualquer aplicativo para os usuários da sua organização. Você controla a disponibilidade de aplicativos para cada usuário em vários contextos, como reuniões, bate-papos e canais.
 
-Para fornecer aos usuários finais os aplicativos de que precisam, continue a ler para entender os tipos de aplicativos e onde os usuários acessam esses aplicativos. Para saber mais sobre o uso de aplicativos, leia [Visão geral dos aplicativos para usuários finais](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
-
-<!--- Commenting the previous content as part of this article revamp.
-
-Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
-
---->
+Este artigo ajuda você a entender os tipos de aplicativos e de onde os seus usuários acessam esses aplicativos. Para saber mais sobre o uso de aplicativos, leia [Visão geral dos aplicativos para usuários finais](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Os diferentes tipos de aplicativos que os usuários finais podem usar no Teams são:
 
@@ -49,7 +43,7 @@ Os diferentes tipos de aplicativos que os usuários finais podem usar no Teams s
 
 ## <a name="core-apps"></a>Principais aplicativos
 
-Algumas funcionalidades padrão, como feed de atividades, chat, calendário, chamadas e canais do Teams, estão disponíveis e fixadas por padrão para facilitar o acesso para usuários finais. Como administrador, você pode modificar o comportamento padrão usando a [política de instalação](/microsoftteams/teams-app-setup-policies).
+Algumas funcionalidades do Teams, como feed de atividades, chat, calendário, chamadas e canais, estão disponíveis por padrão e fixadas por padrão para facilitar o acesso para usuários finais. Como um administrador, você pode modificar este comportamento padrão usando a [política de instalação](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Os aplicativos principais são os aplicativos fixados no Teams por padrão." lightbox="media/core-apps-pinned2.png":::
 
@@ -69,15 +63,17 @@ Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de 
 
 ## <a name="custom-apps"></a>Aplicativos personalizados
 
-Os aplicativos criados por desenvolvedores em sua organização são chamados de aplicativos personalizados. O desenvolvimento desse aplicativo é solicitado para requisitos específicos da sua organização e você tem controles para permitir ou não esses aplicativos. Os desenvolvedores podem criar rapidamente soluções personalizadas de baixo código usando a integração do Teams com o [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
+Os aplicativos criados por desenvolvedores em sua organização são chamados de aplicativos personalizados (ou aplicativos de Linha de Negócios). A sua organização pode encomendar a criação de aplicativos personalizados para requisitos específicos da organização. Você tem o controle para permitir ou bloquear esses aplicativos para toda a organização ou para usuários específicos. Os desenvolvedores podem criar soluções personalizadas de baixo código usando a integração do Teams com o [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
 Depois que um administrador permite o uso de aplicativos personalizados, os usuários finais encontram esses aplicativos clicando em **Criado para sua organização** na navegação à esquerda da loja do Teams.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de tela de aplicativos personalizados na loja do Teams no aplicativo de desktop do Teams." lightbox="media/built-for-your-org2.png":::
 
+<!--- TBD - new article on custom app overview and sideloading. --->
+
 ### <a name="understand-sideloading-of-custom-apps"></a>Entender o sideload de aplicativos personalizados
 
-Ao desenvolver aplicativos personalizados e antes de distribuí-los aos usuários finais, os desenvolvedores testam os aplicativos adicionando-os à loja para testar por conta própria ou com uma equipe na qual eles carregam o aplicativo. Esse método é chamado de sideload de aplicativos e se aplica somente a aplicativos personalizados.
+Ao desenvolver aplicativos personalizados e antes de distribuir esses aplicativos para os usuários finais, os desenvolvedores testam os aplicativos adicionando-os ao Teams Store para testar. Os desenvolvedores podem testar por conta própria ou com um grupo específico de usuários, mas o aplicativo não está disponível para outros usuários finais na organização. Esse método é chamado de sideload de aplicativos e se aplica somente a aplicativos personalizados.
 
 Os desenvolvedores podem fazer sideload de um aplicativo para disponibilizá-lo aos membros de uma equipe específica, normalmente para testar um aplicativo em desenvolvimento. Usar um aplicativo dessa maneira limita seu uso aos desenvolvedores de aplicativos e não requer aprovação do administrador, desde que o administrador permita o sideload no Teams. Como administrador, você pode proibir o sideload do aplicativo para todos os desenvolvedores.
 
