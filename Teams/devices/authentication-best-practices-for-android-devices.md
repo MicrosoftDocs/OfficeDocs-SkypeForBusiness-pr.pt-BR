@@ -1,5 +1,5 @@
 ---
-title: Práticas recomendadas de autenticação Microsoft Teams gerenciamento de dispositivo compartilhado de Android dispositivos.
+title: Práticas recomendadas de autenticação para o gerenciamento de dispositivo compartilhado do Microsoft Teams de dispositivos Android.
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,71 +9,70 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Práticas recomendadas sobre o gerenciamento de dispositivos Android compartilhados Teams. Isso apresenta Acesso Condicional, política de senha, conselhos de autenticação multifator e muito mais.
+description: Práticas recomendadas sobre o gerenciamento compartilhado de dispositivos Android no Teams. Isso apresenta Acesso Condicional, política de senha, conselhos de autenticação multifator e muito mais.
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eef76052f662b26f946bf80839a62186c287b68
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 0f658a70235440563d7cb3910830c56923b60f3e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635457"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270096"
 ---
-# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Práticas recomendadas de autenticação Teams gerenciamento de dispositivo compartilhado em Android dispositivos
+# <a name="authentication-best-practices-for-teams-shared-device-management-on-android-devices"></a>Práticas recomendadas de autenticação para o gerenciamento de dispositivo compartilhado do Teams em dispositivos Android
 
-As metas dos dispositivos usados com Teams diferentes estratégias de gerenciamento de dispositivos são necessárias. Por exemplo, um tablet comercial pessoal usado por um único vendedor tem um conjunto diferente de necessidades de um telefone de chamada compartilhado por muitas pessoas do serviço de atendimento ao cliente.
+As metas dos dispositivos usados com o Teams tornam diferentes estratégias de gerenciamento de dispositivos necessárias. Por exemplo, um tablet comercial pessoal usado por um único vendedor tem um conjunto diferente de necessidades de um telefone de chamada compartilhado por muitas pessoas do serviço de atendimento ao cliente.
 
 Os administradores de segurança e as equipes de operações devem planejar os dispositivos que podem ser usados na organização. Eles devem implementar *medidas de* segurança mais adequadas para cada finalidade. As recomendações deste artigo facilitam algumas dessas decisões.
 
 >[!NOTE]
->O Acesso Condicional requer Azure Active Directory (Azure AD) Premium assinatura.
+>O Acesso Condicional requer uma assinatura Premium do Azure Active Directory (Azure AD).
 
 >[!NOTE]
->As políticas para Android dispositivos móveis podem não se aplicar a Teams Android dispositivos.
+>As políticas para dispositivos móveis Android podem não se aplicar a dispositivos Android do Teams.
 
 ## <a name="authentication-recommendations-are-different-for-personal-versus-shared-android-devices"></a>As recomendações de autenticação são diferentes para dispositivos Android pessoais versus compartilhados
 
-Os Teams compartilhados não podem usar os mesmos requisitos de registro e conformidade usados em dispositivos pessoais. Aplicar requisitos de autenticação de dispositivo pessoal a dispositivos compartilhados causará problemas de entrada.
+Os dispositivos compartilhados do Teams não podem usar os mesmos requisitos de registro e conformidade usados em dispositivos pessoais. Aplicar requisitos de autenticação de dispositivo pessoal a dispositivos compartilhados causará problemas de entrada.
 
 1.  **Os dispositivos são conectados devido a políticas de senha.**
 
-As contas usadas Teams dispositivos têm uma política de expiração de senha. As contas usadas com dispositivos compartilhados não têm um usuário específico para atualizá-las e restaurá-las para um estado de trabalho quando suas senhas expirarem. Se sua organização exigir que as senhas expirem e sejam redefinidas ocasionalmente, essas contas deixarão de funcionar em dispositivos Teams até que um administrador do Teams redefina a senha e entre novamente.
+As contas usadas em dispositivos do Teams têm uma política de expiração de senha. As contas usadas com dispositivos compartilhados não têm um usuário específico para atualizá-las e restaurá-las para um estado de trabalho quando suas senhas expirarem. Se sua organização exigir que as senhas expirem e redefinam ocasionalmente, essas contas deixarão de funcionar em dispositivos do Teams até que um administrador do Teams redefina a senha e entre novamente.
 
-**Desafio**: quando se trata de acesso. Teams de um dispositivo, a conta de uma pessoa tem uma política de expiração de senha. Quando a senha vai expirar, eles simplesmente a alteram. Mas as contas usadas *em dispositivos compartilhados* (contas de recursos) podem não estar conectadas a uma única pessoa que possa alterar uma senha conforme necessário. Isso significa que uma senha pode expirar e deixar os trabalhadores no local, sem saber como retomar seu trabalho.
+**Desafio**: quando se trata de acesso. As equipes de um dispositivo, a conta de uma pessoa tem uma política de expiração de senha. Quando a senha vai expirar, eles simplesmente a alteram. Mas as contas usadas *em dispositivos compartilhados* (contas de recursos) podem não estar conectadas a uma única pessoa que possa alterar uma senha conforme necessário. Isso significa que uma senha pode expirar e deixar os trabalhadores no local, sem saber como retomar seu trabalho.
 
-Quando sua organização exigir uma redefinição de senha ou impor a expiração de senha, verifique se um Teams está preparado para redefinir a senha para que essas contas compartilhadas possam entrar novamente.
+Quando sua organização exigir uma redefinição de senha ou impor a expiração de senha, verifique se um administrador do Teams está preparado para redefinir a senha para que essas contas compartilhadas possam entrar novamente.
 
 2.  **Os dispositivos não podem entrar devido a políticas de acesso condicional.**
 
 **Desafio**: os dispositivos compartilhados não podem estar em conformidade Azure AD políticas de Acesso Condicional para contas de usuário ou dispositivos pessoais. Se os dispositivos compartilhados forem agrupados com contas de usuário ou dispositivos pessoais para uma política de Acesso Condicional, a entrada *falhará*.
 
-Por exemplo, se a autenticação multifator for necessária para acessar Teams, a entrada do usuário de um código será necessária para concluir essa autenticação. Os dispositivos compartilhados geralmente não têm um único usuário que possa configurar e concluir a autenticação multifator. Além disso, se a conta precisar ser autenticada novamente a cada X dias, um dispositivo compartilhado não poderá resolver o desafio sem a intervenção de um usuário.
+Por exemplo, se a autenticação multifator for necessária para acessar o Teams, a entrada do usuário de um código será necessária para concluir essa autenticação. Os dispositivos compartilhados geralmente não têm um único usuário que possa configurar e concluir a autenticação multifator. Além disso, se a conta precisar ser autenticada novamente a cada X dias, um dispositivo compartilhado não poderá resolver o desafio sem a intervenção de um usuário.
 
 A autenticação multifator não é compatível com dispositivos compartilhados. Os métodos a serem usados são descritos abaixo.
 
-## <a name="best-practices-for-the-deployment-of-shared-android-devices-with-teams"></a>Práticas recomendadas para a implantação de dispositivos Android compartilhados com Teams
+## <a name="best-practices-for-the-deployment-of-shared-android-devices-with-teams"></a>Práticas recomendadas para a implantação de dispositivos Android compartilhados com o Teams
 
-A Microsoft recomenda as seguintes configurações ao implantar Teams dispositivos em sua organização.
+A Microsoft recomenda as seguintes configurações ao implantar dispositivos do Teams em sua organização.
 
 ### <a name="use-a-resource-account-and-curtail-its-password-expiration"></a>**Usar uma conta de recurso e limitar sua expiração de senha**
 
-Teams dispositivos compartilhados devem usar uma caixa [de correio Exchange recurso.](/exchange/recipients-in-exchange-online/manage-resource-mailboxes) Criar essas caixas de correio gera uma conta automaticamente. Essas contas podem ser sincronizadas com Azure AD do Active Directory ou criadas diretamente no Azure AD. Todas as políticas de expiração de senha para usuários também serão aplicadas a contas usadas em dispositivos compartilhados Teams, portanto, para evitar interrupções causadas por políticas de expiração de senha, defina a política de expiração de senha para que os dispositivos compartilhados nunca expirem.
+Os dispositivos compartilhados do Teams devem usar uma caixa [de correio de recurso do Exchange](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). Criar essas caixas de correio gera uma conta automaticamente. Essas contas podem ser sincronizadas com Azure AD do Active Directory ou criadas diretamente no Azure AD. Todas as políticas de expiração de senha para usuários também serão aplicadas a contas usadas em dispositivos compartilhados do Teams, portanto, para evitar interrupções causadas por políticas de expiração de senha, defina a política de expiração de senha para que os dispositivos compartilhados nunca expirem.
 
-A partir dos dispositivos Teams CY21 [Atualização nº 1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams versão 1449/1.0.94.2021022403 para telefones Teams) e [CY2021 Atualização nº 2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams versão 1449/1.0.96.2021051904 para Salas do Microsoft Teams no Android), os administradores de locatários podem entrar no Teams  dispositivos remotamente. Em vez de compartilhar senhas com técnicos para configurar dispositivos, os administradores de locatários devem usar a entrada remota para emitir códigos de verificação. A entrada pode ser feita para esses dispositivos no Teams de administração.
+A partir dos dispositivos teams CY21 [Atualização nº 1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams versão 1449/1.0.94.2021022403 para telefones Teams) e [CY2021 Atualização nº 2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams versão 1449/1.0.96.2021051904 para Salas do Microsoft Teams no Android), os administradores de locatários podem entrar em dispositivos do Teams remotamente. Em vez de compartilhar senhas com técnicos para configurar dispositivos, os administradores de locatários devem usar a entrada remota para emitir códigos de verificação. A entrada pode ser feita para esses dispositivos no centro de administração do Teams.
 
-Para obter mais informações, consulte [Provisionamento remoto e entrar para Teams Android dispositivos](/MicrosoftTeams/devices/remote-provision-remote-login). 
+Para obter mais informações, consulte [Provisionamento remoto e entrar em dispositivos Android do Teams](/MicrosoftTeams/devices/remote-provision-remote-login). 
 
 ### <a name="review-these-conditional-access-policies"></a>**Examinar essas políticas de Acesso Condicional**
 
-Azure AD acesso condicional define requisitos adicionais que os dispositivos devem atender para entrar. Para Teams dispositivos, examine as diretrizes a seguir para determinar se você criou as políticas que permitirão que os usuários de dispositivos compartilhados executem seu trabalho.
+Azure AD acesso condicional define requisitos adicionais que os dispositivos devem atender para entrar. Para dispositivos do Teams, examine as diretrizes a seguir para determinar se você criou as políticas que permitirão que os usuários de dispositivos compartilhados executem seu trabalho.
 
 > [!TIP]
 > Para obter uma visão geral do Acesso Condicional, consulte [O que é Acesso Condicional](/azure/active-directory/conditional-access/overview)?
@@ -94,7 +93,7 @@ Se os dispositivos compartilhados forem provisionados em um local bem definido q
 >[!NOTE]
 >A conformidade do dispositivo requer Intune licença.
 
-Se você estiver registrando dispositivos compartilhados no Intune, poderá configurar a conformidade do dispositivo como um controle no Acesso Condicional para que somente dispositivos compatíveis possam acessar seus recursos corporativos. Teams dispositivos podem ser configurados para políticas de Acesso Condicional com base na conformidade do dispositivo. Para obter mais informações, consulte [Acesso Condicional: Exigir dispositivos Azure AD ingressados em conformidade ou híbrido.](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)
+Se você estiver registrando dispositivos compartilhados no Intune, poderá configurar a conformidade do dispositivo como um controle no Acesso Condicional para que somente dispositivos compatíveis possam acessar seus recursos corporativos. Os dispositivos do Teams podem ser configurados para políticas de Acesso Condicional com base na conformidade do dispositivo. Para obter mais informações, consulte [Acesso Condicional: Exigir dispositivos Azure AD ingressados em conformidade ou híbrido.](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)
 
 Para definir a configuração de conformidade para seus dispositivos usando Intune, consulte Usar políticas de conformidade para definir regras para dispositivos gerenciados [com Intune](/intune/protect/device-compliance-get-started).
 

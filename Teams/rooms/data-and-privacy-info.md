@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Dados e Informações de Privacidade
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057081"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270296"
 ---
 # <a name="approach"></a>Abordagem
 
@@ -37,7 +37,7 @@ A tecnologia segue os processos de privacidade para garantir que ele cumpra as p
 > [!Note]
 > Referências incidentais a um usuário individual podem estar presentes no log de atividades durante o uso do dispositivo.
 
-## <a name="who-can-access-data"></a>Who pode acessar dados
+## <a name="who-can-access-data"></a>Quem pode acessar dados
 
 Os Serviços Gerenciados executam medidas fortes para ajudar a proteger os dados do cliente contra acesso inadequado ou uso por pessoas não autorizadas. Essas medidas incluem restringir o acesso por funcionários e subcontratados da Microsoft.
 
@@ -74,7 +74,7 @@ Os Serviços Gerenciados não monitoram nem gravam áudio, vídeo, mídia ou con
 |Categoria|Detalhes|Motivo da consulta|
 | :- | :- | :- |
 |Coleta e gerenciamento de dados em andamento|Endereço IP, identidade da conta da sala (Exchange, Skype for Business e/ou Teams), coordenadas de localização, emails e comunicação no portal com a Microsoft ou software|Identificar e conectar-se ao sistema sob gerenciamento; identificar, diagnosticar e atenuar falhas; acompanhar o uso, a análise e os insights; consultar e reparar o status de conectividade|
-|Coleta e gerenciamento de dados ad hoc|Informações do log de eventos, atividade do usuário/Identidade do arquivo de log de logon do usuário da sala juntamente com informações de diagnóstico, consultas do sistema Windows (exemplos: lista de dispositivos USB, estado de energia etc.)|Identificar, diagnosticar e atenuar falhas e para uso, análise e insights|
+|Coleta e gerenciamento de dados ad hoc|Informações do log de eventos, atividade do usuário/Identidade do arquivo de log do usuário da sala, juntamente com informações de diagnóstico, consultas de sistema do Windows (exemplos: lista de dispositivos USB, estado de energia etc.)|Identificar, diagnosticar e atenuar falhas e para uso, análise e insights|
 
 Determinados dados confidenciais no log de atividades do dispositivo são editados localmente (não coletados pelos Serviços Gerenciados):
 
@@ -100,4 +100,4 @@ Os Serviços Gerenciados fornecem suporte à residência de dados regionais por 
 
 ## <a name="more-resources"></a>Mais recursos
 
-Salas do Microsoft Teams Segurança:/microsoftteams/rooms/security Microsoft Privacy Statement: https://aka.ms/privacy Gerenciamento de dados na Microsoft: Descrição https://www.microsoft.com/trust-center/privacy/data-management do serviço serviços gerenciados: [Microsoft Teams serviço gerenciado de sala](microsoft-teams-rooms-premium.md)
+Salas do Microsoft Teams Segurança:/microsoftteams/rooms/security Microsoft Privacy Statement: https://aka.ms/privacy Gerenciamento de dados na Microsoft: Descrição https://www.microsoft.com/trust-center/privacy/data-management do serviço serviços gerenciados: serviço [gerenciado da Sala do Microsoft Teams](microsoft-teams-rooms-premium.md)

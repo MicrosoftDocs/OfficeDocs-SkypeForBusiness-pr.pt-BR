@@ -9,20 +9,19 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: Saiba como mover seus números de telefone existentes do seu provedor atual para Telefonia do Microsoft Teams Sistema com Plano de Chamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed1771ac73d5e5c738d229f031a156fe7b9c4dcf
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.collection:
+- M365-voice
+- M365initiative-voice
+ms.openlocfilehash: a7ff0b8c1e84700d9a4370cda615a02f95f57222
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66660947"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268106"
 ---
 # <a name="step-7-port-phone-numbers-to-teams-phone-system-with-calling-plan-optional"></a>Etapa 7: Portar números de telefone para o Sistema de Telefonia do Teams com Plano de Chamadas (opcional)
 

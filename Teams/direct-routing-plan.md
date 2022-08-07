@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o Roteamento Direto da Microsoft permite que você conecte um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Sistema de Telefonia.
-ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695054"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267776"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -256,8 +256,8 @@ Você deve usar as seguintes portas para ambientes do Microsoft 365 ou Office 36
 
 |Tráfego|De|Até|Porta de origem|Porta de destino|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|Definido no SBC (para a Office 365 GCC High/DoD somente a porta 5061 deve ser usada)|
-SIP/TLS|SBC|SIP Proxy|Definido no SBC|5061|
+|SIP/TLS|SIP Proxy|Sbc|1024 – 65535|Definido no SBC (para a Office 365 GCC High/DoD somente a porta 5061 deve ser usada)|
+SIP/TLS|Sbc|SIP Proxy|Definido no SBC|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Mecanismo de failover para sinalização SIP
@@ -268,8 +268,8 @@ A tabela a seguir resume as relações entre datacenters primários, secundário
 
 |Se o datacenter primário for|EMEA|NOAM|ÁSIA|
 |:--- |:--- |:--- |:--- |
-|O datacenter secundário (sip2.pstnhub.microsoft.com)|NOS|UE|NOS|
-|O datacenter terciário (sip3.pstnhub.microsoft.com)|ÁSIA|ÁSIA|UE|
+|O datacenter secundário (sip2.pstnhub.microsoft.com)|Nos|Ue|Nos|
+|O datacenter terciário (sip3.pstnhub.microsoft.com)|ÁSIA|ÁSIA|Ue|
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfego de mídia: intervalos de portas
@@ -295,8 +295,8 @@ O intervalo de portas dos Processadores de Mídia é mostrado na tabela a seguir
 
 |Tráfego|De|Até|Porta de origem|Porta de destino|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Processador de mídia|SBC|3478-3481 e 49152 – 53247|Definido no SBC|
-|UDP/SRTP|SBC|Processador de mídia|Definido no SBC|3478-3481 e 49152 – 53247|
+|UDP/SRTP|Processador de mídia|Sbc|3478-3481 e 49152 – 53247|Definido no SBC|
+|UDP/SRTP|Sbc|Processador de mídia|Definido no SBC|3478-3481 e 49152 – 53247|
 
   > [!NOTE]
   > A Microsoft recomenda pelo menos duas portas por chamada simultânea no SBC.
@@ -344,6 +344,8 @@ Os dispositivos que foram validados são listados como Certificados para Roteame
 
 Para obter mais informações sobre SBCs com suporte, consulte [Controladores de borda de sessão certificados para roteamento direto](direct-routing-border-controllers.md).
 
+## <a name="support-boundaries"></a>Limites de suporte
+A Microsoft só dá suporte ao Sistema de Telefonia com Roteamento Direto quando usado com dispositivos certificados. Em caso de problemas, você deve entrar em contato com o atendimento ao cliente do fornecedor SBC primeiro. Se necessário, o fornecedor do SBC encaminhará o problema para a Microsoft por meio de canais internos. A Microsoft reserva-se o direito de rejeitar casos de suporte em que um dispositivo não certificado está conectado ao Sistema de Telefonia por meio do Roteamento Direto. Se a Microsoft determinar que o problema de Roteamento Direto de um cliente é com o dispositivo SBC de um fornecedor, o cliente precisará reengajar o fornecedor SBC para obter suporte.
  
 ## <a name="see-also"></a>Confira também
 

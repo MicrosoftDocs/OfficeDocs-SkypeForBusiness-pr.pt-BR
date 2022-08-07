@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741873"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269576"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas do Microsoft Teams gerenciado
 
@@ -60,10 +60,10 @@ Aqui está uma visão geral dos recursos do serviço Salas do Microsoft Teams ge
 |**Planejamento e distribuição de sala**   |Recursos de planejamento de sala que permitem que você entenda o inventário de equipamentos da sala e tome decisões sobre os padrões de equipamento para novas implantações de sala.         |
 |**Monitoramento e solução de problemas**  |Monitoramento de integridade da sala que detecta problemas com o sistema de sala e periféricos e fornece uma resposta proativa de gerenciamento de incidentes orientada pela Microsoft.         |
 |**Gerenciamento de atualizações**    |Gerenciamento e entrega de atualizações de aplicativos e firmware para sistemas de sala e seus periféricos executados pela Microsoft.         |
-|**Insights e recomendações**     |Insights na integridade, no uso, na utilização e na confiabilidade do equipamento do cliente.         |
+|**Insights e recomendações**     |Insights sobre a integridade, o uso, a utilização e a confiabilidade do equipamento do cliente.         |
 |**Conformidade e certificações**   |Atende a todos os padrões aplicáveis para o Microsoft Online Services.         |
 |**Atendimento ao cliente**   |Suporte a tíquetes 24x7x365 por meio do SOC (Service Operation Center) de serviço gerenciado Salas do Microsoft Teams dedicado. Escalonamento em seu nome para outros fornecedores primários quando aplicável. Para saber mais, confira Suporte [ao cliente](#customer-support).|
-|**Dispositivos suportados**    |Sistemas Salas do Microsoft Teams certificados e seus periféricos.<br>*Surface Hub suporte chegando no segundo semestre de 2021*        |
+|**Dispositivos suportados**    |Sistemas Salas do Microsoft Teams certificados e seus periféricos.<br>*Suporte do Surface Hub no segundo semestre de 2021*        |
 |**Regiões com suporte**    |Consulte [regiões com suporte](#supported-regions).        |
 |**Integração**    |Integração disponível com o Serviço hospedado pelo cliente agora.         |
 
@@ -124,7 +124,7 @@ A Salas do Microsoft Teams Premium está disponível nos seguintes países sem a
 |O que está incluído |O que é excluído |Canais de suporte para itens excluídos  |
 |---------|---------|---------|
 |**Configuração de serviço**   |         |         |
-|Investigação e diretrizes para Salas do Microsoft Teams Windows configuração, incluindo Salas do Microsoft Teams de aplicativo, configuração de rede de terceiros, configuração de software de terceiros e configurações e configurações de energia recomendadas.     |Quaisquer configurações e investigações de software de terceiros que não fazem parte diretamente do aplicativo Microsoft Teams Room. Além disso, todas as configurações específicas do OEM que exigem configuração fora das janelas de terceiros ou Microsoft Teams de aplicativo de sala.         |Canais de suporte padrão de terceiros         |
+|Investigação e diretrizes para Salas do Microsoft Teams configuração do Windows, incluindo Salas do Microsoft Teams configurações de aplicativo, configuração de rede de terceiros, configuração de software de terceiros e configurações e configurações de energia recomendadas.     |Quaisquer configurações e investigações de software de terceiros que não fazem parte diretamente do aplicativo sala do Microsoft Teams. Além disso, todas as configurações específicas do OEM que exigem configuração fora das janelas de terceiros ou configurações de aplicativo da Sala do Microsoft Teams.         |Canais de suporte padrão de terceiros         |
 |**Configuração da conta de sala**    |         |         |
 |Direção para a documentação disponível para a configuração da conta de sala na solicitação. Para problemas de conexão ou configuração de conta, a investigação inicial é executada.     |Execução de correção recomendada ou problemas com a execução de correção recomendada, configuração de provedores de autenticação de terceiros e configuração de recursos de conta individual.        |Suporte base da Microsoft e suporte ao provedor de autenticação de terceiros         |
 |**Suporte periférico**    |         |         |

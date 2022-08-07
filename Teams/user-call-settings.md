@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: Saiba como definir as configurações do usuário para encaminhamento e delegação de chamadas.
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681992"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272226"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Definir configurações de chamada para seus usuários
 
@@ -37,17 +35,17 @@ Este artigo descreve como você, o administrador, pode alterar as configuraçõe
 - Você precisa inspecionar as configurações de encaminhamento de chamadas para todos os usuários em um departamento e, potencialmente, corrigi-las conforme apropriado.
 - Um novo assistente foi empregado e você precisa adicionar o assistente como representante para um grupo de funcionários.
 
-Você pode usar o Teams ou cmdlets Teams PowerShell para exibir e alterar as configurações de chamada para os usuários.
+Você pode usar o centro de administração do Teams ou os cmdlets do PowerShell do Teams para exibir e alterar as configurações de chamada para os usuários.
 
-Para definir configurações de chamada para um usuário, o usuário deve ter uma licença Telefone Microsoft System atribuída.
+Para definir configurações de chamada para um usuário, o usuário deve ter uma licença atribuída do Sistema de Telefonia da Microsoft.
 
-## <a name="use-the-teams-admin-center"></a>Usar o Teams de administração
+## <a name="use-the-teams-admin-center"></a>Usar o centro de administração do Teams
 
-Você pode usar o Teams de administração para definir configurações de encaminhamento de chamadas e não respondidas, recebimento de chamadas em grupo e delegação de chamadas para seus usuários.
+Você pode usar o Centro de administração do Teams para definir configurações de encaminhamento de chamadas e não respondidas, recebimento de chamadas em grupo e delegação de chamadas para seus usuários.
 
 Para definir configurações imediatas de encaminhamento de chamadas:
 
-1. No centro Teams administrador, vá para **Usuários** > **Gerenciar usuários** e selecione um usuário.
+1. No centro de administração do Teams, vá para **Usuários** > **Gerenciar usuários** e selecione um usuário.
 
 2. Na página de detalhes do usuário, vá para a **guia** Voz.
 
@@ -61,7 +59,7 @@ A configuração da delegação de chamadas e do recebimento de chamadas em grup
 
 ## <a name="use-powershell"></a>Usar o PowerShell
 
-Você pode usar o PowerShell para definir as configurações de encaminhamento de chamadas e delegação para seus usuários.  Você usará os seguintes cmdlets, que estão disponíveis no Teams powershell versão 4.0 ou posterior:
+Você pode usar o PowerShell para definir as configurações de encaminhamento de chamadas e delegação para seus usuários.  Você usará os seguintes cmdlets, que estão disponíveis no módulo do Teams PowerShell versão 4.0 ou posterior:
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) – mostra as configurações de encaminhamento de chamadas, delegados e informações de delegador para um usuário.
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) – define as configurações de encaminhamento de chamadas para um usuário.

@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas por meio de cmdlets
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674573"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268796"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Criar uma fila de chamadas por meio de cmdlets
 
@@ -51,9 +50,9 @@ ms.locfileid: "65674573"
 
 2. Você tem direitos de administração de locatário
 3. Você comprou Telefonia do Microsoft Teams
-4. Os agentes, listas de distribuição e Teams canais mencionados abaixo já foram criados
+4. Os agentes, as listas de distribuição e os canais do Teams mencionados abaixo já foram criados
 
-Observação: o cmdlet Teams Channel usado abaixo faz parte da versão de Visualização Pública do Teams PowerShell.  Para obter mais informações, [consulte Instalar Teams visualização pública do PowerShell](teams-powershell-install.md) e também consulte [Microsoft Teams notas de versão do PowerShell](teams-powershell-release-notes.md).
+Observação: o cmdlet do Canal do Teams usado abaixo faz parte da versão de Visualização Pública do Módulo do PowerShell do Teams.  Para obter mais informações, consulte [Instalar a versão prévia pública do PowerShell do Teams](teams-powershell-install.md) e também confira As Notas [de Versão do PowerShell do Microsoft Teams](teams-powershell-release-notes.md).
 
 Os usuários que já têm o módulo MicrosoftTeams `Update-Module MicrosoftTeams` instalado devem garantir que a versão mais atualizada esteja instalada.
 
@@ -129,7 +128,7 @@ Informações da Fila de Chamadas Colaborativas do Facilities:
 
 ## <a name="login"></a>Login
 
-Você será solicitado a inserir suas credenciais de Teams administrador.
+Você será solicitado a inserir suas credenciais de administrador do Teams.
 
 ```powershell
 $credential = Get-Credential
@@ -176,7 +175,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Criar e atribuir conta de recurso
 
-Observação: Telefone número não necessário aqui, pois a fila de chamadas é encerrada com frente por um Atendedor Automático
+Observação: o número de telefone não é necessário aqui, pois a fila de chamadas é front-end por um Atendedor Automático
 
 - Applicationid
   - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
@@ -240,7 +239,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Criar e atribuir conta de recurso
 
-Observação: Telefone número não necessário aqui, pois a fila de chamadas é front-end por um Atendedor Automático
+Observação: o número de telefone não é necessário aqui, pois a fila de chamadas é front-end por um Atendedor Automático
 
 - Applicationid
   - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07
@@ -308,7 +307,7 @@ Get-MsolAccountSku
 
 ### <a name="create-and-assign-resource-account"></a>Criar e atribuir conta de recurso
 
-**Observação**: Telefone número não necessário aqui, pois a fila de chamadas é front-end por um Atendedor Automático
+**Observação**: o número de telefone não é necessário aqui, pois a fila de chamadas é front-end por um Atendedor Automático
 
 - Applicationid
   - Atendedor Automático: ce933385-9390-45d1-9512-c8d228074e07

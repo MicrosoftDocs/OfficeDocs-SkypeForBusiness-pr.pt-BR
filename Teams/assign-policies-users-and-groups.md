@@ -18,12 +18,12 @@ description: Conheça as diferentes maneiras de atribuir políticas a usuários 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156559"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267576"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Atribuir políticas a usuários e grupos
 
@@ -41,7 +41,7 @@ Para atribuir uma política a um usuário:
 2. Selecione o usuário clicando à esquerda do nome de usuário e, em seguida, selecione **Editar configurações**.
 3. Selecione a política que você deseja atribuir e, em seguida, **selecione Aplicar**.
 
-![Atribua uma política a um usuário no centro de administração do Teams.](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="Captura de tela do painel Editar configurações em Gerenciar usuários." lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > Para cancelar a atribuição de uma política especializada de um usuário, você pode definir cada política como **Global (padrão em toda a organização)**. Você também pode remover atribuições de política em massa para todos os usuários atribuídos diretamente a uma política. Para saber mais, leia [Cancelar a atribuição de políticas em massa](#unassign-policies-in-bulk).
@@ -50,11 +50,11 @@ Você também pode fazer o seguinte para atribuir uma política a um usuário:
 
 1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para a página de política.
 2. Selecione a política que você deseja atribuir clicando à esquerda do nome da política.
-3. Selecione **Gerenciar usuários**.
+3. Selecione **Atribuir usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando terminar de adicionar usuários, selecione **Aplicar**.
 
-![Atribua uma política a um usuário no centro de administração do Teams por meio do segundo método.](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="Captura de tela que mostra como atribuir uma política a um usuário no Centro de administração do Teams por meio do segundo método." lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### <a name="use-powershell"></a>Usar o PowerShell
 
@@ -142,7 +142,7 @@ Se você não especificar uma classificação, a atribuição de política receb
     3. Selecione a política que você deseja atribuir.
     4. Selecione **Aplicar**.
 
-![Atribua uma política a um grupo no centro de administração do Teams.](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="Captura de tela que mostra como atribuir uma política a um grupo no centro de administração do Teams." lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 Para remover uma atribuição de política de grupo, na guia **Atribuição** de política de grupo da página de política, selecione a atribuição de grupo e, em seguida, **selecione Remover**.
 
@@ -194,7 +194,7 @@ Aqui está uma lista das atribuições de política e prioridades para uma polí
 |Vendas    |Política de vendas       | 1        |
 |Região Oeste     |Política da Região Oeste         |2         |
 |Divisão    |Política de divisão         |3         |
-|Subsidiário   |Política de subsidiária        |4         |
+|Subsidiária   |Política de subsidiária        |4         |
 
 Se removermos a política da Região Oeste do grupo Região Oeste, as atribuições de política e as prioridades serão atualizadas da seguinte maneira.
 
@@ -202,7 +202,7 @@ Se removermos a política da Região Oeste do grupo Região Oeste, as atribuiç�
 |---------|---------|---------|
 |Vendas    |Política de vendas       | 1        |
 |Divisão    |Política de divisão         |2         |
-|Subsidiário   |Política de subsidiária        |3        |
+|Subsidiária   |Política de subsidiária        |3        |
 
 Neste exemplo, removemos a política de reunião do Teams de um grupo.
 

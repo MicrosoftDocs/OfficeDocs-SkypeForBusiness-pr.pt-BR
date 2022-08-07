@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Porto Rico.
-ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Porto Rico.
+ms.openlocfilehash: 00cd5b7068d6feaa14a78623c3c0c50269fead4e
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605910"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271866"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilidade em Porto Rico
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Porto Rico.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para Porto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -59,8 +59,8 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |3.000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o limite que for atingido primeiro em cada mês). A chamada doméstica dos Estados Unidos inclui chamadas para todos os 50 estados dos EUA e Porto Rico. Os usuários atribuídos ao local de uso da licença dos EUA e/ou porto-riquenho compartilham o mesmo pool de minutos.  <br/> |
+|Os Planos de Chamadas estão disponíveis para compra?  |Sim          |   
+|Minutos disponíveis para Planos de Chamadas.    |Há cinco opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas pago conforme o uso </li><li> Plano de Chamadas Domésticas de 120 minutos </li><li> Plano de Chamadas Domésticas de 240 minutos </li><li> Plano de Chamadas Domésticas de 1200 minutos </li><li> Plano de Chamadas Internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamada internacional (o que for atingido primeiro no mês calendário)</li></ul>|
 |Pode fazer chamadas de saída para números premium? <br/> | Não há suporte no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para os Países Baixos.
-ms.openlocfilehash: f5dad27a387e73cb1792409ae3a28fa41083d435
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para os Países Baixos.
+ms.openlocfilehash: df7465334a8383e7af86e3cde8c0b1c0704412f4
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624733"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267986"
 ---
 # <a name="availability-in-the-netherlands"></a>Disponibilidade nos Países Baixos
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para os Países Baixos.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para os Países Baixos.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -59,8 +59,8 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
     
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês de calendário: <ul><li>Plano de Chamada Doméstica de 120 minutos </li><li>Plano de Chamada Doméstica de 240 minutos</li></li><li>Plano de Chamada Doméstica de 1200 minutos </li></li><li>Plano de Chamada Doméstica e Internacional: 1200 minutos de chamada doméstica -OR- 600 minutos de chamada internacional (o que for atingido primeiro no mês do calendário)</li></li> 
+|Os Planos de Chamadas estão disponíveis para compra?  |Sim          |   
+|Minutos disponíveis para Planos de Chamadas.    |Há cinco opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas pago conforme o uso </li><li> Plano de Chamadas Domésticas de 120 minutos </li><li> Plano de Chamadas Domésticas de 240 minutos </li><li> Plano de Chamadas Domésticas de 1200 minutos </li><li> Plano de Chamadas Internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamada internacional (o que for atingido primeiro no mês calendário)</li></ul>| 
 |Pode fazer chamadas de saída para números premium? <br/> | Não há suporte no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

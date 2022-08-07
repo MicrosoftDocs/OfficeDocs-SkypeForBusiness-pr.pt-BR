@@ -15,12 +15,14 @@ description: Crie uma estratégia de gerenciamento de alterações para o Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562370"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268776"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 
@@ -149,4 +151,4 @@ Saiba mais sobre os relatórios de uso do Microsoft Teams Centro de administraç
 
 Impulsionar a mudança em uma empresa é uma atividade contínua, não é um evento. A reunião inicial é só o começo da capacitação das pessoas para elas colaborarem de maneira mais efetiva. É importante planejar momentos nesta jornada que realçam seus sucessos, introduzam novos recursos e se conectem à sua estratégia geral de serviço do Microsoft 365 ou Office 365 , que seu departamento de TI criará. Assegurar-se de que os usuários estão envolvidos, em vez de sobrecarregados, reduzirá o cansaço provocado pelas mudanças e os auxiliará a abandonar os velhos hábitos, como anexos de e-mails, para abraçar algo novo, como armazenar documentos na nuvem.
 
-Compartilhe suas perguntas sobre a adoção de serviços do Teams e do Microsoft 365 ou Office 365 na comunidade de adoção de condução [no site](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) da Comunidade Técnica da Microsoft. É sempre bom ouvir a sua opinião e ajudá-lo na jornada de adoção.
+Compartilhe suas perguntas sobre a adoção de serviços do Teams e do Microsoft 365 ou Office 365 na [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) comunidade de Adoção Da Condução no Microsoft Technical Community site. É sempre bom ouvir a sua opinião e ajudá-lo na jornada de adoção.

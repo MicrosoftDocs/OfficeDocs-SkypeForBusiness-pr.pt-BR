@@ -18,12 +18,12 @@ description: Conheça as diferentes maneiras de atribuir políticas e pacotes de
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156509"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268416"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Atribuir políticas no Teams – introdução
 
@@ -83,9 +83,9 @@ Siga estas etapas para definir as políticas globais (padrão em toda a organiza
 
 1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para a página de política do tipo de política que você deseja atualizar. Por exemplo, políticas **do Teams** > **Teams**, **políticas de Reuniões** > **,** **Políticas de mensagens** ou **políticas de Chamada** > **de Voz**.
 2. Selecione a **política Global (padrão em toda a organização)** para exibir as configurações atuais.
-3. Atualize a política conforme necessário e selecione **Aplicar**.
+3. Atualize a política conforme necessário e selecione **Salvar**.
 
-![Atualize a política global no Centro de administração do Teams.](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Captura de tela que mostra a política global de atualização no Centro de administração do Teams." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
 
@@ -125,7 +125,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Ao atribuir políticas a usuários no Centro de administração do Microsoft Teams, você pode exibir o status dessas atribuições de política no [log de atividades](https://admin.teams.microsoft.com/activitylog). O log de atividades mostra informações de upload de registro de rede, operações de política de grupo do Centro de administração do Teams e do PowerShell e operações de política em lote (para mais de 20 usuários) do centro de administração do Teams, nos últimos 30 dias.
 
-![Captura de tela da página Log de atividades.](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="Captura de tela da página Log de atividades." lightbox="media/Activity_Log.png":::
 
 Para exibir suas operações de política no log de atividades:
 

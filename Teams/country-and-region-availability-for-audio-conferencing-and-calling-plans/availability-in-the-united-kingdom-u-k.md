@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para o Reino Unido.
-ms.openlocfilehash: 62c19b6e0fd029068238da0e654dc6c30ac1783d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para o Reino Unido.
+ms.openlocfilehash: e22ffd5870bd28232ff4358fbb532c8a9e6b40d8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610358"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271626"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidade no Reino Unido
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para o Reino Unido.
+Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para o Reino Unido.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -59,16 +59,16 @@ Aqui estão os serviços Microsoft 365 e Office 365 para Skype for Business e Mi
     
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês de calendário: <ul><li>Plano de Chamada Doméstica de 120 minutos </li><li>Plano de Chamada Doméstica de 240 minutos</li></li><li>Plano de Chamada Doméstica de 1200 minutos </li></li><li>Plano de Chamada Doméstica e Internacional: 1200 minutos de chamada doméstica -OR- 600 minutos de chamada internacional (o que for atingido primeiro no mês do calendário)</li></li> 
-|Pode fazer chamadas de saída para números premium? <br/> | Parcialmente suportado: as chamadas para números de custo compartilhados (prefixos 44843, 44844, 44845, 44870, 44871, 44872) são suportadas usando Créditos de Comunicação para pagar por minuto.  Não há suporte para chamadas para prefixos 449XX. <br/> |
+|Os Planos de Chamadas estão disponíveis para compra?  |Sim          |   
+|Minutos disponíveis para Planos de Chamadas.    |Há cinco opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas pago conforme o uso </li><li> Plano de Chamadas Domésticas de 120 minutos </li><li> Plano de Chamadas Domésticas de 240 minutos </li><li> Plano de Chamadas Domésticas de 1200 minutos </li><li> Plano de Chamadas Internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamada internacional (o que for atingido primeiro no mês calendário)</li></ul>| 
+|Pode fazer chamadas de saída para números premium? <br/> | Parcialmente compatível: chamadas para números de custo compartilhados (prefixos 44843, 44844, 44845, 44870, 44871, 44872) têm suporte usando Créditos de Comunicação para pagar por minuto.  Não há suporte para chamadas para prefixos 449XX. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  Hull <li>  Leeds <li>  Leicester <li>  Liverpool <li>  Londres <li>  Manchester <li>  New castle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-on-Trent <li>  Teesside (Middlesbrough) </ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournemouth <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  Casco <li>  Leeds <li>  Leicester <li>  Liverpool <li>  Londres <li>  Manchester <li>  Newcastle <li>  Nottingham <li>  Plymouth <li>  Sheffield <li>  Stoke-on-Trent <li>  Teesside (Middlesbrough) </ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

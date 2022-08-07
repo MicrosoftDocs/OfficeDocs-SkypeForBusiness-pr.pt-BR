@@ -12,14 +12,15 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: Administração pode ler as notas de versão para Salas do Microsoft Teams, que listam melhorias cumulativas no Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175845"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270076"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -37,7 +38,7 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 
 ## <a name="version-history"></a>Histórico de versão
 
-|Soltar |Publicado em <br/> Microsoft Store |
+|Lançamento |Publicado em <br/> Microsoft Store |
 |--- |--- |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |

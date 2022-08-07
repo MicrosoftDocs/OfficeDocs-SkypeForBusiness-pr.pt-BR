@@ -1,5 +1,5 @@
 ---
-title: Criar Microsoft 365 usuários, adicionar Teams Telefone com licenças de pacote do Plano de Chamadas e atribuir números de telefone
+title: Criar usuários do Microsoft 365, adicionar o Telefone do Teams com licenças de pacote do Plano de Chamadas e atribuir números de telefone
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,34 +9,33 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: Saiba como criar e licenciar Teams Sistema de Telefonia com os usuários do pacote plano de chamadas e atribuí-los números de telefone.
+description: Saiba como criar e licenciar o Sistema de Telefonia do Teams com os usuários do pacote plano de chamadas e atribuí-los números de telefone.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb60d60a12949cbb2a0b9ac60e727cfab393de12
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: ac665f46c7be619d26b0c6da371ba57e554a07ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053270"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271996"
 ---
-# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Criar e licenciar Teams Sistema de Telefonia com usuários do pacote plano de chamadas e atribuí-los números de telefone
+# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>Criar e licenciar o Sistema de Telefonia do Teams com usuários do pacote plano de chamada e atribuí-los números de telefone
 
-Para usar o Teams Sistema de Telefonia com o pacote plano de chamada, você precisa de uma conta Microsoft 365 que tenha Teams Telefone com licenças de pacote do Plano de Chamada. Quando você tem uma conta e licenças, você pode começar a atribuir números de telefone.
+Para usar o sistema de telefonia do Teams com o pacote plano de chamadas, você precisa de uma conta do Microsoft 365 que tenha o Telefone do Teams com licenças de pacote do Plano de Chamadas. Quando você tem uma conta e licenças, pode começar a atribuir números de telefone.
 
 ## <a name="create-and-license-users"></a>Criar e licenciar usuários
 
 Siga as etapas em [Adicionar usuários individualmente ou em massa](/microsoft-365/admin/add-users/add-users), e [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
-> No painel **Atribuir licenças de** produto, selecione Teams Telefone **com Plano de Chamada**.
+> No painel **Atribuir licenças de** produto, selecione **Telefone do Teams com Plano de Chamada**.
 
 ## <a name="assign-phone-numbers-to-users"></a>Atribuir números de telefone aos usuários
 
-Depois de criar usuários e atribuí-los Teams Telefone licença do pacote plano de chamada, você poderá atribuir números de telefone a eles. Você precisará de um número de telefone não atribuído para cada usuário que precisa fazer ou receber chamadas de ou para números de telefone externos. Se você não tiver números de telefone não atribuídos suficientes, consulte [Obter mais números de telefone](#get-more-phone-numbers) posteriormente neste artigo.
+Depois de criar usuários e atribuir a eles o Telefone do Teams com a licença do pacote plano de chamada, você pode atribuir números de telefone a eles. Você precisará de um número de telefone não atribuído para cada usuário que precisa fazer ou receber chamadas de ou para números de telefone externos. Se você não tiver números de telefone não atribuídos suficientes, consulte [Obter mais números de telefone](#get-more-phone-numbers) posteriormente neste artigo.
 
 1. Vá para o [Centro de administração do Teams](https://admin.teams.microsoft.com).
 2. Digite um nome e uma descrição para a solicitação de número de telefone.

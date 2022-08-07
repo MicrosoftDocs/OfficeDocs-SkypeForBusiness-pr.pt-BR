@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: Saiba como usar o relatório de uso de PSTN do Teams no centro de administração do Microsoft Teams para obter uma visão geral do uso de chamadas e audioconferências em sua organização.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023762"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267626"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Relatório de uso de PSTN do Microsoft Teams
 
@@ -136,7 +136,7 @@ A primeira linha do CSV contém nomes de coluna. Todas as datas são UTC e [no f
 > | 2 | ID de conferência | `nvarchar(64)` | ID da audioconferência |
 > | 3 | Localização do usuário | `nvarchar(2)` | Código do país do usuário, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | AAD ObjectId | `uniqueidentifier` | Chamando a ID do usuário no Azure Active Directory.<br/> Essa e outras informações do usuário serão nulas/vazias para tipos de chamada de bot (ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (nome de entrada) no Azure Active Directory.<br/>Isso geralmente é o mesmo que o endereço SIP do usuário e pode ser o mesmo que o endereço de email do usuário |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (nome de entrada) no Azure Active Directory.<br/>Isso geralmente é o mesmo que o endereço SIP do usuário e pode ser o mesmo que o endereço de email do usuário |
 > | 6 | Nome de Exibição do Usuário | `nvarchar(128)` | Nome de exibição do usuário |
 > | 7 | ID do chamador | `nvarchar(128)` | Número que recebeu a chamada para chamadas de entrada ou o número discado para chamadas de saída. [Formato E.164](https://en.wikipedia.org/wiki/E.164) |
 > | 8 | Tipo de Chamada | `nvarchar(32)` | Se a chamada foi uma chamada de saída ou de entrada PSTN e o tipo de chamada, como uma chamada feita por um usuário ou uma conferência de áudio |
@@ -161,7 +161,7 @@ Você pode exportar dados de até cinco meses (150 dias) a partir da data atual,
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | Correlationid | `uniqueidentifier` | Identificador de chamada. Várias pernas da mesma chamada podem compartilhar a mesma CorrelationId |
 > | 1 | AAD ObjectId | `uniqueidentifier` | Chamando a ID do usuário no Azure Active Directory.<br/> Essa e outras informações do usuário podem ser nulas/vazias para tipos de chamada de bot |
-> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (nome de entrada, Azure Active Directory) do usuário ou bot que fez ou recebeu a chamada.<br/>Isso geralmente é o mesmo que o endereço SIP do usuário e pode ser o mesmo que o endereço de email do usuário |
+> | 2 | Upn | `nvarchar(128)` | UserPrincipalName (nome de entrada, Azure Active Directory) do usuário ou bot que fez ou recebeu a chamada.<br/>Isso geralmente é o mesmo que o endereço SIP do usuário e pode ser o mesmo que o endereço de email do usuário |
 > | 3 | Nome de Exibição | `nvarchar(128)` | O nome de um usuário ou um bot de chamada (por exemplo, Fila de Chamadas ou Atendedor Automático), conforme definido Centro de administração do Microsoft 365 |
 > | 4 | País do usuário | `nvarchar(2)` | Código do país do usuário, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | Hora do convite | `datetimeoffset` | Quando o convite inicial é enviado na saída do usuário ou da chamada de bot do Teams para o SBC ou recebido na entrada para o Teams ou chamada de bot pelo componente proxy SIP do Roteamento Direto do SBC |

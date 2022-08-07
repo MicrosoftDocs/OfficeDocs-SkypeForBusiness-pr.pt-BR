@@ -12,24 +12,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Leia este artigo para saber mais sobre como implantar as Salas do Microsoft Teams, incluindo as fases de implantação.
-ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: Leia este artigo para saber mais sobre como implantar Salas do Microsoft Teams, incluindo as fases de implantação.
+ms.openlocfilehash: 9dbb45581467cb0f948ce7b5fb62dcfea1186918
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760913"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271776"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
-A implantação das Salas do Microsoft Teams é essencialmente dividido em fases:
+A implantação Salas do Microsoft Teams é essencialmente dividido em fases:
 
 - Confirmar que seus locais de implantação (espaços) atendem às dependências de implantação
-- Criando contas do Microsoft Teams ou Skype for Business e exchange e atribuindo-as às Salas do Teams (consulte Configurar [contas para Salas do Microsoft Teams](rooms-configure-accounts.md))
-- (Opcional) Configurando o Azure Monitor para seus sistemas (confira [Implantar o gerenciamento de Salas do Microsoft Teams com o Azure Monitor](azure-monitor-deploy.md)
-- Configurando salas do Teams em espaços de reunião e conectando os dispositivos periféricos necessários (consulte a documentação do OEM para seu conjunto de dispositivos)
+- Criar contas do Microsoft Teams ou Skype for Business exchange e atribuí-las ao Salas do Teams (consulte [Configurar contas para Salas do Microsoft Teams](rooms-configure-accounts.md))
+- (Opcional) Configurando o Azure Monitor para seus sistemas (consulte [Implantar Salas do Microsoft Teams gerenciamento com o Azure Monitor](azure-monitor-deploy.md)
+- Configurando Salas do Teams em espaços de reunião e conectando os dispositivos periféricos necessários (consulte a documentação do OEM para seu conjunto de dispositivos)
 
 ## <a name="site-readiness"></a>Preparação do site 
 
@@ -45,59 +46,59 @@ Você pode saber mais sobre essas dependências nos links de diretrizes de plane
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![confirme sites.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos principais requisitos das Salas do Microsoft Teams.</li><li>Confirme se você forneceu largura de banda suficiente para cada site.</li></ul>| 
+| ![confirme sites.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos principais requisitos para Salas do Microsoft Teams.</li><li>Confirme se você forneceu largura de banda suficiente para cada site.</li></ul>| 
 | ![planejar a implantação do dispositivo.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação e a configuração do dispositivo.</li></ul>| 
 
 ## <a name="service-readiness"></a>Prontidão de serviço
 
-Para se preparar para a implantação das Salas do Microsoft Teams, execute as seguintes tarefas centrais:
+Para se preparar para sua Salas do Microsoft Teams implantação, execute as seguintes tarefas centrais:
 
--   Defina as contas de recursos das Salas do Microsoft Teams.
--   Se estiver ingressando nas Salas do Teams no Azure Active Directory, prepare um grupo do Azure AD com associação dinâmica para manter todas as contas de recursos das Salas do Teams. Isso simplificará o gerenciamento futuro, como a aplicação de políticas de Acesso Condicional. Para aproveitar com mais facilidade os grupos dinâmicos do Azure AD, determine uma convenção de nomenclatura que identificará exclusivamente suas contas de recursos das Salas do Teams.
--   Se estiver ingressando nas Salas do Teams no Active Directory, prepare uma unidade organizacional e um grupo do Active Directory para manter o computador e as contas de recursos das Salas do Microsoft Teams e, opcionalmente, prepare os GPOs (objetos de Política de Grupo) para habilitar a comunicação remota do PowerShell.
+-   Defina Salas do Microsoft Teams de recursos.
+-   Se você Salas do Teams ao Azure Active Directory, prepare um grupo de Azure AD com associação dinâmica para manter todas as contas de Salas do Teams recursos. Isso simplificará o gerenciamento futuro, como a aplicação de políticas de Acesso Condicional. Para aproveitar com mais facilidade Azure AD grupos dinâmicos, determine uma convenção de nomenclatura que identificará exclusivamente suas contas Salas do Teams recursos.
+-   Se estiver ingressando no Salas do Teams para o Active Directory, prepare uma unidade organizacional e um grupo do Active Directory para manter suas contas de recursos e computadores do Salas do Microsoft Teams e, opcionalmente, preparar gpOs (objetos Política de Grupo) para habilitar a comunicação remota do PowerShell.
 
-### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Definir recursos de conta de recurso das Salas do Microsoft Teams 
+### <a name="define-microsoft-teams-rooms-resource-account-features"></a>Definir recursos Salas do Microsoft Teams conta de recurso 
 
-Dependendo dos cenários de colaboração que você decidiu habilitar com a implantação das Salas do Microsoft Teams, você precisará determinar os recursos e os recursos atribuídos a cada Salas do Microsoft Teams habilitada.
+Dependendo dos cenários de colaboração que você decidiu habilitar com sua implantação do Salas do Microsoft Teams, você precisará determinar os recursos e os recursos atribuídos a cada Salas do Microsoft Teams que habilitar.
 
-| **Cenário** | **Descrição** | **Recurso de conta de serviço de Salas do Microsoft Teams** |
+| **Cenário** | **Descrição** | **Salas do Microsoft Teams de conta de serviço** |
 |---------- |------------- | --- |
-| Reuniões interativas            | Usando compartilhamento de voz, vídeo e tela; tornando as Salas do Microsoft Teams um recurso acionável                     | Habilitado para Microsoft Teams ou Skype for Business; habilitado para o Exchange (Caixa de Correio de Recurso) |
+| Reuniões interativas            | Usando compartilhamento de voz, vídeo e tela; tornando a Salas do Microsoft Teams um recurso acionável                     | Habilitado para o Microsoft Teams ou Skype for Business; habilitado para o Exchange (Caixa de Correio de Recursos) |
 | Conferência discada            | Ter um número de telefone de audioconferência ao tocar em "Nova reunião" no console | Habilitado para Audioconferência                                          |
-| Chamada PSTN de saída/entrada | Habilitar o console de Salas do Microsoft Teams para fazer e receber chamadas PSTN                                         | Habilitado para Sistema de Telefonia                                                |
+| Chamada PSTN de saída/entrada | Habilitar o console Salas do Microsoft Teams para fazer e receber chamadas PSTN                                         | Habilitado para Sistema de Telefonia                                                |
 
-Para obter mais informações sobre as contas de Salas do Microsoft Teams, consulte [Configurar contas para Salas do Microsoft Teams](rooms-configure-accounts.md).
+Para obter mais informações sobre Salas do Microsoft Teams contas, consulte [Configurar contas para Salas do Microsoft Teams](rooms-configure-accounts.md).
 
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![suporte a cenários.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quais cenários você vai dar suporte e identifique os requisitos de licenciamento para suas contas de recursos das Salas do Microsoft Teams.</li></ul>| 
+| ![suporte a cenários.](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida quais cenários você vai dar suporte e identifique os requisitos de licenciamento para suas contas Salas do Microsoft Teams recursos.</li></ul>| 
 | ![preparar o computador host.](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Prepare-se para hospedar contas de recursos e computadores.</li></ul>| 
 
 
-_Tabela de planejamento de conta de recursos de Salas do Microsoft Teams de exemplo_
+_Exemplo Salas do Microsoft Teams de planejamento da conta de recurso_
 
-| **Site**  | **Nome da sala** | **Tipo de sala** | **Recursos futuros da sala**                                                 | **Recursos da conta de Salas do Microsoft Teams**                                                                                         |
+| **Site**  | **Nome da sala** | **Tipo de sala** | **Recursos futuros da sala**                                                 | **Salas do Microsoft Teams da conta**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | QG de Londres | Curie         | Média        | 1 tela, áudio e vídeo mais apresentação <br>Acesso de conferência discada<br> Acesso PSTN  | Habilitado para o Exchange (Caixa de Correio de Recurso) <br>Habilitado para Audioconferência <br>Habilitado para Sistema de Telefonia |
-| Sydney HQ | Hill          | Grande         | 2 Telas, áudio e vídeo mais apresentação<br>Acesso de conferência discada<br> Acesso PSTN  | Habilitado para o Skype for Business <br>Habilitado para o Exchange (Caixa de Correio de Recurso)<br> Habilitado para Audioconferência <br>Habilitado para Sistema de Telefonia |
+| Sydney HQ | Hill          | Grande         | 2 Telas, áudio e vídeo mais apresentação<br>Acesso de conferência discada<br> Acesso PSTN  | Habilitado para Skype for Business <br>Habilitado para o Exchange (Caixa de Correio de Recurso)<br> Habilitado para Audioconferência <br>Habilitado para Sistema de Telefonia |
 
 
-### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Preparar-se para hospedar salas do Microsoft Teams e contas de recursos (opcional)
+### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>Preparar-se para hospedar Salas do Microsoft Teams contas de recursos (opcional)
 
-Para permitir que você gerencie e relate suas Salas do Microsoft Teams e contas de recursos, prepare o Active Directory local ou o Azure AD (Azure Active Directory). 
+Para permitir que você gerencie e relate suas contas de Salas do Microsoft Teams e recursos, prepare o Active Directory local ou o Azure Active Directory (Azure AD). 
 
-Defina um Active Directory local ou um grupo do Azure Active Directory ao qual adicionar todas as contas de recursos das Salas do Microsoft Teams. Se estiver usando o Azure Active Directory, considere usar um grupo dinâmico para adicionar e remover automaticamente contas de recursos do grupo.
+Defina um Active Directory local ou grupo do Azure Active Directory ao qual adicionar todas as Salas do Microsoft Teams de recursos. Se estiver usando o Azure Active Directory, considere usar um grupo dinâmico para adicionar e remover automaticamente contas de recursos do grupo.
 
-Defina uma unidade organizacional em sua hierarquia do Active Directory local para armazenar todas as contas de computador das Salas do Microsoft Teams (se elas ingressarem no domínio) e uma unidade organizacional para armazenar todas as contas de usuário das Salas do Microsoft Teams. Desabilite a herança da Política de Grupo para garantir que você aplique apenas as políticas que você pretendia aplicar às Salas do Microsoft Teams ingressadas no domínio.
+Defina uma unidade organizacional em sua hierarquia Active Directory local para manter todas as contas de computador do Salas do Microsoft Teams (se elas forem ingressadas no domínio) e uma unidade organizacional para armazenar todas as contas de Salas do Microsoft Teams usuário. Desabilite Política de Grupo herança para garantir que você aplique apenas as políticas que você pretendia aplicar ao grupo de Salas do Microsoft Teams.
 
-Crie um objeto de Política de Grupo atribuído à unidade da organização que contém suas contas de computador das Salas do Microsoft Teams. Use isso para: 
+Crie um Política de Grupo atribuído à unidade da organização que contém suas Salas do Microsoft Teams de computador. Use isso para: 
 
 -   [Defina configurações de energia e conta local](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
--   Habilitar o Windows Update.
+-   Habilite Windows Update.
 -   Habilitar a comunicação remota do PowerShell. Você pode configurar um script de inicialização para executar um script: Enable-PSRemoting -Force
 
-Você pode usar o PowerShell para executar várias atividades de gerenciamento remoto, incluindo obter e definir informações de configuração. A comunicação remota do PowerShell deve ser  habilitada antes que qualquer gerenciamento remoto do PowerShell possa ocorrer e deve ser considerada como parte dos processos de implantação ou configurada por meio da Política de Grupo. Para obter mais informações sobre esses recursos e habilitá-los, consulte [Manutenção e operações](rooms-operations.md#remote-management-using-powershell). 
+Você pode usar o PowerShell para executar várias atividades de gerenciamento remoto, incluindo obter e definir informações de configuração. A comunicação remota do PowerShell deve ser  habilitada antes que qualquer gerenciamento remoto do PowerShell possa ocorrer e deve ser considerada como parte de seus processos de implantação ou configurada por meio de Política de Grupo. Para obter mais informações sobre esses recursos e habilitá-los, consulte [Manutenção e operações](rooms-operations.md#remote-management-using-powershell). 
 
 
 ## <a name="configuration-and-deployment"></a>Configuração e implantação 
@@ -113,9 +114,9 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 ### <a name="resource-account-provisioning"></a>Provisionamento de conta de recurso 
 
-Cada Salas do Microsoft Teams requer uma conta de recurso dedicada e exclusiva que deve ser habilitada para Microsoft Teams ou Skype for Business e Exchange. Essa conta deve ter uma caixa de correio de sala hospedada Exchange. O processamento de calendário deve ser configurado para que o dispositivo possa aceitar automaticamente as solicitações de reunião de entrada. Para obter mais informações sobre como criar essas contas, consulte [Configurar contas para Salas do Microsoft Teams](rooms-configure-accounts.md). 
+Cada Salas do Microsoft Teams requer uma conta de recurso dedicada e exclusiva que deve ser habilitada para o Microsoft Teams ou Skype for Business e o Exchange. Essa conta deve ter uma caixa de correio de sala hospedada no Exchange. O processamento de calendário deve ser configurado para que o dispositivo possa aceitar automaticamente as solicitações de reunião de entrada. Para obter mais informações sobre como criar essas contas, consulte [Configurar contas para Salas do Microsoft Teams](rooms-configure-accounts.md). 
 
-**Pro dica** – cada Salas do Microsoft Teams deve ter um nome de computador válido e exclusivo em sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma convenção de nomenclatura para implantações do Salas do Microsoft Teams que permite que a equipe de suporte localize facilmente o Salas do Microsoft Teams que foi sinalizado como exigindo uma ação. Um exemplo pode estar usando um padrão de *MTR-Site*-*Room Name* (MTR-LON-CURIE). 
+**Dica Pro** – cada Salas do Microsoft Teams deve ter um nome de computador válido e exclusivo em sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma convenção de nomenclatura para implantações do Salas do Microsoft Teams que permite que a equipe de suporte localize facilmente o Salas do Microsoft Teams que foi sinalizado como exigindo uma ação. Um exemplo pode estar usando um padrão de *MTR-Site*-*Room Name* (MTR-LON-CURIE). 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -156,7 +157,7 @@ _Tabela de implantação de exemplo_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Salas do Microsoft Teams aplicativo e configuração de dispositivo periférico 
 
-Depois que cada sistema Salas do Microsoft Teams tiver sido implantado fisicamente e os dispositivos periféricos com suporte conectados, você precisará configurar o aplicativo Salas do Microsoft Teams para atribuir a conta de recurso do Salas do Microsoft Teams e a senha para habilitar Salas do Teams entrar no Microsoft Teams ou Skype for Business e Exchange.
+Depois que cada sistema Salas do Microsoft Teams tiver sido implantado fisicamente e os dispositivos periféricos com suporte conectados, você precisará configurar o aplicativo Salas do Microsoft Teams para atribuir a conta de recurso do Salas do Microsoft Teams e a senha para habilitar Salas do Teams entrar no Microsoft Teams ou no Skype for Business e no Exchange.
 
 Você pode configurar manualmente cada Salas do Microsoft Teams sistema. Como alternativa, você pode usar um arquivo de configuração XML armazenado centralmente por Salas do Teams para gerenciar as configurações do aplicativo.
 
@@ -171,9 +172,9 @@ Você pode usar [o PowerShell remoto](rooms-operations.md#remote-management-usin
 
 ### <a name="testing"></a> Testes
 
-Depois Salas do Teams tiver sido implantado, você deve testá-lo. Verifique se os recursos listados [Salas do Microsoft Teams ajuda](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us) estão funcionando no dispositivo implantado. É altamente recomendável que a equipe de implantação verifique se Salas do Microsoft Teams está aparecendo no Teams de administração. Também é importante que você faça várias chamadas de teste e reuniões para verificar a qualidade. Para obter mais informações, consulte esta [lista de verificação de implantação útil](console.md#microsoft-teams-rooms-deployment-checklist).
+Depois Salas do Teams tiver sido implantado, você deve testá-lo. Verifique se os recursos listados [Salas do Microsoft Teams ajuda](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us) estão funcionando no dispositivo implantado. É altamente recomendável que a equipe de implantação verifique se Salas do Microsoft Teams está aparecendo no Centro de administração do Teams. Também é importante que você faça várias chamadas de teste e reuniões para verificar a qualidade. Para obter mais informações, consulte esta [lista de verificação de implantação útil](console.md#microsoft-teams-rooms-deployment-checklist).
 
-Recomendamos que, como parte da distribuição geral do Teams ou Skype for Business, você configure a criação de arquivos para o CQD (Painel de Qualidade de Chamadas), monitore as tendências de qualidade e participe do processo de Revisão de Qualidade da Experiência. Para obter mais informações, consulte [Melhorar e monitorar a qualidade da chamada para Teams](../monitor-call-quality-qos.md). 
+Recomendamos que, como parte da distribuição geral do Teams ou do Skype for Business, você configure a criação de arquivos para o Painel de Qualidade de Chamadas (CQD), monitore as tendências de qualidade e participe do processo de Revisão de Qualidade da Experiência. Para obter mais informações, consulte [Melhorar e monitorar a qualidade das chamadas para o Teams](../monitor-call-quality-qos.md). 
 
 ### <a name="asset-management"></a>Gerenciamento de ativos
 

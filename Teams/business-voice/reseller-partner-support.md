@@ -9,12 +9,8 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: Saiba como obter suporte de um revendedor ou parceiro da Microsoft para ajudá-lo a configurar o Microsoft Teams Sistema de Telefonia sem um Plano de Chamada.
+description: Saiba como obter suporte de um revendedor ou parceiro da Microsoft para ajudá-lo a configurar Microsoft Teams o Sistema de Telefonia sem um Plano de Chamada.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,32 +20,34 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 470c1b4f4df121968a9a19b56d0487fdc4a28975
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: e5eccd025a0ba429518861d21d50b7af0e70e6b0
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053350"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271886"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Obtenha ajuda de um revendedor ou parceiro da Microsoft
 
-Para configurar Teams Sistema de Telefonia, você tem a opção de configurar você mesmo ou usar um parceiro ou vendedor da Microsoft.
+Você pode configurar o Sistema Teams de Telefonia por conta própria ou usar um parceiro ou vendedor da Microsoft.
 
-Você pode encontrar um revendedor ou parceiro da Microsoft visitando a página Conexão [com parceiros](https://appsource.microsoft.com/marketplace/partner-dir).
+Você pode encontrar um revendedor ou parceiro da Microsoft visitando a [página Conectar com parceiros](https://appsource.microsoft.com/marketplace/partner-dir) .
 
 Um parceiro da Microsoft ou revendedor pode:
 
-- Obtenha as licenças de Teams Telefone corretas para seus locatários e usuários de telefone
-- Ajudá-lo a entender os requisitos técnicos para a configuração Sistema de Telefonia
-- Coordene com seu provedor de telefonia para garantir que seus números de telefone sejam corretamente definidos para uso com Sistema de Telefonia
-- Configurar a comunicação entre seu hardware de telefonia local e o Microsoft 365
-- Ajudá-lo a configurar Sistema de Telefonia recursos como Filas de Chamadas, Atendedor Automático, Caixa Postal e muito mais
+- Obter as licenças Teams de telefone corretas para seus usuários de locatário e telefone
+- Ajudar você a entender os requisitos técnicos para configurar o Sistema de Telefonia
+- Coordem com seu provedor de telefonia para verificar se os números de telefone estão configurados corretamente para uso com o Sistema de Telefonia
+- Configurar a comunicação entre seu hardware de telefonia local e Microsoft 365
+- Ajudar você a configurar recursos do Sistema de Telefonia, como Filas de Chamadas, Atendedor Automático, Caixa Postal e muito mais
 
-Ao entrar em contato com um parceiro da Microsoft ou revendedor sobre a configuração Teams Sistema de Telefonia, você precisará fornecer a eles informações como:
+Ao entrar em contato com um parceiro ou revendedor Teams da Microsoft sobre como configurar o Sistema de Telefonia, você precisará fornecer informações como:
 
 - Quantos usuários, telefones e outros dispositivos devem fazer e receber chamadas de e para números de telefone externos
 - Detalhes do sistema de telefonia existente
-- Detalhes sobre sua conexão entre seu Teams Sistema de Telefonia e seu provedor PSTN
+- Detalhes sobre a conexão entre o sistema Teams de telefonia e o provedor PSTN
 - Sua conexão com a Internet
 - Considerações de design exclusivas sobre a sua organização, como a necessidade de oferecer suporte a call centers, menus de chamadas do sistema telefônico (por exemplo, pressione 1 para vendas, pressione 2 para obter suporte técnico), salas de conferência, quiosques de telefones etc.
 - Quantas localizações seu sistema telefônico comporta e como a conectividade está configurada entre elas

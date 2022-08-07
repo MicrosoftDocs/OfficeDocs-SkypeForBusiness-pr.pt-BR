@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: Saiba como gerenciar as configurações de política de reunião Teams para gravação e transcrição.
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: Saiba como gerenciar as configurações de política de reunião no Teams para gravação e transcrição.
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646360"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268976"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Configurações de política de reunião para gravação & transcrição
 
@@ -39,7 +39,7 @@ Esta é uma combinação de uma política por usuário e por organizador. Essa c
 
 Ativar essa configuração cria uma cópia da transcrição armazenada com a gravação da reunião que habilita **Pesquisa**, **CC** e **transcrições** na gravação da reunião.
 
-Atualmente, a transcrição para reuniões gravadas só tem suporte para usuários que definem o idioma ou falam inglês em Teams reuniões.
+Atualmente, a transcrição para reuniões gravadas só tem suporte para usuários que definem o idioma ou falam inglês em reuniões do Teams.
 
 ## <a name="allow-cloud-recording"></a>Permitir gravação na nuvem
 
@@ -67,9 +67,10 @@ Para saber mais sobre a gravação de reunião na nuvem, confira [Gravação de 
 
 ## <a name="store-recordings-outside-of-your-country-or-region"></a>Armazenar gravações fora de seu país ou região
 
-Essa política controla se os registros de reunião podem ser armazenados permanentemente em outro país ou região. Se ela estiver habilitada, as gravações não poderão ser migradas. Para obter mais informações sobre reuniões na nuvem e onde as gravações são armazenadas, [consulte Teams de reunião na nuvem](cloud-recording.md).
+Essa política controla se os registros de reunião podem ser armazenados permanentemente em outro país ou região. Se ela estiver habilitada, as gravações não poderão ser migradas. Para obter mais informações sobre reuniões na nuvem e onde as gravações são armazenadas, consulte a gravação [de reuniões na nuvem do Teams](cloud-recording.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Atribuir políticas a usuários no Teams](policy-assignment-overview.md)
 - [Gravação de reunião na nuvem](cloud-recording.md)
+- [Políticas de reunião e expiração de reunião no Microsoft Teams](meeting-expiration.md)

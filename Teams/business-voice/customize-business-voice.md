@@ -1,5 +1,5 @@
 ---
-title: Personalizar Microsoft Teams Sistema de Telefonia com o Plano de Chamada no Microsoft Teams
+title: Personalizar Telefonia do Microsoft Teams sistema com plano de chamada no Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,30 +9,28 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: Saiba como personalizar o Teams Sistema de Telefonia com o Plano de Chamada para atender às necessidades específicas da sua organização.
+description: Saiba como personalizar o Sistema de Telefonia do Teams com o Plano de Chamadas para atender às necessidades específicas da sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a7d44eb9620e95adf937f11de79fd162f280f0a
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 80ba0ed460f8e6847e1c94653400080a6efeb6a9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053030"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271396"
 ---
-# <a name="customize-teams-phone-system-with-calling-plan"></a>Personalizar Teams Sistema de Telefonia com Plano de Chamada
+# <a name="customize-teams-phone-system-with-calling-plan"></a>Personalizar o Sistema de Telefonia do Teams com o Plano de Chamadas
 
-O [Teams Sistema de Telefonia guia](set-up-overview.md) de configuração do Plano de Chamada obtém a Sistema de Telefonia com o pacote plano de chamada iniciado com opções básicas para que você possa usá-lo imediatamente. Essas opções podem ser suficientes se você é uma pequena empresa que esteja começando ou se está executando um piloto em sua organização maior. Você obtém noções básicas com novos números de telefone e um menu de chamada.
+O [guia de configuração do](set-up-overview.md) Sistema de Telefonia do Teams com Plano de Chamada obtém o sistema de telefonia com o pacote plano de chamada iniciado com opções básicas para que você possa usá-lo imediatamente. Essas opções podem ser suficientes se você é uma pequena empresa que esteja começando ou se está executando um piloto em sua organização maior. Você obtém noções básicas com novos números de telefone e um menu de chamada.
 
-Mas você provavelmente vai querer personalizar o Sistema de Telefonia com o Plano de Chamada para atender melhor às suas necessidades de negócios. Por exemplo, você provavelmente deseja mover seus números de telefone existentes (chamada de portação de número) para Sistema de Telefonia com Plano de Chamadas.
+Mas você provavelmente desejará personalizar o Sistema de Telefonia com o Plano de Chamadas para atender melhor às suas necessidades de negócios. Por exemplo, você provavelmente desejará mover seus números de telefone existentes (chamados de portabilidade de número) para o Sistema de Telefonia com Plano de Chamadas.
 
 | Tarefa        | Descrição       |
 |-------------|-------------------|
-| [Mover números de telefone para Sistema de Telefonia com Plano de Chamadas](port-phone-numbers.md) | Traga seus números de telefone existentes para Sistema de Telefonia com o Plano de Chamadas. |
+| [Mover números de telefone para o Sistema de Telefonia com Plano de Chamadas](port-phone-numbers.md) | Traga seus números de telefone existentes para o Sistema de Telefonia com o Plano de Chamadas. |
 | [Configurar políticas de chamadas](set-up-policies.md) | Controle se os usuários podem fazer coisas como fazer chamadas privadas, usar o encaminhamento de chamadas e delegar chamadas. |
 | [Criar usuários adicionais](create-users.md) | Adicione mais usuários e atribua números de telefone novos ou existentes a eles. |
 | [Configurar filas de chamadas](./create-a-phone-system-call-queue-smb.md) | Crie uma fila em que os chamadores possam aguardar o próximo agente disponível. |

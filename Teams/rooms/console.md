@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console Salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761253"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270106"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Criar uma Salas do Microsoft Teams imagem
 
@@ -29,7 +30,7 @@ Este artigo descreve como criar uma imagem de Salas do Microsoft Teams para impl
 > [!NOTE]
 > As etapas a seguir só devem ser usadas ao criar uma [imagem baseada em WIM para](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) implantação em massa. Se você estiver recuperando dispositivos individuais, entre em contato com o OEM (Fabricante original do equipamento) para obter suporte.
 
-Você só deverá executar essas etapas se as contas Microsoft Teams ou Skype for Business e Exchange necessárias já tiverem sido criadas e testadas conforme descrito em [Implantar Salas do Microsoft Teams](rooms-deploy.md). Você precisará do hardware e do software descritos [Salas do Microsoft Teams requisitos](requirements.md). Este tópico inclui as seguintes seções:
+Você só deve executar essas etapas se as contas necessárias do Microsoft Teams ou do Skype for Business e do Exchange já tiverem sido criadas e testadas, conforme descrito em [Implantar Salas do Microsoft Teams](rooms-deploy.md). Você precisará do hardware e do software descritos [Salas do Microsoft Teams requisitos](requirements.md). Este tópico inclui as seguintes seções:
   
 - [Preparar a mídia de instalação](console.md#Prep_Media)
 - [Instalar um certificado de autoridade de certificação privado no console](console.md#Certs)
@@ -46,10 +47,10 @@ Instalar o aplicativo Salas do Microsoft Teams console requer um dispositivo de 
 > A falha ao criar sua Salas do Microsoft Teams de instalação de acordo com essas instruções provavelmente resultará em um comportamento inesperado.
 
 > [!NOTE]
-> O processo a seguir é para criar mídia de instalação para criar novas imagens Salas do Microsoft Teams dispositivos. Os dispositivos existentes, por padrão, são atualizados automaticamente Windows Update a Windows Store.
+> O processo a seguir é para criar mídia de instalação para criar novas imagens Salas do Microsoft Teams dispositivos. Os dispositivos existentes, por padrão, são atualizados automaticamente do Windows Update e da Windows Store.
 
 > [!IMPORTANT]
-> O Windows 10 usado para criar a mídia de instalação Salas do Microsoft Teams deve estar na mesma versão ou posterior do Windows que a mídia de instalação de destino.
+> O Windows 10 usado para criar Salas do Microsoft Teams mídia de instalação deve estar na mesma versão ou posterior do Windows que a mídia de instalação de destino.
   
 1. Baixe o [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Execute o script CreateSrsMedia.ps1 de um prompt com privilégios elevados em um computador Windows 10.
@@ -62,7 +63,7 @@ Instalar o aplicativo Salas do Microsoft Teams console requer um dispositivo de 
 O CreateSrsMedia.ps1 script automatiza as seguintes tarefas:
 
 1. Baixe o instalador MSI mais recente para Salas do Microsoft Teams.
-2. Determine a compilação Windows que o usuário deve fornecer. As versões lançadas mais recentemente podem ou não ser testadas e com suporte para uso com Salas do Microsoft Teams dispositivos.
+2. Determine o build do Windows que o usuário deve fornecer. As versões lançadas mais recentemente podem ou não ser testadas e com suporte para uso com Salas do Microsoft Teams dispositivos.
 3. Baixe os componentes de suporte necessários.
 4. Monte os componentes necessários na mídia de instalação.
 
@@ -105,7 +106,7 @@ Depois que o sistema for desligado, é seguro remover o disco de instalação do
 Na Atualização do Criador, você precisará usar o script do ApplyCurrentRegionAndLanguage.ps1 em cenários em que a seleção implícita de idioma não fornece ao usuário o idioma real do aplicativo desejado (por exemplo, ele deseja que o aplicativo de console venha em francês, mas está chegando em inglês).
   
 > [!NOTE]
-> As instruções a seguir funcionam apenas para consoles criados usando Windows Atualização do Criador (Windows 10 20H1) ou posterior.
+> As instruções a seguir funcionam apenas para consoles criados usando o Windows Creator's Update (Windows 10 20H1) ou posterior.
   
 ### <a name="to-apply-your-desired-language"></a>Para aplicar o idioma desejado
 
@@ -125,7 +126,7 @@ Na Atualização do Criador, você precisará usar o script do ApplyCurrentRegio
     
 8. Instalar recursos de linguagem.
     
-9. Não marque Definir como meu idioma Windows exibição.
+9. Não marque Definir como meu idioma de exibição do Windows.
     
 10. Selecione **Instalar**.
     
@@ -152,22 +153,22 @@ O idioma desejado agora é aplicado ao Salas do Microsoft Teams console.
 ## <a name="initial-set-up-of-the-console"></a>Configuração inicial do console
 <a name="Initial"> </a>
 
-Depois Windows for instalado, o Salas do Microsoft Teams aplicativo entrará em seu processo de instalação inicial.
+Depois que o Windows for instalado, o Salas do Microsoft Teams aplicativo entrará em seu processo de instalação inicial.
   
-1. A tela Conta de Usuário é exibida. Insira o endereço de entrada Exchange conta do Recurso do Microsoft user@domain (no formato user@domain) da conta de sala a ser usada com o console.
+1. A tela Conta de Usuário é exibida. Insira o endereço de entrada da conta do Recurso do Microsoft Exchange (user@domain formato) da conta de sala a ser usada com o console.
     
 2. Digite a senha para a conta da sala e digite-a novamente para verificar.
    
-3. Selecione o modo de reunião Microsoft Teams suporte, somente Skype for Business, ou uma das duas opções de modo misto. Se necessário, habilite a Autenticação Moderna.
+3. Selecione o modo de reunião com suporte – Somente Microsoft Teams, Skype for Business somente ou uma das duas opções de modo misto. Se necessário, habilite a Autenticação Moderna.
 
 4. Selecione **Avançar**.
     
-5. Se estiver usando Skype for Business e se o domínio SIP do Skype for Business for diferente do domínio Exchange do usuário, defina o FQDN para o Skype for Business Server na seção Avançado. Se você não estiver usando Skype for Business ou o domínio SIP corresponder ao domínio Exchange, deixe esta seção em branco.
+5. Se estiver usando Skype for Business e se o domínio SIP do Skype for Business for diferente do domínio do Exchange do usuário, defina o FQDN para o Skype for Business Server na seção Avançado. Se você não estiver usando Skype for Business ou o domínio SIP corresponder ao domínio do Exchange, deixe esta seção em branco.
 6. Selecione **Avançar**.
     
 7. Selecione **Concluir**.
     
-O Salas do Microsoft Teams deve entrar no Microsoft Teams ou Skype for Business Server com as credenciais inseridas acima e também deve começar a sincronizar seu calendário com Exchange usando essas mesmas credenciais. Para obter detalhes sobre como Salas do Teams, consulte a [ajuda Salas do Microsoft Teams segurança](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+O Salas do Microsoft Teams aplicativo deve entrar no Microsoft Teams ou Skype for Business Server com as credenciais inseridas acima e também deve começar a sincronizar seu calendário com o Exchange usando essas mesmas credenciais. Para obter detalhes sobre como Salas do Teams, consulte a [ajuda Salas do Microsoft Teams segurança](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Salas do Microsoft Teams depende da presença de hardware de console certificado. Mesmo uma imagem criada corretamente contendo o aplicativo Salas do Microsoft Teams console não será inicializada após o procedimento de configuração inicial, a menos que o hardware do console seja detectado. Para Surface Pro soluções baseadas em Surface Pro, o Surface Pro deve estar conectado ao hardware de encaixe que o acompanha para passar essa verificação.

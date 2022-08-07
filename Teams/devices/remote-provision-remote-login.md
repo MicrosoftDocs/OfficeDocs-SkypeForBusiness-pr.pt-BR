@@ -1,5 +1,5 @@
 ---
-title: Provisionamento remoto e entrada para Teams Android dispositivos
+title: Provisionamento remoto e entrada para dispositivos Android do Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,40 +9,40 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_Devices
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como provisionar e entrar remotamente para dispositivos Teams Android remotos
-ms.openlocfilehash: 5a746e3255ce8af9bcf59f8dfcae12854b222a1f
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+description: Saiba como provisionar e entrar remotamente em dispositivos Android do Teams
+ms.openlocfilehash: 566f7428d03a16082a37ff7a8896cffbb27b85ec
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761283"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267786"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para Teams Android dispositivos
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Provisionamento remoto e entrada para dispositivos Android do Teams
 
-Os administradores de TI podem provisionar e entrar remotamente em um Teams Android dispositivo. Para provisionar um dispositivo remotamente, o administrador precisa carregar as IDs MAC dos dispositivos que estão sendo provisionados e criar um código de verificação. Todo o processo pode ser concluído remotamente no centro Teams administrador.
+Os administradores de TI podem provisionar e entrar remotamente em um dispositivo Android do Teams. Para provisionar um dispositivo remotamente, o administrador precisa carregar as IDs MAC dos dispositivos que estão sendo provisionados e criar um código de verificação. Todo o processo pode ser concluído remotamente no centro de administração do Teams.
 
 ## <a name="review-the-supported-devices"></a>Examinar os dispositivos com suporte
 
-A lista a seguir mostra os requisitos Android firmware do dispositivo.
+A lista a seguir mostra os requisitos de firmware do dispositivo Android.
 
 |Categoria de dispositivo|Modelo de dispositivo|Versão do firmware|
 |---|---|---|
-|Teams telefone|Yealink T55/T56/T58|58.15.0.124|
-|Teams telefone|Yealink VP59|91.15.0.58|
-|Teams telefone|Yealink CP960|73.15.0.117|
-|Teams telefone|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams telefone|Crestron UC-2|1.0.3.52|
-|Teams telefone|Poly Trio C60|7.0.2.1071|
-|Teams telefone|CCX400/CCX500/CCX600 |7.0.2.1072|
-|Teams telefone|Códigos de áudio C448HD/C450HD/C470HD|1.10.120|
-|Teams painéis|Crestron 770/1070|1.004.0115|
+|Telefones do Teams|Yealink T55/T56/T58|58.15.0.124|
+|Telefones do Teams|Yealink VP59|91.15.0.58|
+|Telefones do Teams|Yealink CP960|73.15.0.117|
+|Telefones do Teams|Yealink MP56/MP54/MP58|122.15.0.36|
+|Telefones do Teams|Crestron UC-2|1.0.3.52|
+|Telefones do Teams|Poly Trio C60|7.0.2.1071|
+|Telefones do Teams|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Telefones do Teams|Códigos de áudio C448HD/C450HD/C470HD|1.10.120|
+|Painéis do Teams|Crestron 770/1070|1.004.0115|
 |Salas do Teams no Android|Logitech Rally Bar Mini|1.2.982|
 |Salas do Teams no Android|Logitech Rally Bar|1.2.982|
 |Salas do Teams no Android|AudioCodes RXV80|1.13.361|
@@ -60,7 +60,7 @@ A lista a seguir mostra os requisitos Android firmware do dispositivo.
 Conclua as etapas a seguir para provisionar um novo dispositivo.
 
 1. Entre no Centro de administração do Teams.
-2. **Expanda Teams dispositivos**.
+2. Expanda **dispositivos do Teams**.
 3. Selecione **Provisionar novo dispositivo** na **guia** Ações.
 
 Na janela **Provisionar novos** dispositivos, você pode adicionar o endereço MAC manualmente ou carregar um arquivo.
@@ -75,12 +75,12 @@ Na janela **Provisionar novos** dispositivos, você pode adicionar o endereço M
 1. Insira um local, que ajuda os técnicos a identificar onde instalar os dispositivos.
 1. Selecione **Aplicar** quando terminar.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload um arquivo para adicionar um endereço MAC do dispositivo
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Carregar um arquivo para adicionar um endereço MAC do dispositivo
 
-1. Na guia **Aguardando na ativação**, selecione **Upload IDs do MAC**.
+1. Na guia **Aguardando na ativação** , selecione **Carregar IDs mac**.
 2. Baixe o modelo de arquivo.
 3. Insira a ID e o local do MAC e salve o arquivo.
-4. **Selecione o arquivo** e selecione **Upload**.
+4. **Selecione o arquivo** e, em seguida, **selecione Carregar**.
 
 ## <a name="generate-a-verification-code"></a>Gerar um código de verificação
 
@@ -93,9 +93,9 @@ Você precisa de um código de verificação para os dispositivos. O código de 
 
 ## <a name="provision-the-device"></a>Provisionar o dispositivo
 
-Quando o dispositivo está ligado e conectado à rede, o técnico provisiona o dispositivo. Essas etapas são concluídas no Teams dispositivo.
+Quando o dispositivo está ligado e conectado à rede, o técnico provisiona o dispositivo. Essas etapas são concluídas no dispositivo teams.
 
-1. O técnico seleciona **Provisionar dispositivo** na **Configurações**.  
+1. O técnico seleciona **Provisionar dispositivo** nas **Configurações**.  
 
    ![Provisione a nova opção de dispositivo na guia Ações.](../media/provision-device1.png)
   
@@ -123,4 +123,4 @@ O dispositivo provisionado aparece na **guia Aguardando entrada** . Inicie o pro
 
 - [Gerenciar seus dispositivos no Teams](device-management.md)
 - [Entrar e sair remotamente](remote-sign-in-and-sign-out.md)
-- [Atualizar Teams dispositivos remotamente](remote-update.md)
+- [Atualizar dispositivos do Teams remotamente](remote-update.md)

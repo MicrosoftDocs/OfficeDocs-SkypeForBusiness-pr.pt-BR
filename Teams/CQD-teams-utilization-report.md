@@ -9,25 +9,24 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-voice
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Use os relatórios do Power BI de Utilização do Teams para acessar os dados do CQD (Painel de Qualidade de Chamadas) do Microsoft Teams para acompanhar o uso do Microsoft Teams em sua organização.
-ms.openlocfilehash: 6e96f9dd06f872f2907d04aa335e2af2d7a75f2b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: bd579fa3f57c6e3b50a363eb77523f577c750efb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790336"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270686"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Exibir a utilização do Microsoft Teams no Power BI usando dados CQD
 
-Novidade em março de 2020, adicionamos um relatório de utilização do Teams aos nossos modelos de consulta do [Power BI para download para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+O relatório de utilização do Teams está disponível como parte de nossos modelos de consulta do [Power BI para download para CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
-Esses novos relatórios de Utilização do Teams permitem que você veja como (e quanto) os usuários estão usando o Microsoft Teams acessando os dados do CQD (Painel de Qualidade de Chamadas) do Teams. Esses relatórios destinam-se a ser um local centralizado para o qual administradores e líderes de negócios podem acessar rapidamente esses dados.
+Esse relatório permite que você veja como (e quanto) os usuários estão usando o Microsoft Teams acessando os dados do CQD (Painel de Qualidade de Chamadas) do Teams. Esses relatórios destinam-se a ser um local centralizado para o qual administradores e líderes de negócios podem acessar rapidamente esses dados. Observe que recomendamos [não depender desses dados para números concretos devido à natureza da telemetria de qualidade da chamada](CQD-frequently-asked-questions.md#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that).
 
 O relatório do Power BI de Utilização do Teams consiste em dois relatórios principais: Resumo **[da Contagem de](#call-count-summary-report)** Chamadas e **[Resumo de Minutos de Áudio](#audio-minutes-summary-report)**. Os [relatórios uso diário](#daily-usage), [detalhes](#regional-audio-details) regionais de [áudio, detalhes](#conference-details) de conferência e lista de usuários são reproduzidos quando um usuário aproveita os relatórios de busca detalhada, anotados nas descrições abaixo.[](#user-list)
 

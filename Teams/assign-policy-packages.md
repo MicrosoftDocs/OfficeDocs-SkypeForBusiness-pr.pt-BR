@@ -1,5 +1,5 @@
 ---
-title: Atribuir pacotes de política a usuários e grupos
+title: Atribuir pacotes de políticas a usuários e grupos
 author: mkbond007
 ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
@@ -18,14 +18,14 @@ description: Conheça as diferentes maneiras de atribuir pacotes de política a 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 48391db005ca7d40081c0aeb22f71be58fcc9f9f
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: cd6cbaab900ce1e9e5f4a2bd19731573c66ab7eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646520"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272046"
 ---
-# <a name="assign-policy-packages-to-users-and-groups"></a>Atribuir pacotes de política a usuários e grupos
+# <a name="assign-policy-packages-to-users-and-groups"></a>Atribuir pacotes de políticas a usuários e grupos
 
 Este artigo revisa as diferentes maneiras de atribuir pacotes de política a usuários e grupos no Microsoft Teams. Antes de ler, verifique se você leu Atribuir [políticas no Teams – introdução](policy-assignment-overview.md).
 
@@ -34,31 +34,29 @@ Este artigo revisa as diferentes maneiras de atribuir pacotes de política a usu
 
 ## <a name="assign-a-policy-package-to-users"></a>Atribuir um pacote de política aos usuários
 
-Um pacote de políticas no Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir a usuários que têm as mesmas funções ou funções semelhantes em sua organização. Cada pacote de política é projetado em torno de uma função de usuário e inclui políticas predefinidas e configurações de política que dão suporte a atividades típicas para essa função. Alguns exemplos de pacotes de políticas são o pacote Educação (Professor) e o pacote de Serviços de Saúde (Trabalho Clínico). Para saber mais, confira [Gerenciar pacotes de política Teams](manage-policy-packages.md).
+Um pacote de políticas no Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir a usuários que têm as mesmas funções ou funções semelhantes em sua organização. Cada pacote de política é projetado em torno de uma função de usuário e inclui políticas predefinidas e configurações de política que dão suporte a atividades típicas para essa função. Alguns exemplos de pacotes de políticas são o pacote Educação (Professor) e o pacote de Serviços de Saúde (Trabalho Clínico). Para saber mais, confira [Gerenciar pacotes de política no Teams](manage-policy-packages.md).
 
 ### <a name="assign-a-policy-package-to-one-user"></a>Atribuir um pacote de política a um usuário
 
-1. No painel de navegação à esquerda do Microsoft Teams de administração, vá para **Usuários** e selecione o usuário.
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, acesse **Usuários** e selecione o usuário.
 
 2. Na página do usuário, selecione **Políticas** e, ao lado do **pacote política**, selecione **Editar**.
 
-3. No painel **Atribuir pacote de** política, selecione o pacote que você deseja atribuir e, em seguida, **selecione Salvar**.
+3. No painel **Atribuir pacote de** política, selecione o pacote que você deseja atribuir e, em seguida, **selecione Aplicar**.
 
-![Teams de tela do centro de administração para atribuição de pacote de política a um usuário.](media/assign-policypackages-user.png)
+    :::image type="content" source="media/assign-policy-package-one-user.png" alt-text="Captura de tela que mostra o Centro de administração do Teams para atribuição de pacote de política a um usuário." lightbox="media/assign-policy-package-one-user-expanded.png":::
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Atribuir um pacote de política a vários usuários
 
-1. No painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para Pacotes de política e selecione o pacote de política que você deseja atribuir clicando à esquerda do nome do pacote.
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para Pacotes de política e selecione o pacote de política que você deseja atribuir clicando à esquerda do nome do pacote.
 
 2. Selecione **Gerenciar usuários**.
 
 3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 
-4. Quando terminar de adicionar usuários, selecione **Salvar**.
+4. Quando terminar de adicionar usuários, selecione **Aplicar**.
 
-
-![Teams de tela do centro de administração para a atribuição de pacote de política a vários usuários.](media/assign-policypackages-multipleusers.png)
-
+    :::image type="content" source="media/assign-policy-package-multiple-users.png" alt-text="Captura de tela que mostra a atribuição de pacote de política do centro de administração do Teams a vários usuários." lightbox="media/assign-policy-package-multiple-users-expanded.png":::
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Atribua o pacote de política a um grupo.
 
@@ -73,13 +71,11 @@ Quando você atribui o pacote de política, ele é atribuído imediatamente ao g
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Atribuir um pacote de política a um grupo de usuários no centro de administração
 
-1. Entre no Centro de administração do Teams.
+1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para a **página Pacotes de** política.
 
-2. No painel de navegação esquerdo, vá para a página do pacote de políticas.
+2. Selecione a **guia Atribuição de pacote de** grupo.
 
-3. Selecione a guia Atribuição de política de grupo.
-
-4. Selecione **Adicionar grupo** e, em seguida, no painel Atribuir um pacote de política ao grupo, faça o seguinte:
+3. Selecione **Adicionar** e, em seguida, no pacote Atribuir **política a** um painel de grupo, faça o seguinte:
 
     1. Pesquise e adicione o grupo ao qual você deseja atribuir o pacote de política.
 
@@ -89,18 +85,17 @@ Quando você atribui o pacote de política, ele é atribuído imediatamente ao g
 
     1. Selecione **Aplicar**.
 
+       :::image type="content" source="media/assign-policy-package-group.png" alt-text="Captura de tela de Atribuir um pacote de política a um painel de grupo." lightbox="media/assign-policy-package-group-expanded.png":::
 
-       ![mostra a atribuição de política de grupo.](media/group-pkg-assignment.png)
+4. Para gerenciar a classificação de um tipo de política específico, navegue até a página de política específica.
 
-5. Para gerenciar a classificação de um tipo de política específico, navegue até a página de política específica.
-
-6. Para reatribuir um pacote de política a um grupo, primeiro remova a atribuição de política de grupo. Em seguida, siga as etapas acima para atribuir o pacote de política a um grupo.
+5. Para reatribuir um pacote de política a um grupo, primeiro remova a atribuição de política de grupo. Em seguida, siga as etapas acima para atribuir o pacote de política a um grupo.
 
 ### <a name="work-with-powershell"></a>Trabalhar com o PowerShell
 
-#### <a name="get-the-teams-powershell-module"></a>Obter o módulo Teams PowerShell
+#### <a name="get-the-teams-powershell-module"></a>Obter o módulo do PowerShell do Teams
 
-Para obter diretrizes passo a passo, consulte [Instalar Teams PowerShell](teams-powershell-install.md).
+Para obter diretrizes passo a passo, consulte [Instalar o PowerShell do Teams](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Atribuir um pacote de política a um grupo de usuários
 
@@ -120,9 +115,9 @@ Especifique os usuários por sua ID de objeto ou endereço SIP (Protocolo de Ini
 
 Um lote contém até 5.000 usuários. Para obter melhores resultados, não envie mais do que alguns lotes por vez. Permitir que lotes concluam o processamento antes de enviar mais lotes.
 
-### <a name="use-the-teams-powershell-module"></a>Usar o módulo Teams PowerShell
+### <a name="use-the-teams-powershell-module"></a>Usar o módulo powershell do Teams
 
-Execute o seguinte para instalar o [Microsoft Teams do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) (caso ainda não tenha feito isso). Instale a versão 1.0.5 ou posterior.
+Execute o seguinte para instalar o [módulo do PowerShell do Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams) (caso ainda não tenha feito isso). Instale a versão 1.0.5 ou posterior.
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -162,7 +157,7 @@ Para saber mais, confira [Get-CsBatchPolicyAssignmentOperation](/powershell/modu
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Gerenciar Teams com políticas](manage-teams-with-policies.md)
+- [Gerenciar o Teams com políticas](manage-teams-with-policies.md)
 - [Gerenciar pacotes de política no Microsoft Teams](manage-policy-packages.md)
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
 - [Atribuir políticas no Teams – introdução](policy-assignment-overview.md)

@@ -10,17 +10,16 @@ search.appverid: ''
 description: Saiba mais sobre as políticas do Teams.
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b56e617321cea25fe677b7d9a7a00afba0940b07
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156529"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268756"
 ---
 # <a name="manage-teams-with-policies"></a>Gerenciar o Teams com políticas
 
@@ -34,7 +33,7 @@ As políticas são usadas para realizar muitas tarefas em sua organização em d
 
 As políticas podem ser atribuídas de várias maneiras diferentes, dependendo do que sua organização está tentando realizar. Você pode fazer e exibir atribuições no centro de administração do Teams.
 
-![Captura de tela da atribuição de política de grupo.](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Captura de tela da atribuição de política de grupo do Teams." lightbox="media/group-policy-assignment.png":::
 
 Saiba mais sobre como atribuir políticas [aqui](policy-assignment-overview.md).
 
@@ -47,17 +46,17 @@ As políticas são gerenciadas com o centro de administração do Microsoft Team
 
 Por exemplo, uma política de configuração de aplicativo pode permitir que os usuários carreguem aplicativos personalizados, instalem aplicativos em nome de seus usuários e fixem aplicativos na barra de aplicativos do Teams. Essas políticas são configuradas no centro de administração do Teams.
 
-![Captura de tela da política de configuração do aplicativo.](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="Captura de tela da política de configuração do aplicativo." lightbox="media/app-setup-policy.png":::
 
 Além disso, uma política de reunião pode ser usada para controlar as configurações de áudio e vídeo em reuniões do Teams, como transcrições, gravações de nuvem e áudio/vídeo IP.
 
-![Captura de tela da política de reunião.](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="Captura de tela da política de reunião." lightbox="media/engineering-meeting-policy.png":::
 
 ### <a name="teams-for-education"></a>Teams para o ensino
 
 Você também pode usar o [assistente Teams para Educação política](easy-policy-setup-edu.md) para configurar e gerenciar facilmente políticas para seu ambiente de aprendizado.
 
-![Captura de tela do Teams para Educação de política.](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Captura de tela do Teams para Educação de política." lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## <a name="types-of-policies"></a>Tipos de políticas
 

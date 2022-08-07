@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - M365-collaboration
-- m365initiative-meetings
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Consulte Microsoft Teams etapas para atribuir uma licença de conferência discada e uma ID de conferência a um usuário e muitas outras configurações de conferência discada.
-ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+description: Confira as etapas do Microsoft Teams para atribuir uma licença de conferência discada e uma ID de conferência a um usuário e muitas outras configurações de conferência discada.
+ms.openlocfilehash: 4bfb813b6e7b472ad7a9ab58e6403b92f60fd039
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106326"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271216"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as Configurações de audioconferência da sua organização no Microsoft Teams
 
-Pode ser mais fácil para você ver todas as configurações de audioconferência para Microsoft Teams em um só lugar.
+Pode ser mais fácil para você ver todas as configurações de audioconferência do Microsoft Teams em um só lugar.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,27 +39,27 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 ## <a name="assign-an-audio-conferencing-license"></a>Atribuir uma licença de Audioconferência
 
 > [!NOTE]
-> Você não pode atribuir licenças usando Teams. Você deve usar o Centro de administração do Microsoft 365. Consulte [Atribuir Microsoft Teams licenças de complemento](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> Você não pode atribuir licenças usando o Teams. Você deve usar o Centro de administração do Microsoft 365. Consulte [Atribuir licenças de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="to-assign-a-license-for-a-user"></a>Atribuir uma licença a um usuário
 
 1. Entre no Microsoft 365 com sua conta corporativa ou de estudante.
 
-2. No painel de navegação esquerdo do **Centro de administração do Microsoft 365**, vá para **UsuáriosActive** >  e selecione o usuário ou os usuários na lista de usuários disponíveis.
+2. No painel de navegação esquerdo do **Centro de administração do Microsoft 365**,  >  acesse Usuários Ativos **e selecione o** usuário ou os usuários na lista de usuários disponíveis.
 
     > [!NOTE]
     > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, **clique em Editar**, **Avançar** duas vezes, selecione a licença e clique em **Enviar**.  
   
 3. No painel Ação em **Licenças de**, clique em **Editar**.
 
-4. Na página **Licenças de produtos**, ligue a **Audioconferência** e em seguida clique em **Salvar**. Para obter mais informações sobre licenciamento, [Microsoft Teams licenciamento de complemento](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+4. Na página **Licenças de produtos**, ligue a **Audioconferência** e em seguida clique em **Salvar**. Para obter mais informações sobre licenciamento, consulte [licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
    > [!NOTE]
    > Depois de atribuir a licença, a Microsoft pode não aparecer inicialmente na lista como um provedor de audioconferência. Se isso acontecer, saia do centro de administração ou pressione Ctrl+F5 para atualizar a janela do navegador.
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar emails enviados para usuários de audioconferência
 
-### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Habilitar ou desabilitar usando o Microsoft Teams de administração
+### <a name="enable-or-disable-using-the-microsoft-teams-admin-center"></a>Habilitar ou desabilitar usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
@@ -72,11 +71,11 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 
 ### <a name="enable-or-disable-using-windows-powershell"></a>Habilitar ou desabilitar usando Windows PowerShell
 
-Consulte a [Microsoft Teams do PowerShell para](/powershell/module/teams/?view=teams-ps) obter mais informações.
+Consulte a [referência do PowerShell do Microsoft Teams](/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="reset-the-meeting-conference-id"></a>Redefinir a ID de conferência de reunião
 
-### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>Redefinir a ID da conferência de reunião usando o Microsoft Teams de administração
+### <a name="reset-the-meeting-conference-id-using-the-microsoft-teams-admin-center"></a>Redefinir a ID da conferência de reunião usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, clique **em Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -90,7 +89,7 @@ Consulte [Redefinir o ID de conferência de um usuário](reset-a-conference-id-f
 
 Cada reunião agendada por um usuário receberá uma ID de conferência exclusiva. Embora uma ID de conferência seja criada automaticamente e atribuída a um usuário, pode haver ocasiões em que um usuário não deseja usar essa ID e você deseja defini-la como um determinado número, ou seus usuários não se lembram ou perderam sua ID de conferência.
 
-### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>Redefinir o PIN de um organizador de conferência usando o Microsoft Teams de administração
+### <a name="reset-a-conference-organizers-pin-using-the-microsoft-teams-admin-center"></a>Redefinir o PIN de um organizador de conferência usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, clique **em Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -102,7 +101,7 @@ Consulte [Redefinir o PIN de Audioconferência](reset-the-audio-conferencing-pin
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com informações de Audioconferência para um usuário
 
-### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>Enviar um email usando o Microsoft Teams de administração
+### <a name="send-an-email-using-the-microsoft-teams-admin-center"></a>Enviar um email usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, clique **em Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -115,16 +114,16 @@ Veja [Enviar um email para um usuário com suas informações de conferência de
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Definir os números de telefone incluídos em convites
 
-### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Definir números de telefone de convite usando o Microsoft Teams de administração
+### <a name="set-invite-phone-numbers-using-the-microsoft-teams-admin-center"></a>Definir números de telefone de convite usando o centro de administração do Microsoft Teams
 
-Consulte [Definir os números de telefone incluídos nos convites Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
+Consulte Definir [os números de telefone incluídos em convites no Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
-> Você também pode definir números de telefone adicionando-os à *TeamsAudioconferencingpolicy* e atribuindo a política aos usuários. Os números de telefone de chamada tarifada e gratuita adicionados à política têm precedência sobre os números de telefone definidos individualmente para os usuários por meio do painel de configurações de audioconferência. Se nenhum número de telefone for adicionado à *Teamsaudioconferencingpolicy*, o número de telefone definido individualmente para os usuários por meio do painel de configurações de audioconferência será exibido em Microsoft Teams de reunião. [As configurações de política de audioconferência para números de chamada tarifada](audio-conferencing-toll-free-numbers-policy.md) e gratuita têm mais informações.
+> Você também pode definir números de telefone adicionando-os à *TeamsAudioconferencingpolicy* e atribuindo a política aos usuários. Os números de telefone de chamada tarifada e gratuita adicionados à política têm precedência sobre os números de telefone definidos individualmente para os usuários por meio do painel de configurações de audioconferência. Se nenhum número de telefone for adicionado à *Teamsaudioconferencingpolicy*, o número de telefone definido individualmente para os usuários por meio do painel de configurações de audioconferência será exibido nas solicitações de reunião do Microsoft Teams. [As configurações de política de audioconferência para números de chamada tarifada](audio-conferencing-toll-free-numbers-policy.md) e gratuita têm mais informações.
 
 ## <a name="choose-audio-conferencing-bridge-settings"></a>Escolher configurações de ponte de audioconferência
 
-### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Definir a experiência de reunião quando os chamadores ingressarem em uma reunião usando o Microsoft Teams de administração
+### <a name="set-the-meeting-experience-when-callers-join-a-meeting-using-the-microsoft-teams-admin-center"></a>Definir a experiência de reunião quando os chamadores ingressarem em uma reunião usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
@@ -173,7 +172,7 @@ Veja [Enviar um email para um usuário com suas informações de conferência de
 
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver e definir os idiomas primário (padrão) e secundário (alternativo) em uma ponte de audioconferência
 
-### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Ver idiomas primários e secundários usando o Microsoft Teams de administração
+### <a name="see-primary-and-secondary-languages-using-the-microsoft-teams-admin-center"></a>Ver idiomas primários e secundários usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
@@ -185,7 +184,7 @@ Veja [Enviar um email para um usuário com suas informações de conferência de
 
 Veja [Definir idiomas do atendedor automático para conferência de áudio](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
-## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Ver números de discagem de conferência de áudio usando o Microsoft Teams de administração
+## <a name="see-audio-conferencing-dial-in-numbers-using-the-microsoft-teams-admin-center"></a>Ver números de discagem de audioconferência usando o Centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
@@ -199,11 +198,11 @@ Veja [uma lista de números de Audioconferência](see-a-list-of-audio-conferenci
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a serem executadas. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com Windows PowerShell, você pode gerenciar o Microsoft 365 ou Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tem várias tarefas a serem executadas. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
-- [Por que você precisa usar Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Por que você precisa usar o Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Melhores maneiras de gerenciar Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Melhores maneiras de gerenciar o Microsoft 365 ou Office 365 com Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps) para obter mais informações.
 

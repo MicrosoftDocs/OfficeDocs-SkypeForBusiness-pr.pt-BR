@@ -1,5 +1,5 @@
 ---
-title: Telefone visão geral do roteamento direto do sistema
+title: Visão geral do roteamento direto do sistema de telefonia
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,47 +8,46 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: O roteamento direto hHw dá suporte ao bypass de mídia com um Controlador de Borda de Sessão habilitado para ICE Lite.
+description: O Roteamento Direto do hHw dá suporte ao bypass de mídia com um Controlador de Borda de Sessão habilitado para ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c32838d282d6f5fff5eb1e85c36d78eee8828d41
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234566"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267756"
 ---
-# <a name="overview"></a>Visão Geral
+# <a name="overview"></a>Visão geral
 
-Este artigo descreve como o Roteamento Direto dá suporte ao bypass de mídia com um Controlador de Borda de Sessão (SBC) habilitado para ICE Lite, conforme descrito em [RFC 5245](https://tools.ietf.org/html/rfc5245). Este artigo destina-se aos administradores de voz responsáveis por configurar a conexão entre o SBC local e o serviço proxy SIP.
+Este artigo descreve como o Roteamento Direto dá suporte ao bypass de mídia com um controlador de borda de sessão (SBC) habilitado para ICE Lite, conforme descrito no [RFC 5245](https://tools.ietf.org/html/rfc5245). Este artigo destina-se a administradores de voz responsáveis por configurar a conexão entre o SBC local e o serviço de proxy SIP.
 
 Este artigo fornece uma visão geral dos cenários e requisitos do ICE Lite para interoperabilidade. O artigo descreve os formatos de mensagem e as transições de máquina de estado necessárias para garantir o fluxo confiável de chamada e mídia.
 
 ## <a name="terminology"></a>Terminologia
 
-- Primeiro Hello – As primeiras palavras faladas pelo chamador e pelo chamador. É importante que todos os esforços sejam feitos para garantir que os primeiros pacotes dos pontos de extremidade sejam entregues de forma confiável para a maioria dos casos de uso.
+- Primeiro Olá – As primeiras palavras faladas pelo chamador e pelo chamador. É importante que todos os esforços sejam feitos para garantir que os primeiros pacotes dos pontos de extremidade sejam entregues de forma confiável para a maioria dos casos de uso.
 
-- Forking – A oferta do chamador pode ser entregue a vários pontos de extremidade do chamador se o chamador estiver disponível em vários dispositivos (por exemplo, um usuário do Teams pode ser conectado ao Teams para Windows e Teams para Android ou iPhone).
+- Escrita à tinta – A oferta do chamador poderá ser entregue a vários pontos de extremidade do computador chamado se o receptor estiver disponível em vários dispositivos (por exemplo, um usuário do Teams pode estar conectado ao Teams para Windows e Teams para Android ou iPhone).
 
-- Resposta Provisória (183) – Os pontos de extremidade do chamador para configuração de chamada mais rápida enviam uma resposta com os candidatos e as chaves necessárias para estabelecer o fluxo de mídia. Isso é feito em antecipação do usuário potencialmente respondendo a chamada(200OK) dessa instância de chamador específica. Com a forking, o chamador deve estar pronto para receber várias respostas provisórias.
+- Resposta Provisória (183) – Os pontos de extremidade do computador chamado para uma configuração de chamada mais rápida enviam uma resposta com os candidatos e as chaves necessárias para estabelecer o fluxo de mídia. Isso é feito antecipando o usuário potencialmente respondendo à chamada (200OK) dessa instância específica do computador chamado. Com a escrita à tinta, o chamador deve estar pronto para receber várias respostas provisórias.
 
-- Re-Invite – Oferta com os candidatos finais selecionados pelo ponto de extremidade de controle ICE. Isso terá o atributo a=remote-candidate para resolver qualquer condição de corrida de manipular vários bifurcações.
+- Re-Invite – Oferta com os candidatos finais selecionados pelo ponto de extremidade de controle ICE. Isso terá o atributo a=remote-candidate para resolver todas as condições de corrida do tratamento de várias bifurcações.
 
-- Teams Ponto de extremidade – Pode ser um servidor (Processador de Mídia, Retransmissão de Transporte) ou o Teams cliente.
+- Ponto de extremidade do Teams – pode ser um servidor (Processador de Mídia, Retransmissão de Transporte) ou o cliente do Teams.
 
-## <a name="message-format"></a>Formato de mensagem
+## <a name="message-format"></a>Formato da mensagem
 
-A Teams segue a RFC 5245 para ICE-Lite. Isso implica que todas as mensagens STUN estarão em conformidade com [o RFC 5389](https://tools.ietf.org/html/rfc5389).
+A infraestrutura do Teams segue o RFC 5245 para ICE-Lite. Isso implica que todas as mensagens do STUN estarão em conformidade com [o RFC 5389](https://tools.ietf.org/html/rfc5389).
 
-Os SBCs conforme exigido pela RFC 5389 devem ignorar todos os atributos do STUN que não reconhecem e continuar a processar as mensagens com os atributos conhecidos. 
+Os SBCs, conforme exigido pelo RFC 5389, devem ignorar todos os atributos do STUN que não reconhecem e continuar a processar as mensagens com os atributos conhecidos. 
 
-Se algum pacote malformado for recebido, os pacotes devem ser descartados sem afetar o estabelecimento da sessão de mídia.
+Se algum pacote malformado for recebido, os pacotes deverão ser descartados sem afetar o estabelecimento da sessão de mídia.
 
 ## <a name="ice-lite-requirements"></a>Requisitos do ICE Lite
 
@@ -56,24 +55,24 @@ Esta seção captura brevemente os requisitos do ICE Lite.
 
 ### <a name="candidate-gathering"></a>Reunião de candidatos
 
-O SBC deve oferecer apenas um candidato que seja publicamente acessível. Atualmente, apenas os candidatos IPV4 são suportados.
+O SBC deve oferecer apenas um candidato publicamente acessível. Atualmente, há suporte apenas para candidatos IPV4.
 
 
 #### <a name="connectivity-checks"></a>Verificações de conectividade
 
-A implementação do ICE Lite deve responder a todas as verificações de conectividade recebidas. O ponto de extremidade ICE Lite não deve enviar solicitações de verificação de conectividade. (Se as verificações de conectividade são enviadas em violação, a implementação completa responderá, o que pode resultar em candidatos inesperados derivados por pares sendo descobertos e potencialmente resultar em falhas de chamada.)
+A implementação do ICE Lite deve responder a todas as verificações de conectividade recebidas. O ponto de extremidade ICE Lite não deve enviar nenhuma solicitação de verificação de conectividade. (Se as verificações de conectividade forem enviadas em violação, a implementação completa responderá, o que pode fazer com que candidatos inesperados derivados de pares sejam descobertos e potencialmente resultem em falhas de chamada.)
 
-#### <a name="nominations"></a>Indicações
+#### <a name="nominations"></a>Nomeações
 
-O ponto de extremidade de implementação total do ICE sempre será o ponto de extremidade De controle e seguirá as indicações "Regulares" para selecionar os candidatos finais a serem usados para o fluxo de mídia. O ponto de extremidade ICE Lite pode usar as nomeações para concluir o caminho a ser usado para mídia e concluir o estabelecimento de chamada.
+O ponto de extremidade de implementação completo do ICE sempre será o ponto de extremidade de controle e seguirá as indicações "Regulares" para selecionar os candidatos finais a serem usados para o fluxo de mídia. O ponto de extremidade ICE Lite pode usar as indicações para concluir o caminho a ser usado para mídia e concluir o estabelecimento de chamadas.
 
-Observação: no caso de forcar com pontos de extremidade pares enviando 183 respostas provisórias, o SBC deve estar pronto para responder a verificações de vários pontos de extremidade e também a nomeações de vários pontos de extremidade se as nomeações acontecerem antes de 200OK. Dependendo da convergência da máquina de estado ICE no caminho final e no tempo da resposta do usuário, as nomeações podem acontecer antes ou depois de 200OK. O SBC deve ser capaz de lidar com ambos os casos.
+Observação: no caso de criação de tinta com pontos de extremidade pares enviando 183 respostas provisórias, o SBC deve estar pronto para responder a verificações de vários pontos de extremidade e também indicações de vários pontos de extremidade se as indicações ocorrerem antes de 200OK. Dependendo da convergência da máquina de estado ICE no caminho final e no tempo de resposta do usuário, as indicações podem ocorrer antes ou depois de 200OK. O SBC deve ser capaz de lidar com ambos os casos.
 
-#### <a name="converging-for-forking"></a>Convergindo para a forcar
+#### <a name="converging-for-forking"></a>Convergindo para escrita à tinta
 
-Se a oferta do SBC for bifurcada para vários pontos de extremidade Teams, os pontos de extremidade Teams podem responder com uma resposta provisória e iniciar verificações de conectividade. O SBC deve estar preparado para receber verificações de conectividade e responder a verificações de conectividade de vários pontos de extremidade pares. Por exemplo, o Teams usuário pode ser assinado em uma área de trabalho e em um telefone celular. Ambos os dispositivos serão notificados da chamada de entrada e tentarão verificações de conectividade com o SBC.
+Se a oferta do SBC for bifurcada para vários pontos de extremidade do Teams, os pontos de extremidade do Teams poderão responder com uma resposta provisória e iniciar as verificações de conectividade. O SBC deve estar preparado para receber verificações de conectividade e responder a verificações de conectividade de vários pontos de extremidade pares. Por exemplo, o usuário do Teams pode estar conectado a uma área de trabalho e a um telefone celular. Ambos os dispositivos serão notificados sobre a chamada de entrada e tentarão verificar a conectividade com o SBC.
 
-Eventualmente, apenas um dos pontos de extremidade atenderá à chamada (200OK). Ao receber o 200OK, o SBC pode configurar o contexto certo para processar os pacotes de mídia.
+Eventualmente, apenas um dos pontos de extremidade responderá à chamada (200OK). Ao receber o 200OK, o SBC pode configurar o contexto certo para processar os pacotes de mídia.
 
 ## <a name="scenarios"></a>Cenários
 
@@ -81,35 +80,35 @@ Eventualmente, apenas um dos pontos de extremidade atenderá à chamada (200OK).
 
 Para esse cenário, há vários pontos de extremidade de par possíveis que o SBC deve manipular:
 
-- Os pontos de extremidade do servidor normalmente responderão diretamente com o 200OK. Esses são pontos de extremidade ICE completos que normalmente estão envolvidos nos cenários caixa postal, fila de chamada e Atendedor Automático.
+- Os pontos de extremidade do servidor normalmente responderão diretamente com 200OK. Esses são pontos de extremidade ICE completos que normalmente estão envolvidos em cenários caixa postal, fila de chamadas e atendedor automático.
 
-- Os pontos de extremidade do cliente podem enviar várias respostas provisórias com diferentes marcas De/Para (183) seguidas por um 200OK do ponto de extremidade que atende à chamada. Esses são pontos de extremidade ICE completos geralmente representando clientes de usuário final.
+- Os pontos de extremidade do cliente podem enviar várias respostas provisórias com diferentes marcas De/Para (183) seguidas por um 200OK do ponto de extremidade que responde à chamada. Esses são pontos de extremidade ICE completos que normalmente representam clientes do usuário final.
 
-- Outros pontos de extremidade SBC. Esses são pontos de extremidade ICE Lite geralmente envolvidos no cenário de pontos de extremidade do cliente simultaneamente tocando e outro número de telefone.
+- Outros pontos de extremidade SBC. Esses são pontos de extremidade ICE Lite normalmente envolvidos no cenário de toque simultâneo de pontos de extremidade do cliente e outros números de telefone.
 
-O SBC deve responder a todas as solicitações de verificação de conectividade válidas recebidas dos pontos de extremidade ICE completos. Por RFC, os pontos de extremidade ICE completos se tornarão pontos de extremidade controlando. Os Teams de extremidade (cliente/servidor) executarão indicações "Regulares" para concluir verificações de conectividade. O final 200Ok pode ser de um ponto de extremidade que enviou mídia inicial ou de um ponto de extremidade diferente. Ao receber o 200Ok, o SBC deve configurar o contexto certo para o fluxo de mídia. 
+O SBC deve responder a todas as solicitações de verificação de conectividade válidas recebidas dos pontos de extremidade ICE completos. Por RFC, os pontos de extremidade ICE completos se tornarão pontos de extremidade de controle. Os pontos de extremidade do Teams (cliente/servidor) executarão indicações "Regulares" para concluir as verificações de conectividade. O final 200Ok pode ser de um ponto de extremidade que enviou mídia antecipada ou de um ponto de extremidade diferente. Ao receber o 200Ok, o SBC deve configurar o contexto certo para o fluxo de mídia. 
 
 ###  <a name="early-media"></a>Mídia inicial
 
-Se houver um fluxo de mídia inicial, o SBC deverá ser travado no primeiro ponto de extremidade que inicia a transmissão de mídia; O fluxo de mídia pode começar antes que os candidatos sejam nomeados. O SBC deve ter suporte para o envio de DTMF durante essa fase para habilitar cenários de IVR/caixa postal. O SBC deve usar o caminho de prioridade mais alta no qual recebeu verificações se as nomeações não foram concluídas.
+Se houver um fluxo de mídia inicial, o SBC deverá ser travado para o primeiro ponto de extremidade que inicia a mídia de streaming; O fluxo de mídia pode começar antes que os candidatos sejam nomeados. O SBC deve ter suporte para enviar DTMF durante essa fase para habilitar cenários de IVR/caixa postal. O SBC deve usar o caminho de prioridade mais alta no qual recebeu verificações se as indicações não foram concluídas.
 
 ### <a name="outbound-call-to-sbc"></a>Chamada de saída para SBC
 
-Os Teams de extremidade são o Chamador deste cenário e serão o Ponto de Extremidade de Controle. Ao receber uma resposta provisória (183) ou uma resposta final(200OK), o ponto de extremidade Teams iniciará verificações de conectividade e prosseguirá para nomeações "Regulares" para concluir as verificações de conectividade.
+Os pontos de extremidade do Teams são o Chamador para esse cenário e serão o Ponto de Extremidade de Controle. Ao receber uma resposta provisória (183) ou uma resposta final (200OK), o ponto de extremidade do Teams iniciará as verificações de conectividade e prosseguirá para indicações "Regulares" para concluir as verificações de conectividade.
 
-Observação: se o SBC enviar uma resposta provisória (183), o SBC deverá estar pronto para receber solicitações de verificação de conectividade e potencialmente concluir as nomeações antes que o 200OK seja enviado pelo SBC. Se as verificações e/ou indicações são concluídas antes que o 200OK seja recebido, as verificações e/ou nomeações não serão executadas novamente depois que 200OK for recebido. O SBC não deve alterar candidatos ICE, senha e ufrag (fragmento de nome de usuário) entre 183 e 200.
+Observação: se o SBC enviar uma resposta provisória (183), o SBC deverá estar pronto para receber solicitações de verificação de conectividade e potencialmente concluir as indicações antes que a 200OK seja enviada pelo SBC. Se as verificações e/ou indicações forem concluídas antes que o 200OK seja recebido, as verificações e/ou indicações não serão executadas novamente depois que 200OK for recebido. O SBC não deve alterar candidatos ICE, senha e log (fragmento de nome de usuário) entre 183 e 200.
 
-Para dar suporte à mídia inicial, o SBC pode começar a transmitir a mídia para o candidato ICE par, com a maior prioridade com base nas verificações de conectividade recebidas, mesmo antes que as nomeações sejam concluídas por Teams ponto de extremidade. O SBC deve esperar que a mídia Teams em qualquer candidato até que as nomeações sejam concluídas. Depois que um candidato é nomeado, o SBC deve redefinir para o contexto certo para enviar e receber pacotes de mídia.
+Para dar suporte à mídia inicial, o SBC pode começar a transmitir a mídia para o candidato ICE par, com a prioridade mais alta com base nas verificações de conectividade recebidas, mesmo antes que as indicações sejam concluídas pelo ponto de extremidade do Teams. O SBC deve esperar mídia do Teams em qualquer candidato até que as indicações sejam concluídas. Depois que um candidato é nomeado, o SBC deve redefinir para o contexto certo para enviar e receber pacotes de mídia.
 
-## <a name="srtp-support-requirements"></a>Requisitos de suporte SRTP
+## <a name="srtp-support-requirements"></a>Requisitos de suporte ao SRTP
 
-O SBC deve oferecer suporte à codificação de criptografia SRTP AES_CM_128_HMAC_SHA1_80 para oferta e resposta no seguinte formato:
+O SBC deve dar suporte à criptografia SRTP AES_CM_128_HMAC_SHA1_80 criptografia para oferta e resposta no seguinte formato:
 
 ```console
 "inline:" <key||salt> ["|" lifetime]
 ```
 
-Veja a seguir um exemplo do atributo crypto na oferta SDP do SBC:
+A seguir está um exemplo do atributo de criptografia na oferta SDP do SBC:
 
 ```console
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:V/Lr6Lsvhad/crSB9kCQ28jrYDxR2Yfk5bXryH5V|2^31
@@ -121,15 +120,15 @@ Para obter mais informações, [consulte RFC 4568, seção 6.1](https://tools.ie
 
 ## <a name="sdes-support-requirements"></a>Requisitos de suporte do SDES
 
-O dispositivo deve ser capaz de oferecer SDES no formato conforme descrito abaixo. Os processadores de mídia da Microsoft sempre preferem o SDES.
+O dispositivo deve ser capaz de oferecer SDES no formato, conforme descrito abaixo. Os Processadores de Mídia da Microsoft sempre preferem o SDES.
 
-- Com o bypass que não seja de mídia, mesmo que um cliente suporte apenas DTLS, os Processadores de Mídia serão convertidos em SDES.
+- Com bypass de não mídia, mesmo que um cliente dê suporte apenas a DTLS, os Processadores de Mídia serão convertidos em SDES.
 
-- Com o bypass de mídia, se um cliente for apenas DTLS (futuro estado do Google Chrome), o Roteamento Direto inserirá um MP no caminho, convertendo a chamada de bypass de mídia em bypass de não mídia. Entre o SBC e o componente do processador de mídia do Roteamento Direto, o SDES é sempre usado.
+- Com o bypass de mídia, se um cliente for apenas DTLS (futuro estado do Google Chrome), o Roteamento Direto inserirá um MP no caminho, convertendo a chamada de bypass de mídia em bypass de não mídia. Entre o componente SBC e o processador de mídia do Roteamento Direto, o SDES é sempre usado.
 
-Atualmente, não há nenhum cliente Teams que ofereça apenas DTLS; no entanto, o Google anuncia que, em algum momento, eles param de dar suporte ao SDES.
+Atualmente, não há nenhum cliente do Teams que ofereça apenas DTLS; No entanto, o Google anunciou que, em algum momento, eles deixarão de dar suporte ao SDES.
 
-## <a name="format-for-offer-from-sbc-in-bypass-mode"></a>Format for offer from SBC in bypass mode 
+## <a name="format-for-offer-from-sbc-in-bypass-mode"></a>Formato da oferta do SBC no modo de bypass 
 
 A oferta deve conter SDES e pode conter DTLS opcional no seguinte formato:
 
@@ -142,7 +141,7 @@ a=setup:actpass
 a=rtcp-mux
 ```
 
-### <a name="format-for-answer-containing-sdes-to-sbc"></a>Format for answer containing SDES to SBC
+### <a name="format-for-answer-containing-sdes-to-sbc"></a>Formato para resposta que contém SDES para SBC
 
 ```console
 m=audio 54056 RTP/SAVP 111 103 104 9 0 8 description 106 13 110 112 113 126
@@ -153,9 +152,9 @@ a=rtcp-mux
 
 ```
 
-## <a name="format-for-offer-from-teams-to-sbc"></a>Format for offer from Teams to SBC 
+## <a name="format-for-offer-from-teams-to-sbc"></a>Formato da oferta do Teams para o SBC 
 
-### <a name="format-for-sdes-only-offer-to-sbc"></a>Format for SDES only offer to SBC
+### <a name="format-for-sdes-only-offer-to-sbc"></a>Formato para oferta somente de SDES para SBC
 
 ```console
 m=audio 52884 RTP/SAVP 111 103 104 9 0 8 106 13 110 112 113 126

@@ -1,5 +1,5 @@
 ---
-title: Gráficos de Kaizala para Teams jornada
+title: Gráfico do seu percurso do Kaizala para o Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -7,32 +7,33 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Este artigo descreve como se preparar para uma mudança de Kaizala para Microsoft Teams.
+description: Este artigo descreve como se preparar para uma mudança do Kaizala para o Microsoft Teams.
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 913d8991678a4da384d9208378e359cec016f1b8
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635399"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271416"
 ---
-# <a name="charting-your-kaizala-to-teams-journey"></a>Gráficos de Kaizala para Teams jornada
+# <a name="charting-your-kaizala-to-teams-journey"></a>Gráfico do seu percurso do Kaizala para o Teams
 
-Você decidiu mudar de Kaizala para Microsoft Teams.
+Você decidiu mudar do Kaizala para o Microsoft Teams.
 
 Antes de começar, é importante responder a estas duas perguntas:
 
-- Quais grupos de usuários serão movidos para Teams?  
+- Quais grupos de usuários serão migrados para o Teams?  
 
-- Qual é o caminho para Teams?
+- Qual é o caminho para o Teams?
 
 ## <a name="identify-user-groups"></a>Identificar grupos de usuários
 
-*Quais grupos existem em sua organização? Who usar o Teams e como? Quais necessidades esses grupos exigirão para um trabalho em equipe eficaz?* Para começar sua jornada para Teams, primeiro **identifique os grupos de usuários para sua transição.**  Os grupos de usuários são um conjunto de funcionários em sua força de trabalho que conduzem trabalhos em áreas semelhantes da empresa. 
+*Quais grupos existem em sua organização? Quem usará o Teams e como? Quais necessidades esses grupos exigirão para um trabalho em equipe eficaz?* Para começar sua jornada para o Teams, primeiro **identifique os grupos de usuários para sua transição.**  Os grupos de usuários são um conjunto de funcionários em sua força de trabalho que conduzem trabalhos em áreas semelhantes da empresa. 
 
 Identificamos três grupos de usuários comuns para dar suporte a você na identificação de necessidades de colaboração. Cada grupo de usuários tem suas próprias necessidades exclusivas em termos de comunicação. 
 
@@ -70,37 +71,37 @@ Os usuários que se conectam com a força de trabalho da Linha de Frente precisa
 
 Os usuários que se conectam com usuários externos (fornecedores/fornecedores) podem usar:
 
-- [Microsoft Teams usuários podem conversar com qualquer Teams usuários que estão fora de sua organização](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
+- [Os usuários do Microsoft Teams podem conversar com qualquer usuário do Teams que estejam fora de sua organização](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [Adicionar ou convidar pessoas fora de sua Teams para um chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
+- [Adicionar ou convidar pessoas de fora da sua organização do Teams para um chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## <a name="determine-your-path"></a>Determinar seu caminho
 
-Depois de verificar as necessidades de colaboração de seus grupos de usuários, você poderá determinar como será seu caminho de Kaizala para Teams será. Cada organização é única e nenhuma jornada de força de trabalho será exatamente a mesma. As organizações que não usam Teams no momento precisarão tomar decisões estratégicas adicionais para garantir uma jornada de transição bem-sucedida. Determinar seu caminho ajudará você a identificar ações importantes que devem ser concluídas para uma transição bem-sucedida.
+Depois de verificar as necessidades de colaboração de seus grupos de usuários, você poderá determinar como será o caminho do Kaizala para o Teams. Cada organização é única e nenhuma jornada de força de trabalho será exatamente a mesma. No momento, as organizações que não usam o Teams precisarão tomar decisões estratégicas adicionais para garantir uma jornada de transição bem-sucedida. Determinar seu caminho ajudará você a identificar ações importantes que devem ser concluídas para uma transição bem-sucedida.
 
 Descrevemos o que o caminho pode consistir, dependendo do uso da sua organização hoje:  
 
-Para **organizações que não usam Teams**:
+Para **organizações que não usam o Teams**:
 
-![Caminho para organizações que não estão usando o Teams](media/kaizala-not-using-teams.png)
+![Caminho para organizações que não estão usando o Teams no momento](media/kaizala-not-using-teams.png)
 
  1. Prever o trabalho em equipe para sua organização
 
- 2. Piloto Teams
+ 2. Equipes piloto
   
- 3. Implantar Teams
+ 3. Implantar o Teams
   
- 4. Usar Kaizala e Teams
+ 4. Usar o Kaizala e o Teams
   
  5. Gerenciar alteração
 
- 6. Planeje sua adoção de Teams
+ 6. Planejar sua adoção do Teams
 
- 7. Mover sua organização para Teams
+ 7. Mover sua organização para o Teams
 
-Para **organizações que já usam Teams**:
+Para organizações **que já usam o Teams**:
 
-![Caminho para organizações que usam o Teams](media/kaizala-using-teams.png)
+![Caminho para organizações que usam o Teams no momento](media/kaizala-using-teams.png)
 
  1. Planejar sua transição
 
@@ -110,4 +111,4 @@ Para **organizações que já usam Teams**:
 
 <a name="ControlSyncThroughput"> </a>
 
-[Planejar uma transição bem-sucedida para Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)
+[Planejar uma transição bem-sucedida para o Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)

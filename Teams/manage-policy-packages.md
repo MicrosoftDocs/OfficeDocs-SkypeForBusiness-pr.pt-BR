@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de políticas no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 7ba8f21014f892d2170684a8a4cccdfce21cee91
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 10c7eaad9342d1c005c6290ebc957c3580db3962
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66572174"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270846"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gerenciar pacotes de política para o Microsoft Teams
 
@@ -33,7 +33,7 @@ Um pacote de política no Microsoft Teams é um conjunto de políticas e configu
 
 Você pode usar os pacotes [de política incluídos no Teams](#policy-packages-included-in-teams) [ou criar seus próprios pacotes de política personalizados](#custom-policy-packages).
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de tela da página Pacotes de política no centro de administração.":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de tela da página Pacotes de política no centro de administração." lightbox="media/policy-packages-admin-center.png":::
 
 Você pode personalizar as configurações das políticas em um pacote de política para atender às necessidades dos usuários. Quando você altera as configurações de políticas em um pacote, todos os usuários atribuídos a esse pacote obtêm as configurações atualizadas. Você gerencia pacotes de política usando o centro de administração do Microsoft Teams ou o PowerShell.
 
@@ -64,14 +64,14 @@ Atualmente, o Teams inclui os seguintes pacotes de política.
 |Educação (Professor)    |Cria um conjunto de políticas e configurações de política que se aplicam aos professores.      |
 |Educação (professor do ensino fundamental usando o aprendizado remoto)    |Cria um conjunto de políticas que se aplicam aos professores primários para maximizar a segurança e a colaboração dos alunos ao usar o aprendizado remoto.      |
 |Educação (aluno do ensino fundamental usando o aprendizado remoto)    |Cria um conjunto de políticas que se aplicam aos alunos do ensino fundamental para maximizar a segurança e a colaboração dos alunos ao usarem o aprendizado remoto.      |
-|Gerenciador de linha de frente |Cria um conjunto de políticas e aplica essas configurações aos gerentes de linha de frente em sua organização. |
+|Gerente de linha de frente |Cria um conjunto de políticas e aplica essas configurações aos gerentes de linha de frente em sua organização. |
 |Trabalhador de linha de frente |Cria um conjunto de políticas e aplica essas configurações aos trabalhadores do Frontline em sua organização. |
 |Profissional clínico da área de saúde  |Cria um conjunto de políticas e configurações de política que dão a funcionários da área de saúde, como enfermeiros registrados, enfermeiros chefe, médicos e assistentes sociais acesso total ao chat, chamadas, gerenciamento de turnos e reuniões. |
 |Profissional de informações da área de saúde  |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
-|Quartos dos pacientes de saúde  |Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
-|Usuário de pequenas e médias empresas (Sistema de Telefonia do Teams com pacote plano de chamada) |Cria uma política de configuração de aplicativo que inclui os aplicativos para um Sistema de Telefonia do Teams com experiência de pacote de Plano de Chamada.|
-|Usuário de pequenas e médias empresas (sem o sistema de telefonia do Teams com pacote plano de chamada) |Cria uma política de configuração de aplicativo relevante para usuários de pequenas e médias empresas do Teams (sistema de telefonia não Teams com experiência de pacote de Plano de Chamada).
+|Quartos dos pacientes de saúde  |Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde. |
 |Oficial de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam a agentes de segurança pública em sua organização.|
+|Usuário de pequenas e médias empresas (Business Voice) |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz comercial para os usuários.|
+|Usuário de pequenas e médias empresas (sem o Business Voice) |Cria uma política de configuração de aplicativo relevante para usuários de pequenas e médias empresas do Teams sem nenhum recurso de voz comercial.
 
 > [!NOTE]
 > Adicionaremos mais pacotes de política em versões futuras do Teams, portanto, verifique novamente as informações mais atualizadas.  
@@ -79,7 +79,7 @@ Atualmente, o Teams inclui os seguintes pacotes de política.
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas.
 Por exemplo, quando você atribui o pacote de políticas de Educação (Professor) aos professores em sua escola, uma política chamada Education_Teacher é criada para cada política no pacote.
 
-![Captura de tela do pacote de políticas de Educação (Professor).](media/policy-packages-education_teacher.png)
+:::image type="content" source="media/teams-policy-packages-education.png" alt-text="Captura de tela do pacote de políticas de Educação (Professor)." lightbox="media/teams-policy-packages-education.png":::
 
 ## <a name="custom-policy-packages"></a>Pacotes de política personalizados
 
@@ -89,11 +89,11 @@ Para criar um novo pacote de política personalizado:
 
 1. No painel esquerdo do centro de administração do Microsoft Teams, selecione **Pacotes** de política e clique em **Adicionar**.
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de tela do botão Adicionar na página Pacotes de política no centro de administração.":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Captura de tela do botão Adicionar na página Pacotes de política no centro de administração." lightbox="media/policy-packages-add.png":::
 
 2. Insira um nome e uma descrição para o pacote.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Captura de tela da adição de um novo pacote de política personalizado.":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Captura de tela da adição de um novo pacote de política personalizado." lightbox="media/policy-packages-add-custom.png":::
 
 3. Selecione os tipos de política e os nomes de política a serem incluídos no pacote.
 

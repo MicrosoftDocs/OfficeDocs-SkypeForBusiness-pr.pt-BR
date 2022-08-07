@@ -10,35 +10,35 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre como registrar Salas do Microsoft Teams contas no Salas do Microsoft Teams Premium gerenciado.
 f1keywords: ''
-ms.openlocfilehash: c64fcaf6e817eb57be2915f4f7b6d8684f2ae49b
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: f721406381e1eb99584563473196893bc21cf39b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635449"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270996"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Registrar um dispositivo no serviço Salas do Microsoft Teams Premium gerenciado
 
-Para registrar um Salas do Microsoft Teams no serviço gerenciado do Salas do Teams Premium, você precisa atribuir um ou mais usuários ao Administrador de Serviços Gerenciados e concluir as etapas de registro usando esse usuário.
+Para registrar um Salas do Microsoft Teams no serviço gerenciado Salas do Teams Premium, você precisa atribuir um ou mais usuários ao Administrador de Serviços Gerenciados e concluir as etapas de registro usando esse usuário.
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>Atribuir usuários à função administrador de serviços gerenciados
 
 Conclua as seguintes etapas para atribuir usuários à função de Administrador de Serviços Gerenciados:
 
-1. Faça logon [no portal Salas do Teams Premium com](https://portal.rooms.microsoft.com/) os mesmos privilégios de administrador usados para fazer logon no Centro de administração do Microsoft 365.
-2. Navegue **até Configurações** >  **Configurações** >  **Roles e** selecione **Administrador de Serviços Gerenciados**.
+1. Faça logon [no Salas do Teams Premium com](https://portal.rooms.microsoft.com/) os mesmos privilégios de administrador usados para fazer logon no Centro de administração do Microsoft 365.
+2. Navegue **até Funções de** > **Configurações e** >  selecione Administrador **de Serviços Gerenciados**.
 3. Em **Administrador de Serviços Gerenciados**, selecione a guia **Atribuições** e, em seguida, **selecione Adicionar**.
 4. Siga o assistente para nomear a atribuição e selecione os usuários que devem ser adicionados a ela. A atribuição será aplicada a todas as salas e grupos de salas.
 5. No final do assistente de atribuição, selecione **Adicionar atribuição**.
 
-Os usuários que recebem a função administrador de serviços gerenciados são responsáveis pelo gerenciamento e monitoramento diários do portal Salas do Teams Premium de serviços gerenciados.
+Os usuários que recebem a função de Administrador de Serviços Gerenciados são responsáveis pelo gerenciamento e monitoramento diários do portal de serviços gerenciados Salas do Teams Premium.
 
 Depois de ter atribuído usuários à função administrador de serviços gerenciados, continue para Registrar um dispositivo [Salas do Teams](enroll-a-device.md) para adicionar um dispositivo Salas do Teams ao portal de serviço gerenciado.
 

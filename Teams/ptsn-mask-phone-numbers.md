@@ -1,5 +1,5 @@
 ---
-title: Mascarar números de telefone em Microsoft Teams reuniões
+title: Mascarar números de telefone em reuniões do Microsoft Teams
 author: heidip
 ms.author: MicrosoftHeidi
 manager: serdars
@@ -10,38 +10,37 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como mascarar números de telefone em reuniões Microsoft Teams reuniões
-ms.openlocfilehash: a40f1a7144298c6106183eb45fe80a8958227b1a
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: Saiba como mascarar números de telefone em reuniões do Microsoft Teams
+ms.openlocfilehash: e1ef25f12bdf92bc58739284af2a624257169403
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055091"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270816"
 ---
-# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Mascarar números de telefone em Microsoft Teams reuniões
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Mascarar números de telefone em reuniões do Microsoft Teams
 
-Para privacidade adicional, os números de telefone dos participantes que discam em uma reunião Teams usando audioconferência são totalmente exibidos para os participantes internos. Os números são mascarados dos participantes de fora da sua organização. Essa configuração é o padrão para todas as organizações. O número mascarado é exibido conforme mostrado na imagem a seguir:
+Para maior privacidade, os números de telefone dos participantes que discam para uma reunião do Teams usando audioconferência são totalmente exibidos para os participantes internos. Os números são mascarados dos participantes de fora da sua organização. Essa configuração é o padrão para todas as organizações. O número mascarado é exibido conforme mostrado na imagem a seguir:
 
 ![um exemplo de um número de telefone mascarado.](media/hiddenPhoneNum.png)
 
-Para casos específicos de uso do setor, os administradores têm a capacidade de escolher como os números de telefone dos participantes da audioconferência aparecem em reuniões organizadas em seu locatário. Os administradores podem escolher entre três opções:
+Para casos de uso específicos do setor, os administradores têm a capacidade de escolher como os números de telefone dos participantes da audioconferência aparecem em reuniões organizadas em seu locatário. Os administradores podem escolher entre três opções:
 
-- Telefone números são mascarados somente de participantes externos. Os participantes que pertencem ao locatário do organizador da reunião ainda veem o número de telefone completo.
-- Telefone números são mascarados de todos na reunião, exceto o organizador.
-- Telefone números são não máscaras, o que os torna visíveis para todos na reunião.
+- Os números de telefone são mascarados somente de participantes externos. Os participantes que pertencem ao locatário do organizador da reunião ainda veem o número de telefone completo.
+- Os números de telefone são mascarados de todos na reunião, exceto o organizador.
+- Os números de telefone não são máscaras, o que os torna visíveis para todos na reunião.
 
 Essa configuração é aplicada a todas as superfícies na reunião em que os números de telefone são expostos.
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Usar o Microsoft PowerShell para definir o mascaramento de número de telefone
 
-Para alterar a configuração de mascaramento rede telefônica pública comutado (PSTN), defina o parâmetro do **`MaskPstnNumbersType`** cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) como uma das opções disponíveis.
+Para alterar a configuração de mascaramento PSTN (Rede Telefônica Pública Comutada), **`MaskPstnNumbersType`** defina o parâmetro do cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) como uma das opções disponíveis.
 
 Para mascarar números de telefone somente de participantes externos, execute o seguinte comando:
 

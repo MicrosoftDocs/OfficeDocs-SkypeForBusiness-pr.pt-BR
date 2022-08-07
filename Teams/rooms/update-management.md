@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: monitoramento proativo de suas salas de reunião.
 f1keywords: ''
-ms.openlocfilehash: 2311d17c5d60b7c9eb845570ce24c5f6db507717
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 97c812cca2b64979f224e9f7da63087899b9c7a9
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057061"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269116"
 ---
 # <a name="update-management"></a>Gerenciamento de atualizações 
 Uma sala de reunião moderna é equipado com um dispositivo Salas do Microsoft Teams e outros periféricos, como uma câmera, microfone ou alto-falante, e potencialmente mais dispositivos para criar uma experiência de reunião inclusiva e eficaz. Equipamentos de diferentes tipos de OEMs fornecem a experiência organizacional exata desejada; no entanto, eles devem ser mantidos com software e firmware continuamente.  
@@ -51,17 +51,17 @@ Há alguns pré-requisitos para receber atualizações de serviços gerenciados:
 
 |Software |Orientação |
 |:- |:- |
-|Logitech Sync Services  |Deve ser instalado e executado nos dispositivos da sala de reunião da Logitech. Os serviços de sincronização necessários serão instalados automaticamente Windows atualizações, a menos que sejam bloqueados. O pacote de sincronização completo também pode ser instalado. |
-|Windows do sistema operacional |Deve ser mantido habilitado e não redirecionado para o WSUS, nem bloqueado de uma perspectiva de rede. Nem as políticas de GPO nem de MDM devem ser usadas para gerenciar atualizações do sistema operacional. |
-|Microsoft Store atualizações   |Deve ser desativado. Os Serviços Gerenciados desativarão as atualizações da Store, se encontrados. |
-|Software antivírus |Se você estiver executando o software AV nesses dispositivos, verifique se a AV tem exclusões em vigor para Teams e Skype dlls. Consulte aqui para obter mais detalhes. |
+|Logitech Sync Services  |Deve ser instalado e executado nos dispositivos da sala de reunião da Logitech. Os serviços de sincronização necessários serão instalados automaticamente do Windows Atualizações a menos que sejam bloqueados. O pacote de sincronização completo também pode ser instalado. |
+|Atualizações do sistema operacional Windows |Deve ser mantido habilitado e não redirecionado para o WSUS, nem bloqueado de uma perspectiva de rede. Nem as políticas de GPO nem de MDM devem ser usadas para gerenciar atualizações do sistema operacional. |
+|Atualizações da Microsoft Store   |Deve ser desativado. Os Serviços Gerenciados desativarão as atualizações da Store, se encontrados. |
+|Software antivírus |Se você estiver executando o software AV nesses dispositivos, verifique se a AV tem exclusões em vigor para dlls do Teams e do Skype. Consulte aqui para obter mais detalhes. |
 |Software adicional |Softwares adicionais, como exibição de área de trabalho remota de terceiros, etc. devem ser revisados com os Serviços Gerenciados para não haver efeitos colaterais. |
 |Gerenciamento de Alterações Adicionais|Pode interferir nas atualizações cobertas e não deve ser introduzida. |
 
 ## <a name="managed-updates--how-it-works"></a>Atualizações gerenciadas – como ela funciona 
 Há duas maneiras principais de como as atualizações são gerenciadas:  
 
-- **Gerenciado automaticamente**: as atualizações são instaladas em seu dispositivo de sala com base na avaliação dos Serviços Gerenciados. Nenhuma intervenção é necessária para as atualizações gerenciadas em nosso portfólio.
+- **Gerenciado automaticamente**: Atualizações são instalados em seu dispositivo de sala com base na avaliação dos Serviços Gerenciados. Nenhuma intervenção é necessária para as atualizações gerenciadas em nosso portfólio.
 - **Anel validado**: configure um sistema de anéis para visualizar atualizações em dispositivos específicos para que você possa monitorá-las sem o trabalho de perna associado. A configuração de anel fornece uma camada adicional de auditoria devida antes de amplas implantações.  
 
 ### <a name="automatically-managed"></a>Gerenciado automaticamente
@@ -81,10 +81,10 @@ As atualizações gerenciadas são agendadas para salas com base no equipamento 
 
 - Para ajudar nossos clientes a atender aos requisitos de gerenciamento de alterações, atualize o início da implantação às **quartas-feiras** no anel de preparo. Se uma atualização crítica for necessária, ignoraremos esse agendamento e lançaremos a atualização assim que ela estiver disponível. 
 
-- As atualizações são sequenciadas com base na necessidade em uma sala específica. 
+- Atualizações são sequenciados com base na necessidade em uma sala específica. 
 - Se você tiver anéis de configuração para validar as atualizações, a atualização avançará por meio da ordem de anel. 
 - Uma nova atualização poderá substituir uma atualização que será enfileirada se determinarmos que a estabilidade da sala foi aprimorada com base em sua situação.  
-- As atualizações normalmente são aplicadas durante nossa janela de manutenção noturna – que é a hora local da sala **12:00 – 5:00** para evitar qualquer tipo de interrupção. 
+- Atualizações normalmente são aplicadas durante nossa janela de manutenção noturna – que é a hora local da sala **12:00 – 5:00** para evitar qualquer tipo de interrupção. 
 
 ## <a name="microsoft-teams-rooms-app-update-lifecycle-policy"></a>Salas do Microsoft Teams ciclo de vida de atualização do aplicativo 
 A política de suporte da equipe de engenharia do MTR afirma que todo o suporte termina após o ciclo de vida de doze (12) meses de uma versão tiver expirado ou se mais de duas atualizações tiverem sido lançadas desde então. Em seguida, os clientes devem atualizar para uma versão com suporte. Consulte o [suporte Salas do Microsoft Teams versão do aplicativo – Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) para uma descrição detalhada do serviço.
@@ -94,11 +94,11 @@ Para manter um padrão uniforme em todas as nossas salas gerenciadas e nos permi
 A política N-1 também se aplica a softwares de terceiros.  
 
 ## <a name="update-management-experience-walk-through"></a>Passo a passo da experiência de Gerenciamento de Atualizações  
-Para exibir atualizações, faça logon no portal de serviços gerenciados e navegue até a página Atualizações.
+Para exibir atualizações, faça logon no portal de serviços gerenciados e navegue até a página Atualizações dados.
 
 ![Captura de tela das atualizações de serviços gerenciados](../media/update-management-001.jpg)
 
-O painel Atualizações exibe uma visão geral de alto nível do gerenciamento de atualizações para suas salas com as seguintes guias:
+O Atualizações exibe uma visão geral de alto nível do gerenciamento de atualizações para suas salas com as seguintes guias:
 
 - **Atualizações**: atualizações de software ou firmware que os Serviços Gerenciados estão orquestrando por meio de sua organização.  
 - **Salas**: a guia Salas fornece uma exibição de salas e anéis aos quais cada sala pertence.
@@ -133,13 +133,13 @@ Para configurar a qual anel uma sala deve pertencer:
 1. Selecione o anel ao qual a sala deve pertencer.  
 1. Clique **em Atribuir**.  
 
-O modo de exibição de sala detalhado exibe as atualizações relevantes e seu status no **nó Atualizações** .  
+O modo de exibição de sala detalhado exibe as atualizações relevantes e seu **status no Atualizações** nó.  
 
 ![Captura de tela de atualizações e alterações relevantes](../media/update-management-003.jpg)
 
 ### <a name="rings"></a>Anéis  
 
-Anéis são usados para reduzir o risco de problemas derivados da implantação das atualizações de recursos. Isso é feito implantando gradualmente a atualização em todo o site. Cada anel deve ter uma lista de Microsoft Teams salas e um agendamento de distribuição correspondente. A definição de anéis geralmente é um evento único (ou pelo menos pouco frequente), mas a TI deve revisitar esses grupos de tempos em tempos para garantir que o sequenciamento ainda esteja correto.  
+Anéis são usados para reduzir o risco de problemas derivados da implantação das atualizações de recursos. Isso é feito implantando gradualmente a atualização em todo o site. Cada anel deve ter uma lista de salas da Sala do Microsoft Teams e um agendamento de distribuição correspondente. A definição de anéis geralmente é um evento único (ou pelo menos pouco frequente), mas a TI deve revisitar esses grupos de tempos em tempos para garantir que o sequenciamento ainda esteja correto.  
 
 A **guia Anéis** lista todos os anéis em seu locatário. Há três anéis pré-configurados:  
 
@@ -151,7 +151,7 @@ A **guia Anéis** lista todos os anéis em seu locatário. Há três anéis pré
 
 ### <a name="specifying-rollout-timeline"></a>Especificando a linha do tempo de distribuição
 
-As atualizações não podem exceder 60 dias para serem concluídas em todos os anéis.  
+Atualizações pode exceder 60 dias para ser concluído em todos os anéis.  
 
 |Parâmetro |Explicação |
 |:- |:- |
@@ -204,8 +204,8 @@ Mover salas de um anel para outro é possível de duas maneiras:
 
 **Ou**
 
-1. Abra os detalhes da sala que você deseja mover (por meio de Incidentes, Salas ou Atualizações -> Salas).
-1. Clique na **guia Atualizações** .  
+1. Abra os detalhes da sala que você deseja mover (seja por Incidentes, Salas ou Atualizações -> Salas).
+1. Clique na **Atualizações** guia.  
 1. Em **Anel Atribuído**, clique em **Alterar**.
 1. Na lista suspensa, selecione o novo anel.  
 1. Clique **em Atribuir**.

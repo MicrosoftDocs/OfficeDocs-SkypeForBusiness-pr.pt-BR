@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba se Audioconferência, Sistema de Telefonia, Planos de Chamadas, Créditos de Comunicação e números de chamada tarifada e gratuita estão disponíveis em um país ou região.
-ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682460"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269176"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 
@@ -205,6 +205,11 @@ A disponibilidade de números de telefone celular de alguns desses locais pode v
 Use a lista suspensa na parte superior da página para procurar um país ou região e quais serviços estão disponíveis.
 
 ### <a name="calling-plans"></a>Planos de Chamadas
+
+|Recurso     |Detalhes  |
+|----------|-----------|
+|Os Planos de Chamadas estão disponíveis para compra?  |Sim          |   
+|Minutos disponíveis para Planos de Chamadas.    |Há cinco opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas pago conforme o uso </li><li> Plano de Chamadas Domésticas de 120 minutos </li><li> Plano de Chamadas Domésticas de 240 minutos </li><li> Plano de Chamadas Domésticas de 1200 minutos </li><li> Plano de Chamadas Internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamada internacional (o que for atingido primeiro no mês calendário)</li></ul>|
 
 Além de um sistema de telefonia, os planos de chamada permitem que os usuários façam e recebam chamadas telefônicas. Primeiro, você obtém um número de telefone de usuário (assinante) (não um número de serviço) para atribuir ao usuário e, em seguida, atribui um Plano de Chamada. Há dois tipos de Planos de Chamadas disponíveis: **Doméstica e** **Internacional**. Confira [Sistema de Telefonia e Planos de Chamadas](../calling-plan-landing-page.md)para obter mais detalhes.
 

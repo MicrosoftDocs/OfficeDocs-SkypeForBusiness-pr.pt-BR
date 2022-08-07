@@ -15,12 +15,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre chats supervisionados para locatários não educacionais em reuniões do Microsoft Teams.
-ms.openlocfilehash: a06aa7b9ae24e29a70b3c1a4fc74fae134616b6b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564179"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270456"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisionados para locatários não educacionais
 

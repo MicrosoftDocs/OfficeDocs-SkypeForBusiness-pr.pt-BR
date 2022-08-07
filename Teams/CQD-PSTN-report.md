@@ -15,16 +15,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Use o relatório de Roteamento Direto PSTN do Painel de Qualidade de Chamadas do Microsoft Teams (CQD) para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
-ms.openlocfilehash: 8d6e971adc3cd7e4ec9b4038356e744d4451146f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7b7205658358cfa3aa90824718c03731fa33a534
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789886"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270706"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usando o relatório de Roteamento Direto PSTN do CQD
 
-Novidade em março de 2020, adicionamos um relatório de Roteamento Direto PSTN PSTN (Painel de Qualidade de Chamada) do Microsoft Teams aos nossos modelos de consulta do [Power BI para download para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+O relatório de Roteamento Direto PSTN do Painel de Qualidade de Chamadas do Microsoft Teams (CQD) está disponível em nossos modelos de consulta do [Power BI para download para CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
 
 O relatório de Roteamento Direto PSTN do CQD (CQD PSTN Direct Routing Report.pbit) ajuda você a entender os padrões de uso e a qualidade dos serviços PSTN. Use este relatório para monitorar o uso do serviço, as informações sobre o controlador de borda de sessão (SBC), o serviço de telefonia, os parâmetros de rede e os detalhes da Taxa de Eficácia de Rede. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo das chamadas descartadas. Por exemplo, você poderá ver quando o volume cai ou quantas chamadas são afetadas e por qual motivo.
