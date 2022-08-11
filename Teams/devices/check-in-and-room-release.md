@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: Este artigo fornece diretrizes sobre como habilitar check-in e dispositivos de painéis do Teams de versão de sala.
-ms.openlocfilehash: 5f411979c9fb121bb80c999b102332b0208efb81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268216"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298321"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Check-in e versão da sala nos painéis do Microsoft Teams
 
@@ -29,7 +29,9 @@ Quando o check-in e a versão da sala estão habilitados, os usuários fazem che
 
 ## <a name="requirements"></a>Requisitos 
 
-Esse recurso pode ser usado em uma implantação painel do Teams autônoma. Você também pode emparelhar painéis do Teams com o Salas do Teams no Android com a versão 1449/1.0.96.2022011305 ou posterior para obter funcionalidades adicionais, como notificações de check-in.  
+Esse recurso pode ser usado em uma implantação painel do Teams autônoma. Você também pode emparelhar painéis do Teams com o Salas do Teams no Android com a versão 1449/1.0.96.2022011305 ou posterior para obter funcionalidades adicionais, como notificações de check-in.
+
+A caixa de correio compartilhada associada ao painel do Teams precisa ter o fuso horário correto definido para que esse recurso funcione corretamente. Para obter informações sobre como definir o fuso horário para caixas de correio compartilhadas, consulte Configurações de fuso horário para caixas de correio [compartilhadas Outlook na Web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
 
 ## <a name="enable-check-in-and-room-release"></a>Habilitar check-in e liberação de sala 
 

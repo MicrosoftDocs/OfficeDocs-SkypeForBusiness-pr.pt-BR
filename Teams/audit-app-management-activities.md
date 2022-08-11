@@ -1,6 +1,6 @@
 ---
 title: Pesquisar os logs de auditoria para eventos de gerenciamento de aplicativos
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,13 +13,13 @@ f1keywords: ''
 description: Saiba como auditar as atividades do aplicativo Teams de usuários e administradores em sua organização.
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269716"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299250"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Auditoria para atividades e eventos de gerenciamento de aplicativos
 
@@ -69,7 +69,7 @@ Depois de pesquisar o sinal de auditoria no portal de conformidade, você pode e
 > [!NOTE]
 > Quando uma das atividades acima é executada por um usuário ou administrador, o Teams gera e armazena um registro de auditoria. Na Auditoria (Padrão), os registros são mantidos por 90 dias, o que significa que você pode pesquisar atividades que ocorreram nos últimos três meses.
 
-## <a name="see-also"></a>Confira também
+## <a name="related-articles"></a>Artigos relacionados
 
 * [Use logs de auditoria para investigar a atividade de instalação do Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [Pesquisar a entrada de auditoria no portal de conformidade](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
