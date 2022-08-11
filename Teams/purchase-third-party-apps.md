@@ -15,12 +15,12 @@ description: Saiba como comprar aplicativos de terceiros na loja do Teams usando
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 9da0b39582238f10fc3d76d7299afd0b004048fd
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270826"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299190"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para o Teams
 
@@ -34,8 +34,7 @@ Aqui, você também pode comprar licenças para serviços oferecidos por aplicat
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Comprar aplicativos no Centro de administração do Teams
 
-> [!IMPORTANT]
-> Ao habilitar a compra de aplicativos, isso também ativa a compra no aplicativo. Os usuários podem ver ofertas de compra no aplicativo que são controladas pelo ISV para seu aplicativo. Se você quiser impedir que os usuários adquiram um aplicativo, será necessário bloquear o aplicativo. Para obter mais informações sobre como bloquear um aplicativo, confira [Gerenciar políticas de aplicativo](app-policies.md) ou [saiba como bloquear um aplicativo no nível da organização](manage-apps.md#allow-and-block-apps).
+Para comprar aplicativos no Centro de administração do Teams, siga estas etapas: 
 
 1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.
 
@@ -47,7 +46,7 @@ Aqui, você também pode comprar licenças para serviços oferecidos por aplicat
 1. Quando você encontrar o aplicativo, selecione **Comprar** para ir para a guia **Planos e preços** da página de detalhes do aplicativo. Examine os planos e as informações de preços da oferta de SaaS para o aplicativo. Se precisar de mais informações, selecione **Saiba mais** para acessar a página do aplicativo no [AppSource](https://appsource.microsoft.com/).
 
    > [!NOTE]
-   > Os planos privados também podem ser listados para compra, que incluem preços especiais que sua organização negociou anteriormente com um ISV. Esses planos terão o rótulo **Plano privado** abaixo do nome do plano.
+   > Planos privados também podem ser listados para compra, que incluem preços especiais que sua organização pode negociar separadamente com um desenvolvedor de aplicativos. Esses planos têm o rótulo **Plano privado** sob o nome do plano.
 
 1. Para assinar um aplicativo, escolha o plano desejado e selecione **Comprar**. O fluxo de check-out é aberto diretamente no Centro de administração do Teams.
 
@@ -62,7 +61,7 @@ Aqui, você também pode comprar licenças para serviços oferecidos por aplicat
 
 1. Selecione **Fazer pedido**.
 
-1. Selecione **Configurar** para ativar sua assinatura no site do publicador. Se você não configurar sua assinatura após a compra, poderá fazer isso mais tarde selecionando **Gerenciar licenças**.
+1. Selecione **Configurar** para ativar sua assinatura no site do desenvolvedor do aplicativo. Se você não configurar sua assinatura após a compra, poderá fazer isso mais tarde selecionando **Gerenciar licenças**.
 
 Depois de comprar a oferta de SaaS associada ao aplicativo do Teams, você poderá exibir os seguintes detalhes de compra na guia **Planos e preços** da página de detalhes do aplicativo.
 
@@ -76,7 +75,10 @@ Para exibir e gerenciar as licenças adquiridas, selecione **Gerenciar licenças
 Os administradores globais podem adicionar mais licenças, remover licenças e cancelar assinaturas para compras feitas por qualquer pessoa na organização. Os administradores de serviços do Teams podem executar as mesmas ações para compras feitas por si mesmos. No entanto, se um administrador de serviços do Teams também tiver a função de administrador de cobrança, ele poderá gerenciar compras feitas por qualquer pessoa na organização.
 
 > [!NOTE]
-> Se um administrador global quiser gerenciar uma assinatura adquirida por outro administrador global, ele precisará estar na mesma conta de cobrança. Você pode dar a outro administrador global acesso a uma assinatura adquirida selecionando o aplicativo no [Centro de administração do Microsoft 365](https://admin.microsoft.com). A partir daí, acesse **Exibir perfil de cobrança** > **Selecionar conta de cobrança** > **Atribuir funções** > **Adicionar outros administradores globais**.
+> Se um administrador global quiser gerenciar uma assinatura adquirida por outro administrador global, ele precisará estar na mesma conta de cobrança. Você pode dar a outro administrador global acesso a uma assinatura adquirida selecionando o aplicativo no [Centro de administração do Microsoft 365](https://admin.microsoft.com). No centro de administração, acesse **Exibir perfil de cobrança** > **Selecionar conta de cobrança** > **Atribuir funções** > **Adicionar outros Administradores globais**.
+
+> [!IMPORTANT]
+> Quando você habilita a compra de aplicativos, também ativa a compra no aplicativo. Os usuários podem ver ofertas de compra no aplicativo que são controladas pelo desenvolvedor do aplicativo para seus aplicativos. Para impedir que os usuários comprem um aplicativo, é necessário bloquear o aplicativo.
 
 ### <a name="invoice-billing"></a>Cobrança de fatura
 
