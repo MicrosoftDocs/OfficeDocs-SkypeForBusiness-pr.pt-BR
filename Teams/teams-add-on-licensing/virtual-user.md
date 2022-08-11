@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre como atribuir licenças gratuitas da Conta de Recurso de Telefone do Teams ou licenças Telefonia do Teams Padrão usuário pagas a contas de recursos em sua organização.
-ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615397"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298291"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>licenças Telefonia do Microsoft Teams conta de recurso do Telefonia do Microsoft Teams
 
@@ -34,7 +34,7 @@ As organizações com Telefonia do Teams Padrão ou Telefone do Teams com usuár
 Todos os atendedores automáticos e filas de chamadas exigem uma conta de recurso associada. As contas de recurso que exigem um número de telefone  precisam de uma licença de conta de recurso Telefonia do Microsoft Teams gratuita  ou uma licença de usuário Telefonia do Teams Padrão paga antes que um número de telefone possa ser aplicado à conta de recurso.
 
 > [!TIP]
-> Nenhuma licença é necessária para contas de recursos que serão usadas com atendedores automáticos aninhados ou filas de chamadas que não têm um número de telefone atribuído. Consulte o diagrama a seguir para referência.
+> Nenhuma licença é necessária para contas de recursos que serão usadas com atendedores automáticos aninhados ou filas de chamadas que não têm um número de telefone atribuído.
 
 ## <a name="resource-account-license-allocation"></a>Alocação de licença da Conta de Recurso
 

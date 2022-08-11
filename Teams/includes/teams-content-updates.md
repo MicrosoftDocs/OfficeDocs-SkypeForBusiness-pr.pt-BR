@@ -3,6 +3,105 @@
 
 
 
+## <a name="week-of-august-01-2022"></a>Semana de 01 de agosto de 2022
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 8/1/2022 | [Adobe Acrobat como visualizador de PDF padrão no Teams](/MicrosoftTeams/adobe-acrobat-pdf-viewer-teams) | modificado |
+| 8/1/2022 | [Atribuir políticas a usuários e grupos](/MicrosoftTeams/assign-policies-users-and-groups) | modificado |
+| 8/1/2022 | [Planos de chamada do Microsoft Teams](/MicrosoftTeams/calling-plan-landing-page) | modificado |
+| 8/1/2022 | [Planos de chamadas para o Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modificado |
+| 8/1/2022 | [Conheça os aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
+| 8/1/2022 | [Obter números de telefone para seus usuários](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modificado |
+| 8/1/2022 | [Configurar Planos de Chamadas](/MicrosoftTeams/set-up-calling-plans) | modificado |
+| 8/1/2022 | [Configurar Créditos de comunicação da sua organização](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado |
+| 8/1/2022 | [Relatório de uso de aplicativos do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | modificado |
+| 8/1/2022 | [O que são Créditos de Comunicação?](/MicrosoftTeams/what-are-communications-credits) | modificado |
+| 8/1/2022 | [Noções básicas sobre as recomendações de progresso de leitura](/MicrosoftTeams/insights-for-reading-progress) | adicionado |
+| 8/1/2022 | [Novidades – Conexão do operador](/MicrosoftTeams/operator-connect-whats-new) | adicionado |
+| 8/2/2022 | [Notas sobre a versão Salas do Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 8/3/2022 | [Adicionar, alterar, remover locais de emergência](/MicrosoftTeams/add-change-remove-emergency-location-organization) | modificado |
+| 8/3/2022 | [Adicionar, alterar, remover locais para locais de emergência](/MicrosoftTeams/add-change-remove-emergency-place-organization) | modificado |
+| 8/3/2022 | [Suporte a aplicativos do Microsoft Teams/lob (linha de negócios) em painéis do Teams](/MicrosoftTeams/app-support-on-teams-panels) | modificado |
+| 8/3/2022 | [Conferência na rede para audioconferência](/MicrosoftTeams/audio-conferencing-on-network) | modificado |
+| 8/3/2022 | [Painel de Qualidade da Chamada](/MicrosoftTeams/business-voice/analytics-dashboard) | modificado |
+| 8/3/2022 | [Qual é a diferença entre o Business Voice e o Enterprise Voice?](/MicrosoftTeams/business-voice/business-enterprise-comparison) | modificado |
+| 8/3/2022 | [Criar usuários do Microsoft 365, adicionar o Telefone do Teams com licenças de pacote do Plano de Chamadas e atribuir números de telefone](/MicrosoftTeams/business-voice/create-users) | modificado |
+| 8/3/2022 | [Personalizar Telefonia do Microsoft Teams sistema com plano de chamada no Microsoft Teams](/MicrosoftTeams/business-voice/customize-business-voice) | modificado |
+| 8/3/2022 | [Verificar sua conexão com a Internet para o Sistema de Telefonia do Teams](/MicrosoftTeams/business-voice/get-ready-internet) | modificado |
+| 8/3/2022 | [Gerenciar dispositivos](/MicrosoftTeams/business-voice/manage-devices) | modificado |
+| 8/3/2022 | [Monitorar a qualidade da chamada](/MicrosoftTeams/business-voice/monitor-quality) | modificado |
+| 8/3/2022 | [Gerenciar pacotes de política](/MicrosoftTeams/business-voice/policy-packages) | modificado |
+| 8/3/2022 | [Portar números de telefone para o Sistema de Telefonia do Teams com Plano de Chamadas](/MicrosoftTeams/business-voice/port-phone-numbers) | modificado |
+| 8/3/2022 | [Obtenha ajuda de um revendedor ou parceiro da Microsoft](/MicrosoftTeams/business-voice/reseller-partner-support) | modificado |
+| 8/3/2022 | [Atribuir números de telefone do Sistema de Telefonia do Teams aos seus usuários](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modificado |
+| 8/3/2022 | [Configurar um sistema Telefonia do Microsoft Teams com locais de emergência do Plano de Chamada](/MicrosoftTeams/business-voice/set-up-emergency-locations) | modificado |
+| 8/3/2022 | [Sistema de Telefonia do Teams concluído com a configuração do Plano de Chamada](/MicrosoftTeams/business-voice/set-up-finish) | modificado |
+| 8/3/2022 | [Atribuir Telefonia do Microsoft Teams com plano de chamadas de pacote](/MicrosoftTeams/business-voice/set-up-licenses) | modificado |
+| 8/3/2022 | [Configurar o Telefonia do Microsoft Teams com o Plano de Chamadas para pequenas e médias empresas](/MicrosoftTeams/business-voice/set-up-overview) | modificado |
+| 8/3/2022 | [Configurar um sistema Telefonia do Microsoft Teams com números de telefone do Plano de Chamadas](/MicrosoftTeams/business-voice/set-up-phone-numbers) | modificado |
+| 8/3/2022 | [Configurar políticas](/MicrosoftTeams/business-voice/set-up-policies). | modificado |
+| 8/3/2022 | [Configurar uma conta de recurso Telefonia do Microsoft Teams sistema](/MicrosoftTeams/business-voice/set-up-resource-account) | modificado |
+| 8/3/2022 | [Coisas para tentar depois de configurar o Business Voice](/MicrosoftTeams/business-voice/things-to-try) | modificado |
+| 8/3/2022 | [Administração permissões necessárias para comprar Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | modificado |
+| 8/3/2022 | [Diretrizes do Sistema de Telefonia do Teams para pequenas e médias empresas](/MicrosoftTeams/business-voice/whats-business-voice) | modificado |
+| 8/3/2022 | [Criar um atendedor automático por meio de cmdlets](/MicrosoftTeams/create-a-phone-system-auto-attendant-via-cmdlets) | modificado |
+| 8/3/2022 | [Dispositivos do Teams para Educação](/MicrosoftTeams/devices-for-education) | modificado |
+| 8/3/2022 | [Práticas recomendadas de autenticação para o gerenciamento de dispositivo compartilhado do Microsoft Teams de dispositivos Android.](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | modificado |
+| 8/3/2022 | [Provisionamento remoto e entrada para dispositivos Android do Teams](/MicrosoftTeams/devices/remote-provision-remote-login) | modificado |
+| 8/3/2022 | [Entrar e sair remotamente para dispositivos Android do Teams](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | modificado |
+| 8/3/2022 | [Telefones e dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modificado |
+| 8/3/2022 | [Gerenciar notificações de chamada para Roteamento Direto](/MicrosoftTeams/direct-routing-call-notifications) | modificado |
+| 8/3/2022 | [Roteamento Direto](/MicrosoftTeams/direct-routing-landing-page) | modificado |
+| 8/3/2022 | [Visão geral do roteamento direto do sistema de telefonia](/MicrosoftTeams/direct-routing-protocols-media) | modificado |
+| 8/3/2022 | [Roteamento Direto do Sistema Telefônico](/MicrosoftTeams/direct-routing-protocols-sip) | modificado |
+| 8/3/2022 | [Roteamento direto do sistema de telefonia do Teams: definições e padrões RFC](/MicrosoftTeams/direct-routing-protocols) | modificado |
+| 8/3/2022 | [SBA de Roteamento Direto](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | modificado |
+| 8/3/2022 | [Novidades do Roteamento Direto](/MicrosoftTeams/direct-routing-whats-new) | modificado |
+| 8/3/2022 | [Impulsionar a adoção do Kaizala para o Microsoft Teams para trabalhadores da linha de frente](/MicrosoftTeams/drive-adoption-optimize-kaizala) | modificado |
+| 8/3/2022 | [Endereços de emergência para locais remotos](/MicrosoftTeams/emergency-calling-dispatchable-location) | modificado |
+| 8/3/2022 | [Usar modelos de equipe de cuidados de saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | modificado |
+| 8/3/2022 | [Kaizala e Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | modificado |
+| 8/3/2022 | [Migrar do Slack para o Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modificado |
+| 8/3/2022 | [Navegar pelo Microsoft Teams](/MicrosoftTeams/navigate-teams) | modificado |
+| 8/3/2022 | [O que é um pedido de portabilidade?](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | modificado |
+| 8/3/2022 | [Qual é o status dos seus pedidos de portabilidade?](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | modificado |
+| 8/3/2022 | [Centros de taxa com suporte e cobertura para Planos de Chamadas](/MicrosoftTeams/phone-number-calling-plans/supported-rate-centers-coverage-matrix) | modificado |
+| 8/3/2022 | [Planejar uma mudança bem-sucedida do Kaizala para o Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala) | modificado |
+| 8/3/2022 | [Políticas do Microsoft Teams e pacotes de políticas para administradores EDU](/MicrosoftTeams/policy-packages-edu) | modificado |
+| 8/3/2022 | [Gráfico do seu percurso do Kaizala para o Teams](/MicrosoftTeams/prepare-for-teams-kaizala) | modificado |
+| 8/3/2022 | [Canais privados no Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
+| 8/3/2022 | [Mascarar números de telefone em reuniões do Microsoft Teams](/MicrosoftTeams/ptsn-mask-phone-numbers) | modificado |
+| 8/3/2022 | [Levantar a mão em reuniões do Teams](/MicrosoftTeams/raise-hand-meetings) | modificado |
+| 8/3/2022 | [Registrar um dispositivo de Sala do Teams nos Serviços Gerenciados](/MicrosoftTeams/rooms/enroll-a-device) | modificado |
+| 8/3/2022 | [Salas do Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
+| 8/3/2022 | [Autenticação no Salas do Microsoft Teams](/MicrosoftTeams/rooms/rooms-authentication) | modificado |
+| 8/3/2022 | [Planejar as Salas do Microsoft Teams](/MicrosoftTeams/rooms/rooms-plan) | modificado |
+| 8/3/2022 | [Dispositivos do Teams para comparação de recursos de Espaços Compartilhados entre Windows e Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | modificado |
+| 8/3/2022 | [Canais compartilhados no Microsoft Teams](/MicrosoftTeams/shared-channels) | modificado |
+| 8/3/2022 | [Gerenciar Skype for Business configurações no centro de administração do Microsoft Teams](/MicrosoftTeams/skype-for-business-settings) | modificado |
+| 8/3/2022 | [Usar chats supervisionados](/MicrosoftTeams/supervise-chats-edu) | modificado |
+| 8/3/2022 | [Usar chats supervisionados para locatários não educacionais](/MicrosoftTeams/supervised-chat-non-edu) | modificado |
+| 8/3/2022 | [Relatório de usuários bloqueados do PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-blocked-users-report) | modificado |
+| 8/3/2022 | [Relatório de pools de minutos PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | modificado |
+| 8/3/2022 | [Relatório de uso de PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
+| 8/3/2022 | [Exibir análise no Teams](/MicrosoftTeams/teams-analytics-and-reports/view-analytics) | modificado |
+| 8/3/2022 | [Diretrizes de sala de reunião para o Teams](/MicrosoftTeams/teams-meeting-room-guidance) | modificado |
+| 8/3/2022 | [Reuniões do Microsoft Teams em navegadores sem suporte](/MicrosoftTeams/unsupported-browsers) | modificado |
+| 8/3/2022 | [Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+| 8/3/2022 | [Definir configurações de chamada para usuários](/MicrosoftTeams/user-call-settings) | modificado |
+| 8/3/2022 | [Visão geral dos componentes do Loop no Teams](/MicrosoftTeams/loop-components-in-teams) | modificado |
+| 8/4/2022 | [Atribuir pacotes de políticas a usuários e grupos](/MicrosoftTeams/assign-policy-packages) | modificado |
+| 8/4/2022 | [Gerenciar pacotes de política no Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 8/4/2022 | [Guia do administrador de IT para o Reflect no Microsoft Teams](/MicrosoftTeams/reflect) | modificado |
+| 8/4/2022 | [Usar o Power BI para analisar dados do CQD para o Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modificado |
+| 8/4/2022 | [Gerenciar o Microsoft 365 e conectores personalizados](/MicrosoftTeams/office-365-custom-connectors) | modificado |
+| 8/4/2022 | [Extensão de aplicativo móvel](/MicrosoftTeams/rooms/extended-mobile-app) | modificado |
+| 8/5/2022 | [Gerenciar marcas no Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
+| 8/5/2022 | [Planejar o Gateway SIP](/MicrosoftTeams/sip-gateway-plan) | modificado |
+
+
 ## <a name="week-of-july-25-2022"></a>Semana de 25 de julho de 2022
 
 
@@ -43,9 +142,9 @@
 | 7/20/2022 | [Configurar Conexão do Operador](/MicrosoftTeams/operator-connect-configure) | modificado |
 | 7/21/2022 | [Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação](/MicrosoftTeams/class-insights) | modificado |
 | 7/21/2022 | [Experiência de atualização de aplicativos no Microsoft Teams](/MicrosoftTeams/apps-update-experience) | modificado |
-| 7/21/2022 | [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
+| 7/21/2022 | [Gerenciar seus aplicativos no Centro de Administração do Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
 | 7/21/2022 | [Usar a API de Envio de Aplicativo do Teams para enviar e aprovar seus aplicativos personalizados](/MicrosoftTeams/submit-approve-custom-apps) | modificado |
-| 7/21/2022 | [Carregar seus aplicativos personalizados no centro de administração do Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modificado |
+| 7/21/2022 | [Carregue seus aplicativos personalizados no Centro de Administração do Microsoft Teams](/MicrosoftTeams/upload-custom-apps) | modificado |
 
 
 ## <a name="week-of-july-11-2022"></a>Semana de 11 de julho de 2022
@@ -115,19 +214,3 @@
 | 7/7/2022 | Entender as chamadas no Microsoft Teams | removido |
 | 7/7/2022 | [Planos de chamadas para o Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | modificado |
 | 7/8/2022 | [Compromissos virtuais com o Microsoft Teams e o aplicativo Bookings](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | modificado |
-
-
-## <a name="week-of-june-27-2022"></a>Semana de 27 de junho de 2022
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 6/27/2022 | [Gerenciar Caixa postal na Nuvem configurações](/MicrosoftTeams/manage-voicemail-settings) | adicionado |
-| 6/27/2022 | [Entre em contato com a equipe de Serviços de Número de Telefone](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modificado |
-| 6/27/2022 | [Gerenciar Políticas de Caixa Postal](/MicrosoftTeams/manage-voicemail-policies) | modificado |
-| 6/27/2022 | [Salas do Microsoft Teams incidentes relatados pelo cliente](/MicrosoftTeams/rooms/customer-reported-incidents) | modificado |
-| 6/27/2022 | [Configurar a Caixa postal na nuvem](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
-| 6/27/2022 | [Gerenciar Q&A em reuniões do Teams](/MicrosoftTeams/manage-qna-for-teams) | adicionado |
-| 6/27/2022 | [Gerenciar políticas de reunião para participantes e convidados](/MicrosoftTeams/meeting-policies-participants-and-guests) | modificado |
-| 6/28/2022 | [Configurar o Controlador de Borda de Sessão – Vários locatários](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modificado |
-| 6/29/2022 | [Gerenciar remotamente Salas do Microsoft Teams configurações do dispositivo](/MicrosoftTeams/rooms/xml-config-file) | modificado |

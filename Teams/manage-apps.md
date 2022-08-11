@@ -18,12 +18,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bda9146bf2f5fd8a4b321be498e50e39be8f5965
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271836"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298860"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no Centro de administração do Microsoft Teams
 
@@ -42,7 +42,7 @@ Durante a criação de um aplicativo, os desenvolvedores criam e adicionam uma I
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>Casos de uso do gerenciamento de aplicativos e as interfaces disponíveis
 
-As opções para realizar a maioria dos casos de uso do gerenciamento de aplicativos estão disponíveis no Centro de administração do Teams. Além disso, algumas opções estão disponíveis em outros portais ou páginas diferentes do centro de administração no mesmo portal.
+As opções para realizar a maioria dos casos de uso do gerenciamento de aplicativos estão disponíveis no Centro de administração do Teams. Além disso, algumas opções estão disponíveis em outros portais ou páginas diferentes no centro de administração do Teams.
 
 | Casos de uso do gerenciamento de aplicativos | Vincular à interface | Documentação |
 |:----|:----|:----|
@@ -55,7 +55,7 @@ As opções para realizar a maioria dos casos de uso do gerenciamento de aplicat
 | O relatório de uso do aplicativo do Teams fornece informações sobre aplicativos em uso, usuários ativos e outras informações de uso do aplicativo. | [Relatórios de uso](https://admin.teams.microsoft.com/analytics/reports) | [Relatório de uso do Teams](teams-analytics-and-reports/app-usage-report.md) |
 | Os usuários podem adicionar aplicativos quando hospedam reuniões ou chats com convidados. Eles também podem usar aplicativos compartilhados por convidados quando ingressam em reuniões ou chats hospedados externamente. As políticas de dados da organização do usuário de hospedagem e as práticas de compartilhamento de dados de qualquer aplicativo de terceiros compartilhado pela organização desse usuário, serão aplicadas. | [Acesso externo](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [Comportamento do aplicativo, dependendo dos tipos de usuários](non-standard-users.md) |
 | Com o acesso de convidados, você pode fornecer acesso a aplicativos e outras funcionalidades do Teams para pessoas de fora da sua organização, mantendo o controle sobre seus dados corporativos. | [Acesso de convidados](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Acesso de convidados ao Teams](guest-access.md) |
-| As políticas de atualização são usadas para gerenciar o Microsoft Teams e os usuários de pré-visualização do Office que verão recursos de pré-lançamento ou pré-visualização no aplicativo Microsoft Teams.  | [Políticas de atualização do Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Visualização pública do Teams](public-preview-doc-updates.md) |
+| As políticas de atualização são usadas para gerenciar usuários de pré-visualização do Teams e do Office, que verão recursos de pré-lançamento ou pré-visualização no aplicativo Teams. | [Políticas de atualização do Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Visualização pública do Teams](public-preview-doc-updates.md) |
 | **Centro de administração externo do Teams** | | |
 | Gerenciar licenças e assinaturas de aplicativos de terceiros no Microsoft 365 de administração | [Centro de administração do Microsoft 365](https://admin.microsoft.com/#/licenses) | [Gerenciar assinaturas de aplicativos de terceiros](/microsoft-365/commerce/manage-saas-apps) |
 | Auditar eventos de aplicativo do Teams no portal de conformidade do Microsoft Purview. | [Auditoria](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Atividades do Teams](audit-app-management-activities.md) |
@@ -67,7 +67,7 @@ As opções para realizar a maioria dos casos de uso do gerenciamento de aplicat
 
 ## <a name="allow-and-block-apps"></a>Permitir e bloquear aplicativos
 
-A página Gerenciar aplicativos é onde você gerencia aplicativos individuais no nível da organização. A página exibe os aplicativos disponíveis e o status atual do aplicativo no nível da organização. A lista de aplicativos inclui aplicativos fornecidos pela Microsoft, por desenvolvedores de terceiros e por desenvolvedores em sua organização.
+A página Gerenciar aplicativos é onde você gerencia aplicativos individuais no nível da organização. A página exibe os aplicativos disponíveis e o status atual do aplicativo no nível da organização. A lista de aplicativos inclui os aplicativos fornecidos pela Microsoft, por desenvolvedores terceirizados e por desenvolvedores dentro de sua organização.
 
 Para permitir ou bloquear um aplicativo:
 
@@ -80,27 +80,27 @@ Quando você permite (ou bloqueia) um aplicativo na página [Gerenciar aplicativ
 
 Um usuário pode instalar e usar um aplicativo somente quando o aplicativo é permitido por meio da configuração de todo o locatário e permitido para o usuário por meio da política de permissão.
 
-## <a name="manage-user-requests-to-unblock-apps"></a>Gerenciar solicitações de usuário para desbloquear aplicativos
+## <a name="manage-user-requests-to-allow-apps"></a>Gerenciar solicitações de usuários para permitir aplicativos
 
-Você pode exibir solicitações para disponibilizar um aplicativo bloqueado para uso. A solicitação é enviada ao administrador de TI, que pode exibir e gerenciar solicitações de usuário no centro de administração do Teams.
+Os usuários finais podem exibir, mas não usar, os aplicativos bloqueados na Teams Store. Para os aplicativos bloqueados, uma opção está disponível para solicitar a aprovação do administrador. Essas solicitações são agrupadas no centro de administração do Teams e os administradores podem exibir e gerenciar as solicitações quando quiserem. É altamente recomendável fazer uma triagem regular para verificar as solicitações do usuário final.
 
-  :::image type="content" source="media/user-request.png" alt-text="Fazer uma solicitação de aprovação de aplicativos bloqueados":::
+  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Solicite que um administrador aprove um aplicativo bloqueado selecionando a opção de aprovação de solicitação na Teams Store.":::
 
 ### <a name="view-a-request"></a>Exibir uma solicitação
 
- 1. Entre no centro de administração do Teams e selecione [Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)
+ 1. Entre no centro de administração do Teams e selecione **Aplicativos do Teams** > **[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
     :::image type="content" source="media/requested-apps1.png" alt-text="As solicitações do usuário final para aplicativos bloqueados são exibidas no Centro de administração do Teams na coluna intitulada Solicitações por usuários." lightbox="media/requested-apps.png":::
 
- 1. Para exibir e verificar o número de solicitações para cada aplicativo, classifique as solicitações na coluna **Solicitações por usuário**.
- 1. Selecione o nome do aplicativo que você deseja desbloquear e ele abrirá a página de detalhes do aplicativo.
- 1. Selecione **Gerenciar solicitações** e conclua as etapas exibidas na caixa de diálogo pop-up. As etapas para aprovar um aplicativo variam com base no método usado para bloqueá-lo.
+ 1. Para exibir e verificar o número de solicitações para cada aplicativo, classifique as solicitações na coluna **Solicitações por usuário**. Você não pode exibir o nome dos usuários que solicitaram um aplicativo.
+ 1. Para permitir um aplicativo, selecione o nome do aplicativo e ele abrirá a página de detalhes do aplicativo.
+ 1. Selecione **Gerenciar solicitações** e conclua as etapas exibidas na caixa de diálogo pop-up. Com base no método usado para bloquear um aplicativo, uma ou mais das etapas a seguir são necessárias para desbloqueá-lo:
 
     * Se o aplicativo for bloqueado usando políticas de permissão, permita o aplicativo modificando as [políticas de permissão](teams-app-permission-policies.md).
     * Se o aplicativo estiver bloqueado para todos os usuários, [permita o aplicativo](#allow-and-block-apps).
     * Se todos os aplicativos forem bloqueados para todos os usuários, modifique as [configurações em toda a organização](#manage-org-wide-app-settings).
 
- Se um administrador permitir um aplicativo, ele não informará ao usuário final que sua solicitação foi acionada. O usuário deve visitar o aplicativo no repositório para verificar se o aplicativo está desbloqueado ou não.
+ Se um administrador permitir um aplicativo, o Teams não informará ao usuário final que sua solicitação foi atendida. O usuário pode visualizar o aplicativo na Teams Store para verificar se pode adicionar o aplicativo ao cliente do Teams ou não. Se o aplicativo for aprovado por um administrador, os usuários podem adicioná-lo. Alternativamente, se o administrador não aprovar a solicitação e a ignorar, os usuários finais poderão solicitá-la novamente.
 
 ### <a name="dismiss-a-user-request"></a>Ignorar uma solicitação de usuário
 
@@ -108,21 +108,23 @@ Você pode exibir solicitações para disponibilizar um aplicativo bloqueado par
  1. Selecione **Gerenciar solicitações** e selecione **Ignorar todas as solicitações** na caixa de diálogo.
  1. Quando uma solicitação é ignorada, ela redefine as solicitações do usuário para zero.
 
-  :::image type="content" source="media/reject.png" alt-text="rejeição de aplicativos bloqueados."border="true":::
+  :::image type="content" source="media/reject.png" alt-text="Os administradores podem aprovar uma solicitação do usuário permitindo um aplicativo ou ignorando a solicitação e não realizando nenhuma ação.":::
 
-Se um administrador ignorar uma solicitação, ele não informará ao usuário final que sua solicitação foi tratada. O usuário deve visitar o aplicativo no repositório para verificar se o aplicativo está desbloqueado ou não.
+Se um administrador ignorar uma solicitação, ele não informará ao usuário final que sua solicitação foi tratada. Após um administrador ignorar um pedido, o usuário final pode solicitar o aplicativo novamente.
 
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Permitir os aplicativos bloqueados pelos desenvolvedores
 
-Quando um desenvolvedor publica um aplicativo na loja de aplicativos do Teams, ele pode precisar de administradores para configurar ou personalizar a experiência do aplicativo. Os administradores disponibilizam a experiência para os usuários finais quando o aplicativo é configurado.
+Quando um desenvolvedor publica um aplicativo na Teams Store, alguns aplicativos podem precisar de um administrador para configurá-lo. Os administradores disponibilizam o aplicativo aos usuários finais quando o aplicativo é configurado.
 
-Por exemplo, a Contoso Electronics é um ISV que criou um aplicativo de suporte técnico para o Microsoft Teams. A Contoso Electronics deseja que seus clientes configurem determinadas propriedades do aplicativo para que, quando os usuários interajam com o aplicativo, ele funcione conforme o esperado. Antes que um administrador possa permitir ou bloquear o aplicativo, ele será exibido como **Bloqueado pelo editor** no centro de administração do Teams e ficará oculto dos usuários finais por padrão. Depois de seguir as diretrizes do editor para configurar o aplicativo, você pode disponibilizá-la aos usuários alterando o status para **Permitido**.
+Por exemplo, a Contoso Electronics é uma desenvolvedora de aplicativos que criou um aplicativo de suporte técnico para o Microsoft Teams. A Contoso Electronics deseja que seus clientes configurem determinadas propriedades do aplicativo para que, quando os usuários interajam com o aplicativo, ele funcione conforme o esperado. Antes que um administrador permita o aplicativo, ele será exibido como **Bloqueado pelo fornecedor** no centro de administração do Teams e ficará oculto dos usuários finais por padrão. Depois de seguir as diretrizes do editor para configurar o aplicativo, você pode disponibilizá-la aos usuários alterando o status para **Permitido**.
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Captura de tela do status bloqueado pelo editor no Centro de administração do Teams.":::
 
+Para obter informações sobre como os desenvolvedores bloqueiam um aplicativo por padrão, confira [Ocultar aplicativo até que o administrador aprove](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
+
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativos em toda a organização
 
-Use as configurações de aplicativo em toda a organização para controlar se os usuários com uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) obtêm a experiência personalizada do aplicativo de linha de frente, se os usuários podem instalar aplicativos de terceiros e se os usuários podem carregar ou interagir com aplicativos personalizados em sua organização. As configurações de aplicativo em toda a organização controlam o comportamento de todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários. Você pode usá-los para controlar aplicativos maliciosos ou problemáticos.
+Use as configurações de aplicativo em toda a organização para controlar se os usuários com uma [licença F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) obtêm a experiência personalizada do aplicativo de linha de frente, se os usuários podem instalar aplicativos de terceiros e se os usuários podem carregar ou interagir com aplicativos personalizados em sua organização. As configurações de aplicativo em toda a organização controlam o comportamento de todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários.
 
 > [!NOTE]
 > Para saber como usar as configurações de aplicativo em toda a organização nas implantações da Nuvem da Comunidade Governamental do GCCH (High) do Microsoft 365 ou do DoD (Departamento de Defesa) do Teams, consulte Gerenciar políticas de permissão de aplicativo no [Teams](teams-app-permission-policies.md).

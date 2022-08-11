@@ -1,9 +1,8 @@
 ---
 title: Permissões e considerações dos aplicativos Microsoft Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: O administrador pode saber quais dados e permissões os aplicativos do Microsoft Teams estão solicitando de sua organização.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175665"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299060"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -191,7 +190,7 @@ Nenhum
 
 * Os webhooks de saída são semelhantes aos bots, mas têm menos privilégios. Eles devem ser mencionados explicitamente, assim como os bots.
 
-* Quando um webhook de saída é registrado, um segredo é gerado, o que permite que o webhook de saída verifique se o remetente é o Microsoft Teams em vez de um invasor mal-intencionado. Esse segredo deve permanecer um segredo; qualquer pessoa que tenha acesso a ele pode representar o Microsoft Teams. Se o segredo estiver comprometido, o webhook de saída poderá ser excluído e criado novamente, e um novo segredo será gerado.
+* Quando um webhook de saída é registrado, um segredo é gerado, o que permite que o webhook de saída verifique se o remetente é o Microsoft Teams em vez de um invasor mal-intencionado. Esse segredo deve permanecer um segredo; qualquer pessoa que tenha acesso a ele pode representar o Microsoft Teams. Se o segredo estiver comprometido, exclua e recrie o webhook de saída para gerar um novo segredo.
 
 * Embora seja possível criar um webhook de saída que não valide o segredo, não recomendamos isso.
 
