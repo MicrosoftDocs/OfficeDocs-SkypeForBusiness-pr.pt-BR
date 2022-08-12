@@ -587,7 +587,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -1189,7 +1189,7 @@ items:
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
               - name: Bulgária
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-              - name: Chile
+              - name: 'Chile '
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
               - name: China (Norte)
                 href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
@@ -1533,14 +1533,18 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: Gerenciar Microsoft 365 e conectores personalizados
             href: Office-365-custom-connectors.md
-      - name: Gerenciar aplicativos personalizados de linha de negócios
+      - name: Gerenciar aplicativos personalizados
         items:
+          - name: Gerenciar aplicativos personalizados e de sideload
+            href: custom-app-overview.md
+          - name: Gerenciar configurações e políticas de aplicativo personalizado
+            href: teams-custom-app-policies-and-settings.md
+          - name: Publicar aplicativos personalizados enviados usando a API
+            href: submit-approve-custom-apps.md
+          - name: Publicar um aplicativo personalizado enviado como pacote
+            href: upload-custom-apps.md
           - name: Gerenciar aplicativos do Power Platform no Centro de administração do Teams
             href: manage-power-platform-apps.md
-          - name: Publicar aplicativos personalizados na loja da sua organização
-            href: submit-approve-custom-apps.md
-          - name: Publicar um aplicativo personalizado carregando um pacote de aplicativos
-            href: upload-custom-apps.md
       - name: Controles de administrador para controlar aplicativos
         items:
           - name: Visão geral do gerenciamento de aplicativos
@@ -1557,7 +1561,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: Personalizar os aplicativos do Teams para seus funcionários da linha de frente
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-          - name: Permissões de gráfico e consentimento de administrador no Azure Active Directory
+          - name: Examinar as permissões do Azure Active Directory e conceder consentimento do administrador
             href: app-permissions-admin-center.md
           - name: Gerenciar o consentimento específico do recurso para sua organização
             href: resource-specific-consent.md
