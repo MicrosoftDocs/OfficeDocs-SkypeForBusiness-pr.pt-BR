@@ -3,7 +3,7 @@ title: Conheça os aplicativos no Microsoft Teams
 ms.reviewer: ''
 description: Saiba mais sobre aplicativos e decida quais aplicativos permitir no Teams com base no perfil e nos requisitos de negócios da sua organização.
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270256"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298910"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Entenda os aplicativos do Microsoft Teams
 
@@ -49,7 +49,7 @@ Algumas funcionalidades do Teams, como feed de atividades, equipes, chat, calend
 
 ## <a name="microsoft-provided-apps"></a>Aplicativos fornecidos pela Microsoft
 
-A Microsoft fornece muitos aplicativos para melhorar a produtividade e a colaboração. Você e os usuários finais podem encontrar esses aplicativos procurando a Microsoft listada como o Publicador no centro de administração ou listadas como Provedor na loja do Teams.
+A Microsoft fornece muitos aplicativos para melhorar a produtividade e a colaboração. Você e os usuários finais podem encontrar esses aplicativos procurando a Microsoft listada como fornecedor no centro de administração do Teams ou listadas como provedor na loja do Teams.
 
 O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas, Elogiar, Aprovações e muito mais. Recomendamos que você inclua os aplicativos em destaque—como o Planner—em sua distribuição inicial do Teams.
 
@@ -65,19 +65,11 @@ Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de 
 
 Os aplicativos criados por desenvolvedores em sua organização são chamados de aplicativos personalizados (ou aplicativos de Linha de Negócios). A sua organização pode encomendar a criação de aplicativos personalizados para requisitos específicos da organização. Você tem o controle para permitir ou bloquear esses aplicativos para toda a organização ou para usuários específicos. Os desenvolvedores podem criar soluções personalizadas de baixo código usando a integração do Teams com o [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
-Depois que um administrador permite o uso de aplicativos personalizados, os usuários finais encontram esses aplicativos clicando em **Criado para sua organização** na navegação à esquerda da loja do Teams.
+Depois que um administrador permite o uso de aplicativos personalizados, os usuários finais encontram esses aplicativos selecionando **Criado para sua organização** na navegação à esquerda da loja do Teams.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de tela de aplicativos personalizados na loja do Teams no aplicativo de desktop do Teams." lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>Entender o sideload de aplicativos personalizados
-
-Ao desenvolver aplicativos personalizados e antes de distribuir esses aplicativos para os usuários finais, os desenvolvedores testam os aplicativos adicionando-os ao Teams Store para testar. Os desenvolvedores podem testar por conta própria ou com um grupo específico de usuários, mas o aplicativo não está disponível para outros usuários finais na organização. Esse método é chamado de sideload de aplicativos e se aplica somente a aplicativos personalizados.
-
-Os desenvolvedores podem fazer sideload de um aplicativo para disponibilizá-lo aos membros de uma equipe específica, normalmente para testar um aplicativo em desenvolvimento. Usar um aplicativo dessa maneira limita seu uso aos desenvolvedores de aplicativos e não requer aprovação do administrador, desde que o administrador permita o sideload no Teams. Como administrador, você pode proibir o sideload do aplicativo para todos os desenvolvedores.
-
-Se você não permitir o sideload, os desenvolvedores ainda poderão testar seus aplicativos [criando um locatário de teste separado](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Após a conclusão do desenvolvimento de aplicativos personalizados, os desenvolvedores solicitam que os administradores distribuam seus aplicativos personalizados para os usuários finais. Para obter detalhes, confira [como publicar um aplicativo personalizado](/microsoftteams/upload-custom-apps). Como administrador, você pode permitir ou não o uso de um aplicativo personalizado para usuários específicos.
+Para obter mais informações, confira [Entender e gerenciar aplicativos personalizados e com sideload](custom-app-overview.md).
 
 ## <a name="about-app-templates"></a>Sobre Modelos de Aplicativo
 

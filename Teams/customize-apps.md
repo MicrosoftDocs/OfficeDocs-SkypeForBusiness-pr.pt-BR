@@ -3,7 +3,6 @@ title: Modificar a aparência dos aplicativos na loja do Teams da sua organizaç
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como alterar a aparência do aplicativo e renomear um aplicativo editando detalhes e metadados do aplicativo.
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269076"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298880"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Personalize a aparência dos aplicativos na loja do Teams da sua organização
 
@@ -102,13 +101,13 @@ Agora, os usuários finais do Teams podem ver o aplicativo personalizado no clie
 
 Observe os seguintes detalhes sobre a personalização de um aplicativo:
 
-* Ao personalizar aplicativos e qualquer descrição relacionada a ele, certifique-se de seguir as diretrizes de personalização, se fornecidas pelo editor do aplicativo em sua documentação ou termos de uso. Você também é responsável por respeitar os direitos de outras pessoas em relação a quaisquer imagens de terceiros que você possa usar.
+* Ao personalizar aplicativos e qualquer descrição relacionada a um aplicativo, certifique-se de seguir as diretrizes de personalização fornecidas pelo desenvolvedor do aplicativo em sua documentação ou termos de uso. Você também é responsável por respeitar os direitos de outras pessoas em relação a quaisquer imagens de terceiros que você possa usar.
 
 * Os dados de personalização fornecidos pelo administrador são armazenados na região mais próxima.
 
 * Você é responsável por garantir que os links para os termos de uso ou a política de privacidade sejam válidos.
 
-* Caso o editor do aplicativo não permita mais que um campo seja personalizável, uma mensagem será exibida na página de detalhes do aplicativo notificando o administrador sobre os campos que não podem mais ser personalizados. Todas as alterações feitas nesse campo serão revertidas para os valores originais.
+* Caso o desenvolvedor do aplicativo não permita mais que um campo seja personalizável, uma mensagem aparecerá na página de detalhes do aplicativo notificando o administrador sobre os campos que não podem mais ser personalizados. Todas as alterações feitas nesse campo serão revertidas para os valores originais.
 
 * Recomendamos testar as alterações de personalização do aplicativo em um locatário de teste do Teams antes de fazer essas alterações em seu ambiente de produção.
 

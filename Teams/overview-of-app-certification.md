@@ -1,6 +1,5 @@
 ---
 title: Visão geral da certificação de aplicativos pela Microsoft
-ms.reviewer: ''
 description: Saiba mais sobre o programa de conformidade de aplicativos do Microsoft 365 para segurança, conformidade e privacidade de aplicativos de terceiros.
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880415"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299080"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de conformidade de aplicativos do Microsoft 365 para segurança, conformidade e privacidade de aplicativos de terceiros
 
@@ -35,7 +34,7 @@ O programa de conformidade da Microsoft verifica e audita um aplicativo em rela�
 
 ## <a name="publisher-verification"></a>Verificação do fornecedor
 
-Antes que um desenvolvedor de aplicativos possa enviar seu aplicativo para a Microsoft, é necessário que o desenvolvedor seja submetido a uma verificação. Um publicador verifica sua identidade usando sua conta do Microsoft Partner Network (MPN) e associa essa conta MPN ao registro do aplicativo. A verificação do publicador ajuda os administradores e usuários finais a entender a autenticidade dos desenvolvedores de aplicativos. A verificação do fornecedor oferece os seguintes benefícios:
+Antes que um desenvolvedor de aplicativos possa enviar seu aplicativo para a Microsoft, é necessário que o desenvolvedor seja submetido a uma verificação. Um desenvolvedor verifica sua identidade usando sua conta do Microsoft Partner Network (MPN) e associa essa conta MPN ao registro do aplicativo. A verificação do publicador ajuda os administradores e usuários finais a entender a autenticidade dos desenvolvedores de aplicativos. A verificação do fornecedor oferece os seguintes benefícios:
 
 * Maior transparência e redução de riscos para os clientes - essa funcionalidade ajuda os clientes a entender quais aplicativos que estão sendo usados nas suas organizações foram publicados por desenvolvedores nos quais eles confiam.
 * Identidade visual aprimorada - um selo `verified` aparece no prompt de consentimento do Microsoft Azure AD, na página Aplicativos Corporativos e em outras interfaces de usuário usadas por usuários finais e administradores.
