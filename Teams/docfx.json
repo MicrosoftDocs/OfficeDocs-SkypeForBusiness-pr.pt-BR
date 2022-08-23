@@ -31,6 +31,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "layout": "Conceptual",
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
        "extendBreadcrumb": "true"
