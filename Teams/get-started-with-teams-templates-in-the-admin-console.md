@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: Saiba mais sobre modelos de equipe e como gerenciá-los no Centro de administração do Microsoft Teams.
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819352"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396722"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introdução aos modelos de equipe no Centro de administração do Teams
 
@@ -34,7 +35,7 @@ ms.locfileid: "66819352"
 >
 > - Não há suporte para rótulos de confidencialidade em modelos de equipe em ambientes GCC. A opção de rótulo de confidencialidade na equipe Criar do fluxo de modelo não será aplicada à equipe.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Um modelo de equipe no Microsoft Teams é uma definição da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Como administrador, você pode usar modelos para implantar facilmente equipes consistentes em sua organização. Com modelos, os usuários podem criar rapidamente espaços de colaboração avançados com configurações, canais e aplicativos predefinidos.
 
@@ -43,7 +44,7 @@ Você pode gerenciar modelos de equipe no centro de administração do Microsoft
 Este artigo fornece uma visão geral de como trabalhar com modelos de equipe no centro de administração do Teams. Você aprenderá sobre as propriedades com suporte em modelos, os modelos predefinidos que fornecemos, os limites de tamanho do modelo, como criar e gerenciar modelos e muito mais.
 
 > [!NOTE]
-> Os usuários podem [criar equipes com base em modelos de equipe predefinido ou personalizados](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) no aplicativo Teams. Os desenvolvedores também podem criar equipes programaticamente com base em modelos de equipe pré-criados usando o Microsoft Graph. Para saber mais, confira [Introdução aos modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md).
+> Os usuários podem [criar equipes com base em modelos de equipe predefinido ou personalizados](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) no aplicativo Teams. Os desenvolvedores também podem criar equipes programaticamente com base em modelos de equipe pré-criados ou personalizados usando o Microsoft Graph. Para saber mais, confira [Introdução aos modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Funcionalidades de modelo de equipe
 

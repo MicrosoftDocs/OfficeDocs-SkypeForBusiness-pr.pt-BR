@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278765"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418620"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a Conexão Pai no Microsoft Teams para Educação
 
@@ -42,7 +42,7 @@ Aqui estão alguns recursos que os administradores de TI podem compartilhar com 
 A Conexão de Pais permite que educadores e responsáveis conversem, enviem emails e liguem usando o Teams.
 
 - Os educadores podem iniciar chats com responsáveis.
-  - Se o responsável não tiver uma conta de consumidor do Teams, ele receberá a mensagem inicial do educador e um convite por email para ir para o Teams.
+  - Se o responsável não tiver uma conta de consumidor do Teams ou ainda não tiver ingressado no Teams, ele receberá a mensagem do educador juntamente com um convite por email para ir para o Teams. Isso só se aplica em casos em que os limites de convite não foram atingidos e o chat é um novo chat ou um chat existente que foi inserido novamente da Conexão Pai.
 - Funciona com chat supervisionado. Para obter mais informações, [consulte Usar chats supervisionados no Microsoft Teams](supervise-chats-edu.md).
   - Por padrão, os tutores têm permissões restritas, portanto, eles não podem conversar com os alunos ou remover usuários de chats.
   - Essa configuração pode ser alterada pelo administrador do locatário.

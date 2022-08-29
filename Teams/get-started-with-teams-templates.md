@@ -1,5 +1,5 @@
 ---
-title: Começar a usar modelos de equipe usando o Microsoft Graph
+title: Introdução aos modelos de equipe usando o Microsoft Graph
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -11,7 +11,8 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre os modelos de equipe disponíveis apenas com o Microsoft Graph.
+- m365-frontline
+description: Saiba mais sobre os modelos de equipe que estão disponíveis apenas com o Microsoft Graph.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,61 +20,61 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e570faff4ec7138457f7cd52e101a0a3632d64d2
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991110"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397232"
 ---
-# <a name="get-started-with-team-templates-using-microsoft-graph"></a>Começar a usar modelos de equipe usando o Microsoft Graph
+# <a name="get-started-with-team-templates-using-microsoft-graph"></a>Introdução aos modelos de equipe usando o Microsoft Graph
 
 > [!NOTE]
-> Atualmente, os modelos de equipe não suportam a criação de canais privados. A criação de canal privado não está incluída nas definições de modelo.
+> Atualmente, os modelos de equipe não dão suporte à criação de canais privados. A criação de canal privado não está incluída nas definições de modelo.
 
-Um modelo de equipe no Microsoft Teams é uma definição da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Com modelos de equipe, você pode criar espaços de colaboração rich com configurações, canais e aplicativos predefinidos. Os modelos de equipe podem ajudá-lo a implantar equipes consistentes em sua organização.
+Um modelo de equipe no Microsoft Teams é uma definição da estrutura de uma equipe projetada em torno de uma necessidade de negócios ou projeto. Com modelos de equipe, você pode criar rapidamente e facilmente espaços de colaboração avançados com configurações, canais e aplicativos predefinidos. Os modelos de equipe podem ajudá-lo a implantar equipes consistentes em sua organização.
 
-Com o Microsoft Graph, você usa os modelos de equipe pré-construídos que estão incluídos Teams criar equipes. Neste artigo, você aprenderá sobre as propriedades que podem ser definidas em modelos e os modelos que estão disponíveis apenas com o Microsoft Graph.
+Com o Microsoft Graph, [você pode criar](/graph/api/resources/teamtemplate?view=graph-rest-beta) seus próprios modelos ou usar os modelos de equipe pré-criados incluídos no Teams para criar equipes. Neste artigo, você aprenderá sobre as propriedades que podem ser definidas em modelos e os modelos pré-criados que estão disponíveis apenas com o Microsoft Graph.
 
 Este artigo é para você se você:
 
-- Responsável pelo planejamento, implantação e gerenciamento de várias equipes em sua organização<br>
+- Responsável por planejar, implantar e gerenciar várias equipes em sua organização<br>
 - Um desenvolvedor que deseja criar programaticamente uma equipe com canais e aplicativos predefinidos
 
-## <a name="team-template-capabilities"></a>Recursos de modelo de equipe
+## <a name="team-template-capabilities"></a>Funcionalidades de modelo de equipe
 
-A maioria das propriedades em uma equipe são incluídas e suportadas por modelos. No momento, há algumas propriedades e recursos que não são suportados. Aqui está um resumo rápido do que está incluído e o que não está incluído nos modelos de equipe.
+A maioria das propriedades em uma equipe é incluída e tem suporte por modelos. Mas há algumas propriedades e recursos que não têm suporte no momento. Aqui está um resumo rápido do que está incluído e do que não está incluído nos modelos de equipe.
 
-| **Propriedades de equipe suportadas por modelos de equipe** | **Propriedades de equipe ainda não suportadas por modelos de equipe** |
+| **Propriedades da equipe compatíveis com modelos de equipe** | **Propriedades da equipe ainda não compatíveis com modelos de equipe** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Tipo de modelo | Associação da equipe |
 | Nome da equipe | Imagem da equipe |
 | Descrição da equipe | Configurações de canal |
 | Visibilidade da equipe (pública ou privada) | Conectores |
-| Configurações de equipe (por exemplo, membro, convidado, @ menções) | Arquivos e conteúdo |
+| Configurações da equipe (por exemplo, membro, convidado, @ menções) | Arquivos e conteúdo |
 | Canal favorito automático | |
 | Aplicativo instalado | |
 | Guias fixadas | |
 
 > [!NOTE]
-> Vamos adicionar mais recursos de modelo em versões futuras do Microsoft Teams, portanto, verifique se há informações mais atualizadas sobre propriedades com suporte.
+> Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto, verifique novamente as informações mais atualizadas sobre as propriedades com suporte.
 
-## <a name="pre-built-templates"></a>Modelos pré-construídos
+## <a name="pre-built-templates"></a>Modelos pré-criados
 
-Modelos de equipe pré-criados são modelos criados para setores específicos. Aqui estão os modelos pré-construídos que estão disponíveis apenas com o Microsoft Graph.
+Modelos de equipe pré-criados são modelos que criamos para setores específicos. Aqui estão os modelos pré-criados que estão disponíveis apenas com o Microsoft Graph.
 
 | Tipo de modelo | TemplateId | Propriedades que vêm com este modelo |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | Sem aplicativos e propriedades adicionais |
-| Educação -<br>Equipe de Classe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote Bloco de Anotações de Classe (fixado na **guia Geral)** </li><li>Aplicativo assignments (fixado na **guia Geral)**</li></ul> Propriedades de equipe:<ul><li>Visibilidade de equipe definida como **HiddenMembership** (não pode ser substituído)</li></ul> |
-| Educação -<br>Equipe de Equipe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote Bloco de Anotações de Equipe (fixado na **guia Geral)**</li></ul> |
-|Educação -<br>Equipe DO PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote Bloco de anotações PLC (fixado na **guia Geral)**</ul></li>|
+| Educação -<br>Equipe de Classe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>Bloco de Anotações de Classe do OneNote (fixado na **guia** Geral) </li><li>Aplicativo atribuições (fixado na **guia** Geral)</li></ul> Propriedades da equipe:<ul><li>Visibilidade da equipe definida **como HiddenMembership** (não pode ser substituída)</li></ul> |
+| Educação -<br>Equipe de Equipe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>Bloco de Anotações de Equipe do OneNote (fixado na **guia** Geral)</li></ul> |
+|Educação -<br>Equipe plc |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>Bloco de Anotações plc do OneNote (fixado na **guia** Geral)</ul></li>|
 
 > [!NOTE]
-> Para obter uma lista de modelos pré-construídos que você pode usar no cliente Teams e com o Microsoft Graph, consulte Get started with [team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
+> Para obter uma lista de modelos pré-criados que você pode usar no cliente do Teams e com o Microsoft Graph, consulte Introdução aos modelos de equipe no [centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Começar a usar modelos de equipe no Teams de administração](get-started-with-teams-templates-in-the-admin-console.md)
-- [Criar uma equipe](/graph/api/team-post?view=graph-rest-beta) (em visualização)
-- [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
+- [Introdução aos modelos de equipe no Centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md)
+- [Criar uma equipe](/graph/api/team-post?view=graph-rest-beta) (em versão prévia)
+- [Nova equipe](/powershell/module/teams/New-Team?view=teams-ps)

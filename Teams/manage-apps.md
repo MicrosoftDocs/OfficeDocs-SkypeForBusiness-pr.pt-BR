@@ -10,6 +10,7 @@ ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - M365-collaboration
+- m365-frontline
 ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
@@ -18,12 +19,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 5c769a5cb8aab00265dee90bcce4b093c50e2a90
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298860"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397052"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no Centro de administração do Microsoft Teams
 
@@ -44,9 +45,10 @@ Durante a criação de um aplicativo, os desenvolvedores criam e adicionam uma I
 
 As opções para realizar a maioria dos casos de uso do gerenciamento de aplicativos estão disponíveis no Centro de administração do Teams. Além disso, algumas opções estão disponíveis em outros portais ou páginas diferentes no centro de administração do Teams.
 
+As tarefas de gerenciamento de aplicativo com suporte no centro de administração estão na tabela abaixo.
+
 | Casos de uso do gerenciamento de aplicativos | Vincular à interface | Documentação |
 |:----|:----|:----|
-| **No Centro de administração do Teams** | | |
 | Controle quais aplicativos estão disponíveis para os usuários em sua organização permitindo e bloqueando aplicativos. Você também pode carregar e aprovar aplicativos personalizados. Depois de gerenciar aplicativos nesta página, você pode usar a permissão do aplicativo e as políticas de configuração do aplicativo para configurar quais aplicativos estão disponíveis para usuários específicos na loja de aplicativos da sua organização. | [Gerenciar aplicativos no Centro de administração do Teams](https://admin.teams.microsoft.com/policies/manage-apps) | Artigo atual |
 | As políticas de permissão de aplicativo controlam quais aplicativos você deseja disponibilizar para os usuários do Teams em sua organização. Você pode usar a política Global (para toda a organização) e personalizá-la ou pode criar uma ou mais políticas para atender às necessidades da sua organização. | [Políticas de permissão](https://admin.teams.microsoft.com/policies/app-permission) | [Gerenciar políticas de permissão de aplicativo](teams-app-permission-policies.md) |
 | As políticas de configuração de aplicativos controlam como os aplicativos são disponibilizados para um usuário com o aplicativo Teams. Utilize a política Global (padrão de toda a organização) e personalize-a ou crie políticas personalizadas e atribua-as a um conjunto de usuários. | [Políticas de instalação](https://admin.teams.microsoft.com/policies/app-setup) | [Gerenciar políticas de configuração de aplicativo](teams-app-setup-policies.md) |
@@ -55,8 +57,12 @@ As opções para realizar a maioria dos casos de uso do gerenciamento de aplicat
 | O relatório de uso do aplicativo do Teams fornece informações sobre aplicativos em uso, usuários ativos e outras informações de uso do aplicativo. | [Relatórios de uso](https://admin.teams.microsoft.com/analytics/reports) | [Relatório de uso do Teams](teams-analytics-and-reports/app-usage-report.md) |
 | Os usuários podem adicionar aplicativos quando hospedam reuniões ou chats com convidados. Eles também podem usar aplicativos compartilhados por convidados quando ingressam em reuniões ou chats hospedados externamente. As políticas de dados da organização do usuário de hospedagem e as práticas de compartilhamento de dados de qualquer aplicativo de terceiros compartilhado pela organização desse usuário, serão aplicadas. | [Acesso externo](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [Comportamento do aplicativo, dependendo dos tipos de usuários](non-standard-users.md) |
 | Com o acesso de convidados, você pode fornecer acesso a aplicativos e outras funcionalidades do Teams para pessoas de fora da sua organização, mantendo o controle sobre seus dados corporativos. | [Acesso de convidados](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Acesso de convidados ao Teams](guest-access.md) |
-| As políticas de atualização são usadas para gerenciar usuários de pré-visualização do Teams e do Office, que verão recursos de pré-lançamento ou pré-visualização no aplicativo Teams. | [Políticas de atualização do Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Visualização pública do Teams](public-preview-doc-updates.md) |
-| **Centro de administração externo do Teams** | | |
+| As políticas de atualização do Teams são usadas para gerenciar usuários de visualização do Teams e do Office que podem ver recursos de pré-lançamento ou versão prévia no aplicativo Teams. | [Políticas de atualização do Teams](https://admin.teams.microsoft.com/policies/updatemanagement) | [Visualização pública do Teams](public-preview-doc-updates.md) |
+
+As tarefas de gerenciamento de aplicativos com suporte em outros portais estão na tabela abaixo.
+
+| Casos de uso do gerenciamento de aplicativos | Vincular à interface | Documentação |
+|:----|:----|:----|
 | Gerenciar licenças e assinaturas de aplicativos de terceiros no Microsoft 365 de administração | [Centro de administração do Microsoft 365](https://admin.microsoft.com/#/licenses) | [Gerenciar assinaturas de aplicativos de terceiros](/microsoft-365/commerce/manage-saas-apps) |
 | Auditar eventos de aplicativo do Teams no portal de conformidade do Microsoft Purview. | [Auditoria](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Atividades do Teams](audit-app-management-activities.md) |
 | Os aplicativos podem receber permissões para sua organização e seus dados por três métodos: um administrador consente com o aplicativo para todos os usuários, um usuário dá consentimento ao aplicativo ou um administrador integra um aplicativo e habilita o acesso de autoatendimento ou atribui usuários diretamente ao aplicativo. Verifique as permissões do Graph para aplicativos. Verifique as permissões que os usuários forneceram ou que os administradores delegaram. | [Portal do Azure AD](https://aad.portal.azure.com/) | [Examinar as permissões concedidas aos aplicativos](/azure/active-directory/manage-apps/manage-application-permissions) |
@@ -71,9 +77,8 @@ A página Gerenciar aplicativos é onde você gerencia aplicativos individuais n
 
 Para permitir ou bloquear um aplicativo:
 
-1. Entre no Centro de administração do Team.
-1. Acesse a página **aplicativos do Teams** > **[página Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.
-1. Selecione um aplicativo na lista de aplicativos. Você pode pesquisar pelo nome do aplicativo e, em seguida, selecioná-lo.
+1. Entrar no centro de administração do Teams e acessar aplicativos **do Teams Gerenciar** > **[aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Selecione um aplicativo na lista de aplicativos. Você pode pesquisar pelo nome do aplicativo.
 1. Selecione a opção **Permitir** ou **Bloquear**.
 
 Quando você permite (ou bloqueia) um aplicativo na página [Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps) no Centro de administração do Teams, o aplicativo específico é permitido (ou bloqueado) para todos os usuários em sua organização. Esse método é diferente da política de permissão do aplicativo no contexto que permite (ou bloqueia) um aplicativo por meio da política de permissão e afeta apenas os usuários específicos aos quais a política foi atribuída.
@@ -88,7 +93,7 @@ Os usuários finais podem exibir, mas não usar, os aplicativos bloqueados na Te
 
 ### <a name="view-a-request"></a>Exibir uma solicitação
 
- 1. Entre no centro de administração do Teams e selecione **Aplicativos do Teams** > **[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.
+ 1. Entre no centro de administração do Teams e acesse os aplicativos de Gerenciamento de **Aplicativos do** >  Teams.**[](https://admin.teams.microsoft.com/policies/manage-apps)**
 
     :::image type="content" source="media/requested-apps1.png" alt-text="As solicitações do usuário final para aplicativos bloqueados são exibidas no Centro de administração do Teams na coluna intitulada Solicitações por usuários." lightbox="media/requested-apps.png":::
 
@@ -129,7 +134,7 @@ Use as configurações de aplicativo em toda a organização para controlar se o
 > [!NOTE]
 > Para saber como usar as configurações de aplicativo em toda a organização nas implantações da Nuvem da Comunidade Governamental do GCCH (High) do Microsoft 365 ou do DoD (Departamento de Defesa) do Teams, consulte Gerenciar políticas de permissão de aplicativo no [Teams](teams-app-permission-policies.md).
 
-1. Na página Gerenciar aplicativos, selecione **Configurações do aplicativo em toda a organização**. Você pode então definir as configurações desejadas no painel.
+1. Na **[página Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)** , selecione **Configurações de aplicativos em toda a organização**. Você pode então definir as configurações desejadas no painel.
 
     :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Captura de tela do painel configurações de aplicativos de toda a organização na página Gerenciar aplicativos":::
 

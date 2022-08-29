@@ -1,5 +1,5 @@
 ---
-title: Planos de chamadas para o Microsoft 365
+title: Planos de chamadas para o Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,14 +27,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269216"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396842"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Planos de chamadas para o Microsoft 365
+# <a name="calling-plans-for-microsoft-teams"></a>Planos de chamadas para o Microsoft Teams
 
 As chamadas para outros usuários do Skype for Business e do Microsoft Teams são gratuitas, mas se você quiser que os usuários possam ligar para telefones regulares e ainda não tiver um provedor de serviços para fazer chamadas de voz, você precisará comprar um Plano de Chamadas. Para obter mais informações, consulte [Sistema de Telefonia e Planos de Chamadas](calling-plan-landing-page.md).
   
@@ -44,7 +44,11 @@ Aqui estão as opções de Planos de Chamadas:
 
 - **Plano** de Chamadas Internacionais: os usuários licenciados podem chamar números localizados no país/região em que sua licença do Microsoft 365 é atribuída ao usuário com base na localização do usuário e para números internacionais em [196 países/](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)regiões. Minutos de entrada ilimitados são incluídos. Os minutos de saída são incluídos com base na licença adquirida.
 
-- Plano de Chamadas Pagas Conforme o **Uso: os** usuários licenciados podem chamar números localizados no país/região em que sua licença do Microsoft 365 é atribuída ao usuário com base na localização do usuário e para números internacionais em  [196 países/](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)regiões. Minutos de entrada ilimitados são incluídos. Nenhum minuto de saída está incluído. Todas as chamadas de saída são cobradas com base nos minutos usados, seja com créditos de comunicação ou cobrança pós-pagamento.
+- Plano de Chamadas Pagas Conforme o **Uso: os** usuários licenciados podem chamar números localizados no país/região em que sua licença do Microsoft 365 é atribuída ao usuário com base na localização do usuário e para números internacionais em  [196 países/](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)regiões. Minutos de entrada ilimitados são incluídos. Nenhum minuto de saída está incluído. Todas as chamadas de saída são cobradas com base nos minutos usados, seja com créditos de comunicação ou cobrança pós-pagamento. As licenças são atribuídas aos usuários com base em sua localização. Há duas opções para escolher:
+  - **Plano de Chamadas Pagas** Conforme o Uso Zona 1: compre isso para usuários no Estados Unidos, incluindo Porto Rico, Canadá e Reino Unido.
+    - No momento, as licenças de Zona 1 não estão disponíveis para venda no Estados Unidos e em Porto Rico, mas podem ser provisionadas para usuários dos EUA e de Porto Rico se forem compradas em outros países.
+  - Plano de Chamadas Pagas Conforme o Uso **Zona 2**: Compre isso para usuários na Áustria, Bélgica, Croácia, República Tcheca, Dinamarca, Estônia, Finlândia, França, Alemanha, Hungria, Irlanda, Itália, Letônia, Letônia, Luxemburgo, Países Baixos, Nova Zelândia, Noruega, Polônia, Portugal, Romênia, Singapura, Eslováquia, Eslovênia, África do Sul, Espanha, Suécia e Suíça.
+    - No momento, as licenças de Zona 2 não estão disponíveis para venda no Estados Unidos e porto rico.
 
 Todos os usuários no mesmo país/região (esse é o local do país do usuário definido na área de licenciamento do Centro de administração do Microsoft 365) com o mesmo Plano de Chamadas compartilham um pool de minutos. Por exemplo, se você tiver 100 usuários localizados no mesmo país/região com um Plano de Chamadas Domésticas de 120 minutos atribuído, eles compartilharão um pool de 12.000 minutos. Todas as chamadas que excederem esses minutos são cobradas por minuto.
 

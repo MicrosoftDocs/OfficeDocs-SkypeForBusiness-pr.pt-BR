@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo e o acesso para convidado.
-ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023984"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418460"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
@@ -43,9 +43,17 @@ Por padrão, o acesso externo é habilitado para todos os domínios. Você pode 
 ![Captura de tela das configurações de acesso externo.](media/external-access-federation-settings.png)
 
 O acesso externo está disponível para os seguintes locatários:
-
-- No e entre Comercial, GCC e GCC High
-- Somente entre DOD
+- Contas corporativas gerenciadas
+     - Somente entre comerciais
+     - Somente entre GCC
+     - Somente entre GCC High
+     - Somente entre DOD
+- Contas não gerenciadas (pessoais)
+     - Somente entre contas comerciais e pessoais
+- Skype for Business interoperabilidade
+     - Entre e entre Comercial, GCC, GCC High e DoD
+- Interoperabilidade do Skype
+     - Somente entre Comercial e Skype
 
 Para configurar o acesso externo, consulte [Gerenciar acesso externo](manage-external-access.md). 
 
@@ -56,7 +64,7 @@ Para configurar o acesso externo, consulte [Gerenciar acesso externo](manage-ext
 
 Utilize o acesso de convidado para adicionar uma pessoa de fora da sua organização a uma equipe, onde ela pode bater papo, fazer uma chamada, se encontrar e colaborar em arquivos. Um convidado pode receber quase todos os mesmos recursos do Teams que um membro nativo da equipe. Para obter mais informações, consulte [Experiência de convidado no Teams](guest-experience.md).
 
-Os convidados são adicionados ao Azure Active Directory da sua organização como usuários B2B e devem se conectar ao Teams usando sua conta de convidado. Isso significa que eles podem precisar sair da própria organização para entrar na sua.
+Os convidados são adicionados ao Azure Active Directory da sua organização como usuários de colaboração B2B e devem entrar no Teams usando sua conta de convidado. Isso significa que eles podem precisar sair da própria organização para entrar na sua.
 
 O acesso de convidado está disponível para os seguintes locatários:
 

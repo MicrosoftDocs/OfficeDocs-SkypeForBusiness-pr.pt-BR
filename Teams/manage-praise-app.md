@@ -11,12 +11,13 @@ ms.localizationpriority: medium
 description: Saiba como gerenciar o aplicativo Elogiar no Centro de administração do Microsoft Teams.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 0f30a508fd1c0f2e82dcab3c22d3ade94d4e0118
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 36f904f40fdb878480addc0d753b4ccb44a3f2d9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269416"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396682"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo Elogiar no Centro de administração do Microsoft Teams
 
@@ -33,7 +34,7 @@ O elogio é habilitado por padrão para todos os usuários do Teams em sua organ
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Captura de tela da página de detalhes do aplicativo Elogiar no Centro de administração do Teams, mostrando a alternância Status.":::
 
-1. No painel esquerdo do centro de administração do Microsoft Teams, acesse Aplicativos **do Teams Gerenciar** > **aplicativos**.
+1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Na lista de aplicativos, pesquise o aplicativo Elogiar, selecione-o e alterne a alternância **status** para **Bloqueado** ou **Permitido**.
 
 Tenha em mente que essa configuração afeta o aplicativo Elogiar e o recurso Elogiar no Insights do Viva aplicativo no Teams.

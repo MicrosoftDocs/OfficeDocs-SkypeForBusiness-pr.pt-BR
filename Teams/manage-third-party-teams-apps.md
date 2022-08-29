@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como gerenciar o acesso aos aplicativos do Teams no Microsoft 365.
-ms.openlocfilehash: 114b16dad2a574b217ebc9bf815f42e579b740e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 76385d60d185fd9ad522348e4e438ac06dd4e896
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271406"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396892"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Gerenciar o acesso aos aplicativos do Teams no Microsoft 365
 
@@ -30,7 +30,7 @@ Os desenvolvedores de aplicativos podem aprimorar seus aplicativos do Microsoft 
 
 Para uso no Outlook e Office.com, um aplicativo aprimorado continua usando as permissões existentes concedidas no Teams. Não há [nenhuma alteração nas permissões do aplicativo aprimorado](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs).
 
-Veja uma lista dos aplicativos aprimorados:
+Os aplicativos aprimorados estão listados abaixo:
 
 * [Monday.com](https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f)
 * [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d)

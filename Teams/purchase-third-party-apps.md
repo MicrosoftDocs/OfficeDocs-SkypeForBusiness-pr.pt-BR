@@ -1,6 +1,6 @@
 ---
 title: Comprar aplicativos de terceiros para o Teams
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: Saiba como comprar aplicativos de terceiros na loja do Teams usando
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299190"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396302"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para o Teams
 
@@ -34,9 +34,9 @@ Aqui, você também pode comprar licenças para serviços oferecidos por aplicat
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Comprar aplicativos no Centro de administração do Teams
 
-Para comprar aplicativos no Centro de administração do Teams, siga estas etapas: 
+Para comprar aplicativos no Centro de administração do Teams, siga estas etapas:
 
-1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.
+1. Entre no centro de administração do Teams e acesse os aplicativos **do Teams Gerenciar** > **[aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.
 
 1. Pesquise o aplicativo desejado pelo nome. Para identificar aplicativos que têm uma assinatura de SaaS paga, examine a coluna **Licenças**. Cada aplicativo tem um dos seguintes valores:
     * **Comprar**: o aplicativo oferece uma assinatura de SaaS e está disponível para compra.  

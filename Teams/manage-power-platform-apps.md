@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos personalizados e compilados usando o Microsoft Power Platform no centro de administração do Teams.
-ms.openlocfilehash: fd1d6d3d190d22995ab72966510871868b7ba401
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78ca37b95b98ad1668264f13539626cbb2b9b56b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298850"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397012"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Gerenciar os aplicativos do Microsoft Power Platform no centro de administração do Teams
 
@@ -65,15 +65,15 @@ Se um usuário tiver permissão para acessar aplicativos do Power Apps ou Power 
 
 Por padrão, são permitidos **Power Apps Compartilhado** e **Power Virtual Agent Apps Compartilhados** para todos os usuários do Teams de sua organização. Você pode bloqueá-los ou permiti-los no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.  
 
-1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **Gerenciar aplicativos**. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.
-2. Na lista de aplicativos, faça uma das seguintes opções.
+1. Entre no centro de administração do Teams e acesse os aplicativos do **Teams** >  Gerenciar aplicativos. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.**[](https://admin.teams.microsoft.com/policies/manage-apps)**
+1. Na lista de aplicativos, faça uma das seguintes opções.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Captura de tela da página Gerenciar aplicativos, mostrando aplicativos compartilhados do Microsoft Power Platform.":::
 
     * Para bloquear aplicativos criados no Power Apps ou Power Virtual Agents para todos os usuários de sua organização, pesquise por **Power Apps Compartilhados** ou **Power Virtual Agent Apps Compartilhados**, selecione-o(s), e então selecione **Bloquear**.
     * Para permitir aplicativos criados no Power Apps ou Power Virtual Agents para todos os usuários de sua organização, pesquise por **Power Apps Compartilhados** ou **Power Virtual Agent Apps Compartilhados**, selecione-o(s), e então selecione **Permitir**.
 
-### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Permitir ou bloquear aplicativos do Microsoft Power Platform para usuários específicos
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>Permitir aplicativos do Microsoft Power Platform para usuários específicos
 
 Para permitir ou bloquear o acesso de usuários específicos em sua organização a aplicativos criados no Power Apps ou Power Virtual Agents, crie e atribua uma ou mais [políticas de permissão de aplicativo](teams-app-permission-policies.md) personalizado.
 

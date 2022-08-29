@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023994"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396322"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 
@@ -44,7 +44,7 @@ Você pode aprender mais sobre as funções administrativas do Teams em [Usar fu
 
 ## <a name="teams-overview-grid"></a>Grade de visão geral do Teams
 
-As ferramentas de gerenciamento das equipes estão no nó **Equipes** no Centro de administração do Microsoft Teams. (No centro de administração, selecione **Equipes** > **Gerenciar equipes**.) Cada equipe tem o suporte de um Grupo do Microsoft 365 e esse nó fornece uma exibição dos grupos que foram habilitados para o Microsoft Teams em sua organização.
+As ferramentas de gerenciamento para equipes estão no nó do **Teams** do centro de administração do Microsoft Teams. (No centro de administração, selecione **Teams** >  **Gerenciar equipes**.) Cada equipe tem o suporte de um grupo do Microsoft 365, e esse nó fornece uma exibição dos grupos que foram habilitados para o Microsoft Teams em sua organização.
 
 ![Captura de tela da grade de visão geral do Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -54,7 +54,7 @@ A grade exibe as seguintes propriedades:
 - **Canais** - uma contagem de todos os canais da equipe, incluindo o canal Geral padrão.
 - **Membros da equipe** - uma contagem do total de usuários, incluindo proprietários, convidados e membros de seu locatário.
 - **Proprietários** - uma contagem dos proprietários desta equipe.
-- **Convidados** - uma contagem de usuários convidados B2B do Azure Active Directory que são membros desta equipe.
+- **Convidados** – uma contagem de convidados B2B do Azure Active Directory que são membros dessa equipe.
 - **Privacidade** - o Visibility/AccessType do grupo de apoio do Microsoft 365.
 - **Status** - o status Arquivado ou Ativo desta equipe. Saiba mais sobre como arquivar equipes em [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Descrição** - a descrição do grupo de backup do Microsoft 365.
@@ -71,9 +71,17 @@ Para adicionar uma nova equipe, clique em **Adicionar**. No painel **Adicionar u
 > [!NOTE]
 > As equipes recém-criadas podem ser gerenciadas imediatamente no Centro de Administração do Teams, ao contrário da experiência em outros clientes como o Outlook.
 
+Este vídeo mostra as etapas para criar uma nova equipe e um canal para eles.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### <a name="edit"></a>Editar
 
 Para editar configurações específicas de grupo e equipe, selecione a equipe clicando em à esquerda do nome da equipe e selecione **Editar**.
+
+Este vídeo mostra as etapas para exibir e editar os detalhes de uma equipe existente.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 
 ### <a name="archive"></a>Arquivar
 

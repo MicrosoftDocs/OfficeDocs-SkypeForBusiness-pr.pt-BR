@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams para compartilhamento de conteúdo.
-ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: c2baa0328cd1ff0271d2b1ecbf8e1fab76f24846
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605840"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418610"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Configurações de política de reunião - Compartilhamento de conteúdo
 
@@ -34,14 +34,14 @@ Este artigo descreve as seguintes configurações de política de reunião relac
 
 - [Modo de compartilhamento de tela](#screen-sharing-mode)
 - [Permitir que um participante conceda ou solicite o controle](#allow-a-participant-to-give-or-request-control)
-- [Permitir que um participante externo conceda ou solicite o controle](#allow-an-external-participant-to-give-or-request-control)
+- [Os participantes externos podem dar ou solicitar controle](#external-participants-can-give-or-request-control)
 - [PowerPoint Live](#powerpoint-live)
 - [Quadro de comunicações](#whiteboard)
 - [Anotações compartilhadas](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>Modo de compartilhamento de tela
 
-Essa configuração é uma combinação de políticas por organizador e por usuário. Essa configuração controla se o compartilhamento de área de trabalho e janela é permitido na reunião do usuário. Os participantes da reunião que não possuem políticas atribuídas (por exemplo, participantes anônimos e federados, convidado, B2B) herdam a política do organizador da reunião.
+Essa configuração é uma combinação de políticas por organizador e por usuário. Essa configuração controla se o compartilhamento de área de trabalho e janela é permitido na reunião do usuário. Os participantes da reunião que não têm nenhuma política atribuída (por exemplo, participantes externos) herdam a política do organizador da reunião.
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
@@ -86,22 +86,21 @@ Para usar o PowerShell para controlar quem pode conceder controle ou aceitar sol
 > [!NOTE]
 > Para conceder e assumir o controle do conteúdo compartilhado durante o compartilhamento, as duas partes devem usar o cliente da área de trabalho do Teams. Não há suporte para controle quando ambas as partes estiverem executando o Teams em um navegador. Isso ocorre devido a uma limitação técnica de que estamos planejando corrigir.
 
-## <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir que um participante externo conceda ou solicite o controle
+## <a name="external-participants-can-give-or-request-control"></a>Os participantes externos podem dar ou solicitar controle
 
 Essa configuração é uma política por usuário. Se uma organização definiu essa política para um usuário não controla o que os participantes externos podem fazer, independentemente do que o organizador da reunião definiu. Esse parâmetro controla se os participantes externos podem receber ou solicitar controle da tela de compartilhamento do participante, dependendo do que o participante do compartilhamento definiu dentro das políticas da sua organização. Os participantes externos nas reuniões das Teams podem ser categorizados da seguinte maneira:  
 
-- Usuário anônimo
-- Usuários convidados  
-- Usuário B2B
-- Usuário federado  
+- Participante anônimo
+- Convidados
+- Usuários de acesso externo
 
-Se os usuários federados podem conceder controle aos usuários externos enquanto o compartilhamento é controlado pela configuração **Permitir que um participante externo conceda ou solicite o controle** na organização.
+Se os usuários de acesso externo podem dar controle a outros participantes externos enquanto o compartilhamento é controlado pelos participantes **externos** podem fornecer ou solicitar a configuração de controle em sua organização.
 
 Para usar o PowerShell para controlar se os participantes externos podem conceder controle ou aceitar solicitações de controle, use o cmdlet AllowExternalParticipantGiveRequestControl.
 
 ### <a name="powerpoint-live"></a>PowerPoint Live
 
-Essa é uma política por usuário. Essa configuração controla se o usuário pode compartilhar os decks de slides do PowerPoint em uma reunião. Os usuários externos, incluindo usuários anônimos, convidados e federados, herdam a política do organizador da reunião.
+Essa é uma política por usuário. Essa configuração controla se o usuário pode compartilhar os decks de slides do PowerPoint em uma reunião. Os participantes externos, incluindo usuários anônimos, convidados e de acesso externo, herdam a política do organizador da reunião.
 
 Observe o exemplo a seguir.
 
@@ -114,7 +113,7 @@ Amanda não pode compartilhar os conjunto de slides do PowerPoint nas reuniões,
 
 ## <a name="whiteboard"></a>Quadro de comunicações
 
-Essa configuração é uma política por usuário. Essa configuração controla se um usuário pode compartilhar o quadro de comunicações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião.
+Essa configuração é uma política por usuário. Essa configuração controla se um usuário pode compartilhar o quadro de comunicações em uma reunião. Os participantes externos, incluindo usuários anônimos, convidados e de acesso externo, herdam a política do organizador da reunião.
 
 Observe o exemplo a seguir.
 
@@ -133,7 +132,7 @@ Quando o quadro de comunicações estiver habilitado, os usuários terão a opç
 
 ## <a name="shared-notes"></a>Anotações compartilhadas
 
-Essa configuração é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. No momento, só há suporte para a guia **Anotações de reunião** com reuniões com menos de 20 participantes.
+Essa configuração é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os participantes externos, incluindo anônimos, convidados e acesso externo, herdam a política do organizador da reunião. No momento, só há suporte para a guia **Anotações de reunião** com reuniões com menos de 20 participantes.
 
 Observe o exemplo a seguir.
 

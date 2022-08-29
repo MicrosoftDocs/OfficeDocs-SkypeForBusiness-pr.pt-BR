@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams para participantes e convidados.
-ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: da04d38ce63e43414c1a560f92593fbd76ef5b0c
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713349"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396502"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -40,7 +40,7 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 - [Chat em reuniões](#chat-in-meetings)
 
 > [!NOTE]
->As opções para ingressar em uma reunião variam, dependendo das configurações de cada grupo do Teams e do método de conexão. Se o seu grupo tiver audioconferência e a usar para se conectar, confira [Audioconferência](/microsoftteams/audio-conferencing-in-office-365). Se o seu grupo do Teams não tiver audioconferência, confira [Participar de uma reunião do Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+> As opções para ingressar em uma reunião variam, dependendo das configurações de cada grupo do Teams e do método de conexão. Se o seu grupo tiver audioconferência e a usar para se conectar, confira [Audioconferência](/microsoftteams/audio-conferencing-in-office-365). Se o seu grupo do Teams não tiver audioconferência, confira [Participar de uma reunião do Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>Permitir que pessoas anônimas ingressem em uma reunião
 
@@ -71,7 +71,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
 |**Pessoas da minha organização e organizações confiáveis**     |Os usuários autenticados dentro da organização, incluindo convidados e usuários de organizações confiáveis, ingressam na reunião diretamente sem aguardar no lobby.  Os usuários anônimos aguardam o lobby.   |
 |**Pessoas na minha organização**    |Os usuários autenticados de dentro da organização ingressam na reunião diretamente sem aguardar no lobby.  Os usuários de organizações confiáveis, convidados e usuários anônimos aguardam no lobby.          |
 |**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página de opções de reunião do cliente do Teams, ele aparece como "Somente eu".          |
-|**Somente usuários convidados**    |Somente usuários convidados e organizadores da reunião podem ingressar na reunião diretamente sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página de opções de reunião do cliente do Teams, ele aparece como "Pessoas que eu convidar". Os usuários adicionados como parte de um grupo de distribuição terão que passar pelo lobby.      |
+|**Somente usuários convidados**    |Somente usuários convidados e organizadores da reunião podem ingressar na reunião diretamente sem aguardar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby. Na página de opções de reunião do cliente do Teams, ele aparece como "Pessoas eu convidar". Os usuários adicionados como parte de um grupo de distribuição terão que passar pelo lobby.      |
 
  > [!NOTE]
 > As organizações confiáveis são domínios com os qual você permite comunicações federadas no Teams. Se você **habilitar Permitir todos os domínios externos** para acesso externo no centro de administração do Teams, qualquer usuário autenticado em qualquer organização do Teams será confiável. Se você optar por especificar domínios externos permitidos e bloquear todos os outros, os domínios permitidos se tornarão organizações confiáveis. Qualquer domínio bloqueado é considerado não uma organização confiável.
@@ -98,15 +98,20 @@ Essa configuração é uma política por usuário e se aplica durante uma reuni�
 
 ## <a name="chat-in-meetings"></a>Chat em reuniões
 
-Essa configuração é uma configuração por participante. Essa configuração controla se o chat de reunião é permitido na reunião do usuário.
-
-Essa configuração não se aplica a reuniões de canal. Depois que essa política de chat de reunião é aplicada aos usuários, um organizador não pode substituir essa política por meio de opções de reunião.
+Essa é uma política por usuário e por organizador. Essa configuração controla se o chat de reunião é permitido na reunião do usuário. Essa configuração não se aplica a reuniões de canal.
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
 |**Ativá-lo para todos**     | Todos os participantes podem escrever e exibir mensagens de chat. |
 |**Desative-o para todos**     | O chat de reunião está desativado para todos os participantes.  |
 |**Ativá-lo para todos, exceto usuários anônimos**     | O acesso de gravação de chat de reunião está desativado somente para participantes anônimos.  |
+
+Depois que **essa política de Chat em reuniões** for aplicada aos usuários, um organizador não poderá substituir essa política por meio das **opções de Reunião**.
+
+A política aplicada ao organizador da reunião pode afetar outros usuários na reunião. Por exemplo:
+
+- Se o organizador tiver o **Chat** em reuniões definido  para ativá-lo para todos ou ativá-lo para todos, exceto usuários anônimos **, a** política individual de um usuário  será aplicada e todos os usuários com Desativação para todos os usuários definidos não poderão conversar na reunião.
+- Se o organizador tiver **o Chat em reuniões** definido como Desativá-lo para **todos, a** política do organizador será aplicada e ninguém poderá conversar na reunião.
 
 <a name="bkparticipantsandguests"> </a>
 

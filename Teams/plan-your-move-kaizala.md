@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: b74ce30621f415417859fc5f6d95a23a2e5db89d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e9c9920826a664aaa948a6b6c9d5470a4dd3298
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269626"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443448"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Planejando uma transição bem-sucedida do Kaizala para o Microsoft Teams
+
+> [!Important]
+> O Microsoft Kaizala será desativado em 31 de agosto de 2023. É recomendável atualizar para o Microsoft Teams para conexão contínua, compartilhamento e colaboração. Após a data de desativação, o acesso e o suporte para o Kaizala serão descontinuados.
 
 À medida que você embarca em sua mudança do Kaizala para o Microsoft Teams, é importante aproveitar o tempo para [](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) planejar uma transição bem-sucedida. Um plano de transição sólido fornece estrutura para sua movimentação e garante que todos os stakeholders estejam trabalhando em direção a uma meta comum. Usar uma estrutura comprovada para implementar a alteração pode ajudá-lo a começar sua transição hoje.
 

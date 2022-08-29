@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952775"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397268"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guia para o Administrador de TI sobre o Insights no Microsoft Teams para Educação
 
@@ -256,13 +256,15 @@ Há dois lugares em que você pode controlar o *Insights para Educação*. Ambas
 1. Acesse **Configurações** > **Gerenciar Insights para Educação**.
 1. Ajuste a alternância **Coletar dados de atividade para Insights** para ativar ou desativar.
 
-![Captura de tela das alternâncias do centro de administração do SDS para ativar e desativar o Insights](media/manage-insights-toggles.png)
+![Captura de tela das alternâncias do centro de administração do SDS para ativar e desativar o Insights.](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>Ativar e desativar o Insights do cliente do Teams
 
 1. Se você não tiver o aplicativo pessoal fixado *Insights para Educação*, siga [estas instruções](class-insights.md#education-leaders) para adicioná-lo.
 1. Com uma conta de administrador do Microsoft 365, abra a página de **configurações do Administrador** usando o ícone de reticências localizado no canto superior direito do *Insights para Educação*.
 1. Ajuste a alternância **Coletar dados de atividade para Insights** para ativar ou desativar.
+
+![Captura de tela das alternâncias de cliente do Teams para ativar e desativar o Insights.](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > Se você tiver desativado o Insights, os dados coletados serão excluídos. Os dados excluídos na desativação não podem ser restaurados posteriormente, mesmo se o Insights for reativado.

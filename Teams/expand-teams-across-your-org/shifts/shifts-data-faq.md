@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f7132f79936616ba66565cd133e5ab8616541254
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268186"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396852"
 ---
 # <a name="shifts-data-faq"></a>Perguntas frequentes sobre deslocamentos de dados
 
@@ -96,7 +97,7 @@ Para ver quais campos foram alterados, você pode pesquisar o log de auditoria d
 
 As APIs do Shifts Graph permitem integrar dados do Shifts com sistemas de gerenciamento de força de trabalho externa (WFM). Para saber mais, confira [AS APIs do Shifts Graph](/graph/api/resources/shift).
 
-Também oferecemos conectores shifts gerenciados e conectores shifts de software livre. Com esses conectores, você pode integrar seu WFM diretamente com o Shifts. Para saber mais sobre conectores shifts e sistemas WFM com suporte, consulte [conectores shifts](shifts-connectors.md).
+Também oferecemos conectores de Shifts gerenciados. Com esses conectores, você pode integrar seu WFM diretamente com o Shifts. Para saber mais sobre conectores shifts e sistemas WFM com suporte, consulte [conectores shifts](/microsoft-365/frontline/shifts-connectors).
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Os dados shifts podem ser excluídos permanentemente após um período de tempo especificado?
 

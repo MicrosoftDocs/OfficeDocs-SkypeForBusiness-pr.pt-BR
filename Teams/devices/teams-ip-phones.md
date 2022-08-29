@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 7feb5cbf411884bfe5249ebf0bbe237c4547fcbc
-ms.sourcegitcommit: 976d49c8c1104282c205ac533ed10450a5371950
+ms.openlocfilehash: 74f8a25955d112548b5bbd311a0e51d110c4944d
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67304070"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426838"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -112,8 +112,8 @@ Os seguintes dispositivos são certificados no Programa de Certificação dos pa
 | Modelo de dispositivo| Versão do firmware | Data de término da certificação atual | Versão do sistema operacional Android |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Painel de Painéis Puros    | `NFA1.20220211.1400` | 5 de agosto de 2023 | 9 |
-|Crestron TSS-770 | `1.003.0082` |5 de dezembro de 2022  | 8.1 |
-|Crestron TSS-1070 | `1.003.0082`|5 de dezembro de 2022 | 8.1 |
+|Crestron TSS-770 | `2.001.0058` |3 de setembro de 2024  | 10 |
+|Crestron TSS-1070 | `2.001.0058`|3 de setembro de 2024 | 10 |
 |Yealink RoomPanel | `147.15.0.1`|5 de agosto de 2023   | 9 |
 |Logitech TAP Scheduler | `1.3.111` |3 de setembro de 2024 | 10 |
 
@@ -131,7 +131,8 @@ A seguir estão as versões mais recentes de firmware e aplicativo de telefone d
 | Atualização nº 2 de 2022   | 21 de março de 2022   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | Atualização de 2022 #1C  | 3 de março de 2022  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
 | Atualização de 2022 #1B  | 7 de fevereiro de 2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
-| Atualização 1 de 2022   | 7 de fevereiro de 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| Atualização de 2022 #1A  | 7 de fevereiro de 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| Atualização 1 de 2022   | 6 de fevereiro de 2022   | `1449/1.0.94.2021724504` |`5.0.5304.0` | `322` |
 | Atualização de 2021 #3C | 16 de dezembro de 2021   | `1449/1.0.94.2021121302` | `5.0.5304.0` | `298` |
 | Atualização de 2021 #3B | 6 de dezembro de 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | Atualização de 2021 #3A | 22 de novembro de 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
@@ -152,6 +153,9 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware  | Versão de produto incluída  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C435HD/C455HD/C470HD | `1.17.741` | Atualização de 2022 #3A    |
+|Poly Trio C60 | `7.3.2.0174` | Atualização de 2022 #3A |
+|Poly CCX 400/500/600/505 | `7.3.2.0182` | Atualização de 2022 #3A |
 |Yealink T55A/T56A/T58A   | `58.15.0.168`     | Atualização de 2022 #3A  |
 |Yealink VP59  | `91.15.0.102`     | Atualização de 2022 #3A  |
 |Yealink CP960  | `73.15.0.163`     | Atualização de 2022 #3A  |
@@ -174,21 +178,21 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 |Audiocódigos C435HD  | `1.14.524` | Atualização de 2022 #1C  |
 | Poly Trio C60   | `7.2.1.1975`  | Atualização de 2022 #1C                        |
 | Poly CCX400/CCX500/CCX600   | `7.2.1.1971`  | Atualização de 2022 #1C            |
-| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | Atualização 1 de 2022 |
-| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | Atualização 1 de 2022 |
-| Poly Trio C60   | `7.2.1.1831`  | Atualização 1 de 2022                        |
-| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | Atualização 1 de 2022                 |
-|Crestron UC-2     | `1.0.4.75`    | Atualização 1 de 2022 |
-|Audiocódigos C455HD | `1.15.271`    | Atualização 1 de 2022
-|Códigos de áudio C448HD  | `1.14.500` | Atualização 1 de 2022 |
-|Audiocódigos C450HD  | `1.14.500` | Atualização 1 de 2022  |
-|Códigos de áudio C470HD  | `1.14.500` | Atualização 1 de 2022   |
-|Audiocódigos C435HD  | `1.14.500` | Atualização 1 de 2022  |
-|Yealink T55/T56/T58   | `58.15.0.153`  | Atualização de 2022 #1B |
-|Yealink MP54/MP56/MP58   | `122.15.0.77`     | Atualização de 2022 #1B  |
-| Yealink VP59   | `91.15.0.87`  | Atualização de 2022 #1B     |
-| Yealink CP960  | `73.15.0.150`  | Atualização de 2022 #1B      |
-| Yealink MP52 | `145.15.0.25`  | Atualização de 2022 #1B         |
+| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | Atualização de 2022 #1A |
+| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | Atualização de 2022 #1A |
+| Poly Trio C60   | `7.2.1.1831`  | Atualização de 2022 #1B                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | Atualização de 2022 #1B                 |
+|Crestron UC-2     | `1.0.4.75`    | Atualização de 2022 #1A |
+|Audiocódigos C455HD | `1.15.271`    | Atualização de 2022 #1A |
+|Códigos de áudio C448HD  | `1.14.500` | Atualização de 2022 #1A |
+|Audiocódigos C450HD  | `1.14.500` | Atualização de 2022 #1A  |
+|Códigos de áudio C470HD  | `1.14.500` | Atualização de 2022 #1A   |
+|Audiocódigos C435HD  | `1.14.500` | Atualização de 2022 #1A  |
+|Yealink T55/T56/T58   | `58.15.0.153`  | Atualização 1 de 2022 |
+|Yealink MP54/MP56/MP58   | `122.15.0.77`     | Atualização 1 de 2022  |
+| Yealink VP59   | `91.15.0.87`  | Atualização 1 de 2022     |
+| Yealink CP960  | `73.15.0.150`  | Atualização 1 de 2022      |
+| Yealink MP52 | `145.15.0.25`  | Atualização 1 de 2022         |
 | Poly Trio C60  | `7.1.4.0250 ` | Atualização de 2021 #3C  |
 | Poly CCX400/CCX500/CCX600    | `7.1.4.0253  `| Atualização de 2021 #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | Atualização de 2021 #3B                        |
@@ -370,6 +374,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão de produto incluída|
 |:--------------|:-----------------|:-------------------------|
+|Painel de Painéis Puros | `NFA1.20220512.2210` | Atualização nº 2 de 2022  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | Atualização 1 de 2022|
 |Logitech Tap Scheduler | `1.6.762` |Atualização nº 2 de 2022  |
 |Painel de Painéis Puros |NFA1.20220512.2158 | Atualização nº 2 de 2022 |

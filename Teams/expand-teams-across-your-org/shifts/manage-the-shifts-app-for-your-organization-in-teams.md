@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269006"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405133"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -90,6 +91,17 @@ Um [pacote de políticas](../../manage-policy-packages.md) no Teams é uma cole�
 
 É recomendável usar os pacotes de políticas do Frontline Worker e do Frontline Manager à medida que eles simplificam, simplificam e ajudam a fornecer consistência ao gerenciar políticas para sua força de trabalho de linha de frente.
 
+### <a name="enable-shift-based-tags-in-teams"></a>Habilitar marcas baseadas em turnos no Teams
+
+[As](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e) marcas no Teams permitem que os usuários se conectem facilmente com um subconjunto de pessoas em uma equipe. Com marcas baseadas em turno, as pessoas recebem automaticamente marcas que correspondem ao nome do grupo de turnos e agendamento em Turnos. A marca pode ser usada @mentions na linha Para em um chat  ou em uma postagem em qualquer canal padrão da equipe.
+
+As marcas baseadas em shift permitem que os usuários alcancem pessoas que estão no turno em tempo real. As notificações são enviadas somente para as pessoas que estão no turno no momento em que a marca é usada em uma postagem de chat ou canal. Por exemplo:
+
+- Um gerente de loja usa a @Cashiers para postar um comunicado em um canal para todos os caixas de turno.
+- Uma enfermeira usa o @CardiologistsOnCall marca para iniciar um chat com todos os east-on-call.
+
+Você pode ativar ou desativar o recurso no centro de administração do Microsoft Teams. Para saber mais, confira [Gerenciar marcações no Teams](../../manage-tags.md).
+
 ## <a name="search-the-audit-log-for-shifts-events"></a>Pesquisar o registro de auditoria para eventos do Turnos
 
 **(Em versão prévia)**
@@ -104,4 +116,4 @@ Para examinar o log de auditoria, você precisa ativar a auditoria no [Centro de
 - [Perguntas frequentes sobre deslocamentos de dados](shifts-data-faq.md)
 - [Conectores de turnos](/microsoft-365/frontline/shifts-connectors)
 - [Ajuda de turnos para trabalhadores da linha de frente](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Atribuir políticas aos usuários no Microsoft Teams](../../policy-assignment-overview.md)
+- [Atribua políticas a seus usuários no Teams](../../policy-assignment-overview.md)

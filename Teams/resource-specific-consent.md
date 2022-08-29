@@ -12,12 +12,12 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b506352052924b8394cbdfc712ce96750b96523
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298890"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396462"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimento específico do recurso no Microsoft Teams
 
@@ -31,7 +31,7 @@ Como administrador, você controla se os proprietários de equipe em sua organiz
 
 Aqui estão as configurações que você deve definir para controlar se os proprietários de equipe podem dar consentimento a aplicativos. Examine todas as configurações a seguir.
 
-### <a name="settings-in-azure-ad"></a>Configurações no Azure AD
+### <a name="settings-in-azure-active-directory-portal"></a>Configurações no portal do Azure Active Directory
 
 As duas configurações a seguir determinam se os proprietários de equipe podem dar consentimento a aplicativos.
 
@@ -62,8 +62,8 @@ Além das configurações no Azure AD, as [configurações de aplicativo em toda
 
 Essa configuração de aplicativo em toda a organização controla se os usuários em sua organização podem usar aplicativos de terceiros. Essa configuração deve estar habilitada para permitir que os proprietários de equipe deem consentimento. Para gerenciar essa configuração, faça o seguinte:
 
-1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, acesse **Aplicativos do Teams** > **Gerenciar aplicativos** e, em seguida, clique em **Configurações de aplicativo em toda a organização**.
-2. Em **Aplicativos de terceiros**, desative ou ative **Permitir aplicativos de terceiros**.
+1. Entre no centro de administração do Teams e acesse os aplicativos **do Teams Gerenciar** > **[aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Selecione **configurações de aplicativo em** toda a organização e, em **Aplicativos** de terceiros, desative ou ative **Permitir aplicativos de terceiros**.
 
     ![Captura de tela da configuração "Permitir aplicativos de terceiros no Teams"](media/resource-specific-consent-org-wide-setting.png)
 
@@ -73,8 +73,8 @@ Talvez você precise aguardar até 24 horas para que as configurações entrem e
 
 Quando você bloqueia ou permite um aplicativo na página [Gerenciar aplicativos](manage-apps.md#allow-and-block-apps), esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização. Os proprietários de equipe só poderão dar consentimento a um aplicativo se o aplicativo for permitido. Para permitir ou bloquear um aplicativo no nível da organização, faça o seguinte:
 
-1. Na navegação à esquerda do Centro de Administração do Microsoft Teams, vá para **Aplicativos do Teams** > **Gerenciar aplicativos**.
-2. Na página Gerenciar aplicativos, selecione o aplicativo e clique em **Bloquear** para bloqueiá-lo ou clique em **Permitir** para permiti-lo.
+1. Entre no centro de administração do Teams e acesse os aplicativos **do Teams Gerenciar** > **[aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Na página Gerenciar aplicativos, selecione o aplicativo e, em seguida, selecione **Bloquear** para bloqueiá-lo **ou selecione Permitir** para permitir.
 
     ![Captura de tela dos aplicativos bloqueados nas configurações em toda a organização.](media/resource-specific-consent-allow-block-apps.png)
 
@@ -83,16 +83,16 @@ Quando você bloqueia ou permite um aplicativo na página [Gerenciar aplicativos
 Os proprietários de equipe só podem dar consentimento a aplicativos que sua política de permissão de aplicativo permite que eles executem. Para exibir e gerenciar a política de permissão do aplicativo atribuída a um proprietário de equipe, faça o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **Usuários**.
-2. Clique duas vezes no nome de exibição do proprietário de equipe e clique em **Políticas**.
-3. A política atribuída ao proprietário de equipe é listada na **política de permissão do aplicativo**.
-    - Para atribuir uma política diferente, clique em **Editar** e selecione a política que você deseja atribuir.
-    - Para editar as configurações da política atribuída ao proprietário de equipe, clique no nome da política e faça as alterações desejadas.  
+1. Clique duas vezes no nome de exibição do proprietário da equipe e selecione **Políticas**.
+1. A política atribuída ao proprietário de equipe é listada na **política de permissão do aplicativo**.
+    - Para atribuir uma política diferente, selecione **Editar** e, em seguida, selecione a política que você deseja atribuir.
+    - Para editar as configurações da política atribuída ao proprietário da equipe, selecione o nome da política e faça as alterações desejadas.  
 
-## <a name="uploading-custom-apps"></a>Carregando aplicativos personalizados
+## <a name="upload-custom-apps"></a>Carregar aplicativos personalizados
 
 Ao carregar um aplicativo personalizado (também conhecido sideload) que usa o consentimento específico do recurso, o aplicativo deve vir do locatário para o qual ele está sendo instalado. Em outras palavras, o registro do aplicativo Azure AD deve ser desse locatário. Os administradores globais são isentos dessa restrição e podem carregar aplicativos personalizados de qualquer locatário, diretamente para uma equipe (sideload) ou para o catálogo de aplicativos do locatário.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 - [Permissões RSC disponíveis](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

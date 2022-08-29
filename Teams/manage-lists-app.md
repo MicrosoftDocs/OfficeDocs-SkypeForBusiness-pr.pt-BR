@@ -21,15 +21,16 @@ ms.collection:
 - microsoftcloud-healthcare
 - microsoftcloud-retail
 - m365initiative-lists
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842227"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396272"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Listas para sua organização no Microsoft Teams
 
@@ -95,7 +96,7 @@ Se os usuários em sua organização criaram listas usando o aplicativo SharePoi
 
 O Listas é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
 
-1. No painel esquerdo do centro de administração do Microsoft Teams, acesse Aplicativos **do Teams Gerenciar** > **aplicativos**.
+1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Siga um destes procedimentos:
 
     - Para desativar listas da sua organização, pesquise o aplicativo Listas, selecione-o e selecione **Bloquear**.

@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como definir as configurações do usuário para encaminhamento e delegação de chamadas.
-ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272226"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397352"
 ---
 # <a name="configure-call-settings-for-your-users"></a>Definir configurações de chamada para seus usuários
 
@@ -56,6 +56,10 @@ Para configurar o toque simultâneo, na mesma página, selecione **Tocar nos dis
 Para definir as configurações não respondidas, na mesma página, selecione a configuração apropriada **na lista suspensa** Se não respondida. No Anel **para esses muitos segundos antes de redirecionar** a lista suspensa, especifique o número de segundos de espera.
 
 A configuração da delegação de chamadas e do recebimento de chamadas em grupo é integrada às configurações de encaminhamento de chamadas e não respondidas selecionando o tipo apropriado. Por exemplo, para configurar essas chamadas também deve tocar nos representantes do usuário, na mesma página, selecione Delegação **de** chamada em **Também permitir**. Em seguida, adicione os delegados apropriados **selecionando Adicionar pessoas** e clicando em **Salvar**.
+
+Este vídeo mostra as etapas para exibir e editar as configurações de voz de um usuário.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## <a name="use-powershell"></a>Usar o PowerShell
 

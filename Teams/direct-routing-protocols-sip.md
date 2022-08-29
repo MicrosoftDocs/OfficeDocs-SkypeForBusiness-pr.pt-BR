@@ -16,12 +16,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4ba1715ccf7b1ea2f0dbf12b58fd5aa6556b24
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 00df395ab67ea3e268cb31f202dd59cba4d4148b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271256"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396312"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento direto – protocolo SIP
 
@@ -42,7 +42,7 @@ Antes que uma chamada de entrada ou saída possa ser processada, as mensagens OP
 | Cabeçalho de Contato | Contato: <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> Os cabeçalhos SIP não contêm userinfo no URI SIP em uso. De acordo com a [RFC 3261, seção 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), a parte de userinfo de um URI é opcional e PODE estar ausente quando o host de destino não tem uma noção de usuários ou quando o próprio hosst é o recurso que está sendo identificado. Se o sinal @ estiver presente em um URI SIP, o campo do usuário NÃO DEVERÁ estar vazio.
+> Os cabeçalhos SIP não contêm userinfo no URI SIP em uso. De acordo com a [RFC 3261, seção 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), a parte userinfo de um URI é opcional e PODE estar ausente quando o host de destino não tem uma noção de usuários ou quando o host em si é o recurso que está sendo identificado. Se o sinal @ estiver presente em um URI SIP, o campo do usuário NÃO DEVERÁ estar vazio.
 > Observe que o URI SIPS não deve ser usado com o Roteamento Direto, pois não há suporte para ele.
 > Verifique a configuração do Controlador de Borda de Sessão e verifique se você não está usando cabeçalhos "Substitui" em solicitações SIP. O Roteamento Direto rejeitará solicitações SIP que têm cabeçalhos Replaces definidos.
 

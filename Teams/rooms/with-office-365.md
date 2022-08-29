@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este artigo para obter informações sobre como criar contas de recursos para salas e dispositivos compartilhados, incluindo Salas do Microsoft Teams, Salas do Teams no Surface Hub e hot-desking em exibições do Teams.
-ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271706"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405153"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Criar e configurar contas de recursos para salas e dispositivos compartilhados do Teams
 
@@ -95,7 +95,7 @@ Crie uma conta de recurso usando um método de uma das seguintes guias:
 
 3. Vá para **Recursos** no painel esquerdo e selecione Salas **& equipamento**. Se essas opções não estiverem disponíveis no painel esquerdo, talvez seja necessário selecionar **Mostrar tudo** primeiro.
 
-4. Selecione **Adicionar uma caixa de correio de recurso** para criar uma nova conta de sala. Insira um nome de exibição e um endereço de email para a conta, selecione **Adicionar** e, em seguida, **selecione Fechar**.
+4. Selecione **Adicionar recurso** para criar uma nova conta de sala. Insira um nome de exibição e um endereço de email para a conta, selecione **Adicionar** e, em seguida, **selecione Fechar**.
 
 5. Por padrão, as contas de recurso são definidas com as seguintes configurações:
 
@@ -105,13 +105,13 @@ Crie uma conta de recurso usando um método de uma das seguintes guias:
       - Duração máxima (horas): 24
     - Aceitar automaticamente solicitações de reunião
 
-    Se você quiser alterá-las, selecione **Definir opções de agendamento** antes de selecionar **Fechar**. Se você quiser alterá-los mais tarde, vá  >  para Salas de Recursos **& equipamento**, selecione a conta de recurso. Em Seguida, **em Opções de Reserva**, selecione **Editar**.
+    Se você quiser alterá-las, selecione **Editar opções de reserva** antes de selecionar **Fechar**. Se você quiser alterá-los mais tarde, vá  >  para Salas de Recursos **& equipamento**, selecione a conta de recurso. Em Seguida, **em Opções de Reserva**, selecione **Editar**.
 
 6. Vá para **Usuários** > **Ativos e** selecione a sala que você criou para abrir o painel de propriedades.
 
 7. Em seguida, atribua uma senha à conta de recurso. No painel, selecione **Redefinir senha**.
  
-8. Exigir que os usuários alterem a senha em um dispositivo compartilhado causará problemas de entrada. **Desmarque Exigir que esse usuário altere a senha ao** entrar pela primeira vez e selecione **Redefinir**.
+8. Exigir que os usuários alterem a senha em um dispositivo compartilhado causará problemas de entrada. **Desmarque Exigir que esse usuário altere a senha** ao entrar pela primeira vez e selecione **Redefinir senha**.
 
 9. Na seção **Licenças e Aplicativos** , defina **Selecionar local** para o país ou região em que o dispositivo será instalado. Em seguida, selecione a licença que você deseja atribuir, como a Sala de Reunião, e selecione **Salvar alterações**. A licença pode variar dependendo da sua organização.
 
@@ -250,7 +250,7 @@ Primeiro, conecte-se ao Active Directory PowerShell:
    Connect-AzureAD
 ```
 
-Em seguida, consulte [Definir uma senha para nunca expirar](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
+Em seguida, consulte [Definir uma senha para nunca expirar](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire).
 
 Este exemplo define a senha para a conta ConferenceRoom01@contoso.com nunca expirar.
 
@@ -288,7 +288,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    Para obter detalhes sobre o Active Directory PowerShell, consulte [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+    Para obter detalhes sobre o Active Directory PowerShell, consulte [ActiveDirectory](/powershell/module/activedirectory/).
 
 2. Defina a senha para nunca expirar usando a seguinte sintaxe:
 

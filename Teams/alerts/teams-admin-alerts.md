@@ -16,12 +16,12 @@ description: Saiba mais sobre os recursos de alertas e notificações do Teams d
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616287"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283082"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Monitoramento e alertas do Microsoft Teams
 
@@ -32,6 +32,9 @@ Sua organização pode usar o monitoramento e os alertas do Teams para fazer os 
 - Gerenciar automaticamente os recursos do Teams
 - Seja alertado se eles mostrarem algo inesperado.
 - Execute ações corretivas para colocar as coisas de volta no controle.
+
+> [!NOTE]
+> A funcionalidade de alerta no Centro de administração do Teams não está disponível em ambientes GCC/GCC-High.
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>Como gerenciar monitoramento e alertas
 

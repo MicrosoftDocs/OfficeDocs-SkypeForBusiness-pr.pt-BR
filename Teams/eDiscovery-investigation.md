@@ -16,12 +16,12 @@ description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28605ac0f691083151fbb84c73c2ffcfa92ca3b4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c77cb7cda26b6061ee1e4fce05bf5ff326b7116b
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269056"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283112"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -35,25 +35,24 @@ A Descoberta Eletrônica de mensagens e arquivos em [canais privados](private-ch
 
 Nem todo o conteúdo do Teams é Descoberta Eletrônica. A tabela a seguir mostra os tipos de conteúdo que você pode pesquisar usando as ferramentas de Descoberta Eletrônica da Microsoft:
 
-|Tipo de conteúdo|Descoberta Eletrônica|Observações|
-|---|---|---|
-|Gravações de áudio|Sim||
-|Conteúdo do cartão|Sim|Consulte [Pesquisar conteúdo de cartão](#search-for-card-content) para obter mais informações.|
-|Links de chat|Sim||
-|Mensagens de chat|Sim|Isso inclui conteúdo em canais padrão do Teams, chats 1:1, chats em grupo 1:N e chats com participantes do usuário convidado.|
-|Snippets de código|Não||
-|Mensagens editadas|Sim|Se o usuário estiver em espera, as versões anteriores das mensagens editadas também serão preservadas.|
-|Emojis, GIFs e adesivos|Sim||
-|Notificações de feed|Não||
-|Imagens embutidas|Sim||
-|Componentes de loop|Sim|O conteúdo em um componente de loop é salvo em um arquivo .fluid armazenado na conta OneDrive for Business do usuário que envia o componente de loop. Isso significa que você precisa incluir o OneDrive como uma fonte de dados ao pesquisar conteúdo em componentes de loop.|
-|Conversas de mensagens instantâneas de reunião|Sim||
-|Metadados<sup>de reunião 1</sup>|Sim||
-|Nome do canal|Sim||
-|Citações|Sim|O conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado.|
-|Reações (como likes, hearts e outras reações)|Sim|Há suporte para reações para todos os clientes comerciais após 1º de junho de 2022. As reações antes dessa data não estão disponíveis para a Descoberta Eletrônica. O suporte à nuvem do governo está planejado. Não há suporte legal para reações.|
-|Assunto|Sim||
-|Tabelas|Sim||
+|Tipo de conteúdo|Observações|
+|---|---|
+|Gravações de áudio||
+|Conteúdo do cartão|Consulte [Pesquisar conteúdo de cartão](#search-for-card-content) para obter mais informações.|
+|Links de chat||
+|Mensagens de chat|Isso inclui conteúdo em canais padrão do Teams, chats 1:1, chats em grupo 1:N e chats com participantes do usuário convidado.|
+|Snippets de código||
+|Mensagens editadas|Se o usuário estiver em espera, as versões anteriores das mensagens editadas também serão preservadas.|
+|Emojis, GIFs e adesivos||
+|Imagens embutidas||
+|Componentes de loop|O conteúdo em um componente de loop é salvo em um arquivo .fluid armazenado na conta OneDrive for Business do usuário que envia o componente de loop. Isso significa que você precisa incluir o OneDrive como uma fonte de dados ao pesquisar conteúdo em componentes de loop.|
+|Conversas de mensagens instantâneas de reunião||
+|Metadados<sup>de reunião 1</sup>||
+|Nome do canal||
+|Citações|O conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado.|
+|Reações (como likes, hearts e outras reações)|Há suporte para reações para todos os clientes comerciais após 1º de junho de 2022. As reações antes dessa data não estão disponíveis para a Descoberta Eletrônica. O suporte à nuvem do governo está planejado. Não há suporte legal para reações.|
+|Assunto||
+|Tabelas||
 
 <sup>1</sup> Os metadados de reunião (e chamada) incluem o seguinte:
 

@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 355188b2c9e3e563be7e48eb30bee6884d67b04c
-ms.sourcegitcommit: 3335cdff195be42b87f1e00348214e16cc490c7f
+ms.openlocfilehash: 0fc979e9c4c6aa12fb4538210ad5c5264ad49aa6
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2022
-ms.locfileid: "67077626"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396672"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece o log de alterações mais recente do PowerShell do Teams p
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| Agosto de 2022 | [Versão prévia 4.6.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Corrige problemas com a limpeza de processo ao usar o módulo em aplicativos PS ISE e dotnet.</li>
 | Julho de 2022 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>Libera o parâmetro AccountType para o cmdlet Get-CsOnlineUser, que permite consultar tipos específicos de usuários.</li><li>O atributo AccountType é adicionado na saída Get-CsOnlineUser indicando o tipo de usuário. Os valores possíveis para AccountType são: 'Usuário' (contas de usuário), 'ResourceAccount' (pontos de extremidade do aplicativo ou contas de recurso), 'Convidado' (contas de convidado) & 'Desconhecido' (tipo de usuário não conhecido).</li><li>Corrige problemas com os parâmetros & grupo de classificação em cmdlets\<PolicyName\> Grant-Cs.</li><li>Versões [Get\|Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>Remove todos os cmdlets preteridos & cmdlets sem suporte. Detalhes nas [versões com suporte do PowerShell do Teams](teams-powershell-supported-versions.md#deprecated-cmdlets).</li><li>Versões modernizada de cmdlets [New\|Get]-CsCloudCallDataConnection.</li><li>Versões [Get\|Remove]-SharedWithTeam cmdlets.</li><li>Versões Get-TeamAllChannel cmdlet.</li><li>Versões Get-TeamIncomingChannel cmdlet.</li><li>Versões Get-AssociatedTeam cmdlet.</li><li>Versões Get-SharedWithTeamUser cmdlet.</li><li>Dá suporte ao parâmetro opcional TenantId para Add-TeamChannelUser cmdlet.</li><li>Versões Get-TeamTargetingHierarchyStatus & [Remover\|Conjunto]-TeamTargetingHierarchy cmdlets.</li>
 | Julho de 2022 | [Versão prévia 4.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>Libera o parâmetro AccountType para o cmdlet Get-CsOnlineUser, que permite consultar tipos específicos de usuários.</li><li>O atributo AccountType é adicionado na saída Get-CsOnlineUser indicando o tipo de usuário. Os valores possíveis para AccountType são: 'Usuário' (contas de usuário), 'ResourceAccount' (pontos de extremidade do aplicativo ou contas de recurso), 'Convidado' (contas de convidado) & 'Desconhecido' (tipo de usuário não conhecido).</li><li>Corrige problemas com os parâmetros & grupo de classificação em cmdlets\<PolicyName\> Grant-Cs.</li>
 | Junho de 2022 | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>Dá suporte ao parâmetro IncludeResources para Get-CsAutoAttendantStatus cmdlet.</li><li>Dá suporte ao parâmetro SoftDeletedUsers para Get-CsOnlineUser cmdlet.</li><li>Versões [Get\|Grant]-CsTeamsMediaLoggingPolicy cmdlets.</li><li>Dá suporte ao parâmetro opcional AuthorizedUsers para os cmdlets [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue.</li><li>Corrige parâmetros de prompt de caixa postal compartilhados em que o tipo de prompt não pôde ser alternado depois que eles foram definidos para Set-CsCallQueue cmdlet.</li><li> Corrige os cmdlets [New\|Set]-CsOnlineSchedule para funcionar no formato de data/hora europeu.</li><li>Versões [New\|Get\|Set\|Remove\|Grant]-CsTeamsVoiceApplicationsPolicy cmdlets.</li><li>Versões Get-CsHybridTelephoneNumber cmdlet.</li><li>Versões modernizada dos cmdlets [New\|Remove]-CsHybridTelephoneNumber.</li><li>Dá suporte a ToneStar e TonePound como valor para o parâmetro DtmfResponse New-CsAutoAttendantMenuOption cmdlet.</li><li> Corrige problemas com PSListModifier no parâmetro AllowedDomainsAsAList no cmdlet Set-CsTenantFederationConfiguration modernizado.</li><li> Dá suporte aos parâmetros Group e Rank para todos os cmdlets\<PolicyName\> Grant-Cs.</li><li> Versões Test-CsTeamsTranslationRule cmdlet.</li>

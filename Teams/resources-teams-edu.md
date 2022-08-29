@@ -1,13 +1,13 @@
 ---
-title: 'Microsoft Teams: recursos para administradores de educação'
-author: DaniEASmith
-ms.author: danismith
+title: Compartilhar recursos de adoção do Teams
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: Os administradores de educação podem aprender sobre os recursos disponíveis no Microsoft Teams para habilitar o aprendizado remoto.
+description: Os administradores de educação encontrarão recursos para o Microsoft Teams para ajudar os usuários a adotar o Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -17,22 +17,24 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f655d049d7b821e4ab4747f5ef11fe29c42ae55
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: e30d912ebcc0937bf0168c1adee972eb6d5f1a8f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789136"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426828"
 ---
-# <a name="microsoft-teams-resources-for-education-admins"></a>Recursos do Microsoft Teams para administradores de Educação
+# <a name="share-teams-adoption-resources"></a>Compartilhar recursos de adoção do Teams
 
 ## <a name="resources-for-remote-learning"></a>Recursos para aprendizado remoto
 
-Sua escola ou universidade precisa habilitar o Microsoft Teams para aprendizado remoto? Comece a trabalhar rapidamente com o Introdução [de uma página](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) e qualquer um dos materiais de adoção abaixo!
+Ajude os usuários a começar a trabalhar com o [Introdução de uma página](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) e qualquer um dos materiais de adoção abaixo.
 
 ## <a name="adoption-content"></a>Conteúdo de adoção
 
-Obtenha sua escola animada sobre o Microsoft Teams com emails, cartazes, folhetos e mais recursos que você está livre para usar agora. Você também pode acessar os alunos online e em todo o campus com o novo kit de ferramentas digital preenchido com faixas, GIFs e vídeos. Comece hoje!
+Obtenha sua escola animada sobre o Microsoft Teams com emails gratuitos, cartazes, folhetos e muito mais.
+
+Você também pode acessar os alunos online e em todo o campus com nosso kit de ferramentas digital de faixas, GIFs e vídeos.
 
 Leia os [termos e condições antes](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) de usar esses materiais.
 
@@ -46,7 +48,7 @@ Leia os [termos e condições antes](https://github.com/MicrosoftDocs/OfficeDocs
 
 ### <a name="digital-assets"></a>Ativos digitais
 
-Confira as Diretrizes do [Kit de Ferramentas Digitais](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) para maximizar o lançamento do Teams! 
+Confira as Diretrizes [do Kit de Ferramentas Digitais para](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) ajudar no lançamento do Teams.
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,17 +58,17 @@ Confira as Diretrizes do [Kit de Ferramentas Digitais](https://github.com/Micros
 
 ## <a name="call-to-action"></a>Chamada à ação
 
-- Visite a [Teams para Educação para](https://www.microsoft.com/en-us/education/products/teams/default.aspx) treinamentos, vídeos e demonstrações interativas
-- Ativar o Teams no [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (entrar como um Office 365 administrador)
-- Baixe os clientes do Microsoft Teams: [Baixar o Microsoft Teams em todos os dispositivos](https://teams.microsoft.com/downloads)
-- Saiba mais sobre o Office 365 for Education na [Central de ajuda do Educação](https://support.office.com/education)
+- Visite a [Teams para Educação para](https://www.microsoft.com/education/products/teams/default.aspx) obter treinamentos, vídeos e demonstrações interativas.
+- Ative o Teams [no Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns).
+- Baixe clientes do Teams: [obtenha o Teams em todos os seus dispositivos](https://teams.microsoft.com/downloads).
+- Saiba mais sobre o Microsoft 365 for Education no Centro [de Ajuda de Educação](https://support.office.com/education).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Roteiro do Teams](https://aka.ms/teamsroadmap)
-- Esteja sempre em dia com nosso [Blog da comunidade de tecnologia](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
-- [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Enviar uma sugestão](https://aka.ms/eduuservoice)
-- [Entrar em contato com o suporte](https://aka.ms/o365portal)
-- [Perguntar à comunidade do Microsoft Teams](https://aka.ms/msteamscommunity)
-- [Encontrar mais recursos para a área de educação](https://education.microsoft.com/)
+- [Roteiro do Teams](https://aka.ms/teamsroadmap).
+- Mantenha-se atualizado com nosso [Blog da Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog).
+- [Visão geral do PowerShell do Teams](teams-powershell-overview.md).
+- [Envie uma sugestão](https://aka.ms/eduuservoice).
+- [Contatar o suporte](https://aka.ms/o365portal).
+- [Pergunte à comunidade do Teams](https://aka.ms/msteamscommunity).
+- [Encontre mais recursos para educação](https://education.microsoft.com/).

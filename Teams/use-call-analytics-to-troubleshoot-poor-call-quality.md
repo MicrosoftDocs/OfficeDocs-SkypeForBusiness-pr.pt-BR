@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use os detalhes da Análise de Chamadas por usuário sobre dispositivos, redes e conectividade para solucionar problemas do usuário com chamadas e reuniões do Microsoft Teams.
-ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: c83ecbad418dc471f1db2c9c71b88fa621fe4a11
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794309"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397092"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
@@ -54,6 +54,10 @@ Para ver todas as informações de chamada e dados de um usuário, acesse o Cent
 Para obter informações adicionais sobre uma determinada sessão, incluindo estatísticas detalhadas de rede e mídia, clique em uma sessão para ver os detalhes.
 
 ![Captura de tela dos dados de sessão do usuário da análise de chamada.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+
+Este vídeo mostra as etapas para exibir as reuniões de um usuário e as informações de chamada.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
 
 ## <a name="what-does-each-teams-support-role-do"></a>O que cada função de Suporte do Teams faz?
 

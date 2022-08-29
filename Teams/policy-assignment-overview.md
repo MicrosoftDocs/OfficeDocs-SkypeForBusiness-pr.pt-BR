@@ -18,12 +18,12 @@ description: Conheça as diferentes maneiras de atribuir políticas e pacotes de
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7c9855a56031d3eb22cdcbc1ac1b27dfa075db49
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268416"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418450"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Atribuir políticas no Teams – introdução
 
@@ -87,6 +87,9 @@ Siga estas etapas para definir as políticas globais (padrão em toda a organiza
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="Captura de tela que mostra a política global de atualização no Centro de administração do Teams." lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> Depois de enviar qualquer operação de política, você receberá uma caixa de diálogo pop-up para confirmá-la. Isso inclui atribuições de política, alteração de uma política existente e criação de novas políticas personalizadas. Você deve confirmar para iniciar a operação de política ou cancelar e voltar mais tarde.
+
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
 
 Para definir as políticas globais usando o PowerShell, use o identificador global.  Comece examinando a política global atual para determinar qual configuração você deseja alterar.
@@ -148,6 +151,10 @@ Para exibir suas operações de política no log de atividades:
 
 > [!NOTE]
 > Você também pode acessar o Log de atividades na **página** Usuários. Depois de selecionar **Aplicar** para enviar uma atribuição de política em massa, você verá uma faixa na parte superior da página. Selecione o link **do log de** atividades na faixa.
+
+Este vídeo mostra as etapas para exibir e gerenciar as políticas atribuídas e efetivas para um usuário.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de reunião em Microsoft Teams
+title: Gerenciar políticas de reunião no Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams e a usá-las para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205531"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396542"
 ---
-# <a name="manage-meeting-policies-in-microsoft-teams"></a>Gerenciar políticas de reunião em Microsoft Teams
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>Gerenciar políticas de reunião no Microsoft Teams
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -44,8 +44,8 @@ Você pode implementar políticas das seguintes maneiras, o que afeta a experiê
 |Tipo de implementação  |Descrição  |
 |---------|---------|
 |Por organizador    |Ao implementar uma política por organizador, todos os participantes da reunião herdam a política do organizador. Por exemplo, **Admitir pessoas automaticamente** é uma política por organizador e controla se os usuários entram na reunião diretamente ou se esperam o lobby das reuniões agendadas pelo usuário que recebeu a política.          |
-|Por usuário    |Ao implementar uma política por usuário, somente a política por usuário se aplica à restrições de certos recursos para o organizador e/ou os participantes da reunião. Por exemplo, **Reunir agora em canais** é uma política por usuário.     |
-|Por organizador e por usuário     |Ao implementar uma combinação de uma política por organizador e por usuário, alguns recursos são restritos para os participantes da reunião com base em sua política e a política do organizador. Por exemplo, **a gravação em** nuvem é uma política por organizador e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e interrompam uma gravação.
+|Por usuário    |Ao implementar uma política por usuário, somente a política por usuário se aplica à restrições de certos recursos para o organizador e/ou os participantes da reunião. Por exemplo, **reunir agora em canais** é uma política por usuário.     |
+|Por organizador e por usuário     |Ao implementar uma combinação de uma política por organizador e por usuário, alguns recursos são restritos para os participantes da reunião com base em sua política e a política do organizador. Por exemplo, **a gravação na** nuvem é uma política por organizador e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e interrompam uma gravação.
 
 Você pode editar as configurações na política global ou criar e atribuir uma ou mais políticas personalizadas. Os usuários terão a política global, a menos que você crie e atribua uma política personalizada.
 
@@ -64,16 +64,20 @@ Por exemplo, digamos que você tenha um grupo de usuários e queira limitar a qu
 
 Em **Áudio e vídeo**:
 
-- Desativar a gravação em nuvem.
-- Desativar vídeo IP.
+- Desative a gravação na nuvem.
+- Desative o vídeo IP.
 
 Em **Compartilhamento de conteúdo**:
 
 - Desative o modo de compartilhamento de tela.
-- Desativar o Quadro de Trabalho.
-- Desativar anotações compartilhadas.
+- Desative o Quadro de Comunicações.
+- Desative anotações compartilhadas.
 
 Em seguida, atribua a política aos usuários.
+
+Este vídeo mostra as etapas para criar e atribuir uma política de reunião personalizada a um usuário (ou usuários).
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
 ## <a name="edit-a-meeting-policy"></a>Editar uma política de retenção
 
@@ -86,6 +90,10 @@ Você pode editar a política global e as políticas personalizadas que criar.
 
 > [!NOTE]
 > Um usuário pode receber apenas uma política de reunião por vez.
+
+Este vídeo mostra as etapas para editar uma política de reunião padrão em toda a organização.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Atribuir uma política de reunião aos usuários
 
@@ -100,7 +108,7 @@ Ao selecionar uma política existente na página de **Políticas de reunião** o
 
 - [Geral](meeting-policies-in-teams-general.md)
 - [Áudio e vídeo](meeting-policies-audio-and-video.md)
-- [Gravar & transcrição](meetings-policies-recording-and-transcription.md)
+- [Gravação & transcrição](meetings-policies-recording-and-transcription.md)
 - [Compartilhamento de conteúdo](meeting-policies-content-sharing.md)
 - [Participantes e convidados](meeting-policies-participants-and-guests.md)
 

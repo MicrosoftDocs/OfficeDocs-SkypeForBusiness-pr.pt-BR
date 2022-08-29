@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Lista planos de licenciamento de Docentes e Alunos de Educação e IDs de SKU.
 f1keywords: ''
-ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790166"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426858"
 ---
 # <a name="education-sku-reference"></a>Referência de SKU de Educação
 
-Este artigo lista os SKUs (planos de licenciamento de Professores e Alunos de Educação) e as IDs de SKU que você pode usar como referência ao usar o PowerShell para identificar usuários em sua organização por tipo de licença.
+Este artigo lista os SKUs (planos de licenciamento de Docentes e Alunos de Educação) e as IDs de SKU.
+
+Use essa referência ao usar o PowerShell para identificar usuários em sua organização por tipo de licença.
 
 ## <a name="faculty-licenses"></a>Licenças de docentes
 

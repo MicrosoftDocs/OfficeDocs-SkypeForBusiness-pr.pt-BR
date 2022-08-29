@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários do Teams em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156519"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339795"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -68,6 +68,7 @@ Para desativar e ativar os recursos, defina os seguintes parâmetros:
 
  - Pesquisas: defina o **parâmetro receiveSurveysMode** como  habilitado para permitir que os usuários **atribuídos** à política recebam a pesquisa. Para que os usuários recebam a pesquisa e permitam que eles recusem, defina o parâmetro **como enabledUserOverride**. No Teams, os usuários podem acessar **Configurações de** > **Privacidade** e escolher se querem participar de pesquisas. Definir o parâmetro como **desabilitado** desativa o recurso e os usuários que recebem a política não receberão a pesquisa.
 
+ - **Capturas de tela**: use **o sinalizador AllowScreenshotCollection** para adicionar a aceitação da coleção de capturas de tela para os usuários.
  - **Email**: use o **sinalizador AllowEmailCollection** para adicionar um campo de email.
  - **Coleção de** logs: use **o sinalizador AllowLogCollection** para adicionar a aceitação da coleção de logs para os usuários. Atualmente, a coleta de logs está habilitada somente em dispositivos móveis. Para obter mais detalhes sobre quais dados são compartilhados por meio de logs, [saiba mais](https://go.microsoft.com/fwlink/?linkid=2168178).
 
@@ -92,4 +93,4 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribuir políticas aos usuários no Microsoft Teams](policy-assignment-overview.md)
+- [Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)

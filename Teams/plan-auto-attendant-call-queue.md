@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menus para acessar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070732"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443348"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar atendedores automáticos do Teams e filas de chamadas
 
@@ -175,6 +175,18 @@ Consulte os seguintes artigos para obter informações sobre como criar atendedo
 
 - [Configurar um atendedor automático](create-a-phone-system-auto-attendant.md)
 - [Criar uma fila de chamadas](create-a-phone-system-call-queue.md)
+
+> [!IMPORTANT]
+> O token GUID do AAD (Azure Active Directory) de um usuário é armazenado como parte da configuração do atendedor automático ou da fila de chamadas quando o usuário é configurado como:
+>
+>  - um atendedor automático ou um usuário autorizado da **fila de chamadas**.
+>  - um operador de atendedor **automático**.
+>  - um **ponto de transferência de Pessoa** na Organização.
+>  - um membro individual de uma fila de chamadas.
+> 
+> As configurações de atendedor automático e fila de chamadas não são sincronizadas com eventos de ciclo de vida do AAD.  Os administradores do Teams precisam atualizar manualmente as configurações do atendedor automático e da fila de chamadas para remover esses dados pessoais quando um usuário incluído na configuração sair da organização.
+>
+> Isso não se aplica a associações de agente de fila de chamadas configuradas por meio de listas de distribuição ou canais. Ele também não se aplica a usuários que são acessados por meio do recurso **Discar** por Nome ou Discar **por Número dos** atendedores automáticos.
 
 Se você precisar de recursos mais abrangentes, como integração com fluxos de trabalho, bots e SMS, considere [Serviços de Comunicação do Azure](/azure/communication-services/overview).
 

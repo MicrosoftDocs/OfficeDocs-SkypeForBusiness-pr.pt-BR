@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299060"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396862"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -96,7 +96,7 @@ Nenhum
 
 * Quando um usuário conversa com um bot, se o bot armazena a ID do usuário, ele pode enviar mensagens diretas ao usuário a qualquer momento.
 
-* Teoricamente, é possível que as mensagens de bot contenham links para sites de phishing ou malware. No entanto, os bots podem ser bloqueados pelo usuário, pelo administrador do locatário ou globalmente pela Microsoft. [Verificações de validação e verificação do aplicativo](overview-of-app-validation.md) garantem que nenhum aplicativo falso esteja disponível na loja do Teams.
+* Teoricamente, é possível que as mensagens de bot contenham links para sites de phishing ou malware. No entanto, os bots podem ser bloqueados pelo usuário, pelo administrador do locatário ou globalmente pela Microsoft. [Verificações de validação e verificação de](overview-of-app-validation.md) aplicativo garantem que todos os aplicativos falsas não estão disponíveis na loja do Teams.
 
 * Um bot pode recuperar (e pode armazenar) informações básicas de identidade para os membros da equipe aos quais o aplicativo foi adicionado ou para usuários individuais em chats pessoais ou em grupo. Para obter mais informações sobre esses usuários, o bot deve exigir que eles se conectem ao Azure Active Directory (Azure AD).
 
@@ -105,8 +105,6 @@ Nenhum
 * Por padrão, os bots não têm a capacidade de agir em nome do usuário, mas os bots podem solicitar que os usuários se conectem; assim que o usuário entrar, o bot terá um token de acesso com o qual poderá fazer coisas adicionais. Exatamente o que essas outras coisas são depende do bot e de onde o usuário entra: um bot é um aplicativo do Azure AD registrado no https://apps.dev.microsoft.com/ e pode ter seu próprio conjunto de permissões.
 
 * Quando um arquivo é enviado para um bot, o arquivo sai da rede corporativa. Enviar e receber arquivos requer aprovação do usuário para cada arquivo.
-
-* Por padrão, os bots não têm a capacidade de agir em nome do usuário, mas os bots podem solicitar que os usuários se conectem; assim que o usuário entrar, o bot terá um token de acesso com o qual poderá fazer coisas adicionais. Exatamente o que essas coisas adicionais são depende do bot e do local em que o usuário entra: um bot é um aplicativo do Azure AD registrado no [Portal de Registro de Aplicativos](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) e pode ter seu próprio conjunto de permissões.
 
 * Os bots são informados sempre que os usuários são adicionados ou excluídos de uma equipe.
 

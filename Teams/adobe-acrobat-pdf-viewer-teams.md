@@ -16,12 +16,12 @@ description: Saiba como definir o Adobe Acrobat como visualizador de PDF padrão
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 9e8860c10e74d5dc06f73632b33b6c94ea792a09
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b1c5654791dde3def8ec622880e26b07f693633f
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299240"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396702"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como visualizador de PDF padrão no Microsoft Teams
 
@@ -39,11 +39,11 @@ Para configurar o aplicativo Adobe Acrobat como o manipulador padrão para arqui
 
 Antes de configurar o aplicativo, certifique-se de permitir que os aplicativos sejam usados em seu locatário, que você tenha permitido especificamente o aplicativo Adobe Acrobat e que as políticas de permissão de aplicativos o permitam. Para configurar o Adobe Acrobat como aplicativo padrão para arquivos PDF, siga estas etapas:
 
-1. Entre no centro de administração do Teams e acesse **Aplicativo Teams** > **[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**.
+1. Entre no centro de administração do Teams e acesse os aplicativos **Gerenciar aplicativos** > **[do](https://admin.teams.microsoft.com/policies/manage-apps)** Teams.
 
-1. Pesquise o aplicativo Adobe Acrobat e selecione-o.
+1. Pesquise o aplicativo Adobe Acrobat e selecione-o. Ele abre a página de detalhes do aplicativo.
 
-1. Na guia **Permissões**, selecione **Examinar permissão**.
+1. Selecione a **guia Permissões** e, em seguida, selecione **Examinar permissão**.
 
    :::image type="content" source="media/permission-policy.png" alt-text="Captura de tela da permissão do aplicativo no Centro de administração do Teams." lightbox="media/teams-app-adobe-acrobat-permission.png":::
 

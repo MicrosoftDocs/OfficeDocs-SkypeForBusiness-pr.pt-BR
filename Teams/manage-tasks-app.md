@@ -18,12 +18,13 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267846"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396492"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
@@ -59,7 +60,7 @@ Com o Tasks, os usuários obtêm uma experiência de desktop, web e celular. Se 
 
 O Tasks é habilitado por padrão para todos os usuários do Teams em sua organização. Você pode desabilitar ou ligar o aplicativo no nível da organização na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
 
-1. No painel esquerdo do centro de administração do Microsoft Teams, acesse Aplicativos **do Teams Gerenciar** > **aplicativos**.
+1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Na lista de aplicativos, siga um destes procedimentos:
 
     - Para desativar as Tarefas da sua organização, pesquise o aplicativo Tarefas, selecione-o e selecione **Bloquear**.
