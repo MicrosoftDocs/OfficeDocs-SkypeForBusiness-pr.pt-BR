@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre chats supervisionados para locatários não educacionais em reuniões do Microsoft Teams.
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
+ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270456"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "67446764"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Chats supervisionados para locatários não educacionais
 
@@ -56,7 +56,7 @@ As funções não podem ser atribuídas a convidados em seu locatário. Os convi
 
 ## <a name="allow-supervised-chat"></a>Permitir chat supervisionado
 
-O chat supervisionado é desabilitado por padrão para seu locatário. Depois de definir as funções de permissão de chat para seus usuários, você pode habilitar o chat  \> supervisionado em seu locatário acessando as Configurações do **Teams** em toda a organização e definindo a política de permissões de **chat baseadas** em função como **Ativado**. Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Esse cmdlet está em [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
+O chat supervisionado é desabilitado por padrão para seu locatário. Depois de definir as funções de permissão de chat para seus usuários, você pode habilitar o chat supervisionado em seu locatário acessando As Configurações do **Teams** \> **e** definindo a política de permissões de **chat baseadas** em função como **Ativado**. Você também pode usar o PowerShell para habilitar o Chat Supervisionado definindo AllowRoleBasedChatPermissions como True. Esse cmdlet está em [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
 
 O chat supervisionado deve ser habilitado para todos os usuários no locatário e não pode ser habilitado para apenas uma parte dos usuários.
 

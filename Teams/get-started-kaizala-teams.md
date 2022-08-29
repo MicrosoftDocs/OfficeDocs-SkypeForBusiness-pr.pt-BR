@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 0eccd8107ee0aa9a33d5525350da87899dccc99a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd039c732d1a7e55a3cfb8aa59a3f78cf5f2cfe9
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268146"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443478"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala e Microsoft Teams 
+
+>[!Important]
+> O Microsoft Kaizala será desativado em 31 de agosto de 2023. É recomendável atualizar para o Microsoft Teams para conexão contínua, compartilhamento e colaboração. Após a data de desativação, o acesso e o suporte para o Kaizala serão descontinuados.
 
 Em abril de 2019 [, anunciamos](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) planos para reunir o Kaizala com o Microsoft Teams. Os recursos do Kaizala complementam os robustos recursos de comunicação e colaboração do Teams, o hub para trabalho em equipe no Microsoft 365.
 
@@ -42,10 +45,6 @@ Continue lendo para perguntas frequentes sobre o Kaizala e o Teams.
 ## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>Quando minha organização deve mudar do Kaizala para o Teams?
 
 Incentivamos todos os clientes do Microsoft 365 e Office 365 a começar a usar o [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9) hoje mesmo para aproveitar os recursos avançados que o Teams fornece. Esses recursos incluem uma experiência simples e poderosa para usuários móveis em 46 idiomas e 181 mercados. Capacite sua equipe de trabalho de linha de frente com recursos como gerenciamento de turnos, acesso de convidado e suporte para fluxos de trabalho e aplicativos personalizados com o Microsoft Flow e o PowerApps. Para funcionalidades específicas do Kaizala que ainda não estão disponíveis no Teams, publicaremos uma linha do tempo atualizada no futuro.
-
-## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>Como posso continuar a usar Kaizala Pro se eu tivesse comprado a oferta autônoma?
-
-A partir de 1º de julho de 2020, a Microsoft terminou as vendas do serviço Kaizala Pro autônomo. O Kaizala e o Teams continuarão acessíveis como parte dos planos [microsoft 365 e Office 365.](/Office365/Kaizala/migrate-kaizala-pro)
 
 ## <a name="how-can-i-get-started-with-teams"></a>Como posso começar a usar o Teams?
 

@@ -1,5 +1,5 @@
 ---
-title: Teams comportamento de aplicativos com base em tipos de usuários
+title: Comportamento de aplicativos do Teams com base em tipos de usuários
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,8 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Saiba como os aplicativos Microsoft Teams funcionam de forma diferente para convidados, usuários federados e usuários anônimos.
-ms.localizationpriority: medium
+description: Saiba como os aplicativos no Microsoft Teams funcionam de forma diferente para convidados, usuários federados e usuários anônimos.
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,23 +17,23 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a57cba8a1172058f26eab22cabba62216e099ba8
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 940c021b18c390a7b5c9ec0f8a3325c49c87dae5
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045530"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278595"
 ---
-# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams comportamento de aplicativos com base em tipos de usuários
+# <a name="behavior-of-microsoft-teams-apps-based-on-types-of-in-meeting-users"></a>Comportamento dos aplicativos do Microsoft Teams com base nos tipos de usuários em reunião
 
-Teams se comportam quando usuários convidados, externos (federados) e anônimos estão presentes em um Teams contexto.
+Os aplicativos do Teams se comportam quando usuários convidados, externos (federados) e anônimos estão presentes em um contexto do Teams.
 
 * Um **usuário convidado** é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização.
 
-* Um **usuário externo (federado)** pertence a outro domínio e não tem acesso aos recursos de equipe ou equipe da sua organização.
+* Um **usuário externo (federado)** é de outro domínio e não tem acesso aos recursos do Teams da sua organização.
 
   > [!Note]
-  > Para obter uma comparação mais detalhada de convidados versus usuários externos, [consulte a comunicação com usuários de outras organizações](./communicate-with-users-from-other-organizations.md).
+  > Para obter uma comparação mais detalhada entre usuários convidados e externos, consulte [a comunicação com usuários de outras organizações](./communicate-with-users-from-other-organizations.md).
 
 * Um **usuário anônimo** é um usuário que ingressa em uma reunião por meio de um link. O usuário não está conectado com sua conta da Microsoft ou com a conta da organização.
 
@@ -41,7 +41,7 @@ Teams se comportam quando usuários convidados, externos (federados) e anônimos
 
 ### <a name="install-update-and-delete-for-guests"></a>Instalar, atualizar e excluir para convidados
 
-Os convidados não podem instalar, atualizar ou excluir aplicativos em um contexto compartilhado, como chat, canal ou reunião. Os convidados podem fazer isso em seu escopo pessoal usando extensões de mensagem e links diretos. Os convidados não podem acessar a Teams de aplicativos do Teams da área de trabalho, mas podem acessar a loja com um link direto.
+Os convidados não podem instalar, atualizar ou excluir aplicativos em um contexto compartilhado, como chat, canal ou reunião. Os convidados podem fazer isso em seu escopo pessoal usando extensões de mensagem e links diretos. Os convidados não podem acessar a loja de aplicativos do Teams no aplicativo da área de trabalho do Teams, mas podem acessar a loja com um link direto.
 
 ### <a name="usage-behavior-and-policy-for-guests"></a>Comportamento de uso e política para convidados
 
@@ -63,12 +63,12 @@ Os convidados podem mencionar o bot e interagir com cartões adaptáveis.
 
 ### <a name="install-update-and-delete-for-federated-users"></a>Instalar, atualizar e excluir usuários federados
 
-Os usuários federados não podem instalar, atualizar ou excluir aplicativos em qualquer contexto, como um chat, um canal ou uma reunião pessoal. Eles não têm acesso à Teams de aplicativos da organização de hospedagem.
+Os usuários federados não podem instalar, atualizar ou excluir aplicativos em qualquer contexto, como um chat, um canal ou uma reunião pessoal. Eles não têm acesso à loja de aplicativos do Teams da organização de hospedagem.
 
 ### <a name="usage-behavior-and-policy-for-federated-users"></a>Comportamento e política de uso para usuários federados
 
-* As pessoas de outras organizações aderem à política global da organização de hospedagem (padrão em toda a organização)
-* Os usuários na organização de hospedagem podem adicionar aplicativos em chats de reunião com pessoas de outras organizações. As pessoas de outras organizações não podem adicionar aplicativos em chats de reunião, mas podem interagir com bots, guias e extensões de mensagem depois de adicionados ao chat.
+* Pessoas de outras organizações aderem à política global da organização de hospedagem (padrão em toda a organização)
+* Os usuários na organização de hospedagem podem adicionar aplicativos em chats de reunião com pessoas de outras organizações. Pessoas de outras organizações não podem adicionar aplicativos em chats de reunião, mas podem interagir com bots, guias e extensões de mensagem depois de adicionados ao chat.
 * Depois que um bot é instalado em um chat de reunião, ele pode se comunicar proativamente com pessoas de outras organizações nesse chat e essas pessoas podem se comunicar com o bot.
 * As políticas de dados da organização de hospedagem são aplicadas.
 * As práticas de compartilhamento de dados de aplicativos de terceiros compartilhados pela organização desse usuário são aplicadas.
@@ -81,11 +81,11 @@ Os usuários anônimos não podem instalar, atualizar ou excluir aplicativos em 
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportamento e política de uso para usuários anônimos
 
-Usuários anônimos não podem usar aplicativos diretamente em reuniões. Se um aplicativo enviar um cartão adaptável no chat, os usuários anônimos poderão interagir com o cartão. Esses usuários poderão interagir com aplicativos Teams reuniões se a política de permissão no nível do usuário habilitar o aplicativo. Os usuários anônimos herdam a política de permissão padrão global no nível do usuário.
+Usuários anônimos não podem usar aplicativos diretamente em reuniões. Se um aplicativo enviar um cartão adaptável no chat, os usuários anônimos poderão interagir com o cartão. Esses usuários poderão interagir com aplicativos em reuniões do Teams se a política de permissão no nível do usuário habilitar o aplicativo. Os usuários anônimos herdam a política de permissão padrão global no nível do usuário.
 
 Os usuários anônimos só podem interagir com os aplicativos que já estão disponíveis em uma reunião, mas não podem adquirir e gerenciar esses aplicativos. Os usuários nativos podem continuar a usar aplicativos de reuniões mesmo quando os usuários anônimos estão participando de uma reunião.
 
 ## <a name="see-also"></a>Confira também
 
 * [Permitir que usuários anônimos ingressem em reuniões](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
-* [Gerenciar políticas de configuração de aplicativo Microsoft Teams](teams-app-setup-policies.md).
+* [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](teams-app-setup-policies.md).

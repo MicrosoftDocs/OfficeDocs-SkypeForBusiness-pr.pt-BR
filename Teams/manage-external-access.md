@@ -21,12 +21,12 @@ description: Seu administrador do Teams ou de TI pode configurar as reuniões ex
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674223"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418510"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gerenciar reuniões externas e chat no Microsoft Teams
 
@@ -274,6 +274,13 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 
 3. Os testes retornarão as melhores próximas etapas para resolver quaisquer configurações de locatário ou de política que estejam impedindo a comunicação com o usuário federado.
 
+## <a name="user-level-controls"></a>Controles no nível do usuário
+
+Quando os usuários recebem chats 1:1 de alguém fora da organização, eles recebem uma experiência de tela inteira na qual podem optar por visualizar a **mensagem, aceitar** o chat ou bloquear a pessoa que  está enviando o chat.
+
+O bloqueio de pessoas externas está disponível em vários locais no Teams, incluindo o menu mais (**...**) na lista de chat e o menu mais (**...**) no cartão de pessoas. Os usuários também podem desbloquear pessoas **externas** >  por meio do menu mais (**...**) na lista de chat, no menu mais (**...**) no cartão de pessoas ou visitando Configurações De contatos **bloqueados** >  Editar contatos **bloqueados**. O bloqueio está disponível antes ou depois que as mensagens são enviadas.
+
+Bloquear pessoas externas impede que elas enviem mensagens em chats 1:1, adicione o usuário a novos chats em grupo e veja sua presença. Embora os convites de chat em grupo sejam bloqueados, os usuários bloqueados podem estar nos mesmos chats com usuários que os bloquearam porque o chat foi iniciado antes do bloqueio ou o convite de chat em grupo foi enviado por outro membro.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -15,24 +15,27 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Use Microsoft Teams modelos predefinidos criados no Microsoft Graph para criar equipes de forma rápida e fácil para pequenas e médias empresas.
+description: Use modelos predefinidos do Microsoft Teams criados no Microsoft Graph para criar equipes de forma rápida e fácil para pequenas e médias empresas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5317b989bd7fe77f34743b6554cd356c226c2fa8
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 644d45660fba729991796f33e7210222832e0c0f
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646300"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278475"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Modelos de equipe criados no Microsoft Graph para pequenas e médias empresas
 
 Os modelos de equipe no Microsoft Teams permitem que você crie equipes de forma rápida e fácil, fornecendo uma estrutura de equipe predefinida de configurações, canais e aplicativos pré-instalados.
 
-Para pequenas e médias empresas, os modelos podem ser especialmente poderosos, pois ajudam você a implantar rapidamente Teams em sua organização. Os modelos também ajudam os usuários a se orientarem sobre como usar efetivamente Teams. Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização.
+Para pequenas e médias empresas, os modelos podem ser especialmente poderosos, pois ajudam você a implantar rapidamente o Teams em sua organização. Os modelos também ajudam os usuários a se orientarem sobre como usar efetivamente o Teams. Este artigo é para você se você for responsável por planejar, implantar e gerenciar várias equipes em sua organização.
 
 Atualmente, oferecemos três modelos pré-criados para pequenas e médias empresas que você pode usar para várias situações. Todos os modelos criam *equipes* privadas. Depois de criar as equipes e estiver pronto para ser distribuído para sua organização, você poderá definir a privacidade  para Toda a Organização ou *Público, conforme* apropriado.
 
-Para saber mais sobre modelos de equipe em geral, consulte [Introdução modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md).
+> [!NOTE]
+> Você também pode usar o Microsoft Graph para criar seus próprios modelos personalizados. Para saber mais, confira o [tipo de recurso teamTemplate](/graph/api/resources/teamtemplate).
+
+Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="company-wide-template"></a>Company-Wide modelo
 

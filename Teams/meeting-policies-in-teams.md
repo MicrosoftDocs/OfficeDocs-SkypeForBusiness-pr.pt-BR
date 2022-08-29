@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar as configurações das políticas de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
-ms.translationtype: HT
+ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605237"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418490"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -290,7 +290,7 @@ Para um usuário, a configuração de política mais restritiva para o vídeo te
 |Organizador: **Habilitado**<br><br>Participante: **Habilitado** |Participante: **Desabilitado**        |A configuração **Modo para vídeo IP** tem prioridade. O participante atribuído a essa política não poderá ativar nem exibir vídeos compartilhados por outras pessoas.|
 |Organizador: **Habilitado**<br><br>Participante: **Habilitado** |Participante: **Vídeo de saída e de entrada habilitado**          |O participante atribuído a essa política poderá ativar e exibir vídeos compartilhados por outras pessoas.         |
 |Organizador: **Habilitado**<br><br>Participante: **Desabilitado** |Participante: **Vídeo de saída e de entrada habilitado**         |A configuração **Permitir modo de vídeo IP** tem prioridade. Os participantes só poderão ver os vídeos recebidos e não poderão enviar vídeo de saída.         |
-|Organizador: **Habilitado**<br><br>Participante: **Desabilitado** |Participante: **Desabilitado**         |A configuração **Modo de vídeo IP** tem prioridade. O participante não consegue ver o vídeo de entrada ou de saída.|
+|Organizador: **Habilitado**<br><br>Participante: **Desabilitado** |Participante: **Desabilitado**         |A configuração **Modo para vídeo IP** tem prioridade. O participante não consegue ver o vídeo de entrada ou de saída.|
 |Organizador: **Desabilitado**    |       |A configuração **Permitir vídeo IP** tem prioridade porque está desativada para o organizador. Ninguém pode ativar o vídeo em reuniões organizadas pelo usuário que recebeu essa política.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Gerenciar áudio/vídeo para participantes da reunião
@@ -323,7 +323,7 @@ Para reuniões que precisem da experiência de qualidade de vídeo mais alta, co
 
 - [Modo de compartilhamento de tela](#screen-sharing-mode)
 - [Permitir que um participante conceda ou solicite o controle](#allow-a-participant-to-give-or-request-control)
-- [Permitir que um participante externo conceda ou solicite o controle](#allow-an-external-participant-to-give-or-request-control)
+- [Os participantes externos podem dar ou solicitar controle](#external-participants-can-give-or-request-control)
 - [Permitir o compartilhamento do PowerPoint](#allow-powerpoint-sharing)
 - [Permitir quadro de comunicações](#allow-whiteboard)
 - [Permitir anotações compartilhadas](#allow-shared-notes)
@@ -333,7 +333,7 @@ Para reuniões que precisem da experiência de qualidade de vídeo mais alta, co
 > [!NOTE]
 > Esse recurso ainda está em desenvolvimento. O compartilhamento de tela é uma política por participante, no entanto, pode ser afetado pelas configurações de compartilhamento de tela do organizador, conforme descrito nesta seção.
 
-Essa configuração controla se a área de trabalho e/ou o compartilhamento de janela é permitido na reunião do usuário. Os participantes da reunião que não possuem políticas atribuídas (por exemplo, participantes anônimos e federados, convidado, B2B) herdam a política do organizador da reunião.
+Essa configuração controla se a área de trabalho e/ou o compartilhamento de janela é permitido na reunião do usuário. Os participantes da reunião que não têm nenhuma política atribuída (por exemplo, participantes externos) herdam a política do organizador da reunião.
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
@@ -378,22 +378,21 @@ Para usar o PowerShell para controlar quem pode conceder controle ou aceitar sol
 > [!NOTE]
 > Para conceder e assumir o controle do conteúdo compartilhado durante o compartilhamento, as duas partes devem usar o cliente da área de trabalho do Teams. Não há suporte para controle quando ambas as partes estiverem executando o Teams em um navegador. Isso ocorre devido a uma limitação técnica de que estamos planejando corrigir.
 
-### <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir que um participante externo conceda ou solicite o controle
+### <a name="external-participants-can-give-or-request-control"></a>Os participantes externos podem dar ou solicitar controle
 
 Essa é uma política por usuário. Se uma organização tiver esse conjunto para um usuário, não controla o que os participantes externos podem fazer, independentemente do que o organizador da reunião definiu. Esse parâmetro controla se os participantes externos podem receber ou solicitar controle da tela de compartilhamento do participante, dependendo do que o participante do compartilhamento definiu dentro das políticas da sua organização. Os participantes externos nas reuniões das Teams podem ser categorizados da seguinte maneira:  
 
-- Usuário anônimo
-- Usuários convidados  
-- Usuário B2B
-- Usuário federado  
+- Participante anônimo
+- Convidados
+- Usuário de acesso externo  
 
-Se os usuários federados podem conceder controle aos usuários externos enquanto o compartilhamento é controlado pela configuração **Permitir que um participante externo conceda ou solicite o controle** na organização.
+Se os usuários de acesso externo podem dar controle a outros participantes externos enquanto o compartilhamento é controlado pelos participantes **externos** podem fornecer ou solicitar a configuração de controle em sua organização.
 
 Para usar o PowerShell para controlar se os participantes externos podem conceder controle ou aceitar solicitações de controle, use o cmdlet AllowExternalParticipantGiveRequestControl.
 
 ### <a name="allow-powerpoint-sharing"></a>Permitir compartilhamento do PowerPoint
 
-Essa é uma política por usuário. Essa configuração controla se o usuário pode compartilhar os decks de slides do PowerPoint em uma reunião. Os usuários externos, incluindo usuários anônimos, convidados e federados, herdam a política do organizador da reunião.
+Essa é uma política por usuário. Essa configuração controla se o usuário pode compartilhar os decks de slides do PowerPoint em uma reunião. Os participantes externos, incluindo usuários anônimos, convidados e de acesso externo, herdam a política do organizador da reunião.
 
 Observe o exemplo a seguir.
 
@@ -406,7 +405,7 @@ Amanda não pode compartilhar os conjunto de slides do PowerPoint nas reuniões,
 
 ### <a name="allow-whiteboard"></a>Permitir o quadro de comunicações
 
-Essa é uma política por usuário. Essa configuração controla se um usuário pode compartilhar o quadro de comunicações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião.
+Essa é uma política por usuário. Essa configuração controla se um usuário pode compartilhar o quadro de comunicações em uma reunião. Os participantes externos, incluindo usuários anônimos, convidados e de acesso externo, herdam a política do organizador da reunião.
 
 Observe o exemplo a seguir.
 
@@ -419,7 +418,7 @@ Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo 
 
 ### <a name="allow-shared-notes"></a>Permitir notas compartilhadas
 
-Essa é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. A guia **Anotações da Reunião** tem suporte em reuniões com até 100 participantes.
+Essa é uma política por usuário. Essa configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Os participantes externos, incluindo usuários anônimos, convidados e de acesso externo, herdam a política do organizador da reunião. A guia **Anotações da Reunião** tem suporte em reuniões com até 100 participantes.
 
 Observe o exemplo a seguir.
 
@@ -468,7 +467,7 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
   
 |Valor de configuração  |Comportamento de ingresso |
 |---------|---------|
-|**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários externos de organizações confiáveis (federado), convidados e usuários anônimos.     |
+|**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários de acesso externo, convidados e usuários anônimos.     |
 |**Pessoas da minha organização e organizações confiáveis**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, entram na reunião diretamente sem aguardar no lobby. Os usuários anônimos esperam no lobby.   |
 |**Pessoas na minha organização e convidados**    |Usuários autenticados dentro da organização, incluindo usuários convidados, ingressam na reunião diretamente sem aguardar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam no lobby. Essa é a configuração padrão.           |
 |**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todas as outras pessoas, incluindo os usuários autenticados dentro da organização, os usuários convidados, os usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby.           |
@@ -536,7 +535,7 @@ Para impedir que o organizador da reunião baixe o relatório, defina o parâmet
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Configurações de política de reunião - provedor de reunião para o modo Uso Paralelo
 
-Essa é uma política por usuário. Essa configuração controla qual suplemento de reunião do Outlook é usado para os *usuários que estão no modo Uso Paralelo*. Você pode especificar se os usuários podem usar apenas o suplemento de reunião do Teams ou os suplementos de reunião do Teams e de reunião do Skype for Business para agendar reuniões no Outlook.
+Essa é uma política por usuário. Essa configuração controla qual suplemento de reunião do Outlook é usado para os *usuários que estão no modo Uso Paralelo*. Você pode especificar se os usuários podem usar apenas o suplemento de Reunião do Teams ou os suplementos de Reunião do Teams e de Reunião do Skype for Business para agendar reuniões no Outlook.
 
 Você só pode aplicar esta política aos usuários que estão no modo Uso Paralelo e possuem o parâmetro **AllowOutlookAddIn** definido como **Verdadeiro** na política de reunião do Teams.
 

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268116"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418640"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Visão geral dos componentes do Loop no Teams
 
@@ -90,6 +90,6 @@ Se você desabilitar essas experiências conforme descrito na seção [Gerenciam
 - Com permissões de arquivo padrão de locatário definidas como Pessoas específicas *(somente* as pessoas especificadas pelo usuário), a criação de um componente ao vivo no chat em grupo com mais de 20 membros exigirá que o remetente selecione manualmente as opções de permissão para o componente.
 - A pesquisa de componentes loop na pesquisa do Teams retornará um link para o componente no office.com, não a mensagem de chat em si.
 - Os componentes de loop são desabilitados em chats federados.
-- Os convidados B2B não poderão colaborar em um componente ao vivo que é compartilhado com eles por meio do Link de Compartilhamento da Empresa. Defina permissões para **Pessoas atualmente neste chat** para compartilhar componentes com convidados B2B.
+- Os convidados não poderão colaborar em um componente ao vivo que é compartilhado com eles por meio do Link de Compartilhamento da Empresa. Defina permissões para **Pessoas atualmente neste chat** para compartilhar componentes com convidados.
 - Não há suporte para componentes de loop nos canais do Teams.
 - Os componentes de loop no chat não serão carregados somente se o arquivo tiver sido movido para uma biblioteca diferente. Se o arquivo for movido para uma pasta diferente, ele continuará a ser carregado no chat.

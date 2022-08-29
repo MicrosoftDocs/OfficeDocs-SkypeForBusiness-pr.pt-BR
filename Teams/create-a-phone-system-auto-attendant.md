@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Saiba como configurar e gerenciar atendedores automáticos no Microsoft Teams.
-ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176095"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443398"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -46,6 +46,15 @@ Os atendedores automáticos podem redirecionar chamadas, com base na entrada dos
 
 > [!NOTE]
 > Ao redirecionar chamadas para **uma Pessoa na organização**, essa pessoa deve estar habilitada para voz. Para obter detalhes sobre como habilitar a voz, [consulte Atribuir licenças de complemento do Teams aos usuários](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+>
+> Embora a definição **de um operador** seja opcional, é recomendável.  Os atendedores automáticos redirecionam chamadas para o operador se o chamador não fizer uma seleção em menus, selecionar repetidamente opções inválidas ou discar por nome ou número falhar repetidamente.  Se um operador não estiver definido, o atendedor automático descartará a chamada.
+
+## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novidades para atendedores automáticos nos últimos 6 meses
+ 
+ - Agosto – **As opções do menu** Reproduzir no fluxo de chamadas, no fluxo de chamadas para horas extras e no fluxo de chamadas durante feriados \* agora dão suporte a chaves (asterisco) \# e (libra).
+ - Julho – O fluxo de chamadas durante feriados agora dá suporte **a opções de menu Reproduzir**.
+ 
+## <a name="steps-to-create-an-auto-attendant"></a>Etapas para criar um atendedor automático
 
 As etapas para adicionar um atendedor automático são:
 
@@ -99,10 +108,9 @@ Depois de definir as informações gerais do atendedor automático, selecione **
 
 #### <a name="play-menu-options"></a>Opções do menu Reproduzir
 
-Para opções de discagem, atribua as teclas de 0 a 9 no teclado telefônico a um dos destinos de roteamento de chamadas. As chaves \* (asterisco) \# e (libra) são reservadas pelo sistema e não podem ser reatribuídas. Pressionar uma dessas teclas repetirá o menu atual.
+*As teclas New - \* (asterisco) \# e (pound) agora podem ser usadas nas opções de menu.*
 
-> [!NOTE]
-> A tecla #só faz backup para o atendedor automático mais recente. Depois que o limite for cruzado para um novo atendedor automático, a tecla # não poderá levá-lo até o anterior.
+Para opções de discagem, atribua as teclas 0-9, \* (asterisco) \# e (libra) no teclado do telefone a um dos destinos de roteamento de chamadas. 
 
 Mapeamentos de chave não precisam ser contínuos. É possível criar um menu com as teclas 0, 1 e 3 mapeadas para opções, enquanto a tecla número 2 não é usada.
 
@@ -159,6 +167,8 @@ Depois de adicionar o fluxo de chamadas após o horário comercial, selecione **
 
 O atendedor automático pode ter um fluxo de chamada para cada [Feriado que você configurou](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
+*Novo – **As opções do menu Reproduzir** agora estão disponíveis em fluxos de chamadas de feriados.*
+
 1. Na página configurações de chamada de Feriado, selecione **Adicionar**.
 
 1. Digite um nome para essa configuração de feriado.
@@ -167,7 +177,7 @@ O atendedor automático pode ter um fluxo de chamada para cada [Feriado que voc�
 
 1. Escolha o tipo de saudação que você deseja usar.
 
-1. Escolha se deseja **desconectar** ou **redirecionar** a chamada.
+1. Escolha se você deseja **desconectar**, **redirecionar** **ou reproduzir opções de menu** da chamada.
 
     1. Se você optar por redirecionar, escolha o destino de roteamento de chamadas para a chamada.
     1. Se você optar por reproduzir opções de menu, configure as **opções do menu Reproduzir**.
