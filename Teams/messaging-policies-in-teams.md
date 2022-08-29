@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563959"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396512"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -112,6 +112,7 @@ Aqui estão as configurações de política de mensagens que você pode definir.
 - **Respostas sugeridas**  Ative essa configuração para habilitar respostas sugeridas para mensagens de chat.
 - **Função de permissão de chat** Use essa configuração para definir a função de chat supervisionada do usuário. Saiba mais sobre [conversas no](supervise-chats-edu.md).
 - **Os usuários com permissões completas de chat podem excluir qualquer mensagem** Use essa configuração para permitir que os usuários com permissões completas excluam qualquer mensagem de chat de grupo ou reunião.
+- **Mensagens de vídeo** Ative essa configuração se quiser que os usuários em sua organização possam usar o aplicativo Teams para enviar mensagens de vídeo para outras pessoas no Chat.
 
 > [!NOTE]
 > Algumas dessas configurações, como o uso do Giphys, também podem ser definidas no nível da equipe pelos proprietários da equipe e no nível do canal privado ou compartilhado pelos proprietários do canal.

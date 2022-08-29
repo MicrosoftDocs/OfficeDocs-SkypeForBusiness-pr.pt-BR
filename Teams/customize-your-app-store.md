@@ -17,25 +17,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como personalizar a loja de aplicativos do Teams da sua organização adicionando logotipo, planos de fundo personalizados e cores de texto personalizadas.
-ms.openlocfilehash: 01648e3c45540e5f9e7a0eb82921cf74937d9f62
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269066"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397032"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>Personalizar a loja de aplicativos da sua organização no Microsoft Teams
 
-Agora você pode personalizar a loja de aplicativos da sua organização no Teams com a identidade visual da sua empresa adicionando seu logotipo, planos de fundo personalizados e cores de texto personalizadas para torná-lo mais convidativo para os usuários finais.
+Você pode personalizar a loja de aplicativos da sua organização para refletir a identidade visual da sua empresa. Você pode adicionar seu logotipo, uma tela de fundo personalizada e cores de texto personalizadas para torná-lo mais convidativo para os usuários finais.
 
-> [!NOTE]
-> As alterações na identidade visual podem levar até 24 horas para entrar em vigor.
-
-Você pode acessar a loja personalizada no centro de administração selecionando **Aplicativos do Teams** > **Personalizar loja**.
-
-  ![Recurso de personalização de loja do console de administração realçado.](media/customize-app-store.png)
-
-Este artigo descreve os recursos da loja de aplicativos personalizados e como usá-los.
+Você pode acessar o repositório personalizado no centro de administração do Teams selecionando Os **aplicativos do Teams personalizam** > **[a loja](https://admin.teams.microsoft.com/policies/customize-appstore)**. Siga as instruções abaixo para obter os detalhes das alterações.
 
 ## <a name="customize-your-organization-logo"></a>Personalizar o logotipo da sua organização
 
@@ -87,14 +80,14 @@ Forneça contraste suficiente com a cor do texto em comparação com o plano de 
 
 Ao selecionar **Escolher uma cor personalizada**, um seletor de cores é aberto. Selecione a cor desejada ajustando a escala do seletor de cores.
 
- ![o seletor de cores.](media/choose-a-custom-color.png)
+:::image type="content" source="media/choose-a-custom-color.png" alt-text="Captura de tela da caixa de diálogo para escolher uma cor.":::
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Concluir a personalização da loja de aplicativos de equipe
 
 Ao terminar de personalizar sua loja de aplicativos, selecione **Salvar** para salvar suas alterações.
 Para visualizar suas alterações, selecione **Visualizar loja de aplicativos** para ver uma representação da sua loja de aplicativos personalizados.
 
-![versão prévia da loja de aplicativos personalizados.](media/PowerAppsInStore650w.png)
+:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="Captura de tela mostrando um exemplo de uma loja de aplicativos personalizados.":::
 
 > [!NOTE]
 > A representação pode variar da versão final da loja de aplicativos personalizados porque algumas cores padrão são baseadas na versão dos usuários do cliente do Teams.
