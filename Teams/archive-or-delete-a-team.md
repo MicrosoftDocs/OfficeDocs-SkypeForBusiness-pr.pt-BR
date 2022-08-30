@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dddb7bdb2285eb6a6502adbf6172aa6a3fe76c3d
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 81c8dfed94153ec7afec95da9e71e1bfe58be28c
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562410"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457141"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 
-Com o tempo, uma equipe criada no Microsoft Teams pode não ser usada ou você pode querer arquivar ou excluir uma equipe no final de um projeto. Se você for um administrador do Microsoft Teams, siga as etapas neste artigo para arquivar ou excluir uma equipe que não é mais necessária.
+Com o tempo, uma equipe criada no Microsoft Teams pode não ser usada ou você pode querer arquivar ou excluir uma equipe no final de um projeto. Se você for um administrador do Microsoft Teams, siga as etapas neste artigo para arquivar ou excluir uma equipe que não é mais necessária. (Se você for um proprietário de equipe, também poderá [arquivar uma equipe](https://support.microsoft.com/office/dc161cfd-b328-440f-974b-5da5bd98b5a7).)
 
 Ao arquivar uma equipe, todas as atividades da equipe cessarão. O arquivamento de uma equipe também arquiva canais privados na equipe e em seus conjuntos de sites associados.  No entanto, você ainda pode adicionar ou remover membros e atualizar funções, além de poder exibir todas as atividades da equipe em canais, arquivos e chats padrão e privados.
 

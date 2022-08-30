@@ -7,30 +7,30 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Este artigo descreve como planejar uma transição bem-sucedida do Kaizala para o Microsoft Teams.
+description: Este artigo descreve como planejar uma mudança bem-sucedida do Kaizala para o Microsoft Teams.
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 0e9c9920826a664aaa948a6b6c9d5470a4dd3298
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 319a2d981899dce509633992fdcf61dc002a193f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443448"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457251"
 ---
-# <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>Planejando uma transição bem-sucedida do Kaizala para o Microsoft Teams
+# <a name="planning-for-a-successful-move-from-kaizala-to-microsoft-teams"></a>Planejando uma mudança bem-sucedida do Kaizala para o Microsoft Teams
 
 > [!Important]
-> O Microsoft Kaizala será desativado em 31 de agosto de 2023. É recomendável atualizar para o Microsoft Teams para conexão contínua, compartilhamento e colaboração. Após a data de desativação, o acesso e o suporte para o Kaizala serão descontinuados.
+> O Microsoft Kaizala será desativado em 31 de agosto de 2023. É recomendável migrar para o Microsoft Teams para conexão contínua, compartilhamento e colaboração. Após a data de desativação, o acesso e o suporte para o Kaizala serão descontinuados.
 
 À medida que você embarca em sua mudança do Kaizala para o Microsoft Teams, é importante aproveitar o tempo para [](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) planejar uma transição bem-sucedida. Um plano de transição sólido fornece estrutura para sua movimentação e garante que todos os stakeholders estejam trabalhando em direção a uma meta comum. Usar uma estrutura comprovada para implementar a alteração pode ajudá-lo a começar sua transição hoje.
 
-## <a name="transition-framework"></a>Estrutura de transição
+## <a name="framework-for-your-move"></a>Estrutura para sua movimentação
 
-![Imagem ilustrando as diretrizes de transição](media/plan-for-successful-transition.png)
+![Imagem ilustrando diretrizes de movimentação](media/plan-for-successful-transition.png)
 
 Descrevemos nossa abordagem recomendada para uma transição bem-sucedida abaixo e incentivamos você a seguir as fases em ordem, pois cada etapa na estrutura se baseia na etapa anterior.
 

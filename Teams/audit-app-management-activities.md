@@ -14,12 +14,12 @@ description: Saiba como auditar as atividades do aplicativo Teams de usuários e
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299250"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457271"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>Auditoria para atividades e eventos de gerenciamento de aplicativos
 
@@ -68,6 +68,9 @@ Depois de pesquisar o sinal de auditoria no portal de conformidade, você pode e
 
 > [!NOTE]
 > Quando uma das atividades acima é executada por um usuário ou administrador, o Teams gera e armazena um registro de auditoria. Na Auditoria (Padrão), os registros são mantidos por 90 dias, o que significa que você pode pesquisar atividades que ocorreram nos últimos três meses.
+
+> [!TIP]
+> Como administrador, se você quiser criar um relatório por usuário para saber se um usuário bloqueou ou desativou o mudo de um bot, consulte Entender quem bloqueou, ative ou desinstalou um [bot](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
