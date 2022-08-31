@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Uma visão geral dos controles de política do Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142807"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041253"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Visão geral do controle de política do Microsoft Teams
 
@@ -87,9 +87,6 @@ Os usuários não poderão alterar o nível de dados de diagnóstico de seus dis
 Esses dados de diagnóstico não incluem nomes de usuários, endereços de email ou outros conteúdos de usuário, como arquivos do Office compartilhados no Teams, uma mensagem de chat enviada no Teams ou o texto de uma postagem publicada em um canal do Teams. Nosso sistema cria uma ID exclusiva que é associada a dados de diagnóstico do usuário. Quando recebemos dados de diagnóstico mostrando que o aplicativo Teams falhou 100 vezes, essa ID exclusiva nos permite determinar se foi um único usuário que teve esse problema 100 vezes ou se foi o aplicativo de 100 usuários que falhou uma vez. Não usamos essa ID exclusiva para identificar um usuário específico.
 
 Para ver quais dados de diagnóstico foram enviados à Microsoft, você poderá usar o Visualizador de Dados de Diagnóstico, que você pode baixar e instalar gratuitamente da Microsoft Store. Para saber mais, consulte [Usando o Visualizador de Dados de Diagnóstico com o Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
-
-> [!NOTE]
-> O suporte para o Visualizador de Dados de Diagnóstico está disponível para Equipes em dispositivos com Android. O suporte para Equipes em dispositivos com Windows, macOS ou iOS está sendo trabalhado.
 
 ## <a name="required-service-data-for-connected-experiences"></a>Dados de serviço obrigatórios para experiências conectadas
 
