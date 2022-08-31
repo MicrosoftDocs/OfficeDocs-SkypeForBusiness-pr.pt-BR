@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: f3ff6cac1c3d48ca3b45a253052eef71eb3f222e
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397222"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466219"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -69,7 +69,7 @@ Quando uma equipe é arquivada, o compartilhamento individual permanecerá intac
 
 O proprietário de um canal privado não pode ser removido pelo cliente do Teams se ele for o último proprietário de um ou mais canais compartilhados.
 
-Se o último proprietário do canal compartilhado sair da sua organização ou se ele for removido do grupo do Microsoft 365 associado à equipe, um membro do canal compartilhado será promovido automaticamente para ser o proprietário do canal compartilhado. Considere adicionar mais de um proprietário para evitar essa situação.
+Se o último proprietário do canal compartilhado sair da sua organização ou se ele for removido do grupo do Microsoft 365 associado à equipe, um membro do canal compartilhado da sua organização será promovido automaticamente para ser o proprietário do canal compartilhado. Se não houver membros de sua organização para promover, o canal compartilhado permanecerá sem proprietário. Um administrador do Teams precisará atribuir manualmente um proprietário de canal. Considere adicionar mais de um proprietário para evitar essa situação.
 
 > [!NOTE]
 > Os participantes externos devem ser adicionados usando seu UPN, em vez de seu endereço de email, se os dois não corresponderem no Azure Active Directory.

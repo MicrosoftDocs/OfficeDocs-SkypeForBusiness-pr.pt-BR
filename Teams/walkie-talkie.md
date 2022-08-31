@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396442"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465989"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie no Microsoft Teams
 
@@ -48,7 +48,7 @@ O Walkie Talkie é habilitado por padrão para todos os usuários do Teams em su
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar o Walkie Talkie para usuários específicos em sua organização
 
-Para permitir ou impedir que usuários específicos em sua organização usem o Walkie Talkie, verifique se o Walkie Talkie está ativado para sua organização na página Gerenciar [aplicativos](manage-apps.md) . Em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](teams-app-permission-policies.md).
+Para permitir ou impedir que usuários específicos em sua organização usem o Walkie Talkie, verifique se o Walkie Talkie está ativado para sua organização na página Gerenciar [aplicativos](manage-apps.md) . Em seguida, crie uma política de permissão de aplicativo personalizada, adicione-a a uma política de configuração de aplicativo e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativo no Teams](teams-app-permission-policies.md) e [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](teams-app-setup-policies.md).
 
 ### <a name="pin-walkie-talkie-to-teams"></a>Fixar Walkie Talkie no Teams
 

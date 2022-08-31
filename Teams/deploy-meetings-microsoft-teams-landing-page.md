@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268566"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465999"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -52,7 +52,6 @@ O Teams oferece uma excelente experiência pronta para uso na organização. A m
 
 > [!TIP]
 > Assista à sessão a seguir para saber mais sobre reuniões: [Introdução às Reuniões no Microsoft Teams para Profissionais de TI](https://aka.ms/teams-meetings-intro).
-
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>Pré-requisitos de conferências e reuniões
 
@@ -150,7 +149,7 @@ Para saber mais, confira [Gravação de reuniões na nuvem do Microsoft Teams](c
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-| Ativarei o serviço de transcrição de reunião?|Confira [Ativar ou desativar a transcrição de gravações](meetings-policies-recording-and-transcription.md#allow-transcription)|
+| Ativarei o serviço de transcrição de reunião?|Confira [Ativar ou desativar a transcrição de gravações](meetings-policies-recording-and-transcription.md#transcription)|
 
 ### <a name="live-events-policies"></a>Políticas de eventos ao vivo
 
@@ -203,6 +202,7 @@ O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade d
 |Quem será o responsável por gerenciar o serviço de reuniões na organização? | Garanta que essa pessoa tenha as permissões de administrador necessárias para gerenciar o serviço de reuniões do Teams. Para saber mais sobre as funções de administrador do Teams, confira [Usar funções de administrador para gerenciar o Microsoft Teams](using-admin-roles.md).|
 
 ## <a name="next-steps"></a>Próximas etapas
+
 - [Promover a adoção](adopt-microsoft-teams-landing-page.md) de conferências e reuniões em toda a organização.
 - [Adicionar audioconferência](deploy-audio-conferencing-teams-landing-page.md)
 - [Implementar o Cloud Voice](cloud-voice-landing-page.md)

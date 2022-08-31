@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc315353e1ece0b4d455937c1677e35e3c18d152
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: e78cbb4740b5839af7c6c2d09450220a080d036f
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794149"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466110"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -49,7 +49,7 @@ Os benefícios do uso do OneDrive for Business e do SharePoint para armazenar gr
 - Políticas de retenção para gravação de reunião do Teams (TMR) (rótulos de retenção automática S+C E5)
 - Desfrute da governança de informações do OneDrive for Business e do SharePoint
 - Fácil de definir permissões e compartilhamento
-- Compartilhe gravações com convidados (usuários externos) com somente compartilhamento explícito.
+- Compartilhar gravações com convidados somente com compartilhamento explícito
 - Solicite o fluxo de acesso
 - Forneça os links compartilhados do OneDrive for Business e do SharePoint
 - As gravações de reunião ficam disponíveis mais rapidamente
@@ -67,7 +67,7 @@ Veja "Novidades nas gravações de reuniões do Microsoft Teams" para obter mais
 
 A opção de gravação de reunião é uma configuração no nível de política do Teams. O exemplo a seguir mostra como definir a política Global. Certifique-se de que configurou a opção de gravação de reunião para a política ou políticas que atribuiu aos seus usuários.
 
-> [!Note]
+> [!NOTE]
 > As alterações na política de reunião do Teams levam algum tempo para serem propagadas. Verifique novamente após algumas horas após defini-la, saia e entre novamente no aplicativo Área de Trabalho do Teams ou simplesmente reinicie o computador.
 
 1. Instale o Teams PowerShell.
@@ -95,14 +95,13 @@ A opção de gravação de reunião é uma configuração no nível de política
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
-> [!Note]
+> [!NOTE]
 > Se alguns dos seus usuários tiverem atribuído uma política por organizador ou por usuário, você deve definir esta configuração nesta política se quiser que eles também armazenem as gravações de reunião no OneDrive for Business e no SharePoint. Para mais informações, confira [Gerenciar políticas de reunião no Teams](meeting-policies-overview.md).
-
 
 ## <a name="permissions-or-role-based-access"></a>Permissões ou acesso baseado na função
 
-> [!Note]
-> Recomendamos que seja necessário que o destinatário seja um usuário conectado ao compartilhar as Gravações de Reunião do Teams. Selecione a opção **Pessoas na (Sua Organização)** ao compartilhar o arquivo conforme documentado em [Compartilhar arquivos ou pastas do SharePoint](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US). O compartilhamento externo não foi feito para distribuir arquivos grandes ou um número grande de arquivos. Para evitar cenários de fraude e abuso, você pode enfrentar problemas ao compartilhar uma quantidade grande de dados para usuários externos.
+> [!NOTE]
+> Recomendamos que o destinatário seja um usuário conectado ao compartilhar gravações de reunião do Teams. Selecione a opção **Pessoas na (Sua Organização)** ao compartilhar o arquivo conforme documentado em [Compartilhar arquivos ou pastas do SharePoint](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c). O compartilhamento externo não foi feito para distribuir arquivos grandes ou um número grande de arquivos.
 
 |Tipo de reunião                               | Quem clicou em Gravar?| Para onde vai a gravação?                               |Quem tem acesso? De leitura/gravação, R ou compartilhamento                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -113,8 +112,8 @@ A opção de gravação de reunião é uma configuração no nível de política
 |Chamada em grupo                                 |Qualquer membro da chamada |Membro do grupo que clicou na conta do OneDrive for Business da Gravação  |O membro que clicou em Gravar tem todos os direitos. <br /><br /> Outros membros do grupo do mesmo locatário têm direitos de leitura. <br /><br /> Os outros membros do grupo de locatários diferentes não têm direito à gravação.|
 |Reunião agendada/adhoc                    |Organizador              |Conta do OneDrive for Business do organizador                     |O organizador tem todos os direitos à gravação. <br /><br /> Todos os outros membros da reunião têm acesso de leitura.|
 |Reunião agendada/adhoc                    |Outro membro da reunião   |Membro da reunião que clicou em Gravar                                  |O membro que clicou em Gravar tem todos os direitos à gravação. <br /><br />O organizador tem direitos de edição e pode compartilhar.<br /><br /> Todos os outros membros da reunião têm acesso de leitura.|
-|Reunião agendada/adhoc com usuários externos|Organizador              |Conta do OneDrive for Business do organizador                     |O organizador tem todos os direitos à gravação.<br /> <br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br /> Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo com eles.|
-|Reunião agendada/adhoc com usuários externos|Outro membro da reunião   |Membro que clicou em Gravar                                  |O membro que clicou em Gravar tem todos os direitos à gravação. O organizador tem direitos de edição e pode compartilhar. <br /><br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br />Todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo com eles.|
+|Reunião ad hoc/agendada com participantes externos|Organizador              |Conta do OneDrive for Business do organizador                     |O organizador tem todos os direitos à gravação.<br /> <br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br /> Todos os outros participantes externos não têm acesso e o Organizador deve compartilhá-lo com eles.|
+|Reunião ad hoc/agendada com participantes externos|Outro membro da reunião   |Membro que clicou em Gravar                                  |O membro que clicou em Gravar tem todos os direitos à gravação. O organizador tem direitos de edição e pode compartilhar. <br /><br /> Todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura. <br /><br />Todos os outros participantes externos não têm acesso e o Organizador deve compartilhá-lo com eles.|
 |Reunião de canal                            |Membro do canal         |Local do SharePoint do Teams para esse canal. **Observação**: não há suporte para carregamento de gravação de reunião de canal no SharePoint para restrições baseadas em IP. É recomendável usar [o acesso condicional do Azure](/azure/active-directory/conditional-access/overview). |O membro que clicou em Gravar tem direitos de edição à gravação. <br /> <br />As permissões dos outros membros são baseadas nas permissões do SharePoint do canal.|
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
@@ -123,11 +122,11 @@ A opção de gravação de reunião é uma configuração no nível de política
 
 - Para as reuniões que não forem de canal, a gravação será armazenada em uma pasta chamada **Gravações** que está no nível superior do OneDrive for Business que pertence à pessoa que iniciou a gravação da reunião. Exemplo:
 
-  <i>Gravações do OneDrive for Business</i>/**do gravador**
+  *Gravações do OneDrive for Business*/**do gravador**
 
 - Para reuniões de canal, a gravação é armazenada na biblioteca de documentação de site do Teams em uma pasta chamada **Gravações**. Exemplo:
 
-  <i>Nome do Teams - Nome do canal</i>/**Documentos**/**Gravações**
+  *Nome do Teams - Nome do canal*/**Documentos**/**Gravações**
 
 **Quando os arquivos do Stream (como gravações) são armazenados no SharePoint/OneDrive, como se decide para onde eles vão? O administrador tem a capacidade de alterar o destino?**
 
@@ -139,7 +138,7 @@ Como vídeos são como qualquer outro arquivo no OneDrive for Business e no Shar
 
 **Quem tem as permissões para exibir a gravação da reunião?**
 
-- Para as reuniões que não forem de canal, todos os convidados da reunião, exceto os usuários externos, receberão automaticamente um link compartilhado pessoal. Os usuários externos precisarão ser adicionados explicitamente à lista compartilhada pelo organizador da reunião ou pela pessoa que iniciou a gravação da reunião.
+- Para reuniões que não são do canal, todos os convidados da reunião, exceto os participantes externos, receberão automaticamente um link compartilhado pessoalmente. Os participantes externos precisarão ser adicionados explicitamente à lista compartilhada pelo organizador da reunião ou pela pessoa que iniciou a gravação da reunião.
 
 - Para as reuniões de canal, as permissões são herdadas da lista de proprietários e membros no canal.
 
@@ -148,7 +147,7 @@ Como vídeos são como qualquer outro arquivo no OneDrive for Business e no Shar
 
 **Como posso gerenciar as legendas?**
 
-As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores [devem ativar a transcrição de gravação](meetings-policies-recording-and-transcription.md#allow-transcription) para garantir que seus usuários tenham a opção de gravar reuniões com transcrição.
+As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores [devem ativar a transcrição de gravação](meetings-policies-recording-and-transcription.md#transcription) para garantir que seus usuários tenham a opção de gravar reuniões com transcrição.
 
 As legendas ajudam a criar conteúdo inclusivo para visualizadores de todas as habilidades. Como proprietário, você pode ocultar legendas na gravação da reunião, embora a transcrição da reunião ainda esteja disponível no Teams, a menos que você a exclua lá.
 
