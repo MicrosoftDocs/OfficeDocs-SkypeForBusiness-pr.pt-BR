@@ -17,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: Saiba como procurar e comprar dispositivos na loja de dispositivos do Centro de administração do Teams
-ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d1e3d016f51c6113b6f09076f67647c32f7fd1fa
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267976"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466209"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Comprar dispositivos na loja de dispositivos do Teams
 
@@ -32,7 +32,7 @@ O repositório de dispositivos no Centro de administração do Teams permite que
 
 ## <a name="requirements"></a>Requisitos
 
-Para usar o repositório de dispositivos, você deve ser um administrador global ou um administrador do Teams.
+Para usar o repositório de dispositivos, você deve ser um administrador global, um administrador do Teams ou um administrador de dispositivos do Teams.
 
 ## <a name="browse-the-store"></a>Procurar na loja
 
@@ -45,14 +45,6 @@ Quando você compra dispositivos da loja de dispositivos, o pagamento e o cumpri
 Você pode pagar com um cartão de crédito ou uma ordem de compra. O pagamento da ordem de compra requer configuração única com o provedor de atendimento.
 
 Todos os pedidos podem ser retornados até 30 dias após serem entregues.
-
-## <a name="data-handling-and-sharing"></a>Manipulação e compartilhamento de dados
-
-O repositório de dispositivos do Teams precisa compartilhar informações básicas do usuário e da empresa, incluindo GUIDs de usuário e locatário, com o UnifiedCommunications.com para habilitar a compra no Centro de administração do Teams.
-
-O compartilhamento de dados é desativado por padrão. Para habilita-lo, acesse o repositório de dispositivos do Teams, selecione o ícone de configurações e ative a configuração.  
-
-Quando essa configuração estiver desativada, os dados não serão compartilhados e você poderá procurar o repositório de dispositivos do Teams, mas não poderá fazer compras. Os dados coletados e compartilhados com o provedor de cumprimento enquanto a configuração estava ativada são processados conforme especificado em sua política de privacidade.
 
 ## <a name="order-tracking-and-history"></a>Histórico e acompanhamento de pedidos
 

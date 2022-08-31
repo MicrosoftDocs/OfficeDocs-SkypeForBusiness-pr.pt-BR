@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Eslováquia para o Microsoft Teams.
-ms.openlocfilehash: 05f953c2ff98a71586cced881f21cc91786c30c5
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: c29dbf6493e106d0c2b6560b53c79dd3ae0f1967
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789606"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466079"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Gerenciamento de números de telefone para a Eslováquia
 
@@ -38,7 +38,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
 |Obtenha novos números de telefone de usuário ou serviço que não estão listados no Centro de administração do Microsoft Teams. |Na Eslováquia, você pode obter números de telefone para sua organização usando o centro de administração do Microsoft Teams. Você também pode enviar uma nova solicitação de número de telefone baixando o formulário e entre em contato com o [Service Desk do TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>[Nova solicitação de número de telefone para a Eslováquia (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Antes que os números de telefone possam ser atribuídos a você, você deve baixar o formulário Conhecer seu cliente, conclua-o por completo e entre em contato com o [Service Desk do TNS para obter instruções](contact-tns-service-desk.md).<br/><br/>Novos pedidos podem levar de duas a três semanas para preencher esse mercado.  |
-|Obter números de telefone transferidos para nós.   | Baixe este formulário. <br/>[Carta de Autorização (LOA) para eslováquia (todos os números) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Carta de Autorização (LOA) para eslováquia (todos os números) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Preencha-o e [entre em contato com o Service Desk do TNS para obter instruções](contact-tns-service-desk.md). <br/><br/>A transferência de números pode levar de quatro a cinco semanas para ser concluída nesse mercado. <br/><br/>Esses números não podem ser usados para conferência no momento. |
+|Obter números de telefone transferidos para nós.   | Baixe este formulário. <br/>[Carta de Autorização (LOA) para eslováquia (todos os números) (v.1.1) (en-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/LOA-SK-GEO-EN.pdf). <br/><br/>Preencha-o e [entre em contato com o Service Desk do TNS para obter instruções](contact-tns-service-desk.md). <br/><br/>A transferência de números pode levar de quatro a cinco semanas para ser concluída nesse mercado. <br/><br/>Esses números não podem ser usados para conferência no momento. |
 |Publicar/cancelar a publicação de números de telefone no diretório de telefone nacional.  <br/> |[Entre em contato com o Service Desk do TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Entre em contato com o Service Desk do TNS](contact-tns-service-desk.md) para obter instruções sobre a lista de números de usuário que você deseja converter em números de serviço. <br/> |
 |Fazer atualizações do serviço de diretório para chamar números de fila ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato [com o Service Desk do TNS para obter instruções](contact-tns-service-desk.md). |
