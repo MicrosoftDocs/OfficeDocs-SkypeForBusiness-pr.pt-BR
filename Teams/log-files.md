@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre os logs de Depuração, Mídia e Área de Trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e na solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466029"
+ms.locfileid: "67486886"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Configurar arquivos de log para monitoramento e solução de problemas no Teams
 
@@ -118,7 +118,7 @@ Leia [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmed
 
 ### <a name="end-user-configuration"></a>Configuração do usuário final
 
-Para que os usuários finais registrem dados de diagnóstico para reuniões do Teams, eles devem ativar a opção no cliente do Teams. Eles irão para **Configurações Gerais, selecionarão** >  os logs de mídia habilitados (dados de diagnóstico **para áudio, vídeo e compartilhamento de tela. Requer a reinicialização do Teams (** requer a reinicialização do Teams), reiniciar o Teams e reproduzir o problema. O cliente do Teams deve ser reiniciado para que o registro em log comece. Os usuários podem reiniciá-lo clicando com o botão direito do mouse no ícone no dock (Mac) ou na barra de tarefas (Windows) e selecionando Sair. Após o encerramento, eles podem clicar no ícone do aplicativo para abrir o Teams novamente.
+Para que os usuários finais registrem dados de diagnóstico para reuniões do Teams, eles devem ativar a opção no cliente do Teams. Eles irão **para Configurações** > **Gerais,** marcarão a caixa de seleção Habilitar logs de mídia (dados de diagnóstico para áudio **, vídeo** e compartilhamento de tela) e reproduzirão o problema.
 
 > [!NOTE]
 > Quando os usuários sairem do Teams, o log de mídia será redefinido para o padrão.

@@ -1,6 +1,6 @@
 ---
 title: Modificar a aparência dos aplicativos na loja do Teams da sua organização
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como alterar a aparência do aplicativo e renomear um aplicativo editando detalhes e metadados do aplicativo.
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298880"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486916"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>Personalize a aparência dos aplicativos na loja do Teams da sua organização
 

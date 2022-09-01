@@ -15,12 +15,12 @@ description: Saiba como comprar aplicativos de terceiros na loja do Teams usando
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396302"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486716"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para o Teams
 
@@ -28,7 +28,7 @@ Os aplicativos do Teams estão disponíveis para instalação e alguns podem exi
 
 A página [Gerenciar aplicativos](manage-apps.md), no Centro de administração do Microsoft Teams, é onde você pode exibir e gerenciar todos os aplicativos do Teams da sua organização. Você pode ver o status e as propriedades de aplicativos no nível da organização, carregar novos aplicativos personalizados na loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização e gerenciar configurações de aplicativos em toda a organização.
 
-Aqui, você também pode comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização. A coluna **Licenças** na tabela indica se um aplicativo oferece uma assinatura de SaaS para compra.
+Aqui, você também pode comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização. A coluna **Licenças** na tabela indica se um aplicativo oferece uma assinatura de SaaS para compra. Os usuários finais podem comprar aplicativos usando um cartão de crédito, cartão de débito ou com cobrança de fatura.
 
 ![Captura de tela da página gerenciar aplicativos de licenças de compra.](media/manage-apps-new-page.png)
 

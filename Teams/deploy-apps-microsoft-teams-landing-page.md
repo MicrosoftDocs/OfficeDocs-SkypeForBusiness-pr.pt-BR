@@ -19,18 +19,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 0a6bfa577df36eba83b4764aa4eb819d1085432a
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397192"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486906"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Entenda os aplicativos do Microsoft Teams
 
 Os aplicativos são uma ótima maneira de reunir suas ferramentas e serviços do local de trabalho e colaborar com outras pessoas. Os aplicativos ajudam os usuários finais a serem mais produtivos, colaborativos e eficazes em suas tarefas diárias. As organizações usam aplicativos para se conectar com seus clientes, fornecer serviços e compartilhar informações. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal.
 
-Nosso amplo catálogo de aplicativos validados e seguros na Loja do Teams fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados. Os usuários finais podem usar aplicativos no Teams com base apenas nas [permissões fornecidas por você](app-policies.md). Como administrador, você usa políticas de nível empresarial para permitir ou bloquear qualquer aplicativo para os usuários da sua organização. Você controla a disponibilidade de aplicativos para cada usuário em vários contextos, como reuniões, bate-papos e canais.
+Nosso amplo [catálogo de](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) aplicativos validados e seguros na Loja do Teams fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados. Os usuários finais podem usar aplicativos no Teams com base apenas nas [permissões fornecidas por você](app-policies.md). Como administrador, você usa políticas de nível empresarial para permitir ou bloquear qualquer aplicativo para os usuários da sua organização. Você controla a disponibilidade de aplicativos para cada usuário em vários contextos, como reuniões, bate-papos e canais.
 
 Este artigo ajuda você a entender os tipos de aplicativos e de onde os seus usuários acessam esses aplicativos. Para saber mais sobre o uso de aplicativos, leia [Visão geral dos aplicativos para usuários finais](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
