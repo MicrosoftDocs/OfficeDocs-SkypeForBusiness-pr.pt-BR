@@ -1,44 +1,44 @@
 ### YamlMime:Hub
 title: Skype for Business
-summary: Documentação técnica do Skype for Business
+summary: Skype for Business documentação técnica
 brand: m365
 metadata:
   title: Skype for Business
-  description: Documentação técnica do Skype for Business
+  description: Skype for Business documentação técnica
   ms.service: skype-for-business-online
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
   ms.date: 07/03/2019
-  localization_priority: Priority
-  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
+  ms.localizationpriority: high
+  ms.openlocfilehash: 35f0728c28765ccfeaffd2b2716280b9d20dfbb3
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51119030"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58592985"
 additionalContent:
   sections:
-  - title: Para Profissionais de TI
+  - title: Para profissionais de TI
     items:
     - title: Skype for Business Online
-      summary: Encontre recursos para gerenciar o Skype for Business Online no seu ambiente Office 365.
+      summary: Encontre recursos para gerenciar o Skype for Business Online em seu ambiente do Office 365.
       url: ../SfbOnline/skype-for-business-online.yml
     - title: Soluções híbridas
-      summary: Saiba como planejar uma implantação híbrida do Skype for Business.
+      summary: Encontre informações sobre como planejar uma implantação Skype for Business híbrida.
       url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
-    - title: Skype para Business Server
-      summary: Implante e gerencie o server do Skype for Business para a sua organização.
+    - title: Skype for Business Server
+      summary: Implemente e gerencie o Skype for Business Server para sua organização.
       url: ../SfBServer2019/skype-for-business-server-2019.yml
-    - title: Referência do PowerShell para o Skype for Business
-      summary: Saiba mais sobre os cmdlets do PowerShell necessários para gerenciar o Skype for Business e o Skype for Business online.
+    - title: Referência do PowerShell para Skype for Business
+      summary: Saiba mais sobre os cmdlets do PowerShell necessários para gerenciar o Skype for Business e o Skype for Business Online.
       url: /powershell/skype/intro
     - title: Microsoft Teams
-      summary: Receba orientações práticas, obtenha ajuda com o planejamento e siga as instruções necessárias para implementar o Microsoft Teams com êxito.
+      summary: Obtenha o planejamento, o tutorial e as diretrizes práticas necessárias para implantar o Microsoft Teams com sucesso.
       url: /MicrosoftTeams/
-    - title: Mudar do Skype for Business para o Microsoft Teams
-      summary: Encontre orientações e ferramentas para explorar o caminho ideal para o Teams.
+    - title: Jornada de migração do Skype for Business para o Microsoft Teams
+      summary: Encontre diretrizes e ferramentas para explorar seu caminho ideal para o Teams.
       url: /MicrosoftTeams/upgrade-start-here
     - title: Salas do Microsoft Teams
       summary: Aprenda a planejar, implantar e gerenciar Salas no Microsoft Teams.
@@ -47,13 +47,13 @@ additionalContent:
       summary: Saiba mais sobre soluções e dispositivos certificados.
       url: ../SfbPartnerCertification/certification/overview.md
     - title: Solução de problemas
-      summary: Encontre solução de problemas e recursos de suporte para Profissionais de TI e administradores.
+      summary: Encontre recursos de solução de problemas e suporte para profissionais de TI e administradores.
       url: /office/troubleshoot
-  - title: Para outros públicos
+  - title: Para outras audiências
     items:
     - title: Desenvolvedores
-      summary: Orientações para o desenvolvimento de soluções para o Skype for Business.
+      summary: Diretrizes para desenvolver soluções para Skype for Business.
       url: /skype-sdk/
     - title: Usuários finais
-      summary: Encontre ajuda, treinamentos e suporte técnico para os usuários do Skype for Business em support.office.com.
+      summary: Encontre ajuda, treinamento e suporte técnico para Skype for Business usuários support.office.com.
       url: https://support.office.com/skype-for-business
