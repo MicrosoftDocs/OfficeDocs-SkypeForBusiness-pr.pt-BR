@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fc979e9c4c6aa12fb4538210ad5c5264ad49aa6
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396672"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572051"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece o log de alterações mais recente do PowerShell do Teams p
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| Setembro de 2022 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>Corrige problemas com a limpeza de processo ao usar o módulo em aplicativos PS ISE e dotnet.</li><li>Versões [Get\|New]-CsBatchTeamsDeployment cmdlets in GA.</li><li>Versões [Novo\|Conjunto]-CSTeamsShiftsConnectionInstance, Test-CsTeamsShiftsConnectionValidate suporte para dimensões ukg.</li><li>Corrige problemas com a busca incorreta de token ao escolher entre várias contas usando o parâmetro AccountId no Connect-MicrosoftTeams.</li><li>Os valores padrão do modo conferência & atributos de modo de presença são alterados de false para true para New-CsCallQueue cmdlet.</li>
 | Agosto de 2022 | [Versão prévia 4.6.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Corrige problemas com a limpeza de processo ao usar o módulo em aplicativos PS ISE e dotnet.</li>
 | Julho de 2022 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>Libera o parâmetro AccountType para o cmdlet Get-CsOnlineUser, que permite consultar tipos específicos de usuários.</li><li>O atributo AccountType é adicionado na saída Get-CsOnlineUser indicando o tipo de usuário. Os valores possíveis para AccountType são: 'Usuário' (contas de usuário), 'ResourceAccount' (pontos de extremidade do aplicativo ou contas de recurso), 'Convidado' (contas de convidado) & 'Desconhecido' (tipo de usuário não conhecido).</li><li>Corrige problemas com os parâmetros & grupo de classificação em cmdlets\<PolicyName\> Grant-Cs.</li><li>Versões [Get\|Set\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlets.</li><li>Remove todos os cmdlets preteridos & cmdlets sem suporte. Detalhes nas [versões com suporte do PowerShell do Teams](teams-powershell-supported-versions.md#deprecated-cmdlets).</li><li>Versões modernizada de cmdlets [New\|Get]-CsCloudCallDataConnection.</li><li>Versões [Get\|Remove]-SharedWithTeam cmdlets.</li><li>Versões Get-TeamAllChannel cmdlet.</li><li>Versões Get-TeamIncomingChannel cmdlet.</li><li>Versões Get-AssociatedTeam cmdlet.</li><li>Versões Get-SharedWithTeamUser cmdlet.</li><li>Dá suporte ao parâmetro opcional TenantId para Add-TeamChannelUser cmdlet.</li><li>Versões Get-TeamTargetingHierarchyStatus & [Remover\|Conjunto]-TeamTargetingHierarchy cmdlets.</li>
 | Julho de 2022 | [Versão prévia 4.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>Libera o parâmetro AccountType para o cmdlet Get-CsOnlineUser, que permite consultar tipos específicos de usuários.</li><li>O atributo AccountType é adicionado na saída Get-CsOnlineUser indicando o tipo de usuário. Os valores possíveis para AccountType são: 'Usuário' (contas de usuário), 'ResourceAccount' (pontos de extremidade do aplicativo ou contas de recurso), 'Convidado' (contas de convidado) & 'Desconhecido' (tipo de usuário não conhecido).</li><li>Corrige problemas com os parâmetros & grupo de classificação em cmdlets\<PolicyName\> Grant-Cs.</li>

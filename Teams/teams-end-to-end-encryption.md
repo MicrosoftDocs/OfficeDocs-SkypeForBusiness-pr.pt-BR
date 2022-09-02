@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
-ms.translationtype: HT
+ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65249003"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572081"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Use criptografia de ponta a ponta para chamadas um-para-um do Microsoft Teams
 
@@ -34,6 +34,8 @@ ms.locfileid: "65249003"
 A criptografia de ponta a ponta, ou E2EE, ocorre quando o conteúdo é criptografado antes de ser enviado e descriptografado somente pelo destinatário pretendido. Com a criptografia de ponta a ponta, somente os dois sistemas de ponto de extremidade estão envolvidos na criptografia e na descriptografia dos dados de chamada. Nenhum outro grupo, incluindo a Microsoft, tem acesso à conversa descriptografada.
 
 Com o E2EE para chamadas um-para-um não agendadas, somente o fluxo de mídia em tempo real, ou seja, os dados de voz e vídeo, para chamadas um-para-um do Teams criptografadas de ponta a ponta. Ambas as partes devem ativar essa configuração para habilitar a criptografia de ponta a ponta. [Criptografia no Microsoft 365](/microsoft-365/compliance/encryption) protege o chat, o compartilhamento de arquivos, a presença e outros conteúdos na chamada.
+
+As chamadas criptografadas de ponta a ponta podem ser feitas entre duas partes quando: as partes estão usando a versão mais recente do cliente da área de trabalho do Teams para Windows ou Mac, estão em um dispositivo móvel com a atualização mais recente para iOS e Android ou estão em um Salas do Teams no dispositivo Windows usando a atualização mais recente.
 
 Se você não habilitar a criptografia de ponta a ponta, o Teams ainda protegerá uma chamada ou reunião usando criptografia com base em padrões do setor. Os dados trocados durante as chamadas são sempre seguros em trânsito e em repouso. Para obter mais informações, consulte [Criptografia de mídia para o Teams](teams-security-guide.md#media-encryption).
 
