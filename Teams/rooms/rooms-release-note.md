@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administração pode ler as notas de versão para Salas do Microsoft Teams, que listam melhorias cumulativas no Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270076"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590178"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -40,6 +40,7 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 
 |Lançamento |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -94,6 +95,19 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams de problemas e introdução ao recurso
+
+### <a name="414240-922022"></a>4.14.24.0 (9/2/2022)
+
+Introduzido nesta atualização:
+
+- Atualização 1 da experiência de layout da <sup>linha da frente</sup> 
+- Fixar e ocultar o vídeo <sup>1 da sala</sup> 
+- Configuração do administrador para desativar a galeria dividida no modo de exibição Salas do Teams <sup>1</sup>
+- Agora, Salas do Teams exibição dupla pode exibir até 18 fluxos de vídeo <sup>de 18 participantes 2</sup>
+
+<sup>1 A</sup> configuração de administrador para desativar a galeria dividida por meio de XML pode ser encontrada em Gerenciar [um Salas do Microsoft Teams de console remotamente com um arquivo de](../rooms/xml-config-file.md) configuração XML.
+
+<sup>2</sup> Este recurso está sendo distribuído para o cliente Web do Teams e levará cerca de duas semanas para ser concluído. Para obter mais informações, consulte [atualizações do Teams](../teams-client-update.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 

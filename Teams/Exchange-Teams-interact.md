@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713359"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590198"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -86,7 +86,7 @@ O Microsoft Teams funciona com vários serviços do Microsoft 365 e do Office 36
 - Os usuários devem estar habilitados para a criação do grupo do Microsoft 365 para criar equipes no Microsoft Teams.
 
   > [!IMPORTANT]
-  > Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams. Para resolver esse problema, selecione a sua imagem de perfil no canto superior direito do Microsoft Teams e selecione **Configurações**. Na guia **Geral**, em **Aplicativo**, selecione **Registrar o Teams como o aplicativo de chat do Office (exige o reinício de aplicativos do Office)**. Depois de selecionar essa opção, feche e reabra todos os aplicativos do Office, como o Outlook. Depois de abrir o Outlook, as informações de presença estarão disponíveis.
+  > Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams. Para resolver esse problema, selecione o botão de reticências à esquerda da imagem do perfil no canto superior direito do Microsoft Teams e, em seguida, selecione **Configurações**. Na guia **Geral**, em **Aplicativo**, selecione **Registrar o Teams como o aplicativo de chat do Office (exige o reinício de aplicativos do Office)**. Depois de selecionar essa opção, feche e reabra todos os aplicativos do Office, como o Outlook. Depois de abrir o Outlook, as informações de presença estarão disponíveis.
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>Requisitos para criar e exibir reuniões para caixas de correio hospedadas no local
 

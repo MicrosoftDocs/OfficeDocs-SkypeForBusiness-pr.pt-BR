@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 74f8a25955d112548b5bbd311a0e51d110c4944d
-ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
+ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67426838"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590188"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -267,6 +267,12 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão de produto incluída |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.13.0.368067` | Atualização de 2022 #2A   |
+| Poly Studio X50 | `3.13.0.368067` | Atualização de 2022 #2A |
+| Poly TC8        | `3.13.0.210799`          | Atualização de 2022 #2A   |
+| Yealink MeetingBar A20 | `133.310.0.25 `   | Atualização de 2022 #2A  |
+| Yealink MeetingBar A30 | `133.310.0.25 `   | Atualização de 2022 #2A  |
+| Yealink CTP18 | `137.15.0.80`   | Atualização de 2022 #2A  |
 | AudioCodes RXV80 | `1.16.191` | Atualização de 2022 #2A   |
 | Poly Studio X30 | `3.12.0.366027` | Atualização 1 de 2022   |
 | Poly Studio X50 | `3.12.0.366027` | Atualização 1 de 2022  |

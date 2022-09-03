@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console Salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 40d49597ab3354eeaacc8d7c562917fbf653e727
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270106"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590168"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Criar uma Salas do Microsoft Teams imagem
 
@@ -171,7 +171,7 @@ Depois que o Windows for instalado, o Salas do Microsoft Teams aplicativo entrar
 O Salas do Microsoft Teams aplicativo deve entrar no Microsoft Teams ou Skype for Business Server com as credenciais inseridas acima e também deve começar a sincronizar seu calendário com o Exchange usando essas mesmas credenciais. Para obter detalhes sobre como Salas do Teams, consulte a [ajuda Salas do Microsoft Teams segurança](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Salas do Microsoft Teams depende da presença de hardware de console certificado. Mesmo uma imagem criada corretamente contendo o aplicativo Salas do Microsoft Teams console não será inicializada após o procedimento de configuração inicial, a menos que o hardware do console seja detectado. Para Surface Pro soluções baseadas em Surface Pro, o Surface Pro deve estar conectado ao hardware de encaixe que o acompanha para passar essa verificação.
+> Salas do Microsoft Teams depende da presença de hardware de console certificado. Mesmo uma imagem criada corretamente contendo o aplicativo Salas do Microsoft Teams console não será inicializada após o procedimento de configuração inicial, a menos que o hardware do console seja detectado. Para Surface Pro soluções baseadas em Surface Pro, o Surface Pro deve estar conectado ao hardware de encaixe que o acompanha para passar essa verificação. Para obter mais informações sobre o hardware com suporte, [consulte Salas do Microsoft Teams requisitos](requirements.md).
   
 > [!NOTE]
 > Alguns usuários que não são do idioma inglês podem precisar de um teclado físico conectado ao console durante a configuração inicial caso os símbolos não sejam compatíveis com o teclado virtual.

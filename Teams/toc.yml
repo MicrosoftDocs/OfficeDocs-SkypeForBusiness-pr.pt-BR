@@ -673,7 +673,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar sua implantação
+              - name: Planejar implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md
@@ -1135,8 +1135,6 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: Gerenciamento de número de telefone para Luxemburgo
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
-              - name: Gerenciamento de números de telefone para o México
-                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: Gerenciamento de número de telefone para a Nova Zelândia
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: Gerenciamento de número de telefone para a Noruega
