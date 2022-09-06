@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Microsoft Teams disponíveis para o Canadá.
-ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 4559208fdd651b586af8b2005f901071cb5c4030
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270506"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609419"
 ---
 # <a name="availability-in-canada"></a>Disponibilidade no Canadá
 
@@ -60,7 +60,7 @@ Aqui estão os serviços microsoft 365 e Office 365 para Skype for Business e Mi
 | **Recurso**                                        | **Detalhes**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Os Planos de Chamadas estão disponíveis para compra?  |Sim          |   
-|Minutos disponíveis para Planos de Chamadas.    |Há cinco opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas pago conforme o uso </li><li> Plano de Chamadas Domésticas de 120 minutos </li><li> Plano de Chamadas Domésticas de 240 minutos </li><li> Plano de Chamadas Domésticas de 1200 minutos </li><li> Plano de Chamadas Internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamada internacional (o que for atingido primeiro no mês calendário)</li></ul>|
+|Minutos disponíveis para Planos de Chamadas.    |Há cinco opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas pago conforme o uso </li><li> Plano de Chamadas Domésticas de 120 minutos </li><li> Plano de Chamadas Domésticas de 240 minutos </li><li> Plano de Chamadas Domésticas de 3.000 minutos </li><li> Plano de Chamadas Internacionais: 3.000 minutos de chamadas domésticas ou 600 minutos de chamada internacional (o que for atingido primeiro no mês calendário)</li></ul>|
 | Pode fazer chamadas de saída para números premium?  <br/> | Não há suporte no momento.<br/>                                                                                                                                                                                                                                            |
 | É possível fazer chamadas de saída?  <br/>                 | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 

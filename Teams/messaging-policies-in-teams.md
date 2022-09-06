@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 2b428f39624ce7e6fb82815c7cbba3872b2113c2
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396512"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609439"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -80,9 +80,8 @@ Aqui estão as configurações de política de mensagens que você pode definir.
 
 - **Os proprietários podem excluir mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens de canal ou postagens que os usuários enviaram.
 - **Excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens enviadas no chat.
-- **Excluir chat** Use essa configuração para permitir que os usuários excluam mensagens enviadas no chat.
 - **Editar mensagens enviadas** Use essa configuração para permitir que os usuários editem as mensagens enviadas no chat.
-- **Confirmações de leitura** As confirmações de leitura permitem que o remetente de uma mensagem de chat seja notificado quando sua mensagem foi lida pelo destinatário em 1:1 e chats em grupo de 20 pessoas ou menos. Os recibos de leitura de mensagens realizam a remoção sem ter a certeza se uma mensagem foi lida e melhoram a comunicação da equipe. Os recibos de leitura não são capturados nos relatórios de Descoberta Eletrônica.  
+- **Confirmações de leitura** As confirmações de leitura permitem que o remetente de uma mensagem de chat seja notificado quando sua mensagem foi lida pelo destinatário em 1:1 e chats em grupo de 20 pessoas ou menos. As confirmações de leitura de mensagem eliminam a incerteza sobre se uma mensagem foi lida e melhoram a comunicação da equipe. Os recibos de leitura não são capturados nos relatórios de Descoberta Eletrônica.  
     - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA.
     - **Ativado para todos** Isso significa que todos no locatário terão o recurso ATIVADO sem opção para desativá-lo. Ao usar a  configuração Ativado para todos, a única maneira de definir recibos para todo o locatário é ter apenas uma política de mensagens para todo o locatário (a política padrão chamada "Global (Padrão em toda a organização)") ou fazer com que todas as políticas de mensagens no locatário usem as mesmas configurações para recibos. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
     - **Desativado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem recibos de leitura nem pode ativá-lo.
