@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: Saiba como adicionar, alterar ou remover um local de emergência para sua organização.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bcbe811ecdb7ac9377e4798a2cdcb7334188aa1e
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267596"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606630"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
-Independentemente da [opção de conectividade PSTN](pstn-connectivity.md)&mdash;, você escolhe planos de chamada da Microsoft,&mdash;conexão de operador ou locais de emergência de roteamento direto podem ser associados a um número de telefone.
+Independentemente da opção de conectividade [PSTN](pstn-connectivity.md)&mdash;, você escolhe Planos de Chamada da Microsoft, Conexão de Operador, Operadora de Conexão Móvel (versão prévia pública)&mdash;ou locais de emergência de Roteamento Direto podem ser associados a um número de telefone.
 
 No entanto, dependendo da opção de conectividade PSTN, a maneira como você gerencia os locais de emergência e os requisitos de localização podem variar. Para obter mais informações, consulte [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Este artigo descreve como adicionar, alterar ou remover um local de emergência para sua organização. 
 
-Este artigo se aplica aos Planos de Chamadas da Microsoft, ao Operator Connect e ao Roteamento Direto.
+Este artigo se aplica aos Planos de Chamada da Microsoft, ao Operator Connect, Operadora de Conexão Móvel (versão prévia pública) e ao Roteamento Direto.
 
 Você gerencia locais de emergência para sua organização no centro de administração do Microsoft Teams ou usando o PowerShell.
 

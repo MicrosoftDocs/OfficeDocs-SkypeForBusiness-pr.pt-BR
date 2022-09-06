@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269576"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606280"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas do Microsoft Teams gerenciado
 
@@ -110,11 +110,11 @@ Para obter mais detalhes sobre a Salas do Microsoft Teams de suporte ao serviço
 
 ## <a name="supported-regions"></a>Regiões com suporte
 
-A Salas do Microsoft Teams Premium está disponível nos seguintes países com audioconferência:
+A Salas do Microsoft Teams Pro está disponível nos seguintes países com audioconferência:
 
 - Austrália, Áustria, Bélgica, Brasil, Bulgária, Canadá, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Finlândia, França, Alemanha, Grécia, RAE de Hong Kong, Hungria, Irlanda, Itália, Japão, Letônia, Letônia, Luxemburgo, Luxemburgo, México, Mônaco, Países Baixos, Nova Zelândia, Noruega, Polônia, Portugal, Romênia, Rússia, Singapura, Eslováquia, Eslovênia, África do Sul, Espanha, Suécia, Suíça, Taiwan, Reino Unido, Estados Unidos.
 
-A Salas do Microsoft Teams Premium está disponível nos seguintes países sem audioconferência:
+A Salas do Microsoft Teams Pro está disponível nos seguintes países sem audioconferência:
 
 - Andorra, Ilha Bouvet, Ilha de Natal, Ilhas Cocos (Keeling), Ilhas Cook, Ilhas Faroe, Fiji, Marseltar, Groenlândia, Ilha Heard e Ilhas McDonald, Islândia, Índia, Kiribati, Lesotho, Liechtenstein, Macao SAR, Ilhas Marshall, Ilhas Marshall, Micésia, Nauru, Niue, Ilha De Norfolk, Ilhas Marianas do Norte, Palau, Papua Nova Guiné, Ilhas Pitcairn, Saint Pierre e Miquelon, Box, San Mars, Ilhas Salomão, Swaziland, Tokelau, Tonga, Tuvalu,  Vanuatu, Cidade do Vaticano, Wallis e Futuna.
 

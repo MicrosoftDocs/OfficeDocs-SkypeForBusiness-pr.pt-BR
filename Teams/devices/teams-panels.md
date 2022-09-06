@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece uma visão geral dos recursos compatíveis com os painéis do Microsoft Teams.
-ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d31ac86be9ac00b7aa8a77e37a906b32a00a2095
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268556"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606730"
 ---
 # <a name="microsoft-teams-panels"></a>Painéis do Microsoft Teams
 
@@ -54,7 +54,7 @@ Os requisitos de hardware, software e rede para implantar dispositivos de painé
 
 ## <a name="license-requirement"></a>Requisito de licença
 
-Para usar os painéis do Teams, você precisa [Salas do Microsoft Teams Padrão Licença](../rooms/rooms-licensing.md).
+Para usar os painéis do Teams, você precisa de [Salas do Microsoft Teams Licença](../rooms/rooms-licensing.md).
 
 > [!Note]
 > Se você já tiver Salas do Microsoft Teams implantado no espaço de reunião em que está instalando painéis do Teams, não precisará de uma licença adicional para usar os painéis do Teams.
@@ -103,11 +103,12 @@ O planejamento de configuração e implantação abrange as seguintes áreas pri
 
 Cada dispositivo de painéis do Teams requer uma conta de recurso de sala do Microsoft 365. Use as credenciais da conta de recurso para entrar no aplicativo Microsoft Teams no dispositivo de painéis.
 
-Para configurar uma conta de recurso do Microsoft 365 para painéis do Teams, recomendamos que você compre uma [licença Salas do Microsoft Teams Padrão aplicativo](#license-requirement). Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte Criar contas de recursos para salas e [dispositivos compartilhados do Teams](../rooms/with-office-365.md).
+Para configurar uma conta de recurso do Microsoft 365 para painéis do Teams, você precisa comprar uma [licença Salas do Microsoft Teams usuário](#license-requirement).
+Para obter informações sobre como criar uma conta de recurso e atribuir uma licença a ela, consulte Criar contas de recursos para salas e [dispositivos compartilhados do Teams](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
->- Se você já tiver uma conta de recurso de sala configurada para o espaço de reunião onde você está instalando painéis, use a mesma conta de recurso de sala para entrar no dispositivo de painéis. No entanto, verifique se a conta de recurso da sala tem a Salas do Microsoft Teams Padrão atribuída a ela para usá-la como conta de recurso de painéis.
+>- Se você já tiver uma conta de recurso de sala configurada para o espaço de reunião onde você está instalando painéis, use a mesma conta de recurso de sala para entrar no dispositivo de painéis. No entanto, verifique se a conta de recurso da sala tem uma Salas do Microsoft Teams atribuída a ela para usá-la como conta de recurso de painéis.
 >
 >- Se você já tiver um Salas do Microsoft Teams implantado no espaço de reunião em que está instalando painéis do Teams, não precisará comprar uma licença separada para implantar painéis. O administrador entra no dispositivo de painéis com as mesmas credenciais que o Salas do Microsoft Teams para o mesmo espaço.
 >

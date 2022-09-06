@@ -9,7 +9,7 @@
 5. Para atribuir ou alterar o local de emergência associado, em Local de **emergência,** pesquise e selecione o local.
 
    > [!NOTE]
-   > Se você estiver atribuindo números a usuários do Operator Connect, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu operador para obter mais informações.
+   > Se você estiver atribuindo números ao Operator Connect ou Operadora de Conexão Móvel usuários, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu operador para obter mais informações.
 
 6. Dependendo se você deseja enviar um email para o usuário com suas informações de número de telefone, desative ou ative Email usuário com informações **de número de telefone**. Por padrão, isso está ativado.
 7. Clique em **Salvar**.

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Devices
 description: Saiba como definir a interface do usuário em dispositivos Android do Teams.
-ms.openlocfilehash: 859c1d9d0f7a946f37b53ad81dc2a0637bb26621
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 830609d1bf02c38a2301c0d5a1b9e62ac836c908
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269316"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606830"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Definir a interface do usuário de dispositivos Android do Microsoft Teams
 
@@ -49,7 +49,7 @@ Nesta imagem, a conta de usuário foi atribuída a uma [licença do Common Area 
 
 ## <a name="meeting-interface"></a>Interface de reunião
 
-Esta imagem mostra uma conta de usuário com [uma Salas do Microsoft Teams Padrão atribuída](/MicrosoftTeams/rooms/rooms-licensing). Salas do Teams licenças devem ser usadas em salas de reunião ou espaços compartilhados, portanto, a interface do usuário muda para facilitar o ingresso em uma reunião mostrando o modo de exibição de calendário:
+Esta imagem mostra uma conta de usuário com [uma Salas do Microsoft Teams atribuída](/MicrosoftTeams/rooms/rooms-licensing). Salas do Teams licenças devem ser usadas em salas de reunião ou espaços compartilhados, portanto, a interface do usuário muda para facilitar o ingresso em uma reunião mostrando o modo de exibição de calendário:
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Interface de reunião.":::
 
@@ -61,7 +61,7 @@ Esta imagem mostra uma conta de usuário com [uma Salas do Microsoft Teams Padr�
 
 ## <a name="override-automatic-user-interface-detection"></a>Substituir a detecção automática de interface do usuário
 
-Em alguns casos, você pode optar por atribuir uma licença a uma conta que não corresponda ao uso pretendido. Por exemplo, você pode atribuir uma licença de usuário a uma conta destinada a entrar Salas do Teams no Android. Por padrão, você verá a interface do usuário final em vez da interface da sala de reunião. Para substituir a interface padrão, crie uma nova Política [de Telefone IP do Teams](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) e aplique-a a essa conta.
+Em alguns casos, você pode optar por atribuir uma licença a uma conta que não corresponda ao uso pretendido. Por exemplo, você pode atribuir uma licença de usuário a uma conta destinada a entrar Salas do Teams no Android. Por padrão, você verá a interface do usuário final em vez da interface da sala de reunião. Para substituir a interface padrão, crie uma nova Política [de Telefone IP do Teams](/powershell/module/skype/new-csteamsipphonepolicy) e aplique-a a essa conta.
 
 > [!NOTE]
 > A licença atribuída à conta de usuário deve ter pelo menos os mesmos direitos de licença que a interface do usuário desejada. A licença do Common Area Phone só permite a interface do usuário do telefone da Área Comum. A licença da sala de reunião permite a sala de reunião e as interfaces de usuário do telefone de área comum. Uma licença E3 ou E5 dá suporte a todos os modos de entrada.

@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Este artigo aborda as considerações de planejamento para usar o Azure Monitor para monitorar Salas do Microsoft Teams em sua implementação Skype for Business ou teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269566"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606390"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>Planejar Salas do Microsoft Teams monitoramento com o Azure Monitor
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269566"
 
 > [!NOTE]
 > Você também pode [configurar o monitoramento de integridade de Salas do Teams](../alerts/device-health-status.md) o Centro de administração do Teams.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [O Azure Monitor](/azure/azure-monitor/overview) é uma coleção de serviços de monitoramento que foram projetados na nuvem desde o início. Em vez de implantar e gerenciar recursos locais, os componentes do Azure Monitor são totalmente hospedados no Azure. A configuração é mínima e você pode estar em funcionamento em questão de minutos. Com algum trabalho de personalização, ele pode ajudar no monitoramento do Salas do Microsoft Teams fornecendo notificações de integridade ou falhas do sistema para sistemas de sala individuais e pode escalar verticalmente para gerenciar milhares de Salas do Microsoft Teams.
   

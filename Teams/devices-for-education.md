@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269346"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606850"
 ---
 # <a name="teams-devices-for-education"></a>Dispositivos do Teams para Educação
 
@@ -62,11 +62,11 @@ Sistemas não nativos e auto-criados que dependem de serviços externos, ou uma 
 
 **Desenvolvido para o Teams**:
 
-Áudio, vídeo e compartilhamento avançados
+Áudio, vídeo e compartilhamento avançados.
 
 **Portfólio de dispositivos expansivos para qualquer sala**:
 
-Selecionar entre fatores forma totalmente modularizados ou integrados em sistemas operacionais Android ou Windows
+Selecione entre fatores forma totalmente modularizados ou integrados em sistemas operacionais Android ou Windows.
 
 **Experiências de sala reimaginadas**:
 
@@ -74,7 +74,7 @@ Participe de reuniões do Teams sem atrito para participar de reuniões inclusiv
 
 **Gerenciado facilmente de um só lugar**:
 
-Gerencie e mantenha os dispositivos totalmente atualizados e prontos para uso no Teams Administração Center e habilite o gerenciamento proativo 24x7 da Microsoft com Salas do Microsoft Teams Premium
+Gerencie e mantenha os dispositivos totalmente atualizados e prontos para uso no Teams Administração Center e habilite o gerenciamento proativo 24x7 da Microsoft com o Salas do Microsoft Teams Pro.
 
 ## <a name="space-considerations"></a>Considerações sobre o espaço
 

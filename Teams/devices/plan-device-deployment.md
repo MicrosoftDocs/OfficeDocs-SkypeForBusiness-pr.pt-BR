@@ -1,7 +1,7 @@
 ---
 title: Planejar sua implantação para dispositivos de telefone e exibições do Teams
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: tony.woodruff
 ms.topic: reference
@@ -12,16 +12,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: Este artigo fornece e visão geral das tarefas e das etapas para implantar telefones e exibições do Teams em sua organização.
+description: Este artigo fornece uma visão geral das tarefas e das etapas para implantar telefones e exibições do Teams em sua organização.
 ms.collection:
 - M365-voice
 - Teams_ITAdmin_Devices
-ms.openlocfilehash: 5172d230823088141c58e3d2b58e1c3b579268b3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fb9b560f56ece49ddae9f15899a118596a31c38f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272386"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606840"
 ---
 # <a name="plan-your-deployment-for-teams-phone-devices-and-displays"></a>Planejar sua implantação para dispositivos de telefone e exibições do Teams
 
@@ -68,17 +68,17 @@ Agora que você identificou suas personas de dispositivo, você precisa determin
 - Quantas salas ou espaços exigem dispositivos compartilhados? Cada espaço terá o mesmo tipo de dispositivo? 
 - Seus dispositivos precisarão atender a requisitos específicos?
     - Os exemplos incluem tamanho da tela, fator forma e fabricante ou modelo? Para obter uma lista de telefones e monitores certificados, consulte [dispositivos certificados do Microsoft Teams](teams-ip-phones.md).
--  Você precisa de telefones do Teams ou exibições do Teams? Para obter uma lista dos recursos compatíveis com telefones do Teams, consulte [Telefones para Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones) e para obter uma lista de recursos compatíveis com as exibições do Teams, consulte as exibições do [Microsoft Teams](teams-displays.md#features-supported-by-teams-displays).
+-  Você precisa de telefones do Teams ou exibições do Teams? Para obter uma lista dos recursos compatíveis com telefones do Teams, consulte [Telefones para o Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). Para obter uma lista dos recursos compatíveis com as exibições do Teams, confira [as exibições do Microsoft Teams](teams-displays.md#features-supported-by-teams-displays).
 - Você tem dispositivos suficientes para novos usuários ou um processo para novos pedidos e entrega?
-- Você terá dispositivos sobressalentes disponíveis para manutenção ou em caso de problemas de hardware? A capacidade de trocar um dispositivo impede rapidamente interrupções na experiência do usuário.
+- Você terá dispositivos sobressalentes disponíveis para manutenção ou se um dispositivo tiver problemas de hardware? A capacidade de trocar um dispositivo impede rapidamente interrupções na experiência do usuário.
 
 ## <a name="task-2-what-are-your-licensing-requirements"></a>Tarefa 2: Quais são seus requisitos de licenciamento? 
 
 Agora que você sabe quantos dispositivos precisa, a próxima etapa é determinar quantas licenças são necessárias. Telefones e exibições do Teams exigem licenças para acessar o Microsoft Teams e o Microsoft 365.
 
-Dispositivos compartilhados e pessoais precisarão de licenciamento diferente. Para dispositivos pessoais, licenças atribuídas a contas de usuário podem ser usadas. Dispositivos compartilhados precisam de licenças específicas para sua função. Para telefones e monitores, as licenças aplicáveis são a licença [do Common Area Phone para o Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) e a [licença Salas do Microsoft Teams Padrão uso.](../rooms/rooms-licensing.md#licensing-solutions-for-shared-communication-devices)
+Dispositivos compartilhados e pessoais precisam de licenciamento diferente. Para dispositivos pessoais, licenças atribuídas a contas de usuário podem ser usadas. Dispositivos compartilhados precisam de licenças específicas para sua função. Para telefones e monitores, as licenças aplicáveis são a licença [do Common Area Phone para o Microsoft Teams](../set-up-common-area-phones.md#step-1---buy-the-licenses) e uma licença [Salas do Microsoft Teams uso.](../rooms/rooms-licensing.md)
 
-Para obter mais informações e comparar suas opções de licenciamento, consulte [planos de licenciamento do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1). 
+Para obter mais informações e comparar suas opções de licenciamento, consulte [planos de licenciamento do Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
 
 ## <a name="task-3-what-are-your-dependencies"></a>Tarefa 3: Quais são suas dependências? 
 

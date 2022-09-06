@@ -15,12 +15,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir licenças de complemento do Teams aos usuários para recursos como Audioconferência, Sistema de Telefonia e Planos de Chamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268166"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606050"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir licenças de complemento do Teams aos usuários
 
@@ -143,6 +143,10 @@ Para saber mais, confira [Exibir licenças](/office365/enterprise/powershell/vie
 | Créditos de Comunicação | MCOPSTNPP |
 | Planos de chamadas pagas conforme o uso (países da zona 1) | MCOPSTN_PAYG_1 |
 | Planos de chamadas pagas conforme o uso (países da Zona 2) | MCOPSTN_PAYG_2 |
+| Salas do Microsoft Teams Básico | Microsoft_Teams_Rooms_Basic |
+| Salas do Microsoft Teams Básico sem Audioconferência | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Salas do Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
+| Salas do Microsoft Teams Pro sem Audioconferência | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 
 ## <a name="related-content"></a>Conteúdo relacionado
 

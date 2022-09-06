@@ -16,16 +16,18 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o monitoramento de Salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dbea45008024762f30d9555f4762c4377d2ed1f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267446"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606410"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: o monitoramento com :::no-loc text="Azure Monitor":::
 
 Este artigo discute como configurar e implantar o monitoramento integrado de ponta a ponta de :::no-loc text="Microsoft Teams Rooms"::: dispositivos usando .:::no-loc text="Azure Monitor":::
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Você pode configurar para :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: fornecer telemetria básica e alertas que ajudarão você a gerenciar :::no-loc text="Microsoft Teams Rooms":::. À medida que sua solução de gerenciamento amadurece, você pode decidir implantar recursos adicionais de gerenciamento e dados para criar uma exibição mais detalhada da disponibilidade e do desempenho do dispositivo.
 

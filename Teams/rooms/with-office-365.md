@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este artigo para obter informações sobre como criar contas de recursos para salas e dispositivos compartilhados, incluindo Salas do Microsoft Teams, Salas do Teams no Surface Hub e hot-desking em exibições do Teams.
-ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405153"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606220"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>Criar e configurar contas de recursos para salas e dispositivos compartilhados do Teams
 
@@ -266,7 +266,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Connect-MsolService
        ```
 
-       Para obter detalhes sobre o Active Directory, [consulte O Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+       Para obter detalhes sobre o Active Directory, [consulte O Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
 
 2. Defina a senha para nunca expirar usando a seguinte sintaxe:
 
@@ -309,7 +309,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 A conta de recurso precisa de uma licença do Microsoft 365 ou Office 365 para entrar no Microsoft Teams.
 
 > [!NOTE]
-> Salas do Microsoft Teams Padrão e Salas do Microsoft Teams Premium são os dois SKUs disponíveis para dispositivos de sala de reunião compartilhados, incluindo Salas do Teams. Uma licença de sala de reunião é necessária para exibições do Teams com mesa quente. Para obter mais informações, consulte [licenciamento da sala de reunião do Teams](rooms-licensing.md).
+> Salas do Microsoft Teams Basic e Salas do Microsoft Teams Pro são os dois SKUs disponíveis para dispositivos de sala de reunião compartilhados, incluindo Salas do Teams. Uma licença de sala de reunião é necessária para exibições do Teams com mesa quente. Para obter mais informações, [consulte Salas do Microsoft Teams licenças](rooms-licensing.md).
 
 Para atribuir licenças usando o Centro de administração do Microsoft 365, consulte [Atribuir licenças aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users). Para atribuir licenças usando Azure AD, consulte uma das seguintes guias:
 
@@ -322,7 +322,7 @@ Para atribuir licenças usando o Centro de administração do Microsoft 365, con
     Connect-AzureAD
     ```
 
-     Para obter detalhes sobre o Active Directory, consulte [o PowerShell do Azure Active Directory para Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+     Para obter detalhes sobre o Active Directory, consulte [o PowerShell do Azure Active Directory para Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0&preserve-view=true).
     
 2. Atribua um local de uso à sua conta de recurso usando o `Set-AzureADUser` cmdlet. Isso determina quais SKUs de licença estão disponíveis.
 
@@ -363,7 +363,7 @@ Para atribuir licenças usando o Centro de administração do Microsoft 365, con
    Connect-MsolService
    ```
 
-    Para obter detalhes sobre o Active Directory, [consulte O Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    Para obter detalhes sobre o Active Directory, [consulte O Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
 
 2.  Atribua um local de uso à sua conta de recurso usando o `Set-MsolUser` cmdlet. Isso determina quais SKUs de licença estão disponíveis.
 
@@ -402,7 +402,7 @@ Não há requisitos exclusivos para habilitar a chamada com contas de recursos. 
 
 ### <a name="configure-distribution-groups-for-teams-calendar"></a>Configurar grupos de distribuição para o Calendário do Teams
 
-Para organizar seus locais de sala de reunião, você pode adicionar suas contas de recursos do dispositivo aos grupos de distribuição do Exchange. Por exemplo, se você tiver escritórios em três locais geográficos diferentes, poderá criar três grupos de distribuição e adicionar as contas de recursos apropriadas a cada local. Para obter mais informações, consulte [Criar uma lista de salas](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+Para organizar seus locais de sala de reunião, você pode adicionar suas contas de recursos do dispositivo aos grupos de distribuição do Exchange. Por exemplo, se você tiver escritórios em três locais geográficos diferentes, poderá criar três grupos de distribuição e adicionar as contas de recursos apropriadas a cada local. Para obter mais informações, consulte [Criar uma lista de salas](/exchange/recipients/room-mailboxes?view=exchserver-2019&preserve-view=true#create-a-room-list).
 
 ### <a name="configure-places-for-outlook-calendar"></a>Configurar locais para Calendário do Outlook
 Para que os locais de sala de reunião apareçam no Localizador de Sala do Outlook, você precisa usar o cmdlet Set-Place Exchange PowerShell. Além de Set-Place popular o Localizador de Sala no Outlook, ele também permite que você adicione metadados adicionais, como a capacidade da sala ou do andar de construção em que a sala está. Para obter mais informações, consulte [Set-Place](/powershell/module/exchange/set-place).

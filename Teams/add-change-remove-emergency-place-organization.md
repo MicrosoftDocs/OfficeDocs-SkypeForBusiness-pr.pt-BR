@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como adicionar, alterar ou remover um local para um local de emergência para sua organização.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1f142d7053a8254446d76dfab276baf9f6f12363
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269268"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606710"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Adicionar, alterar ou remover um endereço de um local de emergência para sua organização
 
@@ -34,7 +34,7 @@ Dependendo da opção de conectividade PSTN, no entanto, a maneira como você ge
 
 Este artigo descreve como adicionar, alterar ou remover um local *para um local* de emergência para sua organização.
 
-Este artigo se aplica aos Planos de Chamadas da Microsoft, ao Operator Connect e ao Roteamento Direto.
+Este artigo se aplica aos Planos de Chamada da Microsoft, ao Operator Connect, Operadora de Conexão Móvel (versão prévia pública) e ao Roteamento Direto.
 
 Você gerencia locais de emergência para sua organização no centro de administração do Microsoft Teams ou usando o PowerShell.
   

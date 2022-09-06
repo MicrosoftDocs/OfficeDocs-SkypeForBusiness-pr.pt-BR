@@ -16,16 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Use uma câmera de conteúdo Salas do Microsoft Teams que interaja com o software de processamento de imagem para permitir que os apresentadores desenhem em um quadro de comunicações analógico.
-ms.openlocfilehash: 08d360e62cd2d254f2c207e9b9eee9adea424c34
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 6f8116e8c54c24d31a122d54ec505b72f4ef8fdc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396662"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606370"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
 Agora você pode usar uma câmera de conteúdo com um Salas do Microsoft Teams sistema. Uma câmera de conteúdo interage com um software especial de processamento de imagem e um quadro de comunicações para permitir que o apresentador desenhe em um quadro de comunicações analógico e compartilhe o conteúdo com participantes remotos.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Confira o vídeo a seguir para ver exemplos de funcionalidade da câmera de conteúdo.
 

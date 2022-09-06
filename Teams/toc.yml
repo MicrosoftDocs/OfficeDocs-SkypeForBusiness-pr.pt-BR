@@ -867,6 +867,12 @@ items:
                 href: operator-connect-plan.md
               - name: Configurar a Conexão do Operador
                 href: operator-connect-configure.md
+          - name: Operadora de Conexão Móvel
+            items:
+              - name: Planejar para Operadora de Conexão Móvel
+                href: operator-connect-mobile-plan.md
+              - name: Configurar Operadora de Conexão Móvel
+                href: operator-connect-mobile-configure.md
           - name: Roteamento Direto
             items:
               - name: Novidades
@@ -977,6 +983,8 @@ items:
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
           - name: Gerenciar números de telefone para Conexão do Operador
             href: operator-connect-configure.md#set-up-phone-numbers
+          - name: Gerenciar números de telefone para Operadora de Conexão Móvel
+            href: operator-connect-mobile-configure.md#set-up-phone-numbers
           - name: Gerenciar números de telefone para Roteamento Direto
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
           - name: Licenciamento e gerenciamento de números de telefone
@@ -1321,6 +1329,10 @@ items:
             items:
               - name: Visão geral do planejamento de Salas do Microsoft Teams
                 href: rooms/rooms-plan.md
+              - name: Visão geral do Salas do Teams licenciamento
+                href: rooms/rooms-licensing.md
+              - name: Salas do Teams do centro de administração
+                href: rooms/admin-center-license-overview.md
               - name: Dispositivos Teams apresentam comparação entre Windows e Android
                 href: rooms/teams-devices-feature-comparison.md
               - name: Orientações de sala de reunião para o Teams
@@ -1335,8 +1347,6 @@ items:
                 href: rooms/requirements.md
               - name: Segurança
                 href: rooms/security.md
-              - name: Licenciamento online
-                href: rooms/rooms-licensing.md
               - name: Planejar o gerenciamento com o Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Implantar

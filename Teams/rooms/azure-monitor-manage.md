@@ -16,16 +16,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Este artigo discute como monitorar dispositivos Salas do Microsoft Teams de maneira integrada usando o Azure Monitor.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0878e7553e2d151f781c3f522a9b533b4b56d8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 53cc9c571657591c43aa35944802fd02dcf6bd4c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268966"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606400"
 ---
 # <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>Monitorar Salas do Microsoft Teams com o Azure Monitor
 
 Este artigo discute como monitorar o Salas do Microsoft Teams de maneira integrada usando o Azure Monitor.
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 Você pode configurar o Azure Monitor para fornecer telemetria básica para ajudá-lo a monitorar dispositivos de salas de reunião do Microsoft Teams. Consulte [Planejar Salas do Microsoft Teams gerenciamento com o Azure Monitor](azure-monitor-plan.md) e implantar [o Salas do Microsoft Teams com o Azure Monitor](azure-monitor-deploy.md) para obter detalhes. À medida que sua solução de monitoramento amadurece, você pode usar outros recursos de dados e monitoramento para criar uma exibição mais detalhada do desempenho do dispositivo.
 
