@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: Saiba como atribuir licenças Telefonia do Microsoft Teams Conta de Recurso a contas de recursos para atendedores automáticos e filas de chamadas em sua organização.
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465979"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630421"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>licenças Telefonia do Microsoft Teams conta de recurso do Telefonia do Microsoft Teams
 
@@ -43,7 +43,7 @@ Para cada 10 licenças de usuário do **Telefonia do Teams Padrão** ou telefone
 
 ### <a name="license-allocation-example"></a>Exemplo de alocação de licença
 
-A Contoso, Inc. comprou 600 licenças que incluem o Sistema de Telefonia (uma para cada funcionário). A Contoso tem uma alocação inicial de 25 mais 60 licenças de Conta de Recurso de Telefone do **Teams** , 85 no total. Sua organização tem 90 filas de chamadas e atendedores automáticos que têm números de telefone. Eles precisam atribuir todas as licenças da Conta de Recursos de Telefone do **Teams** e comprar cinco licenças adicionais da Conta de Recurso **de Telefone do Teams** . 
+A Contoso, Inc. comprou 600 licenças que incluem o Sistema de Telefonia (uma para cada funcionário). A Contoso tem uma alocação inicial de 25 mais 60 licenças de Conta de Recurso de Telefone do **Teams** , 85 no total. Sua organização tem 90 filas de chamadas e atendedores automáticos. Eles precisam atribuir todas as licenças da Conta de Recursos de Telefone do **Teams** e comprar cinco licenças adicionais da Conta de Recurso **de Telefone do Teams** . 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>Como obter licenças Telefonia do Microsoft Teams conta de recurso
 
