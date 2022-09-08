@@ -17,16 +17,16 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Saiba como gerenciar atribuições no centro Microsoft Teams de administração no Teams para Educação.
+description: Saiba como gerenciar atribuições no Centro de administração do Microsoft Teams no Teams para Educação.
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed8b01b683d201bc26dec3d220c94fbc12e76f1c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 91afcd8036cddfae2550aaddad776958ca413a78
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674663"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624291"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -35,28 +35,28 @@ Os recursos Tarefas e Notas no Teams para Educação permitem que os educadores 
 [Saiba mais sobre tarefas e notas no Teams para Educação](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
 
 > [!Note]
-> Para obter detalhes sobre Teams atribuições em diferentes plataformas, [consulte Teams recursos por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para obter detalhes sobre as atribuições do Teams em diferentes plataformas, consulte [os recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integrações de atribuições no Microsoft Teams de administração
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integrações de atribuições no centro de administração do Microsoft Teams
 
-Usando as configurações de administrador no Microsoft Teams de administração, você pode ativar ou desativar recursos para educadores em sua organização e seus alunos. A seguir estão as configurações relacionadas a Atribuições:
+Usando as configurações de administrador no centro de administração do Microsoft Teams, você pode ativar ou desativar recursos para educadores em sua organização e seus alunos. A seguir estão as configurações relacionadas a Atribuições:
 
 <a name="#bkemaildigest"> </a>
 
 ### <a name="weekly-guardian-email-digest"></a>Resumo semanal de email do guardião
 
-Emails do guardião são enviados todos os finais de semana para pais ou responsáveis. O email contém informações sobre as atribuições da semana anterior e da próxima semana. A Sincronização pai e guardião pode ser configurada usando [School Data Sync](/schooldatasync/parent-contact-sync).
+Emails do guardião são enviados todos os finais de semana para pais ou responsáveis. O email contém informações sobre as atribuições da semana anterior e da próxima semana. A Sincronização de Pais e Responsáveis pode ser configurada usando o [School Data Sync](/schooldatasync/parent-contact-sync).
 
-1. Importe informações de contato pai por meio da Sincronização pai e guardião SDS. Para obter instruções sobre como habilitar a Sincronização pai e guardião, consulte [Habilitando a sincronização pai e guardião](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
+1. Importe informações de contato pai por meio da Sincronização pai e guardião no SDS. Para obter instruções sobre como habilitar a Sincronização pai e guardião, consulte [Habilitando a sincronização pai e guardião](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
-2. Ative a Configuração do Guardião no Microsoft Teams de administração, pois a configuração é desativada por padrão. Isso permitirá que os professores enviem um resumo semanal.
+2. Ative a Configuração do Guardião no centro de administração do Microsoft Teams, pois a configuração está desativada por padrão. Isso permitirá que os professores enviem um resumo semanal.
 
    > [!NOTE]
-   > Os professores podem recusar o resumo desmarcando a configuração dentro de sua própria equipe de classe pessoal (Assignment **Configurações > Parent/Guardian Emails**).
+   > Os professores podem recusar o resumo desmarcando a configuração dentro de sua própria equipe de classe pessoal (Configurações de atribuição > **emails pai/guardião**).
 
 Para verificar se os pais receberão o email, os três itens a seguir devem ser verdadeiros:
 
-- Endereço de email anexado ao perfil do aluno no SDS marcado como _Pai_ ou _Guardião_. Para obter detalhes, consulte [o formato de arquivo de sincronização pai e guardião](/schooldatasync/parent-contact-sync-file-format).
+- Email endereço anexado ao perfil do aluno no SDS e marcado como _Pai_ ou _Guardião_. Para obter detalhes, consulte [o formato de arquivo de sincronização pai e guardião](/schooldatasync/parent-contact-sync-file-format).
 
 - Os alunos pertencem a pelo menos uma classe na qual o email não é desabilitado pelo professor nas configurações [de tarefa](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
 
@@ -74,7 +74,7 @@ MakeCode é um produto da Microsoft que está sujeito aos termos de [uso e às](
 
 A configuração padrão para esse recurso é - **Desativado**.
 
-Para habilitar as atribuições do MakeCode no Teams, vá para o Centro Teams Administração, navegue até **a** seção  Atribuições e ative a opção de alternância MakeCode **.** Selecione **Salvar**. Aguarde algumas horas para que essas configurações entre em vigor.
+Para habilitar as atribuições do MakeCode no Teams, vá para o Centro de Administração do **Teams**,  navegue até a seção Atribuições e ative a opção de alternância MakeCode **.** Selecione **Salvar**. Aguarde algumas horas para que essas configurações entre em vigor.
 
 Para obter mais informações sobre como esse recurso funciona, assista a esta [demonstração em vídeo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -105,7 +105,7 @@ Selecione **Integrações** no menu lateral e, em seguida, **selecione Adicionar
 ![Captura de tela mostrando a adição de uma nova integração.](./educationImages/Assignments_mopo_turnitin2.png)
 
 O **TurnitinApiKey** será fornecido a você depois que você seguir os prompts.
-Copie a chave de API e cole-a no centro Microsoft Teams administrador.  Essa é a única vez que você pode exibir a chave.
+Copie a chave de API e cole-a no centro de administração do Microsoft Teams.  Essa é a única vez que você pode exibir a chave.
 
 ![Captura de tela mostrando a cópia da chave de API.](./educationImages/Assignments_mopo_turnitin3.png)
 
@@ -113,26 +113,26 @@ Ao clicar no **botão Salvar** no centro de administração para essa configura�
 
 ## <a name="assignments-data"></a>Dados de atribuições
 
-As tarefas armazenam informações geradas por professores e alunos. Todos os dados são compartilhados entre o professor e o aluno específico para o qual as informações se destinam na aula. Há dois repositórios desses dados, SharePoint e fora SharePoint.
+As tarefas armazenam informações geradas por professores e alunos. Todos os dados são compartilhados entre o professor e o aluno específico para o qual as informações se destinam na aula. Há dois repositórios desses dados, o SharePoint e fora do SharePoint.
 
 >[!NOTE]
 >As mesmas regras também se aplicam a integrações internas, como o Progresso da Leitura.
 
-### <a name="assignments-data-in-sharepoint-document-libraries"></a>Atribuições de dados em SharePoint bibliotecas de documentos
+### <a name="assignments-data-in-sharepoint-document-libraries"></a>Dados de atribuições em bibliotecas de documentos do SharePoint
 
-Os arquivos dos alunos associados a um Envio para Tarefa são armazenados em uma biblioteca de documentos (chamada: *Trabalho do Aluno*). Os arquivos associados às Tarefas criadas por professores e acessíveis por Alunos são armazenados em outra biblioteca de documentos (*chamada: Arquivos* de Classe) no site correspondente da Equipe de Classe SharePoint. As integrações internas também podem armazenar dados de Atribuições no mesmo site correspondente da Equipe de Classe SharePoint (chamado: Título das atribuições *+ carimbo de data/hora*).
+Os arquivos dos alunos associados a um Envio para Tarefa são armazenados em uma biblioteca de documentos (chamada: *Trabalho do Aluno*). Os arquivos associados às Tarefas criadas por professores e acessíveis por Alunos são armazenados em outra biblioteca de documentos ( *chamada: Arquivos* de Classe) no site correspondente do SharePoint da Equipe de Classe. As integrações internas também podem armazenar dados de Atribuições no mesmo site correspondente do SharePoint da Equipe de Classe (chamado: Título das atribuições *+ carimbo de data/hora*).
 
 #### <a name="files-associated-with-the-student"></a>Arquivos associados ao aluno
 
-Os administradores de TI podem usar a ferramenta Pesquisa de Conteúdo para pesquisar arquivos de *alunos (Trabalho* do *Aluno, Arquivos* de Classe ou outros arquivos de integração de terceiros) relacionados a envios de tarefas e arquivos relacionados a tarefas. Por exemplo, um administrador pode pesquisar todos os SharePoint na organização e usar o nome do aluno e o nome da classe ou da tarefa na consulta de pesquisa para localizar dados relevantes para uma DSR (solicitação de entidade de dados).
+Os administradores de TI podem usar a ferramenta Pesquisa de Conteúdo para pesquisar arquivos de *alunos (Trabalho* do *Aluno, Arquivos* de Classe ou outros arquivos de integração de terceiros) relacionados a envios de tarefas e arquivos relacionados a tarefas. Por exemplo, um administrador pode pesquisar todos os sites do SharePoint na organização e usar o nome do aluno e o nome da classe ou da tarefa na consulta de pesquisa para localizar dados relevantes para uma DSR (solicitação de entidade de dados).
 
 #### <a name="files-associated-with-the-teacher"></a>Arquivos associados ao professor
 
-Os administradores de TI podem usar a ferramenta Pesquisa de Conteúdo para pesquisar arquivos de *professor (Trabalho* do *Aluno, Arquivos* de Classe ou outros arquivos de integração de terceiros) relacionados a tarefas e arquivos distribuídos aos alunos pelos professores em uma classe em tarefas. Por exemplo, um administrador pode pesquisar todos os SharePoint na organização e usar o nome do professor e o nome da classe ou da tarefa na consulta de pesquisa para localizar dados relevantes para uma DSR.
+Os administradores de TI podem usar a ferramenta Pesquisa de Conteúdo para pesquisar arquivos de *professor (Trabalho* do *Aluno, Arquivos* de Classe ou outros arquivos de integração de terceiros) relacionados a tarefas e arquivos distribuídos aos alunos pelos professores em uma classe em tarefas. Por exemplo, um administrador pode pesquisar todos os sites do SharePoint na organização e usar o nome do professor e o nome da classe ou da tarefa na consulta de pesquisa para localizar dados relevantes para uma DSR.
 
-### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Atribuições de dados fora SharePoint bibliotecas de documentos
+### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Dados de atribuições fora das bibliotecas de documentos do SharePoint
 
-Alguns dados relacionados a Atribuições não são armazenados na equipe de classe SharePoint site, o que significa que eles não são detectáveis com a Pesquisa de Conteúdo. Isso inclui:
+Alguns dados relacionados a Atribuições não são armazenados no site do SharePoint da equipe de classe, o que significa que não é detectável com a Pesquisa de Conteúdo. Isso inclui:
 
 - Notas dos alunos e comentários do professor
 - A lista de documentos enviados para uma tarefa por cada aluno
@@ -144,7 +144,7 @@ Para esse tipo de dados, um administrador de TI ou proprietário de dados, como 
 >[!NOTE]
 >Se um aluno não fizer mais parte da classe, seus dados ainda poderão estar presentes na classe, pois *não estão mais registrados*. O aluno precisará fornecer ao administrador de locatários a lista de tais classes das quais ele já fez parte.
 
-### <a name="bulk-export-assignment-data-outside-of-sharepoint-document-libraries"></a>Exportar dados de atribuição em massa fora SharePoint bibliotecas de documentos
+### <a name="bulk-export-assignment-data-outside-of-sharepoint-document-libraries"></a>Exportar dados de atribuição em massa fora das bibliotecas de documentos do SharePoint
 
 #### <a name="for-a-student"></a>Para um aluno
 
@@ -156,7 +156,7 @@ Os dados sobre os envios dos alunos serão exportados.
 
 Os dados de tarefa de Exportação em Massa funcionam da mesma maneira para um aluno, mas todos os envios aos qual o professor tem acesso serão exportados.
 
-### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>Excluir dados de atribuição em massa fora SharePoint bibliotecas de documentos
+### <a name="bulk-delete-assignment-data-outside-of-sharepoint-document-libraries"></a>Excluir dados de atribuição em massa fora das bibliotecas de documentos do SharePoint
 
 #### <a name="for-a-student"></a>Para um aluno
 
@@ -168,15 +168,15 @@ Fornecer um permitirá ``ClassId`` que o administrador exclua apenas informaçõ
 
 Como os dados de uma tarefa para um professor são compartilhados entre a classe, não há nenhuma opção de exclusão em massa. Em vez disso, o administrador pode adicionar-se à classe, ir para o aplicativo e excluir a atribuição.
 
-Para obter mais informações, [consulte Configurar atribuições para Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
+Para obter mais informações, consulte [Configurar atribuições para o Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
 
 ## <a name="removing-assignments-and-grades"></a>Removendo tarefas e notas
 
-Você também pode usar Teams para remover atribuições e notas para um usuário específico ou para todo o locatário.
+Você também pode usar políticas do Teams para remover tarefas e notas para um usuário específico ou para todo o locatário.
 
-Para remover atribuições e notas de um usuário individual, vá para o **Centro Teams Administração** e navegue até Teams **aplicativos > Políticas** de permissão para criar uma nova definição de política de permissão de aplicativo.  Ao criar a nova definição de política, defina a política  de aplicativos da **Microsoft** como Bloquear **aplicativos específicos** e permita que todos os outros e adicione atribuições à lista de aplicativos bloqueados. Depois que a nova definição de política for salva, atribua-a aos usuários apropriados.
+Para remover tarefas e notas de um usuário individual, acesse o **Teams Administração Center** e navegue até aplicativos do **Teams > Políticas** de permissão para criar uma nova definição de política de permissão de aplicativo.  Ao criar a nova definição de política, defina a política  de aplicativos da **Microsoft** como Bloquear **aplicativos específicos** e permita que todos os outros e adicione atribuições e notas à lista de **aplicativos** bloqueados. Depois que a nova definição de política for salva, atribua-a aos usuários apropriados.
 
-Para remover Tarefas e Notas de todo o locatário, vá para o **Centro Teams Administração**, navegue até Teams **aplicativos > Gerenciar** aplicativos e pesquise e selecione Atribuições na lista de **aplicativos**. Altere a configuração de status na página Configurações do aplicativo de atribuição para _Bloqueado_.
+Para remover Tarefas e Notas de todo o locatário, acesse o **Teams Administração Center**, navegue até aplicativos do **Teams > Gerenciar** **aplicativos** e pesquise e selecione Tarefas e Notas na lista de **aplicativos**. Altere a configuração de status na página de configurações dos aplicativos para _Bloqueado_.
 
 ## <a name="assignments-diagnostic-tool-for-users"></a>Ferramenta de diagnóstico de atribuições para usuários
 
@@ -184,7 +184,7 @@ Suporte da Microsoft criou uma ferramenta para coletar dados de diagnóstico par
 
 Essa ferramenta pode ser acessada dentro de Atribuições em qualquer tela em que os usuários experimentarem um problema.
 
-Para efetuar pull da ferramenta de diagnóstico Teams, os usuários podem:
+Para efetuar pull da ferramenta de diagnóstico no Teams, os usuários podem:
 
 - **Na área de trabalho e na Web:**
   - Selecione Ctrl+/
@@ -207,6 +207,6 @@ Esses dados não são enviados automaticamente à Microsoft. Os usuários precis
 
 Se um usuário puxar a ferramenta de diagnóstico, então a fechará, nenhum dado será enviado.
 
-Quando os dados são enviados a um agente de suporte da Microsoft, eles são tratados como Dados de Suporte nos contratos de serviço Microsoft 365 da sua organização.
+Quando os dados são enviados a um agente de suporte da Microsoft, eles são tratados como Dados de Suporte nos contratos de serviço do Microsoft 365 da sua organização.
 
 Para obter instruções sobre como usar essa ferramenta de diagnóstico que você pode compartilhar com educadores e alunos, consulte Obter dados de diagnóstico [para solucionar problemas de tarefas](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).
