@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396692"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637004"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -92,7 +92,7 @@ Usando uma política de configuração de aplicativo, um administrador pode real
 * Instalar aplicativos para usuários finais em seu ambiente pessoal do Teams.
 * Instalar aplicativos para usuários finais como [extensões de mensagens](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-Os usuários finais poderão instalar aplicativos por conta própria se a [](teams-app-permission-policies.md) política de permissão do aplicativo permitir e o aplicativo for permitido pelo administrador do Teams. Em vez disso, se um aplicativo estiver bloqueado para um usuário ou para uma organização, os usuários finais poderão [solicitar aprovação do administrador](manage-apps.md#manage-user-requests-to-allow-apps).
+Os usuários finais poderão instalar aplicativos por conta própria se a [](teams-app-permission-policies.md) política de permissão do aplicativo permitir e o aplicativo for permitido pelo administrador do Teams. Em vez disso, se um aplicativo estiver bloqueado para um usuário ou para uma organização, os usuários finais poderão [solicitar aprovação do administrador](user-requests-approve-apps.md).
 
 Para instalar aplicativos usando uma política de configuração de aplicativo, siga estas etapas:
 

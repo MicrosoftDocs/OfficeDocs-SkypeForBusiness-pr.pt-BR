@@ -19,12 +19,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486876"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637044"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no Centro de administração do Microsoft Teams
 
@@ -85,38 +85,6 @@ Quando você permite (ou bloqueia) um aplicativo na página [Gerenciar aplicativ
 
 Um usuário pode instalar e usar um aplicativo somente quando o aplicativo é permitido por meio da configuração de todo o locatário e permitido para o usuário por meio da política de permissão.
 
-## <a name="manage-user-requests-to-allow-apps"></a>Gerenciar solicitações de usuários para permitir aplicativos
-
-Os usuários finais podem exibir, mas não usar, os aplicativos bloqueados na Teams Store. Para os aplicativos bloqueados, uma opção está disponível para solicitar a aprovação do administrador. Essas solicitações são agrupadas no centro de administração do Teams e os administradores podem exibir e gerenciar as solicitações quando quiserem. É altamente recomendável fazer uma triagem regular para verificar as solicitações do usuário final.
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Solicite que um administrador aprove um aplicativo bloqueado selecionando a opção de aprovação de solicitação na Teams Store.":::
-
-### <a name="view-a-request"></a>Exibir uma solicitação
-
- 1. Entre no centro de administração do Teams e acesse os aplicativos de Gerenciamento de **Aplicativos do** >  Teams.**[](https://admin.teams.microsoft.com/policies/manage-apps)**
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="As solicitações do usuário final para aplicativos bloqueados são exibidas no Centro de administração do Teams na coluna intitulada Solicitações por usuários." lightbox="media/requested-apps.png":::
-
- 1. Para exibir e verificar o número de solicitações para cada aplicativo, classifique as solicitações na coluna **Solicitações por usuário**. Você não pode exibir o nome dos usuários que solicitaram um aplicativo.
- 1. Para permitir um aplicativo, selecione o nome do aplicativo e ele abrirá a página de detalhes do aplicativo.
- 1. Selecione **Gerenciar solicitações** e conclua as etapas exibidas na caixa de diálogo pop-up. Com base no método usado para bloquear um aplicativo, uma ou mais das etapas a seguir são necessárias para desbloqueá-lo:
-
-    * Se o aplicativo for bloqueado usando políticas de permissão, permita o aplicativo modificando as [políticas de permissão](teams-app-permission-policies.md).
-    * Se o aplicativo estiver bloqueado para todos os usuários, [permita o aplicativo](#allow-and-block-apps).
-    * Se todos os aplicativos forem bloqueados para todos os usuários, modifique as [configurações em toda a organização](#manage-org-wide-app-settings).
-
- Se um administrador permitir um aplicativo, o Teams não informará ao usuário final que sua solicitação foi atendida. O usuário pode visualizar o aplicativo na Teams Store para verificar se pode adicionar o aplicativo ao cliente do Teams ou não. Se o aplicativo for aprovado por um administrador, os usuários podem adicioná-lo. Alternativamente, se o administrador não aprovar a solicitação e a ignorar, os usuários finais poderão solicitá-la novamente.
-
-### <a name="dismiss-a-user-request"></a>Ignorar uma solicitação de usuário
-
- 1. Selecione o nome do aplicativo para o qual você deseja ignorar as solicitações do usuário.
- 1. Selecione **Gerenciar solicitações** e selecione **Ignorar todas as solicitações** na caixa de diálogo.
- 1. Quando uma solicitação é ignorada, ela redefine as solicitações do usuário para zero.
-
-  :::image type="content" source="media/reject.png" alt-text="Os administradores podem aprovar uma solicitação do usuário permitindo um aplicativo ou ignorando a solicitação e não realizando nenhuma ação.":::
-
-Se um administrador ignorar uma solicitação, ele não informará ao usuário final que sua solicitação foi tratada. Após um administrador ignorar um pedido, o usuário final pode solicitar o aplicativo novamente.
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Permitir os aplicativos bloqueados pelos desenvolvedores
 
 Quando um desenvolvedor publica um aplicativo na Teams Store, alguns aplicativos podem precisar de um administrador para configurá-lo. Os administradores disponibilizam o aplicativo aos usuários finais quando o aplicativo é configurado.
@@ -159,3 +127,4 @@ Use as configurações de aplicativo em toda a organização para controlar se o
 ## <a name="related-article"></a>Artigo relacionado
 
 * [Gerenciar o Teams durante a transição do Centro de administração do Skype for Business](manage-teams-skypeforbusiness-admin-center.md)
+* [Gerenciar solicitações de usuário para permitir aplicativos](user-requests-approve-apps.md).

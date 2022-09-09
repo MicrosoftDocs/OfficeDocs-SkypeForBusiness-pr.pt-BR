@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 5294b011ee8fbe852e2a82e2d700fbd212c0f4e8
-ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
+ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67624301"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637074"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -381,6 +381,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão de produto incluída|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.15.0.33 ` | Atualização 3 de 2022 |
 |Painel de Painéis Puros | `NFA1.20220512.2210` | Atualização nº 2 de 2022  |
 |Crestron Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | Atualização 1 de 2022|
 |Logitech Tap Scheduler | `1.6.762` |Atualização nº 2 de 2022  |

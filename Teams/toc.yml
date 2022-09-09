@@ -217,7 +217,7 @@ items:
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
           - name: Desativar o ambiente local do Skype for Business
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Mover usuários para a nuvem
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
@@ -587,7 +587,7 @@ items:
             href: quick-start-meetings-live-events.md
           - name: Gerenciar políticas de reunião
             items:
-              - name: Visão Geral
+              - name: Visão geral
                 href: meeting-policies-overview.md
               - name: Políticas gerais
                 href: meeting-policies-in-teams-general.md
@@ -673,7 +673,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar implantação
+              - name: Planejar sua implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md
@@ -1585,8 +1585,10 @@ items:
             href: customize-your-app-store.md
           - name: Gerenciar o acesso a aplicativos no Microsoft 365
             href: manage-third-party-teams-apps.md
-          - name: Comportamento do aplicativo com base em tipos de usuários
+          - name: Comportamento do aplicativo para usuários externos
             href: non-standard-users.md
+          - name: Gerenciar solicitações de usuário para permitir aplicativos
+            href: user-requests-approve-apps.md
           - name: Atualizações de aplicativo e função de administrador
             href: apps-update-experience.md
           - name: Atividades de gerenciamento de aplicativos de Auditoria

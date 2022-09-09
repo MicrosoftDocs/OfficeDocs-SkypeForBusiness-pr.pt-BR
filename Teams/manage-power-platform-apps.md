@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar o acesso a aplicativos personalizados e compilados usando o Microsoft Power Platform no centro de administração do Teams.
-ms.openlocfilehash: b257c4cb32e236d427d58063d340c2bb1c743292
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4d566a766f3afd12cfe30099de6040ee75721455
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486726"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637034"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Gerenciar os aplicativos do Microsoft Power Platform no centro de administração do Teams
 
@@ -52,7 +52,7 @@ Os usuários instalam aplicativos do Microsoft Power Platform da mesma forma que
 
 Como administrador, você pode controlar se os aplicativos do Microsoft Power Platform estão listados em **Compilado com Power Platform** na página Aplicativos no Teams. Você pode coletivamente bloquear ou permitir todos os aplicativos criados no Power Apps ou todos os aplicativos criados no Power Virtual Agents no nível da organização na página [Gerenciar aplicativos](manage-apps.md) ou para usuários específicos usando [políticas de permissão de aplicativo](teams-app-permission-policies.md).
 
-Os aplicativos **Power Apps Compartilhados** e **Power Virtual Agente Apps Compartilhados** na App Store de sua organização representam todos os aplicativos criados nessa plataforma específica. Se você bloquear um ou ambos estes aplicativos para toda a organização ou para usuários específicos, os usuários podem visualizar tais aplicativos como aplicativos bloqueados, mas não podem instalá-los no Teams. Os usuários podem [solicitar a aprovação do administrador para permitir aplicativos](manage-apps.md#manage-user-requests-to-allow-apps).
+Os aplicativos **Power Apps Compartilhados** e **Power Virtual Agente Apps Compartilhados** na App Store de sua organização representam todos os aplicativos criados nessa plataforma específica. Se você bloquear um ou ambos estes aplicativos para toda a organização ou para usuários específicos, os usuários podem visualizar tais aplicativos como aplicativos bloqueados, mas não podem instalá-los no Teams. Os usuários podem [solicitar a aprovação do administrador para permitir aplicativos](user-requests-approve-apps.md).
 
 Tenha em mente que você pode controlar o acesso a todos os aplicativos criados no Power Apps e Power Virtual Agents, mas você não pode permitir ou bloquear aplicativos individuais. O criador do aplicativo decide quem pode acessar os aplicativos que eles criam através do recurso de compartilhamento de dentro do Power Apps e Power Virtual Agents. Se um criador compartilhou um aplicativo que criou no Power Virtual Agents com um usuário e você bloqueou **Aplicativos Compartilhados do Power Virtual Agents** para esse usuário, o usuário não será capaz de ver ou instalar qualquer aplicativo dessa plataforma no Teams.
 
