@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268806"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641742"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Saiba como implantar audioconferência no Microsoft Teams
 
@@ -35,7 +35,7 @@ A opção de Audioconferência é a capacidade de ingressar em uma reunião do T
 
 Este artigo ajuda você a decidir se deseja alterar as configurações padrão de Audioconferência, com base no perfil da organização e requisitos de negócios e, em seguida, orienta você em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto principal de [alterações que você provavelmente realizará](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades da organização.
 
-Basta configurar uma Audioconferência para as pessoas que planejam agendar ou liderar reuniões. Os participantes da reunião não precisam de licenças atribuídas ou de configuração adicional. É muito útil ligar para reuniões quando os usuários estão viajando e não podem participar de uma reunião usando o aplicativo Teams ou Skype for Business no laptop ou em dispositivos móveis. 
+Basta configurar uma Audioconferência para as pessoas que planejam agendar ou liderar reuniões. Os participantes da reunião não precisam de licenças atribuídas ou de configuração adicional. Discar (ligar) para reuniões é muito útil para usuários que estão em trânsito e não podem participar de uma reunião usando o aplicativo Teams em seus laptops ou dispositivos móveis.
 
 ## <a name="audio-conferencing-prerequisites"></a>Provedores de Audioconferência
 
@@ -44,7 +44,7 @@ Antes de implantar a Audioconferência no Teams, considere o seguinte:
 |Pergunte-se|Ação |
 |------------|-------|
 |A Audioconferência está disponível para meu país/região?|Para descobrir se a Audioconferência está disponível em seu país/região, confira [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Meus usuários têm licenciamento adequado para audioconferência do Teams?|As licenças de audioconferência estão disponíveis como parte da assinatura do Microsoft 365 ou do Office 365 E5 ou como um serviço complementar à assinatura do Microsoft 365 Business Standard, E1 ou E3. <ul><li>Para obter e atribuir licenças, confira [Experimentar ou comprar a Audioconferência no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) e [Atribuir ou remover licenças do Microsoft 365 Apps para Pequenos e Médios negócios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, leia [Licenciamento do complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano, confira os artigos [Opções de Licença com base nos planos](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</li></ul>|
+|Meus usuários têm licenciamento adequado para audioconferência do Teams?|As licenças de audioconferência estão disponíveis como parte da assinatura do Microsoft 365 ou do Office 365 E5 ou como um serviço complementar à assinatura do Microsoft 365 Business Standard, E1 ou E3. <ul><li>Para obter e atribuir licenças, consulte [Atribuir ou remover licenças para Microsoft 365 Apps para Pequenos e Médios negócios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, leia [Licenciamento do complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano, confira os artigos [Opções de Licença com base nos planos](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</li></ul>|
 |Preciso comprar Créditos de Comunicação para os usuários que recebem licenças de audioconferência?|Para saber mais, leia [O que são Créditos de Comunicação?](what-are-communications-credits.md) e, em seguida, confira a seção [Créditos de Comunicações](#communications-credits) abaixo.|
 |||
 
@@ -82,7 +82,7 @@ A Audioconferência do Teams permite definir os idiomas padrão e alternativos p
 
 |Pergunte-se|Ação |
 |------------|-------|
-| Quais idiomas devo escolher para as saudações do atendedor automático? | Para escolher idiomas, confira [Definir idiomas do atendedor automático da Audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
+| Quais idiomas devo escolher para as saudações do atendedor automático? | Para escolher idiomas, consulte [Definir idiomas de atendedor automático para Audioconferência no Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>Configurações de ponte de conferência

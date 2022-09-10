@@ -5,14 +5,13 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Os administradores podem controlar o tipo de audioconferência e chamadas PSTN do usuário final que podem ser feitas pelos usuários.
-ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 67c138db8522ec6eee1f384e182f5c8d01ea40fd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674803"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641762"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída de Audioconferências e Chamadas PSTN do usuário
 
@@ -36,13 +35,13 @@ Os controles de chamada de saída podem ser aplicados por usuário ou por locat�
 
 |Controle|Descrição|Opções de controle|
 |:-----|:-----|:-----|
-|Audioconferência PSTN|Restringe o tipo de saída </br>chamadas que são permitidas de dentro </br>reuniões organizadas por um usuário.|Qualquer destino (padrão)</br>No mesmo país ou região que o organizador </br> [Somente países ou regiões da Zona A](audio-conferencing-zones.md) </br>Não permitir|
+|Chamadas PSTN de audioconferência|Restringe o tipo de saída </br>chamadas que são permitidas de dentro </br>reuniões organizadas por um usuário.|Qualquer destino (padrão)</br>No mesmo país ou região que o organizador </br> [Somente países ou regiões da Zona A](audio-conferencing-zones.md) </br>Não permitir|
 |Chamadas PSTN do usuário final|Restringe o tipo de chamadas </br>que pode ser feita por um usuário.|Internacional e Doméstico (padrão)</br>Doméstico</br>Nenhum|
 
-Para descobrir quais países e regiões são considerados Zona A, consulte Zonas de país e região [para Audioconferência](audio-conferencing-zones.md).
+Para descobrir quais países e regiões são considerados Zona A, consulte zonas de país e [região para Audioconferência](audio-conferencing-zones.md).
 
    > [!NOTE]
-   > Uma chamada será considerada doméstica se o número discado estiver no mesmo país em que Microsoft 365 ou Office 365 foi configurado para o organizador da reunião (no caso de audioconferência) ou o usuário final (no caso de chamadas PSTN do usuário final).
+   > Uma chamada será considerada doméstica se o número discado estiver no mesmo país em que o Microsoft 365 ou Office 365 foi configurado para o organizador da reunião (no caso de audioconferência) ou o usuário final (no caso de chamadas PSTN do usuário final).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

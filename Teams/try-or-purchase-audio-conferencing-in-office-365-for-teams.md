@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: Veja como experimentar ou comprar licenças de Audioconferência (conferência PSTN) para o Microsoft 365 ou Office 365 para configurar chamadas em conferência para as qual as pessoas podem discar.
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271436"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641912"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimentar ou comprar Audioconferência no Microsoft 365 para Microsoft Teams
 
-Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso de Audioconferência para apenas esta situação! As pessoas podem ligar para reuniões do Microsoft Teams usando um telefone, em vez de usar o aplicativo Microsoft Teams em um dispositivo móvel ou computador.
+Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso de Audioconferência para apenas esta situação! Pessoas pode ligar para reuniões do Microsoft Teams usando um telefone, em vez de usar o aplicativo Microsoft Teams em um dispositivo móvel ou computador.
 
 Você só precisa configurar a audioconferência para as pessoas que planejam agendar ou liderar reuniões. Participantes que fazem chamadas para a reunião não precisam ter licenças atribuídas a eles e nenhum outro tipo de configuração.
 
@@ -76,15 +76,15 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Etapa 2: Configure o provedor de serviços de audioconferência para pessoas que lideram ou agendam reuniões
 
-Quando você atribui uma licença de **Audioconferência** a pessoas em sua organização que não têm uma Skype for Business integrada a um provedor de audioconferência de terceiros, elas estão todas configuradas e prontas para começar! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
+Quando você atribui uma licença de **Audioconferência** a pessoas em sua organização que não têm o Teams integrado a um provedor de audioconferência de terceiros, elas estão todas configuradas e prontas para começar! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
 
-Se você tiver usuários habilitados com um provedor de audioconferência de terceiros, deverá alterar o provedor desses usuários para a Microsoft. Para alterar o provedor de um usuário, consulte [Atribuir a Microsoft como o provedor de audioconferência](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+Se você tiver usuários habilitados com um provedor de audioconferência de terceiros, deverá alterar o provedor desses usuários para a Microsoft. Para alterar o provedor de um usuário, consulte [Atribuir licenças de complemento do Teams aos usuários](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Etapa 3: Outras tarefas de administração
 
 As etapas a seguir são **opcionais**, mas muitos administradores gostam de segui-las:
 
-1. [Personalizar convites de reunião](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem definidos para o usuário serão adicionados automaticamente aos convites de reunião enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
+1. [Personalizar convites de reunião](meeting-settings-in-teams.md#customize-meeting-invitations). Os números de discagem definidos para o usuário serão adicionados automaticamente aos convites de reunião enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
 
 2. [Defina os números de telefone incluídos nos convites](set-the-phone-numbers-included-on-invites-in-teams.md). Esse é o número de telefone que aparecerá na reunião agendada por um usuário.
 

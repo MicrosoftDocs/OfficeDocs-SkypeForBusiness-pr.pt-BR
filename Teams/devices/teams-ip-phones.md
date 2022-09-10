@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637074"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642092"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -89,9 +89,7 @@ Os seguintes dispositivos são certificados sob o Salas do Microsoft Teams no Pr
 | Logitech Rally Bar      | `1.2.788`     |   3 de setembro de 2024  |    Sala de tamanho médio (4,5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   5 de agosto de 2023  | Sala de foco(3 m x 3 m) </br> Sala de reunião pequena (4,5 m x 4,5 m) | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 5 de agosto de 2023 | Sala de foco(3 m x 3 m) </br> Sala de reunião pequena (4,5 m x 4,5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 5 de agosto de 2023   | Sala de tamanho médio (4,5 m x 6 m) | 9 |
 | Console de toque yealink CTP18  | `137.15.0.28`    | 5 de agosto de 2023   | Compatível com Yealink MeetingBar A20 e Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 5 de agosto de 2023 | Sala de foco(3 m x 3 m) </br> Sala de reunião pequena (4,5 m x 4,5 m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 5 de dezembro de 2022  | Sala de foco(3 m x 3 m) </br> Sala de reunião pequena (4,5 m x 4,5 m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 5 de dezembro de 2022   | Sala de foco(3 m x 3 m) </br> Sala de reunião pequena (4,5 m x 4,5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 5 de agosto de 2023 | Compatível com Poly Studio X30 e Poly Studio X50  |  9  |

@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Discar e ligar para mim em minutos de benefício. A partir de 1º de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por usuário por mês para países da Zona A.
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187007"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642142"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Benefício de minutos da assinatura de Audioconferência "Discagem"/"Ligar para Mim"
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams e Skype for Business audioconferência PSTN
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Audioconferência do Microsoft Teams e PSTN
 
 Cada assinatura padrão de Audioconferência fornece 60 minutos por usuário por mês que podem ser usados para discar para números não premium em QUALQUER um dos países da Zona A, conforme descrito neste documento. Esse benefício se aplica a licenças de  assinatura mensais de Audioconferência e não se estende a licenças pagas por minuto de Audioconferência.
 
@@ -74,11 +73,10 @@ Considere o exemplo a seguir. Um cliente comprou 115 licenças de assinatura de 
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Como posso monitorar o minuto de uso do pool?
 
-- Você pode monitorar o uso em seu pool de minutos de discagem no Microsoft Teams de administração. No painel de navegação esquerdo, vá para **Análise &** **relatóriosusar** >  relatórios e, em seguida, selecione **pools de minutos PSTN**. O pool de minutos de discagem zona A será rotulado no relatório como "Chamadas de saída para países da zona A".
-- As notificações por email serão enviadas aos seguintes administradores quando a utilização do pool de minutos de discagem da sua organização atingir 80% e 100%:
+- Você pode monitorar o uso em seu pool de minutos de discagem no Centro de administração do Microsoft Teams. No painel de navegação esquerdo, vá para **Análise & relatórios** >  de uso **e selecione** pools de minutos **PSTN**. O pool de minutos de discagem zona A será rotulado no relatório como "Chamadas de saída para países da zona A".
+- Email notificações serão enviadas aos seguintes administradores quando a utilização do pool de minutos de discagem da sua organização atingir 80% e 100%:
 
   - Administrador de Cobrança
-  - Skype for Business administrador
   - Administrador Global
   - Administrador do Usuário
   - Administrador de assistência técnica
@@ -91,7 +89,7 @@ Considere o exemplo a seguir. Um cliente comprou 115 licenças de assinatura de 
   - Administrador de Autenticação Com Privilégios
   - Administrador de Comunicações de Equipes
   - Engenheiro de Suporte de Comunicações de Equipes
-  - Teams de Suporte de Comunicações
+  - Especialista em Suporte de Comunicações do Teams
   - Administrador do Teams
 
 Para obter informações adicionais sobre Créditos de Comunicação, consulte [Créditos de Comunicação](what-are-communications-credits.md).
