@@ -15,21 +15,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: 4f394d66521464e99c9492532cb1571931a8de27
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418500"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647425"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
-As marcas no Microsoft Teams permitem que os usuários se conectem com rapidez e facilidade com um subconjunto de pessoas em uma equipe. Você pode criar e atribuir marcas personalizadas para categorizar pessoas com base em atributos, como função, projeto, habilidade ou local. Ou, as marcas podem ser atribuídas automaticamente às pessoas com base em suas informações de agendamento e deslocamento no aplicativo [Shifts](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts). Depois que uma marca é adicionada a um ou vários membros da equipe, ela pode ser usada no @mentions por qualquer pessoa na equipe em uma postagem de canal para notificar apenas as pessoas que recebem essa marca de uma conversa.
+As marcas no Microsoft Teams permitem que os usuários se conectem com rapidez e facilidade com um subconjunto de pessoas em uma equipe. Você pode criar e atribuir marcas personalizadas para categorizar pessoas com base em atributos, como função, projeto, habilidade ou local. Ou, as marcas podem ser atribuídas automaticamente às pessoas com base em suas informações de agendamento e deslocamento no aplicativo [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6). Depois que uma marca é adicionada a um ou vários membros da equipe, ela pode ser usada no @mentions por qualquer pessoa na equipe em uma postagem de canal para notificar apenas as pessoas que recebem essa marca de uma conversa.
 
 Conforme mencionado anteriormente, há dois tipos de marcas no Teams.
 
 - **Marcas personalizadas**: os proprietários da equipe e os membros da equipe (se tiverem as permissões) podem criar e atribuir marcas manualmente às pessoas. Por exemplo, uma marca "Designer" ou "Radiologista" alcançará esses conjuntos de pessoas em uma equipe sem precisar digitar seus nomes.
-- **Marcação por turno**: com esse recurso, as pessoas recebem automaticamente marcas que correspondem ao nome do grupo de turnos e agendamento no aplicativo [Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) no Teams. Por exemplo, a marca "EngineerOnCall" atinge todos os engenheiros agendados no Turnos para trabalhar no momento em que a marca é usada em uma postagem de chat ou canal. Com a marcação por turno, o Teams tira a suposição de saber o nome da equipe no turno quando os usuários precisam retransmitir informações rapidamente.
+- **Marcação por turno**: com esse recurso, as pessoas recebem automaticamente marcas que correspondem ao nome do grupo de turnos e agendamento no aplicativo [Turnos](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_usetags) no Teams. Por exemplo, a marca "EngineerOnCall" atinge todos os engenheiros agendados no Turnos para trabalhar no momento em que a marca é usada em uma postagem de chat ou canal. Com a marcação por turno, o Teams tira a suposição de saber o nome da equipe no turno quando os usuários precisam retransmitir informações rapidamente.
 
 > [!NOTE]
 > Não há suporte para marcas em canais privados ou compartilhados.
