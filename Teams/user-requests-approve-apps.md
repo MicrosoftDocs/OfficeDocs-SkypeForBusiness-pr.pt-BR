@@ -18,30 +18,30 @@ description: Saiba como gerenciar e configurar a solicitação do usuário final
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: c47578184aa97f9c6cc366e186c1590ef1e3fba4
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 122d41de6f1cb5ea67a5ce85ba9f8f7d02e26339
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637304"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647535"
 ---
-# <a name="manage-user-requests-to-allow-apps-that-are-blocked-by-admins"></a>Gerenciar solicitações de usuário para permitir aplicativos bloqueados por administradores
+# <a name="manage-user-requests"></a>Gerenciar solicitações de usuário
 
-Os aplicativos bloqueados em sua organização podem reduzir a produtividade e a colaboração do usuário final. Os aplicativos que estão disponíveis na loja do Teams, mas estão bloqueados em sua organização, não podem ser usados pelos usuários finais. No entanto, para se manter informado, os usuários finais podem exibir aplicativos bloqueados, exibir as informações do aplicativo e os casos de uso que ele servidores. Os usuários podem solicitar aprovação do administrador para que possam usar esses aplicativos no Teams, depois que você optar por permitir o aplicativo.
+Os aplicativos bloqueados em sua organização podem afetar a produtividade e a colaboração do usuário final. Os aplicativos que estão disponíveis na loja do Teams, mas estão bloqueados em sua organização, não podem ser usados pelos usuários finais. No entanto, para se manter informado, os usuários finais podem exibir aplicativos bloqueados, exibir as informações do aplicativo e os casos de uso que ele servidores. Os usuários solicitam aprovação do administrador para que eles usem esses aplicativos no Teams, depois que você avaliar a solicitação.
 
-Essa funcionalidade fornece um sinal sobre a demanda por um aplicativo em sua organização. Você pode exibir facilmente o número agregado de solicitações de aplicativos e tomar decisões informadas sobre quais aplicativos devem ser considerados permitidos em sua organização.
+Essa funcionalidade fornece um sinal sobre a demanda por um aplicativo em sua organização. Você pode exibir facilmente o número agregado de solicitações para aplicativos. Ele ajuda você a tomar uma decisão informada sobre quais aplicativos devem ser avaliados para permitir em sua organização.
 
 Você mantém o controle total dos aplicativos que são permitidos ou bloqueados para os usuários. Se você optar por permitir um aplicativo, os controles e a interface do usuário para gerenciar aplicativos permanecerão os mesmos.
 
-* A opção padrão envia as solicitações de usuário no Centro de administração do Teams, onde você pode exibir solicitações de [usuário e permitir os aplicativos solicitados](#view-user-requests-and-allow-the-requested-apps).
+* A opção padrão envia as solicitações de usuário no Centro de administração do Teams, onde você pode exibir solicitações de [usuário e permitir os aplicativos solicitados](#view-user-requests).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Captura de tela mostrando a opção de solicitar que um administrador aprove um aplicativo bloqueado.":::
 
-* Uma personalização permite configurar a [experiência](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) do usuário final redirecionando o usuário para um método de solicitação de aplicativo personalizado. Você pode fornecer uma mensagem de texto personalizada para informar os usuários e direcionar os usuários para a URL interna da sua organização para coletar solicitações para permitir aplicativos.
+* Uma personalização permite configurar [a experiência do usuário final](#modify-the-default-setting-to-receive-end-user-requests) mais adequada para sua organização. Você pode fornecer uma instrução personalizada que é exibida aos usuários finais em aplicativos bloqueados na loja de aplicativos do Teams e direcionar os usuários para um site interno para coletar suas solicitações.
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Captura de tela mostrando a experiência do usuário final para aplicativos na loja quando um administrador redireciona a URL de solicitação de aplicativo de permissão para uma URL personalizada.":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Captura de tela mostrando a experiência do usuário final para aplicativos na loja quando um administrador redireciona a URL de solicitação de aplicativo permitido para um site interno.":::
 
-## <a name="modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app"></a>Modificar a configuração padrão para receber solicitações do usuário final para permitir um aplicativo
+## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>Modificar a configuração padrão para receber solicitações do usuário final
 
 Para configurar uma mensagem personalizada e redirecionar os usuários para uma URL específica da organização para solicitar aprovação do aplicativo, siga estas etapas:
 
@@ -60,9 +60,9 @@ Para configurar uma mensagem personalizada e redirecionar os usuários para uma 
 
 1. Selecione **Salvar**.
 
-## <a name="view-user-requests-and-allow-the-requested-apps"></a>Exibir solicitações de usuário e permitir os aplicativos solicitados
+## <a name="view-user-requests"></a>Exibir solicitações de usuário
 
-As solicitações do usuário final recebidas pelo método padrão são exibidas no Centro de administração do Teams. Você pode facilmente exibir e gerenciar as solicitações. É altamente recomendável fazer uma triagem regular para verificar as solicitações do usuário final. Para exibir e permitir os aplicativos, siga estas etapas:
+As solicitações do usuário final recebidas pelo método padrão são exibidas no Centro de administração do Teams. Você pode facilmente exibir e gerenciar as solicitações. É recomendável ter uma triagem regular para verificar se há solicitações do usuário final. Para exibir e permitir os aplicativos, siga estas etapas:
 
 1. Entre no centro de administração do Teams e acesse a página Gerenciar aplicativos **dos aplicativos** > **[do](https://admin.teams.microsoft.com/policies/manage-apps)** Teams.
 
@@ -82,7 +82,7 @@ As solicitações do usuário final recebidas pelo método padrão são exibidas
    * Se o aplicativo estiver bloqueado para todos os usuários, [permita o aplicativo](manage-apps.md#allow-and-block-apps).
    * Se todos os aplicativos forem bloqueados para todos os usuários, [modifique as configurações de toda a organização](manage-apps.md#manage-org-wide-app-settings).
 
-1. Opcionalmente, para alternar para uma configuração personalizada para a URL específica da organização, selecione Configurar link de solicitações de usuário na caixa de diálogo Gerenciar solicitações de usuário. Ele abre o painel de configurações de aplicativo em toda a organização no qual você pode [configurar a experiência de solicitação do usuário final](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app).
+1. Opcionalmente, para alternar para uma configuração personalizada para a URL específica da organização, selecione Configurar link de solicitações de usuário na caixa de diálogo Gerenciar solicitações de usuário. Ele abre o painel de configurações de aplicativo em toda a organização no qual você pode [configurar a experiência de solicitação do usuário final](#modify-the-default-setting-to-receive-end-user-requests).
 
 Se você permitir um aplicativo depois de receber solicitações no Centro de administração do Teams, o Teams não informará ao usuário final que a solicitação foi acionda. O usuário pode verificar o aplicativo na Loja do Teams para verificar se o aplicativo é permitido. A opção para Adicionar o aplicativo estará disponível para o usuário depois que você permitir. Se você permitir um aplicativo depois de receber solicitações por meio de seu método específico da organização, seus mecanismos internos para fornecer atualização de status ao usuário final serão aplicados.
 

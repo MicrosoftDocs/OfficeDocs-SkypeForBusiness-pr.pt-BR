@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630451"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647545"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -118,7 +118,7 @@ Para obter mais informações sobre como executar uma pesquisa de Descoberta Ele
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>Considerações sobre o acesso ao arquivo nos canais compartilhados
 
-Arquivos, pastas e blocos de anotações do OneNote em um canal compartilhado podem ser compartilhados com pessoas fora do canal usando o [compartilhamento de arquivos padrão do SharePoint](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
+Arquivos, pastas e blocos de anotações do OneNote em um canal compartilhado podem ser compartilhados com pessoas fora do canal (mas não fora da organização) usando o compartilhamento de arquivos padrão do [SharePoint](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
 Se um usuário tiver acesso a um arquivo, pasta ou bloco de anotações em um canal compartilhado pelo SharePoint, remover o usuário da equipe ou do canal compartilhado não removerá o acesso do usuário ao arquivo, pasta ou bloco de anotações.
 

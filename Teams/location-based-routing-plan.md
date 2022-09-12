@@ -1,7 +1,7 @@
 ---
 title: Planejar o Roteamento baseado na localização para o Roteamento direto
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562620"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647435"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -38,7 +38,7 @@ Quando estiver pronto para habilitar o Location-Based roteamento, confira:
 > [!NOTE]
 > Você não deve usar Location-Based roteamento dinâmico para rotear chamadas PSTN dinamicamente com base na localização do usuário. Fazer isso pode causar resultados não intencionais.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Location-Based roteamento permite restringir o bypass de chamada tarifada para um usuário com base na política e na localização geográfica do usuário no momento de uma chamada PSTN de entrada ou saída. 
 
@@ -387,9 +387,9 @@ Location-Based roteamento não se aplica aos seguintes tipos de interações. Lo
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based roteamento para conferência
 
-Um Location-Based usuário habilitado para Roteamento em uma chamada PSTN não tem permissão para iniciar uma conferência com outro usuário ou número PSTN. A conexão com atendedores automáticos ou filas de chamadas é permitida.
+Um Location-Based usuário habilitado para roteamento sem uma licença de audioconferência em uma chamada PSTN não tem permissão para iniciar uma conferência com outro usuário ou número PSTN. A conexão com atendedores automáticos ou filas de chamadas é permitida.
 
-Se o usuário tiver uma licença de audioconferência, o usuário deverá iniciar uma conferência com os usuários relevantes e chamar o PSTN por meio da ponte de conferência para iniciar uma chamada em conferência.
+Se o usuário tiver uma licença de audioconferência, o usuário deverá iniciar uma conferência com os usuários relevantes e chamar o PSTN por meio da ponte de conferência para iniciar uma chamada em conferência. Se o usuário já estiver em uma chamada PSTN, ele poderá adicionar outro usuário ou número PSTN à chamada escalonando a chamada usando a ponte de conferência para discar.
 
 Em uma chamada em conferência iniciada por um usuário sem uma licença de audioconferência, a adição de participantes PSTN não será permitida se houver ou tiver sido pelo menos um usuário habilitado para Roteamento Location-Based na chamada em conferência. Se pelo menos um participante PSTN fizer parte dessa chamada em conferência antes de qualquer participante habilitado para Roteamento do Location-Based ser convidado a ingressar na chamada, esses participantes habilitados para Roteamento do Location-Based não poderão ser adicionados à chamada.
 
@@ -397,6 +397,7 @@ Se o usuário habilitado para roteamento de Location-Based estiver ingressando n
 
 A conferência em rede para Audioconferência NÃO deve ser implantada com nenhum equipamento de telefonia na Índia.
 
+Um Location-Based usuário habilitado para roteamento em uma chamada PSTN não tem permissão para mesclar essa chamada com outra chamada.
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para Location-Based roteamento
 
