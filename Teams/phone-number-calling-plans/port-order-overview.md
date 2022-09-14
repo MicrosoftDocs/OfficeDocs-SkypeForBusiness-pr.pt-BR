@@ -21,12 +21,12 @@ description: Obtenha uma visão geral do que são pedidos de portabilidade e com
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270866"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674372"
 ---
 # <a name="whats-a-port-order"></a>O que é um pedido de portabilidade?
 
@@ -140,7 +140,7 @@ Para verificar o status do pedido de portabilidade, no painel de navegação esq
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Os números de telefone do usuário (assinante) podem ser convertidos em números de serviço?
 <a name="bkmk_type_1"> </a>
 
-Sim, podem. Basta enviar uma solicitação de serviço que inclua a GUI de locatário de sua organização e os números de telefone que você deseja converter. Para fazer isso, consulte [Gerenciar números de telefone para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Sim, eles podem. Para fazer isso, consulte [Gerenciar o uso de um número de telefone](../manage-the-usage-of-a-phone-number.md).
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Posso portar meus números do Teams para uma operadora ou provedor de serviços de telefonia diferente?
 
