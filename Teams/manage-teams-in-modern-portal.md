@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: df00f6324d1f9a50adc42c8e8c5c4dfd2ff9bd14
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396322"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732290"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 
@@ -149,3 +149,4 @@ Substitua **{groupid}** na Consulta para o GroupId atual em questão, que você 
 - [Referência de cmdlet Teams](/powershell/teams/)  
 - [Use funções de administrador do Teams para gerenciar Equipes](using-admin-roles.md)
 - [Planejar o gerenciamento do ciclo de vida no Teams](plan-teams-lifecycle.md)
+- [Visão geral do Centro de administração do Microsoft 365](/microsoft-365/admin/admin-overview/admin-center-overview)

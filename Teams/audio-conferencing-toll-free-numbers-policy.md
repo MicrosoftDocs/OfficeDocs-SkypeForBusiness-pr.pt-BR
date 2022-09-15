@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: Saiba mais sobre como a Audioconferência no Microsoft 365 ou Office 365 permite que os usuários liguem para reuniões de seus telefones.
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269926"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732400"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>Configurações de política de audioconferência para números de chamada tarifada e gratuita
 
@@ -36,6 +36,9 @@ Use políticas de audioconferência para gerenciar números de chamada tarifada 
 
 - A configuração de AllowTollFreeDialin não pode mais ser gerenciada para um usuário individual por meio do Centro de administração do Teams ou do PowerShell. Os administradores de locatários só poderão gerenciar essa configuração por meio da nova política de audioconferência.
 - A política global não pode ser modificada do centro de administração do Teams.
+
+> [!NOTE]
+> Não há suporte para políticas de Audioconferência Personalizadas para clientes habilitados Skype for Business Reuniões Hospedadas Regionalmente. Os clientes habilitados para Reuniões Hospedadas Regionalmente podem gerenciar as configurações de Audioconferência dos usuários por meio de suas configurações padrão. As configurações padrão de Audioconferência de usuários podem ser alteradas no Teams Administração Center navegando até **Usuários** ->  ->  Gerenciar Usuários Selecionar Conta **de** -> **Usuário**.
 
 Quando uma política de audioconferência do Teams estiver habilitada no locatário, haverá duas políticas criadas automaticamente disponíveis no locatário. As duas políticas criadas automaticamente e suas configurações padrão são:
 

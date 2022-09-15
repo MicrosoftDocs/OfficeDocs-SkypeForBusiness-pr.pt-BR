@@ -673,7 +673,7 @@ items:
             href: audio-conferencing-in-office-365.md
           - name: Planejamento
             items:
-              - name: Planejar sua implantação
+              - name: Planejar implantação
                 href: deploy-audio-conferencing-teams-landing-page.md
               - name: Conferência na Rede para Audioconferência
                 href: audio-conferencing-on-network.md
@@ -1789,6 +1789,8 @@ items:
             href: teams-powershell-release-notes.md
           - name: Versões com suporte do Teams no Windows PowerShell
             href: teams-powershell-supported-versions.md
+          - name: Autenticação baseada em aplicativo no Módulo powershell do Teams
+            href: teams-powershell-application-authentication.md
           - name: Mover do Conector do Skype for Business Online para o módulo Windows PowerShell do Teams
             href: teams-powershell-move-from-sfbo.md
           - name: Referência de Cmdlet para o Teams
