@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: em uma implantação local do Skype for Business Server que está habilitada para híbrido, você pode mover os usuários entre o ambiente local e a nuvem.'
-ms.openlocfilehash: 93aea5e294bbaf8d6988e5bfdeaafb1340345bdf
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: ac32c4037cf275d9a6a7545701c1899742d8fd12
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682650"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705870"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover os usuários entre um ambiente local e a nuvem
 
@@ -34,7 +34,7 @@ Em uma implantação local do Skype for Business Server, os usuários do Skype f
 - Comunicação de interoperabilidade por meio do cliente do Teams do usuário com outros usuários na organização que usam Skype for Business cliente.
 - Funcionalidade de chamada PSTN (se o usuário receber uma licença do Sistema de Telefonia).
 
-Para obter a funcionalidade completa do Teams, esses usuários devem ser movidos do Skype for Business local para a nuvem, momento em que o usuário se torna TeamsOnly. O ato de mover um usuário do local para a nuvem definirá o modo de coexistência do usuário como TeamsOnly. Depois que os usuários são movidos para a nuvem e o TeamsOnly, todos os chats e chamadas de entrada chegam ao cliente do Teams. Para obter mais informações, consulte [a coexistência do Teams](/microsoftteams/coexistence-chat-calls-presence) com Skype for Business e as diretrizes de migração e interoperabilidade para organizações que usam o [Teams junto com o Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+Para obter a funcionalidade completa do Teams, esses usuários devem ser movidos do Skype for Business local para a nuvem, momento em que o usuário se torna TeamsOnly. O ato de mover um usuário do local para a nuvem definirá o modo de coexistência do usuário como TeamsOnly. Depois que os usuários são movidos para a nuvem, eles são TeamsOnly, o que significa que todos os chats e chamadas de entrada chegam ao cliente do Teams. Para obter mais informações, consulte [a coexistência do Teams](/microsoftteams/coexistence-chat-calls-presence) com Skype for Business e as diretrizes de migração e interoperabilidade para organizações que usam o [Teams junto com o Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
 Para mover usuários da implantação local Skype for Business Server para a nuvem, é necessário a configuração de Skype for Business [híbrido](/skypeforbusiness/hybrid/plan-hybrid-connectivity).  Depois que a implantação estiver habilitada para híbrido, você poderá mover os usuários do ambiente local para a nuvem para torná-los TeamsOnly, conforme descrito abaixo. Se necessário, você também pode mover os usuários do TeamsOnly de volta para a implantação local do Skype for Bsuiness. 
 
@@ -48,7 +48,7 @@ Pré-requisitos para mover um usuário para o modo TeamsOnly:
 - Skype for Business híbrido deve ser configurado, conforme descrito em [Configurar Skype for Business híbrido](configure-federation-with-skype-for-business-online.md).
 - O usuário deve receber uma licença do Teams e do Skype for Business Online (Plano 2). Mesmo após a desativação do Skype for Business Online, a licença do Skype for Business Online ainda é necessária.  Além disso:
     - Se o usuário estiver habilitado para conferência discada no local, o usuário também deverá ter uma licença de Audioconferência atribuída no Teams antes de você mover o usuário online. Depois de migrar para a nuvem, o usuário será provisionado para conferências de áudio na nuvem. 
-    - Se o usuário estiver habilitado para Enterprise Voice local, o usuário deverá ter uma licença do Sistema de Telefonia atribuída no Teams antes de você mover o usuário online. Depois de migrado para a nuvem, o usuário será provisionado para o Sistema de Telefonia na nuvem. 
+    - Se o usuário estiver habilitado para Enterprise Voice local, o usuário deverá ter uma licença do Telefone do Teams atribuída no Teams antes de você mover o usuário online. Depois de migrado para a nuvem, o usuário será provisionado para o Sistema de Telefonia na nuvem. 
   
 A partir de 31 de julho de 2022, para mover usuários entre uma implantação local e a nuvem, você deve usar a seguinte versão mínima do Skype for Business Server ou do Lync Server:
 
@@ -60,7 +60,6 @@ A partir de 31 de julho de 2022, para mover usuários entre uma implantação lo
 |Skype for Business Server 2019| CU6 |7.0.2046.385|
 |Skype for Business Server 2015| CU12|6.0.9319.619|
 |Lync Server 2013| CU10 com Hotfix 7|5.0.8308.1182|
-||||
 
 </br>
 </br>
@@ -69,10 +68,16 @@ A partir de 31 de julho de 2022, para mover usuários entre uma implantação lo
 
 Quando um usuário é movido do local para a nuvem:
 
-- Os usuários do Teams são habilitados para interoperabilidade com Skype for Business usuários e, se forem TeamsOnly, também poderão federar com outras organizações.
+- O usuário se torna um usuário teamsOnly, o que significa que o usuário:
+   -  Recebe e inicia todos os chats e chamadas no cliente do Teams.
+   -  Agenda todas as reuniões no Teams.
+   -  Não é possível iniciar chats ou chamadas ou agendar reuniões no Skype for Business.
+   -  Pode ingressar Skype for Business reuniões que já têm ou recebem no futuro. No entanto, depois que a Microsoft remover a infraestrutura do Skype for Business Online para um determinado usuário do TeamsOnly, os usuários do TeamsOnly só poderão ingressar Skype for Business reuniões anonimamente. A partir de outubro de 2022, os usuários migrados do local para o Teams somente em organizações híbridas não serão mais provisionados com a infraestrutura Skype for Business Online. Se esses usuários forem convidados para uma reunião Skype for Business, eles precisarão ingressar anonimamente. Para obter detalhes, [consulte Diretrizes para organizações com implantações locais de Skype for Business Server](/MicrosoftTeams/skype-for-business-online-retirement.md#guidance-for-organizations-with-on-premises-deployments-of-skype-for-business-server).
+
+- Os usuários são habilitados para interoperabilidade com Skype for Business usuários e também podem federar com outras organizações.
 - Os contatos do local são movidos para o Teams.
 - As reuniões existentes que eles organizaram agendadas no futuro são convertidas em reuniões do Teams. A migração de reuniões ocorre de forma assíncrona e começa aproximadamente 90 minutos depois de mover o usuário.  Para determinar o status da migração de reunião, você pode usar [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms). Qualquer conteúdo carregado antes da reunião não é movido.
-- Os usuários atribuídos ao Sistema de Telefonia podem acessar a funcionalidade PSTN depois de configurados corretamente.
+- Os usuários que recebem uma licença do Telefone do Teams podem acessar a funcionalidade PSTN depois de configurados corretamente.
  
 Para mover usuários para o Teams, use o cmdlet Move-CsUser ou o Skype for Business Administração Painel de Controle, que são ferramentas locais. Essas ferramentas dão suporte aos seguintes caminhos de movimentação:
 
@@ -81,7 +86,7 @@ Para mover usuários para o Teams, use o cmdlet Move-CsUser ou o Skype for Busin
 
 
 > [!NOTE] 
->  O comportamento de migrar diretamente do local para o Teams somente agora é automático, independentemente de qual versão do Skype for Business Server ou do Lync Server é usada. Não é mais necessário especificar a opção -MoveToTeams em Move-CsUser para mover os usuários diretamente do local para o TeamsOnly. Anteriormente, se essa opção não fosse especificada, os usuários iam de ser hospedados no Skype for Business Server local para o Skype for Business Online e seu modo permanece inalterado. Agora, ao mover um usuário do local para a nuvem com Move-CsUser, os usuários são atribuídos automaticamente ao modo TeamsOnly e suas reuniões do local são convertidas automaticamente em reuniões do Teams, `-MoveToTeams` como se a opção tivesse sido especificada, independentemente de a opção ter sido realmente especificada. 
+>  O comportamento de migrar diretamente do local para o Teams é automático, independentemente de qual versão do Skype for Business Server ou do Lync Server é usada. Não é mais necessário especificar a `-MoveToTeams` opção de `Move-CsUser` mover os usuários diretamente do local para o TeamsOnly. Anteriormente, se essa opção não fosse especificada, os usuários iam de ser hospedados no Skype for Business Server local para o Skype for Business Online e seu modo permanece inalterado. Agora, ao mover um usuário do local para a `Move-CsUser`nuvem com o modo TeamsOnly, os usuários são atribuídos automaticamente ao modo TeamsOnly e suas reuniões do local são convertidas automaticamente em reuniões do Teams, `-MoveToTeams` assim como se a opção tivesse sido especificada, independentemente de a opção ter sido realmente especificada. 
 
 
 ## <a name="required-administrative-credentials"></a>Credenciais administrativas necessárias

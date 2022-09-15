@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5b67137aa581aae5a27ccc18935f621f51d5093
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
-ms.translationtype: HT
+ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839012"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706708"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams
 
@@ -63,7 +63,7 @@ Os profissionais de TI podem escolher seu método preferido para distribuir os a
 
 Teams no Windows fornece instaladores MSI para baixar nas arquiteturas [32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true) e [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true). A arquitetura x86 (32 bits versus 64 bits) do Teams é independente da arquitetura do Windows e do Office instalada. Recomendamos a versão de 64 bits do Teams em sistemas de 64 bits.
 
-O Teams requer .NET Framework 4.5 ou posterior. Se .NET Framework ou posterior não estiver instalado, o instalador do Teams oferecerá a instalação para você.
+O Teams requer o .NET Framework 4.5 ou posterior. Se o .NET Framework ou posterior não estiver instalado, o instalador do Teams oferecerá a instalação para você.
 
 O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows aproveita os seguintes locais:
 
@@ -138,9 +138,9 @@ Você pode lançar o Teams por meio de Atividades ou por meio do Terminal digita
 Instale manualmente nas distribuições do Debian e do Ubuntu:
 
 ```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
 
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
 
 sudo apt update
 sudo apt install teams

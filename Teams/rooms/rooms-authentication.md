@@ -1,5 +1,5 @@
 ---
-title: Autenticação no Salas do Microsoft Teams
+title: Autenticação no Salas do Microsoft Teams no Windows
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: Saiba como configurar a autenticação moderna para Salas do Microsoft Teams
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Saiba como configurar a autenticação moderna para Salas do Microsoft Teams no Windows
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268236"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706428"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Autenticação no Salas do Microsoft Teams
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Autenticação no Salas do Microsoft Teams no Windows
 
 O gerenciamento de conta Salas do Microsoft Teams é tratado no nível do aplicativo. O aplicativo se conecta ao Microsoft Teams, ao Skype for Business e ao Exchange para obter recursos para a conta de recurso para habilitar experiências de chamada e reunião. Salas do Teams usa uma conta de recurso dedicada para permitir recursos sempre ativados, cenários de chamada (para dispositivos configurados com um plano de chamada) e mecanismos de bloqueio personalizados. Isso significa que a autenticação Salas do Teams ocorre de uma maneira diferente para dispositivos do usuário final.  
 

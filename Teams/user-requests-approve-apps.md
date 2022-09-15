@@ -14,16 +14,16 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: Saiba como gerenciar e configurar a solicitação do usuário final para permitir os aplicativos bloqueados em uma organização.
+description: Saiba como gerenciar e configurar a solicitação do usuário final para aprovação dos aplicativos bloqueados em uma organização.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 62d34aae25ef1ebff585ea430aeb3db20856669a
-ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
+ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67657321"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706220"
 ---
 # <a name="manage-user-requests"></a>Gerenciar solicitações de usuário
 
@@ -75,18 +75,18 @@ Para configurar uma mensagem personalizada e redirecionar os usuários para uma 
 
 1. No canto superior direito, selecione **configurações de** aplicativo em toda a organização.
 
-1. Para exibir uma mensagem ou instrução personalizada no repositório do Teams, insira uma mensagem de texto no campo de texto em **Configuração de solicitações do usuário**.
+1. Para exibir uma mensagem ou instrução personalizada no repositório do Teams, insira uma mensagem de texto no campo de texto em **Configuração de solicitações do usuário**. O campo tem um limite de 300 caracteres.
 
 1. Para fornecer uma URL específica da organização para coletar solicitações de usuário, siga as etapas:
 
    1. Ative a **alternância Redirecionar solicitações para link** externo.
    1. Forneça sua URL específica da organização.
 
-      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Captura de tela para alternar a personalização da URL para a solicitação do usuário para desbloquear o aplicativo na interface do usuário de configurações de toda a organização.":::
+      :::image type="content" source="media/user-request-config-org-wide-setting.png" alt-text="Captura de tela para alternar a personalização da URL para as solicitações do usuário na interface do usuário de configurações de toda a organização.":::
 
 1. Selecione **Salvar**.
 
-Os métodos para avaliar e permitir os aplicativos solicitados permanecem os mesmos.
+Se você optar por fazer isso, os métodos para avaliar aplicativos de terceiros e permitir que os aplicativos solicitados permaneçam os mesmos.
 
 ## <a name="dismiss-user-requests"></a>Ignorar solicitações de usuário
 

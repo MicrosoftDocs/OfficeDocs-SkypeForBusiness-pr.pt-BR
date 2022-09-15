@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Saiba mais sobre como gerenciar Salas do Microsoft Teams.
-ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 85979448c425f2ab0de9a5956ba4e74b2a5697cc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272216"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706658"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Salas do Microsoft Teams manutenção e operações
  
@@ -61,7 +61,7 @@ Para obter Salas do Teams experiência projetada, suas telas de frente de sala p
 
 Para definir a escala e a resolução de suas telas front-of-rooms remotamente, consulte Gerenciar um [Salas do Microsoft Teams de console remotamente com um arquivo de](xml-config-file.md#set-front-of-room-scale-and-resolution) configuração XML.
 
-Para definir a escala e a resolução manualmente nas configurações de administrador da Sala do Teams:
+Para definir a escala e a resolução manualmente nas configurações Salas do Teams administrador:
 
 1. Na sala do Teams, alterne para o [modo de administrador](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
@@ -84,7 +84,7 @@ Para definir a escala e a resolução manualmente nas configurações de adminis
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Salas do Microsoft Teams redefinição (restauração de fábrica)
 <a name="Reset"> </a>
 
-Se Salas do Microsoft Teams estiver funcionando bem, executar uma redefinição de fábrica poderá ajudar. Para fazer isso, use a ferramenta [de recuperação da Sala do Microsoft Teams](recovery-tool.md) e siga as instruções de restauração de fábrica.
+Se Salas do Microsoft Teams estiver funcionando bem, executar uma redefinição de fábrica poderá ajudar. Para fazer isso, use a ferramenta [Salas do Microsoft Teams recuperação e](recovery-tool.md) siga as instruções de restauração de fábrica.
 
 > [!NOTE]
 > Há um problema conhecido em que o Salas do Microsoft Teams pode se tornar inutilizável se a opção Manter meus arquivos – Remove **aplicativos** e configurações, mas mantém sua opção de arquivos pessoais selecionada durante o processo de Redefinição do Windows. Não *use* essa opção.
@@ -222,11 +222,13 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>Atualizações de software
 <a name="SWupdate"> </a>
 
-Por padrão, Salas do Microsoft Teams tenta se conectar à Windows Store para obter a versão mais recente do Salas do Microsoft Teams software. Portanto, Salas do Teams requer acesso regular à Internet. Antes de entrar em contato com a Microsoft com problemas de suporte, verifique se Salas do Microsoft Teams está carregado com a versão mais recente do aplicativo.
+Por padrão, Salas do Microsoft Teams se conecta ao Windows Update para recuperar atualizações de firmware do dispositivo periférico USB e do sistema operacional e as instala fora do horário comercial configurado. Você pode configurar o horário comercial entrando na conta de administrador e executando **o aplicativo Configurações** .
   
-Salas do Microsoft Teams se conecta ao Windows Update para recuperar atualizações de firmware do dispositivo periférico e do sistema operacional. Ele também se conecta à Microsoft Store para recuperar atualizações de aplicativos.
+Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal do [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para distribuir aplicativos [offline](/microsoft-store/distribute-offline-apps), poderá adquirir e executar o script MTR-Update mais recente de um dispositivo Salas do Microsoft Teams [manualmente](/microsoftteams/rooms/manual-update).
 
-Se você precisar gerenciar as atualizações de aplicativo manualmente, mas não puder seguir o procedimento normal do [Microsoft Store para Empresas](https://businessstore.microsoft.com/store) para distribuir aplicativos [offline](/microsoft-store/distribute-offline-apps), poderá adquirir pacotes de atualização do Salas do Teams para executar atualizações de aplicativo em sistemas operacionais com suporte. A versão de atualização pode atrasar a versão da loja e talvez nem sempre corresponda ao build mais recente disponível. Consulte [Atualizar manualmente um Salas do Microsoft Teams para](manual-update.md) saber mais.
+Por padrão, Salas do Microsoft Teams tenta se conectar à Windows Store para obter a versão mais recente do Salas do Microsoft Teams software. Portanto, Salas do Teams requer acesso regular à Internet. Antes de entrar em contato com a Microsoft com problemas de suporte, verifique se Salas do Microsoft Teams está carregado com a versão mais recente do aplicativo.
+
+
 
 ## <a name="admin-mode-and-device-management"></a>Modo de administração e gerenciamento de dispositivo
 <a name="AdminMode"> </a>

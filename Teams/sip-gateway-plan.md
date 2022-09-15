@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271696"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706000"
 ---
 # <a name="plan-for-sip-gateway"></a>Planejar o Gateway SIP
 
@@ -61,7 +61,7 @@ Os usuários do Teams devem ter um número de telefone com chamada PSTN habilita
 
 Se você tiver um dispositivo SIP ou 3PIP, deverá ter:
 
-- Uma licença para o Sistema de Telefonia (via E5 ou uma licença autônoma)
+- Uma licença para o Microsoft Teams, Skype for Business Online Plano 2 e Sistema de Telefonia do Microsoft 365 (por meio de licenças E5 ou autônomas)
 - Habilitação de PSTN (ou seja, um número de telefone) por meio de um Plano de Chamada do Microsoft Teams, Roteamento Direto ou Conexão de Operador
 - Uma licença do Common Area Phone para qualquer dispositivo de área comum
 

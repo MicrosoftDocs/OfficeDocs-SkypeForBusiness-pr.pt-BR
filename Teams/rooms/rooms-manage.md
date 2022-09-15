@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas Salas do Microsoft Teams estejam disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271088"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706818"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
 
@@ -171,20 +171,20 @@ O Salas do Teams do sistema mostra rapidamente o status e a integridade de todos
 
 Para exibir informações detalhadas sobre um dispositivo, selecione seu nome na lista de dispositivos. Quando estiver na exibição de detalhes, você poderá ver as seguintes informações sobre seu dispositivo:
 
-- **Status de integridade** Mostra a integridade geral do dispositivo sala do Teams. O status de integridade pode ser **íntegro** **ou não íntegro**.
+- **Status de integridade** Mostra a integridade geral do Salas do Teams dispositivo. O status de integridade pode ser **íntegro** **ou não íntegro**.
 - **Offline desde** Mostra a última vez que o Microsoft 365 conseguiu se comunicar com o dispositivo.
 - **Status do dispositivo** Mostra o estado atual do **dispositivo:** Ocioso, Reunião **do Teams**, **Reunião do Skype** ou **Ingestão**.
-- **Periféricos** Mostra os periféricos conectados ao seu dispositivo de Sala do Teams e seu status de integridade. O status de integridade pode **ser Conectado** ou **Desconectado**.
-- **Saúde** Mostra informações detalhadas sobre os periféricos conectados ao seu dispositivo de Sala do Teams, conectividade de rede, status de entrada para serviços necessários e informações de versão de software.
-- **Detalhes** Mostra informações do fabricante, endereço IP de rede e endereço SERIAL/MAC do dispositivo da Sala do Teams.
+- **Periféricos** Mostra os periféricos conectados ao seu dispositivo Salas do Teams e seu status de integridade. O status de integridade pode **ser Conectado** ou **Desconectado**.
+- **Saúde** Mostra informações detalhadas sobre os periféricos conectados ao seu dispositivo Salas do Teams, conectividade de rede, status de entrada para os serviços necessários e informações de versão do software.
+- **Detalhes** Mostra as informações do fabricante, o endereço IP de rede e Salas do Teams endereço SERIAL/MAC do dispositivo.
 - **Atividade** Mostra detalhes da reunião anterior, incluindo a data e a hora da reunião, o número de participantes, a duração e a qualidade do áudio. Para obter mais informações sobre detalhes da reunião, consulte a seção [Detalhes da atividade da](#meeting-activity-details) reunião mais adiante neste artigo.
-- **História** Mostra um histórico da atividade de gerenciamento no dispositivo sala do Teams, incluindo atualizações de configuração, reinicializações do dispositivo e links de download de log do dispositivo.
+- **História** Mostra um histórico da atividade de gerenciamento no dispositivo Salas do Teams, incluindo atualizações de configuração, reinicializações do dispositivo e links de download de log do dispositivo.
 
 #### <a name="meeting-activity-details"></a>Detalhes da atividade da reunião
 
-A **guia** Atividade nos detalhes do dispositivo da Sala do Teams mostra informações detalhadas e de alto nível sobre todas as reuniões das quais o dispositivo participou ao longo do tempo. Na guia **Atividade** , você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
+A **guia** Atividade Salas do Teams detalhes do dispositivo mostra informações detalhadas e de alto nível sobre todas as reuniões das quais o dispositivo participou ao longo do tempo. Na guia **Atividade** , você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Lista de resumo da atividade do dispositivo da Sala do Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Salas do Teams resumo da atividade do dispositivo.":::
 
 Para ver as informações detalhadas sobre uma reunião específica, selecione a data e a hora da reunião sobre a qual você deseja obter mais informações. Se uma reunião tiver apenas dois participantes, você verá a página de detalhes do participante; caso contrário, você verá uma página de resumo do participante.
 
@@ -192,10 +192,10 @@ Para ver as informações detalhadas sobre uma reunião específica, selecione a
 
 A página de resumo do participante mostra todos os participantes que participaram da reunião. Você pode ver quando cada participante ingressou na reunião, seu nome, qualidade de áudio e quais recursos foram usados durante a sessão. Para exibir os detalhes da sessão de um participante, selecione a hora de início da sessão para esse participante.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Detalhes da conferência do dispositivo da Sala do Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Salas do Teams de conferência do dispositivo.":::
 
 ##### <a name="participant-details"></a>Detalhes do participante
 
 A página de detalhes do participante mostra informações de diagnóstico de ponta a ponta para a sessão desse participante. Conforme mostrado no gráfico a **seguir, as** informações de  **dispositivo, sistema** e conectividade são fornecidas para o participante e para o Salas do Teams dispositivo. **As** informações de diagnóstico de rede entre o participante e o Salas do Teams dispositivo também são fornecidas. Selecione o ícone do contexto sobre o qual você deseja obter mais informações. Para obter informações de diagnóstico adicionais, selecione **a guia** Avançado.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Detalhes da chamada do dispositivo da Sala do Teams.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Salas do Teams detalhes da chamada do dispositivo.":::

@@ -19,12 +19,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637044"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705820"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar aplicativos do Teams no Centro de administração do Microsoft Teams
 
@@ -93,7 +93,7 @@ Por exemplo, a Contoso Electronics é uma desenvolvedora de aplicativos que crio
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Captura de tela do status bloqueado pelo editor no Centro de administração do Teams.":::
 
-Para obter informações sobre como os desenvolvedores bloqueiam um aplicativo por padrão, confira [Ocultar aplicativo até que o administrador aprove](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
+Para obter informações sobre como os desenvolvedores bloqueiam um aplicativo por padrão, consulte habilitar [aplicativos a serem bloqueados até que um administrador o permita](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativos em toda a organização
 

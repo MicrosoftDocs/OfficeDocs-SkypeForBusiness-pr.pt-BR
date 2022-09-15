@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Configure Salas do Teams dispositivos e o Surface Hub para ingressar em reuniões quando um dispositivo ou outro ingressar em uma reunião.
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270476"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706978"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniões coordenadas com o Salas do Microsoft Teams e o Surface Hub
 
@@ -73,7 +73,7 @@ Em um aplicativo de planilha, adicione linhas para o seguinte na primeira coluna
 | **Vídeo habilitado**      | Determina se os participantes de uma reunião podem ativar ou desativar a câmera. Você pode definir isso como em `true` qualquer outro dispositivo no evento em que os participantes desejem compartilhar diferentes perspectivas de vídeo (por exemplo, se um participante estiver usando o quadro de comunicações do Surface Hub). Se você não quiser que os participantes ativem ou desativem uma câmera em um dispositivo, defina isso como `false`.<p> Se **o padrão** de Vídeo for definido como `true`, essa configuração será ignorada e os participantes poderão ativar ou desativar a câmera.         |
 | **Padrão do quadro de comunicações** | Determina se o Salas do Teams exibirá um quadro de comunicações compartilhado por um dos participantes da reunião. Recomendamos que você defina isso como `false` se você tiver um Surface Hub `true` e se não tiver um. Essa configuração não tem efeito nos Surface Hubs. Os Surface Hubs sempre exibirão um quadro de comunicações compartilhado pelos participantes da reunião.         |
 | **Quadro de comunicações habilitado** | Determina se os participantes de uma reunião podem ativar ou desativar o quadro de comunicações. Se você não quiser que os participantes ativem ou desativem o quadro de comunicações em um dispositivo, defina isso como `false`. <p>Se **o padrão do Quadro** de Comunicações for definido como `true`, essa configuração será ignorada e os participantes poderão ativar ou desativar o quadro de comunicações.
-| **Contas confiáveis**   | Esta é uma lista separada por vírgulas de UPNs para cada dispositivo da Sala do Teams ou Surface Hub do qual o dispositivo deve aceitar solicitações de ingresso na reunião ou para quais solicitações de ingresso na reunião devem ser enviadas. |
+| **Contas confiáveis**   | Esta é uma lista separada por vírgulas de UPNs para cada dispositivo Salas do Teams ou Surface Hub do qual o dispositivo deve aceitar solicitações de junção de reunião ou para quais solicitações de ingresso na reunião devem ser enviadas. |
 
 Em colunas subsequentes, adicione cada um dos seus dispositivos Salas do Teams e Surface Hubs. Em cada coluna, preencha os valores que correspondem à experiência desejada para a sala de reunião. Veja um exemplo com um dispositivo Salas do Teams e um Surface Hub:
 

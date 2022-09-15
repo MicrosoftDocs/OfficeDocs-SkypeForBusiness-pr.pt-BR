@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268546"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706060"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -175,7 +175,7 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 |Jabra                |Desenvolver fone de ouvido 40                                          |8/23/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |Jabra                |Desenvolver fone de ouvido 30 II                                       |8/23/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |Jabra                |Desenvolver fone de ouvido 20                                          |8/23/2020       |Skype for Business com a atualização para o Microsoft Teams      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |
+|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |Impacto sc 660 com conector USB-ED CC 01 MS               |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |ImpactAR SC 630 com conector USB-ED CC 01 MS               |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |
 |EPOS/Sennheiser      |ImpactAR SC 260 com conector USB-ED CC 01 MS               |8/20/2020       |Skype for Business com a atualização para o Microsoft Teams      |

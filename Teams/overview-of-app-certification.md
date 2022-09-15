@@ -17,20 +17,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 624d91cc7b8518417b45a787f2beae7cb75a7747
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7c67c10b967aeddd8ed170c65d169585dc06733d
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486946"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706190"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Programa de conformidade de aplicativos do Microsoft 365 para segurança, conformidade e privacidade de aplicativos de terceiros
 
 O programa de conformidade da Microsoft verifica e audita um aplicativo em relação aos controles derivados das principais estruturas padrão do setor. O programa demonstra que existem fortes práticas de segurança e conformidade para proteger os dados dos clientes. O programa tem as seguintes fases:
 
-* Verificação do publicador.
-* Atestado do fornecedor.
-* Certificação Microsoft 365.
+* [Verificação do publicador](#publisher-verification).
+* [Atestado do publicador](#publisher-attestation).
+* [Certificação do Microsoft 365](#microsoft-365-certification).
 
 ## <a name="publisher-verification"></a>Verificação do fornecedor
 

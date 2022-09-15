@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre os logs de Depuração, Mídia e Área de Trabalho produzidos pelo Microsoft Teams, onde eles podem ser encontrados e como eles podem ajudar no monitoramento e na solução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486886"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705810"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>Configurar arquivos de log para monitoramento e solução de problemas no Teams
 
@@ -34,6 +34,8 @@ Há três tipos de arquivos de log produzidos automaticamente pelo cliente, que 
 -   [Registros de desktop](#desktop-logs)
 
 Este artigo descreve esses logs e como eles são usados. Para obter informações sobre como solucionar problemas específicos, consulte: [Solução de problemas do Teams](/MicrosoftTeams/troubleshoot/teams). 
+
+Para obter informações sobre como coletar logs de Salas do Microsoft Teams dispositivos, consulte [Baixar logs do dispositivo](/microsoftteams/rooms/rooms-manage#download-device-logs).
 
 Para obter informações sobre como entrar em contato com o suporte, consulte [Obter suporte](/microsoft-365/business-video/get-help-support).
 

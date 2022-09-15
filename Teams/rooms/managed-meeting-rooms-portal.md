@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Forneça uma visão da integridade das salas de reunião.
 f1keywords: ''
-ms.openlocfilehash: d76f1f68e0cc73d2abd554ec5c2fc115139a6a0f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 3587e1ab6e19fa7eac2519ccffe7c8f3bd19f2fc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269206"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707008"
 ---
 # <a name="microsoft-managed-meeting-rooms-portal"></a>Portal de Salas de Reunião Gerenciadas da Microsoft
 
@@ -98,13 +98,13 @@ Clicar em qualquer um dos itens que têm o status "**Ação de necessidades**" m
 Os incidentes são classificados em dois tipos de severidade ampla:
 
 - **Importante**: incidentes que provavelmente estão causando problemas em reuniões e devem ser priorizados.
-- **Aviso** – incidentes que são notificações para planejar ações de manutenção. Se isso não for feito, ao longo do tempo, as salas terão maior probabilidade de ocorrer um problema. Os avisos destinam-se a dar tempo para planejar e orquestrar o suporte.
+- **Aviso** – incidentes que são notificações para planejar ações de manutenção. Se isso não for feito, com o tempo as salas terão mais probabilidade de ocorrer um problema. Os avisos destinam-se a dar tempo para planejar e orquestrar o suporte.
 
 Um aviso pode fazer a transição para "**Importante**" se não for atendido por um tempo.
 
 ## <a name="health-status-of-device-and-incidents"></a>Status de integridade do dispositivo e incidentes
 
-Incidentes classificados como **"Importantes" na** gravidade afetarão o status de integridade de um dispositivo. Se houver pelo menos um incidente de **Severidade = "Importante"** associado a um dispositivo, ele será classificado como **_um dispositivo não íntegro_** .
+Incidentes classificados como **"Importantes" na** gravidade afetarão o status de integridade de um dispositivo. Se houver pelo menos um incidente de Severidade **= "Importante"** associado a um dispositivo, ele será classificado como um **_dispositivo não íntegro_** .
 
 Incidentes classificados como **severidade de "Aviso"** não afetam o status de integridade relatado em um dispositivo. No entanto, se um dispositivo tiver incidentes de nível de aviso associados a ele, ele será mostrado com o status de integridade do dispositivo da seguinte maneira.
 
@@ -120,10 +120,10 @@ A seguir estão alguns dos tipos de incidentes que você pode ver e as explicaç
 |**Microfone de conferência, palestrante de conferência** |Os dispositivos de áudio (microfone/alto-falante) parecem estar configurados incorretamente. |
 |**Câmera** |A câmera conectada ao dispositivo não parece estar íntegra. |
 |**Ingestão de HDMI** |A ingestão de HDMI não está íntegra. |
-|**Entrar (** Exchange) |O aplicativo sala do Microsoft Teams acessa informações de calendário do Exchange e qualquer problema com êxito de entrada será relatado com um incidente de entrada. |
-|**Entrar (** Teams) |O aplicativo Sala do Microsoft Teams entra no dispositivo e a falha ao entrar será relatada com esse incidente (se o cliente estiver usando o Teams). |
-|**Entrada (** Skype for Business) |O aplicativo Sala do Microsoft Teams entra no dispositivo e a falha ao entrar será relatada com esse incidente (se o cliente estiver usando Skype for Business) |
-|**Sensor de proximidade** |O aplicativo sala do Microsoft Teams convida participantes para ingressar em uma reunião se eles estiverem próximos. Falhas nesse recurso serão relatadas sob esse incidente. |
+|**Entrar (** Exchange) |Salas do Microsoft Teams aplicativo acessa informações de calendário do Exchange e qualquer problema com êxito de entrada será relatado com um incidente de entrada. |
+|**Entrar (** Teams) |Salas do Microsoft Teams o aplicativo entrar no dispositivo e a falha ao entrar será relatada com esse incidente (se o cliente estiver usando o Teams). |
+|**Entrada (** Skype for Business) |Salas do Microsoft Teams aplicativo entrar no dispositivo e a falha ao entrar será relatada com esse incidente (se o cliente estiver usando Skype for Business). |
+|**Sensor de proximidade** |Salas do Microsoft Teams o aplicativo convida os participantes a ingressar em uma reunião se eles estiverem próximos. Falhas nesse recurso serão relatadas sob esse incidente. |
 
 **Tabela 2: Incidentes com severidade de "Aviso"**
 
@@ -168,7 +168,7 @@ Cada dispositivo é um proxy para uma sala e seus periféricos conectados. Um di
 
 ![Captura de tela mostrando a visão geral de integridade de uma sala](../media/rooms-monitor-007.jpg)
 
-**Íntegro, não íntegro, desconectado** O painel superior no modo de exibição Salas fornece um instantâneo rápido de quantos de seus dispositivos estão em um bom estado("Íntegro"), quantos são afetados por problemas ("Não íntegros"), quantos não estão fornecendo telemetria ("Desconectado") e quantos dispositivos são suprimidos do alerta (como uma substituição). As salas são monitoradas para a integridade usando critérios em evolução e heurística. O objetivo é refletir a realidade da experiência do usuário na sala da maneira mais precisa possível e torná-la acionável.
+**Íntegro, não íntegro, desconectado** O painel superior no modo de exibição Salas fornece um instantâneo rápido de quantos de seus dispositivos estão em um bom estado("Íntegro"), quantos são afetados por problemas ("Não íntegros"), quantos não estão fornecendo telemetria ("Desconectado") e quantos dispositivos são suprimidos de alertas (como uma substituição). As salas são monitoradas para a integridade usando critérios em evolução e heurística. O objetivo é refletir a realidade da experiência do usuário na sala da maneira mais precisa possível e torná-la acionável.
 
 **Salas íntegras/não íntegras**:
 

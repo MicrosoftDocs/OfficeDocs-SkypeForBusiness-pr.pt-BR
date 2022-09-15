@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais e compare as licenças disponíveis para diferentes tipos de recursos de chamada e reunião Salas do Microsoft Teams.
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650813"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706668"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Suporte às Salas do Microsoft Teams
 
@@ -80,7 +80,7 @@ Se sua organização tiver um Enterprise Agreement, você poderá continuar usan
 
 <sup>*</sup>Os engenheiros de Serviço da Microsoft não servirão mais como intermediários para a resposta a incidentes a partir de 1º de outubro de 2022.
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>Salas do Teams console e a comparação de recursos de cliente do Teams
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Salas do Teams de recursos Básico e Salas do Teams Pro
 
 As tabelas a seguir comparam as licenças Salas do Teams Basic e Salas do Teams Pro e mostram quais recursos estão disponíveis com cada um. Se um recurso não estiver disponível para uma licença, esse recurso não poderá ser usado em Salas do Teams que foram atribuídos a essa licença. Para usar um recurso em um Salas do Teams, atribua a licença na qual esse recurso está disponível para esse dispositivo.
 

@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre o Salas do Microsoft Teams gerenciado.
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606280"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706468"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Salas do Microsoft Teams gerenciado
 
@@ -124,7 +124,7 @@ A Salas do Microsoft Teams Pro está disponível nos seguintes países sem audio
 |O que está incluído |O que é excluído |Canais de suporte para itens excluídos  |
 |---------|---------|---------|
 |**Configuração de serviço**   |         |         |
-|Investigação e diretrizes para Salas do Microsoft Teams configuração do Windows, incluindo Salas do Microsoft Teams configurações de aplicativo, configuração de rede de terceiros, configuração de software de terceiros e configurações e configurações de energia recomendadas.     |Quaisquer configurações e investigações de software de terceiros que não fazem parte diretamente do aplicativo sala do Microsoft Teams. Além disso, todas as configurações específicas do OEM que exigem configuração fora das janelas de terceiros ou configurações de aplicativo da Sala do Microsoft Teams.         |Canais de suporte padrão de terceiros         |
+|Investigação e diretrizes para Salas do Microsoft Teams configuração do Windows, incluindo Salas do Microsoft Teams configurações de aplicativo, configuração de rede de terceiros, configuração de software de terceiros e configurações e configurações de energia recomendadas.     |Quaisquer configurações e investigações de software de terceiros que não fazem parte diretamente do Salas do Microsoft Teams aplicativo. Além disso, qualquer configuração específica do OEM que exija configuração fora das janelas de terceiros ou Salas do Microsoft Teams configurações do aplicativo.         |Canais de suporte padrão de terceiros         |
 |**Configuração da conta de sala**    |         |         |
 |Direção para a documentação disponível para a configuração da conta de sala na solicitação. Para problemas de conexão ou configuração de conta, a investigação inicial é executada.     |Execução de correção recomendada ou problemas com a execução de correção recomendada, configuração de provedores de autenticação de terceiros e configuração de recursos de conta individual.        |Suporte base da Microsoft e suporte ao provedor de autenticação de terceiros         |
 |**Suporte periférico**    |         |         |

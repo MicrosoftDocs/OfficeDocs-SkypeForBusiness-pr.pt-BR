@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Saiba como gerenciar o recurso Música em Espera no Sistema de Telefonia.
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773750"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706170"
 ---
 # <a name="music-on-hold"></a>Música em Espera
 
@@ -129,6 +129,8 @@ A tabela a seguir indica quais recursos os clientes e dispositivos dão suporte 
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Espera na chamada PSTN 1:1 | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold |
 | Espera na chamada do Teams 1:1 | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold |
+| Espera na transferência na chamada PSTN 1:1 | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | | |
+| Espera na transferência na chamada do Teams 1:1 | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold| | | |
 | Espera na Transferência Consultativa na chamada PSTN 1:1 |-Música em Espera<br>-Custom Music on Hold || -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold |
 | Espera na Transferência Consultiva na chamada do Teams 1:1 |-Música em Espera<br>-Custom Music on Hold || -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold | -Música em Espera<br>-Custom Music on Hold |
 
