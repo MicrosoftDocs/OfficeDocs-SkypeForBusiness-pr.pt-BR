@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamadas (CQD) para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 8dda15990385db8e8ca9aeba7c56eba9d6b400ce
-ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
+ms.openlocfilehash: e59454349daf8121c759cef1cae350cf7294c1df
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67291417"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734615"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -399,6 +399,14 @@ A tabela a seguir lista as dimensões atualmente disponíveis no CQD, na ordem l
 | Bom  | Boolean  | True se o fluxo tiver dados suficientes para serem classificados como bons ou ruins e o fluxo for classificado como bom. Caso contrário, false.   |   |
 | Unclassified  | Boolean  | False se o fluxo tiver dados suficientes para serem classificados como bons ou ruins. True caso contrário. <br/>**Valor de exemplo:** 1 |   |
 | OnePercent PacketLoss  | Boolean  | True se a perda de pacote excedeu 1%, caso contrário, False.  |   |
+| Problema de rede de entrada detectado | Boolean | Se verdadeiro, indica alta confiança de que um fluxo de mídia pode ter sido afetado devido à rede de entrada. | &bull; Essa dimensão só se aplica a fluxos em que *a Direção do Fluxo == Primeira para Segunda* |
+| Problema de uplink detectado| Boolean | Se verdadeiro, indica alta confiança de que um fluxo de mídia pode ter sido afetado devido ao uplink de rede. | &bull; Essa dimensão não se aplica a chamadas P2P. |
+| Problema de dispositivo de entrada remota detectado | Boolean | Se verdadeiro, indica alta confiança de que um fluxo de mídia pode ter sido afetado devido ao dispositivo de captura remota. |
+| Problema de dispositivo de entrada local detectado | Boolean | Se verdadeiro, indica alta confiança de que um fluxo de mídia pode ter sido afetado devido ao dispositivo de renderização no primeiro ponto de extremidade. | &bull; Essa dimensão só se aplica a fluxos em que *a Direção do Fluxo == Primeira para Segunda* |
+| Eco detectado| Boolean | Se verdadeiro, indica alta confiança de que um fluxo de mídia pode ter sido afetado devido ao eco.|
+| Problema de computação remota detectado | Boolean | Se verdadeiro, indica alta confiança de que um fluxo de mídia pode ter sido afetado devido a recursos de computação no lado remoto. |
+| Problema de computação local detectado | Boolean | Se verdadeiro, indica alta confiança de que um fluxo de mídia pode ter sido afetado devido a recursos de computação locais. | &bull; Essa dimensão só se aplica a fluxos em que *a Direção do Fluxo == Primeira para Segunda* |
+| Problema de modalidade de mídia detectado | Boolean | Se verdadeiro, indica alta confiança de que a experiência do usuário do fluxo de mídia de entrada era ruim. | &bull; Essa dimensão só se aplica a fluxos em que *a Direção do Fluxo == Primeira para Segunda* |
 |**Classificação**||||
 | Primeira Classificação de Comentários  | Classificação do usuário (1 a 5)  | Classificação da chamada associada ao fluxo pelo primeiro ponto de extremidade em escala de 1 a 5 (5 = excelente). 0 indica que o usuário foi mostrado na pesquisa de classificação de chamada, mas não classificar sua experiência.  <br/> **Valor de exemplo:** 5 | &bull; Nenhuma pesquisa foi mostrada para o primeiro ponto de extremidade  |
 | Segunda Classificação de Comentários  | Classificação do usuário (1 a 5)  | Classificação da chamada associada ao fluxo pelo segundo ponto de extremidade na escala de 1 a 5 (5 = excelente). 0 indica que o usuário foi mostrado na pesquisa de classificação de chamada, mas não classificar sua experiência. <br/> **Valor de exemplo:** 5 | &bull; Nenhuma pesquisa foi mostrada para o segundo ponto de extremidade   |

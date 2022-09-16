@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 481c145d5206789c5603ab46334127b6bb724c13
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706060"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734595"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -81,13 +81,14 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em agosto de 2022*
+*Tabela atualizada em setembro de 2022*
 
 > [!NOTE]
 > O formato de data é MMDDYYYY.
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Câmeras Brio 500/505                                       |9/14/2022       |Certificado para o Microsoft Teams                           | 
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |Certificado para o Microsoft Teams                           |
 |Dell                 |Câmera WB5023                                              |6/29/2022       |Certificado para o Microsoft Teams                           |
 |EPOS                 |Headset ADAPT 560 II                                       |6/22/2022       |Certificado para o Microsoft Teams                           |
