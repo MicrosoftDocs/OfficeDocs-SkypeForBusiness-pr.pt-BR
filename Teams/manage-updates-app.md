@@ -55,7 +55,7 @@ Nas instalações de fabricação da loja, os funcionários realizam verificaç�
 
 Enquanto isso, uma equipe de funcionários remotos está atualizando o site da loja. Eles são distribuídos entre fusos horários, portanto, reuniões de stand-up diárias não são convenientes. Em vez disso, cada um dos membros da equipe envia Atualizações relatórios diários sobre seu progresso para o líder da equipe.
 
-[Baixe o Atualizações para](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) ver mais exemplos do que você pode fazer com Atualizações.
+[Baixe o Atualizações para](https://go.microsoft.com/fwlink/?linkid=2197649) ver mais exemplos do que você pode fazer com Atualizações.
 
 ## <a name="required-permissions-and-licenses"></a>Permissões e licenças necessárias
 
