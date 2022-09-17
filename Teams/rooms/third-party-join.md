@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Este artigo discute como configurar sua organização e Salas do Teams dispositivos para dar suporte à ingresso em reuniões de terceiros no Cisco Webex e no Zoom.
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268196"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794990"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>Habilitar Salas do Teams dispositivos para ingressar em reuniões de terceiros
 
@@ -27,12 +27,15 @@ Salas do Microsoft Teams dispositivos dão suporte a uma experiência de toque �
 
 Dispositivos e serviços com suporte:
 
-- MTR no Windows, todos os modelos certificados – Zoom, Cisco Webex
+- Salas do Teams no Windows, todos os modelos certificados – Zoom, Cisco Webex
 
-- MTR em modelos certificados para Android, Poly, Yealink e Logitech – Zoom
+- Salas do Teams no Android, todos os modelos certificados – Zoom, Cisco Webex
+
+    > [!NOTE]
+    > A Microsoft lança novos recursos para Salas do Teams no Android regularmente. No entanto, pode haver um atraso entre quando os recursos são lançados e quando eles ficam disponíveis em um dispositivo. Se um recurso não estiver disponível em seu dispositivo, verifique com o fabricante do dispositivo informações sobre quando ele pode ficar disponível.
 
 > [!NOTE]
-> Para ingressar em uma reunião do Cisco Webex de um dispositivo Salas do Teams, a reunião da Cisco precisa ser hospedada no Webex Meetings Pro usando o cisco Webex web application versão WBS 40.7 ou posterior. 
+> Para ingressar em uma reunião do Cisco Webex de um dispositivo Salas do Teams, a reunião da Cisco precisa ser hospedada no Webex Meetings Pro usando o cisco Webex web application versão WBS 40.7 ou posterior.
 
 Antes de ingressar em reuniões de terceiros Salas do Teams, você precisa fazer o seguinte:
 

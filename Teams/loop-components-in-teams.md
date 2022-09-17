@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418640"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795050"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Visão geral dos componentes do Loop no Teams
 
@@ -82,7 +82,7 @@ Se você desabilitar essas experiências conforme descrito na seção [Gerenciam
 
 - O ponto de entrada de criação/inserção no sistema de mensagens do Teams ficará oculto. Os usuários não poderão criar novos arquivos .fluid.
 - As mensagens existentes que anteriormente seriam renderizadas como um componente loop interativo serão renderizadas como um hiperlink "Componente loop". Nenhum conteúdo interativo será exibido no Teams.
-- Quando um usuário final clica no hiperlink "Componente loop" ou navega para um arquivo .fluid no OneDrive for Business e clica para abrir, ele abrirá o arquivo em uma guia separada do navegador, mas os usuários finais não poderão editar o arquivo.
+- Quando um usuário final clicar no hiperlink "Componente loop" ou navegar até um arquivo .fluid no OneDrive for Business e clicar para abrir, ele abrirá o arquivo em uma guia separada do navegador. Os usuários finais ainda poderão editar o arquivo.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

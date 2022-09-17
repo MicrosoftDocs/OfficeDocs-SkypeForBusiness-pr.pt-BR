@@ -32,6 +32,9 @@ Embora esses recursos não sejam uma lista abrangente de recursos para esse mode
 
 - Provedores de solução para usar o [<span class="underline">controlador de borda de sessão certificado pela Microsoft (SBC)</span>](../direct-routing-border-controllers.md)
 
+> [!NOTE]
+> A solução de contato usada pelo agente não precisa de uma licença do sistema de telefonia. O usuário do Teams precisa de uma licença do sistema de telefonia e um número de telefone para a transferência de chamada do agente.
+
 ### <a name="the-extend-model"></a>[**O modelo Estender**](#tab/extend)
 
 O modelo Estender integra-se ao cliente do Teams usando a plataforma de cliente [do Teams](/microsoftteams/platform/overview), [as APIs do Teams Graph](/graph/api/resources/teams-api-overview) e a [API de Comunicações na Nuvem no Microsoft Graph](/graph/api/resources/communications-api-overview). O modelo Estender também usa o sistema de telefonia do Teams para todas as chamadas do centro de contatos e experiências de controle de chamadas, e o provedor de soluções do centro de contatos atua como uma operadora de telefonia junto com o Microsoft 365.
@@ -60,8 +63,7 @@ Embora esses recursos não sejam uma lista abrangente de recursos para esse mode
 
 - Preservar o desempenho e a qualidade das experiências de cliente do Teams em todos os aplicativos
 
-> [!NOTE]
-> O bot do agente não precisa de uma licença do sistema de telefonia. O usuário do Teams precisa de uma licença do sistema de telefonia e um número de telefone.
+
 
 ### <a name="the-power-model"></a>[**O modelo de energia**](#tab/power)
 
