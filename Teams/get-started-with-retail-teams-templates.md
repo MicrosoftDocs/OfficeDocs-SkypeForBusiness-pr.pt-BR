@@ -20,14 +20,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396292"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837331"
 ---
 # <a name="use-retail-team-templates"></a>Usar modelos de equipe de varejo
+
+## <a name="overview"></a>Visão geral
 
 Os modelos de equipe no Microsoft Teams permitem que você crie equipes de forma rápida e fácil, fornecendo uma estrutura de equipe predefinida de configurações, canais e aplicativos pré-instalados.
 
@@ -50,26 +52,28 @@ Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos mod
 
 Atualmente, oferecemos os seguintes modelos de equipe de varejo pré-criados. Para exibi-los, no painel de navegação esquerdo do Centro de administração do Teams, acesse **Teams** > **Modelos do Teams**.
 
-### <a name="organize-a-store"></a>Organizar uma loja
+> [!NOTE]
+> Um asterisco (*) indica que o modelo é um *modelo conectado do Microsoft 365*. Quando os usuários criam uma equipe usando o modelo, o modelo conectado do SharePoint é aplicado ao site e à equipe. Componentes do SharePoint, como páginas, listas e integrações do Power Platform, são adicionados e fixados automaticamente como guias ao canal Geral da equipe. Os usuários podem editar essas páginas e listas diretamente no Teams.
+>
+> Para saber mais sobre modelos do SharePoint, consulte [Aplicar e personalizar modelos de site do SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-Reúna seus funcionários de varejo em uma experiência central para gerenciar tarefas, compartilhar documentos e resolver problemas de clientes. Integre aplicativos adicionais para simplificar os processos de início e término de turnos.
+### <a name="manage-a-store"></a>Gerenciar uma Loja*
 
-| Tipo de modelo |TemplateId | Propriedades que vêm com este modelo |
-| ------------------|-- |----------------------------------------------------- |
-|Organizar uma store| `retailStore` |Canais: <ul><li>Geral<li>Mudança de entrega</li><li>Preparação da loja<ul><li>Inspeção&sup1;</li></ul></li><li>Aprendizado</li></ul> Aplicativos: <ul><li>Wiki</li><li>Tarefas</li><li>Turnos</li><li>Inspeção</li></ul>|
+Reúna seus funcionários de varejo em uma experiência central para gerenciar tarefas, compartilhar documentos e resolver problemas de clientes. Integre aplicativos adicionais para simplificar os processos de início e término de turno.
 
-&sup1;Aplicativo adicionado ao canal como uma guia.
+> [!div class="mx-tdBreakAll"]
+>| Tipo de modelo |TemplateId | Propriedades que vêm com este modelo |
+>| ------------------|-- |----------------------------------------------------- |
+>| Gerenciar uma Loja| `retailStore` |Canais: <ul><li>Geral<li>Shift Handoff</li><li>Preparação da Loja</li><li>Aprendizado</li></ul> Aplicativos: <ul><li>Aprovações</li><li>Inspeção</li><li>Listas<ul><li>Lista de inventário</li></ul></li><li>Páginas do SharePoint<ul><li>Nossa loja</li></ul></li><li>Turnos</li><li>Tarefas por Planner e Tarefas Pendentes</li><li>Wiki</li></ul>|
 
-### <a name="manager-collaboration"></a>Colaboração do Gerente
+### <a name="retail-for-managers"></a>Varejo para gerentes*
 
-O modelo de Colaboração do Gerente é ideal para criar uma equipe para que um conjunto de gerentes colabore em lojas, regiões e assim por diante. Por exemplo, se sua organização tiver regiões, você poderá criar uma equipe de Colaboração do Gerente para a região da Califórnia e incluir todos os gerentes de loja nessa região, juntamente com o gerente regional dessa região.
+Crie uma equipe para que um conjunto de gerentes colabore entre lojas ou regiões. Por exemplo, se sua organização tiver regiões, você poderá criar uma equipe para a região da Califórnia e incluir todos os gerentes da loja nessa região, juntamente com o gerente regional dessa região.
 
-| Tipo de modelo| TemplateId | Propriedades que vêm com este modelo |
-| ------------------|- |----------------------------------------------------- |
-|Varejo para gerentes|`retailManagerCollaboration` |Canais: <ul><li>Geral<li>Operações<ul><li>Tarefas (Tarefas de Operações)&sup1;</li><li>Inspeção&sup1;</li></ul></li><li>Aprendizado<ul><li>Tarefas (Tarefas de Aprendizagem)&sup1;</li></ul></li></ul> Apps: <ul><li>Wiki</li><li>Tarefas</li><li>Inspeção</li></ul>|
-||||
-
-&sup1;Aplicativo adicionado ao canal como uma guia.
+> [!div class="mx-tdBreakAll"]
+>| Tipo de modelo| TemplateId | Propriedades que vêm com este modelo |
+>| ------------------|- |----------------------------------------------------- |
+>| Varejo para gerentes| `retailManagerCollaboration` |Canais: <ul><li>Geral<li>Operações</li><li>Aprendizado</li></ul> Aplicativos: <ul><li>Aprovações</li><li>Inspeção</li><li>Páginas do SharePoint<ul><li>Nossa loja</li></ul></li><li>Tarefas por Planner e Tarefas Pendentes</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Usar os modelos do Teams com o Microsoft Graph
 
@@ -77,16 +81,19 @@ Os desenvolvedores podem usar o Microsoft Graph para criar equipes a partir de m
 
 Aqui estão os modelos de equipe de varejo pré-criados.
 
-### <a name="store"></a>Repositório
+> [!NOTE]
+> Um asterisco (*) indica que o modelo é um *modelo conectado do Microsoft 365*. Quando os usuários criam uma equipe usando o modelo, o modelo conectado do SharePoint é aplicado ao site e à equipe. Componentes do SharePoint, como páginas, listas e integrações do Power Platform, são adicionados e fixados automaticamente como guias ao canal Geral da equipe. Os usuários podem editar essas páginas e listas diretamente no Teams.
+>
+> Para saber mais sobre modelos do SharePoint, consulte [Aplicar e personalizar modelos de site do SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 
-O modelo de Loja é ideal para criar uma equipe para representar um local de loja individual. Usando o modelo de Loja, você pode criar uma equipe para cada local de loja de varejo em sua organização.
+### <a name="manage-a-store"></a>Gerenciar uma Loja*
 
-| Tipo de modelo | TemplateId | Canais de modelo |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo - <br>Loja | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Canais <ul><li>Geral</li><li>Entrega de turno&sup2;</li><li>Preparação da loja</li><li>Aprendizado&sup2;</li></ul>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Pública</li></ul> <br>Permissões de membro <ul><li>Não é possível criar, atualizar ou excluir canais </li><li>Não é possível adicionar ou remover aplicativos </li><li>Não é possível criar, atualizar ou remover guias</li><li>Não é possível criar, atualizar ou remover conectores</li><ul>|
-||||
+Use este modelo para criar uma equipe para cada local da loja de varejo em sua organização.
 
-&sup2;Canais marcados como favorito automaticamente
+> [!div class="mx-tdBreakAll"]
+>| Tipo de modelo | TemplateId | Canais de modelo |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Varejo - <br>Loja | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| Canais <ul><li>Geral</li><li>Shift Handoff</li><li>Preparação da Loja</li><li>Aprendizado</li></ul>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Pública</li></ul> <br>Permissões de membro <ul><li>Não é possível criar, atualizar ou excluir canais </li><li>Não é possível adicionar ou remover aplicativos </li><li>Não é possível criar, atualizar ou remover guias</li><li>Não é possível criar, atualizar ou remover conectores</li><ul>|
 
 Maneiras recomendadas de personalizar o modelo de Loja para sua organização:
 
@@ -94,16 +101,14 @@ Maneiras recomendadas de personalizar o modelo de Loja para sua organização:
 
 - Se sua organização tiver sites internos (por exemplo, um site do Microsoft Office SharePoint Online), considere fixá-los como guias no canal de equipe relevante.
 
-### <a name="manager-collaboration"></a>Colaboração do Gerente
+### <a name="retail-for-managers"></a>Varejo para gerentes*
 
-O modelo de Colaboração do Gerente é ideal para criar uma equipe para que um conjunto de gerentes colabore em lojas, regiões e assim por diante. Por exemplo, se sua organização tiver regiões, você poderá criar uma equipe de Colaboração do Gerente para a região da Califórnia e incluir todos os gerentes de loja nessa região, juntamente com o gerente regional dessa região.
+Use este modelo para criar uma equipe para um conjunto de gerentes colaborarem entre lojas ou regiões. Por exemplo, se sua organização tiver regiões, você poderá criar uma equipe para a região da Califórnia e incluir todos os gerentes da loja nessa região, juntamente com o gerente regional dessa região.
 
-| Tipo de modelo | TemplateId | Canais de modelo |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo - <br>Loja | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canais <ul><li>Geral</li><li>Operações&sup2;</li><li>Aprendizado&sup2;</li></ul>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> <br>Permissões de membro <ul><li>Pode criar, atualizar e excluir canais </li><li>Pode adicionar e remover aplicativos </li><li>Pode criar, atualizar e remover guias</li><li>Pode criar, atualizar e remover conectores</li><ul>|
-||||
-
-&sup2;Canais marcados como favorito automaticamente
+> [!div class="mx-tdBreakAll"]
+>| Tipo de modelo | TemplateId | Canais de modelo |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| Varejo - <br>Colaboração do Gerente | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| Canais <ul><li>Geral</li><li>Operações</li><li>Aprendizado</li></ul>Propriedades de equipe <ul><li>Visibilidade da equipe definida como Privada</li></ul> <br>Permissões de membro <ul><li>Pode criar, atualizar e excluir canais </li><li>Pode adicionar e remover aplicativos </li><li>Pode criar, atualizar e remover guias</li><li>Pode criar, atualizar e remover conectores</li><ul>|
 
 Maneiras recomendadas de personalizar o modelo Colaboração de Gerente para sua organização:
 
@@ -131,6 +136,9 @@ Para usar esses modelos, altere a propriedade 'template@odata.bind' no corpo da 
   ]
 }
 ```
+
+> [!NOTE]
+> Se você estiver usando o Microsoft Graph para criar uma equipe de um grupo ou equipe existente do Microsoft 365 usando um modelo conectado do Microsoft 365, o modelo do SharePoint conectado não será aplicado automaticamente ao site ou à equipe. Você precisará aplicar manualmente o modelo de site do SharePoint depois que a equipe for criada. No Teams, vá para a equipe, selecione **Mais** opções no canto superior direito > **Abrir no SharePoint**. Em seguida, **escolha Configurações** > **Aplicar um modelo de site** e selecione o modelo de site correspondente.
 
 ## <a name="related-articles"></a>Artigos relacionados
 
