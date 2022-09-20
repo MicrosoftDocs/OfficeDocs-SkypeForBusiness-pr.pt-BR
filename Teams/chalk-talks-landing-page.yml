@@ -25,37 +25,37 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 75ccc3c0953df013b2e13868f960a13d10ac13f0
-  ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+  ms.openlocfilehash: 2ebea73a5311798aca39697fa14a698eedb0e1bb
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 07/18/2022
-  ms.locfileid: "66838886"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808533"
 productDirectory:
   summary: Clique em um título de workshop para registrar ou acessar gravações sob demanda.
   items:
   - title: Assumindo a qualidade de áudio/vídeo no Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/health-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/health-teams.svg
     summary: Deseja garantir que os usuários tenham experiências ideais com reuniões e recursos de voz? Discutiremos ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar a qualidade do serviço, desde o estabelecimento de uma estratégia proativa até a resolução de problemas comuns.
     url: https://aka.ms/ChalkTalkAVQuality
   - title: Então... você deseja fazer chamadas com o Teams?
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/headset-teams.svg
     summary: Junte-se a nós para uma visão detalhada da adição de recursos de chamada PSTN à implantação do Teams. Juntos, vamos percorrer a terminologia de chamada, os principais conceitos e as configurações.
     url: https://aka.ms/ChalkTalkCalling
   - title: Dinamizar seus Eventos ao Vivo com o Microsoft Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/presenter-teams.svg
     summary: Envolva e compile seu público-alvo com eventos virtuais grandes e online usando o Microsoft Teams. Conheça as práticas recomendadas para garantir que o evento seja bem-sucedido.
     url: https://aka.ms/ChalkTalksVirtualEvents
   - title: Aplicativos nos Conceitos Básicos do Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
     summary: Esta sessão básica aborda os recursos básicos, incluindo segurança e gerenciamento de aplicativos. Saiba como integrar seus fluxos de trabalho, aplicativos de produtividade e os serviços que você usa todos os dias em uma única experiência unificada.
     url: https://aka.ms/ChalkTalkApps
   - title: Sobrecarregar fluxos de trabalho principais com aplicativos no Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
     summary: Conecte seus sistemas, aumente a automação e ofereça experiências aprimoradas para os usuários, trazendo os aplicativos dos quais sua organização depende no Teams.
     url: https://aka.ms/ChalkTalkKeyApps
   - title: Capacitar sua força de trabalho do Frontline para fazer mais com o Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/devices-2-teams.svg
     summary: Explore as práticas recomendadas para planejar e implementar experiências simplificadas para conversas produtivas, compartilhamento de informações e gerenciamento de agendamento para seus funcionários do Frontline.
     url: https://aka.ms/TeamsFLW
 additionalContent:

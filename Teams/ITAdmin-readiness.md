@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486896"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808372"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introdução ao treinamento de administrador para o Microsoft Teams
 
@@ -39,8 +39,8 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**Os conceitos básicos do Teams para TI**](https://aka.ms/MicrosoftTeamsforIT) – série de vídeos do Microsoft Mechanics "Teams para TI" mostram a você – o administrador – como implementar, configurar e gerenciar o Teams.     |[**Dar suporte a funcionários**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) remotos usando o Microsoft Teams – obtenha as diretrizes necessárias , incluindo links para treinamento – para dar suporte aos usuários que estão trabalhando em casa.         |[**Gerenciar a colaboração em equipe para TI**](/learn/paths/m365-manage-team-collaboration) – Saiba como usar o Teams para facilitar o trabalho em equipe e a comunicação em sua organização entre aplicativos e dispositivos.         |
-|[**Certificação de Especialista em Adoção de**](/learn/paths/m365-service-adoption) Serviços – O curso de certificação especialista em adoção de serviços da Microsoft apresenta o Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.     |[**Introdução ao trabalho em equipe no Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) – O curso de Certificação de Especialista em Adoção de Serviços da Microsoft apresenta o Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive e Teams.        |
+|[**Os conceitos básicos do Teams para TI**](https://aka.ms/MicrosoftTeamsforIT) – série de vídeos do Microsoft Mechanics "Teams para TI" mostram a você – o administrador – como implementar, configurar e gerenciar o Teams.     |[**Dar suporte a funcionários**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) remotos usando o Microsoft Teams – obtenha as diretrizes necessárias , incluindo links para treinamento – para dar suporte aos usuários que estão trabalhando em casa.         |[**Gerenciar a colaboração em equipe para TI**](/training/paths/m365-manage-team-collaboration) – Saiba como usar o Teams para facilitar o trabalho em equipe e a comunicação em sua organização entre aplicativos e dispositivos.         |
+|[**Certificação de Especialista em Adoção de**](/training/paths/m365-service-adoption) Serviços – O curso de certificação especialista em adoção de serviços da Microsoft apresenta o Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.     |[**Introdução ao trabalho em equipe no Microsoft 365**](/training/modules/intro-to-teamwork-in-m365/index) – O curso de Certificação de Especialista em Adoção de Serviços da Microsoft apresenta o Teams. Aprenda a conduzir a adoção dos serviços Microsoft em sua organização.        |[**Microsoft 365 Certified: Teamwork Administrator Associate**](/certifications/m365-teamwork-administrator) - Microsoft 365 Teamwork Administrators configure, deploy, and manage Microsoft 365 or Office 365 workloads, such as SharePoint (online, on-premises, and hybrid), OneDrive e Teams.        |
 
 <h2>Treinamento técnico</h2>
 

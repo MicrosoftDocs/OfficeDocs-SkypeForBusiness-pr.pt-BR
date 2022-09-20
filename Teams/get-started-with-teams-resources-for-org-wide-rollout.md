@@ -21,19 +21,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22f778158965134cec673a97373a83d7fe95544d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 751263d9f5afddc6f73afd89458a5e004ce428f4
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045830"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808792"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Inicie a implantação do Microsoft Teams em toda a organização
 
 Agora que você já definiu com êxito suas primeiras equipes e integra alguns dos primeiros adotantes, é hora de começar a adoção do Teams para o restante da sua organização.
 
 > [!TIP]
-> Antes de começar a implantação do Teams, é muito recomendável que você conclua o módulo do Microsoft Learn[Prepare-se para uma implantação do Teams com o Microsoft 365](/learn/modules/m365-teams-collab-prepare-deployment/). Este módulo de 30 minutos dará a partida no seu entendimento do Teams e falará sobre as principais decisões que você precisa tomar ao implantar o Teams.
+> Antes de começar a implantação do Teams, é muito recomendável que você conclua o módulo do Microsoft Learn[Prepare-se para uma implantação do Teams com o Microsoft 365](/training/modules/m365-teams-collab-prepare-deployment/). Este módulo de 30 minutos dará a partida no seu entendimento do Teams e falará sobre as principais decisões que você precisa tomar ao implantar o Teams.
 >
 > Se você deseja conferir mais caminhos de aprendizagem e módulos disponíveis para o Teams, consulte [Microsoft Learn para Teams](/learn/teams/).
 

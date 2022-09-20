@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e8f8a069b35bcd1b5a1b1216946d4734a5ec52a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 92e02822dbd4533f151d9551bb25aad1905184fc
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486936"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808412"
 ---
 # <a name="resources-for-career-coach-in-microsoft-teams"></a>Resources for Career Coach no Microsoft Teams
 
@@ -77,4 +77,4 @@ Os recursos a seguir não são necessários para configurar o Career Coach, mas 
 | [Reservas comigo no Outlook](/microsoft-365/bookings/bookings-in-outlook) | Guia do educador para agendar compromissos 1:1, como sessões de serviços de carreira e horário comercial. |
 | [Microsoft Bookings](/microsoft-365/bookings/bookings-overview) | Guia do administrador de TI para configurar Microsoft Bookings gerenciar compromissos presenciais e virtuais para funcionários e alunos, como sessões de serviços de carreira e horário comercial. |
 | [Suporte a reuniões do Microsoft Teams](https://www.microsoft.com/videoplayer/embed/RE4rxIX?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us) | Um passo a passo em vídeo para os alunos sobre como eles podem usar reuniões do Teams. |
-| [Fornecer eventos virtuais envolventes e acessíveis](/learn/paths/m365-virtual-events-fundamentals/) | Um curso online para educadores sobre como fornecer eventos virtuais envolventes e acessíveis com o Microsoft Teams e o Microsoft 365. |
+| [Fornecer eventos virtuais envolventes e acessíveis](/training/paths/m365-virtual-events-fundamentals/) | Um curso online para educadores sobre como fornecer eventos virtuais envolventes e acessíveis com o Microsoft Teams e o Microsoft 365. |

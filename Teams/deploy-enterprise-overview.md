@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 083f2f9ae041f88e0b92c51af297adbf04b5c770
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045570"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808572"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Visão geral da implantação do Microsoft Teams empresarial
 
@@ -75,7 +75,7 @@ Para ver um exemplo de como o Planejador de rede pode planejar sua rede, consult
 O Consultor do Teams é uma solução dentro do Teams que reúne equipes, canais, compartilhamento de arquivos e Planejador, para criar um projeto de implantação para sua organização. O Consultor do Teams cria o plano de projeto, específico para a carga de trabalho selecionada (como chat, equipes e canais), que inclui as tarefas recomendadas que você deve executar durante a implantação. Cada tarefa contém instruções, sugestões e links para artigos relevantes para orientá-lo durante o processo. Você pode facilmente atribuir tarefas a um ou mais indivíduos e especificar datas de início e de término para cada tarefa.
 
 > [!TIP]
-> Veja como você pode usar o Consultor do Teams para ajudá-lo a planejar sua implantação do Teams preenchendo [Implementação usando o módulo do Consultor do Teams](/learn/modules/m365-teams-rollout-using-advisor/) no Microsoft Learn.
+> Veja como você pode usar o Consultor do Teams para ajudá-lo a planejar sua implantação do Teams preenchendo [Implementação usando o módulo do Consultor do Teams](/training/modules/m365-teams-rollout-using-advisor/) no Microsoft Learn.
 
 > [!div class="nextstepaction"]
 > [Ir para o Consultor do Teams](https://admin.teams.microsoft.com/teams-deployment)

@@ -1,7 +1,7 @@
 ---
 title: Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -12,24 +12,24 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba como colocar um usuário Microsoft Teams equipe em retenção legal usando o portal de conformidade do Microsoft Purview e aprender o que precisa de uma retenção legal com base nos requisitos de dados.
+description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o portal de conformidade do Microsoft Purview e saiba o que precisa de uma retenção legal com base nos requisitos de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: 2dc99518aa3580311c48966105ccc4b4ba6cf518
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031906"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808752"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 
-Quando existe uma expectativa razoável de litígio, as organizações precisam preservar as ESI (informações armazenadas eletronicamente), incluindo Teams mensagens de chat relevantes para o caso. As organizações podem precisar preservar todas as mensagens relacionadas a uma investigação específica ou a uma pessoa específica. Este artigo abordará o uso de uma retenção legal para preservar o conteúdo Microsoft Teams. Para preservar o conteúdo em outros serviços Microsoft 365, consulte Criar uma retenção [de Descoberta Eletrônica](/microsoft-365/compliance/create-ediscovery-holds).
+Quando existe uma expectativa razoável de litígio, as organizações precisam preservar informações armazenadas eletronicamente (ESI), incluindo mensagens de chat do Teams relevantes para o caso. As organizações podem precisar preservar todas as mensagens relacionadas a uma investigação específica ou a uma pessoa específica. Este artigo abordará o uso de uma retenção legal para preservar o conteúdo no Microsoft Teams. Para preservar o conteúdo em outros serviços no Microsoft 365, consulte Criar uma retenção [de Descoberta Eletrônica](/microsoft-365/compliance/create-ediscovery-holds).
 
 > [!NOTE]
 > Em fevereiro de 2020, habilitamos a retenção legal para canais privados. Chats de canal privado são armazenados em caixas de correio do usuário, enquanto chats de canal padrão são armazenados na caixa de correio associada à equipe pai. Se já houver uma retenção legal em vigor para uma caixa de correio de usuário, a política de retenção agora será aplicada automaticamente às mensagens de canal privado armazenadas nessa caixa de correio. Não há nenhuma ação adicional necessária para um administrador ativar isso. Também há suporte para a retenção legal de arquivos compartilhados em canais privados.
 
-Dentro Microsoft Teams, uma equipe inteira ou usuários selecionados podem ser colocados em retenção legal. Isso garantirá que todas as mensagens trocadas nessas equipes (incluindo canais privados e compartilhados) ou mensagens trocadas por essas pessoas sejam detectáveis pelos gerentes de conformidade ou administradores do Teams da organização.
+No Microsoft Teams, uma equipe inteira ou usuários selecionados podem ser colocados em retenção legal. Isso garantirá que todas as mensagens trocadas nessas equipes (incluindo canais privados e compartilhados) ou mensagens trocadas por essas pessoas sejam detectáveis pelos gerentes de conformidade da organização ou administradores do Teams.
 
 > [!NOTE]
 > A colocação de um usuário em retenção não coloca automaticamente um grupo em retenção ou vice-versa.
@@ -37,11 +37,11 @@ Dentro Microsoft Teams, uma equipe inteira ou usuários selecionados podem ser c
 
 Para colocar um usuário ou uma equipe em retenção legal em um caso de Descoberta Eletrônica (Standard):
 
-1. Acesse o [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com). Ao criar um novo caso, você verá a opção de colocar caixas de correio ou sites em espera.
+1. Vá para o [portal de conformidade do Microsoft Purview](https://compliance.microsoft.com). Ao criar um novo caso, você verá a opção de colocar caixas de correio ou sites em espera.
 
-2. Vá para **eDiscoveryCore** >  **e** crie um caso clicando em **Criar um caso**. Depois que o caso for criado, abra-o.
+2. Vá para **o Núcleo de Descoberta Eletrônica** >  e crie um caso clicando em **Criar um caso**. Depois que o caso for criado, abra-o.
   
-   ![Microsoft Teams guia Descoberta Eletrônica está selecionada, mostrando o botão Criar um caso.](media/LegalHold1.png)
+   ![A guia Descoberta Eletrônica do Microsoft Teams está selecionada, mostrando o botão Criar um caso.](media/LegalHold1.png)
 
    > [!NOTE]
    > Você também pode colocar um usuário em uma retenção associada a um caso de Descoberta Eletrônica (Premium). Para obter mais informações, [consulte Gerenciar retenções na Descoberta Eletrônica (Premium)](/microsoft-365/compliance/managing-holds).
@@ -62,21 +62,21 @@ Para colocar um usuário ou uma equipe em retenção legal em um caso de Descobe
 
    4. **Examine suas configurações antes** de criar a retenção.
 
-Depois que a retenção for criada, você poderá pesquisar o conteúdo retido pela política de retenção. Para obter mais informações, [consulte Realizar uma investigação de](eDiscovery-investigation.md) Descoberta Eletrônica Teams.
+Depois que a retenção for criada, você poderá pesquisar o conteúdo retido pela política de retenção. Para obter mais informações, [consulte Realizar uma investigação de Descoberta Eletrônica no Teams](eDiscovery-investigation.md).
 
 > [!IMPORTANT]
 > Quando um usuário ou grupo é colocado em espera, todas as cópias de conformidade das mensagens são preservadas. Por exemplo, se um usuário postar uma mensagem em um canal e, em seguida, modificar a mensagem, ambas as cópias da mensagem serão preservadas. Sem a retenção, somente a mensagem mais recente é preservada.
 
-## <a name="content-locations-to-place-on-hold-to-preserve-teams-content"></a>Locais de conteúdo a serem mantidos em espera para preservar Teams conteúdo
+## <a name="content-locations-to-place-on-hold-to-preserve-teams-content"></a>Locais de conteúdo a serem mantidos em espera para preservar o conteúdo do Teams
 
-Como um guia útil, use a tabela a seguir para entender quais locais de conteúdo (como uma caixa de correio ou um site) colocar em espera para preservar diferentes tipos de Teams conteúdo.
+Como um guia útil, use a tabela a seguir para entender quais locais de conteúdo (como uma caixa de correio ou um site) colocar em espera para preservar diferentes tipos de conteúdo do Teams.
 
 |Cenário  |Local do conteúdo  |
 |---------|---------|
 |Mensagens de chat para um usuário (por exemplo, chats 1:1, chats em grupo 1:N e conversas de canal privado)     |Caixa de correio do usuário         |
 |Mensagens de chat em canais padrão e compartilhados    |Caixa de correio associada à equipe pai         |
-|Arquivos em canais padrão (por exemplo, conteúdo e arquivos wiki)     |SharePoint site associado à equipe pai        |
-|Arquivos em canais privados e compartilhados     |Site SharePoint dedicado associado ao canal
+|Arquivos em canais padrão (por exemplo, conteúdo e arquivos wiki)     |Site do SharePoint associado à equipe pai        |
+|Arquivos em canais privados e compartilhados     |Site dedicado do SharePoint associado ao canal
 |Conteúdo privado do usuário     |A conta de OneDrive for Business usuário       |
 |Conteúdo do cartão em chats|Caixa de correio do usuário para chats 1:1, chats em grupo 1:N e conversas de canal privado; a caixa de correio da equipe pai para conteúdo do cartão em mensagens de canal padrão e compartilhadas. Para obter mais informações, consulte a seção "Preservar conteúdo do cartão" em [Criar uma retenção de Descoberta Eletrônica](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content).|
 |||

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270486"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808872"
 ---
 # <a name="configure-sip-gateway"></a>Configurar o Gateway SIP
 
@@ -120,7 +120,7 @@ Para cada dispositivo SIP, defina uma das seguintes URLs do servidor de provisio
 - Américas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Adicione dispositivos SIP à sua organização do Teams configurando a URL do servidor de provisionamento do Gateway SIP acima no servidor DHCP. Para saber mais sobre o servidor DHCP, consulte [Implantar e gerenciar o DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Além disso, você pode usar a opção DHCP 42 para especificar o servidor NTP e a opção DHCP 2 para especificar o deslocamento do UTC (Tempo Universal Coordenado) em segundos. Os dispositivos em sua organização serão roteados para o servidor de provisionamento do Gateway SIP. Telefones SIP provisionados com êxito exibirão o logotipo do Teams e um botão flexível para entrar.
+Adicione dispositivos SIP à sua organização do Teams configurando a URL do servidor de provisionamento do Gateway SIP acima no servidor DHCP. Para saber mais sobre o servidor DHCP, consulte [Implantar e gerenciar o DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol). Além disso, você pode usar a opção DHCP 42 para especificar o servidor NTP e a opção DHCP 2 para especificar o deslocamento do UTC (Tempo Universal Coordenado) em segundos. Os dispositivos em sua organização serão roteados para o servidor de provisionamento do Gateway SIP. Telefones SIP provisionados com êxito exibirão o logotipo do Teams e um botão flexível para entrar.
 
 Verifique se os dispositivos SIP estão na versão mínima de firmware com suporte para integração. Durante a integração, o Gateway SIP enviará por push a configuração padrão e a interface do usuário de autenticação para o dispositivo. Para descobrir a versão de firmware necessária para dispositivos SIP, consulte [Planejar o Gateway SIP](sip-gateway-plan.md).
 
