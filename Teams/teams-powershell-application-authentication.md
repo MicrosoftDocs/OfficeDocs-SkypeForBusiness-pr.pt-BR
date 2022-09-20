@@ -12,21 +12,21 @@ ms.collection:
 description: Saiba mais sobre a autenticação baseada em aplicativo no Módulo do PowerShell do Teams, usado para administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795060"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837661"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticação baseada em aplicativo no Módulo powershell do Teams
 
-A autenticação baseada em aplicativo agora tem suporte no Módulo do PowerShell do Teams para um conjunto limitado de cmdlets em versão prévia com versões 4.7.1 ou posteriores. Atualmente, esse modo de autenticação só tem suporte em ambientes comerciais. Não há suporte para clientes que estão ou foram habilitados anteriormente para Reuniões Hospedadas Regionalmente no Skype for Business Online.
+A autenticação baseada em aplicativo agora tem suporte no Módulo do PowerShell do Teams para um conjunto limitado de cmdlets em versão prévia com versões 4.7.1 ou posteriores. Atualmente, esse modo de autenticação só tem suporte em ambientes comerciais.
 
 
 ## <a name="cmdlets-supported"></a>Cmdlets com suporte
 
-Todos os \*cmdlets não -Cs (por exemplo, Get-Team), Get-CsTenant e Get-CsOnlineUser & Get-CsOnlineVoiceUser já têm suporte. Outros cmdlets serão distribuídos gradualmente. 
+\*Todos os cmdlets não -Cs (por exemplo, Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlets já têm suporte. Outros cmdlets serão distribuídos gradualmente. 
 
 
 ## <a name="examples"></a>Exemplos
