@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: Políticas de gravação de eventos ao vivo
                 href: teams-live-events/live-events-recording-policies.md
+          - name: Criar uma experiência de reunião híbrida do Teams
+            items:
+              - name: Visão geral
+                href: hybrid-meetings-overview.md
+              - name: Princípios de reunião híbrida
+                href: hybrid-meetings-principles.md
+              - name: Etapa 1 – Familiarize-se com os recursos de reunião do Teams
+                href: hybrid-meetings-features.md
+              - name: Etapa 2 – Evangelizar as melhores práticas de reunião
+                href: hybrid-meetings-educate-participants.md
+              - name: Etapa 3 – Projetar e criar um espaço de reunião
+                href: hybrid-meetings-room-design.md
+              - name: Etapa 4 – Selecionar dispositivos de sala
+                href: hybrid-meetings-device-select.md
+              - name: Etapa 5 – Configurar seus dispositivos
+                items:
+                  - name: Visão geral
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: Etapa 1 – Comprar uma licença Salas do Teams usuário
+                    href: hybrid-meetings-device-config-license.md
+                  - name: Etapa 2 – Criar uma conta de recurso
+                    href: hybrid-meetings-device-config-account.md
+                  - name: Etapa 3 – Atribuir uma licença de sala de reunião
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: Etapa 4 – Configurar propriedades da caixa de correio
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: Etapa 5 – Desativar a expiração da senha
+                    href: hybrid-meetings-device-config-password.md
+                  - name: Etapa 6 – Configurar políticas de reunião
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: Etapa 7 – Configurar opções de calendário
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: Etapa 6 – Gerenciar e monitorar salas e reuniões
+                href: hybrid-meetings-manage.md
       - name: Audioconferência
         items:
           - name: Audioconferência no M365
