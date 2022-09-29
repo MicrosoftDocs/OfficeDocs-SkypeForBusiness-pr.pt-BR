@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: Usar a ferramenta de recuperação
                 href: rooms/recovery-tool.md
-      - name: Serviços gerenciados de Salas do Microsoft Teams
+      - name: Salas do Microsoft Teams Pro Management
         items:
-          - name: Visão Geral
+          - name: Visão geral
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: Obter e atribuir uma licença
-            href: rooms/obtaining-assigning-license.md
-          - name: Registrar-se no serviço gerenciado MTRP
+          - name: Acessando o portal de Gerenciamento Pro
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: Registrar um dispositivo no serviço gerenciado
+          - name: Registrar um dispositivo no gerenciamento Pro
             href: rooms/enroll-a-device.md
           - name: Controle de acesso baseado em função
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: Atualizações gerenciadas
             href: rooms/update-management.md
-          - name: Configurar ServiceNow para Salas do Teams
+          - name: Configurar o ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: Gerenciamento multilocatário para parceiros
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: Planejador de Padrões e Salas
             href: rooms/standards-and-room-planner.md
-          - name: Incidentes relatados pelo cliente
+          - name: Registrar um problema
             href: rooms/customer-reported-incidents.md
           - name: Dados e Informações de privacidade
             href: rooms/data-and-privacy-info.md
-          - name: Usando o aplicativo móvel de Salas do Teams
-            href: rooms/extended-mobile-app.md
       - name: Dispositivos
         items:
           - name: Repositório de dispositivos do Teams
