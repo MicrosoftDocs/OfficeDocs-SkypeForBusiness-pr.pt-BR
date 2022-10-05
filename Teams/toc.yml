@@ -1367,6 +1367,8 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Salas do Teams do centro de administração
                 href: rooms/admin-center-license-overview.md
+              - name: Salas do Teams licenciamento herdado
+                href: rooms/rooms-legacy-licensing.md
               - name: Dispositivos Teams apresentam comparação entre Windows e Android
                 href: rooms/teams-devices-feature-comparison.md
               - name: Orientações de sala de reunião para o Teams
