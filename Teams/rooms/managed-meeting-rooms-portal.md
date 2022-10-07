@@ -1,7 +1,7 @@
 ---
-title: Salas do Microsoft Teams Portal
-author: donnah007
-ms.author: v-donnahill
+title: Salas do Microsoft Teams Pro Management Portal
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,25 +17,24 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Forneça uma visão da integridade das salas de reunião.
 f1keywords: ''
-ms.openlocfilehash: 3587e1ab6e19fa7eac2519ccffe7c8f3bd19f2fc
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 2439b4edb59845515ccef6997d542ee0a2855fa0
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67707008"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243942"
 ---
-# <a name="microsoft-managed-meeting-rooms-portal"></a>Portal de Salas de Reunião Gerenciadas da Microsoft
+# <a name="microsoft-teams-rooms-pro-management-portal"></a>Salas do Microsoft Teams Pro Management Portal
 
 ## <a name="overview"></a>Visão geral
 
-O Portal de Salas de Reunião Gerenciadas ("Portal de Salas") fornece uma visão da integridade das salas de reunião. Uma visão do cliente deste portal é para sua visibilidade e comentários e para facilitar suas ferramentas/práticas de monitoramento existentes.
+O portal de Gerenciamento do MTR Pro fornece uma visão da integridade das salas de reunião e ajuda a facilitar suas ferramentas/práticas de monitoramento existentes.
 
 O escopo do monitoramento é
 
 - Exibição de incidentes
   - Principais problemas que afetam suas salas
   - Ações necessárias para restaurar salas para o status íntegro
-  - Problemas que estão sendo investigados pela Microsoft
 - Exibição de dispositivos da Sala do Microsoft Teams
   - Instantâneo do status no nível Salas do Microsoft Teams (MTR) do dispositivo
   - Histórico básico e detalhes para cada dispositivo
@@ -57,39 +56,26 @@ Aqui estão os termos usados com frequência no portal.
 |**Software de monitoramento** |Agente de monitoramento implantado em cada um dos dispositivos da Sala do Microsoft Teams. |
 |**App** |Aplicativo do sistema sala do Microsoft Teams (independentemente de ele usar Skype for Business ou o Microsoft Teams como o serviço de colaboração. |
 |**Sala/Dispositivo** |O dispositivo certificado do sistema sala do Microsoft Teams. |
-|**Não monitorado** | O software de monitoramento da Microsoft implantado como parte dos serviços gerenciados não é capaz de se conectar aos serviços de nuvem. Não estamos recebendo telemetria sobre o dispositivo. |
-|<p>**Íntegro /** </p><p>**Insalubre** </p>|Anormalidades no dispositivo/periférico. |
+|**Não monitorado** | O software de monitoramento da Microsoft implantado como parte dos serviços de gerenciamento não é capaz de se conectar aos serviços de nuvem. Não estamos recebendo telemetria sobre o dispositivo. |
+|<p>**Saudável/** </p><p>**Insalubre** </p>|Anormalidades no dispositivo/periférico. |
 |**Suprimida** |Se um dispositivo é conhecido por estar em manutenção e seus alertas devem ser ignorados, o dispositivo pode ser suprimido deliberadamente. |
 |**Integração** |O estado de um dispositivo de sala enquanto ele está sendo adicionado, mas não está pronto como uma sala com suporte regular. |
 |**Incidente** |Um problema que afeta as experiências de reunião de usuários finais que precisam de ação. |
 |**Errada** |A configuração detectada não está correta/comumente usada. |
-|**Tíquete de Suporte** |Identificador de acompanhamento interno da Microsoft que rastreia todas as comunicações/ações relacionadas a um incidente. |
 
 ## <a name="incidents-view"></a>Exibição de incidentes
 
-Essa exibição é uma visão geral da guia Incidentes no Portal de Salas Gerenciadas. Esta página é a home page padrão do portal.
+Essa exibição é uma visão geral da guia Incidentes no Portal de Gerenciamento Pro. Esta página é a home page padrão do portal.
 
 ### <a name="top-level-summary"></a>Resumo de nível superior 
-O resumo de nível superior mostra rapidamente os problemas que afetam suas salas, o que você precisa fazer e o que a Microsoft está fazendo sobre eles:
+O resumo de nível superior mostra rapidamente os problemas que afetam suas salas, o que você precisa fazer.
 
-![Captura de tela mostrando o resumo de nível superior dos problemas](../media/rooms-monitor-001new.png)
+Espera-se que os incidentes estejam em um dos dois estados:
 
-|# |Explicação |
-| :- | :- |
-|1 |Tipos de incidentes que afetam suas salas |
-|2 |**PRECISA DE AÇÃO**: itens que exigem sua intervenção para resolver. |
-|3 |**ATRIBUÍDO À MICROSOFT**: itens investigados atualmente pela equipe da Microsoft. |
-|4 |**INVESTIGAÇÃO PENDENTE**: itens na fila a serem investigados pela equipe da Microsoft. |
-
-Espera-se que os incidentes estejam em um dos três estados:
-
-- **Ação de necessidade**: atribuída a você para ação
-- **Atribuído à Microsoft**: Atribuído à Microsoft para a próxima ação
-- **Investigação Pendente**: em investigação para as próximas etapas
+- **Ação necessária**: ação exigida por você para resolver o incidente.
+- **Investigação do sistema**: em investigação automática pela plataforma de monitoramento. As próximas etapas serão fornecidas se não puderem ser resolvidas automaticamente.
 
 ### <a name="reviewing-incidents"></a>Revisando incidentes
-
-A imagem a seguir lista todos os incidentes que estão ativos atualmente em suas salas. Os que são atribuídos a você estão *na* parte superior– são eles que você precisa examinar para as próximas etapas. Além disso, aqueles atribuídos à Microsoft ou a investigação pendente têm detalhes que você pode usar para intervir.
 
 Clicar em qualquer um dos itens que têm o status "**Ação de necessidades**" mostra detalhes adicionais sobre o incidente.
 
@@ -106,9 +92,8 @@ Um aviso pode fazer a transição para "**Importante**" se não for atendido por
 
 Incidentes classificados como **"Importantes" na** gravidade afetarão o status de integridade de um dispositivo. Se houver pelo menos um incidente de Severidade **= "Importante"** associado a um dispositivo, ele será classificado como um **_dispositivo não íntegro_** .
 
-Incidentes classificados como **severidade de "Aviso"** não afetam o status de integridade relatado em um dispositivo. No entanto, se um dispositivo tiver incidentes de nível de aviso associados a ele, ele será mostrado com o status de integridade do dispositivo da seguinte maneira.
+Incidentes classificados como **severidade de "Aviso"** não afetam o status de integridade relatado em um dispositivo. No entanto, se um dispositivo tiver incidentes de nível de aviso associados a ele, ele será mostrado com o status de integridade do dispositivo.
 
-![Captura de tela mostrando o status de integridade de uma sala](../media/rooms-monitor-004.jpg)
 
 A seguir estão alguns dos tipos de incidentes que você pode ver e as explicações para cada tipo. Para cada tipo, a ação associada ao incidente será mais específica, dependendo do problema.
 
@@ -135,7 +120,7 @@ A seguir estão alguns dos tipos de incidentes que você pode ver e as explicaç
 
 ## <a name="responding-to-incidents"></a>Respondendo a incidentes
 
-Os incidentes se enquadram em três categorias: Precisa de Ação, Investigação Pendente ou Atribuído à Microsoft.
+Os incidentes se enquadram em duas categorias: Precisa de Ação ou Investigação do Sistema.
 
 ### <a name="needs-action-incidents"></a>Incidentes "Precisa de ação"
 
@@ -143,32 +128,17 @@ Incidentes que têm o status definido como **"Ação de Necessidades"** são atr
 
 Cada incidente desse tipo terá um campo de ação com uma ação recomendada da Microsoft da seguinte maneira:
 
-![Captura de tela mostrando a ação de incidente recomendada](../media/rooms-monitor-005.jpg)
+- Se você tiver tomado a ação, poderá responder ao incidente com suas anotações para fornecer contexto adicional na caixa Responder.
 
-- Se você tiver tomado a ação, poderá responder ao incidente com suas anotações na caixa Responder e, em seguida, escolher "Atribuir à Microsoft" antes de postar.
-- Também é possível que a notificação esteja incorreta com base em sua análise. Nesse caso, forneça esses comentários e atribua de volta à Microsoft.
-- Por fim, se você quiser adicionar um comentário para fornecer contexto adicional para sua própria equipe ou para a equipe da Microsoft, poste a mensagem sem ativar "Atribuir à Microsoft".
+### <a name="system-investigating-incidents"></a>Incidentes de "investigação do sistema"
 
->[!NOTE]
->Sua ação corretiva pode resolver o problema e o monitoramento de Salas Gerenciadas limpa esse incidente da sua lista. Na situação acima, talvez você não tenha a chance de resolver o problema e atribuí-lo de volta à Microsoft. Esse problema será resolvido em uma versão futura.
-
-### <a name="pending-investigation-incidents"></a>Incidentes de "Investigação Pendente"
-
-Para os incidentes em investigação, o campo de descrição contém informações sobre o incidente, causas típicas e resoluções que podem ser úteis para resolver determinados problemas para que você possa agir sem atraso.
-
-### <a name="assigned-to-microsoft-incidents"></a>Incidentes "Atribuídos à Microsoft"
-
-Para os incidentes atribuídos à Microsoft, o campo "Ação" conterá breves detalhes sobre as etapas corretivas planejadas ou progredidas. Essas etapas podem precisar de colaboração com sua equipe e a colaboração estendida será feita por email/chamadas, conforme necessário. Depois que esses problemas forem resolvidos, eles desaparecerão do portal e, no futuro, haverá histórico para acompanhar esses incidentes e sua resolução.
-
-![Captura de tela mostrando as etapas corretivas do MS](../media/rooms-monitor-006.jpg)
+Para os incidentes em investigação, o campo de descrição contém informações sobre o incidente, causas típicas e resoluções que podem ser úteis para resolver determinados problemas para que você possa agir sem atraso. 
 
 ## <a name="rooms-view"></a>Modo de Exibição de Salas
 
-Cada dispositivo é um proxy para uma sala e seus periféricos conectados. Um dispositivo íntegro representa uma sala íntegra e um dispositivo não íntegro representa uma sala que provavelmente está causando problemas durante as reuniões. Além do modo de exibição Incidentes, o Portal de Salas Gerenciadas também fornece uma visão geral da integridade da sala e ajuda você a solucionar problemas de detalhes do dispositivo e a entender falhas repetidas com o histórico de incidentes.
+Cada dispositivo é um proxy para uma sala e seus periféricos conectados. Um dispositivo íntegro representa uma sala íntegra e um dispositivo não íntegro representa uma sala que provavelmente está causando problemas durante as reuniões. Além do modo de exibição Incidentes, o Portal de Gerenciamento Pro também fornece uma visão geral da integridade da sala e ajuda você a solucionar problemas de detalhes do dispositivo e a entender falhas repetidas com o histórico de incidentes.
 
-![Captura de tela mostrando a visão geral de integridade de uma sala](../media/rooms-monitor-007.jpg)
-
-**Íntegro, não íntegro, desconectado** O painel superior no modo de exibição Salas fornece um instantâneo rápido de quantos de seus dispositivos estão em um bom estado("Íntegro"), quantos são afetados por problemas ("Não íntegros"), quantos não estão fornecendo telemetria ("Desconectado") e quantos dispositivos são suprimidos de alertas (como uma substituição). As salas são monitoradas para a integridade usando critérios em evolução e heurística. O objetivo é refletir a realidade da experiência do usuário na sala da maneira mais precisa possível e torná-la acionável.
+**Íntegro, não íntegro, desconectado** O painel superior no modo de exibição Salas fornece um instantâneo rápido de quantos de seus dispositivos estão em um bom estado ("Íntegro"), quantos são afetados por problemas ("Não íntegros"), quantos não estão fornecendo telemetria ("Desconectado") e quantos dispositivos são suprimidos de alertas (como uma substituição). As salas são monitoradas para a integridade usando critérios em evolução e heurística. O objetivo é refletir a realidade da experiência do usuário na sala da maneira mais precisa possível e torná-la acionável.
 
 **Salas íntegras/não íntegras**:
 
@@ -176,48 +146,29 @@ Dispositivos/periféricos que não têm nenhum incidente de severidade "Importan
 
 **Dispositivo desconectado:**
 
-O agente de monitoramento da Microsoft implantado como parte do piloto de Salas Gerenciadas está desconectado dos serviços de nuvem da Sala Gerenciada. Não estamos recebendo telemetria sobre a sala e não temos o status de integridade mais recente. Isso pode acontecer devido a problemas de rede, alterações de política de firewall ou se houver alterações feitas na imagem do dispositivo.
+O agente de monitoramento da Microsoft implantado está desconectado dos serviços de nuvem do Gerenciamento Pro. Não estamos recebendo telemetria sobre a sala e não temos o status de integridade mais recente. Isso pode acontecer devido a problemas de rede, alterações de política de firewall ou se houver alterações feitas na imagem do dispositivo.
 
 ## <a name="room-detail-status-and-changes"></a>Detalhes da Sala: Status e Alterações
 
 **Detalhes da Sala: Status** A guia *Status* do dispositivo fornece uma exibição consolidada do status de um dispositivo, todos os problemas ativos para o dispositivo, as ações necessárias para resolvê-los ou que estão em andamento. A guia Status também contém o detalhamento de diferentes componentes de integridade para o dispositivo na *guia Incidentes*. Se um dispositivo estiver desconectado, os detalhes do status não estarão disponíveis.
 
-![Captura de tela mostrando a exibição de status consolidado](../media/rooms-monitor-008.png)
-
 **Mostrar todos os sinais:** Para exibir todos os sinais contidos em uma categoria de sinal, habilite o botão de alternância Mostrar todos os sinais. As setas de expansão aparecerão ao lado dos títulos de categoria que podem ser clicados para expandir o modo de exibição accordion.
 
-![Captura de tela mostrando sinais dentro de uma categoria](../media/rooms-monitor-009.png)
-
 **Suprimir/Desupactar tíquete** Quando uma sala é registrada, você está indicando que deseja receber notificações de alterações na telemetria da sala. Há ocasiões em que um determinado dispositivo ou periférico está em um estado conhecido em que você não deseja que tíquetes ou notificações sejam gerados. O uso da funcionalidade Suprimir tíquete silencia qualquer notificação sobre esse sinal específico. Quando você estiver pronto para o serviço monitorar e notificá-lo sobre esse sinal, basta descompactar o sinal individual.
-
-![Captura de tela mostrando os tíquetes suprimidos da sala](../media/rooms-monitor-010.png)
 
 **Expansão da categoria de tíquete ativo** Em cada categoria de tíquete, qualquer tíquete resolvido ativo ou mais recente será exibido junto com a gravidade e quando o tíquete foi atualizado pela última vez. Ao clicar na seta de expansão, todos os tíquetes aparecerão com um link ativo para as informações do tíquete.
 
 Expansão da Categoria de Tíquete Ativo: em cada categoria de tíquete, qualquer tíquete ativo ou resolvido mais recente será exibido junto com a gravidade e quando o tíquete foi atualizado pela última vez. Ao clicar na seta de expansão, todos os tíquetes aparecerão com um link ativo para as informações do tíquete.
 
-![Captura de tela mostrando a categoria de tíquete resolvido](../media/rooms-monitor-011.png)
-
 ## <a name="active-ticket-overview"></a>Tíquete Ativo: Visão geral
 
-Cada incidente criado identifica o problema que foi detectado e a ação corretiva que precisa ser executada para restaurar a sala para um estado íntegro. O tíquete gerado transmitirá a visão geral do incidente com todas as mensagens geradas pela IA dos serviços gerenciados, bem como a equipe de engenharia de serviço da Microsoft que está investigando o problema. Todos os anexos coletados para solução de problemas de incidentes serão listados. A guia histórico fornece as datas em que os problemas foram identificados.
+Cada incidente criado identifica o problema que foi detectado e a ação corretiva que precisa ser executada para restaurar a sala para um estado íntegro. O tíquete gerado transmitirá a visão geral do incidente com todas as mensagens geradas pelo serviço de Gerenciamento Pro. Todos os anexos coletados para solução de problemas de incidentes serão listados. A guia histórico fornece as datas em que os problemas foram identificados.
 
-![Captura de tela mostrando a visão geral do tíquete ativo](../media/rooms-monitor-012.png)
+Tíquete Ativo: Mensagens A interface do usuário de mensagens é a principal ferramenta de comunicação para interagir com sua própria equipe e monitorar mensagens do bot de Gerenciamento Pro.
 
-Tíquete Ativo: Mensagens A interface do usuário de mensagens é a principal ferramenta de comunicação para interagir com os engenheiros de serviço da Microsoft que trabalham para corrigir o problema identificado. É importante reconhecer as comunicações da Microsoft para garantir que estamos fornecendo o melhor serviço possível. Se você tiver tomado as ações recomendadas, responda a esse incidente com suas anotações na caixa Responder e atribua de volta à Microsoft clicando em "Atribuir à Microsoft" antes de postar.
-Também é possível que a notificação esteja incorreta com base em sua análise. Nesse caso, forneça esses comentários e atribua de volta à Microsoft.
-Por fim, se você quiser adicionar um comentário para fornecer contexto adicional para sua própria equipe ou para a equipe da Microsoft, basta postar a mensagem sem ativar "Atribuir à Microsoft
-
-![Captura de tela mostrando mensagens de tíquete ativo](../media/rooms-monitor-013.png)
-
-
-Tíquete Ativo: Anexos Há ocasiões em que os engenheiros de serviço da Microsoft precisam de informações adicionais para aumentar a investigação do problema. A guia anexo fornece a capacidade de carregar imagens, vídeos ou logs solicitados.
-
-![Captura de tela mostrando anexos de tíquete ativo](../media/rooms-monitor-014.png)
+Tíquete Ativo: Anexos Há ocasiões em que sua equipe precisará de informações adicionais para aumentar a investigação do problema. A guia anexo fornece a capacidade de carregar imagens, vídeos ou logs solicitados.
 
 Tíquete Ativo: Histórico Cada sinal de sala tem apenas um número de tíquete atribuído a ele de propósito. Um dispositivo de sala ou periférico persiste em uma sala e pode ter problemas ao longo do tempo. Ao manter essas informações em uma ID de tíquete exclusiva específica, todas as informações históricas são mantidas e podem ser analisadas para padrões de comportamento. A interface do usuário do Histórico fornece uma exibição de todas as ações de tíquetes criadas e resolvidas para esse sinal.
-
-![Captura de tela mostrando o histórico de tíquetes ativo](../media/rooms-monitor-015.png)
 
 Perguntas frequentes Como os tíquetes dinâmicos me afetam e as operações das minhas salas?  
 Os clientes verão a criação de tíquetes e correções mais inteligentes que se expandem além de apenas um tíquete de sinal binário. Por exemplo, pode haver até três exibições em uma Sala de Reunião (Exibição 1, Exibição 2 & exibição do painel de toque MTR). No entanto, há apenas um (um) sinal de exibição que é íntegro ou não íntegro. Com os novos tíquetes dinâmicos, agora podemos gerar tíquetes exclusivos para cada sinal de exibição.

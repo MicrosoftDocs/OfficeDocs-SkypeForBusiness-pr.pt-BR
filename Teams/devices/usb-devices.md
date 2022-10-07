@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos USB e dispositivos (como headsets, viva-voz, webcams e monitores) são certificados para o Microsoft Teams.
-ms.openlocfilehash: 258ea59d8218a88dafd19318ca9b03b8535f3a30
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: f00c0a81374f9c084d8fb7e6839d9f6742ec5192
+ms.sourcegitcommit: 44b5088647afa9a93b0ced575d10ee15b57aac0e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837501"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "67891701"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -88,6 +88,7 @@ Se você for um fabricante e quiser ingressar no programa de certificação, con
 
 | Fabricante        | Modelo                                                     | Qualificado      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |Ir usb-C ANC In-Ear fones de ouvido                             |9/20/2022       |Certificado para o Microsoft Teams                           |
 |Logi                 |Câmeras Brio 500/505                                       |9/14/2022       |Certificado para o Microsoft Teams                           |
 |Jabra                |Envolver 50 II                                               |7/29/2022       |Certificado para o Microsoft Teams                           |
 |Jabra                |Envolver 40 II                                               |7/29/2022       |Certificado para o Microsoft Teams                           |

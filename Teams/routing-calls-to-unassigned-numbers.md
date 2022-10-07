@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como rotear chamadas para números não atribuídos em sua organização.
-ms.openlocfilehash: 3f3d0b9e6962cce7abdb91efa8539dd559c38956
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 28f1ca3c60728c4a7a2153d7462afc8c7e78b366
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272296"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480711"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Roteamento de chamadas para números não atribuídos
 
@@ -53,7 +53,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$"
 O próximo exemplo especifica que todas as chamadas para o intervalo de números +1 (555) 333-0000 a +1 (555) 333-9999 serão roteados para o serviço de comunicado, que reproduzirá o arquivo de áudio MainAnnouncement.wav para o chamador.
 
 ```PowerShell
-$Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
+$Content = [System.IO.File]::ReadAllBytes('C:\Media\MainAnnouncement.wav')
 
 $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content $Content
 

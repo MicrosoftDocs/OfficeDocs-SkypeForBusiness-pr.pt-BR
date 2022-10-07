@@ -12,12 +12,12 @@ ms.collection:
 description: Saiba mais sobre a autenticação baseada em aplicativo no Módulo do PowerShell do Teams, usado para administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837661"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218085"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticação baseada em aplicativo no Módulo powershell do Teams
 
@@ -26,7 +26,23 @@ A autenticação baseada em aplicativo agora tem suporte no Módulo do PowerShel
 
 ## <a name="cmdlets-supported"></a>Cmdlets com suporte
 
-\*Todos os cmdlets não -Cs (por exemplo, Get-Team), Get-CsTenant, Get-CsOnlineUser, Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlets já têm suporte. Outros cmdlets serão distribuídos gradualmente. 
+Os cmdlets abaixo já têm suporte, outros cmdlets serão distribuídos gradualmente. 
+
+  - Cmdlets \*não -Cs (por exemplo, Get-Team)
+  - Get-CsTenant
+  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
+  - \*-CsOnlineSipDomain 
+  - \*-CsPhoneNumberAssignment
+  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
+  - \*-CsCallQueue
+  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
+  - \*-CsOnlineVoicemailUserSettings
+  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
+  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
+  - \*-CsOnlineAudioFile
+  - Find-CsGroup
+  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
+  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
 
 
 ## <a name="examples"></a>Exemplos

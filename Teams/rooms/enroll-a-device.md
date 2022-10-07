@@ -1,9 +1,9 @@
 ---
-title: Registrar um dispositivo de Sala do Teams nos Serviços Gerenciados
-author: donnah007
-ms.author: v-donnahill
+title: Registrar um dispositivo de Sala do Teams no Gerenciamento Pro
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.date: 07/22/2022
+ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Integração Salas do Teams dispositivos a serviços gerenciados
+description: Integração Salas do Teams dispositivos ao portal de Gerenciamento Pro
 f1keywords: ''
-ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272036"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243782"
 ---
-# <a name="enroll-device-into-managed-service"></a>Registrar dispositivo no Serviço Gerenciado
+# <a name="enroll-device-into-pro-management"></a>Registrar dispositivo no Gerenciamento Pro
 
-A implantação requer integração Salas do Microsoft Teams dispositivos aos Salas do Microsoft Teams gerenciados. O agente de serviço de monitoramento é para uso com sistemas e periféricos certificados da MTR (Sala do Microsoft Teams).
+A implantação requer integração Salas do Microsoft Teams dispositivos ao portal Salas do Microsoft Teams Pro Management. O agente de serviço de monitoramento é para uso com sistemas e periféricos certificados da MTR (Sala do Microsoft Teams).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -57,7 +57,7 @@ Siga estes procedimentos para configurar o hardware antes de tentar o processo d
 ### <a name="enabling-tpm-settings"></a>Habilitando as configurações do TPM
 
 > [!NOTE]
-> O TPM deve ser habilitado para se registrar no serviço gerenciado.
+> O TPM deve estar habilitado para se registrar no Gerenciamento Pro.
 
 Se o TPM em um dispositivo Intel NUC estiver desabilitado, habilite o TPM nesses dispositivos da seguinte maneira:
 
@@ -96,7 +96,7 @@ Para retornar ao aplicativo Salas do Microsoft Teams depois de executar as taref
 ## <a name="urls-required-for-communication"></a>URLs necessárias para comunicação
 
  > [!NOTE]
- > Todo o tráfego de rede entre o agente de dispositivos MTR e o portal do serviço Salas do Microsoft Teams – Serviços Gerenciados é SSL pela porta 443 *.*  Consulte [Office 365 URLs e intervalos de endereços IP - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+ > Todo o tráfego de rede entre o agente de dispositivos MTR e o portal Salas do Microsoft Teams Pro Management é SSL pela porta 443 *.*  Consulte [Office 365 URLs e intervalos de endereços IP - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
 Os hosts a seguir devem ser permitidos se você tiver a **lista de permissões de tráfego** habilitada em seu ambiente corporativo:
 
@@ -116,11 +116,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 O processo de registro envolve estas etapas:
 
-1. Na barra de navegação à esquerda do portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)Salas do Microsoft Teams – Serviços Gerenciados, expanda **Configurações** e selecione **Geral**.
+1. Na barra de navegação à esquerda do portal Salas do Microsoft Teams Pro [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)Management, expanda **Configurações** e selecione **Geral**.
 1. Em *Registrar uma sala*, selecione **Baixar instalador**  para baixar o software do agente de monitoramento.
 1. **Opcional:** Definir configurações de proxy para o agente; consulte [Adicionando configurações de proxy (opcional)](#adding-proxy-settings-optional).
 1. Instale o instalador do agente (baixado na etapa 2) em unidades MTR, executando o MSI localmente em um dispositivo MTR ou por meio de seus meios normais de publicar aplicativos MSI em massa em dispositivos em seu ambiente (Política de Grupo etc.)
-1. A sala aparece no portal dentro de 5 a 10 minutos. Caso contrário, entre em contato com managedroomsupport@microsoft.com.
+1. A sala aparece no portal dentro de 5 a 10 minutos.
 
    ![Captura de tela das configurações e das chaves de registro automático.](../media/software-installation-005new.png)
 
@@ -145,11 +145,11 @@ Devido às várias maneiras variadas em que os clientes podem executar aplicativ
 
 1. Depois de ler o contrato, marque ***Aceito os termos** no Contrato de Licença_ e pressione _*Instalar**.
 
-    Isso inicia a instalação do Salas do Microsoft Teams – Software de monitoramento dos Serviços Gerenciados. Um prompt de elevação (executar como administrador) é exibido.
+    Isso inicia a instalação Salas do Microsoft Teams software de monitoramento do Salas do Microsoft Teams Pro. Um prompt de elevação (executar como administrador) é exibido.
 
 1. Selecione **Sim**.
 
-    A instalação continuará. Durante o procedimento de instalação, uma janela do console é aberta e inicia o estágio final da instalação do software de monitoramento Salas do Microsoft Teams – Serviços Gerenciados.
+    A instalação continuará. Durante o procedimento de instalação, uma janela do console é aberta e inicia o estágio final da instalação do software de monitoramento Salas do Microsoft Teams Pro.
 
     > [!NOTE]
     > Não feche a janela. Depois que a instalação for concluída, o assistente exibirá um botão "Concluir".
@@ -160,11 +160,11 @@ Os seguintes componentes são pré-requisitos para a instalação bem-sucedida:
 
 - **Intune registro**: Salas do Teams em dispositivos Windows já deve estar registrado no Intune.
   Para obter mais informações sobre como registrar o Salas do Teams em dispositivos Windows no Intune, consulte Registrar o Salas do Microsoft Teams em dispositivos Windows com o [Microsoft Endpoint Manager – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Azure AD** grupo com todos os Salas do Teams em dispositivos Windows como membros – um grupo criado no Azure AD que inclui todos os Salas do Teams em dispositivos Windows que devem fazer parte do serviço Salas do Microsoft Teams Premium. Esse grupo será usado para direcionar a implantação do agente MTRP.
+- **Azure AD** grupo com todos os Salas do Teams em dispositivos Windows como membros – um grupo criado no Azure AD que inclui todos os Salas do Teams em dispositivos Windows que devem fazer parte do serviço Salas do Microsoft Teams Premium. Esse grupo será usado para direcionar a implantação do agente do MTR Pro.
   
 > [!NOTE]
 > Você pode considerar o uso de grupos dinâmicos no Azure AD para essa finalidade, mais informações sobre como registrar o Salas do Microsoft Teams em dispositivos Windows com o [Microsoft Endpoint Manager – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Baixar o instalador do agente MTRP** **– baixe** o arquivo zip <https://aka.ms/serviceportalagentmsi> do agente e extraia o conteúdo do zip (ManagedRoomsInstaller.msi) para uma pasta temporária local.
+- **Baixar o instalador do agente do MTR Pro** **– baixe** o arquivo zip <https://aka.ms/serviceportalagentmsi> do agente e extraia o conteúdo do zip (ManagedRoomsInstaller.msi) para uma pasta temporária local.
 
 **Para instalar usando Intune**
 
@@ -180,7 +180,7 @@ Os seguintes componentes são pré-requisitos para a instalação bem-sucedida:
    1. Ignorar versão do aplicativo: selecione **Sim**.
 
       > [!NOTE]
-      > O agente MTRP está se atualizando; portanto, você deve ignorar explicitamente a versão do aplicativo (qualquer versão de linha de base pode ser atualizada automaticamente).
+      > O agente do MTR Pro está se atualizando; portanto, você deve ignorar explicitamente a versão do aplicativo (qualquer versão de linha de base pode ser atualizada automaticamente).
 
    1. (Opcional) Categoria: Selecione Gerenciamento **do Computador**.
    
@@ -191,11 +191,11 @@ Os seguintes componentes são pré-requisitos para a instalação bem-sucedida:
 1. Clique **em Avançar** para exibir **a página Examinar +** criar.
 1. Examine os valores e as configurações que você inseriu para o aplicativo. Quando terminar, clique em **Criar** para adicionar o aplicativo Intune.
 
-Depois que o processo for concluído, seus dispositivos começarão a instalar o agente MTRP após alguns minutos.
+Depois que o processo for concluído, seus dispositivos começarão a instalar o agente do MTR Pro após alguns minutos.
 
 > [!NOTE]
-> Após a instalação, o agente MTRP pode levar até oito horas para executar uma atualização automática para a versão mais recente e ser listado no portal do MTRP.
-Para agilizar o registro automático no portal do MTRP, considere reiniciar o dispositivo MTR após a implantação do agente.
+> Após a instalação, o agente do MTR Pro pode levar até oito horas para executar uma atualização automática para a versão mais recente e ser listado no portal do MTR Pro.
+Para agilizar o registro automático no portal do MTR Pro, considere reiniciar o dispositivo MTR após a implantação do agente.
 
 ## <a name="completing-enrollment"></a>Concluindo o registro
 
@@ -203,9 +203,7 @@ Quando a instalação for concluída, aguarde de 5 a 10 minutos e, em seguida, a
 
 No *estado de* integração, o status da sala é exibido e atualizado, mas não gera alertas nem cria tíquetes de investigação.
 
-Escolha a sala e selecione **Registrar para**  começar a receber alertas de incidentes, tíquetes de investigação ou para relatar um incidente.
-
-Para dúvidas ou problemas, abra um incidente relatado pelo cliente no portal ou entre em contato com managedroomsupport@microsoft.com.
+Escolha a sala e selecione **Registrar para**  começar a receber alertas de incidentes.
 
 ### <a name="unenrolling-and-uninstalling-monitoring-software"></a>Cancelar o registro e desinstalar o software de monitoramento
 
@@ -225,15 +223,15 @@ Para cancelar o registro do dispositivo, remova o agente de monitoramento do dis
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   Esse comando redefine o dispositivo para atualizações de MTR padrão do usuário e remove o agente de monitoramento e os arquivos do MTRP.
+   Esse comando redefine o dispositivo para atualizações de MTR padrão do usuário e remove o agente e os arquivos de monitoramento do MTR Pro.
 
-1. No menu à esquerda no portal Salas do Microsoft Teams – Serviços Gerenciados, selecione **Salas**.
+1. No menu à esquerda no portal de gerenciamento Salas do Microsoft Teams Pro, selecione **Salas**.
 1. Na lista de salas fornecidas, escolha a sala que você deseja cancelar o registro e selecione Cancelar  registro para parar de receber alertas de incidentes ou tíquetes de investigação ou para relatar um incidente para a sala.
 
 ## <a name="troubleshooting-table"></a>Tabela de solução de problemas
 
 > [!NOTE]
-> Todos Salas do Microsoft Teams – Os erros de monitoramento dos Serviços Gerenciados são registrados em um arquivo específico do Log de Eventos chamado Salas **Gerenciadas da Microsoft**.
+> Todos Salas do Microsoft Teams de monitoramento pro são registrados em um arquivo específico do Log de Eventos chamado **Salas Gerenciadas da Microsoft**.
 
 ***Local do arquivo de log do runtime do aplicativo*** =
 

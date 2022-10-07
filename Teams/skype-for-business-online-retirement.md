@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e6118e42600bda58bf7ddc9d7f8e0fee0b7ad9f
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3c973daf4dc90a6de734c1c76aa352e7a7eeac28
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706140"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854387"
 ---
 # <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
@@ -56,7 +56,8 @@ Os usuários no modo TeamsOnly recebem chats e chamadas de entrada no Teams e ta
    - Para todos os usuários atribuídos Skype for Business **somente** ou Skype for Business com modos de Colaboração do **Teams**, altere o modo de coexistência para Skype for Business colaboração e reuniões do **Teams**.  Esse modo oferece a mesma funcionalidade que as outras duas, exceto que novas reuniões agendadas pelo usuário serão reuniões do Teams em vez de Skype for Business reuniões. Quando você atribui esse modo diretamente a um usuário (em vez de no nível do locatário), ele também converterá automaticamente todas as reuniões do Skype for Business em reuniões do Teams organizadas por esse usuário.
    - Para usuários que estão no modo Ilhas, você pode exigir que eles sempre agendem reuniões no Teams atribuindo a eles uma instância do TeamsMeetingPolicy com PreferredMeetingProviderForIslandsMode=Teams. 
    - Para garantir que todas as reuniões existentes do Skype for Business sejam convertidas em reuniões do Teams (por exemplo, se você tiver usuários do Islands), você pode usar o Start-CsExMeetingMigration para disparar o [](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#trigger-meeting-migration-manually-via-powershell-cmdlet) Serviço de Migração de Reunião para converter as reuniões de um usuário no Teams.
-  
+
+- Para garantir que todos os contatos do Skype for Business Server sejam migrados corretamente para o Teams quando um usuário for movido do local para o TeamsOnly, verifique se os usuários migrados entrarão no Teams dentro de 30 dias após a migração do local. Esse é um requisito temporário, pois a Microsoft faz a transição do Teams para longe da infraestrutura Skype for Business Online herdada.
 
 ## <a name="actions-to-take-before-june-30-2022"></a>Ações a serem executadas antes de 30 de junho de 2022
 Agora que Skype for Business Online foi desativado, a Microsoft começará a encerrar a infraestrutura de suporte até 30 de junho de 2022.  Para qualquer organização com usuários do TeamsOnly que foram atualizados de qualquer versão do Skype for Business, você precisará tomar medidas se qualquer uma dessas situações se aplicar:

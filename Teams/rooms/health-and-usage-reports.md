@@ -1,10 +1,10 @@
 ---
 title: Relatórios de integridade e uso
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer: ''
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Relatando dados do nó para integridade e uso de relatórios
 f1keywords: ''
-ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9b1f3e1960cbe0089f498045922125b121679646
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271426"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243792"
 ---
 # <a name="health-and-usage-reports"></a>Relatórios de integridade e uso
 
-O nó de relatório contém dados para a integridade e o uso de suas Salas Gerenciadas da Microsoft e insights de serviço. A **Visão geral** mostra as tendências de integridade de todo o locatário de suas salas. A **guia** Integridade exibe uma lista de salas com seus dados de integridade correspondentes. O uso da sala com base nas informações do calendário e nos dados de qualidade da chamada é visível na **guia** Uso.
+O nó de relatório contém dados para a integridade e o uso do Salas do Microsoft Teams no portal de Gerenciamento Pro. A **Visão geral** mostra as tendências de integridade de todo o locatário de suas salas. A **guia** Integridade exibe uma lista de salas com seus dados de integridade correspondentes. O uso da sala com base nas informações do calendário e nos dados de qualidade da chamada é visível na **guia** Uso.
 
 ## <a name="navigating-reports"></a>Navegando em relatórios
 
@@ -42,7 +42,7 @@ Para alterar o grupo, clique no menu suspenso de seleção de grupo na faixa.
 <!--!![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)-->
 ### <a name="tickets-by-category"></a>Tíquetes por categoria
 
-A rosca exibe o total de tíquetes gerados para o período e o grupo selecionados (o padrão é sete dias, todos os grupos). Os tíquetes são representados em suas categorias principais: Áudio, Exibição, Periféricos, Conectividade, Controle de Versão e Cliente relatados.
+A rosca exibe o total de tíquetes gerados para o período e o grupo selecionados (o padrão é sete dias, todos os grupos). Os tíquetes são representados em suas categorias principais: Problemas de Áudio, Exibição, Periféricos, Conectividade, Controle de Versão e Gravação.
 
 <!--!![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)-->
 
@@ -56,20 +56,20 @@ No submenu, é possível filtrar a lista de tíquetes pela subcategoria selecion
 
 Para navegar de volta, clique na rosca ou clique na trilha na parte superior esquerda.
 
-Para navegar até um tíquete específico neste modo de exibição de lista, clique no link na coluna **De tíquete de suporte**.
+Para navegar até um tíquete específico nesta exibição de lista, clique no link na coluna **De tíquete de suporte**.
 
-### <a name="ticket-history"></a>Histórico de tíquetes
+<!--### Ticket history
 
-O gráfico de histórico de tíquetes mostra uma comparação de incidentes atribuídos a você ou à Microsoft durante o período de tempo especificado.
+The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
 
 > [!NOTE]
-> Se um tíquete mudar de proprietário em um dia, quem possui a tarefa na maior parte do dia terá o tíquete contado para ele. Por exemplo, se você atribuir o tíquete à Microsoft no início do dia, o tíquete conta para **Atribuído à Microsoft** para o dia.
+> If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
 
 ### <a name="health-history"></a>Histórico de integridade
 
-Esse grafo mostra a integridade média (definição na seção Integridade) para todas as salas no locatário, bem como a integridade média de todos os clientes MMR no dia a dia. Você pode exibir a integridade média por até 90 dias.
+Esse grafo mostra a integridade média (definição na seção Integridade) para todas as salas no locatário, bem como a integridade média de todos os clientes do MTR Pro no dia a dia. Você pode exibir a integridade média por até 90 dias.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 

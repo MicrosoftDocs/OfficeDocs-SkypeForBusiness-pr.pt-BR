@@ -1,7 +1,7 @@
 ---
-title: Conexão Microsoft Teams Essentials (Identidade do AAD) para um sistema de email existente com calendário
-author: adjoseph
-ms.author: adjoseph
+title: Conectar Microsoft Teams Essentials (Identidade do AAD) a um sistema de email existente com o calendário
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.reviewer: jimmyw
 manager: serdars
 ms.topic: article
@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: acdd613044e5e7f0ac7db857ca734f276522c919
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823582"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377589"
 ---
-# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Conexão Microsoft Teams Essentials (Identidade do AAD) para um sistema de email existente com calendário
+# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>Conectar Microsoft Teams Essentials (Identidade do AAD) a um sistema de email existente com o calendário
 
 Este guia fornece etapas de configuração para Microsoft Teams Essentials (Identidade do AAD) a um sistema de email existente com o calendário.
 
-Microsoft Teams Essentials (Identidade do AAD) reúne o melhor Teams reuniões, chat, chamadas e colaboração. O Teams Essentials (Identidade do AAD) pode se conectar ao seu sistema de email existente para fornecer uma experiência integrada, como ter todas as notificações do Teams em uma caixa de entrada de email existente, todos os eventos de calendário no Teams e a capacidade de entrar no Teams com seu endereço de email existente.
+Microsoft Teams Essentials (Identidade do AAD) reúne o melhor do Teams com reuniões, chat, chamadas e colaboração. O Teams Essentials (Identidade do AAD) pode se conectar ao seu sistema de email existente para fornecer uma experiência integrada, como ter todas as notificações do Teams em uma caixa de entrada de email existente, todos os eventos de calendário no Teams e a capacidade de entrar no Teams com seu endereço de email existente.
 
-Uma vez conectado, você pode ver respostas a reuniões agendadas e convites para colaborar em sua caixa de correio e Microsoft Teams. Você também pode exibir e interagir com reuniões recebidas do seu calendário usando Teams software de reunião de terceiros, como o Google Workspace.
+Uma vez conectado, você pode ver respostas a reuniões agendadas e convites para colaborar em sua caixa de correio e no Microsoft Teams. Você também pode exibir e interagir com reuniões recebidas do seu calendário usando o Teams e software de reunião de terceiros, como o Google Workspace.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -40,38 +40,38 @@ As etapas de configuração neste artigo envolvem o processo de encaminhamento a
 Para habilitar o encaminhamento automático:
 
 1. Vá para o portal Microsoft 365 Defender em<https://security.microsoft.com/>
-2. No menu de navegação à esquerda,vá para **Políticas** >  >  >  de colaboração & email & regras de ameaças **Políticas antispam** na seção Políticas
+2. No menu de navegação à esquerda, acesse **Email & políticas** >  >  >  de colaboração & regras **antispam** na seção Políticas
 3. Na página **Políticas antispam** , selecione **Política de saída antispam (Padrão)** na lista
 4. No submenu de detalhes da política exibido, selecione **Editar configurações de proteção** para modificar a regra de encaminhamento automático.
 5. Em **Regras de encaminhamento**, altere a condição de encaminhamento automático para **Ativado – o encaminhamento está habilitado** e salva as alterações.
 
-:::image type="content" source="media/essentials-antispam.png" alt-text="Imagem mostrando o submenu de política de saída antispam do Portal do Microsoft Defender com Ativado, a condição de encaminhamento está habilitada em Regras de encaminhamento." :::
+:::image type="content" source="media/essentials-antispam.png" alt-text="Imagem mostrando o submenu de política de saída antispam do portal do Microsoft Defender com Ativado, a condição de encaminhamento é habilitada em Regras de encaminhamento." :::
 
 Para saber mais sobre como configurar políticas de spam de saída, visite Configurar a filtragem de [spam de saída – Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true).
 
-## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>Conexão Teams Essentials para Exchange Online com Exchange local
+## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>Conectar o Teams Essentials Exchange Online com o Exchange local
 
-Você pode aproveitar tudo o que o Teams Essentials (AAD) tem a oferecer usando uma abordagem híbrida para configurar a conexão entre o Microsoft Teams e o Exchange Online com Exchange local.
+Você pode aproveitar tudo o que o Teams Essentials (AAD) tem a oferecer usando uma abordagem híbrida para configurar a conexão entre o Microsoft Teams e o Exchange Online com o Exchange local.
 
 Para fazer com que o acesso ao calendário funcione para suas caixas de correio locais, siga as diretrizes fornecidas em Configurar o acesso ao calendário do Teams para caixas de correio locais do[Exchange – Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
 
-Para implantar Salas do Microsoft Teams em um ambiente híbrido com Exchange local, visite Implantar Salas do Microsoft Teams com Exchange local [– Microsoft Teams | Microsoft Docs](rooms/with-exchange-on-premises.md)
+Para implantar Salas do Microsoft Teams em um ambiente híbrido com o Exchange local, visite Implantar Salas do Microsoft Teams com o [Exchange local – Microsoft Teams | Microsoft Docs](rooms/with-exchange-on-premises.md)
 
-## <a name="connect-teams-essentials-to-third-party-email-systems-with-calendar"></a>Conexão Teams Essentials para sistemas de email de terceiros com calendário
+## <a name="connect-teams-essentials-to-third-party-email-systems-with-calendar"></a>Conectar o Teams Essentials a sistemas de email de terceiros com o calendário
 
-Se você não planeja mudar a caixa de correio da sua organização para Microsoft 365, conecte o Teams Essentials a um sistema de email e calendário de terceiros existente. Essa conexão permite que você receba Teams notificações em seu sistema de email existente durante a exibição de convites de reunião e eventos de calendário existentes Microsoft Teams.
+Se você não planeja mudar a caixa de correio da sua organização para o Microsoft 365, você pode conectar o Teams Essentials a um sistema de email e calendário de terceiros existente. Essa conexão permite que você receba notificações do Teams em seu sistema de email existente ao exibir convites de reunião e eventos de calendário existentes no Microsoft Teams.
 
-### <a name="connect-teams-essentials-to-third-party-email-using-vanity-domain-google-workspace-example"></a>Conexão Teams Essentials para email de terceiros usando o domínio personalizado (exemplo do Google Workspace)
+### <a name="connect-teams-essentials-to-third-party-email-using-vanity-domain-google-workspace-example"></a>Conectar o Teams Essentials ao email de terceiros usando o domínio personalizado (exemplo do Google Workspace)
 
-A seção a seguir mostra como se conectar Microsoft Teams a um sistema de email existente com o calendário, como o Google Workspace. Você realizará essa conexão deixando o sistema de email atual intacto, encaminhando todos os emails para Exchange Online, filtrando tudo, exceto emails do tipo de calendário. Ao fazer isso, os emails de calendário aparecem automaticamente no calendário Teams aceitos como emails de tipo provisório e não calendário são excluídos.
+A seção a seguir mostra como conectar o Microsoft Teams a um sistema de email existente com o calendário, como o Google Workspace. Você realizará essa conexão deixando o sistema de email atual intacto, encaminhando todos os emails para Exchange Online, filtrando tudo, exceto emails do tipo de calendário. Ao fazer isso, os emails de calendário aparecem automaticamente no calendário do Teams aceitos como emails de tipo provisórios e não calendários são excluídos.
 
-Todos os emails gerados Microsoft 365 são encaminhados para o Workspace do Google para que os usuários recebam Teams lembretes e notificações. Identidades de usuário, como o email principal do usuário, podem ser duplicadas. O logon único também é possível, mas não é necessário. Os usuários devem ser capazes de Teams reuniões do calendário de terceiros ou Teams calendário. Outros Teams recursos funcionarão conforme o esperado.
+Todos os emails gerados no Microsoft 365 são encaminhados para o Google Workspace para que os usuários recebam notificações e lembretes do Teams. Identidades de usuário, como o email principal do usuário, podem ser duplicadas. O logon único também é possível, mas não é necessário. Os usuários devem ser capazes de ingressar em reuniões do Teams do calendário de terceiros ou do calendário do Teams. Outros recursos do Teams funcionarão conforme o esperado.
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Imagem ilustrando um diagrama do fluxo de email entre EXO e Gmail":::
 
-Esses exemplos dependem do [Conexão-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) PowerShell que faz parte do [módulo Exchange Online PowerShell V2.](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps) Se você receber um erro ao executar o Conexão-ExchangeOnline, verifique se você seguiu as instruções recomendadas para instalar o módulo usando Instalar o módulo [EXO V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module). Quando Connect-ExchangeOnline solicita credenciais, certifique-se de usar uma administrador de locatários de dados.
+Esses exemplos dependem do commandlet [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) powerShell que faz parte do [módulo Exchange Online PowerShell V2](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps). Se você receber um erro ao executar o Connect-ExchangeOnline, verifique se seguiu as instruções recomendadas para instalar o módulo usando Instalar o módulo [EXO V2](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module). Quando Connect-ExchangeOnline solicita credenciais, certifique-se de usar uma conta de administrador de locatários.
 
-#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Etapa um: configurar um novo domínio Microsoft 365 locatário
+#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>Etapa um: configurar um novo domínio de locatário do Microsoft 365
 
 1. Vá para o centro de administração em <https://admin.microsoft.com>.
 
@@ -79,11 +79,11 @@ Esses exemplos dependem do [Conexão-ExchangeOnline](/powershell/module/exchange
 
 3. Verifique o domínio com um registro TXT seguindo as etapas em [Verificar com um Registro TXT](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true).
 
-4. Quando solicitado, selecione **Não permitir que Microsoft 365 configure o DNS**.
+4. Quando solicitado, selecione **Não permitir que o Microsoft 365 configure o DNS**.
 
 5. Quando solicitado, deixe os registros MX existentes em vigor sem alterá-los.
 
-6. Atualize o registro TXT do SPF existente para incluir Microsoft 365.
+6. Atualize o registro TXT do SPF existente para incluir o Microsoft 365.
 
 7. Configure o DKIM (DomainKeys Identified Mail) para Microsoft 365 seguindo estas etapas para configurar manualmente [o DKIM](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide&preserve-view=true).
 
@@ -100,9 +100,9 @@ Esses exemplos dependem do [Conexão-ExchangeOnline](/powershell/module/exchange
 13. **Confirme definido como** padrão na janela que parece definir o domínio existente como padrão.
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="Imagem da caixa de diálogo de confirmação para definir o domínio como padrão":::
 
-    Para obter mais diretrizes sobre como adicionar um domínio Microsoft 365, siga as etapas descritas em [Adicionar um domínio ao Microsoft 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).
+    Para obter mais diretrizes sobre como adicionar um domínio ao Microsoft 365, siga as etapas descritas em Adicionar [um domínio ao Microsoft 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).
 
-#### <a name="step-two-add-users-and-assign-teams-essentials-licenses"></a>Etapa dois: adicionar usuários e atribuir Teams essentials
+#### <a name="step-two-add-users-and-assign-teams-essentials-licenses"></a>Etapa dois: Adicionar usuários e atribuir licenças do Teams Essentials
 
 1. Vá para o centro de administração em <https://admin.microsoft.com> adicionar um usuário individual
 
@@ -119,11 +119,11 @@ Esses exemplos dependem do [Conexão-ExchangeOnline](/powershell/module/exchange
 
 6. Selecione **Avançar**, examine as configurações do novo usuário, faça outras alterações, se necessário, selecione Concluir a **adição e feche**.
 
-Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em Adicionar usuários e atribuir [licenças – Microsoft 365 administrador | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
+Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em Adicionar usuários e atribuir [licenças – administrador do Microsoft 365 | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
 #### <a name="step-three-configure-google-workspace"></a>Etapa três: Configurar o Google Workspace
 
-***Configure a entrega dupla de email para Microsoft 365 e remover anexos:***
+***Configure a entrega dupla de email para o Microsoft 365 e os anexos de distribuição:***
 
 1. Siga as etapas do Google para configurar a entrega dupla: <https://support.google.com/a/answer/9228551?hl=en>
 
@@ -134,7 +134,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
     - Insira um nome de rota. (Por exemplo, Microsoft 365)
     - Escolha 'Host único' e insira o registro MX especificado para o domínio no Microsoft 365 (por exemplo: ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
 
-    **Método de host inteligente para resolver o código de resposta ATTR35 quando o email é enviado para Exchange local/Exchange Online:**
+    **Método de host inteligente para resolver o código de resposta ATTR35 quando o email é enviado para o Exchange local/Exchange Online:**
     - Escolha "Host único" e insira o registro MX para o domínio inicial do locatário como o host inteligente. O domínio inicial está no formato GUID.onmicrosoft.com. Um GUID é um valor exclusivo fornecido para todas as organizações como parte de seu registro no serviço. Um GUID é um inteiro de 128 bits (16 bytes) que pode ser usado em todos os computadores e redes sempre que um identificador exclusivo for necessário.
     - Você pode usar a linha de comando: nslookup -type MX GUID.onmicrosoft.com para resolver o registro MX (por exemplo: contosolandscaping2.mail.protection.outlook.com)
     - Escolher **Porta:25**
@@ -166,9 +166,9 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
     - Role para baixo e selecione **Salvar**.
 
-***Adicione seu subdomínio no workspace do Google para receber emails Microsoft 365.***
+***Adicione seu subdomínio no workspace do Google para receber emails do Microsoft 365.***
 
-  Em seguida, você criará regras de encaminhamento em Microsoft 365 para seu subdomínio. Escolha um subdomínio a ser usado no Google Workspace para receber emails do Microsoft 365 (por exemplo, g.contosolandscaping2.m365master.com)
+  Em seguida, você criará regras de encaminhamento em caixas de correio do Microsoft 365 para seu subdomínio. Escolha um subdomínio a ser usado no Google Workspace para receber emails do Microsoft 365 (por exemplo, g.contosolandscaping2.m365master.com)
 
 1. Iniciar no **console do Google Administração** (às admin.google.com)
 
@@ -190,13 +190,13 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
 10. Na caixa **de diálogo Encaminhar email** para outro servidor, anote o servidor para o qual encaminhar emails (por exemplo, aspmx.l.google.com) e selecione Usar **outro servidor de email**
 
-***Permitir que emails do Microsoft 365 ignorem o filtro de SPAM***
+***Permitir que o email do Microsoft 365 ignore o filtro de SPAM***
 
-1. Encontre um cabeçalho apropriado do locatário Microsoft 365 enviando um email para um usuário no workspace do Google.
+1. Encontre um cabeçalho apropriado do locatário do Microsoft 365 enviando um email para um usuário no workspace do Google.
 
 2. Abra a mensagem e selecione **Mostrar Original**
 
-3. Escolha um cabeçalho de email que identifique exclusivamente os emails provenientes de seu Microsoft 365 locatário. (Por exemplo, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
+3. Escolha um cabeçalho de email que identifique exclusivamente os emails provenientes do seu locatário do Microsoft 365. (Por exemplo, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
 
 4. Acesse o **console do Google Administração** em<https://admin.google.com>
 
@@ -204,7 +204,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
 6. Navegue até **Conformidade de Conteúdo** e selecione **Configurar**
 
-7. Dê um nome à configuração. Por exemplo, lista de permissões Microsoft 365 email.
+7. Dê um nome à configuração. Por exemplo, o email allowlist do Microsoft 365.
 
 8. Em **mensagens de email para afetar a verificação** de entrada
 
@@ -224,7 +224,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
 16. Selecionar **Salvar**
 
-#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>Etapa quatro: definir Microsoft 365 configurações para a integração
+#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>Etapa quatro: Definir as configurações do Microsoft 365 para a integração
 
 *Configure o conector para rotear emails do Microsoft 365 para o Gmail:*
 
@@ -232,9 +232,9 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
 2. Selecione **Mostrar tudo** no menu de navegação à esquerda.
 
-3. Em **Administração,** selecione **Exchange** para abrir o Exchange de administração em uma nova guia
+3. Em **Administração,** selecione **Exchange** para abrir o Centro de administração do Exchange em uma nova guia
 
-4. No menu **Exchange** de navegação à esquerda do centro de administração,  >  selecione Conectores de fluxo de **email, abra** o menu de estouro (...) e selecione Adicionar um conector
+4. No menu **de navegação à** esquerda do Centro de administração do Exchange,  >  selecione Conectores de fluxo de **email, abra** o menu de estouro (...) e selecione Adicionar um conector
 
 5. Em **Conexão na** nova janela do conector, selecione **Office 365**
 
@@ -256,7 +256,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
 14. Quando você vir a notificação de criação do Conector, pressione **Done**
 
-*Encaminhe emails de Microsoft 365 caixas de correio para o Gmail:*
+*Encaminhar emails das caixas de correio do Microsoft 365 para o Gmail:*
 
 1. Use o **Administração Microsoft 365 Center para** atualizar cada caixa de correio ou você pode usar um script do **PowerShell**, como o seguinte:
 
@@ -270,9 +270,9 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
     }
     ```
 
-    **Solução de Conexão-ExchangeOnline:**
+    **Solução de problemas do Connect-ExchangeOnline:**
 
-    Você está enfrentando um erro ao executar Conexão-ExchangeOnline? Isso pode ser o resultado da regra de encaminhamento automático de email da sua organização. Por padrão, o encaminhamento automático está desabilitado. Para se conectar Teams Essentials ao Google Workspace, a regra deve ser habilitada.
+    Você está enfrentando um erro ao executar Connect-ExchangeOnline? Isso pode ser o resultado da regra de encaminhamento automático de email da sua organização. Por padrão, o encaminhamento automático está desabilitado. Para conectar o Teams Essentials ao Google Workspace, a regra deve ser habilitada.
 
     Insira o seguinte script:
 
@@ -289,7 +289,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
 *Configure Exchange Online para a regra de transporte de calendário:*
 
-1. Definir essa configuração aceitará automaticamente convites de calendário para que eles apareçam Teams calendário sem exigir que os usuários interajam com o convite no Outlook Web App.
+1. Definir essa configuração aceitará automaticamente convites de calendário para que eles apareçam no calendário do Teams sem exigir que os usuários interajam com o convite no Outlook Web App.
 
 2. O script a seguir pode ser usado para criar as regras de transporte:
 
@@ -304,7 +304,7 @@ Para adicionar vários usuários ao mesmo tempo, siga as etapas recomendadas em 
 
 1. Siga as instruções em [Habilitar ou desabilitar Outlook na Web uma](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) caixa de correio no Exchange Online para desabilitar Outlook na Web caixas de correio.
 
-2. Você pode desabilitar Outlook na Web usando o **Exchange Administração Center ou** o **PowerShell**. Você pode usar o seguinte exemplo do PowerShell para desabilitar Outlook na Web para todas as caixas de correio:
+2. Você pode desabilitar Outlook na Web usando o **Exchange Administração Center** ou **o PowerShell**. Você pode usar o seguinte exemplo do PowerShell para desabilitar Outlook na Web para todas as caixas de correio:
 
     ```powershell
     Connect-ExchangeOnline
@@ -322,13 +322,13 @@ Esta etapa garante que o email seja enviado para o sistema de terceiros para res
 
 2. Na navegação à esquerda, selecione **Mostrar tudo**
 
-3. Em **Administração,** **selecione Exchange para** abrir Exchange de administração em uma nova guia
+3. Em **Administração, selecione** **Exchange** para abrir o Centro de administração do Exchange em uma nova guia
 
-4. No **Exchange de administração**, selecione **Fluxo** de email no menu de navegação à esquerda e, em seguida, selecione **Domínios aceitos**
+4. No **Centro de administração do Exchange**, selecione **Fluxo de** email no menu de navegação à esquerda e, em seguida, selecione **Domínios aceitos**
 
 5. Toque no nome de domínio configurado no sistema de terceiros (por exemplo, contosoLandscaping2.m365master.com)
 
-    :::image type="content" source="media/essentials-internalrelay1.png" alt-text="Imagem mostrando as Exchange do centro de administração para o fluxo de Email.":::
+    :::image type="content" source="media/essentials-internalrelay1.png" alt-text="Imagem mostrando as configurações do Centro de administração do Exchange para o fluxo email. ":::
 
 6. Selecione **Retransmissão Interna** e clique em **Salvar**
 
@@ -336,28 +336,28 @@ Esta etapa garante que o email seja enviado para o sistema de terceiros para res
 
 #### <a name="step-six-create-a-rule-to-delete-all-inbound-mail-to-exchange-online-except-for-calendaring"></a>Etapa seis: criar uma regra para excluir todos os emails de entrada para Exchange Online exceto calendário
 
-1. Você pode configurar essa regra no **centro Exchange Administração ou** **no PowerShell**. Você pode usar o seguinte **exemplo do PowerShell** para criar a regra:
+1. Você pode configurar essa regra no **Exchange Administração Center** ou **no PowerShell**. Você pode usar o seguinte **exemplo do PowerShell** para criar a regra:
 
     ```powershell
     Connect-ExchangeOnline
     New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true
     ```
 
-### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>Conexão Teams Essentials para emails de terceiros que não usam domínio personalizado (exemplo do Gmail)
+### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>Conectar o Teams Essentials a emails de terceiros que não usam domínio personalizado (exemplo do Gmail)
 
-Você pode agendar e ingressar em uma reunião do Teams diretamente do Google Workspace conectando uma conta do Gmail do consumidor ao Teams Essentials com a principal dependência do [complemento do Teams G Suite](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). Isso oferece a oportunidade de agendar vídeo e audioconferência com compartilhamento de tela, chat de reunião, quadros de comunicações digitais e muito mais.
+Você pode agendar e ingressar em uma reunião do Teams diretamente do Google Workspace conectando uma conta do Gmail do consumidor ao Teams Essentials com a principal dependência do [Complemento do Teams G Suite](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). Isso oferece a oportunidade de agendar vídeo e audioconferência com compartilhamento de tela, chat de reunião, quadros de comunicações digitais e muito mais.
 
-Você configurará o Gmail para efetuar pull de emails do Exchange Online para garantir que os emails gerados no Microsoft 365 e Teams cheguem com êxito no Gmail. Os padrões de segurança podem precisar ser desabilitados para realizar essa conexão, o que torna essencial usar uma senha forte e exclusiva. Um domínio personalizado não é necessário para esse cenário, mas pode ser configurado no Microsoft 365 para uso no Gmail se você quiser usar um.
+Você configurará o Gmail para efetuar pull de emails do Exchange Online para garantir que os emails gerados no Microsoft 365 e no Teams cheguem com êxito no Gmail. Os padrões de segurança podem precisar ser desabilitados para realizar essa conexão, o que torna essencial usar uma senha forte e exclusiva. Um domínio personalizado não é necessário para esse cenário, mas pode ser configurado no Microsoft 365 para uso no Gmail se você quiser usar um.
 
-:::image type="content" source="media/essentials-gmail.png" alt-text="Imagem que despigrafa o fluxo de email entre Teams Essentials e o Gmail":::
+:::image type="content" source="media/essentials-gmail.png" alt-text="Imagem que indica o fluxo de email entre o Teams Essentials e o Gmail":::
 
 #### <a name="1-ensure-that-you-have-a-gmail-account-set-up"></a>1. Verifique se você tem uma conta do Gmail configurada
 
 Se você já tiver uma conta existente, poderá prosseguir para a próxima etapa. Caso contrário, visite [Criar nova conta do Google](https://accounts.google.com/SignUp?hl=en) para configurar uma nova conta do Gmail.
 
-#### <a name="2-set-up-your-microsoft-365-tenant"></a>2. Configurar seu locatário Microsoft 365 cliente
+#### <a name="2-set-up-your-microsoft-365-tenant"></a>2. Configurar seu locatário do Microsoft 365
 
-*Configure Teams usuários do AAD:*
+*Configurar usuários do AAD do Teams:*
 
 1. Siga as diretrizes em[Adicionar usuários e atribuir licenças](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) para adicionar vários usuários
 
@@ -379,11 +379,11 @@ Se você já tiver uma conta existente, poderá prosseguir para a próxima etapa
 
 4. Quando solicitado, permita que a Microsoft configure o DNS
 
-5. Conclua as instruções para verificar a rota de registro MX para Microsoft 365
+5. Conclua as instruções para verificar a rota de registro MX para o Microsoft 365
 
-6. Configurar o registro TXT do SPF para incluir Microsoft 365
+6. Configurar o registro TXT do SPF para incluir o Microsoft 365
 
-7. Conclua as instruções para configurar registros TXT DKIM para Microsoft 365
+7. Conclua as instruções para configurar registros TXT do DKIM para o Microsoft 365
 
 8. Verifique se o DKIM está habilitado fazendo logon e entrando novamente no Administração central
 
@@ -391,6 +391,6 @@ Se você já tiver uma conta existente, poderá prosseguir para a próxima etapa
 
 1. Configurar o Gmail para efetuar pull Exchange Online email para seu sistema
 
-2. Configurar o Teams suplemento Calendário
+2. Configurar o suplemento Calendário do Teams
 
 3. Habilitar o Gmail para usar o domínio comercial (opcional)

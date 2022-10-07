@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre e compare Salas do Teams licenciamento e disponibilidade de recursos no Centro de administração do Teams.
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633631"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999626"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Salas do Microsoft Teams visão geral da licença no Centro de administração do Teams
 
 O Centro de administração do Teams permite que você exiba e gerencie Salas do Teams dispositivos e seus periféricos de um local central. Este artigo mostra quais [recursos](#comparison-of-teams-rooms-feature-availability-by-license) de gerenciamento você tem, dependendo se um dispositivo Salas do Teams é atribuído a uma licença Salas do Microsoft Teams Basic ou Salas do Microsoft Teams Pro.
 
 Para obter mais informações sobre Salas do Microsoft Teams licenças, [consulte Salas do Microsoft Teams licenças](rooms-licensing.md).
+
+> [!NOTE]
+> Se você tiver licenças herdados Salas do Teams Standard ou Salas do Teams Premium, precisará alternar para o Salas do Teams Pro quando suas licenças herdados expirarem. Se você tiver um Enterprise Agreement, precisará alternar para licenças Salas do Teams Pro no próximo período de renovação. Para obter mais informações, [consulte Alternando do Salas do Teams Standard e Salas do Teams Premium](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium).
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>Ver quais licenças são atribuídas a Salas do Teams dispositivos
 
@@ -73,7 +76,6 @@ A tabela a seguir mostra os recursos de gerenciamento disponíveis no Centro de 
 | **Detalhes de integridade do dispositivo**                     |                             | &#x2714;                  |
 | **Marcas de dispositivo**                               |                             | &#x2714;                  |
 | **Graph APIs**                                |                             | &#x2714;                  |
-| **Atualizações manuais de dispositivo**                     |                             | &#x2714;                  |
 | **Reinicialização remota**                            |                             | &#x2714;                  |
 | **Gerenciamento de periféricos de dispositivo Windows**     |                             | &#x2714;                  |
 | **Configurações do dispositivo Windows**                   |                             | &#x2714;                  |

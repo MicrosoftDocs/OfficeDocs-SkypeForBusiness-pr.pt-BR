@@ -1,10 +1,10 @@
 ---
 title: Gerenciamento de clientes multilocatário para parceiros
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 ms.date: 07/25/2022
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,37 +18,37 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Gerenciamento de clientes multilocatário para parceiros.
 f1keywords: ''
-ms.openlocfilehash: 37ba5cfc12229685bbe4ac8cf188301e9fa7b1f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e4e89d483d15ad7f521afd9c0686b3d72ab9e09d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269097"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243902"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Gerenciamento de clientes multilocatário para parceiros
 
-O MTM (gerenciamento multilocatário) no serviço Salas do Teams gerenciado (TRM) ajuda as organizações parceiras a gerenciar vários clientes em um só lugar, com suas próprias credenciais de domínio. Os usuários parceiros só verão as salas do cliente que são atribuídas para gerenciar. É possível aplicar funções personalizadas para cada cliente no locatário MTM, dando às organizações parceiras controle granular de permissões aos recursos do cliente. 
+O MTM (gerenciamento multilocatário) no serviço Salas do Teams Pro Management ajuda as organizações parceiras a gerenciar vários clientes em um só lugar, com suas próprias credenciais de domínio. Os usuários parceiros só verão as salas do cliente que são atribuídas para gerenciar. É possível aplicar funções personalizadas para cada cliente no portal MTM, dando às organizações parceiras controle granular de permissões aos recursos do cliente. 
 
 O portal do MTM pode ser acessado por meio deste [link](https://partner.rooms.microsoft.com/).
 
 > [!Note] 
-> As organizações parceiras não podem gerenciar suas próprias salas por meio do portal MTM. Essas salas podem ser gerenciadas no [portal do TRM](https://portal.rooms.microsoft.com/). 
+> As organizações parceiras não podem gerenciar suas próprias salas por meio do portal MTM. Essas salas podem ser gerenciadas no [portal de Gerenciamento Pro](https://portal.rooms.microsoft.com/). 
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>Pré-requisitos para gerenciar seus clientes por meio da experiência MTM
 
-Para obter acesso ao portal MTM, sua organização deve ser integrada como um Parceiro elite para o serviço TRM. Para se tornar um parceiro elite contato askelite@microsoft.com.
+Para obter acesso ao portal MTM, sua organização deve ser integrada como um Parceiro elite para o MTR Pro Management. Para se tornar um parceiro elite contato askelite@microsoft.com.
 
 ## <a name="on-boarding-customers"></a>Clientes de integração
 
-Para gerenciar clientes por meio do portal TRM-MTM, é necessário estabelecer uma relação entre o locatário da organização parceira e o cliente por meio de um convite enviado pelo cliente. 
+Para gerenciar clientes por meio do portal do Pro Management-MTM, é necessário estabelecer uma relação entre o locatário da organização parceira e o cliente por meio de um convite enviado pelo cliente. 
 
 ## <a name="tenant-managers"></a>Gerenciadores de locatários
 
-Essa função interna só é configurável no portal TRM-MTM. Essa função permite atribuir um grupo de usuários que aceitam convites, mas não estão envolvidos com o gerenciamento de salas de clientes. É recomendável configurar a função. Caso contrário, somente os usuários com a função Administrador de Serviços Gerenciados em seu locatário poderão aceitar convites.
+Essa função interna só é configurável no portal do Pro Management-MTM. Essa função permite atribuir um grupo de usuários que aceitam convites, mas não estão envolvidos com o gerenciamento de salas de clientes. É recomendável configurar a função. Caso contrário, somente os usuários com a função Administrador de Serviços Gerenciados em seu locatário poderão aceitar convites.
 
 **Para configurar gerenciadores de locatários**
  
-1.  Faça logon no portal TRM-MTM como administrador global ou administrador de Serviço Gerenciado.
+1.  Faça logon no portal do Pro Management-MTM como administrador global ou administrador do Serviço Gerenciado.
 2.  Vá para gerenciadores de locatários.
 3.  Selecione **Adicionar gerenciadores de locatários**.
 4.  No painel de detalhes, pesquise os usuários ou grupos de segurança.
@@ -57,7 +57,7 @@ Essa função interna só é configurável no portal TRM-MTM. Essa função perm
 
 ### <a name="invitation-from-the-customer"></a>Convite do cliente
 
-O parceiro deve fornecer o nome de domínio aos clientes. Somente as funções administrador global, administrador de serviços gerenciados e gerenciadores de locatários podem ver e aceitar o convite quando fizerem logon no portal TRM-MTM. 
+O parceiro deve fornecer o nome de domínio aos clientes. Somente as funções administrador global, administrador de serviços gerenciados e gerenciadores de locatários podem ver e aceitar o convite quando fizerem logon no portal do Pro Management-MTM. 
 
 > [!Note]
 > Embora essas funções possam ver convites e metadados de locatário de alto nível, você não verá os dados do cliente até receber uma função com esse cliente.
@@ -66,7 +66,7 @@ Os detalhes sobre o convite do cliente são descritos no [gerenciamento multiloc
 
 **Para aceitar um convite pendente**
 
-1. Faça logon no portal TRM-MTM como administrador global, administrador de Serviço Gerenciado ou Gerenciador de Locatários.
+1. Faça logon no portal Do Pro Management-MTM como administrador global, administrador do Serviço Gerenciado ou Gerenciador de Locatários.
 1. Vá para **Locatários**.
 1. Selecione o convite exibido com o status "Pendente".
 1. Examine os detalhes do convite.
@@ -94,7 +94,7 @@ Para remover um cliente, você deve removê-lo da lista **locatários** .
 
 **Para remover um cliente** 
 
-1. Faça logon no portal TRM-MTM como administrador primário do cliente que você deseja remover.
+1. Faça logon no portal do Pro Management-MTM como administrador primário do cliente que você deseja remover.
 1. Vá para **Locatários**.
 1. Selecione o cliente que você deseja remover.
 1. No painel de detalhes do cliente, selecione **Remover cliente**.
@@ -104,7 +104,7 @@ Para remover um cliente, você deve removê-lo da lista **locatários** .
 
 As funções de parceiro permitem a delegação de responsabilidades para funcionários adicionais. O conceito dessas funções é o mesmo descrito no controle de acesso baseado em [função](microsoft-teams-rooms-premium-rbac.md), mas no contexto de cada cliente. Além disso, é importante observar que as funções de parceiro são distintas das funções do cliente. As funções de parceiro podem ser excluídas pelo cliente. 
 
-A função administradores **primários** é a única função interna para cada cliente integrado e tem quase todas as permissões , no contexto do cliente, para o serviço TRM (consulte a tabela 1). As permissões de função de parceiro** só se estendem até as salas designadas pelo cliente. Por exemplo, se o cliente for uma organização global e atribuir o Parceiro para gerenciar todas as salas dos EUA, o administrador principal só poderá gerenciar e delegar permissões para essas salas. O Parceiro não tem visibilidade para outras salas que o Cliente pode ter em outros países. 
+A função administradores **primários** é a única função interna para cada cliente integrado e tem quase todas as permissões, no contexto do cliente, para o serviço de Gerenciamento Pro (consulte a tabela 1). As permissões de função de parceiro** só se estendem até as salas designadas pelo cliente. Por exemplo, se o cliente for uma organização global e atribuir o Parceiro para gerenciar todas as salas dos EUA, o administrador principal só poderá gerenciar e delegar permissões para essas salas. O Parceiro não tem visibilidade para outras salas que o Cliente pode ter em outros países. 
 
 **Para gerenciar usuários na função **parceiro** de um cliente**
 
@@ -155,24 +155,24 @@ Como parceiro, você pode criar funções personalizadas para atender aos seus r
 ||Modificar|&#10004;|||&#10004;|
 
 > [!Note]
-> Um usuário atribuído como administrador primário do Cliente A tem permissões completas no serviço TRM somente para esse cliente. As permissões do usuário no Cliente A não têm influência sobre outros clientes.
+> Um usuário atribuído como administrador primário do Cliente A tem permissões completas no serviço de Gerenciamento Pro somente para esse cliente. As permissões do usuário no Cliente A não têm influência sobre outros clientes.
 
 ## <a name="security"></a>Segurança
 
 Os clientes finais mantêm o controle sobre o acesso aos dados e podem remover completamente um parceiro ou funções específicas a qualquer momento.
 
-Com o recurso de acesso delegado, um parceiro não obtém nenhum outro privilégio fora do portal do serviço TRM. Por exemplo, usando esse recurso para convidar um parceiro para gerenciar salas no serviço TRM, nenhuma permissão é concedida ao AAD, ao Teams Administração Center ou a qualquer outro produto da Microsoft. Além disso, os parceiros não têm acesso para exibir ou modificar salas não definidas no escopo do convite.
+Com o recurso de acesso delegado, um parceiro não obtém nenhum outro privilégio fora do portal de Gerenciamento Pro. Por exemplo, usando esse recurso para convidar um parceiro para gerenciar salas no portal de Gerenciamento Pro, nenhuma permissão é concedida ao AAD, ao Teams Administração Center ou a qualquer outro produto da Microsoft. Além disso, os parceiros não têm acesso para exibir ou modificar salas não definidas no escopo do convite.
 
-Depois que o parceiro – relacionamento com o cliente for estabelecido – conforme descrito no documento "Integração de clientes" – o parceiro poderá exibir dados de sala no serviço TRM. Isso inclui todos os dados presentes no serviço TRM, mas derivados de outros produtos da Microsoft. Por exemplo, os relatórios de qualidade de chamada no portal do TRM são derivados dos dados de qualidade de chamada do Teams.
+Depois que o parceiro — relacionamento com o cliente — conforme descrito no documento "Integração de clientes" deste documento, o parceiro pode exibir os dados da sala no portal de Gerenciamento Pro. Isso inclui todos os dados presentes no portal de Gerenciamento Pro, mas derivados de outros produtos da Microsoft. Por exemplo, os relatórios de qualidade de chamada no portal de Gerenciamento Pro são derivados dos dados de qualidade de chamada do Teams.
 
 Os dados residem no locatário do cliente e não são copiados para o locatário do parceiro. 
 
 O portal MTM usa a autenticação do AAD para validar as credenciais de logon do parceiro. É importante observar que, no momento, as políticas de autenticação do cliente não se aplicarão ao parceiro. Por exemplo, se o cliente tiver uma política de autenticação multifator, ela não será convertida para o parceiro.
 
-O cliente pode efetuar pull de logs de auditoria para o serviço TRM, que inclui a atividade do parceiro. Consulte [o log de auditoria no Salas do Teams Gerenciado](multi-tenant-auditing.md).
+O cliente pode efetuar pull de logs de auditoria para o portal de Gerenciamento Pro, que inclui a atividade do parceiro. Consulte [o log de auditoria no Salas do Teams Gerenciado](multi-tenant-auditing.md).
 
 > [!Note]
-> A auditoria do AAD e a auditoria do O365 não capturam logs do portal TRM.
+> A auditoria do AAD e a auditoria do O365 não capturam logs do portal de Gerenciamento Pro.
 
 ## <a name="navigating-the-mtm-portal"></a>Navegando no portal do MTM
 

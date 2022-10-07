@@ -1,7 +1,7 @@
 ---
-title: Salas do Microsoft Teams gerenciamento de atualizações
-author: donnah007
-ms.author: v-donnahill
+title: Salas do Microsoft Teams gerenciamento de atualizações do Gerenciamento Pro
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,22 +17,22 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: monitoramento proativo de suas salas de reunião.
 f1keywords: ''
-ms.openlocfilehash: 97c812cca2b64979f224e9f7da63087899b9c7a9
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bddfc17df4f6fc7bd28e2dcc00fc55b5653b8687
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269116"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243752"
 ---
 # <a name="update-management"></a>Gerenciamento de atualizações 
 Uma sala de reunião moderna é equipado com um dispositivo Salas do Microsoft Teams e outros periféricos, como uma câmera, microfone ou alto-falante, e potencialmente mais dispositivos para criar uma experiência de reunião inclusiva e eficaz. Equipamentos de diferentes tipos de OEMs fornecem a experiência organizacional exata desejada; no entanto, eles devem ser mantidos com software e firmware continuamente.  
 
-Os Serviços Gerenciados para Salas do Microsoft Teams fornecem a garantia de que cada sala em sua organização será mantida nos níveis recomendados para fornecer uma sala sempre pronta e funcionando corretamente. A meta da Microsoft é reduzir a complexidade e o trabalho da equipe operacional com inteligência e automação. A solução de problemas ou diagnóstico é executada o mais rápido possível. 
+Salas do Microsoft Teams Pro Management fornece a garantia de que cada sala em sua organização será mantida nos níveis recomendados para fornecer uma sala que esteja sempre pronta e funcione corretamente. A meta da Microsoft é reduzir a complexidade e o trabalho da equipe operacional com inteligência e automação. A solução de problemas ou diagnóstico é executada o mais rápido possível. 
 
-## <a name="transitioning-a-device-to-managed-services"></a>Fazendo a transição de um dispositivo para serviços gerenciados 
-A integração de dispositivos de sala aos Serviços Gerenciados geralmente tem um histórico de gerenciamento de alterações e uma prática diferente das nossas diretrizes.  
+## <a name="transitioning-a-device-to-pro-management"></a>Fazendo a transição de um dispositivo para o Gerenciamento Pro 
+A integração de dispositivos de sala ao Gerenciamento Pro geralmente tem um histórico de gerenciamento de alterações e uma prática diferente das nossas diretrizes.  
 
-- Para se beneficiar dos Serviços Gerenciados, você deve fazer a transição do gerenciamento de alterações para todas as atualizações no portfólio de Serviços Gerenciados.
+- Para se beneficiar do Gerenciamento Pro, você deve fazer a transição do gerenciamento de alterações para todas as atualizações no portfólio do Gerenciamento Pro.
 - Várias fontes de SLAs de incidentes de gerenciamento de alterações afetam, pois há uma descoberta e correção que reiniciarão novamente se ocorrer um incidente na sala.
 - A Microsoft implementou controles e verificações para implementar políticas que podem diferir de uma organização para outra e a capacidade de intervir em situações excepcionais.
 - Eventualmente, os dispositivos de sala serão atualizados para padrões comuns, exceto para exceções devido a problemas com uma instalação de hardware específica.  
@@ -47,7 +47,7 @@ As seguintes verificações de preparação simples são recomendadas:
 
 ## <a name="readiness-checks"></a>Verificações de preparação
 
-Há alguns pré-requisitos para receber atualizações de serviços gerenciados: 
+Há alguns pré-requisitos para receber atualizações por meio do serviço de Gerenciamento Pro: 
 
 |Software |Orientação |
 |:- |:- |
@@ -61,46 +61,39 @@ Há alguns pré-requisitos para receber atualizações de serviços gerenciados:
 ## <a name="managed-updates--how-it-works"></a>Atualizações gerenciadas – como ela funciona 
 Há duas maneiras principais de como as atualizações são gerenciadas:  
 
-- **Gerenciado automaticamente**: Atualizações são instalados em seu dispositivo de sala com base na avaliação dos Serviços Gerenciados. Nenhuma intervenção é necessária para as atualizações gerenciadas em nosso portfólio.
+- **Gerenciado automaticamente**: Atualizações são instalados em seu dispositivo de sala com base na avaliação do Gerenciamento Pro. Nenhuma intervenção é necessária para as atualizações gerenciadas em nosso portfólio.
 - **Anel validado**: configure um sistema de anéis para visualizar atualizações em dispositivos específicos para que você possa monitorá-las sem o trabalho de perna associado. A configuração de anel fornece uma camada adicional de auditoria devida antes de amplas implantações.  
 
 ### <a name="automatically-managed"></a>Gerenciado automaticamente
 
-Se você optar por ser gerenciado automaticamente, nenhuma ação será necessária para as atualizações da sua parte. No entanto, você deve examinar o portfólio atual de atualizações compatíveis com os Serviços Gerenciados. O portfólio está constantemente recebendo novas adições e é nossa prioridade cobrir as atualizações mais frequentes e impactante para garantir a estabilidade da sala. Verifique a lista atual (na seção "Gerenciamento de Atualizações" deste documento) para planejar qualquer gerenciamento de alterações adicional necessário para sua organização.  
+Se você optar por ser gerenciado automaticamente, nenhuma ação será necessária para as atualizações da sua parte. No entanto, você deve examinar o portfólio atual de atualizações compatíveis com o serviço de Gerenciamento Pro. O portfólio está constantemente recebendo novas adições e é nossa prioridade cobrir as atualizações mais frequentes e impactante para garantir a estabilidade da sala. Verifique a lista atual (na seção "Gerenciamento de Atualizações" deste documento) para planejar qualquer gerenciamento de alterações adicional necessário para sua organização.  
 
-**Recomendação:** Não instale atualizações cobertas pelos Serviços Gerenciados em nenhum dispositivo gerenciado por conta própria. Se você encontrar problemas, relate um incidente no portal.
+**Recomendação:** Não instale atualizações cobertas pelo serviço de Gerenciamento Pro em nenhum dispositivo gerenciado por conta própria. 
 
 ### <a name="ring-validation"></a>Validação de anel
 
-Ao escolher a validação de anel, examine as seções a seguir sobre como os anéis funcionam nos Serviços Gerenciados e as opções disponíveis para personalizá-la para sua organização. Mesmo com a validação de anel, os Serviços Gerenciados tenta garantir que as salas não sejam vencidas nas atualizações recomendadas. Dependendo da situação, uma sala pode receber atualizações de "atualização" para garantir que ela está em conformidade com as recomendações de serviço gerenciado.  
+Ao escolher a validação de anel, examine as seções a seguir sobre como os anéis funcionam no portal de Gerenciamento Pro e as opções disponíveis para personalizá-lo para sua organização. Mesmo com a validação de anel, são feitas tentativas para garantir que as salas não sejam vencidas nas atualizações recomendadas. Dependendo da situação, uma sala pode receber atualizações de "atualização" para garantir que ela seja compatível com as recomendações da Microsoft.  
 
- Verifique se há comunicados na home page do portal e na documentação dos Serviços Gerenciados à medida que novos tipos de software e firmware ficam disponíveis no portfólio. Como os especialistas dos Serviços Gerenciados estão revisando as versões de atualização diariamente em nosso portfólio de dispositivos, eles abordam problemas específicos e direcionam atualizações com base na necessidade.  
+ Verifique se há comunicados na home page do portal e na documentação do Gerenciamento Pro à medida que novos tipos de software e firmware ficam disponíveis no portfólio. 
 
 ### <a name="scheduling"></a>Agendar 
-As atualizações gerenciadas são agendadas para salas com base no equipamento na sala e se elas não estão a atender aos padrões dos Serviços Gerenciados para software e firmware aplicáveis. 
+Atualizações são agendadas para salas com base no equipamento na sala e se elas não estão a atender aos padrões recomendados para software e firmware aplicáveis. 
 
-- Para ajudar nossos clientes a atender aos requisitos de gerenciamento de alterações, atualize o início da implantação às **quartas-feiras** no anel de preparo. Se uma atualização crítica for necessária, ignoraremos esse agendamento e lançaremos a atualização assim que ela estiver disponível. 
-
+- Para ajudar nossos clientes a atender aos requisitos de gerenciamento de alterações, atualize o início da implantação às **quartas-feiras** no anel de preparo. Se uma atualização crítica for necessária, esse agendamento será ignorado e a atualização será liberada assim que estiver disponível. 
 - Atualizações são sequenciados com base na necessidade em uma sala específica. 
 - Se você tiver anéis de configuração para validar as atualizações, a atualização avançará por meio da ordem de anel. 
-- Uma nova atualização poderá substituir uma atualização que será enfileirada se determinarmos que a estabilidade da sala foi aprimorada com base em sua situação.  
+- Uma nova atualização pode substituir uma atualização que é enfileirada se for determinado que a estabilidade da sala melhorará, com base em sua situação.  
 - Atualizações normalmente são aplicadas durante nossa janela de manutenção noturna – que é a hora local da sala **12:00 – 5:00** para evitar qualquer tipo de interrupção. 
 
 ## <a name="microsoft-teams-rooms-app-update-lifecycle-policy"></a>Salas do Microsoft Teams ciclo de vida de atualização do aplicativo 
-A política de suporte da equipe de engenharia do MTR afirma que todo o suporte termina após o ciclo de vida de doze (12) meses de uma versão tiver expirado ou se mais de duas atualizações tiverem sido lançadas desde então. Em seguida, os clientes devem atualizar para uma versão com suporte. Consulte o [suporte Salas do Microsoft Teams versão do aplicativo – Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) para uma descrição detalhada do serviço.
-
-Para manter um padrão uniforme em todas as nossas salas gerenciadas e nos permitir identificar com eficiência os problemas mais populares, vamos dar suporte e implantar as duas versões principais ou secundárias mais recentes (N, N-1) do software de aplicativo MTR de acordo com os Termos e Condições dos Serviços de Assinatura e Suporte. Atualizaremos automaticamente as salas não compatíveis, ignorando os anéis de atualização conforme necessário. 
-
-A política N-1 também se aplica a softwares de terceiros.  
+A política de suporte da equipe de engenharia do MTR afirma que todo o suporte termina após o ciclo de vida de doze (12) meses de uma versão tiver expirado ou se mais de duas atualizações tiverem sido lançadas desde então. Em seguida, os clientes devem atualizar para uma versão com suporte. Consulte o [suporte Salas do Microsoft Teams versão do aplicativo – Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) para uma descrição detalhada do serviço. 
 
 ## <a name="update-management-experience-walk-through"></a>Passo a passo da experiência de Gerenciamento de Atualizações  
-Para exibir atualizações, faça logon no portal de serviços gerenciados e navegue até a página Atualizações dados.
-
-![Captura de tela das atualizações de serviços gerenciados](../media/update-management-001.jpg)
+Para exibir as atualizações, faça logon no portal de Gerenciamento Pro e navegue até a Atualizações página.
 
 O Atualizações exibe uma visão geral de alto nível do gerenciamento de atualizações para suas salas com as seguintes guias:
 
-- **Atualizações**: atualizações de software ou firmware que os Serviços Gerenciados estão orquestrando por meio de sua organização.  
+- **Atualizações**: atualizações de software ou firmware aplicáveis à sua organização.  
 - **Salas**: a guia Salas fornece uma exibição de salas e anéis aos quais cada sala pertence.
 - **Anéis**: a guia Anéis mostra os anéis de salas para sua organização.
 
@@ -210,16 +203,16 @@ Mover salas de um anel para outro é possível de duas maneiras:
 1. Na lista suspensa, selecione o novo anel.  
 1. Clique **em Atribuir**.
 
-## <a name="managed-updates-visibility-and-control"></a>Atualizações gerenciadas: visibilidade e controle
+## <a name="automated-updates-visibility-and-control"></a>Atualizações automatizadas: visibilidade e controle
 
-Os serviços gerenciados orquestram atualizações em toda a sua organização. No entanto, você tem visibilidade e controle para intervir, se necessário. Estas são as maneiras: 
+As atualizações automatizadas no Gerenciamento Pro orquestram atualizações em toda a sua organização. No entanto, você tem visibilidade e controle para intervir, se necessário. Estas são as maneiras: 
 
-- Em caso de falha de atualização, um tíquete é gerado automaticamente com a equipe de Operações de Serviço Gerenciado da Microsoft. A equipe de Operações tomará medidas para corrigir a falha e envolver você, se necessário.  
-- Se você vir uma atualização causando problemas, poderá pausar a atualização com o **botão Pausar** . Pressionar o botão Pausar criará um tíquete para o centro de operações investigar. Forneça detalhes ao pausar uma atualização para ajudar a agilizar a resposta a incidentes.  
+- No caso de uma falha de atualização, um tíquete é gerado automaticamente para acompanhamento. 
+- Se você vir uma atualização causando problemas, poderá pausar a atualização com o **botão Pausar** . Pressionar o botão Pausar solicitará a criação de um registro de um tíquete de problema para sua equipe investigar.
 - Se você vir que uma atualização falhou em uma sala e corrigiu um motivo convincente, como a desconexão de rede, você pode repetir a atualização com o botão Repetir todas as **falhas** .  
 - Pode haver situações urgentes quando você pode decidir disponibilizar uma atualização anteriormente. Nesse caso, você pode usar o **botão Forçar atualizações** . Ao usar a opção Forçar Atualização, você tem a opção de forçar a atualização imediatamente ou quando, em seguida, a sala estiver disponível.  
 
 > [!NOTE]
-> **Não recomendamos "Forçar Atualizações"** como uma estratégia geral de gerenciamento de atualizações. Se você enviar por push uma atualização que ainda está em nossa aprovação de validação, poderá encontrar problemas que já conhecemos. Nesses casos, a resolução de incidentes para essas salas será de melhor esforço.  
+> **Não recomendamos "Forçar Atualizações"** como uma estratégia geral de gerenciamento de atualizações, pois você pode encontrar problemas conhecidos com essas atualizações.
 
 - Além disso, para garantir boas práticas de gerenciamento de alterações, registraremos todas as atualizações forçadas internamente no serviço. No futuro, esperamos tornar isso visível para você também.

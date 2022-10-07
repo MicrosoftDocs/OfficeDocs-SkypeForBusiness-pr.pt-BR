@@ -14,16 +14,22 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271456"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854427"
 ---
 # <a name="whats-new-for-direct-routing"></a>Novidades do Roteamento Direto
 
 Este artigo descreve as novidades do Roteamento Direto. Verifique com frequência se há atualizações.
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>Lógica de rebaixamento de tronco com base em opções SIP
+
+Um novo recurso baseado em Opções SIP foi introduzido para a integridade do tronco. Quando habilitada na configuração do gateway (consulte Set-CsOnlinePSTNGateway cmdlet e parâmetro SendSipOptions), a lógica de roteamento para chamadas de saída rebaixa troncos que não enviam opções SIP periodicamente (o período esperado é uma Opção SIP enviada pelo SBC por minuto) para o back-end da Microsoft. Esses troncos rebaixados são colocados no final da lista de troncos disponíveis para a chamada de saída e são tentados como os últimos; assim, potencialmente diminuindo o tempo de configuração da chamada.
+Qualquer tronco habilitado para esse recurso que não envia pelo menos uma Opção SIP dentro de cinco minutos para qualquer um dos proxies SIP regionais da Microsoft (NOAM, EMEA, APAC, OCEA) é considerado rebaixado. Se um tronco enviar Opções SIP para apenas um subconjunto de Proxies SIP regionais da Microsoft, essas rotas serão tentadas primeiro e o restante será rebaixado.
+
 
 ## <a name="sip-support"></a>Suporte sip
 

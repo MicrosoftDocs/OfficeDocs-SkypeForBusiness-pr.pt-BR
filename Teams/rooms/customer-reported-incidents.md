@@ -1,8 +1,8 @@
 ---
-title: Salas do Microsoft Teams incidentes relatados pelo cliente
-author: donnah007
-ms.author: v-donnahill
-ms.date: 07/08/2022
+title: Salas do Microsoft Teams registrar um problema
+author: altsou
+ms.author: altsou
+ms.date: 09/28/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -16,19 +16,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Os parceiros/clientes podem fechar incidentes manualmente e garantir relatórios precisos da integridade da sala no MTRP.
-ms.openlocfilehash: 308e2d4578637e4b50a8324a3f98bad82ad5c5d0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: Os parceiros ou clientes podem abrir manualmente um incidente por meio de "Registrar um problema" para garantir um relatório preciso da integridade da sala no portal de Gerenciamento Pro.
+ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270306"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218115"
 ---
-# <a name="customer-reported-incident-tickets"></a>Tíquetes de incidente relatados pelo cliente
+# <a name="record-an-issue-ticket"></a>Registrar um tíquete de problema
 
-Para qualquer tipo de incidente que a Microsoft não sinalize ou para perguntas sobre o serviço/recursos, os clientes ou parceiros em nome dos clientes podem usar o recurso Incidente de Relatório para alertar a Microsoft para investigar o problema ou responder à pergunta.
-
-![captura de tela do incidente de relatório >Incidentes](../media/customer-reported-incidents-001.png)
+Para qualquer tipo de incidente que o MTR Pro não sinalize ou simplesmente acompanhe os problemas em um MTR ou espaço, os clientes ou parceiros em nome dos clientes podem usar o recurso Registrar um problema.
 
 No campo Descrição, descreva o melhor possível o problema com o qual você precisa de ajuda da Microsoft. Você pode adicionar uma ou mais salas.
 
@@ -37,40 +35,32 @@ Verifique  **o alto impacto** se o incidente está causando degradação signifi
 > [!NOTE]
 > Não use esse campo para perguntas gerais, salas e/ou problemas que não têm mitigação disponível.
 
-![captura de tela das salas de relatório de incidentes afetadas](../media/customer-reported-incidents-002.png)
+Quando uma sala é (ou salas estão) selecionadas como parte do Registro de um problema, cada sala será marcada como  Não Íntegra até que o problema registrado seja fechado.
 
-Os CRIs (incidentes relatados pelo cliente) são considerados tíquetes críticos, o que significa que a Salas do Teams do Centro de Operações de Serviço faz a triagem desses tíquetes primeiro. Consulte o SLA de Descrição do Serviço para incidentes relatados pelo [cliente aqui](microsoft-teams-rooms-premium.md). Quando uma sala for (ou salas) selecionada como parte do CRI, cada sala será marcada como Não Íntegra até  que a CRI seja fechada.
+## <a name="closing-record-an-issue-tickets"></a>Fechar Registro de um problema de tíquetes
 
-## <a name="closing-customer-reported-incident-tickets"></a>Fechando tíquetes de incidente relatados pelo cliente
+Os problemas registrados podem ser fechados pelo cliente ou pelos parceiros que gerenciam salas em nome dos clientes.
 
-Incidentes relatados pelo cliente podem ser fechados pelo cliente, parceiros que gerenciam salas em nome dos clientes ou pelos engenheiros do Centro de Operações de Serviço da Microsoft.
-
-**Para fechar um incidente**
+**Para fechar um tíquete de problema registrado**
 
 1. Selecione **Fechar tíquete**.
 
-   ![captura de tela dos detalhes da Visão geral de incidentes](../media/customer-reported-incidents-003.png)
-
-1. Escolha um motivo para o fechamento selecionando uma categoria na lista.
+2. Escolha um motivo para o fechamento selecionando uma categoria na lista.
 
    Depois de confirmar o motivo do fechamento, o tíquete será fechado e movido para **Resolvido**.
 
-   ![captura de tela do tíquete fechado](../media/customer-reported-incidents-004.png)
-
 A seção Visão geral de detalhes do tíquete exibe que o tíquete foi fechado pelo Serviço de Salas Gerenciadas (Microsoft) ou pelo nome do cliente/parceiro.  
-
- ![captura de tela de quem fechou o tíquete ](../media/customer-reported-incidents-005.png)
 
 ## <a name="faq"></a>Perguntas frequentes
 
 **Alguém pode fechar ingressos?**
 
-Somente incidentes relatados pelo cliente podem ser fechados por um usuário ou pelo Centro de Operações de Serviço de Salas Gerenciadas da Microsoft. Os clientes que atribuiram um parceiro para gerenciar suas salas com permissões de Gerenciamento de Tíquetes terão a capacidade de fechar incidentes relatados pelo cliente.
+Somente incidentes relatados pelo cliente podem ser fechados por um usuário. Os clientes que atribuiram um parceiro para gerenciar suas salas com permissões de Gerenciamento de Tíquetes terão a capacidade de fechar tíquetes de problema registrados.
 
 **Posso restringir quem pode fechar ingressos?**
 
-Não neste momento. Todos os usuários que têm permissões de Gerenciamento de Tíquetes podem fechar um CRI.
+Não neste momento. Todos os usuários que têm permissões de Gerenciamento de Tíquetes podem fechar um tíquete de problema registrado.
 
-**Sou notificado quando um tíquete de incidente relatado pelo cliente é fechado?**
+**Sou notificado quando um registro de um tíquete de problema é fechado?**
 
 Não neste momento.

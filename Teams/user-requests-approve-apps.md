@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: Saiba como gerenciar e configurar a solicitação do usuário final
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706220"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377599"
 ---
 # <a name="manage-user-requests"></a>Gerenciar solicitações de usuário
 
@@ -33,7 +35,7 @@ Essa funcionalidade fornece um sinal sobre a demanda por um aplicativo em sua or
 
 Você mantém o controle total dos aplicativos que são permitidos ou bloqueados para os usuários. Se você optar por permitir um aplicativo, os controles e a interface do usuário para gerenciar aplicativos permanecerão os mesmos.
 
-* A opção padrão envia as solicitações do usuário para o centro de administração do Teams, no qual você pode exibir solicitações [de usuário e permitir os aplicativos solicitados](#view-user-requests-in-teams-admin-center).
+* A opção padrão envia as solicitações do usuário para o centro de administração do Teams, no qual você pode exibir solicitações [de usuário e permitir os aplicativos solicitados](#view-and-act-on-user-requests-in-teams-admin-center).
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="Captura de tela mostrando a opção de solicitar que um administrador aprove um aplicativo bloqueado.":::
 
@@ -41,7 +43,7 @@ Você mantém o controle total dos aplicativos que são permitidos ou bloqueados
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="Captura de tela mostrando a experiência do usuário final para aplicativos na loja quando um administrador redireciona a URL de solicitação de aplicativo de permissão para uma URL específica da organização.":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>Exibir solicitações de usuário no Centro de administração do Teams
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>Exibir e agir em solicitações de usuário no Centro de administração do Teams
 
 As solicitações do usuário final recebidas pelo método padrão são exibidas no Centro de administração do Teams. Você pode facilmente exibir e gerenciar as solicitações. Recomendamos uma triagem regular para verificar se há solicitações do usuário final. Para exibir e permitir os aplicativos, siga as etapas:
 
@@ -90,7 +92,7 @@ Se você optar por fazer isso, os métodos para avaliar aplicativos de terceiros
 
 ## <a name="dismiss-user-requests"></a>Ignorar solicitações de usuário
 
-Para ignorar as solicitações para um aplicativo de permissão, siga as etapas:
+Para ignorar as solicitações, siga as etapas:
 
 1. Selecione o nome do aplicativo para o qual você deseja ignorar as solicitações do usuário.
 1. Selecione **Gerenciar solicitações**.

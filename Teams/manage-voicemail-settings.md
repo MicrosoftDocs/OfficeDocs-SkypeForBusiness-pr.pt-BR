@@ -1,6 +1,6 @@
 ---
 title: Gerenciar Caixa postal na Nuvem configurações
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Gerencie as configurações de Caixa Postal para seus usuários.
-ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96ac5e13360463150a5ff21bc8042b701a4f9717
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269596"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999486"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>Gerenciar Caixa postal na Nuvem configurações para usuários
 
@@ -44,11 +44,11 @@ As configurações padrão para Caixa postal na Nuvem são:
 - O compartilhamento de dados de caixa postal e transcrição com o serviço para treinamento e aprimoramento de finalidades de precisão está desabilitado.
 - A regra de atendimento de chamadas é definida como Caixa Postal Regular.
 - A substituição do prompt de saudação padrão não está definida.
-- A substituição padrão do prompt de saudação de ausência temporária não está definida.
+- A substituição do prompt de saudação de ausência temporária padrão não está definida.
 - O destino de transferência não está definido.
 
 
-Para gerenciar Caixa postal na Nuvem recursos para seus usuários, você pode usar o Centro de administração do Teams ou o PowerShell. Observe que os usuários finais também podem definir essas configurações no cliente do Teams acessando Configurações **-> Chamadas -> Caixa Postal.**
+Para gerenciar Caixa postal na Nuvem recursos para seus usuários, você pode usar o Centro de administração do Teams ou o PowerShell. Os usuários finais também podem definir essas configurações no cliente do Teams acessando Configurações **-> Chamadas -> Caixa Postal.**
 
 ## <a name="use-teams-admin-center"></a>Usar o Centro de administração do Teams
 
@@ -75,7 +75,7 @@ Você também pode usar o PowerShell para gerenciar as configurações de caixa 
 
 ## <a name="voicemail-settings"></a>Configurações de caixa postal
 
-- **Caixa postal habilitada** – essa configuração controla se Caixa postal na Nuvem está habilitado para o usuário. Se as configurações forem falsas, Caixa postal na Nuvem serviço não estará disponível para o usuário e não gravará uma caixa postal para o usuário.
+- **Caixa postal habilitada** – essa configuração controla se Caixa postal na Nuvem está habilitado para o usuário. Se a configuração for falsa, Caixa postal na Nuvem serviço não estará disponível para o usuário e não gravará uma caixa postal para o usuário.
 
 - **Idioma do** prompt – essa configuração especifica o idioma usado para os prompts no Caixa postal na Nuvem. Para obter mais informações, [consulte Alterar o idioma padrão para saudações e emails](change-the-default-language-for-greetings-and-emails.md).
 
@@ -89,7 +89,7 @@ Você também pode usar o PowerShell para gerenciar as configurações de caixa 
 
   - **Oof Greeting Follow Calendar Enabled** - especifica se a saudação de ausência temporária deve ser executada no cenário de depósito de caixa postal quando o usuário definir ausência temporária no calendário.
 
-  - Substituição padrão do prompt de saudação de **Oof** – especifica a saudação de conversão de texto em fala que será reproduzida caso o usuário esteja fora do escritório e não tenha registrado uma saudação de ausência temporária.
+  - Substituição padrão do Prompt de Saudação de **Oof** – especifica a saudação de conversão de texto em fala que será reproduzida caso o usuário esteja fora do escritório e não tenha registrado uma saudação de ausência temporária.
 
 - **Regra de atendimento de chamadas** – essa configuração especifica a regra de atendimento de chamadas. A regra pode ser:
   - O serviço recusa a chamada sem nenhuma mensagem.

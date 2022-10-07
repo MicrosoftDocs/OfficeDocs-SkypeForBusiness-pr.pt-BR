@@ -1,9 +1,9 @@
 ---
 title: Salas do Microsoft Teams padrões e planejamento de sala
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: srpall
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Crie e colete padrões com base em recomendações inteligentes do seu ambiente.
 f1keywords: ''
-ms.openlocfilehash: 05376b7c40131be54291961a7562faa6566e8e89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bcad1c98cbbf71467789617c53ea98d8f192da49
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271956"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243832"
 ---
 # <a name="standards-and-room-planner"></a>Standards e Planejador de Sala
 
@@ -30,7 +30,7 @@ Usando recomendações inteligentes do seu ambiente, você pode criar e coletar 
 
 ## <a name="view-meeting-room-types"></a>Exibir tipos de sala de reunião
 
-Nesta página, você pode exibir os tipos de espaço de reunião ou sala em sua organização. Uma rápida análise de quantos padrões você tem para salas de reunião, quantos novos dispositivos foram descobertos e o número de dispositivos que exigem que uma ação seja tomada.
+Nesta página, você pode exibir os tipos de espaço de reunião ou sala em sua organização. Uma análise rápida de quantos padrões você tem para salas de reunião, quantos novos dispositivos foram descobertos e o número de dispositivos que exigem que uma ação seja executada.
 
 Esta página também tem uma barra de comandos na qual você pode iniciar  o fluxo de trabalho Criar um fluxo de trabalho padrão ou navegar até Dispositivos Descobertos, Logs de Alteração e Arquivo Morto.
 

@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922832"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047211"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>Barreiras de informações e canais compartilhados (versão prévia)
 
-[Os canais](shared-channels.md) compartilhados Microsoft Teams criar espaços de colaboração em que você pode convidar pessoas que não estão na equipe. [As Barreiras de Informações do Microsoft Purview](/microsoft-365/compliance/information-barriers) são políticas que podem ser implementadas para restringir e impedir que usuários e grupos se comuniquem entre si dentro e fora de sua organização.
+[Os canais compartilhados](shared-channels.md) no Microsoft Teams criam espaços de colaboração em que você pode convidar pessoas que não estão na equipe. [As Barreiras de Informações do Microsoft Purview](/microsoft-365/compliance/information-barriers) são políticas que podem ser implementadas para restringir e impedir que usuários e grupos se comuniquem entre si dentro e fora de sua organização.
 
-Os canais compartilhados são habilitados por padrão Teams. Você pode escolher se as pessoas podem criar canais compartilhados, se elas podem compartilhá-los com pessoas de fora da sua organização e se elas podem participar de canais compartilhados externos criando uma política de canal. Quando as políticas de barreiras de informações são configuradas em sua organização, as verificações são executadas ao configurar canais compartilhados para verificar se nenhum dos membros do canal existente e os novos usuários adicionados ao canal compartilhado violam as condições da política de barreiras de informações.
+Os canais compartilhados são habilitados por padrão no Teams. Você pode escolher se as pessoas podem criar canais compartilhados, se elas podem compartilhá-los com pessoas de fora da sua organização e se elas podem participar de canais compartilhados externos criando uma política de canal. Quando as políticas de barreiras de informações são configuradas em sua organização, as verificações são executadas ao configurar canais compartilhados para verificar se nenhum dos membros do canal existente e os novos usuários adicionados ao canal compartilhado violam as condições da política de barreiras de informações.
 
 Use a tabela a seguir para entender como as políticas de barreiras de informações podem afetar as comunicações e resultar em comportamentos específicos ao configurar canais compartilhados:
 

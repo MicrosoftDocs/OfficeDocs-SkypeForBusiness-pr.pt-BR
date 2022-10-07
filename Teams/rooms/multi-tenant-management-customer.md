@@ -1,9 +1,9 @@
 ---
 title: Gerenciamento de parceiros para clientes
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.date: 06/09/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: gerenciamento de parceiros para clientes.
 f1keywords: ''
-ms.openlocfilehash: 9ac7e01de1f9a9e620afa665298d8f3746319db2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 2c25bbfdd9b628641228eae6f52907e99a7beb9e
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271366"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243932"
 ---
 # <a name="partner-management-for-customers"></a>Gerenciamento de parceiros para clientes
 
-O gerenciamento de parceiros no serviço Salas do Teams gerenciado (TRM) permite que os clientes deleguem diretamente o acesso e as responsabilidades a uma ou várias organizações parceiras. Os parceiros só podem gerenciar salas atribuídas a eles para gerenciar.
+O gerenciamento de parceiros no Salas do Teams Pro Management permite que os clientes deleguem diretamente o acesso e as responsabilidades a uma ou várias organizações parceiras. Os parceiros só podem gerenciar salas atribuídas a eles para gerenciar.
 
 ## <a name="on-boarding-partners"></a>Parceiros de integração
-   Convide parceiros por meio do portal TRM para estabelecer a relação entre sua organização e o locatário da organização parceira.
+   Convide parceiros por meio do portal de Gerenciamento Pro para estabelecer a relação entre sua organização e o locatário da organização parceira.
 
 ### <a name="invitation-to-partner"></a>Convite para parceiro
 
@@ -38,7 +38,7 @@ O gerenciamento de parceiros no serviço Salas do Teams gerenciado (TRM) permite
 
 **Para iniciar o convite** 
 
-1. Faça logon no Salas do Teams gerenciado como administrador de serviços gerenciados.
+1. Faça logon no portal Salas do Teams Pro Management como administrador de serviços gerenciados.
 1. Vá para **Configurações >** **Parceiros** e, em seguida, **selecione Adicionar parceiro.**
 1. Insira o nome de domínio na primeira linha.
 1. Configure o número de dias até que o convite expire inserindo um inteiro de 1 a 30.
@@ -65,7 +65,7 @@ Para gerenciar usuários na função de administrador principal, consulte [Geren
 
 **Para remover um parceiro**
 
-1. Faça logon no portal TRM-MTM como administrador mmr.
+1. Faça logon no portal do Gerenciamento Pro multilocatário (MTM) como administrador de Serviços Gerenciados.
 1. Navegue até **Configurações > Parceiros.**
 1. Selecione o parceiro que você deseja remover.
 1. No painel de detalhes do cliente, selecione **Remover parceiro.**
@@ -84,7 +84,7 @@ Se você já enviou um convite para um parceiro e deseja delegar mais salas, pod
 
 **Para adicionar novas salas a um parceiro existente**
 
-1. Faça logon no portal TRM-MTM como administrador mmr.
+1. Faça logon no portal do Pro Management-MTM como um administrador do Serviço Gerenciado.
 1. Vá para **Configurações > Funções.**
 1. Selecione  **Funções de parceiro.** 
 1. Selecione a **função de administrador** principal para o nome do parceiro correspondente.
@@ -97,7 +97,7 @@ Se você já enviou um convite para um parceiro e deseja delegar mais salas, pod
 
 ### <a name="table-1"></a>Tabela 1
 
-|Recurso|Permissão|**MmR Administração**|**Cliente potencial do site**|**Site Tech**|**Administrador de parceiros**|
+|Recurso|Permissão|**Serviço gerenciado Administração**|**Cliente potencial do site**|**Site Tech**|**Administrador de parceiros**|
 | :- | :- | :- | :- | :- | :- |
 |Quartos|Exibir| &#10004;|&#10004;|&#10004;|&#10004;|
 ||Modificar|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -114,7 +114,7 @@ Se você já enviou um convite para um parceiro e deseja delegar mais salas, pod
 ||Criar incidente de cliente|&#10004;|&#10004;|&#10004;|&#10004;|
 |Gerenciamento de tíquetes|Exibir|&#10004;|&#10004;|&#10004;|&#10004;|
 ||Atualizar|&#10004;|&#10004;|&#10004;|&#10004;|
-|Configurações de MMR|Exibir|&#10004;||||
+|Configurações de Gerenciamento Pro|Exibir|&#10004;||||
 ||Modificar|&#10004;||||
 |Gerenciamento de funções|Exibir |&#10004;|||&#10004;|
 ||Modificar|&#10004;|||&#10004;|
@@ -123,7 +123,7 @@ Se você já enviou um convite para um parceiro e deseja delegar mais salas, pod
 
 Como cliente final, você mantém o controle sobre o acesso aos seus dados e pode remover completamente um parceiro a qualquer momento. 
 
-Com o recurso de acesso delegado, um parceiro não obtém nenhum outro privilégio fora do portal do serviço TRM. No entanto, todos os dados presentes no serviço TRM derivados de outros produtos da Microsoft são considerados dados no serviço TRM. Por exemplo, embora os relatórios de qualidade de chamada sejam derivados de dados de qualidade de chamada do Teams, todos os dados no portal TRM estão no escopo de permissão. 
+Com o recurso de acesso delegado, um parceiro não obtém nenhum outro privilégio fora do portal de Gerenciamento Pro. No entanto, todos os dados presentes no serviço de Gerenciamento Pro derivados de outros produtos da Microsoft são considerados dados no serviço. Por exemplo, embora os relatórios de qualidade de chamada sejam derivados de dados de qualidade de chamada do Teams, todos os dados no portal de Gerenciamento Pro estão no escopo de permissão. 
 
 Nenhuma permissão é concedida ao AAD ou ao Teams Administração Center ou qualquer outro produto da Microsoft. Além disso, os parceiros não têm acesso para exibir ou modificar salas não definidas no escopo do convite. 
 
@@ -134,4 +134,4 @@ O portal MTM usa Azure AD autenticação para validar as credenciais de logon do
 Para efetuar pull de logs na atividade do parceiro, consulte [Auditoria](multi-tenant-auditing.md). 
 
 > [!NOTE]
-> A auditoria do AAD e a auditoria do O365 não capturam logs do portal TRM. 
+> A auditoria do AAD e a auditoria do O365 não capturam logs do portal de Gerenciamento Pro. 
