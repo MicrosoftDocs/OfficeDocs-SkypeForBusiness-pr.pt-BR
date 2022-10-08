@@ -12,6 +12,7 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
@@ -22,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização da área de saúde.
-ms.openlocfilehash: 29192cfeec6545cdbbb5528eeabc1298146e4577
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9bd4d78a02bf32be68cb13ac85daff886986876d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397252"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046931"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Pacotes de políticas do Teams para a área de saúde
 
@@ -85,7 +86,7 @@ Lembre-se de que você também pode alterar as configurações das políticas em
 
 ### <a name="assign"></a>Atribuir
 
-Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, mais tarde, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 > [!NOTE]
 > Cada usuário exigirá o complemento de Comunicações Avançadas para receber uma atribuição de pacote de políticas personalizadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).

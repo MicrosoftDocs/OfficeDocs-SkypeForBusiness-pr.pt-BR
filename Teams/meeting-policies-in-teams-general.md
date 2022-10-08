@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações gerais de política de reunião no Teams.
-ms.openlocfilehash: 0278133ff33e811cc4f08e1ad2973f52615d1426
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706950"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046721"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
@@ -154,7 +154,7 @@ Para desativar o registro de reunião e impedir que os usuários agendem webinar
 
 Essa política controla quais usuários podem registrar e participar de webinars. Essa política tem duas opções, que só estarão disponíveis se **o registro de Reunião** estiver ativado.
 
-- **Defina Quem pode se** registrar para Todos se quiser permitir que todos, incluindo usuários anônimos, registrem e participem de webinars que os usuários em sua organização configuraram.
+- **Defina Quem pode se** **registrar para** Todos se quiser permitir que todos, incluindo usuários anônimos, registrem e participem de webinars que os usuários da sua organização configuram.
 - **Defina Quem pode se** **registrar em** Todos na organização se quiser permitir que somente os usuários em sua organização registrem e participem de webinars.
 
 Por padrão, **Quem pode se registrar** é definido como **Todos**. Para editar essa política no centro de administração do Teams, acesse políticas **de Reunião** > **.**
@@ -181,8 +181,9 @@ Para especificar o suplemento de reunião que você deseja disponibilizar para o
   Se você definir o parâmetro para **Teams** e, em seguida, retornar para **TeamsAndSfB**, os suplementos para ambas reuniões serão habilitados. No entanto, lembre-se de links de ingresso existentes da reunião do Teams não serão migradas para o Skype for Business. Somente as reuniões do Skype for Business agendadas depois da alteração terão um link de ingresso na reunião do Skype for Business.
 
 ## <a name="meeting-reactions"></a>Reações de reunião
+A disponibilidade de reações de reunião pode ser configurada por meio da interface do centro de administração do Teams ou usando o PowerShell. As reações de reunião podem ser habilitadas ou desabilitadas na seção **Participantes & convidados** de uma política de reunião.
 
-A configuração AllowMeetingReactions só pode ser aplicada usando o PowerShell. Não há nenhuma opção para ativar ou desativar AllowMeetingReactions no Centro de administração do Teams.
+Para definir a configuração, use o Set-CsTeamsMeetingPolicy cmdlet. Essa configuração é habilitada por padrão. Para desativá-lo, **defina AllowMeetingReactions** como **False**.
 
 As reações de reunião estão ativadas por padrão. Desativar as reações para um usuário não significa que ele não possa usar as reações nas reuniões agendadas por ele. O organizador da reunião ainda pode ativar as reações na página de opção da reunião, independentemente da configuração padrão.
 

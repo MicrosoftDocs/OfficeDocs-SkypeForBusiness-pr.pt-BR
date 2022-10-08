@@ -1,7 +1,7 @@
 ---
-title: Teams idiomas para mensagens e saudações da caixa postal
-author: dstrome
-ms.author: dstrome
+title: Idiomas do Teams para mensagens e saudações da caixa postal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,16 +21,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba quais idiomas você pode definir em Skype for Business para as mensagens padrão do sistema e as saudações da caixa postal.
-ms.openlocfilehash: 2a9b33e26bde9017be29412bb96086c708a150c1
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 71f7df5a074ad0d3b87bc4111a3f150eccb29dac
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624135"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68481143"
 ---
-# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams idiomas para mensagens e saudações da caixa postal
+# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Idiomas do Teams para mensagens e saudações da caixa postal
 
-Teams dá suporte aos seguintes idiomas para saudações de caixa postal.
+O Teams dá suporte aos seguintes idiomas para saudações de caixa postal.
   
 
 

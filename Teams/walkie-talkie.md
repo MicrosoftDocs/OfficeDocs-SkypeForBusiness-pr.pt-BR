@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Como configurar o aplicativo Walkie Talkie no Microsoft Teams, de uma perspectiva do ITAdmin.
+description: Como configurar o aplicativo Walkie Talkie no Microsoft Teams, de uma perspectiva de administrador de TI.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -15,16 +15,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465989"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377299"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie no Microsoft Teams
 
@@ -35,9 +36,16 @@ Com o Walkie Talkie no Teams, os trabalhadores da linha de frente podem se comun
 > [!NOTE]
 > Walkie Talkie não está disponível atualmente na China.
 
+## <a name="license-requirements"></a>Requisitos de licença
+
+O Walkie Talkie está incluído em todas as licenças pagas do Teams no [Microsoft 365 e Office 365 assinaturas](/office365/servicedescriptions/teams-service-description). Para obter mais informações sobre como obter o Teams, confira [Como fazer obter acesso ao Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
+
 ## <a name="deploying-walkie-talkie"></a>Implantando Walkie Talkie
 
 O Walkie Talkie tem suporte em dispositivos Android com dispositivos GMS (Google Mobile Services) e iOS.
+
+> [!NOTE]
+> Se os usuários estão usando acessórios Bluetooth, verifique se a solução de MDM (gerenciamento de dispositivo móvel) não bloqueia dispositivos Bluetooth.
 
 ### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>Habilitar ou desabilitar o Walkie Talkie em sua organização
 
@@ -113,10 +121,6 @@ Os trabalhadores da linha de frente geralmente precisam falar e receber chamadas
 
 > [!NOTE]
 > Esses dispositivos não são certificados pelo Teams. Eles foram validados para trabalhar com o Walkie Talkie do Teams.
-
-## <a name="license-requirements"></a>Requisitos de licença
-
-O aplicativo Walkie Talkie está incluído em todas as licenças pagas do Teams [Office 365 assinaturas](/office365/servicedescriptions/teams-service-description). Para obter mais informações sobre como obter o Teams, confira [Como fazer obter acesso ao Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
 
 ## <a name="more-information"></a>Mais informações
 

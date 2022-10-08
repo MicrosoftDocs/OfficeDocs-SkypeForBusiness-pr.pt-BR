@@ -9,9 +9,11 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 10/01/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,18 +21,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 67c50eefdd1d0e20e10b9542912f0e2c4f412815
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837641"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376989"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Entenda os aplicativos do Microsoft Teams
 
-Os aplicativos são uma ótima maneira de reunir suas ferramentas e serviços do local de trabalho e colaborar com outras pessoas. Os aplicativos ajudam os usuários finais a serem mais produtivos, colaborativos e eficazes em suas tarefas diárias. As organizações usam aplicativos para se conectar com seus clientes, fornecer serviços e compartilhar informações. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal.
+Os aplicativos no Teams ajudam os usuários a reunir suas ferramentas e serviços de local de trabalho e colaborar com outras pessoas. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados localmente.
 
-Nosso amplo [catálogo de](https://appsource.microsoft.com/en-US/marketplace/apps?product=office%3Bteams&page=1) aplicativos validados e seguros na Loja do Teams fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados. Os usuários finais podem usar aplicativos no Teams com base apenas nas [permissões fornecidas por você](app-policies.md). Como administrador, você usa políticas de nível empresarial para permitir ou bloquear qualquer aplicativo para os usuários da sua organização. Você controla a disponibilidade de aplicativos para cada usuário em vários contextos, como reuniões, bate-papos e canais.
+Como administrador, você define um processo de governança de aplicativos que equilibra os requisitos abrangentes dos usuários finais, juntamente com as políticas de TI, os padrões e os perfis de risco da sua organização.
+
+Nosso amplo [catálogo de](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) aplicativos do Teams validados e seguros fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. O Centro de administração do Teams fornece aos administradores controles e configurações de nível empresarial para controlar os aplicativos. Você controla a disponibilidade de aplicativos para cada usuário em vários contextos, como reuniões, bate-papos e canais.
 
 Este artigo ajuda você a entender os tipos de aplicativos e de onde os seus usuários acessam esses aplicativos. Para saber mais sobre o uso de aplicativos, leia [Visão geral dos aplicativos para usuários finais](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -53,7 +57,7 @@ A Microsoft fornece muitos aplicativos para melhorar a produtividade e a colabor
 
 O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas, Elogiar, Aprovações e muito mais. Recomendamos que você inclua os aplicativos em destaque—como o Planner—em sua distribuição inicial do Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de tela de aplicativos da Microsoft no centro de administração do Teams." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de tela mostrando uma lista de aplicativos da Microsoft no Centro de administração do Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Aplicativos de terceiros validados pela Microsoft
 
@@ -168,6 +172,6 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-articles"></a>Artigos relacionados
+## <a name="related-article"></a>Artigo relacionado
 
 * [Saiba mais sobre modelos de aplicativo para o Teams](/microsoftteams/platform/samples/app-templates).

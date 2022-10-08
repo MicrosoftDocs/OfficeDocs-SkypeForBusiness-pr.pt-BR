@@ -6,60 +6,71 @@ manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 09/25/2022
 search.appverid: ''
-description: Saiba mais sobre políticas de permissão de aplicativo, políticas de configuração de aplicativo e políticas de aplicativo personalizadas usadas para gerenciar aplicativos no Microsoft Teams.
+description: Saiba mais sobre políticas de permissão de aplicativo e políticas de configuração usadas para gerenciar aplicativos no Microsoft Teams.
 audience: admin
 ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: ad7e99d10ebf53c7a85394edda84061f6caf0d29
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 1c99cd9c0be3251a237b547cd8a2096d2d0e02af
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837561"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494644"
 ---
-# <a name="overview-of-app-policies-used-to-manage-access-to-apps"></a>Visão geral das políticas de aplicativo usadas para gerenciar o acesso a aplicativos
+# <a name="app-policies-used-to-manage-access-to-and-installation-of-apps"></a>Políticas de aplicativo usadas para gerenciar o acesso e a instalação de aplicativos
 
-O Microsoft Teams usa políticas para controlar o comportamento de acesso e instalação. As políticas ajudam os administradores do Teams a controlar o seguinte comportamento de aplicativo:
+O Microsoft Teams usa políticas de aplicativo para controlar o comportamento de acesso e instalação de aplicativos. As políticas de aplicativo ajudam os administradores do Teams a controlar o seguinte comportamento de aplicativo:
 
-* Configure o acesso de aplicativos para os usuários em um nível granular. Ele ajuda cada usuário final a usar apenas os aplicativos que um administrador permitiu para eles.
+* Configure o acesso de aplicativos para cada usuário individual ou para um grupo de usuários. Ele ajuda o administrador a controlar os aplicativos permitidos para cada usuário final.
 
-* Fixe os aplicativos relevantes para um usuário específico. Ele ajuda os usuários finais a começar facilmente e a acessar os aplicativos relevantes rapidamente, já que os aplicativos fixados são instalados automaticamente sem intervenção.
+* Fixe esses aplicativos para usuários finais relevantes para as necessidades da sua organização. Além disso, os administradores podem instalar aplicativos para usuários finais sem intervenção do usuário. Ele ajuda os usuários finais a começar facilmente com os aplicativos relevantes.
+
+* Controlar quais desenvolvedores em sua organização podem enviar aplicativos personalizados para aprovação do administrador. Ele ajuda você a controlar o acesso à funcionalidade de upload de aplicativos personalizados.
 
 ## <a name="app-permission-policies"></a>Políticas de permissão do aplicativo
 
-Com as políticas de permissão de aplicativo, o administrador do Teams pode controlar quais aplicativos estão disponíveis para quais usuários específicos em sua organização. Você pode definir o mapeamento de acesso exato entre o aplicativo e o usuário ou qualquer combinação de ambos. Por exemplo, você pode permitir alguns aplicativos para todos os usuários, permitir alguns aplicativos para um grupo específico de usuários ou permitir um aplicativo específico para um usuário específico.
+Com as políticas de permissão de aplicativo, o administrador do Teams controla quais aplicativos estão disponíveis para cada usuário em sua organização. Você pode permitir alguns aplicativos para todos os usuários, permitir alguns aplicativos para um grupo específico de usuários ou permitir aplicativos específicos para usuários específicos. As políticas de permissão de aplicativo funcionam em conjunto com configurações de toda a organização e permitem ou bloqueiam o status de cada aplicativo individual.
 
-As políticas de permissão do aplicativo se aplicam a todos os tipos de aplicativos disponíveis no Teams. Por exemplo, você pode usar políticas de permissão de aplicativo para distribuir gradualmente um aplicativo de terceiros ou um aplicativo personalizado, permitindo-o para usuários específicos.
+As políticas de permissão do aplicativo se aplicam a todos [os tipos de aplicativos disponíveis no Teams](deploy-apps-microsoft-teams-landing-page.md). Alguns cenários de exemplo em que você usa políticas de permissão de aplicativo são:
+
+* Distribuir gradualmente um aplicativo para alguns usuários inicialmente e para todos os usuários eventualmente.
+* Permita um aplicativo personalizado de recrutação e gerenciamento de talentos para apenas membros do departamento de RH e bloqueie-o para todos os outros usuários da organização.
 
 :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="Captura de tela da política de permissão do aplicativo." lightbox="media/app-permission-policy.png":::
 
-Para saber mais, confira [como gerenciar configurações e políticas de aplicativo personalizadas](teams-app-permission-policies.md).
+Para saber mais, confira [como gerenciar políticas de permissão de aplicativo](teams-app-permission-policies.md).
 
 ## <a name="app-setup-policies"></a>Políticas de configuração do aplicativo
 
-As políticas de configuração de aplicativo permitem que você personalize a experiência do aplicativo para seus usuários. Escolha os aplicativos que deseja fixar na barra de aplicativos nos clientes do Teams e a ordem em que eles aparecem, na Web, na área de trabalho e em clientes móveis.
+As políticas de configuração de aplicativo permitem que você configure como e onde estão os aplicativos disponíveis para os usuários no cliente do Teams. Escolha os aplicativos que deseja fixar na barra de aplicativos nos clientes do Teams e defina a ordem em que os aplicativos são exibidos.
 
-Aqui estão alguns exemplos de como você pode usar políticas de configuração de aplicativo:
+Fixar ou instalar aplicativos ajuda a promover o reconhecimento e a adoção dos aplicativos desejados em sua organização. As alterações se aplicam a clientes Web, desktop e móveis do Teams.
 
-* Instalar aplicativos para usuários finais em seu ambiente pessoal do Teams. Ele ajuda a impulsionar a conscientização e a adoção dos aplicativos desejados. Por exemplo, fixe um aplicativo personalizado de gerenciamento de talentos e recrutação para membros da sua equipe de RH.
-* Fixe seletivamente os principais aplicativos, como Chat, Teams e Chamadas.
+Alguns cenários de exemplo em que você usa políticas de configuração de aplicativo são:
+
+* Fixe um aplicativo personalizado de gerenciamento de talentos e recrutas para membros da sua equipe de RH.
+* Altere a ordem dos aplicativos principais pré-fixados para os usuários da sua organização.
 
 :::image type="content" source="media/app-setup-policy-trimmed.png" alt-text="Captura de tela da política de configuração do aplicativo no centro de administração do Teams." lightbox="media/app-setup-policy.png":::
 
 Para saber mais, confira [como gerenciar políticas de configuração de aplicativo](teams-app-setup-policies.md).
 
-## <a name="custom-app-policies"></a>Políticas de aplicativo personalizados
+### <a name="option-to-upload-custom-apps"></a>Opção para carregar aplicativos personalizados
 
-O Teams permite que os desenvolvedores em sua organização criem, testem e implantem aplicativos personalizados para os usuários internos da organização. Os desenvolvedores podem enviar seus aplicativos personalizados por meio do Teams para aprovação dos administradores do Teams. Você pode usar políticas de configuração de aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados. Os administradores podem permitir que os usuários finais da organização usem aplicativos personalizados e desenvolvedores para carregar aplicativos personalizados, usando as configurações de aplicativo em toda a organização.
+A sua organização pode encomendar a criação de aplicativos personalizados para requisitos específicos da organização. Os desenvolvedores em sua organização podem criar, testar e implantar aplicativos personalizados para os usuários internos do Teams da organização. Você usa a política de configuração de aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados. Você usa configurações de toda a organização para permitir que os usuários finais usem aplicativos personalizados. Você usa políticas de permissão para permitir que somente usuários finais específicos usem um aplicativo personalizado.
 
 :::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="Captura de tela que mostra como permitir aplicativos personalizados em sua organização no painel de configurações de toda a organização." lightbox="media/custom-app-policy.png":::
 
-Para saber mais, veja [como gerenciar configurações e políticas de aplicativo personalizadas](teams-custom-app-policies-and-settings.md).
+Para saber mais, confira [como gerenciar políticas e configurações para aplicativos personalizados](teams-custom-app-policies-and-settings.md).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
 * [Gerenciar o Teams com políticas](manage-teams-with-policies.md)
+* [Gerenciar políticas de permissão de aplicativo](teams-app-permission-policies.md)
+* [Gerenciar políticas de configuração de aplicativo](teams-app-setup-policies.md)
+* [Gerenciar políticas e configurações para aplicativos personalizados](teams-custom-app-policies-and-settings.md)

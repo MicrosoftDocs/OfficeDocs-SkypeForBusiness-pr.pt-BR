@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Saiba como configurar e gerenciar atendedores automáticos no Microsoft Teams.
-ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: c2ae316815111193d81f191bdecd2fd7b1d59794
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443398"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046471"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -51,6 +51,7 @@ Os atendedores automáticos podem redirecionar chamadas, com base na entrada dos
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novidades para atendedores automáticos nos últimos 6 meses
  
+ - Setembro – **A opção Forçar Escuta** agora está disponível com a opção **de menu** Reproduzir para o fluxo de chamadas, o fluxo de chamadas para horas extras e o fluxo de chamadas durante feriados.
  - Agosto – **As opções do menu** Reproduzir no fluxo de chamadas, no fluxo de chamadas para horas extras e no fluxo de chamadas durante feriados \* agora dão suporte a chaves (asterisco) \# e (libra).
  - Julho – O fluxo de chamadas durante feriados agora dá suporte **a opções de menu Reproduzir**.
  
@@ -108,7 +109,8 @@ Depois de definir as informações gerais do atendedor automático, selecione **
 
 #### <a name="play-menu-options"></a>Opções do menu Reproduzir
 
-*As teclas New - \* (asterisco) \# e (pound) agora podem ser usadas nas opções de menu.*
+*Nova – a opção Forçar escuta pode ser habilitada, o que exige que os chamadores ouçam todas as opções de menu antes de fazer a seleção.*
+ *As teclas New - \* (asterisco) \# e (pound) agora podem ser usadas nas opções de menu.*
 
 Para opções de discagem, atribua as teclas 0-9, \* (asterisco) \# e (libra) no teclado do telefone a um dos destinos de roteamento de chamadas. 
 
@@ -167,7 +169,9 @@ Depois de adicionar o fluxo de chamadas após o horário comercial, selecione **
 
 O atendedor automático pode ter um fluxo de chamada para cada [Feriado que você configurou](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
-*Novo – **As opções do menu Reproduzir** agora estão disponíveis em fluxos de chamadas de feriados.*
+*Nova – a opção Forçar escuta pode ser habilitada, o que exige que os chamadores ouçam todas as opções de menu antes de fazer a seleção.*
+ *As teclas New - \* (asterisco) \# e (pound) agora podem ser usadas nas opções de menu.*
+ *Novo – **As opções do menu Reproduzir** agora estão disponíveis em fluxos de chamadas de feriados.*
 
 1. Na página configurações de chamada de Feriado, selecione **Adicionar**.
 

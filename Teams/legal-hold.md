@@ -1,5 +1,6 @@
 ---
 title: Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
+description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o portal de conformidade do Microsoft Purview e saiba o que precisa de uma retenção legal com base nos requisitos de dados.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,20 +8,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o portal de conformidade do Microsoft Purview e saiba o que precisa de uma retenção legal com base nos requisitos de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc99518aa3580311c48966105ccc4b4ba6cf518
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 78dcc82c6a02cc702527f2653da131bdb52c8775
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808752"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047061"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 

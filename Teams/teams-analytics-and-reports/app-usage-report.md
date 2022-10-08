@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-quhur
+ms.reviewer: vapati
+ms.date: 09/27/2022
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +18,16 @@ description: Saiba como usar o relatório de uso do aplicativo Teams no Centro d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 745761b80bd2507a31cb76cdadc015eac8e9f7fd
-ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.openlocfilehash: 9db5378a439061639298b8bc3b48f4d3ef26c50b
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "67313923"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376959"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Relatório de uso de aplicativos do Microsoft Teams
 
-O relatório de uso do aplicativo Teams no centro de administração do Microsoft Teams fornece informações sobre quais aplicativos os usuários estão usando no Teams.  
+O relatório de uso do aplicativo Teams no centro de administração do Microsoft Teams fornece informações sobre quais aplicativos os usuários estão usando no Teams. Você pode obter insights sobre a atividade de aplicativos do Teams em sua organização. Este artigo explica como acessar o relatório e exibir e interpretar as várias métricas dentro do relatório. 
 
 ## <a name="view-the-app-usage-report"></a>Exibir o relatório uso do aplicativo
 
@@ -36,7 +37,7 @@ O relatório de uso do aplicativo Teams no centro de administração do Microsof
 
 1. Na guia **Exibir relatórios** , em **Relatório**, selecione **Uso de Aplicativos**.
 
-1. Em **Intervalo de datas**, selecione um intervalo e, em seguida, **selecione Executar relatório**. Você pode exibir o relatório uso de aplicativos do Teams para tendências nos últimos 7, 30 ou 90 dias.
+1. Em **Intervalo de datas**, selecione um intervalo e, em seguida, **selecione Executar relatório**. Você pode exibir o relatório uso de aplicativos do Teams para tendências nos últimos 7, 30, 90 e 180 dias.
 
    :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="Captura de tela da interface de relatório uso de aplicativos." lightbox="media/app-usage-report2.png":::
 
@@ -44,7 +45,7 @@ O relatório de uso do aplicativo Teams no centro de administração do Microsof
 
 :::image type="content" alt-text="Captura de tela do relatório de uso do aplicativo Teams no Centro de administração do Teams com textos explicativo." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
-Cada relatório tem uma data no canto superior esquerdo que mostra quando o relatório foi criado. Os relatórios geralmente refletem uma latência de 24 horas a partir do momento em que um aplicativo foi aberto.
+Cada relatório tem uma data no canto superior esquerdo que mostra quando o relatório foi criado. Os relatórios geralmente refletem uma latência de 24 a 48 horas a partir do momento em que um aplicativo foi aberto.
 
 Administração central fornece um gráfico dos usuários ativos e as datas. Usuários ativos são o número de usuários que abriram um aplicativo pelo menos uma vez durante o período de tempo selecionado.
 

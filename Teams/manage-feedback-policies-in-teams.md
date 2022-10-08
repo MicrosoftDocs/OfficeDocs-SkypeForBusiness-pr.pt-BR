@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários do Teams em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
-ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
+ms.openlocfilehash: 9510a94a60a79a36292011fdcdad6afa97e6f56f
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "67339795"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494654"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -71,6 +71,7 @@ Para desativar e ativar os recursos, defina os seguintes parâmetros:
  - **Capturas de tela**: use **o sinalizador AllowScreenshotCollection** para adicionar a aceitação da coleção de capturas de tela para os usuários.
  - **Email**: use o **sinalizador AllowEmailCollection** para adicionar um campo de email.
  - **Coleção de** logs: use **o sinalizador AllowLogCollection** para adicionar a aceitação da coleção de logs para os usuários. Atualmente, a coleta de logs está habilitada somente em dispositivos móveis. Para obter mais detalhes sobre quais dados são compartilhados por meio de logs, [saiba mais](https://go.microsoft.com/fwlink/?linkid=2168178).
+ - **Sugerir um recurso**: defina o parâmetro **EnableFeatureSuggestions** como True para permitir que os usuários atribuídos à política sugiram um recurso. Definir o parâmetro como desabilitado desativa o recurso e os usuários que recebem a política não têm a opção de fornecer comentários. A configuração padrão é obtida da configuração de política de experiências conectadas opcionais do Microsoft 365. Para saber mais sobre essa configuração, consulte [Visão geral das experiências conectadas opcionais no Office](/deployoffice/privacy/optional-connected-experiences).
 
 ## <a name="create-a-custom-feedback-policy"></a>Criar uma política de comentários personalizada
 

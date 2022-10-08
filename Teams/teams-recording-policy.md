@@ -19,14 +19,16 @@ ms.custom:
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- tier3
+- purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 659692af6a1236510d5b4572e66cbd299aa92c41
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418480"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046491"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em políticas do Teams para chamadas & reuniões
 
@@ -138,7 +140,7 @@ Os requisitos de VM do Windows e do Azure se aplicam somente ao componente bot d
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Provisionamento e atribuição de política de gravação de conformidade
 
-Os administradores de TI podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de gravação de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando ocorre uma interação de comunicação. As políticas de registro de conformidade são gerenciadas usando [o Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre o Microsoft Docs para políticas de [reunião](./meeting-policies-overview.md), [políticas de chamada](./teams-calling-policy.md) e [políticas de grupo](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+Os administradores de TI podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de gravação de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando ocorre uma interação de comunicação. As políticas de registro de conformidade são gerenciadas usando [o Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre o Microsoft Learn para [políticas de reunião](./meeting-policies-overview.md), [políticas de chamada e](./teams-calling-policy.md)  [políticas de grupo](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 1. Crie uma instância de aplicativo em seu locatário.
 

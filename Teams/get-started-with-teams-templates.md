@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 description: Saiba mais sobre os modelos de equipe que estão disponíveis apenas com o Microsoft Graph.
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: ca21b61f1d1889c101208c8b9617efb4a9c19795
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397232"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046861"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Introdução aos modelos de equipe usando o Microsoft Graph
 
@@ -66,9 +67,9 @@ Modelos de equipe pré-criados são modelos que criamos para setores específico
 | Tipo de modelo | TemplateId | Propriedades que vêm com este modelo |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | Sem aplicativos e propriedades adicionais |
-| Educação -<br>Equipe de Classe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>Bloco de Anotações de Classe do OneNote (fixado na **guia** Geral) </li><li>Aplicativo atribuições (fixado na **guia** Geral)</li></ul> Propriedades da equipe:<ul><li>Visibilidade da equipe definida **como HiddenMembership** (não pode ser substituída)</li></ul> |
-| Educação -<br>Equipe de Equipe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>Bloco de Anotações de Equipe do OneNote (fixado na **guia** Geral)</li></ul> |
-|Educação -<br>Equipe plc |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>Bloco de Anotações plc do OneNote (fixado na **guia** Geral)</ul></li>|
+| Educação-<br>Equipe de Classe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>Bloco de Anotações de Classe do OneNote (fixado na **guia** Geral) </li><li>Aplicativo atribuições (fixado na **guia** Geral)</li></ul> Propriedades da equipe:<ul><li>Visibilidade da equipe definida **como HiddenMembership** (não pode ser substituída)</li></ul> |
+| Educação-<br>Equipe de Equipe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>Bloco de Anotações de Equipe do OneNote (fixado na **guia** Geral)</li></ul> |
+|Educação-<br>Equipe plc |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>Bloco de Anotações plc do OneNote (fixado na **guia** Geral)</ul></li>|
 
 > [!NOTE]
 > Para obter uma lista de modelos pré-criados que você pode usar no cliente do Teams e com o Microsoft Graph, consulte Introdução aos modelos de equipe no [centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md).

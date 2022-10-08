@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no Microsoft Call Quality Dashboard (CQD).
-ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7d89c17f299302f39e00e6aebcfd9309ead3eaae
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789806"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218510"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no Painel de Qualidade de Chamadas (CQD)
 
@@ -41,7 +41,7 @@ Você pode acessar dados CQD por vários caminhos diferentes. Escolha o que melh
 |---|---|
 |Centro de administração do Teams [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Os dados do CQD são incluídos  na página Usuários no Centro de administração do Teams, mostrando os dados mais comuns de que você precisa em um formato fácil de ler. Você não pode personalizar os dados CQD que encontrar em **Usuários**.|
 |Portal do CQD [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Resumo robusto e relatórios detalhados que atendem à maioria das necessidades, com filtragem de detalhamento. Você também pode personalizar relatórios no portal do CQD. <br><br>Obtenha dois [modelos de relatório CQD](#import-the-cqd-report-templates) para ajudá-lo a analisar dados no portal do CQD.|
-|Power BI|Use consultas diretas para exibir seus dados CQD no Power BI usando [modelos personalizáveis do Power BI](CQD-Power-BI-query-templates.md). [Baixe modelos de consulta do Power BI para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>Você também pode [usar a API REST para acessar dados CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) por meio do Power BI. Use esse método se quiser baixar seus dados CQD para que você possa trabalhar neles offline. O benefício de usar esse método é o melhor desempenho, especialmente útil para grandes conjuntos de dados que se ajoeçam no Power BI quando você está online.|
+|Power BI|Use consultas diretas para exibir seus dados CQD no Power BI usando [modelos personalizáveis do Power BI](CQD-Power-BI-query-templates.md). [Baixe modelos de consulta do Power BI para CQD](https://www.microsoft.com/download/details.aspx?id=102291).<br><br>Você também pode [usar a API REST para acessar dados CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) por meio do Power BI. Use esse método se quiser baixar seus dados CQD para que você possa trabalhar neles offline. O benefício de usar esse método é o melhor desempenho, especialmente útil para grandes conjuntos de dados que se ajoeçam no Power BI quando você está online.|
 |API do Graph|Acesse os dados de qualidade da chamada por conta própria [usando o API do Graph](/graph/api/resources/callrecords-api-overview). Esse é o método mais complexo, mas oferece mais controle e flexibilidade na análise de seus dados de qualidade de chamada. Por exemplo, se você precisar ingressá-lo com outros dados para sua organização, poderá usar o API do Graph para criar um modelo de dados e incorporar dados de qualidade de chamada.|
 
 ## <a name="import-the-cqd-report-templates"></a>Importar os modelos de relatório CQD
@@ -74,6 +74,10 @@ Por motivos de conformidade, os dados euII (informações de identificação do 
 - Comentários textuais do usuário
 - ID do objeto (a ID de objeto do Active Directory do usuário do ponto de extremidade)
 - Número de telefone
+- Identidade do Atendedor Automático
+- Chamar Identidade da Fila
+- Nome do dispositivo VTC (Video Teleconferencing)
+- Detalhes do dispositivo VTC (Video Teleconferencing)
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Administração funções com e sem acesso à UEII
 

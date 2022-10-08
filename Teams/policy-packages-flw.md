@@ -10,6 +10,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft 365 for frontline workers
 description: Saiba como usar e gerenciar pacotes de políticas do Teams para funcionários da linha de frente em sua organização.
-ms.openlocfilehash: 20f0f926a50a56140bab8d20c9c663e0020ac3c0
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
-ms.translationtype: HT
+ms.openlocfilehash: 62a3d047da0f9174bc26d5a1e9c3ebe5f9467a49
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819567"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047191"
 ---
 # <a name="teams-policy-packages-for-frontline-workers"></a>Pacotes de políticas do Teams para funcionários da linha de frente
 
@@ -73,7 +74,7 @@ Lembre-se de que você também pode alterar as configurações das políticas em
 
 ### <a name="assign"></a>Atribuir
 
-Atribua o pacote de política aos usuários. Se um usuário tiver uma política atribuída e, mais tarde, você atribuir uma política diferente, a atribuição mais recente terá prioridade.
+Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
 > [!NOTE]
 > Cada usuário exigirá o complemento de Comunicações Avançadas para receber uma atribuição de pacote de políticas personalizadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).

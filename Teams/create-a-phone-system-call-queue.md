@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas no Microsoft Teams. As filas de chamadas fornecem uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: eaf165759e2310402fdec6147ba2153ec0ce792b
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486756"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046851"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -220,6 +220,9 @@ Para **adicionar um grupo** à fila:
   
 As contas do Teams dos agentes devem ser definidas para o modo TeamsOnly. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas. Recomendamos habilitar o modo de conferência para suas filas de chamadas se os agentes estão usando clientes compatíveis.
 
+> [!TIP]
+> Definir **o modo de conferência** **como Ativado** é a configuração recomendada.
+
 > [!NOTE]
 > Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
 >
@@ -230,12 +233,9 @@ As contas do Teams dos agentes devem ser definidas para o modo TeamsOnly. Os age
 > Os agentes podem ouvir a música configurada em espera na fila por até 2 segundos ao ingressar pela primeira vez na chamada.
 
 
-> [!TIP]
-> Definir **o modo de conferência** **como Ativado** é a configuração recomendada.
-
 Depois de selecionar as opções de atendimento de chamadas, selecione o **botão** Avançar na parte inferior da página **Adicionar uma fila de** chamadas.
 
-# <a name="step-4-agent-routing"></a>[Etapa 4: Roteamento de agente](#tab/agent-routing)
+# <a name="step-4-agent-selection"></a>[Etapa 4: Seleção de agente](#tab/agent-selection)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>Etapa 4: Selecionar as opções de roteamento do agente
 
@@ -251,7 +251,8 @@ Escolha uma destas opções:
 
 - O **Ocioso por mais tempo** encaminha cada chamada para o agente que está ocioso há mais tempo. Um agente será considerado ocioso se o estado de presença estiver Disponível. Agentes cujo estado de presença não está disponível não estarão qualificados para receber chamadas até que alterem sua presença para Disponível.
 
-Recomendamos definir seu Método **de Roteamento** como **Round robin** ou **Ocioso mais longo**.
+> [!TIP]
+> Definir o Método **de Roteamento** **como Round robin** ou **Ocioso mais** longo é a configuração recomendada.
 
 > [!NOTE]
 > Se [a gravação de](teams-recording-policy.md) conformidade estiver habilitada nos agentes, não há suporte para  a combinação do modo **conferência** e do roteamento do Atendedor. Se você precisar usar o modo **conferência**, selecione **Roteamento Serial**, **Round robin** ou **Mais Longo ocioso** como o método **de roteamento**. Se você precisar usar o **roteamento do Atendedor**, defina **o modo de conferência** como **Desativado**.
@@ -272,7 +273,8 @@ Você pode **habilitar o roteamento de chamadas baseado em** presença com qualq
 
 Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do status de disponibilidade definido.
 
-Recomendamos ativar o **roteamento baseado em presença**.
+> [!TIP]
+> Definir o **roteamento baseado em presença** **é a** configuração recomendada.
 
 > [!NOTE]
 > Quando **o ocioso** mais longo é selecionado como o método de roteamento, o roteamento baseado em presença é necessário e habilitado automaticamente, embora a  alternância de roteamento baseado em presença esteja desativada e esmaeciada.
@@ -293,7 +295,8 @@ Recomendamos a ativação **de agentes de chamada que podem recusar a execução
 
 O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um agente tocará antes que a fila redirecione a chamada para o próximo agente.
 
-É recomendável definir **o tempo de alerta do Agente** **como 20 segundos**.
+> [!TIP]
+> Definir o **tempo de alerta do** Agente para um mínimo **de 20 segundos** é a configuração recomendada.
 
 Depois de selecionar as opções de roteamento de chamadas do agente, selecione o **botão** Avançar na parte inferior da página **Adicionar uma fila de chamadas** .
 
@@ -349,11 +352,11 @@ As seguintes configurações são recomendadas:
 - **Modo de conferência** como **Ativado**
 - **Método de roteamento** para **Round robin** ou **Ocioso por mais tempo**
 - **Roteamento baseado em presença** para **Ativado**
-- **Tempo de alerta do agente:** para **20 segundos**
+- **Tempo de alerta do agente:** no mínimo **20 segundos**
 
 ### <a name="call-queue-feature-compatibility"></a>Compatibilidade de recursos da fila de chamadas
 
-|Recurso                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |Telefones IP | Filas de Chamadas Padrão |Filas de Chamadas Baseadas em Canal | Comentário |
+|Recurso                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |Telefones IP | Filas de Chamadas Padrão |Filas de Chamadas Baseadas em Canal | Comentário |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Métodos de roteamento de agente**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Padrão*     |
@@ -373,8 +376,8 @@ As seguintes configurações são recomendadas:
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**Métodos de conectividade PSTN**    |                          |          |                |     |          |                      |                          |Consulte a Observação 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|`Direct Routing`                 |Y                         |Y         |Y               |N    |N         |Y                     |Y                         |   |
-|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**Diversos**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
@@ -387,6 +390,8 @@ As seguintes configurações são recomendadas:
 5. Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
 6. Telefonia do Microsoft Teams apenas.
 7. Por meio da página do Portal de Configurações do Usuário em [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
+- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. Há suporte apenas para canais públicos.
 9. Atendedores Automáticos e Filas de Chamadas não podem transferir chamadas entre métodos de conectividade PSTN.
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: Otimização de mídia local para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c33b8225f3bcde32428348e85166ff4d4463738
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616087"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018107"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planejar a Otimização de Mídia Local para Roteamento Direto
 
@@ -232,7 +232,7 @@ O diagrama a seguir mostra o fluxo de tráfego de alto nível para o usuário in
 
 Diagrama 5.  Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário está no site "home"
 
-! [Um diagrama mostrando a Otimização de Mídia Local do fluxo de tráfego.] (mídia/direct-routing-media-op-5.png "Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário está no site "página inicial")
+![Um diagrama mostrando a Otimização de Mídia Local do fluxo de tráfego.](media/direct-routing-media-op-5.png "Fluxo de tráfego com o modo 'Sempre Ignorar' e o usuário está no site 'home'")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Cenário 2: o usuário e os gateways estão em sites diferentes
@@ -255,7 +255,7 @@ O diagrama a seguir mostra o fluxo de tráfego de alto nível quando o usuário 
 
 Diagrama 6.  Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário não está no site "home", mas na rede interna
 
-! [Um diagrama mostra a Otimização de Mídia Local do fluxo de tráfego.] (mídia/direct-routing-media-op-6.png "Fluxo de tráfego com o modo "Sempre Ignorar" e o usuário não está no site "página inicial", mas na rede interna")
+![Um diagrama mostra a Otimização de Mídia Local do fluxo de tráfego.](media/direct-routing-media-op-6.png "O fluxo de tráfego com o modo 'Sempre Ignorar' e o usuário não está no site 'home', mas na rede interna")
 
 ### <a name="mode-2-only-for-local-users"></a>Modo 2: somente para usuários locais
 
@@ -295,7 +295,7 @@ No diagrama a seguir, um usuário atribuído à filial local no Vietnã, enquant
 
 Diagrama 7. Fluxo de tráfego com o modo "Somente Para Usuários Locais" e o usuário está no site "home"
 
-! [Outro diagrama mostrando a Otimização de Mídia Local do fluxo de tráfego.] (mídia/direct-routing-media-op-7.png "Fluxo de tráfego com o modo "Somente para Usuários Locais" e o usuário está no site "página inicial")
+![Outro diagrama mostrando a Otimização de Mídia Local do fluxo de tráfego.](media/direct-routing-media-op-7.png "Fluxo de tráfego com o modo 'Somente Para Usuários Locais' e o usuário está no site 'home'")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>Cenário 2. O usuário e os gateways estão em sites diferentes
@@ -325,7 +325,7 @@ No diagrama a seguir, o usuário interno, enquanto estiver no local na filial in
 
 Diagrama 8.  Fluxo de tráfego com o modo "Somente Para Usuários Locais" e o usuário não está no site "página inicial", mas na rede interna
 
-! [Outro diagrama mostra a Otimização de Mídia Local do fluxo de tráfego.] (mídia/direct-routing-media-op-8.png "Fluxo de tráfego com o modo "Somente Para Usuários Locais", o usuário não está no site "página inicial", mas na rede interna")
+![Outro diagrama mostra a Otimização de Mídia Local do fluxo de tráfego.](media/direct-routing-media-op-8.png "Fluxo de tráfego com o modo 'Somente Para Usuários Locais', o usuário não está no site 'home', mas na rede interna")
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

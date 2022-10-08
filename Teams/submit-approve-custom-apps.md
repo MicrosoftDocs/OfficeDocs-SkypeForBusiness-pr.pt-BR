@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/19/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como aprovar seus aplicativos personalizados enviados usando a API de Envio de Aplicativos do Teams no Microsoft Teams.
-ms.openlocfilehash: 644e4afd28dbec27385516ce3e0676eb9ea27ef1
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 63493041d834c99f5ffa93ba2fb580130afa0e29
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837521"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494614"
 ---
 # <a name="publish-a-custom-app-submitted-using-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado usando a API de Envio de Aplicativos do Teams
 
@@ -164,7 +165,7 @@ Para obter mais informações sobre como usar a API do Graph para atualizar apli
 
 * [Publicar um aplicativo personalizado carregando um pacote de aplicativos](upload-custom-apps.md)
 * [Gerenciar seus aplicativos no Centro de Administração do Microsoft Teams](manage-apps.md)
-* [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
+* [Gerenciar políticas e configurações para aplicativos personalizados](teams-custom-app-policies-and-settings.md)
 * [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
 * [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
 * [Monitoramento e alerta do Teams](alerts/teams-admin-alerts.md)
