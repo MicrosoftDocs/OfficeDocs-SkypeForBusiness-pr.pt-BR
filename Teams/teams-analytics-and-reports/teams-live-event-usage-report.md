@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso de eventos ao vivo do Teams no 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794089"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033809"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
@@ -48,7 +48,7 @@ O relatório de uso de eventos ao vivo do Teams no centro de administração do 
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
 
 ## <a name="notes"></a>Observações
-Mostramos até 100 eventos ao vivo que correspondem aos critérios de relatório atuais. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista.
+Mostramos um máximo de até 100 eventos ao vivo que correspondem aos critérios de relatório atuais. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista.
 
 Apresentadores anônimos não serão incluídos no relatório.
 

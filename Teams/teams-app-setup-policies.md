@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837171"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377329"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -51,7 +52,7 @@ Os aplicativos são fixados na barra de aplicativos no lado esquerdo do cliente 
 
 |Cliente de área de trabalho do Teams  |Cliente de dispositivo móvel do Teams |
 |---------|---------|
-|![Barra de aplicativos no cliente da área de trabalho do Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Barra de aplicativos no cliente móvel do Teams.](media/mobile-app-ui.png)      |
+|![Captura de tela mostrando a barra de aplicativos no cliente da área de trabalho do Teams.](media/app-setup-policies-desktop-app-bar.png).  |   ![Captura de tela mostrando a barra de aplicativos no cliente móvel do Teams.](media/mobile-app-ui.png)      |
 
 As extensões de mensagens estão disponíveis na parte inferior da área de redação de mensagem.
 
@@ -112,7 +113,7 @@ Você gerencia as políticas de configuração de aplicativo no Centro de admini
 
 Edite as configurações na política global para incluir os aplicativos desejados. Para personalizar o Teams para diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas personalizadas.
 
-![Página de políticas de configuração de aplicativo para gerenciar políticas ou adicionar novas políticas.](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="Captura de tela mostrando a página de políticas de configuração do aplicativo com opções para gerenciar políticas ou adicionar novas políticas.":::
 
 ### <a name="edit-an-app-setup-policy"></a>Editar uma política de configuração de aplicativo
 
@@ -161,7 +162,7 @@ Para exibir todos os aplicativos fixados para um usuário, os usuários terão q
 |Cliente de área de trabalho do Teams |Cliente de dispositivo móvel do Teams |
 |---------|---------|
 |Na barra de aplicativos ao lado do Teams, selecione **... Mais aplicativos**.| Na barra de aplicativos perto da parte inferior do Teams, deslize o dedo para cima.|
-|![Mais aplicativos no cliente da área de trabalho do Teams.](media/app-setup-policies-desktop-more-apps.png)   |![mais aplicativos no cliente móvel do Teams](media/app-setup-policies-mobile-more-apps.png)  
+|![Captura de tela mostrando mais aplicativos fixados no cliente da área de trabalho do Teams.](media/app-setup-policies-desktop-more-apps.png)   |![Captura de tela mostrando mais aplicativos fixados no cliente móvel do Teams](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>O que preciso saber sobre a experiência móvel do Teams
 

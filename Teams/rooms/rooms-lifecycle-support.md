@@ -15,12 +15,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Saiba mais sobre o suporte ao ciclo de Salas do Microsoft Teams, incluindo a estrutura de suporte dinâmico e suas fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 509f4da415d7a7bd583442f21bd46efc52c9984f
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 9025500bc8aff6ddded71df29b9280d964763bdc
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706648"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138474"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salas do Microsoft Teams versão do aplicativo
  
@@ -53,15 +53,15 @@ A tabela a seguir mostra as versões recomendadas e compatíveis Windows 10 que 
 | 21H2    | 2021-11-16        | Suportado<br>Recomendado                               | 4.12.126.0                                        | 19044.1288           |
 | 21H1    | 2021-05-18        | Sem suporte                                           | &#x2014;                                          | &#x2014;             |
 | 20H2    | 2020-10-20        | Com suporte                                               | 4.10.10.0                                         | 19042.631            |
-| 2004    | 2020-05-27        | Ignorada <br/> Não recomendado &#x2780;                 | &#x2014;                                          | &#x2014;             |
-| 1909    | 2019-11-12        | Com suporte                                               | 4.5.33.0                                          | 18363.418            |
+| 2004    | 2020-05-27        | Sem suporte, <br/>Problemas de compatibilidade conhecidos &#x2780;| &#x2014;                                          | &#x2014;             |
+| 1909    | 2019-11-12        | Sem suporte                                           | &#x2014;                                          | &#x2014;             |
 | 1903    | 2019-05-21        | Sem suporte                                           | &#x2014;                                          | &#x2014;             |
 | 1809    | 2019-03-28        | Sem suporte, <br/>Problemas de compatibilidade conhecidos &#x2781; | &#x2014;                                          | &#x2014;             |
 | 1803    | 2018-07-10        | Sem suporte                                           | &#x2014;                                          | &#x2014;             |
 | 1709    | 2018-01-18        | Incompatível                                           | &#x2014;                                          | &#x2014;             |
 | 1703    | 2017-07-11        | Sem suporte                                           | &#x2014;                                          | &#x2014;             |
 
-&#x2780; Windows 10 versão 2004 não é recomendada devido a problemas de compatibilidade encontrados com o Salas do Microsoft Teams aplicativo. Esse problema específico faz com que Salas do Microsoft Teams aplicativo não seja iniciado após a reinicialização noturna. 
+&#x2780; Windows 10 versão 2004 não é recomendada devido a problemas de compatibilidade encontrados com o Salas do Microsoft Teams aplicativo. Esse problema específico faz com que Salas do Microsoft Teams aplicativo não seja iniciado após a reinicialização noturna.
 
 &#x2781; Windows 10 versão 1809 não é recomendada devido a problemas de compatibilidade encontrados com o Salas do Microsoft Teams aplicativo. Esse problema específico faz com que Salas do Microsoft Teams aplicativo não seja iniciado após a reinicialização noturna. Esse problema foi resolvido Windows 10 versão 1903.  
 

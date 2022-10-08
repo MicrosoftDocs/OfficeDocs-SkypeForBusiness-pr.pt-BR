@@ -1,7 +1,7 @@
 ---
-title: Controle de acesso baseado em função com o serviço Sala Premium do Microsoft Teams
-author: dstrome
-ms.author: dstrome
+title: Controle de acesso baseado em função no Portal de Gerenciamento do Microsoft Teams Pro
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.reviewer: altsou
 ms.topic: article
@@ -15,29 +15,29 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba mais sobre o controle de acesso baseado em função com o Salas do Microsoft Teams gerenciado.
+description: Saiba mais sobre o controle de acesso baseado em função no portal de gerenciamento Salas do Microsoft Teams Pro.
 f1keywords: ''
-ms.openlocfilehash: 0edce289a23116ed76bf984bfc72724295fc5a5a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8893f5dbe08203708fca21f808e3fda5c0f2b433
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268356"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218520"
 ---
-# <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Controle de acesso baseado em função com o serviço Salas do Microsoft Teams gerenciado
+# <a name="role-based-access-control-in-the-microsoft-teams-pro-management-portal"></a>Controle de acesso baseado em função no Portal de Gerenciamento do Microsoft Teams Pro
 
-O RBAC (controle de acesso baseado em função) no serviço Salas do Microsoft Teams gerenciado ajuda a gerenciar o acesso do usuário aos dados de recursos de sala em sua organização. Ao atribuir funções aos usuários do portal de serviço, você pode limitar o que eles podem ver e alterar. Cada função tem um conjunto de permissões que determinam quais usuários com essa função podem acessar e alterar em sua organização.
+O RBAC (controle de acesso baseado em função) no portal Salas do Microsoft Teams Pro Management ajuda você a gerenciar o acesso do usuário aos dados de recursos de sala em sua organização. Ao atribuir funções aos usuários do portal, você pode limitar o que eles podem ver e alterar. Cada função tem um conjunto de permissões que determinam quais usuários com essa função podem acessar e alterar em sua organização.
 
 Para criar, editar ou atribuir funções, sua conta deve ter uma das seguintes permissões:
 
 - Administrador Global por meio do Azure Active Directory (Azure AD)
-- Administrador de Serviços Gerenciados por meio do Salas do Microsoft Teams de serviço gerenciado
+- Administrador de Serviços Gerenciados por meio do portal Salas do Microsoft Teams Pro Management
 
 ## <a name="what-is-a-role"></a>O que é um papel?
 
-Uma função define o conjunto de permissões concedidas aos usuários atribuídos a essa função. Por enquanto, o Salas do Microsoft Teams gerenciado tem três funções internas **: Administrador** de Serviços Gerenciados, **Site Lead** e **Site Tech**. Eles abordam alguns cenários comuns para usuários em sua organização que podem estar envolvidos no gerenciamento de suas salas.
+Uma função define o conjunto de permissões concedidas aos usuários atribuídos a essa função. Por enquanto, o portal Salas do Microsoft Teams Pro Management tem três funções internas **: Administrador** de Serviços Gerenciados, **Site Lead** e **Site Tech**. Eles abordam alguns cenários comuns para usuários em sua organização que podem estar envolvidos no gerenciamento de suas salas.
 
-Para ver as funções, na navegação à esquerda do portal de serviço gerenciado do Salas do Microsoft Teams, vá para Funções **e selecione qualquer** uma das funções para ver as propriedades, permissões e atribuições da função.  
+Para ver as funções, na navegação à esquerda do portal de gerenciamento do Salas do Microsoft Teams Pro, vá para Funções e selecione qualquer uma das funções para ver as propriedades, permissões e atribuições da função.  
 
 - **Propriedades**: o nome, o tipo de função e a descrição
 - **Permissões**: lista os recursos e o nível de permissões aos quais a função tem acesso.
@@ -47,9 +47,9 @@ Para ver as funções, na navegação à esquerda do portal de serviço gerencia
 
 Você pode atribuir funções internas a grupos ou usuários sem configuração adicional. Tenha em mente que você não pode excluir ou editar o nome, a descrição, o tipo ou as permissões de uma função interna.
 
-- **Administrador de Serviços Gerenciados**: tem acesso completo ao portal de serviço Premium da Sala do Microsoft Teams.
-- **Site Lead**: organiza salas, tem acesso a relatórios e pode gerenciar tíquetes. Não é possível redefinir a chave de registro ou fazer alterações na configuração do serviço.  
-- **Site Tech**: Gerencia tíquetes para salas específicas. Não tem permissões para modificar o serviço ou organizar salas no serviço.
+- **Administrador de Serviços Gerenciados**: tem acesso completo ao portal de Gerenciamento do Microsoft Teams Room Pro.
+- **Site Lead**: organiza salas, tem acesso a relatórios e pode gerenciar tíquetes. Não é possível redefinir a chave de registro ou fazer alterações nas configurações de serviço.  
+- **Site Tech**: Gerencia tíquetes para salas específicas. Não tem permissões para modificar configurações de serviço ou organizar salas.
 
 A tabela a seguir resume o que cada função pode fazer.
 
@@ -70,7 +70,7 @@ A tabela a seguir resume o que cada função pode fazer.
 |Gerenciamento de tíquetes   |Criar incidente de cliente         |&#10004;           |&#10004;           |&#10004;  |
 |    |Exibir         |&#10004;           |&#10004;           |&#10004;  |
 |    |Atualizar         |&#10004;           |&#10004;           |&#10004;  |
-|Salas do Microsoft Teams de serviço gerenciado    |Exibir         |&#10004;           |         ||
+|Salas do Microsoft Teams do serviço de Gerenciamento Pro    |Exibir         |&#10004;           |         ||
 |    |Modificar        |&#10004;           |         ||
 |Gerenciamento de funções    |Exibir         |&#10004;           |         ||
 |    |Modificar         |&#10004;           |         ||
@@ -79,7 +79,7 @@ A tabela a seguir resume o que cada função pode fazer.
 
 Se as funções internas não atenderem às suas necessidades organizacionais, você poderá criar uma função e configurar suas permissões conforme desejado. Para criar uma função, você deve ser um Administrador Global ou Administrador de Serviços Gerenciados. 
 
-1. No painel de navegação esquerdo do portal Salas do Microsoft Teams de serviço gerenciado, vá para **Funções de Configurações** > .
+1. No painel de navegação esquerdo do portal Salas do Microsoft Teams Pro Management, vá para **Funções de Configurações** > .
 2. Selecione **Criar função**.
 3. Na página **Configurações gerais** , em **Propriedades de função**, insira um nome para essa função. Em **Descrição**, insira detalhes sobre essa função. Escolha **Avançar**.
 4. Na página **Permissões** , em **Permissões de** função, escolha as permissões para essa função marcando as caixas de seleção apropriadas. Escolha **Avançar** para criar a primeira atribuição para essa função.
@@ -92,7 +92,7 @@ Se as funções internas não atenderem às suas necessidades organizacionais, v
 
 Para atribuir funções, você deve ser um Administrador Global ou Administrador de Serviços Gerenciados ou ter uma função com permissões de gerenciamento de função.
 
-1. No painel de navegação esquerdo do portal Salas do Microsoft Teams de serviço gerenciado, vá para **Funções de Configurações** > .
+1. No painel de navegação esquerdo do portal Salas do Microsoft Teams Pro Management, vá para **Funções de Configurações** > .
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de tela da página Controle de acesso mostrando funções.":::
 
@@ -108,4 +108,4 @@ Para atribuir funções, você deve ser um Administrador Global ou Administrador
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Salas do Microsoft Teams gerenciado](microsoft-teams-rooms-premium.md)
+- [Salas do Microsoft Teams Pro Management](microsoft-teams-rooms-premium.md)

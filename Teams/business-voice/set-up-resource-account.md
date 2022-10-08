@@ -1,7 +1,7 @@
 ---
 title: Configurar uma conta de recurso Telefonia do Microsoft Teams sistema
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: e644b7488589d76367f5944c43826c0bbdad06a9
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c0b010514ddff6fb1ad88041acf255e0e35af52b
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269706"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480741"
 ---
 # <a name="step-4-set-up-a-teams-phone-system-resource-account"></a>Etapa 4: Configurar uma conta de recurso do Sistema de Telefonia do Teams
 

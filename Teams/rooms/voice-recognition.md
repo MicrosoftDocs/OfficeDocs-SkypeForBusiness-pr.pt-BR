@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465969"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350744"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gerenciar controles de tecnologia de reconhecimento de voz para um Alto-falante Inteligente
 
@@ -130,13 +130,29 @@ Os usuários finais podem registrar suas vozes para reconhecimento nas seguintes
 
 |**Idioma**|**País/Região**|**ID de cultura**|
 |:-----|:-----|:-----|
+|Árabe  <br/> |Saudi Arabia (المملكة العربية السعودية) <br/> |ar-SA  <br/> |
+|Chinês  <br/> |China <br/> |zh-CN  <br/> |
+|Chinês  <br/> |Taiwan <br/> |zh-TW  <br/> |
+|Dinamarquês  <br/> |Dinamarca <br/> |da-DK  <br/> |
+|Holandês  <br/> |Países Baixos <br/> |nl-NL  <br/> |
 |Inglês  <br/> |Austrália <br/> |en-AU  <br/> |
 |Inglês  <br/> |Canadá  <br/> |en-CA <br/> |
 |Inglês  <br/> |Índia  <br/> |en-IN  <br/> |
 |Inglês  <br/> |Nova Zelândia  <br/> |en-NZ  <br/> |
 |Inglês  <br/> |Reino Unido  <br/> |en-GB  <br/> |
 |Inglês  <br/> |Estados Unidos  <br/> |en-US  <br/> |
-
+|Finlandês  <br/> |Finlândia  <br/> |fi-FI  <br/> |
+|Francês  <br/> |Canadá <br/> |fr-CA  <br/> |
+|Francês  <br/> |França <br/> |fr-FR  <br/> |
+|Italiano  <br/> |Itália <br/> |it-IT  <br/> |
+|Japonês  <br/> |Japão <br/> |ja-JP  <br/> |
+|Norueguês  <br/> |Noruega <br/> |nb-NO  <br/> |
+|Polonês  <br/> |Polônia <br/> |pl-PL  <br/> |
+|Português      <br/> |Brasil <br/> |pt-BR  <br/> |
+|Russo  <br/> |Rússia <br/> |ru-RU  <br/> |
+|Sueco  <br/> |Suécia <br/> |sv-SE  <br/> |
+|Espanhol  <br/> |México  <br/> |es-MX  <br/> |
+|Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>Localidades de transcrição na reunião
 

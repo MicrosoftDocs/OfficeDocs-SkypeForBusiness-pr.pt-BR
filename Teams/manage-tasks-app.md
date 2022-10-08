@@ -19,12 +19,13 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+- highpri
+ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396492"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047111"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Tasks para sua organização no Microsoft Teams
 
@@ -132,7 +133,7 @@ Para obter as etapas sobre como configurar a hierarquia de segmentação de sua 
 
 ## <a name="power-automate-and-graph-api"></a>API Power Automate e Graph
 
-O Tasks oferece suporte ao Power Automate para To Do e APIs de Gráfico para Planner. Para saber mais, confira:
+O Tasks oferece suporte ao Power Automate para Tarefas Pendentes e APIs de Gráfico para Planner. Para saber mais, veja:
 
 - [Visão geral da API de planos e tarefas do planejador](/graph/planner-concept-overview)
 - [Usando a Microsoft To-Do para fazer com o Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

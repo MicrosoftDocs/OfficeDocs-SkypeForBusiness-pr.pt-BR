@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 976c73aebe698152c4824e3eaedfcc19a13ae525
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269666"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138484"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>SBA (Aparelho de Filial Persistente) para Roteamento Direto
 
@@ -208,6 +208,8 @@ Para obter diretrizes passo a passo sobre como configurar o Controlador de Borda
 Relate quaisquer problemas à organização de suporte do fornecedor SBC. Ao relatar o problema, indique que você tem um Aparelho de Filial Persistente configurado.
 
 ## <a name="known-issues"></a>Problemas conhecidos
+
+- Como o SBA depende de tokens de autenticação válidos por 24 horas e são renovados diariamente, atualmente o SBA pode dar suporte a interrupções por até 24 horas a partir da última autenticação. Isso significa que, se uma interrupção ocorrer 20 horas após a última renovação do token de autenticação, o SBA estará operacional somente nas 4 horas restantes.
 
 - Quando você adiciona novos Aparelhos de Filial Persistentes, pode levar algum tempo até que você possa usá-los em políticas de Aparelho de Filial Persistente.
 

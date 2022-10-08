@@ -1,5 +1,5 @@
 ---
-title: Reunião Primeiro – Microsoft Teams
+title: Reuniões Primeiro – Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 149a5a3e22a633ec4c889b68a91ac9c6db8e9f4b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 88be8ef1e43cc9d17fb541f6c56186959aeeb8a4
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789776"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999336"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -32,9 +32,9 @@ O "Meetings First" é direcionado e otimizado para Skype for Business Server org
 
 ## <a name="what-is-meetings-first"></a>O que é o Meetings First?
 
-Meetings First é baseado no modo de coexistência **SfBWithTeamsCollabAndMeetings** . O Meetings First não é um produto ou um recurso— é uma configuração que usa recursos e recursos do Teams e do Skype for Business para fornecer uma experiência de coexistência personalizada exclusivamente.
+Meetings First é baseado no modo de coexistência **SfBWithTeamsCollabAndMeetings** . O Meetings First não é um produto ou um recurso, é uma configuração que usa recursos e recursos do Teams e do Skype for Business para fornecer uma experiência de coexistência personalizada exclusivamente.
 
-No Meetings First, os usuários criam sua reunião no Teams, enquanto continuam a usar Skype for Business para chat, chamada e presença. Não há sobreposição de modalidades entre o Teams e o Skype for Business. Chat, chamada e presença estão ativados Skype for Business e desativados no Teams. Isso permite cenários exclusivos "melhores juntos" entre o Skype for Business e o Teams que aprimoram a experiência do usuário durante a coexistência, bem como cenários de interoperabilidade somente com usuários do **Teams**.
+No Meetings First, os usuários criam sua reunião no Teams, enquanto continuam a usar Skype for Business para chat, chamada e presença. Não há sobreposição de modalidades entre o Teams e o Skype for Business. Chat, chamada e presença estão ativados Skype for Business e desativados no Teams. Essa configuração permite cenários exclusivos "melhores juntos" entre o Skype for Business e o Teams que aprimoram a experiência do usuário durante a coexistência, bem como cenários de interoperabilidade somente com usuários do **Teams**.
 
 ![Captura de tela do melhor cenário em conjunto com o Teams e o Skype for Business.](media/meetings-first-meeting-in-meeting.png)
 
@@ -43,7 +43,7 @@ No Meetings First, os usuários criam sua reunião no Teams, enquanto continuam 
 
 ## <a name="who-should-consider-meetings-first"></a>Quem deve considerar o Meetings First?
 
-O Meetings First foi projetado para organizações que usam o Skype for Business Server com o Enterprise Voice que desejam acelerar sua mudança para reuniões do Teams, especialmente aquelas com disciplina de TI forte que desejam um caminho de atualização gerenciado e determinístico para o Teams.
+O Meetings First é para organizações que usam Skype for Business Server com Enterprise Voice que desejam acelerar sua mudança para as reuniões do Teams. O Meetings First é especialmente para organizações com uma disciplina de TI forte que desejam um caminho de atualização gerenciado para o Teams.
 
 Para organizações complexas ou grandes, as migrações de voz normalmente são feitas site a site e podem levar muito tempo, potencialmente vários anos, resultando em cenários de coexistência estendidos. Se essa coexistência estiver no modo **Ilhas**, os usuários sempre terão a opção de duas soluções de reunião (Skype for Business e Teams), o que pode resultar em situações confusas ou abaixo do ideal. Ao contrário das migrações de voz, as migrações de reuniões geralmente podem ser concluídas em toda a empresa em um curto período de tempo. As organizações que desejam mudar completamente para reuniões do Teams o mais rápido possível (e sem esperar que a migração de voz seja concluída) devem considerar as Reuniões Primeiro.
 
@@ -57,7 +57,7 @@ O Meeting First reúne os seguintes recursos:
 
 - [Provisione Skype for Business Server usuário (local) com](./tutorial-audio-conferencing.yml?tutorial-step=3) a [Audioconferência do Teams](tutorial-audio-conferencing.yml).
 - [Serviço de Migração](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) de Reuniões: as reuniões organizadas pelo usuário serão migradas para a nuvem e convertidas em reuniões do Teams à medida que o usuário for promovido para o Meetings First (requer Exchange Online).
-- Experiência do usuário simplificada no Teams, centralizada em reuniões e equipes e canais do Teams (que, opcionalmente, podem ficar ocultos usando a política [de Permissões de Aplicativo](teams-app-permission-policies.md)); [Chat privado, chamadas e autoatendimento do Teams](teams-client-experience-and-conformance-to-coexistence-modes.md) não são expostos nas Reuniões Primeiro, permitindo que a implantação e o esforço de adoção se concentrem totalmente nas reuniões.
+- Experiência do usuário simplificada no Teams, centralizada em reuniões e equipes e canais do Teams (que podem ser ocultos usando a política [de Permissões de Aplicativo](teams-app-permission-policies.md)). [Chat privado do Teams, chamadas e autoatendimento](teams-client-experience-and-conformance-to-coexistence-modes.md) não são expostos nas Reuniões Primeiro, permitindo que a implantação e o esforço de adoção se concentrem em reuniões.
 - Experiência superior [de reunião do Teams](tutorial-meetings-in-teams.yml).
 - "Melhor juntos" entre o Teams e Skype for Business: 
   - Retenção automática: quando estiver em uma reunião no Teams, receber uma chamada no Skype for Business colocará a reunião do Teams em espera e vice-versa. Isso impede que os usuários tenha suas chamadas privadas ouvidas pelos participantes das reuniões.
@@ -74,17 +74,17 @@ Os únicos requisitos rígidos para o Meetings First são os mesmos que os requi
 - [Identidade e autenticação no Teams](identify-models-authentication.md) e
 - [Configure o Azure Active Directory para Teams e Skype for Business](/skypeforbusiness/hybrid/configure-azure-ad-connect).
 
-Uma [Skype for Business topologia híbrida](/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) não é necessária, mas é recomendável. Alguns recursos, como o Serviço de Migração de Reuniões e a interoperabilidade, dependem dessa topologia.
+Uma [Skype for Business topologia](/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) híbrida não é necessária, mas é recomendável. Alguns recursos, como o Serviço de Migração de Reuniões e a interoperabilidade, dependem dessa topologia.
 
-O Meetings First é compatível com qualquer versão do Skype for Business Server (e conhecido por trabalhar com o Lync Server sem mais suporte). Ele é compatível com qualquer cliente Skype for Business suporte, no entanto, as funcionalidades Better Together exigem um cliente recente.
+O Meetings First é compatível com qualquer versão do Skype for Business Server (e conhecido por trabalhar com o Lync Server sem mais suporte). Ele tem suporte com qualquer cliente Skype for Business suporte, no entanto, as funcionalidades Better Together exigem um cliente recente.
 
 Depois que esses requisitos forem atendidos (e não anteriores), os usuários poderão ser licenciados para [o Microsoft 365 ou o Office 365 e o Teams](/office365/enterprise/assign-licenses-to-user-accounts).
 
-Para obter a melhor experiência do Meetings First, os usuários devem ser habilitados para [Exchange Online](exchange-teams-interact.md), [SharePoint Online e OneDrive for Business](sharepoint-onedrive-interact.md) e criação de grupos do Microsoft 365. O Meetings First é compatível com usuários cuja caixa de correio está no Exchange local, ou que não têm o SharePoint Online, o OneDrive For Business ou a criação de grupos do Microsoft 365. No entanto, sua experiência será menos completa. Em particular, para organizações que usam o Exchange Server local, pode haver (dependendo da versão do Exchange Server) algumas limitações para criar e exibir reuniões do cliente teams, bem como em relação aos recursos de conformidade.
+Para obter a melhor experiência do Meetings First, os usuários devem ser habilitados para [Exchange Online](exchange-teams-interact.md), [SharePoint Online e OneDrive for Business](sharepoint-onedrive-interact.md) e criação de grupos do Microsoft 365. O Meetings First é compatível com usuários cuja caixa de correio está no Exchange local, ou que não têm o SharePoint Online, o OneDrive For Business ou a criação de grupos do Microsoft 365. No entanto, sua experiência será menos completa. Para organizações que usam o Exchange Server local, pode haver (dependendo da versão do Exchange Server) algumas limitações para criar e exibir reuniões do cliente teams e algumas limitações em relação aos recursos de conformidade.
 
 No mínimo, os usuários devem ser [licenciados para o Teams](/microsoft-365/admin/manage/assign-licenses-to-users). Além disso, eles podem ser licenciados para [Audioconferência](set-up-audio-conferencing-in-teams.md), se necessário.
 
-Recomendamos que [você **conceda o modo SfBOnly** ou **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) como o padrão de locatário no momento em que você licencia os usuários. Isso garante que os usuários não comecem a usar o Teams por conta própria no  modo de Ilhas padrão antes de você estar pronto para iniciar o Meetings First.
+Recomendamos que [você **conceda o modo SfBOnly** ou **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) como o padrão de locatário no momento em que você licencia os usuários. Essa configuração garante que os usuários não comecem a usar o Teams por conta própria no modo de **Ilhas** padrão antes de iniciar o Meetings First.
 
 O Meetings First tem suporte em clientes completos da área de trabalho (Windows e Mac), em clientes de navegador e em clientes móveis. Ele também é compatível com [Salas do Microsoft Teams](/microsoftteams/room-systems/). O Better Together requer o cliente de área de trabalho completo.
 
@@ -105,13 +105,13 @@ Você pode considerar a execução de um piloto pronto para produção de escala
 
 ## <a name="configure-users-for-meetings-first"></a>Configurar usuários para o Meetings First
 
-Depois de licenciar seus usuários e preparar sua organização para reuniões do Teams, é hora de habilitar os usuários para o Meetings First. Facilitamos: uma única configuração fará tudo!
+Depois de licenciar seus usuários e preparar sua organização para reuniões do Teams, é hora de habilitar os usuários para o Meetings First. Facilitamos: uma configuração fará tudo.
 
-Todos os recursos e experiências do usuário no Meetings First, incluindo a configuração [](teams-client-experience-and-conformance-to-coexistence-modes.md) de cliente do Teams e a conformidade automática da experiência do usuário, o Serviço de Migração de Reuniões e os recursos Better Together, são configurados concedendo ao usuário (ou grupo de usuários ou padrão de locatário) o modo de [coexistência SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de administração do [Microsoft Teams](manage-teams-in-modern-portal.md) ou usando [o PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Todos os recursos e experiências do usuário nas Reuniões Primeiro , incluindo a configuração [](teams-client-experience-and-conformance-to-coexistence-modes.md) do cliente do Teams e a conformidade automática da experiência do usuário, do Serviço de Migração de Reuniões e dos recursos Better Together, são configurados concedendo ao usuário (ou grupo de usuários ou padrão de locatário) o modo de [coexistência SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de administração do [Microsoft Teams](manage-teams-in-modern-portal.md) ou usando o [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Captura de tela das configurações de administrador para habilitar o Meetings First.](media/teams-meeting-admin-settings.png)
 
-Opcionalmente, se você quiser ocultar o aplicativo Teams e Canais da navegação à esquerda do cliente do Teams dos usuários para concentrar ainda mais sua experiência em reuniões, que pode ser obtida usando a política de Configuração de [Aplicativos.](teams-app-setup-policies.md)
+Se você quiser ocultar o aplicativo Teams e Canais da navegação à esquerda do cliente do Teams dos usuários para concentrar ainda mais sua experiência em reuniões, use a política de Configuração [de Aplicativos](teams-app-setup-policies.md).
 
 ## <a name="reporting-and-call-analytics"></a>Análise de Relatórios e Chamadas
 
@@ -119,4 +119,4 @@ Relatórios e Análise de Chamadas para reuniões do Teams em Reuniões Primeiro
 
 ## <a name="related-links"></a>Links relacionados
 
-Depois de examinar este artigo, talvez você queira consultar Escolher o percurso de [atualização, as](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) diretrizes de migração e [interoperabilidade e a coexistência](migration-interop-guidance-for-teams-with-skype.md) com o [Skype for Business](coexistence-chat-calls-presence.md) para obter mais detalhes.
+Para obter mais informações, consulte [Escolher](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) seu percurso de atualização, diretrizes de [migração e interoperabilidade](migration-interop-guidance-for-teams-with-skype.md) e [coexistência](coexistence-chat-calls-presence.md) com Skype for Business para obter mais detalhes.

@@ -1,5 +1,6 @@
 ---
 title: Conduzir uma investigação de Descoberta Eletrônica do conteúdo
+description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica, como quando precisar enviar todas as Informações Armazenadas Eletronicamente para procedimentos legais.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,25 +8,27 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba o que fazer quando precisar executar a Descoberta Eletrônica, como quando precisar enviar todas as Informações Armazenadas Eletronicamente para procedimentos legais.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0579e0967a6f0309dbea6ee28430df3f34876be
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808242"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046651"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
-Grandes Empresas geralmente são expostas a processos legais de alta penalidade que exigem o envio de todas as Informações Armazenadas Eletronicamente (ESI). O conteúdo do Microsoft Teams pode ser pesquisado e usado durante investigações de Descoberta Eletrônica.
+Grandes empresas geralmente são expostas a processos legais de alta penalidade que exigem o envio de todas as Informações Armazenadas Eletronicamente (ESI). O conteúdo do Microsoft Teams pode ser pesquisado e usado durante investigações de Descoberta Eletrônica.
 
 ## <a name="overview"></a>Visão geral
 
@@ -35,8 +38,8 @@ A Descoberta Eletrônica de mensagens e arquivos em [canais privados](private-ch
 
 Nem todo o conteúdo do Teams é Descoberta Eletrônica. A tabela a seguir mostra os tipos de conteúdo que você pode pesquisar usando as ferramentas de Descoberta Eletrônica da Microsoft:
 
-|Tipo de conteúdo|Observações|
-|---|---|
+|**Tipo de conteúdo**|**Anotações**|
+|:---------------|:--------|
 |Gravações de áudio||
 |Conteúdo do cartão|Consulte [Pesquisar conteúdo de cartão](#search-for-card-content) para obter mais informações.|
 |Links de chat||
@@ -53,6 +56,7 @@ Nem todo o conteúdo do Teams é Descoberta Eletrônica. A tabela a seguir mostr
 |Reações (como likes, hearts e outras reações)|Há suporte para reações para todos os clientes comerciais após 1º de junho de 2022. As reações antes dessa data não estão disponíveis para a Descoberta Eletrônica. O suporte à nuvem do governo está planejado. Não há suporte legal para reações.|
 |Assunto||
 |Tabelas||
+|Clipe de Vídeo do Teams (TVC)|Pesquise TVC com a palavra-chave "Video-Clip" e "salve como" um arquivo .mp4 para cada anexo TVC clicando com o botão direito do mouse na visualização (a pesquisa por palavra-chave estará disponível em outubro de 2022). Os dados do TVC são detectáveis em conjuntos de revisão de [Descoberta Eletrônica](/microsoft-365/compliance/add-data-to-review-set).
 
 <sup>1</sup> Os metadados de reunião (e chamada) incluem o seguinte:
 

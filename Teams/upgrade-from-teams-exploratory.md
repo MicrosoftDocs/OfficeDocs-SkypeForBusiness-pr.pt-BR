@@ -1,7 +1,7 @@
 ---
 title: Atualizar os usuários da avaliação gratuita do Teams Exploratory
-author: cazawideh
-ms.author: czawideh
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7137114ffd47e19faaf8ba74f0d0625f74bc6d89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 00faa3cf3840409ecd2fd0a6ccbfa58418547b94
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269536"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376969"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Atualizar os usuários da avaliação gratuita do Teams Exploratory
 
@@ -36,7 +36,7 @@ Esse artigo fornece uma visão geral de como atualizar seus usuários de uma ava
 
 ## <a name="step-1-when-to-upgrade"></a>Etapa 1: quando atualizar  
 
-Para verificar quando a avaliação gratuita do Teams Exploratory da sua organização expirará e quantos usuários ativos ela tem, acesse **Cobrança >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Seus produtos</b></a> no Centro de administração do Microsoft 365. Você também será notificado antes que a avaliação do Teams Exploratory expire.
+To check when your organization’s Teams Exploratory trial is expiring and how many active users it has, go to **Billing >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>Your products</b></a> in the Microsoft 365 admin center. You’ll also be notified before the Teams Exploratory trial expires.
 
 > [!IMPORTANT]
 > Você deve fazer um plano para atualizar seus usuários para licenças pagas antes da data de expiração, para que os usuários não percam o acesso ao Teams.
@@ -69,7 +69,7 @@ Depois de atribuir as novas licenças, cancele a atribuição das licenças do T
 
 ### <a name="auto-claim-policies"></a>Política de auto-atribuição
 
-Na próxima vez que você atualizar, utilize as políticas de declaração automática para criar políticas para que sua organização atribua automaticamente licenças de assinaturas pagas a novos usuários que não tenham adquirido uma licença do Teams. Para obter mais informações, consulte <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Gerenciar políticas de declaração automática</a>.
+Next time you upgrade, use auto-claim policies to create policies for your organization to automatically assign licenses from paid subscriptions to new users who haven’t acquired a Teams license. For more information, see <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">Manage auto-claim policies</a>.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

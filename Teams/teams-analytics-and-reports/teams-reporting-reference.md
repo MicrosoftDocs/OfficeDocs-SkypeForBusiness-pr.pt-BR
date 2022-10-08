@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os relatórios do Teams que es
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
-ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
+ms.openlocfilehash: b08e62a7ddee8298ff38846d8d254d10d3d6f681
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66906956"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033829"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -40,28 +40,29 @@ Vá para o centro de administração do Microsoft Teams, no painel de navegaçã
 
 ## <a name="teams-reporting-reference"></a>Referência de relatórios do Teams
 
-Aqui está uma lista dos relatórios do Teams disponíveis no Centro de administração do Microsoft Teams e uma visão geral de algumas das informações disponíveis em cada relatório.
+Aqui está uma lista dos relatórios do Teams disponíveis no Centro de administração do Microsoft Teams em diferentes ambientes e uma visão geral de algumas das informações disponíveis em cada relatório.
 
 Estamos melhorando continuamente a experiência de relatório do Teams e adicionando recursos e funcionalidades. Ao longo do tempo, criaremos recursos adicionais nos relatórios e adicionaremos novos relatórios no centro de administração do Microsoft Teams.
 
-|Relatório  |O que é avaliado? |
-|---------|---------|
-|[Relatório de uso do Teams](teams-usage-report.md)  |  Usuários ativos<br/>Usuários ativos em equipes e canais<br/>Canais ativos<br/>Mensagens<br/>Configuração de privacidade das equipes<br/>Convidados em uma equipe   |
-|[Relatório de atividades do usuário do Teams](user-activity-report.md)  | Mensagens que um usuário postou em um chat de equipe<br/>Mensagens que um usuário postou em um chat privado<br/>  1:1 chamadas em que um usuário participou<br/> Número de reuniões organizadas pelo usuário <br/>Número de reuniões em que o usuário participou<br/>Tempo de compartilhamento de áudio, vídeo e tela de reuniões<br/>   Data da última atividade de um usuário     |
-|[Relatório de uso de dispositivos do Teams](device-usage-report.md)   |  Usuários do Windows<br/>Usuários do Mac<br/>Usuários do iOS<br/>Usuários de telefone Android     |
-|[Relatório de uso de evento ao vivo do Teams](teams-live-event-usage-report.md)   |  Total de exibições<br>Hora de início<br>Status do evento<br>Organizador<br>Apresentador<br>Produtor<br>Configuração de gravação<br>Tipo de produção    |
-|[Relatório de usuários bloqueados do PSTN do Teams](pstn-blocked-users-report.md)   |  Nome de exibição<br>Número de telefone<br>Motivo<br>Tipo de ação<br>Data e hora da ação   |
-|[Relatório de pools de minutos PSTN do Teams](pstn-minute-pools-report.md) |  País ou região<br>Funcionalidade (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
-|[Relatório de uso de PSTN do Teams – Planos de Chamadas](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Número de telefone<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou da região<br>Carga<br>Moeda<br>Duração<br>Nacionais/Internacionais<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
-|[Relatório de uso de PSTN do Teams – Roteamento Direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome de exibição<br>Endereço SIP<br>Número de telefone <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
-|[Relatório de licença de proteção de informações do Teams](information-protection-license-report.md)  | <br>Se os usuários têm licenças válidas para enviar suas mensagens por push por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração disparados por um usuário<br><br>Quais aplicativos estão escutando eventos de notificação de alteração em toda a organização<br>|
-|[Relatório de uso de Visitas Virtuais do Teams](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | Número de compromissos virtuais<br>Número de compromissos do Bookings<br>Número de compromissos integrados ao EHR (Registros eletrônicos de integridade) do Teams<br>Duração média de um compromisso<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da Reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>SMS enviado
-|[Relatório do conector EHR Compromissos virtuais Teams](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | Hora de início<br>Duração<br>Principal (nome do organizador da reunião)<br>Email principal (email do organizador da reunião)<br>Departamento<br>Atendentes<br>Tempo de espera do lobby<br>Se o compromisso está dentro do limite de alocação|
+|Relatório  |Público |Gcc |GCCH |Dod |O que é avaliado? |
+|---------|---------|---------|---------|---------|---------|
+|[Relatório de uso do Teams](teams-usage-report.md)  |Sim|Sim|Sim|Sim|  Usuários ativos<br/>Usuários ativos em equipes e canais<br/>Canais ativos<br/>Mensagens<br/>Configuração de privacidade das equipes<br/>Convidados ativos em uma equipe  <br/>Usuários externos ativos (em canais compartilhados)<br/>Detalhes específicos do canal compartilhado dentro de uma equipe (novo)|
+|[Relatório de atividades do usuário do Teams](user-activity-report.md)  |Sim|Sim|Sim|Sim|Usuários ativos internos e externos (em canais compartilhados)<br/> Mensagens que um usuário postou em um chat de equipe<br/>Mensagens que um usuário postou em um chat privado<br/>  1:1 chamadas em que um usuário participou<br/> Número de reuniões organizadas pelo usuário <br/>Número de reuniões em que o usuário participou<br/>Tempo de compartilhamento de áudio, vídeo e tela de reuniões<br/>   Data da última atividade de um usuário  <br>Interações de canal compartilhado de um usuário (novo)</br>   |
+|[Relatório de uso de dispositivos do Teams](device-usage-report.md)   |Sim|Sim|Sim|Sim|  Usuários do Windows<br/>Usuários do Mac<br/>Usuários do iOS<br/>Usuários de telefone Android     |
+|[Relatório de uso de aplicativos do Teams (novo)](app-usage-report.md)   |Sim|Sim|Não|Não|  Total de usuários ativos do aplicativo<br/>Total de equipes ativas usando o aplicativo<br/>Total de aplicativos instalados (novo)<br/>Total de aplicativos inativos <br/>Total de uso de aplicativos 1P vs 3P versus LoB (novo)     |
+|[Relatório de uso de evento ao vivo do Teams](teams-live-event-usage-report.md)   |Sim|Sim|Não|Não|  Total de exibições<br>Hora de início<br>Status do evento<br>Organizador<br>Apresentador<br>Produtor<br>Configuração de gravação<br>Tipo de produção    |
+|[Relatório de usuários bloqueados do PSTN do Teams](pstn-blocked-users-report.md)   |Sim|Sim|Não|Não|  Nome de exibição<br>Número de telefone<br>Motivo<br>Tipo de ação<br>Data e hora da ação   |
+|[Relatório de pools de minutos PSTN do Teams](pstn-minute-pools-report.md) |Sim|Sim|Não|Não|  País ou região<br>Funcionalidade (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
+|[Relatório de uso de PSTN do Teams – Planos de Chamadas](pstn-usage-report.md#calling-plans)|Sim|Sim|Não|Não|  Carimbo de data/hora<br>Nome de usuário<br>Número de telefone<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou da região<br>Carga<br>Moeda<br>Duração<br>Nacionais/Internacionais<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Funcionalidade (licença)|
+|[Relatório de uso de PSTN do Teams – Roteamento Direto](pstn-usage-report.md#direct-routing)  |Sim|Sim|Não|Não|  Carimbo de data/hora<br>Nome de exibição<br>Endereço SIP<br>Número de telefone <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>SBC FQDN<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
+|[Relatório de licença de proteção de informações do Teams](information-protection-license-report.md)  |Sim|Sim|Não|Não| <br>Se os usuários têm licenças válidas para enviar suas mensagens por push por meio de notificações de alteração</br><br>Número total de eventos de notificação de alteração disparados por um usuário<br><br>Quais aplicativos estão escutando eventos de notificação de alteração em toda a organização<br>|
+|[Relatório de uso de Visitas Virtuais do Teams](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  |Sim|Sim|Não|Não| Número de compromissos virtuais<br>Número de compromissos do Bookings<br>Número de compromissos integrados ao EHR (Registros eletrônicos de integridade) do Teams<br>Duração média de um compromisso<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da Reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>SMS enviado
+|[Relatório do conector EHR Compromissos virtuais Teams](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Sim|Sim|Não|Não| Hora de início<br>Duração<br>Principal (nome do organizador da reunião)<br>Email principal (email do organizador da reunião)<br>Departamento<br>Atendentes<br>Tempo de espera do lobby<br>Se o compromisso está dentro do limite de alocação|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Tornar os dados específicos do usuário anônimos
 
-Para tornar os dados na atividade do usuário do Teams e no relatório de uso de dispositivos do Teams anônimos, você precisa ser um administrador global. Isso ocultará informações identificáveis, como nome de exibição, email e Microsoft Azure Active Directory ID em relatórios e suas exportações.
+Para tornar os dados no relatório de atividades do usuário do Teams anônimos, você precisa ser um administrador global. O administrador global pode ocultar informações identificáveis (usando hashes MD5), como nome de exibição, nome do grupo, email e ID do AAD no relatório e sua exportação.
 
 1. No Centro de administração do Microsoft 365, vá para **As Configurações** \> da **Organização e,** na **guia Serviços**, escolha **Relatórios**.
     
@@ -70,5 +71,6 @@ Para tornar os dados na atividade do usuário do Teams e no relatório de uso de
 3. Selecione **Salvar alterações**.
 
 > [!NOTE]
-> Habilitar essa configuração desidentirá as informações no relatório [de atividades do usuário do Teams](user-activity-report.md) e nos relatórios [de uso de dispositivos do Teams](device-usage-report.md) . Ele não afetará outros relatórios de uso disponíveis no Centro de administração do Teams.
-> Essa configuração também se aplica aos relatórios de uso do Microsoft 365 Centro de administração do Microsoft 365, Microsoft Graph e Power BI.
+> Habilitar essa configuração desidentirá as informações de nome de usuário, grupo e site no relatório de atividades do usuário do [Teams](user-activity-report.md), relatório de uso de dispositivos do [Teams](device-usage-report.md) e relatório [de uso do Teams](teams-usage-report.md). A partir de 1º de setembro de 2021, essa configuração é habilitada por padrão para todos como parte do nosso compromisso contínuo de ajudar a proteger informações importantes e permitir que as empresas deem suporte às leis de privacidade locais. 
+>
+>Essa configuração também se aplica aos relatórios de uso do Microsoft 365 Centro de administração do Microsoft 365, Microsoft Graph e Power BI.
