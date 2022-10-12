@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885495"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551805"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>Etapa 4 – Selecionar dispositivos que habilitam seu espaço para reuniões híbridas
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Público-alvo do público-alvo" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="de TI pro de" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="&quot; border=&quot;false"::: áudio
 
-Os dispositivos escolhidos para Salas do Teams espaço dependem do design e do orçamento da sala. Este artigo ajuda você a entender quais dispositivos você precisa para criar seu espaço Salas do Teams, considerações para ajudá-lo a escolher o que é certo para você e dispositivos de exemplo para que você possa ver quais opções estão disponíveis.
+Os dispositivos que você escolhe para o Salas do Microsoft Teams ou o espaço Salas do Microsoft Teams assinatura dependem do design e do orçamento da sua sala. Este artigo ajuda você a entender quais dispositivos você precisa para criar seu espaço Salas do Teams, considerações para ajudá-lo a escolher o que é certo para você e dispositivos de exemplo para que você possa ver quais opções estão disponíveis.
 
 No mínimo, você precisa de cada um dos seguintes:
 
@@ -164,9 +164,9 @@ A seguir estão exemplos de sistemas de áudio para Salas do Teams:
 - [Solução de mesa com fio yamaha ADECIA](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [Áudio de sala média biamp com microfone de teto Parlé](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[Otimizado para híbrido](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[Assinatura Salas do Teams](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>Console touchscreen e módulo de computação
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>Assinatura Salas do Teams consoles touchscreen e módulos de computação
 
 O console touchscreen é o dispositivo com o qual os usuários interagem ao ingressar e gerenciar uma reunião. O módulo de computação é o cérebro da Sala do Teams e executa Windows 10 Enterprise IoT.
 
@@ -183,11 +183,11 @@ A seguir estão exemplos de pacotes de módulos de computação e console touchs
 - [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>Exibições otimizadas para híbridos
+## <a name="signature-teams-rooms-displays"></a>Exibições Salas do Teams assinatura
 
 As telas trazem seu conteúdo à vida e podem ser uma TV de tela plana grande ou um projetor que projeta em uma tela. Você pode ter uma única exibição que tenha seus feeds de conteúdo e vídeo combinados ou pode configurar exibições duplas com conteúdo em uma exibição e feeds de vídeo na outra. Uma das telas pode até mesmo ser habilitada para toque para escrita à tinta interativa.
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="Salas do Teams exibição mostrando a primeira linha, chat e anotações.":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="Exibição Salas do Teams assinatura mostrando a linha da frente, chat e anotações.":::
 
 
 ### <a name="display-type"></a>Tipo de exibição
@@ -202,7 +202,7 @@ Os tipos de exibição de exemplo incluem:
 
 ### <a name="display-functions"></a>Exibir funções
 
-As Salas do Microsoft Teams otimizadas para Salas do Microsoft Teams, assim como todas as outras soluções de Salas do Microsoft Teams, exigem o uso de exibições que podem acomodar os seguintes recursos para a operação adequada:
+As Salas do Teams assinatura, assim como todas as outras soluções Salas do Microsoft Teams, exigem o uso de exibições que podem acomodar os seguintes recursos para a operação adequada:
 
 - Sleep e Quick Wake Up from sleep based on HDMI sync.
   - Para projetores, os períodos de aquecimento e resfriamento automáticos devem ter suporte sem a intervenção do usuário necessária.
@@ -210,7 +210,7 @@ As Salas do Microsoft Teams otimizadas para Salas do Microsoft Teams, assim como
 
 ### <a name="display-placement"></a>Posicionamento de exibição
 
-Uma sala com otimização híbrida exige que a exibição seja colocada na frente de todos os participantes da reunião na sala, diretamente em frente à tabela.
+A Salas do Teams exige que a exibição seja colocada na frente de todos os participantes da reunião na sala, diretamente em frente à tabela.
 
 A linha central horizontal do visor deve ser centralizada na mesma linha central que a tabela.
 
@@ -218,11 +218,11 @@ A linha central vertical da exibição não deve ter mais de +/- 15 graus de des
 
 ### <a name="display-count"></a>Contagem de exibição
 
-Uma sala com otimização híbrida exige que a exibição seja uma única exibição de taxa de proporção ampla ou uma combinação de exibições que podem atingir o efeito de ser uma única exibição quando vista pelos participantes da reunião na sala.
+A Salas do Teams assinatura exige que a exibição seja uma única exibição de taxa de proporção larga ou uma combinação mesclada de exibições que podem atingir o efeito de ser uma única exibição quando vista pelos participantes da reunião na sala.
 
 ### <a name="display-options"></a>Opções de exibição
 
-A seguir estão exemplos de exibições para aplicativos otimizados para Salas do Teams:
+A seguir estão exemplos de exibições para a assinatura Salas do Teams:
 
 - [Projetor Epson EB-PU1007 com lente de lançamento ultra curto ELPLX01S](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Tela de contorno UTB da-Lite | Hd Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ Uma sala desse tipo requer o uso de uma câmera frontal inteligente e ultra gran
 
 A câmera deve ser colocada na frente da sala abaixo da projeção da frente da sala, mas acima da parte superior da tabela para capturar todos os participantes da sala de reunião o mais próximo possível do nível do olho.
 
-A seguir estão exemplos de câmeras primárias para dispositivos com otimização Salas do Teams:
+A seguir estão exemplos de câmeras primárias para assinaturas Salas do Teams:
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ Matrizes de alto-falantes front-of-room e alto-falantes de sobrecarga funcionar�
 
 Os alto-falantes precisam ser posicionados para fornecer cobertura para todos os participantes da sala de reunião dentro do intervalo certificado do dispositivo ou dispositivos usados.
 
-A seguir estão exemplos de microfones e alto-falantes para dispositivos com otimização Salas do Teams:
+A seguir estão exemplos de microfones e alto-falantes para assinatura Salas do Teams:
 
 - [Lenovo ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Hub de sala de conferência biamp Devio com microfone Parle Ceiling](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)

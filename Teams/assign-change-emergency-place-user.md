@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá a atribuir ou alterar o local para um local de emergência para os usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 749093e532dec92f8bf9788cc43fd0f052c461a4
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 60bd471e42eb6e8c2404eef47636da2c9894268c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606590"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551635"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Atribuir ou alterar o local de um local de emergência para um usuário
 
-Independentemente da opção de conectividade [PSTN](pstn-connectivity.md)&mdash;, você escolhe Planos de Chamada da Microsoft, Conexão de Operador, Operadora de Conexão Móvel (versão prévia pública)&mdash;ou Roteamento Direto, um local de emergência precisa ser atribuído a cada número de telefone ou usuário.
+Independentemente da opção de conectividade [PSTN](pstn-connectivity.md)&mdash;, você escolhe Planos de Chamada da Microsoft, Conexão de Operador, Telefone Móvel do Teams&mdash;ou Roteamento Direto, um local de emergência precisa ser atribuído a cada número de telefone ou usuário.
 
 Dependendo da opção de conectividade PSTN, no entanto, a maneira como você gerencia e atribui locais de emergência para um usuário pode variar. Para obter mais informações, consulte [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Este artigo descreve como atribuir ou alterar o local de  um local de emergência para um usuário no centro de administração do Microsoft Teams ou usando o PowerShell.
 
-Este artigo se aplica aos Planos de Chamada, ao Operator Connect e Operadora de Conexão Móvel (versão prévia pública).
+Este artigo se aplica aos Planos de Chamadas, ao Operator Connect e ao Teams Phone Mobile.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 

@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams para produzir os melhores resultados.
-ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
-ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
+ms.openlocfilehash: c113bdb4cba7193f5e82d7e993c9146f1563f869
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68539650"
+ms.locfileid: "68551465"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -160,6 +160,8 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware  | Versão de produto incluída  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I/C/CI     | `1.0.5.20`    | Atualização de 2022 #3A |
+|Crestron UC-P10/I/C/CI | `1.0.5.20`    | Atualização de 2022 #3A |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | Atualização de 2022 #3A    |
 |Audiocodes C435HD/C455HD/C470HD | `1.17.741` | Atualização de 2022 #3A    |
 |Poly Trio C60 | `7.3.2.0174` | Atualização de 2022 #3A |
@@ -371,6 +373,8 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão de produto incluída|
 |:--------------|:-----------------|:-------------------------|
+|Crestron UC-P10-TD     |1.0.0.57 |Atualização de 2022 #3A|
+|Crestron UC-P8-TD     |1.0.0.57 |Atualização de 2022 #3A|
 |Lenovo ThinkSmart View| `CD-18781Y.211116.114` |Atualização 3 de 2021  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |Atualização nº 2 de 2021 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |Atualização 1 de 2021 |

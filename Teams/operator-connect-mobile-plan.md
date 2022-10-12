@@ -1,5 +1,5 @@
 ---
-title: Planejar para Operadora de Conexão Móvel
+title: Planejar o Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,44 +12,44 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: Saiba mais sobre Operadora de Conexão Móvel, como requisitos e planejamento para implantação.
+description: Saiba mais sobre o Teams Phone Mobile, como requisitos e planejamento para implantação.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53873df291ffcc0c1acbdf32a8e8ba6e6d13359b
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606861"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551715"
 ---
-# <a name="plan-for-operator-connect-mobile"></a>Planejar para Operadora de Conexão Móvel
+# <a name="plan-for-teams-phone-mobile"></a>Planejar o Teams Phone Mobile
 
-**Operadora de Conexão Móvel é uma versão prévia pública.** Para obter uma lista de operadores que participam do programa Microsoft Operadora de Conexão Móvel e os países ou regiões em que o serviço está disponível, consulte [o Microsoft 365 Operadora de Conexão Móvel](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Para obter uma lista de operadores que participam do programa Telefonia do Microsoft Teams Mobile e os países ou regiões em que o serviço está disponível, consulte [o Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
 
-Operadora de Conexão Móvel é outra opção para fornecer conectividade PSTN (Rede Telefônica Pública Comunada) com o Teams e o Sistema de Telefonia. Com Operadora de Conexão Móvel, o número de telefone habilitado para SIM de um usuário também é o número de telefone do Teams. Os usuários podem usar um único número de telefone no Microsoft Teams em suas linhas de serviço móvel e de mesa e fazer a transição direta entre redes e dispositivos.
+O Teams Phone Mobile é outra opção para fornecer conectividade PSTN (Rede Telefônica Pública Comunada) com o Microsoft Teams e o Sistema de Telefonia. Com o Teams Phone Mobile, o número de telefone habilitado para SIM de um usuário também é o número de telefone do Teams. Os usuários podem usar um único número de telefone no Microsoft Teams em suas linhas de serviço móvel e de mesa e fazer a transição direta entre redes e dispositivos.
 
-Operadora de Conexão Móvel pode desempenhar um papel fundamental na estratégia da sua organização para habilitar uma força de trabalho verdadeiramente móvel, fornecendo experiências de usuário centradas em dispositivos móveis mais flexíveis e eficientes, juntamente com configurações de conformidade e segurança de nível empresarial.
+O Teams Phone Mobile pode desempenhar um papel fundamental na estratégia da sua organização para habilitar uma força de trabalho verdadeiramente móvel, fornecendo experiências de usuário centradas em dispositivos móveis mais flexíveis e eficientes, juntamente com configurações de segurança e conformidade de nível empresarial.
 
-Você pode considerar uma combinação de serviços de voz. Por exemplo, você pode escolher Operadora de Conexão Móvel para suas organizações de vendas e de campo que exigem suporte móvel, mas outra solução para sua organização de call center local que depende de telefones de mesa. Para obter mais informações sobre soluções de voz do Teams e opções de conectividade PSTN, consulte Planejar sua solução de voz do [Teams](cloud-voice-landing-page.md) e opções [de conectividade PSTN](pstn-connectivity.md). 
+Você pode considerar uma combinação de serviços de voz. Por exemplo, você pode escolher o Teams Phone Mobile para suas organizações de vendas e de campo que exigem suporte móvel, mas outra solução para sua organização de call center local que depende de telefones de mesa. Para obter mais informações sobre soluções de voz do Teams e opções de conectividade PSTN, consulte Planejar sua solução de voz do [Teams](cloud-voice-landing-page.md) e opções [de conectividade PSTN](pstn-connectivity.md). 
 
-Este artigo descreve os Operadora de Conexão Móvel e os requisitos. Operadora de Conexão Móvel pode ser a solução certa para sua organização se:
+Este artigo descreve os benefícios e os requisitos do Teams Phone Mobile. O Teams Phone Mobile pode ser a solução certa para sua organização se:
 
 -   Você deseja usar um número de celular primário habilitado para SIM da empresa para o Telefone do Teams como uma solução de número único.
 
--   Seu operador preferido é um participante do programa Microsoft Operadora de Conexão Móvel.
+-   Seu operador preferido é um participante do programa Telefonia do Microsoft Teams Mobile.
 
 -   Você deseja encontrar um novo operador para habilitar a chamada no Teams.
 
-Se você decidir Operadora de Conexão Móvel é a solução certa para sua organização, depois de ler este artigo, consulte [Configurar Operadora de Conexão Móvel](operator-connect-mobile-configure.md).
+Se você decidir que o Teams Phone Mobile é a solução certa para sua organização, depois de ler este artigo, consulte [Configurar o Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 
 
 ## <a name="benefits"></a>Benefícios
 
-Se o operador existente for um participante do programa Operadora de Conexão Móvel, ele poderá gerenciar o serviço para trazer chamadas PSTN para o Teams. O Operadora de Conexão Móvel oferece os seguintes benefícios para sua organização:
+Se o operador existente for um participante do programa Teams Phone Mobile, ele poderá gerenciar o serviço para trazer chamadas PSTN para o Teams. O programa Teams Phone Mobile oferece os seguintes benefícios para sua organização:
 
 - **Os usuários têm um número fornecido pelos negócios para dispositivos móveis, de mesa e do Microsoft Teams**. Os usuários podem trabalhar de forma flexível e segura em qualquer local, dispositivo ou rede.  
 
@@ -65,7 +65,7 @@ Se o operador existente for um participante do programa Operadora de Conexão M�
 
 ## <a name="features"></a>Recursos
 
-Operadora de Conexão Móvel usuários podem aproveitar [os recursos](here-s-what-you-get-with-phone-system.md) existentes do Sistema de Telefonia, bem como o seguinte:
+Os usuários do Teams Phone Mobile podem aproveitar [os recursos](here-s-what-you-get-with-phone-system.md) existentes do Sistema de Telefonia, bem como o seguinte:
 
 - **Chamada de número de telefone habilitado para SIM com o Teams**. Os usuários podem fazer e receber chamadas do discador nativo do smartphone ou dos pontos de extremidade do Teams usando um único número de celular habilitado para SIM de propriedade comercial. Quando os usuários fazem uma chamada de saída do discador nativo do smartphone ou de qualquer ponto de extremidade do Teams, eles podem mostrar o número de serviço móvel ou da empresa. As chamadas recebidas tonam o discador nativo do smartphone e tonam simultaneamente clientes ativos do Teams.
 
@@ -92,11 +92,11 @@ Operadora de Conexão Móvel usuários podem aproveitar [os recursos](here-s-wha
 Verifique se sua organização tem serviços do Microsoft 365 qualificados:
 
 - SKU do Sistema de Telefonia do Teams/E5
-- Operadora de Conexão Móvel SKU de complemento
+- SKU de complemento do Teams Phone Mobile
 
-Para habilitar atribuições de número de telefone Operadora de Conexão Móvel, verifique se os usuários:
+Para habilitar atribuições de número de telefone com o Teams Phone Mobile, verifique se os usuários:
 
-- Ter licenças de telefone e Operadora de Conexão Móvel teams. Para saber mais, confira [O que é o Sistema de Telefonia?](what-is-phone-system-in-office-365.md) e [atribua licenças de complemento do Teams aos usuários](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Ter licenças do Teams Phone e Do Teams Phone Mobile. Para saber mais, confira [O que é o Sistema de Telefonia?](what-is-phone-system-in-office-365.md) e [atribua licenças de complemento do Teams aos usuários](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 - Ter uma assinatura móvel qualificada com sua operadora preferencial que dê suporte ao número de telefone habilitado para SIM a ser usado para o Telefone do Teams. Sua operadora carregará os números de telefone no locatário do Microsoft 365.
 

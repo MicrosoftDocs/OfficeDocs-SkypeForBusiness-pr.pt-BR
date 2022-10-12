@@ -18,16 +18,16 @@ description: Saiba como configurar os Planos de Chamadas da Microsoft e o recurs
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9109f26abc953fd131e96440bd62d147cac8114f
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 9c990473a185f4f1a42a5c046b11548892e6df4b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606030"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551625"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
-Chamadas de emergência dinâmicas para Planos de Chamadas da Microsoft, Conexão do Operador, Operadora de Conexão Móvel (versão prévia pública) e Roteamento Direto fornecem a capacidade de configurar e rotear chamadas de emergência e notificar a equipe de segurança com base na localização atual do cliente do Teams.  
+Chamadas de emergência dinâmicas para Planos de Chamadas da Microsoft, Conexão de Operador, Telefone Móvel do Teams e Roteamento Direto fornecem a capacidade de configurar e rotear chamadas de emergência e notificar a equipe de segurança com base na localização atual do cliente do Teams.  
 
 Com base na topologia de rede (elementos de rede associados a endereços de emergência) que o administrador de locatários define, o cliente do Teams fornece informações de conectividade de rede em uma solicitação para o LIS (Serviço de Informações de Localização). Se houver uma correspondência, o LIS retornará um local para o cliente.
 
@@ -51,7 +51,7 @@ Para chamadas de emergência dinâmicas, o seguinte deve ocorrer:
 
 A capacidade de fazer o roteamento automático para o PSAP (Ponto de Resposta de Segurança Pública) apropriado varia dependendo do país de uso do usuário do Teams.
 
-Os Planos de Chamadas da Microsoft, os parceiros do Operator Connect e Operadora de Conexão Móvel incluem serviços de roteamento de emergência dinâmicos para usuários no Estados Unidos e no Canadá.
+Os Planos de Chamadas da Microsoft, os parceiros do Operator Connect e os parceiros do Teams Phone Mobile incluem serviços dinâmicos de roteamento de emergência para usuários no Estados Unidos e no Canadá.
 
 No entanto, para Roteamento Direto, a configuração adicional é necessária para rotear chamadas de emergência e, possivelmente, para a conectividade do parceiro. O administrador deve garantir que o gateway PSTN que roteia a chamada de emergência tenha sido configurado para adicionar informações de localização ao INVITE de saída (definindo o parâmetro PidfloSupported como True no objeto de gateway PSTN online. Além disso, o administrador deve configurar a conexão com um provedor de ERS (Serviço de Roteamento de Emergência) (Estados Unidos e Canadá) **OU** configurar o SBC (Controlador de Borda de Sessão) para um aplicativo ELIN (Número de Identificação de Local de Emergência). Para obter informações sobre provedores ERS, consulte [Controladores de Borda de Sessão certificados para Roteamento Direto](direct-routing-border-controllers.md).
 
@@ -105,7 +105,7 @@ Você pode atribuir endereços de emergência da seguinte maneira:
 
 - Para usuários do Plano de Chamadas.
 
-- Para o Operator Connect e Operadora de Conexão Móvel usuários&mdash;, dependendo dos recursos atribuídos ao número quando a operadora os carrega no inventário de um cliente.
+- Para usuários do Operator Connect e do Teams Phone Mobile&mdash;, dependendo dos recursos atribuídos ao número quando a operadora os carrega no inventário de um cliente.
 
 - Para os identificadores de rede necessários para obter dinamicamente um local. 
 
@@ -144,7 +144,7 @@ Observe que pode levar algum tempo (até algumas horas) para algumas alteraçõe
 
 
 
-**Para o Plano de Chamadas, o Operator Connect e Operadora de Conexão Móvel usuários:**
+**Para usuários do Plano de Chamadas, do Operator Connect e do Teams Phone Mobile:**
 
 - Se a configuração dinâmica da notificação do suporte de segurança for necessária, você deverá configurar endereços IP confiáveis e sites de rede.
 
@@ -191,13 +191,13 @@ Use as políticas a seguir para configurar chamadas de emergência. Você pode g
 
 - **Política de roteamento de chamadas de emergência – aplica-se somente ao Roteamento Direto**. Essa política configura os números de emergência, máscaras por número, se desejado, e a rota PSTN por número. Você pode atribuir essa política a usuários, a sites de rede ou a ambos. Para saber mais, confira [Gerenciar políticas de roteamento de chamadas de emergência para Roteamento Direto](manage-emergency-call-routing-policies.md).  
 
-   (O Plano de Chamadas, o Operator Connect e Operadora de Conexão Móvel usuários são habilitados automaticamente para chamadas de emergência com os números de emergência do país com base em seu microsoft 365 ou Office 365 local de uso.)
+   (Os usuários do Plano de Chamadas, do Operator Connect e do Teams Phone Mobile são habilitados automaticamente para chamadas de emergência com os números de emergência do país com base em seu microsoft 365 ou Office 365 local de uso.)
 
-- **Política de chamada de emergência – aplica-se a Planos de Chamada, Conexão de Operador, Operadora de Conexão Móvel e Roteamento Direto.** Essa política configura a experiência de notificação do suporte de segurança quando uma chamada de emergência é feita. Você pode definir quem notificar e como eles são notificados. Por exemplo, para notificar automaticamente o suporte de segurança da sua organização e fazer com que eles ouçam em chamadas de emergência.  Essa política pode ser atribuída a usuários, sites de rede ou ambos. Para saber mais, confira [Gerenciar políticas de chamadas de emergência no Teams](manage-emergency-calling-policies.md).
+- **Política de chamada de emergência – aplica-se a Planos de Chamada, Conexão de Operador, Telefone Móvel do Teams e Roteamento Direto.** Essa política configura a experiência de notificação do suporte de segurança quando uma chamada de emergência é feita. Você pode definir quem notificar e como eles são notificados. Por exemplo, para notificar automaticamente o suporte de segurança da sua organização e fazer com que eles ouçam em chamadas de emergência.  Essa política pode ser atribuída a usuários, sites de rede ou ambos. Para saber mais, confira [Gerenciar políticas de chamadas de emergência no Teams](manage-emergency-calling-policies.md).
 
 ## <a name="enable-users-and-sites"></a>Habilitar usuários e sites
 
-Você pode atribuir políticas de roteamento de chamadas de emergência e políticas de chamada de emergência a usuários e sites. Tenha em mente que as políticas de roteamento de chamadas de emergência se aplicam somente ao Roteamento Direto. (Embora seja possível atribuir essa política a um plano de chamada, conexão de operador ou Operadora de Conexão Móvel usuário, a política não terá nenhum efeito.)
+Você pode atribuir políticas de roteamento de chamadas de emergência e políticas de chamada de emergência a usuários e sites. Tenha em mente que as políticas de roteamento de chamadas de emergência se aplicam somente ao Roteamento Direto. (Embora seja possível atribuir essa política a um plano de chamada, conexão de operador ou usuário do Teams Phone Mobile, a política não terá efeito.)
 
 Você atribui políticas no centro de administração do Microsoft Teams ou usando o PowerShell. Para saber mais, veja:
 
@@ -236,7 +236,7 @@ Se você atribuiu uma política de chamada de emergência a um site de rede e a 
 
 Alguns provedores de serviços de roteamento de emergência (ERSPs) no Estados Unidos oferecem um bot de teste de chamada de emergência.
 
-- **O Plano de Chamadas, o Operator Connect e Operadora de Conexão Móvel usuários no Estados Unidos ou** no Canadá podem usar o número de emergência de teste predefinido 933 para validar sua configuração de chamada de emergência. Esse número é roteado para um bot, que retorna o número de telefone do chamador (ID da linha de chamada), o endereço de emergência ou o local e se a chamada seria roteada automaticamente para o PSAP ou exibida primeiro.
+- Os usuários do Plano de Chamadas **, do Operator Connect e do Teams Phone Mobile no Estados Unidos** ou no Canadá podem usar o número de emergência de teste predefinido 933 para validar a configuração de chamada de emergência. Esse número é roteado para um bot, que retorna o número de telefone do chamador (ID da linha de chamada), o endereço de emergência ou o local e se a chamada seria roteada automaticamente para o PSAP ou exibida primeiro.
 
 - **Os clientes de Roteamento Direto no Estados Unidos** devem coordenar com seu ERSP para um serviço de teste.
 

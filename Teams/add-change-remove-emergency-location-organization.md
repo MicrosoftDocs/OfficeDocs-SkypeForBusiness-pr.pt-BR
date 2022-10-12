@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: Saiba como adicionar, alterar ou remover um local de emergência para sua organização.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 23eb549592c8ead6983253d1a228020f3851e1a7
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606630"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551485"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
-Independentemente da opção de conectividade [PSTN](pstn-connectivity.md)&mdash;, você escolhe Planos de Chamada da Microsoft, Conexão de Operador, Operadora de Conexão Móvel (versão prévia pública)&mdash;ou locais de emergência de Roteamento Direto podem ser associados a um número de telefone.
+Independentemente da [opção de conectividade PSTN](pstn-connectivity.md)&mdash;, você escolhe planos de chamadas da Microsoft, conexão de operador, telefone móvel do Teams&mdash;ou locais de emergência de roteamento direto podem ser associados a um número de telefone.
 
 No entanto, dependendo da opção de conectividade PSTN, a maneira como você gerencia os locais de emergência e os requisitos de localização podem variar. Para obter mais informações, consulte [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Este artigo descreve como adicionar, alterar ou remover um local de emergência para sua organização. 
 
-Este artigo se aplica aos Planos de Chamada da Microsoft, ao Operator Connect, Operadora de Conexão Móvel (versão prévia pública) e ao Roteamento Direto.
+Este artigo se aplica aos Planos de Chamadas da Microsoft, ao Operator Connect, ao Teams Phone Mobile e ao Roteamento Direto.
 
 Você gerencia locais de emergência para sua organização no centro de administração do Microsoft Teams ou usando o PowerShell.
 

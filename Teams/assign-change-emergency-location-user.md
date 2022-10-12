@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá a atribuir ou alterar um local de emergência para os usuários em sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2562661a08c98c15a24a5e7db6a0f31dee864573
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a43ca031b8787d62639e141c3f733acdb402f85a
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606600"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551645"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Atribuir ou alterar um local de emergência para um usuário
 
-Independentemente da opção de conectividade [PSTN](pstn-connectivity.md)&mdash;, você escolhe Planos de Chamada da Microsoft, Conexão de Operador, Operadora de Conexão Móvel (versão prévia pública)&mdash;ou Roteamento Direto, um local de emergência precisa ser atribuído a cada número de telefone ou usuário.
+Independentemente da opção de conectividade [PSTN](pstn-connectivity.md)&mdash;, você escolhe Planos de Chamada da Microsoft, Conexão de Operador, Telefone Móvel do Teams&mdash;ou Roteamento Direto, um local de emergência precisa ser atribuído a cada número de telefone ou usuário.
 
 Dependendo da opção de conectividade PSTN, no entanto, a maneira como você gerencia e atribui locais de emergência para um usuário pode variar. Para obter mais informações, consulte [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
 
 Este artigo descreve como atribuir ou alterar um local de emergência para um usuário. 
 
-Este artigo se aplica aos Planos de Chamada, ao Operator Connect e Operadora de Conexão Móvel (versão prévia pública).
+Este artigo se aplica aos Planos de Chamadas, ao Operator Connect e ao Teams Phone Mobile.
   
 Você pode atribuir ou alterar um local de emergência para um usuário no centro de administração do Microsoft Teams ou usando o PowerShell.
 

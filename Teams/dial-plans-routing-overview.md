@@ -19,12 +19,12 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Planos de discagem e roteamento no Microsoft Teams
-ms.openlocfilehash: 89332b5e5756bc33c92a67b641bab85b826bfe70
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 3fc29dc27f1f3863ed313b75c8ef977cd27a6231
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606780"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551895"
 ---
 # <a name="overview"></a>Visão geral
 
@@ -34,9 +34,9 @@ Os artigos nesta seção descrevem os planos de discagem e o roteamento de chama
 - [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 - [Rotear chamadas para dormentes não atribuídos](routing-calls-to-unassigned-numbers.md)
 
-Os artigos desta seção se aplicam a todas as opções de conexão à PSTN (Rede Telefônica Pública Comunada): Plano de Chamadas, Conexão do Operador, Operadora de Conexão Móvel (versão prévia pública) e Roteamento Direto. Para obter mais informações sobre todas as opções de conectividade PSTN, consulte [as opções de conectividade PSTN](pstn-connectivity.md).
+Os artigos nesta seção se aplicam a todas as opções de conexão com a PSTN (Rede Telefônica Pública Comunada): Plano de Chamadas, Conexão de Operador, Telefone Móvel do Teams e Roteamento Direto. Para obter mais informações sobre todas as opções de conectividade PSTN, consulte [as opções de conectividade PSTN](pstn-connectivity.md).
 
-Se você escolher Plano de Chamada, Conexão de Operador ou Operadora de Conexão Móvel, a maioria do roteamento de chamadas será manipulada pela Microsoft ou pelo provedor. O Roteamento Direto, no entanto, requer etapas adicionais para configurar o roteamento de chamadas. 
+Se você escolher Plano de Chamada, Conexão de Operador ou Telefone Móvel do Teams, a maioria do roteamento de chamadas será manipulada pela Microsoft ou pelo seu provedor. O Roteamento Direto, no entanto, requer etapas adicionais para configurar o roteamento de chamadas. 
 
 Para Roteamento Direto, você deve configurar o roteamento de chamadas especificando as rotas de voz e atribuindo políticas de roteamento de voz aos usuários. Você pode configurar planos de discagem para conversão de números no nível do tronco para garantir a interoperabilidade com controladores de borda de sessão (SBCs). Para obter mais informações, consulte [Configurar o roteamento de voz para Roteamento Direto](direct-routing-voice-routing.md), Gerenciar políticas de roteamento [de voz](manage-voice-routing-policies.md) e [Traduzir números de telefone](direct-routing-translate-numbers.md).
 

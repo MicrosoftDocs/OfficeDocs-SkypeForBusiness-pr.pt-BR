@@ -25,12 +25,12 @@ search.appverid: MET150
 description: Saiba mais sobre as opções de chamada do Teams (conectividade PSTN) e as decisões que você tomará para sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974418a6a1cf963b66b1f0a8667c5ed75b73f72b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999636"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551695"
 ---
 # <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
 
@@ -44,7 +44,7 @@ Para conectar o Sistema de Telefonia ao PSTN, você pode escolher entre as segui
 
 - [**Conexão do operador**](#phone-system-with-operator-connect). Com o Operator Connect, se sua operadora existente participar do programa Microsoft Operator Connect, ela poderá gerenciar chamadas PSTN e SBCs (Controladores de Borda de Sessão).
 
-- [**Operadora de Conexão Móvel.**](#phone-system-with-operator-connect-mobile) Com Operadora de Conexão Móvel, o número de telefone habilitado para SIM de um usuário também é o número de telefone do Teams. Se sua operadora existente participar do programa Microsoft Operadora de Conexão Móvel, ela poderá gerenciar o serviço para trazer chamadas PSTN para o Teams.  **Operadora de Conexão Móvel é uma versão prévia pública.**
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile). Com Telefonia do Microsoft Teams Mobile, o número de telefone habilitado para SIM de um usuário também é o número de telefone do Teams. Se sua operadora existente participar do programa Telefonia do Microsoft Teams Mobile, ela poderá gerenciar o serviço para trazer chamadas PSTN para o Teams.  
 
 - [**Roteamento**](#phone-system-with-direct-routing) Direto, que permite que você use sua própria operadora PSTN conectando seus controladores de borda de sessão (SBC) ao sistema de telefonia.
 
@@ -93,21 +93,19 @@ O Operator Connect pode ser a solução certa para sua organização se:
 
 Para obter informações sobre os benefícios e requisitos do Operator Connect e para obter uma lista de operadoras que participam deste programa, consulte [Plan Operator Connect](operator-connect-plan.md). Para obter informações sobre como configurar o Operator Connect, consulte [Configurar Conexão do Operador](operator-connect-configure.md).
 
-## <a name="phone-system-with-operator-connect-mobile"></a>Sistema de Telefonia com Operadora de Conexão Móvel
+## <a name="phone-system-with-teams-phone-mobile"></a>Sistema de Telefonia com o Teams Phone Mobile
 
-**Operadora de Conexão Móvel é uma versão prévia pública.**
+Se sua operadora existente participar do programa Telefonia do Microsoft Teams Mobile, ela poderá gerenciar o serviço para trazer chamadas PSTN para o Teams. Com o Teams Phone Mobile, o número de telefone habilitado para SIM de um usuário também é o número de telefone do Teams.  Os usuários podem usar um único número de telefone no Microsoft Teams em suas linhas de serviço móvel e de mesa.  
 
-Se sua operadora existente participar do programa Microsoft Operadora de Conexão Móvel, ela poderá gerenciar o serviço para trazer chamadas PSTN para o Teams. Com Operadora de Conexão Móvel, o número de telefone habilitado para SIM de um usuário também é o número de telefone do Teams.  Os usuários podem usar um único número de telefone no Microsoft Teams em suas linhas de serviço móvel e de mesa.  
+Você pode considerar uma combinação de serviços. Por exemplo, você pode escolher o Teams Phone Mobile para suas organizações de vendas e de campo que exigem suporte móvel, mas outra solução para sua organização de call center local que depende de telefones de mesa. 
 
-Você pode considerar uma combinação de serviços. Por exemplo, você pode escolher Operadora de Conexão Móvel para suas organizações de vendas e de campo que exigem suporte móvel, mas outra solução para sua organização de call center local que depende de telefones de mesa. 
-
-Operadora de Conexão Móvel pode ser a solução certa para sua organização se:
+O Teams Phone Mobile pode ser a solução certa para sua organização se:
 
 - Você deseja usar um número de celular primário habilitado para SIM da empresa para o Telefone do Teams como uma solução de número único.
-- Seu operador preferido é um participante do programa Microsoft Operadora de Conexão Móvel.
+- Seu operador preferido é um participante do programa Telefonia do Microsoft Teams Mobile.
 - Você deseja encontrar um novo operador para habilitar a chamada no Teams.
 
-Para obter informações sobre os benefícios e requisitos do Operadora de Conexão Móvel e para links para operadoras que participam deste programa, consulte [Plano Operadora de Conexão Móvel](operator-connect-mobile-plan.md). Para obter informações sobre como configurar Operadora de Conexão Móvel, consulte [Configurar Operadora de Conexão Móvel](operator-connect-mobile-configure.md).
+Para obter informações sobre os benefícios e requisitos do Teams Phone Mobile e links para operadoras que participam deste programa, consulte [Plan Teams Phone Mobile](operator-connect-mobile-plan.md). Para obter informações sobre como configurar o Teams Phone Mobile, consulte [Configurar o Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 ## <a name="phone-system-with-direct-routing"></a>Sistema de Telefonia com Roteamento Direto
 
@@ -161,7 +159,7 @@ A tabela a seguir realça as diferenças de configuração primárias. As seçõ
 | :------------| :-------| :-------| :-------| :-------| 
 | Planos de Chamadas | - A Microsoft atua como operadora PSTN.<br>- Você não precisa comprar nem gerenciar SBCs.| Obtido por meio da Microsoft.| - Gerenciado pela Microsoft. <br> -Administração configura os planos de discagem do usuário para a conversão de números. | -Habilitado pela Microsoft. <br> -Administração registra endereços. <br> -Chamada dinâmica com suporte. |
 | Conexão do operador | -A operadora gerencia a conectividade PSTN e os SBCs. <br> - Você não precisa comprar nem gerenciar SBCs. | - Obtido por meio da transportadora. <br> - Números associados a endereços de emergência gerenciados pela operadora. | - Gerenciado por operadora. <br>-Administração configura os planos de discagem do usuário para a conversão de números. | -Habilitado por operadora. <br> -Administração registra endereços. <br> -Chamada dinâmica com suporte. |
-| Operadora de Conexão Móvel | -A operadora gerencia SIM-Enabled número de celular, conectividade PSTN e SBCs. <br> - Você não precisa comprar nem gerenciar SBCs. | - Obtido por meio da transportadora. <br> -Números associados a endereços de emergência gerenciados pela operadora. | - Gerenciado por operadora. <br> Administração configura planos de discagem do usuário para conversão de números. |- Habilitado por operadora. <br> – Administração registra endereços. <br> - Chamada dinâmica com suporte. <br> - Operadora com suporte para chamada de emergência de discador nativo. |
+| Teams Phone Mobile | -A operadora gerencia SIM-Enabled número de celular, conectividade PSTN e SBCs. <br> - Você não precisa comprar nem gerenciar SBCs. | - Obtido por meio da transportadora. <br> -Números associados a endereços de emergência gerenciados pela operadora. | - Gerenciado por operadora. <br> Administração configura planos de discagem do usuário para conversão de números. |- Habilitado por operadora. <br> – Administração registra endereços. <br> - Chamada dinâmica com suporte. <br> - Operadora com suporte para chamada de emergência de discador nativo. |
 | Roteamento Direto | - Requer um SBC certificado adquirido de um fornecedor de terceiros.<br>- Conecte seu SBC ao Sistema de Telefonia.<br> - Use sua operadora PSTN existente. | Obtido por meio da transportadora. | - Requer configuração extra por administrador.<br>-Administração configura planos de discagem de tronco para conversão de números. <br>-LBR disponível para restringir o desvio de chamada tarifada. | - Requer configuração extra por administrador. <br>-Endereços registrados sem suporte. <br>-Chamada dinâmica com suporte, mas requer configuração adicional. |
 
 
@@ -181,7 +179,7 @@ A maneira como você adquire e gerencia números de telefone difere dependendo d
 
 - Para obter informações sobre como gerenciar números de telefone com o Operator Connect, consulte [Configurar números de telefone com a Conexão de Operador](operator-connect-configure.md#set-up-phone-numbers).
 
-- Para obter informações sobre como gerenciar números de telefone com Operadora de Conexão Móvel, consulte [Configurar números de telefone com Operadora de Conexão Móvel](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- Para obter informações sobre como gerenciar números de telefone com o Teams Phone Mobile, consulte [Configurar números de telefone com o Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
 
 - Para obter informações sobre como gerenciar números de telefone para Roteamento Direto, consulte [Configurar o número de telefone e habilitar a voz corporativa](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
@@ -191,7 +189,7 @@ A maneira como você configura o roteamento de chamadas difere dependendo da op�
 
 - Para Planos de Chamadas, a maior parte do roteamento de chamadas é tratada pela infraestrutura do Plano de Chamadas da Microsoft. Você configura planos de discagem do usuário para fins de conversão de números para autorização de chamada e roteamento de chamadas. Para obter mais informações, consulte [O que são planos de discagem?](what-are-dial-plans.md).
 
-- Para o Operator Connect e Operadora de Conexão Móvel, a maioria do roteamento de chamadas é gerenciada pela operadora. Você configura planos de discagem do usuário para fins de conversão de números para autorização de chamada e roteamento de chamadas. Para obter mais informações, consulte [O que são planos de discagem?](what-are-dial-plans.md).
+- Para o Operator Connect e o Teams Phone Mobile, a maior parte do roteamento de chamadas é gerenciada pela operadora. Você configura planos de discagem do usuário para fins de conversão de números para autorização de chamada e roteamento de chamadas. Para obter mais informações, consulte [O que são planos de discagem?](what-are-dial-plans.md).
 
 - Para Roteamento Direto, você deve configurar o roteamento de chamadas especificando as rotas de voz e atribuindo políticas de roteamento de voz aos usuários. Você pode configurar planos de discagem para conversão de números no nível do tronco para garantir a interoperabilidade com controladores de borda de sessão (SBCs). Para obter mais informações, consulte [Configurar o roteamento de voz para Roteamento Direto](direct-routing-voice-routing.md), Gerenciar políticas de roteamento [de voz](manage-voice-routing-policies.md) e [Traduzir números de telefone](direct-routing-translate-numbers.md). 
 
@@ -213,7 +211,7 @@ A maneira como você configura chamadas de emergência diferem dependendo da op�
 
 - Para o Operator Connect, cada usuário é habilitado automaticamente para chamadas de emergência. O usuário deve ter um endereço de emergência registrado associado ao número de telefone atribuído. Há suporte para chamadas de emergência dinâmicas (com base na localização do cliente do Teams). Para obter mais informações, consulte [Considerações para Conexão do Operador](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect). 
 
-- Por Operadora de Conexão Móvel, cada usuário é habilitado automaticamente para chamadas de emergência. Chamadas de emergência são roteadas automaticamente para a Operadora de Conexão Móvel para um determinado número. Há suporte para chamadas de emergência dinâmicas (com base na localização do cliente do Teams). Para obter mais informações, consulte [Considerações sobre Operadora de Conexão Móvel](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect-mobile). 
+- Para o Teams Phone Mobile, cada usuário é habilitado automaticamente para chamadas de emergência. As chamadas de emergência são roteadas automaticamente para a operadora do Teams Phone Mobile para um determinado número. Há suporte para chamadas de emergência dinâmicas (com base na localização do cliente do Teams). Para obter mais informações, consulte [Considerações sobre o Teams Phone Mobile](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile). 
 
 - Para Roteamento Direto, você deve definir políticas de chamada de emergência para usuários usando uma política de roteamento de chamadas de emergência do Teams (TeamsEmergencyCallRoutingPolicy). A política definirá números de emergência e seu destino de roteamento associado. Não há suporte para locais de emergência registrados para usuários de Roteamento Direto. Para chamadas de emergência dinâmicas, a configuração adicional é necessária para rotear chamadas de emergência e, possivelmente, para a conectividade do parceiro. Para obter mais informações, consulte [Considerações sobre roteamento direto](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing).
 

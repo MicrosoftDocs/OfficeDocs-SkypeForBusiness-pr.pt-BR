@@ -23,20 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: Saiba mais sobre quantos números de telefone você pode obter no Microsoft Teams com base no tipo de número e quantas licenças você tem.
-ms.openlocfilehash: 60645f0216e801d2c8ba90af235835e4928f5793
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: fc51e28af7ae919d0fae9cad344e23271baa24c5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732320"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551685"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>Quantos números de telefone você pode obter?
 
 Quando estiver procurando e obtendo números de telefone fornecidos pela Microsoft para sua organização, você pode obter mais números de telefone do que licenças atribuídas. Mas isso depende dos tipos de números de telefone e tipos de licenças que você comprou e atribuiu.
 
-A maneira como você adquire e gerencia números de telefone difere dependendo da opção de conectividade PSTN: Planos de Chamada da Microsoft, Conexão de Operador, Operadora de Conexão Móvel (versão prévia pública) ou Roteamento Direto. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-landing-page.md).
+A maneira como você adquire e gerencia números de telefone difere dependendo da opção de conectividade PSTN: Planos de Chamadas da Microsoft, Conexão de Operador, Telefone Móvel do Teams ou Roteamento Direto. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-landing-page.md).
 
-A tabela a seguir se aplica aos Planos de Chamadas da Microsoft, [audioconferência](deploy-audio-conferencing-teams-landing-page.md) e aplicativos de voz, como [Filas de Chamadas e Atendedores Automáticos](plan-auto-attendant-call-queue.md). Para obter informações sobre o Operator Connect, Operadora de Conexão Móvel ou Roteamento Direto, entre em contato com seu provedor de serviços.
+A tabela a seguir se aplica aos Planos de Chamadas da Microsoft, [audioconferência](deploy-audio-conferencing-teams-landing-page.md) e aplicativos de voz, como [Filas de Chamadas e Atendedores Automáticos](plan-auto-attendant-call-queue.md). Para obter informações sobre o Operator Connect, o Teams Phone Mobile ou o Roteamento Direto, entre em contato com seu provedor de serviços.
 
 Você pode ver a quantidade de números de telefone que pode obter da Microsoft durante o processo de pesquisa e aquisição no Centro de administração do Microsoft Teams (**Obter números de telefone**).
 

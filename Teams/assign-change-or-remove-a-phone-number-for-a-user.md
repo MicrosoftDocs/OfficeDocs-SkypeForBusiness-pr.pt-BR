@@ -20,20 +20,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para seus usuários do Teams para que empresas e clientes externos possam ligar.
-ms.openlocfilehash: 1a959fd61200e7718cf1e14586d0060fb0e996ec
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d26df14f2f75e205c1824b66c9b8f2f394972d43
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606640"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551651"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
-Quando você configura planos de chamadas, conexão de operador ou Operadora de Conexão Móvel (versão prévia pública), você atribui números de telefone aos usuários. No Microsoft Teams, o número de telefone que você atribui é listado quando um usuário clica em **Chamadas**.
+Ao configurar planos de chamadas, conexão de operador ou telefone móvel do Teams, você atribui números de telefone aos usuários. No Microsoft Teams, o número de telefone que você atribui é listado quando um usuário clica em **Chamadas**.
 
-Este artigo se aplica aos Planos de Chamada, ao Operator Connect e Operadora de Conexão Móvel (versão prévia pública). Para obter informações sobre como atribuir, alterar ou remover um número de telefone de um usuário em um cenário de Roteamento Direto, consulte Habilitar usuários para Roteamento Direto [, voz e](./direct-routing-enable-users.md) caixa postal.
+Este artigo se aplica aos Planos de Chamadas, ao Operator Connect e ao Teams Phone Mobile. Para obter informações sobre como atribuir, alterar ou remover um número de telefone de um usuário em um cenário de Roteamento Direto, consulte Habilitar usuários para Roteamento Direto [, voz e](./direct-routing-enable-users.md) caixa postal.
 
-Antes de atribuir um número para um Plano de Chamada, Conexão de Operador ou Operadora de Conexão Móvel usuário, você deve obter números para seus usuários. Para obter mais informações, consulte [Obter números](getting-phone-numbers-for-your-users.md) para usuários do Plano de Chamadas, configurar números para usuários do [Operator Connect](operator-connect-configure.md#set-up-phone-numbers) ou configurar números [para Operadora de Conexão Móvel usuários](operator-connect-mobile-configure.md).
+Antes de atribuir um número para um plano de chamada, conexão de operador ou usuário do Teams Phone Mobile, você deve obter números para seus usuários. Para obter mais informações, consulte [Obter números](getting-phone-numbers-for-your-users.md) para usuários do Plano de Chamadas, configurar números para usuários do [Operator Connect](operator-connect-configure.md#set-up-phone-numbers) ou configurar números para usuários do [Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 > [!NOTE]
 > Uma maneira de ver se um usuário tem uma licença atribuída é acessando o centro de administração do Microsoft Teams > **Usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o Centro de administração do Microsoft 365.
@@ -64,7 +64,7 @@ Para números de Conexão do Operador:
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
-Para Operadora de Conexão Móvel números:
+Para números de Telefone Celular do Teams:
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
@@ -108,7 +108,7 @@ Para alterar um número de telefone para um usuário usando o Centro de administ
 8. Para atribuir ou alterar o local de emergência associado, em Local de **emergência,** pesquise e selecione o local.
 
       > [!NOTE]
-      > Se você estiver alterando números para o Operator Connect ou Operadora de Conexão Móvel usuários, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu operador para obter mais informações.
+      > Se você estiver alterando números para usuários do Operator Connect ou do Teams Phone Mobile, poderá ou não ser capaz de atribuir ou alterar o local de emergência associado. Essa funcionalidade dependerá do operador. Entre em contato com seu operador para obter mais informações.
 
 9. Clique em **Salvar**.
 
