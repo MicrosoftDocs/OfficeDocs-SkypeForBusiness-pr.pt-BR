@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
-ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
+ms.openlocfilehash: 2472f7ec0156e5dcd3ac245dfecdf25a58423ed9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67732300"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532231"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece o log de alterações mais recente do PowerShell do Teams p
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| Outubro de 2022 | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[Obter\| Cmdlets New]-CsTeamsShiftsConnectionTeamMap – atributo TimeZone adicionado.</li><li>Remove os parâmetros de entrada SendEmailFromAddress e SendEmailFromDisplayName de Set-CsOnlineDialinConferencingUser.</li><li>Remove os parâmetros AllowAllAcsResources e BlockedAcsResources de Set-TeamsAcsFederationConfiguration.</li><li>Adiciona o parâmetro ForceListenMenuEnabled às configurações de fluxo de chamada em New-CsAutoAttendantCallFlow, New-CsAutoAttendant e Set-CsAutoAutoAttendant. Essa configuração permite que o locatário ignore entradas DTMF/fala enquanto as opções de saudações/menu são tocadas.</li>
 | Setembro de 2022 | [Versão prévia 4.7.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>Libera o suporte à autenticação baseada em aplicativo Connect-MicrosoftTeams em versão prévia. Os cmdlets com suporte estão sendo distribuídos gradualmente, mais detalhes na autenticação baseada em aplicativo [no Módulo do PowerShell do Teams](teams-powershell-application-authentication.md).</li><li>Versões [Get\|Set]-CsTeamsEducationConfiguration cmdlets in private preview.</li><li>[Obter\| Cmdlets New]-CsTeamsShiftsConnectionTeamMap – atributo TimeZone adicionado.</li><li>Remove os parâmetros de entrada SendEmailFromAddress e SendEmailFromDisplayName de Set-CsOnlineDialinConferencingUser.</li><li>Remove os parâmetros AllowAllAcsResources e BlockedAcsResources de Set-TeamsAcsFederationConfiguration.</li>
 | Setembro de 2022 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>Corrige problemas com a limpeza de processo ao usar o módulo em aplicativos PS ISE e dotnet.</li><li>Versões [Get\|New]-CsBatchTeamsDeployment cmdlets in GA.</li><li>Versões [Novo\|Conjunto]-CSTeamsShiftsConnectionInstance, Test-CsTeamsShiftsConnectionValidate suporte para dimensões ukg.</li><li>Corrige problemas com a busca incorreta de token ao escolher entre várias contas usando o parâmetro AccountId no Connect-MicrosoftTeams.</li><li>Os valores padrão do modo conferência & atributos de modo de presença são alterados de false para true para New-CsCallQueue cmdlet.</li>
 | Agosto de 2022 | [Versão prévia 4.6.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>Corrige problemas com a limpeza de processo ao usar o módulo em aplicativos PS ISE e dotnet.</li>

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Dados e Informações de Privacidade
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270296"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532461"
 ---
 # <a name="approach"></a>Abordagem
 
@@ -48,8 +48,6 @@ Os Serviços Gerenciados atenuam os riscos associados a contas com acesso privil
 ## <a name="data-handling"></a>Tratamento de dados
 
 A Microsoft é governada por padrões estritos para transmissão, armazenamento, uso e retenção de dados. A Microsoft tem políticas padrão de tratamento de dados que regulam como os dados devem ser tratados com base na classificação de dados.
-
-
 
 ## <a name="technology-description"></a>Descrição da tecnologia
 
@@ -100,4 +98,8 @@ Os Serviços Gerenciados fornecem suporte à residência de dados regionais por 
 
 ## <a name="more-resources"></a>Mais recursos
 
-Salas do Microsoft Teams Segurança:/microsoftteams/rooms/security Microsoft Privacy Statement: https://aka.ms/privacy Gerenciamento de dados na Microsoft: Descrição https://www.microsoft.com/trust-center/privacy/data-management do serviço serviços gerenciados: serviço [gerenciado da Sala do Microsoft Teams](microsoft-teams-rooms-premium.md)
+Salas do Microsoft Teams para segurança do Windows: [[Segurança do Microsoft Teams para Windows](/microsoftteams/rooms/security-windows) \
+Salas do Microsoft Teams para segurança do Android: [segurança do Microsoft Teams para Android](/microsoftteams/rooms/security-android) \
+Política de Privacidade da Microsoft: https://aka.ms/privacy \
+Gerenciamento de dados na Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
+Descrição do serviço serviços gerenciados: [serviço gerenciado da Sala do Microsoft Teams](microsoft-teams-rooms-premium.md)

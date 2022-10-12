@@ -17,18 +17,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Gerenciamento remoto das configurações padrão usadas por um Salas do Microsoft Teams, incluindo a aplicação de um tema personalizado e a criação de um arquivo de configurações mestre.
-ms.openlocfilehash: e09501d4b39ddbb83e914d53fe61bfb97d1a4fa8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f0e563935725bf68ebf087d8a58a199683bac70f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606200"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532251"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações do console de Salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
 Este artigo aborda o gerenciamento remoto das configurações padrão usadas por um Salas do Microsoft Teams, incluindo a aplicação de um tema personalizado. Ele discute como criar um arquivo de configurações mestras e links para discussões sobre como colocá-los conforme necessário Salas do Teams.
   
-É possível alterar as configurações padrão do Salas do Teams atualizando um arquivo XML mestre e enviando cópias para os dispositivos Salas do Teams remotos. 
+É possível alterar as configurações padrão do Salas do Teams atualizando um arquivo XML mestre e enviando cópias para os dispositivos Salas do Teams remotos.
+
+> [!NOTE]
+> Alguns recursos estão disponíveis somente em Salas do Teams que foram atribuídos a uma licença Salas do Microsoft Teams Pro. Para ver quais recursos exigem Salas do Microsoft Teams Pro, [consulte Salas do Microsoft Teams licenças](rooms-licensing.md).
   
 ## <a name="create-an-xml-configuration-file"></a>Criar um arquivo de configuração XML
 

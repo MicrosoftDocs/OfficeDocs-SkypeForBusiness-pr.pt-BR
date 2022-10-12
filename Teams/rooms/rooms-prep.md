@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Saiba mais sobre como preparar sua infraestrutura para implantar Salas do Microsoft Teams para que você possa aproveitar todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268946"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532221"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -115,7 +115,7 @@ Salas do Microsoft Teams foi projetado para herdar configurações de proxy do s
     
 11. Voltando à tela de entrada, escolha o usuário **Skype**. Se todas as etapas anteriores foram bem-sucedidas, o Salas do Microsoft Teams dispositivo será conectado com êxito.
     
-Consulte o [artigo segurança de](./security.md#network-security) rede para obter detalhes completos sobre FQDNs, portas e intervalos de endereços IP necessários para Salas do Microsoft Teams.
+Consulte o [artigo segurança de](./security-windows.md#network-security) rede para obter detalhes completos sobre FQDNs, portas e intervalos de endereços IP necessários para Salas do Microsoft Teams.
   
 ### <a name="admin-group-management"></a>Gerenciamento de grupo de administradores
 
@@ -128,7 +128,7 @@ Se você optar por ingressar em um domínio (Azure Active Directory ou Active Di
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Salas do Microsoft Teams de usuário local
 
-Salas do Teams inclui uma conta local sem senha chamada "Skype". Essa conta é usada para entrar no Windows para iniciar o Salas do Teams aplicativo. Não há suporte para aplicar uma senha a essa conta. Consulte [Salas do Microsoft Teams Segurança](security.md) para obter mais informações.
+Salas do Teams inclui uma conta local sem senha chamada "Skype". Essa conta é usada para entrar no Windows para iniciar o Salas do Teams aplicativo. Não há suporte para aplicar uma senha a essa conta. Consulte [Salas do Microsoft Teams Segurança](security-windows.md) para obter mais informações.
   
 ### <a name="admin---local-administrator-account"></a>"Administrador" - Conta do Administrador Local
 
@@ -139,7 +139,7 @@ Salas do Microsoft Teams senha padrão é definida como "sfb". A senha pode ser 
   
 A senha do Administrador local não é incluída como opção durante a Instalação.
 
-Você pode ler mais sobre a Administração no artigo [Salas do Microsoft Teams Segurança](security.md).
+Você pode ler mais sobre a Administração no artigo [Salas do Microsoft Teams Segurança](security-windows.md).
   
 ### <a name="machine-account"></a>Conta do computador
 

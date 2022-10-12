@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo Painel de Qualidade de Chamadas (CQD) para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 730dd2f127c50d89f97c49c921e6b954a6043f65
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218055"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532271"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamada (CQD)
 
@@ -135,7 +135,11 @@ A tabela a seguir lista as dimensões atualmente disponíveis no CQD, na ordem l
 | Segunda arquitetura do sistema operacional  | Cadeia de caracteres  | Arquitetura de hardware relatada pelo segundo ponto de extremidade. <br/> **Valor de exemplo:** x64  | &bull; O ponto de extremidade não reportou essas informações <br/>&bull; O relatório desse ponto de extremidade não foi recebido <br/>&bull; O formato da arquitetura não foi reconhecido  |
 | Primeiro sinalizador de virtualização  | Enumeração <br/>**Valores possíveis:** <br/> "0x00" = Nenhum  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = COMPUTADOR Virtual <br/> "0x08" = Xen PC | Sinalizador que indica o tipo de ambiente de virtualização relatado pelo primeiro ponto de extremidade. | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
 | Segundo Sinalizador de Virtualização  | Enumeração <br/>**Valores possíveis:** <br/> "0x00" = Nenhum  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = COMPUTADOR Virtual <br/> "0x08" = Xen PC | Sinalizador que indica o tipo de ambiente de virtualização relatado pelo segundo ponto de extremidade.  | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
-|First Endpoint Make |Cadeia de caracteres |Fabricante do dispositivo, as informações são lidas de um campo EndpointMake do arquivo de dados do ponto de extremidade. | <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
+| Nome do dispositivo VTC | Cadeia de caracteres | O nome amigável do dispositivo VTC usado pelo primeiro ponto de extremidade | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade <br/>&bull; O campo é EUII e 28 dias se passaram |
+| Segundo nome do dispositivo VTC | Cadeia de caracteres | O nome amigável do dispositivo VTC usado pelo segundo ponto de extremidade | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade <br/>&bull; O campo é EUII e 28 dias se passaram |
+| Primeiro detalhe do dispositivo VTC | Cadeia de caracteres | As informações de plataforma e versão do dispositivo VTC usado pelo primeiro ponto de extremidade <br/> **Valor de exemplo:** Tandberg, 529 | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
+| Segundo detalhe do dispositivo VTC | Cadeia de caracteres | As informações de plataforma e versão do dispositivo VTC usado pelo segundo ponto de extremidade <br/> **Valor de exemplo:** Tandberg, 529 | <br/>&bull; Os dados não foram relatados pelo ponto de extremidade |
+| First Endpoint Make |Cadeia de caracteres |Fabricante do dispositivo, as informações são lidas de um campo EndpointMake do arquivo de dados do ponto de extremidade. | <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
 | Primeiro Modelo de Ponto de Extremidade |Cadeia de caracteres|Modelo de dispositivo, as informações são lidas de um campo EndpointModel do arquivo de dados do ponto de extremidade.| <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
 | Primeiro Tipo de Ponto de Extremidade|Cadeia de caracteres|Tipo de dispositivo, as informações são lidas de um campo EndpointType do arquivo de dados do ponto de extremidade.| <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
 | Primeiro Rótulo de Ponto de Extremidade 1|Cadeia de caracteres|Um rótulo personalizável, as informações são lidas de um arquivo de dados do ponto de extremidade.| <br/>&bull; Nenhum arquivo de dados para o ponto de extremidade |
