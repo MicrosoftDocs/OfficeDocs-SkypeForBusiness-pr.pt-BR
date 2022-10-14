@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562400"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576397"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Gerenciar equipes grandes no Microsoft Teams – Práticas recomendadas
 
@@ -76,7 +76,7 @@ Para evitar a adição de aplicativos ou bots de distração, os proprietários 
 
 ![Imagem de tela que mostra a seção Permissões de membro do painel Configurações.](media/disable-bots-connectors.png "Imagem de tela que mostra a seção permissão Membro do painel Configurações. As opções para permitir que membros adicionem aplicativos ou conectores estão desmarcadas.")
 
-Consulte [Aplicativos, bots e & conectores](deploy-apps-microsoft-teams-landing-page.md).
+Confira a [visão geral dos aplicativos do Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 ## <a name="regulate-team-and-channel-mentions"></a>Regular as menções de equipe e canal
 

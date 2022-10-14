@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 5961e05ac1ec927fbaca31dc24279eca27ce0f9d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551855"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576407"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniões, seminários via web e eventos ao vivo
 
@@ -142,7 +142,7 @@ A tabela a seguir lista artigos para obter mais informações:
 
 | Artigo | Descrição |
 |----------|--------|
-| [Aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) | Introdução aos aplicativos e como implantar aplicativos na sua organização. |
+| [Visão geral dos aplicativos do Teams](deploy-apps-microsoft-teams-landing-page.md) | Introdução aos aplicativos e como implantar aplicativos na sua organização. |
 | [Aplicativos para reuniões do Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Visão geral da extensibilidade do aplicativo de reunião, referências de API e como habilitar e configurar aplicativos para reuniões. |
 | [Gerenciar o quadro de comunicações no Teams](manage-whiteboard.md) | Descreve a funcionalidade do Quadro de Comunicações e como habilitar e desabilitar para sua organização. |
 
