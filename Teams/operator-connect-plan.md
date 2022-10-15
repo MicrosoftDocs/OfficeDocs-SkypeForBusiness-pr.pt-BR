@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 862b7f05efe4818a7778e979ecd725225806aacc
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606440"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570383"
 ---
 # <a name="plan-for-operator-connect"></a>Planejar a Conexão do Operador
 
@@ -54,11 +54,9 @@ Com o Operator Connect, se o operador existente for um participante do Programa 
 
 - **Implantação mais rápida e fácil.** Você pode se conectar rapidamente ao operador e atribuir números de telefone aos usuários – tudo no Centro de administração do Teams.
 
-- **Suporte e confiabilidade aprimorados.** Os operadores fornecem suporte técnico e contratos de nível de serviço compartilhado para melhorar o serviço de suporte, enquanto o emparelhamento direto da plataforma Azure cria uma conexão de rede um-para-um para melhorar a confiabilidade.
+- **Suporte e confiabilidade aprimorados.** Os operadores fornecem suporte técnico e contratos de nível de serviço compartilhado para melhorar o serviço de suporte, enquanto o emparelhamento direto da plataforma Azure cria uma conexão de rede um-para-um para melhorar a confiabilidade. 
 
 ## <a name="requirements"></a>Requisitos
-
- 
 
 Para habilitar atribuições de número de telefone com o Operator Connect, verifique se os usuários estão:
 
@@ -66,3 +64,7 @@ Para habilitar atribuições de número de telefone com o Operator Connect, veri
 - No modo TeamsOnly. Observe que o usuário precisa estar no modo TeamsOnly, mas toda a sua organização não. Para saber mais, confira [Entender o Microsoft Teams e Skype for Business coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Para obter uma lista de operadores que participam do Programa Microsoft Operator Connect e os países ou regiões em que o serviço está disponível, consulte o diretório [Microsoft 365 Operator Connect](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+
+## <a name="support-boundaries"></a>Limites de suporte
+Para obter suporte técnico, entre em contato com o atendimento ao cliente do operador Operator Connect primeiro. Se necessário, os operadores de conexão do operador podem escalonar seu caso de suporte diretamente para a engenharia da Microsoft por meio de canais de suporte compartilhados. 
+

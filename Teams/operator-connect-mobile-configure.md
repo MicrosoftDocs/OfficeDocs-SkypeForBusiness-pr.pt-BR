@@ -18,16 +18,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3e0e5c349610e9f8ad73b9b7a50b4c219304ea4
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: e0ffdc63200289f6f77dccb5214e8b2e3c3b344f
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551675"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576594"
 ---
 # <a name="configure-teams-phone-mobile"></a>Configurar o Teams Phone Mobile
 
-Para obter uma lista de operadores que participam do programa Telefonia do Microsoft Teams Mobile e os países ou regiões em que o serviço está disponível, consulte [o Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile).
+Para obter uma lista de operadores que participam do programa Telefonia do Microsoft Teams Mobile e os países ou regiões em que o serviço está disponível, consulte [o Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
 Este artigo descreve como configurar o Teams Phone Mobile. Antes de configurar o Teams Phone Mobile, não se esqueça de ler o [Plano para o Teams Phone Mobile](operator-connect-mobile-plan.md) para obter informações sobre benefícios, pré-requisitos e licenciamento.
 
