@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -23,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Aprenda a configurar a discagem ou a conferência de áudio para as pessoas da sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 5f9912b005061461aa2309fb0faa54b4455214ea
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642122"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584152"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar a conferência de áudio do Microsoft Teams
 
