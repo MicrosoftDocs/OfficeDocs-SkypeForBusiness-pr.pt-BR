@@ -21,13 +21,14 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706498"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583872"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -103,7 +104,7 @@ Você deve ser um administrador de serviço do Teams para acessar esta configura
 
 ## <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
-Você pode personalizar os convites de reunião do Teams para atender às necessidades da sua organização. Você pode adicionar o logotipo da sua organização e incluir informações úteis, como links para seu site de suporte e aviso de isenção de responsabilidade legal e um rodapé somente texto.
+You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Dicas para criar um logotipo para convites de reuniões  
 
@@ -111,7 +112,7 @@ Você pode personalizar os convites de reunião do Teams para atender às necess
 2. Salve a imagem no formato JPG ou PNG.
 3. Armazene a imagem em um local que todos os que receberem o convite possam acessar, como um site público.
 
-    Agora você pode adicioná-la aos seus convites para reuniões. Veja as próximas etapas.
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### <a name="customize-your-meeting-invitations"></a>Personalize seus convites para reuniões
 
@@ -162,9 +163,9 @@ Se você estiver usando a Qualidade de Serviço (QoS) para priorizar o tráfego 
         
         > [!NOTE]
         > A marcação DSCP é normalmente feita por meio de portas de origem e o tráfego UDP será roteado para o retransmissão de transporte com a porta de destino 3478 por padrão. Se sua empresa exigir marcação nas portas de destino, entre em contato com o suporte para habilitar a comunicação com o Transport Relay com as portas UDP 3479 (Áudio), 3480 (Vídeo) e 3481 (Compartilhamento).
-    - Para especificar os intervalos de portas, ao lado de **Selecionar um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecionar  **Especificar intervalos de portas**, e então digitar as portas inicial e final para áudio, vídeo e compartilhamento de tela. A seleção desta opção é necessária para implementar a QoS. 
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
-        > Se **Marcadores de Qualidade de Serviço (QoS) para tráfego de mídia em tempo real** estiver ligado, então você tem que gerenciar suas configurações de porta. Eles não são gerenciados automaticamente.
+        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
         
         > [!IMPORTANT]
         > Se você selecionar **Usar automaticamente qualquer porta disponível**, serão usadas portas disponíveis entre 1024 e 65535. Use esta opção apenas quando não estiver implementando a QoS.
@@ -184,4 +185,4 @@ Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protoco
 
 \* Os intervalos de porta que você atribui não podem se sobrepor e devem ser adjacentes uns aos outros.
 
-Depois que a QoS estiver em uso por algum tempo, você terá informações de uso sobre a demanda para cada uma dessas três cargas de trabalho, e poderá escolher que mudanças fazer com base em suas necessidades específicas. [O Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md) será útil para isso.
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.

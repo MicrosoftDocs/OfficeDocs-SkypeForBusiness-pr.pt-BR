@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: Saiba como gerenciar as configurações da política de roaming de rede do Teams.
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853232"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585066"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>Gerenciar configurações de vídeo e mídia com a política de roaming de rede
 
@@ -60,7 +61,7 @@ Depois de configurar a política, atribua-a a um ou mais sites de rede usando o 
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-Para habilitar a política de roaming de rede para usuários que não estão habilitados para voz corporativa, você também deve habilitar a configuração AllowNetworkConfigurationSettingsLookup em TeamsMeetingPolicy. Essa configuração está desativada por padrão.
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 Para obter mais informações sobre como criar sites de rede, confira [Configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md). 
 
