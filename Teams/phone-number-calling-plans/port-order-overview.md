@@ -21,12 +21,13 @@ description: Obtenha uma visão geral do que são pedidos de portabilidade e com
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+- highpri
+ms.openlocfilehash: f4160d8e5fac5ec1f706bb7c82a881248d092a59
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674372"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584912"
 ---
 # <a name="whats-a-port-order"></a>O que é um pedido de portabilidade?
 
@@ -157,9 +158,9 @@ Se você precisar de mais assitância configurando um PIN, entre em contato com 
 
 A portabilidade numérica é fácil. Seu pedido pode ficar confuso, no entanto, se houver um problema com o provedor de serviços de telefonia, o pedido está incompleto e as informações ausentes ou há erros de digitação.
   
-Aqui estão os erros mais comuns que os clientes cometem ao portar números. Evite uma chamada ao suporte ao cliente e verifique se esses erros ocorreram.
+Here are the most common mistakes we see customers make when they port numbers. Save yourself a call to customer support and double-check for these errors.
   
-- Verifique se as informações da conta que você forneceu correspondem exatamente às que a operadora de telefonia possui. Informações não correspondentes são a causa mais comum de erros e atrasam o pedido de portabilidade. Verifique se o seguinte é verdadeiro:
+- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delay your port order. Verify the following is true:
 
   - O nome ou a pessoa autorizada a fazer alterações na conta está correto.
 

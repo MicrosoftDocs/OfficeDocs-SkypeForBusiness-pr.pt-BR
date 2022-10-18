@@ -16,16 +16,17 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 description: Configure eventos ao vivo no Teams, incluindo configurar sua rede, atribuir licenças, habilitar recursos de eventos ao vivo e agendamento e soluções de distribuição de vídeo.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f47e142dc7d445e76c6047bfdd4e7300501f6fa
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 65c9766350327ff64874c2ee242a7fdbace9f13a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486601"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584432"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
