@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6dbcbe57694273d1e74a4d1a60a3df8cc8ace4
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 4a86b84749a32110e8f8287b2cc874631fc14fdf
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706698"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584402"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -68,7 +69,7 @@ Veja "Novidades nas gravações de reuniões do Microsoft Teams" para obter mais
 A opção de gravação de reunião é uma configuração no nível de política do Teams. O exemplo a seguir mostra como definir a política Global. Certifique-se de que configurou a opção de gravação de reunião para a política ou políticas que atribuiu aos seus usuários.
 
 > [!NOTE]
-> As alterações na política de reunião do Teams levam algum tempo para serem propagadas. Verifique novamente após algumas horas após defini-la, saia e entre novamente no aplicativo Área de Trabalho do Teams ou simplesmente reinicie o computador.
+> Teams meeting policy changes take a while to propagate. Check back after a few hours of setting it, then sign out and sign in to the Teams Desktop app again or simply restart your computer.
 
 1. Instale o Teams PowerShell.
 
@@ -105,8 +106,8 @@ A opção de gravação de reunião é uma configuração no nível de política
 
 |Tipo de reunião                               | Quem clicou em Gravar?| Para onde vai a gravação?                               |Quem tem acesso? De leitura/gravação, R ou compartilhamento                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Chamada privada com participantes internos             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário e tem todos os direitos. <br /><br />O receptor (se estiver no mesmo locatário) tem acesso somente leitura. Sem acesso de compartilhamento. <br /><br /> O receptor da chamada (se estiver em outro locatário) não tem acesso. O chamador deve compartilhá-lo com o receptor da chamada.|
-|Chamada privada com participantes internos             |Receptor da chamada                 |Conta do OneDrive for Business do receptor da chamada                        |O receptor da chamada é proprietário e tem todos os direitos. <br /><br />Chamador (se no mesmo locatário tiver acesso somente leitura. Sem acesso de compartilhamento. <br /><br />O chamador (se estiver em outro locatário) não tem acesso. O receptor da chamada deve compartilhá-lo com o chamador.|
+|Chamada privada com participantes internos             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário e tem todos os direitos. <br /><br />O receptor da chamada (se estiver no mesmo locatário) tem acesso somente leitura. Sem acesso a compartilhamentos. <br /><br /> O receptor da chamada (se estiver em outro locatário) não tem acesso. O chamador deve compartilhá-lo com o receptor da chamada.|
+|Chamada privada com participantes internos             |Receptor da chamada                 |Conta do OneDrive for Business do receptor da chamada                        |O receptor da chamada é proprietário e tem todos os direitos. <br /><br />O chamador (se estiver no mesmo locatário) tem acesso somente leitura. Sem acesso a compartilhamentos. <br /><br />O chamador (se estiver em outro locatário) não tem acesso. O receptor da chamada deve compartilhá-lo com o chamador.|
 |Chamada privada com uma chamada externa             |Chamador                 |Conta do OneDrive for Business do chamador                        |O chamador é proprietário e tem todos os direitos.<br /> <br />O receptor da chamada não tem acesso. O chamador deve compartilhá-lo com o receptor da chamada.|
 |Chamada privada com uma chamada externa             |Receptor da chamada                 |Conta do OneDrive for Business do receptor da chamada                        |O receptor da chamada é proprietário e tem todos os direitos.<br /><br />O chamador não tem acesso. O receptor da chamada deve compartilhá-lo com o chamador.|
 |Chamada em grupo                                 |Qualquer membro da chamada |Membro do grupo que clicou na conta do OneDrive for Business da Gravação  |O membro que clicou em Gravar tem todos os direitos. <br /><br /> Outros membros do grupo do mesmo locatário têm direitos de leitura. <br /><br /> Os outros membros do grupo de locatários diferentes não têm direito à gravação.|
@@ -149,7 +150,7 @@ Como vídeos são como qualquer outro arquivo no OneDrive for Business e no Shar
 
 As legendas ocultas para gravações de reunião do Teams estarão disponíveis durante a reprodução somente se o usuário tiver ativado a transcrição no momento da gravação. Os administradores [devem ativar a transcrição de gravação](meetings-policies-recording-and-transcription.md#transcription) para garantir que seus usuários tenham a opção de gravar reuniões com transcrição.
 
-As legendas ajudam a criar conteúdo inclusivo para visualizadores de todas as habilidades. Como proprietário, você pode ocultar legendas na gravação da reunião, embora a transcrição da reunião ainda esteja disponível no Teams, a menos que você a exclua lá.
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 As legendas ocultas têm suporte nas gravações de reunião do Teams por 60 dias a partir de quando a reunião foi gravada.
 
