@@ -15,13 +15,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - Teams_ITAdmin_Rooms
+- highpri
 description: Este artigo explica as considerações de planejamento relevantes para implantar Salas do Microsoft Teams, a próxima geração de Sistemas de Salas do Skype.
-ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e6e3d53928a1a28572a8ea0a038ea772c934e7b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269746"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584442"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar Salas do Microsoft Teams
 
@@ -34,7 +35,8 @@ Você encontrará informações de planejamento abaixo que abrangem a abordagem 
 Salas do Microsoft Teams oferece uma experiência de reunião completa que leva vídeo, áudio e compartilhamento de conteúdo EM HD para reuniões de todos os tamanhos, desde pequenas áreas de grupo até grandes salas de conferência.
 
 ![Um usuário toca em um Salas do Teams, com uma exibição em segundo plano.](../media/room-systems-image1.jpg "Um usuário toca em um console Salas do Teams, com uma exibição em segundo plano")
- [Salas do Microsoft Teams ajuda](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) é um ótimo recurso para saber mais sobre Salas do Microsoft Teams e como ele pode adicionar valor como parte de sua implantação.
+
+[Salas do Microsoft Teams ajuda é](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) um ótimo recurso para saber mais sobre Salas do Microsoft Teams e como ele pode adicionar valor como parte de sua implantação.
 
 ## <a name="microsoft-teams-rooms-components"></a>Salas do Microsoft Teams componentes
 
@@ -49,7 +51,17 @@ Salas do Microsoft Teams inclui os seguintes componentes principais para proporc
 
 Você pode adquirir esses componentes como pacotes pré-instalados de vários fornecedores ou pode comprar os componentes com suporte individualmente seguindo os requisitos [documentados neste artigo](requirements.md).
 
-Você pode implantar Salas do Microsoft Teams com o Microsoft Teams ou Skype for Business implantações locais.  Consulte a [Atualização de Licenciamento da Sala de Reunião do Teams](rooms-licensing.md) para obter informações sobre as licenças necessárias.
+## <a name="teams-rooms-licensing"></a>Salas do Teams licenciamento
+
+Cada dispositivo de sala de reunião, como um console Salas do Teams, Surface Hub e painel do Teams, precisa de uma Salas do Teams de reunião. O Teams fornece duas licenças para Salas do Teams: Salas Microsoft Teams Pro e Salas do Microsoft Teams Básico.
+
+Salas Microsoft Teams Pro é ótimo para organizações que têm 25 ou mais dispositivos de sala de reunião ou que desejam as experiências mais abrangentes de gerenciamento de dispositivos e reuniões. As reuniões híbridas do Teams tornam-se mais imersivas com recursos como Linha de frente, Câmera de conteúdo, supressão de ruído da tecnologia de IA e outros recursos disponíveis com Salas Microsoft Teams Pro. Salas do Teams administradores podem gerenciar centralmente todos os seus dispositivos Salas do Teams certificados do Centro de administração do Teams, desde a configuração de políticas de acesso condicional até a análise de telemetria avançada sobre a integridade do dispositivo e a qualidade da reunião.
+
+Salas do Microsoft Teams Basic está disponível para organizações que têm apenas alguns dispositivos de sala de reunião e que precisam apenas da funcionalidade básica de reunião e gerenciamento. Salas do Microsoft Teams Basic permite que você participe de reuniões, compartilhe conteúdo e vídeo ao vivo, ingresse em reuniões do Zoom e webex com o Ingresso Direto de Convidado e execute o inventário e o monitoramento básicos de dispositivos no Centro de administração do Teams.
+
+Antes de usar um dispositivo de sala de reunião, você precisa atribuir uma licença a ele. Para obter mais informações, [consulte Salas do Microsoft Teams licenças](rooms-licensing.md).
+
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -142,7 +154,7 @@ Dependendo da escala e da abordagem de implantação, você pode decidir ter os 
 
 Sua organização deve executar tarefas de monitoramento, administração e gerenciamento continuamente e é fundamental concordar com quem realizará essas tarefas no início da implantação.
 
-Muitas organizações têm uma equipe ou parceiro av que gerencia suas salas de conferência e dispositivos. Ou você pode ter ajuda da Microsoft para gerenciar Salas do Teams usando Salas do Microsoft Teams Premium. Decida quem gerenciará os dispositivos Salas do Microsoft Teams no futuro para monitorar o desempenho, bem como implantar atualizações de software e hotfixes.
+Muitas organizações têm uma equipe ou parceiro av que gerencia suas salas de conferência e dispositivos. Ou você pode ter ajuda da Microsoft para gerenciar Salas do Teams usando Salas Microsoft Teams Pro. Decida quem gerenciará os dispositivos Salas do Microsoft Teams no futuro para monitorar o desempenho, bem como implantar atualizações de software e hotfixes.
 
 Considere para qual fila de assistência técnica você roteará chamadas relacionadas Salas do Microsoft Teams e forneça perguntas frequentes para a equipe de assistência técnica para que eles possam entender melhor como usar o Salas do Microsoft Teams e as principais etapas de solução de problemas que podem ser executadas. Um bom ponto de partida para essas perguntas frequentes é a ajuda [do usuário](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) e [problemas conhecidos](known-issues.md).
 

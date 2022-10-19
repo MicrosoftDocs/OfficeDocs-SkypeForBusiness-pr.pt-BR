@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e18aa0ad95033550d0ef2f7c6049e700d917798
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: bf113e8d14b70382d6b1704b8574385038099210
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606090"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584312"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams nos Serviços de Área de Trabalho Remota
 
@@ -53,7 +54,7 @@ Você pode definir políticas usando o centro de administração do Microsoft Te
 
 Para atribuir a política de chamada DisallowCalling e a política de reunião AllOff a um usuário:
 
-1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, acesse **Usuários**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **Usuários**.
 2. Selecione o usuário selecionando à esquerda do nome de usuário e, em seguida, selecione **Editar configurações**.
 3. Execute as seguintes etapas:
 

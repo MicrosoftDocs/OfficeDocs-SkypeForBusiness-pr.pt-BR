@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -30,12 +31,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Saiba como pagar por créditos de Comunicação (Consumo PSTN) para serviços Skype for Business serviços e veja os planos para manter seus usuários com acesso contínuo ao sistema de telefonia. '
-ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156639"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583842"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -58,7 +59,7 @@ Os Créditos de Comunicação são uma maneira conveniente de pagar pelo Sistema
   
 Como administrador, você pode adicionar fundos manualmente ou configurar a recarga automática, o que **recomendamos**.
   
-A recarga automática completa automaticamente o saldo quando este fica abaixo do valor que você definiu. Recomendamos usar a recarga automática para que você não precise lembrar de adicionar fundos manualmente. Quando seu saldo atingir o valor definido, os fundos serão adicionados automaticamente. Se você não escolher a recarga automática, correrá o risco de seu saldo cair abaixo de zero. Se isso ocorrer, você e seus usuários não poderão fazer chamadas gratuitas nem chamadas internacionais.
+Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.
   
 Você pode atualizar suas opções de pagamento a qualquer momento. Na página **Assinaturas** , selecione **Créditos de Comunicação** e faça suas atualizações.
   

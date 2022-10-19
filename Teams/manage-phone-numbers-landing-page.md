@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como obter e gerenciar números de telefone de usuário (assinante) e serviço (chamada tarifada e gratuita) para o Microsoft Teams para sua organização.
-ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 52069029e7dca69f5df9520ad1491464bf6b9aa9
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551885"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584240"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Gerenciar números de telefone para sua organização
 
@@ -121,7 +122,7 @@ Se você não estiver gerenciando números de telefone de Roteamento Direto no A
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>Alterar onde os números de telefone de Roteamento Direto são gerenciados
 
-Para alterar onde um número de telefone de Roteamento Direto é gerenciado, você precisa remover o número de telefone do atributo msRTCSIP-Line no usuário ou resouce conta no Active Directory local.   
+Para alterar onde um número de telefone de Roteamento Direto é gerenciado, você precisa remover o número de telefone do atributo msRTCSIP-Line no usuário ou conta de recurso no Active Directory local.   
 
 Para obter mais informações, [consulte Clear Skype for Business para todos os usuários locais no Active Directory](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md). Observe que o número de telefone precisa ser atribuído novamente ao usuário ou à conta de recurso no Microsoft 365.
 
