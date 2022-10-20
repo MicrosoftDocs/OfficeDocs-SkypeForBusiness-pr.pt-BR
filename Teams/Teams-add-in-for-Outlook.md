@@ -17,14 +17,15 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 499beaae2514942e70f4d633a25ca3e544bdf994
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 52b057119bddd52c37984a9355311843b7b57ce7
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564149"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614023"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 
@@ -34,7 +35,7 @@ O suplemento de reunião do Teams permite que os usuários agendem uma reunião 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Suplemento de reunião do Teams no Outlook para Windows
 
-O suplemento de Reunião do Teams é instalado automaticamente para usuários que possuem o Microsoft Teams e o Office 2013, Office 2016, Office 2019 ou Office 2021 instalado em seus computadores Windows. Os usuários verão o suplemento de Reunião do Teams na faixa de opções Calendário do Outlook.
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, Office 2019 or Office 2021 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
 ![Captura de tela do suplemento de Reunião do Teams na faixa de opções do Outlook.](media/Teams-add-in-for-Outlook.png)
 
@@ -105,7 +106,7 @@ Os clientes podem [escolher sua jornada de atualização do Skype for Business p
 
 Quando os usuários que estão no modo Ilha agendam uma reunião no Outlook, eles normalmente esperam poder escolher agendar uma reunião do Skype for Business ou do Teams. No Outlook na Web, Outlook para Windows e Outlook para Mac, os usuários veem tanto o suplemento do Skype for Business como o do Teams quando estão no modo Ilhas por padrão. Você pode definir uma configuração de política de reunião do Teams para controlar se os usuários no modo Ilhas só podem usar o suplemento de Runião do Teams ou os suplementos de Reunião do Teams e de Reunião do Skype for Business.
 
-Devido a certas limitações na versão inicial, o Outlook mobile pode oferecer suporte apenas à criação de reuniões do Skype for Business **ou** do Teams. Veja a tabela a seguir para obter detalhes.
+Due to certain limitations in the initial release, Outlook mobile can only support creating Skype for Business **or** Teams meetings. See the following table for details.
 
 | Modo de coexistência no centro de administração do Teams | Provedor de reuniões padrão no Outlook mobile |
 | --------------------------------------|---------------------------------------------|

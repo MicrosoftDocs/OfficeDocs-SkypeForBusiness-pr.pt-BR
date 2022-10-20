@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams idiomas compatíveis com a fila de chamadas
-author: CarolynRowe
-ms.author: crowe
+title: Idiomas compatíveis com a fila de chamadas do Microsoft Teams
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams idiomas compatíveis com a fila de chamadas
-ms.openlocfilehash: c33745aaa5a1b0ddbfb3c7438fdc8bf72c8af592
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Idiomas compatíveis com a fila de chamadas do Microsoft Teams
+ms.openlocfilehash: 95826d1030b9ee1b2baf33ddecb8589cf5f08ebc
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674713"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614003"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams idiomas compatíveis com a fila de chamadas
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Idiomas compatíveis com a fila de chamadas do Microsoft Teams
 
 A fila de chamadas dá suporte aos seguintes idiomas para TTS (Conversão de Texto em Fala):
 

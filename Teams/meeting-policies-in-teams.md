@@ -12,6 +12,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -23,13 +24,13 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Aprenda a gerenciar as configurações das políticas de reunião no Teams. Use as configurações de política para controlar os recursos disponíveis para os participantes da reunião nas reuniões agendadas pelos usuários.
-ms.openlocfilehash: 1b5b173253ee457a6d966f9310987168d62a5299
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
+ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418490"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613993"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -222,7 +223,7 @@ O modo de áudio IP é uma política por usuário. Essa configuração controla 
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
-|**Áudio de saída e entrada habilitado**    |O vídeo de saída e entrada, que é permitido na reunião, é a configuração padrão. |
+|**Áudio de saída e entrada habilitado**    |O áudio de entrada e saída é permitido na reunião. Essa é a configuração padrão. |
 |**Desabilitado**     |O áudio de entrada e saída não é permitido na reunião.     |
 
 Se definido como **Desabilitado** para um usuário, esse usuário ainda poderá agendar e organizar reuniões, mas não poderá usar o áudio. Para participar de uma reunião, o usuário deve discar por meio da PSTN (Rede Telefônica Pública Comutada) ou fazer com que a reunião seja chamada e ingressar o usuário por telefone. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos) têm essa configuração para **Áudio de saída e de entrada habilitado** por padrão. Em clientes móveis do Teams, se essa configuração estiver desabilitada, o usuário precisará discar para a reunião por meio da PSTN.
@@ -283,7 +284,7 @@ Para saber mais, confira [Gerenciar áudio/vídeo para participantes da reunião
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>Qual configuração de política de vídeo IP tem prioridade
 
-Para um usuário, a configuração de política mais restritiva para o vídeo tem prioridade. Veja alguns exemplos.
+Para um usuário, a configuração de política mais restritiva para o vídeo tem prioridade. Aqui estão alguns exemplos.
 
 |Permitir vídeo IP|Modo de vídeo IP|Experiência de compartilhamento|
 |---------|---------|---------|
@@ -331,7 +332,7 @@ Para reuniões que precisem da experiência de qualidade de vídeo mais alta, co
 ### <a name="screen-sharing-mode"></a>Modo de compartilhamento de tela
 
 > [!NOTE]
-> Esse recurso ainda está em desenvolvimento. O compartilhamento de tela é uma política por participante, no entanto, pode ser afetado pelas configurações de compartilhamento de tela do organizador, conforme descrito nesta seção.
+> This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
 Essa configuração controla se a área de trabalho e/ou o compartilhamento de janela é permitido na reunião do usuário. Os participantes da reunião que não têm nenhuma política atribuída (por exemplo, participantes externos) herdam a política do organizador da reunião.
 
@@ -452,7 +453,7 @@ Essas configurações controlam quais participantes da reunião devem aguardar n
 Essa é uma política por organizador que permite reuniões de conferência sem liderança. Essa configuração controla se usuários anônimos podem participar da reunião sem a presença de um usuário autenticado da organização. Por padrão, essa configuração está desativada, o que significa que usuários anônimos aguardam no lobby até que um usuário autenticado da organização ingresse na reunião.
 
 > [!NOTE]
-> Se essa configuração estiver desativada e um usuário anônimo ingressar da reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do Teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para usuários de acesso telefônico.
+> If this setting is turned off and an anonymous user joins the meeting first and is placed in the lobby, an organization user must join the meeting with a Teams client to admit the user from the lobby. There are no lobby controls available for dialed in users.
 
 ### <a name="automatically-admit-people"></a>Aceitar pessoas automaticamente
 
@@ -463,15 +464,15 @@ Esta é uma política por organizador. Essa configuração controla se as pessoa
  Os organizadores de reuniões podem selecionar **Opções de reunião** no convite da reunião para alterar essa configuração para cada reunião agendada.
 
 > [!NOTE]
-> Nas opções da reunião, a configuração é rotulada "Quem pode ignorar o lobby". Se você alterar a configuração padrão para qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e a qualquer reunião anterior em que o usuário não tiver modificado as Opções de reunião.
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |Valor de configuração  |Comportamento de ingresso |
 |---------|---------|
 |**Todos**   |Todos os participantes da reunião participam da reunião diretamente, sem aguardar no lobby. Isso inclui usuários autenticados, usuários de acesso externo, convidados e usuários anônimos.     |
-|**Pessoas da minha organização e organizações confiáveis**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, entram na reunião diretamente sem aguardar no lobby. Os usuários anônimos esperam no lobby.   |
-|**Pessoas na minha organização e convidados**    |Usuários autenticados dentro da organização, incluindo usuários convidados, ingressam na reunião diretamente sem aguardar no lobby. Os usuários de organizações confiáveis e usuários anônimos aguardam no lobby. Essa é a configuração padrão.           |
+|**Pessoas da minha organização e organizações confiáveis**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.   |
+|**Pessoas na minha organização e convidados**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
 |**Organizador somente**    |Somente os organizadores da reunião participam da reunião diretamente, sem aguardar no lobby. Todas as outras pessoas, incluindo os usuários autenticados dentro da organização, os usuários convidados, os usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby.           |
-|**Pessoas na minha organização**  |Usuários autenticados dentro da organização, excluindo usuários convidados, ingressam na reunião diretamente sem aguardar no lobby. Convidados e usuários de organizações confiáveis e usuários anônimos aguardam no lobby.|
+|**Pessoas na minha organização**  |Authenticated users from within the organization, excluding guest users, join the meeting directly without waiting in the lobby. Guests and users from trusted organizations and anonymous users wait in the lobby.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de acesso telefônico ignorem o lobby
 

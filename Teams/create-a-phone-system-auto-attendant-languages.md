@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams idiomas compatíveis com o atendedor automático
-author: CarolynRowe
-ms.author: crowe
+title: Idiomas com suporte do atendedor automático do Microsoft Teams
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams idiomas compatíveis com o atendedor automático
-ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Idiomas com suporte do atendedor automático do Microsoft Teams
+ms.openlocfilehash: c769df020f178b2a69321c7b163e74a9fa1df4d6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676453"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614594"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams idiomas compatíveis com o atendedor automático
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Idiomas com suporte do atendedor automático do Microsoft Teams
 
 O atendedor automático dá suporte aos seguintes idiomas para TTS (Conversão de Texto em Fala) e Reconhecimento de Fala:
 
@@ -74,7 +74,7 @@ O atendedor automático dá suporte aos seguintes idiomas para TTS (Conversão d
 |Vietnamita (Vietnã)                    |Y                        |                                       |
 
 > [!NOTE]
-> Escolher um idioma que não dá suporte ao Reconhecimento de Fala desabilitará a opção de entradas de voz no menu e discar por nome será restrito ao uso apenas da entrada do teclado (DTMF). Consulte a entrada [Discagem por Nome - Teclado (DTMF)](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) para obter mais informações.
+> Escolher um idioma que não dá suporte ao Reconhecimento de Fala desabilitará a opção de entradas de voz no menu e discar por nome será restrito ao uso apenas da entrada do teclado (DTMF). Consulte a [entrada Discar por Nome – Teclado (DTMF)](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) para obter mais informações.
 
 > [!NOTE]
 > Ao usar Texto em Fala, o texto deve ser inserido no idioma selecionado, pois o sistema não executa a tradução.

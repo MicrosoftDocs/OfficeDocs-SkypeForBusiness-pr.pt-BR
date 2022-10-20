@@ -16,12 +16,12 @@ f1.keywords:
 description: O Roteamento Direto do hHw dá suporte ao bypass de mídia com um Controlador de Borda de Sessão habilitado para ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e6f9715ee410116a66c572522a910cd16ef27154
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267756"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614414"
 ---
 # <a name="overview"></a>Visão geral
 
@@ -55,7 +55,7 @@ Esta seção captura brevemente os requisitos do ICE Lite.
 
 ### <a name="candidate-gathering"></a>Reunião de candidatos
 
-O SBC deve oferecer apenas um candidato publicamente acessível. Atualmente, há suporte apenas para candidatos IPV4.
+O SBC deve oferecer apenas um candidato. Atualmente, há suporte apenas para candidatos IPV4.
 
 
 #### <a name="connectivity-checks"></a>Verificações de conectividade

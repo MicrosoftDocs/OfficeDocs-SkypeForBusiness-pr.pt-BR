@@ -1,7 +1,7 @@
 ---
 title: Referência de reconhecimento de voz e discagem de fila de chamadas e atendedor automático
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre o atendedor automático e as opções de discagem de fila de chamadas e reconhecimento de voz no Teams.
-ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: 3b6b1fd6932491a6f9ad17e109902484461f912f
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070722"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613803"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referência de reconhecimento de voz e discagem de fila de chamadas e atendedor automático
 
@@ -59,7 +59,7 @@ O Dial by Name pesquisa primeiro o diretório de toda a organização antes de a
 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
 
-As pessoas que estão ligando podem usar o Dial by Name para acessar os usuários especificando o nome completo ou parcial da pessoa que estão tentando acessar. Há vários formatos que podem ser usados quando o nome é inserido.
+Pessoas chamada pode usar Dial by Name para alcançar os usuários especificando o nome completo ou parcial da pessoa que eles estão tentando acessar. Há vários formatos que podem ser usados quando o nome é inserido.
 
 Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles estiverem inserindo o nome, eles serão solicitados a encerrar a entrada do teclado com a tecla #. Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
 
@@ -88,7 +88,7 @@ Há vários caracteres especiais que são usados durante a pesquisa de pessoas p
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>Discar por Nome - Reconhecimento de nome pela fala
 
-As pessoas podem pesquisar outras pessoas em sua organização com sua voz (reconhecimento de fala). Eles também podem entrar em contato com qualquer pessoa no Active Directory dizendo o nome completo ou parcial da pessoa que está tentando localizar. O uso de entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
+Pessoas pode pesquisar por outras pessoas em sua organização com sua voz (reconhecimento de fala). Eles também podem entrar em contato com qualquer pessoa no Active Directory dizendo o nome completo ou parcial da pessoa que está tentando localizar. O uso de entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName ou LastName + FirstName.
   
 Você pode habilitar o reconhecimento de fala para um atendedor automático, mas a entrada do teclado de telefone (DTMF) não está desabilitada. A entrada do teclado do telefone pode ser usada a qualquer momento, mesmo que o reconhecimento de fala esteja habilitado no atendedor automático.
   

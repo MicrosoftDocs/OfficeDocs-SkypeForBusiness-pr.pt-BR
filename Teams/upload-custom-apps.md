@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: Saiba como carregar seus aplicativos personalizados na loja de aplicativos da sua organização no Centro de Administração do Microsoft Teams.
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: Saiba como carregar aplicativos personalizados na loja de aplicativos do Teams da sua organização.
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494604"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614584"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativos
 
@@ -40,11 +40,11 @@ A plataforma de desenvolvedor do Microsoft Teams facilita para os desenvolvedore
 
 ## <a name="validate"></a>Validar
 
-### <a name="get-the-app-package"></a>Obter o pacote do aplicativo
+### <a name="receive-the-app-package"></a>Receber o pacote do aplicativo
 
-Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor deverá produzir um pacote do aplicativo. Eles podem usar o [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview). Você receberá o arquivo no formato .zip.
+Quando o aplicativo estiver pronto para uso em produção, o desenvolvedor produzirá um pacote de aplicativo usando o [Portal do Desenvolvedor](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal). O desenvolvedor compartilha o pacote do aplicativo .zip formato com você.
 
-Todos os aplicativos na loja do Teams passam por uma [validação de aplicativo](overview-of-app-validation.md) obrigatória para estar em conformidade com os padrões de qualidade e segurança da loja global de aplicativos do Teams. Além disso, a Microsoft incentiva fortemente os desenvolvedores de aplicativos a participarem de um [programa de conformidade de aplicativo](overview-of-app-certification.md) opcional que indique controles avançados de conformidade, segurança e privacidade. Para obter mais informações, confira as [diretrizes de validação de aplicativo do Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
+Todos os aplicativos na loja do Teams [](overview-of-app-validation.md) passam por uma validação de aplicativo obrigatória para estar em conformidade com os padrões de segurança e qualidade do aplicativo da loja de aplicativos do Teams. Além disso, a Microsoft incentiva fortemente os desenvolvedores de aplicativos a participarem de um [programa de conformidade de aplicativo](overview-of-app-certification.md) opcional que indique controles avançados de conformidade, segurança e privacidade. Para obter mais informações, confira as [diretrizes de validação de aplicativo do Teams](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines).
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>Permitir que usuários confiáveis carreguem aplicativos personalizados
 
@@ -119,7 +119,7 @@ Você pode atualizar o aplicativo na página Gerenciar aplicativos no Centro de 
 
 ### <a name="end-user-update-experience"></a>Experiência de atualização do usuário final
 
-Na maioria dos casos, depois de concluir uma atualização de aplicativo, a nova versão será exibida automaticamente para os usuários finais. Para obter mais informações, confira [experiência de atualização do usuário final](apps-update-experience.md).
+Na maioria dos casos, depois de publicar uma nova versão de um aplicativo, ela é atualizada automaticamente para os usuários finais. Para obter mais informações, consulte [a experiência de atualização do aplicativo do usuário final](apps-update-experience.md).
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>Remover um aplicativo personalizado da loja da sua organização
 

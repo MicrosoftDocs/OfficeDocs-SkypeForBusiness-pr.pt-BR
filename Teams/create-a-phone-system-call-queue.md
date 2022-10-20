@@ -1,7 +1,7 @@
 ---
 title: Criar uma fila de chamadas no Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas no Microsoft Teams. As filas de chamadas fornecem uma mensagem de saudação, música de espera, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 55a03f8843f467ae180aaa22d71bff84e19c9d4b
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 6fe298a3054165a95f496f8c1178a7fa8457542d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583892"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614224"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 

@@ -1,7 +1,7 @@
 ---
 title: Criar um atendedor automático por meio de cmdlets
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar atendedores automáticos por meio de cmdlets
-ms.openlocfilehash: fa52f84f822635505e3d3390855195ba579406f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 48e85ae312801257b133df76d5e60a6dbe51f628
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270136"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614053"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Criar um atendedor automático por meio de cmdlets
 

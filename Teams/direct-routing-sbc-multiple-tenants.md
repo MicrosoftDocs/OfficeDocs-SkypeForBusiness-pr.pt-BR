@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um Controlador de Borda de Sessão (SBC) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024014"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614404"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -136,10 +136,13 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado do Teams ou uma conta de recurso. As contas aceitáveis serão licenciadas com qualquer uma das seguintes SKUs:
 
-- Conta de usuário com Office 365 E1/E3/E5/A3/A5 ou Microsoft 365 E3/E5/A3/A5
-- Conta de usuário com Office 365 F1/F3 ou Microsoft 365 F1/F3
-- Conta de Usuário com Telefone de Área Comum
-- Conta de recurso com **Telefonia do Microsoft Teams conta de recurso**
+- Conta de usuário com Office 365 E1/E3/E5 ou Microsoft 365 E3/E5.
+- Conta de usuário com Office 365 A1/A3/A5 ou Microsoft 365 A1/A3/A5.
+- Conta de usuário com Office 365 F3 ou Microsoft 365 F1/F3.
+- Conta de usuário com Office 365 G1/G3/G5 ou Microsoft 365 G3/G5.
+- Conta de usuário com Microsoft 365 Business Basic/Standard/Premium.
+- Conta de usuário com Telefone de Área Comum.
+- Conta de recurso com **Telefonia do Microsoft Teams conta de** recurso.
 
 Além disso, o UPN da conta (Nome UPN) ou o Skype for Business SIP local devem usar o mesmo FQDN que o domínio recém-criado.
 
@@ -202,6 +205,7 @@ Depois de registrar um nome de subdomínio, você precisará ativá-lo adicionan
 
 -   Conta de usuário com Office 365 E1/E3/E5/A3/A5 ou Microsoft 365 E3/E5/A3/A5
 -   Conta de usuário com Office 365 F1/F3 ou Microsoft 365 F1/F3
+-   Conta de usuário com Microsoft 365 Business Basic/Standard/Premium e planos G3/G5
 -   Conta de Usuário com Telefone de Área Comum
 -   Conta de recurso com uma **licença Telefonia do Microsoft Teams conta de** recurso
 

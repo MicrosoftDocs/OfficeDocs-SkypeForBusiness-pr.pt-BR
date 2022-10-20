@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046741"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614634"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Use criptografia de ponta a ponta para chamadas um-para-um do Microsoft Teams
 
@@ -86,9 +86,9 @@ A política padrão global, em toda a organização, especifica que a criptograf
 
 3. Escolha a política padrão ou escolha **Adicionar** para adicionar uma nova política e nomeie a nova política.
 
-4. Para habilitar a criptografia de ponta a ponta para seus usuários, para **Criptografia de chamada de ponta a ponta**, escolha **Substituir usuário desabilitado** e, em seguida, escolha **Salvar**.
+4. Para habilitar a criptografia de ponta a ponta para seus usuários, para criptografia de chamada de ponta a **ponta, escolha** Não habilitado **,** mas os usuários podem habilitar e, em seguida, **escolher Salvar**.
 
-   Para desabilitar a criptografia de ponta a ponta, escolha **Desabilitado**.
+   Para desabilitar a criptografia de ponta a ponta, escolha **Não habilitado**.
 
 Depois de concluir a configuração da política, atribua a política a usuários, grupos ou todo o locatário da mesma maneira que gerencia outras políticas do Teams. Para obter informações sobre como usar políticas no Teams, consulte [Gerenciar o Teams com políticas](manage-teams-with-policies.md).
 
