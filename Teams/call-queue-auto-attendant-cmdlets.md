@@ -1,7 +1,7 @@
 ---
 title: Referência de cmdlet do PowerShell para atendedores automáticos e filas de chamadas
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Consulte este artigo para cmdlets do PowerShell para criar e gerenciar atendedores automáticos e filas de chamadas no Microsoft Teams.
-ms.openlocfilehash: 7970a3c8199060d73d68e5f94c28dfe836688189
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d45fd13a0836996223afdbadde324841e09c018
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269404"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613983"
 ---
 # <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>Referência de cmdlet do PowerShell para atendedores automáticos e filas de chamadas
 

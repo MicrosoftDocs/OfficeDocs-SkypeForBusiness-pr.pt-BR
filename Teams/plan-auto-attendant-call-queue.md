@@ -1,7 +1,7 @@
 ---
 title: Planejar atendedores automáticos do Teams e filas de chamadas
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos e filas de chamadas e como usá-los para ajudar os chamadores a percorrer um sistema de menus para acessar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 05bbc5880e3a90751cfaada782573fd2d0b10c90
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 8c02bd3d8881bcbfa0d998098b39106ed8476435
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584802"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613953"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar atendedores automáticos do Teams e filas de chamadas
 
