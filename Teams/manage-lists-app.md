@@ -26,12 +26,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: ce10e758352396dd1ac8e6334e54c4e298df9a0f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047041"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655847"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Listas para sua organização no Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "68047041"
 
 O aplicativo Listas no Microsoft Teams ajuda os usuários da sua organização a controlar informações, organizar o trabalho e gerenciar fluxos de trabalho. Com o Listas, os usuários podem acompanhar dados como problemas, ativos, rotinas, contatos, estoque, incidentes, empréstimos, pacientes e muito mais usando exibições, regras e alertas personalizáveis para manter todos na equipe em sincronia.
 
-No Teams, os usuários acessam o Listas como uma guia em um canal. Selecione **+** para abrir a galeria de guias e adicionar uma nova instância da guia do aplicativo Listas a um canal para começar.
+No Teams, os usuários acessam o Listas como uma guia em um canal. Selecione **+** para abrir a galeria de guias e adicionar uma nova instância da guia Listas de aplicativos a um canal para começar.
 
 ![Lista o aplicativo na galeria de guias.](media/lists-tab.png)
 
@@ -62,7 +62,7 @@ Uma agência local dos correios é responsável por classificar e entregar corre
 
 Após a reunião, os entregadores retiram a correspondência e iniciam a rota de entrega. Incidentes podem ocorrer ao longo de uma rota, por exemplo, um acidente de veículo, um problema relacionado a um cachorro ou distúrbios sociais. Quando os entregadores encontram um incidente, elas usam o Teams em seus dispositivos móveis para registrar os detalhes do incidente, que são acompanhados em uma lista no canal de equipe. Todos na equipe, incluindo os entregadores em campo, podem ver essas informações e manter-se informados.
 
-Antes de migrar para o Teams, as operadoras de email tinham que voltar para os correios para preencher um formulário de cópia direta para relatar um incidente, que foi inserido em uma planilha do Excel. O Teams dá aos entregadores de correspondência uma experiência móvel em que podem usar Listas para relatar incidentes em campo assim que acontecerem, compartilhar detalhes de incidentes com os membros da equipe, ter conversas sobre eles no canal e encaminhar incidentes para resolução.
+Antes de se mudarem para o Teams, as transportadoras de correio tiveram que voltar para os Correios para concluir um formulário de cópia impressa para relatar um incidente, que foi então inserido em uma planilha do Excel. O Teams dá aos entregadores de correspondência uma experiência móvel em que podem usar Listas para relatar incidentes em campo assim que acontecerem, compartilhar detalhes de incidentes com os membros da equipe, ter conversas sobre eles no canal e encaminhar incidentes para resolução.
 
 ## <a name="what-you-need-to-know-about-lists"></a>O que você precisa saber sobre o Listas
 
@@ -100,16 +100,16 @@ O Listas é habilitado por padrão para todos os usuários do Teams em sua organ
 1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Siga um destes procedimentos:
 
-    - Para desativar listas da sua organização, pesquise o aplicativo Listas, selecione-o e selecione **Bloquear**.
-    - Para ativar listas para sua organização, pesquise o aplicativo Listas, selecione-o e, em seguida, **selecione Permitir**.
+    - Para desativar Listas para sua organização, pesquise o aplicativo Listas, selecione-o e selecione **Bloquear**.
+    - Para ativar Listas para sua organização, pesquise o aplicativo Listas, selecione-o e selecione **Permitir**.
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>Habilite ou desabilite o Listas para usuários específicos em sua organização
 
-Para permitir ou bloquear usuários específicos de usarem o Listas em sua organização, certifique-se de que o Listas esteja ativado para sua organização na página [Gerenciar aplicativos](manage-apps.md) e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](teams-app-permission-policies.md).
+Para permitir ou bloquear usuários específicos em sua organização de usar Listas, verifique se Listas estão ativadas para sua organização na página [Gerenciar aplicativos](manage-apps.md) e, em seguida, crie uma política personalizada para permissões de aplicativo e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](teams-app-permission-policies.md).
 
 ## <a name="search-the-audit-log-for-list-events"></a>Pesquisar o registro de auditoria de eventos listados
 
-As listas são habilitadas com a auditoria de nível empresarial para que você possa pesquisar listas e eventos de item de lista no log de auditoria no Centro de Conformidade & Segurança. Para saber mais, confira [Pesquisar no log de auditoria no Centro de Conformidade e Segurança](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+As listas estão habilitadas com auditoria em nível empresarial para que você possa pesquisar listas e listar eventos de item no log de auditoria na Central de Conformidade do & de Segurança. Para saber mais, confira [Pesquisar no log de auditoria no Centro de Conformidade e Segurança](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 Para ver uma lista de eventos de auditoria relevantes para o aplicativo Listas no Teams, consulte [Atividades de lista do SharePoint](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
@@ -121,7 +121,7 @@ O Listas apoia o [Power Automate](/power-automate/flow-types) para fluxos de tra
 
 ## <a name="give-feedback-or-report-an-issue"></a>Fornecer comentários ou relatar problemas
   
-Para nos enviar comentários ou relatar um problema, selecione  Ajuda na parte inferior do painel esquerdo no Teams e, em seguida, selecione Relatar **um problema**. Selecione **Listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que você está enfrentando.
+Para nos enviar comentários ou relatar um problema, selecione **Ajuda** perto da parte inferior do painel esquerdo no Teams e selecione **Relatar um problema**. Selecione **Listas** e, em seguida, insira seus comentários ou detalhes sobre o problema que você está enfrentando.
 
 ## <a name="related-articles"></a>Artigos relacionados
 

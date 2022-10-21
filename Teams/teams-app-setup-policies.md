@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: c741bb8a1b6ab7e27ec064dc0f22226f69bc6e10
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377329"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655887"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -43,7 +43,7 @@ Por padrão, as seguintes políticas internas de configuração de aplicativo es
 
 ## <a name="pin-apps"></a>Fixar aplicativos
 
-Fixar aplicativos permite destacar aplicativos que os usuários da sua organização mais precisam. A fixação funciona para todos os tipos de aplicativos no Teams — Aplicativos principais, aplicativos fornecidos pela Microsoft, aplicativos de terceiros e personalizados desenvolvidos em sua organização. Fixar um aplicativo por meio de uma política de configuração de aplicativo também o instala, se esse aplicativo for permitido para o usuário. Usando uma política de configuração de aplicativo, você poderá realizar as seguintes tarefas:
+Fixar aplicativos permite destacar aplicativos que os usuários da sua organização mais precisam. A fixação funciona para todos os tipos de aplicativos no Teams — aplicativos principais, aplicativos fornecidos pela Microsoft, aplicativos de terceiros e desenvolvidos personalizados em sua organização. Fixar um aplicativo por meio de uma política de configuração de aplicativo também o instala, se esse aplicativo for permitido para o usuário. Usando uma política de configuração de aplicativo, você poderá realizar as seguintes tarefas:
 
 * Personalizar o Microsoft Teams para que os usuários finais destaquem os aplicativos que são mais importantes para eles. Você escolhe os aplicativos a serem fixados e a ordem em que eles serão exibidos.
 * Controle se os usuários poderão fixar aplicativos ou não.
@@ -94,7 +94,7 @@ Usando uma política de configuração de aplicativo, um administrador pode real
 * Instalar aplicativos para usuários finais em seu ambiente pessoal do Teams.
 * Instalar aplicativos para usuários finais como [extensões de mensagens](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-Os usuários finais poderão instalar aplicativos por conta própria se a [](teams-app-permission-policies.md) política de permissão do aplicativo permitir e o aplicativo for permitido pelo administrador do Teams. Em vez disso, se um aplicativo estiver bloqueado para um usuário ou para uma organização, os usuários finais poderão [solicitar aprovação do administrador](user-requests-approve-apps.md).
+Os usuários finais poderão instalar aplicativos por conta própria se a [política de permissão do aplicativo](teams-app-permission-policies.md) permitir e o aplicativo for permitido pelo administrador do Teams. Em vez disso, se um aplicativo for bloqueado para um usuário ou para uma organização, os usuários finais poderão [solicitar a aprovação do administrador](user-requests-approve-apps.md).
 
 Para instalar aplicativos usando uma política de configuração de aplicativo, siga estas etapas:
 
@@ -126,7 +126,7 @@ Use o Centro de administração do Microsoft Teams para editar uma política, in
 
 1. Selecione **Salvar**.
 
-### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>Atribuir uma política de configuração de aplicativo personalizada a usuários e grupos
+### <a name="assign-a-custom-policy-in-app-setup-policy-to-users-and-groups"></a>Atribuir uma política personalizada na política de configuração de aplicativo a usuários e grupos
 
 Para saber como atribuir políticas aos usuários finais e aos grupos, confira [como atribuir políticas a usuários e grupos](assign-policies-users-and-groups.md).
 
@@ -151,7 +151,7 @@ Lembre-se de que a loja de aplicativos do Teams lista todos os aplicativos do Te
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Sou um administrador do Teams para Educação. O que preciso saber sobre as políticas de configuração do aplicativo no Teams para Educação
 
-O aplicativo de Chamada não está disponível no Teams para Educação. Quando você cria uma nova política de configuração de aplicativo personalizado, o aplicativo de Chamada é exibido na lista de aplicativos. No entanto, o aplicativo não está fixado aos clientes do Teams e os usuários do Teams para Educação não verão o aplicativo de Chamada no Teams.
+O aplicativo de Chamada não está disponível no Teams para Educação. Quando você cria uma nova política personalizada na política de instalação do aplicativo, o aplicativo Chamando é exibido na lista de aplicativos. No entanto, o aplicativo não está fixado aos clientes do Teams e os usuários do Teams para Educação não verão o aplicativo de Chamada no Teams.
 
 ### <a name="user-experience"></a>Experiência de usuário
 
@@ -170,15 +170,15 @@ Os clientes móveis do Teams (iOS e Android) suportam aplicativos pessoais com g
 
 Os aplicativos de terceiros (que podem ser baixados na Teams Store) precisam ser aprovados antes de aparecerem no celular. Se um administrador fixar um aplicativo não aprovado pela Microsoft para Dispositivos Móveis, ele será exibido na Área de Trabalho do Teams, mas não aparecerá no dispositivo móvel. Para obter mais informações, confira [Clientes móveis](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients).
 
-Com os clientes móveis do Teams, os usuários verão os principais aplicativos do Teams, como Atividade, Chat e Teams, e você poderá fixar alguns dos aplicativos fornecidos pela Microsoft.
+Com os clientes móveis do Teams, os usuários verão os principais aplicativos do Teams, como Atividade, Chat e Teams, e você pode fixar alguns dos aplicativos fornecidos pela Microsoft.
 
-#### <a name="order-of-apps-pinned-through-a-policy"></a>Ordem dos aplicativos fixados por meio de uma política
+#### <a name="order-of-apps-pinned-through-a-policy"></a>Ordem de aplicativos fixados por meio de uma política
 
 Os usuários podem alterar a ordem de seus aplicativos fixados na área de trabalho do Teams e nos clientes móveis se a opção **Fixação do usuário** estiver ativada. Os usuários não podem alterar a ordem de seus aplicativos fixados em clientes Web do Teams.
 
 #### <a name="does-user-pinning-take-precedence"></a>A fixação do usuário tem precedência
 
-As fixações do administrador sempre têm precedência. Se a **opção de fixação do** usuário estiver ativada, os aplicativos fixados pelos usuários serão exibidos abaixo dos aplicativos fixados pelos administradores. Se **a opção de fixação** do usuário estiver desativada, os usuários perderão os pinos existentes e somente os aplicativos fixados pelos administradores estarão disponíveis na barra de aplicativos.
+As fixações do administrador sempre têm precedência. Se a opção **Fixação de usuário** estiver ativada, os aplicativos fixados pelos usuários exibirão abaixo dos aplicativos fixados pelos administradores. Se a opção **fixação de usuário** estiver desativada, os usuários perderão os pinos existentes e apenas os aplicativos fixados pelos administradores estarão disponíveis na barra de aplicativos.
 
 ### <a name="custom-teams-apps"></a>Aplicativos personalizados do Teams
 

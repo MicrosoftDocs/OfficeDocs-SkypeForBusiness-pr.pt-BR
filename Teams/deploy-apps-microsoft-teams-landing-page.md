@@ -21,20 +21,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376989"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655897"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Entenda os aplicativos do Microsoft Teams
 
-Os aplicativos no Teams ajudam os usuários a reunir suas ferramentas e serviços de local de trabalho e colaborar com outras pessoas. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados localmente.
+Os aplicativos no Teams ajudam os usuários a reunir suas ferramentas e serviços no local de trabalho e colaborar com outras pessoas. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal. Os aplicativos do Microsoft Teams são aplicativos SaaS baseados na Web que não precisam ser implantados localmente.
 
-Como administrador, você define um processo de governança de aplicativos que equilibra os requisitos abrangentes dos usuários finais, juntamente com as políticas de TI, os padrões e os perfis de risco da sua organização.
+Como administrador, você define um processo de governança de aplicativo que equilibra requisitos abrangentes de usuários finais, juntamente com as políticas de TI, padrões e perfis de risco da sua organização.
 
-Nosso amplo [catálogo de](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) aplicativos do Teams validados e seguros fornece aos usuários finais acesso às ferramentas e serviços de que sua organização precisa todos os dias. O Centro de administração do Teams fornece aos administradores controles e configurações de nível empresarial para controlar os aplicativos. Você controla a disponibilidade de aplicativos para cada usuário em vários contextos, como reuniões, bate-papos e canais.
+Nosso extenso [catálogo](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) de aplicativos validados e seguros do Teams fornece aos usuários finais acesso às ferramentas e serviços que sua organização precisa todos os dias. O centro de administração do Teams fornece aos administradores controles e configurações de nível empresarial para governar os aplicativos. Você controla a disponibilidade de aplicativos para cada usuário em vários contextos, como reuniões, bate-papos e canais.
 
 Este artigo ajuda você a entender os tipos de aplicativos e de onde os seus usuários acessam esses aplicativos. Para saber mais sobre o uso de aplicativos, leia [Visão geral dos aplicativos para usuários finais](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -57,7 +57,7 @@ A Microsoft fornece muitos aplicativos para melhorar a produtividade e a colabor
 
 O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas, Elogiar, Aprovações e muito mais. Recomendamos que você inclua os aplicativos em destaque—como o Planner—em sua distribuição inicial do Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de tela mostrando uma lista de aplicativos da Microsoft no Centro de administração do Teams." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de tela mostrando uma lista de aplicativos da Microsoft no centro de administração do Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>Aplicativos de terceiros validados pela Microsoft
 
@@ -80,18 +80,18 @@ Para obter mais informações, confira [Entender e gerenciar aplicativos persona
 Usando os métodos de desenvolvimento de aplicativos, a Microsoft cria e fornece aplicativos de exemplo funcionais e prontos para produção. Coletivamente, esses aplicativos são chamados de modelos de aplicativo para o Teams e são fornecidos para:
 
 * Ilustrar alguns casos de uso de colaboração no Teams.
-* Demonstrar práticas recomendadas e métodos de desenvolvimento de aplicativos.
-* Forneça aplicativos de software livre que os desenvolvedores podem estender para criar seus próprios aplicativos.
+* Mostrar as melhores práticas e métodos de desenvolvimento de aplicativos.
+* Forneça aplicativos de código aberto que os desenvolvedores podem estender para criar seus próprios aplicativos.
 
-Os desenvolvedores de sua organização personalizam modelos de aplicativo com alterações simples no código-fonte fornecido. Você fornece esses aplicativos como aplicativos personalizados para seus usuários finais, para atender às necessidades de qualquer organização.
+Os desenvolvedores da sua organização personalizam modelos de aplicativo com alterações simples no código-fonte fornecido. Você fornece esses aplicativos como aplicativos personalizados para seus usuários finais, para atender às necessidades de qualquer organização.
 
 Para saber mais, confira [Modelos de Aplicativo do Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
 ## <a name="understand-app-capabilities"></a>Entender os recursos do aplicativo
 
-Para fornecer experiências avançadas que permitem que os usuários finais trabalhem no Teams, os desenvolvedores de aplicativos usam os seguintes recursos de aplicativo. As extensões de mensagens permitem que os usuários interajam com o cliente do Teams do serviço Web. Eles pesquisam ou iniciam ações em um sistema externo. Você pode enviar o resultado da interação para o cliente do Teams como um cartão com formatação avançada. A reunião de aplicativos de extensibilidade integra os aplicativos de um desenvolvedor em reuniões e oferece uma experiência dinâmica na reunião.
+Para fornecer experiências avançadas que permitem que os usuários finais trabalhem no Teams, os desenvolvedores de aplicativos usam os seguintes recursos de aplicativo. As extensões de mensagens permitem que os usuários interajam com o cliente do Teams do serviço Web. Eles pesquisam ou iniciam ações em um sistema externo. Você pode enviar o resultado da interação para o cliente do Teams como um cartão ricamente formatado. A reunião de aplicativos de extensibilidade integra os aplicativos de um desenvolvedor em reuniões e oferece uma experiência dinâmica na reunião.
 
-Os bots também são chamados de chatbot ou bot de conversa. É um aplicativo que executa tarefas simples e repetitivas. Uma interação de bot pode ser uma pergunta e resposta rápidas ou pode ser uma conversa complexa que fornece acesso a serviços ou assistência. Os usuários podem conversar com um bot individualmente ou em um canal. Por exemplo, você pode usar o aplicativo Polly para criar pesquisas rápidas, obter comentários e fazer uma avaliação do clima empresarial.
+Os bots também são chamados de chatbot ou bot de conversa. É um aplicativo que executa tarefas simples e repetitivas. Uma interação de bot pode ser uma pergunta e resposta rápidas ou pode ser uma conversa complexa que fornece acesso a serviços ou assistência. Os usuários podem conversar com um bot individual ou em um canal. Por exemplo, você pode usar o aplicativo Polly para criar pesquisas rápidas, obter comentários e fazer uma avaliação do clima empresarial.
 
 As guias são páginas da Web compatíveis com o Teams fixadas na parte superior de um canal ou chat. As guias permitem que você interaja com conteúdo e serviços com uma experiência semelhante à Web. Você pode adicionar guias como parte de um canal dentro de uma equipe, chat em grupo ou aplicativo pessoal para um usuário individual.
 
@@ -99,7 +99,7 @@ Webhooks e conectores fornecem conteúdo e atualizações de serviços que os us
 
 Extensões de mensagens são atalhos para inserir conteúdo do aplicativo ou agir em uma mensagem sem que os usuários finais precisem sair da conversa. As extensões de mensagens podem ter comandos de pesquisa para que os usuários finais localizem rapidamente o conteúdo externo e o insiram em uma mensagem ou comandos de ação.
 
-Para exibir casos de uso comuns mapeados para recursos do Teams, consulte [Mapear seus casos de uso para recursos de aplicativo do Teams](/microsoftteams/platform/concepts/design/map-use-cases).
+Para exibir casos de uso comuns mapeados para recursos do Teams, confira [Mapear seus casos de uso para recursos de aplicativo do Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
