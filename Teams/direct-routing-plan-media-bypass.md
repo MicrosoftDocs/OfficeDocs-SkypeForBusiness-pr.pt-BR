@@ -15,140 +15,139 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Saiba como planejar o bypass de mídia com Sistema de Telefonia Roteamento Direto, que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
+description: Saiba como planejar o bypass de mídia com o Roteamento Direto do Sistema Telefônico, o que permite encurtar o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 560a3a5802469b0cb17170dfae377d8d6f358c8b
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 638a39a843648ab8fab770c28d92b196201e20f5
+ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518613"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "68680504"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
-## <a name="about-media-bypass-with-direct-routing"></a>Sobre desvio de mídia com Roteamento Direto
+## <a name="about-media-bypass-with-direct-routing"></a>Sobre o bypass de mídia com o Roteamento Direto
 
-O bypass de mídia permite reduzir o caminho do tráfego de mídia e reduzir o número de saltos em trânsito para melhorar o desempenho. Com o bypass de mídia, a mídia é mantida entre o Controlador de Borda de Sessão (SBC) e o cliente, em vez de enviá-lo por meio do Telefone Microsoft System. Para configurar o bypass de mídia, o SBC e o cliente devem estar no mesmo local ou rede.
+O bypass de mídia permite reduzir o caminho do tráfego de mídia e reduzir o número de saltos em trânsito para melhor desempenho. Com o bypass de mídia, a mídia é mantida entre o SBC (Controlador de Borda de Sessão) e o cliente em vez de enviá-la por meio do Sistema de Telefone da Microsoft. Para configurar o bypass de mídia, o SBC e o cliente devem estar no mesmo local ou rede.
 
-Você pode controlar o bypass de mídia para cada SBC usando **o comando Set-CSOnlinePSTNGateway** com o parâmetro **-MediaBypass** definido como true ou false. Se você habilitar o bypass de mídia, isso não significa que todo o tráfego de mídia ficará dentro da rede corporativa. Este artigo descreve o fluxo de chamada em diferentes cenários.
+Você pode controlar o bypass de mídia para cada SBC usando o comando **Set-CSOnlinePSTNGateway** com o parâmetro **-MediaBypass** definido como true ou false. Se você habilitar o bypass de mídia, isso não significa que todo o tráfego de mídia permanecerá dentro da rede corporativa. Este artigo descreve o fluxo de chamadas em cenários diferentes.
 
-Os diagramas a seguir ilustram a diferença no fluxo de chamada com e sem bypass de mídia.
+Os diagramas abaixo ilustram a diferença no fluxo de chamadas com e sem bypass de mídia.
 
-Sem bypass de mídia, quando um cliente faz ou recebe uma chamada, a sinalização e o fluxo de mídia entre o SBC, o sistema Telefone Microsoft e o cliente Teams, conforme mostrado no diagrama a seguir:
+Sem bypass de mídia, quando um cliente faz ou recebe uma chamada, sinalização e fluxo de mídia entre o SBC, o Sistema de Telefone microsoft e o cliente do Teams, conforme mostrado no seguinte diagrama:
 
 > [!div class="mx-imgBorder"]
-> ![Mostra sinalização e fluxo de mídia sem bypass de mídia.](media/direct-routing-media-bypass-1.png)
+> ![Mostra a sinalização e o fluxo de mídia sem bypass de mídia.](media/direct-routing-media-bypass-1.png)
 
 
-Mas vamos supor que um usuário está no mesmo edifício ou rede que o SBC. Por exemplo, suponha que um usuário que está em um edifício em Frankfurt faça uma chamada para um usuário PSTN: 
+Mas vamos supor que um usuário esteja no mesmo prédio ou rede que o SBC. Por exemplo, suponha que um usuário que está em um prédio em Frankfurt faça uma chamada para um usuário PSTN: 
 
-- **Sem bypass de mídia**, a mídia fluirá por Meio de Amsterdã ou Dublin (onde os datacenters da Microsoft são implantados) e de volta para o SBC em Frankfurt. 
+- **Sem bypass de mídia**, a mídia fluirá por Amsterdã ou Dublin (onde os datacenters da Microsoft são implantados) e retornará ao SBC em Frankfurt. 
 
-  O datacenter na Europa é selecionado porque o SBC está na Europa e a Microsoft usa o datacenter mais próximo do SBC. Embora essa abordagem não afete a qualidade das chamada devido à otimização do fluxo de tráfego nas redes da Microsoft na maioria das regiões geográficas, o tráfego tem um loop desnecessário.     
+  O datacenter na Europa é selecionado porque o SBC está na Europa e a Microsoft usa o datacenter mais próximo do SBC. Embora essa abordagem não afete a qualidade da chamada devido à otimização do fluxo de tráfego nas redes da Microsoft na maioria das geografias, o tráfego tem um loop desnecessário.     
 
-- **Com o bypass de** mídia, a mídia é mantida diretamente entre o usuário Teams e o SBC, conforme mostrado no diagrama a seguir:
+- **Com o bypass de mídia**, a mídia é mantida diretamente entre o usuário do Teams e o SBC, conforme mostrado no seguinte diagrama:
 
   > [!div class="mx-imgBorder"]
-  > ![Mostra sinalização e fluxo de mídia com bypass de mídia.](media/direct-routing-media-bypass-2.png)
+  > ![Mostra a sinalização e o fluxo de mídia com bypass de mídia.](media/direct-routing-media-bypass-2.png)
 
-O bypass de mídia aproveita protocolos chamados Desodorado Interativo de Conectividade (ICE) no cliente Teams e no ICE lite no SBC. Esses protocolos permitem que o Roteamento Direto use o caminho de mídia mais direto para obter a melhor qualidade. ICE e ICE Lite são padrões WebRTC. Para obter informações detalhadas sobre esses protocolos, consulte RFC 5245.
+O bypass de mídia aproveita protocolos chamados ICE (Interactive Connectivity Establishment) no cliente do Teams e ice lite no SBC. Esses protocolos permitem que o Roteamento Direto use o caminho de mídia mais direto para uma qualidade ideal. ICE e ICE Lite são padrões WebRTC. Para obter informações detalhadas sobre esses protocolos, consulte RFC 5245.
 
 
-## <a name="call-flow-and-firewall-planning"></a>Planejamento de fluxo de chamada e firewall
+## <a name="call-flow-and-firewall-planning"></a>Fluxo de chamadas e planejamento de firewall
 
-O planejamento do fluxo de chamada e do firewall depende se o usuário tem acesso direto ao endereço IP público do SBC e se o usuário está dentro ou fora da rede.
+O fluxo de chamadas e o planejamento de firewall dependem se o usuário tem acesso direto ao endereço IP público do SBC e se o usuário está dentro ou fora da rede.
 
-### <a name="call-flow-if-the-user-has-direct-access-to-the-public-ip-address-of-the-sbc"></a>Fluxo de chamada se o usuário tiver acesso direto ao endereço IP público do SBC
+### <a name="call-flow-if-the-user-has-direct-access-to-the-public-ip-address-of-the-sbc"></a>Fluxo de chamadas se o usuário tiver acesso direto ao endereço IP público do SBC
 
-Se o usuário tiver acesso direto ao endereço IP público do SBC, o fluxo de chamada será o seguinte:
+Se o usuário tiver acesso direto ao endereço IP público do SBC, o fluxo de chamadas será o seguinte:
 
-- Para bypass de mídia, o Teams cliente deve ter acesso ao endereço IP público do SBC, mesmo de uma rede interna. Se a mídia direta não for desejada, a mídia poderá fluir por meio de Retransmissão de Transporte.
+- Para ignorar a mídia, o cliente do Teams deve ter acesso ao endereço IP público do SBC mesmo de uma rede interna. Se a mídia direta não for desejada, a mídia poderá fluir por meio de Retransmissões de Transporte.
 
 - Essa é a solução recomendada quando um usuário está no mesmo edifício e/ou rede que o SBC – remova os componentes do Microsoft Cloud do caminho de mídia.
 
-- A sinalização sempre flui por meio da nuvem da Microsoft.
+- A sinalização sempre flui pela nuvem da Microsoft.
 
-O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está habilitado, o cliente é interno e o cliente pode alcançar o endereço IP público do SBC (mídia direta): 
+O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está habilitado, o cliente é interno e o cliente pode alcançar o endereço IP público do SBC (mídia direta): 
 
-- As setas e os valores numéricos dos caminhos estão de acordo com Microsoft Teams [fluxos de chamada](./microsoft-teams-online-call-flows.md).
+- As setas e os valores numéricos dos caminhos estão de acordo com os [fluxos de chamada do Microsoft Teams](./microsoft-teams-online-call-flows.md).
 
-- A sinalização SIP sempre tem caminhos 4 e 4' (dependendo da direção do tráfego). A mídia permanece local e segue o caminho 5b.
-
-> [!div class="mx-imgBorder"]
-> ![Mostra o fluxo de chamada com o Bypass de Mídia habilitado, o cliente é interno.](media/direct-routing-media-bypass-3.png)
-
-
-### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Fluxo de chamada se o usuário não tiver acesso ao endereço IP público do SBC
-
-O seguinte descreve o fluxo de chamada se o usuário não tiver acesso ao endereço IP público do SBC. 
-
-Por exemplo, suponha que o usuário seja externo e o administrador do locatário decidiu não abrir o endereço IP público do SBC para todos na Internet, mas apenas para o Microsoft Cloud. Os componentes internos do tráfego podem fluir por meio do Teams Retransmissão de Transporte. Considere o seguinte:
-
-- Teams retransmissão de transporte são usadas.
-
-- Para bypass de mídia, a Microsoft usa uma versão de Retransmissão de Transporte que requer a abertura de portas 50 000 a 59 999 entre retransmissão de transporte Teams e o SBC (no futuro, planejamos mover para a versão que exige portas 3478-3481).
-
-
-O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está habilitado, o cliente é externo e o cliente não pode alcançar o endereço IP público do Controlador de Borda de Sessão (a mídia é retransmitida pelo Teams Transport Relay).
-
-- As setas e os valores numéricos dos caminhos estão de acordo com Microsoft Teams [fluxos de chamada](./microsoft-teams-online-call-flows.md).
-
-- A mídia é repassada pelos caminhos 3, 3', 4 e 4'
+- A sinalização SIP sempre usa os caminhos 4 e 4' (dependendo da direção do tráfego). A mídia permanece local e segue o caminho 5b.
 
 > [!div class="mx-imgBorder"]
-> ![Mostra o fluxo de chamada se o usuário não tiver acesso ao IP público do SBC.](media/direct-routing-media-bypass-4.png)
+> ![Mostra o fluxo de chamadas com o Bypass de Mídia habilitado, o cliente é interno.](media/direct-routing-media-bypass-3.png)
 
 
-### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Fluxo de chamada se um usuário estiver fora da rede e tiver acesso ao IP público do SBC
+### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Fluxo de chamadas se o usuário não tiver acesso ao endereço IP público do SBC
+
+O seguinte descreve o fluxo de chamadas se o usuário não tiver acesso ao endereço IP público do SBC. 
+
+Por exemplo, suponha que o usuário seja externo, e o administrador do locatário decidiu não abrir o endereço IP público do SBC para todos na Internet, mas apenas para o Microsoft Cloud. Os componentes internos do tráfego podem fluir por meio dos Retransmissões de Transporte do Teams. Considere o seguinte:
+
+- Os Retransmissões de Transporte do Teams são usados.
+
+- Para bypass de mídia, a Microsoft usa uma versão de Retransmissão de Transporte que requer a abertura das portas 50 000 a 59 999 entre os Retransmissões de Transporte do Teams e o SBC (no futuro planejamos migrar para a versão que requer 3478-3481 portas).
+
+
+O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está habilitado, o cliente é externo e o cliente não pode alcançar o endereço IP público do Controlador de Borda de Sessão (a mídia é retransmitida pelo Teams Transport Relay).
+
+- As setas e os valores numéricos dos caminhos estão de acordo com os [fluxos de chamada do Microsoft Teams](./microsoft-teams-online-call-flows.md).
+
+- A mídia é retransmitida por meio dos caminhos 3, 3', 4 e 4'
+
+> [!div class="mx-imgBorder"]
+> ![Mostra o fluxo de chamadas se o usuário não tiver acesso ao IP público do SBC.](media/direct-routing-media-bypass-4.png)
+
+
+### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Fluxo de chamadas se um usuário estiver fora da rede e tiver acesso ao IP público do SBC
 
 > [!NOTE]
-> Essa não é uma configuração recomendada porque não tira proveito de Teams Retransmissão de Transporte. Em vez disso, você deve considerar o cenário anterior em que o usuário não tem acesso ao endereço IP público do SBC. 
+> Essa não é uma configuração recomendada porque não aproveita os Retransmissões de Transporte do Teams. Em vez disso, você deve considerar o cenário anterior em que o usuário não tem acesso ao endereço IP público do SBC. 
 
-O diagrama a seguir mostra o fluxo de chamada quando o bypass de mídia está habilitado, o cliente é externo e o cliente pode alcançar o endereço IP público do SBC (mídia direta).
+O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está habilitado, o cliente é externo e o cliente pode alcançar o endereço IP público do SBC (mídia direta).
 
-- As setas e os valores numéricos dos caminhos estão de acordo com o artigo Microsoft Teams [fluxos de](./microsoft-teams-online-call-flows.md) chamada.
+- As setas e os valores numéricos dos caminhos estão de acordo com o artigo [fluxos de chamadas do Microsoft Teams](./microsoft-teams-online-call-flows.md) .
 
-- A sinalização SIP sempre tem caminhos 3 e 3' (dependendo da direção do tráfego). Fluxos de mídia usando o caminho 2.
+- A sinalização SIP sempre usa os caminhos 3 e 3' (dependendo da direção do tráfego). A mídia flui usando o caminho 2.
 
 > [!div class="mx-imgBorder"]
-> ![Mostra o fluxo de chamada se o usuário não tiver acesso ao IP público do SBC.](media/direct-routing-media-bypass-5.png)
+> ![Mostra o fluxo de chamadas se o usuário não tiver acesso ao IP público do SBC.](media/direct-routing-media-bypass-5.png)
 
 
 
-## <a name="use-of-media-processors-and-transport-relays"></a>Uso de Processadores de Mídia e Retransmissão de Transporte
+## <a name="use-of-media-processors-and-transport-relays"></a>Uso de processadores de mídia e retransmissões de transporte
 
-Há dois componentes no Microsoft Cloud que podem estar no caminho do tráfego de mídia: Processadores de Mídia e Retransmissão de Transporte. 
+Há dois componentes no Microsoft Cloud que podem estar no caminho do tráfego de mídia: Processadores de Mídia e Retransmissões de Transporte. 
 
-- O Processador de Mídia é um componente voltado para o público que lida com mídia em casos que não ignoram e lida com mídia para aplicativos de voz.
+- O Processador de Mídia é um componente voltado para o público que lida com a mídia em casos não ignorados e manipula a mídia para aplicativos de voz.
 
-   Processadores de mídia estão sempre no caminho para chamadas não ignoradas pelo usuário final, mas nunca no caminho para chamadas ignoradas. Processadores de mídia estão sempre no caminho para todos os aplicativos de voz, como Estacionamento de Chamadas, Atendedor Automático Organizacionais e Filas de Chamadas.
+   Os processadores de mídia estão sempre no caminho para chamadas não ignoradas pelo usuário final, mas nunca no caminho para chamadas ignoradas. Os processadores de mídia estão sempre no caminho para todos os aplicativos de voz, como Call Park, Atendimento Automático Organizacional e Filas de Chamadas.
 
 - O Retransmissão de Transporte é usado para se conectar ao Serviço de Transporte mais próximo para enviar tráfego em tempo real.
 
-   Retransmissão de transporte pode ou não estar no caminho para chamadas ignoradas, originadas ou destinadas a usuários finais, dependendo de onde o usuário está e como a rede está configurada .
+   Retransmissões de transporte podem ou não estar no caminho para chamadas ignoradas — originadas ou destinadas a usuários finais — dependendo de onde o usuário está e como a rede está configurada.
 
 O diagrama a seguir mostra dois fluxos de chamada – um com bypass de mídia habilitado e o segundo com bypass de mídia desabilitado.
 
 > [!NOTE]
-> O diagrama ilustra apenas o tráfego proveniente de ou destinado a usuários finais.  
+> O diagrama ilustra apenas o tráfego proveniente de usuários finais ou destinados a--.  
 
-- O Controlador de Mídia é um microserviço no Azure que atribui processadores de mídia e cria ofertas de Protocolo de Descrição de Sessão (SDP).
+- O Controlador de Mídia é um microsserviço no Azure que atribui processadores de mídia e cria ofertas de SDP (Protocolo de Descrição de Sessão).
 
-- O Proxy SIP é um componente que converte a sinalização REST HTTP usada Teams para SIP.    
+- O Proxy SIP é um componente que traduz a sinalização HTTP REST usada no Teams para SIP.    
 
 > [!div class="mx-imgBorder"]
-> ![Mostra fluxos de chamada com Desvio de Mídia habilitado e desabilitado.](media/direct-routing-media-bypass-6.png)
+> ![Mostra fluxos de chamada com o Bypass de Mídia habilitado e desabilitado.](media/direct-routing-media-bypass-6.png)
 
 
-A tabela a seguir resume a diferença entre Processadores de Mídia e Retransmissão de Transporte.
+A tabela a seguir resume a diferença entre processadores de mídia e retransmissões de transporte.
 
-|  &nbsp; | Processadores de mídia | Retransmissão de transporte|
+|  &nbsp; | Processadores de Mídia | Retransmissões de transporte|
 | :--------------|:---------------|:------------|
-|No caminho de mídia para chamadas não ignoradas para usuários finais | Always | Se o cliente não puder acessar diretamente o Processador de Mídia |
-|No caminho da mídia para chamadas ignoradas para usuários finais | Never | Se o cliente não puder alcançar o SBC no endereço IP público |
-|No caminho de mídia para aplicativos de voz | Always | Never |
-|Pode fazer transcodificação (B2BUA)\* | Sim | Não, somente retransmite áudio entre pontos de extremidade |
-|Número de instâncias em todo o mundo e local | 15 total: 3 no Leste, Oeste e Centro-Sul dos EUA; 4 em Amsterdã, Dublin, Reino Unido Sul e França Central; 2 em Hong Kong e Cingapura; 2 no Japão; 2 na Austrália Leste e Sudeste; 1 no Brasil Sul; 1 no Norte da África do Sul | Vários|
+|No caminho da mídia para chamadas não ignoradas para usuários finais | Sempre | Se o cliente não puder acessar o Processador de Mídia diretamente |
+|No caminho da mídia para chamadas ignoradas para usuários finais | Nunca | Se o cliente não puder acessar o SBC no endereço IP público |
+|No caminho da mídia para aplicativos de voz | Sempre | Nunca |
+|Pode fazer transcodificação (B2BUA)\* | Sim | Não, apenas retransmite áudio entre pontos de extremidade |
 
 Os intervalos de IP são:
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254)
@@ -156,167 +155,167 @@ Os intervalos de IP são:
 
 \* Explicação de transcodificação: 
 
-- O Processador de Mídia é B2BUA, o que significa que ele pode alterar um codecs (por exemplo, SILK de um cliente Teams para MP e G.711 entre MP e SBC).
+- Processador de Mídia é B2BUA, o que significa que ele pode alterar um codecs (por exemplo, SILK de cliente do Teams para MP e G.711 entre MP e SBC).
 
-- Retransmissão de transporte não são B2BUA, o que significa que o codec nunca é alterado entre o cliente e o SBC , mesmo que o tráfego flua por retransmissão.
+- Retransmissões de transporte não são B2BUA, o que significa que o codec nunca é alterado entre o cliente e o SBC — mesmo que o tráfego flua por meio de retransmissões.
 
-### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de Teams processadores de mídia se o tronco estiver configurado para bypass de mídia
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de Processadores de Mídia do Teams se o tronco estiver configurado para bypass de mídia
 
-Teams processadores de mídia são sempre inseridos no caminho da mídia nos seguintes cenários:
+Os Processadores de Mídia do Teams são sempre inseridos no caminho da mídia nos seguintes cenários:
 
-- A chamada é escalonada de 1:1 para uma chamada de grupo
-- A chamada será para um usuário federado Teams usuário
-- A chamada é encaminhada ou transferida para um Skype for Business usuário
+- A chamada é escalonada de 1:1 para uma chamada em grupo
+- A chamada vai para um usuário federado do Teams
+- A chamada é encaminhada ou transferida para um usuário Skype for Business
 
-Verifique se o SBC tem acesso aos intervalos processadores de mídia e retransmissão de transporte conforme descrito abaixo.    
+Verifique se o SBC tem acesso aos intervalos processadores de mídia e retransmissões de transporte, conforme descrito abaixo.    
 
 
 ## <a name="sip-signaling-fqdns"></a>Sinalização SIP: FQDNs
 
-Para sinalização SIP, os requisitos de FQDN e firewall são os mesmos para casos não ignorados. 
+Para sinalização SIP, os requisitos de FQDN e firewall são os mesmos que para casos não ignorados. 
 
-O Roteamento Direto é oferecido nos seguintes Microsoft 365 ou Office 365 ambientes:
+O Roteamento Direto é oferecido nos seguintes ambientes do Microsoft 365 ou Office 365:
 - Microsoft 365 ou Office 365
 - Office 365 GCC
-- Office 365 GCC Alta
-- Office 365 DoD Saiba mais sobre Office 365 e [ambientes](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) do Governo dos EUA, como GCC, GCC Alta e DoD.
+- Office 365 GCC High
+- Office 365 DoD Saiba mais sobre [Office 365 e ambientes do governo dos EUA](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government), como GCC, GCC High e DoD.
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 ambientes Office 365 GCC ambientes
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes de GCC do Microsoft 365, Office 365 e Office 365
 
-Os pontos de conexão para Roteamento Direto são os três FQDNs a seguir:
+Os pontos de conexão do Roteamento Direto são os três FQDNs a seguir:
 
-- **sip.pstnhub.microsoft.com** – FQDN Global – deve ser experimentado primeiro. Quando o SBC envia uma solicitação para resolver esse nome, os servidores DNS Microsoft Azure retornam um endereço IP apontando para o datacenter principal do Azure atribuído ao SBC. A atribuição é baseada em métricas de desempenho dos datacenters e proximidade geográfica com o SBC. O endereço IP retornado corresponde ao FQDN principal.
+- **sip.pstnhub.microsoft.com** – FQDN global – deve ser julgado primeiro. Quando o SBC envia uma solicitação para resolver esse nome, os servidores DNS do Microsoft Azure retornam um endereço IP apontando para o datacenter principal do Azure atribuído ao SBC. A atribuição é baseada em métricas de desempenho dos datacenters e proximidade geográfica com o SBC. O endereço IP retornado corresponde ao FQDN primário.
 
 - **sip2.pstnhub.microsoft.com** – FQDN secundário – mapeia geograficamente para a região de segunda prioridade.
 
-- **sip3.pstnhub.microsoft.com** – FQDN terciário – mapeia geograficamente para a região de terceira prioridade.
+- **sip3.pstnhub.microsoft.com** – FQDN terciário – mapeia geograficamente para a terceira região de prioridade.
 
 Você deve colocar esses três FQDNs para:
 
 - Forneça uma experiência ideal (menos carregada e mais próxima do datacenter SBC atribuído consultando o primeiro FQDN).
 
-- Forneça failover quando uma conexão de um SBC é estabelecida com um datacenter que está enfrentando um problema temporário. Para obter mais informações, consulte Mecanismo de failover abaixo.
+- Forneça failover quando uma conexão de um SBC é estabelecida para um datacenter que está enfrentando um problema temporário. Para obter mais informações, confira Mecanismo de failover abaixo.
 
 
-Os FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** e **sip3.pstnhub.microsoft.com** serão resolvidos para endereços IP a partir das seguintes sub-redes:
+As **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** e **sip3.pstnhub.microsoft.com** FQDNs serão resolvidas em endereços IP das seguintes sub-redes:
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Você precisa abrir portas para todos esses intervalos DE IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização.
+Você precisa abrir portas para todos esses intervalos de IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC ambiente do DoD
+### <a name="office-365-gcc-dod-environment"></a>Office 365 ambiente de DoD do GCC
 
-O ponto de conexão para Roteamento Direto é o seguinte FQDN:
+O ponto de conexão do Roteamento Direto é o seguinte FQDN:
 
-**sip.pstnhub.dod.teams.microsoft.us** – FQDN Global. Como o Office 365 do DoD existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
+**sip.pstnhub.dod.teams.microsoft.us** – FQDN global. Como o ambiente Office 365 DoD existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
 
-O FQDN sip.pstnhub.dod.teams.microsoft.us será resolvido para um endereço IP da seguinte sub-rede:
+O sip.pstnhub.dod.teams.microsoft.us FQDN será resolvido para um endereço IP da seguinte sub-rede:
 
 - 52.127.64.0/21
 
-Você precisa abrir portas para todos esses intervalos DE IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização.  Se o firewall dá suporte a nomes DNS, o FQDN sip.pstnhub.dod.teams.microsoft.us resolvido para todas essas sub-redes IP. 
+Você precisa abrir portas para todos esses intervalos de IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.  Se o firewall der suporte a nomes DNS, o sip.pstnhub.dod.teams.microsoft.us FQDN será resolvido para todas essas sub-redes IP. 
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC ambiente high
+### <a name="office-365-gcc-high-environment"></a>Office 365 ambiente do GCC High
 
-O ponto de conexão para Roteamento Direto é o seguinte FQDN:
+O ponto de conexão do Roteamento Direto é o seguinte FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us** – FQDN Global. Como o GCC ambiente High existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
+**sip.pstnhub.gov.teams.microsoft.us** – FQDN global. Como o ambiente GCC High existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
 
-O FQDN sip.pstnhub.gov.teams.microsoft.us será resolvido para um endereço IP a partir da seguinte sub-rede:
+O sip.pstnhub.gov.teams.microsoft.us FQDN será resolvido para um endereço IP da seguinte sub-rede:
 
 - 52.127.88.0/21
 
-Você precisa abrir portas para todos esses intervalos DE IP no firewall para permitir o tráfego de entrada e saída dos endereços para sinalização.  Se o firewall for compatível com nomes DNS, o FQDN sip.pstnhub.gov.teams.microsoft.us resolverá todas essas sub-redes IP. 
+Você precisa abrir portas para todos esses intervalos de IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.  Se o firewall der suporte a nomes DNS, o FQDN sip.pstnhub.gov.teams.microsoft.us será resolvido para todas essas sub-redes IP. 
 
-## <a name="sip-signaling-ports"></a>Sinalização SIP: Portas
+## <a name="sip-signaling-ports"></a>Sinalização SIP: portas
 
 Os requisitos de porta são os mesmos para todos os ambientes Office 365 em que o Roteamento Direto é oferecido:
 - Microsoft 365 ou Office 365
 - Office 365 GCC
-- Office 365 GCC Alta
+- Office 365 GCC High
 - Office 365 DoD
 
 Você deve usar as seguintes portas:
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido no SBC |
-| SIP/TLS | SBC | SIP Proxy | Definido no SBC | 5061 |
+| SIP/TLS| SIP Proxy | Sbc | 1024 - 65535 | Definido no SBC |
+| SIP/TLS | Sbc | SIP Proxy | Definido no SBC | 5061 |
 
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>Tráfego de mídia: intervalos de IP e porta
 
-O tráfego de mídia flui entre o SBC e o cliente Teams se a conectividade direta estiver disponível ou por meio de retransmissão de transporte Teams se o cliente não puder alcançar o SBC usando o endereço IP público.
+O tráfego de mídia flui entre o cliente SBC e o Teams se a conectividade direta estiver disponível ou por meio de Retransmissões de Transporte do Teams se o cliente não conseguir acessar o SBC usando o endereço IP público.
 
-### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Requisitos para tráfego de mídia direta (entre o cliente Teams e o SBC) 
+### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Requisitos para tráfego de mídia direta (entre o cliente do Teams e o SBC) 
 
 O cliente deve ter acesso às portas especificadas (consulte tabela) no endereço IP público do SBC. 
 
 > [!NOTE]
-> Se o cliente estiver em uma rede interna, a mídia flui para o endereço IP público do SBC. Você pode configurar o fixamento de pelos em seu dispositivo NAT para que o tráfego nunca saia do equipamento de rede empresarial.
+> Se o cliente estiver em uma rede interna, a mídia flui para o endereço IP público do SBC. Você pode configurar a fixação de cabelo em seu dispositivo NAT para que o tráfego nunca saia do equipamento de rede empresarial.
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Cliente | SBC | 50000-50019| Definido no SBC |
-| UDP/SRTP | SBC | Cliente | Definido no SBC | 50000-50019  |
+| UDP/SRTP | Cliente | Sbc | 50000-50019| Definido no SBC |
+| UDP/SRTP | Sbc | Cliente | Definido no SBC | 50000-50019  |
 
 
 > [!NOTE]
-> Se você tiver um dispositivo de rede que traduza as portas de origem do cliente, verifique se as portas traduzidas são abertas entre o equipamento de rede e o SBC. 
+> Se você tiver um dispositivo de rede que traduz as portas de origem do cliente, verifique se as portas traduzidas serão abertas entre o equipamento de rede e o SBC. 
 
-### <a name="requirements-for-using-transport-relays"></a>Requisitos para usar retransmissão de transporte
+### <a name="requirements-for-using-transport-relays"></a>Requisitos para usar retransmissões de transporte
 
-Retransmissão de transporte estão no mesmo intervalo que processadores de mídia (para casos que não são de bypass): 
+Os retransmissões de transporte estão no mesmo intervalo que processadores de mídia (para casos não ignorados): 
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 ambientes Office 365 GCC ambientes
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes de GCC do Microsoft 365, Office 365 e Office 365
 
 - 52.112.0.0 /14 (endereços IP de 52.112.0.1 a 52.115.255.254)
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC ambiente do DoD
+### <a name="office-365-gcc-dod-environment"></a>Office 365 ambiente de DoD do GCC
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC ambiente high
+### <a name="office-365-gcc-high-environment"></a>Office 365 ambiente do GCC High
 
 - 52.127.88.0/21
 
 
-O intervalo de portas do Teams Retransmissão de Transporte (aplicável a todos os ambientes) é mostrado na tabela a seguir:
+O intervalo de portas dos Retransmissões de Transporte do Teams (aplicável a todos os ambientes) é mostrado na tabela a seguir:
 
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Retransmissão de transporte | SBC | 50 000 -59 999    | Definido no SBC |
-| UDP/SRTP | SBC | Retransmissão de transporte | Definido no SBC | 50 000 – 59 999, 3478-3481     |
+| UDP/SRTP | Retransmissão de | Sbc | 50 000 -59 999    | Definido no SBC |
+| UDP/SRTP | Sbc | Retransmissão de | Definido no SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
 > A Microsoft recomenda pelo menos duas portas por chamada simultânea no SBC. Como a Microsoft tem duas versões de Retransmissão de Transporte, o seguinte é necessário:
 > 
-> - v4, que só pode funcionar com o intervalo de portas de 50 000 a 59 999
+> - v4, que só pode funcionar com o intervalo de portas 50 000 a 59 999
 > 
-> - v6, que funciona com as portas 3478-3481
+> - v6, que funciona com portas 3478-3481
 
-Neste momento, o bypass de mídia só dá suporte à versão v4 de Retransmissão de Transporte. Apresentaremos o suporte do v6 no futuro. 
+Neste momento, o bypass de mídia só dá suporte à versão v4 de Retransmissões de Transporte. Apresentaremos o suporte do v6 no futuro. 
 
-Você precisa abrir as portas 3478-3481 para transição. Quando a Microsoft apresentar suporte para retransmissão de transporte v6 com Bypass de Mídia, você não precisará reconfigurar seu equipamento de rede ou SBCs. 
+Você precisa abrir as portas 3478-3481 para transição. Quando a Microsoft apresentar suporte para retransmissões de transporte v6 com Bypass de Mídia, você não precisará reconfigurar seu equipamento de rede ou SBCs. 
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar processadores de mídia
 
-Processadores de mídia estão sempre no caminho de mídia para aplicativos de voz e para clientes Web (por exemplo, Teams clientes no Edge ou no Google Chrome). Os requisitos são os mesmos da configuração que não ignora.
+Os processadores de mídia estão sempre no caminho da mídia para aplicativos de voz e para clientes Web (por exemplo, clientes do Teams no Edge ou Google Chrome). Os requisitos são os mesmos da configuração de não bypass.
 
 
 O intervalo de IP para tráfego de mídia é 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 e Office 365 GCC ambientes
+### <a name="office-365-and-office-365-gcc-environments"></a>ambientes de GCC Office 365 e Office 365
 
 - 52.112.0.0 /14 (endereços IP de 52.112.0.1 a 52.115.255.254)
 
-### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC ambiente do DoD
+### <a name="office-365-gcc-dod-environment"></a>Office 365 ambiente de DoD do GCC
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC ambiente high
+### <a name="office-365-gcc-high-environment"></a>Office 365 ambiente do GCC High
 
 - 52.127.88.0/21
 
@@ -324,49 +323,49 @@ O intervalo de portas dos Processadores de Mídia (aplicável a todos os ambient
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Processador de Mídia | SBC | 3478-3481 e 49 152 – 53 247    | Definido no SBC |
-| UDP/SRTP | SBC | Processador de Mídia | Definido no SBC | 3478-3481 e 49 152 – 53 247     |
+| UDP/SRTP | Processador de Mídia | Sbc | 3478-3481 e 49 152 – 53 247    | Definido no SBC |
+| UDP/SRTP | Sbc | Processador de Mídia | Definido no SBC | 3478-3481 e 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos separados para bypass de mídia e bypass sem mídia  
 
-Se você estiver migrando para o bypass de mídia de desvio de não mídia e quiser confirmar a funcionalidade antes de migrar todo o uso para o bypass de mídia, você pode criar um tronco separado e uma política de Roteamento de Voz Online separada para rotear para o tronco de bypass de mídia e atribuir a usuários específicos. 
+Se você estiver migrando para o bypass de mídia do bypass que não é de mídia e quiser confirmar a funcionalidade antes de migrar todo o uso para o bypass de mídia, você poderá criar um tronco separado e separar a política de Roteamento de Voz Online para rotear para o tronco de bypass de mídia e atribuir a usuários específicos. 
 
 Etapas de configuração de alto nível:
 
 - Identifique os usuários para testar o bypass de mídia.
 
-- Crie dois troncos separados com FQDNs diferentes: um habilitado para bypass de mídia; o outro não. 
+- Criar dois troncos separados com FQDNs diferentes: um habilitado para bypass de mídia; o outro não. 
 
-  Ambos os troncos apontam para o mesmo SBC. As portas para sinalização SIP TLS devem ser diferentes. As portas para mídia devem ser as mesmas.
+  Ambos os troncos apontam para o mesmo SBC. As portas para sinalização SIP do TLS devem ser diferentes. As portas para mídia devem ser as mesmas.
 
-- Crie uma nova política de Roteamento de Voz Online e atribua o tronco de bypass de mídia às rotas correspondentes associadas ao uso PSTN dessa política.
+- Crie uma nova política de Roteamento de Voz Online e atribua o tronco de bypass de mídia às rotas correspondentes associadas ao uso de PSTN para essa política.
 
-- Atribua a nova política de Roteamento de Voz Online aos usuários identificados para testar o bypass de mídia.
+- Atribua a nova política de Roteamento de Voz Online aos usuários que você identificou para testar o bypass de mídia.
 
 O exemplo a seguir ilustra essa lógica.
 
-| Conjunto de usuários | Número de usuários | FQDN de tronco atribuído no OVRP | Bypass de mídia habilitado |
+| Conjunto de usuários | Número de usuários | Trunk FQDN atribuído no OVRP | Bypass de mídia habilitado |
 | :------------ |:----------------- |:--------------|:--------------|
-| Usuários com tronco de bypass que não seja de mídia | 980 | sbc1.contoso.com:5061 | false |
-| Usuários com tronco de bypass de mídia | 20 | sbc2.contoso.com:5060 | true | 
+| Usuários com tronco de bypass que não é de mídia | 980 | sbc1.contoso.com:5061 | False |
+| Usuários com tronco de bypass de mídia | 20 | sbc2.contoso.com:5060 | Verdade | 
 
-Ambos os troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observe que você precisará certificar-se de que seu certificado dá suporte a ambos os troncos. Em SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
+Ambos os troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observe que você precisará ter certeza de que seu certificado dá suporte a ambos os troncos. Em SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
 
 > [!div class="mx-imgBorder"]
 > ![Mostra que ambos os troncos podem apontar para o mesmo SBC com o mesmo IP público.](media/direct-routing-media-bypass-7.png)
 
-Para obter informações sobre como configurar dois troncos no mesmo SBC, consulte a documentação fornecida pelo fornecedor SBC:
+Para obter informações sobre como configurar dois troncos no mesmo SBC, confira a documentação fornecida pelo fornecedor do SBC:
 
- - [Documentação de implantação de AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+ - [Documentação de implantação do AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Documentação de implantação do Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Documentação de implantação do Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [Documentação de implantação do TE-Systems (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Pontos de extremidade do cliente com suporte com bypass de mídia
 
-O bypass de mídia é compatível com todos os clientes Teams desktop autônomos, clientes Android e iOS e Teams Telefone Dispositivos. 
+Há suporte para bypass de mídia com todos os clientes autônomos do Teams Desktop, clientes Android e iOS e dispositivos de telefone do Teams. 
 
-Para todos os outros pontos de extremidade que não suportam bypass de mídia, converteremos a chamada em não ignorar, mesmo que ela seja iniciada como uma chamada de bypass. Isso acontece automaticamente e não exige ações do administrador. Isso inclui Skype for Business telefones 3PIP e Teams Web que suportam chamadas de Roteamento Direto (clientes baseados em WebRTC em execução no Microsoft Edge, Google Chrome, Mozilla Firefox). 
+Para todos os outros pontos de extremidade que não dão suporte ao bypass de mídia, converteremos a chamada em não bypass mesmo que ela seja iniciada como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação do administrador. Isso inclui Skype for Business telefones 3PIP e clientes Web do Teams que dão suporte à chamada de Roteamento Direto (clientes baseados em WebRTC em execução no Microsoft Edge, Google Chrome, Mozilla Firefox). 
  
 ## <a name="see-also"></a>Confira também
 
