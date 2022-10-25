@@ -10,41 +10,41 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Uma visão geral da solução CCaaS (central de contatos como serviço) integrada para o Microsoft Teams
+description: Uma visão geral da solução CCaaS (centro de contato integrado como serviço) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 89035a967dafae3a2ccd3bbc9bcc6497cdea14cd
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 38c466973b8a2dcc5b85f570cc9ed369bd4e7f1d
+ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613813"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "68686039"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do contact center para o Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações de contact center para o Microsoft Teams
 
-  Este artigo fornece uma visão geral de como as soluções do centro de contatos podem ser integradas ao Microsoft Teams e aos provedores de soluções que participam do programa de certificação do Centro de Contatos Conectado do Microsoft Teams.
+  Este artigo fornece uma visão geral de como as soluções de contact center podem ser integradas ao Microsoft Teams e aos provedores de solução que participam do programa de certificação do centro de contato conectado do Microsoft Teams.
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>O que é a integração do contact center para o Microsoft Teams?
 
-O Microsoft Teams dá suporte a fluxos de trabalho de interação do cliente atuando como o hub para conexão de cliente interna e externa em seus modos de comunicação, incluindo chat, reuniões de vídeo e chamadas. Para algumas organizações, os recursos [de voz na](./cloud-voice-landing-page.md) nuvem do Microsoft Teams, incluindo [atendedor automático](./what-are-phone-system-auto-attendants.md) e [filas de chamadas](./create-a-phone-system-call-queue.md), atendem às suas necessidades.
+O Microsoft Teams dá suporte a fluxos de trabalho de interação do cliente atuando como o hub de conexão interna e externa do cliente em seus modos de comunicação, incluindo chat, reuniões de vídeo e chamadas. Para algumas organizações, os recursos de [voz na nuvem](./cloud-voice-landing-page.md) do Microsoft Teams, incluindo [o atendimento automático](./what-are-phone-system-auto-attendants.md) e [filas de chamadas](./create-a-phone-system-call-queue.md), atendem às suas necessidades.
 
-Para organizações que querem soluções com ferramentas de negócios e fluxos de trabalho para impulsionar o percurso do cliente, a integração do contact center para o Microsoft Teams permite que provedores de soluções do CCaaS (Centro de Contatos como Serviço) integrem suas soluções ao Teams.
+Para organizações que desejam soluções com ferramentas de negócios e fluxos de trabalho para impulsionar a jornada do cliente, a integração do contact center para o Microsoft Teams permite que provedores de solução CCaaS (Contact Center as a Service) integrem suas soluções ao Teams.
 
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Central de contatos conectada para o programa de certificação do Microsoft Teams
 
-O centro de contatos conectado para o programa de certificação do Microsoft Teams verifica se a solução de cada provedor participante fornece a qualidade, a compatibilidade e a confiabilidade esperadas das soluções da Microsoft.
+O centro de contato conectado para o programa de certificação do Microsoft Teams verifica se a solução de cada provedor participante fornece a qualidade, compatibilidade e confiabilidade que eles esperam das soluções da Microsoft.
 
-Se você é uma organização que procura uma solução integrada do contact center, consulte soluções certificadas do [Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) para contact centers para obter uma lista de provedores de soluções certificados e consulte soluções do [Connected Contact Center](#connected-contact-center-solutions) para obter uma lista de provedores no processo de certificação.
+Se você for uma organização que procura uma solução integrada de contact center, consulte [Soluções certificadas do Microsoft Teams para centros de contato](https://cloudpartners.transform.microsoft.com/contact-center-solutions) para uma lista de provedores de soluções certificados e consulte [Soluções do Connected Contact Center](#connected-contact-center-solutions) para obter uma lista de provedores no processo de certificação.
 
-Se você for um fornecedor que busca ingressar no programa de certificação, preencha [esse formulário](https://aka.ms/CallingPlatformIntake) como a próxima etapa. Se você precisar fornecer mais contexto e detalhes, envie um [email para Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
+Se você for um fornecedor que busca ingressar no programa de certificação, preencha [esse formulário](https://aka.ms/CallingPlatformIntake) como a próxima etapa. Se você precisar fornecer contexto e detalhes adicionais, envie um email para [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
 
-## <a name="connected-contact-center-solutions"></a>Soluções de central de contatos conectadas
+## <a name="connected-contact-center-solutions"></a>Soluções de contact center conectadas
 
 Os provedores a seguir oferecem soluções de contact center integradas ao Teams usando um dos modelos de integração Connect, Extend ou Power.
 
@@ -64,6 +64,7 @@ Os provedores a seguir oferecem soluções de contact center integradas ao Teams
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
@@ -83,7 +84,6 @@ Os provedores a seguir oferecem soluções de contact center integradas ao Teams
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
@@ -91,4 +91,4 @@ Os provedores a seguir oferecem soluções de contact center integradas ao Teams
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
-Essa lista será atualizada à medida que mais provedores de soluções ingressarem e atenderem aos critérios de certificação.
+Essa lista será atualizada à medida que mais provedores de solução ingressarem e atenderem aos critérios de certificação.
