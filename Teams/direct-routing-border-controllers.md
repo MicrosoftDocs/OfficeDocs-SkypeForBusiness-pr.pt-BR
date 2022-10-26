@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre quais SBCs (Controladores de Borda de Sessão) foram certificados para Roteamento Direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4c64e5302b68e515d72cddc11a77cb85dea10fe3
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
+ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614013"
+ms.lasthandoff: 10/26/2022
+ms.locfileid: "68697350"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Controladores de Borda de Sessão certificados para Roteamento Direto
 
@@ -65,14 +65,14 @@ Observe que não estamos aceitando novas indicações para certificação até n
 ||Mediant 9000 SBC|&#10004;|&#10004;|7.20A.258 com suporte (Recomendado 7.40A.100 ou 7.40A.250)|&#10004;|&#10004;|
 ||Virtual Edition SBC|&#10004;|&#10004;|7.20A.258 com suporte (Recomendado 7.40A.100 ou 7.40A.250)|&#10004;|&#10004;|
 ||Mediant Cloud Edition SBC|&#10004;|&#10004;|7.20A.258 com suporte (Recomendado 7.40A.100 ou 7.40A.250)|&#10004;|&#10004;|
-|[Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Compatível com todas as versões 10.1, 9.2, 8.2 e 7.2 (recomenda a versão mais recente da 10.1)|&#10004;||
-||SBC 5200/5210|&#10004;|&#10004;|Compatível com todas as versões 10.1, 9.2, 8.2 e 7.2 (recomenda a versão mais recente da 10.1)|&#10004;||
-||SBC 5400|&#10004;|&#10004;|Compatível com todas as versões 10.1, 9.2, 8.2 e 7.2 (recomendar a versão mais recente da 10.1))|&#10004;||
-||SBC 7000|&#10004;|&#10004;|Compatível com todas as versões 10.1, 9.2, 8.2 e 7.2 (recomenda a versão mais recente da 10.1)|&#10004;||
-||Todas as variantes SBC SWe, incluindo ofertas hospedadas|&#10004;|&#10004;|Compatível com todas as versões 10.1, 9.2, 8.2 e 7.2 (recomenda a versão mais recente da 10.1)|&#10004;||
-||SBC 1000|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
-||SBC 2000|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
-||SBC SWe Lite|&#10004;|&#10004;|8.x ou 9.x|&#10004;|&#10004;|
+|[Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|Com suporte em todas as versões de 10.1, 9.2, 8.2 e 7.2 (recomendar a versão mais recente do 10.1)|&#10004;||
+||SBC 5200/5210|&#10004;|&#10004;|Com suporte em todas as versões de 10.1, 9.2, 8.2 e 7.2 (recomendar a versão mais recente do 10.1)|&#10004;||
+||SBC 5400|&#10004;|&#10004;|Com suporte em todas as versões de 10.1, 9.2, 8.2 e 7.2 (recomendar a versão mais recente de 10.1))|&#10004;||
+||SBC 7000|&#10004;|&#10004;|Com suporte em todas as versões de 10.1, 9.2, 8.2 e 7.2 (recomendar a versão mais recente do 10.1)|&#10004;||
+||Todas as variantes SBC SWe, incluindo ofertas hospedadas|&#10004;|&#10004;|Com suporte em todas as versões de 10.1, 9.2, 8.2 e 7.2 (recomendar a versão mais recente do 10.1)|&#10004;||
+||SBC 1000|&#10004;|&#10004;|8.x, 9.x ou 11.x|&#10004;|&#10004;|
+||SBC 2000|&#10004;|&#10004;|8.x, 9.x ou 11.x|&#10004;|&#10004;|
+||SBC SWe Edge (anteriormente SWe Lite)|&#10004;|&#10004;|8.x, 9.x ou 11.x|&#10004;|&#10004;|
 ||Série EdgeMarc|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Suporte para 8.3.0.0.1 e Recomendado 8.4.x & 9.x|&#10004;|&#10004;|
@@ -101,9 +101,9 @@ Observe que não estamos aceitando novas indicações para certificação até n
 |[Redes Enghouse](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[Tecnologias M5 (anteriormente conhecidas como Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Série Mediatrix Sentinel|&#10004;||DGW 48.0.2340 (DGW recomendado 48.1.2503)|||
-|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Suporte para 6.8.x (recomendado 6.9.x)|||
+|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|6.8.x com suporte (recomendado 6.9.x)|||
 ||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Suporte para 6.6.1m5ha1 (Recomendado 6.8.x)|||
-|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Orquestrador de Emparelhamento|&#10004;|&#10004;|1.0.6|||
+|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Orquestrador de emparelhamento|&#10004;|&#10004;|1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
 <br/>
