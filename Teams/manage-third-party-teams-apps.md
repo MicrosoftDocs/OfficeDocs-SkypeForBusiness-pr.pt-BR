@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como gerenciar o acesso aos aplicativos do Teams no Microsoft 365.
-ms.openlocfilehash: ae11a72324bb4382012c751150a254773c9145b7
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680561"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738797"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>Gerenciar o acesso aos aplicativos do Teams no Microsoft 365
 
 Os desenvolvedores de aplicativos podem aprimorar seus aplicativos do Microsoft Teams para funcionar no Outlook e Office.com, além do aplicativo que funciona no Teams. Os usuários finais podem usar os aplicativos aprimorados no Teams, no Microsoft Outlook e no Microsoft Office.com. Atualmente, apenas os usuários finais na [versão direcionada](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) podem exibir e usar esses aplicativos específicos no Teams, Outlook e Office.com. Uma notificação sobre essa alteração está disponível no [centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280).
 
-## <a name="manage-the-enhanced-apps-access-microsoft-365"></a>Gerenciar os aplicativos aprimorados acessam o Microsoft 365
+## <a name="manage-users-access-to-the-enhanced-apps"></a>Gerenciar o acesso do usuário aos aplicativos aprimorados
 
 A experiência de administrador existente do Teams se aplica para controlar o acesso a esses aplicativos. Os administradores do Teams usam o centro de administração do Teams para gerenciar o acesso ao aplicativo. Como administrador do Teams, você pode permitir que usuários finais específicos usem os aplicativos aprimorados ou gerenciem o acesso aos aplicativos aprimorados no Teams, no Outlook e no Office.com.
 

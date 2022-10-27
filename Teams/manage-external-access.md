@@ -21,12 +21,12 @@ description: Seu administrador do Teams ou de TI pode configurar as reuniões ex
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f78e679785deb1ea4740721937440fa9aa81d0b0
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418510"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738717"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gerenciar reuniões externas e chat no Microsoft Teams
 
@@ -36,7 +36,7 @@ Se você quer que pessoas de outras organizações tenham acesso às equipes e c
 
 Usar o acesso externo quando:
   
-- Você possui usuários em domínios externos que precisam conversar. Por exemplo, Rob@contoso.com e Ann@northwindtraders.com estão trabalhando em um projeto junto com outros nos domínios contoso.com e northwindtraders.com.
+- You have users in external domains who need to chat. For example, Rob@contoso.com and Ann@northwindtraders.com are working on a project together along with some others in the contoso.com and northwindtraders.com domains.
 
 - Você desejar que as pessoas em sua organização usem o Teams para entrar em contato com pessoas em empresas específicas de fora de sua organização.
 
@@ -49,7 +49,7 @@ As políticas de acesso externo incluem controles para cada níveis da organiza�
 O Centro de administração do Teams controla o acesso externo no nível da organização. A maioria das opções (exceto restrições de domínio) estão disponíveis no nível do usuário usando o PowerShell. Consulte [Usando o PowerShell](#using-powershell) abaixo para obter mais informações.
 
 > [!NOTE]
-> Se você desativar o acesso externo na sua organização, as pessoas fora da sua organização ainda poderão participar das reuniões por meio do ingresso anônimo. Para saber mais, consulte [Gerenciar configurações de reunião no Teams](meeting-settings-in-teams.md).
+> If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Os usuários do Teams podem adicionar aplicativos ao hospedar reuniões ou chats com pessoas de outras organizações. Eles também podem usar aplicativos compartilhados por pessoas de outras organizações quando ingressarem em reuniões ou chats hospedados por essas organizações. As políticas de dados da organização do usuário de hospedagem, assim como as práticas de compartilhamento de dados de qualquer aplicativo de terceiros compartilhado pela organização desse usuário, serão aplicadas.
@@ -160,7 +160,7 @@ A tabela a seguir mostra os parâmetros de cmdlet usados para configurar a feder
 |Habilitar/desabilitar usuários do Teams não gerenciados por uma organização para iniciar conversas|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Habilitar/desabilitar a federação com o Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-É importante observar que a desabilitação de uma política "rola para baixo" do locatário para os usuários. Por exemplo:
+É importante observar que desabilitar uma política é "acumulada" do locatário para os usuários. Por exemplo:
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
@@ -246,7 +246,7 @@ Para habilitar a federação entre usuários em sua organização e usuários n�
 |Híbrido com alguns usuários online (no Skype for Business ou Teams) e alguns usuários no local. | Siga as etapas descritas anteriormente para organizações online. Observe que o chat com usuários não gerenciados do Teams não tem suporte para usuários locais.|
 
 > [!IMPORTANT]
-> Você não precisa adicionar nenhum **domínio do Teams** como domínios permitidos para permitir que os usuários do Teams se comuniquem com usuários não gerenciados do Teams fora da sua organização. Todos os **domínios do Teams não gerenciados** são permitidos.
+> You don't have to add any **Teams domains** as allowed domains in order to enable Teams users to communicate with unmanaged Teams users outside your organization. All **unamanged Teams domains** are allowed.
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Habilite a federação entre usuários em sua organização e usuários consumidores do Skype
 
@@ -259,7 +259,7 @@ Para habilitar a federação entre usuários em sua organização e usuários co
 | Híbrido com alguns usuários online (no Skype for Business ou Teams) e alguns usuários no local.| Siga as etapas acima para organizações online e locais.
 
 > [!IMPORTANT]
-> Você não precisa adicionar **domínios do Skype** como domínios permitidos para permitir que os usuários do Teams ou do Skype for Business Online se comuniquem com usuários do Skype dentro ou fora da sua organização. Todos os **domínios do Skype** são permitidos.
+> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
 
 ## <a name="federation-diagnostic-tool"></a>Ferramenta de Diagnóstico de Federação
 
@@ -276,11 +276,14 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 
 ## <a name="user-level-controls"></a>Controles no nível do usuário
 
-Quando os usuários recebem chats 1:1 de alguém fora da organização, eles recebem uma experiência de tela inteira na qual podem optar por visualizar a **mensagem, aceitar** o chat ou bloquear a pessoa que  está enviando o chat.
+Quando os usuários recebem chats 1:1 de alguém fora da organização, eles são apresentados com uma experiência de tela inteira na qual podem optar por **Visualizar** a mensagem, **Aceitar** o chat ou **Bloquear** a pessoa que envia o chat.
 
-O bloqueio de pessoas externas está disponível em vários locais no Teams, incluindo o menu mais (**...**) na lista de chat e o menu mais (**...**) no cartão de pessoas. Os usuários também podem desbloquear pessoas **externas** >  por meio do menu mais (**...**) na lista de chat, no menu mais (**...**) no cartão de pessoas ou visitando Configurações De contatos **bloqueados** >  Editar contatos **bloqueados**. O bloqueio está disponível antes ou depois que as mensagens são enviadas.
+O bloqueio de pessoas externas está disponível em vários lugares no Teams, incluindo o menu mais (**...**) na lista de chats e o menu mais (**...**) no cartão de pessoas. Os usuários também podem desbloquear pessoas externas por meio do menu mais (**...**) na lista de chat, mais (**...**) menu no cartão pessoas ou visitando **Configurações Contatos bloqueados** >  > **Editar contatos bloqueados**. O bloqueio está disponível antes ou depois que as mensagens são enviadas.
 
-Bloquear pessoas externas impede que elas enviem mensagens em chats 1:1, adicione o usuário a novos chats em grupo e veja sua presença. Embora os convites de chat em grupo sejam bloqueados, os usuários bloqueados podem estar nos mesmos chats com usuários que os bloquearam porque o chat foi iniciado antes do bloqueio ou o convite de chat em grupo foi enviado por outro membro.
+Bloquear pessoas externas impede que elas enviem mensagens em chats 1:1, adicionando o usuário a novos chats de grupo e exibindo sua presença. Embora os convites de chat em grupo sejam bloqueados, os usuários bloqueados podem estar nos mesmos chats com usuários que os bloquearam porque o chat foi iniciado antes do bloco ou o convite de chat em grupo foi enviado por outro membro.
+
+> [!NOTE]
+> Não há configurações ou políticas de administrador do Teams que controlem a capacidade de um usuário de bloquear chats com pessoas externas.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -18,12 +18,12 @@ description: Saiba como definir o Adobe Acrobat como visualizador de PDF padrão
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8adb2f4f0eafeabadd6f8716a338b24422d0ba35
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656057"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738767"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como visualizador de PDF padrão no Microsoft Teams
 
@@ -73,6 +73,8 @@ Depois de selecionar salvar, o Teams usa o aplicativo Adobe Acrobat como o manip
 
 Se você quiser permitir seletivamente o aplicativo Adobe Acrobat para alguns indivíduos ou para um grupo, você poderá atribuir uma [política personalizada para permissões de aplicativo](teams-app-permission-policies.md).
 
+## <a name="considerations-and-limitations"></a>Considerações e limitações
+
 Conheça as seguintes informações sobre essa funcionalidade:
 
 * Depois que a política é configurada, normalmente [leva algumas horas](teams-app-setup-policies.md#considerations-and-limitations) para o aplicativo estar disponível para os usuários.
@@ -80,5 +82,5 @@ Conheça as seguintes informações sobre essa funcionalidade:
 * O Adobe Acrobat como um visualizador de PDF padrão no Teams só funciona em clientes da Web e da área de trabalho. Não há suporte para ele no cliente de dispositivo móvel.
 * Os usuários precisam de um plano do Adobe Acrobat para usar as ferramentas premium, como Exportar PDF, Organizar Páginas, Combinar Arquivos, Compactar PDF e Proteger PDF.
 * Para desinstalar o aplicativo, os usuários finais podem remover o aplicativo do cliente do Teams. O administrador pode remover o aplicativo Adobe Acrobat usando a política de configuração.
-* Se você bloquear o aplicativo Adobe Acrobat, remova-o da política de configuração. Isso garante que a experiência do usuário final seja revertida para o uso do visualizador de arquivo PDF nativo.
+* Se você bloquear o aplicativo Adobe Acrobat, remova o aplicativo da política de configuração. Isso garante que a experiência do usuário final seja revertida para o uso do visualizador de arquivo PDF nativo.
 * Se você enfrentar problemas ao entrar no aplicativo Adobe Acrobat no cliente da área de trabalho do Teams, use o [Teams no navegador](https://teams.microsoft.com/) para entrar.

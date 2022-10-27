@@ -1,5 +1,5 @@
 ---
-title: Comprar aplicativos de terceiros para o Teams
+title: Comprar licenças para aplicativos do Teams de terceiros
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -13,68 +13,65 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: Saiba como comprar aplicativos de terceiros na loja do Teams usando um cartão de crédito, um cartão de débito ou por meio de cobrança de fatura.
+description: Saiba como comprar licenças de aplicativos de terceiros da loja do Teams usando um cartão de crédito, um cartão de débito ou por meio da cobrança de fatura.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 20abb80fed79995bd8496a04936737265503e67e
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377189"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738547"
 ---
-# <a name="purchase-third-party-apps-for-teams"></a>Comprar aplicativos de terceiros para o Teams
+# <a name="purchase-licenses-for-third-party-teams-apps"></a>Comprar licenças para aplicativos do Teams de terceiros
 
-Os aplicativos do Teams estão disponíveis para instalação e alguns podem exigir assinaturas de serviço de compra para experimentar a funcionalidade e o escopo completos do aplicativo. Essas assinaturas de serviço são chamadas de ofertas de SaaS (software como serviço), que estão disponíveis para compra por meio do [AppSource](https://appsource.microsoft.com/) e agora por meio do [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com).
+Alguns aplicativos do Teams podem exigir a compra de uma assinatura de serviço para experimentar a funcionalidade e o escopo completos do aplicativo. Essas assinaturas de serviço são chamadas de ofertas saaS (Software as a Service). Uma licença está disponível para compra por meio [do AppSource](https://appsource.microsoft.com/) e por meio do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com).
 
-A página [Gerenciar aplicativos](manage-apps.md), no Centro de administração do Microsoft Teams, é onde você pode exibir e gerenciar todos os aplicativos do Teams da sua organização. Você pode ver o status e as propriedades de aplicativos no nível da organização, carregar novos aplicativos personalizados na loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização e gerenciar configurações de aplicativos em toda a organização.
+Os aplicativos pagos são gerenciados usando os mesmos controles de governança que para qualquer outro aplicativo. Você exibe e gerencia todos os aplicativos do Teams na página [Gerenciar aplicativos](manage-apps.md) no centro de administração do Teams.
 
-Aqui, você também pode comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização. A coluna **Licenças** na tabela indica se um aplicativo oferece uma assinatura de SaaS para compra. Os usuários finais podem comprar aplicativos usando um cartão de crédito, cartão de débito ou com cobrança de fatura.
+Na página Gerenciar aplicativos, você também pode comprar licenças para serviços oferecidos por aplicativos de terceiros para usuários em sua organização. A coluna **Licenças** na tabela indica se um aplicativo oferece uma assinatura SaaS para compra. Os usuários finais podem comprar aplicativos usando um cartão de crédito, cartão de débito ou com cobrança de fatura.
 
-:::image type="content" source="media/manage-apps-new-page.png" alt-text="Captura de tela mostrando a página de gerenciamento de licenças de compra de aplicativos.":::
+:::image type="content" source="media/manage-apps-new-page.png" alt-text="Captura de tela mostrando a opção licenças de compra na página gerenciar aplicativos no centro de administração do Teams." lightbox="media/manage-apps-new-page-large.png":::
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Comprar aplicativos no Centro de administração do Teams
 
 Para comprar aplicativos no Centro de administração do Teams, siga estas etapas:
 
-1. Entre no centro de administração do Teams e acesse os aplicativos **do Teams Gerenciar** > **[aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.
+1. Entre no centro de administração do Teams e acesse aplicativos  > **do Teams****[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.
 
-1. Pesquise o aplicativo desejado pelo nome. Para identificar aplicativos que têm uma assinatura de SaaS paga, examine a coluna **Licenças**. Cada aplicativo tem um dos seguintes valores:
+1. Pesquise o aplicativo desejado pelo nome. Para verificar se os aplicativos oferecem uma assinatura SaaS paga, confira a coluna **Licenças** . Cada aplicativo tem um dos seguintes valores:
     * **Comprar**: o aplicativo oferece uma assinatura de SaaS e está disponível para compra.
     * **Comprado**: O aplicativo oferece uma assinatura de SaaS e você comprou licenças para ele.
     * **- -**: O aplicativo não oferece uma assinatura de SaaS.
 
-1. Quando você encontrar o aplicativo, selecione **Comprar** para ir para a guia Planos e **assinaturas** da página de detalhes do aplicativo. Examine os planos e as informações de preços da oferta de SaaS para o aplicativo. Se precisar de mais informações, selecione **Saiba mais** para acessar a página do aplicativo no [AppSource](https://appsource.microsoft.com/).
-
-   > [!NOTE]
-   > Planos privados também podem ser listados para compra, que incluem preços especiais que sua organização pode negociar separadamente com um desenvolvedor de aplicativos. Esses planos têm o rótulo **Plano privado** sob o nome do plano.
+1. Selecione **Comprar** para acessar a guia **Planos e preços** da página de detalhes do aplicativo. Você pode examinar os planos e as informações de preços disponíveis no centro de administração. Você pode selecionar **Saiba mais** link para acessar a página do aplicativo no [AppSource](https://appsource.microsoft.com/).
 
 1. Para assinar um aplicativo, escolha o plano desejado e selecione **Comprar**. O fluxo de check-out é aberto diretamente no Centro de administração do Teams.
 
+> [!NOTE]
+> Planos privados também podem ser listados para compra, que incluem preços especiais que sua organização pode negociar separadamente com um desenvolvedor de aplicativos. Esses planos têm o rótulo **Plano privado** sob o nome do plano.
+
 1. Selecione o número de licenças de usuário que você deseja comprar.
 
-1. Verifique se a conta de cobrança e o endereço vendido estão corretos. Se você ainda não tiver um, selecione **Adicionar**. Para obter mais informações sobre contas de cobrança, confira [Noções básicas sobre contas de cobrança](/microsoft-365/commerce/manage-billing-accounts).
+1. Verifique se a conta de cobrança e o endereço vendido estão corretos. Se você ainda não tiver um, selecione **Adicionar**. Para obter mais informações sobre contas de cobrança, confira [Noções básicas sobre contas de cobrança](/microsoft-365/commerce/manage-billing-accounts). Somente um administrador global pode adicionar uma nova conta de cobrança.
 
-   > [!NOTE]
-   > Somente um administrador global pode adicionar uma nova conta de cobrança.
-
-1. Verifique se o perfil de cobrança correto está selecionado. Se você ainda não tiver um, selecione **Adicionar novo**. Você pode pagar com um cartão de crédito, cartão de débito ou com cobrança [de fatura](#invoice-billing). O perfil de cobrança também permite adicionar um número de pedido de compra para identificar seu pedido mais tarde. Para obter mais informações sobre perfis de cobrança, confira [Noções básicas sobre perfis de cobrança](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Verifique se o perfil de cobrança correto está selecionado. Se você ainda não tiver um, selecione **Adicionar novo**. Você pode pagar com um cartão de crédito, cartão de débito ou com [cobrança de fatura](#invoice-billing). O perfil de cobrança também permite adicionar um número de pedido de compra para identificar seu pedido mais tarde. Para obter mais informações sobre perfis de cobrança, confira [Noções básicas sobre perfis de cobrança](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 
 1. Selecione **Fazer pedido**.
 
-1. Selecione **Configurar** para ativar sua assinatura no site do desenvolvedor do aplicativo. Se você não configurar sua assinatura após a compra, poderá fazer isso mais tarde selecionando **Gerenciar assinaturas**.
+1. Selecione **Configurar** para ativar sua assinatura no site do desenvolvedor do aplicativo. Se você não configurar sua assinatura após sua compra, poderá fazê-la posteriormente selecionando **Gerenciar assinaturas**.
 
-Depois de comprar a oferta de SaaS associada ao aplicativo Teams, você poderá exibir os seguintes detalhes de compra na guia Planos e **assinaturas** da página de detalhes do aplicativo.
+Depois de comprar a oferta SaaS associada ao aplicativo Teams, você poderá exibir os seguintes detalhes de compra na guia **Planos e assinaturas** da página de detalhes do aplicativo.
 
 * **Data de ativação da licença**: data em que sua licença foi ativada.
-* **Licenças**: número de licenças adquiridas.
+* **Licenças**: número de licenças que você comprou.
 
   :::image type="content" source="media/manage-apps-plans-and-subscription.png" alt-text="Captura de tela da guia Planos e preços na página de detalhes do aplicativo no Centro de administração do Teams." lightbox="media/purchase-third-party-apps-details-page.png":::
 
-Selecione **Gerenciar assinaturas** para exibir e gerenciar as licenças adquiridas.
+Selecione **Gerenciar assinaturas** para exibir e gerenciar as licenças que você comprou.
 
-Os administradores globais podem exibir as assinaturas adquiridas por qualquer pessoa na organização, mas só podem adicionar mais licenças, remover licenças e cancelar assinaturas para compras feitas por qualquer pessoa em sua conta de cobrança. Os administradores de serviços do Teams podem executar as mesmas ações para compras feitas por si mesmos.
+Os administradores globais podem exibir as assinaturas compradas por qualquer pessoa na organização, mas só podem adicionar mais licenças, remover licenças e cancelar assinaturas para compras feitas por qualquer pessoa em sua conta de cobrança. Os administradores de serviços do Teams podem executar as mesmas ações para compras feitas por si mesmos.
 
 > [!NOTE]
 > Se um administrador global quiser gerenciar uma assinatura adquirida por outro administrador global, ele precisará estar na mesma conta de cobrança. Você pode dar a outro administrador global acesso a uma assinatura adquirida selecionando o aplicativo no [Centro de administração do Microsoft 365](https://admin.microsoft.com). No centro de administração, acesse **Exibir perfil de cobrança** > **Selecionar conta de cobrança** > **Atribuir funções** > **Adicionar outros Administradores globais**.
@@ -89,13 +86,13 @@ Os administradores globais podem exibir as assinaturas adquiridas por qualquer p
 * A cobrança de fatura só está disponível para administradores globais ou um administrador com permissões de administrador de serviço e de cobrança do Teams.
 * A cobrança de fatura não está disponível ao comprar um plano com uma avaliação gratuita de 30 dias.
 
-## <a name="manage-subscriptions-in-teams-admin-center"></a>Gerenciar assinaturas no Centro de administração do Teams
+## <a name="manage-subscriptions-in-teams-admin-center"></a>Gerenciar assinaturas no centro de administração do Teams
 
-No Centro de administração do Teams, você pode gerenciar as assinaturas de aplicativo e as licenças adquiridas. Você pode exibir a lista de assinaturas de aplicativo e seus detalhes e executar as seguintes ações:
+No centro de administradores do Teams, você pode gerenciar as assinaturas e licenças de aplicativo que comprou. Você pode exibir a lista de assinaturas de aplicativo e seus detalhes e executar as seguintes ações:
 
 * Alterar um plano
 * Comprar ou remover licença
-* Atualizar uma forma de pagamento
+* Atualizar um método de pagamento
 * Cancelar uma assinatura
 * Exibir sua fatura
 
@@ -103,14 +100,14 @@ No Centro de administração do Teams, você pode gerenciar as assinaturas de ap
 
 Para gerenciar assinaturas, siga estas etapas:
 
-1. Entre no centro de administração do Teams e acesse os aplicativos **do Teams Gerenciar** > [**aplicativos**](https://admin.teams.microsoft.com/policies/manage-apps) .
+1. Entre no centro de administração do Teams e acesse **aplicativos** >  do Teams [**Gerenciar aplicativos**](https://admin.teams.microsoft.com/policies/manage-apps) .
 
-1. Selecione a **guia Assinaturas** para exibir as assinaturas que você comprou.
+1. Selecione a guia **Assinaturas** para exibir as assinaturas que você comprou.
 
-   :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Captura de tela da opção de assinatura para um aplicativo na página gerenciar aplicativos." lightbox="media/manage-app-subscriptions-manage-apps.png":::
+   :::image type="content" source="media/subscription-options-in-manage-apps.png" alt-text="Captura de tela da opção de assinatura de um aplicativo na página gerenciar aplicativos." lightbox="media/manage-app-subscriptions-manage-apps.png":::
 
 > [!NOTE]
-> No Centro de administração do Teams, você pode gerenciar as assinaturas de aplicativo adquiridas por você ou por outros administradores que fazem parte da mesma conta de cobrança. Para exibir todas as assinaturas de aplicativo adquiridas para o mesmo locatário por outros administradores ou adquiridas usando contas de cobrança diferentes, visite o [Centro de administração do Microsoft 365](https://admin.microsoft.com/adminportal/home#/homepage).
+> No centro de administração do Teams, você pode gerenciar as assinaturas de aplicativo compradas por você ou outros administradores que fazem parte da mesma conta de cobrança. Para exibir todas as assinaturas de aplicativo compradas para o mesmo locatário por outros administradores ou adquiridas usando contas de cobrança diferentes, visite o [Centro de administração do Microsoft 365](https://admin.microsoft.com/adminportal/home#/homepage).
 
 ## <a name="list-and-sell-a-saas-offer-for-a-teams-app"></a>Listar e vender uma oferta de SaaS para um aplicativo do Teams
 
