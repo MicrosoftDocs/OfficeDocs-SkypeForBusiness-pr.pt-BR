@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c575e3eb41654a579ec09c67975490db3dce194d
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
+ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655827"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68743136"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie no Microsoft Teams
 
@@ -107,7 +107,7 @@ Os trabalhadores da linha de frente geralmente precisam falar e receber chamadas
 
 #### <a name="rugged-android-phones"></a>Telefones Android robustos
 
-- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-s4-1004010501053.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html) e [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
+- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html) e [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
   - Configuração manual: com o Teams instalado, acesse **Botões de Configurações** > . No botão Dedicado (1 ou 2), selecione **Pressionar longa** e, em seguida, escolher **Aplicativo PTT**. Selecione a roda azul ao lado **de Personalizado** e selecione **Teams**.
 - Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) e [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - Configuração manual: com o Teams instalado, acesse **Configurações** > **chaves programáveis**. Escolha **Tecla PTT** ou **Pressione e segure** (dependendo do dispositivo) e selecione **Teams**.
