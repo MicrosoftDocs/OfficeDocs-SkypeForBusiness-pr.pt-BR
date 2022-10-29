@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: farhazk
 manager: samanro
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 searchScope:
@@ -20,12 +20,12 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 866025dad342f5abfb5b0722391dc754b3f00dd5
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 3cf50824119111d34668f4717eaf38f92de8bc64
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655837"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784326"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>Gerenciar o aplicativo Aprovações no Microsoft Teams
 
@@ -214,7 +214,7 @@ Saiba mais sobre [registro em log de atividades de aplicativos orientados por mo
 
 No aplicativo Aprovações de Equipes, os usuários têm acesso para criar novas Aprovações e exibir Aprovações que enviaram e receberam. Os usuários não terão acesso às Aprovações criadas por outras pessoas, a menos que sejam respondentes ou visualizadores da solicitação.
 
-> [!Note]
+>[!Note]
 > Um usuário recebe uma função de visualizador de uma solicitação se fizer parte do chat ou canal em que a aprovação foi criada. Ela não terá a capacidade de tomar medidas na solicitação caso não tenha sido concedida essa função quando a aprovação foi criada.
 
 ## <a name="approvals-e-signature-integration"></a>Aprova a integração de assinatura eletrônica

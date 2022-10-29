@@ -4,7 +4,7 @@ ms.author: v-lanachin
 author: LanaChin
 manager: samanro
 ms.reviewer: aaglick
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
@@ -23,12 +23,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Saiba como usar e gerenciar pacotes de política do Teams para sua organização da área de saúde.
-ms.openlocfilehash: 9bd4d78a02bf32be68cb13ac85daff886986876d
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 67f799b07ec31cbb376d2927e78d179494b607b4
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046931"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784156"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Pacotes de políticas do Teams para a área de saúde
 
@@ -54,11 +54,11 @@ No momento, o Microsoft Teams inclui os seguintes pacotes de políticas.
 |Profissional de informações da área de saúde  |Operadores de informações em sua organização da área de saúde |Cria um conjunto de políticas e configurações de política que dão aos operadores de informações na sua organização da área de saúde, como equipe de TI, de informática, equipe financeira e responsáveis pela conformidade acesso total ao chat, chamadas e reuniões.|
 |Quartos dos pacientes de saúde  |Dispositivos de quarto dos pacientes|Cria um conjunto de políticas e configurações de política que se aplicam aos quartos dos pacientes em sua organização de saúde.|
 
-![Captura de tela dos pacotes de políticas de saúde.](media/policy-packages-healthcare.png)
+![Captura de tela dos pacotes de política de integridade.](media/policy-packages-healthcare.png)
 
 Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas para trabalhadores clínicos da área de saúde a clínicos de sua organização, uma política chamada Healthcare_ClinicalWorker é criada para cada política do pacote.
 
-![Captura de tela das políticas no pacote de trabalho clínico de saúde.](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de tela das políticas no pacote de trabalho clínico do Healthcare.](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>Começar a trabalhar com pacotes de política
 
@@ -111,7 +111,7 @@ Para saber mais, confira [Atribuir um pacote de política a um grupo](assign-pol
 
 Use a tarefa de pacote de política de lote para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação de plano de fundo e uma ID de operação é gerada para cada lote.
 
-Um lote pode conter até 5.000 usuários. Você pode especificar usuários por ID de objeto, UPN, endereço SIP ou endereço de email. Para saber mais, confira [Atribuir um pacote de política a um lote de usuários](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
+Um lote pode conter até 5.000 usuários. Você pode especificar usuários por sua ID de objeto, UPN, endereço SIP ou endereço de email. Para saber mais, confira [Atribuir um pacote de política a um lote de usuários](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

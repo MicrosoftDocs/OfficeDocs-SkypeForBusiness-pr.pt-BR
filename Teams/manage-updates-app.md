@@ -4,7 +4,7 @@ author: daisyfell
 ms.author: daisyfeller
 ms.reviewer: samanro
 manager: pamgreen
-ms.topic: article
+ms.topic: how-to
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b51ba430a68e4b8979973ec5051036df39280e22
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 214ae4f925f3a33e82fb4eac8186f02e0a65cbc2
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656137"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784416"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Atualizações para sua organização no Microsoft Teams
 
@@ -147,5 +147,5 @@ Cada usuário pode criar no máximo 400 modelos de Atualizações e cada modelo 
 
 No aplicativo teams Atualizações, os usuários têm acesso para criar novas atualizações e exibir atualizações que enviaram e receberam. Os usuários não terão acesso a Atualizações criadas por outras pessoas, a menos que sejam um visualizador da solicitação.
 
-> [!Note]
+>[!Note]
 > Um usuário recebe uma função de visualizador de uma solicitação se ele faz parte do chat ou canal em que o relatório de atualização foi criado ou o criador do modelo os adiciona manualmente como visualizador. Eles não terão a capacidade de agir na solicitação se não receberem essa função quando o relatório foi criado.
