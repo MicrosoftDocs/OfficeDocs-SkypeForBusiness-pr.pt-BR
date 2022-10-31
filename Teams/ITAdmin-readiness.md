@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784346"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792810"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introdução ao treinamento de administrador do Microsoft Teams
 
@@ -63,9 +63,9 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 <h2>Salas do Teams Foundations for IT & AV Pros</h2>
 
-<p>A tabela a seguir contém links para treinamento de vídeo abrangente, com decks do PowerPoint (em formato PDF) em Salas do Microsoft Teams.  
+<p>A tabela a seguir contém links para decks de treinamento abrangentes no PowerPoint no Salas do Microsoft Teams.  
 
-| Módulo | Deck do PowerPoint (PDF)  |
+| Módulo | Apresentação do PowerPoint  |
 | ------------ | -------------------- |
 | Módulo 1: Introdução ao Salas do Microsoft Teams  | [Apresentação](https://aka.ms/TeamsRoomsModule1) |
 | Módulo 2: Preparação de rede  | [Apresentação](https://aka.ms/TeamsRoomsModule2) |
