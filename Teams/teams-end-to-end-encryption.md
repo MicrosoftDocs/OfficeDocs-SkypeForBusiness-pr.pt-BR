@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: b5d3aa5e3bf56f5fe5a3c0ecef428b2d7a3c7dce
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614634"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801883"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Use criptografia de ponta a ponta para chamadas um-para-um do Microsoft Teams
 
@@ -36,7 +36,7 @@ A criptografia de ponta a ponta, ou E2EE, ocorre quando o conteúdo é criptogra
 
 Com o E2EE para chamadas um-para-um não agendadas, somente o fluxo de mídia em tempo real, ou seja, os dados de voz e vídeo, para chamadas um-para-um do Teams criptografadas de ponta a ponta. Ambas as partes devem ativar essa configuração para habilitar a criptografia de ponta a ponta. [Criptografia no Microsoft 365](/microsoft-365/compliance/encryption) protege o chat, o compartilhamento de arquivos, a presença e outros conteúdos na chamada.
 
-As chamadas criptografadas de ponta a ponta podem ser feitas entre duas partes quando: as partes estão usando a versão mais recente do cliente da área de trabalho do Teams para Windows ou Mac, estão em um dispositivo móvel com a atualização mais recente para iOS e Android ou estão em um Salas do Teams no dispositivo Windows usando a atualização mais recente.
+Chamadas criptografadas de ponta a ponta podem ser feitas entre duas partes quando: as partes estão usando a versão mais recente do cliente da área de trabalho do Teams para Windows ou Mac, elas estão em um dispositivo móvel com a atualização mais recente para iOS e Android, ou estão em um Salas do Teams no dispositivo Windows usando a atualização mais recente.
 
 Se você não habilitar a criptografia de ponta a ponta, o Teams ainda protegerá uma chamada ou reunião usando criptografia com base em padrões do setor. Os dados trocados durante as chamadas são sempre seguros em trânsito e em repouso. Para obter mais informações, consulte [Criptografia de mídia para o Teams](teams-security-guide.md#media-encryption).
 
@@ -66,6 +66,8 @@ Os seguintes recursos avançados não estão disponíveis durante uma chamada E2
 
 - Gravando
 
+- Aplicativos
+
 Além disso, se sua organização usar a gravação de conformidade, a criptografia de ponta a ponta não estará disponível. Para obter mais informações sobre como o Teams dá suporte à gravação de conformidade, consulte [Introdução à gravação baseada em políticas do Teams para chamadas e reuniões](teams-recording-policy.md).
 
 ## <a name="configure-end-to-end-encryption-for-microsoft-teams"></a>Configurar criptografia de ponta a ponta para o Microsoft Teams
@@ -86,7 +88,7 @@ A política padrão global, em toda a organização, especifica que a criptograf
 
 3. Escolha a política padrão ou escolha **Adicionar** para adicionar uma nova política e nomeie a nova política.
 
-4. Para habilitar a criptografia de ponta a ponta para seus usuários, para criptografia de chamada de ponta a **ponta, escolha** Não habilitado **,** mas os usuários podem habilitar e, em seguida, **escolher Salvar**.
+4. Para habilitar a criptografia de ponta a ponta para seus usuários, para **criptografia de chamada de ponta a ponta**, escolha **Não habilitada, mas os usuários podem habilitar** e escolha **Salvar**.
 
    Para desabilitar a criptografia de ponta a ponta, escolha **Não habilitado**.
 

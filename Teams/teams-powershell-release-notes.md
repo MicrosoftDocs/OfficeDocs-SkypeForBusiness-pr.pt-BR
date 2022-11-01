@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as últimas alterações no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50d5520233ab60d5837c2d7fdc1e9372d92d32da
-ms.sourcegitcommit: a4307c1d1ee2dcf3a0c0b31e6c2473abf52b7097
+ms.openlocfilehash: 52bb4fda3e9aba1785338f0c4d15d50f595caf42
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "68669693"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801792"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece o log de alterações mais recente do Teams PowerShell para
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| outubro de 2022 | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>Versões [Get\|Set]-CsTeamsEducationConfiguration cmdlets no GA.</li><li>Contém uma nova implementação de [New Get Set Remove]-CsTeamsFeedbackPolicy, [New\|Get\|Set\|Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy e [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy.\|\|\| A funcionalidade permanece a mesma da implementação anterior.</li><li>Adiciona parâmetros ExplicitRecordingConsent, ForceStreamingAttendeeMode ao TeamsMeetingPolicy.</li><li>Adiciona parâmetros Descrição, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory ao OnlineVoicemailPolicy.</li><li>Adiciona o parâmetro AllowChatWithGroup ao TeamsMessagingPolicy.</li><li>Adiciona o parâmetro EnableFeatureSuggestions ao TeamsFeedbackPolicy.</li><li>Libera Update-CsTeamsShiftsConnectionInstance cmdlet.</li>
 | outubro de 2022 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>Contém uma nova implementação de [New Get Set Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy e [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy.\|\|\| OBSERVAÇÃO: atualmente, esses Cmdlets funcionam apenas com powershell.exe. Eles não funcionam para pwsh.exe. Isso será corrigido na próxima versão de GA.</li><li>Adiciona parâmetros ExplicitRecordingConsent, ForceStreamingAttendeeMode ao TeamsMeetingPolicy.</li><li>Adiciona parâmetros Descrição, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory ao OnlineVoicemailPolicy.</li><li>Adiciona parâmetros AllowChatWithGroup e EnableFeatureSuggestions ao TeamsMessagingPolicy.</li><li>Libera Update-CsTeamsShiftsConnectionInstance cmdlet.</li>
 | outubro de 2022 | [4.8.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.0) |<li>[Obter\| Cmdlets New]-CsTeamsShiftsConnectionTeamMap – atributo TimeZone adicionado.</li><li>Remove parâmetros de entrada SendEmailFromAddress e SendEmailFromDisplayName de Set-CsOnlineDialinConferencingUser.</li><li>Remove parâmetros AllowAllAcsResources e BlockedAcsResources de Set-TeamsAcsFederationConfiguration.</li><li>Adiciona o parâmetro ForceListenMenuEnabled às configurações de fluxo de chamada em New-CsAutoAttendantCallFlow, New-CsAutoAttendant e Set-CsAutoAutoAttendant. Essa configuração permite que o locatário ignore as entradas DTMF/fala enquanto as opções de saudações/menu são reproduzidas.</li>
 | setembro de 2022 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>Libera o suporte à autenticação baseada em aplicativo em Connect-MicrosoftTeams na versão prévia. Os cmdlets com suporte estão sendo implantados gradualmente, mais detalhes na [autenticação baseada em aplicativo no Módulo do Teams PowerShell](teams-powershell-application-authentication.md).</li><li>Versões [Get\|Set]-CsTeamsEducationConfiguration cmdlets em versão prévia privada.</li><li>[Obter\| Cmdlets New]-CsTeamsShiftsConnectionTeamMap – atributo TimeZone adicionado.</li><li>Remove parâmetros de entrada SendEmailFromAddress e SendEmailFromDisplayName de Set-CsOnlineDialinConferencingUser.</li><li>Remove parâmetros AllowAllAcsResources e BlockedAcsResources de Set-TeamsAcsFederationConfiguration.</li>
