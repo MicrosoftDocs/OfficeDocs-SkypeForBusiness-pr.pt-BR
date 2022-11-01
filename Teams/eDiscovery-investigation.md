@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 8a9e7afdf55fbcb85dcbbf907ef974a62e4e8492
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792790"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808290"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -53,7 +53,7 @@ Nem todo o conteúdo do Teams é eDiscoverable. A tabela a seguir mostra os tipo
 |Metadados de reunião<sup>1</sup>||
 |Nome do canal||
 |Citações|O conteúdo citado é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi citado.|
-|Reações (como curtidas, corações e outras reações)|Há suporte para reações para todos os clientes comerciais após 1º de junho de 2022. As reações antes desta data não estão disponíveis para descoberta eletrônica. O suporte à nuvem do governo está planejado. Não há suporte legal para reações.|
+|Reações (como curtidas, corações e outras reações)|Há suporte para reações para todos os clientes comerciais após 1º de junho de 2022. As reações antes desta data não estão disponíveis para descoberta eletrônica. Agora há suporte para reações expandidas. Para entender o histórico de reações, o conteúdo deve estar em espera legal.|
 |Assunto||
 |Tabelas||
 |Clipe de Vídeo do Teams (TVC)|Pesquise TVC com a palavra-chave "Video-Clip" e "salvar como" um arquivo .mp4 para cada anexo da TVC clicando com o botão direito do mouse na visualização (a pesquisa por palavra-chave estará disponível em outubro de 2022). Os dados de TVC são detectáveis em [conjuntos de revisão de descoberta eletrônica](/microsoft-365/compliance/add-data-to-review-set).
@@ -204,17 +204,17 @@ Para pesquisar conteúdo para usuários convidados:
    Start-ComplianceSearch <search name>
    ```
 
-6. [https://compliance.microsoft.com](https://compliance.microsoft.com) Acesse e clique em **Mostrar toda** > **a pesquisa de conteúdo**.
+6. Acesse e selecione **Mostrar toda** >  a [https://compliance.microsoft.com](https://compliance.microsoft.com)**pesquisa de conteúdo**.
 
 7. Na lista de pesquisas, selecione a pesquisa que você criou na etapa 4 para exibir a página de sobrevoo.
 
 8. Na página de sobrevoo, você pode fazer as seguintes coisas:
 
-   - Clique **em Exibir resultados** para exibir os resultados da pesquisa e visualizar o conteúdo.
+   - Selecione **Exibir resultados** para exibir os resultados da pesquisa e visualizar o conteúdo.
 
-   - Ao lado do campo **Consulta** , clique em **Editar** para editar e execute novamente a pesquisa. Por exemplo, você pode adicionar uma consulta de pesquisa para restringir os resultados.
+   - Ao lado do campo **Consulta** , selecione **Editar** para editar e execute novamente a pesquisa. Por exemplo, você pode adicionar uma consulta de pesquisa para restringir os resultados.
 
-   - Clique **em Exportar resultados** para exportar e baixar os resultados da pesquisa.
+   - Selecione **Exportar resultados** para exportar e baixar os resultados da pesquisa.
 
 ## <a name="search-for-card-content"></a>Pesquisar conteúdo de cartão
 
@@ -245,7 +245,7 @@ Os administradores podem usar a descoberta eletrônica para pesquisar conteúdo 
 
 - **Não federado**: em uma reunião do Teams com usuários de sua organização e usuários convidados, apenas os administradores da organização que hospedam a reunião do Teams podem pesquisar conteúdo em mensagens de chat da reunião.
 
-## <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-articles"></a>Artigos relacionados
 
 - [Soluções de descoberta eletrônica do Microsoft 365](/microsoft-365/compliance/ediscovery)
 - [Introdução à descoberta eletrônica (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
