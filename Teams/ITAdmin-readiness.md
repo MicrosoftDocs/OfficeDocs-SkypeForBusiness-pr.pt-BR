@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792810"
+ms.locfileid: "68795443"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introdução ao treinamento de administrador do Microsoft Teams
 
@@ -80,9 +80,9 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 <h2>Dispositivos Android do Teams</h2>
 
-<p>A tabela a seguir contém links para treinamento abrangente, com decks do PowerPoint (em formato PDF), em Dispositivos Android do Microsoft Teams que incluem Teams Displays, Teams Phones, Salas do Teams para Android e Painéis do Teams.  
+<p>A tabela a seguir contém links para decks de treinamento abrangentes no PowerPoint em Dispositivos Android do Microsoft Teams que incluem Teams Displays, Teams Phones, Salas do Teams para Android e Painéis do Teams.  
 
-| Módulo | Deck do PowerPoint (PDF)  |
+| Módulo | Apresentação do PowerPoint  |
 | ------------| -------------------- |
 | Módulo 1: Introdução aos dispositivos Android do Microsoft Teams  |[Apresentação](https://aka.ms/TeamsAndroidModule1) |
 | Módulo 2: Planejando dispositivos Android do Microsoft Teams|[Apresentação](https://aka.ms/TeamsAndroidModule2) |

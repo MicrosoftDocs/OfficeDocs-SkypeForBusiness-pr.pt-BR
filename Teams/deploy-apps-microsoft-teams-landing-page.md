@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 83654452460da41bf72b0feca30d3373de1533ef
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784196"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795423"
 ---
 # <a name="understand-microsoft-teams-apps"></a>Entenda os aplicativos do Microsoft Teams
 
@@ -89,15 +89,37 @@ Para saber mais, confira [Modelos de Aplicativo do Microsoft Teams](https://adop
 
 ## <a name="understand-app-capabilities"></a>Entender os recursos do aplicativo
 
-Para fornecer experiências avançadas que permitem que os usuários finais trabalhem no Teams, os desenvolvedores de aplicativos usam os seguintes recursos de aplicativo. As extensões de mensagens permitem que os usuários interajam com o cliente do Teams do serviço Web. Eles pesquisam ou iniciam ações em um sistema externo. Você pode enviar o resultado da interação para o cliente do Teams como um cartão ricamente formatado. A reunião de aplicativos de extensibilidade integra os aplicativos de um desenvolvedor em reuniões e oferece uma experiência dinâmica na reunião.
+Os recursos do aplicativo teams são as principais funcionalidades que podem ser criadas em um aplicativo para habilitar a integração e a interação.
 
-Os bots também são chamados de chatbot ou bot de conversa. É um aplicativo que executa tarefas simples e repetitivas. Uma interação de bot pode ser uma pergunta e resposta rápidas ou pode ser uma conversa complexa que fornece acesso a serviços ou assistência. Os usuários podem conversar com um bot individual ou em um canal. Por exemplo, você pode usar o aplicativo Polly para criar pesquisas rápidas, obter comentários e fazer uma avaliação do clima empresarial.
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Gráfico que mostra as funcionalidades do aplicativo de um aplicativo do Microsoft Teams." border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-As guias são páginas da Web compatíveis com o Teams fixadas na parte superior de um canal ou chat. As guias permitem que você interaja com conteúdo e serviços com uma experiência semelhante à Web. Você pode adicionar guias como parte de um canal dentro de uma equipe, chat em grupo ou aplicativo pessoal para um usuário individual.
+Para fornecer uma experiência avançada que permite que os usuários finais trabalhem dentro do Teams, os desenvolvedores de aplicativos criam aplicativos usando os seguintes recursos:
 
-Webhooks e conectores fornecem conteúdo e atualizações de serviços que os usuários finais usam com frequência (como Jira Cloud e Bitbucket) diretamente em uma conversa de canal. Os aplicativos que usam essa funcionalidade podem se comunicar com aplicativos externos e podem enviar ou receber notificações e mensagens de um serviço externo.
+* **Bots**: bots também são chamados de chatbot ou bot de conversa. É um aplicativo que executa tarefas simples e repetitivas. Uma interação de bot pode ser uma pergunta e resposta rápidas ou pode ser uma conversa complexa que fornece acesso a serviços ou assistência. Os usuários podem ter uma conversa com um bot em um chat pessoal, canal ou chat em grupo. Para obter mais informações, confira [Bots no Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
-Extensões de mensagens são atalhos para inserir conteúdo do aplicativo ou agir em uma mensagem sem que os usuários finais precisem sair da conversa. As extensões de mensagens podem ter comandos de pesquisa para que os usuários finais localizem rapidamente o conteúdo externo e o insiram em uma mensagem ou comandos de ação.
+  O Teams oferece suporte a bots em chats privados e canais. Os administradores podem controlar se o uso de bots é permitido em uma organização do Microsoft 365 ou do Office 365. Para obter informações sobre como ativar ou desativar bots personalizados, confira [Visão geral do gerenciamento de aplicativos e governança no centro de administração do Teams](manage-apps.md).
+
+* **Guias**: as guias são páginas da Web com reconhecimento do Teams fixadas na parte superior de um canal ou um chat. As guias permitem que você interaja com conteúdo e serviços com uma experiência semelhante à Web. São marcas de iframe\> <HTML simples que apontam para domínios declarados no manifesto do aplicativo e podem ser adicionados como parte de um canal dentro de uma equipe, chat em grupo ou aplicativo pessoal para um usuário individual. Para obter mais informações, confira [Guias do Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
+
+  Em cada chat privado, as guias Conversas, Arquivos, Organização e Atividade são criadas por padrão. Além dessas guias internas, os desenvolvedores podem projetar e adicionar guias personalizadas. Para obter mais informações, confira [Configurar as guias internas e personalizadas no Teams](/microsoftteams/platform/tabs/what-are-tabs).
+
+* **Webhooks e conectores**: Webhooks e conectores ajudam a conectar os serviços Web a canais e equipes no Microsoft Teams. Webhooks são retorno de chamada HTTP definido pelo usuário que notifica os usuários sobre qualquer ação que tenha ocorrido no canal do Teams. É uma maneira de um aplicativo obter dados em tempo real. Os conectores permitem que os usuários assinem para receber notificações e mensagens de seus serviços Web. Para obter mais informações, consulte [Webhooks e conectores](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+
+  Para permitir que os usuários usem conectores personalizados no Teams, consulte [Usar conectores personalizados no Teams](office-365-custom-connectors.md).
+
+* **Extensões de mensagens**: as extensões de mensagens são atalhos para inserir conteúdo do aplicativo ou para agir em uma mensagem sem que os usuários finais precisem se afastar da conversa. Os usuários podem pesquisar ou iniciar ações em um sistema externo da área de mensagem de composição, da caixa de comando ou diretamente de uma mensagem. Para obter mais informações, consulte [Extensões de mensagem](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet).
+
+* **Extensões de** reunião: os usuários podem aprimorar a experiência de reunião integrando guias, bots e extensões de mensagens em reuniões e tornar as reuniões mais produtivas. Você pode identificar várias funções participantes e tipos de usuário, obter eventos de reunião e gerar caixas de diálogo na reunião. Para obter mais informações, confira [Reuniões de Aplicativos para Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings).
+
+* **Cartões e módulos de tarefa**: os cartões fornecem aos usuários várias mensagens visuais, áudio e selecionáveis e ajuda no fluxo de conversas. Os módulos de tarefa ajudam você a criar experiências pop-up modais no Microsoft Teams. Eles são úteis para iniciar e concluir as tarefas ou exibir informações avançadas, como vídeos ou painéis do Power Business Intelligence (BI). Para obter mais informações, consulte [Cartões e módulos de tarefa](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules).
 
 Para exibir casos de uso comuns mapeados para recursos do Teams, confira [Mapear seus casos de uso para recursos de aplicativo do Teams](/microsoftteams/platform/concepts/design/map-use-cases).
 
@@ -172,6 +194,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-article"></a>Artigo relacionado
+## <a name="related-articles"></a>Artigos relacionados
 
 * [Saiba mais sobre modelos de aplicativo para o Teams](/microsoftteams/platform/samples/app-templates).
+
+* [Visão geral do gerenciamento de aplicativos e governança no centro de administração do Teams](manage-apps.md)
+
+* [Gerenciar seus aplicativos no Centro de Administração do Microsoft Teams](manage-apps.md)
