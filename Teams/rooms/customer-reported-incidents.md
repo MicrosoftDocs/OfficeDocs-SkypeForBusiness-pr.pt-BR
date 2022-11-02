@@ -1,5 +1,5 @@
 ---
-title: Salas do Microsoft Teams registrar um problema
+title: Salas do Microsoft Teams Registrar um problema
 author: altsou
 ms.author: altsou
 ms.date: 09/28/2022
@@ -16,51 +16,51 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Os parceiros ou clientes podem abrir manualmente um incidente por meio de "Registrar um problema" para garantir um relatório preciso da integridade da sala no portal de Gerenciamento Pro.
-ms.openlocfilehash: f638a1fc4095b9cffd0f205e1118cf6c4374d5c6
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+description: Parceiros ou clientes podem abrir manualmente um incidente por meio de "Registrar um problema" para garantir relatórios precisos sobre a integridade da sala no portal do Pro Management.
+ms.openlocfilehash: 8bfd3d5c0cc2e12c98564abd5d8ad26bde754f34
+ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218115"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "68810717"
 ---
 # <a name="record-an-issue-ticket"></a>Registrar um tíquete de problema
 
-Para qualquer tipo de incidente que o MTR Pro não sinalize ou simplesmente acompanhe os problemas em um MTR ou espaço, os clientes ou parceiros em nome dos clientes podem usar o recurso Registrar um problema.
-
-No campo Descrição, descreva o melhor possível o problema com o qual você precisa de ajuda da Microsoft. Você pode adicionar uma ou mais salas.
-
-Verifique  **o alto impacto** se o incidente está causando degradação significativa de integridade para o serviço ou para uma sala crítica. Para ajudar a Microsoft a priorizar corretamente sua solicitação, descreva detalhadamente o motivo pelo qual isso é de alto impacto.
+Para qualquer tipo de problema que o MTR Pro não tenha sinalizado, clientes ou parceiros em nome dos clientes podem usar o recurso Registrar um problema. Isso se destina a facilitar o acompanhamento de problemas com o suporte **interno ou de parceiro** . 
 
 > [!NOTE]
-> Não use esse campo para perguntas gerais, salas e/ou problemas que não têm mitigação disponível.
+> A Microsoft não monitora o Registro de um problema de tíquetes. Se o problema exigir mais assistência, consulte este artigo sobre como [obter suporte para o Gerenciamento de Salas Microsoft Teams Pro](https://aka.ms/mtrp/openingTickets).
 
-Quando uma sala é (ou salas estão) selecionadas como parte do Registro de um problema, cada sala será marcada como  Não Íntegra até que o problema registrado seja fechado.
+No campo Descrição, descreva o melhor possível o problema. Você pode adicionar uma ou mais salas.
 
-## <a name="closing-record-an-issue-tickets"></a>Fechar Registro de um problema de tíquetes
+Verifique **Alto Impacto** para elevar a importância ao seu suporte se o incidente estiver causando uma degradação significativa da integridade de uma sala crítica.
 
-Os problemas registrados podem ser fechados pelo cliente ou pelos parceiros que gerenciam salas em nome dos clientes.
+Quando uma sala é (ou salas são) selecionadas como parte do registro de um problema, cada sala será marcada como **Não íntegro** até que o problema registrado seja fechado.
+
+## <a name="closing-record-an-issue-tickets"></a>Fechar registro de um problema de tíquetes
+
+Os problemas registrados podem ser fechados pelo cliente ou parceiros que gerenciam salas em nome dos clientes.
 
 **Para fechar um tíquete de problema registrado**
 
 1. Selecione **Fechar tíquete**.
 
-2. Escolha um motivo para o fechamento selecionando uma categoria na lista.
+2. Escolha um motivo para o encerramento selecionando uma categoria na lista.
 
-   Depois de confirmar o motivo do fechamento, o tíquete será fechado e movido para **Resolvido**.
+   Depois de confirmar o motivo do fechamento, o tíquete será fechado e movido para **Resolve.**
 
-A seção Visão geral de detalhes do tíquete exibe que o tíquete foi fechado pelo Serviço de Salas Gerenciadas (Microsoft) ou pelo nome do cliente/parceiro.  
+A seção Visão geral de detalhes do tíquete exibe que o tíquete foi fechado pelo nome do cliente/parceiro.  
 
 ## <a name="faq"></a>Perguntas frequentes
 
 **Alguém pode fechar ingressos?**
 
-Somente incidentes relatados pelo cliente podem ser fechados por um usuário. Os clientes que atribuiram um parceiro para gerenciar suas salas com permissões de Gerenciamento de Tíquetes terão a capacidade de fechar tíquetes de problema registrados.
+Somente incidentes relatados pelo cliente podem ser fechados por um usuário. Os clientes que atribuíram um Parceiro para gerenciar seus quartos com permissões de Gerenciamento de Tíquetes terão a capacidade de fechar tíquetes de problema registrados.
 
-**Posso restringir quem pode fechar ingressos?**
+**Posso restringir quem pode fechar bilhetes?**
 
 Não neste momento. Todos os usuários que têm permissões de Gerenciamento de Tíquetes podem fechar um tíquete de problema registrado.
 
-**Sou notificado quando um registro de um tíquete de problema é fechado?**
+**Eu sou notificado quando um registro de um tíquete de problema fecha?**
 
 Não neste momento.
