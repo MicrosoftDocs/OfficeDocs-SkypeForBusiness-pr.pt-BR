@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6d71fc6dd788a7c9a65c784131d1b6cfa0488da7
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.openlocfilehash: e5dd477440aff213f189f33a465f8dfba5667de3
+ms.sourcegitcommit: 92a0df6fc3aa62cec1bf72a40690fb8e16226965
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743146"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "68836735"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações de contact center para o Microsoft Teams
 
@@ -90,6 +90,7 @@ Os provedores a seguir oferecem soluções de contact center integradas ao Teams
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
+| `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 Essa lista será atualizada à medida que mais provedores de solução ingressarem e atenderem aos critérios de certificação.
