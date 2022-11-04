@@ -1,5 +1,5 @@
 ---
-title: Gerenciar Políticas de Caixa Postal
+title: Gerenciar políticas de caixa postal
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,45 +21,46 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Gerenciar políticas de caixa postal para seus usuários.
-ms.openlocfilehash: f6c14584ee5da1b15085cd4caddfc757fbb50476
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 02df2f235512ce0aca658031fae000edc99b5ea9
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999306"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851812"
 ---
-# <a name="manage-cloud-voicemail-policies-for-your-users"></a>Gerenciar Caixa postal na Nuvem para seus usuários
+# <a name="manage-cloud-voicemail-policies-for-your-users"></a>Gerenciar políticas de Caixa postal na Nuvem para seus usuários
 
 > [!WARNING]
-> Para Skype for Business clientes, desabilitar a caixa postal por meio de uma política de chamada do Microsoft Teams também pode desabilitar o serviço de caixa postal para Skype for Business usuários.
+> Para clientes Skype for Business, desabilitar a caixa postal por meio de uma política de chamada do Microsoft Teams também pode desabilitar o serviço de caixa postal para seus usuários Skype for Business.
 
-As políticas de caixa postal permitem que você configure e atribua políticas de caixa postal novas ou existentes a grupos de usuários para recursos como regras de atendimento de chamadas, transcrição de caixa postal, mascaramento de profanidade de transcrição, tradução de transcrição e idioma de prompt do sistema.
+As políticas de caixa postal permitem configurar e atribuir políticas de caixa postal existentes ou novas a grupos de usuários para recursos como regras de resposta de chamada, transcrição de caixa postal, mascaramento de palavrões de transcrição, tradução de transcrição e linguagem prompt do sistema.
 
-Antes de especificar políticas, você deve ler [Configurar Caixa postal na Nuvem](set-up-phone-system-voicemail.md). Para obter informações sobre como gerenciar configurações para usuários [individuais, consulte Gerenciar definições de caixa postal](manage-voicemail-settings.md).
+Antes de especificar políticas, você deve ler [Configurar Caixa postal na Nuvem](set-up-phone-system-voicemail.md). Para obter informações sobre como gerenciar configurações para usuários individuais, consulte [Gerenciar setltings do Voicemail](manage-voicemail-settings.md).
 
 Para gerenciar políticas de caixa postal, você pode usar o centro de administração do Teams ou o cmdlet New-CsOnlineVoicemailPolicy PowerShell. 
 
-As políticas padrão para os usuários são:
+As polícias padrão para usuários são:
 
-- A transcrição da caixa postal está habilitada.
-- A tradução da transcrição da caixa postal está habilitada.
-- O mascaramento de profanidade de transcrição de caixa postal está desabilitado.
+- A transcrição de caixa postal está habilitada.
+- A tradução de transcrição de caixa postal está habilitada.
+- O mascaramento de palavrões de transcrição de caixa postal está desabilitado.
 - A duração máxima da gravação é definida como cinco minutos.
-- A edição de regras de atendimento a chamadas está habilitada.
-- Os idiomas de prompt do sistema primário e secundário são definidos como nulos e a configuração de idioma da caixa postal do usuário é usada.
+- A edição de regras de resposta de chamada está habilitada.
+- Os idiomas de prompt do sistema primário e secundário são definidos como nulos e a configuração de linguagem de caixa postal do usuário é usada.
+- Nenhum pré ou postamble configurado.
 
-Você pode usar a política global (padrão de toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.
+Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.
 
 > [!IMPORTANT]
-> O serviço de caixa postal no Microsoft 365 armazena em cache as políticas de caixa postal e atualiza o cache a cada 6 horas. Portanto, as alterações de política feitas podem levar até 6 horas para serem aplicadas.
+> O serviço de caixa postal no Microsoft 365 armazena em cache políticas de caixa postal e atualiza o cache a cada 6 horas. Portanto, as alterações de política que você faz podem levar até 6 horas para serem aplicadas.
 
-## <a name="use-teams-admin-center"></a>Usar o Centro de administração do Teams
+## <a name="use-teams-admin-center"></a>Usar o centro de administração do Teams
 
 ### <a name="create-a-custom-voicemail-policy"></a>Criar uma política de caixa postal personalizada
 
 Siga estas etapas para criar uma política de caixa postal personalizada.
 
-1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para políticas **de Caixa Postal** > **de Voz**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **políticas** do **VoiceMail** > .
 
 2. Selecione **Adicionar**.
 
@@ -71,7 +72,7 @@ Siga estas etapas para criar uma política de caixa postal personalizada.
 
 Siga estas etapas para editar uma política de caixa postal existente.
 
-1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, selecione políticas **de Caixa Postal** > **de Voz**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, selecione **Políticas** do **Voicemail** > .
 
 2. Clique ao lado da política que você deseja modificar e selecione **Editar**.
 
@@ -87,7 +88,7 @@ Siga estas etapas para editar uma política de caixa postal existente.
 
 ## <a name="use-powershell"></a>Usar o PowerShell
 
-Você também pode usar o PowerShell para configurar e atribuir políticas de caixa postal novas ou existentes. Para gerenciar políticas usando o PowerShell, use os seguintes cmdlets:
+Você também pode usar o PowerShell para configurar e atribuir políticas de caixa postal existentes ou novas. Para gerenciar políticas usando o PowerShell, use os seguintes cmdlets:
 
 - [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
 
@@ -101,21 +102,27 @@ Você também pode usar o PowerShell para configurar e atribuir políticas de ca
 
 ## <a name="voicemail-policy-settings"></a>Configurações de política de caixa postal
   
-- **Habilitar** transcrição – essa configuração controla se o serviço Caixa postal na Nuvem gerará uma transcipação de texto da caixa postal gravada e a incluirá na mensagem de voz. A transcrição será feita com base no idioma detectado na caixa postal gravada.
+- **Habilitar a transcrição** – essa configuração controla se o serviço Caixa postal na Nuvem gerará uma transcipção de texto da caixa postal gravada e a incluirá na mensagem de caixa postal. A transcrição será feita com base na linguagem detectada na caixa postal gravada.
 
-- **Tradução de transcrição** – essa configuração controla se o serviço Caixa postal na Nuvem traduzirá a transcrição da caixa postal gravada. A tradução será tentada no idioma preferencial do receptor da caixa postal.
+- **Tradução de transcrição** – Essa configuração controla se o serviço Caixa postal na Nuvem traduzirá a transcrição da caixa postal gravada. A tradução será tentada no idioma preferencial do receptor de caixa postal.
 
-- **Mascaramento de profanidade de** transcrição – Essa configuração controla se o serviço Caixa postal na Nuvem mascarará o profanidade encontrado na transcrição da caixa postal.
+- **Mascaramento de palavrões de transcrição** – essa configuração controla se o serviço de Caixa postal na Nuvem mascarará a profanação encontrada na transcrição da caixa postal.
 
-- **Duração máxima da gravação** - O comprimento máximo de gravação controla o tempo máximo que uma caixa postal pode ser registrada. O padrão é 5 minutos.
+- **Duração máxima da gravação** – o comprimento máximo da gravação controla o tempo máximo em que uma caixa postal pode ser gravada. O padrão é 5 minutos.
 
-- **Regras de atendimento de chamadas** – essa configuração controla se o usuário tem permissão para configurar regras de atendimento de chamadas de caixa postal no Microsoft Teams.
+- **Regras de resposta de** chamada – essa configuração controla se o usuário tem permissão para configurar regras de resposta de chamada de caixa postal no Microsoft Teams.
 
-- **Prompts do sistema de idiomas duplos** – por padrão, os prompts do sistema de caixa postal são apresentados aos chamadores no idioma selecionado pelo usuário ao configurar sua caixa postal. Se houver um requisito de negócios para que os prompts do sistema de caixa postal sejam apresentados em dois idiomas, um idioma primário e secundário poderá ser definido e eles poderão não ser os mesmos.
+- **Prompts de sistema de idioma duplo** – por padrão, os prompts do sistema de caixa postal são apresentados aos chamadores no idioma selecionado pelo usuário ao configurar sua caixa postal. Se houver um requisito comercial para que os prompts do sistema de caixa postal sejam apresentados em dois idiomas, um idioma primário e secundário poderá ser definido e eles podem não ser os mesmos.
+
+- **PreambleAudioFile** – atualmente disponível apenas por meio do PowerShell. O arquivo de áudio a ser reproduzido para o chamador antes que a saudação da caixa postal do usuário seja reproduzida.
+
+- **PostambleAudioFile** – Atualmente disponível apenas por meio do PowerShell. O arquivo de áudio a ser reproduzido para o chamador depois que a saudação da caixa postal do usuário tiver sido reproduzida e antes que o chamador possa deixar uma mensagem de caixa postal.
+
+- **PreamblePostambleMandatory** – atualmente disponível apenas por meio do PowerShell. Está tocando o Pré ou Postamble obrigatório antes que o chamador possa deixar uma mensagem.
 
 ### <a name="share-data-for-service-improvements"></a>Compartilhar dados para melhorias de serviço
 
-Especifica se os dados de caixa postal e transcrição são compartilhados com o serviço para treinamento e melhoria da precisão. Se definido como false, os dados da caixa postal não serão compartilhados, independentemente da escolha do usuário.
+Especifica se os dados de caixa postal e transcrição são compartilhados com o serviço para treinamento e melhoria da precisão. Se definido como false, os dados de caixa postal não serão compartilhados, independentemente da escolha do usuário.
 
 
 ## <a name="related-articles"></a>Artigos relacionados
