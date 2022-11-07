@@ -14,29 +14,29 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Obtenha mais informações sobre a prévia pública no Microsoft Teams. Experimente novos recursos e forneça comentários.
+description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 25e3819b4ac14e770e55829d00654659970246f0
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: ffdd34d8a36726d96bc44ae766e91ca6ae77280b
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564119"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869582"
 ---
 # <a name="microsoft-teams-public-preview"></a>Visualização Pública do Microsoft Teams
 
 > [!NOTE] 
 > Os recursos incluídos na visualização podem não estar completos e podem sofrer alterações antes de serem disponibilizados na versão pública. Eles são fornecidos apenas para fins de avaliação e exploração. As versões prévias do recurso não têm suporte na Nuvem da Comunidade Governamental (GCC) do Office 365.
 
-A Visualização Pública para Microsoft Teams fornece acesso antecipado a recursos não lançados no Teams. As visualizações permitem que você explore e teste os próximos recursos. Também agradecemos comentários sobre qualquer recurso em visualizações públicas. A visualização pública é habilitada por usuário da equipe, então você não precisa se preocupar em afetar toda a sua organização.
+Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
 
-Para obter uma lista do que está disponível na visualização pública do Teams, visite [Notas técnicas da Visualização Pública do Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Notas de Versão do para Recursos de Administração do Teams](/OfficeUpdates/teams-admin)e [Novidades do Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+Para obter uma lista do que está disponível na versão prévia pública do Teams, visite [notas técnicas de visualização pública do Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [notas de versão para recursos Administração do Teams](/OfficeUpdates/teams-admin) e [notas de versão para o Canal Atual do Office (versão prévia)](/officeupdates/current-channel-preview).
 
 ## <a name="set-the-update-policy"></a>Definir a política de atualização
 
-A visualização pública é habilitada por usuário, e a opção para ativar a visualização pública é controlada em uma política administrativa. As políticas de atualização são usadas para gerenciar o Teams e os usuários de visualização do Office que verão os recursos de pré-lançamento ou de pré-visualização no aplicativo do Teams. Você pode usar a política Global (padrão Org-wide) e personalizá-la, ou criar uma ou mais políticas personalizadas para seus usuários.
+Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
 
 1. Entre no [Centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/).
 

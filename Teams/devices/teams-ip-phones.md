@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams produzir os melhores resultados.
-ms.openlocfilehash: f2b6e74dd276eabda4cb94459a18e87ea4e38c41
-ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
+ms.openlocfilehash: bcd55c0584c683f76a1dd033628bd99c48a18292
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68810687"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869596"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -86,10 +86,8 @@ Os seguintes dispositivos são certificados no Salas do Microsoft Teams no Progr
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 de setembro de 2024  | Compatível com o Logitech Rally Bar e o Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 3 de setembro de 2024  |  Sala de tamanho médio (4,5 m x 6 m) | 10|
 | Barra Limpa | `NFF1.20220914.1210` |3 de setembro de 2024|    Sala de tamanho médio (4,5 m x 6 m) | 10 |
-| Barra Limpa | `NFB1.20220211.1400` |3 de setembro de 2024|    Sala de Reunião Pequena (4,5 m x 4,5 m) | 10 |
 | Console de toque Neat Pad | `NFA1.20220914.1206`  | 3 de setembro de 2024 | Compatível somente com Barra Limpa | 9 |
-| Console de toque Neat Pad | `NFA1.20220211.1400`  | 5 de agosto de 2023 |  Compatível somente com Barra Limpa | 9 |
-| Quadro Puro | `NFC1.20220211.1400 ` | 3 de setembro de 2024 |    Sala de Reunião Pequena (4,5 m x 4,5 m) | 10 |
+| Quadro Puro | `NFC1.20220914.1210 ` | 3 de setembro de 2024 |    Sala de Reunião Pequena (4,5 m x 4,5 m) | 10 |
 | Colega de quarto logitech | `1.4.71` | 3 de setembro de 2024  | Sala de reunião grande (4,5 m x 8,5 m)  |   10  |
 | EPOS EXPANDEM 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Empacotado com o EPOS Vision 3T | 9 |
 | Dispositivo Logitech Tap     | `1.2.982`  |   3 de setembro de 2024  | Compatível com o Logitech Rally Bar e o Rally Bar Mini | 10 |
