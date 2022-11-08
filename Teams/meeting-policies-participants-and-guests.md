@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião no Teams para participantes e convidados.
-ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801782"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68876277"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -117,6 +117,17 @@ Essa configuração é uma política por usuário e se aplica durante uma reuni�
 |---------|---------|
 |**Não habilitado, mas o usuário pode substituir**     | As legendas ao vivo não são automaticamente ativadas para o usuário durante uma reunião. O usuário verá a opção **Ativar legendas ao vivo** no menu flutuante (**...**) para ativá-las. Essa é a configuração padrão. |
 |**Não habilitado**     | As legendas ao vivo estão desabilitadas para o usuário durante uma reunião. O usuário não tem a opção para ativá-las.          |
+
+Para obter mais informações sobre como seus **usuários finais podem ativar legendas ao vivo**, consulte [Usar legendas ao vivo em uma reunião do Teams](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
+
+### <a name="live-translated-captions"></a>Legendas traduzidas ao vivo
+
+> [!NOTE]
+> Esse recurso está disponível temporariamente em versão prévia pública. Após a visualização, o organizador da reunião deve ter uma licença do Teams Premium para que os participantes usem legendas traduzidas ao vivo.
+
+Por padrão, **as legendas ao vivo são exibidas** no idioma falado durante uma reunião. **As legendas traduzidas ao vivo** permitem que seus usuários vejam legendas traduzidas para o idioma com o qual estão mais confortáveis.
+
+Para habilitar **legendas traduzidas ao vivo**, **as legendas ao vivo devem ser definidas** como **Não habilitadas, mas o usuário pode substituir** no centro de administração do Teams. Para **desativar legendas traduzidas ao vivo**, defina isso como **Não habilitado**.
 
 <a name="bkcontentsharing"> </a>
 
