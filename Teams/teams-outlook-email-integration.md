@@ -1,5 +1,5 @@
 ---
-title: Integração de email do Teams e do Outlook
+title: Gerenciar emails de atividade acionáveis
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,41 +9,39 @@ ms.service: msteams
 ms.reviewer: kblevens
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba mais sobre os recursos de integração de email do Teams e do Outlook, incluindo recursos que permitem que os usuários compartilhem informações entre emails no Outlook e conversas de chat ou canal no Teams.
+description: Saiba mais sobre como habilitar e desabilitar emails de atividade acionáveis de conversas do Microsoft Teams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76a2ecf05a8769b51ffcb9827c0fe6ff75df7b18
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 43435c436685c53e0ad077887a9fe9d991cf2d61
+ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606230"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68899685"
 ---
-# <a name="teams-and-outlook-email-integration"></a>Integração de email do Teams e do Outlook
+# <a name="manage-actionable-activity-emails"></a>Gerenciar emails de atividade acionáveis
 
-O Microsoft Teams inclui recursos que facilitam para os usuários em sua organização compartilhar informações entre emails no Outlook e conversas de chat ou canal no Teams e para se manter por dentro das conversas perdidas. Este artigo fornece uma visão geral desses recursos e dos controles de administrador que se aplicam.
+Os emails de atividade acionáveis são habilitados por padrão e notificam os usuários em sua organização de conversas perdidas no Microsoft Teams.
 
-## <a name="share-to-outlook"></a>Compartilhar com o Outlook
+Um email de atividade perdida mostra as últimas respostas a uma conversa, incluindo mensagens enviadas após a mensagem perdida. Esse recurso permite que os usuários respondam diretamente do Outlook selecionando **Responder**.
 
-**Compartilhar com o Outlook** permite que os usuários compartilhem uma cópia de uma conversa do Teams para um email no Outlook, sem precisar sair do Teams. Esse recurso é útil se os usuários precisam compartilhar conversas ou atualizações de status com usuários fora de sua equipe imediata ou até mesmo com sua organização. Vá para o início da conversa no Teams, selecione **... Mais opções** e, em seguida, selecione **Compartilhar com o Outlook**.  Para saber mais, confira [Compartilhar com o Outlook no Teams](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d).
+## <a name="disable-actionability-in-missed-activity-emails"></a>Desabilitar a capacidade de ação em emails de atividades perdidas
 
-![Captura de tela mostrando o recurso Compartilhar com o Outlook no Teams.](media/share-to-outlook.png)
+Embora esse recurso esteja definido como habilitado por padrão, você pode desativar a capacidade de ação em emails de atividade em toda a sua organização executando o seguinte comando:
 
-Para usar esse recurso, Outlook na Web deve ser ativado para o usuário. Se Outlook na Web estiver desativada, a opção Compartilhar com **o Outlook** não será exibida no Teams para o usuário. Para obter etapas sobre como ativar e desativar Outlook na Web, consulte Habilitar ou [desabilitar Outlook na Web para uma caixa de correio](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
+```Powershell
+Set-OrganizationConfig -SmtpActionableMessagesEnabled $false
+```
 
-## <a name="actionable-activity-emails"></a>Emails de atividade acionáveis
-
-Os usuários obtêm automaticamente emails de atividades perdidas acionáveis que os ajudam a acompanhar as conversas perdidas no Teams. Os emails de atividade perdidas mostram as respostas mais recentes de uma conversa, incluindo mensagens que foram enviadas após a mensagem perdida, e os usuários  podem clicar em Responder para responder diretamente de dentro do Outlook. Para saber mais, confira [Responder a emails de atividade perdidas do Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381). 
+Depois que o recurso é desabilitado, a opção **Responder** é substituída pela **Resposta no Teams** , fazendo com que os emails de atividade ausentes não sejam mais considerados acionáveis. Os usuários não poderão mais responder diretamente do Outlook e são orientados a continuar a conversa no Teams.
 
 > [!NOTE]
-> Não há suporte para esse recurso no Outlook para Mac ou em algumas versões mais antigas do Outlook para Windows. Para obter mais informações, [consulte Mensagens acionáveis no Outlook e Office 365 Grupos](/outlook/actionable-messages/).
+> Esse recurso não tem suporte em Outlook para Mac ou em algumas versões mais antigas do Outlook para Windows. Para obter mais informações, consulte [Mensagens acionáveis no Outlook e grupos de Office 365](/outlook/actionable-messages/).
 
-![Captura de tela mostrando um email de atividade perdida.](media/missed-activity-email.png)
+## <a name="related-topics"></a>Tópicos relacionados
 
-![Captura de tela mostrando como responder a um email de atividade perdida.](media/missed-activity-email-reply.png)
+[Responder a emails de atividades perdidas do Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).
 
-Você pode usar o cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) junto com o parâmetro **SmtpActionableMessagesEnabled** para desativar emails acionáveis. Por padrão, o **parâmetro SmtpActionableMessagesEnabled** é definido como **true**. Definir o parâmetro como **false desativa** mensagens de email acionáveis em Office 365. Para usuários do Teams, isso significa que a **opção Responder** para responder diretamente no Outlook não está disponível em emails de atividades perdidas. Em vez disso, os emails de atividade perdida incluem uma **opção responder no Teams** para que os usuários respondam no Teams.
-
-Consulte também [mensagens acionáveis no Outlook e Office 365 Grupos](/outlook/actionable-messages/).
+[Mensagens acionáveis em Grupos do Outlook e Office 365](/outlook/actionable-messages/).
