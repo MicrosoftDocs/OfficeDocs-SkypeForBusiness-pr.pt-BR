@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório histórico do Power BI do Assistente Automático do Teams & Relatório Histórico da Fila de Chamadas para exibir dados históricos do Assistente Automático e da Fila de Chamadas.
-ms.openlocfilehash: 2afae8986f1184f1394e806b84aa1ab242c07df2
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738687"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890080"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Relatório histórico da fila de chamadas do assistente automático &
 
 Este modelo do Power BI fornece três relatórios que permitem que as organizações informem sobre o número de chamadas que estão sendo processadas por atendentes automáticos e filas de chamadas.  Ele também fornece insights de desempenho do agente.
 
-## <a name="v301-published-on-october-26-2022"></a>V3.0.1 publicado em 26 de outubro de 2022
+## <a name="v303-published-on-november-8-2022"></a>V3.0.3 publicado em 8 de novembro de 2022
 
 O modelo do Power BI do Relatório Histórico da Fila de Chamadas & Do Teams fornece os seguintes três relatórios:
 
@@ -64,11 +64,11 @@ As etapas a seguir pressupõem que você já instalou Power BI Desktop em seu co
 
 Execute as seguintes etapas:
 
-1. Baixe e salve o arquivo [V3.0.1.zipHistórico de Fila de Chamadas & Do Teams ](https://www.microsoft.com/download/details.aspx?id=104623) no computador.
+1. Baixe e salve o arquivo [V3.0.3.zipHistórico de Fila de Chamadas & Do Teams ](https://www.microsoft.com/download/details.aspx?id=104623) no computador.
 
 1. Abra o arquivo zip.
 
-1. Abra o arquivo de `Teams Auto Attendant & Call Queue Historical Reports V3.0.0.pbit` modelo. Power BI Desktop deve ser iniciado.
+1. Abra o arquivo de `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` modelo. Power BI Desktop deve ser iniciado.
 
 1. Você será solicitado a selecionar a **Fonte de Dados**.  Selecione a `api.interfaces.records.teams.microsoft.com` entrada.
 
@@ -81,9 +81,9 @@ Execute as seguintes etapas:
 1. Selecione **Conectar** e os dados serão atualizados.
 
 > [!NOTE]
-> Se você estiver usando v1.63 ou anterior, poderá encontrar um erro quando v3.0.0 tentar recuperar os dados do VAAC.  Para resolver esse erro, é necessário limpar todas as credenciais anteriores do Power BI.
+> Se você estiver usando v1.63 ou anterior, poderá encontrar um erro quando v3.x.x tentar recuperar os dados do VAAC.  Para resolver esse erro, é necessário limpar todas as credenciais anteriores do Power BI.
 > 
-> 1. Abra o modelo v3.0.0 para limpar o erro. 
+> 1. Abra o modelo v3.x.x para limpar o erro. 
 > 1. Selecione Opções **de Arquivo** > **& Configurações Configurações** > **De origem de dados**.
 > 1. Selecione a lista suspensa para **Limpar Permissões** e selecione **Limpar Todas as Permissões**.
 > 1. Feche o modelo depois que eles forem desmarcados e reinicie o Power BI. Você será solicitado a autorizar novamente. 
@@ -376,7 +376,8 @@ Execute as seguintes etapas:
 
 |Versão  |Data Publicada     |Filename                                                           |Descrição                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.1    |26 de outubro de 2022   |Assistente Automático do Teams & relatórios históricos da fila de chamadas V3.0.0        |Entrada de fonte de dados de teste removida                   |
+|3.0.3    |8 de novembro de 2022   |Assistente Automático do Teams & relatórios históricos da fila de chamadas V3.0.3        |Consulte:<br>CQD Teams Auto Attendant & Call Queue Historic Reports – Alterar Log.docx no arquivo zip baixado para obter uma lista de alterações                                                                             |
+|3.0.1    |26 de outubro de 2022   |Assistente Automático do Teams & relatórios históricos da fila de chamadas V3.0.1        |Entrada de fonte de dados de teste removida                   |
 |3.0.0    |25 de outubro de 2022   |Assistente Automático do Teams & relatórios históricos da fila de chamadas V3.0.0        |Nova fonte de dados de back-end                             |
 |1.63     |24 de agosto de 2022    |CQD Teams Auto Attendant & Relatório Histórico da Fila de Chamadas V1.63.pbit |Consulte:<br>CQD Teams Auto Attendant & Call Queue Historic Reports – Alterar Log.docx no arquivo zip baixado para obter uma lista de alterações                                                                             |
 |1.60     |22 de julho de 2022      |CQD Teams Auto Attendant & Relatório Histórico da Fila de Chamadas V1.60.pbit |Consulte:<br>CQD Teams Auto Attendant & Call Queue Historic Reports – Alterar Log.docx no arquivo zip baixado para obter uma lista de alterações                                                                             |

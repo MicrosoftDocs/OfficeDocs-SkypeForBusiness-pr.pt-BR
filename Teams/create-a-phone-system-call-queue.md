@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamadas no Microsoft Teams. Filas de chamadas fornecem uma mensagem de saudação, mantêm música, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: d4d263587e0ac78b2dff2949adcaa2af8133a3dc
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738557"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890070"
 ---
 # <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
@@ -393,7 +393,7 @@ As seguintes configurações são recomendadas:
 1. Cliente windows do Microsoft Teams, Cliente Mac do Microsoft Teams, Microsoft Teams em Infraestrutura de Área de Trabalho Virtualizada.
 2. Aplicativo iPhone do Microsoft Teams, aplicativo Android do Microsoft Teams.
 3. Selecionar o Ocioso Mais Longo para o método de roteamento de agente habilitará automaticamente o roteamento baseado em presença.
-4. Só é possível definir o pedido ao adicionar usuários individuais como parte de filas de chamada padrão. Quando uma lista de distribuição ou o Teams Channel for usado, a ordem será alfabética.
+4. Não é possível definir a ordem em que os agentes serão chamados.
 5. Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
 6. Telefonia do Microsoft Teams somente.
 7. Por meio da página Portal de Configurações do Usuário em [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
