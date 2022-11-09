@@ -20,34 +20,34 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c785a6860c1ea45200253e9d2530a80e9dd28f6
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: d8efff8e93dd95ef2b1199b6a766f175e9b2afa4
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67708253"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68892599"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Chamadas e encaminhamento de chamadas no Teams
+# <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamadas no Teams
 
 No Microsoft Teams, as políticas de chamada controlam quais recursos de encaminhamento de chamadas e chamadas estão disponíveis para os usuários. As políticas de chamada determinam se um usuário pode fazer chamadas privadas, usar encaminhamento de chamadas ou toque simultâneo para outros usuários ou números de telefone externos, rotear chamadas para a caixa postal, enviar chamadas para grupos de chamadas, usar delegação para chamadas de entrada e saída e assim por diante.
 
-Você pode usar a política global (padrão de toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.
+Você pode usar a política global (padrão em toda a organização) criada automaticamente ou criar e atribuir políticas personalizadas.
 
 ## <a name="create-a-custom-calling-policy"></a>Criar uma política de chamada personalizada
 
 Siga estas etapas para criar uma política de chamada personalizada.
 
-1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, vá para políticas **de Chamada** > **de Voz**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **políticas de Chamada de** **Voz** > .
 2. Selecione **Adicionar**.
 3. Ative ou desative os recursos que você deseja usar em sua política de chamada.
-4. Para controlar se os usuários podem encaminhar chamadas de entrada para a caixa postal, selecione **Habilitado ou** **Controlado pelo usuário**. Para evitar o roteamento para a caixa postal, selecione **Desabilitado**.
-5. Selecione **Salvar**.
+    - Por exemplo, para controlar se os usuários podem rotear chamadas de entrada para a caixa postal, selecione **Habilitado** ou **Controlado pelo usuário**. Para impedir o roteamento para a caixa postal, selecione **Não habilitado**.
+4. Selecione **Salvar**.
 
 ## <a name="edit-a-calling-policy"></a>Editar uma política de chamada
 
 Siga estas etapas para editar uma política de chamada existente.
 
-1. No painel de navegação esquerdo do Centro de administração do Microsoft Teams, selecione políticas **de Chamada** > **de Voz**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, selecione **Políticas de Chamada de** **Voz** > .
 2. Clique ao lado da política que você deseja modificar e selecione **Editar**.
 3. Faça as alterações desejadas e clique em **Salvar**.
 
@@ -57,78 +57,94 @@ Siga estas etapas para editar uma política de chamada existente.
 
 ## <a name="calling-policy-settings"></a>Configurações de política de chamada
 
-Aqui estão as configurações que você pode definir para políticas de chamada.
+Aqui estão as configurações que você pode configurar para políticas de chamada.
 
 ### <a name="make-private-calls"></a>Fazer chamadas privadas
 
 Essa configuração controla todos os recursos de chamada no Teams. Desative isso para desativar todas as funcionalidades de chamada no Teams.
 
-### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Encaminhamento de chamadas e toque simultâneo para as pessoas em sua organização
+### <a name="cloud-recording-for-calling"></a>Gravação de nuvem para chamada
 
-Essa configuração controla se as chamadas de entrada podem ser encaminhadas para outros usuários ou se podem ligar para outra pessoa ao mesmo tempo.
+Essa configuração controla se os usuários podem gravar chamadas. Isso está desativado por padrão.
+
+### <a name="transcription"></a>Transcrição
+
+Essa configuração controla se a transcrição de chamadas está disponível para seus usuários. Isso está desativado por padrão.
+
+### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Encaminhamento de chamadas e toque simultâneo para pessoas em sua organização
+
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para outros usuários ou podem ligar para outra pessoa em sua organização ao mesmo tempo. Isso está ativado por padrão.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Encaminhamento de chamadas e toque simultâneo para números de telefone externos
 
-Essa configuração controla se as chamadas de entrada podem ser encaminhadas para um número externo ou se podem tocar em um número externo ao mesmo tempo.
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para um número externo ou podem tocar um número externo ao mesmo tempo. Isso está ativado por padrão.
 
 ### <a name="voicemail-is-available-for-routing-inbound-calls"></a>A caixa postal está disponível para roteamento de chamadas de entrada
 
-Essa configuração permite que chamadas de entrada sejam enviadas para a caixa postal. As opções válidas são:
+Essa configuração permite que chamadas de entrada sejam enviadas para a caixa postal. A configuração padrão é **controlada pelo usuário**. As opções válidas são:
 
 - **Habilitado** A caixa postal está sempre disponível para chamadas de entrada.
-- **Desativado**  A caixa postal não está disponível para chamadas de entrada.
+- **Não habilitado**  A caixa postal não está disponível para chamadas de entrada.
 - **Controlado pelo usuário** Os usuários podem determinar se querem que a caixa postal esteja disponível.
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Chamadas de entrada podem ser roteados para grupos de chamadas
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>As chamadas de entrada podem ser roteadas para grupos de chamadas
 
-Essa configuração controla se as chamadas de entrada podem ser encaminhadas para um grupo de chamadas.
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para um grupo de chamadas. Isso é ativado por padrão.
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>Delegação para chamadas de entrada e saída
 
-Essa configuração permite que as chamadas de entrada sejam roteados para delegados, permitindo que os representantes façam chamadas de saída em nome dos usuários para os quais eles têm permissões delegadas. Para obter mais informações, [consulte Compartilhar uma linha telefônica com um delegado](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+Essa configuração permite que as chamadas de entrada sejam roteadas para delegados, permitindo que os delegados façam chamadas de saída em nome dos usuários para os quais eles delegaram permissões. Essa configuração é ativada por padrão. Para obter mais informações, consulte [Compartilhar uma linha telefônica com um delegado](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Impedir o bypass de chamada tarifada e enviar chamadas por meio do PSTN
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Impedir o bypass de pedágio e enviar chamadas por meio do PSTN
 
-Definir isso como **Ativado** enviará chamadas por meio do PSTN e incorrerá em encargos em vez de enviá-las pela rede e ignorar os pedágios.
+Definir isso como **Ativado** enviará chamadas por meio do PSTN e incorrerá em encargos em vez de enviá-las pela rede e ignorar os pedágios. Essa configuração está desativada por padrão.
 
-### <a name="busy-on-busy-is-available-when-in-a-call"></a>Ocupado em disponibilidade disponível quando em uma chamada
+### <a name="music-on-hold-for-pstn-calls"></a>Música em espera para chamadas PSTN
 
-Ocupado em Disponibilidade (Opções de Disponibilidade) permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal de ocupado ou podem ser roteadas de acordo com as configurações não respondidas do usuário. Você pode habilitar as opções de disponibilidade no nível do locatário ou no nível do usuário. Independentemente de como as opções de disponibilidade estão configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos de iniciar novas chamadas ou conferências. Essa configuração é desabilitada por padrão.
+Essa configuração permite que você ative ou desative a música em espera quando um chamador PSTN é colocado em espera. Ele está ativado por padrão. Essa configuração não se aplica aos recursos de representante do parque e do chefe. Leia mais sobre como [configurar músicas personalizadas](music-on-hold.md).
 
-### <a name="web-pstn-calling"></a>Chamada PSTN Web
+### <a name="busy-on-busy-when-in-a-call"></a>Ocupado em ocupado quando em uma chamada
 
-Essa configuração permite que os usuários chamem números PSTN usando o cliente Web do Teams.
+Ocupado quando em uma chamada (também chamada de "opções ocupadas") permite configurar como as chamadas de entrada são tratadas quando um usuário já está em uma chamada ou conferência ou tem uma chamada colocada em espera. Chamadas novas ou de entrada podem ser rejeitadas com um sinal ocupado ou podem ser roteadas de acordo com as configurações sem resposta do usuário. Independentemente de como suas opções ocupadas estão configuradas, os usuários em uma chamada ou conferência ou aqueles com uma chamada em espera não são impedidos de iniciar novas chamadas ou conferências. Essa configuração é definida como **Não habilitada** por padrão.
 
-### <a name="automatically-answer-incoming-meeting-invites"></a>Responder automaticamente aos convites de reunião recebidos
+- **Não habilitado** Nenhuma opção ocupada está habilitada e chamadas novas ou de entrada ainda podem ir para o usuário enquanto o usuário já estiver em uma chamada.
+- **Habilitado** Chamadas novas ou de entrada serão rejeitadas com um sinal ocupado.
+- **Sem resposta** As configurações sem resposta do usuário serão usadas, como roteamento para caixa postal ou encaminhamento para outro usuário.
 
-Essa configuração controla se os convites de reunião de entrada são respondidos automaticamente. Ela está desativada por padrão. Lembre-se de que essa configuração se aplica somente a convites de reunião de entrada. Ele não se aplica a outros tipos de chamadas.
+### <a name="web-pstn-calling"></a>Chamada web PSTN
 
-### <a name="allow-music-on-hold"></a>Permitir música em espera
+Essa configuração permite que os usuários chamem números PSTN usando o cliente Web do Teams. Isso está ativado por padrão.
 
-Essa configuração permite ativar ou desativar a música em espera quando um chamador PSTN é colocado em espera. Ele é ativado por padrão. Essa configuração não se aplica aos recursos de estacionamento de chamada e representante do chefe.
+### <a name="real-time-captions-in-teams-calls"></a>Legendas em tempo real em chamadas do Teams
 
-### <a name="allow-sip-devices-calling"></a>Permitir chamadas de dispositivos SIP
+Essa configuração controla se as legendas em tempo real nas chamadas do Teams estão disponíveis para seus usuários. Isso é ativado por padrão.
 
-Essa configuração permite que os usuários usem um dispositivo SIP para fazer e receber chamadas.
+### <a name="automatically-answer-incoming-meeting-invites"></a>Responder automaticamente aos convites de reunião de entrada
+
+Essa configuração controla se os convites de reunião de entrada são respondidos automaticamente. Ela está desativada por padrão. Tenha em mente que essa configuração se aplica apenas a convites de reunião de entrada. Não se aplica a outros tipos de chamadas.
 
 ### <a name="spam-filtering"></a>Filtragem de spam
 
-Essa configuração permite controlar o tipo de filtragem de Spam disponível em chamadas de entrada.
+Essa configuração permite controlar o tipo de filtragem de spam disponível em chamadas recebidas. As verificações básicas e do Captcha Interactive Voice (IVR) podem ser executadas. Isso é ativado por padrão.
 
-### <a name="call-recording-live-captions-and-transcription"></a>Gravação de chamadas, legendas ao vivo e transcrição
+### <a name="sip-devices-can-be-used-for-calls"></a>Dispositivos SIP podem ser usados para chamadas
 
-Essas configurações permitem controlar se a gravação de chamadas, as legendas ao vivo e a transcrição estão disponíveis para os usuários.
+Essa configuração permite que os usuários usem um dispositivo SIP para fazer e receber chamadas. Isso é desativado por padrão.
+
+### <a name="open-apps-in-browser-for-incoming-pstn-calls"></a>Abrir aplicativos no navegador para chamadas PSTN de entrada
+
+Essa configuração controla se os aplicativos são abertos automaticamente no navegador para chamadas PSTN de entrada para seus usuários. Isso pode ser usado para passar o número de telefone de um chamador de entrada para um aplicativo para encontrar o registro de cliente associado enquanto a chamada está ocorrendo. Essa configuração está desativada por padrão.
+
+Se ativado, um link para o aplicativo precisará ser dado na **URL para abrir aplicativos no navegador para a caixa de chamadas PSTN de entrada** . Você pode usar o espaço reservado {phone} para passar o número de telefone (no formato E.164) para a URL fornecida. Ou você pode fornecer uma URL genérica sem qualquer espaço reservado. Isso simplesmente iniciará a URL listada.
+
+![Captura de tela de Abrir aplicativos no navegador para a configuração de política de chamadas PSTN de entrada.](media/teams-open-apps-in-browser-pstn.png)
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
-
 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
-
-[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
-
-[Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
-
 [Atribua políticas a seus usuários no Teams](policy-assignment-overview.md)
+
+[Opções de conectividade PSTN](pstn-connectivity.md)
+
+[Configurar configurações de chamada para seus usuários](user-call-settings.md)
