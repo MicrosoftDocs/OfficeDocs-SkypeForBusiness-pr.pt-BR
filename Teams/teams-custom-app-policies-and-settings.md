@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas e configurações de aplicativo personalizados
+title: Gerenciar políticas e configurações de aplicativo personalizadas e sideload
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como gerenciar políticas e configurações personalizadas de aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados no Microsoft Teams.
+description: Saiba como gerenciar políticas e configurações para controlar quem em sua organização pode carregar aplicativos personalizados e carregar aplicativos personalizados.
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,23 +24,38 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 2bbd6d048fdb3e2f0a0d4f9723552127161d25f8
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656007"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912410"
 ---
-# <a name="manage-custom-apps-and-settings-in-teams-admin-center"></a>Gerenciar aplicativos e configurações personalizados no centro de administração do Teams
+# <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>Gerenciar aplicativos personalizados e sideload no centro de administração do Teams
 
-<!--- TBD: Describe custom apps
---->
+O Microsoft Teams permite que os desenvolvedores da sua organização criem, testem e implantem aplicativos personalizados para usuários internos da organização. Esses aplicativos são chamados de aplicativos personalizados ou aplicativos LOB (Linha de Negócios). A sua organização pode encomendar a criação de aplicativos personalizados para requisitos específicos da organização. Os administradores controlam a distribuição e as permissões para aplicativos personalizados usando várias configurações e políticas.
+
+:::image type="content" source="media/custom-app-orgwide-setting-trimmed.png" alt-text="Captura de tela que mostra como permitir aplicativos personalizados em sua organização no painel de configurações em toda a organização." lightbox="media/custom-app-orgwide-setting.png":::
+
+Depois de permitir o uso de um aplicativo personalizado, os usuários finais podem encontrá-lo selecionando **Built para sua organização** na navegação à esquerda do armazenamento do Teams.
+
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de tela de aplicativos personalizados na loja do Teams no aplicativo de desktop do Teams." lightbox="media/built-for-your-org2.png":::
 
 Como administrador do Teams, você usa políticas e configurações de aplicativo personalizadas para controlar quem em sua organização pode carregar aplicativos personalizados no Microsoft Teams. Os administradores decidem quais usuários podem carregar aplicativos personalizados e administradores e proprietários de equipe podem determinar se equipes específicas em sua organização permitem que aplicativos personalizados sejam adicionados a eles. Depois de editar a política de aplicativo personalizada, pode levar algumas horas para que as alterações entrem em vigor. Você deve ser um administrador de serviço do Administração Global ou do Teams para gerenciar essas políticas.
 
 Os desenvolvedores em sua organização podem adicionar um aplicativo personalizado ao Teams carregando um pacote de aplicativo (em um arquivo .zip) diretamente para uma equipe ou no contexto pessoal. Isso é diferente de como os aplicativos são adicionados por meio da loja de aplicativos do Teams. Adicionar um aplicativo personalizado carregando um pacote de aplicativo, também conhecido como sideloading, permite que usuários específicos em sua organização testem um aplicativo antes que ele esteja pronto para ser amplamente distribuído.
 
-Durante a criação de um aplicativo, os desenvolvedores criam e adicionam uma ID de aplicativo ao arquivo de manifesto. Você pode exibir essa ID de aplicativo externo na página Gerenciar aplicativos depois de habilitar a coluna `External app ID` nas configurações da coluna. Você também pode exibi-la na página de detalhes do aplicativo de um aplicativo personalizado. A ID é aplicável somente a aplicativos personalizados.
+<!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
+
+## <a name="understand-sideloading-of-custom-apps"></a>Entender o sideload de aplicativos personalizados
+
+Ao desenvolver aplicativos personalizados e antes de distribuir esses aplicativos para os usuários finais, os desenvolvedores testam os aplicativos adicionando-os à Teams Store para testar. Os desenvolvedores podem testar por conta própria ou com um grupo especificado de usuários, mas o aplicativo não está disponível para outros usuários finais na organização por meio da loja. Esse método é chamado de sideload de aplicativos e se aplica somente a aplicativos personalizados.
+
+Os desenvolvedores podem fazer sideload de um aplicativo para disponibilizá-lo aos membros de uma equipe específica, normalmente para testar um aplicativo em desenvolvimento. Usar um aplicativo dessa maneira limita seu uso aos desenvolvedores de aplicativos e não requer aprovação do administrador, desde que o administrador permita o sideload no Teams.
+
+Os desenvolvedores podem compartilhar um aplicativo sideload com uma equipe específica sem enviá-lo ao catálogo de aplicativos do Teams. Ele disponibiliza o aplicativo personalizado sideload para um grupo limitado de usuários finais, mas não disponível na loja de aplicativos da sua organização para todos os usuários finais.
+
+Como administrador, você pode proibir o sideload do aplicativo para todos os desenvolvedores. Se você não permitir o sideload, os desenvolvedores ainda poderão testar seus aplicativos [criando um locatário de teste separado](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Após a conclusão do desenvolvimento de aplicativos personalizados, os desenvolvedores solicitam que os administradores distribuam seus aplicativos personalizados para os usuários finais. Para obter detalhes, confira [como publicar um aplicativo personalizado](/microsoftteams/upload-custom-apps). Como administrador, você permite (ou bloqueia) o uso de um aplicativo personalizado para todos os usuários ou para usuários específicos.
 
 ## <a name="custom-app-policy-and-settings"></a>Política e configurações de aplicativo personalizados
 
@@ -71,9 +86,14 @@ Você pode editar as configurações na política global de configuração do ap
 
 1. Entre no centro de administração do Teams e acesse **[políticas de instalação](https://admin.teams.microsoft.com/policies/app-setup)** de **aplicativos** >  do Teams.
 1. Selecione **Adicionar**.
-1. Ative ou desative **Carregar aplicativos personalizados**.
+1. Forneça um nome e uma descrição para a política.
+1. Ative ou desative **Carregar configuração de aplicativos personalizados** .
 1. Escolha as outras configurações que você deseja para a política.
 1. Selecione **Salvar**.
+1. [Aplique a política aos usuários](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users) que desenvolvem aplicativos personalizados e têm permissão para carregar esses aplicativos.
+
+> [!NOTE]
+> Para alterar essa configuração, permita aplicativos [personalizados nas configurações do aplicativo em toda a organização](manage-apps.md#manage-org-wide-app-settings).
 
 ### <a name="team-custom-app-setting"></a>Configuração de aplicativo personalizado da equipe
 

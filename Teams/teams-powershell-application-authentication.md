@@ -1,5 +1,5 @@
 ---
-title: Autenticação baseada em aplicativo no Módulo powershell do Teams
+title: Autenticação baseada em aplicativo no Módulo do Teams PowerShell
 author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
@@ -9,57 +9,48 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre a autenticação baseada em aplicativo no Módulo do PowerShell do Teams, usado para administração do Microsoft Teams.
+description: Saiba mais sobre a autenticação baseada em aplicativo no Módulo do Teams PowerShell, usado para administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
-ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
+ms.openlocfilehash: 89af4494a6cf20aab512c0430a6e16db622e53a2
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "68570414"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912640"
 ---
-# <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticação baseada em aplicativo no Módulo powershell do Teams
+# <a name="application-based-authentication-in-teams-powershell-module"></a>Autenticação baseada em aplicativo no Módulo do Teams PowerShell
 
-A autenticação baseada em aplicativo agora tem suporte no Módulo do PowerShell do Teams para um conjunto limitado de cmdlets em versão prévia com versões 4.7.1 ou posteriores. Atualmente, esse modo de autenticação só tem suporte em ambientes comerciais.
+A autenticação baseada em aplicativo agora tem suporte no Módulo do Teams PowerShell em versão prévia com as versões 4.7.1-preview ou posterior. Atualmente, esse modo de autenticação só tem suporte em ambientes comerciais.
 
 
 ## <a name="cmdlets-supported"></a>Cmdlets com suporte
 
-Os cmdlets abaixo já têm suporte, outros cmdlets serão distribuídos gradualmente. 
+Todos os cmdlets têm suporte agora, exceto para os cmdlets mencionados abaixo. 
 
-  - Cmdlets \*não -Cs (exceto New-Team)
-  - Get-CsTenant
-  - Get-CsOnlineUser, Get-CsOnlineVoiceUser
-  - \*-CsOnlineSipDomain 
-  - \*-CsPhoneNumberAssignment
-  - \*-CsOnlineTelephoneNumberOrder, Get-CsOnlineTelephoneNumberType, Get-CsOnlineTelephoneNumberCountry
-  - \*-CsCallQueue
-  - \*-CsAutoAttendant, \*-CsAutoAttendant\*
-  - \*-CsOnlineVoicemailUserSettings
-  - Find-CsOnlineApplicationInstance, \*-CsOnlineApplicationInstanceAssociation, Get-CsOnlineApplicationInstanceAssociationStatus
-  - \*-CsOnlineSchedule, New-CsOnlineTimeRange, New-CsOnlineDateTimeRange
-  - \*-CsOnlineAudioFile
-  - Find-CsGroup
-  - \*-CsOnlineDialInConferencingUser, \*-CsOnlineDialInConferencingServiceNumber, \*-CsOnlineDialInConferencingBridge, Get-CsOnlineDialInConferencingLanguagesSupported, Set-CsOnlineDialInConferencingUserDefaultNumber
-  - \*-CsOnlineLisLocation, \*-CsOnlineLisCivicAddress, \*-CsOnlineLisWirelessAccessPoint, \*-CsOnlineLisPort, \*-CsOnlineLisSubnet, \*-CsOnlineEnhancedEmergencyServiceDisclaimer, \*-CsOnlineLisSwitch
-  - \*-CsCloudCallDataConnection
+  - New-Team
+  - [Get| Definir| Novo| Sync]-CsOnlineApplicationInstance
+  - \*-CsUserCallingSettings
+  - \*-CsUserCallingDelegate
+  - \*PolicyPackage\*
+  - \*-CsTeamsShiftsConnection\*
+  - \*-CsBatchTeamsDeployment\*
 
 
 ## <a name="examples"></a>Exemplos
 
-Os exemplos a seguir mostram como usar o Módulo do PowerShell do Teams com a autenticação Azure AD baseada em aplicativo: 
+Os exemplos a seguir mostram como usar o Módulo do Teams PowerShell com o Azure AD autenticação baseada em aplicativo: 
 
-- Conecte-se usando uma impressão digital do certificado:
+- Conecte-se usando uma impressão digital de certificado:
 
   ```powershell
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   Quando você usa o parâmetro CertificateThumbprint, o certificado precisa ser instalado no computador em que você está executando o comando. O certificado deve ser instalado no repositório de certificados do usuário.
   
-- Conecte-se usando tokens de acesso:
+- Conecte-se usando Tokens de Acesso:
   
-  Os Tokens de Acesso podem ser recuperados por meio login.microsoftonline.com ponto de extremidade. Ele requer dois tokens de acesso – recursos de "MS Graph" e "API de locatário do Skype e do Teams Administração".
+  Os Tokens de Acesso podem ser recuperados por meio do ponto de extremidade login.microsoftonline.com. Ele requer dois Tokens de Acesso – recursos "MS Graph" e "API Administração do Locatário do Skype e do Teams".
 
   ```powershell
   $ClientSecret   = "…"
@@ -89,22 +80,22 @@ Os exemplos a seguir mostram como usar o Módulo do PowerShell do Teams com a au
   
 ## <a name="how-does-it-work"></a>Como funciona?
 
-O Módulo do PowerShell do Teams busca o token baseado em aplicativo usando a ID do aplicativo, a ID do locatário e a impressão digital do certificado. O objeto de aplicativo provisionado Azure AD tem uma Função de Diretório atribuída a ele, que é retornada no token de acesso. O RBAC (controle de acesso baseado em função) da sessão é configurado usando as informações de função de diretório disponíveis no token.
+O Módulo do Teams PowerShell busca o token baseado em aplicativo usando a ID do aplicativo, a ID do locatário e a impressão digital do certificado. O objeto de aplicativo provisionado dentro do Azure AD tem uma Função de Diretório atribuída a ele, que é retornada no token de acesso. O RBAC (controle de acesso baseado em função) da sessão é configurado usando as informações de função de diretório disponíveis no token.
 
 
-## <a name="setup-application-based-authentication"></a>Configurar a autenticação baseada em aplicativo
+## <a name="setup-application-based-authentication"></a>Configurar autenticação baseada em aplicativo
 
-Uma integração inicial é necessária para autenticação usando objetos de aplicativo. O aplicativo e a entidade de serviço são usados de forma intercambiável, mas um aplicativo é como um objeto de classe enquanto uma entidade de serviço é como uma instância da classe. Você pode saber mais sobre esses objetos em [objetos de aplicativo e entidade de serviço no Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
+Uma integração inicial é necessária para autenticação usando objetos de aplicativo. O aplicativo e a entidade de serviço são usados de forma intercambiável, mas um aplicativo é como um objeto de classe, enquanto uma entidade de serviço é como uma instância da classe. Você pode saber mais sobre esses objetos em [objetos de entidade de aplicativo e serviço no Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals).
 
 As etapas de exemplo para criar aplicativos no Azure Ad são mencionadas abaixo, para obter etapas detalhadas, consulte este [artigo](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 1. Registrar o aplicativo no Azure AD
 2. Atribuir permissões de API ao aplicativo
-   - Para \*cmdlets -Cs– nenhuma permissão de API é necessária.
-   - \*Para cmdlets não -Cs, as `User.Read.All`permissões API do Graph Microsoft necessárias são , `Group.ReadWrite.All`, `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, . `ChannelMember.ReadWrite.All`  
+   - Para \*cmdlets -Cs - não são necessárias permissões de API.
+   - Para cmdlets não \*-Cs - as permissões do Microsoft API do Graph necessárias são `User.Read.All`, `Group.ReadWrite.All`, , `AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, `ChannelMember.ReadWrite.All`.  
 3. Gerar um certificado autoassinado
-4. Anexar o certificado ao Azure AD aplicativo
-5. Atribuir [Azure AD funções ao](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) aplicativo
+4. Anexar o certificado ao aplicativo Azure AD
+5. Atribuir [Azure AD funções](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) ao aplicativo
 
-O aplicativo precisa ter as funções RBAC apropriadas atribuídas. Como os aplicativos são provisionados Azure AD, você pode usar qualquer uma das funções internas com suporte.
+O aplicativo precisa ter as funções RBAC apropriadas atribuídas. Como os aplicativos são provisionados em Azure AD, você pode usar qualquer uma das funções internas com suporte.
  

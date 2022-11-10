@@ -18,14 +18,14 @@ description: Saiba como definir o Adobe Acrobat como visualizador de PDF padrão
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 546328ade88864f1412a2da6f94caf2d1f44aef8
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738767"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912820"
 ---
-# <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>Adobe Acrobat como visualizador de PDF padrão no Microsoft Teams
+# <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Definir o Adobe Acrobat como o visualizador de PDF padrão no Microsoft Teams
 
 > [!NOTE]
 > No momento, o Adobe Acrobat como experiência de PDF padrão no Microsoft Teams só está disponível em visualização pública. Para usar essa funcionalidade, os administradores devem [habilitar a visualização pública](public-preview-doc-updates.md#enable-public-preview) para seu locatário e garantir que os usuários finais alterem a versão do cliente do Teams para visualização pública.

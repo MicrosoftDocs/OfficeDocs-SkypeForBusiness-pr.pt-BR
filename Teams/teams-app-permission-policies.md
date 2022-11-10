@@ -23,14 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5797486fb0993aa8630a8dedde131ad7751e7e5f
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: aac7024730c3f18e1c0f38a2e041dea840a6b869
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656017"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912400"
 ---
-# <a name="manage-access-to-teams-apps-using-app-permission-policies"></a>Gerenciar o acesso aos aplicativos do Teams usando políticas de permissão de aplicativo
+# <a name="use-app-permission-policies-to-control-user-access-to-apps"></a>Usar políticas de permissão de aplicativo para controlar o acesso do usuário a aplicativos
 
 Como administrador, você pode usar políticas de permissão de aplicativo para controlar os aplicativos que estão disponíveis para cada usuário em sua organização. As permissões definidas para permitir ou bloquear todos os aplicativos ou aplicativos específicos são aplicáveis a todos os [tipos de aplicativos no Teams](deploy-apps-microsoft-teams-landing-page.md). Você deve ser um administrador de serviço do Administração Global ou do Teams para gerenciar essas políticas.
 
@@ -57,10 +57,10 @@ Use uma ou mais políticas de permissão de aplicativo personalizadas, se você 
 1. Forneça um nome e uma descrição para a política.
 1. Em **aplicativos da Microsoft**, **aplicativos de terceiros** e **aplicativos personalizados**, selecione uma das seguintes opções:
 
-    * `Allow all apps`
-    * `Allow specific apps and block all others`
-    * `Block specific apps and allow all others`
-    * `Block all apps`
+    * Permitir todos os aplicativos
+    * Permita aplicativos específicos e bloqueie todos os outros
+    * Bloquear aplicativos específicos e permita todos os outros
+    * Bloquear todos os aplicativos
 
 1. Se você selecionou **Permitir aplicativos específicos e bloquear todos os outros**, adicione os aplicativos que deseja permitir:
 

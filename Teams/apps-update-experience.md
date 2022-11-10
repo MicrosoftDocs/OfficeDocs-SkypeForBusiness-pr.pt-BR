@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Neste artigo, saiba como os aplicativos da Microsoft, aplicativos personalizados e aplicativos de terceiros no Microsoft Teams são atualizados e como os administradores facilitam isso.
-ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: d419e1ed29c6a1cd7a7390bdc0d5eb69371d8547
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738607"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912790"
 ---
-# <a name="teams-app-updates-and-admin-role"></a>Atualizações de aplicativo do Teams e função de administrador
+# <a name="role-of-an-admin-in-upgrading-teams-apps"></a>Função de um administrador na atualização de aplicativos do Teams
 
 Os administradores do Teams podem ajudar seus usuários finais a obter a versão mais recente dos aplicativos. Para fazer isso, eles realizam uma ou ambas as tarefas a seguir:
 
@@ -53,9 +53,9 @@ Se os desenvolvedores de aplicativos fizerem uma ou mais alterações a seguir e
 
 ## <a name="updates-to-custom-apps"></a>Atualizações para aplicativos personalizados
 
-Aplicativos personalizados que são criados e implantados em sua organização estão disponíveis para os usuários em seu locatário ou organização. O administrador do Teams atualiza os aplicativos personalizados para novas versões, conforme fornecido pelos desenvolvedores da organização. Para obter mais informações, confira [como os administradores gerenciam aplicativos personalizados](custom-app-overview.md).
+Aplicativos personalizados que são criados e implantados em sua organização estão disponíveis para os usuários em seu locatário ou organização. O administrador do Teams atualiza um aplicativo personalizado para sua nova versão quando uma nova versão é fornecida pelos desenvolvedores de sua organização. Para obter mais informações, confira [como os administradores gerenciam aplicativos personalizados](custom-app-overview.md).
 
-## <a name="related-article"></a>Artigo relacionado
+## <a name="related-articles"></a>Artigos relacionados
 
 * [Entenda o esquema de manifesto para atualizações feitas em aplicativos](/microsoftteams/platform/resources/schema/manifest-schema).
 * [Saiba mais sobre o gerenciamento de aplicativos personalizados](custom-app-overview.md).

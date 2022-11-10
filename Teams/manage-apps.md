@@ -21,12 +21,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 902b32be43e25c8262ba85bbbb56bd79d424e75c
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 053164da8a521566247e982b09f5f929fe6da406
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784186"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912610"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Visão geral do gerenciamento de aplicativos e governança no centro de administração do Teams
 
@@ -88,6 +88,8 @@ A página Gerenciar aplicativos é onde você gerencia aplicativos individuais n
 1. Selecione a opção **Permitir** ou **Bloquear**.
 
 Para permitir um aplicativo para usuários específicos, consulte [políticas de permissão do aplicativo](teams-app-permission-policies.md).
+
+Quando um desenvolvedor publica um aplicativo na loja do Teams, alguns aplicativos podem precisar de um administrador para configurar o aplicativo. Antes que um administrador permita esse aplicativo, ele é mostrado como `Blocked by publisher` no centro de administração. Depois de seguir as diretrizes do editor para configurar o aplicativo, você pode disponibilizá-lo aos usuários permitindo-o.
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativos em toda a organização
 
@@ -156,16 +158,6 @@ Para permitir aplicativos de terceiros, edite e use a política global (padrão 
    :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Captura de tela das configurações de aplicativo em toda a organização na GCCH e no DoD.":::
 
 1. Selecione **Salvar** para que as configurações do aplicativo em toda a organização entrem em vigor.
-
-## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>Permitir os aplicativos bloqueados pelos desenvolvedores
-
-Quando um desenvolvedor publica um aplicativo na Teams Store, alguns aplicativos podem precisar de um administrador para configurá-lo. Os administradores disponibilizam o aplicativo aos usuários finais quando o aplicativo é configurado.
-
-Por exemplo, a Contoso Electronics é uma desenvolvedora de aplicativos que criou um aplicativo de suporte técnico para o Microsoft Teams. A Contoso Electronics deseja que seus clientes configurem determinadas propriedades do aplicativo para que, quando os usuários interajam com o aplicativo, ele funcione conforme o esperado. Antes que um administrador permita o aplicativo, ele será exibido como **Bloqueado pelo fornecedor** no centro de administração do Teams e ficará oculto dos usuários finais por padrão. Depois de seguir as diretrizes do editor para configurar o aplicativo, você pode disponibilizá-la aos usuários alterando o status para **Permitido**.
-
-:::image type="content" source="media/blocked-by-publisher.png" alt-text="Captura de tela do status bloqueado pelo editor no Centro de administração do Teams.":::
-
-Para obter informações sobre como os desenvolvedores bloqueiam um aplicativo por padrão, consulte [habilitar aplicativos a serem bloqueados até que um administrador o permita](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves).
 
 ## <a name="related-article"></a>Artigo relacionado
 

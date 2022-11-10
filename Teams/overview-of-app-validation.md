@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 97da6b39ab6e6d9208c883ae60f0be08432e5222
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377549"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912630"
 ---
-# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Teste e validação feitos pela Microsoft para todos os aplicativos do Teams
+# <a name="know-about-the-testing-and-validation-done-by-microsoft-for-all-apps"></a>Saiba mais sobre o teste e a validação feitos pela Microsoft para todos os aplicativos
 
 A Microsoft exige que todos os aplicativos passem por uma validação obrigatória antes de serem listados na loja para uso final. Aplica-se a todos os aplicativos (exceto aplicativos personalizados) publicados na loja de Aplicativos do Teams. Além disso, a Microsoft incentiva fortemente os desenvolvedores de aplicativos a participarem de uma certificação opcional de aplicativos que indique controles avançados de conformidade, segurança e privacidade.
 
@@ -49,7 +49,7 @@ Executamos mais de 400 casos de teste para cada aplicativo antes que ele seja di
 * Os aplicativos são testados para funcionarem adequadamente ao trabalho sem linguagem ofensiva, bots de ataque cibernético, spam ou conteúdo fraudulento.
 * Todos os links em um aplicativo são funcionais e relacionados somente à oferta do aplicativo.
 * Testamos e avaliamos regularmente todos os aplicativo publicados do Teams como parte das verificações de integridade da loja de aplicativos.
-* A política de privacidade e os Termos de uso que abrangem aplicativos do Teams são fornecidos pelo desenvolvedor do aplicativo.
+* A política de privacidade e os termos de uso que abrangem aplicativos do Teams são fornecidos pelo desenvolvedor do aplicativo.
 * Os detalhes de contato do desenvolvedor de aplicativo estão disponíveis na listagem da loja e em suas respectivas [páginas de atestado do fornecedor](/microsoft-365-app-certification/teams/teams-apps).
 
 Além disso, a Microsoft incentiva os desenvolvedores de aplicativos a participarem do seu programa de conformidade, que é uma abordagem rigorosa de duas camadas para garantir a qualidade, a segurança e a conformidade do aplicativo. A loja do Teams tem centenas de aplicativos que vão além do cumprimento das diretrizes de validação já detalhadas e estão em conformidade com esses programas.

@@ -1,5 +1,5 @@
 ---
-title: Comprar licenças para aplicativos do Teams de terceiros
+title: Comprar aplicativos de terceiros e gerenciar assinaturas
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -10,21 +10,21 @@ audience: admin
 ms.date: 10/04/2022
 ms.collection:
 - M365-collaboration
-ms.reviewer: chhavib, vaibhava, nsuter
+ms.reviewer: chhavib, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: Saiba como comprar licenças de aplicativos de terceiros da loja do Teams usando um cartão de crédito, um cartão de débito ou por meio da cobrança de fatura.
+description: Saiba como comprar licenças de aplicativo pagas na loja do Teams usando um cartão de crédito, um cartão de débito ou por meio da cobrança de fatura.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 82364d5659009e067a6884551266c6fabf93dc04
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738547"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912420"
 ---
-# <a name="purchase-licenses-for-third-party-teams-apps"></a>Comprar licenças para aplicativos do Teams de terceiros
+# <a name="purchase-third-party-teams-apps-and-manage-subscriptions"></a>Comprar aplicativos do Teams de terceiros e gerenciar assinaturas
 
 Alguns aplicativos do Teams podem exigir a compra de uma assinatura de serviço para experimentar a funcionalidade e o escopo completos do aplicativo. Essas assinaturas de serviço são chamadas de ofertas saaS (Software as a Service). Uma licença está disponível para compra por meio [do AppSource](https://appsource.microsoft.com/) e por meio do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com).
 
@@ -40,7 +40,7 @@ Para comprar aplicativos no Centro de administração do Teams, siga estas etapa
 
 1. Entre no centro de administração do Teams e acesse aplicativos  > **do Teams****[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**. Você deve ser um administrador global ou administrador de serviços do Teams para acessar a página.
 
-1. Pesquise o aplicativo desejado pelo nome. Para verificar se os aplicativos oferecem uma assinatura SaaS paga, confira a coluna **Licenças** . Cada aplicativo tem um dos seguintes valores:
+1. Pesquise o aplicativo desejado pelo nome. Para verificar se o aplicativo oferece uma assinatura SaaS paga, consulte a coluna **Licenças** . Cada aplicativo tem um dos seguintes valores:
     * **Comprar**: o aplicativo oferece uma assinatura de SaaS e está disponível para compra.
     * **Comprado**: O aplicativo oferece uma assinatura de SaaS e você comprou licenças para ele.
     * **- -**: O aplicativo não oferece uma assinatura de SaaS.

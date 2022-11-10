@@ -16,14 +16,14 @@ description: Saiba como auditar as atividades do aplicativo Teams de usuários e
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 7abaed00f8bb02daa63d30cd5092e007f8d5a8f5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0fd3feb73705a95e0729cb1819d9f355ce3ef711
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377529"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912780"
 ---
-# <a name="audit-for-app-management-activities-and-events"></a>Auditoria para atividades e eventos de gerenciamento de aplicativos
+# <a name="audit-logs-of-app-management-activities-and-events"></a>Auditar logs de atividades e eventos de gerenciamento de aplicativos
 
 A Auditoria do Microsoft Purview (Standard) no Microsoft 365 permite pesquisar registros de auditoria de atividades executadas nos vários serviços do Microsoft 365 por usuários finais e administradores.
 
@@ -72,7 +72,7 @@ Depois de pesquisar o sinal de auditoria no portal de conformidade, você pode e
 > Quando uma das atividades acima é executada por um usuário ou administrador, o Teams gera e armazena um registro de auditoria. Na Auditoria (Padrão), os registros são mantidos por 90 dias, o que significa que você pode pesquisar atividades que ocorreram nos últimos três meses.
 
 > [!TIP]
-> Como administrador, se você quiser criar um relatório por usuário para saber se um usuário bloqueou ou desativou o mudo de um bot, consulte Entender quem bloqueou, ative ou desinstalou um [bot](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot).
+> Como administrador, se você quiser criar um relatório por usuário para saber se um usuário bloqueou ou silenciou um bot, consulte [Entender quem bloqueou, silenciou ou desinstalou um bot](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot).
 
 ## <a name="related-articles"></a>Artigos relacionados
 
