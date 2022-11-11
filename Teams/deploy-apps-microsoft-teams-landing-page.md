@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 9b8d4ca3140b6bd8907938b5c2ac86aeabb39e37
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: b234f229d29c5ab4dae49be93e819bb18eb51a0b
+ms.sourcegitcommit: 95ed372915f259fddfc87090c6c67b549ed1605f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912620"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "68918235"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Entender os aplicativos do Microsoft Teams e seus recursos
 
@@ -87,6 +87,21 @@ Os desenvolvedores da sua organização personalizam modelos de aplicativo com a
 
 Para saber mais, confira [Modelos de Aplicativo do Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/app-templates/).
 
+## <a name="discover-and-use-apps-in-teams"></a>Descobrir e usar aplicativos no Teams
+
+Os usuários podem exibir todos os aplicativos disponíveis no Teams na loja de aplicativos do Teams em uma área de trabalho do Teams ou cliente Web. Os usuários podem pesquisar por nome, navegar por categoria e navegar por aplicativos criados para sua organização e criados com o Power Platform para descobrir e instalar aplicativos no Teams.
+
+Os aplicativos podem ser fixados no Teams para facilitar o acesso. Os usuários podem [fixar aplicativos por conta própria](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) se sua política de configuração permitir e se o aplicativo for permitido pelo administrador do Teams. Os administradores podem fixar aplicativos e controlar o comportamento dos aplicativos fixados, para obter mais informações, confira [políticas de configuração de aplicativo](/teams-app-setup-policies).
+
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Captura de tela que mostra todos os locais em que os usuários podem navegar por aplicativos no Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+
+Os usuários podem encontrar e adicionar aplicativos ao Teams na loja de aplicativos do Teams. Eles também podem adicionar aplicativos diretamente do contexto em que estão trabalhando, como chat ou guia de canal, reunião do Teams ou área de mensagens. Para obter mais informações, confira [adicionar um aplicativo ao Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+Um usuário só pode adicionar e usar um aplicativo quando um administrador permite o aplicativo e o aplicativo é disponibilizado ao usuário por meio de [políticas de permissão](teams-app-permission-policies.md). O administrador de TI de uma organização tem controle completo sobre quem pode instalar quais aplicativos em que contexto. Os usuários não podem adicionar aplicativos bloqueados, qualquer aplicativo com um ícone de bloqueio na loja do Teams está bloqueado para o usuário. No entanto, [os usuários podem solicitar a aprovação do administrador de TI da organização](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae). Depois que o aplicativo for aprovado, os usuários poderão adicionar o aplicativo na loja do Teams.
+
+> [!NOTE]
+> Somente indivíduos podem solicitar uma aprovação para adicionar um aplicativo no Teams.
+
 ## <a name="understand-app-capabilities"></a>Entender os recursos do aplicativo
 
 Os recursos do aplicativo teams são as principais funcionalidades que podem ser criadas em um aplicativo para habilitar a integração e a interação.
@@ -108,7 +123,6 @@ Para fornecer uma experiência avançada que permite que os usuários finais tra
   O Teams oferece suporte a bots em chats privados e canais. Os administradores podem controlar se o uso de bots é permitido em uma organização do Microsoft 365 ou do Office 365. Para obter informações sobre como ativar ou desativar bots personalizados, confira [Visão geral do gerenciamento de aplicativos e governança no centro de administração do Teams](manage-apps.md).
 
 * **Guias**: as guias são páginas da Web com reconhecimento do Teams fixadas na parte superior de um canal ou um chat. As guias permitem que você interaja com conteúdo e serviços com uma experiência semelhante à Web. São marcas de iframe\> <HTML simples que apontam para domínios declarados no manifesto do aplicativo e podem ser adicionados como parte de um canal dentro de uma equipe, chat em grupo ou aplicativo pessoal para um usuário individual. Para obter mais informações, confira [Guias do Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
-
   Em cada chat privado, as guias Conversas, Arquivos, Organização e Atividade são criadas por padrão. Além dessas guias internas, os desenvolvedores podem projetar e adicionar guias personalizadas. Para obter mais informações, confira [Configurar as guias internas e personalizadas no Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks e conectores**: Webhooks e conectores ajudam a conectar os serviços Web a canais e equipes no Microsoft Teams. Webhooks são retorno de chamada HTTP definido pelo usuário que notifica os usuários sobre qualquer ação que tenha ocorrido no canal do Teams. É uma maneira de um aplicativo obter dados em tempo real. Os conectores permitem que os usuários assinem para receber notificações e mensagens de seus serviços Web. Para obter mais informações, consulte [Webhooks e conectores](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
@@ -125,5 +139,7 @@ Para exibir casos de uso comuns mapeados para recursos do Teams, confira [Mapear
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-* [Saiba mais sobre modelos de aplicativo para o Teams](/microsoftteams/platform/samples/app-templates)
+* [Saiba mais sobre modelos de aplicativo para o Teams](/microsoftteams/platform/samples/app-templates).
+* [Atualizações de aplicativo do Teams e função de administrador](apps-update-experience.md)
 * [Visão geral do gerenciamento de aplicativos e governança no centro de administração do Teams](manage-apps.md)
+
