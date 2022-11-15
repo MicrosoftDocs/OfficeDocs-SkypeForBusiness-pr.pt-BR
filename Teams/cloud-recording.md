@@ -20,12 +20,12 @@ description: Orientação prática para a implantação de recursos de voz em nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 281a8997e3020b229ce8b34919177c1f6f2318c9
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584882"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965743"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -109,6 +109,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | Quero que a gravação seja desativada para a maioria dos usuários, mas permitir que usuários específicos possam gravar. | <ol><li>Confirme que o CsTeamsMeetingPolicy global tem AllowCloudRecording = false.<li>A maioria dos usuários receberam CsTeamsMeetingPolicy globais ou uma das políticas de CsTeamsMeetingPolicy com AllowCloudRecording = falso.<li>Todos os outros usuários receberam uma das políticas de CsTeamsMeetingPolicy com o AllowCloudRecording = verdadeiro. <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> Se um usuário do Teams de um locatário externo habilitado para gravação de conformidade baseada em política do Teams ingressar em uma reunião ou chamada em seu locatário, essa reunião/chamada será registrada pelo outro locatário para fins de conformidade, independentemente da gravação baseada em nuvem ativada ou desativada em seu locatário. Os apresentadores que fazem parte da reunião em seu locatário são aconselhados a remover o usuário da reunião se as gravações não devem ser capturadas pelos usuários de outro locatário. Para obter mais informações sobre a gravação de conformidade baseada em política no Teams, consulte [Introdução à gravação baseada em política do Teams para chamar reuniões &](teams-recording-policy.md).
 
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Bloquear ou permitir o download de gravações de reunião de canal
 
@@ -207,7 +209,7 @@ As gravações de reunião são armazenadas no armazenamento em nuvem do OneDriv
 
 - A gravação é armazenada em uma pasta chamada **Gravações** no OneDrive do usuário que clicou no registro. 
 
-  Exemplo: *gravações do OneDrive*/**do gravador**
+  Exemplo:**Gravações** *do OneDrive*/ do gravador
 
 - As pessoas convidadas para a reunião, exceto os participantes externos, receberão automaticamente permissão para o arquivo de gravação com acesso de exibição sem capacidade de download.
 
@@ -219,7 +221,7 @@ Se `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` estiver definido como Pe
 
 - A gravação é armazenada na biblioteca de documentação do site do Teams em uma pasta chamada **Gravações**.
 
-  Exemplo: *Nome do Teams – Gravações de documentos de nome*/**de**/**canal**
+  Exemplo: *Nome do Teams –***Gravações**/ **de documentos** de nome do canal /
 
 - O membro que clicou no registro tem direitos de edição para a gravação.
 
@@ -229,7 +231,7 @@ Se `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` estiver definido como Bl
 
 - A gravação é armazenada na biblioteca de documentação do site do Teams em uma pasta chamada **Gravações/Exibição somente**. 
 
-  Exemplo: *Nome do Teams - Documentos*/**/Gravações/Exibição do nome do canal**
+  Exemplo: *Nome do Teams –***Somente Documentos/Gravações/Exibição** do nome / do canal
 
 - Os proprietários de canal terão direitos completos de edição e download nas gravações nesta pasta.
 
@@ -278,7 +280,7 @@ As gravações de reunião são armazenadas como arquivos de vídeo no OneDrive 
 
 Para reuniões que não são de canal, as gravações são armazenadas no OneDrive do gravador, portanto, o controle da propriedade e retenção depois que um funcionário sair seguirá o [processo do OneDrive e do SharePoint](/onedrive/retention-and-deletion#the-onedrive-deletion-process) normal.
 
-As gravações de reunião têm um tempo de expiração padrão de 120 dias. Você pode desativar a configuração reuniões expiram automaticamente ou alterar o tempo de expiração padrão. Saiba mais sobre [a expiração automática das gravações de reunião](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
+As gravações de reunião têm um tempo de validade padrão de 120 dias. Você pode desativar a configuração de expiração automática das Reuniões ou alterar o tempo de validade padrão. Saiba mais sobre [gravações de reunião expirando automaticamente](meetings-policies-recording-and-transcription.md#meetings-automatically-expire).
 
 ## <a name="closed-captions-for-recordings"></a>Legendas ocultas para gravações
 
@@ -340,7 +342,7 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
    > [!div class="nextstepaction"]
    > [Executar testes: gravação de reunião ausente](https://aka.ms/MissingRecordingDiag)
 
-2. No painel Executar diagnóstico, insira a URL da reunião na **URL** da reunião que foi registrado no campo (geralmente encontrado no convite da reunião), bem como a data da reunião no campo Quando a reunião foi registrada **?** E, em seguida, selecione Executar **Testes.**
+2. No painel Executar diagnóstico, insira a URL da reunião na **URL da reunião registrada** (geralmente encontrada no convite de reunião) bem como a data da reunião no campo **Quando a reunião foi gravada?** e selecione **Executar Testes**.
 
 3. Os testes validam se a gravação da reunião foi concluída com êxito e foi carregada no Stream ou no OneDrive.
 
