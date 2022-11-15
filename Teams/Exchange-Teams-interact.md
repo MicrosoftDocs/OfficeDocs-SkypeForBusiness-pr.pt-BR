@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965027"
+ms.locfileid: "69019397"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -135,7 +135,7 @@ Aqui estão algumas coisas que você precisa saber ao implementar o Microsoft Te
 - Para o status de presença, o Microsoft Teams deve verificar se a caixa de correio está hospedada no Exchange Online ou no local. Em seguida, o serviço decide onde acessar a caixa de correio. Para habilitar o serviço do Teams a verificar o local da caixa de correio por meio da chamada da API REST para o serviço do Exchange Online, você deve implantar um ambiente híbrido do Exchange executando o assistente de configuração híbrida do Exchange, conforme descrito em [Criar uma implantação híbrida com o assistente de Configuração Híbrida](/exchange/hybrid-deployment/deploy-hybrid).
 
 >[!Important]
->**Clientes GCC-H:** Não há suporte para *agendamento de reuniões delegadas do Teams* para ambientes GCC-High. 
+>**Clientes GCC-H:** Não há suporte para *agendamento de reuniões delegadas do Teams* para ambientes GCC-High quando a caixa de correio do usuário está hospedada no Exchange Server local.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
