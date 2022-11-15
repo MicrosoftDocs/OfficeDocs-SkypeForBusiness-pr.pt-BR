@@ -1,5 +1,5 @@
 ---
-title: Atribuir proprietários de equipe e membros no Microsoft Teams
+title: Atribuir proprietários e membros da equipe no centro de administração do Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -16,66 +16,58 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a8993882bb281dc7c9bd6b8bde95387a183b637
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: e0f259a7a24552988d4eca503deeb9151dde144d
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562760"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019407"
 ---
-# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
+# <a name="assign-team-owners-and-members-in-microsoft-teams-admin-center"></a>Atribuir proprietários e membros da equipe no centro de administração do Microsoft Teams
 
-No Microsoft Teams, existem duas funções: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Além disso, os proprietários e membros podem ter recursos moderadores para um canal (desde que a moderação tenha sido configurada). Se uma equipe for criada de um grupo existente do Microsoft 365, as permissões serão herdadas.
+**Proprietário** e **membro** são as duas funções de usuário no Microsoft Teams. O usuário que cria uma nova equipe recebe o status de proprietário por padrão. Proprietários e membros têm diferentes tipos de permissões e recursos ao interagir com uma equipe e seus canais. Confira [Visão geral de equipes e canais no Microsoft Teams](teams-channels-overview.md) para saber mais sobre funções no Teams.
+
+> [!NOTE]
+> Se uma equipe for criada a partir de um grupo existente do Microsoft 365, as permissões serão herdadas.
+
+## <a name="assign-a-user-role-in-teams-admin-center"></a>Atribuir uma função de usuário no centro de administração do Teams
+
+1. No centro de administração do Teams, expanda **o Teams** e **selecione Gerenciar equipes**.
+2. Selecione o nome da equipe na coluna nome da exibição.
+3. Na guia Membros, você pode adicionar ou remover membros e atribuir funções de proprietário e moderador aos membros.
+
+## <a name="restrict-permission-to-create-teams"></a>Restringir permissão para criar equipes
+
+Todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Microsoft 365 e uma equipe no Microsoft Teams. Restrinja os usuários de criar novas equipes e grupos do Microsoft 365 delegando direitos de criação e gerenciamento de grupo a um conjunto de usuários. Se essa restrição estiver ativa, nenhum dos proprietários ou membros da equipe poderá criar novas equipes. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+
+## <a name="user-permissions-based-on-assigned-roles"></a>Permissões de usuário com base em funções atribuídas
 
 A tabela abaixo mostra as diferenças de permissão entre um proprietário e um membro:
 
+### <a name="teams"></a>Teams
 
-|    Tarefas                               | Proprietário da equipe | Membro da equipe |
-|-----------------------------------|------------|-------------|
-|          **Criar equipe**          |    Sim<sup>1</sup>     |     Não      |
-|          **Sair da equipe**           |    Sim     |     Sim     |
-|  **Editar nome/descrição da equipe**   |    Sim     |     Não      |
-|          **Excluir equipe**          |    Sim     |     Não      |
-|          **Adicionar canal padrão**          |    Sim     |    Sim<sup>2</sup>|
-| **Editar nome/descrição do canal padrão** |    Sim     |    Sim<sup>2</sup>|
-|        **Excluir o canal padrão**         |    Sim     |    Sim<sup>2</sup>|
-|          ***Adicionar canal privadol**          |    Sim     |    Sim<sup>2</sup>|
-| ***Editar nome/descrição do canal privado** |    Não     |    Não disponível|
-|        ***Excluir canal privado**         |    Sim     |    Não|
-|          **Adicionar canal compartilhado**          |    Sim     |    Não|
-| **Editar nome/descrição do canal compartilhado** |    Não     |    Não<sup>6</sup>|
-|        **Excluir canal compartilhado**         |    Sim     |    Não<sup>6</sup>|
-|          **Adicionar membros**          |  Sim<sup>3</sup>   |     Não<sup>4</sup>    |
-|          **Solicitação para adicionar membros**          |  N/A   |     Sim<sup>5</sup>     |
-|           **Adicionar aplicativos**            |    Sim     |    Sim<sup>2</sup>|
+|Tarefas do Teams| Proprietário da equipe | Membro da equipe |
+|---------|---------|---------|
+|Equipe Criar/Excluir  |    Sim     |     Não    |
+|Editar nome/descrição da equipe   |     Sim    |     Não     |
+|Adicionar membros à equipe privada    |     Sim    |  Não |
+|Adicionar membros à equipe pública    |     Sim    |     Sim   |
+|Solicitar para adicionar novo membro   |     Não disponível    |    Sim   |
+|Promover/Demote status do usuário | Sim | Não |
+|Sair da equipe  |    Sim     |     Sim    |
+|Adicionar/Remover aplicativos   |     Sim    |     Sim, se habilitado pelo proprietário da equipe     |
 
-<sup>1</sup> Os proprietários da equipe podem criar equipes, a menos que eles tenham sido restritos. [Permissões para criar equipes](#permissions-to-create-teams) a seguir.<br>
-<sup>2</sup> Um proprietário pode desabilitar esses itens no nível da equipe, caso os membros não tenham acesso a eles.<br>
-<sup>3</sup> Após adicionar um membro a uma equipe, um proprietário também pode promover um membro para o status de proprietário. Também é possível para um proprietário rebaixar seu próprio status para o status de membro.<br>
-<sup>4</sup> Os membros da equipe podem adicionar outros membros a uma equipe pública.<br>
-<sup>5</sup> Apesar de um membro da equipe não poder adicionar membros diretamente a uma equipe privada, eles podem solicitar que alguém seja adicionado a uma equipe que já seja membro. Quando um membro solicitar alguém para ser adicionado a uma equipe, os proprietários da equipe recebem um alerta de que eles têm uma solicitação pendente que eles podem aceitar ou recusar.<br>
-<sup>6</sup> Se o membro da equipe for um proprietário de canal compartilhado, ele poderá executar essa ação.
+### <a name="channels"></a>Canais
 
-*Para saber mais sobre as permissões para canais privados, consulte [Canais privados no Teams](private-channels.md).
-
-> [!NOTE]
-> Os proprietários podem fazer com que outros membros se tornem proprietários na opção **Exibir equipes**. Uma equipe pode ter até 100 proprietários. É recomendável ter pelo menos alguns proprietários para gerenciar a equipe, isso também evitará grupos órfãos, caso o único proprietário saia da organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
-
-## <a name="moderator-capabilities"></a>Recursos do moderador
-
-Além de outros recursos, os proprietários e membros da equipe podem ter recursos do moderador para um canal (desde que a moderação esteja habilitada para uma equipe). Os moderadores podem iniciar novas postagens em um canal e controlar se os membros da equipe podem responder às mensagens existentes do canal. Os moderadores também podem controlar se aplicativos com recursos de bots e conectores podem enviar mensagens de canal.
-
-A função de moderador é atribuída no nível do canal. Os proprietários da equipe têm recursos de moderador por padrão. Também por padrão, os membros da equipe não têm a função de moderação ativada, mas o proprietário pode conceder essa função em um canal para um membro. Dentro de um canal, os moderadores podem adicionar e remover outros moderadores.
-
-Para obter mais informações sobre os recursos do moderador, consulte [Configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
-
-## <a name="assign-a-user-role"></a>Atribuir uma função de usuário
-
-Para atribuir uma função de usuário, no Teams, selecione o nome da equipe e, em seguida, selecione Mais **opções (****...**) > **Gerenciar equipe**. Na guia **Membros**, você pode adicionar membros e escolher proprietários e moderadores (se tiver permissões suficientes). Para obter mais informações, consulte [Alterar as configurações da equipe no Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
-
-> [!NOTE]
-> A **opção Gerenciar equipe** não aparecerá para canais fixados. Selecione o nome da equipe *em Suas equipes* mais abaixo e, em seguida, selecione **Mais** opções (**...**) à direita do nome.
-
-## <a name="permissions-to-create-teams"></a>Permissões para criar equipes
-
-Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Microsoft 365 e, portanto, uma equipe no Microsoft Teams. Você pode ter um controle mais rígido e restringir a criação de novas equipes e, assim, a criação de novos grupos do Microsoft 365 ao delegar direitos de criação e gerenciamento de grupos a um conjunto de usuários. Para obter instruções, consulte [Gerenciar quem pode criar Grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+|***Tarefas de canal padrão** _ | _ *Proprietário da equipe** | **Membro da Equipe**|
+|----|----|----|
+|Canal Criar/Excluir  |     Sim    |    Sim, se habilitado pelo proprietário da equipe      |
+|Editar nome/descrição do canal    |    Sim     |     Sim, se habilitado pelo proprietário da equipe    |
+|***Tarefas de canal privado***|
+|Criar um canal    |    Sim     |    Sim, se habilitado pelo proprietário da equipe      |
+|Excluir canal    |    Sim     |    Não     |
+|Editar nome/descrição do canal |     Não    |    Não disponível     |
+|***Tarefas de canal compartilhado***
+|Criar um canal    |    Sim     |     Não    |
+|Excluir canal | Sim | Não |
+|Editar nome/descrição do canal    |    Não     |     Não    |
