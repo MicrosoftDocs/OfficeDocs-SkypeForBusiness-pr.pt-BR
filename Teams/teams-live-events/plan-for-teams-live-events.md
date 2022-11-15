@@ -21,12 +21,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 086a8bda521827ac048b8ea9928bd3a0c5e3b81f
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: a1bbc6452847182533271f4aa7c7652ff8b00ba3
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584382"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68966310"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -46,7 +46,7 @@ Estas são as licenças que devem ser atribuídas para organizar, produzir ou ap
 - **Para organizar:** Uma licença E1, E3, ou E5 da Microsoft ou do Office 365 Enterprise, **[ou]** uma licença A3 ou A5 da Microsoft ou do Office 365 Education. 
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Uma licença do Microsoft Teams - esta licença está incluída nas licenças listadas no primeiro e segundo itens.
-- Uma licença do Microsoft Stream-será necessária se você estiver planejando compartilhar o conteúdo para um aplicativo ou dispositivo externo; Confira [licenciamento do Microsoft Stream](/stream/license-overview). Uma licença do Stream não será necessária se você estiver usando os serviços mais recentes do Codificador do Teams para produzir o evento. 
+- Uma licença do Microsoft Stream-será necessária se você estiver planejando compartilhar o conteúdo para um aplicativo ou dispositivo externo; Confira [licenciamento do Microsoft Stream](/stream/license-overview). Uma licença stream não será necessária se você estiver usando os serviços mais recentes do Teams Encoder para produzir o evento. 
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
@@ -58,7 +58,7 @@ Estas são as licenças que devem ser atribuídas para organizar, produzir ou ap
 
 É importante saber que uma licença do Microsoft 365 ou do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas esse requisito depende do método de produção utilizado:
 
-- **Para eventos produzidos no Teams ou usando um Codificador Da Plataforma Teams**  O usuário deve receber uma licença do Teams.
+- **Para eventos produzidos no Teams ou usando um codificador do Teams Powered**  O usuário deve receber uma licença do Teams.
 - **Para os eventos produzidos com um aplicativo ou dispositivo externo** O usuário deve receber uma licença do Stream.
 
 > [!NOTE]
@@ -90,7 +90,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos ao vivo
 
-| Visibilidade do participante | Produção do Teams | Produção de aplicativos ou dispositivos externos | Codificador da Plataforma Teams
+| Visibilidade do participante | Produção do Teams | Produção de aplicativos ou dispositivos externos | Codificador do Teams Powered
 |------------------------------|-----------------|----------------------|----------------|
 |Público (usuários anônimos)      |  Sim            |  Não                  | Sim
 |Usuários convidados                   |  Sim<sup>1</sup>            |  Não                  |  sim            |
@@ -102,7 +102,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## <a name="teams-live-events"></a>Eventos ao vivo do Teams
 
-A tabela a seguir destaca as principais funcionalidades e recursos oferecidos em eventos ao vivo
+A tabela a seguir destaca os principais recursos e recursos oferecidos em eventos ao vivo
 
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
@@ -140,6 +140,7 @@ A tabela a seguir destaca as principais funcionalidades e recursos oferecidos em
 |Legendas em tempo real |&#x2714; |&#x2714; |&#x274C; |
 |Legendas em gravações de eventos ao vivo |&#x2714; |&#x2714; |&#x2714; |
 |Controles de DVR dos participantes (pausar, retroceder) |&#x2714; |&#x2714; |&#x2714; |
+|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
 |Suporte a eCDN de parceiro |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |&#x274C; |
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
