@@ -18,12 +18,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890060"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025153"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introdução ao treinamento de administrador do Microsoft Teams
 
@@ -61,6 +61,8 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Introdução ao sistema telefônico | [Vídeo](https://aka.ms/teams-phone-system) | [Apresentação](https://aka.ms/teams-phone-system-deck) |
 | Roteamento direto | [Vídeo 1: Planejamento para roteamento direto no Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: Configurar e gerenciar o roteamento direto no Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: Migração para Roteamento Direto no Teams](https://aka.ms/teams-dr-migrate)  | [Apresentação](https://aka.ms/teams-direct-routing-deck) |
 | Atualização do Skype for Business para o Teams | [Vídeo 1: introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: planeje sua atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: coexistência e interoperabilidade](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Apresentação](https://aka.ms/teams-upgrade-deck)|
+| Guia estratégico de implantação de dispositivos do Teams | | [Apresentação](https://aka.ms/teams-devices-deployment-playbook) |
+| Guia estratégico de implantação de telefone do Teams | | [Apresentação](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>Salas do Teams Foundations for IT & AV Pros</h2>
 
@@ -77,7 +79,6 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Módulo 7: Gerenciando Salas do Microsoft Teams, Parte 2  | [Apresentação](https://aka.ms/TeamsRoomsModule7) |
 | Módulo 8: Recursos, adoção e solução de problemas | [Apresentação](https://aka.ms/TeamsRoomsModule8)|
 | Instruções de junção de um toque |  [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Introdução aos Serviços Gerenciados Salas do Microsoft Teams | [Apresentação](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Dispositivos Android do Teams</h2>
 
