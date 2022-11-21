@@ -19,13 +19,13 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Saiba como usar e gerenciar pacotes de políticas no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+description: Saiba como usar, gerenciar e personalizar pacotes de políticas no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
+ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68877512"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69128157"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Gerenciar pacotes de políticas para o Microsoft Teams
 
@@ -36,9 +36,6 @@ Você pode usar os [pacotes de política incluídos no Teams](#policy-packages-i
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de tela da página Pacotes de política no centro de administração." lightbox="media/policy-packages-admin-center.png":::
 
 Você pode personalizar as configurações das políticas em um pacote de políticas para atender às necessidades de seus usuários. Quando você altera as configurações de políticas em um pacote, todos os usuários atribuídos a esse pacote obtêm as configurações atualizadas. Você gerencia pacotes de política usando o centro de administração do Microsoft Teams ou o PowerShell.
-
-> [!NOTE]
-> Esse recurso está disponível temporariamente em versão prévia pública para todos os clientes do Microsoft Teams. Para obter esse recurso após a visualização, cada usuário precisará da licença de complemento de Comunicações Avançadas. Para obter mais informações, consulte [Complemento de Comunicações Avançadas para o Microsoft Teams ](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>O que é um pacote de políticas?
 

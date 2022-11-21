@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: gerenciamento de parceiros para clientes.
 f1keywords: ''
-ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 56aaf61092dd1bbd61c2734be6da1732f4882e49
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842159"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046860"
 ---
 # <a name="partner-management-for-customers"></a>Gerenciamento de parceiros para clientes
 
@@ -77,7 +77,7 @@ Para gerenciar usuários na função de administrador primário, consulte [Geren
 
 ## <a name="managing-partner-roles"></a>Gerenciando funções de parceiro
 
-As funções de parceiro permitem que seu parceiro delegar responsabilidades mais granularmente para pessoal adicional. O conceito dessas funções é o mesmo descrito no [controle de acesso baseado em função](microsoft-teams-rooms-premium-rbac.md). É importante observar que as funções de parceiro são distintas de suas funções personalizadas. 
+As funções de parceiro permitem que seu parceiro delegar responsabilidades mais granularmente para pessoal adicional. O conceito dessas funções é o mesmo descrito no [controle de acesso baseado em função](rooms-pro-rbac.md). É importante observar que as funções de parceiro são distintas de suas funções personalizadas. 
 
 A **função de administrador primário** é a única função interna para cada parceiro que você adiciona. Essa função tem quase todas as permissões para as salas atribuídas a esse parceiro para o serviço TRM (consulte [Tabela 1](#table-1)). Por exemplo, se você tiver salas em todo o mundo e atribuir um parceiro para gerenciar todas as salas dos EUA, o administrador primário só poderá gerenciar e delegar permissões para essas salas. Nesse caso, os administradores primários deste Parceiro não têm visibilidade para nenhuma sala fora dos EUA. 
 
