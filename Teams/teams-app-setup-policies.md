@@ -13,19 +13,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como criar, editar e gerenciar políticas de configuração de aplicativo para fixar e instalar aplicativos e permitir que os usuários carreguem aplicativos personalizados.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b9dfe2ad2598e47175a0af433c0febac17255c09
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 4c94f0610535fa014b0f759b104dd1aef901e055
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912460"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131000"
 ---
 # <a name="use-app-setup-policies-to-pin-and-auto-install-apps-in-teams"></a>Usar políticas de configuração de aplicativo para fixar e instalar automaticamente aplicativos no Teams
 

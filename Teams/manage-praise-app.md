@@ -12,13 +12,14 @@ description: Saiba como gerenciar o aplicativo Praise no centro de administraç�
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
-ms.openlocfilehash: a14b35811158d253aa3a211521c568f23869b043
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 31a185239607c2458636dd6cadc83b7462135112
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784336"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131170"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo Praise no centro de administração do Microsoft Teams
 
@@ -38,9 +39,9 @@ O praise é habilitado por padrão para todos os usuários do Teams em sua organ
 1. No painel à esquerda do Centro de administração do Microsoft Teams, acesse **Aplicativos do Teams** > **Gerenciar aplicativos**.
 2. Na lista de aplicativos, pesquise o aplicativo Praise, selecione-o e alterne o **alternância Status** para **Bloqueado** ou **Permitido**.
 
-Tenha em mente que essa configuração afeta o aplicativo Praise e o recurso Praise no aplicativo Viva Insights no Teams.
+Tenha em mente que essa configuração afeta o aplicativo Praise e o recurso Praise no aplicativo Insights do Viva no Teams.
 
-Se você definir o Status como Bloqueado, o aplicativo Praise será bloqueado em alguns minutos para o Teams. No entanto, os elogios em Viva Insights podem levar de 7 a 9 dias para serem bloqueados.
+Se você definir o Status como Bloqueado, o aplicativo Praise será bloqueado em alguns minutos para o Teams. No entanto, os elogios em Insights do Viva podem levar de 7 a 9 dias para serem bloqueados.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar o Praise para usuários específicos em sua organização
 

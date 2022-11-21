@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como gerenciar políticas e configurações para controlar quem em sua organização pode carregar aplicativos personalizados e carregar aplicativos personalizados.
 f1.keywords:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 19f18d89ec2f423c1531639adb630992bdbdc547
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912410"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130990"
 ---
 # <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>Gerenciar aplicativos personalizados e sideload no centro de administração do Teams
 
@@ -41,9 +41,9 @@ Depois de permitir o uso de um aplicativo personalizado, os usuários finais pod
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Captura de tela de aplicativos personalizados na loja do Teams no aplicativo de desktop do Teams." lightbox="media/built-for-your-org2.png":::
 
-Como administrador do Teams, você usa políticas e configurações de aplicativo personalizadas para controlar quem em sua organização pode carregar aplicativos personalizados no Microsoft Teams. Os administradores decidem quais usuários podem carregar aplicativos personalizados e administradores e proprietários de equipe podem determinar se equipes específicas em sua organização permitem que aplicativos personalizados sejam adicionados a eles. Depois de editar a política de aplicativo personalizada, pode levar algumas horas para que as alterações entrem em vigor. Você deve ser um administrador de serviço do Administração Global ou do Teams para gerenciar essas políticas.
+Como administrador do Teams, você usa políticas e configurações de aplicativo personalizadas para controlar quem em sua organização pode carregar aplicativos personalizados no Microsoft Teams. Os administradores decidem quais usuários podem carregar aplicativos personalizados e administradores e proprietários de equipe podem determinar se equipes específicas em sua organização permitem que aplicativos personalizados sejam adicionados a eles. Depois de editar a política de aplicativo personalizada, leva algumas horas para que as alterações entrem em vigor. Você deve ser um administrador de serviço do Administração Global ou do Teams para gerenciar essas políticas.
 
-Os desenvolvedores em sua organização podem adicionar um aplicativo personalizado ao Teams carregando um pacote de aplicativo (em um arquivo .zip) diretamente para uma equipe ou no contexto pessoal. Isso é diferente de como os aplicativos são adicionados por meio da loja de aplicativos do Teams. Adicionar um aplicativo personalizado carregando um pacote de aplicativo, também conhecido como sideloading, permite que usuários específicos em sua organização testem um aplicativo antes que ele esteja pronto para ser amplamente distribuído.
+Os desenvolvedores em sua organização podem adicionar um aplicativo personalizado ao Teams carregando um pacote de aplicativo (em um arquivo .zip) diretamente para uma equipe ou no contexto pessoal. Esse método é diferente de como os aplicativos são adicionados por meio da loja de aplicativos do Teams. Adicionar um aplicativo personalizado carregando um pacote de aplicativo, também conhecido como sideloading, permite que usuários específicos em sua organização testem um aplicativo antes que ele esteja pronto para ser amplamente distribuído.
 
 <!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
 
@@ -119,7 +119,7 @@ Se essa configuração estiver ativada:
 
 ### <a name="org-wide-custom-app-setting"></a>Configuração de aplicativo personalizado em toda a organização
 
-A **configuração Permitir interação com aplicativos personalizados** em toda a organização na página [Gerenciar aplicativos](manage-apps.md) se aplica a todos na sua organização e rege se eles podem carregar ou interagir com aplicativos personalizados. Essa configuração atua como um botão mestre de ativação/desativação para as configurações de política de aplicativo personalizadas do usuário e da equipe. Ele destina-se a servir como um botão de ativação/desativação mestre durante eventos de segurança. Como tal, as configurações de política de aplicativo personalizado do usuário e da equipe não entrarão em vigor, a menos que a configuração de aplicativo personalizado em toda a organização esteja habilitada mesmo se as configurações de política de aplicativo personalizado do usuário e da equipe estiverem habilitadas.
+A **configuração Permitir interação com aplicativos personalizados** em toda a organização na página [Gerenciar aplicativos](manage-apps.md) se aplica a todos na sua organização e rege se eles podem carregar ou interagir com aplicativos personalizados. Essa configuração atua como um botão mestre de ativação/desativação para as configurações de política de aplicativo personalizadas do usuário e da equipe. Ele destina-se a servir como um botão de ativação/desativação mestre durante eventos de segurança. As configurações de política de aplicativo personalizado do usuário e da equipe só entrarão em vigor depois que você habilitar a configuração do aplicativo personalizado em toda a organização.
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Configurar a configuração de aplicativo personalizado em toda a organização
 
