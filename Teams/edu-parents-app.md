@@ -15,14 +15,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom:
+- admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4cb61038c08739afcd6a48825f8ddaa0cb7c573
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912810"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147478"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a conexão pai no Microsoft Teams para Educação
 
@@ -42,12 +44,12 @@ Aqui estão alguns recursos que os administradores de TI podem compartilhar com 
 A Conexão de Pais permite que educadores e responsáveis conversem, enviem email e chamem usando o Teams.
 
 - Os educadores podem iniciar chats com os responsáveis.
-  - Se o responsável não tiver uma conta de consumidor do Teams ou ainda não tiver ingressado no Teams, ele receberá a mensagem do educador junto com um convite por email para ir ao Teams. Isso só se aplica nos casos em que os limites de convite não foram atingidos, e o chat é um novo chat ou um chat existente que foi reentrido da Conexão Pai.
+  - Se o responsável não tiver uma conta de consumidor do Teams ou ainda não tiver ingressado no Teams, ele receberá a mensagem do educador junto com um convite por email para ir ao Teams. Isso só se aplica nos casos em que os limites de convite não foram atingidos, e o chat é um novo chat ou um chat existente que foi reentrado da Conexão Pai.
 - Ele funciona com chat supervisionado. Para obter mais informações, consulte [Usar chats supervisionados no Microsoft Teams](supervise-chats-edu.md).
   - Por padrão, os guardiões têm permissões restritas, portanto, não podem conversar com os alunos ou remover usuários de chats.
   - Essa configuração pode ser alterada pelo administrador do locatário.
-- Os educadores podem clicar no email de um guardião para enviar um email usando seu cliente de email nativo.
-- Os educadores podem clicar no número de telefone de um guardião para chamá-los no Teams.
+- Os educadores podem selecionar um email do guardião para enviar um email usando seu cliente de email nativo.
+- Os educadores podem selecionar o número de telefone de um guardião para chamá-los no Teams.
 
 > [!IMPORTANT]
 > Para clicar em chamar a funcionalidade no Teams, seu locatário precisa:
@@ -85,12 +87,14 @@ Se o guardião for removido dos registros *de um aluno* , todos os chats existen
   - Abrindo um tíquete no [Suporte](https://aka.ms/sdssupport).
 
 - Atualmente, o SDS só dá suporte à ingestão de dados baseada em CSV para contatos pai; no entanto, você pode usar [a Sincronização de API do PowerSchool](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) ou [a Sincronização de API do OneRoster](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) para todos os dados de lista e apenas adicionar contatos pai usando CSV.
-  - Crie um segundo perfil de sincronização usando o [formato SDS v1 CSV Sync](/schooldatasync/school-data-sync-format-csv-files-for-sds).
-  - Puxe os dois [arquivos Pai](/schooldatasync/parent-contact-sync-file-format) preenchidos com o restante dos arquivos v1 vazios (apenas os cabeçalhos).
+  - Crie um segundo perfil de sincronização usando o [formato CSV do SDS v1](/schooldatasync/school-data-sync-format-csv-files-for-sds) ou [o formato CSV do SDS v2.1](/schooldatasync/sds-v2.1-csv-file-format-classic).
+  - Puxe os dois [arquivos Pai](/schooldatasync/parent-contact-sync-file-format) preenchidos com o restante dos arquivos v1/v2.1 vazios (apenas os cabeçalhos).
     - User.csv
     - Guardianrelationship.csv
-      - O valor *role* precisa ser concluído para cada pai e responsável para indicar se eles *são pais ou* *responsáveis*.
-  - Para exibir um conjunto de exemplos dos arquivos CSV v1, consulte os [arquivos GitHub de Atributos Mínimos Necessários](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+      - O valor *da função* precisa ser concluído para que cada pai e responsável indique se eles são um `parent` ou `guardian`.
+        - Somente os valores de `parent` ou `guardian` têm suporte no aplicativo. Outros valores resultarão em erros.
+        - Para o formato SDS v1, ele será rotulado como **Role**, mas para o formato SDS v2.1, ele será rotulado como **relationshipRole**.
+  - Para exibir um conjunto de exemplos dos arquivos CSV, consulte os [arquivos GitHub de Atributos Mínimos Necessários](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - Se você quiser automatizar o pull nos arquivos CSV após a sincronização inicial, leia nosso [documento CSV Sincronização de Arquivos Automação](/schooldatasync/csv-file-sync-automation).
   - Para obter ajuda para configurar a sincronização de dados do SDS, entre em contato com [nossa equipe de sucesso do cliente](https://www.microsoft.com/fasttrack?rtc=1) ou [abra um tíquete de suporte](https://edusupport.microsoft.com/support?product_id=data_sync).
 
@@ -98,7 +102,10 @@ Se o guardião for removido dos registros *de um aluno* , todos os chats existen
 
 - Os proprietários da equipe de classe devem ter o chat do Teams ativado.
 - Os proprietários de equipe de classe devem ter acesso externo com **contas do Teams não gerenciadas por uma organização** ativada.
-  - Isso deve ser ativado no nível do locatário e no nível do usuário. A configuração de nível de locatário pode ser encontrada em **Usuários > Acesso Externo** no centro de administração do Teams. Essa configuração também pode ser acessada por meio do PowerShell. As políticas de acesso externo no nível do usuário só podem ser acessadas por meio do PowerShell. Confira os comandos do PowerShell abaixo para obter mais diretrizes.
+  - Isso deve ser ativado no nível do locatário e no nível do usuário. A configuração no nível do locatário pode ser encontrada em **Usuários > Acesso Externo** no centro de administração do Teams. Essa configuração também pode ser acessada por meio do PowerShell. As políticas de acesso externo no nível do usuário só podem ser acessadas por meio do PowerShell. Para obter mais informações, confira os [comandos do PowerShell abaixo](#allow-external-access-with-teams-accounts-not-managed-by-an-organization).
+- Para permitir a criação de reunião do aplicativo Conexão Pai, as seguintes políticas devem ser ativadas:
+  - [Permitir agendamento de reunião privada](meeting-policies-in-teams.md#allow-scheduling-private-meetings).
+  - [Permitir que usuários anônimos participem da reunião](meeting-policies-participants-and-guests.md#let-anonymous-people-join-a-meeting).
 
 #### <a name="parent-and-guardian-restrictions"></a>Restrições de pais e responsáveis
 
@@ -122,7 +129,7 @@ O proprietário da classe pode:
 1. Abra o cartão de perfil do guardião, selecione a reticência e **Bloquear Usuário**.
 2. Em seguida, remova o guardião do chat.
 
-O usuário bloqueado não poderá iniciar chats adicionais com o proprietário da classe.
+O usuário bloqueado não poderá iniciar outros chats com o proprietário da classe.
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>Permitir acesso externo com contas do Teams não gerenciadas por uma organização
 
@@ -130,7 +137,7 @@ Para permitir que os educadores se comuniquem com pais e responsáveis no Teams,
 
 Aqui estão as etapas para ativar o acesso externo para pais e responsáveis.
 
-1. Instale a versão prévia mais recente do módulo do Microsoft Teams PowerShell.
+1. Instale o módulo mais recente do Microsoft Teams PowerShell aqui [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -156,8 +163,8 @@ Aqui estão as etapas para ativar o acesso externo para pais e responsáveis.
 
 4. Para cada política diferente da política 'Global', verifique quais usuários têm a política atribuída.
 
-   > [!NOTE]
-   > Todos os usuários que não tiverem uma política específica atribuída voltarão à política 'Global'. Todos os novos usuários adicionados ao locatário terão a política 'Global' atribuída.
+    > [!NOTE]
+    > Todos os usuários que não tiverem uma política específica atribuída voltarão à política 'Global'. Todos os novos usuários adicionados ao locatário terão a política 'Global' atribuída.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -187,6 +194,52 @@ O aplicativo Parents é desativado por padrão, portanto, os proprietários da e
 A qualquer momento, o aplicativo pode ser desativado no nível do locatário usando [Permitir e bloquear aplicativos](manage-apps.md#allow-and-block-apps) no centro de administração do Teams. Se estiver desativado no nível do locatário, ele será bloqueado para todos os usuários, mesmo que as permissões no nível do usuário sejam ativadas.
 
 O aplicativo Parents também pode ser desativado no nível do usuário usando [Gerenciar políticas de permissão de aplicativo no Microsoft Teams](teams-app-permission-policies.md).
+
+## <a name="set-a-preferred-invitation-channel"></a>Definir um canal de convite preferencial
+
+Os administradores podem escolher email ou SMS como seu canal de convite de conexão pai preferido.
+
+As mensagens enviadas aos pais e responsáveis estarão em texto simples, sem HTML, formatação ou estilos aplicados.
+
+> [!NOTE]
+> Se você escolher o SMS como o canal preferencial para enviar convites de Conexão Pai para pais e responsáveis, esteja ciente de que:
+>
+> - Os números de telefone pai e responsável devem ser formatados pelo E.164 para convites SMS e pesquisa de perfil para funcionar.
+>   - Por exemplo, formate números de telefone como `+[country code][area code][phone number]`, como `+12223334444`.
+> - As tarifas de SMS da operadora móvel podem ser cobradas aos pais e responsáveis que recebem convites sms.
+
+### <a name="set-a-preferred-invite-channel-in-the-teams-admin-center"></a>Definir um canal de convite preferencial no centro de administração do Teams
+
+1. Entre no [centro de administração do Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
+1. Acesse **Configurações de Pais e responsáveis** da **Educação** > .
+1. No campo **Método de contato preferencial**, selecione **Email** ou **Celular – SMS**.
+1. Salve suas alterações.
+
+### <a name="set-a-preferred-invite-channel-using-powershell"></a>Definir um canal de convite preferencial usando o PowerShell
+
+1. Instale a *versão 4.9.0 ou superior* do módulo do Teams PowerShell em [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+
+1. Execute o comando abaixo e entre com credenciais de administrador.
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+1. Execute o comando abaixo para exibir o valor atual para `ParentGuardianPreferredContactMethod`.
+
+    ```powershell
+    Get-CsTeamsEducationConfiguration
+    ```
+
+1. Execute um dos comandos abaixo para alterar o valor.
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod Email
+    ```
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod SMS
+    ```
 
 ## <a name="more-information"></a>Mais informações
 
