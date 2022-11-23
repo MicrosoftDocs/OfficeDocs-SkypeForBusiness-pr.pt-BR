@@ -23,16 +23,16 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088515e6d9d4fe9e6dc893d736f7baac1148c731
-ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
+ms.openlocfilehash: 23de1b32e757df8cc1f971ad4e9bed255f95af41
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68808280"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156827"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em política do Teams para chamadas & reuniões
 
-A gravação baseada em política permite que as organizações que adotam o Microsoft Teams para chamadas e reuniões estipulou, usando uma política administrativa, quando chamadas e reuniões online devem ser registradas e capturadas automaticamente para processamento e retenção subsequentes, conforme exigido pela política corporativa ou regulatória relevante.
+A gravação baseada em política permite que as organizações que adotam Microsoft Teams para chamadas e reuniões estipulou, usando uma política administrativa, quando chamadas e reuniões online devem ser registradas e capturadas automaticamente para processamento e retenção subsequentes, conforme exigido pela política corporativa ou regulatória relevante.
 
 O Teams foi aprimorado para dar suporte à integração de soluções de gravação de terceiros, incluindo a funcionalidade da plataforma, experiências do usuário e interfaces administrativas necessárias para fornecer uma solução de ponta a ponta para configurar, gerenciar, gravar, armazenar e analisar as comunicações do Teams. As melhorias incluem APIs da plataforma de comunicações e eventos para gravação, que fornece:
 
@@ -42,7 +42,10 @@ O Teams foi aprimorado para dar suporte à integração de soluções de gravaç
 
 - Novas políticas administrativas para registro de conformidade, incluindo integração com ferramentas e políticas de chamada administrativa e reunião existentes do Teams
 
-A Gravação de Conformidade pode ser habilitada em usuários Microsoft 365 A3/A5/E3/E5/Business Premium e Office 365 A3/A5/E3/E5. 
+A Gravação de Conformidade pode ser habilitada em Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/usuários do A5/E3/E5 ou na licença do Teams Room/Common Area Phone. 
+
+> [!NOTE]
+> Atualmente, não há suporte para gravação de conformidade para serviços de chamada de emergência do E911.
 
 Os recursos de integração da solução de gravação de conformidade também foram revisados no Ignite 2019 na [sessão Registro de Conformidade e Microsoft Teams](https://myignite.microsoft.com/archives/IG19-VCE40).
 
@@ -121,14 +124,14 @@ As soluções de gravação de conformidade são integradas ao Teams, conforme m
 ## <a name="recorder"></a>Gravador
 
 O componente principal da solução de gravação de conformidade é o gravador.
-Os gravadores são criados como bots (serviços escalonáveis baseados no Azure) que [usam a plataforma de comunicações da Microsoft](/graph/cloud-communications-concept-overview) e se registram como aplicativos no Microsoft Graph. O gravador fornece a interação direta com as [APIs da plataforma de comunicação](/graph/api/resources/communications-api-overview) de chamadas e reuniões do Teams e fornece o ponto de extremidade para ingestão de mídia.
+Os gravadores são criados como bots (serviços baseados em Azure) escalonáveis que [usam a plataforma de comunicações do Microsoft](/graph/cloud-communications-concept-overview) e se registram como aplicativos com Microsoft Graph. O gravador fornece a interação direta com as [APIs da plataforma de comunicação](/graph/api/resources/communications-api-overview) de chamadas e reuniões do Teams e fornece o ponto de extremidade para ingestão de mídia.
 
 Um [aplicativo de gravador de conformidade de exemplo está disponível](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) que mostra como configurar o bot, criar a instância do aplicativo e atribuir as políticas de conformidade. O exemplo também tem exemplos sobre o uso da API para gravar interações específicas, como lidar com roteamento de [chamadas de entrada](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) , [alterar estados de gravação](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138) e [remover o usuário que está sendo gravado](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
 A documentação do grafo sobre as APIs específicas pode ser encontrada aqui para [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http) e [incomingContext](/graph/api/resources/incomingcontext).
 
 A implementação exata do serviço de gravador variará de acordo com o parceiro, mas deve ser projetada para dar suporte a vários gravadores para obter alta disponibilidade e distribuição geográfica da implantação para reduzir a latência do Teams para o gravador. Além disso, espera-se que os gravadores sejam projetados com resiliência e redundância em mente.
 
-Os parceiros devem confirmar a versão mínima necessária das APIs e SDKs de comunicação do Microsoft Graph com a Microsoft antes de enviar sua solução para certificação para garantir que todos os requisitos de integração de gravação de conformidade sejam compatíveis.
+Os parceiros devem confirmar a versão mínima necessária das APIs e SDKs de comunicações do Graph Microsoft com Microsoft antes de enviar sua solução para certificação para garantir que todos os requisitos de integração de gravação de conformidade sejam compatíveis.
 
 Dois requisitos específicos que são fundamentais para o cenário de registro de conformidade são:
 
@@ -140,7 +143,7 @@ Os requisitos de VM do Azure e do Windows só se aplicam ao componente do Teams 
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Atribuição e provisionamento da política de registro de conformidade
 
-Os administradores de TI podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de gravação de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando uma interação de comunicação ocorre. As políticas de gravação de conformidade são gerenciadas usando o [Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre [políticas](./meeting-policies-overview.md) do Microsoft Learn for Meeting, [chamando políticas e políticas](./teams-calling-policy.md)  [de grupo](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+Os administradores de TI podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de gravação de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando uma interação de comunicação ocorre. As políticas de gravação de conformidade são gerenciadas usando [Microsoft PowerShell](./teams-powershell-overview.md) e podem ser aplicadas no nível de locatário, por usuário e grupo de segurança para cada organização. Você pode encontrar mais informações sobre Microsoft [Políticas](./meeting-policies-overview.md) do Learn for Meeting, [chamando políticas e políticas](./teams-calling-policy.md) de [grupo](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 1. Crie uma instância de aplicativo em seu locatário.
 
@@ -217,9 +220,9 @@ O suporte para notificações está habilitado usando as experiências do client
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Registro de conformidade para programas de certificação do Teams
 
-Além de publicar APIs disponíveis publicamente permitindo que os parceiros desenvolvam e integrem soluções CCaaS ao Teams, desenvolvemos a gravação de conformidade do programa de certificação do Microsoft Teams para fornecer aos clientes a garantia de que a solução de cada parceiro participante foi testada e verificada para fornecer a qualidade, compatibilidade e confiabilidade que eles esperam das soluções da Microsoft.  
+Além de publicar APIs disponíveis publicamente permitindo que os parceiros desenvolvam e integrem soluções CCaaS ao Teams, desenvolvemos a gravação de conformidade para Microsoft programa de certificação do Teams para fornecer aos clientes a garantia de que a solução de cada parceiro participante foi testada e verificada para fornecer a qualidade, compatibilidade e confiabilidade que eles esperam de soluções Microsoft.  
 
-Os parceiros a seguir certificaram sua solução para o Microsoft Teams.<br/><br/>
+Os parceiros a seguir certificaram sua solução para Microsoft Teams.<br/><br/>
 
 |Parceiro|Site da solução |
 |:--|:--|
@@ -239,7 +242,7 @@ Os parceiros a seguir certificaram sua solução para o Microsoft Teams.<br/><br
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 
 <br/>
-Os parceiros a seguir estão no processo de certificar sua solução para o Microsoft Teams.<br/><br/>
+Os parceiros a seguir estão no processo de certificar sua solução para Microsoft Teams.<br/><br/>
 
 |Parceiro|Site da solução |
 |:--|:--|
