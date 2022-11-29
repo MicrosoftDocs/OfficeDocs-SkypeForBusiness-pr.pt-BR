@@ -1,5 +1,5 @@
 ---
-title: Como usar dispositivos de painéis do Microsoft Teams
+title: Como usar Microsoft dispositivos de painéis do Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -17,22 +17,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Este artigo fornece diretrizes sobre como usar dispositivos de painéis do Teams.
-ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: b5dbe92b1c2c3f08683ca58a403fdbb4e318efca
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801772"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183000"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Como usar painéis do Microsoft Teams
 
-Os painéis do Microsoft Teams são dispositivos de exibição digital compactos montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são dispositivos dedicados do Microsoft Teams que fornecem uma visão detalhada sobre o espaço de reunião e a reunião agendada. Com os indicadores de led e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado à distância. Você pode usar painéis do Teams para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
+Microsoft painéis do Teams são dispositivos de exibição digital compactos que são montados fora dos espaços de reunião, normalmente ao lado de entradas. Esses painéis touchscreen são dedicados Microsoft dispositivos do Teams que fornecem uma visão detalhada sobre o espaço de reunião e a reunião agendada. Com os indicadores de led e tela inicial codificados por cores vibrantes, você pode determinar se o espaço está disponível ou reservado à distância. Você pode usar painéis do Teams para reservar um espaço de reunião disponível para uma reunião ad hoc, no local.
 
-Os dispositivos de painéis do Teams vêm pré-instalados com o Microsoft Teams e exibem detalhes da reunião agendados por meio de calendários do Outlook ou do Teams.
+Os dispositivos de painéis do Teams vêm pré-instalados com Microsoft Teams e exibem detalhes da reunião agendados por meio de calendários do Outlook ou do Teams.
 
 Este artigo fornece diretrizes, para usuários finais e administradores, sobre como usar os dispositivos de painéis do Teams. Ele também fornece respostas para as [perguntas frequentes](#frequently-asked-questions) sobre o uso desses dispositivos.
 
-Para obter uma visão geral dos dispositivos de painéis e as diretrizes sobre como planejar, entregar e gerenciá-los em sua organização, consulte [Implantar painéis do Microsoft Teams](teams-panels.md).
+Para obter uma visão geral dos dispositivos de painéis e as diretrizes sobre como planejar, entregar e gerenciá-los em sua organização, consulte [Implantar Microsoft painéis do Teams](teams-panels.md).
 
 Para um início rápido, confira [Introdução aos painéis do Teams](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be).
 
@@ -125,7 +125,7 @@ O bloco direito na tela Inicial agora aparece em roxo e exibe o texto **Reservad
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Tela inicial mostrando que o espaço de reunião está reservado para uma reunião ad hoc.":::
 
     > [!NOTE]
-    > Se o espaço de reunião for uma Sala do Microsoft Teams, você poderá _participar_ desta reunião do Teams com os dispositivos da Sala do Microsoft Teams ou do Surface Hub.
+    > Se o espaço de reunião for um Microsoft Sala do Teams, você poderá _participar_ desta reunião do Teams com os dispositivos Microsoft Sala do Teams ou Surface Hub.
 
 ### <a name="report-a-problem"></a>Relatar um problema
 
@@ -186,7 +186,7 @@ Para acessar a opção **configurações de administrador do Teams** :
 > [!NOTE]
 > Alguns OEMs podem substituir a opção **configurações de administrador do Teams** por sua própria opção personalizada. Se você não vir a opção **configurações de administrador do Teams** , verifique a documentação do dispositivo para obter instruções sobre como acessar as configurações de administrador do painel.
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparelhar um painel do Teams com uma sala do Microsoft Teams no Android
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>Emparelhar um painel do Teams com uma sala do Teams Microsoft no Android
 
 Para emparelhar um painel do Teams e o Teams Room no Android, ambos os dispositivos devem ser conectados à mesma conta de recursos.
 
@@ -200,15 +200,18 @@ No painel do Teams, entre usando suas credenciais de administrador.
 
 As configurações de entrada e de versão da sala permitem que os usuários entrem em uma reunião nos Painéis do Teams na sala reservada no início da reunião. Se um usuário não fizer check-in dentro de um tempo definido após o horário de início da reunião, a sala será liberada e ficará disponível para outras pessoas reservarem.
 
-Quando os Painéis do Teams são emparelhados com uma Sala do Microsoft Teams no Android, as notificações de check-in podem ser habilitadas para aparecer na exibição na frente da sala quando as reuniões forem executadas com atraso.
+Quando os Painéis do Teams são emparelhados com um Microsoft Sala do Teams no Android, as notificações de check-in podem ser habilitadas para aparecer na tela frontal da sala quando as reuniões forem executadas com atraso.
 
-Para habilitar o check-in e a versão da sala, consulte [Entrada e versão da sala nos Painéis do Microsoft Teams](check-in-and-room-release.md).
+Para habilitar a liberação do check-in e da sala, consulte [Entrada e liberação de sala em Microsoft Painéis do Teams](check-in-and-room-release.md).
 
 #### <a name="enable-or-disable-check-out-manual-room-release"></a>Habilitar ou desabilitar o check-out (versão manual da sala)
 
 Quando o check-out está habilitado, os usuários finais podem usar um painel do Teams para liberar manualmente uma sala. A liberação de uma sala encerra a reserva atual e disponibiliza a sala para outras pessoas agendarem.
 
 Esse recurso está desabilitado por padrão, mas pode ser habilitado por dispositivo. Para habilitar o recurso, acesse **Configurações > Configurações do dispositivo > configurações de administrador do Teams > Reuniões** e ative **Check-out**.
+
+> [!NOTE]
+> Se uma sala for liberada antes do fim de uma reserva agendada, o organizador receberá uma mensagem de email da sala recusando-a. Isso acontece porque a sala remove a reserva de sua agenda para que ela possa ser reservada por outros usuários. A mensagem que recusa a reserva pode ser ignorada.
 
 > [!NOTE]
 > Um painel do Teams não pode ser usado para liberar uma sala se o dispositivo Salas do Teams com o qual ele está emparelhado estiver em uma chamada ativa.
@@ -231,7 +234,7 @@ Os painéis do Teams emparelhados com uma Sala do Teams no Android podem exibir 
 
 Os avisos de capacidade da sala são desabilitados por padrão, mas podem ser habilitados por dispositivo. Para habilitar o recurso, faça o seguinte:
 
-1. Siga as etapas em [Emparelhar um painel do Teams com uma Sala do Microsoft Teams no Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). O painel e o dispositivo do Teams Room devem ser conectados à mesma conta de recurso.
+1. Siga as etapas em [Emparelhar um painel do Teams com um Microsoft Sala do Teams no Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). O painel e o dispositivo do Teams Room devem ser conectados à mesma conta de recurso.
 2. Acesse **Configurações > Configurações do dispositivo > configurações de administrador do Teams > Reuniões** e ative a **notificação de ocupação da sala Max**.
 
 #### <a name="enable-or-disable-viewing-of-room-equipment"></a>Habilitar ou desabilitar a exibição de equipamentos de sala

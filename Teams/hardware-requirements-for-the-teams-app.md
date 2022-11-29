@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 3de0ed17ceee33106e3281707d90427569558922
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928501"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183010"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -44,7 +44,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Versão do .NET    |  Exige .NET 4.5 CLR ou posterior       |
 |Vídeo    |  Câmera de vídeo USB 2.0       |
 |Dispositivos    |   Câmera de notebook, microfone e alto-falantes padrão    |
-|Chamadas de vídeo e reuniões|<ul><li>Requer processador de dois núcleos. Para maior resolução de compartilhamento de vídeo/tela e taxa de quadros, um processador de quatro núcleos ou melhor é recomendado.</li> <li>Os efeitos de vídeo em tela de fundo exigem o Windows 10 ou um processador com o conjunto de instruções AVX2.</li> <li>Consulte [Recomendações do driver de codificador e decodificador de hardware](hardware-decoders-and-encoders.md) para uma lista de codificadores e decodificadores não compatíveis.</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma Sala do Microsoft Teams requer LE Bluetooth. O BLUETOOTH LE no Windows requer que o Bluetooth seja habilitado no dispositivo cliente e requer a versão de 64 bits do cliente do Teams. Este recurso não está disponível em clientes do Teams de 32 bits.</li></ul> |
+|Chamadas de vídeo e reuniões|<ul><li>Requer processador de dois núcleos. Para maior resolução de compartilhamento de vídeo/tela e taxa de quadros, um processador de quatro núcleos ou melhor é recomendado.</li> <li>Os efeitos de vídeo em tela de fundo exigem o Windows 10 ou um processador com o conjunto de instruções AVX2.</li> <li>Consulte [Recomendações do driver de codificador e decodificador de hardware](hardware-decoders-and-encoders.md) para uma lista de codificadores e decodificadores não compatíveis.</li><li>Ingressar em uma reunião usando a detecção de proximidade no Salas do Microsoft Teams requer o BLUETOOTH LE. O BLUETOOTH LE no Windows requer que o Bluetooth seja habilitado no dispositivo cliente e requer a versão de 64 bits do cliente do Teams. Este recurso não está disponível em clientes do Teams de 32 bits.</li></ul> |
 |Eventos ao vivo do Teams | Se estiver produzindo um evento do Teams em tempo real, recomendamos o uso de um computador com um processador Core i5 Kaby Lake, 4,0 GB de RAM (ou superior) e o codificador de hardware. Consulte [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md) para obter uma lista de codificadores e decodificadores **não compatíveis**. |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Requisitos de hardware para o Teams no Mac
@@ -58,7 +58,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Sistema operacional  |    Uma das três versões mais recentes do macOS. Você pode encontrar informações sobre as versões mais recentes do macOS e como atualizar a sua versão do macOS [aqui](https://support.apple.com/en-us/HT201260). Por exemplo, quando uma nova versão do macOS é lançada, a nova versão e as duas imediatamente antes dela se tornam as versões com suporte.      |
 |Vídeo  |    Webcam compatível      |
 |Voz    |  Microfone e alto-falantes compatíveis, headset com microfone ou dispositivos equivalentes.       |
-|Chamadas de vídeo e reuniões | <ul><li>Requer processador de dois núcleos. Para maior resolução de compartilhamento de vídeo/tela e taxa de quadros, um processador de quatro núcleos ou melhor é recomendado. </li><li>Ingressar em uma reunião usando a detecção de proximidade em uma Sala do Microsoft Teams requer LE Bluetooth. O Bluetooth LE requer que o Bluetooth seja habilitado no dispositivo cliente.</li></ul>
+|Chamadas de vídeo e reuniões | <ul><li>Requer processador de dois núcleos. Para maior resolução de compartilhamento de vídeo/tela e taxa de quadros, um processador de quatro núcleos ou melhor é recomendado. </li><li>Ingressar em uma reunião usando a detecção de proximidade em um Microsoft Sala do Teams requer Bluetooth LE. O Bluetooth LE requer que o Bluetooth seja habilitado no dispositivo cliente.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Requisitos de hardware para o Teams no Linux
