@@ -19,14 +19,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ca199dbe81b2636a895ca25386abf53f6277758
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: a92848867cfa10782fdbb2d465fdd44f59ab9f8d
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131330"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198473"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Introdução aos modelos de equipe no Centro de administração do Teams
 
@@ -46,7 +47,7 @@ Você pode gerenciar modelos de equipe no centro de administração do Microsoft
 Este artigo fornece uma visão geral do trabalho com modelos de equipe no centro de administração do Teams. Você aprenderá sobre as propriedades com suporte em modelos, os modelos pré-criados que fornecemos, os limites de tamanho do modelo, como criar e gerenciar modelos e muito mais.
 
 > [!NOTE]
-> Seus usuários podem [criar equipes a partir de modelos de equipe pré-criados ou personalizados](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) no aplicativo teams. Os desenvolvedores também podem criar equipes programaticamente a partir de modelos de equipe pré-criados ou personalizados usando o Microsoft Graph. Para saber mais, confira [Introdução aos modelos de equipe usando o Microsoft Graph](get-started-with-teams-templates.md).
+> Seus usuários podem [criar equipes a partir de modelos de equipe pré-criados ou personalizados](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) no aplicativo teams. Os desenvolvedores também podem criar equipes programaticamente a partir de modelos de equipe pré-criados ou personalizados usando Microsoft Graph. Para saber mais, confira [Introdução aos modelos de equipe usando Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Recursos de modelo de equipe
 
@@ -64,7 +65,7 @@ A maioria das propriedades em uma equipe é incluída e suportada por modelos de
 | Guias fixadas | |
 
 > [!NOTE]
-> Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto, verifique as informações mais atualizadas sobre propriedades com suporte.
+> Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto, verifique as informações mais atualizadas sobre as propriedades com suporte.
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Modelos de equipe pré-criados no centro de administração do Teams
 
@@ -73,7 +74,7 @@ Aqui estão os modelos de equipe pré-criados que estão disponíveis no centro 
 Você pode duplicar modelos pré-criados, mas não pode editá-los. Se você quiser alterar as propriedades em um modelo pré-criado, poderá criar um novo modelo de um existente e, em seguida, adicionar ou remover as propriedades desejadas. Lembre-se de que determinadas propriedades em alguns modelos não podem ser alteradas.
 
 > [!NOTE]
-> Um asterisco (*) indica que o modelo é um *modelo conectado do Microsoft 365*. Quando os usuários criam uma equipe usando o modelo, o modelo do SharePoint conectado é aplicado ao site e à equipe. Componentes do SharePoint, como páginas, listas e integrações do Power Platform, são adicionados automaticamente e fixados como guias para o canal Geral na equipe. Os usuários podem editar essas páginas e listas diretamente de dentro do Teams.
+> Um asterisco (*) indica que o modelo é um *modelo conectado Microsoft 365*. Quando os usuários criam uma equipe usando o modelo, o modelo do SharePoint conectado é aplicado ao site e à equipe. Componentes do SharePoint, como páginas, listas e integrações do Power Platform, são adicionados automaticamente e fixados como guias para o canal Geral na equipe. Os usuários podem editar essas páginas e listas diretamente de dentro do Teams.
 >
 > Para saber mais sobre modelos do SharePoint, consulte [Aplicar e personalizar modelos de site do SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 

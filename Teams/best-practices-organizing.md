@@ -1,5 +1,5 @@
 ---
-title: Práticas recomendadas para organizar equipes
+title: Melhores práticas para organizar equipes
 ms.reviewer: pbethi
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,13 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: bfaf40e383f5690641b28e833bf03e6f12c0023a
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562750"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198533"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Práticas recomendadas para organizar equipes no Microsoft Teams
 
@@ -47,7 +49,7 @@ Saiba mais sobre como [trabalhar em equipes](https://support.office.com/article/
 
 Prática recomendada: crie equipes com um conjunto maior de membros e mais canais. Minimize o número de equipes que exigem a participação de uma pessoa. Os canais de uma equipe devem ser considerados tópicos ou fluxos de trabalho para ajudar a equipe a organizar seu trabalho para alcançar seus objetivos comuns. Não há um número específico de canais que devem ser criados. Cada equipe deve criar canais com base em seu trabalho, prioridades e estilo.
 
-Use canais padrão de conversas em que todos da equipe possam contribuir. Aproveite os canais [privados quando](private-channels.md) precisar de um espaço de colaboração focado com um grupo selecionado de membros da equipe. Use [canais compartilhados](shared-channels.md) quando precisar colaborar com pessoas de fora da equipe.
+Use canais padrão de conversas em que todos da equipe possam contribuir. Aproveite os [canais privados](private-channels.md) quando precisar de um espaço de colaboração focado com um grupo seleto de membros da equipe. Use [canais compartilhados](shared-channels.md) quando precisar colaborar com pessoas de fora da equipe.
 
 Talvez organizações maiores possam querer criar equipes como "modelos" para padronizar as informações que capturam tipos específicos de trabalho. Isso é útil à gestão estratégica de clientes, gestão de sala de aula, cenários de assistência médica, gestão de reclamações, gestão de incidentes e outros cenários adequados a um setor específico. Para saber mais, consulte [Introdução aos modelos do Teams](get-started-with-teams-templates.md) e [modelos do Teams para empresas de pequeno e médio porte](smb-templates.md).
 

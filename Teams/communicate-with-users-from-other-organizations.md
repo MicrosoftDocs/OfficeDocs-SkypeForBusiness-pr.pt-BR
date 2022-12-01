@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Aprenda como fazer uma chamada, bater papo, encontrar e adicionar usuários de fora da organização no Microsoft Teams usando o acesso externo e o acesso para convidado.
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418460"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198313"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Use o acesso para convidado e o acesso externo para colaborar com pessoas de fora da sua organização
 
@@ -44,14 +45,14 @@ Por padrão, o acesso externo é habilitado para todos os domínios. Você pode 
 
 O acesso externo está disponível para os seguintes locatários:
 - Contas corporativas gerenciadas
-     - Somente entre comerciais
-     - Somente entre GCC
+     - Somente entre comercial
+     - Somente entre o GCC
      - Somente entre GCC High
      - Somente entre DOD
 - Contas não gerenciadas (pessoais)
      - Somente entre contas comerciais e pessoais
-- Skype for Business interoperabilidade
-     - Entre e entre Comercial, GCC, GCC High e DoD
+- interoperabilidade Skype for Business
+     - Entre comercial, GCC, GCC High e DoD
 - Interoperabilidade do Skype
      - Somente entre Comercial e Skype
 
@@ -116,7 +117,7 @@ As tabelas a seguir mostram as diferenças entre o uso de acesso externo (federa
 <sup>1</sup> Desde que o usuário tenha sido adicionado como convidado e esteja conectado com a conta de convidado.<br>
 <sup>2</sup> Apenas por endereço de email ou de protocolo SIP.<br>
 <sup>3</sup> Suporte para bate-papo 1:1 Somente usuários do Teams para o Teams a partir de duas organizações diferentes. <br>
-<sup>4</sup> Por padrão, os participantes externos não podem visualizar os números de telefone dos participantes discados. Se você quiser manter a privacidade desses números de telefone, selecione **Tons** para **Tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelo Microsoft Teams). Para saber mais, consulte [Ativar ou desativar anúncios de entrada e saída de reuniões no Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Permitido por padrão, mas pode ser desativado pela administração do Teams
 
 ## <a name="related-topics"></a>Tópicos relacionados

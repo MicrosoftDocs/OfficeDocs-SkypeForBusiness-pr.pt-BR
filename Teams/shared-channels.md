@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 - m365initiative-securecollab
@@ -18,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: b7f151b68bf37ccf3e14e3a442b4d2b1c6acc52f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869667"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199143"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -69,7 +70,7 @@ Quando uma equipe é arquivada, o compartilhamento individual permanecerá intac
 
 O proprietário de um canal privado não pode ser removido pelo cliente do Teams se ele for o último proprietário de um ou mais canais compartilhados.
 
-Se o último proprietário do canal compartilhado deixar sua organização ou se ele for removido do grupo do Microsoft 365 associado à equipe, um membro do canal compartilhado de sua organização será promovido automaticamente para ser o proprietário do canal compartilhado. Se não houver membros da sua organização para promover, o canal compartilhado permanecerá sem proprietários. Um administrador do Teams terá que atribuir manualmente um proprietário de canal. Considere adicionar mais de um proprietário para evitar essa situação.
+Se o último proprietário do canal compartilhado deixar sua organização ou se ele for removido do grupo Microsoft 365 associado à equipe, um membro do canal compartilhado de sua organização será promovido automaticamente para ser o proprietário do canal compartilhado. Se não houver membros da sua organização para promover, o canal compartilhado permanecerá sem proprietários. Um administrador do Teams terá que atribuir manualmente um proprietário de canal. Considere adicionar mais de um proprietário para evitar essa situação.
 
 Os convidados - incluindo aqueles convertidos em membros (em sua propriedade de tipo de usuário) - não podem ser adicionados a um canal compartilhado.
 

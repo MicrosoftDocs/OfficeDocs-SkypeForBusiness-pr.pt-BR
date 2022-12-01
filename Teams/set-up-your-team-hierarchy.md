@@ -12,14 +12,15 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: dc4e7e88e855432f17c7daed9584e20e0e4739f1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 93b8b06238b0f6e15ab5fac5dcb0caeece819d9e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842109"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198353"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configure a hierarquia de segmentação de sua equipe
 
@@ -150,7 +151,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ## <a name="apply-your-hierarchy"></a>Aplicar sua hierarquia
 
 > [!NOTE]
-> Para executar esta etapa, você deve usar cmdlets do Microsoft Teams PowerShell. Você deve usar a versão 4.6.0 ou posterior dos cmdlets do Microsoft Teams. Esse requisito também se aplica aos clientes do GCC (Government Community Cloud).
+> Para executar esta etapa, você deve usar Microsoft cmdlets do Teams PowerShell. Você deve usar a versão 4.6.0 ou posterior dos cmdlets do Microsoft Teams. Esse requisito também se aplica aos clientes do GCC (Government Community Cloud).
 
 Depois de definir sua hierarquia no arquivo CSV do esquema, você estará pronto para carregá-la no Teams. Para fazer isso, execute o comando a seguir. Você deve ser um administrador global ou administrador de serviço do Teams para fazer essa etapa.
 
@@ -198,7 +199,7 @@ Ao confirmar a exclusão, a mensagem de status ainda exibirá o esquema anterior
 ### <a name="install-the-teams-powershell-module"></a>Instalar o módulo do Teams PowerShell
 
 > [!IMPORTANT]
-> Para executar esta etapa, você deve instalar e usar o módulo do Teams PowerShell do [Galeria do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para obter etapas sobre como instalar o módulo, consulte [Instalar o módulo do Microsoft Teams PowerShell](teams-powershell-install.md).
+> Para executar esta etapa, você deve instalar e usar o módulo do Teams PowerShell do [Galeria do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para obter etapas sobre como instalar o módulo, consulte [Instalar Microsoft módulo do Teams PowerShell](teams-powershell-install.md).
 
 ### <a name="sample-script"></a>Script de exemplo
 
@@ -268,7 +269,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 Verifique se você está usando o TeamId correto para a equipe no arquivo CSV do esquema. O TeamId deve ser o mesmo que a ID de Grupo do grupo Microsoft 365 que apoia a equipe. Você pode pesquisar a ID de grupo da equipe no centro de administração do Microsoft Teams.
 
-1. Na navegação à esquerda do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), acesse **Equipes** > **gerenciar equipes**.
+1. Na navegação à esquerda do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), acesse **Equipes** > **Gerenciar equipes**.
 2. Se a coluna **ID do grupo** não for exibida na tabela, selecione **Editar colunas** no canto superior direito da tabela e ative a **ID do grupo**.
 3. Localize a equipe na lista e localize a ID do grupo.
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -15,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Aprenda a gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: 56a2daf53c362accec8059b11fba400547a7b6ff
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: ddf7956486db8bbd483ddde9d51c568450a7fe45
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869556"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199113"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
@@ -60,7 +61,7 @@ Uma equipe pode ter até 100 marcas, até 200 membros da equipe podem ser atribu
 
 Por padrão, os proprietários da equipe podem criar, editar e excluir marcas. Você pode alterar a configuração **Quem pode gerenciar marcas** para permitir que proprietários de equipe e membros da equipe gerenciem marcas ou desative marcas para sua organização.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Configurações do** **Teams** \> Teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Configurações do Teams** \> Teams.
 
 2. Em **Marcação**, ao lado de **Quem pode gerenciar marcas**, selecione uma das seguintes opções:
 
@@ -72,7 +73,7 @@ Por padrão, os proprietários da equipe podem criar, editar e excluir marcas. V
 
 Você pode configurar as seguintes configurações de marcas para controlar como as marcas são usadas em toda a sua organização.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Configurações do** **Teams** \> Teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **Configurações do Teams** \> Teams.
 
 2. Em **Marcação**, defina o seguinte, dependendo das necessidades da sua organização.
 

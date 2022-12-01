@@ -15,16 +15,17 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 79a9472286a7e08e8c6dce4c4f40d76b7e4f2b4e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792780"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198963"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 
@@ -69,9 +70,9 @@ Se a equipe não for necessária no futuro, você pode excluí-la, em vez de arq
 
 ## <a name="restore-a-deleted-team"></a>Restaurar uma equipe excluída
 
-Siga estas etapas para restaurar uma equipe excluída restaurando o grupo microsoft 365 associado à equipe. Restaurar o grupo microsoft 365 para uma equipe restaura o conteúdo da equipe, incluindo guias, canais padrão e canais privados e suas coleções de sites associadas.
+Siga estas etapas para restaurar uma equipe excluída restaurando o grupo Microsoft 365 associado à equipe. Restaurar o grupo Microsoft 365 para uma equipe restaura o conteúdo da equipe, incluindo guias, canais padrão e canais privados e suas coleções de sites associadas.
 
-Por padrão, um grupo do Microsoft 365 excluído é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão temporária" porque você pode restaurar o grupo. Para saber mais, confira [Restaurar um grupo excluído](/microsoft-365/admin/create-groups/restore-deleted-group).
+Por padrão, um grupo excluído Microsoft 365 é mantido por 30 dias. Esse período de 30 dias é chamado de "exclusão temporária" porque você pode restaurar o grupo. Para saber mais, confira [Restaurar um grupo excluído](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar o módulo AzureADPreview
 
@@ -92,7 +93,7 @@ Por padrão, um grupo do Microsoft 365 excluído é mantido por 30 dias. Esse pe
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurar o grupo excluído do Microsoft 365
+### <a name="restore-the-deleted-microsoft-365-group"></a>Restaurar o grupo excluído Microsoft 365
 
 1. Conecte-se ao Azure AD executando o seguinte:
 
@@ -102,7 +103,7 @@ Por padrão, um grupo do Microsoft 365 excluído é mantido por 30 dias. Esse pe
 
     Quando solicitado, entre usando sua conta de administrador e senha.
 
-1. Execute o seguinte para exibir uma lista de todos os grupos do Microsoft 365 excluídos que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $True** se você tiver muitos grupos.
+1. Execute o seguinte para exibir uma lista de todos os grupos de Microsoft 365 excluídos que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $True** se você tiver muitos grupos.
 
     ```PowerShell
     Get-AzureADMSDeletedGroup

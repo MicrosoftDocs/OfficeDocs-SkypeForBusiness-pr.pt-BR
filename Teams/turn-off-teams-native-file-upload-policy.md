@@ -1,5 +1,5 @@
 ---
-title: Desativar a política de Upload de Arquivo Nativo do Teams
+title: Desativar a política de Carregamento de Arquivos Nativos do Teams
 author: danieasmith
 ms.author: danismith
 manager: serdars
@@ -12,59 +12,60 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 1993371099d0712d21106987f21575e85e181ad7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c7d5c89c780fa5c9286f5d7f7d2304f2e6c6220
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268923"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198523"
 ---
-# <a name="turn-off-teams-native-file-upload-policy"></a>Desativar a política de Upload de Arquivo Nativo do Teams
+# <a name="turn-off-teams-native-file-upload-policy"></a>Desativar a política de Carregamento de Arquivos Nativos do Teams
 
-O Microsoft Teams usa o OneDrive e o SharePoint para armazenar e compartilhar conteúdo, mas algumas organizações e usuários podem preferir usar provedores de armazenamento de terceiros.  
+Microsoft o Teams usa o OneDrive e o SharePoint para armazenar e compartilhar conteúdo, mas algumas organizações e usuários podem preferir usar provedores de armazenamento de terceiros.  
 
-Se sua organização escolher um terceiro para o armazenamento de conteúdo, `NativeFileEntryPoints` você precisará desativar o parâmetro na política de Arquivos do Teams. Esse parâmetro é habilitado por padrão, que mostra a opção de carregar conteúdo do OneDrive ou do SharePoint para chats ou canais do Teams.
+Se sua organização escolher um terceiro para armazenamento de conteúdo, você precisará desativar o `NativeFileEntryPoints` parâmetro na política Arquivos do Teams. Esse parâmetro está habilitado por padrão, o que mostra a opção de carregar conteúdo do OneDrive ou do SharePoint para chats ou canais do Teams.
 
-Este artigo ajudará você a criar, definir, atribuir e remover o `NativeFileEntryPoints` parâmetro usando o PowerShell.
+Este artigo ajudará você a criar, definir, atribuir e remover o parâmetro usando o `NativeFileEntryPoints` PowerShell.
 
 >[!NOTE]
->Quando a política de Arquivos do Teams estiver desativada, os usuários não verão pontos de acesso para o OneDrive e o SharePoint no Teams, mas a criação de novas equipes e canais continuará a disparar a geração de bibliotecas do SharePoint correspondentes.
+>Quando a política Arquivos do Teams for desativada, os usuários não verão pontos de acesso para o OneDrive e o SharePoint no Teams, mas a criação de novas equipes e canais continuará a disparar a geração de bibliotecas correspondentes do SharePoint.
 
-## <a name="prepare-to-update-the-teams-files-policy"></a>Preparar-se para atualizar a política de Arquivos do Teams
+## <a name="prepare-to-update-the-teams-files-policy"></a>Prepare-se para atualizar a política de Arquivos do Teams
 
-### <a name="set-up-microsoft-powershell"></a>Configurar o Microsoft PowerShell
+### <a name="set-up-microsoft-powershell"></a>Configurar Microsoft PowerShell
 
-Atualmente, essa política não pode ser alterada no centro de administração do Teams. O administrador de locatários do Microsoft 365 da sua organização precisará fazer as alterações usando os cmdlets do PowerShell detalhados mais adiante neste artigo.
+Atualmente, essa política não pode ser alterada no centro de administração do Teams. O administrador de locatários Microsoft 365 da sua organização terá que fazer as alterações usando os cmdlets do PowerShell detalhados posteriormente neste artigo.
 
-Saiba como instalar o módulo do PowerShell Teams usando o Galeria do PowerShell lendo [Instalar o Módulo do PowerShell do Microsoft Teams](teams-powershell-install.md).
+Saiba como instalar o módulo do PowerShell Teams usando Galeria do PowerShell lendo [Instalar Microsoft Módulo do Teams PowerShell](teams-powershell-install.md).
 
-Para instalar ou baixar o módulo do PowerShell do Teams, [Galeria do PowerShell para o Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
+Para instalar ou baixar o módulo do Teams PowerShell, consulte [Galeria do PowerShell para Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
 
-Para obter mais informações sobre como configurar o PowerShell para gerenciamento do Teams, consulte [Gerenciar Equipes com o Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
+Para obter mais informações sobre como configurar o gerenciamento do PowerShell para Teams, consulte [Gerenciar o Teams com Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
 
 ### <a name="allow-third-party-apps-in-teams-admin-center"></a>Permitir aplicativos de terceiros no Teams Administração Center
 
-Esta etapa não é necessária para alterar a política de Arquivos do Teams, mas é necessária quando você está pronto para integrar seu provedor de armazenamento de terceiros na experiência do Teams dos usuários.
+Essa etapa não é necessária para alterar a política de Arquivos do Teams, mas é necessária quando você estiver pronto para integrar seu provedor de armazenamento de terceiros na experiência do Teams dos usuários.
 
-O administrador de locatários do Microsoft 365 precisará habilitar a política "Permitir aplicativos de terceiros" no centro de administração do Teams.
+Seu Microsoft administrador de locatário 365 precisará habilitar a política "Permitir aplicativos de terceiros" no centro de administração do Teams.
 
-Para saber como permitir aplicativos personalizados ou de terceiros, consulte Gerenciar configurações de aplicativos em toda a organização em Gerenciar seus aplicativos no Centro de administração [do Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
+Para saber como permitir aplicativos personalizados ou de terceiros, consulte Gerenciar configurações de aplicativos em toda a organização em [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
 
-## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>Desativar NativeFileEntryPoints para todo o locatário
+## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>Desative NativeFileEntryPoints para todo o locatário
 
-Definir o `-Identity` parâmetro para `Global` aplicar as configurações de política a todos os usuários em sua organização.
+Definir o `-Identity` parâmetro para `Global` aplicará as configurações de política a todos os usuários da sua organização.
 
-### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>Cmdlet de política do PowerShell de exemplo para todo o locatário
+### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>Cmdlet de política do PowerShell de exemplo para locatário inteiro
 
-Este exemplo de comando do PowerShell definirá o`NativeFileEntryPoints` parâmetro para `Disabled` todo o locatário.
+Este comando do PowerShell de exemplo definirá o`NativeFileEntryPoints` parâmetro como para `Disabled` todo o locatário.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 ```
 
-### <a name="check-the-status-of-your-tenant"></a>Verificar o status do seu locatário  
+### <a name="check-the-status-of-your-tenant"></a>Verifique o status do seu locatário  
 
 Para exibir o status atual da política de Arquivos do Teams do locatário, use o `Get-CsTeamsFilesPolicy` cmdlet.
 
@@ -74,7 +75,7 @@ Get-CsTeamsFilesPolicy -Identity Global
 
 ### <a name="turn-on-or-turn-off-native-file-upload-point"></a>Ativar ou desativar o ponto de carregamento de arquivo nativo
 
-Para ativar ou desativar o ponto de carregamento de arquivo nativo para todo o locatário, defina `NativeFileEntryPoints` o parâmetro como um ou `Enabled` `Disabled`.
+Para ativar ou desativar o ponto de carregamento de arquivo nativo para todo o locatário, defina o `NativeFileEntryPoints` parâmetro como `Enabled` ou `Disabled`.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Enabled
@@ -86,7 +87,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="remove-the-policy-for-your-users"></a>Remover a política para seus usuários
 
-Para remover a política de Arquivos do Teams para seus usuários, use o `Remove-CsTeamsFilesPolicy` cmdlet.
+Para remover a política Arquivos do Teams para seus usuários, use o `Remove-CsTeamsFilesPolicy` cmdlet.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity Global
@@ -94,13 +95,13 @@ Remove-CsTeamsFilesPolicy -Identity Global
 
 ## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>Desativar NativeFileEntryPoints para usuários específicos
 
-Você também pode atualizar a política de Arquivos do Teams para usuários específicos criando uma nova cadeia de caracteres de política de Arquivos do Teams `-Identity` e atribuindo a política recém-criada aos usuários.
+Você também pode atualizar a política de Arquivos do Teams para usuários específicos criando uma nova cadeia de caracteres de política `-Identity` do Teams Files e atribuindo a política recém-criada aos usuários.
 
 ### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>Cmdlet de política do PowerShell de exemplo para usuários específicos
 
-Este exemplo de comando do PowerShell criará um novo `CsTeamsFilesPolicy` com o nome e `UserPolicy` o parâmetro `NativeFileEntryPoints` definido como `Disabled``-Identity` .
+Este comando do PowerShell de exemplo criará um novo com o `-Identity` nome como e o `NativeFileEntryPoints` parâmetro definido como `UserPolicy` `Disabled`.`CsTeamsFilesPolicy`
 
-Quando um usuário é atribuído com `CsTeamsFilesPolicy` `-Identity UserPolicy`, seus pontos de entrada de arquivo nativo serão desativados.
+Quando um usuário recebe o com `-Identity UserPolicy`, seus `CsTeamsFilesPolicy` pontos de entrada de arquivo nativo serão desativados.
 
 ```powershell
 New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
@@ -116,7 +117,7 @@ Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 
 ### <a name="update-the-policy"></a>Atualizar a política
 
-Se você precisar alterar a configuração da nova Política de Arquivos do `UserPolicy`Teams, use o `Set-CsTeamsFilePolicy` cmdlet.
+Se você precisar alterar a configuração da nova Política `UserPolicy`de Arquivos do Teams, use o `Set-CsTeamsFilePolicy` cmdlet.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
@@ -124,10 +125,10 @@ Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
 
 ### <a name="remove-the-policy-for-the-complete-list-of-users"></a>Remover a política para a lista completa de usuários
 
-Para remover a política de todos os usuários atribuídos à política de Arquivos do `UserPolicy`Teams, use o `Remove-CsTeamsFilesPolicy` cmdlet.
+Para remover a política de todos os usuários atribuídos à política `UserPolicy`Arquivos do Teams, use o `Remove-CsTeamsFilesPolicy` cmdlet.
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy
 ```
 >[!NOTE]
-> Depois de fazer alterações na política, aguarde até 12 horas para que as alterações sejam mostradas nos clientes do Teams dos usuários.
+> Depois de fazer alterações na política, permita até 12 horas para que as alterações sejam exibidas nos clientes do Teams dos usuários.

@@ -18,13 +18,15 @@ ms.collection:
 - ContentEnagagementFY23
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee17d482c311a4bdd92ebad55e29058104a89b98
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: 5acc918c4fbe3994a93020e7b4b09db4ab1671f3
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890050"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198913"
 ---
 # <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>Usar equipes de toda a organização no Microsoft Teams para ajudar todos a colaborar
 
@@ -46,7 +48,7 @@ Há duas maneiras de criar uma equipe em toda a organização:
 
 Quando uma equipe em toda a organização é criada, todos os administradores globais e administradores do Teams são adicionados como proprietários de equipe e todos os usuários ativos são adicionados como membros da equipe. Os membros da equipe não podem deixar uma equipe em toda a organização, mas os proprietários da equipe podem adicionar ou remover usuários manualmente, se necessário. Quando o Teams adiciona ou remove alguém automaticamente, uma notificação é enviada para o canal Geral.
 
-Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, ele recebe uma licença exploratória do Microsoft Teams. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md).
+Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, ele recebe uma licença exploratória Microsoft Teams. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md).
 
 Os seguintes tipos de contas não serão adicionados à sua equipe em toda a organização:
 

@@ -17,21 +17,23 @@ ms.collection:
 - m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 description: Este artigo descreve as funcionalidades do Microsoft Teams disponíveis para convidados.
-ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
-ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
+ms.openlocfilehash: 960688d49f634ff5665fe4e1da2436e9bad669ac
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63556627"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198903"
 ---
 # <a name="guest-experience-in-teams"></a>Experiência de convidado no Teams
 
 Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensagem de boas-vindas por e-mail. Essa mensagem contém algumas informações sobre a equipe e o que esperar agora que ele é um membro. O convidado deve aceitar o convite selecionando **Abrir Microsoft Teams** na mensagem de e-mail antes de poder acessar a equipe e seus canais.
 
 > [!NOTE]
-> Depois que um convidado é adicionado a uma equipe, pode levar algumas horas para que ele tenha acesso.
+> Depois que um convidado é adicionado a uma equipe, pode levar algumas horas até que eles tenham acesso.
     
 ![Captura de tela mostrando um exemplo de uma mensagem de email de boas-vindas.](media/guest-experience-image1.png)
     
@@ -40,8 +42,8 @@ Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que 
 ![Captura de tela mostrando a marca que indica o número de convidados na equipe.](media/guest-experience-image2.png)
 
 Confira estes vídeos sobre a experiência de convidado no Teams:
-- [Participar de uma Teams como convidado](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Trabalhar com convidados externos em uma Teams reunião](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
+- [Participar de uma reunião do Teams como convidado](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Trabalhar com convidados externos em uma reunião do Teams](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Recursos do convidado e membro da equipe
 

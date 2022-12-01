@@ -1,34 +1,35 @@
 ---
-title: Teams e Skype interoperabilidade
+title: Interoperabilidade do Teams e do Skype
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
-description: Saiba mais sobre os recursos de interoperabilidade entre Teams usuários em sua organização e Skype (Consumidor).
+description: Saiba mais sobre os recursos de interoperabilidade entre usuários do Teams em sua organização e usuários do Skype (Consumidor).
 ms.localizationpriority: medium
-ms.openlocfilehash: dd5bb05f1206baf94f2651899d0c49edbf6fe902
-ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
+ms.openlocfilehash: e8f6d102a3b66d5140473d0f2ab11b5af97fc78f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66167265"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198673"
 ---
-# <a name="teams-and-skype-interoperability"></a>Teams e Skype interoperabilidade
+# <a name="teams-and-skype-interoperability"></a>Interoperabilidade do Teams e do Skype
 
-Este artigo fornece uma visão geral dos recursos de interoperabilidade entre Microsoft Teams e Skype (Consumidor). Saiba como Teams usuários e Skype podem se comunicar por meio de chats e chamadas e os controles de administrador que se aplicam.
+Este artigo fornece uma visão geral dos recursos de interoperabilidade entre Microsoft Teams e Skype (Consumidor). Saiba como os usuários do Teams e os usuários do Skype podem se comunicar por meio de chats e chamadas e dos controles de administrador que se aplicam.
 
-Teams usuários em sua organização podem conversar e chamar Skype usuários usando seu endereço de email e vice-versa.
+Os usuários do Teams em sua organização podem conversar e chamar usuários do Skype usando seu endereço de email e vice-versa.
 
-- Teams usuários podem pesquisar e iniciar uma conversa somente texto um-para-um ou uma chamada de áudio/vídeo com um Skype usuário.
-- Skype usuários podem pesquisar e iniciar uma conversa somente texto um-para-um ou uma chamada de áudio/vídeo com um Teams usuário.
+- Os usuários do Teams podem pesquisar e iniciar uma conversa de texto individual ou uma chamada de áudio/vídeo com um usuário do Skype.
+- Os usuários do Skype podem pesquisar e iniciar uma conversa de texto individual ou uma chamada de áudio/vídeo com um usuário do Teams.
 
-Esses recursos estão disponíveis na área de trabalho, web e clientes móveis (Android e iOS) para clientes Teams e Skype. Para obter uma experiência ideal, recomendamos Skype versão 8.58 e posterior.
+Esses recursos estão disponíveis na área de trabalho, na Web e nos clientes móveis (Android e iOS) para o Teams e o Skype. Para uma experiência ideal, recomendamos o Skype versão 8.58 e posterior.
 
 > [!NOTE]
 > Os recursos de interoperabilidade do Teams e do Skype discutidos neste artigo não estão disponíveis em implantações do GCC, do GCC High ou do DOD ou em ambientes de nuvem privada.
@@ -37,43 +38,43 @@ Esses recursos estão disponíveis na área de trabalho, web e clientes móveis 
 
 Aqui está uma visão geral da experiência de chat e chamada.
 
-### <a name="teams-user-starts-a-chat-or-call-with-a-skype-user"></a>Teams usuário inicia um chat ou chamada com um Skype usuário
+### <a name="teams-user-starts-a-chat-or-call-with-a-skype-user"></a>O usuário do Teams inicia um chat ou uma chamada com um usuário do Skype
 
-Teams usuários podem pesquisar um usuário Skype digitando seu endereço de email em um novo chat ou na barra de pesquisa.  O Teams usuário pode selecionar o Skype nos resultados da pesquisa para iniciar um chat ou uma chamada com ele.
+Os usuários do Teams podem procurar um usuário do Skype digitando seu endereço de email em um novo chat ou na barra de pesquisa.  Em seguida, o usuário do Teams pode selecionar o usuário do Skype nos resultados da pesquisa para iniciar um chat ou chamar com eles.
 
-Um Skype usuário pode optar por não aparecer nos resultados da pesquisa. Nesse caso, eles não aparecerão nos resultados da pesquisa Teams e Teams os usuários não poderão encontrá-los.
+Um usuário do Skype pode optar por não aparecer nos resultados da pesquisa. Nesse caso, eles não aparecerão nos resultados da pesquisa nos usuários do Teams e do Teams não poderão encontrá-los.
 
-### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype usuário inicia um chat ou chamada com um Teams usuário
+### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>O usuário do Skype inicia um chat ou uma chamada com um usuário do Teams
 
-Skype usuários podem pesquisar e iniciar um chat com um Teams usando seu endereço de email. O Teams usuário é notificado de que tem uma nova mensagem de um Skype usuário e precisa primeiro aceitar a mensagem antes de poder responder a ela.
+Os usuários do Skype podem pesquisar e iniciar um chat com um usuário do Teams usando seu endereço de email. O usuário do Teams é notificado de que tem uma nova mensagem de um usuário do Skype e precisa primeiro aceitar a mensagem antes de poder responder a ela.
 
-- Se o Teams o usuário selecionar **Aceitar, a** conversa será aceita e ambos os usuários poderão conversar e ligar um para o outro.
-- Se o Teams selecionar **Bloquear, a** conversa será bloqueada e as mensagens e chamadas subsequentes desse Skype usuário serão bloqueadas.
-- Se o Teams selecionar Exibir **mensagens, a** mensagem será exibida no Teams, o que ajuda o usuário a decidir se deseja aceitar ou bloquear a conversa.
+- Se o usuário do Teams selecionar **Aceitar**, a conversa será aceita e ambos os usuários poderão conversar e chamar uns aos outros.
+- Se o usuário do Teams selecionar **Bloquear**, a conversa será bloqueada e as mensagens e chamadas subsequentes desse usuário do Skype serão bloqueadas.
+- Se o usuário do Teams selecionar **Exibir mensagens**, a mensagem será exibida no Teams, o que ajudará o usuário a decidir se aceita ou bloqueia a conversa.
 
 > [!NOTE]
-> Se você atualizou do Skype for Business para o Teams e seus usuários estão no modo Somente Teams, chats e chamadas de usuários do Skype para usuários Teams são entregues Teams. Se os usuários estão no modo Ilhas, chats e chamadas de Skype usuários para Teams usuários são entregues Skype for Business.
+> Se você tiver atualizado de Skype for Business para o Teams e seus usuários estiverem no modo Somente Do Teams, chats e chamadas de usuários do Skype para usuários do Teams serão entregues ao Teams. Se os usuários estiverem no modo Ilhas, chats e chamadas de usuários do Skype para usuários do Teams serão entregues para Skype for Business.
 
-### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Teams usuário bloqueia ou desbloqueia um Skype usuário
+### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>O usuário do Teams bloqueia ou desbloqueia um usuário do Skype
 
-Depois que Teams usuário aceita ou bloqueia a solicitação de conversa inicial de um Skype usuário, ele pode optar por bloquear ou desbloquear essa pessoa a qualquer momento. Eles podem fazer isso na conversa ou em suas configurações de privacidade Teams. Skype os usuários não saberão que foram bloqueados.
+Depois que um usuário do Teams aceitar ou bloquear a solicitação de conversa inicial de um usuário do Skype, ele poderá optar por bloquear ou desbloquear essa pessoa a qualquer momento. Eles podem fazer isso na conversa ou em suas configurações de privacidade no Teams. Os usuários do Skype não saberão que foram bloqueados.
 
-Usuários Skype bloqueados, juntamente com outras pessoas e números de telefone PSTN (rede telefônica pública comuada) bloqueados por um usuário do Teams, são listados na lista de contatos bloqueados do usuário no Teams.
+Os usuários bloqueados do Skype, juntamente com outras pessoas e números de telefone PSTN (rede telefônica pública) bloqueados por um usuário do Teams, estão listados na lista de contatos bloqueados do usuário no Teams.
 
 ## <a name="limitations"></a>Limitações
 
-- As conversas são somente texto. Isso significa que não há formatação avançada, @mentions, emojis ou outros recursos de chat disponíveis em uma experiência de [chat Teams nativa](native-chat-for-external-users.md).
-- As conversas são somente um para um. Não há suporte para chats em grupo.
-- Teams usuários e Skype usuários não podem ver a presença uns dos outros.
-- A pesquisa Skype usuários usando sua ID Skype ou número de telefone não é compatível.
-- Skype usuários não podem chamar Teams usuários que configuraram o encaminhamento de chamadas para o número de outro usuário, o número de um representante ou um número PSTN (Rede Telefônica Pública Comugada).  Há suporte apenas para a caixa postal.
+- As conversas são somente texto. Isso significa que não há nenhuma formatação avançada, @mentions, emojis ou outros recursos de chat disponíveis em uma [experiência de chat do Teams nativo](native-chat-for-external-users.md).
+- As conversas são somente um a um. Não há suporte para chats em grupo.
+- Os usuários do Teams e os usuários do Skype não podem ver a presença uns dos outros.
+- Não há suporte para procurar usuários do Skype usando a ID do Skype ou o número de telefone.
+- Os usuários do Skype não podem chamar usuários do Teams que configuraram o encaminhamento de chamadas para o número de outro usuário, o número de um delegado ou um número PSTN (Rede Telefônica Comutada Pública).  Há suporte apenas para caixa postal.
 - Não há suporte para escalonamento de interoperabilidade, chamadas de grupo e reuniões.
-- Não há suporte para a capacidade de um representante chamar um Skype em nome de um Teams usuário.
-- Não há suporte para o compartilhamento de tela com o chat.
+- Não há suporte para a capacidade de um delegado chamar um usuário do Skype em nome de um usuário do Teams.
+- Não há suporte para o compartilhamento de tela com chat.
 
-## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Definir se Teams usuários podem se comunicar com Skype usuários
+## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Definir se os usuários do Teams podem se comunicar com usuários do Skype
 
-Como administrador, você usa o centro de administração do Microsoft Teams ou o PowerShell para definir configurações de acesso externo para controlar se Teams usuários em sua organização podem se comunicar com Skype usuários. Por padrão, essa funcionalidade é ativada para novos locatários. No entanto, há um pré-requisito de que o seguinte registro SRV DNS precise ser configurado pelo Administração de TI, se ainda não estiver disponível para seu domínio, por exemplo, _sipfederationtls._tcp.contoso.com.  
+Como administrador, você usa o centro de administração do Microsoft Teams ou o PowerShell para definir configurações de acesso externo para controlar se os usuários do Teams em sua organização podem se comunicar com usuários do Skype. Por padrão, essa funcionalidade é ativada para novos locatários. No entanto, há um pré-requisito para que o seguinte registro DNS SRV precise ser configurado pelo Administração de TI se ainda não estiver disponível para seu domínio, por exemplo, _sipfederationtls._tcp.contoso.com.  
 
 **Serviço**: sipfederationtls<br/>
 **Protocolo**: TCP<br/>
@@ -82,18 +83,18 @@ Como administrador, você usa o centro de administração do Microsoft Teams ou 
 **Porta**: 5061<br/>
 **Destino**: sipfed.online.lync.com
 
-Se você tiver atualizado do Skype for Business para o Teams, as configurações de comunicações externas que você definiu no centro de administração do Skype for Business serão migradas para Teams.
+Se você tiver atualizado de Skype for Business para o Teams, as configurações de comunicação externa configuradas no centro de administração Skype for Business serão migradas para o Teams.
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>No Centro de administração do Microsoft Teams
 
-No centro Microsoft Teams administradores,  >  acesse Acesso externo aos usuários **e, em** seguida, ative os usuários que podem se **comunicar com Skype usuários**. Para obter diretrizes passo a passo sobre como definir essa e outras configurações de acesso externo, consulte Gerenciar o acesso externo [no Teams](./manage-external-access.md#allow-or-block-domains).
+No centro de administração do Microsoft Teams, acesse **Usuários** > **Acesso externo** e ative **Os usuários podem se comunicar com usuários do Skype**. Para obter diretrizes passo a passo sobre como configurar essa e outras configurações de acesso externo, consulte [Gerenciar acesso externo no Teams](./manage-external-access.md#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Usando o Windows PowerShell
 
 Siga este procedimento: 
-1. Use o cmdlet [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) ```EnablePublicCloudAccess``` junto com o parâmetro para controlar se Teams usuários podem se comunicar com Skype usuários. Definir o parâmetro para permitir ```true``` que Teams usuários se comuniquem com Skype usuários. Você pode usar o parâmetro ```EnablePublicCloudAudioVideoAccess``` para habilitar/desabilitar chamadas de áudio/vídeo.
+1. Use o cmdlet [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) junto com o parâmetro para controlar se os usuários do ```EnablePublicCloudAccess``` Teams podem se comunicar com usuários do Skype. Definir o parâmetro para ```true``` permitir que os usuários do Teams se comuniquem com usuários do Skype. Você pode usar o ```EnablePublicCloudAudioVideoAccess``` parâmetro para habilitar/desabilitar chamadas de áudio/vídeo.
 
-2. Use o cmdlet ```Provider``` ```"WindowsLive"``` [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) junto com o parâmetro definido para que Teams usuários possam se comunicar com Skype usuários.
+2. Use o cmdlet [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) junto com o parâmetro definido para ```"WindowsLive"``` que os usuários do ```Provider``` Teams possam se comunicar com usuários do Skype.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

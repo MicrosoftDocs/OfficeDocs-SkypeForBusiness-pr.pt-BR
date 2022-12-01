@@ -8,7 +8,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
 description: Conheça os estados de Presença no Microsoft Teams e as configurações administrativas para o recurso de Presença.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -17,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 2f2969af142828ca5d478f29f2afee319ada91b7
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283092"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198583"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
@@ -47,13 +49,13 @@ A presença faz parte do perfil de um usuário do Microsoft Teams (e por todo o 
 || ![Círculo vermelho aberto, indica Ocupado.](media/Presence_Busy_OOF.png) Em uma chamada, ausência temporária|
 |  ![Círculo vermelho com linha branca, indica Não Incomodar.](media/Presence_DND.png) Não incomodar ||
 || ![Círculo vermelho com linha branca, indica Em Apresentação.](media/Presence_DND.png) Em Apresentação|
-|| ![Círculo vermelho com linha branca, indica Focado.](media/Presence_DND.png) Focado. O foco acontece quando os usuários agendam o tempo de foco no MyAnalytics/Insights em seus calendários.|
+|| ![Círculo vermelho com linha branca, indica Focado.](media/Presence_DND.png) Focado. Foco acontece quando os usuários agendam tempo de foco em MyAnalytics/Insights em seus calendários.|
 | ![Ícone de relógio amarelo, indica ausente.](media/Presence_Away.png) Ausente| ![Ícone de relógio amarelo, indica ausente.](media/Presence_Away.png) Ausente|
 || ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente Visto por Último *horário*|
 |![Ícone de relógio amarelo, indica ausente, volto logo.](media/Presence_Away.png) Volto logo| |
-|![Círculo cinza com x, indica Offline.](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Desligada. Quando os usuários não estão conectados em nenhum dos seus dispositivos por alguns minutos, eles aparecem invisíveis. |
+|![Círculo cinza com x, indica Offline.](media/Presence_Offline.png) Invisível|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Offline.  Quando os usuários não estão conectados em algum dispositivo por alguns minutos, eles aparecem como invisíveis. |
 || ![Círculo cinza aberto, indica status desconhecido.](media/Presence_Unknown.png) Status desconhecido|
-|| ![Círculo púrpura com seta, indica Ausência Temporária.](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é definida. |
+|| ![Círculo púrpura com seta, indica Ausência Temporária.](media/Presence_OOF.png) Ausência Temporária. A Ausência Temporária é usada quando uma resposta automática é configurada. |
 
  > [!NOTE]
  > Para usuários que têm sua caixa de correio hospedada no local, são esperados atrasos de presença de uma hora (máximo).
@@ -91,7 +93,7 @@ Os estados configurados pelo usuário têm configurações de expiração padrã
 
 As seguintes configurações de administrador do Skype for Business são diferentes no Teams:
 
-- No Teams, o compartilhamento de presença sempre é habilitado para usuários na organização, a menos que o modo de privacidade esteja habilitado. No modo privacidade, a presença não é visível para usuários externos.
+- No Teams, o compartilhamento de presença é sempre habilitado para usuários na organização, a menos que o modo de privacidade esteja habilitado. No modo Privacidade, a presença não é visível para usuários externos.
 - O compartilhamento de presença com todos (incluindo serviços federados) está sempre habilitado para usuários no Teams. Sua lista de contatos (se tiverem uma no Skype for Business) é visível em **Chat > Contatos** ou em **Chamadas > Contatos**.
 - Os recursos de cliente Não Incomodar e Exceções estão sempre habilitados para usuários no Teams.
 - A integração do calendário (inclui ausência temporária e outras informações de calendário) está sempre habilitada para os usuários quando o Teams é integrado com o Outlook.

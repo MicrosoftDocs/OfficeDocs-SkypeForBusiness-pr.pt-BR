@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -14,39 +15,39 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba mais sobre a experiência Teams de chat nativa para usuários de acesso externo (federado) no Microsoft Teams onde ambos os usuários estão no modo de atualização do TeamsOnly.
-ms.openlocfilehash: 992b4dd28d17f1ba8abf7217d622da18813c3118
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+description: Saiba mais sobre a experiência de chat do Teams nativo para usuários de acesso externo (federado) no Microsoft Teams, onde ambos os usuários estão no modo de atualização do TeamsOnly.
+ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138227"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198873"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Experiência de chat nativa para usuários externos (federados) no Microsoft Teams
 
-Quando um Microsoft Teams usuário está conversando com um usuário externo (federado), a experiência de chat é limitada ao texto. No entanto, se o usuário do Teams e a pessoa em outra organização estão no modo de atualização do TeamsOnly, você pode ter uma "experiência de chat nativa Teams", que inclui formatação rica, @mentions e outros recursos de chat.
+Quando um usuário do Microsoft Teams está conversando com um usuário externo (federado), a experiência de chat é limitada ao texto. No entanto, se o usuário do Teams e a pessoa em outra organização estiverem no modo de atualização do TeamsOnly, você poderá ter uma "experiência de chat do Native-Teams", que inclui formatação avançada, @mentions e outros recursos de chat.
 
-A experiência de chat nativa para pessoas em outras organizações está Teams locatários, mas nem todas as pessoas são qualificadas. Para ter uma experiência de chat nativa, o remetente e o receptor precisam ser configurados para o modo de atualização do TeamsOnly. Para saber mais sobre políticas de atualização, leia [Configurando suas configurações de coexistência e atualização.](setting-your-coexistence-and-upgrade-settings.md)
+A experiência de chat nativo para pessoas em outras organizações está ativada para todos os locatários do Teams, mas nem todas as pessoas são qualificadas. Para oferecer uma experiência de chat nativo, o remetente e o receptor precisam ser configurados para o modo de atualização TeamsOnly. Para saber mais sobre políticas de atualização, leia [Configurando as configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md).
 
-Para ver uma lista de recursos para usuários de acesso externo Teams, consulte [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+Para ver uma lista de recursos para usuários de acesso externo no Teams, confira [Comparar acesso externo e convidado](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
 
-## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Como saber se estou em um chat nativo?
+## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Como fazer sabe se estou em uma conversa nativa?
 
-Se você só puder trocar texto em seu chat com pessoas em outras organizações, então você está em um chat padrão de acesso externo (federado). Se você tiver outras funcionalidades de chat, incluindo formatação, @mentions, emojis, etc., então você está em um chat Teams nativo. 
+Se você só puder trocar texto no chat com pessoas em outras organizações, você estará em um chat padrão de acesso externo (federado). Se você tiver outras funcionalidades de chat, incluindo formatação, @mentions, emojis etc., você estará em um chat nativo do Teams. 
 
-Teams verifica periodicamente o modo de atualização para pessoas em outras organizações e, quando encontrar um deles executando o Teams no modo de atualização do TeamsOnly, ele solicitará que você alternar para um chat nativo Teams e bloquear o chat original.
+O Teams verifica periodicamente o modo de atualização para pessoas em outras organizações e, quando encontrar um deles executando o Teams no modo de atualização teamsOnly, ele solicitará que você alterne para um chat nativo do Teams e bloqueie o chat original.
 
-Quando você alterna para um chat Teams nativo, Teams não mescla as duas conversas. Em vez disso, você verá ambos os chats no feed de chat. O novo chat Teams nativo está ativo, mas o chat antigo somente texto está bloqueado.
+Quando você muda para um chat nativo do Teams, o Teams não mescla as duas conversas. Em vez disso, você verá os dois chats no feed de chat. O novo chat nativo do Teams está ativo, mas o chat antigo, somente texto, está bloqueado.
 
 
 
-## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>O que acontece se um usuário não estiver mais Teams modo Somente?
+## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>O que acontecerá se um usuário não estiver mais no modo Somente do Teams?
 
-Se você estava tendo uma conversa Teams nativa com pessoas em outras organizações e, em seguida, uma de vocês é trocada para fora do modo de atualização do TeamsOnly, o Teams bloqueia o chat nativo do Teams e fornece um link para um chat limitado somente texto. Você não poderá continuar no chat Teams nativo. Você ainda pode ler o chat Teams nativo, mas não pode continuar a conversa lá.
+Se você estiver tendo um chat nativo do Teams com pessoas em outras organizações e um de vocês for desligado do modo de atualização do TeamsOnly, o Teams bloqueará o chat nativo do Teams e fornecerá um link para um chat limitado e somente texto. Você não poderá continuar no chat nativo do Teams. Você ainda pode ler o chat nativo do Teams, mas não pode continuar a conversa lá.
 
-Se Teams encontrar um chat antigo somente de texto com essa pessoa, ele irá reavivar esse chat. Caso contrário, Teams criar um novo chat somente texto.
+Se o Teams encontrar um chat antigo somente texto com essa pessoa, ele reviverá esse chat. Caso contrário, o Teams cria um novo chat somente texto.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Gerenciar acesso externo em Teams](manage-external-access.md)
+[Gerenciar o acesso externo no Teams](manage-external-access.md)
