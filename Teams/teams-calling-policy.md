@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8efff8e93dd95ef2b1199b6a766f175e9b2afa4
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68892599"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245691"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Chamada e encaminhamento de chamadas no Teams
+# <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>Políticas de chamada: recursos de chamada e encaminhamento de chamadas no Teams
 
 No Microsoft Teams, as políticas de chamada controlam quais recursos de encaminhamento de chamadas e chamadas estão disponíveis para os usuários. As políticas de chamada determinam se um usuário pode fazer chamadas privadas, usar encaminhamento de chamadas ou toque simultâneo para outros usuários ou números de telefone externos, rotear chamadas para a caixa postal, enviar chamadas para grupos de chamadas, usar delegação para chamadas de entrada e saída e assim por diante.
 

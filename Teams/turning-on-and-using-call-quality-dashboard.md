@@ -1,5 +1,5 @@
 ---
-title: Configurar o Painel de Qualidade de Chamada (CQD)
+title: Configuração do CQD (Painel de Qualidade de Chamada)
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,61 +22,61 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: Saiba mais sobre como ativar e usar o Painel de Qualidade de Chamadas e obter relatórios resumidos de qualidade de chamadas.
-ms.openlocfilehash: 052b38634d17aa6d0086c80ed2a638a7818a729f
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+description: Saiba mais sobre como ativar e usar o Painel de Qualidade de Chamada e obter relatórios de resumo da qualidade das chamadas.
+ms.openlocfilehash: 5f3b9fbb42199892136569ac179907b18da4e460
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66797376"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245727"
 ---
-# <a name="set-up-call-quality-dashboard"></a>Configurar o Painel de Qualidade de Chamadas
+# <a name="set-up-the-call-quality-dashboard"></a>Configurar o Painel de Qualidade de Chamada
 
-Abra o Painel de Qualidade de Chamada da Microsoft (CQD) em [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (entre com suas credenciais de administrador). Ou vá para o Centro de administração do Teams e selecione **Painel de Qualidade de Chamada & análise** > **.**
+Abra o CQD (Painel de Qualidade de Chamada) Microsoft em [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (entre com suas credenciais de administrador). Ou vá para o centro de administração do Teams e selecione **Análise & relatórios** > **Chame Painel de Qualidade**.
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Captura de tela do botão Painel de qualidade de chamada no Centro de administração do Teams.":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Captura de tela do botão Painel de qualidade chamar no centro de administração do Teams.":::
 
-Na página que é aberta, clique **em Entrar e** insira suas informações de conta de Administrador Global ou de Administrador do Microsoft Teams. Após a primeira vez que você entrar, o CQD começará a coletar e processar dados. Tenha em mente que pode levar uma ou mais horas para processar dados suficientes para exibir resultados significativos nos relatórios.
+Na página aberta, clique **em Entrar** e insira sua conta de Administrador Global ou Microsoft informações da conta do Administrador do Teams. Após a primeira vez que você entrar, o CQD começará a coletar e processar dados. Tenha em mente que pode levar uma ou mais horas para processar dados suficientes para exibir resultados significativos nos relatórios.
 
-O CQD mostra a qualidade de chamadas e reuniões, em nível de toda a organização, para o Microsoft Teams, o Skype for Business Online e o Skype for Business Server 2019. 
+O CQD mostra a qualidade da chamada e da reunião, em um nível de organização, para Microsoft Teams, Skype for Business Online e Skype for Business Server 2019. 
 
 > [!IMPORTANT]
-> Para usar o CQD com Skype for Business Server 2019, você precisará configurar [o Conector de Dados de Chamada](/skypeforbusiness/hybrid/configure-call-data-connector). Consulte [Plan Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) antes de começar.
+> Para usar o CQD com Skype for Business Server 2019, você precisará [configurar o Conector de Dados de Chamada](/skypeforbusiness/hybrid/configure-call-data-connector). Consulte [Planejar Conector de Dados de Chamada](/skypeforbusiness/hybrid/plan-call-data-connector) antes de começar.
 
 
 ## <a name="assign-admin-roles-for-access-to-cqd"></a>Atribuir funções de administrador para acesso ao CQD
 
-[Atribua](/microsoft-365/admin/add-users/about-admin-roles) funções para acessar o CQD às pessoas que precisam usá-lo.
+Atribua [funções](/microsoft-365/admin/add-users/about-admin-roles) para acessar o CQD às pessoas que precisam usá-lo.
 
-Se você quiser que usuários não administradores (como engenheiros de suporte e agentes de assistência técnica) usem o Painel de Qualidade de Chamadas, atribua a esses usuários uma das funções a seguir, que fornece acesso ao CQD. 
+Se você quiser que usuários não administradores (como engenheiros de suporte e agentes auxiliares) usem o Painel de Qualidade de Chamada, você pode atribuir a esses usuários uma das funções a seguir, que dá acesso ao CQD. 
 
 
-|&nbsp;  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de compilação  |
+|&nbsp;  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Administrador Global     |Sim         |Sim         |Sim         |Sim         |
 |Administrador do Teams     |Sim         |Sim         |Sim         |Sim         |
 |Administrador de Comunicações de Equipes     |Sim         |Sim         |Sim         |Sim         |
 |Engenheiro de Suporte de Comunicações de Equipes     |Sim         |Sim         |Sim         |Não         |
 |Especialista em Suporte de Comunicações do Teams     |Sim         |Não         |Sim         |Não         |
-|Skype for Business administrador     |Sim         |Sim         |Sim         |Sim         |
+|Administrador Skype for Business     |Sim         |Sim         |Sim         |Sim         |
 |Leitor Global |Sim         |Sim         |Sim         |Não         |
-|Leitor de Relatórios<sup>1</sup>     |Sim         |Não         |Sim         |Não         |
+|Leitor<sup>de Relatórios 1</sup>     |Sim         |Não         |Sim         |Não         |
 
-<sup>1</sup> Além de ler relatórios do CQD, o Leitor de Relatórios pode exibir todos os relatórios [](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) de atividades no centro de administração e todos os relatórios do pacote de conteúdo de Adoção do [Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> Além de ler relatórios do CQD, o Leitor de Relatórios pode exibir todos os [relatórios de atividade](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do [pacote de conteúdo de adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
-> Se você não estiver vendo [EUII (](CQD-data-and-reports.md#euii-data) informações de identificação do usuário final) e tiver uma das funções que têm permissão para ver essas informações, tenha em mente que o CQD mantém apenas EUII por 28 dias. Qualquer coisa com mais de 28 dias é excluída.
+> Se você não estiver vendo [EUII (informações identificáveis do usuário final)](CQD-data-and-reports.md#euii-data) e tiver uma das funções permitidas para ver essas informações, tenha em mente que o CQD só mantém EUII por 28 dias. Qualquer coisa com mais de 28 dias é excluída.
 
-Para obter mais informações sobre essas funções, consulte [About Office 365 admin.](/office365/admin/add-users/about-admin-roles)
+Para obter mais informações sobre essas funções, consulte [Sobre Office 365 funções de administrador](/office365/admin/add-users/about-admin-roles).
 
 
 Após a primeira vez que você entrar, o CQD começará a coletar e processar dados.
 
-## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar o Power BI para analisar dados CQD
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar o Power BI para analisar dados do CQD
 
-Novidade em janeiro de 2020: [baixe modelos de consulta do Power BI para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Modelos personalizáveis do Power BI que você pode usar para analisar e relatar seus dados CQD.
+Novidades em janeiro de 2020: [baixe modelos de consulta do Power BI para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Modelos personalizáveis do Power BI que você pode usar para analisar e relatar seus dados do CQD.
 
-Leia [Use o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md) para saber mais.
+Leia [Usar o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md) para saber mais.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -84,7 +84,7 @@ Leia [Use o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md) p
 
 [O que é CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Carregar dados de locatário e de criação](CQD-upload-tenant-building-data.md)
+[Carregar dados de locatário e de construção](CQD-upload-tenant-building-data.md)
 
 [Dados e relatórios do CQD](CQD-data-and-reports.md)
 
@@ -94,4 +94,4 @@ Leia [Use o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md) p
 
 [Classificação de fluxo no CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Usar o Power BI para analisar dados CQD](CQD-Power-BI-query-templates.md)
+[Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)
