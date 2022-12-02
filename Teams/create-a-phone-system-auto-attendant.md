@@ -1,5 +1,5 @@
 ---
-title: Configurar um atendente automático para o Microsoft Teams
+title: Configurar um assistente automático Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,15 +20,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: Saiba como configurar e gerenciar atendentes automáticos no Microsoft Teams.
-ms.openlocfilehash: 68a3364130fa344786cffbc642fe77e0b7a6a2cd
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+description: Saiba como configurar um assistente automático do Microsoft Teams.
+ms.openlocfilehash: 7f90aa2d61540895601d09c2f7eab9b133a6ee1a
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139135"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242415"
 ---
-# <a name="set-up-an-auto-attendant"></a>Configurar um atendente automático
+# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurar um assistente automático Microsoft Teams
 
 Os atendentes automáticos permitem que as pessoas chamem sua organização e naveguem por um sistema de menus para falar com o departamento certo, chamar fila, pessoa ou um operador. Você pode criar atendentes automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell.
 
@@ -39,8 +39,8 @@ Os atendentes automáticos podem redirecionar chamadas, com base na entrada dos 
 - **Operador** – o operador definido para o atendente automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos desta lista.
 - **Pessoa na organização** – uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado localmente usando Skype for Business Server.
 - **Aplicativo de voz** – outro atendente automático ou uma fila de chamadas. (Escolha a conta de recurso associada à fila de atendimento automático ou chamada ao escolher este destino.)
-- **Caixa postal** – a caixa de correio de voz associada a um grupo do Microsoft 365 que você especifica. Você pode escolher se deseja transcrições de caixa postal e "Por favor, deixe uma mensagem após o tom". prompt do sistema.
-  - No M365 Administração Center, habilite "Permitir que pessoas fora da organização enviem um email para essa equipe" para o grupo do Microsoft 365 que você especificar
+- **Caixa postal** – a caixa de correio de voz associada a um grupo Microsoft 365 que você especifica. Você pode escolher se deseja transcrições de caixa postal e "Por favor, deixe uma mensagem após o tom". prompt do sistema.
+  - No Centro de Administração M365, habilite "Permitir que pessoas fora da organização enviem email para essa equipe" para o grupo Microsoft 365 que você especificar
 - **Número de telefone externo** – qualquer número de telefone. Confira [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Comunicado (arquivo de áudio)** – Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio no . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB. O sistema reproduz o anúncio e retorna ao menu de atendimento automático.
 - **Comunicado (Digitado)** – Digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o anúncio e retorna ao menu de atendimento automático.
@@ -199,7 +199,7 @@ Depois de adicionar todas as suas horas de férias, selecione **Avançar**.
 
 O *escopo de discagem* define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários da sua organização que são usuários online ou hospedados localmente usando Skype for Business Server.
 
-Você pode incluir ou excluir usuários específicos selecionando **grupos de usuários personalizados** em **Incluir** ou **Excluir** e escolhendo um ou mais grupos do Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
+Você pode incluir ou excluir usuários específicos selecionando **grupos de usuários personalizados** em **Incluir** ou **Excluir** e escolhendo um ou mais Microsoft 365 grupos, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
 
 Se um usuário estiver em ambas as listas, ele será excluído do diretório.
 

@@ -22,12 +22,12 @@ description: Seu administrador do Teams ou de TI pode configurar as reuniões ex
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d1cb230b362ca3c38c9986d54f222a903cb06eed
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198563"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242425"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gerenciar reuniões externas e chat no Microsoft Teams
 
@@ -55,7 +55,9 @@ O Centro de administração do Teams controla o acesso externo no nível da orga
 > [!NOTE]
 > Os usuários do Teams podem adicionar aplicativos ao hospedar reuniões ou chats com pessoas de outras organizações. Eles também podem usar aplicativos compartilhados por pessoas de outras organizações quando ingressarem em reuniões ou chats hospedados por essas organizações. As políticas de dados da organização do usuário de hospedagem, assim como as práticas de compartilhamento de dados de qualquer aplicativo de terceiros compartilhado pela organização desse usuário, serão aplicadas.
 
-## <a name="allow-or-block-domains"></a>Permitir ou bloquear domínios
+## <a name="specify-trusted-organizations"></a>Especificar organizações confiáveis
+
+Você pode permitir ou bloquear determinados domínios para definir quais organizações sua organização confia para reuniões externas e chat. (Observe que as outras organizações também precisarão permitir o domínio da sua organização.)
 
 Se adicionar domínios bloqueados, todos os outros domínios serão permitidos; mas se adicionar domínios permitidos, todos os outros domínios serão bloqueados. A exceção a esta regra é se participantes anônimos são permitidos nas reuniões. Há quatro cenários para configurar o acesso externo no Centro de administração do Teams (**Usuários** > **Acesso externo**):
 
@@ -70,7 +72,7 @@ Se adicionar domínios bloqueados, todos os outros domínios serão permitidos; 
 - **Bloquear todos os domínios externos** - Impede que as pessoas na sua organização localizem, chamem, conversem e configurem reuniões com pessoas externas à sua organização em qualquer domínio.
 
 > [!NOTE]
-> Os domínios permitidos ou bloqueados só se aplicam às reuniões se o acesso anônimo às reuniões estiver "desabilitado".
+> Pessoas de domínios bloqueados ainda podem ingressar na reunião anonimamente se o acesso anônimo for permitido.
 
 ![Captura de tela das configurações de domínios externos.](./media/external-access-domain-settings.png)
 

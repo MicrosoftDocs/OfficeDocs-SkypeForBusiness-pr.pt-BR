@@ -11,20 +11,20 @@ ms.collection:
 ms.reviewer: ''
 search.appverid: MET150
 f1keywords: ''
-description: Aprenda as medidas de privacidade, conformidade e purview tomadas pela Microsoft em relação à Educação ou ao Coach de Carreira da EDU.
+description: Aprenda as medidas de privacidade, conformidade e purview tomadas por Microsoft em relação à Educação ou ao Coach de Carreira da EDU.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0f28381aad61cbe7fecf21e189bc5ab278ce3008
-ms.sourcegitcommit: 9ea1ed450ba89e9cbc094018a832bd25c08e92e4
+ms.openlocfilehash: 1a21f3337ca9255572c25fd152f928c6444dc317
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68825676"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242485"
 ---
 # <a name="career-coach-data-and-compliance"></a>Dados e conformidade do Career Coach
 
-Este artigo discute como usar a funcionalidade no aplicativo, bem como outras ferramentas para ajudá-lo a encontrar e agir sobre dados pessoais ou informações pessoais para responder a DSRs (Solicitação de Assunto de Dados) em conformidade com suas obrigações de RGPD. O Career Coach classifica amplamente os dados em duas categorias: conteúdo do cliente e logs gerados pelo sistema. No Career Coach, o conteúdo do cliente inclui dados de usuário, dados de configuração de locatário e dados de atividade do aluno, enquanto os logs gerados pelo sistema incluem logs e dados relacionados gerados pela Microsoft que ajudam a Microsoft a fornecer serviços corporativos aos usuários.
+Este artigo discute como usar a funcionalidade no aplicativo, bem como outras ferramentas para ajudá-lo a encontrar e agir sobre dados pessoais ou informações pessoais para responder a DSRs (Solicitação de Assunto de Dados) em conformidade com suas obrigações de RGPD. O Career Coach classifica amplamente os dados em duas categorias: conteúdo do cliente e logs gerados pelo sistema. No Career Coach, o conteúdo do cliente inclui dados do usuário, dados de configuração de locatário e dados de atividade do aluno, enquanto os logs gerados pelo sistema incluem logs e dados relacionados gerados por Microsoft que ajudam Microsoft fornecer serviços corporativos aos usuários.
 
 ## <a name="customer-content"></a>Conteúdo do cliente
 
@@ -41,7 +41,7 @@ Siga estas etapas para excluir dados do usuário do Career Coach:
     1. Todos os dados do usuário para o locatário.
     2. Dados do usuário para um usuário específico. Inclua o OID do usuário (identificadores de objeto) como parte da solicitação de exclusão.
 3. Depois de arquivado, o tíquete de suporte será abordado após uma semana para atender à política de retenção mínima da conformidade. Você pode cancelar a operação durante esse tempo.
-4. Após uma semana, a equipe do Career Coach exclui todos os dados relacionados ao locatário. O suporte da Microsoft monitora o tíquete e notificará você depois que o processo de exclusão for concluído **, em no máximo 30 dias**.
+4. Após uma semana, a equipe do Career Coach exclui todos os dados relacionados ao locatário. Microsoft suporte monitora o tíquete e notificará você depois que o processo de exclusão for concluído **, em no máximo 30 dias**.
 
 #### <a name="exporting-user-data"></a>Exportando dados de usuário
 
@@ -61,7 +61,7 @@ Siga estas etapas para excluir dados de configuração de locatário do Career C
 
 1. Um administrador global deve [abrir um tíquete de suporte](https://edusupport.microsoft.com/support?product_id=career_coach) informando claramente a solicitação para excluir os dados de configuração do seu locatário.  **Não há capacidade de limitar o conjunto de dados ou a janela de tempo da exclusão**.
 1. Depois de arquivado, o tíquete de suporte será abordado após uma semana para atender à política de retenção mínima da conformidade. Você pode cancelar a operação durante esse tempo.
-1. Após uma semana, a equipe do Career Coach exclui todos os dados relacionados ao locatário. O suporte da Microsoft monitora o tíquete e notificará você depois que o processo de exclusão for concluído **, em no máximo 30 dias**.
+1. Após uma semana, a equipe do Career Coach exclui todos os dados relacionados ao locatário. Microsoft suporte monitora o tíquete e notificará você depois que o processo de exclusão for concluído **, em no máximo 30 dias**.
 
 ### <a name="student-activity-data"></a>Dados da atividade do aluno
 
@@ -73,22 +73,22 @@ Para remover dados de atividade do aluno para um indivíduo ou locatário, siga 
 
 ## <a name="system-generated-logs"></a>Logs gerados pelo sistema
 
-Os logs gerados pelo sistema incluem logs e dados relacionados gerados pela Microsoft que ajudam a Microsoft a fornecer serviços corporativos aos usuários. Os logs gerados pelo sistema contêm principalmente dados pseudonymizados, como identificadores exclusivos (normalmente um número gerado pelo sistema) que não podem identificar uma pessoa individual, mas são usados para fornecer os serviços corporativos aos usuários. Exemplos desses dados incluem:
+Os logs gerados pelo sistema incluem logs e dados relacionados gerados por Microsoft que ajudam Microsoft fornecer serviços corporativos aos usuários. Os logs gerados pelo sistema contêm principalmente dados pseudonymizados, como identificadores exclusivos (normalmente um número gerado pelo sistema) que não podem identificar uma pessoa individual, mas são usados para fornecer os serviços corporativos aos usuários. Exemplos desses dados incluem:
 
 - Dados de uso do produto e do serviço, como logs de atividades do usuário.
 - Solicitações de pesquisa de usuário e dados de consulta.
 - Dados gerados por produtos e serviços como um produto da funcionalidade e interação do sistema por usuários ou outros sistemas.
 
 > [!NOTE]
-> Não há suporte para a capacidade de restringir ou corrigir dados em logs gerados pelo sistema. Os dados em logs gerados pelo sistema constituem ações factuais realizadas na nuvem e nos dados de diagnóstico da Microsoft, e modificações nesses dados comprometeriam o registro histórico de ações e aumentariam os riscos de fraude e segurança. O Career Coach mantém logs gerados pelo sistema por 30 dias.
+> Não há suporte para a capacidade de restringir ou corrigir dados em logs gerados pelo sistema. Os dados em logs gerados pelo sistema constituem ações factuais realizadas no Microsoft dados de nuvem e diagnóstico, e modificações nesses dados comprometeriam o registro histórico de ações e aumentariam os riscos de fraude e segurança. O Career Coach mantém logs gerados pelo sistema por 30 dias.
 
 ### <a name="exporting-and-deleting-system-generated-logs"></a>Exportar e excluir logs gerados pelo sistema
 
-O administrador global do locatário é a única pessoa em sua organização que pode acessar logs gerados pelo sistema associados ao uso de Office 365 serviços e aplicativos de um determinado usuário. O Career Coach se alinha [ao processo de acesso e exportação de logs gerados pelo sistema fornecidos pelo Office 365](https://learn.microsoft.com/compliance/regulatory/gdpr-dsr-Office365#accessing-and-exporting-system-generated-logs).
+O administrador global do locatário é a única pessoa em sua organização que pode acessar logs gerados pelo sistema associados ao uso de Office 365 serviços e aplicativos de um determinado usuário. O Career Coach se alinha [ao processo de acesso e exportação de logs gerados pelo sistema fornecidos pelo Office 365](/compliance/regulatory/gdpr-dsr-Office365#accessing-and-exporting-system-generated-logs).
 
 ## <a name="more-information"></a>Mais informações
 
-- [Introdução ao Career Coach para Microsoft Teams](career-coach.md)
+- [Introdução ao Career Coach for Microsoft Teams](career-coach.md)
 - [Perguntas frequentes sobre privacidade](https://privacy.microsoft.com/faq)
-- [Produtos da Microsoft e seus dados – Privacidade da Microsoft](https://privacy.microsoft.com/privacy-in-our-products)
-- [Configurações de privacidade da conta da Microsoft](https://account.microsoft.com/account/privacy?refd=privacy.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2F%3Frefd%3Dprivacy.microsoft.com&destrt=privacy-dashboard)
+- [Microsoft produtos e seus dados – Microsoft Privacidade](https://privacy.microsoft.com/privacy-in-our-products)
+- [Microsoft Configurações de privacidade da conta](https://account.microsoft.com/account/privacy?refd=privacy.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2F%3Frefd%3Dprivacy.microsoft.com&destrt=privacy-dashboard)

@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: Saiba como configurar filas de chamadas no Microsoft Teams. Filas de chamadas fornecem uma mensagem de saudação, mantêm música, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+description: Configure filas de chamada no Microsoft Teams. Filas de chamadas fornecem uma mensagem de saudação, mantêm música, redirecionamento de chamadas e outros recursos.
+ms.openlocfilehash: 8f997c36d8b1103e9f811bcff750749367c6f492
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890070"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242295"
 ---
-# <a name="create-a-call-queue"></a>Criar uma fila de chamadas
+# <a name="create-a-call-queue-in-microsoft-teams"></a>Criar uma fila de chamadas no Microsoft Teams
 
 As filas de chamada roteiam os chamadores para pessoas em sua organização que podem ajudar com um problema ou pergunta específico. As chamadas são distribuídas uma de cada vez para as pessoas na fila, que são conhecidas como *agentes*.
 
@@ -131,8 +131,8 @@ Se você não tiver uma conta de recurso com um número de telefone atribuído:
 Depois de criar essa nova conta de recursos para chamar a ID, você ainda precisará:
 
 - Atribuir uma [licença de conta de recurso de telefone do Teams](manage-resource-accounts.md#assign-a-license)
-- Atribua uma licença do Plano de Chamada da Microsoft, atribua um número de telefone do Operator Connect ou atribua uma política de roteamento de voz online para Roteamento Direto
-- Atribua o [número de telefone de serviço à conta de recurso](manage-resource-accounts.md#assign-a-service-number), se você estiver usando o Plano de Chamada da Microsoft
+- Atribua uma licença do Plano de Chamada Microsoft, atribua um número de telefone do Operator Connect ou atribua uma política de roteamento de voz online para Roteamento Direto
+- Atribua o [número de telefone de serviço à conta de recurso](manage-resource-accounts.md#assign-a-service-number), se você estiver usando Microsoft Plano de Chamada
 
 ### <a name="set-the-call-queue-language"></a>Definir o idioma da fila de chamadas
 
@@ -160,7 +160,7 @@ O Teams fornece música padrão aos chamadores enquanto eles estão *em espera e
 - Se você quiser reproduzir um arquivo de áudio específico, escolha **Reproduzir um arquivo de áudio** e carregue um arquivo MP3, WAV ou WMA.
 
 > [!NOTE]
-> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço microsoft teams, que pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os detentores de direitos relevantes, que podem incluir artistas,  atores, artistas, músicos, compositores, compositores, gravadoras, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que possuam, controlam ou licenciam os direitos autorais da música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
+> Você é responsável por limpar e proteger independentemente todos os direitos e permissões necessários para usar qualquer arquivo de música ou áudio com seu serviço Microsoft Teams, que pode incluir propriedade intelectual e outros direitos em qualquer música, efeitos sonoros, áudio, marcas, nomes e outros conteúdos no arquivo de áudio de todos os detentores de direitos relevantes, que podem incluir artistas,  atores, artistas, músicos, compositores, compositores, gravadoras, editores de música, sindicatos, guildas, sociedades de direitos, organizações de gerenciamento coletivo e quaisquer outras partes que possuam, controlam ou licenciam os direitos autorais da música, efeitos sonoros, áudio e outros direitos de propriedade intelectual.
 
 Depois de selecionar uma música de saudação e de espera, selecione o botão **Avançar** na parte inferior da página **Adicionar uma fila de chamadas** .
 
@@ -182,7 +182,7 @@ Se você quiser [usar um canal do Teams para gerenciar a fila](https://support.m
 
 Os seguintes clientes têm suporte ao usar um canal do Teams para filas de chamada:
 
-- Cliente Windows do Microsoft Teams
+- Microsoft cliente Windows do Teams
 - Cliente Microsoft Teams para Mac
 
 > [!NOTE]
@@ -390,8 +390,8 @@ As seguintes configurações são recomendadas:
 
 #### <a name="notes"></a>Observações
 
-1. Cliente windows do Microsoft Teams, Cliente Mac do Microsoft Teams, Microsoft Teams em Infraestrutura de Área de Trabalho Virtualizada.
-2. Aplicativo iPhone do Microsoft Teams, aplicativo Android do Microsoft Teams.
+1. Microsoft cliente Windows do Teams, Microsoft Cliente Mac do Teams, Microsoft Teams em Infraestrutura de Área de Trabalho Virtualizada.
+2. Microsoft aplicativo iPhone do Teams, Microsoft aplicativo Android do Teams.
 3. Selecionar o Ocioso Mais Longo para o método de roteamento de agente habilitará automaticamente o roteamento baseado em presença.
 4. Não é possível definir a ordem em que os agentes serão chamados.
 5. Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
