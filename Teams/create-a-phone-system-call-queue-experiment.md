@@ -23,19 +23,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
+robots: noindex
 description: Saiba como configurar filas de chamada no Microsoft Teams. Filas de chamadas fornecem uma mensagem de saudação, mantêm música, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
+ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251784"
+ms.locfileid: "69251987"
 ---
-# <a name="create-a-call-queue-in-microsoft-teams"></a>Criar uma fila de chamadas no Microsoft Teams
+# <a name="create-a-call-queue"></a>Criar uma fila de chamadas
 
 As filas de chamada roteiam os chamadores para pessoas em sua organização que podem ajudar com um problema ou pergunta específico. As chamadas são distribuídas uma de cada vez para as pessoas na fila, que são conhecidas como *agentes*.
 
@@ -69,15 +66,13 @@ As etapas descritas no artigo criam filas de chamada usando o centro de administ
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>Siga estas etapas para configurar sua fila de chamadas
 
-## <a name="step-1-general-info"></a>[Etapa 1: Informações gerais](#tab/general-info)
-
-## <a name="step-1-set-up-general-information"></a>Etapa 1: Configurar informações gerais
+### <a name="step-1-set-up-general-information"></a>Etapa 1: Configurar informações gerais
 
 Para configurar uma fila de chamadas, no [centro de administração do Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), expanda **Voz**, selecione **Filas de chamada** e selecione **Adicionar**.
 
 Digite um nome para a fila de chamadas na caixa na parte superior.
 
-### <a name="add-a-resource-account"></a>Adicionar uma conta de recurso
+#### <a name="add-a-resource-account"></a>Adicionar uma conta de recurso
 
 Para adicionar uma conta de recurso existente:
 
@@ -102,7 +97,7 @@ Os agentes verão o nome da conta de recurso quando receberem uma chamada de ent
 
 Para obter mais informações, consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md).
 
-### <a name="assign-a-calling-id-optional"></a>Atribuir uma ID de chamada (opcional)
+#### <a name="assign-a-calling-id-optional"></a>Atribuir uma ID de chamada (opcional)
 
 **Disponível para o canal do Teams/usuários da área de trabalho de chamada colaborativa e usuários de cliente móvel do Teams com filas de chamadas padrão.**
 
@@ -138,7 +133,7 @@ Depois de criar essa nova conta de recursos para chamar a ID, você ainda precis
 - Atribua uma licença do Plano de Chamada Microsoft, atribua um número de telefone do Operator Connect ou atribua uma política de roteamento de voz online para Roteamento Direto
 - Atribua o [número de telefone de serviço à conta de recurso](manage-resource-accounts.md#assign-a-service-number), se você estiver usando Microsoft Plano de Chamada
 
-### <a name="set-the-call-queue-language"></a>Definir o idioma da fila de chamadas
+#### <a name="set-the-call-queue-language"></a>Definir o idioma da fila de chamadas
 
 Escolha um [idioma com suporte](create-a-phone-system-call-queue-languages.md).
 
@@ -146,9 +141,7 @@ Esse idioma será usado para prompts de voz gerados pelo sistema e transcrição
 
 Depois de selecionar um idioma, selecione o botão **Avançar** na parte inferior da página **Adicionar uma fila de chamadas** .
 
-## <a name="step-2-greeting-and-music"></a>[Etapa 2: Saudação e música](#tab/greeting-music)
-
-## <a name="step-2-add-a-greeting-and-on-hold-music"></a>Etapa 2: Adicionar uma música de saudação e de espera
+### <a name="step-2-add-a-greeting-and-on-hold-music"></a>Etapa 2: Adicionar uma música de saudação e de espera
 
 *Novo – Há suporte para **adicionar uma mensagem de saudação** (TTS (Texto em Fala)) para a saudação principal da fila de chamadas.*
 
@@ -168,9 +161,7 @@ O Teams fornece música padrão aos chamadores enquanto eles estão *em espera e
 
 Depois de selecionar uma música de saudação e de espera, selecione o botão **Avançar** na parte inferior da página **Adicionar uma fila de chamadas** .
 
-## <a name="step-3-call-answering"></a>[Etapa 3: Resposta de chamada](#tab/call-answering)
-
-## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Etapa 3: configurar quem responderá às chamadas recebidas
+### <a name="step-3-set-up-who-will-answer-incoming-calls"></a>Etapa 3: configurar quem responderá às chamadas recebidas
 
 Examine os [pré-requisitos para adicionar agentes a uma fila de chamadas](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -194,7 +185,7 @@ Os seguintes clientes têm suporte ao usar um canal do Teams para filas de chama
 >
 > Se houver mais de 200 membros na equipe, apenas os primeiros 200 membros, em ordem alfabética, serão adicionados como agentes à fila de chamadas.
 
-### <a name="users-and-groups"></a>Usuários e grupos
+#### <a name="users-and-groups"></a>Usuários e grupos
 
 Você pode adicionar até 20 agentes individualmente e até 200 agentes por meio de grupos.
 
@@ -216,7 +207,7 @@ Para **adicionar um grupo** à fila:
 >
 > Se houver mais de 200 membros no grupo, apenas os primeiros 200 membros, em ordem alfabética, serão adicionados como agentes à fila de chamadas.
 
-### <a name="conference-mode"></a>Modo de conferência
+#### <a name="conference-mode"></a>Modo de conferência
 
 **O modo de conferência** reduz o tempo necessário para que um chamador seja conectado a um agente depois que o agente aceitar a chamada. Para que o modo de conferência funcione, os agentes na fila de chamada devem usar um dos seguintes clientes:
 
@@ -241,9 +232,7 @@ As contas do Teams dos agentes devem ser definidas como modo TeamsOnly. Os agent
 
 Depois de selecionar as opções de resposta de chamada, selecione o botão **Avançar** na parte inferior da página **Adicionar uma fila de chamadas** .
 
-## <a name="step-4-agent-selection"></a>[Etapa 4: Seleção de agente](#tab/agent-selection)
-
-## <a name="step-4-select-your-agent-routing-options"></a>Etapa 4: selecione as opções de roteamento do agente
+### <a name="step-4-select-your-agent-routing-options"></a>Etapa 4: selecione as opções de roteamento do agente
 
 O **método de roteamento** determina a ordem na qual os agentes recebem chamadas da fila.
 
@@ -269,7 +258,7 @@ Escolha uma destas opções:
 >
 > A apresentação de chamada de chamada de fila para agentes pode entrar em conflito com as restrições de roteamento baseado em localização. Nesse caso, o agente receberá um brinde de chamada, mas não poderá responder à chamada. Essa condição continuará até que outro agente esteja disponível para atender à chamada, o chamador desligar ou a condição de tempo limite da fila de chamadas ocorrer.  
 
-### <a name="presence-based-call-routing"></a>Roteamento de chamadas baseado em presença
+#### <a name="presence-based-call-routing"></a>Roteamento de chamadas baseado em presença
 
 **O roteamento de chamadas baseado em presença** usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado.
 
@@ -291,13 +280,13 @@ Se um agente optar por não receber chamadas, ele não será incluído na lista 
 >
 > Os agentes que usam o cliente do Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado. Se você tiver agentes que usam o Skype for Business, não habilite o roteamento de chamadas baseado em presença.
 
-### <a name="call-agents-can-opt-out-of-taking-calls"></a>Agentes de chamada podem optar por não atender chamadas
+#### <a name="call-agents-can-opt-out-of-taking-calls"></a>Agentes de chamada podem optar por não atender chamadas
 
 Você pode especificar se os agentes de chamada têm a capacidade de optar por não atender chamadas ou não.
 
 Recomendamos ativar **Agentes de chamada podem optar por não atender chamadas**.
 
-### <a name="agent-alert-time"></a>Hora do alerta do agente
+#### <a name="agent-alert-time"></a>Hora do alerta do agente
 
 O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um agente tocará antes que a fila redirecione a chamada para o próximo agente.
 
@@ -306,9 +295,7 @@ O **Tempo de alerta do agente** especifica por quanto tempo o telefone de um age
 
 Depois de selecionar as opções de roteamento de chamadas do agente, selecione o botão **Avançar** na parte inferior da página **Adicionar uma fila de chamadas** .
 
-## <a name="step-5-call-overflow"></a>[Etapa 5: Estouro de chamadas](#tab/call-overflow)
-
-## <a name="step-5-set-how-to-handle-call-overflow"></a>Etapa 5: definir como lidar com o estouro de chamadas
+### <a name="step-5-set-how-to-handle-call-overflow"></a>Etapa 5: definir como lidar com o estouro de chamadas
 
 O **Número máximo de chamadas na fila** especifica o número máximo de chamadas que podem esperar na fila a qualquer momento.
 
@@ -331,9 +318,7 @@ Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-
 
 Depois de selecionar as opções de tratamento de estouro de chamada, selecione o botão **Avançar** na parte inferior da página **Adicionar uma fila de chamadas** .
 
-## <a name="step-6-call-timeout"></a>[Etapa 6: Tempo limite de chamada](#tab/call-timeout)
-
-## <a name="step-6-set-how-to-handle-call-timeouts"></a>Etapa 6: definir como lidar com tempo limite de chamada
+### <a name="step-6-set-how-to-handle-call-timeouts"></a>Etapa 6: definir como lidar com tempo limite de chamada
 
 **Tempo limite de chamada: o tempo máximo de espera** especifica o tempo máximo que uma chamada pode estar em espera na fila antes de ser redirecionada ou desconectada.
 
@@ -351,8 +336,6 @@ Para transferências externas, consulte [Pré-requisitos](./plan-auto-attendant-
 > A caixa postal (pessoal) enviará chamadas para o usuário e não diretamente para sua caixa postal, conforme indicado. Isso está sendo investigado pelo Suporte.
 
 Depois de selecionar as opções de tratamento de tempo limite de chamada, selecione o botão **Enviar** na parte inferior da página **Adicionar uma fila de chamadas** .
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>Recursos para cenários complexos
 
@@ -404,8 +387,8 @@ As seguintes configurações são recomendadas:
 8. Há suporte apenas para canais públicos.
 9. Os atendentes automáticos e filas de chamada não podem transferir chamadas entre métodos de conectividade PSTN.
 10. Para GCCH/DOD, disponível somente por meio do Portal de Configurações de Usuário em:
-- GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+    - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+    - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>Clientes com suporte
 

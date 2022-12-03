@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 - chat-teams-channels-revamp
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: d819811ba39e3c0a8246e399977079aa15447934
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: e3925d76c66c324337982f37e704caded77b02a5
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198743"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251774"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -80,17 +80,18 @@ Um usuário só pode ter uma política de mensagem atribuída por vez.
 Aqui estão as configurações da política de mensagens que você pode configurar.
 
 - **Os proprietários podem excluir mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens de canal ou postagens enviadas por usuários.
-- **Excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam as mensagens enviadas no chat.
+- **Excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens individuais enviadas no chat.
+- **Excluir chat** Use essa configuração para permitir que os usuários tenham a opção de excluir conversas inteiras de sua lista de chats. Isso só excluirá o conteúdo do chat para o usuário que está tomando a ação; outros usuários no chat ainda poderão ver todas as mensagens. O usuário que excluiu o chat não verá nenhuma mensagem existente no feed de atividades ou os resultados da pesquisa para o chat excluído; esse usuário também será removido do chat excluído. Os usuários serão solicitados a confirmar a decisão de excluir um chat. Essa configuração está ativada por padrão. Se essa configuração estiver desativada, os usuários não verão mais a opção excluir para seus chats.
 - **Editar mensagens enviadas** Use essa configuração para permitir que os usuários editem as mensagens enviadas no chat.
 - **Ler recibos** Os recibos de leitura permitem que o remetente de uma mensagem de chat seja notificado quando sua mensagem foi lida pelo destinatário em 1:1 e chats em grupo 20 pessoas ou menos. Os recibos de leitura de mensagens removem a incerteza sobre se uma mensagem foi lida e melhoram a comunicação da equipe. Os recibos de leitura não são capturados em relatórios de descoberta eletrônica.  
-    - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA.
-    - **Ligado para todos** Isso significa que todos no locatário terão o recurso ON sem opção para desativá-lo. Ao usar a configuração **On para todos** , a única maneira de definir recibos para todo o locatário é ter apenas uma política de mensagens para todo o locatário (a política padrão chamada "Global (Padrão em toda a organização)") ou ter todas as políticas de mensagens no locatário usando as mesmas configurações para recibos. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
-    - **Desligado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem recibos de leitura nem pode ativá-lo.
+  - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA.
+  - **Ligado para todos** Isso significa que todos no locatário terão o recurso ON sem opção para desativá-lo. Ao usar a configuração **On para todos** , a única maneira de definir recibos para todo o locatário é ter apenas uma política de mensagens para todo o locatário (a política padrão chamada "Global (Padrão em toda a organização)") ou ter todas as políticas de mensagens no locatário usando as mesmas configurações para recibos. O recurso de confirmação de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
+  - **Desligado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem recibos de leitura nem pode ativá-lo.
 <a name="bkchat"> </a>
 
 - **Chat**  Habilite essa configuração se quiser que os usuários da organização possam usar o aplicativo do Teams para conversar com outras pessoas.
 - **Conversar com grupos** Os usuários podem iniciar um chat com grupos de distribuição, grupos de segurança habilitados para email e Microsoft 365 grupos.
-- *Use Giphy em conversas** Se você ativar o Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar [experiências conectadas opcionais](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) para permitir Giphys em conversas.
+- **Usar Giphy em conversas**  Se você ativar o Giphys, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo. Além de ativar essa configuração, você precisa habilitar [experiências conectadas opcionais](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) para permitir Giphys em conversas.
 - **Classificação de conteúdo Giphy**
   - **Sem restrições** Isso significa que os usuários poderão inserir qualquer Giphy em chats independentemente da classificação de conteúdo.
   - **Moderado**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será moderadamente restringido.

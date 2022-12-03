@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564109"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251884"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Sair do Microsoft Teams
 
@@ -50,7 +50,7 @@ Se você tiver várias contas adicionadas, precisará sair de cada conta individ
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>Sair do Teams em dispositivos móveis
 
-No celular, você pode sair do Teams acessando o menu, selecionando o menu **Mais** e, em seguida, selecionando **Sair**. Depois de sair, você precisará reinserir suas credenciais na próxima vez que iniciar o aplicativo.
+No celular, você pode sair do Teams acessando o ícone de usuário, selecionando **Configurações** e selecionando **Sair**. Depois de sair, você precisará reentrada nas credenciais na próxima vez que iniciar o aplicativo.
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Entrada e saída globais para funcionários do Frontline
 

@@ -14,12 +14,12 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
-ms.openlocfilehash: 31a185239607c2458636dd6cadc83b7462135112
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 9b1155560c0f901b88d3983e2ff3738e5ffa6e47
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131170"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251764"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo Praise no centro de administração do Microsoft Teams
 
@@ -41,20 +41,17 @@ O praise é habilitado por padrão para todos os usuários do Teams em sua organ
 
 Tenha em mente que essa configuração afeta o aplicativo Praise e o recurso Praise no aplicativo Insights do Viva no Teams.
 
-Se você definir o Status como Bloqueado, o aplicativo Praise será bloqueado em alguns minutos para o Teams. No entanto, os elogios em Insights do Viva podem levar de 7 a 9 dias para serem bloqueados.
+Se você definir o status como **Bloqueado**, o aplicativo Praise será bloqueado em alguns minutos para o Teams. No entanto, o Praise em Insights do Viva pode levar de 7 a 9 dias para ser bloqueado.
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar o Praise para usuários específicos em sua organização
 
 Para permitir ou bloquear usuários específicos em sua organização de usar o Praise, verifique se o Praise está ativado para sua organização na página [Gerenciar aplicativos](manage-apps.md) . Em seguida, crie uma política personalizada para permissões de aplicativo e atribua-a a esses usuários. Para saber mais, confira [Gerenciar políticas de permissão de aplicativos no Teams](teams-app-permission-policies.md).
 
-## <a name="badges"></a>Emblemas
+## <a name="composer"></a>Compositor
 
-Aqui está o conjunto padrão de selos no Praise. Os usuários do Teams em sua organização podem usar esses selos para reconhecer seus pares para ir além e além com seu trabalho.
+Os usuários do Teams em sua organização podem usar o compositor de elogios para reconhecer seus pares por ir além e além com seu trabalho. Ao criar sua mensagem, eles podem escolher entre 14 títulos&mdash;como **Coragem**, **Otimismo**, **Coração Gentil** e **Criativo**&mdash;para reconhecer as contribuições de seus colegas.
 
-:::image type="content" source="media/default-set-praise.png" alt-text="Imagem de selos no conjunto de selos padrão.":::
-
-> [!NOTE]
-> A partir de fevereiro de 2022, as pessoas só podem enviar e receber selos padrão. Os selos personalizados não estão mais disponíveis e as opções para selos personalizados foram removidas do centro de administração do Teams.
+:::image type="content" source="media/praise.png" alt-text="Captura de tela do compositor de elogios.":::
 
 ## <a name="related-articles"></a>Artigos relacionados
 

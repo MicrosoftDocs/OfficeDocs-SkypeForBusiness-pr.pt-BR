@@ -1,5 +1,5 @@
 ---
-title: Configurar um assistente automático Microsoft Teams
+title: Configurar um atendente automático para Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,19 +20,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: Saiba como configurar e gerenciar atendentes automáticos no Microsoft Teams.
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
+ms.openlocfilehash: cafbe1594666f156801f83b7944e4ecce4887752
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251754"
+ms.locfileid: "69251986"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurar um assistente automático Microsoft Teams
+# <a name="set-up-an-auto-attendant"></a>Configurar um atendente automático
 
 Os atendentes automáticos permitem que as pessoas chamem sua organização e naveguem por um sistema de menus para falar com o departamento certo, chamar fila, pessoa ou um operador. Você pode criar atendentes automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell.
 
@@ -52,7 +49,7 @@ Os atendentes automáticos podem redirecionar chamadas, com base na entrada dos 
 > [!NOTE]
 > Ao redirecionar chamadas para uma **pessoa na organização**, essa pessoa deve estar habilitada para voz. Para obter detalhes sobre como habilitar a voz, confira [Atribuir licenças de complemento do Teams aos usuários](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 >
-> Embora a definição de um **Operador** seja opcional, é recomendável.  Os atendentes automáticos redirecionam chamadas para o operador se houver um erro na configuração do atendente automático devido à exclusão de uma conta de caixa postal compartilhada ou usuário.  Se um operador não estiver definido, o atendente automático cancelará a chamada.
+> Embora a definição de um **Operador** seja opcional, é recomendável.  Os atendentes automáticos redirecionam chamadas para o operador se o chamador não fizer uma seleção nos menus, selecionar repetidamente opções inválidas ou discar por nome ou número falhar repetidamente.  Se um operador não estiver definido, o atendente automático cancelará a chamada.
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novidades para os atendentes automáticos nos últimos 6 meses
 
@@ -75,9 +72,7 @@ As etapas descritas no artigo criam atendentes automáticos usando o centro de a
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>Siga estas etapas para configurar o assistente automático
 
-## <a name="step-1-general-info"></a>[Etapa 1: Informações gerais](#tab/general-info)
-
-## <a name="step-1-set-the-auto-attendants-general-information"></a>Etapa 1: Definir as informações gerais do atendente automático
+### <a name="step-1-set-the-auto-attendants-general-information"></a>Etapa 1: Definir as informações gerais do atendente automático
 
 Para configurar um atendente automático, no [centro de administração do Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851), expanda **Voz**, selecione **Atendentes automáticos** e selecione **Adicionar**.
 
@@ -96,23 +91,21 @@ Para configurar um atendente automático, no [centro de administração do Teams
 
 Depois de definir as informações gerais do atendente automático, selecione **Avançar**.
 
-## <a name="step-2-basic-call-flow"></a>[Etapa 2: Fluxo de chamadas básico](#tab/call-flow)
+### <a name="step-2-set-up-the-basic-call-flow"></a>Etapa 2: configurar o fluxo de chamada básico
 
-## <a name="step-2-set-up-the-basic-call-flow"></a>Etapa 2: configurar o fluxo de chamada básico
-
-### <a name="set-a-greeting"></a>Definir uma saudação
+#### <a name="set-a-greeting"></a>Definir uma saudação
 
 - Se você selecionar **Reproduzir um arquivo de áudio** , poderá usar o botão **Carregar arquivo** para carregar uma mensagem de saudação gravada salva como áudio no . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB.
 
 - Se você selecionar **Digitar uma mensagem de saudação** , o sistema lerá o texto que você digitar (até 1000 caracteres) quando o atendente automático atender uma chamada.
 
-### <a name="route-the-call"></a>Rotear a chamada
+#### <a name="route-the-call"></a>Rotear a chamada
 
 - Se você selecionar **Desconectar**, o atendente automático desligará a chamada.
 - Se você selecionar **Chamada de redirecionamento**, poderá escolher um dos destinos de roteamento de chamadas.
 - Se você selecionar **Opções de menu Reproduzir**, você poderá optar por **Reproduzir um arquivo de áudio** ou **Digitar uma mensagem de saudação** e, em seguida, escolher entre opções de menu e pesquisa de diretório.
 
-#### <a name="play-menu-options"></a>Opções de menu Reproduzir
+##### <a name="play-menu-options"></a>Opções de menu Reproduzir
 
 *Nova opção – A opção Forçar escuta pode ser habilitada, o que exige que os chamadores ouçam todas as opções de menu antes de fazer a seleção.*
  *Novas chaves - \* (asterisco) e \# (libra) agora podem ser usadas nas opções de menu.*
@@ -131,7 +124,7 @@ Para cada opção de menu, especifique as seguintes configurações:
 
 - **Redirecionar para** - o destino de roteamento de chamada usado quando os chamadores escolhem essa opção. Se você estiver redirecionando para um atendente automático ou uma fila de chamadas, escolha a conta de recurso associada a ela.
 
-##### <a name="directory-search"></a>Pesquisa de diretório
+###### <a name="directory-search"></a>Pesquisa de diretório
 
 Se você atribuir chaves de discagem a destinos, recomendamos que você escolha **Nenhuma** para **pesquisa de Diretório**. Se um chamador tentar discar um nome ou extensão usando chaves atribuídas a destinos específicos, ele poderá ser encaminhado inesperadamente para um destino antes de terminar de inserir o nome ou a extensão. Recomendamos que você crie um assistente automático separado para pesquisa de diretório e tenha seu principal link de atendimento automático com uma chave de discagem.
 
@@ -148,9 +141,7 @@ Para obter mais informações, consulte a [referência discada e de voz](dial-vo
 
 Depois de definir suas opções básicas de fluxo de chamadas, selecione **Avançar**.
 
-## <a name="step-3-after-hours-call-flow"></a>[Etapa 3: Após o horário de fluxo de chamadas](#tab/after-hours)
-
-## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Etapa 3: configurar o fluxo de chamadas para depois do horário (opcional)
+### <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>Etapa 3: configurar o fluxo de chamadas para depois do horário (opcional)
 
 O horário comercial pode ser definido para cada atendente automático.
 
@@ -168,9 +159,7 @@ Se você quiser roteamento de chamadas separado para chamadores após o expedien
 
 Depois de adicionar o fluxo de chamadas após o expediente, selecione **Avançar**.
 
-## <a name="step-4-holiday-call-flow"></a>[Etapa 4: Fluxo de chamadas de férias](#tab/holidays)
-
-## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Etapa 4: configurar fluxos de chamada para feriados (opcional)
+### <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Etapa 4: configurar fluxos de chamada para feriados (opcional)
 
 O atendente automático pode ter um fluxo de chamadas para cada [Feriado configurado](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
@@ -197,9 +186,7 @@ Repita o procedimento conforme necessário para cada feriado adicional.
 
 Depois de adicionar todas as suas horas de férias, selecione **Avançar**.
 
-## <a name="step-5-dial-scope"></a>[Etapa 5: Escopo de discagem](#tab/dial-scope)
-
-## <a name="step-5-set-up-dial-scope-optional"></a>Etapa 5: configurar o escopo de discagem (opcional)
+### <a name="step-5-set-up-dial-scope-optional"></a>Etapa 5: configurar o escopo de discagem (opcional)
 
 O *escopo de discagem* define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários da sua organização que são usuários online ou hospedados localmente usando Skype for Business Server.
 
@@ -212,9 +199,7 @@ Se um usuário estiver em ambas as listas, ele será excluído do diretório.
 
 Depois de selecionar as opções de **escopo discar** , selecione **Avançar**.
 
-## <a name="step-6-resource-accounts"></a>[Etapa 6: Contas de recursos](#tab/resource-accounts)
-
-## <a name="step-6-set-up-resource-accounts-optional"></a>Etapa 6: Configurar contas de recursos (opcional)
+### <a name="step-6-set-up-resource-accounts-optional"></a>Etapa 6: Configurar contas de recursos (opcional)
 
 Todos os atendentes automáticos devem ter uma conta de recurso associada.  Os atendentes automáticos de primeiro nível precisarão de pelo menos uma conta de recurso que tenha um número de serviço associado. Se desejar, você pode atribuir várias contas de recurso a um atendente automático, cada uma com um número de serviço separado.
 
@@ -223,8 +208,6 @@ Para adicionar uma conta de recurso, selecione **Adicionar conta** e pesquise a 
 Depois de adicionar contas de recursos, selecione **Avançar**.
 
 Consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md) para obter mais informações.
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>Recursos para cenários complexos
 
