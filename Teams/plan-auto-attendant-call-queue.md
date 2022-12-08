@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendentes automáticos e filas de chamadas e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
-ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
+ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "69166727"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307616"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar atendimentos automáticos do Teams e filas de chamadas
 
@@ -78,7 +78,7 @@ Para configurar os atendentes automáticos e as filas de chamadas, você precisa
 > [!NOTE]
 > As contas de recurso estão desabilitadas para entrar e devem permanecer assim. Chat e presença não estão disponíveis para essas contas.
 
-Os agentes que recebem chamadas das filas de chamada devem estar Enterprise Voice usuários online ou locais habilitados. Além disso, se as filas de chamada estiverem usando números de Roteamento Direto, os agentes que precisam fazer conferências ou transferir chamadas também precisarão:
+Os agentes que recebem chamadas das filas de chamada devem estar Enterprise Voice usuários online ou locais habilitados. Para obter mais informações, consulte [Atribuir, alterar ou remover um número de telefone para um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) e [Habilitar usuários para Roteamento Direto](/microsoftteams/direct-routing-enable-users). Além disso, se as filas de chamada estiverem usando números de Roteamento Direto, os agentes que precisam fazer conferências ou transferir chamadas também precisarão:
 
 - Uma [política de roteamento de voz online](manage-voice-routing-policies.md) atribuída se a fila de chamadas usar o modo de transferência.
 - Uma [licença de Conferência de Áudio](set-up-audio-conferencing-in-teams.md) ou [uma política de roteamento de voz online](manage-voice-routing-policies.md) atribuída se a fila de chamadas usar o modo de conferência.

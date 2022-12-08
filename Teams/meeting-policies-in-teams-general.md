@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas gerais de reunião
+title: Gerenciar políticas de reunião geral
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -18,37 +19,38 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: Saiba como gerenciar as configurações gerais de política de reunião no Teams.
-ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+description: Aprenda a gerenciar configurações de política de reunião geral no Teams.
+ms.openlocfilehash: 97ba1da0301f1a5515caf88d5f428578b653653a
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046721"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307506"
 ---
 # <a name="meeting-policy-settings---general"></a>Configurações de política de reunião - Geral
 
 <a name="bkgeneral"> </a>
 
-Este artigo descreve as seguintes configurações gerais de política para reuniões do Teams:
+Este artigo descreve as seguintes configurações de política geral para reuniões do Teams:
 
-- [Reunir agora em canais](#meet-now-in-channels)
+- [Conheça agora em canais](#meet-now-in-channels)
 - [Suplemento do Outlook](#outlook-add-in)
 - [Agendamento de reunião do canal](#channel-meeting-scheduling)
 - [Agendamento de reunião privada](#private-meeting-scheduling)
 - [Reunir-se agora em reuniões privadas](#meet-now-in-private-meetings)
 - [Modo de função de apresentador designado](#designated-presenter-role-mode)
-- [Relatório do Engagement](#engagement-report)
+- [Relatório de engajamento](#engagement-report)
 - [Registro de reunião](#meeting-registration)
-- [Quem pode se registrar](#who-can-register)
-- [Provedor de reunião para o modo Ilhas](#meeting-provider-for-islands-mode)
-- [Treinador do Locutor](#speaker-coach)
+- [Seminários via Web](#webinars)
+- [Provedor de reunião para o modo Islands](#meeting-provider-for-islands-mode)
+- [Reações de reunião](#meeting-reactions)
+- [Coach de Alto-Falante](#speaker-coach)
 
-## <a name="meet-now-in-channels"></a>Reunir agora em canais
+## <a name="meet-now-in-channels"></a>Conheça agora em canais
 
-Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do Teams. Se você ativar isso, os usuários poderão clicar no **botão** Reunir para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
+Essa é uma política por usuário e se aplica antes de começar uma reunião. Essa configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do Teams. Se você ativar isso, os usuários poderão clicar no botão **Atender** para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
 
-[![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem.](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[![Captura de tela mostrando o ícone Reunir agora abaixo de uma mensagem.](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="outlook-add-in"></a>Suplemento do Outlook
 
@@ -70,15 +72,15 @@ Agendar uma reunião será desabilitada.
 
 A seleção de canal está desabilitada.
 
-[![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![Captura de tela mostrando a opção calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 Na página de postagens do canal, o seguinte será desabilitado:
 
 - Botão **Agendar uma reunião** na caixa de texto responder ao canal.
-  ![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/schedule-meeting-disabled-in-chat2.png)
+  ![Captura de tela mostrando a opção calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/schedule-meeting-disabled-in-chat2.png)
   
 - Botão **Agendar uma reunião** no cabeçalho do canal.
-  ![Captura de tela mostrando a opção de calendário para selecionar um canal por meio do qual você deseja agendar uma reunião.](media/schedule-now-in-header.png)
+  ![Captura de tela mostrando a opção calendário para selecionar um canal por meio do qual você deseja agendar uma reunião.](media/schedule-now-in-header.png)
 
 No calendário do canal:
 
@@ -93,7 +95,7 @@ No Centro de Administração:
 
 O aplicativo de calendário de canal será mostrado na seção **Aplicativos da Microsoft** na página de políticas de permissão do aplicativo.
 
-![Captura de tela mostrando a política de permissões de aplicativo no centro de administração do Teams.](media/manage-microsoft-apps-policy.png)
+![Captura de tela mostrando a política de permissões do aplicativo no centro de administração do Teams.](media/manage-microsoft-apps-policy.png)
 
 ## <a name="private-meeting-scheduling"></a>Agendamento de reunião privada
 
@@ -121,51 +123,38 @@ Para especificar o valor padrão da configuração **Quem pode apresentar?** no 
 
 Lembre-se de que, depois de definir o valor padrão, os organizadores de reunião ainda poderão alterar essa configuração no Teams e escolher quem poderá apresentar nas reuniões agendadas por eles.
 
-## <a name="engagement-report"></a>Relatório do Engagement
+## <a name="engagement-report"></a>Relatório de engajamento
 
-Essa é uma política por usuário. Essa configuração controla se o organizador da reunião pode baixar o relatório de participação da [Reunião](teams-analytics-and-reports/meeting-attendance-report.md).
+Essa é uma política por usuário. Essa configuração controla se os organizadores da reunião podem baixar o [relatório de engajamento da reunião](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Essa política está ativada por padrão e permite que os organizadores vejam quem se registrou e participou das reuniões e webinars que eles configuraram. Para desativá-lo no Centro de administração do Teams, acesse  >  políticas de Reunião de Reuniões e defina a **configuração de** relatório do Engagement como **Desativada**.
+Essa política está ativada por padrão e permite que seus organizadores vejam quem registrou e participou das reuniões e webinars que eles configuraram. Para desativá-lo no centro de administração do Teams, acesse Políticas de Reunião de Reuniões e defina a configuração do **relatório de engajamento** como **Desativada** > .
 
-Você também pode editar uma política de reunião existente do Teams usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+Você também pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
-Por padrão, o **parâmetro AllowEngagementReport** é definido **como Habilitado** no PowerShell. Para impedir que um organizador da reunião baixe o relatório de participação na reunião, defina o **parâmetro AllowEngagementReport** como **Desabilitado**.
+Por padrão, o parâmetro **AllowEngagementReport** é definido como **Habilitado** no PowerShell. Para impedir que um organizador de reunião baixe o relatório de engajamento da reunião, defina o parâmetro **AllowEngagementReport** como **Desabilitado**.
 
-Quando essa política está habilitada, a opção de baixar o relatório de participação na reunião é exibida **no** painel Participantes.
+Quando essa política está habilitada, a opção de baixar o relatório de engajamento da reunião é exibida no painel **Participantes** .
 
 > [!NOTE]
-> Como administrador, você não pode exibir o relatório de participação para reuniões que não organiza. No entanto, você pode exibir os detalhes dos participantes de uma determinada reunião dentro de 24 horas após essa reunião. No centro de administração do Teams, acesse Gerenciar **Usuários** > . Escolha o nome de exibição para o organizador da reunião. Selecione a **guia Reuniões & chamadas e** , em seguida, escolha a ID de reunião ou a ID de chamada apropriada. Em seguida, selecione **Detalhes do participante**.
+> Como administrador, você não pode exibir o relatório de presença para reuniões que não organiza. No entanto, você pode exibir os detalhes do participante para uma determinada reunião dentro de 24 horas dessa reunião. No centro de administração do Teams, acesse **Usuários** > **Gerenciar usuários**. Escolha o nome de exibição para o organizador da reunião. Selecione a guia **Reuniões & chamadas** e escolha a ID de reunião ou A ID de chamada apropriada. Em seguida, selecione **Detalhes do participante**.
 
-Para obter mais informações, incluindo os limites do relatório de participação, consulte [a exibição e o download de relatórios de participação na reunião no Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
+Para obter mais informações, incluindo os limites do relatório de engajamento, consulte [exibindo e baixando relatórios de presença da reunião no Teams](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 ## <a name="meeting-registration"></a>Registro de reunião
 
-Essa é uma política por usuário. Se você ativar isso, os usuários em sua organização poderão configurar webinars. Essa política é habilitada por padrão.
+Essa é uma política por usuário. Se você ativar isso, os usuários da sua organização poderão adicionar registro a uma reunião. Essa política está habilitada por padrão.
 
-Para editar essa política no centro de administração do Teams, acesse políticas **de Reunião** > **.** Para desativar o registro de reunião, defina a política como **Desativada**.
+Para saber mais sobre o registro da reunião, leia [Configurar registro de reunião](set-up-webinars.md#configure-meeting-registration).
 
-Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
+## <a name="webinars"></a>Seminários via Web
 
-Para ativar o registro de reunião, defina o  **parâmetro MeetingRegistration** como **True**. Isso é definido como **True** por padrão.
+Essa é uma política por usuário. Se você habilitar webinars, os usuários em sua organização poderão criar webinars com gerenciamento de registro robusto, sites de eventos e registro personalizáveis e opções de reunião padrão orientadas a eventos. Essa política está habilitada por padrão.
 
-Para desativar o registro de reunião e impedir que os usuários agendem webinars, defina o parâmetro como **False**.
+Leia mais sobre webinars em [Configurar webinars](set-up-webinars.md).
 
-## <a name="who-can-register"></a>Quem pode se registrar
+Para obter mais informações sobre as diferenças entre reuniões, webinars e eventos ao vivo, confira [Reuniões, webinars e eventos ao vivo](quick-start-meetings-live-events.md).
 
-Essa política controla quais usuários podem registrar e participar de webinars. Essa política tem duas opções, que só estarão disponíveis se **o registro de Reunião** estiver ativado.
-
-- **Defina Quem pode se** **registrar para** Todos se quiser permitir que todos, incluindo usuários anônimos, registrem e participem de webinars que os usuários da sua organização configuram.
-- **Defina Quem pode se** **registrar em** Todos na organização se quiser permitir que somente os usuários em sua organização registrem e participem de webinars.
-
-Por padrão, **Quem pode se registrar** é definido como **Todos**. Para editar essa política no centro de administração do Teams, acesse políticas **de Reunião** > **.**
-
-Você pode editar uma política de reunião do Teams existente usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
-
-Para permitir que todos, incluindo usuários anônimos, registrem e participem de webinars, defina o **parâmetro WhoCanRegister** como **Todos**. Isso é definido como **Todos** por padrão.
-
-Para permitir que somente usuários em sua organização registrem e participem de webinars, defina o parâmetro como **EveryoneInCompany**.
-
-## <a name="meeting-provider-for-islands-mode"></a>Provedor de reunião para o modo Ilhas
+## <a name="meeting-provider-for-islands-mode"></a>Provedor de reunião para o modo Islands
 
 Essa é uma política por usuário. Essa configuração controla qual suplemento de reunião do Outlook é usado para os *usuários que estão no modo Uso Paralelo*. Você pode especificar se os usuários podem usar apenas o suplemento de Reunião do Teams ou os suplementos de Reunião do Teams e de Reunião do Skype for Business para agendar reuniões no Outlook.
 
@@ -181,22 +170,25 @@ Para especificar o suplemento de reunião que você deseja disponibilizar para o
   Se você definir o parâmetro para **Teams** e, em seguida, retornar para **TeamsAndSfB**, os suplementos para ambas reuniões serão habilitados. No entanto, lembre-se de links de ingresso existentes da reunião do Teams não serão migradas para o Skype for Business. Somente as reuniões do Skype for Business agendadas depois da alteração terão um link de ingresso na reunião do Skype for Business.
 
 ## <a name="meeting-reactions"></a>Reações de reunião
-A disponibilidade de reações de reunião pode ser configurada por meio da interface do centro de administração do Teams ou usando o PowerShell. As reações de reunião podem ser habilitadas ou desabilitadas na seção **Participantes & convidados** de uma política de reunião.
 
-Para definir a configuração, use o Set-CsTeamsMeetingPolicy cmdlet. Essa configuração é habilitada por padrão. Para desativá-lo, **defina AllowMeetingReactions** como **False**.
+A disponibilidade de reações de reunião pode ser configurada por meio da interface do centro de administração do Teams ou usando o PowerShell. As reações de reunião são habilitadas por padrão.
 
-As reações de reunião estão ativadas por padrão. Desativar as reações para um usuário não significa que ele não possa usar as reações nas reuniões agendadas por ele. O organizador da reunião ainda pode ativar as reações na página de opção da reunião, independentemente da configuração padrão.
+No centro de administração do Teams, as reações de reunião podem ser habilitadas ou desabilitadas nas **políticas de Reunião** de **Reuniões** >  na seção **Participantes & convidados** de uma política de reunião.
 
-## <a name="speaker-coach"></a>Treinador do Locutor
+Para configurar a configuração no PowerShell, use o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Para desativá-lo, defina **AllowMeetingReactions** como **False**.
 
-Essa configuração permite que os usuários ativem o Treinador do Locutor durante uma reunião do Teams. O Treinador do Locutor escuta o áudio do usuário enquanto ele apresenta e fornece comentários e sugestões particulares em tempo real para melhoria. O usuário também obtém um relatório resumido de seus comentários após a reunião.
+Desativar as reações para um usuário não significa que ele não possa usar as reações nas reuniões agendadas por ele. O organizador da reunião ainda pode ativar as reações na página de opção da reunião, independentemente da configuração padrão.
+
+## <a name="speaker-coach"></a>Coach de Alto-Falante
+
+Essa configuração permite que os usuários ativem o Speaker Coach durante uma reunião do Teams. O Speaker Coach escuta o áudio do usuário enquanto ele apresenta e fornece comentários privados em tempo real e sugestões para aprimoramento. O usuário também recebe um relatório de resumo de seus comentários após a reunião.
 
 > [!NOTE]
-> O usuário que ativou o Speaker Coach durante a reunião é o único que pode ver o relatório de resumo dos comentários. Os administradores não terão acesso a nenhum desses dados.
+> O usuário que ligou o Speaker Coach durante a reunião é o único que pode ver o relatório de resumo dos comentários. Os administradores não terão acesso a nenhum desses dados.
 
 Atualmente, você só pode definir e editar essa política no PowerShell. usando o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Ou crie uma nova política de reunião do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a aos usuários.
 
-Essa configuração é habilitada por padrão. Para desativá-lo, **defina AllowMeetingCoach** como **False**.
+Essa configuração está habilitada por padrão. Para desativá-lo, defina **AllowMeetingCoach** como **False**.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

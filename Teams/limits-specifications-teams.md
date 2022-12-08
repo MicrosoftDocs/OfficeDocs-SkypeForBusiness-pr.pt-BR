@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486611"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307526"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -162,12 +162,12 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 <sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-Para obter mais informações sobre eventos ao vivo, acesse eventos [ao vivo do Teams](teams-live-events/plan-for-teams-live-events.md#teams-live-events). Confira também [Agendar um evento ao vivo do Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Para obter mais informações sobre eventos ao vivo, acesse [eventos ao vivo do Teams](teams-live-events/plan-for-teams-live-events.md#teams-live-events). Confira também [Agendar um evento ao vivo do Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> **Para continuar atendendo às necessidades de nossos clientes, estenderemos os aumentos temporários de limite para eventos ao vivo até 31 de dezembro de 2022, incluindo**:
+> **Para continuar dando suporte às necessidades de nossos clientes, estenderemos os aumentos temporários de limite para eventos ao vivo até 30 de junho de 2023, incluindo:**
 >
 >- Suporte a eventos para até 20.000 participantes
 >- 50 eventos podem ser hospedados simultaneamente em um locatário

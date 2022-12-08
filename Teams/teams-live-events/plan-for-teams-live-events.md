@@ -21,12 +21,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1bbc6452847182533271f4aa7c7652ff8b00ba3
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: f458aded53926fed8772de70af2a105cdf9e5fda
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68966310"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307646"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -107,7 +107,7 @@ A tabela a seguir destaca os principais recursos e recursos oferecidos em evento
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> **Para continuar atendendo às necessidades de nossos clientes, estenderemos os aumentos temporários de limite para eventos ao vivo até 31 de dezembro de 2022, incluindo**:
+> **Para continuar dando suporte às necessidades de nossos clientes, estenderemos os aumentos temporários de limite para eventos ao vivo até 30 de junho de 2023, incluindo:**
 >
 >- Suporte a eventos para até 20.000 participantes
 >- 50 eventos podem ser hospedados simultaneamente em um locatário
