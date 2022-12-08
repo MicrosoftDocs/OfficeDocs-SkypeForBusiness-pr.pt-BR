@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba como usar, gerenciar e personalizar pacotes de políticas no Microsoft o Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245799"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318406"
 ---
 # <a name="managing-policy-packages-in-teams"></a>Gerenciando pacotes de políticas no Teams
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Um pacote de política no Microsoft Teams é um conjunto de políticas e configurações de política predefinidas que você pode atribuir a usuários com funções semelhantes em sua organização. Criamos pacotes de políticas para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
 
@@ -81,7 +84,7 @@ Por exemplo, quando você atribui o pacote de políticas de Educação (Professo
 ## <a name="custom-policy-packages"></a>Pacotes de política personalizados
 
 > [!NOTE]
-> O recurso de pacotes de política personalizados está disponível na versão prévia. Para usar esse recurso após a visualização, cada usuário precisará da licença do Teams Premium.
+> Pacotes de política personalizados exigem o Teams Premium.
 
 Pacotes de políticas personalizadas permitem empacotar seu próprio conjunto de políticas para usuários com funções semelhantes em sua organização. Crie seus próprios pacotes de política adicionando os tipos de política e as políticas de que você precisa.
 
