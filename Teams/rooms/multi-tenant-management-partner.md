@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Gerenciamento de clientes do locatário Mult para parceiros.
 f1keywords: ''
-ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: 6a98ff56548dcefc48be41657b368a9634ad8123
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046820"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343301"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>Gerenciamento de clientes de vários locatários para parceiros
 
@@ -36,7 +36,7 @@ O portal do MTM pode ser acessado por meio deste [link](https://partner.rooms.mi
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>Pré-requisitos para gerenciar seus clientes por meio da experiência MTM
 
-Para obter acesso ao portal mtm, sua organização deve ser integrada como um Parceiro elite para o MTR Pro Management. Para se tornar um askelite@microsoft.com de contato do parceiro Elite.
+O programa Elite que ofereceu acesso ao console de Gerenciamento Multilocatário foi descontinuado e não estamos integrando nenhum novo parceiro a este programa. Agradecemos sua compreensão e paciência, e anunciaremos um novo formato em breve. 
 
 ## <a name="on-boarding-customers"></a>Clientes in-boarding
 
@@ -161,9 +161,9 @@ Como parceiro, você pode criar funções personalizadas para atender aos seus r
 
 Os clientes finais mantêm o controle sobre o acesso aos seus dados e podem remover completamente um parceiro ou funções específicas a qualquer momento.
 
-Com o recurso de acesso delegado, um parceiro não obtém outros privilégios fora do portal do Pro Management. Por exemplo, usando esse recurso para convidar um parceiro para gerenciar salas no portal do Pro Management, nenhuma permissão é concedida ao AAD ou ao Teams Administração Center ou a qualquer outro produto microsoft. Além disso, os parceiros não têm acesso para exibir ou modificar salas não definidas no escopo do convite.
+Com o recurso de acesso delegado, um parceiro não obtém outros privilégios fora do portal do Pro Management. Por exemplo, usando esse recurso para convidar um parceiro para gerenciar salas no portal do Pro Management, nenhuma permissão é concedida ao AAD ou ao Teams Administração Center ou a qualquer outro produto Microsoft. Além disso, os parceiros não têm acesso para exibir ou modificar salas não definidas no escopo do convite.
 
-Depois que o parceiro — relacionamento com o cliente é estabelecido — conforme descrito no "Integrando clientes" deste documento, o parceiro poderá exibir dados de sala no portal do Pro Management. Isso inclui todos os dados presentes no portal do Pro Management, mas derivados de outros produtos da Microsoft. Por exemplo, os relatórios de qualidade de chamada no portal do Pro Management são derivados de dados de qualidade de chamada do Teams.
+Depois que o parceiro — relacionamento com o cliente é estabelecido — conforme descrito no "Integrando clientes" deste documento, o parceiro poderá exibir dados de sala no portal do Pro Management. Isso inclui todos os dados presentes no portal do Pro Management, mas derivados de outros produtos Microsoft. Por exemplo, os relatórios de qualidade de chamada no portal do Pro Management são derivados de dados de qualidade de chamada do Teams.
 
 Os dados residem no locatário do cliente e não são copiados para o locatário do parceiro. 
 
