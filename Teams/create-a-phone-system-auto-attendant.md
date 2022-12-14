@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Saiba como configurar e gerenciar atendentes automáticos no Microsoft Teams.
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307536"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379387"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Configurar um assistente automático Microsoft Teams
 
@@ -172,7 +172,7 @@ Depois de adicionar o fluxo de chamadas após o expediente, selecione **Avançar
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Etapa 4: configurar fluxos de chamada para feriados (opcional)
 
-O atendente automático pode ter um fluxo de chamadas para cada [Feriado configurado](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
+O atendente automático pode ter um fluxo de chamadas para cada [Feriado configurado](set-up-holidays-in-teams.md). Você pode adicionar até 20 conjuntos de férias a cada atendente automático. Cada conjunto de feriados pode conter até 10 intervalos de datas exclusivos. As datas de feriado devem ser exclusivas em todos os conjuntos de feriados que estão sendo adicionados ao atendente automático.
 
 *Nova opção – A opção Forçar escuta pode ser habilitada, o que exige que os chamadores ouçam todas as opções de menu antes de fazer a seleção.*
  *Novas chaves - \* (asterisco) e \# (libra) agora podem ser usadas nas opções de menu.*

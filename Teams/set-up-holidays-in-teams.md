@@ -19,25 +19,25 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Saiba como configurar feriados no Microsoft Teams para uso com seus atendedores automáticos.
-ms.openlocfilehash: e3d23c3d289f3ce2698d9bd0b774c40a46d69004
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+description: Saiba como configurar feriados no Microsoft Teams para uso com seus atendentes automáticos.
+ms.openlocfilehash: 6ed508f9060ff6ab5e0fb427c500b9e1cd8a707f
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614394"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379327"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 
-Você pode usar o recurso Feriados do Teams para fornecer mensagens alternativas e roteamento para chamadores para datas e horas específicas em que departamentos, filas de chamadas ou pessoas em sua organização seguirão horários de trabalho diferentes ou não estarão disponíveis. Por exemplo, você pode criar um feriado para o dia de Ano Novo quando sua organização pode estar fechada.
+Você pode usar o recurso Férias do Teams para fornecer mensagens alternativas e roteamento aos chamadores para datas e horários específicos em que departamentos, filas de chamadas ou pessoas em sua organização estarão seguindo horários de trabalho diferentes ou não estarão disponíveis. Por exemplo, você pode criar um feriado para o Dia de Ano Novo, quando sua organização pode estar fechada.
 
-Os feriados criados aqui estão disponíveis quando você configura um atendedor [automático, cada](create-a-phone-system-auto-attendant.md) um com suas próprias configurações de saudação e roteamento de chamadas.
+Os feriados que você cria aqui estão disponíveis quando você [configura um atendente automático](create-a-phone-system-auto-attendant.md), cada um com suas próprias configurações de roteamento de saudação e chamada.
 
 ## <a name="create-a-holiday"></a>Criar um feriado
 
 Para criar um feriado
 
-1. No centro de administração do Microsoft Teams, vá para **Feriados** > **de Voz**.
+1. No centro de administração do Microsoft Teams, vá para **o Voice** > **Holidays**.
 
 2. Selecione **Novo feriado**.
 
@@ -45,18 +45,18 @@ Para criar um feriado
 
 4. Selecione **Adicionar nova data**.
 
-5. Em **Hora de início**, selecione o ícone de calendário e escolha a data em que deseja que o feriado comece.
+5. Em **Hora de iniciar**, selecione o ícone de calendário e escolha a data em que deseja que o feriado comece.
 
 6. Use a lista suspensa para selecionar uma hora de início para o feriado.
 
 7. Em **Hora de término**, selecione o ícone de calendário e escolha a data em que deseja que o feriado termine.
 
-8. Use a lista suspensa para selecionar uma hora de término para o feriado. A **hora de término** deve ser após a **hora de início**.  
+8. Use a lista suspensa para selecionar uma hora de término para o feriado. O **tempo de término** deve ser após o **horário de início**.  
 
    > [!NOTE]
-   > Se o feriado for para um dia inteiro (ou seja, um período de 24 horas), a hora de  término deverá ser definida para o dia seguinte e a hora como 00:00. Por exemplo, se sua organização for fechada em 1º de janeiro para o dia de Ano Novo, defina  a hora de início como 1º de janeiro 12:00 AM e defina  a hora de término como 2 de janeiro às 12:00.
+   > Se o feriado for para um dia inteiro (ou seja, um período de 24 horas), o horário de **término** deverá ser definido para o dia seguinte e a hora para as 12:00. Por exemplo, se sua organização estiver fechada em 1º de janeiro para o dia de Ano Novo, defina a **hora de início** como 1 12:00 de janeiro e defina o **horário de término** como 2 de janeiro @ 12:00 AM.
 
-9. Opcionalmente, adicione mais datas para feriados recorrentes.
+9. Opcionalmente, adicione mais datas para feriados recorrentes. Até 10 intervalos de datas separados podem ser adicionados a um único feriado.  
 
 10. Selecione **Salvar**.
 
@@ -64,22 +64,22 @@ Para criar um feriado
 
 ## <a name="change-a-holiday"></a>Alterar um feriado
 
-Para alterar um feriado
+Para mudar um feriado
 
-1. No centro de administração do Microsoft Teams, vá para **Feriados** > **de Voz**.
+1. No centro de administração do Microsoft Teams, vá para **o Voice** > **Holidays**.
 
 2. Selecione o feriado na lista.
 
-3. Em **Hora de início**, selecione o ícone de calendário e escolha a data em que deseja que o feriado comece.
+3. Em **Hora de iniciar**, selecione o ícone de calendário e escolha a data em que deseja que o feriado comece.
 
 4. Use a lista suspensa para selecionar uma hora de início para o feriado.
 
 5. Em **Hora de término**, selecione o ícone de calendário e escolha a data em que deseja que o feriado termine. 
 
-6. Use a lista suspensa para selecionar uma hora de término para o feriado. A **hora de término** deve ser após a **hora de início**.  
+6. Use a lista suspensa para selecionar uma hora de término para o feriado. O **tempo de término** deve ser após o **horário de início**.  
 
 7. Selecione **Salvar**.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Planejar atendedores automáticos do Teams e filas de chamadas](plan-auto-attendant-call-queue.md)?
+[Planejar atendimentos automáticos do Teams e filas de chamadas](plan-auto-attendant-call-queue.md)?

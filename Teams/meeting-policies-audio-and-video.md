@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião no Teams para áudio e vídeo.
-ms.openlocfilehash: 111b91a26a3c1058c6fb574f5feb7b6a6d8c00b2
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 9e4e4ac9e2c1c63b9f45a71c5e006bba48ebbfc8
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307886"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379367"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Configurações de política de reunião para vídeo de & de áudio
 
@@ -205,21 +205,21 @@ Os participantes da reunião verão uma seleção de imagens em segundo plano qu
 
 ## <a name="far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras"></a>Controle de câmera de extremidade distante (FECC) para câmeras PTZ (zoom de inclinação de painel)
 
-O controle de câmera de extremidade distante é uma política que pode ser atribuída a Salas do Teams em contas de recursos do Windows. Ele permite que as câmeras PTZ conectadas a uma Sala do Teams sejam controladas pelos participantes da reunião no aplicativo cliente do Teams durante as reuniões.
+O controle de câmera de extremidade distante é uma política que pode ser atribuída a Salas do Teams contas de recursos. Ele permite que as câmeras PTZ conectadas a uma Sala do Teams sejam controladas pelos participantes da reunião no aplicativo cliente do Teams durante as reuniões.
 
 Para usar o controle de câmera de extremidade distante, os participantes da reunião precisarão obter o aplicativo **controles de câmera PTZ** .  Consulte [Permitir e bloquear aplicativos](manage-apps.md#allow-and-block-apps) para saber como disponibilizar o aplicativo na loja de aplicativos da sua organização.
 
-Para especificar quem pode usar o controle de câmera de extremidade distante em uma reunião, crie e atribua uma nova política a uma conta de recurso Salas do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) ou use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para modificar um existente. Defina o `TeamsCameraFarEndPTZMode` parâmetro como um dos seguintes valores:
+Para especificar quem pode usar o controle de câmera de extremidade distante em uma reunião, crie e atribua uma nova política a uma conta de recurso Salas do Teams usando o cmdlet [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) ou use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para modificar um existente. Defina o `TeamsCameraFarEndPTZMode` parâmetro como um dos seguintes valores:
 
 |Valor de configuração|Comportamento|
 |---|---|
-|Desabilitado|Essa é a configuração padrão. Quando definido como "desabilitado", ninguém pode usar controles de câmera PTZ.|
-|AutoAcceptAll|Os controles de câmera PTZ estão disponíveis automaticamente para qualquer participante da reunião.|
-|AutoAcceptInTenant|Os controles de câmera PTZ estão disponíveis automaticamente apenas para os participantes da mesma organização que a Sala do Teams.|
+|`Disabled`|Essa é a configuração padrão. Quando definido como `Disabled`, ninguém pode usar controles de câmera PTZ.|
+|`AutoAcceptAll`|Os controles de câmera PTZ estão disponíveis automaticamente para qualquer participante da reunião.|
+|`AutoAcceptInTenant`|Os controles de câmera PTZ estão disponíveis automaticamente apenas para os participantes da mesma organização que a Sala do Teams.|
 
 Quando `TeamsCameraFarEndPTZMode` está definido como `AutoAcceptAll` ou `AutoAcceptInTenant`, o controle de câmera ainda pode ser desativado manualmente da Sala do Teams em qualquer ponto durante uma reunião. O controle da câmera também não está disponível quando a câmera é desligada.
 
-Há suporte para qualquer câmera com controles de PTZ e UVC mecânicos. Para obter uma lista de câmeras certificadas para o Teams, incluindo câmeras PTZ e não PTZ, confira [Versões de firmware certificadas para periféricos de áudio e vídeo USB](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Esse recurso ainda não tem suporte em câmeras com controles PTZ digitais ou em Salas do Teams no Android.  
+Há suporte para qualquer câmera com controles de PTZ e UVC mecânicos. Para obter uma lista de câmeras certificadas para o Teams, incluindo câmeras PTZ e não PTZ, confira [Versões de firmware certificadas para periféricos de áudio e vídeo USB](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). Esse recurso ainda não tem suporte em câmeras com controles PTZ digitais.  
 
 > [!NOTE]
 > Atualize o firmware da câmera antes de testar controles PTZ. Consulte a documentação original do fabricante de equipamentos (OEM) para atualizar firmware.

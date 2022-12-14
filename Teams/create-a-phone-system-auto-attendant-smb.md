@@ -1,5 +1,5 @@
 ---
-title: Configurar um atendente automático para o Microsoft Teams
+title: Configurar um atendente automático para Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -21,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Saiba como configurar e gerenciar atendentes automáticos no Microsoft Teams.
-ms.openlocfilehash: 97f298e03a6495dda4ec7568f3e3b022548bba08
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: 0acdbacb9899184aaf21003193d62b3dcc4eab3a
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139255"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379357"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendente automático
 
@@ -39,8 +39,8 @@ Os atendentes automáticos podem redirecionar chamadas, com base na entrada dos 
 - **Operador** – o operador definido para o atendente automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos desta lista.
 - **Pessoa na organização** – uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado localmente usando Skype for Business Server.
 - **Aplicativo de voz** – outro atendente automático ou uma fila de chamadas. (Escolha a conta de recurso associada à fila de atendimento automático ou chamada ao escolher este destino.)
-- **Caixa postal** – a caixa de correio de voz associada a um grupo do Microsoft 365 que você especifica. Você pode escolher se deseja transcrições de caixa postal e "Por favor, deixe uma mensagem após o tom". prompt do sistema.
-  - No M365 Administração Center, habilite "Permitir que pessoas fora da organização enviem um email para essa equipe" para o grupo do Microsoft 365 que você especificar
+- **Caixa postal** – a caixa de correio de voz associada a um grupo Microsoft 365 que você especifica. Você pode escolher se deseja transcrições de caixa postal e "Por favor, deixe uma mensagem após o tom". prompt do sistema.
+  - No Centro de Administração M365, habilite "Permitir que pessoas fora da organização enviem email para essa equipe" para o grupo Microsoft 365 que você especificar
 - **Número de telefone externo** – qualquer número de telefone. Confira [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Comunicado (arquivo de áudio)** – Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio no . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB. O sistema reproduz o anúncio e retorna ao menu de atendimento automático.
 - **Comunicado (Digitado)** – Digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o anúncio e retorna ao menu de atendimento automático.
@@ -170,7 +170,7 @@ Depois de adicionar o fluxo de chamadas após o expediente, selecione **Avançar
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Etapa 4: configurar fluxos de chamada para feriados (opcional)
 
-O atendente automático pode ter um fluxo de chamadas para cada [Feriado configurado](set-up-holidays-in-teams.md). Você pode adicionar até 20 feriados agendados para cada atendedor automático.
+O atendente automático pode ter um fluxo de chamadas para cada [Feriado configurado](set-up-holidays-in-teams.md). Você pode adicionar até 20 conjuntos de férias a cada atendente automático. Cada conjunto de feriados pode conter até 10 intervalos de datas exclusivos. As datas de feriado devem ser exclusivas em todos os conjuntos de feriados que estão sendo adicionados ao atendente automático.
 
 *Nova opção – A opção Forçar escuta pode ser habilitada, o que exige que os chamadores ouçam todas as opções de menu antes de fazer a seleção.*
  *Novas chaves - \* (asterisco) e \# (libra) agora podem ser usadas nas opções de menu.*
@@ -201,7 +201,7 @@ Depois de adicionar todas as suas horas de férias, selecione **Avançar**.
 
 O *escopo de discagem* define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários da sua organização que são usuários online ou hospedados localmente usando Skype for Business Server.
 
-Você pode incluir ou excluir usuários específicos selecionando **grupos de usuários personalizados** em **Incluir** ou **Excluir** e escolhendo um ou mais grupos do Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
+Você pode incluir ou excluir usuários específicos selecionando **grupos de usuários personalizados** em **Incluir** ou **Excluir** e escolhendo um ou mais Microsoft 365 grupos, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
 
 Se um usuário estiver em ambas as listas, ele será excluído do diretório.
 
