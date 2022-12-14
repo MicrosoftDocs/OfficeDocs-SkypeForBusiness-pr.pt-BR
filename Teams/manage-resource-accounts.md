@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos no Microsoft Teams.
-ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147428"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392201"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "69147428"
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Depois de concluir a configuração da conta de recurso e atribuir um número de serviço, se necessário, você estará pronto para usar a conta de recurso com um atendente automático ou fila de chamadas.
+Depois de concluir a configuração da conta de recurso e atribuir um número de telefone, se necessário, você estará pronto para usar a conta de recurso com um atendente automático ou fila de chamadas.
 
 Confira as seguintes referências para saber mais:
 
@@ -73,7 +73,7 @@ Para implementações híbridas com Skype for Business Server:
 
 ## <a name="delete-a-resource-account"></a>Excluir uma conta de recurso
 
-Certifique-se de dissociar o número de telefone da conta de recurso antes de excluí-lo, para evitar que o número de serviço fique preso no modo pendente.
+Certifique-se de dissociar o número de telefone da conta de recurso antes de excluí-lo, para evitar que seu número de telefone fique preso no modo pendente.
 
 Depois de fazer isso, você pode excluir a conta de recurso no Centro de administração do Microsoft 365, na guia **Usuários**.
 

@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Saiba como configurar filas de chamada no Microsoft Teams. Filas de chamadas fornecem uma mensagem de saudação, mantêm música, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: a55573b5a7c713366eb4f930f58de34971d21fce
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: da0b94281619940a955a7ca7aa0b4127fbb93f3c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307546"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392221"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Criar uma fila de chamadas no Microsoft Teams
 
@@ -134,9 +134,9 @@ Se você não tiver uma conta de recurso com um número de telefone atribuído:
 
 Depois de criar essa nova conta de recursos para chamar a ID, você ainda precisará:
 
-- Atribuir uma [licença de conta de recurso de telefone do Teams](manage-resource-accounts.md#assign-a-license)
-- Atribua uma licença do Plano de Chamada Microsoft, atribua um número de telefone do Operator Connect ou atribua uma política de roteamento de voz online para Roteamento Direto
-- Atribua o [número de telefone de serviço à conta de recurso](manage-resource-accounts.md#assign-a-service-number), se você estiver usando Microsoft Plano de Chamada
+- Atribua uma [licença de Conta de Recurso do Teams Phone](manage-resource-accounts.md#assign-a-license).
+- Atribua uma licença Microsoft Plano de Chamada, atribua um número de telefone do Operator Connect ou atribua uma política de roteamento de voz online para Roteamento Direto.
+- Atribua o [número de telefone à conta de recurso](manage-resource-accounts.md#assign-a-phone-number), se você estiver usando Microsoft Plano de Chamada.
 
 ### <a name="set-the-call-queue-language"></a>Definir o idioma da fila de chamadas
 

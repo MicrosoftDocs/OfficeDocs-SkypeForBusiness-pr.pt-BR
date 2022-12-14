@@ -1,11 +1,11 @@
-No Microsoft Teams, uma conta de recurso é necessária para cada atendente automático ou fila de chamadas. Contas de recurso também podem ser atribuídas números de telefone de serviço. É assim que você atribui números de telefone a atendentes automáticos e filas de chamadas permitindo que os chamadores de fora do Teams cheguem à fila de atendimento automático ou de chamada.
+No Microsoft Teams, uma conta de recurso é necessária para cada atendente automático ou fila de chamadas. Contas de recurso também podem ser atribuídas números de telefone. É assim que você atribui números de telefone a atendentes automáticos e filas de chamadas permitindo que os chamadores de fora do Teams cheguem à fila de atendimento automático ou de chamada.
 
 Este artigo aborda como criar contas de recursos e prepará-las para uso com atendentes automáticos e filas de chamadas.
 
 Antes de iniciar os procedimentos neste artigo, verifique se você fez as seguintes etapas:
 
 - [Obter licenças da Conta de Recursos Telefonia do Microsoft Teams](#obtain-microsoft-teams-phone-resource-account-licenses)
-- [Obter números de serviço](#obtain-service-numbers)
+- [Obter números de telefone](#obtain-phone-numbers)
 
 > [!NOTE]
 > As contas de recurso usadas para atendentes automáticos e filas de chamadas estão desabilitadas para entrar e devem permanecer assim. Chat e presença não estão disponíveis para essas contas.
@@ -30,13 +30,17 @@ Para ver se você já tem licenças da **Conta de Recursos do Teams Phone**, ent
 
 Não há custo zero, mas você ainda precisa seguir estas etapas para adquirir a licença.
 
-### <a name="obtain-service-numbers"></a>Obter números de serviço
+### <a name="obtain-phone-numbers"></a>Obter números de telefone
 
-Os números de serviço são opcionais para atendentes automáticos e filas de chamadas; no entanto, você precisará de pelo menos um número de serviço para que os chamadores alcancem a configuração de fila de atendimento automático e de chamada. Para qualquer atendente automático ou fila de chamadas que você deseja ser acessível diretamente por um número de serviço, você deve ter uma conta de recurso com um número de serviço associado.
+Os números de telefone são opcionais para atendentes automáticos e filas de chamadas. Para qualquer atendente automático ou fila de chamadas que você deseja ser acessível diretamente por um número de telefone, você deve ter uma conta de recurso com um número de telefone associado.
 
-As contas de recurso podem usar números de serviço gratuitos ou de pedágio. Você pode solicitar novos números ou portar números existentes de outra operadora.
+As contas de recursos podem usar números de telefone gratuitos ou de pedágio. Você pode solicitar novos números ou portar números existentes de outra operadora.
 
-Para obter novos números de serviço, consulte [Obtendo números de telefone de serviço](../getting-service-phone-numbers.md).
+Os números de telefone aceitáveis que podem ser aplicados a contas de recursos incluem:
+
+- **Chamando números de serviço de Planos:** Para adquirir números de serviço com planos de chamada, consulte [Obtendo números de telefone de serviço](../getting-service-phone-numbers.md).
+- **Números de roteamento direto:** Para adquirir números de Roteamento Direto, consulte [Habilitar usuários para Roteamento Direto](/microsoftteams/direct-routing-enable-users#configure-the-phone-number-and-enable-enterprise-voice).
+- **Números do Operator Connect:** Para adquirir números do Operator Connect, consulte [Configurar o Operator Connect](/microsoftteams/operator-connect-configure#set-up-phone-numbers).
 
 Para portar um número de outra operadora, consulte [Transferir números de telefone para o Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
@@ -60,13 +64,13 @@ Para cada conta de recurso, você deve atribuir uma **licença Telefonia do Micr
 4. Na guia **Licenças e Aplicativos**, em **Licenças**, selecione **Telefonia do Microsoft Teams Conta de Recursos**.
 5. Selecione **Salvar alterações**.
 
-## <a name="assign-a-service-number"></a>Atribuir um número de serviço
+## <a name="assign-a-phone-number"></a>Atribuir um número de telefone
 
-Se você estiver planejando usar a conta de recurso com um atendente automático ou uma fila de chamadas que requer um número de serviço, atribua um número à conta de recursos.
+Se você estiver planejando usar a conta de recurso com um atendente automático ou uma fila de chamadas que requer um número de telefone, atribua um número à conta de recursos.
 
 1. Entre no [centro de administração do Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expanda **Voz** e, em seguida, selecione **Página Contas de recursos** .
-3. Selecione a conta de recurso à qual você deseja atribuir um número de serviço e **selecione Atribuir/não atribuir**.
+3. Selecione a conta de recurso à qual você deseja atribuir um número de telefone e **selecione Atribuir/desatribuir**.
 4. Na lista suspensa **Tipo de número** de telefone, escolha o tipo de número que você deseja usar.
 5. Na caixa **Número de telefone atribuído** , pesquise o número que você deseja usar e selecione **Adicionar**. Certifique-se de incluir o código do país (por exemplo, +1 250 555 0012).
 6. Selecione **Salvar**.

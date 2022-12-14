@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Saiba mais sobre Microsoft Teams Premium para administradores e profissionais de TI.
-ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379458"
+ms.locfileid: "69392471"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium – Visão geral dos administradores
 
@@ -63,8 +63,6 @@ O Teams Premium fornece maneiras adicionais de proteger reuniões com os seguint
 - **Criptografia de ponta a ponta** – imposta por meio de um rótulo de confidencialidade. A criptografia de ponta a ponta fornece maior segurança para reuniões que exigem um nível mais alto de proteção.
 
 
-
-
 | Recurso/Tarefa  | Documentação para administradores | Documentação para seus usuários finais
 | -------------------- | ----------- | ------------ |
 | Rótulos de confidencialidade | [Configurar reuniões do Teams com três camadas de proteção](configure-meetings-three-tiers-protection.md) | |
@@ -82,16 +80,17 @@ O Teams Premium fornece os seguintes recursos adicionais para personalizar reuni
 
 - **Temas de reunião** – permite que sua organização estenda suas identidades visuais pela experiência da reunião. Você pode configurar e criar temas de reunião para uma variedade de unidades de negócios e departamentos em um único locatário.
 
-- **Planos de fundo de reunião personalizados** – você pode criar e definir planos de fundo de reunião personalizados que estão disponíveis para seus usuários finais. 
+- **Planos de fundo de reunião personalizados para organizações** – você pode criar e definir planos de fundo de reunião personalizados que estão disponíveis para seus usuários finais com uma licença do Teams Premium.
 
-- **Cenas de modo juntos personalizadas** – um aplicativo do Teams que permite que os desenvolvedores em sua organização definam e personalizem cenas de vídeo para reuniões.  
+- **Cenas de modo juntos personalizadas para organizações** – você pode criar, personalizar ou aceitar cenas de modo personalizadas em conjunto para reuniões que estão disponíveis para seus usuários finais com uma licença do Teams Premium.
+
 
 | Recurso/Tarefa | Documentação para administradores | Documentação para seus usuários finais
 | -------------------- | ----------- | ------------ |
 | Modelos de reunião | - [Visão geral](custom-meeting-templates-overview.md)<br>- [Criar um modelo de reunião personalizado](create-custom-meeting-template.md)| [Usar modelos personalizados](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | Temas de reunião | [Temas para reuniões do Teams](meeting-themes.md) | [Usar temas de reunião](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| Planos de fundo de reunião personalizados | [Planos de fundo de reunião](custom-meeting-backgrounds.md)| |
-| Cenas personalizadas do modo juntos | [Conteúdo para você e seus desenvolvedores](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| Planos de fundo de reunião personalizados para organizações | [Planos de fundo de reunião](custom-meeting-backgrounds.md)| |
+| Cenas de modo juntos personalizados para organizações | [Conteúdo para você e seus desenvolvedores](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 

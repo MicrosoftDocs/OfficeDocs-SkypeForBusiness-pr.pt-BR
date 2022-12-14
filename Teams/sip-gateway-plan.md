@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4f5db5f79d2a273701e7c2cd8883c89aba2d1a2
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 5d2bd923835da3c9ffcbf32e0675f1f0e4e63bd3
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69126957"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392211"
 ---
 # <a name="plan-for-sip-gateway"></a>Planejar o GATEWAY SIP
 
-O SIP Gateway permite que sua organização use qualquer dispositivo SIP compatível com o Microsoft Teams para preservar seus investimentos em dispositivos SIP. Agora você pode entrar no Teams com suas credenciais corporativas e fazer e receber chamadas com um dispositivo SIP compatível. Dispositivos compatíveis podem ser Skype for Business telefones IP com firmware SIP padrão, telefones IP Cisco com firmware SIP multiplataforma ou dispositivos SIP de fornecedores como Poly, Yealink e AudioCodes. Para descobrir como configurar seus dispositivos SIP para o SIP Gateway, consulte [Configurar o Gateway SIP](sip-gateway-configure.md).
+O Sip Gateway permite que sua organização use qualquer dispositivo SIP compatível com Microsoft Teams para preservar seus investimentos em dispositivos SIP. Agora você pode entrar no Teams com suas credenciais corporativas e fazer e receber chamadas com um dispositivo SIP compatível. Dispositivos compatíveis podem ser Skype for Business telefones IP com firmware SIP padrão, telefones IP Cisco com firmware SIP multiplataforma ou dispositivos SIP de fornecedores como Poly, Yealink e AudioCodes. Para descobrir como configurar seus dispositivos SIP para o SIP Gateway, consulte [Configurar o Gateway SIP](sip-gateway-configure.md).
 
 ## <a name="benefits-of-sip-gateway"></a>Benefícios do Gateway SIP
 
@@ -62,9 +62,9 @@ Os usuários do Teams devem ter um número de telefone com chamadas PSTN habilit
 
 Se você tiver um dispositivo 3PIP ou SIP, deverá ter:
 
-- Uma licença para o Microsoft Teams, Skype for Business Plano Online 2 e Sistema de Telefonia do Microsoft 365 (via E5 ou licenças autônomas)
-- Habilitação PSTN (ou seja, um número de telefone) por meio de um Plano de Chamada do Microsoft Teams, Roteamento Direto ou Conexão de Operador
-- Uma licença de Telefone de Área Comum para qualquer dispositivo de área comum
+- Uma licença para Microsoft Teams, Skype for Business Plano Online 2 e Microsoft sistema telefônico 365 (via E5 ou licenças autônomas)
+- Habilitação PSTN (ou seja, um número de telefone) por meio de um Microsoft Plano de Chamada do Teams, Roteamento Direto ou Conexão de Operador
+- Uma **licença Microsoft dispositivos compartilhados do Teams** para qualquer dispositivo de área comum
 
 ## <a name="compatible-devices"></a>Dispositivos compatíveis
 

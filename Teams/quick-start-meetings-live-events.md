@@ -23,14 +23,16 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 982730f7c839eeab2a55bc8997eade8aec31bebc
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614264"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392191"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniões, seminários via web e eventos ao vivo
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Há duas maneiras de se reunir no Microsoft Teams – reuniões, seminários via web e eventos ao vivo.
 
@@ -44,7 +46,7 @@ A tabela a seguir resume os três tipos de reuniões, o número de participantes
 
 | Tipo de reunião | Número de participantes | Interação | Registro com suporte |
 |----------|--------|--------|-----|
-| Reuniões  | Até 20.000* | - Os participantes até 1.000 têm recursos de reunião iguais totalmente interativos. <br> - Os participantes acima de 1.000 até 20.000 têm recursos de [Somente visualização](view-only-meeting-experience.md).  | Não |
+| Reuniões  | Até 20.000* | - Os participantes até 1.000 têm recursos de reunião iguais totalmente interativos. <br> - Os participantes acima de 1.000 até 20.000 têm recursos de [Somente visualização](view-only-meeting-experience.md).  | Sim, com reuniões com registro (webinars 1.0) |
 | Seminários via Web | - Até 1.000<br>- Limites aumentados com recursos [Somente visualização](view-only-meeting-experience.md) em breve. |- Os participantes até 1.000 têm recursos totalmente interativos.<br> - Interação do público configurável.<br> - Pode especificar apresentadores. | Sim |
 | Eventos ao vivo | Até 20.000** |- Transmissão para grandes audiências. <br>- Perguntas e respostas moderadas para interação com o público. <br> - Pode especificar produtores e apresentadores, incluindo apresentadores externos.<br>- Suporta capacidades de produção mais avançadas. | Não |
 
@@ -55,7 +57,7 @@ A tabela a seguir resume os três tipos de reuniões, o número de participantes
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Para obter informações adicionais e obter diretrizes por função para fornecer eventos online usando o Microsoft Teams, consulte o [Guia Estratégico de Eventos Virtuais](https://aka.ms/VirtualEventPlaybook). Você também pode ingressar no [Fórum de Eventos Virtuais](https://aka.ms/VirtualEventForum) no Microsoft Tech Community.
+> Para obter informações adicionais e obter diretrizes por função para fornecer eventos online usando Microsoft Teams, consulte o [Guia de Jogos Virtuais](https://aka.ms/VirtualEventPlaybook). Você também pode ingressar no [Fórum de Eventos Virtuais](https://aka.ms/VirtualEventForum) no Microsoft Tech Community.
 
 > [!NOTE]
 > Para saber mais sobre a configuração rápida de reuniões e eventos do Teams em diferentes plataformas, consulte [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -95,7 +97,30 @@ A tabela a seguir lista o treinamento disponível para os usuários finais na su
 
 ## <a name="webinars"></a>Seminários via Web
 
-Os **seminários via Web** são reuniões estruturadas em que os apresentadores e participantes possuam funções claras. Uma diferença fundamental entre seminários via Web e reuniões do Teams é que os seminários via Web oferecem suporte ao registro e fornecem dados de engajamento dos participantes. Para habilitar seminários via Web na sua organização, consulte [Configurar seminários via Web no Teams](set-up-webinars.md).
+Os **seminários via Web** são reuniões estruturadas em que os apresentadores e participantes possuam funções claras. Uma diferença fundamental entre webinars e reuniões do Teams é que os webinars dão suporte a gerenciamento de registro robusto, site de eventos e registro personalizáveis e opções de reunião padrão orientadas a eventos.
+
+Se sua organização já estiver usando webinars, você estará familiarizado com a política de Reunião do Teams e as seguintes configurações que permitem dar suporte ao registro de reunião e acompanhar os dados de engajamento:
+
+- AllowMeetingRegistration (habilitado ou desabilitado)
+- WhoCanRegister (todos na empresa excluindo convidados ou todos)
+
+Com a versão da nova experiência webinar, haverá uma nova política de Eventos do Teams com as seguintes configurações:
+
+- AllowWebinars (habilitado ou desabilitado)
+- EventAccessType (todos na empresa, excluindo convidados ou todos)
+
+A nova política continuará a dar suporte ao registro e ao acompanhamento e fornecerá funcionalidade adicional à experiência webinar. Inicialmente, o seguinte estará disponível:
+
+- Pergunta personalizada de termos e condições
+- Biografia do apresentador
+- Faixa, logotipo e cor predefinida
+- Recursos avançados de registro: aprovação manual, lista de espera, data de registro e limite de tempo
+- Visão geral e gerenciamento do registro: para cada evento, um resumo do status do registro com listas de participantes em diferentes estados de registro , dependendo de quais recursos de registro foram habilitados.
+
+Você vai querer começar a usar a nova política para aproveitar a nova funcionalidade à medida que ela se torna disponível.
+
+Para obter mais informações sobre a funcionalidade e como configurar webinars, consulte [Configurar webinars](set-up-webinars.md).
+
 
 ### <a name="key-training-for-end-users"></a>Treinamento principal para os usuários finais
 
@@ -152,6 +177,8 @@ A tabela a seguir lista artigos para obter mais informações:
 Qualquer pessoa pode participar de uma reunião do Teams, webinar ou evento público Ao vivo Gratuitamente, sem necessidade de licença.
 
 As pessoas que organizam, agendam e hospedam reuniões, seminários via Web ou eventos ao vivo precisarão de uma das licenças do Microsoft 365 listada na [Descrição do serviço Microsoft Teams](/office365/servicedescriptions/teams-service-description). Se você já estiver usando o Teams, provavelmente você já possua a licença necessária para organizar e hospedar reuniões, seminários via Web e eventos ao vivo.
+
+Para obter informações sobre o licenciamento do Teams Premium, consulte [Licenciamento do Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
 
 Para permitir que as pessoas liguem para uma reunião, você precisará configurar a conferência de áudio. Para obter mais informações sobre audioconferência, consulte [Perguntas comuns sobre Audioconferência](deploy-audio-conferencing-teams-landing-page.md).
 

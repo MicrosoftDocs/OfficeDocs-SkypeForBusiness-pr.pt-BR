@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para Microsoft Teams produzir os melhores resultados.
-ms.openlocfilehash: f9012cd72807705f4f381b3443605b77c9d94000
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 0055529d7bc0344faeb04e7d35bf0c9ed457510d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307936"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392351"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>dispositivos Android certificados Microsoft Teams
 
@@ -88,7 +88,7 @@ Os seguintes dispositivos são certificados no Salas do Microsoft Teams no Progr
 | Logitech Tap IP VR0029     | `1.6.762`  |   3 de setembro de 2024  | Compatível com o Logitech Rally Bar e o Rally Bar Mini | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 3 de setembro de 2024  |  Sala de tamanho médio (4,5 m x 6 m) | 10|
 | Barra Limpa | `NFF1.20220914.1210` |3 de setembro de 2024|    Sala de tamanho médio (4,5 m x 6 m) | 10 |
-| Console de toque Neat Pad | `NFA1.20220914.1206`  | 3 de setembro de 2024 | Compatível somente com Barra Limpa | 9 |
+| Console de toque Neat Pad | `NFA1.20220914.1206`  | 3 de setembro de 2024 | Compatível com o Neat Bar & Neat Bar Pro | 9 |
 | Quadro Puro | `NFC1.20220914.1210 ` | 3 de setembro de 2024 |    Sala de Reunião Pequena (4,5 m x 4,5 m) | 10 |
 | Colega de quarto logitech | `1.4.71` | 3 de setembro de 2024  | Sala de reunião grande (4,5 m x 8,5 m)  |   10  |
 | EPOS EXPANDEM 80T | `1.2.2.21182.10` | 5 de agosto de 2023 | Empacotado com o EPOS Vision 3T | 9 |
@@ -165,6 +165,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware  | Versão do produto incluída  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX350 | `8.0.2.2643` | Atualização 2022 #4A |
 |Yealink CP965  | `143.15.0.27`     | Atualização 2022 #4A  |
 |Yealink MP54/MP56/MP58  | `122.15.0.107`     | Atualização 2022 #4A  |
 |Yealink MP52  | `145.15.0.59`     | Atualização 2022 #4A  |
@@ -272,6 +273,7 @@ A seguir estão os Salas do Teams mais recentes em versões de aplicativo Androi
 
 | Versão do produto| Data de lançamento | versão do aplicativo Microsoft Teams | Portal da Empresa versão | versão do Agente Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Atualização 2022 #3  | 13 de dez de 2022 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
 | Atualização 2022 #2B  | 15 de setembro de 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Atualização 2022 #2A  | 8 de agosto de 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | Atualização 2022 #2  | 25 de maio de 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -290,6 +292,14 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão do produto incluída |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 86" | `155.15.0.17` | Atualização 2022 #2B |
+| Barra Limpa | `NFB1.20220914.1215` | Atualização 2022 #2B |
+| Neat Bar Pro| `NFD1.20220914.1215` | Atualização 2022 #2B |
+| Quadro Puro | `NFC1.20220914.1215` |  Atualização 2022 #2B |
+| Console de toque Neat Pad | `NFA1.20220914.1215`  |  Atualização 2022 #2B |
+| Barra de Rally logi  | `1.8.290`     | Atualização 2022 #2B  |
+| Logi Rallybar Mini  | `1.8.290`     | Atualização 2022 #2B  |
+| Logi Console  | `1.8.177`    | Atualização 2022 #2B  |
 | Barra de Rally logi  | `1.7.300`     | Atualização 2022 #2B  |
 | Logi Rallybar Mini  | `1.7.300`     | Atualização 2022 #2B  |
 | Logi RoomMate  | `1.7.202`   | Atualização 2022 #2B  |

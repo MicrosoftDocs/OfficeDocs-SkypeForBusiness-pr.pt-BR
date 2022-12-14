@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: Saiba como configurar filas de chamada no Microsoft Teams. Filas de chamadas fornecem uma mensagem de saudação, mantêm música, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: b7cfd7d17c9813d9d3f3ee65ceb7d1a9f1c96be4
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: ea11c7f8dde402c047c8a0aeabb5d724ddccf33b
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242575"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392531"
 ---
 # <a name="create-a-microsoft-teams-call-queue"></a>Criar uma fila de chamadas Microsoft Teams 
 
@@ -130,9 +130,9 @@ Se você não tiver uma conta de recurso com um número de telefone atribuído:
 
 Depois de criar essa nova conta de recursos para chamar a ID, você ainda precisará:
 
-- Atribuir uma [licença de conta de recurso de telefone do Teams](manage-resource-accounts.md#assign-a-license)
-- Atribua uma licença do Plano de Chamada Microsoft, atribua um número de telefone do Operator Connect ou atribua uma política de roteamento de voz online para Roteamento Direto
-- Atribua o [número de telefone de serviço à conta de recurso](manage-resource-accounts.md#assign-a-service-number), se você estiver usando Microsoft Plano de Chamada
+- Atribua uma [licença de Conta de Recurso do Teams Phone](manage-resource-accounts.md#assign-a-license).
+- Atribua uma licença Microsoft Plano de Chamada, atribua um número de telefone do Operator Connect ou atribua uma política de roteamento de voz online para Roteamento Direto.
+- Atribua o [número de telefone à conta de recurso](manage-resource-accounts.md#assign-a-phone-number), se você estiver usando Microsoft Plano de Chamada.
 
 ### <a name="set-the-call-queue-language"></a>Definir o idioma da fila de chamadas
 

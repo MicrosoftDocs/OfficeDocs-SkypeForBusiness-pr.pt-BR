@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 872d2f904919186d631fbfbd913ee500ea6421d9
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706828"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392091"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -30,6 +30,9 @@ ms.locfileid: "67706828"
 
 > [!Note]
 > Se sua reunião atingir a capacidade máxima, o Teams será perfeitamente escalonado para acomodar uma experiência de transmissão somente exibição para 10.000 pessoas. Além disso, durante este período de maior trabalho remoto, aproveite as transmissões ainda maiores para 20.000 pessoas até o final deste ano. Atualmente, os webinars não suportam uma experiência de transmissão somente exibição.
+
+> [!Note]
+> Uma Reunião do Teams não é um TLE (Evento Ao Vivo do Teams) e não aproveitará Microsoft eCDN. Para obter mais informações, consulte [Microsoft lista de verificação de integração do eCDN](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal for atingida (ou seja, quando 1.000 usuários entrarem em uma reunião), os participantes adicionais ingressarão com uma experiência somente exibição.
 
@@ -44,7 +47,7 @@ Os participantes poderão ingressar na experiência somente exibição por meio 
 
 ## <a name="teams-view-only-experience-controls"></a>Controles de experiência somente exibição do Teams
 
-Você habilita a experiência somente exibição usando o cmdlet [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) do [módulo SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) ou pelo menos a versão 2.0.0 do [módulo MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
+Você habilita a experiência somente exibição usando o cmdlet [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) do [módulo SkypeForBusiness PowerShell](/powershell/module/skype/) ou pelo menos a versão 2.0.0 do [módulo MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 Para usar o módulo `MicrosoftTeams` recomendado:
 
@@ -129,7 +132,7 @@ O participante somente visualização não poderá experimentar as seguintes op�
 - Os participantes somente para visualização não serão incluídos no relatório de presença.
 - Os participantes somente para visualização terão uma única experiência de vídeo. Eles podem ver o locutor ativo ou o conteúdo que está sendo compartilhado, mas não ambos.
 - No momento, não oferecemos suporte para **Galeria**, **Galeria grande** ou **Modo conferência** layouts para participantes somente para visualização.
-- Os participantes somente para exibição têm suporte nas seguintes políticas de lobby: 'Pessoas em minha organização', 'Pessoas em minha organização e convidados', 'Pessoas em minha organização, organizações confiáveis e convidados' e 'Todos'. Se você utilizar uma política de lobby que tem suporte para participantes Somente exibição, os participantes Somente exibição serão rejeitado da reunião. 
+- Os participantes somente exibição só são apoiados pelas seguintes políticas de lobby: "Pessoas na minha organização", "Pessoas na minha organização e convidados", "Pessoas em minha organização, organizações confiáveis e convidados" e "Todos". Se você utilizar uma política de lobby que tem suporte para participantes Somente exibição, os participantes Somente exibição serão rejeitado da reunião. 
 - Os participantes somente para visualização não terão a mesma latência de um participante normal. <sup>1</sup>
 
   <sup>1</sup> Os participantes somente para visualização terão um atraso de 30 segundos de vídeo e áudio na reunião.  
