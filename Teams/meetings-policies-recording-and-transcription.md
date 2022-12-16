@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: Aprenda a gerenciar configurações de política de reunião no Teams para gravação e transcrição.
-ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 06a05d2eb8a8c1542b79fa4c37b68ea4a3aa6d32
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928307"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436758"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Configurações de política de reunião para gravação & transcrição
 
@@ -96,13 +96,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 Você não deve confiar nas configurações de expiração da reunião para proteção legal, pois os usuários finais podem modificar a data de validade de todas as gravações que controlarem.
 
-#### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Configurações de expiração de gravação e políticas de retenção do Microsoft 365 no Microsoft Purview
+#### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Configurações de expiração de gravação e Microsoft 365 políticas de retenção no Microsoft Purview
 
-A retenção de arquivos tem precedência sobre a exclusão de arquivo. Uma gravação de reunião do Teams com uma política de retenção do Purview não pode ser excluída por uma política de expiração de gravação de reunião do Teams até que o período de retenção seja concluído. Por exemplo, se você tiver uma política de retenção do Purview que diz que um arquivo será mantido por cinco anos e uma política de expiração de gravação de reunião do Teams definida por 60 dias, a política de expiração de gravação de reunião do Teams excluirá a gravação após cinco anos.
+A retenção de arquivos tem precedência sobre a exclusão de arquivo. Uma gravação de reunião do Teams com uma política de retenção do Purview não pode ser excluída por uma política de expiração de gravação de reunião do Teams até que o período de retenção seja concluído. Por exemplo, se você tiver uma política de retenção do Purview que diz que um arquivo será mantido por cinco anos e uma política de expiração de gravação de reunião do Teams definida por 60 dias, a política de expiração de gravação de reunião do Teams excluirá permanentemente a gravação após cinco anos.
 
 Se você tiver uma política de expiração de gravação de reunião do Teams e uma política de exclusão do Purview com datas de exclusão diferentes, o arquivo será excluído no início das duas datas. Por exemplo, se você tiver uma política de exclusão do Purview que diga que um arquivo será excluído após um ano e uma expiração de gravação de reunião do Teams definida por 120 dias, a política de expiração de gravação de reunião do Teams excluirá o arquivo após 120 dias.
 
-Os usuários podem excluir manualmente suas gravações antes da data de validade, a menos que haja uma política de retenção do Purview que a impeça.
+Os usuários podem excluir manualmente suas gravações antes da data de validade, a menos que haja uma política de retenção do Purview que a impeça. Se uma gravação que ainda estiver no período de retenção for excluída manualmente por um usuário, a gravação será realizada na biblioteca de Retenção de Preservação. No entanto, a gravação será exibida como excluída para o usuário final. Para saber mais, confira [Saiba mais sobre retenção para SharePoint e OneDrive](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
 
 ### <a name="deletion-of-recordings"></a>Exclusão de gravações
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião no Teams para participantes e convidados.
-ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68876277"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436667"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -54,7 +54,7 @@ Essa configuração por organizador permite que qualquer pessoa participe de reu
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Permitir que pessoas anônimas iniciem uma reunião
 
-Essa configuração é uma política por organizador que permite reuniões de conferência discada sem líder. Essa configuração controla se os usuários de acesso telefônico podem participar da reunião sem um usuário autenticado da organização em participação. Por padrão, essa configuração é desativada, o que significa que os usuários discados aguardarão no lobby até que um usuário autenticado da organização participe da reunião.
+Essa configuração é uma política por organizador que permite reuniões de conferência discada sem líder. Essa configuração controla se usuários anônimos e chamadores discados podem ingressar na reunião sem que um usuário autenticado da organização esteja presente. Por padrão, essa configuração é desativada, o que significa que usuários anônimos e chamadores discados esperarão no lobby até que um usuário autenticado da organização participe da reunião.
 
 > [!NOTE]
 > Se essa configuração estiver desativada e um usuário de acesso telefônico participar da reunião primeiro e for colocado no lobby, um usuário da organização deverá participar da reunião com um cliente do Teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para os usuários.

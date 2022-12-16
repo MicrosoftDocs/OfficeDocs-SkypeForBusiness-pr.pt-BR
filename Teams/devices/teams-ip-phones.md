@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para Microsoft Teams produzir os melhores resultados.
-ms.openlocfilehash: e6e857539b47fdb991b92e90e7c9f2f1d609143c
-ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
+ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2022
-ms.locfileid: "69412224"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436697"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>dispositivos Android certificados Microsoft Teams
 
@@ -389,6 +389,7 @@ Veja a seguir as versões mais recentes Microsoft aplicativo e firmware do Teams
 
 |Versão do produto| Data de lançamento | versão do aplicativo Microsoft Teams | Portal da Empresa versão | versão do Agente Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Atualização 2022 #4A | 14 de dezembro de 2022 | `1449/1.0.95.2022120502` | `5.0.5484.0` | `1.0.0.202205230848.product (361)`|
 |Atualização 2022 #1  |14 de novembro de 2022 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
 |Atualização 2021 #4  |5 de janeiro de 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
 |Atualização 2021 #3  |8 de dezembro de 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
@@ -417,6 +418,7 @@ Veja a seguir as versões mais recentes Microsoft painel do Teams e firmware.
 
 |Versão do produto| Data de lançamento | versão do aplicativo Microsoft Teams | Portal da Empresa versão | versão do Agente Administração |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Atualização 2022 #4A  | 14 de dezembro de 2022 | `1449/1.0.97.2022748302` | `5.0.5484.0` | `361`|
 |Atualização 2022 #4  | 05 de dezembro de 2022 | `1449/1.0.97.2022747803` | `5.0.5484.0` | `361`|
 |Atualização 2022 #3A  | 16 de setembro de 2022 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
 |Atualização 2022 #3  | 12 de julho de 2022 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
@@ -431,6 +433,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão do produto incluída|
 |:--------------|:-----------------|:-------------------------|
+|Yealink RoomPanel | ` 147.15.0.36 ` | Atualização 2022 #4 |
 |Painel de Almofadas Limpas | `NFA1.20220914.1215` | Atualização 2022 #3A  |
 |Painel de Almofadas Limpas | `NFA1.20220914.1206` | Atualização 2022 #3A  |
 |Agendador do Logitech Tap | `1.7.200` |Atualização 2022 #3A  |
