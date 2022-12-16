@@ -24,12 +24,12 @@ ms.custom:
 - Licensing
 - admindeeplinkMAC
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6d64c89aa62d7209a1135234e975f492e7c182a9
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: e66edfcb63b7569b02268b355c7b851c61763810
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139155"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414689"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -39,7 +39,7 @@ Os créditos de comunicação são uma maneira conveniente de pagar por minutos 
 
 - Discando de uma reunião da Conferência de Áudio para adicionar outra pessoa de qualquer lugar do mundo.
 
-- Discando de uma reunião da Conferência de Áudio para seu celular com o aplicativo do Microsoft Teams ou Skype for Business aplicativo instalado em destinos que ainda não estão incluídos em sua assinatura.
+- Discando de uma reunião da Conferência de Áudio para seu celular com o aplicativo Microsoft Teams ou Skype for Business aplicativo instalado em destinos que ainda não estão incluídos em sua assinatura.
 
 - Disce qualquer número de telefone internacional quando tiver assinaturas **do Plano de Chamada Doméstica** .
 
@@ -106,11 +106,11 @@ Notificações importantes relacionadas ao saldo de Créditos de Comunicação d
 
 - Administrador de cobrança
 - Administrador Skype for Business
-- Administrador da Empresa
-- Administrador de Conta de Usuário
+- Administrador Global
+- Administrador de Usuário
 - Administrador do Helpdesk
 - Administrador de suporte de serviço
-- Administradores de dispositivos
+- Azure AD administrador local do dispositivo ingressado
 - Administrador de Aplicativos
 - Administrador de Licenças
 - Administrador de dispositivos na nuvem
@@ -142,7 +142,7 @@ Você pode ver os planos e os preços visitando um dos seguintes links:
 
 Você também pode ver informações sobre preços [entrando no Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo para **Serviços** de Compra **de Cobrança** > .
   
-Para ver uma tabela com a licença ou licenças necessárias para cada recurso, confira [Licenciamento de complemento do Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com a licença ou licenças necessárias para cada recurso, consulte [Microsoft licenciamento de complemento do Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-articles"></a>Artigos relacionados
 
