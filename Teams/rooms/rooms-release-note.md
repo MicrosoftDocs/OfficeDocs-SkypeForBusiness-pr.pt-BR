@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administração pode ler as notas de versão para Salas do Microsoft Teams, que listam melhorias cumulativas no Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d861b5ec9b5b70ca18032462b042f10cd4f5b75a
-ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
+ms.openlocfilehash: 6c6416115d65f223b3785be050520548c2e69ba4
+ms.sourcegitcommit: 23224d983ae027c4923e52ed8e31953ae0f84807
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68795433"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69422810"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
 Este artigo discute melhorias cumulativas no Salas do Microsoft Teams.
 
-Há dois tipos de atualizações para Salas do Teams: Salas do Teams atualizações de aplicativo e cliente Web do Teams. 
+Há dois tipos de atualizações para Salas do Teams: Salas do Teams atualizações de aplicativo e cliente Web do Teams.
 
 Salas do Teams atualizações de aplicativo acontecem por meio da Microsoft Store ou por meio de [atualização manual](manual-update.md). Atualizações são aplicados ao aplicativo UWP (Plataforma Universal do Windows) instalado localmente no dispositivo.
 
@@ -40,6 +40,7 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 
 |Lançamento |Publicado para <br/> Microsoft Store |
 |--- |--- |
+|4.15.54.0 | 12/15/2022 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -47,8 +48,8 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
-|Versão Web-Client do Teams | dezembro de 2021 |
-|Versão Web-Client do Teams | outubro de 2021 |
+|Versão do cliente Web do Teams | dezembro de 2021 |
+|Versão do cliente Web do Teams | outubro de 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -96,19 +97,33 @@ Salas do Teams é regido pela Política de Ciclo de Vida Moderna. Para obter mai
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salas do Microsoft Teams introdução de recursos e resolução de problemas
 
+### <a name="415540-12152022"></a>4.15.54.0 (12/15/2022)
+
+Introduzido nesta atualização:
+
+- Aprimoramento de notificação em reunião
+- Chat de reunião na Galeria, galeria grande e modo Juntos <sup>1</sup>
+- Iniciar quadro de informações em reuniões do Teams
+- Controle de lista de vídeos da sala de ajuste ao quadro
+- Suporte à reunião de estouro
+- Ingressar na reunião do Zoom por ID (ingresso de convidado direto)
+- Correções de qualidade para reuniões de terceiros (ingresso de convidado direto)
+- Correção de informações de licença em configurações que não mostram nenhuma licença quando o Teams não está conectado
+- Um novo papel de parede padrão (Vivid Flag) e outros quatro novos papéis de parede
+
+<sup>1</sup> A configuração de administrador para ocultar o chat de reunião de todos os layouts de reunião por meio do XML pode ser encontrada em [Gerenciar uma Salas do Microsoft Teams configurações de console remotamente com um arquivo de configuração XML](xml-config-file.md).
+
 ### <a name="414240-922022"></a>4.14.24.0 (9/2/2022)
 
 Introduzido nesta atualização:
 
-- Atualização da experiência de layout da primeira linha <sup>1</sup> 
-- Fixar e ocultar vídeo <sup>da sala 1</sup> 
-- Configuração do administrador para desativar a galeria dividida em exibição dupla Salas do Teams <sup>2</sup>
-- O Salas do Teams de exibição dupla agora pode exibir até 18 fluxos de vídeo participantes <sup>1</sup>
-- Suporte para licenças de sala do Salas Microsoft Teams Pro e do Microsoft Teams Room Basic <sup>1</sup>
+- Atualização da experiência de layout da primeira linha
+- Fixar e ocultar vídeo da sala
+- Configuração do administrador para desativar a galeria dividida em exibição dupla Salas do Teams <sup>1</sup>
+- O Salas do Teams de exibição dupla agora pode exibir até 18 fluxos de vídeo participantes
+- Suporte para licenças de sala Salas Microsoft Teams Pro e Microsoft Teams Room Basic
 
-<sup>1</sup> Esse recurso está sendo lançado para o cliente Web do Teams e levará cerca de duas semanas a partir da data em que essa atualização foi lançada para ser concluída. Para obter mais informações, confira [Atualizações do Teams](../teams-client-update.md).
-
-<sup>2</sup> A configuração do administrador para desativar a galeria dividida por meio do XML pode ser encontrada em [Gerenciar uma Salas do Microsoft Teams configurações de console remotamente com um arquivo de configuração XML](../rooms/xml-config-file.md).
+<sup>1</sup> A configuração do administrador para desativar a galeria dividida por meio do XML pode ser encontrada em [Gerenciar uma Salas do Microsoft Teams configurações de console remotamente com um arquivo de configuração XML](../rooms/xml-config-file.md).
 
 ### <a name="4131320-822022"></a>4.13.132.0 (8/2/2022)
 
@@ -152,9 +167,9 @@ Introduzido nesta atualização:
 ### <a name="4121260-4272022"></a>4.12.126.0 (4/27/2022)
 
 Introduzido nesta atualização:
-- Os administradores de TI podem registrar um dispositivo de salas do Teams para receber recursos de visualização pública por meio da configuração XML. Depois de registrado, o dispositivo começará a receber recursos beta. Todos os recursos que vão para testes beta são anunciados no [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
+- Os administradores de TI podem registrar um dispositivo de salas do Teams para receber recursos de visualização pública por meio da configuração XML. Depois de registrado, o dispositivo começará a receber recursos beta. Todos os recursos que vão para testes beta são anunciados em [Microsoft Versão Prévia Pública do Teams - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1,2</sup>  
 - O administrador de TI pode definir a resolução de exibição Front of Room e dimensionar remotamente por meio das configurações XML<sup>2</sup>
-- O administrador de TI pode desabilitar a supressão de ruído da Microsoft por meio da configuração<sup>XML 3</sup> 
+- O administrador de TI pode desabilitar Microsoft supressão de ruído por meio da configuração<sup>XML 3</sup> 
 - O administrador de TI pode substituir a limpeza da pasta de download no dispositivo por meio da configuração<sup>da</sup> chave do registro 4
 - Permitindo que os usuários participem da reunião do Teams hospedada em outra nuvem (ou seja, o cliente do GCCH pode ingressar em reuniões do Teams hospedadas na nuvem comercial e vice-versa) 
 - As salas do Teams agora bloqueiam o lançamento do navegador de borda de URLs no PowerPoint Live como uma medida de segurança adicional para salas do Teams com exibições de toque 
@@ -195,7 +210,7 @@ Introduzido nesta atualização:
 
 > <sup>1</sup> Esses recursos estão sendo implantados usando o cliente Web do Teams e concluirão a distribuição nas próximas semanas. Leia mais sobre [as atualizações do Teams](../teams-client-update.md) para obter detalhes.
 > 
-> <sup>Duas</sup> salas do Teams no Windows em execução apenas no Microsoft Teams ou Skype for Business e Microsoft Teams (padrão) são atualizadas com novas experiências de Atender e Chamar, no entanto, outros modos não são afetados por essa atualização.
+> <sup>Duas</sup> salas do Teams no Windows em execução no Microsoft Teams somente ou Skype for Business e Microsoft Teams (padrão) são atualizadas com novas experiências de Atender e Chamar, no entanto, outros modos não são afetados por essa atualização.
 > 
 > <sup>3</sup> Confira detalhes de adição sobre como configurar políticas de [acesso condicional do AAD](../rooms/rooms-authentication.md#azure-ad-conditional-access) para Salas do Teams.
 > 
@@ -245,7 +260,7 @@ Introduzido nesta atualização:
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 Introduzido nesta atualização:
-- O modo somente do Microsoft Teams agora está disponível nas configurações do aplicativo, portanto, você não precisa mais configurar uma conta Skype for Business. Nesse modo, os dispositivos conectados ao modo somente do Teams entram Skype for Business reuniões como usuário convidado.
+- Microsoft modo somente do Teams agora está disponível nas configurações do aplicativo, portanto, você não precisa mais configurar uma conta Skype for Business. Nesse modo, os dispositivos conectados ao modo somente do Teams entram Skype for Business reuniões como usuário convidado.
 - Correção para áudio HDMI causando menor volume de chamada. O recurso de áudio HDMI está habilitado automaticamente para todos os dispositivos com o build de aplicativo 4.9.12.0.
 
 > [!NOTE]
@@ -309,13 +324,13 @@ Introduzido nesta atualização:
 - Ingressar em reuniões do Zoom de Salas do Teams com ingresso direto de convidado (Versão prévia)
 
 > [!NOTE]
-> A galeria de vídeo 3x3 e as legendas fechadas ao vivo locais são entregues por meio do serviço do Microsoft Teams. Esses recursos estão disponíveis para todos os dispositivos Salas do Teams com a versão do aplicativo 4.5.37.0 e superior.
+> A galeria de vídeo 3x3 e as legendas fechadas ao vivo locais são entregues por meio do serviço Microsoft Teams. Esses recursos estão disponíveis para todos os dispositivos Salas do Teams com a versão do aplicativo 4.5.37.0 e superior.
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 
 Introduzido nesta atualização:
 
-- Reuniões coordenadas entre o Microsoft Teams e o Surface Hub 2S
+- Reuniões coordenadas entre Microsoft Teams e Surface Hub 2S
 - Correção para falha de entrada do Skype For Business quando [Windows 10 atualização KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) ou [Windows 10 atualização KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) é instalada
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
@@ -406,16 +421,16 @@ Introduzido nesta atualização:
 Introduzido nesta atualização:
 
 - O aplicativo da loja do Skype Room System renomeia para "Salas do Microsoft Teams"
-- Salas do Microsoft Teams interface do usuário do console realinhada para o Microsoft Teams
+- Salas do Microsoft Teams interface do usuário do console realinhada para Microsoft Teams
 - Atualização do tema: mantenha apenas a imagem de fundo personalizada na frente das exibições de sala, tornando o plano de fundo do console uma cor neutra para garantir que os controles de interface do usuário do console atendam ao contraste de cores— requisitos de acessibilidade
-- Barra universal para controles de chamada em reunião para chamadas/reuniões do Teams para fornecer uma experiência consistente com os clientes do Microsoft Teams PC/Web/Mobile<sup>1</sup>
+- Barra universal para controles de chamada em reunião para chamadas/reuniões do Teams para fornecer uma experiência consistente com Microsoft clientes do Teams PC/Web/Mobile<sup>1</sup>
 - Classificação de comentários de qualidade de chamada após chamadas do Teams/reuniões<sup>1</sup>
-- Receber/renderizar o Microsoft Whiteboard em Salas do Microsoft Teams frente de exibição de sala quando compartilhado do pc/ Web/ cliente do Mobile Teams<sup>1</sup> <sup>2</sup>
+- Receber/renderizar Microsoft Whiteboard em Salas do Microsoft Teams frente da exibição da sala quando compartilhado do pc/Web/ cliente do Mobile Teams<sup>1</sup> <sup>2</sup>
 - Removeu o suporte para atualizações Windows 10 versão 1809 devido a problemas de compatibilidade com Salas do Microsoft Teams cliente. Windows 10 suporte à versão 19H1 será adicionado em versões futuras
 
-<sup>1</sup> Distribuição de serviços do Microsoft Teams usando anéis do Teams. Esse recurso pode estar disponível anterior ou posterior à atualização do cliente 4.0.105.0
+<sup>1</sup> Microsoft distribuição de serviço do Teams usando anéis do Teams. Esse recurso pode estar disponível anterior ou posterior à atualização do cliente 4.0.105.0
 
-<sup>2</sup> Exige que os administradores de TI ativem o Microsoft Whiteboard. Além disso, se você tiver uma tela frontal habilitada para toque, deverá calibrar várias exibições de toque usando as configurações do Windows com logon do administrador do dispositivo para começar a usar o Microsoft Whiteboard para colaboração de uma exibição de sala compartilhada em uma reunião do Teams
+<sup>2</sup> Exige que os administradores de TI ativem Microsoft Whiteboard. Além disso, se você tiver uma tela frontal habilitada para toque, deverá calibrar várias exibições de toque usando as configurações do Windows com logon do administrador do dispositivo para começar a usar Microsoft Whiteboard para colaboração de uma exibição de sala compartilhada em uma reunião do Teams
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
@@ -434,7 +449,7 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Teclado DTMF para reuniões P2P do Microsoft Teams e chamadas PSTN. Para tornar o Microsoft Teams seu cliente de chamada padrão, os administradores devem definir IsTeamsDefaultClient como true
+- Teclado DTMF para Microsoft reuniões P2P do Teams e chamadas PSTN. Para tornar Microsoft Teams seu cliente de chamada padrão, os administradores devem definir IsTeamsDefaultClient como true
 - Fixar o vídeo de entrada de um participante remoto na tela inteira na frente da exibição da sala. Usar o comando "Pin" da lista de participantes no console
 - Melhorias nas notificações do Lobby com adição de notificação da Frente da Sala
 - Ícone de conversão de exibição frontal da sala removido quando o sinalizador Bluetooth não está habilitado em Salas do Microsoft Teams dispositivo
@@ -500,7 +515,7 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Alterações que permitem que a Microsoft gerencie com mais flexibilidade o Windows Atualizações.
+- Alterações que permitem Microsoft gerenciar com mais flexibilidade o Windows Atualizações.
 - Nenhuma alteração na experiência do usuário final.
 
 ### <a name="311120-06052018"></a>3.1.112.0 (06/05/2018)
@@ -586,7 +601,7 @@ Introduzido nesta atualização:
 Introduzido nesta atualização:
 
 - Seleção do usuário no aplicativo de dispositivos USB de áudio e vídeo da sala de reunião
-- Relatórios de status do console de sala integrado para clientes usando o Microsoft Operations Management Suite, agora Azure Monitor
+- Relatórios de status do console de sala integrado para clientes usando Microsoft Operations Management Suite, agora Azure Monitor
 
 ### <a name="release-to-market-1272016"></a>Lançamento no Mercado (7/12/2016)
 
