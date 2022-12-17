@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Saiba como gerenciar políticas de registro de webinar e de reunião no Teams.
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307576"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438469"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Configurar webinars no Microsoft Teams
 
@@ -52,6 +52,9 @@ Atualmente, a experiência webinar básica é controlada pelo registro de reuni�
 A nova experiência webinar está configurada no PowerShell. Confira exemplos sobre [como configurar a nova experiência de webinar](#set-up-new-webinar-experience).
 
 Para obter mais informações sobre as diferenças entre reuniões, webinars e eventos ao vivo, confira [Reuniões, webinars e eventos ao vivo](quick-start-meetings-live-events.md).
+
+> [!NOTE]
+> A nova experiência de webinar não está disponível para Microsoft 365 GCC, Microsoft 365 GCC High ou Microsoft 365 DoD. A experiência webinar existente não está disponível para Microsoft 365 GCC High ou Microsoft 365 DoD.
 
 > [!IMPORTANT]
 > Para permitir que os usuários configurem webinars, Listas da Microsoft deve ser configurado no SharePoint, permitindo a criação de listas pessoais para fins de descoberta eletrônica. Para saber mais, confira [Configurações de controle para Listas da Microsoft](/sharepoint/control-lists).

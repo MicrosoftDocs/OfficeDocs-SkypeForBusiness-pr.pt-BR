@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Informações de privacidade e dados
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: ec28dcafa7825e7f754d3631d2c21400a08c9b83
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: dd80718da862be02b42a5cf18334c89e86c3807c
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046780"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438427"
 ---
 # <a name="approach"></a>Abordagem
 
-Os clientes que usam Salas do Microsoft Teams Serviços Gerenciados confiam à Microsoft seus ativos mais valiosos: dados. Eles confiam que sua privacidade será protegida e que ela será usada apenas de uma maneira consistente com suas expectativas.
+Os clientes que usam Salas do Microsoft Teams Serviços Gerenciados confiam Microsoft com seus dados de ativos mais valiosos. Eles confiam que sua privacidade será protegida e que ela será usada apenas de uma maneira consistente com suas expectativas.
 
 A tecnologia segue processos de privacidade para garantir que ela siga as promessas do cliente na coleta e no uso de dados que executam efetivamente o serviço.
 ## <a name="data-collection-and-privacy"></a>Coleta de dados e privacidade
@@ -39,19 +39,19 @@ A tecnologia segue processos de privacidade para garantir que ela siga as promes
 
 ## <a name="who-can-access-data"></a>Quem pode acessar dados
 
-Os Serviços Gerenciados adotam medidas fortes para ajudar a proteger os dados do cliente contra acesso ou uso inadequado por pessoas não autorizadas. Essas medidas incluem restringir o acesso por funcionários e subcontratados da Microsoft.
+Os Serviços Gerenciados adotam medidas fortes para ajudar a proteger os dados do cliente contra acesso ou uso inadequado por pessoas não autorizadas. Essas medidas incluem restringir o acesso por Microsoft funcionários e subcontratados.
 
 ## <a name="zero-standing-access-data-storage"></a>Armazenamento de dados do Acesso Permanente Zero
 
-Os Serviços Gerenciados mitigam os riscos associados a contas com acesso privilegiado de atores mal-intencionados, dentro e fora de uma organização, por meio do princípio do Acesso Permanente Zero. Esse princípio permite que os Serviços Gerenciados operem sem privilégios disponíveis para qualquer usuário por padrão. Combinado com os princípios de Just-In-Time e Just-Enough-Access, ele fornece uma estrutura robusta para ser segura e compatível por padrão. Os dados de diagnóstico estão disponíveis para a equipe de operações de serviço da Microsoft por meio de um portal interno.
+Os Serviços Gerenciados mitigam os riscos associados a contas com acesso privilegiado de atores mal-intencionados, dentro e fora de uma organização, por meio do princípio do Acesso Permanente Zero. Esse princípio permite que os Serviços Gerenciados operem sem privilégios disponíveis para qualquer usuário por padrão. Combinado com os princípios de Just-In-Time e Just-Enough-Access, ele fornece uma estrutura robusta para ser segura e compatível por padrão. Os dados de diagnóstico estão disponíveis para a equipe de operações de serviço Microsoft por meio de um portal interno.
 
 ## <a name="data-handling"></a>Tratamento de dados
 
-A Microsoft é governada por padrões rígidos para transmissão, armazenamento, uso e retenção de dados. A Microsoft tem políticas padrão de tratamento de dados que regulam como os dados devem ser tratados com base na classificação de dados.
+Microsoft é regido por padrões rígidos para transmissão, armazenamento, uso e retenção de dados. Microsoft tem políticas padrão de tratamento de dados que regulam como os dados devem ser tratados com base na classificação de dados.
 
 ## <a name="technology-description"></a>Descrição da tecnologia
 
-Os Serviços Gerenciados enviam dados à Microsoft para fins de monitoramento, diagnóstico e mitigação de quaisquer problemas na implantação. Exemplos incluem
+Os Serviços Gerenciados enviam dados para Microsoft para fins de monitoramento, diagnóstico e mitigação de quaisquer problemas na implantação. Exemplos incluem
 
 - Garantir que o dispositivo esteja atualizado (incluindo o aplicativo, o sistema operacional, os drivers, o F/W)
 - Garantir que o dispositivo esteja pronto para usar (conectado, todos os periféricos relatando estado saudável etc.)
@@ -71,7 +71,7 @@ Os Serviços Gerenciados não monitoram ou gravam conteúdo de áudio, vídeo, m
  
 |Categoria|Detalhes|Motivo para consulta|
 | :- | :- | :- |
-|Coleta e gerenciamento de dados em andamento|Endereço IP, identidade da conta da sala (Exchange, Skype for Business e/ou Teams), coordenadas de localização, emails e comunicação no portal com a Microsoft ou software|Identificar e conectar-se ao sistema sob gerenciamento; identificar, diagnosticar e mitigar falhas; controlar o uso, a análise e os insights; status de conectividade de consulta e reparo|
+|Coleta e gerenciamento de dados em andamento|Endereço IP, identidade da conta da sala (Exchange, Skype for Business e/ou Teams), coordenadas de localização, emails e comunicação no portal com Microsoft ou software|Identificar e conectar-se ao sistema sob gerenciamento; identificar, diagnosticar e mitigar falhas; controlar o uso, a análise e os insights; status de conectividade de consulta e reparo|
 |Coleta e gerenciamento de dados ad hoc|Informações de log de eventos, atividade do usuário/Identidade do usuário da sala registradas no arquivo de log junto com informações de diagnóstico, consultas do sistema Windows (Exemplos: Lista de dispositivos USB, estado de energia etc.)|Identificar, diagnosticar e mitigar falhas e para uso, análise e insights|
 
 Determinados dados confidenciais no log de Atividade do Dispositivo são redigidos localmente (não coletados pelos Serviços Gerenciados):
@@ -81,7 +81,7 @@ Determinados dados confidenciais no log de Atividade do Dispositivo são redigid
 - No conteúdo da mensagem IM da reunião
 
 > [!NOTE]
-> À medida que a Microsoft evolui os Serviços Gerenciados, os dados específicos estão sujeitos a alterações.
+> À medida que Microsoft evolui os Serviços Gerenciados, os dados específicos estão sujeitos a alterações.
 
 ### <a name="enrollment"></a>Inscrição
 
@@ -89,17 +89,17 @@ Os Serviços Gerenciados são registrados no portal online para serviços automa
 
 ### <a name="unenrollment"></a>Unenrollment
 
-O dispositivo pode ser desinstalado desinstalando serviços gerenciados. A Microsoft também remove o dispositivo do monitoramento de back-end durante o descomissionamento e pode excluir dados coletados sob solicitação.
+O dispositivo pode ser desinstalado desinstalando serviços gerenciados. Microsoft também remove o dispositivo do monitoramento de back-end durante o descomissionamento e pode excluir dados coletados sob solicitação.
 ## <a name="compliance"></a>Conformidade
 
-Todos os engenheiros que trabalham no produto são obrigados a passar por treinamento de conscientização sobre segurança e privacidade. A Microsoft também garante que todos os funcionários certifiquem a aceitação das responsabilidades pelos requisitos de privacidade.
+Todos os engenheiros que trabalham no produto são obrigados a passar por treinamento de conscientização sobre segurança e privacidade. Microsoft também garante que todos os funcionários certifiquem a aceitação das responsabilidades pelos requisitos de privacidade.
 
 Os Serviços Gerenciados fornecem suporte à residência de dados regional por meio dos data centers na Europa (UE), Ásia-Pacífico (APAC) e Estados Unidos (EUA). Os clientes de serviço terão dados relacionados à organização armazenados no data center da região escolhida.
 
 ## <a name="more-resources"></a>Mais recursos
 
-Salas do Microsoft Teams para segurança do Windows: [[Segurança do Microsoft Teams para Windows](/microsoftteams/rooms/security-windows) \
-Salas do Microsoft Teams para segurança do Android: [segurança do Microsoft Teams para Android](/microsoftteams/rooms/security-android) \
-Instrução de privacidade da Microsoft: https://aka.ms/privacy \
-Gerenciamento de dados na Microsoft: https://www.microsoft.com/trust-center/privacy/data-management \
-Descrição do serviço dos Serviços Gerenciados: [Serviço gerenciado do Microsoft Teams Room](rooms-pro-management.md)
+Salas do Microsoft Teams na segurança do Windows: [[Microsoft Teams para segurança do Windows](/microsoftteams/rooms/security-windows) \
+Salas do Microsoft Teams na segurança do Android: [segurança do Microsoft Teams para Android](/microsoftteams/rooms/security-android) \
+Microsoft Instrução de Privacidade:https://aka.ms/privacy \
+Gerenciamento de dados no Microsoft:https://www.microsoft.com/trust-center/privacy/data-management \
+Descrição do serviço dos Serviços Gerenciados: [Microsoft serviço gerenciado do Teams Room](rooms-pro-management.md)

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Administração pode ler as notas de versão para Salas do Microsoft Teams, que listam melhorias cumulativas no Salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c6416115d65f223b3785be050520548c2e69ba4
-ms.sourcegitcommit: 23224d983ae027c4923e52ed8e31953ae0f84807
+ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69422810"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438359"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notas de versão para Salas do Microsoft Teams
 
@@ -106,8 +106,8 @@ Introduzido nesta atualização:
 - Iniciar quadro de informações em reuniões do Teams
 - Controle de lista de vídeos da sala de ajuste ao quadro
 - Suporte à reunião de estouro
-- Ingressar na reunião do Zoom por ID (ingresso de convidado direto)
-- Correções de qualidade para reuniões de terceiros (ingresso de convidado direto)
+- Junte-se às reuniões do Zoom por ID por meio do Direct Guest Join. O suporte para ingressar em reuniões do Zoom por ID foi adicionado nesta versão e será habilitado nas próximas semanas.
+- Correções de qualidade para reuniões de terceiros (Ingresso direto de convidado)
 - Correção de informações de licença em configurações que não mostram nenhuma licença quando o Teams não está conectado
 - Um novo papel de parede padrão (Vivid Flag) e outros quatro novos papéis de parede
 
@@ -321,7 +321,7 @@ Introduzido nesta atualização:
 
 - Confira mais vídeos com a galeria de vídeos 3x3 na frente das exibições de sala  
 - Iniciar legendas fechadas ao vivo local do MTR
-- Ingressar em reuniões do Zoom de Salas do Teams com ingresso direto de convidado (Versão prévia)
+- Ingressar em reuniões do Zoom do Salas do Teams com o Direct Guest Join (versão prévia)
 
 > [!NOTE]
 > A galeria de vídeo 3x3 e as legendas fechadas ao vivo locais são entregues por meio do serviço Microsoft Teams. Esses recursos estão disponíveis para todos os dispositivos Salas do Teams com a versão do aplicativo 4.5.37.0 e superior.
@@ -337,7 +337,7 @@ Introduzido nesta atualização:
 
 Introduzido nesta atualização:
 
-- Ingressar em reuniões do Cisco Webex de Salas do Teams com ingresso direto de convidado
+- Participar de reuniões do Cisco Webex do Salas do Teams com o Direct Guest Join
 - Habilitação e registro automático do Teams Administração Center
 - Windows 10 suporte à versão de 1909
 - Alternar para o layout da galeria de vídeo mesmo quando o conteúdo estiver presente
