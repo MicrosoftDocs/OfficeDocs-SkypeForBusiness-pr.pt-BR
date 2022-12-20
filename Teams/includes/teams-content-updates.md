@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-december-12-2022"></a>Semana de 12 de dezembro de 2022
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 12/14/2022 | [Licenciamento de dispositivos compartilhados do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | adicionado |
+| 12/14/2022 | [Controlar quem pode ignorar o lobby da reunião no Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | adicionado |
+| 12/14/2022 | [Definir Microsoft interface do usuário de dispositivos Android do Teams](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modificado |
+| 12/14/2022 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
+| 12/14/2022 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 12/14/2022 | [Microsoft Teams Premium – Visão geral dos administradores](/MicrosoftTeams/enhanced-teams-experience) | modificado |
+| 12/14/2022 | [Configurar os telefones de área comum para Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modificado |
+| 12/14/2022 | [licenciamento do Teams Premium Microsoft](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modificado |
+| 12/15/2022 | [Perguntas comuns sobre a Audioconferência](/MicrosoftTeams/audio-conferencing-common-questions) | modificado |
+| 12/15/2022 | [Números de telefone e alterações de licenciamento](/MicrosoftTeams/phone-numbers-licensing-changes) | modificado |
+| 12/15/2022 | [Notas de versão para Salas do Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 12/16/2022 | [Servidores proxy para Teams ou Skype for Business Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | modificado |
+| 12/16/2022 | [Implantar Salas do Microsoft Teams no Android](/MicrosoftTeams/devices/collab-bar-deploy) | modificado |
+| 12/16/2022 | [Atualizar dispositivos Microsoft Teams remotamente](/MicrosoftTeams/devices/remote-update) | modificado |
+| 12/16/2022 | [Salas do Microsoft Teams na segurança do Windows](/MicrosoftTeams/rooms/security-windows) | modificado |
+
+
 ## <a name="week-of-december-05-2022"></a>Semana de 05 de dezembro de 2022
 
 
