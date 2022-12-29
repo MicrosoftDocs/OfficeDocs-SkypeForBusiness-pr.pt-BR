@@ -22,12 +22,12 @@ description: Saiba como gerenciar aplicativos do Teams. Saiba como permitir ou b
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: a38bbab856a71d46cab5af471ac2f75743e21d40
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c88f8c4424cb82ea1482c5f6e1b90fd792279450
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69130870"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677401"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Visão geral do gerenciamento de aplicativos e governança no centro de administração do Teams
 
@@ -126,7 +126,7 @@ Use as configurações de aplicativo em toda a organização para controlar se o
 
 Em uma implantação do Microsoft 365 Government – GCC, GCCH e DoD, todos os aplicativos de terceiros são bloqueados por padrão. Os aplicativos de terceiros não estão disponíveis para nuvens GCCH e DOD. Além disso, na GCC, você verá a seguinte observação sobre o gerenciamento de aplicativos de terceiros na página de políticas de permissão de aplicativos no centro de administração do Microsoft Teams.
 
-:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Captura de tela da política de permissão do aplicativo na GCCH e no DoD.":::
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Captura de tela da política de permissão do aplicativo na GCCH e no DoD." lightbox="media/app-permission-policies-gcc.png":::
 
 Use as configurações de aplicativos de toda a organização para controlar se os usuários podem instalar aplicativos de terceiros. As configurações de aplicativo em toda a organização controlam o comportamento de todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários.
 
@@ -135,7 +135,7 @@ Use as configurações de aplicativos de toda a organização para controlar se 
 
 ### <a name="for-gcc-clouds"></a>Para nuvens GCC
 
-1. Na página **Aplicativos** >  do Teams **[Gerenciar aplicativos](https://admin.teams.microsoft.com/policies/manage-apps)**, selecione **Configurações de aplicativo em toda a organização**. Você pode então definir as configurações desejadas no painel.
+1. Na página **Aplicativos** >  do Teams **Gerenciar aplicativos**, selecione **Configurações de aplicativo em toda a organização**. Você pode então definir as configurações desejadas no painel.
 
    :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="Captura de tela que mostra as configurações do aplicativo em toda a organização no GCC.":::
 
@@ -152,7 +152,7 @@ Para permitir aplicativos de terceiros, edite e use a política global (padrão 
 
 ### <a name="for-gcch-and-dod-clouds"></a>Para nuvens GCCH e DoD
 
-1. Entre no centro de administração do Teams e acesse **[políticas de permissão](https://admin.teams.microsoft.com/policies/app-permission)** **de aplicativos** >  do Teams.
+1. Entre no centro de administração do Teams e acesse **políticas de permissão** **de aplicativos** >  do Teams.
 
 1. Selecione **Configurações de aplicativo em toda a organização**. Em **Aplicativos bloqueados**, adicione os aplicativos que deseja bloquear em sua organização. Em uma implantação do Microsoft 365 Government – GCCH e DoD do Teams, todos os aplicativos de terceiros são adicionados a esta lista por padrão. Quando você bloqueia um aplicativo em toda a organização, o aplicativo é automaticamente bloqueado para todos os seus usuários, independentemente de ser permitido em qualquer política de permissão de aplicativo.
 

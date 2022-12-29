@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156837"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677411"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Entender Microsoft aplicativos do Teams e suas funcionalidades
 
@@ -92,7 +92,7 @@ Para saber mais, confira [Modelos de Aplicativo do Microsoft Teams](https://adop
 
 Os usuários podem exibir todos os aplicativos disponíveis no Teams na loja de aplicativos do Teams em uma área de trabalho do Teams ou cliente Web. Os usuários podem pesquisar por nome, navegar por categoria e navegar por aplicativos criados para sua organização e criados com o Power Platform para descobrir e instalar aplicativos no Teams.
 
-Os aplicativos podem ser fixados no Teams para facilitar o acesso. Os usuários podem [fixar aplicativos por conta própria](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) se sua política de configuração permitir e se o aplicativo for permitido pelo administrador do Teams. Os administradores podem fixar aplicativos e controlar o comportamento dos aplicativos fixados, para obter mais informações, confira [políticas de configuração de aplicativo](/teams-app-setup-policies).
+Os aplicativos podem ser fixados no Teams para facilitar o acesso. Os usuários podem [fixar aplicativos por conta própria](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) se sua política de configuração permitir e se o aplicativo for permitido pelo administrador do Teams. Os administradores podem fixar aplicativos e controlar o comportamento dos aplicativos fixados, para obter mais informações, confira [políticas de configuração de aplicativo](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Captura de tela que mostra todos os lugares em que os usuários podem procurar aplicativos no Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 

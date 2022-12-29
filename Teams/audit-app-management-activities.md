@@ -16,12 +16,12 @@ description: Saiba como auditar as atividades do aplicativo Teams de usuários e
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5aee5bf00d486586b4bc8e9583504be5e4a9b922
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9114bae9fa24a546aec2629f1f347af193b10fd5
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251874"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677501"
 ---
 # <a name="search-audit-logs-for-app-management-activities-and-events"></a>Pesquisar logs de auditoria para atividades e eventos de gerenciamento de aplicativos
 
@@ -78,7 +78,7 @@ Você pode exportar os registros de auditoria pesquisados como um arquivo CSV. P
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-* [Use logs de auditoria para investigar a atividade de instalação do Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
+* [Use logs de auditoria para investigar Microsoft atividade de instalação do Power Platform](manage-power-platform-apps.md#use-audit-logs-to-check-microsoft-power-platform-installation-activity).
 * [Pesquisar a entrada de auditoria no portal de conformidade](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Visão geral do Auditoria Premium do Microsoft Purview](/microsoft-365/compliance/advanced-audit).
 * [Ativar ou desativar a auditoria](/microsoft-365/compliance/turn-audit-log-search-on-or-off).

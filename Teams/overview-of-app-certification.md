@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0f01942dcee0ed5f2696c7e6ab5b31d67a98856
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: e86f5e372bc1c03c2dc75b09f5e26b8fb5d98241
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912870"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677491"
 ---
-# <a name="find-teams-apps-that-undergo-microsoft-365-app-compliance-program-for-security-compliance-and-privacy"></a>Localizar aplicativos do Teams que passam pelo programa de conformidade do aplicativo Microsoft 365 para segurança, conformidade e privacidade
+# <a name="know-about-apps-that-undergo-app-compliance-program-for-security-data-handling-and-privacy"></a>Saiba mais sobre aplicativos que passam pelo programa de conformidade do aplicativo para segurança, tratamento de dados e privacidade
 
-O programa de conformidade da Microsoft verifica e audita um aplicativo em relação aos controles derivados das principais estruturas padrão do setor. O programa demonstra que existem fortes práticas de segurança e conformidade para proteger os dados dos clientes. O programa tem as seguintes fases:
+Microsoft 365 verifica e audita um aplicativo em relação a controles derivados das principais estruturas padrão do setor. O programa demonstra que existem fortes práticas de segurança e conformidade para proteger os dados dos clientes. O programa tem as seguintes fases:
 
 * [Verificação do editor](#publisher-verification).
 * [Atestado de editor](#publisher-attestation).
-* [Certificação do Microsoft 365](#microsoft-365-certification).
+* [Microsoft certificação 365](#microsoft-365-certification).
 
 ## <a name="publisher-verification"></a>Verificação do fornecedor
 
@@ -57,7 +57,7 @@ Os administradores podem verificar rapidamente os aplicativos atestados publicad
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="No Centro de administração do Teams, o ícone Atestado pelo Fornecedor é exibido em todos os aplicativos atestados.":::
 
-* No centro de administração do Teams, antes de [conceder permissões ao aplicativo](app-permissions-admin-center.md), uma marca de seleção azul na frente do nome do aplicativo indica que é um aplicativo atestado pelo editor. Todos os aplicativos do Microsoft 365 também passam pelo atestado do editor, portanto, uma marca de seleção azul também é exibida para aplicativos do Microsoft 365.
+* No centro de administração do Teams, antes de [conceder permissões ao aplicativo](app-permissions-admin-center.md), uma marca de seleção azul na frente do nome do aplicativo indica que é um aplicativo atestado pelo editor. Todos os Microsoft 365 aplicativos também passam pelo atestado do editor, portanto, uma marca de seleção azul também é exibida para Microsoft 365 aplicativos.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="No Centro de administração do Teams, na caixa de diálogo para conceder permissões, a marca de seleção azul indica o aplicativo atestado pelo publicador.":::
 
@@ -90,7 +90,7 @@ Os administradores podem verificar rapidamente se há aplicativos certificados p
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="Exibir informações sobre a certificação Microsoft 365 na faixa do aplicativo ao gerenciar um aplicativo específico no Centro de administração do Teams ":::
 
-* No centro de administração do Teams, antes de [conceder permissões ao aplicativo](app-permissions-admin-center.md), uma marca de seleção azul na frente do nome do aplicativo indica que é um aplicativo atestado pelo editor. Todos os aplicativos do Microsoft 365 também passam pelo atestado do editor, portanto, uma marca de seleção azul também é exibida para aplicativos do Microsoft 365.
+* No centro de administração do Teams, antes de [conceder permissões ao aplicativo](app-permissions-admin-center.md), uma marca de seleção azul na frente do nome do aplicativo indica que é um aplicativo atestado pelo editor. Todos os Microsoft 365 aplicativos também passam pelo atestado do editor, portanto, uma marca de seleção azul também é exibida para Microsoft 365 aplicativos.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="No centro de administração do Teams, na caixa de diálogo para conceder permissões, os administradores podem verificar a marca de seleção azul para ter certeza de que o aplicativo é Certificado pelo Microsoft 365":::
 
@@ -121,7 +121,7 @@ Para acesso as informações do MCAS de um aplicativo:
 
 1. Selecione a guia **Segurança e conformidade**.
 
-   :::image type="content" source="media/mcas.png" alt-text="Captura de tela da guia de segurança e conformidade do Centro de administração do Teams.":::
+   :::image type="content" source="media/mcas.png" alt-text="Captura de tela da guia de segurança e conformidade do Centro de administração do Teams." lightbox="media/mcas.png":::
 
    Para obter mais detalhes sobre as funcionalidades suportadas pelo aplicativo, selecione a lista suspensa para cada categoria.
 
