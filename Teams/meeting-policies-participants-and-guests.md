@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Aprenda a gerenciar configurações de política de reunião no Teams para participantes e convidados.
-ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 26d2fd24d8b241b8f79276148ed27abd3e5412b1
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436667"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693384"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião - Participantes e convidados
 
@@ -61,14 +61,14 @@ Essa configuração é uma política por organizador que permite reuniões de co
 
 ## <a name="who-can-present-in-meetings"></a>Quem pode apresentar em reuniões
 
-Essa é uma política por usuário. Essa configuração permite alterar o valor padrão da configuração **Quem pode apresentar?** nas **Opções de reunião** no cliente Teams. Essa configuração de política afeta todas as reuniões, incluindo reuniões Reunir Agora.
+Essa configuração é uma política por usuário que permite alterar o valor padrão da configuração **Quem pode apresentar?** em **Opções de reunião** no cliente do Teams. A configuração **da política Quem pode apresentar em reuniões** afeta todas as reuniões, incluindo reuniões do Meet Now.
 
 A configuração **Quem pode apresentar?** permite que os organizadores de reunião escolham quem pode apresentar na reunião. Para saber mais, confira [Alterar as configurações de participante de uma reunião do Teams](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) e [Funções em uma reunião do Teams](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-Para especificar o valor padrão da configuração **Quem pode apresentar?** no Teams, defina como uma das seguintes configurações na política:
+Para especificar o valor padrão da configuração **Quem pode apresentar?** no Teams, defina como uma das seguintes configurações na política **Quem pode apresentar na política de reuniões** :
 
 - **Organizadores, mas os usuários podem substituir**: apenas o organizador da reunião pode ser um apresentador e todos os participantes da reunião são designados como participantes. Esse parâmetro corresponde à configuração **Somente eu** no Teams.
-- **Todos na organização, mas o usuário pode substituir**: usuários autenticados na organização, incluindo usuários convidados, podem ser apresentadores. Essa configuração corresponde ao **Pessoas na configuração da minha organização** no Teams.
+- **Todos na organização, mas o usuário pode substituir**: usuários autenticados na organização, incluindo convidados, podem ser apresentadores. Essa configuração corresponde ao **Pessoas na configuração da minha organização** no Teams.
 - **Todos, mas o usuário pode substituir**: todos os participantes da reunião podem ser apresentadores. Esse é o valor padrão. Essa configuração corresponde à configuração **Todos** no Teams.
 
 Lembre-se de que, depois de definir o valor padrão, os organizadores de reunião ainda poderão alterar essa configuração no Teams e escolher quem poderá apresentar nas reuniões agendadas por eles.
@@ -123,7 +123,7 @@ Para obter mais informações sobre como seus **usuários finais podem ativar le
 ### <a name="live-translated-captions"></a>Legendas traduzidas ao vivo
 
 > [!NOTE]
-> Esse recurso está disponível temporariamente em versão prévia pública. Após a visualização, o organizador da reunião deve ter uma licença do Teams Premium para que os participantes usem legendas traduzidas ao vivo.
+> Esse recurso está disponível temporariamente em versão prévia pública. Após a visualização, o organizador da reunião deve ter uma licença de Teams Premium para os participantes usarem legendas traduzidas ao vivo.
 
 Por padrão, **as legendas ao vivo são exibidas** no idioma falado durante uma reunião. **As legendas traduzidas ao vivo** permitem que seus usuários vejam legendas traduzidas para o idioma com o qual estão mais confortáveis.
 
@@ -156,7 +156,7 @@ Esta é uma política por organizador. Essa configuração ativa ou desativa a e
 
 A configuração é imposta quando uma reunião é criada ou é atualizada pelos organizadores. Por padrão, essa configuração é desabilitada. Saiba mais sobre [q&A em reuniões do Teams](/manage-qna-for-teams).
 
-O parâmetro QnAEngagementMode controla essa política no PowerShell. Q&A também pode ser ajustado no centro de administração do Teams.
+O Teams Q&A pode ser ajustado no centro de administração do Teams em **Políticas de reunião** de **reuniões** >  na seção **Participantes & convidados**. O parâmetro `-QnAEngagementMode` controla essa política no PowerShell.
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
@@ -169,7 +169,7 @@ As reações de reunião estão ativadas por padrão. Desativar as reações par
 
 ## <a name="enable-meeting-policy-settings"></a>Habilitar configurações de política de reunião
 
-Para habilitar as configurações da política de reunião, você pode usar o [centro de administração do Teams](https://admin.teams.microsoft.com/policies/meetings) (**Políticas** >  de Reunião **Editar uma política** > **Participantes & convidados**) ou o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) no Teams PowerShell. 
+Para habilitar as configurações da política de reunião, você pode usar o [centro de administração do Teams](https://admin.teams.microsoft.com/policies/meetings) (**Políticas** >  de Reunião **Editar uma política** > **Participantes & convidados**) ou o cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) no Teams PowerShell.
 
 Neste exemplo, usamos o PowerShell para modificar a política de reunião global para permitir que qualquer pessoa inicie ou participe de uma reunião.
 
@@ -178,7 +178,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 Depois de configurar uma política, você precisa aplicá-la aos usuários. Se você modificou a política Global (padrão em toda a organização), ela se aplicará automaticamente aos usuários. Você precisa esperar pelo menos 4 horas para que qualquer alteração de política entre em vigor, mas pode levar até 24 horas.
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
