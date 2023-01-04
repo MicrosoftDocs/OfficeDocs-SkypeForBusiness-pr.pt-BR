@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre Salas Microsoft Teams Pro gerenciamento.
 f1keywords: ''
-ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
+ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046873"
+ms.lasthandoff: 01/04/2023
+ms.locfileid: "69696886"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Gerenciamento de Salas Microsoft Teams Pro
 
@@ -68,11 +68,11 @@ Para que o serviço gerenciado Salas do Microsoft Teams mantenha a qualidade do 
 
 ## <a name="supported-regions"></a>Regiões com suporte
 
-A licença Salas Microsoft Teams Pro está disponível nos seguintes países com audioconferência:
+A licença Salas Microsoft Teams Pro está disponível nos seguintes países/regiões com audioconferência:
 
 - Argentina, Austrália, Áustria, Bélgica, Bósnia & Herzegovina, Brasil, Bulgária, Canadá, Chile, Colômbia, Costa Rica, Croácia, Chipre, Tchecos, Dinamarca, República Dominicana, Equador, Egito, Estônia, Finlândia, França, Alemanha, Grécia, Guernsey, Hong Kong SAR, Hungria, Indonésia, Irlanda, Israel, Itália, Japão, Jersey, Jordânia, Quênia, Coréia, Letônia, Lituânia, Luxemburgo, Malásia, Malásia, México, México, Mônaco, Holanda, Noruega, Panamá, Peru, Peru  Polônia, Portugal, Porto Rico, Catar, Romênia, Rússia, Sérvia, Cingapura, Eslováquia, Eslovênia, África do Sul, Espanha, Sri Lanka, Suécia, Suíça, Taiwan, Tailândia, Trinidad & Tobago, Turquia, Ilhas Virgens Americanas, Ucrânia, Emirados Árabes Unidos, Reino Unido, Estados Unidos, Uruguai, Venezuela, Vietnã
 
-A licença Salas Microsoft Teams Pro está disponível nos seguintes países sem conferência de áudio:
+A licença Salas Microsoft Teams Pro está disponível nos seguintes países/regiões sem conferência de áudio:
 
 - Afeganistão, Ilhas Åland, Albânia, Argélia, Samoa Americana, Andorra, Angola, Anguilla, Antártica, Antígua & Barbuda, Argentina, Armênia, Aruba, Austrália, Áustria, Azerbaijão, Bahamas, Bahrein, Bangladesh, Barbados, Bielorrússia, Bélgica, Belize, Benin, Bermudas, Butão, Bolívia, Bonaire, Sint Eustatius e Saba, Bósnia & Herzegovina, Botsuana, Ilha Bouvet, Brasil, Território Britânico do Oceano Índico, Ilhas Virgens Britânicas, Brunei, Bulgária,  Camarões, Canadá, Cabo Verde, Ilhas Cayman, República Centro-Africana, Chade, Chile, China, Ilhas Christmas, Cocos (Keeling), Colômbia, Comores, Congo, Congo (DRC), Ilhas Cook, Costa Rica, Côte d'Ivoire, Croácia, Curaçao, Chipre, Tcheco, Dinamarca, Djibouti, Dominica, República Dominicana, Equador, Egito, El Salvador, Inglês (Territórios do Sul Francês), Guiné Equatorial, Eritreia, Estônia, Eswatini, Etiópia, Ilhas Falkland, Ilhas Faroé, Fiji,  Finlândia, França, Guiana Francesa, Polinésia Francesa, Gabão, Gâmbia, Geórgia, Alemanha, Gana, Gibraltar, Grécia, Groenlândia, Granada, Guadalupe, Guam, Guatemala, Guernsey, Guiné, Guiné-Bissau, Guiana, Haiti, Ilhas Heard And Mc Donald, Santa Sé (Cidade do Vaticano), Honduras, Hong Kong SAR, Hungria, Islândia, Índia, Indonésia, Iraque, Irlanda, Ilha do Homem, Israel, Itália, Jamaica, Japão, Jersey, Jordânia, Cazaquistão, Quênia, Kiribati  Kuwait, Quirguistão, Laos, Letônia, Líbano, Lesoto, Libéria, Líbia, Liechtenstein, Lituânia, Luxemburgo, Macao SAR, Madagascar, Malawi, Malásia, Maldivas, Mali, Malta, Ilhas Marshall, Martinica, Mauritânia, Maurício, Mayotte, México, Micronésia, Moldávia, Mônaco, Mongólia, Montenegro, Montserrat, Marrocos, Moçambique, Mianmar, Namíbia, Nauru, Nepal, Holanda, Nova Caledônia, Nova Zelândia, Nicarágua, Níger, Nigéria, Niue, Ilha Norfolk, Macedônia do Norte, Ilhas Mariana do Norte, Noruega, Noruega  Omã, Paquistão, Palau, Território Palestino, Ocupado, Panamá, Papua Nova Guiné, Paraguai, Peru, Filipinas, Ilhas Pitcairn, Polônia, Portugal, Porto Rico, Catar, Reunião, Romênia, Rússia, Ruanda, Samoa, San Marino, São Tomé & Príncipe, Arábia Saudita, Arábia Saudita, Senegal, Sérvia, Seychelles, Serra Leoa, Cingapura, Sint Maarten, Eslováquia, Eslovênia, Ilhas Salomão, Somália, África do Sul, África do Sul, Geórgia do Sul e Ilhas Sanduíche do Sul,  Sudão do Sul, Espanha, Sri Lanka, Santa Helena, Ascensão, Tristão da Cunha, St. Barthélemy, São Cristóvão & Nevis, Santa Lúcia, St. Martin, St. Pierre & Miquelon, St. Vincent & Grenadines, Suriname, Svalbard & Jan Mayen, Suécia, Suíça, Taiwan, Tajiquistão, Tanzânia, Tailândia, Timor-Leste, Togo, Tokelau, Tonga, Trinidad & Tobago, Tunísia, Turquia, Turmenistão, Turcos & Ilhas Caicos, Tuvalu, Ilhas Tuvalu, U.S.  Ilhas Virgens Americanas, Uganda, Ucrânia, Emirados Árabes Unidos, Reino Unido, Estados Unidos, Uruguai, Uzbequistão, Vanuatu, Venezuela, Vietnã, Wallis & Futuna, Iêmen, Zâmbia, Zimbábue
 
