@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Saiba mais sobre Salas Microsoft Teams Pro gerenciamento.
 f1keywords: ''
-ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
-ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
+ms.openlocfilehash: 9ef0db845e9eb0778bc53cbcf9e0998531daf6e0
+ms.sourcegitcommit: 2363af0ed4de97f1ec836ca2ad9e3854cf9fa601
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/04/2023
-ms.locfileid: "69696886"
+ms.locfileid: "69702084"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Gerenciamento de Salas Microsoft Teams Pro
 
@@ -58,7 +58,7 @@ Aqui está uma visão geral das funcionalidades do gerenciamento de Salas Micros
 |**Gerenciamento de atualizações**    |Configuração automatizada e entrega do aplicativo Salas do Microsoft Teams com base em anéis de implantação pré-configurados.         |
 |**Insights e recomendações**     |Insights sobre integridade, uso e confiabilidade do equipamento.         |
 |**Conformidade e certificações**   |Atende a todos os padrões aplicáveis para o Microsoft Online Services.         |
-|**Dispositivos suportados**    |Sistemas de Salas do Microsoft Teams certificados e seus periféricos.<br>*Suporte ao Surface Hub e ao Android MTR no segundo semestre de 2022*        |
+|**Dispositivos suportados**    |Sistemas de Salas do Microsoft Teams certificados e seus periféricos.<br>*Suporte ao Surface Hub e ao Android MTR que chegam em 2023*        |
 |**Regiões com suporte**    |Consulte [Regiões com suporte](#supported-regions).        |
 |**Integração**    |Integração básica disponível com o Service Now hospedado pelo cliente para coordenação de incidentes.         |
 
