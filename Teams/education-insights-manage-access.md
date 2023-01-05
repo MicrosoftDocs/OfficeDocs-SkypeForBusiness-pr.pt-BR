@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
-ms.translationtype: HT
+ms.openlocfilehash: 7203c9bda1a6e5c2bf9d90b490492fe7bbc3f64c
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62363177"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707803"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Gerenciar acesso do usuário ao Education Insights
 
 Este documento descreve as etapas necessárias para gerenciar o acesso do usuário ao [Education Insights no Microsoft Teams](class-insights.md).
 
-Você precisa fornecer permissões para líderes educacionais, líderes de distritos, diretores escolares, professores gestores, conselheiros, diretores de áreas de aprendizagem, diretores de programa, assistentes sociais e psicólogos. Os educadores *automaticamente* recebem permissão quando possuem uma equipe de classe.
+You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 Para fornecer o Insights no nível da organização, você deve [importar dados do Sistema de Informações do Aluno (SIS)](education-insights-sis-data-sync.md) de forma que o Insights tenha estrutura hierárquica do sistema educacional mapeada corretamente.
 
@@ -37,7 +37,7 @@ Para fornecer o Insights no nível da organização, você deve [importar dados 
 > [!TIP]
 > Recomendamos que você habilite o insights para todos seus líderes de educação para que eles tenham os dados para entender cada escola, e a capacidade de identificar rapidamente os problemas e fornecer suporte aos seus educadores. Mesmo que você esteja executando um projeto piloto, ainda pode ser útil manter o Insights habilitado para todos os líderes da educação, mas só direcionar as comunicações para o grupo piloto de usuários.
 
-## <a name="manange-permissions"></a>Gerenciar permissões
+## <a name="manage-permissions"></a>Gerenciar permissões
 
 * Abra o aplicativo Insights, clique em **Configurações** e, selecione **Permissões de usuário**
 
@@ -48,15 +48,17 @@ Para fornecer o Insights no nível da organização, você deve [importar dados 
 > 
 > Somente dê permissão aos líderes escolares que precisam delas e somente às unidades organizacionais pelas quais são responsáveis. Se você não tiver certeza se é necessária a permissão do usuário para uma organização específica, consulte os especialistas em assuntos de privacidade de sua instituição, tais como o pessoal do departamento jurídico ou do RH.
 
+> [!IMPORTANT]
+> Depois de atribuir permissões pela primeira vez, os usuários poderão exibir os dados no aplicativo somente se pelo menos **dois** usuários tiverem acessado o aplicativo. Esse requisito ajuda a garantir que o fuso horário dos dados esteja configurado corretamente e que os dados sejam exibidos com precisão para todos os usuários. Se os usuários estiverem enfrentando problemas ao acessar os dados após a concessão de permissões, verifique se pelo menos dois usuários acessaram o aplicativo.
+
 ## <a name="role-based-permissions"></a>Permissões baseadas em função
 
-Se você usar o [formato de arquivo SDS V2.1](/schooldatasync/sds-v2.1-csv-file-format) ou o [formato de arquivo SDS V2](/schooldatasync/sds-v2-csv-file-format), poderá importar todas as funções e a hierarquia completa de escolas dentro do sistema educacional. Esse mapeamento completo permite que você atribua permissões a funções. 
+If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format), you can import all roles and the full hierarchy of schools within the education system. This complete mapping enables you to assign permissions to roles. 
 
 > [!NOTE]
 > Quando um usuário recebe uma função, ele recebe automaticamente as permissões corretas para ver os dados relevantes para ele.
 >
 > Se um usuário não estiver mais em uma função, sua permissão para essa função será revogada automaticamente (embora ele ainda possa ter permissões individuais).
-
 
 * Se necessário, clique com o botão direito na guia **permissões baseadas em função**.
 
