@@ -22,16 +22,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
-ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
+ms.openlocfilehash: a41393f763c9d8ebb328d586f6ae12636e87b0b4
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/29/2022
-ms.locfileid: "69677411"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727733"
 ---
-# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Entender Microsoft aplicativos do Teams e suas funcionalidades
+# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Entender os aplicativos do Microsoft Teams e seus recursos
 
-Os aplicativos no Teams ajudam os usuários a reunir suas ferramentas e serviços no local de trabalho e colaborar com outras pessoas. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal. Microsoft aplicativos do Teams são aplicativos SaaS baseados na Web que não precisam ser implantados localmente.
+Os aplicativos no Teams ajudam os usuários a reunir suas ferramentas e serviços no local de trabalho e colaborar com outras pessoas. Exemplos são usuários finais usando um aplicativo de Calendário do Outlook fixado no Teams para colaborar rapidamente com outras pessoas, um aplicativo com funcionalidade de bots que informa os usuários sobre a qualidade de um serviço Web em um canal do Teams e um aplicativo para compartilhar e atribuir tarefas a vários usuários finais em um canal. Os aplicativos do Microsoft Teams são como aplicativos SaaS baseados na Web que não precisam ser implantados localmente. Adicionar os aplicativos ao cliente do Teams por seus usuários finais não requer a instalação de, digamos, um arquivo binário.
 
 Como administrador, você define um processo de governança de aplicativo que equilibra requisitos abrangentes de usuários finais, juntamente com as políticas de TI, padrões e perfis de risco da sua organização.
 
@@ -43,7 +43,7 @@ Os diferentes tipos de aplicativos que os usuários finais podem usar no Teams s
 
 * [Principais aplicativos que fazem parte do Teams](#core-apps).
 * Outros [aplicativos criados pela Microsoft](#apps-created-by-microsoft).
-* [Aplicativos de terceiros](#third-party-apps-created-by-independent-app-developers) criados por parceiros (validados por Microsoft).
+* [Aplicativos de terceiros](#third-party-apps-created-by-independent-app-developers) criados por parceiros (validados pela Microsoft).
 * [Aplicativos personalizados](#custom-apps-created-within-an-organization-for-internal-use) criados por sua própria organização.
 
 ## <a name="core-apps"></a>Principais aplicativos
@@ -52,17 +52,17 @@ Algumas funcionalidades do Teams, como feed de atividades, equipes, chat, calend
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Os aplicativos principais são os aplicativos fixados no Teams por padrão." lightbox="media/core-apps-pinned2.png":::
 
-## <a name="apps-created-by-microsoft"></a>Aplicativos criados por Microsoft
+## <a name="apps-created-by-microsoft"></a>Aplicativos criados pela Microsoft
 
 A Microsoft fornece muitos aplicativos para melhorar a produtividade e a colaboração. Você e os usuários finais podem encontrar esses aplicativos procurando a Microsoft listada como fornecedor no centro de administração do Teams ou listadas como provedor na loja do Teams.
 
 O Teams vem com um conjunto de aplicativos integrados, incluindo listas, Tarefas, Elogiar, Aprovações e muito mais. Recomendamos que você inclua os aplicativos em destaque—como o Planner—em sua distribuição inicial do Teams.
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de tela mostrando uma lista de aplicativos Microsoft no centro de administração do Teams." lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Captura de tela mostrando uma lista de aplicativos da Microsoft no centro de administração do Teams." lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-created-by-independent-app-developers"></a>Aplicativos de terceiros criados por desenvolvedores de aplicativos independentes
 
-Além dos aplicativos fornecidos por Microsoft, você pode usar aplicativos de terceiros. Microsoft valida rigorosamente a funcionalidade e a segurança de todos esses aplicativos. Testes manuais e automatizados elaborados são executados antes de disponibilizar esses aplicativos na loja do Teams e muitos testes continuam em uma cadência regular mesmo depois que os aplicativos são publicados ao vivo. Para entender os benefícios da validação do aplicativo, consulte a [validação de aplicativos de terceiros](overview-of-app-validation.md). Alguns dos aplicativos assinam o [programa de conformidade Microsoft](overview-of-app-certification.md) para passar por várias camadas de verificações adicionais além da validação.
+Além dos aplicativos fornecidos pela Microsoft, você pode usar aplicativos de terceiros. A Microsoft valida rigorosamente a funcionalidade e a segurança de todos esses aplicativos. Testes manuais e automatizados elaborados são executados antes de disponibilizar esses aplicativos na loja do Teams e muitos testes continuam em uma cadência regular mesmo depois que os aplicativos são publicados ao vivo. Para entender os benefícios da validação do aplicativo, consulte a [validação de aplicativos de terceiros](overview-of-app-validation.md). Alguns dos aplicativos assinam o programa de [conformidade da Microsoft](overview-of-app-certification.md) para passar por várias camadas de verificações adicionais além da validação.
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Captura de tela de um exemplo de aplicativos de terceiros na loja do Teams.":::
 
@@ -78,7 +78,7 @@ Para obter mais informações, confira [Entender e gerenciar aplicativos persona
 
 ## <a name="about-app-templates"></a>Sobre Modelos de Aplicativo
 
-Usando os métodos de desenvolvimento de aplicativos, Microsoft cria e fornece aplicativos de exemplo funcionais e prontos para produção. Coletivamente, esses aplicativos são chamados de modelos de aplicativo para o Teams e são fornecidos para:
+Usando os métodos de desenvolvimento de aplicativos, a Microsoft cria e fornece aplicativos de exemplo funcionais e prontos para produção. Coletivamente, esses aplicativos são chamados de modelos de aplicativo para o Teams e são fornecidos para:
 
 * Ilustrar alguns casos de uso de colaboração no Teams.
 * Mostrar as melhores práticas e métodos de desenvolvimento de aplicativos.
@@ -94,7 +94,7 @@ Os usuários podem exibir todos os aplicativos disponíveis no Teams na loja de 
 
 Os aplicativos podem ser fixados no Teams para facilitar o acesso. Os usuários podem [fixar aplicativos por conta própria](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) se sua política de configuração permitir e se o aplicativo for permitido pelo administrador do Teams. Os administradores podem fixar aplicativos e controlar o comportamento dos aplicativos fixados, para obter mais informações, confira [políticas de configuração de aplicativo](/microsoftteams/teams-app-setup-policies).
 
-:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Captura de tela que mostra todos os lugares em que os usuários podem procurar aplicativos no Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Captura de tela que mostra todos os locais em que os usuários podem navegar por aplicativos no Microsoft Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 
 Os usuários podem encontrar e adicionar aplicativos ao Teams na loja de aplicativos do Teams. Eles também podem adicionar aplicativos diretamente do contexto em que estão trabalhando, como chat ou guia de canal, reunião do Teams ou área de mensagens. Para obter mais informações, confira [adicionar um aplicativo ao Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
 
@@ -111,9 +111,9 @@ As funcionalidades do aplicativo Teams são as principais funcionalidades que os
         :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="Graphic that shows the app capabilities of a Microsoft Teams app." border="false":::
 --->
 
-* **Bots**: bots também são chamados de chatbot ou bot de conversa. É um aplicativo que executa tarefas simples e repetitivas. Uma interação de bot pode ser uma pergunta e resposta rápidas ou pode ser uma conversa complexa que fornece acesso a serviços ou assistência. Os usuários podem ter uma conversa com um bot em um chat pessoal, canal ou chat em grupo. Para obter mais informações, consulte [Bots no Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
+* **Bots**: bots também são chamados de chatbot ou bot de conversa. É um aplicativo que executa tarefas simples e repetitivas. Uma interação de bot pode ser uma pergunta e resposta rápidas ou pode ser uma conversa complexa que fornece acesso a serviços ou assistência. Os usuários podem ter uma conversa com um bot em um chat pessoal, canal ou chat em grupo. Para obter mais informações, confira [Bots no Microsoft Teams](/microsoftteams/platform/bots/what-are-bots).
 
-* **Guias**: as guias são páginas da Web com reconhecimento do Teams fixadas na parte superior de um canal ou um chat. As guias permitem que você interaja com conteúdo e serviços com uma experiência semelhante à Web. São marcas HTML `iframe` simples que podem ser adicionadas como parte de um canal dentro de uma equipe, chat em grupo ou aplicativo pessoal para um usuário individual. Para obter mais informações, consulte [Microsoft guias do Teams](/microsoftteams/platform/tabs/what-are-tabs).
+* **Guias**: as guias são páginas da Web com reconhecimento do Teams fixadas na parte superior de um canal ou um chat. As guias permitem que você interaja com conteúdo e serviços com uma experiência semelhante à Web. São marcas HTML `iframe` simples que podem ser adicionadas como parte de um canal dentro de uma equipe, chat em grupo ou aplicativo pessoal para um usuário individual. Para obter mais informações, confira [Guias do Microsoft Teams](/microsoftteams/platform/tabs/what-are-tabs).
 
 * **Webhooks e conectores**: Webhooks e conectores ajudam a conectar vários serviços Web a canais e equipes no Microsoft Teams. Webhooks são retorno de chamada HTTP definido pelo usuário que notifica os usuários sobre qualquer ação que tenha ocorrido no canal do Teams. É uma maneira de um aplicativo obter dados em tempo real. Os conectores permitem que os usuários assinem para receber notificações e mensagens de serviços Web. Para obter mais informações, consulte [Webhooks e conectores](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 

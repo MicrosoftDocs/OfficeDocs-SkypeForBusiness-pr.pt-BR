@@ -20,20 +20,20 @@ description: Saiba como usar e gerenciar políticas de chamada de emergência no
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4b5d293cbbd588a564ff1a0118ab4d56f96c17a2
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 1d2dc0e2213f6294e2c596722a4f5ab49bec8487
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414638"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727743"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de chamada de emergência no Microsoft Teams
 
-Se sua organização usar Microsoft Planos de Chamada, Conexão do Operador, Teams Phone Mobile ou Roteamento Direto como [sua opção de conectividade PSTN](pstn-connectivity.md), você poderá usar políticas de chamada de emergência no Microsoft Teams para definir o que acontece quando um usuário do Teams em sua organização faz uma chamada de emergência.
+Se sua organização usar Planos de Chamada da Microsoft, Operator Connect, Teams Phone Mobile ou Roteamento Direto como [sua opção de conectividade PSTN](pstn-connectivity.md), você poderá usar políticas de chamada de emergência no Microsoft Teams para definir o que acontece quando um usuário do Teams em sua organização faz uma chamada de emergência.
 
 Você pode definir quem notificar e como eles são notificados quando um usuário que recebe a política chama serviços de emergência. Por exemplo, você pode configurar as configurações de política para notificar automaticamente o balcão de segurança da sua organização e fazer com que elas ouçam em chamadas de emergência.  
 
-Você gerencia as políticas de chamada de emergência acessando **políticas de Emergência** de **Voz** >  no centro de administração do Microsoft Teams ou usando Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede](cloud-voice-network-settings.md).
+Você gerencia políticas de chamada de emergência acessando **políticas de Emergência** de **Voz** >  no centro de administração do Microsoft Teams ou usando Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede](cloud-voice-network-settings.md).
 
 Para usuários, você pode usar a política global (padrão em toda a organização) ou criar e atribuir políticas personalizadas. Os usuários obterão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Tenha em mente que você pode editar as configurações na política global, mas não pode renomeá-la ou excluí-la. Para sites de rede, você cria e atribui políticas personalizadas.
 
@@ -43,7 +43,7 @@ Se você atribuiu uma política de chamada de emergência a um site de rede e a 
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **Políticas de Emergência de** **Voz** >  e clique na guia **Chamando políticas**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **Políticas de Emergência de** **Voz** >  e clique na guia **Políticas de chamada**.
 
 2. Clique em **Adicionar**.
 
@@ -61,7 +61,7 @@ Se você atribuiu uma política de chamada de emergência a um site de rede e a 
 
 7.  Se você selecionou uma das **conferências em** modos de notificação mudos, na caixa **Números para discar para notificações de chamadas de emergência** , você poderá inserir um número de telefone PSTN de um usuário ou grupo para chamar e ingressar na chamada de emergência. Por exemplo, insira o número do balcão de segurança da sua organização, que receberá uma chamada quando uma chamada de emergência for feita e, em seguida, poderá escutar na chamada. O telefone PSTN não pode ser desmutado mesmo quando o modo é definido como **Conferenced em mudo, mas é capaz de desmutar**.
 
-8. Pesquise e selecione um ou mais usuários ou grupos, como o balcão de segurança da sua organização, para notificar quando uma chamada de emergência for feita.  A notificação pode ser enviada para endereços de email de usuários, grupos de distribuição e grupos de segurança. No máximo 50 usuários podem ser notificados.
+8. Defina quem você deseja notificar quando uma chamada de emergência for feita, por exemplo, o pessoal do seu repositório de segurança. Você pode definir uma lista de usuários, grupos de distribuição ou grupos de segurança. No máximo 50 usuários podem ser notificados.
 
 9. Clique em **Aplicar**.
 
@@ -75,7 +75,7 @@ Consulte [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteam
 
 Você pode editar a política global ou quaisquer políticas personalizadas que você criar.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **Políticas de Emergência de** **Voz** >  e clique na guia **Chamando políticas**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **Políticas de Emergência de** **Voz** >  e clique na guia **Políticas de chamada**.
 2. Selecione a política clicando à esquerda do nome da política e, a seguir, clique em **Editar**.
 3. Faça as alterações desejadas e clique em **Aplicar**.
 
@@ -95,7 +95,7 @@ Consulte também [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/
 
 Você pode atribuir a política global ou quaisquer políticas personalizadas que você criar.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a **topologia Rede** de **Locais** >  e clique na guia **Sites de rede**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse **Topologia de Rede** de **Locais** >  e clique na guia **Sites** de rede.
 2. Selecione o site clicando à esquerda do nome e clique em **Editar**.
 3. Em **Política de chamada de emergência**, selecione a política e clique em **Salvar**.
 

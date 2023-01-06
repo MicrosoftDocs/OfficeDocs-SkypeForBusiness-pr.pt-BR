@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais compartilhados no Microsoft Teams.
-ms.openlocfilehash: b7f151b68bf37ccf3e14e3a442b4d2b1c6acc52f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: d45e2f1ea7f6daef8cd2b4a3af57944629d59a8a
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69199143"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727863"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Canais compartilhados no Microsoft Teams
 
@@ -70,7 +70,7 @@ Quando uma equipe é arquivada, o compartilhamento individual permanecerá intac
 
 O proprietário de um canal privado não pode ser removido pelo cliente do Teams se ele for o último proprietário de um ou mais canais compartilhados.
 
-Se o último proprietário do canal compartilhado deixar sua organização ou se ele for removido do grupo Microsoft 365 associado à equipe, um membro do canal compartilhado de sua organização será promovido automaticamente para ser o proprietário do canal compartilhado. Se não houver membros da sua organização para promover, o canal compartilhado permanecerá sem proprietários. Um administrador do Teams terá que atribuir manualmente um proprietário de canal. Considere adicionar mais de um proprietário para evitar essa situação.
+Se o último proprietário do canal compartilhado deixar sua organização ou se ele for removido do grupo do Microsoft 365 associado à equipe, um membro do canal compartilhado de sua organização será promovido automaticamente para ser o proprietário do canal compartilhado. Se não houver membros da sua organização para promover, o canal compartilhado permanecerá sem proprietários. Um administrador do Teams terá que atribuir manualmente um proprietário de canal. Considere adicionar mais de um proprietário para evitar essa situação.
 
 Os convidados - incluindo aqueles convertidos em membros (em sua propriedade de tipo de usuário) - não podem ser adicionados a um canal compartilhado.
 
@@ -161,6 +161,8 @@ As seguintes limitações também se aplicam:
 - Os canais compartilhados dão suporte a guias, exceto Stream, Planner e Forms.
 
 - Não há suporte para bots, conectores e extensões de mensagem.
+
+- Não há suporte para que equipes de toda a organização sejam adicionadas como membros de um canal compartilhado.
 
 - Quando você cria uma equipe de uma equipe existente, os canais compartilhados na equipe existente não serão copiados.
 

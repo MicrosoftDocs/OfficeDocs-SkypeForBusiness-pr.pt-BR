@@ -25,12 +25,12 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: ''
 description: Saiba como gerenciar o aplicativo Bookings no Teams para usuários em sua organização.
-ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 66e3d0450eaad1843c94833cb7bb6d417959eb8c
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307516"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727753"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Gerenciar o aplicativo Bookings no Microsoft Teams
 
@@ -64,13 +64,16 @@ Para obter mais informações sobre políticas de reunião, consulte [Gerenciar 
 
 ## <a name="sms-text-notifications"></a>Notificações de texto sms
 
-![Ícone](media/info.png) de informações **Esse recurso está sendo movido para [o Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (versão prévia). Os usuários podem continuar usando esse recurso durante o período de visualização. Após a visualização, os usuários precisam de uma licença do Teams Premium.**
+![Ícone](media/info.png) de informações **Esse recurso está sendo movido para [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) (versão prévia). Os usuários podem continuar usando esse recurso durante o período de visualização. Após a visualização, os usuários precisam de uma licença de Teams Premium.**
+
+> [!NOTE]
+> Forneceremos notificações de SMS ilimitadas até 1º de março de 2023 (anteriormente 31 de janeiro de 2023) para clientes com licenças de Reservas. À medida que nos aproximamos do fim do período de promoção, forneceremos detalhes adicionais sobre os requisitos de licenciamento. Entre em contato com sua equipe de conta ou suporte para receber detalhes de preços após o período de promoção.
 
 Você pode controlar se as notificações de texto sms podem ser enviadas a participantes externos para compromissos virtuais agendados pela sua equipe em sua organização.
 
 Por padrão, essa configuração está ativada e as notificações de texto SMS estão habilitadas para todos os calendários de Reservas em sua organização. Tenha em mente que os administradores e agendadores do Bookings podem optar por desativar ou ativar notificações por SMS conforme necessário em [tipos de compromisso agendados](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) e compromissos individuais agendados.
 
-Para configurar essa configuração, acesse as **configurações da Organização** de **Configurações** \> Centro de administração do Microsoft 365 \> e escolha **Reservas**. Selecione ou desmarque a caixa de seleção **Permitir que Microsoft envie notificações de mensagem de texto SMS**.
+Para configurar essa configuração, acesse as **configurações da Organização** de **Configurações** \> Centro de administração do Microsoft 365 \> e escolha **Reservas**. Selecione ou desmarque a caixa de seleção **Permitir que a Microsoft envie notificações de mensagem de texto SMS** .
 
 Saiba mais sobre como [configurar notificações de texto SMS para sua organização](/microsoft-365/bookings/turn-bookings-on-or-off).
 
