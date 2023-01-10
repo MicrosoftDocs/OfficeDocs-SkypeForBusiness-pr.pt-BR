@@ -17,31 +17,33 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Saiba como enviar manualmente uma solicitação de pedido de portabilidade.
-ms.openlocfilehash: f8a1276ce35cea38cbe2fbb080bd6c6c6312f64c
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+description: Saiba como enviar manualmente uma solicitação de pedido de porta.
+ms.openlocfilehash: a1a333b70f717e83df5743e2532bf0092c262054
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789376"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749027"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar manualmente um pedido de portabilidade
 
-Em alguns países e regiões, talvez seja necessário enviar manualmente uma solicitação de serviço para obter números de telefone, transferir números de telefone, liberar números de telefone ou alterar endereços. Para ver o que é necessário para cada país e região ou para saber mais sobre portabilidade de números, consulte Gerenciar números [de telefone para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Para a maioria dos clientes, os pedidos de porta podem ser concluídos no centro de administração do Microsoft Teams. Para obter instruções sobre esse processo, consulte [Transferir números de telefone para o Microsoft Teams](transfer-phone-numbers-to-teams.md).
 
-Use as etapas neste artigo para enviar manualmente um pedido de portabilidade se seu país ou região não estiver listado no assistente de [portabilidade na Microsoft ](transfer-phone-numbers-to-teams.md).
+Em algumas situações, talvez seja necessário enviar manualmente uma solicitação de serviço para obter números de telefone, transferir números de telefone, liberar números de telefone ou alterar endereços. Para ver o que é necessário para cada país e região ou para saber mais sobre a portabilidade de números, consulte [Gerenciar números de telefone para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente uma nova solicitação de pedido de portabilidade
+Use as etapas neste artigo para enviar manualmente um pedido de porta se você não puder usar o [assistente de portabilidade no centro de administração do Teams](transfer-phone-numbers-to-teams.md).
 
-Para enviar manualmente um novo pedido de portabilidade, envie o formulário de Carta de Autorização (LOA) concluído diretamente para o suporte de serviço TNS para sua região.
+## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente uma nova solicitação de pedido de porta
 
-1. Baixe a [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para seu país ou região.
-2. Preencha o formulário.
-3. Envie-o para o [suporte de serviço TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para sua região.
+Para enviar manualmente um novo pedido de porta, carregue seu formulário LOA (Carta de Autorização) concluído diretamente no Service Desk do TNS.
 
-## <a name="what-else-should-you-know-about-number-porting"></a>O que mais você deve saber sobre portabilidade de número
+1. Baixe o [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para seu país ou região.
+2. Conclua o formulário.
+4. Envie-o para o [service desk do TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
-- Para usar planos de chamadas, você deve comprar e atribuir licenças aos usuários. Consulte [o licenciamento de complemento do Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+## <a name="what-else-should-you-know-about-number-porting"></a>O que mais você deve saber sobre a portabilidade de números
+
+- Para usar planos de chamada, você deve comprar e atribuir licenças aos usuários. Consulte Licenciamento [de complemento do Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - Você deve atribuir os novos números de telefone recebidos a cada um dos seus usuários. Consulte [Atribuir, alterar ou remover um número de telefone para um usuário](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
@@ -51,4 +53,4 @@ Para enviar manualmente um novo pedido de portabilidade, envie o formulário de 
 - [Diferentes tipos de números de telefone utilizados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gerenciar os números de telefone de sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
-- [Rótulo de aviso de isenção de responsabilidade de Chamada de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Rótulo de isenção de isenção de responsabilidade de chamada de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
