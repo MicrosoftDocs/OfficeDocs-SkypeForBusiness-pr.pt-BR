@@ -28,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: eaf08af459a5f6149b3068802b104c1458dfc727
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: f09517572b27fb67ab9657dcfa4c7bd4c5c7867b
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139105"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774716"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Chamando planos para o Microsoft Teams
 
@@ -56,6 +56,9 @@ Aqui estão as opções Planos de Chamada:
 
   - **Pay-As-You-Go Calling Plan Zone-2**: Compre isso para usuários na Áustria, Bélgica, Croácia, República Tcheca, Dinamarca, Estônia, Finlândia, França, Alemanha, Hungria, Irlanda, Itália, Letônia, Lituânia, Luxemburgo, Holanda, Nova Zelândia, Noruega, Polônia, Portugal, Romênia, Cingapura, Eslováquia, Eslovênia, África do Sul, Espanha, Suécia e Suíça.
     - Atualmente, as licenças da zona 2 não estão disponíveis para venda no Estados Unidos e em Porto Rico.
+
+> [!NOTE]
+> O México tem seu próprio plano de chamada pay-as-you-go. Não faz parte de nenhuma zona. Você deve comprar o plano de chamada pay-as-you-go independente.
 
 Todos os usuários do mesmo país/região (este é o local do país de usuário definido na área de licenciamento do Centro de administração do Microsoft 365) com o mesmo Plano de Chamada compartilham um pool de minutos. Por exemplo, se você tiver 100 usuários localizados no mesmo país/região com um Plano de Chamada Doméstica de 120 minutos atribuído, eles compartilharão um pool de 12.000 minutos. Todas as chamadas que excedem esses minutos são cobradas por minuto.
 

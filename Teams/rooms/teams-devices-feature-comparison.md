@@ -18,22 +18,22 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6648502d9b6a3e727ef30f1e94289f1428d8a4e2
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 43026c80108adeff777e3a003fb93fece44d8c50
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438527"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774806"
 ---
 # <a name="teams-rooms-on-windows-and-android-feature-comparison"></a>Salas do Teams na comparação de recursos do Windows e android
 
-Salas do Microsoft Teams experiências são projetadas com os clientes em mente. Todo cliente tem necessidades exclusivas, e é por isso que Microsoft oferece uma amplitude de opções, incluindo Salas do Teams no Windows e no Android. 
+Salas do Microsoft Teams experiências são projetadas com os clientes em mente. Todo cliente tem necessidades exclusivas, e é por isso que a Microsoft oferece uma amplitude de opções, incluindo Salas do Teams no Windows e no Android. 
 
 A funcionalidade principal está disponível em ambas as plataformas para que os usuários finais sempre possam ter ótimas experiências de áudio e vídeo, usar uma junção de um toque para ingressar em reuniões e acessar recursos inclusivos, como legendas ao vivo e levantar a mão. 
 
-À medida que Microsoft traz novos recursos para o Teams e para Salas do Teams, nos esforçamos para trazê-los para todas as plataformas, mas os recursos podem ser lançados em momentos diferentes devido a uma série de fatores, incluindo coisas como viabilidade técnica e comentários do cliente para cada plataforma. Isso significa que você pode ver alguns recursos sendo lançados no Windows antes de chegarem à plataforma Android. 
+À medida que a Microsoft traz novos recursos para o Teams e para Salas do Teams, nos esforçamos para trazê-los para todas as plataformas, mas os recursos podem ser lançados em momentos diferentes devido a uma série de fatores, incluindo coisas como viabilidade técnica e comentários do cliente para cada plataforma. Isso significa que você pode ver alguns recursos sendo lançados no Windows antes de chegarem à plataforma Android. 
 
-Para ajudar a orientar você sobre quais recursos estão disponíveis em diferentes plataformas, você pode consultar o gráfico abaixo, que será atualizado periodicamente. Nem todos os recursos Salas do Teams serão incluídos nesta lista, portanto, continue [consultando o roteiro Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) e Microsoft representantes de vendas para obter mais detalhes.    
+Para ajudar a orientar você sobre quais recursos estão disponíveis em diferentes plataformas, você pode consultar o gráfico abaixo, que será atualizado periodicamente. Nem todos os recursos Salas do Teams serão incluídos nesta lista, portanto, continue [consultando o roteiro do Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) e representantes de vendas da Microsoft para obter detalhes adicionais.    
 
 ## <a name="teams-devices-for-shared-spaces"></a>Dispositivos do Teams para espaços compartilhados
 
@@ -50,7 +50,7 @@ Para ajudar a orientar você sobre quais recursos estão disponíveis em diferen
 |                                          | Ingresso de convidado direto                                                                                            | Disponível                                                                                                                                      | Disponível                                           |
 | **Envolvimento e colaboração de reunião** | Experiência de aplicativo intuitiva e criada com propósito                                                                      | Disponível                                                                                                                                      | Disponível                                           |
 |                                          | Layouts de vídeo e conteúdo (por exemplo, Modo Juntos, galeria grande, somente galeria e galeria e conteúdo) | Disponível                                                                                                                                      | Disponível                                           |
-|                                          | Layout da primeira linha                                                                                             | Disponível                                                                                                                                      | Não disponível                                       |
+|                                          | Layout da primeira linha                                                                                             | Disponível                                                                                                                                      | Em breve                                       |
 |                                          | Bolhas de chat                                                                                                 | Disponível                                                                                                                                      | Em breve                                         |
 |                                          | Levante a mão, baixe todas as mãos                                                                                  | Disponível                                                                                                                                      | Disponível                                           |
 |                                          | Fixar vários participantes                                                                                    | Disponível                                                                                                                                      | Em breve                                         |
@@ -83,6 +83,7 @@ Para ajudar a orientar você sobre quais recursos estão disponíveis em diferen
 |                                          | Atualizações automáticas do aplicativo Teams                                                                                  | Disponível                                                                                                                                      | Disponível                                           |
 |                                          | Registro automático do dispositivo                                                                                       | Disponível                                                                                                                                      | Disponível                                           |
 |                                          | Análise de qualidade de chamada                                                                                       | Disponível                                                                                                                                      | Disponível                                           |
+|                                          | Tema personalizado                                                                                       | Disponível                                                                                                                                      | Não disponível                                           |
 | **Bom para /Espaço**                     | Foco (2 a 4 pessoas)                                                                                           | Disponível                                                                                                                                      | Disponível                                           |
 |                                          | Pequeno (4 a 6 pessoas)                                                                                           | Disponível                                                                                                                                      | Disponível                                           |
 |                                          | Médio (6 a 12 pessoas)                                                                                         | Disponível                                                                                                                                      | Disponível                                           |
