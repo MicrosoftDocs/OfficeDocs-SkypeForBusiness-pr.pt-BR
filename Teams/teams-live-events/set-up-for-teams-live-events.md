@@ -21,12 +21,12 @@ description: Configure para eventos ao vivo no Teams, incluindo configurar sua r
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 899229e5acfdbd5864cc055672f4ae7ac16e6dee
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: cf3d364ce01ea80892dc929102c96a7fab5a74bc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414709"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767582"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -66,7 +66,7 @@ As políticas de eventos ao vivo são usadas para controlar quem em sua organiza
 |---------|---------|
 |**Título**     |Esse é o título da política exibida na página políticas de eventos ao vivo. Não pode ter mais de 64 caracteres ou caracteres especiais.          |
 |**Descrição**    |Use isso para adicionar uma descrição amigável à política.         |
-|**Agendamento de eventos ao vivo**     |Habilitar essa operação permite que os usuários da organização criem e agendem eventos ao vivo no Teams. É importante saber que, se você quiser que os usuários agendem um evento ao vivo produzido por um aplicativo ou dispositivo externo, há outras etapas que você deve seguir. Para saber mais, confira [Permitir aos usuários agendar eventos que foram produzidos com um aplicativo ou dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Agendamento de eventos ao vivo**     |Habilitar essa operação permite que os usuários da organização criem e agendem eventos ao vivo no Teams.     |
 |**Transcrição para participantes** |Essa configuração só pode ser aplicada a eventos produzidos no Teams. Ativar esse recurso permite que os participantes de eventos ao vivo vejam legendas em tempo real durante o evento.         |
 |**Quem pode ingressar eventos ao vivo agendados**    |Escolha uma destas opções.<br><br>**Todos** os usuários podem criar eventos ao vivo em que todos, incluindo as pessoas de fora da sua organização, podem participar. Essa configuração permite o tipo de permissão **pública** no Teams quando um usuário agenda um evento ao vivo.<br> **Todos na organização** os usuários podem criar eventos ao vivo nos quais as pessoas de sua organização, incluindo [usuários convidados](../add-guests.md) adicionados à sua organização, podem participar. Os usuários não podem criar eventos ao vivo com participação de usuários anônimos. Essa configuração permite o tipo de permissão **toda a organização** no Teams quando um usuário agenda um evento ao vivo.<br> **Usuários ou grupos específicos** podem criar eventos ao vivo em que somente usuários ou grupos específicos da sua organização podem participar. Os usuários não podem criar eventos ao vivo com a participação de todos em sua organização ou de usuários anônimos. Essa configuração permite o tipo de permissão **Pessoas e grupos** no Teams quando um usuário agenda um evento ao vivo.       |
 |**Configuração de gravação**  <br>     | Essa configuração só pode ser aplicada a eventos produzidos no Teams. Escolha uma destas opções. <br><br> **Sempre Gravar** Eventos ao vivo criados por usuários sempre são gravados. Após o evento ser encerrado, os membros da equipe do eventos podem baixar a gravação, e os participantes podem assistir ao evento. <br> **Nunca gravar** eventos ao vivo criados pelos usuários nunca são gravados. <br>**O organizador pode gravar ou não** Usuários podem decidir se desejam gravar o evento ao vivo. Se ele for gravado, após o evento ser encerrado, os membros da equipe do eventos podem baixar a gravação, e os participantes podem assistir ao evento.
@@ -77,36 +77,23 @@ Você também pode fazer isso usando Windows PowerShell e, atualmente, os client
 
 Se você criou uma política personalizada de eventos ao vivo, atribua-a aos usuários para que a política fique ativa. <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
-### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Permitir que os usuários agendem eventos que foram produzidos com um aplicativo ou dispositivo externo
-
-Para que os usuários agendem eventos produzidos com um aplicativo ou dispositivo externo, você também deve executar as seguintes etapas:
-
-1. Habilitar o Microsoft Stream para usuários na organização. O stream está disponível como parte das assinaturas de Microsoft 365 ou Office 365 qualificadas ou como um serviço autônomo. O Stream não está incluído nos planos Business Essentials ou Business Premium. Confira [Visão geral de licenciamento Stream](/stream/license-overview) para obter mais detalhes.
-
-   >[!Note]
-   > A mudança do Microsoft Stream para o [Microsoft OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento você poderá optar por aceitar essa experiência, em novembro você terá que recusar se quiser continuar usando o Stream e, no início de 2021, exigiremos que todos os clientes usem o OneDrive for Business e o Microsoft Office SharePoint Online para novas gravações de reunião. Saiba mais sobre como [**atribuir licenças aos usuários para**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) que os usuários possam acessar o Stream. Verifique se o Stream não está bloqueado para os usuários, conforme definido [**neste artigo**](/stream/disable-user-organization).
-
-2. Garanta que os usuários tenham permissão para a criação de evento ao vivo no Stream. Por padrão, os administradores podem criar eventos com um aplicativo ou dispositivo externo. O administrador do Stream pode [habilitar usuários adicionais para a criação de eventos ao vivo](/stream/live-event-administration#restrict-who-can-create-events) no Stream.
-
-3. Garanta que os organizadores de eventos ao vivo sejam configurados pela política da empresa definida pelo administrador do Stream. Se um administrador do Stream tiver [configurado uma política de diretrizes da empresa](/stream/company-policy-and-consent) e exigir que os funcionários aceitem essa política antes de salvar o conteúdo, eles devem fazê-lo antes de criar um evento ao vivo (com um aplicativo ou dispositivo externo) no Teams. Antes de distribuir o recurso de eventos ao vivo na organização, certifique-se de que os usuários que criarão esses eventos ao vivo tenham consentido com a política.
-
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Etapa 4: Configurar uma solução de distribuição de vídeo para eventos ao vivo no Teams.
 
-A reprodução de vídeos ao vivo usa o protocolo de taxa de bits adaptável (ABR), mas é um fluxo de unicast, o que significa que todos os visualizadores estão obtendo seu próprio fluxo de vídeo da Internet. Para eventos ao vivo ou vídeos enviados para grande parte da sua organização, pode haver uma quantidade significativa de largura de banda de Internet consumida pelos visualizadores. Para organizações que desejam reduzir esse tráfego de Internet para eventos ao vivo, Microsoft oferece uma solução de primeira parte, [Microsoft eCDN](/ecdn) (rede de entrega de conteúdo empresarial). As soluções de eventos ao vivo também são integradas aos parceiros confiáveis de entrega de vídeo da Microsoft que oferecem SDNs (redes definidas por software) ou eCDNs. Essas plataformas SDN/eCDN permitem que as organizações otimizem a largura de banda de rede sem sacrificar experiências de exibição do usuário final. Essas soluções podem ajudar a habilitar uma distribuição de vídeo mais escalonável e eficiente em toda a sua rede corporativa.
+A reprodução de vídeos ao vivo usa o protocolo de taxa de bits adaptável (ABR), mas é um fluxo de unicast, o que significa que todos os visualizadores estão obtendo seu próprio fluxo de vídeo da Internet. Para eventos ao vivo ou vídeos enviados para grande parte da sua organização, pode haver uma quantidade significativa de largura de banda de Internet consumida pelos visualizadores. Para organizações que desejam reduzir esse tráfego de Internet para eventos ao vivo, a Microsoft oferece uma solução de primeira parte, [o Microsoft eCDN](/ecdn) (rede de entrega de conteúdo empresarial). As soluções de eventos ao vivo também são integradas aos parceiros confiáveis de entrega de vídeo da Microsoft que oferecem SDNs (redes definidas por software) ou eCDNs. Essas plataformas SDN/eCDN permitem que as organizações otimizem a largura de banda de rede sem sacrificar experiências de exibição do usuário final. Essas soluções podem ajudar a habilitar uma distribuição de vídeo mais escalonável e eficiente em toda a sua rede corporativa.
 
-- **Microsoft eCDN** Microsoft eCDN é integrado ao Teams e também é compatível com Stream e Yammer. Ele emprega a tecnologia ponto a ponto em uma rede corporativa para descarregar a largura de banda da conexão WAN.
+- **Microsoft eCDN** O Microsoft eCDN é integrado ao Teams e também é compatível com Stream e Yammer. Ele emprega a tecnologia ponto a ponto em uma rede corporativa para descarregar a largura de banda da conexão WAN.
 
 - **Compre e configure sua solução fora do Teams** Obtenha ajuda especializada com a capacidade de redimensionamento de vídeo aproveitando os parceiros de entrega de vídeo confiáveis da Microsoft. 
 
-As seguintes soluções SDN/eCDN são pré-configuradas e podem ser configuradas para serem usadas com o Stream.
+As seguintes soluções SDN/eCDN são pré-integradas e podem ser configuradas para serem usadas com o streaming do Teams:
 
 - **O Hive Streaming** fornece uma solução simples e poderosa para a distribuição de vídeo empresarial ao vivo e sob demanda. Hive é uma solução baseada em software que não requer hardware ou largura de banda adicional e oferece uma maneira segura de permitir milhares de visualizadores de vídeo simultâneos, sem afetar a sua rede. Para os clientes que desejam compreender o impacto que o vídeo tem em suas redes antes de adquirir uma solução SDN/eCDN, o streaming do Hive também fornece uma solução de análise baseada em navegador para clientes da Microsoft. [Saiba mais](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
 
 - **O Kollective** é uma plataforma de distribuição baseada em nuvem e emparelhamento inteligente que aproveita sua infraestrutura de rede existente para fornecer conteúdo em muitas formas (vídeo de streaming ao vivo, vídeo sob demanda, atualizações de software, patches de segurança e muito mais) mais rápido, mais confiável e com menos largura de banda. Nossa plataforma segura é confiável pelas maiores instituições financeiras do mundo, sem nenhum hardware adicional, com configuração e a manutenção fáceis. [Saiba mais](https://kollective.com/microsoft-pilot/).
 
-- **O Ramp** fornece uma solução eCDN universal para entrega de vídeo segura e impecável. Confiável pelas principais instituições financeiras, de saúde e governamentais, o Ramp implanta no local, na nuvem ou híbrido e é perfeito para ambientes Confiança Zero. Nossa licença universal inclui todos os três métodos de entrega de eCDN (P2P, Multicast e Cache), garantindo que sua transmissão ao vivo e vídeo sob demanda sejam entregues com a mais alta qualidade com o menor impacto de largura de banda para proteger aplicativos críticos aos negócios que compartilham a rede corporativa. [Saiba mais](https://rampecdn.com/).
+- **Ramp OmniCache** fornece a distribuição de rede de última geração e garante a entrega tranquila de conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dando suporte a difusões de eventos ao vivo e transmissões sob demanda. O suporte para o Ramp OmniCache de eventos ao vivo produzidos no Teams será lançado em breve. [Saiba mais](https://rampecdn.com).
 
-- **Riverbed**, o padrão do setor na otimização de rede, está estendendo suas soluções de aceleração para Microsoft Teams e Stream.  Agora Microsoft 365 clientes podem acelerar com confiança 365 tráfego, incluindo Teams e Stream, juntamente com uma riqueza de outros serviços saaS empresariais líderes para aumentar a produtividade da força de trabalho de qualquer lugar. A aceleração do Teams e do Stream pode ser habilitada por meio de uma configuração sem esforço que vem com toda a garantia do suporte de classe mundial e do investimento contínuo da Riverbed.
+- **Riverbed**, o padrão do setor na otimização de rede, está estendendo suas soluções de aceleração para o Microsoft Teams. Agora, os clientes do Microsoft 365 podem acelerar com confiança 365 tráfego, incluindo o Teams, juntamente com uma riqueza de outros serviços SaaS empresariais líderes para aumentar a produtividade da força de trabalho de qualquer lugar. A aceleração do Teams pode ser habilitada por meio de uma configuração sem esforço que vem com toda a garantia do suporte de classe mundial da Riverbed e do investimento contínuo.
 
 > [!NOTE]
 > Se você escolher uma solução SDN ou eCDN de terceiros, ela estará sujeita aos **termos de serviço e política de privacidade do provedor de terceiros** selecionados, que controlarão o uso da solução do provedor. O uso da solução do provedor não estará sujeito aos termos de licenciamento por volume da Microsoft ou a termos de serviços online. Caso não concorde com os **termos do provedor de terceiros**, não habilite a solução no Teams.
