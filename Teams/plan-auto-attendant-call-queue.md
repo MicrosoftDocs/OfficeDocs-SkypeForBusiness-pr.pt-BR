@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendentes automáticos e filas de chamadas e como usá-los para ajudar os chamadores a passar por um sistema de menus para alcançar pessoas ou departamentos em sua organização.
-ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 097d4d0e921e0481e4986cce6f599cbd55044138
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307616"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763612"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planejar atendimentos automáticos do Teams e filas de chamadas
 
@@ -71,8 +71,8 @@ Você pode atribuir um número de telefone a uma fila de chamadas, no entanto, a
 Para configurar os atendentes automáticos e as filas de chamadas, você precisa dos seguintes recursos:
 
 - Uma [Conta de Recurso](manage-resource-accounts.md) para cada atendente automático e cada fila de chamadas.
-- Uma [licença gratuita Telefonia do Microsoft Teams Conta de Recursos](teams-add-on-licensing/virtual-user.md) para cada conta de recurso que será discada diretamente de usuários do Teams ou números de telefone externos.
-- Pelo menos um [Microsoft número de serviço](getting-service-phone-numbers.md), [número do Operator Connect](operator-connect-plan.md), [número de roteamento direto](direct-routing-plan.md) ou um número híbrido para cada conta de recurso que você deseja discar diretamente de números de telefone externos.
+- Uma [licença gratuita Telefonia do Microsoft Teams Conta de Recursos](teams-add-on-licensing/virtual-user.md) para cada conta de recurso.
+- Pelo menos um [número de serviço da Microsoft](getting-service-phone-numbers.md), [número do Operator Connect](operator-connect-plan.md), [número de roteamento direto](direct-routing-plan.md) ou um número híbrido para cada conta de recurso que você deseja discar diretamente de números de telefone externos.
   - O número de serviço pode ser um número de pedágio ou gratuito.
 
 > [!NOTE]
@@ -107,7 +107,7 @@ Qual conta de recurso para licença:
 > [!NOTE]
 > Se o Plano de Chamada atribuído à conta de recurso ficar desabilitado ou for removido, os [Créditos de Comunicação](what-are-communications-credits.md), se estiverem disponíveis no locatário (sem serem atribuídos à conta de recursos), serão consumidos. Se não houver nenhum Plano de Chamada ou Créditos de Comunicação, a chamada falhará.
 >
-> Há suporte para números de serviço de roteamento direto para filas de atendimento automático e de chamada para usuários Microsoft Teams e agentes de chamada.
+> Há suporte para números de serviço de roteamento direto para filas de atendimento automático e de chamada somente para usuários do Microsoft Teams e agentes de chamada.
 > 
 > Não há suporte para transferências entre o Plano de Chamada, o Operator Connect e os troncos de Roteamento Direto.
 > 
@@ -147,12 +147,12 @@ Se você tiver uma infraestrutura de fila de atendimento automático e chamada e
 
 **O modo de conferência** é uma opção em filas de chamada que reduz significativamente o tempo necessário para conectar chamadas VOIP do Teams e chamadas PSTN a um agente. Para que o modo de conferência funcione, os agentes na fila de chamada devem usar um dos seguintes clientes:
 
-- A versão mais recente do Microsoft cliente da área de trabalho do Teams, aplicativo Android ou aplicativo iOS.
+- A versão mais recente do cliente da área de trabalho do Microsoft Teams, aplicativo Android ou aplicativo iOS.
 - Microsoft Phone System versão 1449/1.0.94.2020051601 ou posterior.
   
 Defina contas do Teams de agentes para o modo somente do Teams. Os agentes que não atendem aos requisitos não são incluídos na lista de roteamento de chamadas.
 
-É recomendável habilitar o modo de conferência para suas filas de chamadas se todos os agentes estiverem usando clientes compatíveis.
+O modo de conferência está habilitado por padrão. Se você tiver agentes que não atendem aos requisitos, o modo de conferência deve ser desabilitado manualmente durante a configuração da fila de chamadas.
 
 Os planos **de fluxo de roteamento** de chamadas ajudam a determinar o roteamento mais eficiente para pessoas que ligam para sua organização. Para saber como planejar o fluxo de roteamento de chamadas, consulte [Planejar o fluxo de roteamento de chamadas](plan-your-call-routing-flow.md).
 

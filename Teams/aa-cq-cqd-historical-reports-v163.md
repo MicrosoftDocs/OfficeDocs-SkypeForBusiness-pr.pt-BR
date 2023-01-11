@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre como usar o relatório histórico do Power BI do Teams Auto Attendant & Relatório Histórico de Fila de Chamadas para exibir dados históricos de Atendimento Automático e Fila de Chamadas para clientes GCC High e DoD.
-ms.openlocfilehash: 619be6d7f0f78f67ef2db0f0693de82120d128c4
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: cde953bfd8e9c95c60c795f6de91488506c2addf
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176748"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763672"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports-for-gcc-high-and-dod"></a>Relatórios históricos do atendimento automático e da fila de chamadas para GCC High e DoD
 
@@ -50,7 +50,7 @@ Esses relatórios usam dados do repositório de dados [CQD (Painel de Qualidade 
 ## <a name="v163-prerequisites"></a>Pré-requisitos do V1.63
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Você precisa ter Power BI Desktop instalado. Você pode instalar e usar a versão gratuita do [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
+Você precisa ter Power BI Desktop instalado. Você pode instalar e usar a versão gratuita da [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 A versão mínima compatível é 2.85.681.0 (setembro de 2020).
 
@@ -66,15 +66,17 @@ Execute as seguintes etapas:
 
 1. Baixe e salve o arquivo zip [modelos de consulta do CQD Power BI](https://www.microsoft.com/download/details.aspx?id=102291) em seu computador.
 
-1. Abra o arquivo zip.
+2. Abra o arquivo zip.
 
-1. Abra o arquivo de `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` modelo. Power BI Desktop deve ser iniciado.
+3. Abra o arquivo de `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` modelo. Power BI Desktop deve ser iniciado.
 
-1. Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região em que seu locatário está localizado.
+4. Você será solicitado a selecionar a região do pipeline de dados CQD. Selecione a região em que seu locatário está localizado.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Captura de tela selecionando a região do pipeline de dados CQD.":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Captura de tela selecionando a região do pipeline de dados CQD.":::
 
-1. A região em que seu locatário está localizado pode ser obtida usando o cmdlet [Get-CsTenant](/powershell/module/skype/get-cstenant) .
+    Locatários da Nuvem Pública
+
+5. A região em que seu locatário está localizado pode ser obtida usando o cmdlet [Get-CsTenant](/powershell/module/skype/get-cstenant) .
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -82,19 +84,27 @@ Execute as seguintes etapas:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    1. A região será exibida após o **/** como no exemplo acima em que a região é `noam`.
+    A região será exibida após o **/** como no exemplo acima em que a região é `noam`.
 
- 1. O relatório será iniciado com dados de exemplo.
+    Locatários GCC High e DoD
+
+6. Atualize o modelo para usar um dos seguintes conectores:
+
+   - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+   - Dod: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+7. O relatório será iniciado com dados de exemplo.
  
- 1. Para ver seus próprios dados, selecione **Atualizar** na guia **Página Inicial** em **Consultas** em Power BI Desktop.
+8. Para ver seus próprios dados, selecione **Atualizar** na guia **Página Inicial** em **Consultas** em Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Captura de tela selecionando a opção de atualização.":::
 
-1. Você será solicitado a entrar. Selecione **Conta organizacional** e selecione **Entrar**.
+9. Você será solicitado a entrar. Selecione **Conta organizacional** e selecione **Entrar**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Captura de tela mostrando o logon da V1.63.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Captura de tela mostrando o logon da V1.63.":::
 
-1. Selecione **Conectar** e os dados serão atualizados.
+10. Selecione **Conectar** e os dados serão atualizados.
 
 ## <a name="data-latency-for-aa-and-cq-analytics"></a>Latência de dados para análise de AA e CQ
 
@@ -116,11 +126,11 @@ Execute as seguintes etapas:
 
 1. Selecione **Exibir guia** na faixa de opções.
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Captura de tela selecionando a guia exibir para alterar o esquema de cores.":::
+    :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Captura de tela selecionando a guia exibir para alterar o esquema de cores.":::
 
 2. Selecione o esquema de cores na lista suspensa.
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Captura de tela mostrando vários esquemas de cores.":::
+    :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Captura de tela mostrando vários esquemas de cores.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Definições de relatórios históricos de atendimento automático e fila de chamadas
 

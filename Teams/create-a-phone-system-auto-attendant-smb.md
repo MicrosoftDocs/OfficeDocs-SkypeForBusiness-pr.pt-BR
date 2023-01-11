@@ -1,5 +1,5 @@
 ---
-title: Configurar um atendente automático para Microsoft Teams
+title: Configurar um atendente automático para o Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -21,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: Saiba como configurar e gerenciar atendentes automáticos no Microsoft Teams.
-ms.openlocfilehash: 0acdbacb9899184aaf21003193d62b3dcc4eab3a
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 041d58ff62304a704b86f6bb25a0ba934b58219f
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379357"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763692"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendente automático
 
@@ -39,8 +39,8 @@ Os atendentes automáticos podem redirecionar chamadas, com base na entrada dos 
 - **Operador** – o operador definido para o atendente automático. Definir um operador é opcional. O operador pode ser definido como qualquer um dos outros destinos desta lista.
 - **Pessoa na organização** – uma pessoa em sua organização que pode receber chamadas de voz. Essa pessoa pode ser um usuário online ou um usuário hospedado localmente usando Skype for Business Server.
 - **Aplicativo de voz** – outro atendente automático ou uma fila de chamadas. (Escolha a conta de recurso associada à fila de atendimento automático ou chamada ao escolher este destino.)
-- **Caixa postal** – a caixa de correio de voz associada a um grupo Microsoft 365 que você especifica. Você pode escolher se deseja transcrições de caixa postal e "Por favor, deixe uma mensagem após o tom". prompt do sistema.
-  - No Centro de Administração M365, habilite "Permitir que pessoas fora da organização enviem email para essa equipe" para o grupo Microsoft 365 que você especificar
+- **Caixa postal** – a caixa de correio de voz associada a um grupo do Microsoft 365 que você especifica. Você pode escolher se deseja transcrições de caixa postal e "Por favor, deixe uma mensagem após o tom". prompt do sistema.
+  - No Centro de Administração Microsoft 365, habilite "Permitir que pessoas fora da organização enviem email para essa equipe" para o grupo do Microsoft 365 que você especificar
 - **Número de telefone externo** – qualquer número de telefone. Confira [detalhes técnicos de transferência externa](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
 - **Comunicado (arquivo de áudio)** – Reproduzir um arquivo de áudio. Uma mensagem de anúncio gravada que você carrega salva como áudio no . WAV, .MP3 ou . Formato WMA. A gravação não pode ser maior que 5 MB. O sistema reproduz o anúncio e retorna ao menu de atendimento automático.
 - **Comunicado (Digitado)** – Digite uma mensagem. Texto que você deseja que o sistema leia. Você pode inserir até 1000 caracteres. O sistema reproduz o anúncio e retorna ao menu de atendimento automático.
@@ -50,12 +50,11 @@ Os atendentes automáticos podem redirecionar chamadas, com base na entrada dos 
 >
 > Embora a definição de um **Operador** seja opcional, é recomendável. Os atendentes automáticos redirecionam chamadas para o operador se houver um erro na configuração do atendente automático devido à exclusão de uma conta de caixa postal compartilhada ou usuário. Se um operador não estiver definido, o atendente automático cancelará a chamada.
 
-## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>Novidades para os atendentes automáticos nos últimos 6 meses
- 
- - Setembro – A opção **Forçar Escutar** agora está disponível com **a opção De menu Reproduzir** para fluxo de chamadas, Fluxo de chamadas para depois do horário e Fluxo de chamadas durante feriados.
- - Agosto – **Opções de menu reproduzir** no fluxo de chamadas, Fluxo de chamadas para depois do horário e Fluxo de chamadas durante feriados agora suportam \* chaves (asterisco) e \# (libra).
- - Julho – O fluxo de chamadas durante feriados agora dá suporte **às opções de menu Reproduzir**.
- 
+## <a name="whats-new-for-auto-attendants-in-the-past-six-months"></a>Novidades para os atendentes automáticos nos últimos seis meses
+
+- Setembro – A opção **Forçar Escutar** agora está disponível com **a opção De menu Reproduzir** para fluxo de chamadas, Fluxo de chamadas para depois do horário e Fluxo de chamadas durante feriados.
+- Agosto – **Opções de menu reproduzir** no fluxo de chamadas, Fluxo de chamadas para depois do horário e Fluxo de chamadas durante feriados agora suportam \* chaves (asterisco) e \# (libra).
+
 ## <a name="steps-to-create-an-auto-attendant"></a>Etapas para criar um atendente automático
 As etapas para adicionar um atendente automático são:
 
@@ -82,7 +81,7 @@ Para configurar um atendente automático, no [centro de administração do Teams
 
 3. Especifique o fuso horário para este atendente automático. O fuso horário é usado para calcular o horário comercial se você [criar um fluxo de chamada separado para depois do horário](?tabs=after-hours).
 
-4. Especifique um [idioma com suporte](create-a-phone-system-auto-attendant-languages.md) para este atendente automático. Essa é a linguagem que será usada para prompts de voz gerados pelo sistema.
+4. Especifique um [idioma com suporte](create-a-phone-system-auto-attendant-languages.md) para este atendente automático. Essa linguagem será usada para prompts de voz gerados pelo sistema.
 
 5. Escolha se deseja habilitar entradas de voz. Quando habilitado, o nome de cada opção de menu se torna uma palavra-chave de reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para a chave 1 ou podem dizer "Vendas" para selecionar a opção de menu chamada "Vendas".
 
@@ -127,11 +126,11 @@ Para cada opção de menu, especifique as seguintes configurações:
 
 - **Comando de voz** – define o comando de voz que um chamador pode dar para acessar essa opção, se as entradas de voz estiverem habilitadas. Ele pode conter várias palavras como "Serviço ao Cliente" ou "Operações e Motivos". Por exemplo, o chamador pode pressionar 2, dizer "dois" ou dizer "Vendas" para selecionar a opção mapeada para as duas chaves. Este texto também é renderizado por texto para a fala para o prompt de confirmação do serviço, que pode ser algo como "Transferir sua chamada para vendas".
 
-- **Redirecionar para** - o destino de roteamento de chamada usado quando os chamadores escolhem essa opção. Se você estiver redirecionando para um atendente automático ou uma fila de chamadas, escolha a conta de recurso associada a ela.
+- **Redirecionar para** - o destino de roteamento de chamada usado quando os chamadores escolhem essa opção. Se você estiver redirecionando para um atendente automático ou fila de chamadas, escolha a conta de recurso associada a ela.
 
 ##### <a name="directory-search"></a>Pesquisa de diretório
 
-Se você atribuir chaves de discagem a destinos, recomendamos que você escolha **Nenhuma** para **pesquisa de Diretório**. Se um chamador tentar discar um nome ou extensão usando chaves atribuídas a destinos específicos, ele poderá ser encaminhado inesperadamente para um destino antes de terminar de inserir o nome ou a extensão. Recomendamos que você crie um assistente automático separado para pesquisa de diretório e tenha seu principal link de atendimento automático com uma chave de discagem.
+Se você atribuir chaves de discagem a destinos, recomendamos que você escolha **Nenhuma** para **pesquisa de Diretório**. As chaves de discagem são correspondentes antes que as pesquisas de diretório sejam executadas. Se um chamador começar a inserir um nome ou extensão usando chaves de discagem atribuídas a destinos específicos, ele será roteado para esse destino antes de terminar de inserir o nome ou a extensão. Recomendamos que você crie um assistente automático separado para pesquisa de diretório e tenha seu principal link de atendimento automático com uma chave de discagem.
 
 Se você não atribuiu chaves de discagem, escolha uma opção para **pesquisa de Diretório**.
 
@@ -142,7 +141,7 @@ Se você não atribuiu chaves de discagem, escolha uma opção para **pesquisa d
 > [!NOTE]
 > Se você quiser usar os recursos **Discar por nome** e **Discar por extensão** , poderá atribuir uma chave de discagem no atendente automático principal para alcançar um atendente automático habilitado para **Discar pelo nome**. Dentro desse atendente automático, você pode atribuir a chave 1 (que não tem letras associadas a ela) para acessar o **Assistente automático discar por extensão** .
 
-Para obter mais informações, consulte a [referência discada e de voz](dial-voice-reference.md).
+Para obter mais informações, consulte a [referência Discar e voz](dial-voice-reference.md).
 
 Depois de definir suas opções básicas de fluxo de chamadas, selecione **Avançar**.
 
@@ -153,7 +152,7 @@ Depois de definir suas opções básicas de fluxo de chamadas, selecione **Avan�
 O horário comercial pode ser definido para cada atendente automático.
 
 - Se os horários comerciais não forem definidos, todos os dias e todas as horas do dia serão considerados horários comerciais, porque um cronograma 24/7 é definido por padrão.
-- O horário comercial pode ser definido com interrupções no tempo durante o dia e todas as horas que não são definidas como horário comercial são consideradas após o expediente.
+- O horário comercial pode ser definido com intervalos no tempo durante o dia e todas as horas que não são definidas como horário comercial são consideradas após o expediente.
 - Você pode definir diferentes opções e saudações de tratamento de chamadas de entrada para o pós-expediente.
 
 Dependendo de como você configurou seus atendentes automáticos e filas de chamadas, talvez seja necessário especificar o roteamento de chamadas após o expediente para atendentes automáticos com números de telefone diretos.
@@ -201,7 +200,7 @@ Depois de adicionar todas as suas horas de férias, selecione **Avançar**.
 
 O *escopo de discagem* define quais usuários estão disponíveis no diretório quando um chamador usa discagem por nome ou discagem por extensão. O padrão de **Todos os usuários online** inclui todos os usuários da sua organização que são usuários online ou hospedados localmente usando Skype for Business Server.
 
-Você pode incluir ou excluir usuários específicos selecionando **grupos de usuários personalizados** em **Incluir** ou **Excluir** e escolhendo um ou mais Microsoft 365 grupos, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
+Você pode incluir ou excluir usuários específicos selecionando **grupos de usuários personalizados** em **Incluir** ou **Excluir** e escolhendo um ou mais grupos do Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos em sua organização do diretório de discagem.
 
 Se um usuário estiver em ambas as listas, ele será excluído do diretório.
 
@@ -220,7 +219,7 @@ Para adicionar uma conta de recurso, selecione **Adicionar conta** e pesquise a 
 
 Depois de adicionar contas de recursos, selecione **Avançar**.
 
-Consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md) para obter mais informações.
+Para obter mais informações, consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md).
 
 ---
 
@@ -228,7 +227,7 @@ Consulte [Gerenciar contas de recursos do Teams](manage-resource-accounts.md) pa
 
 ### <a name="external-phone-number-transfers---technical-details"></a>Transferências de número de telefone externas – detalhes técnicos
 
-Consulte os [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que os atendentes automáticos transfiram chamadas externamente.  Além disso:
+Consulte os [Pré-requisitos](plan-auto-attendant-call-queue.md#prerequisites) para permitir que os atendentes automáticos transfiram chamadas externamente.  Além disso
 
 - Para uma conta de recurso com uma [licença de Plano de Chamada](calling-plans-for-office-365.md) ou número do [Operator Connect](operator-connect-plan.md) , o número de telefone de transferência externa deve ser inserido no formato E.164 (+[código do país][código da área][número de telefone]).
 
@@ -238,7 +237,7 @@ O número de telefone de saída exibido é determinado da seguinte maneira:
 
 - Para números de Plano de Chamada e Conexão de Operador, o número de telefone do chamador original é exibido.
 - Para números de Roteamento Direto, o número enviado é baseado na configuração P-Asserted-Identity (PAI) no SBC, da seguinte maneira:
-  - Se definido como Desabilitado, o número de telefone do chamador original será exibido. Essa é a configuração padrão e recomendada.
+  - Se definido como Desabilitado, o número de telefone do chamador original será exibido. Desabilitado é a configuração padrão e recomendada.
   - Se definido como Habilitado, o número de telefone da conta de recurso será exibido.
 
 Em um ambiente híbrido Skype for Business, para transferir uma chamada de atendimento automático para o PSTN, crie um novo usuário local com o encaminhamento de chamada definido para o número PSTN. O usuário deve estar habilitado para Enterprise Voice e ter uma política de voz atribuída. Para saber mais, confira [Transferência de chamada de atendente automático para PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
@@ -254,9 +253,9 @@ Se você for um administrador, poderá usar a seguinte ferramenta de diagnóstic
 
 2. No painel Executar diagnóstico, **insira** a Conta de Recurso no campo **Nome de usuário ou Email** e selecione Executar Testes.
 
-3. Os testes identificarão configurações de conta de locatário, política ou recurso que estão impedindo o atendente automático de receber chamadas e fornecer etapas para corrigir quaisquer problemas identificados.
+3. Os testes identificarão configurações de conta de locatário, política ou recurso que estão impedindo o atendente automático de receber chamadas e também fornecerão etapas para corrigir quaisquer problemas identificados.
 
-### <a name="related-topics"></a>Tópicos relacionados
+### <a name="related-articles"></a>Artigos relacionados
 
 [Aqui está o que você obtém com o Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
