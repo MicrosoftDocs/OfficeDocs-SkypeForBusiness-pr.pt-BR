@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: a478e203ed973ff2199b4ad500de0441e200918d
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245691"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69781428"
 ---
 # <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>Políticas de chamada: recursos de chamada e encaminhamento de chamadas no Teams
 
@@ -61,23 +61,23 @@ Aqui estão as configurações que você pode configurar para políticas de cham
 
 ### <a name="make-private-calls"></a>Fazer chamadas privadas
 
-Essa configuração controla todos os recursos de chamada no Teams. Desative isso para desativar todas as funcionalidades de chamada no Teams.
+Essa configuração controla todos os recursos de chamada no Teams. Desative essa configuração para desativar todas as funcionalidades de chamada no Teams.
 
 ### <a name="cloud-recording-for-calling"></a>Gravação de nuvem para chamada
 
-Essa configuração controla se os usuários podem gravar chamadas. Isso está desativado por padrão.
+Essa configuração controla se os usuários podem gravar chamadas. Essa configuração está desativada por padrão.
 
 ### <a name="transcription"></a>Transcrição
 
-Essa configuração controla se a transcrição de chamadas está disponível para seus usuários. Isso está desativado por padrão.
+Essa configuração controla se a transcrição de chamadas está disponível para seus usuários. Essa configuração está desativada por padrão.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Encaminhamento de chamadas e toque simultâneo para pessoas em sua organização
 
-Essa configuração controla se as chamadas recebidas podem ser encaminhadas para outros usuários ou podem ligar para outra pessoa em sua organização ao mesmo tempo. Isso está ativado por padrão.
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para outros usuários ou podem ligar para outra pessoa em sua organização ao mesmo tempo. Essa configuração está ativada por padrão.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Encaminhamento de chamadas e toque simultâneo para números de telefone externos
 
-Essa configuração controla se as chamadas recebidas podem ser encaminhadas para um número externo ou podem tocar um número externo ao mesmo tempo. Isso está ativado por padrão.
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para um número externo ou podem tocar um número externo ao mesmo tempo. Essa configuração está ativada por padrão.
 
 ### <a name="voicemail-is-available-for-routing-inbound-calls"></a>A caixa postal está disponível para roteamento de chamadas de entrada
 
@@ -89,7 +89,7 @@ Essa configuração permite que chamadas de entrada sejam enviadas para a caixa 
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>As chamadas de entrada podem ser roteadas para grupos de chamadas
 
-Essa configuração controla se as chamadas recebidas podem ser encaminhadas para um grupo de chamadas. Isso é ativado por padrão.
+Essa configuração controla se as chamadas recebidas podem ser encaminhadas para um grupo de chamadas. Essa configuração é ativada por padrão.
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>Delegação para chamadas de entrada e saída
 
@@ -97,7 +97,7 @@ Essa configuração permite que as chamadas de entrada sejam roteadas para deleg
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Impedir o bypass de pedágio e enviar chamadas por meio do PSTN
 
-Definir isso como **Ativado** enviará chamadas por meio do PSTN e incorrerá em encargos em vez de enviá-las pela rede e ignorar os pedágios. Essa configuração está desativada por padrão.
+Ativar essa configuração enviará chamadas por meio do PSTN e incorrerá em encargos em vez de enviá-las pela rede e ignorar os pedágios. Essa configuração está desativada por padrão.
 
 ### <a name="music-on-hold-for-pstn-calls"></a>Música em espera para chamadas PSTN
 
@@ -110,14 +110,15 @@ Ocupado quando em uma chamada (também chamada de "opções ocupadas") permite c
 - **Não habilitado** Nenhuma opção ocupada está habilitada e chamadas novas ou de entrada ainda podem ir para o usuário enquanto o usuário já estiver em uma chamada.
 - **Habilitado** Chamadas novas ou de entrada serão rejeitadas com um sinal ocupado.
 - **Sem resposta** As configurações sem resposta do usuário serão usadas, como roteamento para caixa postal ou encaminhamento para outro usuário.
+- **Controlado pelo usuário** Essa opção não está funcional no momento; se definido, isso será lido como configurando o valor como **Não habilitado**.
 
 ### <a name="web-pstn-calling"></a>Chamada web PSTN
 
-Essa configuração permite que os usuários chamem números PSTN usando o cliente Web do Teams. Isso está ativado por padrão.
+Essa configuração permite que os usuários chamem números PSTN usando o cliente Web do Teams. Essa configuração está ativada por padrão.
 
 ### <a name="real-time-captions-in-teams-calls"></a>Legendas em tempo real em chamadas do Teams
 
-Essa configuração controla se as legendas em tempo real nas chamadas do Teams estão disponíveis para seus usuários. Isso é ativado por padrão.
+Essa configuração controla se as legendas em tempo real nas chamadas do Teams estão disponíveis para seus usuários. Essa configuração é ativada por padrão.
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>Responder automaticamente aos convites de reunião de entrada
 
@@ -125,11 +126,11 @@ Essa configuração controla se os convites de reunião de entrada são respondi
 
 ### <a name="spam-filtering"></a>Filtragem de spam
 
-Essa configuração permite controlar o tipo de filtragem de spam disponível em chamadas recebidas. As verificações básicas e do Captcha Interactive Voice (IVR) podem ser executadas. Isso é ativado por padrão.
+Essa configuração permite controlar o tipo de filtragem de spam disponível em chamadas recebidas. As verificações básicas e do Captcha Interactive Voice (IVR) podem ser executadas. Essa configuração é ativada por padrão.
 
 ### <a name="sip-devices-can-be-used-for-calls"></a>Dispositivos SIP podem ser usados para chamadas
 
-Essa configuração permite que os usuários usem um dispositivo SIP para fazer e receber chamadas. Isso é desativado por padrão.
+Essa configuração permite que os usuários usem um dispositivo SIP para fazer e receber chamadas. Essa configuração é desativada por padrão.
 
 ### <a name="open-apps-in-browser-for-incoming-pstn-calls"></a>Abrir aplicativos no navegador para chamadas PSTN de entrada
 
