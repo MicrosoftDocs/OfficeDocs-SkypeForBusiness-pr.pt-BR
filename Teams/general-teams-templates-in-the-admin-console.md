@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01621d73f1f16fa23a6b4c9042e7d0cecdc2f366
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 287bd53ffee2780927d2aa147f3bc2e2e07b3dbd
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198343"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778971"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Usar modelos gerais de equipe no centro de administração
 
@@ -33,14 +33,14 @@ ms.locfileid: "69198343"
 
 Os modelos de equipe no Microsoft Teams permitem que você crie equipes de forma rápida e fácil, fornecendo uma estrutura de equipe predefinida de configurações, canais e aplicativos pré-instalados.
 
-Use modelos de equipe para implantar equipes consistentes em sua organização. Os modelos também podem ajudar os usuários a se orientarem sobre como usar efetivamente o Teams. Você também pode estender os modelos para criar equipes adaptadas às suas necessidades organizacionais específicas.
+Use modelos de equipe para implantar equipes consistentes em sua organização. Os modelos também podem ajudar os usuários a se orientarem sobre como usar efetivamente o Teams.
 
 O Teams inclui modelos pré-criados que criamos para necessidades e projetos de negócios específicos. Neste artigo, apresentamos você à categoria geral de modelos que você pode usar em sua organização para vários cenários.
 
 Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos modelos de equipe no Centro de administração do Teams](get-started-with-teams-templates-in-the-admin-console.md).
 
 > [!NOTE]
-> Um asterisco (*) indica que o modelo é um *modelo conectado Microsoft 365*. Quando os usuários criam uma equipe usando o modelo, o modelo do SharePoint conectado é aplicado ao site e à equipe. Componentes do SharePoint, como páginas, listas e integrações do Power Platform, são adicionados automaticamente e fixados como guias para o canal Geral na equipe. Os usuários podem editar essas páginas e listas diretamente de dentro do Teams.
+> Um asterisco (*) indica que o modelo é um *modelo conectado do Microsoft 365*. Quando os usuários criam uma equipe usando o modelo, o modelo do SharePoint conectado é aplicado ao site e à equipe. Componentes do SharePoint, como páginas, listas e integrações do Power Platform, são adicionados automaticamente e fixados como guias para o canal Geral na equipe. Os usuários podem editar essas páginas e listas diretamente de dentro do Teams.
 >
 > Para saber mais sobre modelos do SharePoint, consulte [Aplicar e personalizar modelos de site do SharePoint](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates).
 

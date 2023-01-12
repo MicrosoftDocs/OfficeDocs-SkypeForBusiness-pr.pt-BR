@@ -24,12 +24,12 @@ appliesto:
 ms.reviewer: yinchang
 description: Aprenda a gerenciar e usar os modelos de equipe de serviços de saúde no Centro de administração do Teams e com o Microsoft Graph para criar equipes de forma rápida e fácil para sua organização de saúde.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 17f5ce2774dd163f5f244bea0e685623f64ed59f
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131070"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778961"
 ---
 # <a name="use-healthcare-team-templates"></a>Usar modelos de equipe de cuidados de saúde
 
@@ -53,52 +53,52 @@ Como administrador, você pode gerenciar os modelos de equipe no Centro de admin
 Para saber mais sobre modelos de equipe em geral, consulte [Introdução aos modelos de equipe no Centro de administração do Teams](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 Atualmente, oferecemos os modelos de equipe de serviços de saúde pré-criados a seguir. Para exibi-los, no painel de navegação esquerdo do Centro de administração do Teams, acesse **Teams** > **Modelos do Teams**.
-### <a name="patient-care"></a>Cuidados com o paciente
 
- Este modelo destina-se à comunicação e colaboração dentro de uma enfermaria, pod ou departamento. Você pode usar este modelo para facilitar o gerenciamento de pacientes e as necessidades operacionais de uma enfermaria. Por exemplo, poste anúncios da enfermaria no canal *Anúncios* e gerencie os turnos no canal *Recrutamento*.
+### <a name="patient-care"></a>Atendimento ao Paciente
 
-| Tipo de modelo |TemplateId| Propriedades que vêm com este modelo |
-| ------------------ |---|----------------------------------------------------- |
-| Cuidados com o paciente |`healthcareWard` | Canais:<ul><li>Geral</li><li>Comunicados<ul><li>Boletins&sup1;</li></ul></li><li>Huddles<ul><li>Listas (Lista de pacientes)&sup1;</li></ul></li><li>Rodadas<ul><li>Inspeção&sup1;</li></ul></li><li>Estrelada</li><li>Treinamento</li></ul> Apps: <ul><li>Wiki</li><li>Listas</li><li>Tarefas</li><li>Aprovações</li><li>Turnos</li><li>Boletins</li><li>Inspeção</li></ul>|
-||||
+Simplifique a comunicação e a colaboração dos serviços de saúde dentro de um departamento, um ou mais. Use este modelo para facilitar o gerenciamento de pacientes e as necessidades operacionais de uma enfermaria. Por exemplo, poste anúncios da enfermaria no canal *Anúncios* e gerencie os turnos no canal *Recrutamento*.
 
-&sup1;Aplicativo adicionado ao canal como uma guia.
+>[!div class="mx-tdBreakAll"]
+>| Tipo de modelo |TemplateId| Propriedades que vêm com este modelo |
+>| ------------------ |---|----------------------------------------------------- |
+>| Atendimento ao Paciente |`healthcareWard` | Canais:<ul><li>Geral</li><li>Comunicados</li><li>Insuidades</li><li>Rodadas</li><li>Estrelada</li><li>Treinamento</li></ul> Apps: <ul><li>Aprovações</li><li>Boletins</li><li>Inspeção</li><li>Listas</li><li>Turnos</li><li>Tarefas por Planejador e Para Fazer</li><li>Wiki</li></ul>|
+
 ### <a name="hospital"></a>Hospital
 
-Este modelo destina-se à comunicação e colaboração entre várias enfermarias, pods e departamentos dentro de um hospital. Este modelo inclui um conjunto de canais para operações hospitalares e pode ser estendido para personalização posterior.
+Simplifique a comunicação e a colaboração entre vários funcionários, funcionários e departamentos dentro de um hospital. Este modelo inclui um conjunto de canais para operações hospitalares e pode ser estendido para personalização posterior.
 
-| Tipo de modelo |TemplateId | Propriedades que vêm com este modelo |
-| ------------------|-- |----------------------------------------------------- |
-|Hospital|`healthcareHospital`|Canais: <ul><li>Geral<ul><li>Listas&sup1;</li></ul></li><li>Comunicados<ul><li>Boletins&sup1;</li></ul></li><li>Conformidade</li><ul><li>Inspeção&sup1;</li></ul></li><li>Custódia</li><li>Recursos humanos<ul><li>Ideias&sup1;</li></ul></li><li>Farmácia</li></ul> Apps: <ul><li>Wiki</li><li>Tarefas</li><li>Listas</li><li>Aprovações</li><li>Turnos</li><li>Boletins</li><li>Inspeção</li><li>Ideias</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| Tipo de modelo |TemplateId | Propriedades que vêm com este modelo |
+>| ------------------|-- |----------------------------------------------------- |
+>|Hospital|`healthcareHospital`|Canais: <ul><li>Geral</li><li>Comunicados</li><li>Conformidade</li></li><li>Custódia</li><li>Recursos Humanos</li><li>Farmácia</li></ul>  Apps: <ul><li>Aprovações</li><li>Boletins</li><li>Ideias dos funcionários</li><li>Inspeção</li><li>Listas</li><li>Turnos</li><li>Tarefas por Planejador e Para Fazer</li><li>Wiki</li></ul>|
 
-&sup1;Aplicativo adicionado ao canal como uma guia.
 ## <a name="use-team-templates-with-microsoft-graph"></a>Usar os modelos do Teams com o Microsoft Graph
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 Aqui estão os modelos de equipe de serviços de saúde pré-criados.
-### <a name="ward"></a>Enfermaria
 
-O modelo da enfermaria é destinado à comunicação e colaboração dentro de uma enfermaria, pod ou departamento. O modelo pode ser usado para facilitar o gerenciamento de pacientes e as necessidades operacionais de uma enfermaria. Por exemplo, comunicados completos podem ser postados no canal *Comunicados* e turnos podem ser gerenciados no *Equipe*. Se você estiver tentando simplificar suas operações normais, este modelo é para você.
+### <a name="patient-care"></a>Atendimento ao Paciente
 
-|Tipo de Modelo |TemplateId |Canais de modelo|
-|:--- |:---|:---|
-|Serviços de saúde – Enfermaria | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Geral<br>Comunicados&sup2; <br> Huddles&sup2; <br> Turnos&sup2; <br> Recrutamento&sup2; <br> Treinamento&sup2; |
-|     | |         |
+Este modelo destina-se à comunicação e colaboração dentro de uma enfermaria, pod ou departamento. Use este modelo para facilitar o gerenciamento de pacientes e as necessidades operacionais de uma enfermaria. Por exemplo, comunicados completos podem ser postados no canal *Comunicados* e turnos podem ser gerenciados no *Equipe*. Se você estiver tentando simplificar suas operações normais, este modelo é para você.
+
+>[!div class="mx-tdBreakAll"]
+>|Tipo de Modelo |TemplateId |Canais de modelo|
+>|:--- |:---|:---|
+>|Serviços de saúde – Enfermaria | `https://graph.microsoft.com/beta/teamsTemplates('healthcareWard')`   | Geral<br>Comunicados&sup2; <br> Huddles&sup2; <br> Turnos&sup2; <br> Recrutamento&sup2; <br> Treinamento&sup2; |
 
 &sup2;Canais marcados como favorito automaticamente
 
 ### <a name="hospital"></a>Hospital
 
-O modelo de hospital destina-se à comunicação e colaboração entre várias enfermarias, pods e departamentos dentro de um hospital. Este modelo inclui vários canais operacionais, como *Anúncios*, *Custódia* e *Farmácia*. Também fornecemos um script que você pode usar para estender o modelo para departamentos adicionais ou canais especializados. Você pode editá-lo para se ajustar às suas necessidades.
+Este modelo destina-se à comunicação e colaboração entre várias enfermarias, pods e departamentos dentro de um hospital. Ele inclui vários canais operacionais, como *Comunicados*, *Custódia* e *Farmácia*. Também fornecemos um script que você pode usar para estender o modelo com mais departamentos ou canais especializados. Você pode editá-lo para se ajustar às suas necessidades.
 
-Por exemplo, se você tem um departamento de *Endocrinologia*, mas não precisa de um canal para *Oftalmologia*, o script pode ser adaptado para incluir um canal de *Endocrinologia* e remover o canal de *Oftalmologia*. Recomendamos que esses canais especializados ou modelados não sejam favoritos automaticamente para evitar saturação da notificação. Os usuários geralmente favoritam os canais que acham relevantes.
+Por exemplo, se você tiver um departamento de *Endocrinologia* , mas não precisar de um canal para *Oftalmologia*, poderá adaptar o script para incluir um canal de *Endocrinologia* e remover o canal *oftalmologia* . Recomendamos que esses canais especializados ou modelados não sejam favoritos automaticamente para evitar saturação da notificação. Os usuários geralmente favoritam os canais que acham relevantes.
 
-|Tipo de modelo |TemplateId |Canais de modelo|
-|:--- |:---|:---|
-|Serviços de saúde – Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Geral<br>Comunicados&sup2; <br> Conformidade&sup2; <br> Custódia <br> Recursos Humanos <br> Farmácia |
-| | |  |
+>[!div class="mx-tdBreakAll"]
+>|Tipo de modelo |TemplateId |Canais de modelo|
+>|:--- |:---|:---|
+>|Serviços de saúde – Hospital | `https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')`   | Geral<br>Comunicados&sup2; <br> Conformidade&sup2; <br> Custódia <br> Recursos Humanos <br> Farmácia |
 
 &sup2;Canais marcados como favorito automaticamente
 

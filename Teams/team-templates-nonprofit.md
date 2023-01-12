@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: cd5a1064c4a0104a4eab6d25a3adb0614c12d256
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198953"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69779051"
 ---
 # <a name="use-nonprofit-team-templates"></a>Usar modelos de equipe sem fins lucrativos
 
@@ -33,21 +33,22 @@ Os modelos de equipe no Microsoft Teams permitem que você crie equipes de forma
 
 Para organizações sem fins lucrativos, os modelos de equipe podem ser especialmente eficientes, pois ajudam você a implantar rapidamente equipes consistentes em sua organização. Os modelos também ajudam a equipe a se orientar sobre como usar o Teams de maneira eficaz.
 
-O Teams inclui um modelo de equipe Gerenciar voluntários projetado para simplificar as atividades de gerenciamento de voluntários. Use esse modelo pré-criado para criar rapidamente equipes para a equipe se comunicar e colaborar em tarefas e atividades de gerenciamento de voluntários.
+O Teams inclui um modelo de equipe Gerenciar Voluntários projetado para simplificar as atividades de gerenciamento de voluntários. Use esse modelo pré-criado para criar rapidamente equipes para a equipe se comunicar e colaborar em tarefas e atividades de gerenciamento de voluntários.
 
-Nesse artigo, você aprenderá sobre o modelo de equipe Gerenciar voluntários e como usá-lo para criar uma equipe. Esse artigo também fornece uma visão geral de como gerenciar modelos de equipe no Centro de administração do Teams.
+Neste artigo, você aprenderá sobre o modelo de equipe Gerenciar Voluntários e como usá-lo para criar uma equipe. Esse artigo também fornece uma visão geral de como gerenciar modelos de equipe no Centro de administração do Teams.
 
-## <a name="manage-volunteers-team-template"></a>Gerenciar modelo de equipe de voluntários
+## <a name="manage-volunteers-team-template"></a>Gerenciar modelo de equipe voluntários
 
 Reunir sua equipe para se comunicar e colaborar em tarefas e atividades de gerenciamento de voluntários.
 
 Esse modelo inclui canais e aplicativos projetados para simplificar as atividades de gerenciamento de voluntários. A equipe pode organizar e compartilhar materiais de integração e documentos usados com frequência, exibir relatórios, manter-se atualizada sobre comunicados importantes de equipe, eventos e muito mais. O modelo também se integra ao [Gerenciamento de Voluntários](/dynamics365/industry/nonprofit/volunteer-management-use), um aplicativo que faz parte do [Microsoft Cloud para Entidades sem Fins Lucrativos](/industry/nonprofit/), permitindo que a equipe gerencie oportunidades de participações voluntárias dentro do Teams.
 
-Aqui estão os canais e aplicativos que vêm com o modelo de equipe Gerenciar voluntários.
+Aqui estão os canais e aplicativos que vêm com o modelo de equipe Gerenciar Voluntários.
 
-| Tipo de modelo |TemplateId | Propriedades que vêm com este modelo |
-| ------------------|-- |----------------------------------------------------- |
-|Gerenciar voluntários| `ManageVolunteers` |Canais: <ul><li>Geral<ul><li>Site&sup1;</li></ul><li>Comunicados</li><li>Relatórios<ul><li>Power BI&sup1;</li></ul></li><li>Gerenciamento Voluntário<ul><li>Power Apps&sup1;</li></ul></li><li>Oportunidades de Compromisso<ul><li>Tarefas&sup1;</li></ul></li><li>Integração do Voluntário<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> Apps: <ul><li>Site</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tarefas</li><li>SharePoint</li><li>OneNote</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| Tipo de modelo |TemplateId | Propriedades que vêm com este modelo |
+>| ------------------|-- |----------------------------------------------------- |
+>|Gerenciar voluntários| `com.microsoft.teams.template.ManageVolunteers` |Canais: <ul><li>Geral<ul><li>Site&sup1;</li></ul><li>Comunicados</li><li>Relatórios<ul><li>Power BI&sup1;</li></ul></li><li>Gerenciamento Voluntário<ul><li>Power Apps&sup1;</li></ul></li><li>Oportunidades de Compromisso<ul><li>Tarefas por Planner e Para Fazer&sup1;</li></ul></li><li>Integração do Voluntário<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>Apps: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Tarefas por Planejador e Para Fazer</li><li>Site</li><li>YouTube</li></ul>|
 
 &sup1;Aplicativo adicionado ao canal como uma guia.
 
