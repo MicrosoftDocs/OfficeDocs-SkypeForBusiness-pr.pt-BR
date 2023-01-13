@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir licenças de complemento do Teams aos usuários para recursos como Conferência de Áudio, Sistema de Telefone e Planos de Chamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392081"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799927"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir licenças de complemento do Teams aos usuários
 
@@ -38,7 +39,7 @@ Antes de começar, examine os seguintes requisitos:
 
 - Se você estiver usando a conectividade PSTN (Rede Telefônica Pública Comutada) local para usuários, você só precisará atribuir uma licença Telefonia do Teams Padrão. NÃO atribua uma licença de Plano de Chamada.
 
-- Depois de atribuir um plano de chamada Microsoft a um usuário, ele pode levar até 24 horas até que ele veja o bloco de discagem em seu cliente do Teams. Se o bloco de discagem não for mostrado em 24 horas, verifique a [configuração do bloco de discagem](../dial-pad-configuration.md). Se necessário, você também pode [entrar em contato com o suporte](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Depois de atribuir um Plano de Chamada da Microsoft a um usuário, ele pode levar até 24 horas até que ele veja o bloco de discagem em seu cliente do Teams. Se o bloco de discagem não for mostrado em 24 horas, verifique a [configuração do bloco de discagem](../dial-pad-configuration.md). Se necessário, você também pode [entrar em contato com o suporte](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - Você receberá uma mensagem de erro se não tiver comprado o número correto de licenças. Se você precisar comprar mais licenças do Plano de Chamada, escolha a opção para comprar mais.
 
@@ -148,7 +149,7 @@ Para saber mais, confira [Exibir licenças e serviços com o PowerShell](/office
 | Salas do Microsoft Teams Básico sem Conferência de Áudio | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Salas Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
 | Salas Microsoft Teams Pro sem Conferência de Áudio | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
-| Microsoft dispositivos compartilhados do Teams | MCOCAP |
+| Dispositivos compartilhados do Microsoft Teams | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>Conteúdo relacionado

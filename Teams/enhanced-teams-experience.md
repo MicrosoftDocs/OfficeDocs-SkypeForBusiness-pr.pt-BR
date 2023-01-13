@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,20 +20,20 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Saiba mais sobre Microsoft Teams Premium para administradores e profissionais de TI.
-ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 2abcdd1c9f9df0101bbf7d0e22720c71375728d0
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392471"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800283"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium – Visão geral dos administradores
 
-![](media/info.png) Ícone **de informações A maioria dos recursos descritos neste artigo exige o Teams Premium, que é uma versão prévia.** Alguns recursos, por exemplo, alguns recursos webinar, também estão disponíveis com outras licenças. Para obter detalhes sobre disponibilidade e licenciamento de recursos, consulte [Licenciamento do Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
+![Ícone](media/info.png) **de informações A maioria dos recursos descritos neste artigo exige Teams Premium, que é uma versão prévia.** Alguns recursos, por exemplo, alguns recursos webinar, também estão disponíveis com outras licenças. Para obter detalhes sobre disponibilidade e licenciamento de recursos, consulte [Teams Premium licenciamento](teams-add-on-licensing/licensing-enhance-teams.md).
 
-Este artigo é para profissionais de TI e administradores que implantarão e configurarão recursos do Teams Premium. O artigo fornece uma breve descrição dos recursos, com links para documentação mais detalhada.
+Este artigo é para profissionais de TI e administradores que implantarão e configurarão recursos Teams Premium. O artigo fornece uma breve descrição dos recursos, com links para documentação mais detalhada.
 
-O Teams Premium é uma licença de complemento que fornece os seguintes aprimoramentos para o Teams:  
+Teams Premium é uma licença de complemento que fornece os seguintes aprimoramentos para o Teams:  
 
 -   Experiências de reunião aprimoradas para seus usuários finais
 -   Segurança e proteção aprimoradas para reuniões 
@@ -40,9 +41,9 @@ O Teams Premium é uma licença de complemento que fornece os seguintes aprimora
 
 
 > [!IMPORTANT]
-> Como o Teams Premium é uma versão prévia pública, em disponibilidade geral, alguns recursos atualmente disponíveis com o Teams só estarão disponíveis com uma licença do Teams Premium. 
+> Como Teams Premium é uma versão prévia pública, em disponibilidade geral, alguns recursos atualmente disponíveis com o Teams só estarão disponíveis com uma licença Teams Premium. 
 
-As seções a seguir descrevem os aprimoramentos do Teams Premium para:
+As seções a seguir descrevem os aprimoramentos de Teams Premium para:
 
 - [Reuniões protegidas](#protected-meetings)
 - [Reuniões personalizadas](#custom-meetings)
@@ -54,7 +55,7 @@ As seções a seguir descrevem os aprimoramentos do Teams Premium para:
 
 ## <a name="protected-meetings"></a>Reuniões protegidas
 
-O Teams Premium fornece maneiras adicionais de proteger reuniões com os seguintes recursos principais: 
+Teams Premium fornece maneiras adicionais de proteger reuniões com os seguintes recursos principais: 
 
 - **Rótulos de confidencialidade** – Recursos estendidos para rótulos de confidencialidade controlarem as configurações de reunião normalmente controladas pelo organizador da reunião. Esses recursos incluem novas configurações para controlar funções de lobby, chat, cópia de chat, apresentação e gravação.
 
@@ -74,15 +75,15 @@ O Teams Premium fornece maneiras adicionais de proteger reuniões com os seguint
 
 ## <a name="custom-meetings"></a>Reuniões personalizadas
 
-O Teams Premium fornece os seguintes recursos adicionais para personalizar reuniões:
+Teams Premium fornece os seguintes recursos adicionais para personalizar reuniões:
 
 - **Modelos de reunião** – usado para controlar as configurações de reunião que o organizador da reunião normalmente controla. Com modelos, você pode criar experiências de reunião consistentes em sua organização e ajudar a impor requisitos de conformidade e regras de negócios.
 
 - **Temas de reunião** – permite que sua organização estenda suas identidades visuais pela experiência da reunião. Você pode configurar e criar temas de reunião para uma variedade de unidades de negócios e departamentos em um único locatário.
 
-- **Planos de fundo de reunião personalizados para organizações** – você pode criar e definir planos de fundo de reunião personalizados que estão disponíveis para seus usuários finais com uma licença do Teams Premium.
+- **Planos de fundo de reunião personalizados para organizações** – você pode criar e definir planos de fundo de reunião personalizados que estão disponíveis para seus usuários finais com uma licença Teams Premium.
 
-- **Cenas de modo juntos personalizadas para organizações** – você pode criar, personalizar ou aceitar cenas de modo personalizadas em conjunto para reuniões que estão disponíveis para seus usuários finais com uma licença do Teams Premium.
+- **Cenas de modo juntos personalizadas para organizações** – você pode criar, personalizar ou aceitar cenas de modo juntos personalizadas para reuniões que estão disponíveis para seus usuários finais com uma licença de Teams Premium.
 
 
 | Recurso/Tarefa | Documentação para administradores | Documentação para seus usuários finais
@@ -98,7 +99,7 @@ O Teams Premium fornece os seguintes recursos adicionais para personalizar reuni
 
 ## <a name="premium-events"></a>Eventos Premium
 
-O Teams Premium fornece uma experiência avançada de webinar para seus usuários com a nova política de Eventos do Teams. Embora continue dando suporte ao registro e ao acompanhamento, a nova política também fornecerá funcionalidade para hosters e organizadores de reuniões, como:
+Teams Premium fornece uma experiência avançada de webinar para seus usuários com a nova política de Eventos do Teams. Embora continue dando suporte ao registro e ao acompanhamento, a nova política também fornecerá funcionalidade para hosters e organizadores de reuniões, como:
 
 - **Perguntas personalizadas de termos e condições** – Para apresentar aos participantes.
 - **Biografia do apresentador** – Para incluir informações sobre apresentadores.
@@ -118,9 +119,9 @@ O Teams Premium fornece uma experiência avançada de webinar para seus usuário
 
 ## <a name="advanced-virtual-appointments"></a>Compromissos virtuais avançado
 
-Com qualquer Microsoft licença 365, seus usuários finais podem usar recursos básicos de Compromissos virtuais para agendar e ingressar em reuniões de negócios para clientes. Por exemplo, os usuários podem agendar compromissos no calendário de Reservas e os participantes externos podem ingressar por meio de um navegador sem precisar baixar o Teams. 
+Com qualquer licença do Microsoft 365, seus usuários finais podem usar recursos básicos de Compromissos virtuais para agendar e ingressar em reuniões de negócios para clientes. Por exemplo, os usuários podem agendar compromissos no calendário de Reservas e os participantes externos podem ingressar por meio de um navegador sem precisar baixar o Teams. 
 
-O Teams Premium fornece recursos avançados de Compromisso Virtual, como:
+Teams Premium fornece recursos avançados de Compromisso Virtual, como:
 
 - Notificações por SMS
 - Sala de espera personalizada
@@ -138,7 +139,7 @@ O Teams Premium fornece recursos avançados de Compromisso Virtual, como:
 
 Você pode encontrar recursos adicionais aqui:
 
-- [Microsoft site de produtos do Teams Premium](https://www.microsoft.com/microsoft-teams/premium)
+- [Microsoft Teams Premium site de produtos](https://www.microsoft.com/microsoft-teams/premium)
 - [blog Microsoft Teams Premium](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
 
 

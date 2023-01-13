@@ -23,12 +23,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e9fbd6e9075ee5680eaae4dc88dde96c842c5a7b
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392191"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800047"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Reuniões, seminários via web e eventos ao vivo
 
@@ -50,14 +50,14 @@ A tabela a seguir resume os três tipos de reuniões, o número de participantes
 | Seminários via Web | - Até 1.000<br>- Limites aumentados com recursos [Somente visualização](view-only-meeting-experience.md) em breve. |- Os participantes até 1.000 têm recursos totalmente interativos.<br> - Interação do público configurável.<br> - Pode especificar apresentadores. | Sim |
 | Eventos ao vivo | Até 20.000** |- Transmissão para grandes audiências. <br>- Perguntas e respostas moderadas para interação com o público. <br> - Pode especificar produtores e apresentadores, incluindo apresentadores externos.<br>- Suporta capacidades de produção mais avançadas. | Não |
 
-*Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022.
+*Os 10.000 usuais são aumentados para 20.000 até 30 de junho de 2023.
 
-**Os 10.000 habituais serão aumentados para 20.000 até 31 de dezembro de 2022. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance).
+**Os 10.000 usuais são aumentados para 20.000 até 30 de junho de 2023. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Para obter informações adicionais e obter diretrizes por função para fornecer eventos online usando Microsoft Teams, consulte o [Guia de Jogos Virtuais](https://aka.ms/VirtualEventPlaybook). Você também pode ingressar no [Fórum de Eventos Virtuais](https://aka.ms/VirtualEventForum) no Microsoft Tech Community.
+> Para obter informações adicionais e obter orientações por função para fornecer eventos online usando o Microsoft Teams, consulte o [Guia de Jogos Virtuais](https://aka.ms/VirtualEventPlaybook). Você também pode ingressar no [Fórum de Eventos Virtuais](https://aka.ms/VirtualEventForum) no Microsoft Tech Community.
 
 > [!NOTE]
 > Para saber mais sobre a configuração rápida de reuniões e eventos do Teams em diferentes plataformas, consulte [Recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -178,7 +178,7 @@ Qualquer pessoa pode participar de uma reunião do Teams, webinar ou evento púb
 
 As pessoas que organizam, agendam e hospedam reuniões, seminários via Web ou eventos ao vivo precisarão de uma das licenças do Microsoft 365 listada na [Descrição do serviço Microsoft Teams](/office365/servicedescriptions/teams-service-description). Se você já estiver usando o Teams, provavelmente você já possua a licença necessária para organizar e hospedar reuniões, seminários via Web e eventos ao vivo.
 
-Para obter informações sobre o licenciamento do Teams Premium, consulte [Licenciamento do Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
+Para obter informações sobre Teams Premium licenciamento, consulte [Teams Premium licenciamento](teams-add-on-licensing/licensing-enhance-teams.md).
 
 Para permitir que as pessoas liguem para uma reunião, você precisará configurar a conferência de áudio. Para obter mais informações sobre audioconferência, consulte [Perguntas comuns sobre Audioconferência](deploy-audio-conferencing-teams-landing-page.md).
 

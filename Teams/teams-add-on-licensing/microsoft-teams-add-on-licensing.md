@@ -1,5 +1,5 @@
 ---
-title: Microsoft licenças de complemento do Teams
+title: Licenças de complemento do Microsoft Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,70 +21,70 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: Saiba mais sobre Microsoft licenças de complemento para Microsoft Teams e os recursos obtidos com cada licença.
-ms.openlocfilehash: d4a1beadc5e4252795bdbb4eb15767f3ec94ca2c
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: Saiba mais sobre as licenças de complemento da Microsoft para o Microsoft Teams e os recursos obtidos com cada licença.
+ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392101"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799917"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Microsoft licenças de complemento do Teams
+# <a name="microsoft-teams-add-on-licenses"></a>Licenças de complemento do Microsoft Teams
 
 ## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>Quais recursos posso obter com licenças de complemento?
 
-Licenças de complemento são licenças para recursos específicos Microsoft Teams. Eles oferecem flexibilidade para adicionar recursos apenas para usuários em sua organização que precisam deles. Para adicionar um recurso, compre uma licença de complemento para cada usuário que a usará.
+Licenças de complemento são licenças para recursos específicos do Microsoft Teams. Eles oferecem flexibilidade para adicionar recursos apenas para usuários em sua organização que precisam deles. Para adicionar um recurso, compre uma licença de complemento para cada usuário que a usará.
 
-As opções de licenciamento de complemento disponíveis para você dependem do Microsoft plano 365 que você tem. Para ver quais opções de chamada de voz e de audioconferência estão disponíveis para você, confira a seção [Quais recursos Microsoft estão disponíveis com meu plano?](#which-microsoft-capabilities-are-available-with-my-plan) deste artigo.
+As opções de licenciamento de complemento disponíveis para você dependem do plano do Microsoft 365 que você tem. Para ver quais opções de chamada de voz e de audioconferência estão disponíveis para você, confira a seção [Quais recursos da Microsoft estão disponíveis com meu plano?](#which-microsoft-capabilities-are-available-with-my-plan) deste artigo.
 
 Aqui está uma lista de licenças de complemento do Teams e seus recursos que você pode adicionar à sua assinatura do Teams.
 
 |Licença|Descrição|
 |-------|-----------|
-| **Microsoft Teams Premium** | Microsoft o Teams Premium é uma licença de complemento do Teams que permite que organizações com Microsoft 365 assinaturas aprimorem sua experiência do Teams com benefícios como reuniões mais personalizadas e inteligentes, proteção de reunião aprimorada e recursos avançados de gerenciamento e relatórios. Para obter mais informações sobre a licença de complemento do Teams Premium, consulte [Microsoft licenciamento do Teams Premium](licensing-enhance-teams.md). |
-| **Microsoft 365 Business Voice** | O Business Voice foi Microsoft pacote de recursos de voz para pequenas e médias empresas, mas não está mais disponível para compra desde 1º de março de 2022. Os assinantes atuais do Business Voice não podem mais renovar suas licenças do Business Voice. <br/> <br/> Se você for uma empresa de pequeno ou médio porte, recomendamos comprar a [licença Do Teams Phone com Plano de Chamada](../business-voice/whats-business-voice.md), se ela estiver disponível em sua região. <br/> <br/> Como alternativa, você pode comprar uma licença de Telefonia do Teams Padrão que permitirá que você se conecte ao provedor PSTN de terceiros preferido. |
+| **Microsoft Teams Premium** | Microsoft Teams Premium é uma licença de complemento do Teams que permite que organizações com assinaturas do Microsoft 365 aprimorem sua experiência do Teams com benefícios como reuniões mais personalizadas e inteligentes, proteção de reunião aprimorada e recursos avançados de gerenciamento e relatórios. Para obter mais informações sobre o Teams Premium licença de complemento, consulte [Microsoft Teams Premium licenciamento](licensing-enhance-teams.md). |
+| **Microsoft 365 Business Voice** | O Business Voice foi o pacote de recursos de voz da Microsoft para pequenas e médias empresas, mas não está mais disponível para compra desde 1º de março de 2022. Os assinantes atuais do Business Voice não podem mais renovar suas licenças do Business Voice. <br/> <br/> Se você for uma empresa de pequeno ou médio porte, recomendamos comprar a [licença Do Teams Phone com Plano de Chamada](../business-voice/whats-business-voice.md), se ela estiver disponível em sua região. <br/> <br/> Como alternativa, você pode comprar uma licença de Telefonia do Teams Padrão que permitirá que você se conecte ao provedor PSTN de terceiros preferido. |
 | **Teams Phone com pacote plano de chamada** | A licença do Teams Phone with Calling Plan empacota os recursos PBX do Teams Phone System e um Plano de Chamada Doméstica para conectividade PSTN. |
 | **Telefonia do Teams Padrão** |[O Teams Phone System](../what-is-phone-system-in-office-365.md) é um serviço telefônico hospedado que oferece controle de chamadas e recursos do PBX (Private Branch Exchange). Telefonia do Teams Padrão licenças fornecem todos os recursos do Teams Phone System, como caixa postal de nuvem, ID do chamador, parque de chamadas, encaminhamento de chamadas, atendentes automáticos, filas de chamadas, transferência de chamadas e ID do chamador. <br/> <br/>Para saber mais sobre o Sistema telefônico, confira [Veja aqui o que você obtém com o Sistema de Telefone do Teams](../here-s-what-you-get-with-phone-system.md). |
-| **Planos de Chamada do Microsoft Teams** | Se os usuários precisarem chamar números de telefone fora de sua organização, você poderá comprar [Planos de Chamada do Microsoft Teams](../calling-plans-for-office-365.md) para se conectar a números de telefone PSTN com Microsoft como seu provedor PSTN. Há planos de chamada doméstica, planos de chamada internacionais e planos de chamada pago como você. <br/> <br/> Para saber se os Planos de Chamada do Teams estão disponíveis em seu país ou região, confira [Disponibilidade de país e região para Planos de Conferência de Áudio e Chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
+| **Planos de Chamada do Microsoft Teams** | Se os usuários precisarem chamar números de telefone fora da sua organização, você poderá comprar [Planos de Chamada do Microsoft Teams](../calling-plans-for-office-365.md) para se conectar a números de telefone PSTN com a Microsoft como seu provedor PSTN. Há planos de chamada doméstica, planos de chamada internacionais e planos de chamada pago como você. <br/> <br/> Para saber se os Planos de Chamada do Teams estão disponíveis em seu país ou região, confira [Disponibilidade de país e região para Planos de Conferência de Áudio e Chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 | **Créditos de Comunicação** | Os Créditos de Comunicação fornecem um pool mensal de minutos que podem ser usados para chamadas telefônicas PSTN, se todos os minutos do Plano de Chamada forem usados antes do início do próximo mês. Se você quiser números gratuitos para Conferência de Áudio, atendentes automáticos ou filas de chamadas, precisará [configurar créditos de comunicação](../set-up-communications-credits-for-your-organization.md). |
 | **Audioconferência** | Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião do Teams em vez de seu computador. [Configure a Conferência de Áudio](../set-up-audio-conferencing-in-teams.md) para usuários que agendam ou lideram reuniões com os participantes que precisam ligar usando um telefone. <br/> <br/>Para descobrir se a Audioconferência está disponível em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para informações de preços, consulte [Preços de Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>As organizações agora podem usar um operador de terceiros para seus números de Conferência de Áudio. Para obter mais informações, consulte [Planejar Conferência de conexão do operador](../operator-connect-conferencing-plan.md). |
-| **Salas do Microsoft Teams** | Microsoft Teams Room é um produto adicional Microsoft Teams que traz vídeo, áudio e compartilhamento de conteúdo para salas de conferência. <br/> <br/>Salas do Teams Basic é uma licença gratuita para até 25 salas que fornece a funcionalidade principal de reunião e gerenciamento para todos os dispositivos Salas do Teams. <br/> <br/>Salas Teams Pro traz experiências de reunião aprimoradas e gerenciamento avançado e segurança para ajudá-lo a operar seus dispositivos em escala e habilitar reuniões híbridas inclusivas. <br/> <br/>Para obter mais informações, confira [Licenciamento da Sala de Reunião do Teams](../rooms/rooms-licensing.md). |
-| **Microsoft dispositivos compartilhados do Teams** | Muitas organizações exigem soluções flexíveis no local de trabalho à medida que mudam para cenários de trabalho híbridos. A licença Microsoft Dispositivos Compartilhados do Teams foi projetada para dar suporte ao trabalho híbrido, permitindo que os escritórios designem dispositivos como dispositivos compartilhados, incluindo telefones de área comum, exibições do Teams para hot-desks e painéis do Teams para espaços de reunião. Para obter mais informações, consulte [Microsoft licenciamento de dispositivos compartilhados do Teams](teams-shared-device-license.md). |
+| **Salas do Microsoft Teams** | O Microsoft Teams Room é um produto adicional do Microsoft Teams que traz vídeo, áudio e compartilhamento de conteúdo para salas de conferência. <br/> <br/>Salas do Teams Basic é uma licença gratuita para até 25 salas que fornece a funcionalidade principal de reunião e gerenciamento para todos os dispositivos Salas do Teams. <br/> <br/>Salas Teams Pro traz experiências de reunião aprimoradas e gerenciamento avançado e segurança para ajudá-lo a operar seus dispositivos em escala e habilitar reuniões híbridas inclusivas. <br/> <br/>Para obter mais informações, confira [Licenciamento da Sala de Reunião do Teams](../rooms/rooms-licensing.md). |
+| **Dispositivos compartilhados do Microsoft Teams** | Muitas organizações exigem soluções flexíveis no local de trabalho à medida que mudam para cenários de trabalho híbridos. A licença dispositivos compartilhados do Microsoft Teams foi projetada para dar suporte ao trabalho híbrido, permitindo que os escritórios designem dispositivos como dispositivos compartilhados, incluindo telefones de área comum, exibições do Teams para hot-desks e painéis do Teams para espaços de reunião. Para obter mais informações, consulte [Licenciamento de Dispositivos Compartilhados do Microsoft Teams](teams-shared-device-license.md). |
 
-## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Quais recursos Microsoft estão disponíveis com meu plano?
+## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>Quais recursos da Microsoft estão disponíveis com meu plano?
 
-Todos os planos Microsoft 365 permitem que os usuários do Teams façam chamadas ponto a ponto em sua organização usando a tecnologia VoIP. No entanto, talvez você queira adicionar licenças diferentes para recursos, como fazer chamadas para números PSTN ou configurar um PBX.
+Todos os planos do Microsoft 365 permitem que os usuários do Teams façam chamadas ponto a ponto em sua organização usando a tecnologia VoIP. No entanto, talvez você queira adicionar licenças diferentes para recursos, como fazer chamadas para números PSTN ou configurar um PBX.
 
 ### <a name="voice-and-pstn-connectivity"></a>Conectividade de voz e PSTN
 
 Se você é uma pequena empresa, organização empresarial, instituição educacional, agência governamental ou sem fins lucrativos, você tem três maneiras de obter o Sistema de Telefonia do Teams e a conectividade PSTN:
 
-- Compre um plano Microsoft 365 Business, E1/E3, A1/A3 ou G1/G3 e adicione **o Teams Phone com** licenças do pacote Plano de Chamada.
-  - Esse modelo fornecerá recursos PBX do Sistema de Telefonia do Teams e um plano de chamada doméstico Microsoft.
-  - Escolha essa configuração se quiser que todo o gerenciamento de números de telefone e a cobrança sejam tratados por Microsoft.
+- Compre um plano Microsoft 365 Business, E1/E3, A1/A3 ou G1/G3 e adicione **o Teams Phone com** licenças de pacote do Plano de Chamada.
+  - Esse modelo fornecerá recursos PBX do Sistema de Telefonia do Teams e um Plano de Chamada Doméstica da Microsoft.
+  - Escolha essa configuração se quiser que todo o gerenciamento de números de telefone e a cobrança sejam tratados pela Microsoft.
   - Verifique se a licença do [pacote Telefone do Teams com Plano de Chamada está disponível em sua região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Compre um plano E1/E3, A1/A3 ou G1/G3, adicione **Telefonia do Teams Padrão** licenças e escolha um Microsoft plano de chamada autônomo ou uma operadora PSTN de terceiros.
+- Compre um plano E1/E3, A1/A3 ou G1/G3, adicione **Telefonia do Teams Padrão** licenças e escolha um plano de chamada autônomo da Microsoft ou uma operadora PSTN de terceiros.
   - Esse modelo fornecerá o Sistema de Telefone do Teams, mas você ainda precisará se conectar ao PSTN.
   - Para exibir todas as opções de conectividade PSTN, consulte [opções de conectividade PSTN](../pstn-connectivity.md).
   - Para saber mais sobre todas as soluções de voz, consulte [Planejar sua solução de voz do Teams](../cloud-voice-landing-page.md).
 
-- Compre um plano E5/A5/G5 e adicione **Microsoft Planos de Chamada** ou conecte-se a um provedor de conectividade PSTN de terceiros.
+- Compre um plano E5/A5/G5 e adicione **Planos de Chamada da Microsoft** ou conecte-se a um provedor de conectividade PSTN de terceiros.
   - Os planos Microsoft 365 E5, A5 e G5 incluem o Teams Phone System, mas as organizações ainda precisam escolher uma [opção de conectividade PSTN](../pstn-connectivity.md).
 
-Aqui está um resumo do qual Microsoft voz e chamando licenças para comprar, com base em Microsoft plano 365:
+Aqui está um resumo de qual voz da Microsoft e licenças de chamada para comprar, com base no plano do Microsoft 365:
 
 <table>
 <thead>
 <tr class="header">
 <th><strong>Plano base</strong></th>
-<th><strong>Deseja Microsoft como sua operadora PSTN</strong></th>
+<th><strong>Deseja a Microsoft como sua operadora PSTN</strong></th>
 <th><strong>Deseja usar uma operadora PSTN de terceiros</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Teams Essentials (identidade do AAD) <br/> <br/>Qualquer Microsoft plano 365 que inclua o Teams <br/> </td>
+<td>Teams Essentials (identidade do AAD) <br/> <br/>Qualquer plano do Microsoft 365 que inclua o Teams <br/> </td>
 <td>Teams Phone com licenças de pacote de plano de chamada <br/> <br/>ou <br/> <br/>Telefonia do Teams Padrão licenças <br/> Mais <br/>Licenças de Plano de Chamada Doméstico ou Plano de Chamada Internacional <br/> </td>
 <td>Telefonia do Teams Padrão licenças <br/> </td>
 </tr>
@@ -101,9 +102,9 @@ Você tem duas maneiras de remover o acesso dos usuários a determinados produto
 
 Para obter instruções sobre como desatribuir licenças, confira [Licenças do Unassign dos usuários](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-## <a name="more-guidance-on-microsoft-plans"></a>Mais diretrizes sobre Microsoft planos
+## <a name="more-guidance-on-microsoft-plans"></a>Mais diretrizes sobre planos da Microsoft
 
-Saiba mais sobre Microsoft planos e obtenha diretrizes de acordo com seu tipo de organização:
+Saiba mais sobre os planos da Microsoft e obtenha diretrizes de acordo com o tipo de organização:
 
 - [Diretrizes para pequenas e médias empresas](../business-voice/whats-business-voice.md)
 - [Planos para organizações empresariais](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
