@@ -16,26 +16,26 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Saiba mais sobre como desenvolver e executar operações e manutenção contínuas para garantir que seus sistemas de Salas do Microsoft Teams estejam disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 977987cf0283008235a12fdfdda2ffc792c2e289
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 36145202e12cd9b987b50efd6de3efe636c86ac2
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438269"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69806366"
 ---
-# <a name="manage-microsoft-teams-rooms"></a>Gerenciar Salas do Microsoft Teams
+# <a name="manage-microsoft-teams-rooms-and-surface-hubs"></a>Gerenciar hubs de Salas do Microsoft Teams e Surface
 
-Se você tiver Salas do Microsoft Teams em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central em que gerencia todas as soluções do Teams, Microsoft centro de administração do Teams.
+Se você tiver Salas do Microsoft Teams dispositivo ou um Surface Hub em sua organização, terá opções de gerenciamento flexíveis.  Você pode gerenciar os dispositivos por conta própria no mesmo local central em que gerencia todas as suas soluções do Teams, centro de administração do Microsoft Teams.
 
-Com Microsoft centro de administração do Teams, você pode:
+Com o centro de administração do Microsoft Teams, você pode:
 
 - Executar o gerenciamento de dispositivos como reiniciar dispositivos e baixar logs de dispositivo
 - Aplicar configurações específicas do Teams
 - Verifique o status de integridade de Salas do Microsoft Teams e seus periféricos, incluindo câmeras, displays, microfones e assim por diante
 - Examine a atividade de reunião atual e passada (como detalhes sobre qualidade da chamada, integridade e conectividade da rede e número de participantes)
-- Consulte periféricos (como câmeras e projetores) conectados a Salas do Microsoft Teams
+- Consulte periféricos (como câmeras e projetores) conectados a Salas do Microsoft Teams (somente para Salas do Teams no Windows)
 
-Para gerenciar Salas do Teams dispositivos, abra o [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) e acesse **Dispositivos** >  do Teams **Salas do Teams no Windows**.
+Para gerenciar Salas do Teams dispositivos, abra o [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) e acesse **Dispositivos** >  do Teams **Salas do Teams em Hubs Windows** ou **Surface**.
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Salas do Teams página de resumo no centro de administração do Teams.":::
 
@@ -43,13 +43,13 @@ Para gerenciar Salas do Teams dispositivos, abra o [centro de administração do
 > [!IMPORTANT]
 > Para gerenciar dispositivos usando o centro de administração do Teams, você precisa receber as funções Administrador Global, Administrador do Teams ou Administrador de Dispositivos do Teams.
 
-## <a name="make-changes-to-teams-rooms-devices"></a>Fazer alterações em dispositivos Salas do Teams
+## <a name="make-changes-to-teams-rooms-devices-or-surface-hubs"></a>Fazer alterações em dispositivos Salas do Teams ou Hubs surface
 
-Se você tiver mais de uma Salas do Teams, poderá fazer a maioria das ações em vários dispositivos ao mesmo tempo. Por exemplo, você pode definir configurações de aplicativo do Teams em todas as suas Salas do Teams ao mesmo tempo.
+Se você tiver mais de uma Salas do Teams ou dispositivo do Surface Hub, poderá fazer a maioria das ações em vários dispositivos ao mesmo tempo. Por exemplo, você pode definir configurações de aplicativo do Teams em todas as suas Salas do Teams ao mesmo tempo.
 
 ### <a name="device-settings"></a>Configurações do dispositivo
 
-Você pode alterar as configurações em um ou mais Salas do Teams em sua organização. Para alterar as configurações, selecione o dispositivo ou dispositivos que você deseja gerenciar e selecione **Editar Configurações**. Um novo painel será aberto com todas as configurações que você pode alterar. A tabela a seguir lista as configurações que você pode alterar usando o centro de administração do Teams. Algumas configurações só estão disponíveis quando você seleciona um único Salas do Teams.
+Você pode alterar as configurações em um ou mais Salas do Teams ou Surface Hubs em sua organização. Para alterar as configurações, selecione o dispositivo ou dispositivos que você deseja gerenciar e selecione **Editar Configurações**. Um novo painel será aberto com todas as configurações que você pode alterar. A tabela a seguir lista as configurações que você pode alterar usando o centro de administração do Teams. Algumas configurações só estão disponíveis quando você seleciona um único Salas do Teams.
 
 Se você selecionar mais de uma, as configurações que dão suporte à edição em massa mostrarão as duas opções a seguir.
 
@@ -60,51 +60,53 @@ Se você selecionar mais de uma, as configurações que dão suporte à edição
     >
     > Se você selecionar várias Salas do Teams, a configuração em todos os dispositivos selecionados será alterada para o valor fornecido. Se Salas do Teams tiver valores diferentes para uma configuração, todos eles serão atualizados para o mesmo valor.
 
-| Configuração                                                      | Valores aceitos                                        | Dá suporte à edição em massa |
-|--------------------------------------------------------------|--------------------------------------------------------|--------------------|
-| *Conta*                                                    |                                                        |                    |
-| **Email**                                                    | Email endereço                                          | Não                 |
-| **Modo de reunião com suporte**                                   | somente Microsoft Teams<br>Skype for Business (padrão) e Microsoft Teams<br>Skype for Business e Microsoft Teams (padrão)<br>somente Skype for Business|Sim|
-| **Autenticação moderna**                                    | Habilitado<br>Desabilitado                                              | Sim                |
-| **Endereço exchange**                                         | Email endereço                                          | Não                 |
-| **Domínio\nome de usuário (opcional)**                               | Domínio da conta e nome de usuário                           | Não                 |
-| **Configurar domínio**                                         | Lista separada por vírgulas                                   | Sim                |
-| *Reuniões*                                                   |                                                        |                    |
-| **Compartilhamento automático de tela**                                 | Habilitado<br>Desabilitado                                              | Sim                |
-| **Compartilhamento de áudio de ingestão HDMI**                                 | Habilitado<br>Desabilitado                                              | Sim                |
-| **Mostrar nomes de reunião**                                       | Habilitado<br>Desabilitado                                              | Sim                |
-| **Saída automática se todos os outros saíram da reunião**                 | Habilitado<br>Desabilitado                                              | Sim                |
-| **Ingressar em reuniões de terceiros**                 | Cisco Webex<br>Zoom                                              | Sim                |
-| **Ingressar com informações de sala**                 | Selecionado<br>Desmarcado                                              | Sim                |
-| **Ingressar com informações personalizadas**                 | Selecionado<br>Desmarcado                                              | Sim                |
-| **Nome (necessário)**                 | Nome da sala ou espaço                                              | Sim                |
-| **Email (necessário)**                 | Email endereço                                              | Sim                |
-| *Dispositivo*                                                     |                                                        |                    |
-| **Modo de monitor duplo**                                        | Habilitado<br>Desabilitado                                              | Sim                |
-| **Permitir duplicação de conteúdo** | Selecionado<br>Desmarcado                                 | Sim                |
-| **Baliza bluetooth**                                      | Habilitado<br>Desabilitado                                              | Sim                |
-| **Aceitar automaticamente convites de reunião baseados em proximidade** | Selecionado<br>Desmarcado                                 | Sim                |
-| **Enviar logs com comentários**                                  | Habilitado<br>Desabilitado                                              | Sim                |
-| **Email endereço para logs e comentários**                      | Email endereço                                          | Sim                |
-| *Coordenar Reuniões*                                                     |                                                        |                    |
-| **Reuniões coordenadas** | Habilitado<br>Desabilitado                                 | Não                |
-| **Ativar o microfone deste dispositivo** | Habilitado<br>Desabilitado                                 | Não                |
-| **Permitir que as pessoas habilitem ao ingressar em uma reunião** | Selecionado<br>Desmarcado                                 | Não                |
-| **Ativar a câmera deste dispositivo** | Habilitado<br>Desabilitado                                 | Não                |
-| **Permitir que as pessoas habilitem ao ingressar em uma reunião** | Selecionado<br>Desmarcado                                 | Não                |
-| **Ativar o whiteboarding para este dispositivo** | Habilitado<br>Desabilitado                                 | Não                |
-| **Contas de dispositivo confiáveis (separadas com vírgulas)** | Lista de dispositivos                              | Não                |
-| *Periféricos*                                                |                                                        |                    |
-| **Microfone de conferência**                                  | Lista de microfones disponíveis                          | Não                 |
-| **Alto-falante de conferência**                                     | Lista de alto-falantes disponíveis                             | Não                 |
-| **Volume padrão**                                           | 0-100                                                  | Não                 |
-| **Alto-falante padrão**                                          | Lista de alto-falantes disponíveis                             | Não                 |
-| **Volume padrão**                                           | 0-100                                                  | Não                 |
-| **Câmera de conteúdo**                                           | Lista de câmeras disponíveis                              | Não                 |
-| **Aprimoramentos da câmera de conteúdo**                              | Habilitado<br>Desabilitado                                              | Não                 |
-| **Girar a câmera de conteúdo 180 graus**                        | Habilitado<br>Desabilitado                                              | Não                 |
-| *Temas*                                                    |                                                        |                    |
-|                                                              | Padrão<br>Nenhum tema<br>Personalizado<br>Lista de temas internos   | Sim                |
+| Configuração                                                      | Valores aceitos                                        | Dá suporte à edição em massa | Tipos de dispositivo com suporte |
+|--------------------------------------------------------------|--------------------------------------------------------|--------------------|------------------------|
+| *Conta*                                                    |                                                        |                    | Salas do Teams no Windows |
+| **Email**                                                    | Email endereço                                          | Não                 | Salas do Teams no Windows |
+| **Modo de reunião com suporte**                                   | Somente o Microsoft Teams<br>Skype for Business (padrão) e Microsoft Teams<br>Skype for Business e Microsoft Teams (padrão)<br>somente Skype for Business|Sim| Salas do Teams no Windows |
+| **Autenticação moderna**                                    | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows |
+| **Endereço exchange**                                         | Email endereço                                          | Não                 | Salas do Teams no Windows |
+| **Domínio\nome de usuário (opcional)**                               | Domínio da conta e nome de usuário                           | Não                 | Salas do Teams no Windows |
+| **Configurar domínio**                                         | Lista separada por vírgulas                                   | Sim                | Salas do Teams no Windows |
+| *Reuniões*                                                   |                                                        |                    | Salas do Teams no Windows, Surface Hubs |
+| **Compartilhamento automático de tela**                                 | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows |
+| **Compartilhamento de áudio de ingestão HDMI**                                 | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows |
+| **Mostrar nomes de reunião**                                       | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows |
+| **Saída automática se todos os outros saíram da reunião**                 | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows |
+| **Ingressar em reuniões de terceiros**                 | Cisco Webex<br>Zoom                                              | Sim                | Salas do Teams no Windows, Surface Hubs |
+| **Ingressar com informações de sala**                 | Selecionado<br>Desmarcado                                              | Sim                | Salas do Teams no Windows, Surface Hubs |
+| **Ingressar com informações personalizadas**                 | Selecionado<br>Desmarcado                                              | Sim                | Salas do Teams no Windows |
+| **Nome (necessário)**                 | Nome da sala ou espaço                                              | Sim                | Salas do Teams no Windows |
+| **Email (necessário)**                 | Email endereço                                              | Sim                | Salas do Teams no Windows |
+| *Dispositivo*                                                     |                                                        |                    | Salas do Teams no Windows |
+| **Modo de monitor duplo**                                        | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows |
+| **Permitir duplicação de conteúdo** | Selecionado<br>Desmarcado                                 | Sim                | Salas do Teams no Windows |
+| **Baliza bluetooth**                                      | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows, Surface Hubs |
+| **Aceitar automaticamente convites de reunião baseados em proximidade** | Selecionado<br>Desmarcado                                 | Sim                | Salas do Teams no Windows, Surface Hubs |
+| **Enviar logs com comentários**                                  | Habilitado<br>Desabilitado                                              | Sim                | Salas do Teams no Windows |
+| **Email endereço para logs e comentários**                      | Email endereço                                          | Sim                | Salas do Teams no Windows |
+| *Coordenar Reuniões*                                                     |                                                        |                    | Salas do Teams no Windows |
+| **Reuniões coordenadas** | Habilitado<br>Desabilitado                                 | Não                | Salas do Teams no Windows, Surface Hubs |
+| **Ativar o microfone deste dispositivo** | Habilitado<br>Desabilitado                                 | Não                | Salas do Teams no Windows, Surface Hubs |
+| **Permitir que as pessoas habilitem ao ingressar em uma reunião** | Selecionado<br>Desmarcado                                 | Não                | Salas do Teams em hubs windows, Surface |
+| **Ativar a câmera deste dispositivo** | Habilitado<br>Desabilitado                                 | Não                | Salas do Teams no Windows, Surface Hubs |
+| **Permitir que as pessoas habilitem ao ingressar em uma reunião** | Selecionado<br>Desmarcado                                 | Não                | Salas do Teams no Windows, Surface Hubs |
+| **Ativar o whiteboarding para este dispositivo** | Habilitado<br>Desabilitado                                 | Não                | Salas do Teams no Windows, Surface Hubs |
+| **Contas de dispositivo confiáveis (separadas com vírgulas)** | Lista de dispositivos                              | Não                | Salas do Teams no Windows, Surface Hubs |
+| *Periféricos*                                                |                                                        |                    | Salas do Teams no Windows |
+| **Microfone de conferência**                                  | Lista de microfones disponíveis                          | Não                 | Salas do Teams no Windows |
+| **Alto-falante de conferência**                                     | Lista de alto-falantes disponíveis                             | Não                 | Salas do Teams no Windows |
+| **Volume padrão**                                           | 0-100                                                  | Não                 | Salas do Teams no Windows |
+| **Alto-falante padrão**                                          | Lista de alto-falantes disponíveis                             | Não                 | Salas do Teams no Windows |
+| **Volume padrão**                                           | 0-100                                                  | Não                 | Salas do Teams no Windows |
+| **Câmera de conteúdo**                                           | Lista de câmeras disponíveis                              | Não                 | Salas do Teams no Windows |
+| **Aprimoramentos da câmera de conteúdo**                              | Habilitado<br>Desabilitado                                              | Não                 | Salas do Teams no Windows |
+| **Girar a câmera de conteúdo 180 graus**                        | Habilitado<br>Desabilitado                                              | Não                 | Salas do Teams no Windows |
+| *Temas*                                                    |                                                        |                    | Salas do Teams no Windows |
+|                                                              | Padrão<br>Nenhum tema<br>Personalizado<br>Lista de temas internos   | Sim                | Salas do Teams no Windows |
+
+Consulte [Gerenciar a configuração do Microsoft Teams nos Surface Hubs](surface-hub-manage-config.md) para obter mais opções para configurar os Surface Hubs.
 
 ### <a name="cortana-settings"></a>Configurações da Cortana
 
@@ -128,7 +130,7 @@ Consulte [Problemas conhecidos](known-issues.md#Limits) para obter mais informa�
 
 ## <a name="device-restart-options"></a>Opções de reinicialização do dispositivo
 
-As alterações nas configurações do dispositivo só entrarão em vigor depois que Salas do Teams tiver sido reiniciada. Ao fazer alterações que precisam de uma reinicialização, você pode escolher se deve reiniciar imediatamente ou agendar uma reinicialização. Aqui estão as opções de reinicialização disponíveis:
+As alterações nas configurações do dispositivo só entrarão em vigor depois que o dispositivo for reiniciado. Ao fazer alterações que precisam de uma reinicialização, você pode escolher se deve reiniciar imediatamente ou agendar uma reinicialização. Aqui estão as opções de reinicialização disponíveis:
 
 - **Reinicialização imediata** Se você escolher essa opção, todos os dispositivos aos quais você está fazendo alterações serão reiniciados assim que selecionar essa opção.
 - **Reinicialização agendada** Se você escolher essa opção, poderá reiniciar os dispositivos aos quais está fazendo alterações em um momento menos disruptivo para sua organização.
@@ -136,26 +138,26 @@ As alterações nas configurações do dispositivo só entrarão em vigor depois
   - **Deixar atualização para reinicialização noturna** Os dispositivos são reiniciados à noite para executar a manutenção. As alterações feitas em dispositivos serão aplicadas durante essa reinicialização.
 
 > [!CAUTION]
-> Salas do Teams que estiverem em uso no momento de uma reinicialização ficarão indisponíveis durante a duração do processo de reinicialização. Eles serão desconectados de reuniões em andamento e não estarão disponíveis para participar de novas reuniões.
+> Salas do Teams e Hubs de Superfície que estão em uso no momento de uma reinicialização ficarão indisponíveis durante o processo de reinicialização. Eles serão desconectados de reuniões em andamento e não estarão disponíveis para participar de novas reuniões enquanto o dispositivo estiver sendo reiniciado.
 
 ## <a name="remove-device"></a>Remover dispositivo
 
-Quando você remove um dispositivo, o dispositivo é removido da sua organização e não aparece mais na sua lista de Salas do Teams no Windows no centro de administração do Teams.
+Quando você remove um dispositivo, o dispositivo é removido da sua organização e não aparece mais na lista de Salas do Teams no Windows ou surface Hubs no centro de administração do Teams.
 
-Se você remover um dispositivo e ele ainda estiver configurado com um nome de usuário e senha válidos, ele será adicionado automaticamente à sua lista de Salas do Teams se ele se conectar ao Microsoft 365 novamente.
+Se você remover um dispositivo e ele ainda estiver configurado com um nome de usuário e senha válidos, ele será adicionado automaticamente à sua lista de Salas do Teams ou Surface Hubs se ele se conectar ao Microsoft 365 novamente.
 
 Para remover um ou mais dispositivos, faça o seguinte:
 
-1. Acesse **Dispositivos** >  do Teams **Salas do Teams no Windows** e selecione os dispositivos que você deseja remover.
+1. Acesse **Dispositivos** >  do Teams **Salas do Teams em** **Hubs** Windows ou Surface e selecione os dispositivos que você deseja remover.
 2. Selecione **Remover**.
 
 ## <a name="download-device-logs"></a>Baixar logs de dispositivo
 
-Você pode baixar uma cópia dos arquivos de log de diagnóstico de um dispositivo se solicitado a fazê-lo Microsoft suporte. Os arquivos de log são compactados em um arquivo zip que pode ser baixado do centro de administração do Teams.
+Você pode baixar uma cópia dos arquivos de log de diagnóstico de um dispositivo se solicitado para fazê-lo pelo suporte da Microsoft. Os arquivos de log são compactados em um arquivo zip que pode ser baixado do centro de administração do Teams.
 
 Para baixar logs de um dispositivo Salas do Teams para seu computador, faça o seguinte:
 
-1. Acesse **Dispositivos** >  do Teams **Salas do Teams no Windows** e selecione o nome do dispositivo do qual você deseja baixar logs.
+1. Acesse **Dispositivos** >  do Teams **Salas do Teams em Hubs Windows** ou **Surface** e selecione o nome do dispositivo do qual você deseja baixar logs.
 1. Selecione **Baixar logs de dispositivo**. Pode levar vários minutos para que os logs do dispositivo fiquem disponíveis.
 1. Selecione a guia **Histórico** e selecione o link do arquivo de log em **Arquivo de diagnóstico**. Um arquivo zip que contém os arquivos de log de diagnóstico do dispositivo será baixado na pasta Downloads padrão do navegador.
 
@@ -171,18 +173,18 @@ O painel do sistema Salas do Teams mostra o status e a integridade de todos os s
 
 Para exibir informações detalhadas sobre um dispositivo, selecione seu nome na lista de dispositivos. Quando estiver na exibição de detalhes, você poderá ver as seguintes informações sobre seu dispositivo:
 
-- **Status de integridade** Mostra a integridade geral do dispositivo Salas do Teams. O status de integridade pode ser **saudável** ou **não saudável**.
-- **Offline desde** Mostra a última vez que Microsoft 365 foi capaz de se comunicar com o dispositivo.
-- **Status do dispositivo** Mostra o estado atual do dispositivo: **ocioso**, **reunião do Teams**, **reunião do Skype** ou **Ingestão**.
-- **Periféricos** Mostra os periféricos conectados ao seu dispositivo Salas do Teams e seu status de integridade. O status de integridade pode ser **conectado** ou **desconectado**.
+- **Status de integridade** Mostra a integridade geral do dispositivo Salas do Teams ou do Surface Hub. O status de integridade pode ser **saudável**, **não urgente**, **crítico** ou **offline**.
+- **Offline desde** Mostra a última vez que o Microsoft 365 foi capaz de se comunicar com o dispositivo.
+- **Status de uso** Mostra o estado atual do dispositivo: **ocioso**, **ocupado** ou **indisponível**. Somente para Salas do Teams no Windows.
+- **Periféricos** Mostra os periféricos conectados ao seu dispositivo Salas do Teams e seu status de integridade. O status de integridade pode ser **conectado** ou **desconectado**. Somente para Salas do Teams no Windows.
 - **Saúde** Mostra informações detalhadas sobre os periféricos conectados ao seu dispositivo Salas do Teams, conectividade de rede, status de entrada para serviços necessários e informações de versão de software.
 - **Detalhes** Mostra informações do fabricante, endereço IP de rede e Salas do Teams endereço serial/MAC do dispositivo.
 - **Atividade** Mostra detalhes da reunião anteriores, incluindo data e hora da reunião, número de participantes, duração e qualidade do áudio. Para obter mais informações sobre detalhes da reunião, confira a seção [Detalhes da atividade da reunião](#meeting-activity-details) mais adiante neste artigo.
-- **História** Mostra um histórico de atividades de gerenciamento no dispositivo Salas do Teams, incluindo atualizações de configuração, reinicializações de dispositivo e links de download de log de dispositivo.
+- **História** Mostra um histórico de atividades de gerenciamento no dispositivo Salas do Teams ou do Surface Hub, incluindo atualizações de configuração, reinicializações de dispositivo e links de download de log de dispositivo.
 
 #### <a name="meeting-activity-details"></a>Detalhes da atividade de reunião
 
-A guia **Atividade** em Salas do Teams detalhes do dispositivo mostra informações de alto nível e detalhadas sobre todas as reuniões em que o dispositivo participou ao longo do tempo. Na guia **Atividade** , você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
+A guia **Atividade** nos detalhes do dispositivo mostra informações de alto nível e detalhadas sobre todas as reuniões em que o dispositivo participou ao longo do tempo. Na guia **Atividade** , você pode ver quando uma reunião foi realizada, quantos participantes participaram da reunião e a qualidade do áudio durante a reunião.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Salas do Teams lista de resumo da atividade do dispositivo.":::
 
