@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba quais telefones de mesa e conferência são certificados para o Microsoft Teams produzir os melhores resultados.
-ms.openlocfilehash: 26d5e0c4ec5255629183f4720fcfca6b816f86db
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: fc9b078744f2d681989ed49befd4ba84b4aec90a
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812828"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820336"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Dispositivos Android certificados pelo Microsoft Teams
 
@@ -431,6 +431,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo  | Versão do firmware | Versão do produto incluída|
 |:--------------|:-----------------|:-------------------------|
+|Agendador do Logitech Tap | `1.8.181` |Atualização 2022 #4  |
 |Yealink RoomPanel | ` 147.15.0.36 ` | Atualização 2022 #4 |
 |Painel de Almofadas Limpas | `NFA1.20220914.1215` | Atualização 2022 #3A  |
 |Painel de Almofadas Limpas | `NFA1.20220914.1206` | Atualização 2022 #3A  |

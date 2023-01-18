@@ -22,12 +22,12 @@ description: Seu administrador do Teams ou de TI pode configurar as reuniões ex
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c405bdfb0690e0a34e7c3f92bb2e276780eb4ebe
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242425"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820346"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Gerenciar reuniões externas e chat no Microsoft Teams
 
@@ -48,6 +48,9 @@ Usar o acesso externo quando:
 As políticas de acesso externo incluem controles para cada níveis da organização e do usuário. Desativar uma política no nível da organização a desativa para todos os usuários, independentemente da configuração de nível do usuário. Todas as configurações de acesso externo estão habilitadas por padrão.
 
 O Centro de administração do Teams controla o acesso externo no nível da organização. A maioria das opções (exceto restrições de domínio) estão disponíveis no nível do usuário usando o PowerShell. Consulte [Usando o PowerShell](#using-powershell) abaixo para obter mais informações.
+
+> [!NOTE]
+> O acesso externo entre diferentes ambientes de nuvem (como Microsoft 365 e Office 365 Government) requer registros DNS externos para o Teams. Para obter mais informações, consulte [Registros DNS externos necessários para o Teams](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams).
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
