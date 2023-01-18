@@ -17,49 +17,46 @@ f1.keywords:
 - NOCSH
 description: Leia este artigo para localizar códigos de país de caminho de mídia para Roteamento Direto para que você possa selecionar o caminho de mídia ideal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a70dad128987a5fb0df639984be07b623f9ff425
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582345"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812668"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>Códigos de país do caminho de mídia de roteamento direto
+# <a name="direct-routing-media-path-country-codes"></a>Códigos de país de caminho de mídia de roteamento direto
 
-Ao escolher um caminho de roteamento para mídia, o Roteamento Direto, por padrão, sempre atribui um datacenter com base no endereço IP público do Controlador de Borda de Sessão (SBC) e sempre seleciona o caminho mais próximo ao datacenter SBC.
+Ao escolher um caminho de roteamento para mídia, o Roteamento Direto, por padrão, sempre atribui um datacenter com base no endereço IP público do SBC (Session Border Controller) e sempre seleciona o caminho mais próximo do datacenter SBC.
 
-No entanto, em alguns casos, o caminho de mídia padrão pode não ser o caminho de mídia ideal; por exemplo, um IP público de um intervalo dos Estados Unidos pode ser atribuído a um SBC localizado na Europa. 
+No entanto, em alguns casos, o caminho de mídia padrão pode não ser o caminho de mídia ideal; por exemplo, um IP público de um intervalo de Estados Unidos pode ser atribuído a um SBC localizado na Europa. 
 
 Usando o parâmetro -MediaRelayRoutingLocationOverride com os cmdlets New-CsOnlinePSTNGateway e Set-CsOnlinePSTNGateway, você pode especificar a região preferencial para tráfego de mídia. Por exemplo, o seguinte comando especifica que a região preferencial é a Alemanha:
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-Observe que a Microsoft só recomenda definir esse parâmetro se os logs de chamada indicarem claramente que a atribuição padrão do datacenter para o caminho de mídia não usa o caminho mais próximo do datacenter SBC. 
-
-> [!NOTE]
-> O parâmetro MediaRelayRoutingLocationOverride é reservado para uso com operadoras gerenciadas.
+Observe que a Microsoft só recomenda definir esse parâmetro se os logs de chamadas indicarem claramente que a atribuição padrão do datacenter para o caminho de mídia não usa o caminho mais próximo do datacenter SBC. 
  
-## <a name="country-code-reference-table"></a>Tabela de referência de código de país
+## <a name="country-code-reference-table"></a>Tabela de referência de código do país
 
 A tabela a seguir mostra os valores de código do país para o parâmetro -MediaRelayRoutingLocationOverride:
 
 | País         | Código 
 |-----------------|--------------------|
 | Afeganistão     | AF |
-| Ilhas Aland   | AX |
+| Ilhas Aland   | MACHADO |
 | Albânia         | AL |
 | Argélia         | DZ |
-| Samoa Americana  | AS |
+| Samoa Americana  | COMO |
 | Andorra         | AD |
 | Angola          | AO |
-| Anguila        | AI |
-| Antárctida      | AQ | 
+| Anguila        | IA |
+| Antártida      | AQ | 
 | Antígua e Barbuda | AG |
 | Argentina       | AR |
-| Armênia         | AM |
+| Armênia         | SOU |
 | Aruba           | AW |
 | Austrália       | AU |
-| Áustria         | AT |
+| Áustria         | EM |
 | Azerbaijão      | AZ |
 | Bahamas         | BS |
 | Bahrein         | BH |
@@ -89,11 +86,11 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Canadá          | CA |
 | Ilhas Cayman  | KY |
 | República Centro-Africana | CF |
-| Chade            | TD |
+| Chad            | TD |
 | Chile           | CL |
 | China           | CN |
-| Ilha Christmas | CX |
-| Ilhas Cocos (Quilha) | CC |
+| Ilha de Natal | CX |
+| Ilhas Cocos (Keeling) | CC |
 | Colômbia        | CO |
 | Comores         | KM |
 | Congo           | CG |
@@ -105,11 +102,11 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Cuba            | CU |
 | Curaçao         | CW |
 | Chipre          | CY |
-| Tcheco         | CZ |
+| Chéquia         | CZ |
 | Dinamarca         | DK |
 | Djibuti        | DJ |
 | Dominica        | DM |
-| República Dominicana | DO |
+| República Dominicana | FAZER |
 | Equador         | EC |
 | Egito           | EG |
 | El Salvador     | SV |
@@ -118,14 +115,14 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Estônia         | EE |
 | Eswatini        | SZ |
 | Etiópia        | ET |
-| Ilhas Malvinas | FK |
+| Ilhas Falkland | FK |
 | Ilhas Faroe   | FO |
 | Fiji            | FJ |
 | Finlândia         | FI |
 | França          | FR |
 | Guiana Francesa   | GF |
 | Polinésia Francesa | PF |
-| Territórios do Sul francês | TF |
+| Territórios do Sul da França | TF |
 | Gabão           | GA |
 | Gâmbia          | GM |
 | Geórgia         | GE |
@@ -143,15 +140,15 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Guinea-Bissau   | GW |
 | Guiana          | GY |
 | Haiti           | OI |
-| Ilha Heard e Ilhas McDonald | HM |
+| Ilhas Heard Island e McDonald | HM |
 | Honduras        | HN |
 | RAE de Hong Kong   | HK |
 | Hungria         | HU |
-| Islândia         | IS |
-| Índia           | IN |
+| Islândia         | É |
+| Índia           | EM |
 | Indonésia       | ID |
 | Irã            | IR |
-| Iraque            | IQ |
+| Iraque            | QI |
 | Irlanda         | IE |
 | Ilha do Homem     | Mensagem instantânea |
 | Israel          | IL |
@@ -171,14 +168,14 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Laos            | LA |
 | Letônia          | LV |
 | Líbano         | LB |
-| Lesoto         | LS |
+| Lesoto         | É |
 | Libéria         | LR |
 | Líbia           | LY |
 | Liechtenstein   | LI |
-| Lituânia       | LT |
+| Lituânia       | TENENTE |
 | Luxemburgo      | LU |
-| SAR de Macau       | MO |
-| Madagáscar      | MG |
+| Macao SAR       | MO |
+| Madagascar      | MG |
 | Malaui          | MW |
 | Malásia        | MY |
 | Maldivas        | MV |
@@ -186,7 +183,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Malta           | MT |
 | Ilhas Marshall | MH |
 | Martinica      | MQ |
-| Mauritânia      | MR |
+| Mauritânia      | SR |
 | Maurício       | MU |
 | Mayotte         | YT |
 | México          | MX |
@@ -196,7 +193,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Mongólia        | MN |
 | Montenegro      | ME |
 | Montserrat      | MS |
-| Marrocos         | MA |
+| Marrocos         | MÃE |
 | Moçambique      | MZ |
 | Mianmar         | MM |
 | Namíbia         | N/D |
@@ -219,7 +216,7 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Palau           | PW |
 | Autoridade Palestina | PS |
 | Panamá          | PA |
-| Papua Nova Guiné | PG |
+| Papua-Nova Guiné | PG |
 | Paraguai        | PY |
 | Peru            | PE |
 | Filipinas     | PH |
@@ -236,8 +233,8 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Saint Barthélemy | BL |
 | São Cristóvão e Névis | KN |
 | Santa Lúcia     | LC |
-| São Martinho    | MF |
-| São Pedro e Miquelon | PM |
+| Saint Martin    | MF |
+| Saint Pierre e Miquelon | PM |
 | São Vicente e Granadinas | VC |
 | Samoa           | WS |
 | San Marino      | SM |
@@ -253,9 +250,9 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Eslováquia        | SK |
 | Eslovênia        | SL |
 | Ilhas Salomão | SB |
-| Somali         | ENTÃO |
+| Somália         | ENTÃO |
 | África do Sul    | ZA |
-| Ilhas Geórgia do Sul e Sanduiche do Sul | GS |
+| Ilhas South Georgia e South Sandwich | GS |
 | Sudão do Sul     | SS |
 | Espanha           | ES |
 | Sri Lanka       | LK |
@@ -278,15 +275,15 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Tunísia         | TN |
 | Turquia          | TR |
 | Turcomenistão    | TM |
-| Ilhas Turcos e Caicos | TC |
+| Ilhas Turks e Caicos | TC |
 | Tuvalu          | TV |
-| Ilhas U.S. Outlying | UM |
+| Ilhas Outlying dos EUA | UM |
 | Ilhas Virgens Americanas | VI |
 | Uganda          | UG |
 | Ucrânia         | UA |
 | Emirados Árabes Unidos | AE |
 | Reino Unido  | GB |
-| Estados Unidos   | EUA |
+| Estados Unidos   | NOS |
 | Uruguai         | UY |
 | Uzbequistão      | UZ |
 | Vanuatu         | VU |
@@ -294,6 +291,6 @@ A tabela a seguir mostra os valores de código do país para o parâmetro -Media
 | Venezuela       | VE |
 | Vietnã         | VN |
 | Wallis e Futuna | WF |
-| Iêmen           | YE |
+| Iêmen           | VÓS |
 | Zâmbia          | ZM |
 | Zimbábue        | ZW |

@@ -16,12 +16,12 @@ f1.keywords:
 description: Protocolos de Roteamento Direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5a05dbc6519c4f90cf0cc0d49e996467bf10230
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 6cf7bf4040a75e59518312edd32c9c4e77f11728
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414719"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812708"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento Direto – protocolo SIP
 
@@ -46,7 +46,7 @@ Antes que uma chamada de entrada ou saída possa ser processada, as mensagens OP
 > Observe que o URI SIPS não deve ser usado com Roteamento Direto, pois não há suporte.
 > Verifique a configuração do Controlador de Borda de Sessão e verifique se você não está usando cabeçalhos "Substitui" em solicitações SIP. O Roteamento Direto rejeitará as solicitações SIP que têm cabeçalhos Replaces definidos.
 
-Em uma chamada de entrada, o proxy SIP precisa encontrar o locatário ao qual a chamada está destinada e localizar o usuário específico dentro desse locatário. O administrador do locatário pode configurar números não DID, por exemplo, +1001, em vários locatários. Portanto, é importante encontrar o locatário específico no qual executar a pesquisa de números, pois os números não DID podem ser os mesmos em várias organizações Microsoft 365 ou Office 365.  
+Em uma chamada de entrada, o proxy SIP precisa encontrar o locatário ao qual a chamada está destinada e localizar o usuário específico dentro desse locatário. O administrador do locatário pode configurar números não DID, por exemplo, +1001, em vários locatários. Portanto, é importante encontrar o locatário específico no qual executar a pesquisa de números, pois os números não DID podem ser os mesmos em várias organizações do Microsoft 365 ou Office 365.  
 
 Esta seção descreve como o proxy SIP localiza o locatário e o usuário e executa a autenticação do SBC na conexão de entrada.
 
@@ -72,17 +72,17 @@ Ao receber o convite, o proxy SIP executa as seguintes etapas:
 
 2. Tente encontrar um locatário usando o nome FQDN completo apresentado no cabeçalho Contato.  
 
-   Verifique se o nome FQDN do cabeçalho contato (sbc1.adatum.biz) está registrado como um nome DNS em qualquer organização Microsoft 365 ou Office 365. Se encontrado, a pesquisa do usuário será executada no locatário que tem o SBC FQDN registrado como um nome de domínio. Se não for encontrada, a Etapa 3 se aplicará.   
+   Verifique se o nome FQDN do cabeçalho contato (sbc1.adatum.biz) está registrado como um nome DNS em qualquer organização do Microsoft 365 ou Office 365. Se encontrado, a pesquisa do usuário será executada no locatário que tem o SBC FQDN registrado como um nome de domínio. Se não for encontrada, a Etapa 3 se aplicará.   
 
 3. A etapa 3 só se aplica se a Etapa 2 falhar. 
 
-   Remova a parte do host do FQDN, apresentada no cabeçalho Contato (FQDN: sbc12.adatum.biz, depois de remover a parte do host: adatum.biz) e verifique se esse nome está registrado como um nome DNS em qualquer organização Microsoft 365 ou Office 365. Se encontrado, a pesquisa de usuário será executada neste locatário. Se não for encontrada, a chamada falhará.
+   Remova a parte do host do FQDN, apresentada no cabeçalho Contato (FQDN: sbc12.adatum.biz, depois de remover a parte do host: adatum.biz) e verifique se esse nome está registrado como um nome DNS em qualquer organização do Microsoft 365 ou Office 365. Se encontrado, a pesquisa de usuário será executada neste locatário. Se não for encontrada, a chamada falhará.
 
 4. Usando o número de telefone apresentado no Request-URI, execute a pesquisa de número inverso dentro do locatário encontrado na Etapa 2 ou 3. Corresponda o número de telefone apresentado a um URI SIP do usuário no locatário encontrado na etapa anterior.
 
 5. Aplicar configurações de tronco. Localize os parâmetros definidos pelo administrador do locatário para este SBC.
 
-   Microsoft não dá suporte a ter um proxy SIP de terceiros ou servidor de agente de usuário entre o proxy SIP Microsoft e o SBC emparelhado, o que pode modificar o URI de solicitação criado pelo SBC emparelhado.
+   A Microsoft não dá suporte a ter um proxy SIP de terceiros ou servidor de agente de usuário entre o proxy DO MICROSOFT SIP e o SBC emparelhado, o que pode modificar o URI de solicitação criado pelo SBC emparelhado.
 
    Os requisitos para as duas pesquisas (etapas 2 e 3) necessários para o cenário em que um SBC está interconectado a muitos locatários (cenário de operadora) são abordados posteriormente neste artigo.
 
@@ -90,7 +90,7 @@ Ao receber o convite, o proxy SIP executa as seguintes etapas:
 
 #### <a name="contact-header"></a>Cabeçalho de contato
 
-Para todas as mensagens SIP de entrada (OPções, INVITE) para o proxy SIP Microsoft, o cabeçalho Contato deve ter o SBC FQDN emparelhado no nome do host do URI da seguinte maneira:
+Para todas as mensagens SIP de entrada (OPções, INVITE) para o proxy do Microsoft SIP, o cabeçalho Contato deve ter o SBC FQDN emparelhado no nome do host do URI da seguinte maneira:
 
 Sintaxe: contato: <sip:phone ou sip address@FQDN do> SBC;transport=tls 
 
@@ -98,7 +98,7 @@ De acordo com [o RFC 3261, seção 11.1](https://tools.ietf.org/html/rfc3261#sec
 
 Sintaxe: contato: <sip:FQDN do SBC;transport=tls>
 
-Esse nome (FQDN) também deve estar no campo nome comum ou nome alternativo de assunto do certificado apresentado. Microsoft dá suporte ao uso de valores curinga dos nomes nos campos Nome Comum ou Nome Alternativo de Assunto do certificado.   
+Esse nome (FQDN) também deve estar no campo nome comum ou nome alternativo de assunto do certificado apresentado. A Microsoft dá suporte ao uso de valores curinga dos nomes nos campos Nome Comum ou Nome Alternativo da Entidade do certificado.   
 
 O suporte para curingas é descrito no [RFC 2818, seção 3.1](https://tools.ietf.org/html/rfc2818#section-3.1). Especificamente:
 
@@ -133,11 +133,11 @@ O proxy SIP precisa calcular o FQDN do próximo salto para novas transações de
 
 De acordo com o [RFC 3261, seção 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), o cabeçalho de contato é necessário em qualquer solicitação que possa resultar em uma nova caixa de diálogo. O Record-Route só será necessário se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo. Se um SBC de proxy estiver em uso com [a Otimização de Mídia Local para Roteamento Direto](./direct-routing-media-optimization.md), uma rota de registro precisará ser configurada, pois o SBC proxy precisa permanecer na rota. 
 
-Microsoft recomenda usar apenas o cabeçalho De contato se um SBC proxy não for usado:
+A Microsoft recomenda usar apenas o cabeçalho De contato se um SBC proxy não for usado:
 
-- Por [RFC 3261, seção 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route é usado se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo, o que não é essencial se nenhum proxy SBC estiver configurado, pois todo o tráfego vai entre o proxy SIP Microsoft e o SBC emparelhado. 
+- Por [RFC 3261, seção 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route é usado se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo, o que não é essencial se nenhum SBC proxy estiver configurado, pois todo o tráfego vai entre o proxy SIP da Microsoft e o SBC emparelhado. 
 
-- O proxy SIP Microsoft usa apenas o cabeçalho Contato (não Record-Route) para determinar o próximo salto ao enviar opções de ping de saída. Configurar apenas um parâmetro (Contato) em vez de dois (Contato e Rota de Registro) simplifica a administração se um SBC proxy não estiver em uso. 
+- O proxy do Microsoft SIP usa apenas o cabeçalho Contato (não a Rota de Registro) para determinar o próximo salto ao enviar opções de ping de saída. Configurar apenas um parâmetro (Contato) em vez de dois (Contato e Rota de Registro) simplifica a administração se um SBC proxy não estiver em uso. 
 
 Para calcular o próximo salto, o proxy SIP usa:
 
@@ -228,7 +228,7 @@ O SBC deve dar suporte ao Convite com Substituições.
 
 ## <a name="size-of-sdp-considerations"></a>Tamanho das considerações do SDP
 
-A interface de Roteamento Direto pode enviar uma mensagem SIP superior a 1.500 bytes.  O tamanho do SDP causa principalmente isso. No entanto, se houver um tronco UDP atrás do SBC, ele poderá rejeitar a mensagem se ela for encaminhada do proxy SIP Microsoft para o tronco não modificado. Microsoft recomenda retirar alguns valores no SDP no SBC ao enviar a mensagem para os troncos UDP. Por exemplo, os candidatos ICE ou codecs não utilizados podem ser removidos.
+A interface de Roteamento Direto pode enviar uma mensagem SIP superior a 1.500 bytes.  O tamanho do SDP causa principalmente isso. No entanto, se houver um tronco UDP atrás do SBC, ele poderá rejeitar a mensagem se ela for encaminhada do proxy DO MICROSOFT SIP para o tronco não modificado. A Microsoft recomenda retirar alguns valores no SDP no SBC ao enviar a mensagem para os troncos UDP. Por exemplo, os candidatos ICE ou codecs não utilizados podem ser removidos.
 
 ## <a name="call-transfer"></a>Transferência de chamadas
 
@@ -317,11 +317,11 @@ O proxy SIP dá suporte (sempre oferece) o Temporizador de Sessão em chamadas n
 
 O proxy SIP analisa o Request-URI e, se o parâmetro user=phone estiver presente, o serviço tratará o Request-URI como um número de telefone, correspondendo o número a um usuário. Se o parâmetro não estiver presente, o proxy SIP aplicará heurística para determinar o tipo de usuário Request-URI (número de telefone ou endereço SIP).
 
-Microsoft recomenda sempre aplicar o parâmetro user=phone para simplificar o processo de configuração de chamada.
+A Microsoft recomenda sempre aplicar o parâmetro user=phone para simplificar o processo de configuração de chamada.
 
 ## <a name="history-info-header"></a>cabeçalho History-Info
 
-O cabeçalho History-Info é usado para redirecionar solicitações SIP e "fornecer(s) um mecanismo padrão para capturar as informações do histórico de solicitações para habilitar uma ampla variedade de serviços para redes e usuários finais". Para obter mais informações, consulte [RFC 4244 – Seção 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para Microsoft Sistema telefônico, esse cabeçalho é usado em cenários de Simulring e Encaminhamento de Chamadas.  
+O cabeçalho History-Info é usado para redirecionar solicitações SIP e "fornecer(s) um mecanismo padrão para capturar as informações do histórico de solicitações para habilitar uma ampla variedade de serviços para redes e usuários finais". Para obter mais informações, consulte [RFC 4244 – Seção 1.1](http://www.ietf.org/rfc/rfc4244.txt). Para o Microsoft Phone System, esse cabeçalho é usado em cenários de Simulring e Encaminhamento de Chamadas.  
 
 Se enviar, o History-Info estará habilitado da seguinte maneira:
 
@@ -336,7 +336,7 @@ Se enviar, o History-Info estará habilitado da seguinte maneira:
   > [!NOTE]
   > As entradas privadas (conforme determinado pelos mecanismos definidos na Seção 3.3 do RFC 4244) serão encaminhadas como é porque o provedor de tronco SIP é um par confiável.
 
-- O History-Info de entrada é ignorado.
+- O History-Info de entrada é preservado quando o parâmetro ForwardCallHistory está habilitado. A History-Info preservada pode ser usada para prevenção de loop.
 
 A seguir está o formato do cabeçalho Histórico-informações enviado pelo proxy SIP:
 
@@ -363,7 +363,7 @@ Consulte a seção Mecanismo de failover para sinalização SIP no [Plano para R
 
 ## <a name="retry-after"></a>Retry-After
 
-Se um datacenter de Roteamento Direto estiver ocupado, o serviço poderá enviar uma mensagem Retry-After com um intervalo de um segundo para o SBC. Quando o SBC recebe uma mensagem 503 com um cabeçalho Retry-After em resposta a um INVITE, o SBC deve encerrar essa conexão e tentar o próximo datacenter Microsoft disponível.
+Se um datacenter de Roteamento Direto estiver ocupado, o serviço poderá enviar uma mensagem Retry-After com um intervalo de um segundo para o SBC. Quando o SBC recebe uma mensagem 503 com um cabeçalho Retry-After em resposta a um INVITE, o SBC deve encerrar essa conexão e tentar o próximo datacenter da Microsoft disponível.
 
 ## <a name="handling-retries-603-response"></a>Manipulação de repetições (resposta 603)
 Se um usuário final observar várias chamadas perdidas para uma chamada após recusar a chamada de entrada, isso significa que o mecanismo de repetição do provedor de tronco SBC ou PSTN está configurado incorretamente. O SBC deve ser reconfigurado para interromper os esforços de repetição na resposta 603.

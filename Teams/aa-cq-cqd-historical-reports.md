@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório histórico do Power BI do Relatório Histórico de Fila de Chamadas & Do Teams atualizado para exibir dados históricos do Assistente Automático e da Fila de Chamadas.
-ms.openlocfilehash: ed267cf2d96f15236aa68339049d2c721249ec00
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763552"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812728"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>Relatórios históricos do atendimento automático e da fila de chamadas
 
@@ -302,9 +302,13 @@ Você precisará atualizar os dados para ver novos dados.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- Filas de chamadas e atendentes automáticos são mostrados pela ID da conta de recurso em vez de nomes de fila de chamadas/atendedores automáticos.  Para mostrar todo o tráfego de um atendente automático ou fila de chamadas, você deve selecionar todas as contas de recurso atribuídas ao atendente automático ou à fila de chamadas.
+- O visual **de Resultados de Chamada** no relatório **Fila de Chamadas** pode relatar um grande número de chamadas **_desconhecidas_** . Isso ocorre devido a um problema de classificação de chamada que o Suporte está trabalhando para corrigir.  Esse é apenas um problema de classificação de chamada e essas chamadas foram processadas com êxito pelo sistema.
 
-- Apenas 28 dias de histórico estão disponíveis no painel, pois os dados de fila de chamadas/atendimento automático são considerados dados pessoais e estão sujeitos a políticas de retenção de privacidade de dados.
+- Somente as chamadas e as ações de chamador na primeira fila de atendimento automático ou chamada que atende a chamada são relatadas.  Chamadas e ações de chamador em atendentes automáticos encadeados (quando um atendente automático é transferido para outro atendente automático) ou filas de chamada encadeadas (quando uma fila de chamada é transferida para outra fila de chamadas) não são relatadas. 
+
+- Filas de chamadas e atendentes automáticos são mostrados pela ID da conta de recurso em vez de nomes de fila de chamadas ou de atendente automático.  Para mostrar todo o tráfego de um atendente automático ou fila de chamadas, você deve selecionar todas as contas de recurso atribuídas ao atendente automático ou à fila de chamadas.
+
+- Apenas 28 dias de histórico estão disponíveis no painel, pois a fila de chamadas e os dados do atendente automático são considerados dados pessoais e estão sujeitos a políticas de retenção de privacidade de dados.
 
 - Em alguns cenários, a contagem de chamadas atendidas pelo agente no relatório **Linha do Tempo do Agente de Fila de Chamadas na Nuvem** pode ser diferente do número de chamadas mostradas no histórico de chamadas do cliente do Teams. O histórico de chamadas do cliente do Teams está correto. O suporte está investigando, mas não há tempo estimado para reparos disponíveis no momento.
 

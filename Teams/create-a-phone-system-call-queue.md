@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Saiba como configurar filas de chamadas no Microsoft Teams. Filas de chamadas fornecem uma mensagem de saudação, mantêm música, redirecionamento de chamadas e outros recursos.
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763562"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812718"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Criar uma fila de chamadas no Microsoft Teams
 
@@ -400,10 +400,10 @@ As seguintes configurações são recomendadas:
 2. Aplicativo iPhone do Microsoft Teams, aplicativo Android do Microsoft Teams.
 3. Selecionar o Ocioso Mais Longo para o método de roteamento de agente habilitará automaticamente o roteamento baseado em presença.
 4. Não é possível definir a ordem em que os agentes serão chamados.
-5. Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Roteamento Baseado em Localização.
+5. Não há suporte para o modo de conferência se as chamadas telefônicas forem roteadas para a fila de um gateway de Roteamento Direto habilitado para Location-Based Roteamento. Para implementação da fila de chamadas com Location-Based Roteamento, consulte [Aplicativos de voz (Atendimento Automático ou Fila de Chamadas)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
 6. somente Telefonia do Microsoft Teams Sistema.
 7. Por meio da página Portal de Configurações do Usuário em [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Há suporte apenas para canais públicos.
+8. Há suporte apenas para canais padrão.
 9. Atendentes automáticos e filas de chamadas não podem transferir chamadas entre métodos de conectividade PSTN.
 10. Para GCCH/DOD, disponível somente por meio do Portal de Configurações de Usuário em:
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

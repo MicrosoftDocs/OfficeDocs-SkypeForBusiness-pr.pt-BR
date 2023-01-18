@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as últimas alterações no Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29fcd5c5c9f12ae4d7ab9fe965ead62bd8f89046
-ms.sourcegitcommit: 1fdf109a7a99b113ffbe77d62acb8bbb0107dfed
+ms.openlocfilehash: 009805fd9fd39884762effdb4009e16a594028ba
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "69036547"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812698"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece o log de alterações mais recente do Teams PowerShell para
 
 | Data | Versão | Atualizações |
 |------- | -------------------- | ------------------------------ |
+| janeiro de 2023 | [4.9.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.2-preview) |<li>Versões Get-CsSdgBulkSignInRequestStatus & New-CsSdgBulkSignInRequest cmdlets em versão prévia privada.</li><li>Adiciona o parâmetro Certificado ao Connect-MicrosoftTeams.</li><li>Adiciona o parâmetro WelcomeTextToSpeechPrompt a [New\|Set]-CsCallQueue.</li><li>Corrige problemas com a entrada de pipeline para cmdlets Test-CsEffectiveTenantDialPlan & Test-CsVoiceNormalizationRule.</li>
 | novembro de 2022 | [4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1) |<li>Libera o suporte à autenticação baseada em aplicativo em Connect-MicrosoftTeams no GA. Mais detalhes sobre [a autenticação baseada em aplicativo no Módulo do Teams PowerShell](teams-powershell-application-authentication.md).</li><li>Contém uma nova implementação de [New\|Get\|Set\|Remove]-CsTeamsChannelsPolicy e [New\|Get\|Set\|Remove]-CsTeamsUpdateManagementPolicy. A funcionalidade permanece a mesma da implementação anterior.</li><li>Adiciona o parâmetro UseNewTeamsClient ao TeamsUpdateManagementPolicy.</li><li>Adiciona o parâmetro EnablePrivateTeamDiscovery ao TeamsChannelsPolicy.</li><li>Corrige problemas com o token de autenticação que não são atualizados para alguns cmdlets de política.</li><li>Corrige problemas em que o formato de exibição foi quebrado para alguns cmdlets.</li><li>Adiciona atributos SipProxyAddress, TeamsMediaLoggingPolicy, CountryAbbreviation, UserValidationErrors e WhenCreated em Get-CsOnlineUser saída quando executado sem parâmetro -Identity. Desses atributos, CountryAbbreviation, UserValidationErros e WhenCreated ainda não mostrarão nenhum valor. Estes serão implantados gradualmente, mais detalhes no [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser).</li><li>Corrige Add-TeamChannelUser & Remove-TeamChannelUser usar o parâmetro UPN for -User para gerenciar membros externos em um canal compartilhado.</li>
 | outubro de 2022 | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>Versões [Get\|Set]-CsTeamsEducationConfiguration cmdlets no GA.</li><li>Contém uma nova implementação de [New Get Set Remove]-CsTeamsFeedbackPolicy, [New\|Get\|Set\|Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy e [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy.\|\|\| A funcionalidade permanece a mesma da implementação anterior.</li><li>Adiciona parâmetros ExplicitRecordingConsent, ForceStreamingAttendeeMode ao TeamsMeetingPolicy.</li><li>Adiciona parâmetros Descrição, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory ao OnlineVoicemailPolicy.</li><li>Adiciona o parâmetro AllowChatWithGroup ao TeamsMessagingPolicy.</li><li>Adiciona o parâmetro EnableFeatureSuggestions ao TeamsFeedbackPolicy.</li><li>Libera Update-CsTeamsShiftsConnectionInstance cmdlet.</li>
 | outubro de 2022 | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>Contém uma nova implementação de [New Get Set Remove]-CsTeamsMessagingPolicy, [New\|Get\|Set\|Remove]-CsTeamsMeetingPolicy e [New\|Get\|Set\|Remove]-CsOnlineVoicemailPolicy.\|\|\| OBSERVAÇÃO: atualmente, esses Cmdlets funcionam apenas com powershell.exe. Eles não funcionam para pwsh.exe. Isso será corrigido na próxima versão de GA.</li><li>Adiciona parâmetros ExplicitRecordingConsent, ForceStreamingAttendeeMode ao TeamsMeetingPolicy.</li><li>Adiciona parâmetros Descrição, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory ao OnlineVoicemailPolicy.</li><li>Adiciona parâmetros AllowChatWithGroup e EnableFeatureSuggestions ao TeamsMessagingPolicy.</li><li>Libera Update-CsTeamsShiftsConnectionInstance cmdlet.</li>
