@@ -1,5 +1,5 @@
 ---
-title: Entre em contato com a equipe de Serviços de Número de Telefone
+title: Entre em contato com a equipe dos Serviços de Números de Telefone
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,40 +22,40 @@ ms.custom:
 - ms.teamsadmincenter.voice.contacttnssupport
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
-description: Quando você obtém números de telefone ou números de porta (transferência) para sua organização, talvez seja necessário obter ajuda e suporte na mesa de serviço do TNS.
-ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+description: Quando você obtém números de telefone ou porta (transferência) para sua organização, talvez seja necessário obter ajuda e suporte no service desk do TNS.
+ms.openlocfilehash: 9984775a05458592fe1789c0dd8b173a08783220
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674402"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835554"
 ---
-# <a name="telephone-number-services-tns---service-desk"></a>Serviços de Número de Telefone (TNS) – Service Desk
+# <a name="telephone-number-services-tns---service-desk"></a>TNS (Serviços de Número de Telefone) – Service Desk
 
 > [!NOTE]
-> A partir de 22 de julho de 2021, o sistema de email anterior para entrar em contato com o suporte de serviço TNS foi desativado.
+> A partir de 22 de julho de 2021, o sistema de email anterior para entrar em contato com o service desk do TNS foi desativado.
 
-Há um novo processo para interagir com a central de serviços de Serviços de Número de Telefone (TNS) de nossa nova Central de Serviços **[de Número de Telefone](https://pstnsd.powerappsportals.com)**. Agora você pode abrir os tickets, visualizar os tickets e rastrear a comunicação em um único local integrado ao Centro de Administração do Teams. Essas tarefas estão descritas com mais detalhes nas seções a seguir.
+Há um novo processo para interagir com o service desk do TNS (Serviços de Número de Telefone) da nossa nova **[Central de Serviços de Número de Telefone](https://pstnsd.powerappsportals.com)**. Agora você pode abrir os tickets, visualizar os tickets e rastrear a comunicação em um único local integrado ao Centro de Administração do Teams. Essas tarefas estão descritas com mais detalhes nas seções a seguir.
 
 
-- **[Criar um novo caso](#create-a-new-case)** – envie uma nova solicitação ou uma consulta geral.
+- **[Criar um novo caso](#create-a-new-case)** – enviar uma nova solicitação ou inquérito geral.
 
 - **[Exibir meus casos existentes](#view-and-manage-existing-cases)** – acompanhe e monitore seus casos existentes.
 
-- **[Exibir casos da minha empresa](#view-and-manage-existing-cases)** – Acompanhe e monitore os casos existentes da sua empresa. Se seu colegas de empresa abriram ocorrências, você pode procurá-las nesta exibição.
+- **[Exibir casos da minha empresa](#view-and-manage-existing-cases)** – acompanhe e monitore os casos existentes da sua empresa. Se seu colegas de empresa abriram ocorrências, você pode procurá-las nesta exibição.
 
-- **[Enviar comentários](#view-and-manage-existing-cases)** – Compartilhe seus comentários conosco.
+- **[Dê comentários](#view-and-manage-existing-cases)**: compartilhe seus comentários conosco.
 
 ## <a name="create-a-new-case"></a>Criar uma nova ocorrência
 
 > [!NOTE]
-> Somente alguém do mesmo locatário tem permissão para criar um caso. Por exemplo, alguém de @fabrikam.com não pode criar um caso em nome de @contoso.com.
+> Somente alguém do mesmo locatário pode criar um caso. Por exemplo, alguém de @fabrikam.com não pode criar um caso em nome de @contoso.com.
 
 Para criar um novo caso, siga estas etapas:
 
 1. Selecione **Criar uma nova ocorrência** a partir de um dos seguintes locais:
 
-   - Na home **page do Centro de Serviços de Número** de Telefone, na parte superior da página ou no bloco inferior.
+   - Na página inicial da **Central de Serviço de Número de Telefone** , na parte superior da página ou no bloco inferior.
 
    - A partir da  página **Exibir minhas ocorrências existentes**.
 
@@ -63,7 +63,7 @@ Para criar um novo caso, siga estas etapas:
 
 2. Forneça os detalhes da sua ocorrência conforme descrito detalhadamente na [próxima seção](#provide-case-details).
 
-3. Depois de inserir todos os valores, selecione **Enviar**. Você verá uma nova tela na qual poderá ver o número do seu caso.
+3. Depois de inserir todos os valores, selecione **Enviar**. Você verá uma nova tela em que poderá ver o número do caso.
 
 ### <a name="provide-case-details"></a>Forneça detalhes da ocorrência
 
@@ -83,7 +83,7 @@ Uma ocorrência pode ter uma de duas categorias:
 
 - **Enviar uma nova solicitação** - Escolha esta opção se desejar enviar uma nova solicitação. Por exemplo, você deseja enviar uma solicitação de portabilidade ou comprar números de telefone da Microsoft.
 
-- **Consulta geral** - Escolha esta opção se tiver perguntas que o ajudarão a determinar sua solicitação. Por exemplo, você precisa saber se pode fazer a portabilidade de seus números sem fio para a Microsoft ou se a Microsoft oferece suporte para números gratuitos personalizados.
+- **Inquérito geral** – escolha essa opção se você tiver perguntas que ajudarão você a determinar sua solicitação. Por exemplo, você precisa saber se pode fazer a portabilidade de seus números sem fio para a Microsoft ou se a Microsoft oferece suporte para números gratuitos personalizados.
 
 #### <a name="country-or-region"></a>País ou região
 
@@ -119,7 +119,7 @@ O tipo de ocorrência pode ser um dos seguintes:
 
   - **Data e hora Preferencial** * - A data e a hora em que você deseja que o tipo de inventário dos seus números seja alterado. Consulte a Data e a hora para obter mais informações.
 
-  - Caixa de seleção – Entendo que para poder atualizar o tipo de inventário, meus números de telefone precisam ser não **atribuídos** – a Microsoft não pode processar solicitações de alteração de tipo de número de telefone, a menos que os números de telefone em seu locatário não sejam atribuídos. Se estiver solicitando essa alteração para uma data futura, você precisará garantir que os números não serão atribuídos antes da data e hora solicitadas.
+  - **Caixa de seleção – Entendo que para poder atualizar o tipo de inventário, meus números de telefone precisam ser não atribuídos** – a Microsoft não pode processar solicitações de alteração de tipo de número de telefone, a menos que os números de telefone dentro do locatário não sejam atribuídos. Se estiver solicitando essa alteração para uma data futura, você precisará garantir que os números não serão atribuídos antes da data e hora solicitadas.
 
   - **Lista de números de telefone** - A lista de números de telefone cujo tipo você deseja alterar. Faça upload de um arquivo CSV com a lista de números de telefone.
 
@@ -127,7 +127,7 @@ O tipo de ocorrência pode ser um dos seguintes:
 
   - **Tipo de número** - Selecione o tipo dos seus números. Consulte [Tipos de números de telefone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Tentou obter números de telefone do Portal do Teams Administração Center** – Você tentou comprar esses números de telefone no Centro de Administração Do Microsoft Teams?
+  - **Tentou obter números de telefone do Portal do Teams Administração Center** - Você já tentou comprar esses números de telefone do Centro de Administração do Microsoft Teams?
 
   - **Quantidade de números de telefone necessária** - A contagem de números de telefone que você deseja comprar.
 
@@ -143,11 +143,18 @@ O tipo de ocorrência pode ser um dos seguintes:
 
   - **Nomear seu pedido de portabilidade** - Forneça um nome fácil de lembrar para seu pedido de portabilidade.
 
-  - **Data/hora da portabilidade solicitada** * - A data e a hora em que você deseja que seja feita a portabilidade dos números para a Microsoft. Essa não é uma data de portabilidade garantida porque o proprietário do número atual precisa aprovar nossa solicitação de portabilidade primeiro. Consulte a Data e a Hora.
+  - **Data/hora da portabilidade solicitada** * - A data e a hora em que você deseja que seja feita a portabilidade dos números para a Microsoft. Essa não é uma data de portabilidade garantida porque o proprietário do número atual precisa aprovar nossa solicitação de porta primeiro. Consulte a Data e a Hora.
 
   - **Lista de números de portabilidade** - A lista de números de telefone que você deseja fazer a portabilidade para a Microsoft. Faça upload de um arquivo CSV com a lista de números de telefone.
 
   - **Carta de autorização (LOA)** - Anexe uma LOA assinada e preenchida aqui. A Microsoft não pode processar uma solicitação de portabilidade sem uma LOA.
+
+    > [!NOTE]
+    > Para obter mais informações sobre LOAs para portar/transferir números de telefone existentes e requisitos adicionais de documentação, consulte [Gerenciar números de telefone para Plano de Chamada](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+    >
+    >Para portar/transferir 999 ou menos números de telefone para seus usuários, carregue os LOAs concluídos e assinados no centro de administração do Microsoft Teams para processamento adicional.
+    >
+    > Para portar/transferir mais de 999 números de telefone ou se você tiver problemas com o processo de portabilidade no centro de administração do Microsoft Teams, você poderá [enviar manualmente um pedido de porta](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) para o Service Desk do TNS para sua região.
 
 - **Atualização de Endereço** - Atualize o endereço da chamada de emergência. Observe que este campo se aplica apenas a alguns países/regiões.
 
@@ -168,7 +175,7 @@ Por exemplo, você deseja colocar uma ordem de portabilidade e deseja que dois o
 
 #### <a name="description"></a>Descrição
 
-Descreva o que você está tentando obter e liste suas perguntas para o suporte do Serviço de Número de Telefone da Microsoft (TNS).
+Descreva o que você está tentando alcançar e liste suas perguntas para o serviço TNS (Serviço de Número de Telefone) da Microsoft.
 
 #### <a name="additional-supporting-documents"></a>Documentos de apoio adicionais
 
@@ -180,9 +187,9 @@ Você pode exibir suas ocorrências selecionando **Exibir minhas ocorrências ex
 
 - **Filtre suas ocorrências** selecionando **Ocorrências abertas**,  **Todas as ocorrências** ou **Ocorrências fechadas**.
 
-- **Comunique-se com o suporte de serviço TNS** em relação ao seu caso abrindo um caso existente, rolando para baixo e selecionando **Adicionar comentário**. Uma nova janela aparecerá. Digite sua mensagem na caixa de comentários. Anexe todos os documentos de suporte (se disponível) e selecione **Enviar**.
+- **Comunique-se com o service desk TNS** em relação ao seu caso abrindo um caso existente, rolando para baixo e selecionando **Adicionar comentário**. Uma nova janela aparecerá. Digite sua mensagem na caixa de comentários. Anexe todos os documentos de suporte (se disponível) e selecione **Enviar**.
 
-  As respostas do service **desk do TNS** serão exibidas na mesma linha do tempo. Quando houver uma atualização da sua ocorrência, você receberá uma notificação automática por email sobre a atualização.
+  As respostas do **service desk TNS** serão exibidas na mesma linha do tempo. Quando houver uma atualização da sua ocorrência, você receberá uma notificação automática por email sobre a atualização.
 
 - **Cancele uma ocorrência** navegando até uma ocorrência existente, rolando para baixo e selecionando **Cancelar ocorrência.** Selecione um motivo para o cancelamento na lista suspensa e selecione **Cancelar**.
 

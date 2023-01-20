@@ -3,7 +3,7 @@ title: licenciamento Microsoft Teams Premium
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: jogruszc
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: Saiba como aprimorar sua experiência do Microsoft Teams com a licença de complemento Microsoft Teams Premium
-ms.openlocfilehash: d9307bc9b26421f4930c4355f42c274b5aad12a3
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800060"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835564"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>licenciamento Microsoft Teams Premium
 
@@ -42,9 +42,11 @@ Este artigo é para administradores de TI que desejam entender Teams Premium lic
 - [Como Teams Premium se compara ao Teams?](#how-does-teams-premium-compare-to-teams)
 - [Há recursos atuais do Teams que serão movidos para Teams Premium?](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [Quais são os requisitos para comprar Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)
+- [Quais usuários devem ser atribuídos Teams Premium licenças?](#which-users-should-be-assigned-teams-premium-licenses)
 - [Como Teams Premium difere do Salas Teams Pro?](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [Posso experimentar Teams Premium antes de comprar licenças?](#can-i-experience-teams-premium-before-buying-licenses)
 - [Como fazer comprar licenças de Teams Premium?](#how-do-i-purchase-teams-premium-licenses)
+- [A configuração de administrador é necessária após atribuir licenças de usuários?](#is-admin-configuration-required-after-assigning-users-licenses)
 
 Para saber como configurar e configurar recursos Teams Premium, consulte [Microsoft Teams Premium - Visão geral para administradores](/microsoftteams/enhanced-teams-experience), que também incluirão links para a documentação do usuário final à medida que ele se torna disponível.
 
@@ -69,7 +71,9 @@ A tabela a seguir compara os principais recursos entre o Teams e Teams Premium.
 | Ler legendas traduzidas ao vivo durante as reuniões |  | X |
 | Traduzir transcrições pós-reunião (*em breve*) |  | X |
 | Ativar o armazenamento de dados em tempo real |  | X |
-| Ativar o eCDN para eventos ao vivo |  | X |
+| Ativar o eCDN para eventos ao vivo\* |  | X |
+
+\**O eCDN pode ser adquirido como uma licença autônoma e mais licenças podem ser adquiridas fora de Teams Premium, se necessário. Para saber mais sobre o licenciamento autônomo do eCDN, consulte [Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn).*
 
 ### <a name="webinars"></a>Seminários via Web
 
@@ -106,7 +110,7 @@ A tabela a seguir compara os principais recursos entre o Teams e Teams Premium.
 | Pacotes de política de usuário personalizados |  | X |
 | Ativar monitoramento e alertas avançados de reunião |  | X |
 
-\**Esse recurso só está disponível para Teams Premium usuários com uma assinatura Microsoft 365 E5. Para obter mais informações sobre os requisitos de licenciamento, consulte [Quais são os requisitos para comprar Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
+\**Esse recurso só está disponível para Teams Premium usuários com uma assinatura Microsoft 365 E5 ou assinatura do Microsoft E3 mais a licença de Conformidade Avançada. Para obter mais informações sobre os requisitos de licenciamento, consulte [Quais são os requisitos para comprar Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
 ### <a name="meetings-reporting"></a>Relatórios de reuniões
 
@@ -147,35 +151,51 @@ Com a versão geral do Teams Premium, alguns recursos do Teams passarão de lice
 Os recursos que estão sendo movidos para Teams Premium são:
 
 - Legendas traduzidas ao vivo.
+  - Disponível para todos os assinantes do Teams até 60 dias após Teams Premium disponibilidade geral.
 - Marcadores de linha do tempo em gravações de reunião do Teams para quando um usuário saiu ou ingressou em reuniões.
+  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
 - Organização personalizada Cenas do modo Juntos.
+  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
 - Compromissos virtuais: notificações por SMS.
+  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
 - Compromissos virtuais: análise organizacional no centro de administração do Teams.
+  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
 - Compromissos virtuais: exibição de fila agendada.
+  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
 
 ### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>Há um período de carência para mudar para o Team Premium antes que meus usuários percam a funcionalidade?
 
-Quando Teams Premium ficar geralmente disponível para compra, haverá um período de carência de 30 dias para os administradores comprarem Teams Premium.
+Quando Teams Premium ficar geralmente disponível para compra, haverá um período de carência de 60 dias para os administradores comprarem Teams Premium.
 
-Após o período de carência de 30 dias, os usuários perderão o acesso aos recursos disponíveis anteriormente no Teams sem o complemento Teams Premium, a menos que o administrador compre e atribua licenças Teams Premium para seus usuários.
+Após o período de carência de 60 dias, os usuários perderão o acesso aos recursos disponíveis anteriormente no Teams sem o complemento Teams Premium, a menos que o administrador compre e atribua licenças Teams Premium para seus usuários.
 
 Alguns locatários podem ter licenças de avaliação Teams Premium. Depois que as licenças de avaliação expirarem, os usuários perderão imediatamente Teams Premium recursos. Ativos associados a Teams Premium recursos como modelos personalizados e planos de fundo de reunião permanecerão no locatário, mas serão esmaecidos e inutilizáveis.
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>Quais são os requisitos para comprar Teams Premium?
 
-No lançamento, Teams Premium estarão disponíveis para compra em todo o mundo por meio de todos os canais de compra da Microsoft, incluindo EA, EAS, EES, CSP, Web Direct, NCE – liderada pelo cliente e NCE – liderada pelo parceiro.
+No lançamento, Teams Premium estará disponível para compra em todo o mundo por meio de todos os canais de compra da Microsoft, incluindo EA, EAS, CSP, Web Direct, NCE – led do cliente e NCE – parceiro liderado.
 
 Antes de comprar Teams Premium licenças para seus usuários, verifique se seu locatário e usuários atendem aos requisitos.
 
 O **requisito do locatário** é:
 
-- Deve ser um locatário comercial, público mundial, EDU, GCC ou sem fins lucrativos.
+- Deve ser um locatário comercial, público mundial, EDU ou sem fins lucrativos.
   - No lançamento geral, a Microsoft não oferecerá uma licença específica do EDU ou descontos EDU para Teams Premium.
-  - Os locatários GCC High e DoD não poderão comprar licenças de Teams Premium em versão geral.
+  - As licenças GCC, GCC High e DoD ficarão disponíveis algum tempo após a versão geral.
 
 O **requisito do usuário** é:
 
 - Uma assinatura do Office 365 ou do Microsoft 365 com o Teams.
+
+### <a name="can-i-acquire-teams-premium-features-without-the-teams-premium-license"></a>Posso adquirir Teams Premium recursos sem a licença de Teams Premium?
+
+Teams Premium empacota um grande conjunto de recursos do Teams em uma única licença. Há instâncias em que um único recurso de Teams Premium pode ser adquirido por meio de outros cenários de licenciamento. No entanto, a licença Teams Premium foi projetada para ser o caminho mais holístico e mais simples para aprimorar a experiência do Teams da sua organização e dos usuários.
+
+## <a name="which-users-should-be-assigned-teams-premium-licenses"></a>Quais usuários devem ser atribuídos Teams Premium licenças?
+
+Teams Premium é uma licença por usuário, por mês, em que qualquer usuário que se beneficie de Teams Premium funcionalidade precisa ter uma licença Teams Premium atribuída.
+
+Não há nenhum requisito de licença para Compromissos virtuais participantes externos.
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Como Teams Premium difere do Salas Teams Pro?
 
@@ -208,3 +228,26 @@ Se o locatário e os usuários atenderem aos requisitos de Teams Premium, você 
 Depois de comprar suas licenças de Teams Premium, você atribuirá as licenças aos usuários no [Centro de administração do Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=834822).
 
 Para obter instruções sobre como atribuir licenças no Centro de administração do Microsoft 365, consulte [Atribuir licenças do Microsoft 365 aos usuários](/microsoft-365/admin/manage/assign-licenses-to-users).
+
+## <a name="is-admin-configuration-required-after-assigning-users-licenses"></a>A configuração de administrador é necessária após atribuir licenças de usuários?
+
+Muitos recursos Teams Premium exigem um administrador de TI para configurar o recurso antes que os usuários possam acessar o recurso.
+
+A lista a seguir indica Teams Premium recursos que exigem configuração de administrador antes que os usuários possam acessar o recurso:
+
+- Usando criptografia de ponta a ponta em reuniões de até 50 participantes
+- Adicionando marcas d'água às reuniões
+- Adicionar rótulos de confidencialidade
+- Impedindo copiar e colar em chats de reunião
+- Usando planos de fundo personalizados da organização
+- Usando cenas personalizadas de modo juntos da organização
+- Sendo atribuído um pacote de política personalizado
+- Usando modelos de reunião personalizados da organização
+- Ver a identidade visual personalizada da organização
+- Usando o eCDN para eventos ao vivo
+- Usando RTMP-In
+- Enviar notificações por SMS para Compromissos virtuais
+- Acessando o aplicativo Compromissos virtuais Premium
+- Acessando dados Compromissos virtuais no centro de administração do Teams
+
+Para obter links para instruções, consulte [Microsoft Teams Premium – Visão geral para administradores](/microsoftteams/enhanced-teams-experience).

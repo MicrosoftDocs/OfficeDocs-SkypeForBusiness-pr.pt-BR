@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como obter números novos, de porta ou de transferência existentes para o Teams e como mostrar as alterações para seus usuários.
-ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: d92d48f95e620767148d3917a78d1e72c87f0645
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749057"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835484"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -78,6 +78,13 @@ Você deve ser um administrador de serviço do Teams para fazer essas alteraçõ
 
 - Se você precisar portar mais de 999 números de telefone, pode [enviar manualmente um pedido de porta](phone-number-calling-plans/manually-submit-port-order.md) ou ver [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization) baixar a LOA (Carta de Autorização) correta. Conclua e assine os documentos LOA e entre em contato com [o service desk do TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) para sua região.
 
+> [!NOTE]
+> Para obter mais informações sobre LOAs para portar/transferir números de telefone existentes e requisitos adicionais de documentação, consulte [Gerenciar números de telefone para Plano de Chamada](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+>
+>Para portar/transferir 999 ou menos números de telefone para seus usuários, carregue os LOAs concluídos e assinados no centro de administração do Microsoft Teams para processamento adicional. 
+>
+> Para portar/transferir mais de 999 números de telefone ou se você tiver problemas com o processo de portabilidade no centro de administração do Microsoft Teams, você poderá [enviar manualmente um pedido de porta](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) para o Service Desk do TNS para sua região.
+
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Exibir os números de telefone da sua organização
 
 **Usando o centro de administração do Microsoft Teams**
@@ -87,9 +94,6 @@ Na navegação à esquerda do centro de administração, acesse **números de Te
 ## <a name="assign-phone-numbers-to-users"></a>Atribuir números de telefone aos usuários
 
 Depois de obter seus números de telefone, você precisará atribuir um número a cada um de seus usuários. Para obter mais informações, consulte [Atribuir, alterar ou remover um número de telefone para um usuário](./assign-change-or-remove-a-phone-number-for-a-user.md).
-
-> [!NOTE]
-> Se você precisar obter mais números de telefone do que isso, [entre em contato com o Contato de Suporte para Produtos Empresariais – Administração Ajuda](/microsoft-365/admin/contact-support-for-business-products).
 
 Este vídeo mostra as etapas para atribuir um número de telefone a um usuário.
 
