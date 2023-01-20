@@ -19,12 +19,12 @@ description: Neste artigo, você aprenderá sobre os relatórios do Teams que es
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
-ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
+ms.openlocfilehash: 1062afeebfde89835330fbc4f367e0fccbe01513
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2023
-ms.locfileid: "69820316"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845918"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -66,6 +66,7 @@ Estamos melhorando continuamente a experiência de relatório do Teams e adicion
 |[Relatório de uso do Teams Compromissos virtuais](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Sim|Sim|Não|Não| Número de compromissos virtuais<br>Número de compromissos de Reservas<br>Número de compromissos integrados do Teams Electronic Health Records (EHR)<br>Duração média de um compromisso<br>Tempo médio de espera do lobby dos participantes<br>Hora de início<br>ID da reunião<br>Tempo de espera do lobby<br>Duração<br>Status<br>Tipo de produto<br>Participantes<br>Departamento<br>SMS enviado<br>Se o compromisso usou uma funcionalidade de Compromissos virtuais avançada|
 |[Relatório de atividades do Teams Advanced Compromissos virtuais](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Sim|Sim|Não|Não|Número de usuários usando recursos avançados de Compromissos virtuais<br>Número de usuários que usam notificações de texto SMS<br>Número de usuários que usam chat de lobby (em breve)<br>Número de usuários que realizam compromissos sob demanda|
 |[Relatório Compromissos virtuais do conector do Teams EHR](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Sim|Sim|Não|Não| Hora de início<br>Duração<br>Primário (nome do organizador da reunião)<br>Email da primária (email do organizador da reunião)<br>Departamento<br>Atendentes<br>Tempo de espera do lobby<br>Se o compromisso está dentro do limite de alocação|
+|[Relatório de desempenho e uso do Walkie Talkie](walkie-talkie-usage-report.md) |Sim|Sim|Não|Não| As métricas incluem o número de transmissões PTT (push-to-talk) feitas e recebidas, atividade do canal, duração da transmissão e detalhes do dispositivo e do participante.|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Tornar os dados específicos do usuário anônimos

@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.date: 11/17/2022
-ms.openlocfilehash: abb14f937064b394106e0cf2d58f756371a7c04e
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c4184e82e99fa4f3169fea14c62f3a892750bf8c
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131270"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845888"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo Walkie Talkie no Microsoft Teams
 
@@ -131,6 +131,10 @@ Os trabalhadores da linha de frente geralmente precisam falar e receber chamadas
 > Se os usuários estiverem usando acessórios Bluetooth, verifique se a solução MDM (gerenciamento de dispositivo móvel) não bloqueia dispositivos Bluetooth.
 
 Em dispositivos que executam o sistema operacional Android versão 12 ou posterior, as permissões Bluetooth são necessárias e as permissões de localização para se conectar usando a pilha BLE não são mais necessárias. Se "permissões próximas" não forem concedidas no nível do Teams, um usuário receberá um prompt para permissões Bluetooth. Esse prompt é exibido, se um acessório Bluetooth, como um headset, está conectado ou não ao dispositivo. Se um acessório Bluetooth estiver conectado, tocar em **Permitir** conectará o Walkie Talkie ao acessório Bluetooth.
+
+## <a name="get-insight-into-walkie-talkie-usage-and-performance"></a>Obter informações sobre o uso e o desempenho do Walkie Talkie
+
+O [relatório de desempenho e uso do Walkie Talkie](teams-analytics-and-reports/walkie-talkie-usage-report.md) no centro de administração do Teams fornece uma visão geral da atividade e desempenho do Walkie Talkie em sua organização. O relatório fornece informações como o número de transmissões PTT feitas e recebidas, atividade do canal, duração da transmissão e detalhes do dispositivo e do participante.
 
 ## <a name="more-information"></a>Mais informações
 

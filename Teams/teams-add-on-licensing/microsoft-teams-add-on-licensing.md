@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre as licenças de complemento da Microsoft para o Microsoft Teams e os recursos obtidos com cada licença.
-ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 490eb833c923ba1a247bb140222b449530131947
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69799917"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845878"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licenças de complemento do Microsoft Teams
 
@@ -59,12 +59,12 @@ Todos os planos do Microsoft 365 permitem que os usuários do Teams façam chama
 
 Se você é uma pequena empresa, organização empresarial, instituição educacional, agência governamental ou sem fins lucrativos, você tem três maneiras de obter o Sistema de Telefonia do Teams e a conectividade PSTN:
 
-- Compre um plano Microsoft 365 Business, E1/E3, A1/A3 ou G1/G3 e adicione **o Teams Phone com** licenças de pacote do Plano de Chamada.
+- Compre um plano do Teams Essentials com AAD, Microsoft 365 Business, E1/E3, A1/A3, F1/F3 ou G1/G3 e adicione **o Teams Phone com** licenças de pacote de Plano de Chamada.
   - Esse modelo fornecerá recursos PBX do Sistema de Telefonia do Teams e um Plano de Chamada Doméstica da Microsoft.
   - Escolha essa configuração se quiser que todo o gerenciamento de números de telefone e a cobrança sejam tratados pela Microsoft.
   - Verifique se a licença do [pacote Telefone do Teams com Plano de Chamada está disponível em sua região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Compre um plano E1/E3, A1/A3 ou G1/G3, adicione **Telefonia do Teams Padrão** licenças e escolha um plano de chamada autônomo da Microsoft ou uma operadora PSTN de terceiros.
+- Compre um plano do Teams Essentials com AAD, E1/E3, A1/A3, F1/F3 ou G1/G3, adicione **Telefonia do Teams Padrão** licenças e escolha um plano de chamada autônomo da Microsoft ou uma operadora PSTN de terceiros.
   - Esse modelo fornecerá o Sistema de Telefone do Teams, mas você ainda precisará se conectar ao PSTN.
   - Para exibir todas as opções de conectividade PSTN, consulte [opções de conectividade PSTN](../pstn-connectivity.md).
   - Para saber mais sobre todas as soluções de voz, consulte [Planejar sua solução de voz do Teams](../cloud-voice-landing-page.md).

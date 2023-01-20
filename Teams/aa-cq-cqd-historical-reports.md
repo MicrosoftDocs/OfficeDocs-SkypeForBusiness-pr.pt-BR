@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Saiba mais sobre como usar o relatório histórico do Power BI do Relatório Histórico de Fila de Chamadas & Do Teams atualizado para exibir dados históricos do Assistente Automático e da Fila de Chamadas.
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812728"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845908"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>Relatórios históricos do atendimento automático e da fila de chamadas
 
@@ -537,11 +537,9 @@ A API do VAAC pode ser acessada por qualquer aplicativo que possa acessar aplica
 
 ### <a name="preparation"></a>Preparação
 
-Baixe [Postman](https://www.postman.com/).
-
-Baixe o repositório: [sync_pstn_avs-analytics e descompacte-o](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) .
-
-Importe a pasta para o Postman. 
+1. Baixe [Postman](https://www.postman.com/).
+1. Descompacte o `sync_pstn_avs-analytics.zip` arquivo nas [instruções do arquivo zip baixado](#v3xx-installation).
+1. Importe a pasta para o Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Captura de tela mostrando a importação concluída":::
 
@@ -555,7 +553,6 @@ Importe a pasta para o Postman.
 6. Clique em **Salvar**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Captura de tela mostrando campos de nome de usuário, senha e ID do locatário configurados":::
-
 
 7. Selecione **Coleções** no menu do trilho esquerdo.
 8. Selecione **Config API Access Token – Prod** e navegue até a guia **Corpo** .
@@ -585,7 +582,6 @@ Depois de enviar sua entrada, haverá alguns resultados possíveis:
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Captura de tela mostrando o resultado da consulta com o campo dataResult":::
 
 Nesse caso, os dados estarão no campo "dataResult" na mesma ordem solicitada na dimensão da consulta e nos atributos de medidas.
-
 
 ### <a name="compress-the-json-query"></a>Compactar a consulta JSON
 
