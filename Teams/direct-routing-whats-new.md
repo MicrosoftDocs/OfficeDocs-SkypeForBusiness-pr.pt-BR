@@ -8,70 +8,74 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Este artigo descreve as novidades do Roteamento Direto. Verifique com frequência se há atualizações.
+description: Este artigo descreve as novidades no Roteamento Direto. Verifique com frequência se há atualizações.
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
-ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
+ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67854427"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948578"
 ---
-# <a name="whats-new-for-direct-routing"></a>Novidades do Roteamento Direto
+# <a name="whats-new-for-direct-routing"></a>Novidades para Roteamento Direto
 
-Este artigo descreve as novidades do Roteamento Direto. Verifique com frequência se há atualizações.
+Este artigo descreve as novidades no Roteamento Direto. Verifique com frequência se há atualizações.
 
-## <a name="trunk-demoting-logic-based-on-sip-options"></a>Lógica de rebaixamento de tronco com base em opções SIP
+## <a name="new-direct-routing-sip-endpoints"></a>Novos pontos de extremidade SIP de Roteamento Direto 
 
-Um novo recurso baseado em Opções SIP foi introduzido para a integridade do tronco. Quando habilitada na configuração do gateway (consulte Set-CsOnlinePSTNGateway cmdlet e parâmetro SendSipOptions), a lógica de roteamento para chamadas de saída rebaixa troncos que não enviam opções SIP periodicamente (o período esperado é uma Opção SIP enviada pelo SBC por minuto) para o back-end da Microsoft. Esses troncos rebaixados são colocados no final da lista de troncos disponíveis para a chamada de saída e são tentados como os últimos; assim, potencialmente diminuindo o tempo de configuração da chamada.
-Qualquer tronco habilitado para esse recurso que não envia pelo menos uma Opção SIP dentro de cinco minutos para qualquer um dos proxies SIP regionais da Microsoft (NOAM, EMEA, APAC, OCEA) é considerado rebaixado. Se um tronco enviar Opções SIP para apenas um subconjunto de Proxies SIP regionais da Microsoft, essas rotas serão tentadas primeiro e o restante será rebaixado.
+A Microsoft apresentará novos IPs de sinalização aos pontos de extremidade SIP de Roteamento Direto do Teams. Para garantir que essa alteração não afete sua disponibilidade de serviço, verifique se o Controlador de Borda de Sessão e o Firewall estão configurados para usar as sub-redes recomendadas 52.112.0.0.0/14 e 52.120.0.0/14 para regras de classificação e ACL. Para obter mais informações, confira [Ambientes de GCC do Microsoft 365, Office 365 e Office 365](direct-routing-plan.md#microsoft-365-office-365-and-office-365-gcc-environments).  
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>Lógica de rebaixamento de tronco com base em Opções SIP
+
+Um novo recurso baseado em Opções SIP é introduzido para a integridade do tronco. Quando habilitada na configuração do gateway (consulte Set-CsOnlinePSTNGateway parâmetro cmdlet e SendSipOptions), a lógica de roteamento para chamadas de saída rebaixa troncos que não enviam opções SIP periodicamente (o período esperado é uma opção SIP enviada pelo SBC por minuto) para o back-end da Microsoft. Esses troncos rebaixados são colocados no final da lista de troncos disponíveis para a chamada de saída e são testados como os últimos; assim, potencialmente, diminuindo o tempo de configuração da chamada.
+Qualquer tronco habilitado para esse recurso que não envia pelo menos uma opção SIP dentro de cinco minutos para qualquer um dos Proxies SIP regionais da Microsoft (NOAM, EMEA, APAC, OCEA) é considerado rebaixado. Se um tronco enviar opções SIP para apenas um subconjunto de Proxies SIP regionais da Microsoft, essas rotas serão testadas primeiro e as restantes serão rebaixadas.
 
 
-## <a name="sip-support"></a>Suporte sip
+## <a name="sip-support"></a>Suporte ao SIP
 
-Em 1º de junho de 2022, a Microsoft removerá o suporte para FQDNs de sip-all.pstnhub.microsoft.com e sip-all.pstnhub.gov.teams.microsoft.us da configuração de Roteamento Direto.
+Em 1º de junho de 2022, a Microsoft removerá o suporte para sip-all.pstnhub.microsoft.com e sip-all.pstnhub.gov.teams.microsoft.us FQDNs da configuração de Roteamento Direto.
 
-Se nenhuma ação for executada antes de 1º de junho, os usuários não poderão fazer ou receber chamadas por meio do Roteamento Direto.
+Se nenhuma ação for tomada antes de 1º de junho, os usuários não poderão fazer ou receber chamadas por meio do Roteamento Direto.
 
-Para evitar o impacto no serviço:
+Para evitar o impacto do serviço:
 
 - Use as sub-redes recomendadas: (52.112.0.0/14 e 52.120.0.0/14) para qualquer classificação ou regras de ACL.
 - Descontinue o uso do FQDN sip-all ao configurar controles de borda de sessão para roteamento direto.
 
-Para obter mais informações, consulte [Planejar o Roteamento Direto](direct-routing-plan.md).
+Para obter mais informações, consulte [Planejar Roteamento Direto](direct-routing-plan.md).
 
 ## <a name="tls-certificates"></a>Certificados TLS
 
-O Microsoft 365 está atualizando o Teams e outros serviços para usar um conjunto diferente de ACs (Autoridades de Certificação Raiz).
+O Microsoft 365 está atualizando o Teams e outros serviços para usar um conjunto diferente de CAs (Autoridades de Certificado Raiz).
 
-Para obter mais informações e uma lista completa dos serviços afetados, confira as alterações [de certificado TLS nos serviços do Microsoft 365, incluindo o Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676).
+Para obter mais informações e uma lista completa de serviços afetados, confira [Alterações de certificado TLS nos serviços do Microsoft 365, incluindo o Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676).
 
-## <a name="certificate-authorities"></a>Autoridades de certificação
+## <a name="certificate-authorities"></a>Autoridades de certificado
 
-A partir de 1º de fevereiro de 2022, a interface SIP de Roteamento Direto confiará apenas em certificados assinados por autoridades de certificação (CAs) que fazem parte do Programa de Certificado Raiz Confiável da Microsoft. Execute as seguintes etapas para evitar o impacto no serviço:
+A partir de 1º de fevereiro de 2022, a interface SIP de Roteamento Direto confiará apenas em certificados assinados por CAs (Autoridades de Certificado) que fazem parte do Programa de Certificado Raiz Confiável da Microsoft. Siga as seguintes etapas para evitar o impacto do serviço:
 
-- Verifique se o certificado SBC foi assinado por uma AC que faz parte do Programa de Certificado Raiz Confiável da Microsoft.
-- Verifique se a extensão EKU (Uso Estendido de Chave) do certificado inclui "Autenticação de Servidor".
+- Verifique se o certificado SBC é assinado por uma AC que faz parte do Programa de Certificado Raiz Confiável da Microsoft.
+- Verifique se a extensão EKU (Uso de Chave Estendida) do certificado inclui "Autenticação do Servidor".
 
 Para obter mais informações sobre o Programa de Certificado Raiz Confiável da Microsoft, consulte [Requisitos do Programa – Programa Raiz Confiável da Microsoft](/security/trusted-root/program-requirements).
 
-Para obter uma lista de AC confiável, consulte a [Lista de Certificados de Autoridade de Certificação incluída da Microsoft](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).
+Para obter uma lista de ac confiáveis, consulte [Lista de certificados de AC incluídos pela Microsoft](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).
 
 ## <a name="replace-headers"></a>Substituir cabeçalhos
 
-A partir de abril de 2022, o Roteamento Direto rejeitará solicitações SIP que têm cabeçalhos Replaces definidos. Não há alterações nos fluxos em que a Microsoft envia o cabeçalho Replaces para o controlador de borda de sessão (SBC).
+A partir de abril de 2022, o Roteamento Direto rejeitará as solicitações SIP que têm cabeçalhos Replaces definidos. Não há alterações nos fluxos em que a Microsoft envia o cabeçalho Substituções para o SBC (Controlador de Borda de Sessão).
 
-Verifique suas configurações de SBC e verifique se você não está usando cabeçalhos Replaces em solicitações SIP.
+Verifique as configurações do SBC e verifique se você não está usando cabeçalhos Substitui em solicitações SIP.
 
 ## <a name="tls10-and-11"></a>TLS1.0 e 1.1
 
-Para fornecer a melhor criptografia de classe para nossos clientes, a Microsoft planeja substituir as versões 1.0 e 1.1 do Protocolo TLS. Em 3 de abril de 2022, a Microsoft forçará o uso do TLS1.2 para a interface SIP de Roteamento Direto.
+Para fornecer a melhor criptografia da classe para nossos clientes, a Microsoft planeja preterir as versões TLS (Transport Layer Security) 1.0 e 1.1. Em 3 de abril de 2022, a Microsoft forçará o uso do TLS1.2 para a interface SIP de Roteamento Direto.
 
-Para evitar qualquer impacto no serviço, verifique se os SBCs estão configurados para dar suporte ao TLS1.2 e se podem se conectar usando um dos seguintes conjuntos de criptografia:
+Para evitar qualquer impacto no serviço, verifique se os SBCs estão configurados para dar suporte ao TLS1.2 e podem se conectar usando um dos seguintes pacotes de criptografia:
 
 - TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 ou seja, ECDHE-RSA-AES256-GCM-SHA384
 - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 ou seja, ECDHE-RSA-AES128-GCM-SHA256
@@ -80,4 +84,4 @@ Para evitar qualquer impacto no serviço, verifique se os SBCs estão configurad
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Roteamento direto – protocolo SIP](direct-routing-protocols-sip.md)
+- [Roteamento Direto – protocolo SIP](direct-routing-protocols-sip.md)

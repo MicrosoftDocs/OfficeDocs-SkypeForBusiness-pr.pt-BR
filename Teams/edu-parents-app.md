@@ -19,12 +19,12 @@ ms.custom:
 - admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 32ef76aeff228bc9386917cb2214965942b8be4e
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147478"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948568"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Configurar a conexão pai no Microsoft Teams para Educação
 
@@ -36,8 +36,8 @@ Este artigo fornece diretrizes para os profissionais de TI de educação sobre o
 
 Aqui estão alguns recursos que os administradores de TI podem compartilhar com guardiões e educadores sobre como eles podem começar a usar a Conexão Pai.
 
-- Para obter diretrizes sobre como configurar os guardiões, consulte [Conectar-se com educadores no Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
-- Para obter diretrizes sobre como configurar educadores, consulte [Comunicar-se com os responsáveis no Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- Para obter orientações sobre como configurar os guardiões, consulte [Comunicar-se com os responsáveis no Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- Para obter diretrizes sobre como configurar educadores, consulte [Conectar-se com educadores no Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
 ## <a name="benefits-of-parent-connection"></a>Benefícios da conexão pai
 

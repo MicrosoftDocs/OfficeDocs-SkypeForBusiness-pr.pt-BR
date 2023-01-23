@@ -17,13 +17,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
+- admindeeplinkTEAMS
+- admindeeplinkMAC
 description: Saiba como aprimorar sua experiência do Microsoft Teams com a licença de complemento Microsoft Teams Premium
-ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
-ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
+ms.openlocfilehash: 1d85c5d601dc74d7c308f05fa07bd99a2f274791
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2023
-ms.locfileid: "69835564"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948558"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>licenciamento Microsoft Teams Premium
 
@@ -146,30 +148,24 @@ A tabela a seguir compara os principais recursos entre o Teams e Teams Premium.
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>Há recursos atuais do Teams que serão movidos para Teams Premium?
 
-Com a versão geral do Teams Premium, alguns recursos do Teams passarão de licenças do Teams para licenças de Teams Premium. Para permitir que seus usuários continuem usando esses recursos, você precisará comprar e atribuir licenças Teams Premium.
+Com a versão geral do Teams Premium, alguns recursos do Teams passarão de licenças do Teams para licenças de Teams Premium. Cada um desses recursos tem um período de carência de 30 ou 60 dias após a disponibilidade geral. Quando o período de carência expirar, os usuários perderão o acesso a esse recurso.
+
+Para permitir que seus usuários continuem usando esses recursos, você precisará comprar e atribuir licenças Teams Premium.
 
 Os recursos que estão sendo movidos para Teams Premium são:
 
 - Legendas traduzidas ao vivo.
-  - Disponível para todos os assinantes do Teams até 60 dias após Teams Premium disponibilidade geral.
+  - Disponível para todos os assinantes do Teams por um período de carência de 60 dias após Teams Premium disponibilidade geral.
 - Marcadores de linha do tempo em gravações de reunião do Teams para quando um usuário saiu ou ingressou em reuniões.
-  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
+  - Disponível para todos os assinantes do Teams por um período de carência de 60 dias após Teams Premium disponibilidade geral.
 - Organização personalizada Cenas do modo Juntos.
-  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
+  - Disponível para todos os assinantes do Teams por um período de carência de 30 dias após Teams Premium disponibilidade geral.
 - Compromissos virtuais: notificações por SMS.
-  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
+  - Disponível para todos os assinantes do Teams por um período de carência de 30 dias após Teams Premium disponibilidade geral.
 - Compromissos virtuais: análise organizacional no centro de administração do Teams.
-  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
+  - Disponível para todos os assinantes do Teams por um período de carência de 30 dias após Teams Premium disponibilidade geral.
 - Compromissos virtuais: exibição de fila agendada.
-  - Disponível para todos os assinantes do Teams até 30 dias após Teams Premium disponibilidade geral.
-
-### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>Há um período de carência para mudar para o Team Premium antes que meus usuários percam a funcionalidade?
-
-Quando Teams Premium ficar geralmente disponível para compra, haverá um período de carência de 60 dias para os administradores comprarem Teams Premium.
-
-Após o período de carência de 60 dias, os usuários perderão o acesso aos recursos disponíveis anteriormente no Teams sem o complemento Teams Premium, a menos que o administrador compre e atribua licenças Teams Premium para seus usuários.
-
-Alguns locatários podem ter licenças de avaliação Teams Premium. Depois que as licenças de avaliação expirarem, os usuários perderão imediatamente Teams Premium recursos. Ativos associados a Teams Premium recursos como modelos personalizados e planos de fundo de reunião permanecerão no locatário, mas serão esmaecidos e inutilizáveis.
+  - Disponível para todos os assinantes do Teams por um período de carência de 30 dias após Teams Premium disponibilidade geral.
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>Quais são os requisitos para comprar Teams Premium?
 
@@ -233,21 +229,20 @@ Para obter instruções sobre como atribuir licenças no Centro de administraç�
 
 Muitos recursos Teams Premium exigem um administrador de TI para configurar o recurso antes que os usuários possam acessar o recurso.
 
-A lista a seguir indica Teams Premium recursos que exigem configuração de administrador antes que os usuários possam acessar o recurso:
+A lista a seguir indica Teams Premium recursos que exigem configuração de administrador no [centro de administração do Teams](https://go.microsoft.com/fwlink/p/?linkid=2066851) antes que os usuários possam acessar o recurso:
 
-- Usando criptografia de ponta a ponta em reuniões de até 50 participantes
-- Adicionando marcas d'água às reuniões
-- Adicionar rótulos de confidencialidade
-- Impedindo copiar e colar em chats de reunião
-- Usando planos de fundo personalizados da organização
-- Usando cenas personalizadas de modo juntos da organização
-- Sendo atribuído um pacote de política personalizado
-- Usando modelos de reunião personalizados da organização
-- Ver a identidade visual personalizada da organização
-- Usando o eCDN para eventos ao vivo
-- Usando RTMP-In
-- Enviar notificações por SMS para Compromissos virtuais
-- Acessando o aplicativo Compromissos virtuais Premium
-- Acessando dados Compromissos virtuais no centro de administração do Teams
+- Usando criptografia de ponta a ponta em reuniões de até 50 participantes.
+- Adicionando marcas d'água às reuniões.
+- Adicionando rótulos de confidencialidade.
+- Impedindo copiar e colar em chats de reunião.
+- Usando planos de fundo personalizados da organização.
+- Usando cenas de modo Juntos personalizadas da organização.
+  - Administração deve criar a cena personalizada do modo Juntos.
+- Sendo atribuído um pacote de política personalizado.
+- Usando modelos de reunião personalizados da organização.
+- Vendo a identidade visual personalizada da organização.
+- Usando o eCDN para eventos ao vivo.
+- Usando RTMP-In.
+- Personalizando salas de lobby de Compromisso Virtual com identidade visual.
 
 Para obter links para instruções, consulte [Microsoft Teams Premium – Visão geral para administradores](/microsoftteams/enhanced-teams-experience).
