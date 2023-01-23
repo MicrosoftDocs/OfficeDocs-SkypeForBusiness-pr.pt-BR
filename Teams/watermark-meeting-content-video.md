@@ -17,20 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como habilitar ou exigir marcas d'água no vídeo do participante e conteúdo compartilhado em reuniões confidenciais do Teams.
-ms.openlocfilehash: 199ba2d84ca4187a7d8e3c4f9a4d471bb9251598
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 6037bc6e9dbe79d9ecee10666f4c34e4e778216a
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800253"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950498"
 ---
 # <a name="require-a-watermark-for-sensitive-teams-meetings"></a>Exigir uma marca d'água para reuniões confidenciais do Teams
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Você pode permitir que uma marca d'água seja exibida em reuniões do Teams tanto para conteúdo compartilhado na tela quanto para vídeo do participante. A marca d'água exibe o endereço de email do participante da reunião. Os participantes da reunião não podem desativar a marca d'água. 
+Você pode permitir que uma marca d'água seja exibida em reuniões do Teams tanto para conteúdo compartilhado na tela quanto para vídeo do participante. A marca d'água exibe o endereço de email do participante da reunião. Os participantes da reunião não podem desativar a marca d'água.
 
-As marcas d'água têm suporte na área de trabalho do Teams, no Teams mobile, Salas do Microsoft Teams no Windows e Salas do Microsoft Teams no Surface Hub. (As marcas d'água não têm suporte no Salas do Microsoft Teams no Android.) Pessoas reuniões de junção de plataformas sem suporte, incluindo [o CVI (Cloud Video Interop),](cloud-video-interop.md) poderão ver conteúdo sem marcas d'água.
+Há suporte para marcas d'água na área de trabalho e no celular do Teams. Pessoas ingressar em reuniões de plataformas sem suporte terá uma experiência somente áudio.
+
+Os participantes que ingressarem no [Cloud Video Interop (CVI)](cloud-video-interop.md)poderão ver conteúdo sem marcas d'água.
 
 Os participantes a seguir têm uma experiência somente áudio quando uma marca d'água está em uso:
 
@@ -38,6 +40,10 @@ Os participantes a seguir têm uma experiência somente áudio quando uma marca 
 - participantes do Virtual Desktop Infrastructure (VDI)
 - Participantes anônimos
 - Participantes de estouro
+- Salas do Microsoft Teams no Windows e Salas do Microsoft Teams no Surface Hub
+- Salas do Microsoft Teams no Android
+- Clientes mais antigos do Teams
+- [Ingresso direto em dispositivos Salas do Microsoft Teams](/microsoftteams/rooms/third-party-join)
 
 > [!Note]
 > As configurações de reunião em rótulos de confidencialidade, modelos de reunião personalizados e marcas d'água exigem Teams Premium.

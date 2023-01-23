@@ -20,19 +20,19 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Saiba como gerenciar políticas de registro de webinar e de reunião no Teams.
-ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 097f4c385261ba1aea96990751d208b99d4d8b93
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438469"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950428"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Configurar webinars no Microsoft Teams
 
 > [!NOTE]
-> Este artigo descreve alguns recursos em webinars que estão em versão prévia e exigirão uma licença do Teams Premium.
+> Este artigo descreve alguns recursos em webinars que estão em versão prévia e exigirão uma licença Teams Premium.
 
-Microsoft agora oferece uma nova experiência webinar; este artigo descreve como atualizar suas configurações para usar esses recursos.
+A Microsoft agora oferece uma nova experiência de webinar; este artigo descreve como atualizar suas configurações para usar esses recursos.
 
 Recomendamos que você use a nova experiência webinar se planeja usar webinars.
 
@@ -54,6 +54,8 @@ A nova experiência webinar está configurada no PowerShell. Confira exemplos so
 Para obter mais informações sobre as diferenças entre reuniões, webinars e eventos ao vivo, confira [Reuniões, webinars e eventos ao vivo](quick-start-meetings-live-events.md).
 
 > [!NOTE]
+> Para usuários locais, a nova experiência de webinar ainda não está disponível.
+>
 > A nova experiência de webinar não está disponível para Microsoft 365 GCC, Microsoft 365 GCC High ou Microsoft 365 DoD. A experiência webinar existente não está disponível para Microsoft 365 GCC High ou Microsoft 365 DoD.
 
 > [!IMPORTANT]
@@ -74,7 +76,7 @@ Para configurar a nova experiência webinar, use os seguintes atributos no cmdle
 |AllowWebinars|Habilitado|Essa configuração determina se um usuário pode criar webinars.|
 |EventAccessType|Todos|Essa configuração determina quais usuários podem acessar a página de registro de eventos ou o site de eventos a serem registrados, bem como qual tipo de usuário pode ingressar nas sessões no evento.|
 
-Antes de executar esses cmdlets, você deve estar conectado ao Microsoft Teams PowerShell. Para obter mais informações, consulte [Gerenciar o Teams com Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
+Antes de executar esses cmdlets, você deve estar conectado ao Microsoft Teams PowerShell. Para obter mais informações, consulte [Gerenciar o Teams com o Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 1. Ative o registro da reunião.
 
@@ -113,7 +115,7 @@ Você pode usar o centro de administração do Teams em **Políticas de Reunião
 
 ### <a name="meeting-registration"></a>Registro de reunião
 
-Se você ativar **o registro de reunião**, os usuários da sua organização poderão agendar webinars e reuniões que exigem registro. Por padrão, isso está ativado. Se você quiser desativar o registro de reunião e os webinars, defina essa política como **Desativada**.
+Se você ativar **o registro de reunião**, os usuários da sua organização poderão agendar webinars e reuniões que exigem registro. Por padrão, essa configuração é ativada. Se você quiser desativar o registro de reunião e os webinars, defina essa política como **Desativada**.
 
 **O agendamento de reunião privada** deve estar ativado para que o registro da reunião funcione. Saiba mais sobre [agendamento de reuniões privadas](meeting-policies-in-teams-general.md).
 
@@ -134,7 +136,7 @@ O valor padrão para **Quem pode se registrar** é **Todos na organização** em
 
 Você pode usar o centro de administração do Teams em **Políticas de Reunião** de **Reuniões** >  para ativar o **relatório de engajamento**.
 
-Quando isso estiver ativado, os organizadores podem ver relatórios de quem registrou e participou dos webinars ou reuniões que eles configuraram. Essa política está ativada por padrão. Para obter mais informações, consulte [Políticas de reunião no Teams – Relatório de engajamento](meeting-policies-in-teams-general.md#engagement-report). Para obter informações sobre a experiência do usuário final, consulte [Exibir e baixar relatórios de presença da reunião](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
+Quando essa configuração está ativada, os organizadores podem ver relatórios de quem registrou e participou dos webinars ou reuniões que eles configuraram. Essa política está ativada por padrão. Para obter mais informações, consulte [Políticas de reunião no Teams – Relatório de engajamento](meeting-policies-in-teams-general.md#engagement-report). Para obter informações sobre a experiência do usuário final, consulte [Exibir e baixar relatórios de presença da reunião](https://support.microsoft.com/office/ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 No PowerShell, o parâmetro **AllowEngagementReport** pode ser usado para ativar isso. Essa política está ativada por padrão. Para desativá-lo, execute o seguinte comando no PowerShell:
 
