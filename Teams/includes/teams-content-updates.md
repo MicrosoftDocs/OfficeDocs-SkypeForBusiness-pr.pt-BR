@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-january-16-2023"></a>Semana de 16 de janeiro de 2023
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 1/18/2023 | [Análise e relatórios do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modificado |
+| 1/19/2023 | [Obter números de telefone para seus usuários](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modificado |
+| 1/19/2023 | [Entre em contato com a equipe dos Serviços de Números de Telefone](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modificado |
+| 1/19/2023 | [licenciamento Microsoft Teams Premium](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modificado |
+| 1/20/2023 | [Relatório de desempenho e uso do Walkie Talkie](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | adicionado |
+| 1/18/2023 | [Análise e relatórios do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | modificado |
+| 1/19/2023 | [Obter números de telefone para seus usuários](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modificado |
+| 1/19/2023 | [Entre em contato com a equipe dos Serviços de Números de Telefone](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | modificado |
+| 1/19/2023 | [licenciamento Microsoft Teams Premium](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modificado |
+| 1/20/2023 | [Relatório de desempenho e uso do Walkie Talkie](/MicrosoftTeams/teams-analytics-and-reports/walkie-talkie-usage-report) | adicionado |
+
+
 ## <a name="week-of-january-09-2023"></a>Semana de 09 de janeiro de 2023
 
 
@@ -66,25 +83,3 @@
 |------|------------|--------|
 | 12/19/2022 | [Gerenciar o acesso aos aplicativos do Teams no Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | modificado |
 | 12/21/2022 | [Modelo de reunião de compromisso virtual no Microsoft Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | adicionado |
-
-
-## <a name="week-of-december-12-2022"></a>Semana de 12 de dezembro de 2022
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 12/14/2022 | [Licenciamento de dispositivos compartilhados do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | adicionado |
-| 12/14/2022 | [Controlar quem pode ignorar o lobby da reunião no Microsoft Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | adicionado |
-| 12/14/2022 | [Definir a interface do usuário de dispositivos Android do Microsoft Teams](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modificado |
-| 12/14/2022 | [Dispositivos para o Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 12/14/2022 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
-| 12/14/2022 | [Microsoft Teams Premium – Visão geral dos administradores](/MicrosoftTeams/enhanced-teams-experience) | modificado |
-| 12/14/2022 | [Configurar os telefones de área comum para o Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modificado |
-| 12/14/2022 | [licenciamento Microsoft Teams Premium](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | modificado |
-| 12/15/2022 | [Perguntas comuns sobre a Audioconferência](/MicrosoftTeams/audio-conferencing-common-questions) | modificado |
-| 12/15/2022 | [Números de telefone e alterações de licenciamento](/MicrosoftTeams/phone-numbers-licensing-changes) | modificado |
-| 12/15/2022 | [Notas de versão para Salas do Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
-| 12/16/2022 | [Servidores proxy para Teams ou Skype for Business Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | modificado |
-| 12/16/2022 | [Implantar Salas do Microsoft Teams no Android](/MicrosoftTeams/devices/collab-bar-deploy) | modificado |
-| 12/16/2022 | [Atualizar dispositivos do Microsoft Teams remotamente](/MicrosoftTeams/devices/remote-update) | modificado |
-| 12/16/2022 | [Salas do Microsoft Teams na segurança do Windows](/MicrosoftTeams/rooms/security-windows) | modificado |
