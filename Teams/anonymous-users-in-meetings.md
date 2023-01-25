@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Para profissionais de TI – saiba como funciona a participação anônima de reunião no Microsoft Teams.
-ms.openlocfilehash: fe4dbec2bc606838bd5cafbaec5ef9d9ecdd8a88
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: a4f1833059febf2f8481cba9f1b3716519613e89
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948680"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983729"
 ---
 # <a name="manage-anonymous-participant-access-to-teams-meetings-it-admins"></a>Gerenciar o acesso anônimo de participantes às reuniões do Teams (administradores de TI)
 
@@ -34,9 +34,9 @@ A junção de reunião anônima é controlada por uma configuração de nível d
 - Os **usuários anônimos podem ingressar em uma** configuração de reunião do Teams (nível da organização) deve ser ativada.
 - O organizador da reunião deve receber uma política de reunião do Teams em **que as pessoas anônimas que ingressarem em um** controle de reunião estão ativadas.
 
-A junção anônima é ativada por padrão para a organização e na política de reunião global padrão.
+A junção de reunião anônima é ativada por padrão para a organização e na política de reunião global padrão. Recomendamos manter a configuração do nível da organização ativada e usar políticas de reunião para ativar ou desativar a junção de reunião anônima para usuários diferentes (organizadores da reunião).
 
-Observe que, se a junção anônima estiver habilitada, as políticas de lobby afetarão a forma como os participantes anônimos se juntam às reuniões. Para obter detalhes, confira [Controle que pode ignorar o lobby da reunião no Microsoft Teams](who-can-bypass-meeting-lobby.md).
+Observe que, se a junção anônima da reunião estiver habilitada, as políticas de lobby afetarão a forma como os participantes anônimos se juntam às reuniões. Para obter detalhes, confira [Controle que pode ignorar o lobby da reunião no Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
 #### <a name="meetings-with-trusted-organizations"></a>Reuniões com organizações confiáveis
 
@@ -81,15 +81,15 @@ As alterações nas políticas de reunião podem levar até 24 horas para entrar
 
 Você pode controlar se os participantes anônimos podem participar de reuniões usando:
 
-- O `-DisableAnonymousJoin` parâmetro em [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) para configurar a configuração do nível da organização. (Recomendamos deixar esse conjunto como False e usar Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting para controlar a junção anônima no nível de usuário ou grupo.)
+- O `-DisableAnonymousJoin` parâmetro em [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) para configurar a configuração do nível da organização. (Recomendamos deixar esse conjunto como False e usar Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting para controlar a junção anônima de reunião no nível do usuário ou grupo.)
 - O `-AllowAnonymousUsersToJoinMeeting` parâmetro em [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) para configurar uma política de reunião no nível do usuário
 
-Para permitir que participantes anônimos participem de reuniões, você deve configurar ambos para permitir a junção anônima definindo os seguintes valores:
+Para permitir que participantes anônimos participem de reuniões, você deve configurar ambos para permitir a junção de reunião anônima definindo os seguintes valores:
 
 - `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin` definido como **$false**
 - `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting` definido como **$true** para os organizadores da reunião relevantes
 
-## <a name="block-anonymous-join-for-specific-client-types"></a>Bloquear a junção anônima para tipos de cliente específicos
+## <a name="block-anonymous-meeting-join-for-specific-client-types"></a>Bloquear a junção de reunião anônima para tipos de cliente específicos
 
 Quando os participantes anônimos podem participar de reuniões, eles podem usar o cliente do Teams ou um cliente personalizado criado usando [Serviços de Comunicação do Azure](/azure/communication-services/). 
 

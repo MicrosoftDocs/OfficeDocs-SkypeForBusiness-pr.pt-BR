@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar o bypass de mídia com o Roteamento Direto do Sistema Telefônico, o que permite encurtar o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 638a39a843648ab8fab770c28d92b196201e20f5
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: ea92103789927d35ae8bdd317987f32863d4d74e
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680504"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981786"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -151,7 +151,7 @@ A tabela a seguir resume a diferença entre processadores de mídia e retransmis
 
 Os intervalos de IP são:
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254)
-- 52.120.0.0/14 (endereços IP de 52.120.0.1 a 52.123.255.254)
+- 52.122.0.0/15 (endereços IP de 52.122.0.1 a 52.123.255.254)
 
 \* Explicação de transcodificação: 
 
@@ -199,7 +199,7 @@ Você deve colocar esses três FQDNs para:
 
 As **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** e **sip3.pstnhub.microsoft.com** FQDNs serão resolvidas em endereços IP das seguintes sub-redes:
 - 52.112.0.0/14
-- 52.120.0.0/14
+- 52.122.0.0/15
 
 Você precisa abrir portas para todos esses intervalos de IP em seu firewall para permitir o tráfego de entrada e saída de e para os endereços para sinalização.
 
@@ -239,8 +239,8 @@ Você deve usar as seguintes portas:
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| SIP/TLS| SIP Proxy | Sbc | 1024 - 65535 | Definido no SBC |
-| SIP/TLS | Sbc | SIP Proxy | Definido no SBC | 5061 |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Definido no SBC |
+| SIP/TLS | SBC | SIP Proxy | Definido no SBC | 5061 |
 
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>Tráfego de mídia: intervalos de IP e porta
@@ -256,8 +256,8 @@ O cliente deve ter acesso às portas especificadas (consulte tabela) no endereç
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Cliente | Sbc | 50000-50019| Definido no SBC |
-| UDP/SRTP | Sbc | Cliente | Definido no SBC | 50000-50019  |
+| UDP/SRTP | Cliente | SBC | 50000-50019| Definido no SBC |
+| UDP/SRTP | SBC | Cliente | Definido no SBC | 50000-50019  |
 
 
 > [!NOTE]
@@ -285,8 +285,8 @@ O intervalo de portas dos Retransmissões de Transporte do Teams (aplicável a t
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Retransmissão de | Sbc | 50 000 -59 999    | Definido no SBC |
-| UDP/SRTP | Sbc | Retransmissão de | Definido no SBC | 50 000 – 59 999, 3478-3481     |
+| UDP/SRTP | Retransmissão de | SBC | 50 000 -59 999    | Definido no SBC |
+| UDP/SRTP | SBC | Retransmissão de | Definido no SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -323,8 +323,8 @@ O intervalo de portas dos Processadores de Mídia (aplicável a todos os ambient
 
 | Tráfego | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Processador de Mídia | Sbc | 3478-3481 e 49 152 – 53 247    | Definido no SBC |
-| UDP/SRTP | Sbc | Processador de Mídia | Definido no SBC | 3478-3481 e 49 152 – 53 247     |
+| UDP/SRTP | Processador de Mídia | SBC | 3478-3481 e 49 152 – 53 247    | Definido no SBC |
+| UDP/SRTP | SBC | Processador de Mídia | Definido no SBC | 3478-3481 e 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos separados para bypass de mídia e bypass sem mídia  
 
