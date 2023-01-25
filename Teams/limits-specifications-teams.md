@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ee791259b938345876e9761344616fac7d1d9e45
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307526"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990406"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -123,16 +123,14 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião (podem conversar e telefonar)  | 1000, inclui GCC, GCCH e DoD, mas não A1 (300). **Somente exibição** permite que até 20.000 participantes, somente ouvintes, participem de uma reunião na qual o organizador tenha uma licença para E3/E5/A3/A5 SKU, bem como, Governo (GCC, GCC High, DoD). Em breve, a experiência somente exibição também estará disponível para seminários. Saiba mais sobre a [Experiência somente exibição](view-only-meeting-experience.md).<sup>1,2</sup>|
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 1000, inclui GCC, GCCH e DoD, mas não A1 (300).|
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2 GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
 | Duração máxima da gravação da reunião | 4 horas ou 1,5 GB. Quando esse limite for atingido, a gravação terminará e será reiniciada automaticamente.
+
+Para obter mais informações, consulte [Reuniões, webinars e eventos ao vivo](/microsoftteams/quick-start-meetings-live-events).  
   
-<sup>1</sup> Para obter a melhor experiência em grandes reuniões, seminários via web e eventos ao vivo, a Microsoft recomenda o uso da versão mais recente do cliente de área de trabalho do Microsoft Teams ou clientes móveis do Microsoft Teams.
-
-<sup>2</sup> Apresentadores em grandes reuniões, seminários e eventos ao vivo devem usar o cliente de área de trabalho do Teams. Para mais dicas sobre como sediar grandes reuniões, veja[Melhores práticas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-
 > [!NOTE]
 > Salas para sessão de grupo só podem ser criadas em reuniões com menos de 300 participantes. Além disso, a criação de salas para sessão de grupo em uma reunião limita automaticamente o número de participantes a 300. Aconselhe seus usuários finais a não iniciarem salas para sessão de grupo em reuniões onde esperam mais de 300 participantes. Para obter mais informações sobre grandes reuniões no Teams, compartilhe a orientação [Práticas recomendadas para uma grande reunião no Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) com seus usuários finais.
 
@@ -152,15 +150,19 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 > [!NOTE]
 > As reuniões do Microsoft Teams têm um limite de tempo de 30 horas.
 
-## <a name="teams-live-events"></a>Eventos Ao vivo do Teams
+## <a name="live-events"></a>Eventos ao vivo
+  
+Eventos ao vivo são reuniões estruturadas que permitem que sua organização agende e produza eventos que são transmitidos para grandes audiências online—até 20.000 pessoas. Com eventos ao vivo, a interação do público é uma experiência gerenciada de P e R.
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Tamanho da audiência | 10.000 participantes |
+|Tamanho da audiência | Até 20.000 participantes <sup>1</sup> |
 |Duração do evento | 4 horas |
-|Eventos simultâneos Ao vivo em execução em uma organização Microsoft 365 ou Office 365 <sup>1</sup> | 15 |
+|Eventos ao vivo simultâneos em execução em uma organização do Microsoft 365 ou Office 365 <sup>2</sup> | 15 |
 
-<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
+<sup>1</sup> Os 10.000 usuais são aumentados para 20.000 até 30 de junho de 2023. Você pode agendar números ainda maiores com eventos ao vivo no Yammer e/ou Microsoft Stream. Para obter mais informações, consulte [Eventos ao vivo no Microsoft 365](/stream/live-event-m365). Observe que eventos com mais de 20.000 participantes exigem o [Programa de Assistência a Eventos ao Vivo](/stream/live-events-assistance).  
+  
+<sup>2</sup> Você pode agendar quantos eventos ao vivo desejar, mas só pode executar 15 por vez. Assim que o produtor entra em um evento ao vivo, ele será considerado em andamento. O produtor que tentar se entrar no décimo-sexto evento ao vivo receberá uma mensagem de erro.
 
 Para obter mais informações sobre eventos ao vivo, acesse [eventos ao vivo do Teams](teams-live-events/plan-for-teams-live-events.md#teams-live-events). Confira também [Agendar um evento ao vivo do Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 

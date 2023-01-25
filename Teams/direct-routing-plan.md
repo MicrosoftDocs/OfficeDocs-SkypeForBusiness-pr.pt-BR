@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o Roteamento Direto da Microsoft permite conectar um SBC (Controlador de Borda de Sessão) fornecido pelo cliente com suporte ao Sistema de Telefonia.
-ms.openlocfilehash: ba0db105d94fef7c81d79929c5cc7f9371f0fc6c
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948508"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983689"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -189,6 +189,11 @@ Saiba mais: [Requisitos do programa – Programa Raiz Confiável da Microsoft](/
 
 > [!NOTE]
 > Se o suporte ao MTLS (Mutual TLS) estiver habilitado para a conexão do Teams no SBC, você deverá instalar o Baltimore CyberTrust Root e os certificados DigiCert Global Root G2 no Repositório Raiz Confiável do SBC do contexto TLS do Teams. (Isso ocorre porque os certificados de serviço da Microsoft usam um desses dois certificados raiz.) Para baixar esses certificados raiz, consulte [Office 365 Cadeias de criptografia](/microsoft-365/compliance/encryption-office-365-certificate-chains). Para obter mais detalhes, confira [Alterações de certificado do Office TLS](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+  
+Para verificar se a conexão MTLS é originária da infraestrutura do Teams, o SBC deve ser configurado para implementar as seguintes verificações no certificado do lado do servidor do Teams:
+- Verifique se a cadeia de emissão de certificados se origina de um dos seguintes CAs raiz -- [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- Verifique se o certificado "Nome alternativo do assunto" inclui "sip.pstnhub.microsoft.com"
 
 ## <a name="sip-signaling-fqdns"></a>Sinalização SIP: FQDNs
 
@@ -284,7 +289,7 @@ O tráfego de mídia flui de e para um serviço separado na Nuvem da Microsoft. 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes de GCC do Microsoft 365, Office 365 e Office 365
 
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254).
-- 52.120.0.0/14 (endereços IP de 52.120.0.1 a 52.123.255.254).
+- 52.122.0.0/15 (endereços IP de 52.122.0.1 a 52.123.255.254).
 
 ### <a name="office-365-dod-environment"></a>ambiente do DoD Office 365
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 0c2ca0a88f17f3493bfbbcff727321c45a04fdea
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392091"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990376"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Experiência de reunião somente para visualização de Teams
 
@@ -29,10 +29,10 @@ ms.locfileid: "69392091"
 > As transmissões somente para visualização estão disponíveis no Microsoft 365 E3/E5 e Microsoft 365 A3/A5. Este recurso será habilitado em 1º de março de 2021 como DESLIGADO padrão. O recurso no Microsoft 365 Government Community Cloud (GCC) começará a ser implementado no final de março de 2021. Government Community Cloud High (GCCH) e Department of Defense (DoD) serão implementados posteriormente. Você deve alterar a política padrão após essa data se quiser que o recurso seja ativado por padrão. Use o Windows PowerShell para habilitar a política `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> Se sua reunião atingir a capacidade máxima, o Teams será perfeitamente escalonado para acomodar uma experiência de transmissão somente exibição para 10.000 pessoas. Além disso, durante este período de maior trabalho remoto, aproveite as transmissões ainda maiores para 20.000 pessoas até o final deste ano. Atualmente, os webinars não suportam uma experiência de transmissão somente exibição.
+> Se sua reunião atingir a capacidade máxima, o Teams será perfeitamente escalonado para acomodar uma experiência de transmissão somente exibição para 10.000 pessoas. Além disso, durante esse tempo de maior trabalho remoto, aproveite as transmissões ainda maiores de 20.000 pessoas até 30 de junho de 2023. Atualmente, os webinars não suportam uma experiência de transmissão somente exibição.
 
 > [!Note]
-> Uma Reunião do Teams não é um TLE (Evento Ao Vivo do Teams) e não aproveitará Microsoft eCDN. Para obter mais informações, consulte [Microsoft lista de verificação de integração do eCDN](/ecdn/integration/onboarding-checklist-for-tle-customers).
+> Uma Reunião do Teams não é um TLE (Evento Ao Vivo do Teams) e não aproveitará o Microsoft eCDN. Para obter mais informações, confira [Lista de verificação de integração do Microsoft eCDN](/ecdn/integration/onboarding-checklist-for-tle-customers).
 
 O Microsoft Teams permite que até 10.000 participantes participem de uma reunião do Teams. Depois que a capacidade da reunião principal for atingida (ou seja, quando 1.000 usuários entrarem em uma reunião), os participantes adicionais ingressarão com uma experiência somente exibição.
 

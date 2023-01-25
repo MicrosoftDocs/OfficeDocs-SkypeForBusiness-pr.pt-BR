@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Saiba mais sobre os requisitos para dar suporte a Salas do Microsoft Teams, incluindo escolher o dispositivo, microfones, alto-falantes, câmeras e displays apropriados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62e1ca6b2254047a14a11cf4c4c9ffb10477a0e3
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: c5b1c9adda541926b48a943f796380fa8730a4a5
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194922"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990396"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos das Salas Microsoft Teams
 
@@ -38,7 +38,7 @@ Consulte:
 > [!NOTE]
 > Salas do Microsoft Teams entrar no Microsoft Teams, Skype for Business Server 2019 ou Skype for Business Server 2015 e pode ingressar em reuniões hospedadas por qualquer um desses serviços.
 >
-> As plataformas anteriores, como o Lync Server 2013, não são compatíveis com as Salas do Microsoft Teams. Salas do Microsoft Teams não há suporte em Microsoft 365 ou Office 365 operados por ambientes 21Vianet ou DoD.
+> As plataformas anteriores, como o Lync Server 2013, não são compatíveis com as Salas do Microsoft Teams. Salas do Microsoft Teams não há suporte no Microsoft 365 ou Office 365 operado por ambientes 21Vianet ou DoD.
 >
 > Se você tiver um Exchange Server local, as salas do Microsoft Teams exigirá o uso do Exchange Server 2013 SP1 ou posterior.
 
@@ -97,6 +97,7 @@ Todos os dispositivos e pacotes de Salas do Microsoft Teams atuais estão dispon
   |[Poly G85-T Kit com Poly Eagle Eye Director II, com Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |Console do Poly GC8 com o Lenovo Thinksmart Core|Core i5|8 GB|128 GB|
   |Console poly GC8 com o Dell Optiplex 7080|Core i5|8 GB|128 GB|
+  |[Console do Poly GC8 com computação HP 800 G9 -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows)|Core i5|8 GB|128 GB|
   |[Yealink MVC300 com Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 com Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 com Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
