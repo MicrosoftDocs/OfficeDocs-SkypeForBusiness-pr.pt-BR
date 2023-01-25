@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 87befd2ff63fc5e3f0aa9e1c715972e5061b8fc7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948578"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981866"
 ---
 # <a name="whats-new-for-direct-routing"></a>Novidades para Roteamento Direto
 
@@ -43,7 +43,7 @@ Se nenhuma ação for tomada antes de 1º de junho, os usuários não poderão f
 
 Para evitar o impacto do serviço:
 
-- Use as sub-redes recomendadas: (52.112.0.0/14 e 52.120.0.0/14) para qualquer classificação ou regras de ACL.
+- Use as sub-redes recomendadas: (52.112.0.0/14 e 52.122.0.0/15) para qualquer classificação ou regras de ACL.
 - Descontinue o uso do FQDN sip-all ao configurar controles de borda de sessão para roteamento direto.
 
 Para obter mais informações, consulte [Planejar Roteamento Direto](direct-routing-plan.md).
